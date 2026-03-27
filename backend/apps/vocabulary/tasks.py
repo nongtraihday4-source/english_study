@@ -1,203 +1,186 @@
 """
-Celery Tasks for Flashcard Audio Generation
+apps/vocabulary/tasks.py
+─────────────────────────────────────────────────────────────────────────────
+Celery tasks for the Vocabulary / Flashcard module.
 
-Background tasks for TTS audio generation:
-- Async audio generation for individual words
-- Batch audio generation for decks
-- Cache cleanup
-- Audio regeneration
-
-Usage:
-    from apps.vocabulary.tasks import generate_flashcard_audio_async
-    
-    # Queue audio generation
-    generate_flashcard_audio_async.delay(
-        word="hello",
-        voice="us_male",
-        speed="normal"
-    )
+Scheduled task:
+  check_due_cards_and_notify  — runs every hour (top of hour).
+  For each user, fires only when the current ICT hour matches their
+  preferred `flashcard_notify_hour` setting (default: 8 = 08:00 ICT).
+  Deduplication: skips users already notified today.
+─────────────────────────────────────────────────────────────────────────────
 """
-
 import logging
+
 from celery import shared_task
-from django.core.cache import cache
-from services.tts_flashcard_service import get_tts_service
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("es.vocabulary")
 
 
-@shared_task(bind=True, max_retries=3)
-def generate_flashcard_audio_async(self, word: str, voice: str = 'us_male', speed: str = 'normal'):
+@shared_task(
+    bind=True,
+    name="vocabulary.check_due_cards_and_notify",
+    max_retries=3,
+    default_retry_delay=300,
+)
+def check_due_cards_and_notify(self):
     """
-    Generate audio for a flashcard word asynchronously.
-    
-    Args:
-        word: The word to generate audio for
-        voice: Voice identifier (us_male, us_female, uk_male, uk_female)
-        speed: Speed identifier (slow, normal, fast)
-        
-    Returns:
-        Audio URL or None
+    PRD 5.8 — Smart Notification: personalised daily flashcard due reminder.
+
+    Runs every hour. For each user, checks if the current ICT hour matches
+    their `flashcard_notify_hour` setting before sending a notification.
+    Idempotent: only one notification per user per calendar day.
+
+    Returns a summary string for Celery result inspection.
     """
     try:
-        logger.info(f"[Celery] Generating audio for '{word}' (voice={voice}, speed={speed})")
-        
-        tts_service = get_tts_service()
-        audio_url = tts_service.generate_audio(word, voice, speed)
-        
-        if audio_url:
-            logger.info(f"[Celery] Successfully generated audio: {audio_url}")
-            return audio_url
-        else:
-            logger.error(f"[Celery] Failed to generate audio for '{word}'")
-            return None
-            
-    except Exception as e:
-        logger.error(f"[Celery] Error generating audio for '{word}': {e}")
-        # Retry with exponential backoff
-        raise self.retry(exc=e, countdown=60 * (2 ** self.request.retries))
+        from django.db.models import Count
+        from django.utils import timezone
 
+        from apps.notifications.models import Notification
+        from apps.users.models import UserSettings
 
-@shared_task
-def generate_deck_audio_batch(deck_id: int, voice: str = 'us_male', speed: str = 'normal'):
-    """
-    Generate audio for all flashcards in a deck.
-    
-    Args:
-        deck_id: FlashcardDeck ID
-        voice: Voice identifier
-        speed: Speed identifier
-        
-    Returns:
-        Dictionary with generation statistics
-    """
-    from apps.vocabulary.models import FlashcardDeck, Flashcard
-    
-    try:
-        deck = FlashcardDeck.objects.get(id=deck_id)
-        flashcards = Flashcard.objects.filter(deck=deck).select_related('word')
-        
-        logger.info(f"[Celery] Starting batch audio generation for deck '{deck.name}' ({flashcards.count()} cards)")
-        
-        tts_service = get_tts_service()
-        success_count = 0
-        failed_count = 0
-        skipped_count = 0
-        
-        for flashcard in flashcards:
-            word = flashcard.word.text
-            
-            # Check if audio already exists
-            existing_url = tts_service.get_audio_url(word, voice, speed)
-            if existing_url:
-                skipped_count += 1
+        from .models import UserFlashcardProgress
+
+        now_ict = timezone.localtime(timezone.now())  # CELERY_TIMEZONE = Asia/Ho_Chi_Minh → already ICT
+        current_hour = now_ict.hour
+        today = now_ict.date()
+
+        # Only process users whose preferred notify hour matches NOW
+        matching_user_ids = list(
+            UserSettings.objects
+            .filter(notify_flashcard_due=True, flashcard_notify_hour=current_hour)
+            .values_list("user_id", flat=True)
+        )
+
+        if not matching_user_ids:
+            return f"Hour {current_hour}:00 ICT — no users scheduled for this hour."
+
+        due_rows = (
+            UserFlashcardProgress.objects
+            .filter(next_review_date__lte=today, is_mastered=False, user_id__in=matching_user_ids)
+            .values("user_id")
+            .annotate(due_count=Count("id"))
+        )
+
+        created = 0
+        skipped = 0
+
+        for row in due_rows:
+            user_id = row["user_id"]
+            due_count = row["due_count"]
+
+            # Idempotency — skip if already notified today
+            already_sent = Notification.objects.filter(
+                user_id=user_id,
+                notification_type="flashcard_due",
+                created_at__date=today,
+            ).exists()
+
+            if already_sent:
+                skipped += 1
                 continue
-            
-            # Generate audio
-            audio_url = tts_service.generate_audio(word, voice, speed)
-            
-            if audio_url:
-                success_count += 1
-            else:
-                failed_count += 1
-        
-        result = {
-            'deck_id': deck_id,
-            'deck_name': deck.name,
-            'total_cards': flashcards.count(),
-            'success': success_count,
-            'failed': failed_count,
-            'skipped': skipped_count,
-        }
-        
-        logger.info(f"[Celery] Batch generation complete: {result}")
-        return result
-        
-    except FlashcardDeck.DoesNotExist:
-        logger.error(f"[Celery] Deck {deck_id} not found")
-        return {'error': 'Deck not found'}
-    except Exception as e:
-        logger.error(f"[Celery] Error in batch generation: {e}")
-        return {'error': str(e)}
+
+            Notification.objects.create(
+                user_id=user_id,
+                notification_type="flashcard_due",
+                title=f"Bạn có {due_count} thẻ cần ôn hôm nay!",
+                message=(
+                    f"Đừng để mất streak! Hãy ôn {due_count} flashcard "
+                    "để củng cố từ vựng của bạn."
+                ),
+                action_url="/flashcards",
+                reference_type="flashcard_due_reminder",
+            )
+            created += 1
+
+        summary = (
+            f"Hour {current_hour}:00 ICT — {created} notifications created, "
+            f"{skipped} skipped (already sent today)."
+        )
+        logger.info(summary)
+        return summary
+
+    except Exception as exc:
+        logger.exception("check_due_cards_and_notify failed: %s", exc)
+        raise self.retry(exc=exc)
 
 
-@shared_task
-def clean_expired_flashcard_audio():
+
+@shared_task(
+    bind=True,
+    name="vocabulary.check_due_cards_and_notify",
+    max_retries=3,
+    default_retry_delay=300,
+)
+def check_due_cards_and_notify(self):
     """
-    Clean up audio files that haven't been accessed in 30+ days.
-    
-    This task runs daily via Celery Beat to manage storage space.
-    
-    Returns:
-        Dictionary with cleanup statistics
-    """
-    from datetime import datetime, timedelta
-    from pathlib import Path
-    from django.conf import settings
-    
-    try:
-        audio_dir = Path(settings.MEDIA_ROOT) / 'flashcard_audio'
-        
-        if not audio_dir.exists():
-            logger.info("[Celery] Audio directory doesn't exist, nothing to clean")
-            return {'deleted': 0, 'kept': 0}
-        
-        cutoff_date = datetime.now() - timedelta(days=30)
-        deleted_count = 0
-        kept_count = 0
-        
-        for audio_file in audio_dir.glob('*.mp3'):
-            # Check last access time
-            last_access = datetime.fromtimestamp(audio_file.stat().st_atime)
-            
-            if last_access < cutoff_date:
-                # Delete old file
-                audio_file.unlink()
-                deleted_count += 1
-                logger.debug(f"[Celery] Deleted old audio: {audio_file.name}")
-            else:
-                kept_count += 1
-        
-        result = {
-            'deleted': deleted_count,
-            'kept': kept_count,
-            'cutoff_date': cutoff_date.isoformat(),
-        }
-        
-        logger.info(f"[Celery] Audio cleanup complete: {result}")
-        return result
-        
-    except Exception as e:
-        logger.error(f"[Celery] Error in audio cleanup: {e}")
-        return {'error': str(e)}
+    PRD 5.8 — Smart Notification: daily flashcard due reminder.
 
+    Algorithm:
+      1. Group UserFlashcardProgress by user where next_review_date <= today
+         and card is not yet mastered.
+      2. For each user, skip if a 'flashcard_due' notification was already
+         sent today (idempotent).
+      3. Otherwise create a Notification record.
 
-@shared_task
-def regenerate_flashcard_audio(word: str, voice: str = 'us_male', speed: str = 'normal'):
-    """
-    Force regeneration of audio for a word (replaces existing).
-    
-    Args:
-        word: The word to regenerate
-        voice: Voice identifier
-        speed: Speed identifier
-        
-    Returns:
-        New audio URL or None
+    Returns a summary string for Celery result inspection.
     """
     try:
-        logger.info(f"[Celery] Regenerating audio for '{word}'")
-        
-        tts_service = get_tts_service()
-        audio_url = tts_service.generate_audio(word, voice, speed, force_regenerate=True)
-        
-        if audio_url:
-            logger.info(f"[Celery] Successfully regenerated audio: {audio_url}")
-            return audio_url
-        else:
-            logger.error(f"[Celery] Failed to regenerate audio for '{word}'")
-            return None
-            
-    except Exception as e:
-        logger.error(f"[Celery] Error regenerating audio: {e}")
-        return None
+        from django.db.models import Count
+        from django.utils import timezone
+
+        from apps.notifications.models import Notification
+
+        from .models import UserFlashcardProgress
+
+        today = timezone.localdate()
+
+        due_rows = (
+            UserFlashcardProgress.objects
+            .filter(next_review_date__lte=today, is_mastered=False)
+            .values("user_id")
+            .annotate(due_count=Count("id"))
+        )
+
+        created = 0
+        skipped = 0
+
+        for row in due_rows:
+            user_id = row["user_id"]
+            due_count = row["due_count"]
+
+            # Idempotency — skip if already notified today
+            already_sent = Notification.objects.filter(
+                user_id=user_id,
+                notification_type="flashcard_due",
+                created_at__date=today,
+            ).exists()
+
+            if already_sent:
+                skipped += 1
+                continue
+
+            Notification.objects.create(
+                user_id=user_id,
+                notification_type="flashcard_due",
+                title=f"Bạn có {due_count} thẻ cần ôn hôm nay!",
+                message=(
+                    f"Đừng để mất streak! Hãy ôn {due_count} flashcard "
+                    "để củng cố từ vựng của bạn."
+                ),
+                action_url="/flashcards",
+                reference_type="flashcard_due_reminder",
+            )
+            created += 1
+
+        summary = (
+            f"Flashcard due-reminder: {created} notifications created, "
+            f"{skipped} skipped (already sent today)."
+        )
+        logger.info(summary)
+        return summary
+
+    except Exception as exc:
+        logger.exception("check_due_cards_and_notify failed: %s", exc)
+        raise self.retry(exc=exc)

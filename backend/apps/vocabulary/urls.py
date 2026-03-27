@@ -1,37 +1,36 @@
-"""
-Vocabulary API URLs
-"""
+"""apps/vocabulary/urls.py"""
+from django.urls import path
 
-from django.urls import path, include
-from rest_framework.routers import DefaultRouter
-from .api import vocabulary_api
-from .views_flashcard import (
-    FlashcardStudyViewSet, FlashcardDeckViewSet, ProgressDashboardViewSet
+from .views import (
+    DeckStudyHistoryView,
+    DeckWordBrowserView,
+    FlashcardAddWordView,
+    FlashcardDeckListView,
+    FlashcardQuizView,
+    FlashcardRemoveWordView,
+    FlashcardStudyView,
+    MultiDeckQuizView,
+    SM2UpdateView,
+    StudySessionCompleteView,
+    ToggleMasteredView,
+    WordDetailView,
+    WordFlashcardStatusView,
+    WordListView,
 )
-from .views_audio import FlashcardAudioViewSet, get_flashcard_audio
-
-app_name = 'vocabulary'
-
-router = DefaultRouter()
-
-# Original vocabulary API (if exists)
-router.register(r'words', vocabulary_api.WordViewSet, basename='word')
-router.register(r'decks', vocabulary_api.FlashcardDeckViewSet, basename='deck')
-router.register(r'progress', vocabulary_api.FlashcardProgressViewSet, basename='progress')
-router.register(r'sessions', vocabulary_api.StudySessionViewSet, basename='session')
-
-# NEW: Flashcard Study API
-router.register(r'flashcards/study', FlashcardStudyViewSet, basename='flashcard-study')
-router.register(r'flashcards/decks', FlashcardDeckViewSet, basename='flashcard-deck')
-router.register(r'flashcards/progress', ProgressDashboardViewSet, basename='flashcard-progress')
-
-# NEW: Audio API
-router.register(r'audio', FlashcardAudioViewSet, basename='flashcard-audio')
 
 urlpatterns = [
-    path('', include(router.urls)),
-    # Flashcard-specific audio endpoint
-    path('flashcards/<int:flashcard_id>/audio/', get_flashcard_audio, name='flashcard-audio-detail'),
-    # Flashcard tagging endpoint (custom action outside ViewSet)
-    path('flashcards/<int:pk>/tag-card/', FlashcardDeckViewSet.as_view({'post': 'tag_card'}), name='flashcard-tag'),
+    path("words/", WordListView.as_view(), name="word-list"),
+    path("words/<int:pk>/", WordDetailView.as_view(), name="word-detail"),
+    path("words/<int:pk>/flashcard-status/", WordFlashcardStatusView.as_view(), name="word-flashcard-status"),
+    path("flashcard-decks/", FlashcardDeckListView.as_view(), name="flashcard-deck-list"),
+    path("flashcard-decks/<int:pk>/study/", FlashcardStudyView.as_view(), name="flashcard-study"),
+    path("flashcard-decks/<int:pk>/words/", DeckWordBrowserView.as_view(), name="flashcard-deck-words"),
+    path("flashcard-decks/<int:pk>/words/toggle-mastered/", ToggleMasteredView.as_view(), name="flashcard-toggle-mastered"),
+    path("flashcard-decks/<int:pk>/session-complete/", StudySessionCompleteView.as_view(), name="flashcard-session-complete"),
+    path("flashcard-decks/<int:pk>/history/", DeckStudyHistoryView.as_view(), name="flashcard-deck-history"),
+    path("flashcard-decks/<int:pk>/quiz/", FlashcardQuizView.as_view(), name="flashcard-deck-quiz"),
+    path("flashcards/add-word/", FlashcardAddWordView.as_view(), name="flashcard-add-word"),
+    path("flashcards/remove-word/", FlashcardRemoveWordView.as_view(), name="flashcard-remove-word"),
+    path("flashcards/sm2/", SM2UpdateView.as_view(), name="flashcard-sm2"),
+    path("quiz/generate/", MultiDeckQuizView.as_view(), name="flashcard-quiz-generate"),
 ]

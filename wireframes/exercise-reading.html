@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luyện đọc – English Study</title>
+  <style>
+    :root {
+      --bg:#F5F4F0;--bg2:#ECEAE4;--card:rgba(255,255,255,0.72);
+      --card-border:rgba(255,255,255,0.9);--nav-bg:linear-gradient(135deg,#5B6EFF 0%,#7B3FE4 100%);
+      --accent:#5B6EFF;--purple:#7B3FE4;--success:#22C97C;--streak:#FF6B35;--danger:#E84646;
+      --txt:#1A1A2E;--txt2:#5A5A78;--shadow:0 4px 24px rgba(0,0,0,0.08);
+      --shadow-md:0 8px 32px rgba(0,0,0,0.12);--r:16px;--r-sm:10px;
+    }
+    [data-theme="dark"]{
+      --bg:#0F0F1A;--bg2:#161625;--card:rgba(255,255,255,0.05);
+      --card-border:rgba(255,255,255,0.10);--txt:#EEEEFF;--txt2:#8888AA;
+      --shadow:0 4px 24px rgba(0,0,0,0.4);--shadow-md:0 8px 32px rgba(0,0,0,0.55);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);transition:background .3s,color .3s;height:100vh;display:flex;flex-direction:column;overflow:hidden}
+    a{text-decoration:none;color:inherit}
+
+    .navbar{position:relative;z-index:100;background:var(--nav-bg);display:flex;align-items:center;gap:1rem;padding:.75rem 1.5rem;box-shadow:0 2px 20px rgba(91,110,255,.35);flex-shrink:0}
+    .navbar-brand{display:flex;align-items:center;gap:.6rem;flex-shrink:0}
+    .brand-icon{width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,0.22);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1rem;color:#fff}
+    .brand-name{color:#fff;font-weight:700;font-size:1.05rem;white-space:nowrap}
+    .navbar-links{display:flex;align-items:center;gap:.25rem;margin-left:1rem;flex:1}
+    .nav-link{display:flex;align-items:center;gap:.45rem;color:rgba(255,255,255,0.75);font-size:.88rem;font-weight:500;padding:.45rem .9rem;border-radius:8px;transition:.2s;white-space:nowrap}
+    .nav-link:hover,.nav-link.active{background:rgba(255,255,255,0.18);color:#fff}
+    .nav-link svg{width:16px;height:16px;flex-shrink:0}
+    .navbar-right{display:flex;align-items:center;gap:.75rem;margin-left:auto}
+    .dark-toggle{background:rgba(255,255,255,0.15);border:none;cursor:pointer;width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;color:#fff;transition:.2s}
+    .dark-toggle:hover{background:rgba(255,255,255,0.25)}
+    .user-chip{display:flex;align-items:center;gap:.55rem;background:rgba(255,255,255,0.15);border-radius:9999px;padding:.35rem .8rem .35rem .35rem;cursor:pointer}
+    .avatar{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#FFD166,#FF6B35);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.72rem;color:#fff}
+    .user-chip-name{color:#fff;font-size:.82rem;font-weight:600}
+    .level-badge{background:rgba(255,255,255,0.25);color:#fff;font-size:.66rem;font-weight:700;padding:.15rem .45rem;border-radius:5px;letter-spacing:.5px}
+    .hamburger{display:none;background:none;border:none;cursor:pointer;color:#fff}
+    .mobile-drawer{display:none;position:fixed;inset:0;z-index:200}
+    .mobile-drawer.open{display:block}
+    .drawer-overlay{position:absolute;inset:0;background:rgba(0,0,0,.5)}
+    .drawer-panel{position:absolute;left:0;top:0;bottom:0;width:260px;background:var(--bg);padding:1.5rem 1.25rem;display:flex;flex-direction:column;gap:.5rem;box-shadow:4px 0 32px rgba(0,0,0,.2)}
+    .drawer-close{background:none;border:none;cursor:pointer;font-size:1.4rem;color:var(--txt);margin-bottom:.5rem;align-self:flex-end}
+    .drawer-link{display:flex;align-items:center;gap:.75rem;padding:.7rem 1rem;border-radius:10px;font-weight:500;font-size:.95rem;color:var(--txt);transition:.2s}
+    .drawer-link:hover,.drawer-link.active{background:rgba(91,110,255,.1);color:var(--accent)}
+
+    /* Exercise header */
+    .exercise-header{background:var(--card);backdrop-filter:blur(12px);border-bottom:1px solid rgba(0,0,0,0.06);padding:.7rem 1.5rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap;flex-shrink:0}
+    [data-theme="dark"] .exercise-header{border-color:rgba(255,255,255,.06)}
+    .ex-back{display:flex;align-items:center;gap:.4rem;color:var(--txt2);font-size:.85rem;background:none;border:none;cursor:pointer;padding:.35rem .65rem;border-radius:8px;transition:.2s;font-family:inherit}
+    .ex-back:hover{background:var(--bg2);color:var(--txt)}
+    .ex-breadcrumb{font-size:.82rem;color:var(--txt2);flex:1}
+    .ex-breadcrumb strong{color:var(--txt)}
+    .ex-progress-wrap{display:flex;align-items:center;gap:.75rem;min-width:160px}
+    .ex-progress-label{font-size:.78rem;color:var(--txt2);white-space:nowrap}
+    .ex-progress-bar{flex:1;height:6px;background:var(--bg2);border-radius:9999px;overflow:hidden}
+    .ex-progress-fill{height:100%;background:var(--accent);border-radius:9999px;transition:width .4s ease}
+    .ex-timer{display:flex;align-items:center;gap:.4rem;background:var(--bg2);padding:.35rem .75rem;border-radius:9999px;font-size:.82rem;font-weight:600;color:var(--txt2)}
+
+    /* Split pane */
+    .split-body{display:flex;flex:1;overflow:hidden}
+    .split-left{
+      flex:6;border-right:1px solid rgba(0,0,0,0.08);
+      display:flex;flex-direction:column;overflow:hidden;
+    }
+    [data-theme="dark"] .split-left{border-color:rgba(255,255,255,.08)}
+    .split-right{
+      flex:4;display:flex;flex-direction:column;overflow:hidden;
+    }
+    .pane-header{
+      padding:.75rem 1.25rem;border-bottom:1px solid rgba(0,0,0,0.06);
+      display:flex;align-items:center;justify-content:space-between;flex-shrink:0;
+    }
+    [data-theme="dark"] .pane-header{border-color:rgba(255,255,255,.06)}
+    .pane-title{font-size:.88rem;font-weight:700;display:flex;align-items:center;gap:.5rem}
+    .pane-badge{font-size:.7rem;padding:.15rem .5rem;border-radius:5px;font-weight:700}
+    .pane-scroll{flex:1;overflow-y:auto;padding:1.5rem}
+    .pane-scroll::-webkit-scrollbar{width:5px}
+    .pane-scroll::-webkit-scrollbar-track{background:transparent}
+    .pane-scroll::-webkit-scrollbar-thumb{background:var(--bg2);border-radius:9999px}
+
+    /* Article styles */
+    .article-meta{
+      display:flex;align-items:center;gap:1rem;margin-bottom:1.25rem;flex-wrap:wrap;
+    }
+    .meta-tag{font-size:.72rem;font-weight:700;letter-spacing:.5px;padding:.2rem .6rem;border-radius:5px}
+    .tag-b1{background:rgba(91,110,255,.12);color:var(--accent)}
+    .tag-min{background:rgba(34,201,124,.1);color:var(--success)}
+    .article-title{
+      font-size:1.3rem;font-weight:800;line-height:1.35;
+      margin-bottom:.6rem;
+    }
+    .article-subtitle{font-size:.9rem;color:var(--txt2);margin-bottom:1.25rem;line-height:1.5}
+    .article-divider{border:none;border-top:1px solid rgba(0,0,0,.07);margin:1.25rem 0}
+    [data-theme="dark"] .article-divider{border-color:rgba(255,255,255,.07)}
+    .article-p{
+      font-size:.95rem;line-height:1.9;color:var(--txt);
+      margin-bottom:1rem;
+    }
+    .article-p:last-child{margin-bottom:0}
+
+    /* Hoverable word tooltip */
+    .vocab-word{
+      cursor:pointer;border-bottom:1px dashed var(--accent);
+      position:relative;color:var(--txt);transition:.1s;
+    }
+    .vocab-word:hover{color:var(--accent);background:rgba(91,110,255,.08);border-radius:3px}
+    .vocab-tooltip{
+      display:none;position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);
+      background:var(--txt);color:var(--bg);border-radius:8px;padding:.45rem .75rem;
+      font-size:.78rem;white-space:nowrap;z-index:50;
+      box-shadow:0 4px 20px rgba(0,0,0,.2);min-width:140px;text-align:center;
+    }
+    .vocab-tooltip::after{content:'';position:absolute;top:100%;left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:var(--txt)}
+    .vocab-word:hover .vocab-tooltip{display:block}
+    .vocab-tooltip strong{display:block;font-weight:800;margin-bottom:.15rem}
+    .vocab-tooltip em{opacity:.75;font-style:italic;font-size:.72rem}
+
+    /* Highlighted section in article */
+    .article-highlight{background:rgba(255,209,102,.2);border-radius:3px;padding:0 2px}
+    [data-theme="dark"] .article-highlight{background:rgba(255,209,102,.1)}
+
+    /* Q Bank */
+    .q-list{display:flex;flex-direction:column;gap:0}
+    .question-block{padding:1.1rem 0;border-bottom:1px solid rgba(0,0,0,.06)}
+    [data-theme="dark"] .question-block{border-color:rgba(255,255,255,.06)}
+    .question-block:last-child{border-bottom:none}
+    .q-num{font-size:.7rem;text-transform:uppercase;letter-spacing:.6px;font-weight:700;color:var(--accent);margin-bottom:.45rem;display:flex;align-items:center;gap:.4rem}
+    .q-num span{background:var(--accent);color:#fff;width:20px;height:20px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:.68rem}
+    .q-text{font-size:.88rem;font-weight:600;line-height:1.5;margin-bottom:.75rem}
+    .mc-options{display:flex;flex-direction:column;gap:.45rem}
+    .mc-opt{display:flex;align-items:flex-start;gap:.65rem;padding:.6rem .8rem;border-radius:10px;border:1.5px solid rgba(0,0,0,.08);background:var(--card);cursor:pointer;transition:.15s;font-size:.84rem}
+    [data-theme="dark"] .mc-opt{border-color:rgba(255,255,255,.1)}
+    .mc-opt:hover:not(.disabled){border-color:var(--accent);background:rgba(91,110,255,.06)}
+    .mc-opt.selected{border-color:var(--accent);background:rgba(91,110,255,.1)}
+    .mc-opt.correct{border-color:var(--success)!important;background:rgba(34,201,124,.1)!important;animation:fgreen .35s}
+    .mc-opt.wrong{border-color:var(--danger)!important;background:rgba(232,70,70,.08)!important;animation:fred .35s}
+    @keyframes fgreen{0%{background:rgba(34,201,124,.35)}100%{background:rgba(34,201,124,.1)}}
+    @keyframes fred{0%{background:rgba(232,70,70,.35)}100%{background:rgba(232,70,70,.08)}}
+    .mc-letter{width:22px;height:22px;border-radius:6px;background:var(--bg2);font-weight:700;font-size:.75rem;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:.15s}
+    .mc-opt.selected .mc-letter{background:var(--accent);color:#fff}
+    .mc-opt.correct .mc-letter{background:var(--success);color:#fff}
+    .mc-opt.wrong .mc-letter{background:var(--danger);color:#fff}
+    .feedback-msg{font-size:.78rem;margin-top:.45rem;padding:.4rem .65rem;border-radius:7px;display:none}
+    .feedback-msg.show{display:block}
+    .fb-correct{background:rgba(34,201,124,.1);color:var(--success);border-left:3px solid var(--success)}
+    .fb-wrong{background:rgba(232,70,70,.08);color:var(--danger);border-left:3px solid var(--danger)}
+
+    /* Submit row */
+    .submit-row{display:flex;align-items:center;justify-content:space-between;padding:.85rem 1.25rem;border-top:1px solid rgba(0,0,0,.07);background:var(--card);backdrop-filter:blur(8px);flex-shrink:0}
+    [data-theme="dark"] .submit-row{border-color:rgba(255,255,255,.07)}
+    .submit-info{font-size:.82rem;color:var(--txt2)}
+    .submit-info strong{color:var(--txt)}
+    .btn-submit{display:flex;align-items:center;gap:.5rem;background:var(--nav-bg);color:#fff;border:none;border-radius:10px;padding:.6rem 1.3rem;font-weight:700;font-size:.88rem;cursor:pointer;transition:.2s;font-family:inherit}
+    .btn-submit:hover{opacity:.9;transform:translateY(-1px)}
+    .btn-submit:active{transform:scale(.97)}
+
+    @media(max-width:768px){
+      .split-body{flex-direction:column;overflow:visible;flex:none}
+      body{overflow:auto;height:auto}
+      .split-left{height:55vh;border-right:none;border-bottom:1px solid rgba(0,0,0,.08)}
+      .split-right{height:auto;min-height:60vh}
+      .navbar-links{display:none}
+      .hamburger{display:flex;padding:.5rem}
+      .brand-name{display:none}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="navbar-brand">
+    <div class="brand-icon">ES</div>
+    <span class="brand-name">English Study</span>
+  </div>
+  <div class="navbar-links">
+    <a href="student-dashboard.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>Dashboard</a>
+    <a href="skill-map.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v4M7 18l5-3M17 18l-5-3"/></svg>Bản đồ</a>
+    <a href="exercise-listening.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>Luyện nghe</a>
+    <a href="exercise-speaking.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>Luyện nói</a>
+    <a href="exercise-reading.html" class="nav-link active">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>Luyện đọc</a>
+    <a href="exercise-writing.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>Luyện viết</a>
+  </div>
+  <div class="navbar-right">
+    <button class="dark-toggle" id="darkToggle">🌙</button>
+    <div class="user-chip">
+      <div class="avatar">HA</div>
+      <span class="user-chip-name">Hà Anh</span>
+      <span class="level-badge">A2</span>
+    </div>
+    <button class="hamburger" id="hamburger">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <div class="drawer-panel">
+    <button class="drawer-close" id="drawerClose">✕</button>
+    <a href="student-dashboard.html" class="drawer-link">🏠 Dashboard</a>
+    <a href="skill-map.html" class="drawer-link">🗺️ Bản đồ học tập</a>
+    <a href="exercise-listening.html" class="drawer-link">🎧 Luyện nghe</a>
+    <a href="exercise-speaking.html" class="drawer-link">🎤 Luyện nói</a>
+    <a href="exercise-reading.html" class="drawer-link active">📖 Luyện đọc</a>
+    <a href="exercise-writing.html" class="drawer-link">✍️ Luyện viết</a>
+  </div>
+</div>
+
+<!-- Exercise Header -->
+<div class="exercise-header">
+  <a href="skill-map.html" class="ex-back">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+    Quay lại
+  </a>
+  <div class="ex-breadcrumb">A2 Reading · <strong>Technology & Modern Life</strong></div>
+  <div class="ex-progress-wrap">
+    <span class="ex-progress-label">2 / 5 câu</span>
+    <div class="ex-progress-bar"><div class="ex-progress-fill" id="progressFill" style="width:40%"></div></div>
+  </div>
+  <div class="ex-timer">⏱ <span id="timerDisplay">22:15</span></div>
+</div>
+
+<!-- Split Pane Body -->
+<div class="split-body">
+
+  <!-- LEFT: Article -->
+  <div class="split-left">
+    <div class="pane-header">
+      <span class="pane-title">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        Bài đọc
+      </span>
+      <div style="display:flex;gap:.5rem;align-items:center">
+        <span class="pane-badge" style="background:rgba(91,110,255,.1);color:var(--accent)">B1</span>
+        <span class="pane-badge" style="background:rgba(34,201,124,.1);color:var(--success)">~4 phút</span>
+        <span style="font-size:.72rem;color:var(--txt2);font-weight:500">💡 Di chuột lên từ để dịch</span>
+      </div>
+    </div>
+    <div class="pane-scroll">
+
+      <div class="article-meta">
+        <span class="meta-tag tag-b1">B1 · Technology</span>
+        <span class="meta-tag tag-min">4 phút đọc</span>
+        <span style="font-size:.72rem;color:var(--txt2)">Oxford Reading Circle – Unit 7</span>
+      </div>
+
+      <h1 class="article-title">How Smartphones Are Changing the Way We Learn</h1>
+      <p class="article-subtitle">Technology has transformed education, making it more accessible, personal, and engaging than ever before.</p>
+      <hr class="article-divider">
+
+      <p class="article-p">
+        Over the past decade, <span class="vocab-word">smartphones<div class="vocab-tooltip"><strong>smartphone</strong> /ˈsmɑːrtˌfoʊn/<br><em>điện thoại thông minh</em></div></span> have become one of the most powerful
+        <span class="vocab-word">educational<div class="vocab-tooltip"><strong>educational</strong> /ˌedʒuˈkeɪʃənl/<br><em>thuộc về giáo dục</em></div></span>
+        tools in human history. Unlike traditional classrooms, a smartphone allows a student to learn anything, anywhere, at any time.
+      </p>
+
+      <p class="article-p">
+        <span class="article-highlight">Language learning apps, for example, use <span class="vocab-word">artificial intelligence<div class="vocab-tooltip"><strong>artificial intelligence</strong><br><em>trí tuệ nhân tạo (AI)</em></div></span>
+        to <span class="vocab-word">personalize<div class="vocab-tooltip"><strong>personalize</strong> /ˈpɜːrsənəlaɪz/<br><em>cá nhân hóa</em></div></span>
+        each lesson based on the learner's strengths and weaknesses.</span>
+        This means that no two students follow exactly the same path, making the learning process far more efficient.
+      </p>
+
+      <p class="article-p">
+        According to a 2024 research report, students who used
+        <span class="vocab-word">interactive<div class="vocab-tooltip"><strong>interactive</strong> /ˌɪntərˈæktɪv/<br><em>có tính tương tác</em></div></span>
+        mobile learning apps for at least 30 minutes per day showed a 42% improvement in
+        <span class="vocab-word">vocabulary retention<div class="vocab-tooltip"><strong>retention</strong> /rɪˈtenʃn/<br><em>khả năng ghi nhớ</em></div></span>
+        compared to traditional study methods.
+      </p>
+
+      <p class="article-p">
+        However, experts warn that too much screen time can have <span class="vocab-word">negative consequences<div class="vocab-tooltip"><strong>consequences</strong> /ˈkɒnsɪkwənsɪz/<br><em>hậu quả</em></div></span>
+        for young learners. Problems such as reduced attention spans,
+        <span class="vocab-word">disrupted<div class="vocab-tooltip"><strong>disrupted</strong> /dɪsˈrʌptɪd/<br><em>bị gián đoạn / bị phá vỡ</em></div></span>
+        sleep patterns, and social <span class="vocab-word">isolation<div class="vocab-tooltip"><strong>isolation</strong> /ˌaɪsəˈleɪʃn/<br><em>sự cô lập</em></div></span>
+        are increasingly common among teenagers who spend excessive time on their phones.
+      </p>
+
+      <p class="article-p">
+        The key, according to educators, is <span class="vocab-word">balance<div class="vocab-tooltip"><strong>balance</strong> /ˈbæləns/<br><em>sự cân bằng</em></div></span>.
+        <span class="article-highlight">Using technology as a tool to enhance learning, rather than as a substitute for real-world interaction, is the ideal <span class="vocab-word">approach<div class="vocab-tooltip"><strong>approach</strong> /əˈproʊtʃ/<br><em>cách tiếp cận</em></div></span>.</span>
+        Schools that successfully integrate smartphones into their
+        <span class="vocab-word">curriculum<div class="vocab-tooltip"><strong>curriculum</strong> /kəˈrɪkjələm/<br><em>chương trình học</em></div></span>
+        tend to set clear guidelines about when and how devices should be used.
+      </p>
+
+      <p class="article-p">
+        In conclusion, smartphones are neither entirely good nor entirely bad for education.
+        Their impact depends largely on how they are used. With the right strategies, they can be
+        <span class="vocab-word">invaluable<div class="vocab-tooltip"><strong>invaluable</strong> /ɪnˈvæljuəbl/<br><em>vô giá / cực kỳ có giá trị</em></div></span>
+        partners in the learning journey.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- RIGHT: Questions -->
+  <div class="split-right">
+    <div class="pane-header">
+      <span class="pane-title">📝 Trả lời câu hỏi</span>
+      <span class="pane-badge" style="background:rgba(34,201,124,.12);color:var(--success)">5 câu · Trắc nghiệm</span>
+    </div>
+    <div class="pane-scroll">
+      <div class="q-list">
+
+        <!-- Q1 Done Correct -->
+        <div class="question-block">
+          <div class="q-num"><span>1</span></div>
+          <div class="q-text">What is one key advantage of smartphones in education mentioned in the article?</div>
+          <div class="mc-options">
+            <div class="mc-opt disabled correct"><div class="mc-letter">A</div><span>They allow students to learn anywhere and anytime</span></div>
+            <div class="mc-opt disabled"><div class="mc-letter">B</div><span>They replace teachers completely</span></div>
+            <div class="mc-opt disabled"><div class="mc-letter">C</div><span>They are cheaper than textbooks</span></div>
+            <div class="mc-opt disabled"><div class="mc-letter">D</div><span>They improve physical health</span></div>
+          </div>
+          <div class="feedback-msg fb-correct show">✅ Đúng! Đoạn 1 đề cập rõ: "learn anything, anywhere, at any time".</div>
+        </div>
+
+        <!-- Q2 Done Wrong -->
+        <div class="question-block">
+          <div class="q-num"><span>2</span></div>
+          <div class="q-text">According to the 2024 research report, how much did vocabulary retention improve?</div>
+          <div class="mc-options">
+            <div class="mc-opt disabled"><div class="mc-letter">A</div><span>25%</span></div>
+            <div class="mc-opt disabled wrong"><div class="mc-letter">B</div><span>55%</span></div>
+            <div class="mc-opt disabled correct"><div class="mc-letter">C</div><span>42%</span></div>
+            <div class="mc-opt disabled"><div class="mc-letter">D</div><span>38%</span></div>
+          </div>
+          <div class="feedback-msg fb-wrong show">❌ Sai! Đáp án đúng là <strong>C – 42%</strong>. Đoạn 3: "showed a 42% improvement in vocabulary retention".</div>
+        </div>
+
+        <!-- Q3 Active -->
+        <div class="question-block">
+          <div class="q-num"><span>3</span></div>
+          <div class="q-text">What does "personalize" (paragraph 2) mean in this context?</div>
+          <div class="mc-options">
+            <div class="mc-opt" onclick="selectOpt(this,'3','A')"><div class="mc-letter">A</div><span>To make something private and secret</span></div>
+            <div class="mc-opt" onclick="selectOpt(this,'3','B')"><div class="mc-letter">B</div><span>To adapt something to fit an individual's needs</span></div>
+            <div class="mc-opt" onclick="selectOpt(this,'3','C')"><div class="mc-letter">C</div><span>To publish information publicly</span></div>
+            <div class="mc-opt" onclick="selectOpt(this,'3','D')"><div class="mc-letter">D</div><span>To copy a document exactly</span></div>
+          </div>
+          <div class="feedback-msg" id="fb3"></div>
+        </div>
+
+        <!-- Q4 Upcoming -->
+        <div class="question-block" style="opacity:.4;pointer-events:none">
+          <div class="q-num"><span>4</span></div>
+          <div class="q-text">According to experts, what is the main risk of excessive smartphone use?</div>
+          <div class="mc-options">
+            <div class="mc-opt"><div class="mc-letter">A</div><span>Higher electricity bills</span></div>
+            <div class="mc-opt"><div class="mc-letter">B</div><span>Reduced attention spans and disrupted sleep</span></div>
+            <div class="mc-opt"><div class="mc-letter">C</div><span>Less storage space on the device</span></div>
+            <div class="mc-opt"><div class="mc-letter">D</div><span>More expensive phone repairs</span></div>
+          </div>
+        </div>
+
+        <!-- Q5 Upcoming -->
+        <div class="question-block" style="opacity:.4;pointer-events:none">
+          <div class="q-num"><span>5</span></div>
+          <div class="q-text">What is the article's overall conclusion about smartphones in education?</div>
+          <div class="mc-options">
+            <div class="mc-opt"><div class="mc-letter">A</div><span>Smartphones should be banned in schools</span></div>
+            <div class="mc-opt"><div class="mc-letter">B</div><span>All lessons should be on smartphones</span></div>
+            <div class="mc-opt"><div class="mc-letter">C</div><span>Their impact depends on how they are used</span></div>
+            <div class="mc-opt"><div class="mc-letter">D</div><span>Traditional books are always better</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="submit-row">
+      <div class="submit-info">Đã trả lời: <strong>2/5</strong> · Đúng: <strong style="color:var(--success)">1</strong> · Sai: <strong style="color:var(--danger)">1</strong></div>
+      <button class="btn-submit" id="submitBtn" onclick="handleSubmit()">
+        Xác nhận câu 3
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const html=document.documentElement;
+  const toggleBtn=document.getElementById('darkToggle');
+  const saved=localStorage.getItem('theme')||'light';
+  if(saved==='dark'){html.dataset.theme='dark';toggleBtn.textContent='☀️'}
+  toggleBtn.addEventListener('click',()=>{
+    const d=html.dataset.theme==='dark';html.dataset.theme=d?'light':'dark';
+    toggleBtn.textContent=d?'🌙':'☀️';localStorage.setItem('theme',d?'light':'dark');
+  });
+  const hamburger=document.getElementById('hamburger'),drawer=document.getElementById('mobileDrawer'),overlay=document.getElementById('drawerOverlay'),closeBtn=document.getElementById('drawerClose');
+  hamburger.addEventListener('click',()=>drawer.classList.add('open'));
+  overlay.addEventListener('click',()=>drawer.classList.remove('open'));
+  closeBtn.addEventListener('click',()=>drawer.classList.remove('open'));
+
+  let selected3='';
+  function selectOpt(el,qid,letter){
+    document.querySelectorAll(`.question-block:nth-child(3) .mc-opt`).forEach(o=>o.classList.remove('selected'));
+    el.classList.add('selected');selected3=letter;
+  }
+
+  function handleSubmit(){
+    if(!selected3){alert('Vui lòng chọn đáp án cho câu 3');return}
+    const q3opts=document.querySelectorAll('.question-block:nth-child(3) .mc-opt');
+    q3opts.forEach(o=>o.classList.add('disabled'));
+    const fb=document.getElementById('fb3');
+    if(selected3==='B'){
+      q3opts[1].classList.add('correct');
+      fb.textContent='✅ Chính xác! "Personalize" = cá nhân hóa, thích ứng với nhu cầu của từng người.';
+      fb.className='feedback-msg fb-correct show';
+    } else {
+      q3opts[['A','B','C','D'].indexOf(selected3)].classList.add('wrong');
+      q3opts[1].classList.add('correct');
+      fb.textContent='❌ Sai rồi! Đáp án đúng là B. "Personalize" có nghĩa là cá nhân hóa cho từng người.';
+      fb.className='feedback-msg fb-wrong show';
+    }
+    document.getElementById('progressFill').style.width='60%';
+    document.getElementById('submitBtn').textContent='Câu tiếp theo →';
+  }
+
+  let secs=1335;
+  setInterval(()=>{secs--;if(secs<0)secs=0;const m=Math.floor(secs/60),s=secs%60;document.getElementById('timerDisplay').textContent=`${m}:${s.toString().padStart(2,'0')}`;},1000);
+</script>
+</body>
+</html>

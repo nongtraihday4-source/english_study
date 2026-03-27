@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bản đồ học tập – English Study</title>
+  <style>
+    :root {
+      --bg:          #F5F4F0;
+      --bg2:         #ECEAE4;
+      --card:        rgba(255,255,255,0.72);
+      --card-border: rgba(255,255,255,0.9);
+      --nav-bg:      linear-gradient(135deg,#5B6EFF 0%,#7B3FE4 100%);
+      --accent:      #5B6EFF;
+      --purple:      #7B3FE4;
+      --success:     #22C97C;
+      --streak:      #FF6B35;
+      --danger:      #E84646;
+      --txt:         #1A1A2E;
+      --txt2:        #5A5A78;
+      --shadow:      0 4px 24px rgba(0,0,0,0.08);
+      --shadow-md:   0 8px 32px rgba(0,0,0,0.12);
+      --r:           16px;
+      --r-sm:        10px;
+      --transition:  .2s ease;
+    }
+    [data-theme="dark"] {
+      --bg:#0F0F1A;--bg2:#161625;--card:rgba(255,255,255,0.05);
+      --card-border:rgba(255,255,255,0.10);--txt:#EEEEFF;--txt2:#8888AA;
+      --shadow:0 4px 24px rgba(0,0,0,0.4);--shadow-md:0 8px 32px rgba(0,0,0,0.55);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);transition:background .3s,color .3s;min-height:100vh}
+    a{text-decoration:none;color:inherit}
+
+    /* Navbar */
+    .navbar{position:sticky;top:0;z-index:100;background:var(--nav-bg);display:flex;align-items:center;gap:1rem;padding:.75rem 1.5rem;box-shadow:0 2px 20px rgba(91,110,255,.35)}
+    .navbar-brand{display:flex;align-items:center;gap:.6rem;flex-shrink:0}
+    .brand-icon{width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,0.22);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1rem;color:#fff}
+    .brand-name{color:#fff;font-weight:700;font-size:1.05rem;white-space:nowrap}
+    .navbar-links{display:flex;align-items:center;gap:.25rem;margin-left:1rem;flex:1}
+    .nav-link{display:flex;align-items:center;gap:.45rem;color:rgba(255,255,255,0.75);font-size:.88rem;font-weight:500;padding:.45rem .9rem;border-radius:8px;transition:.2s;white-space:nowrap}
+    .nav-link:hover,.nav-link.active{background:rgba(255,255,255,0.18);color:#fff}
+    .nav-link svg{width:16px;height:16px;flex-shrink:0}
+    .navbar-right{display:flex;align-items:center;gap:.75rem;margin-left:auto}
+    .dark-toggle{background:rgba(255,255,255,0.15);border:none;cursor:pointer;width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;color:#fff;transition:.2s}
+    .dark-toggle:hover{background:rgba(255,255,255,0.25)}
+    .user-chip{display:flex;align-items:center;gap:.55rem;background:rgba(255,255,255,0.15);border-radius:9999px;padding:.35rem .8rem .35rem .35rem;cursor:pointer;transition:.2s}
+    .user-chip:hover{background:rgba(255,255,255,0.25)}
+    .avatar{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#FFD166,#FF6B35);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.72rem;color:#fff}
+    .user-chip-name{color:#fff;font-size:.82rem;font-weight:600}
+    .level-badge{background:rgba(255,255,255,0.25);color:#fff;font-size:.66rem;font-weight:700;padding:.15rem .45rem;border-radius:5px;letter-spacing:.5px}
+    .hamburger{display:none;background:none;border:none;cursor:pointer;color:#fff}
+    .mobile-drawer{display:none;position:fixed;inset:0;z-index:200}
+    .mobile-drawer.open{display:block}
+    .drawer-overlay{position:absolute;inset:0;background:rgba(0,0,0,.5)}
+    .drawer-panel{position:absolute;left:0;top:0;bottom:0;width:260px;background:var(--bg);padding:1.5rem 1.25rem;display:flex;flex-direction:column;gap:.5rem;box-shadow:4px 0 32px rgba(0,0,0,.2)}
+    .drawer-close{background:none;border:none;cursor:pointer;font-size:1.4rem;color:var(--txt);margin-bottom:.5rem;align-self:flex-end}
+    .drawer-link{display:flex;align-items:center;gap:.75rem;padding:.7rem 1rem;border-radius:10px;font-weight:500;font-size:.95rem;color:var(--txt);transition:.2s}
+    .drawer-link:hover,.drawer-link.active{background:rgba(91,110,255,.1);color:var(--accent)}
+
+    /* Page */
+    .page{max-width:1100px;margin:0 auto;padding:2rem 1.25rem 4rem}
+    .page-header{text-align:center;margin-bottom:2.5rem}
+    .page-header h1{font-size:1.75rem;font-weight:800;margin-bottom:.4rem}
+    .page-header p{color:var(--txt2);font-size:.95rem}
+    .level-tabs{display:flex;gap:.6rem;justify-content:center;flex-wrap:wrap;margin-top:1.25rem}
+    .level-tab{
+      padding:.5rem 1.2rem;border-radius:9999px;font-size:.85rem;font-weight:700;cursor:pointer;
+      border:2px solid transparent;transition:.2s;
+    }
+    .level-tab.done{background:var(--success);color:#fff;border-color:var(--success)}
+    .level-tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+    .level-tab.locked{background:var(--bg2);color:var(--txt2);border-color:var(--bg2);cursor:not-allowed}
+
+    /* Map layout */
+    .map-section{margin-bottom:3rem}
+    .map-section-header{
+      display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem;
+    }
+    .level-bubble{
+      width:52px;height:52px;border-radius:50%;
+      display:flex;align-items:center;justify-content:center;
+      font-weight:900;font-size:1rem;color:#fff;flex-shrink:0;
+    }
+    .section-meta{flex:1}
+    .section-meta h2{font-size:1.2rem;font-weight:800}
+    .section-meta p{font-size:.82rem;color:var(--txt2);margin-top:.15rem}
+    .section-prog{
+      display:flex;align-items:center;gap:.75rem;min-width:180px;
+    }
+    .prog-bar-wrap{flex:1;background:var(--bg2);height:8px;border-radius:9999px;overflow:hidden}
+    .prog-bar{height:100%;border-radius:9999px}
+    .prog-pct{font-size:.82rem;font-weight:700;min-width:36px;text-align:right}
+
+    /* Skill tree */
+    .skill-tree{
+      display:flex;flex-direction:column;align-items:center;gap:0;
+    }
+    .tree-row{
+      display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap;
+      position:relative;padding:0 1rem;
+    }
+    /* connector line between rows */
+    .tree-connector{
+      width:2px;height:30px;background:var(--bg2);margin:0 auto;
+    }
+    .tree-connector.done{background:var(--success)}
+
+    /* Lesson Node */
+    .lesson-node{
+      display:flex;flex-direction:column;align-items:center;gap:.5rem;
+      cursor:pointer;
+    }
+    .node-card{
+      width:120px;
+      background:var(--card);
+      border:2px solid var(--card-border);
+      backdrop-filter:blur(12px);
+      border-radius:var(--r);
+      padding:1rem .75rem;
+      text-align:center;
+      box-shadow:var(--shadow);
+      transition:transform .2s,box-shadow .2s;
+      position:relative;
+      overflow:hidden;
+    }
+    .node-card:hover:not(.node-locked){transform:translateY(-4px) scale(1.03);box-shadow:var(--shadow-md)}
+    .node-card.node-done{border-color:var(--success);background:rgba(34,201,124,.08)}
+    .node-card.node-active{border-color:var(--accent);background:rgba(91,110,255,.08);animation:glow 2s infinite}
+    @keyframes glow{0%,100%{box-shadow:0 0 0 0 rgba(91,110,255,0)}50%{box-shadow:0 0 0 6px rgba(91,110,255,.2)}}
+    .node-card.node-locked{
+      border-color:transparent;
+      background:var(--bg2);
+      opacity:.55;
+      filter:grayscale(.8);
+      cursor:not-allowed;
+    }
+    .node-card.node-locked::after{
+      content:'🔒';position:absolute;right:6px;top:6px;font-size:.8rem;
+    }
+    .node-icon{font-size:1.6rem;margin-bottom:.25rem}
+    .node-type{font-size:.65rem;text-transform:uppercase;letter-spacing:.5px;color:var(--txt2);font-weight:600}
+    .node-name{font-size:.78rem;font-weight:700;line-height:1.3;margin-top:.2rem}
+    .node-score{
+      font-size:.7rem;font-weight:700;margin-top:.4rem;
+      padding:.1rem .45rem;border-radius:5px;display:inline-block;
+    }
+    .score-done{background:rgba(34,201,124,.15);color:var(--success)}
+    .score-active{background:rgba(91,110,255,.15);color:var(--accent)}
+
+    /* Wide node for core lessons */
+    .node-card.wide{width:160px}
+
+    /* XP badge */
+    .xp-badge{
+      font-size:.7rem;font-weight:700;color:var(--txt2);
+      background:var(--bg2);padding:.15rem .5rem;border-radius:9999px;
+    }
+
+    /* Unlock animation overlay */
+    @keyframes unlock-pop{
+      0%{transform:scale(.5) rotate(-10deg);opacity:0}
+      70%{transform:scale(1.2) rotate(5deg);opacity:1}
+      100%{transform:scale(1) rotate(0);opacity:1}
+    }
+    .unlock-anim{animation:unlock-pop .4s cubic-bezier(.34,1.56,.64,1) forwards}
+
+    /* Info panel */
+    .info-panel{
+      position:fixed;right:1.5rem;bottom:1.5rem;
+      width:280px;background:var(--card);backdrop-filter:blur(16px);
+      border:1px solid var(--card-border);border-radius:var(--r);
+      box-shadow:var(--shadow-md);padding:1.25rem;
+      transform:translateX(320px);transition:transform .3s ease;z-index:50;
+    }
+    .info-panel.open{transform:translateX(0)}
+    .info-panel-close{float:right;background:none;border:none;cursor:pointer;font-size:1.1rem;color:var(--txt2)}
+    .info-title{font-size:1rem;font-weight:700;margin-bottom:.3rem}
+    .info-meta{font-size:.78rem;color:var(--txt2);margin-bottom:.75rem}
+    .info-btn{
+      display:block;width:100%;padding:.7rem;
+      background:var(--nav-bg);color:#fff;border:none;
+      border-radius:10px;font-weight:700;font-size:.9rem;cursor:pointer;text-align:center;
+      transition:.2s;
+    }
+    .info-btn:hover{opacity:.9;transform:translateY(-1px)}
+    .info-btn:active{transform:scale(.97)}
+
+    @media(max-width:640px){
+      .navbar-links{display:none}
+      .hamburger{display:flex;padding:.5rem}
+      .brand-name{display:none}
+      .tree-row{gap:1rem}
+      .node-card{width:100px}
+      .node-card.wide{width:130px}
+      .level-tabs{gap:.45rem}
+      .info-panel{width:calc(100% - 2rem);right:1rem;left:1rem}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="navbar-brand">
+    <div class="brand-icon">ES</div>
+    <span class="brand-name">English Study</span>
+  </div>
+  <div class="navbar-links">
+    <a href="student-dashboard.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>Dashboard</a>
+    <a href="skill-map.html" class="nav-link active">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v4M7 18l5-3M17 18l-5-3"/></svg>Bản đồ học tập</a>
+    <a href="exercise-listening.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>Luyện nghe</a>
+    <a href="exercise-speaking.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>Luyện nói</a>
+    <a href="exercise-reading.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>Luyện đọc</a>
+    <a href="exercise-writing.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>Luyện viết</a>
+  </div>
+  <div class="navbar-right">
+    <button class="dark-toggle" id="darkToggle">🌙</button>
+    <div class="user-chip">
+      <div class="avatar">HA</div>
+      <span class="user-chip-name">Hà Anh</span>
+      <span class="level-badge">A2</span>
+    </div>
+    <button class="hamburger" id="hamburger">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <div class="drawer-panel">
+    <button class="drawer-close" id="drawerClose">✕</button>
+    <a href="student-dashboard.html" class="drawer-link">🏠 Dashboard</a>
+    <a href="skill-map.html" class="drawer-link active">🗺️ Bản đồ học tập</a>
+    <a href="exercise-listening.html" class="drawer-link">🎧 Luyện nghe</a>
+    <a href="exercise-speaking.html" class="drawer-link">🎤 Luyện nói</a>
+    <a href="exercise-reading.html" class="drawer-link">📖 Luyện đọc</a>
+    <a href="exercise-writing.html" class="drawer-link">✍️ Luyện viết</a>
+  </div>
+</div>
+
+<!-- PAGE -->
+<main class="page">
+  <div class="page-header">
+    <h1>🗺️ Bản đồ năng lực</h1>
+    <p>Chinh phục từng cấp độ để mở khóa bài học tiếp theo. Hoàn thành ≥ 60/100 để qua phần mới.</p>
+    <div class="level-tabs">
+      <span class="level-tab done">✓ A1</span>
+      <span class="level-tab active">➤ A2 <small>(Đang học)</small></span>
+      <span class="level-tab locked">🔒 B1</span>
+      <span class="level-tab locked">🔒 B2</span>
+      <span class="level-tab locked">🔒 C1</span>
+    </div>
+  </div>
+
+  <!-- A1 Section (Completed) -->
+  <div class="map-section" style="opacity:.65">
+    <div class="map-section-header">
+      <div class="level-bubble" style="background:var(--success)">A1</div>
+      <div class="section-meta">
+        <h2>Beginner – A1 Foundation</h2>
+        <p>Nền tảng ngôn ngữ cơ bản · 8 tuần · Đã hoàn thành 01/01/2026</p>
+      </div>
+      <div class="section-prog">
+        <div class="prog-bar-wrap"><div class="prog-bar" style="width:100%;background:var(--success)"></div></div>
+        <span class="prog-pct" style="color:var(--success)">100%</span>
+      </div>
+    </div>
+    <div style="text-align:center;padding:1rem;background:rgba(34,201,124,.08);border-radius:var(--r);border:1px solid rgba(34,201,124,.2)">
+      <span style="font-size:1.5rem">🏅</span>
+      <p style="font-weight:700;color:var(--success);margin:.25rem 0">A1 Hoàn thành!</p>
+      <p style="font-size:.8rem;color:var(--txt2)">Điểm tốt nghiệp: 91/100 · Đã mở khóa cấp A2</p>
+    </div>
+  </div>
+
+  <!-- A2 Section (In Progress) -->
+  <div class="map-section">
+    <div class="map-section-header">
+      <div class="level-bubble" style="background:var(--accent)">A2</div>
+      <div class="section-meta">
+        <h2>Elementary – A2 Expansion</h2>
+        <p>Mở rộng ngữ pháp & giao tiếp hàng ngày · 12 tuần · Đang học</p>
+      </div>
+      <div class="section-prog">
+        <div class="prog-bar-wrap"><div class="prog-bar" style="width:65%;background:var(--accent)"></div></div>
+        <span class="prog-pct" style="color:var(--accent)">65%</span>
+      </div>
+    </div>
+
+    <div class="skill-tree">
+      <!-- Row 1: Entry point -->
+      <div class="tree-row">
+        <div class="lesson-node" onclick="openPanel('Grammar Basics A2','🔤 Ngữ pháp · Unit 1–3 · ~45 phút · 200 XP','done')">
+          <div class="node-card node-done wide">
+            <div class="node-icon">🔤</div>
+            <div class="node-type">Ngữ pháp</div>
+            <div class="node-name">Basic Sentence Structures</div>
+            <div class="node-score score-done">✓ 88/100</div>
+          </div>
+          <div class="xp-badge">+200 XP</div>
+        </div>
+      </div>
+
+      <div class="tree-connector done"></div>
+
+      <!-- Row 2 -->
+      <div class="tree-row">
+        <div class="lesson-node" onclick="openPanel('Listening – Daily Life','🎧 Nghe · Short conversations · ~30 phút · 150 XP','done')">
+          <div class="node-card node-done">
+            <div class="node-icon">🎧</div>
+            <div class="node-type">Nghe</div>
+            <div class="node-name">Daily Conversations</div>
+            <div class="node-score score-done">✓ 74/100</div>
+          </div>
+          <div class="xp-badge">+150 XP</div>
+        </div>
+        <div class="lesson-node" onclick="openPanel('Vocabulary in Context','📝 Từ vựng · Oxford 3000 · ~25 phút · 120 XP','done')">
+          <div class="node-card node-done">
+            <div class="node-icon">📝</div>
+            <div class="node-type">Từ vựng</div>
+            <div class="node-name">Oxford A2 Vocab</div>
+            <div class="node-score score-done">✓ 92/100</div>
+          </div>
+          <div class="xp-badge">+120 XP</div>
+        </div>
+      </div>
+
+      <div class="tree-connector done"></div>
+
+      <!-- Row 3 -->
+      <div class="tree-row">
+        <div class="lesson-node" onclick="openPanel('Speaking – Role Play','🎤 Nói nhập vai · At the café · ~35 phút · 250 XP','done')">
+          <div class="node-card node-done">
+            <div class="node-icon">🎤</div>
+            <div class="node-type">Nói</div>
+            <div class="node-name">At the Café</div>
+            <div class="node-score score-done">✓ 68/100</div>
+          </div>
+          <div class="xp-badge">+250 XP</div>
+        </div>
+        <div class="lesson-node" onclick="openPanel('Reading – Short Texts','📖 Đọc · Short paragraphs · ~30 phút · 180 XP','done')">
+          <div class="node-card node-done">
+            <div class="node-icon">📖</div>
+            <div class="node-type">Đọc</div>
+            <div class="node-name">Short Paragraphs</div>
+            <div class="node-score score-done">✓ 85/100</div>
+          </div>
+          <div class="xp-badge">+180 XP</div>
+        </div>
+        <div class="lesson-node" onclick="openPanel('Writing – Describe Yourself','✍️ Viết · Personal intro · ~40 phút · 200 XP','done')">
+          <div class="node-card node-done">
+            <div class="node-icon">✍️</div>
+            <div class="node-type">Viết</div>
+            <div class="node-name">About Yourself</div>
+            <div class="node-score score-done">✓ 77/100</div>
+          </div>
+          <div class="xp-badge">+200 XP</div>
+        </div>
+      </div>
+
+      <div class="tree-connector done"></div>
+
+      <!-- Row 4: Mini checkpoint -->
+      <div class="tree-row">
+        <div class="lesson-node" onclick="openPanel('Mid-Level Checkpoint','🏆 Kiểm tra giữa kỳ · Tất cả 4 kỹ năng · ~60 phút · 500 XP','done')">
+          <div class="node-card node-done wide" style="border-color:#FFD166;background:rgba(255,209,102,.1)">
+            <div class="node-icon">🏆</div>
+            <div class="node-type">Kiểm tra</div>
+            <div class="node-name">Mid-Level Checkpoint</div>
+            <div class="node-score score-done">✓ 80/100</div>
+          </div>
+          <div class="xp-badge">+500 XP</div>
+        </div>
+      </div>
+
+      <div class="tree-connector" style="background:var(--accent)"></div>
+
+      <!-- Row 5: Current / Unlocked -->
+      <div class="tree-row">
+        <div class="lesson-node" onclick="openPanel('Present Perfect Tense','🔤 Ngữ pháp · Unit 13 · ~45 phút · 220 XP','active')">
+          <div class="node-card node-active" id="activePerfect">
+            <div class="node-icon">🔤</div>
+            <div class="node-type">Ngữ pháp</div>
+            <div class="node-name">Present Perfect</div>
+            <div class="node-score score-active">Đang học</div>
+          </div>
+          <div class="xp-badge">+220 XP</div>
+        </div>
+        <div class="lesson-node" onclick="openPanel('Listening – News Segments','🎧 Nghe · News clips · ~35 phút · 180 XP','active')">
+          <div class="node-card node-active">
+            <div class="node-icon">🎧</div>
+            <div class="node-type">Nghe</div>
+            <div class="node-name">News Segments</div>
+            <div class="node-score score-active">Chưa làm</div>
+          </div>
+          <div class="xp-badge">+180 XP</div>
+        </div>
+      </div>
+
+      <div class="tree-connector"></div>
+
+      <!-- Row 6: Locked -->
+      <div class="tree-row">
+        <div class="lesson-node">
+          <div class="node-card node-locked">
+            <div class="node-icon">🎤</div>
+            <div class="node-type">Nói</div>
+            <div class="node-name">Job Interview Role-play</div>
+          </div>
+          <div class="xp-badge">+300 XP</div>
+        </div>
+        <div class="lesson-node">
+          <div class="node-card node-locked">
+            <div class="node-icon">📖</div>
+            <div class="node-type">Đọc</div>
+            <div class="node-name">Article Analysis</div>
+          </div>
+          <div class="xp-badge">+200 XP</div>
+        </div>
+        <div class="lesson-node">
+          <div class="node-card node-locked">
+            <div class="node-icon">✍️</div>
+            <div class="node-type">Viết</div>
+            <div class="node-name">Opinion Essay</div>
+          </div>
+          <div class="xp-badge">+250 XP</div>
+        </div>
+      </div>
+
+      <div class="tree-connector"></div>
+
+      <!-- Row 7: Final exam locked -->
+      <div class="tree-row">
+        <div class="lesson-node">
+          <div class="node-card node-locked wide" style="border-color:transparent">
+            <div class="node-icon">🎓</div>
+            <div class="node-type">Tốt nghiệp</div>
+            <div class="node-name">A2 Final Exam</div>
+          </div>
+          <div class="xp-badge">+1000 XP</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- B1 Section (Locked) -->
+  <div class="map-section" style="opacity:.4;pointer-events:none">
+    <div class="map-section-header">
+      <div class="level-bubble" style="background:var(--txt2)">B1</div>
+      <div class="section-meta">
+        <h2>🔒 Intermediate – B1</h2>
+        <p>Mở khóa sau khi hoàn thành A2 Final Exam với điểm ≥ 75/100</p>
+      </div>
+    </div>
+    <div style="text-align:center;padding:2rem;background:var(--bg2);border-radius:var(--r)">
+      <span style="font-size:2rem">🔒</span>
+      <p style="font-weight:600;margin-top:.5rem;color:var(--txt2)">Hoàn thành A2 để mở khóa B1</p>
+    </div>
+  </div>
+
+</main>
+
+<!-- Info Panel -->
+<div class="info-panel" id="infoPanel">
+  <button class="info-panel-close" onclick="closePanel()">✕</button>
+  <div class="node-icon" id="panelIcon" style="font-size:2rem;margin-bottom:.5rem">🔤</div>
+  <div class="info-title" id="panelTitle">Present Perfect Tense</div>
+  <div class="info-meta" id="panelMeta">🔤 Ngữ pháp · Unit 13 · ~45 phút · 220 XP</div>
+  <a href="exercise-listening.html" class="info-btn" id="panelBtn">Bắt đầu bài học →</a>
+</div>
+
+<script>
+  const html = document.documentElement;
+  const toggleBtn = document.getElementById('darkToggle');
+  const saved = localStorage.getItem('theme') || 'light';
+  if(saved==='dark'){html.dataset.theme='dark';toggleBtn.textContent='☀️'}
+  toggleBtn.addEventListener('click',()=>{
+    const d=html.dataset.theme==='dark';
+    html.dataset.theme=d?'light':'dark';toggleBtn.textContent=d?'🌙':'☀️';
+    localStorage.setItem('theme',d?'light':'dark');
+  });
+
+  const hamburger=document.getElementById('hamburger');
+  const drawer=document.getElementById('mobileDrawer');
+  const overlay=document.getElementById('drawerOverlay');
+  const closeBtn=document.getElementById('drawerClose');
+  hamburger.addEventListener('click',()=>drawer.classList.add('open'));
+  overlay.addEventListener('click',()=>drawer.classList.remove('open'));
+  closeBtn.addEventListener('click',()=>drawer.classList.remove('open'));
+
+  function openPanel(title, meta, state){
+    const icons={done:'✅',active:'▶️',locked:'🔒'};
+    const hrefs={done:'student-dashboard.html',active:'exercise-listening.html',locked:'#'};
+    const btnText={done:'Xem lại bài học','active':'Tiếp tục học →',locked:'🔒 Chưa mở khóa'};
+    document.getElementById('panelIcon').textContent=icons[state]||'📚';
+    document.getElementById('panelTitle').textContent=title;
+    document.getElementById('panelMeta').textContent=meta;
+    const btn=document.getElementById('panelBtn');
+    btn.href=hrefs[state]||'#';
+    btn.textContent=state==='done'?'Xem lại bài học ':state==='active'?'Tiếp tục học →':'🔒 Chưa mở khóa';
+    btn.style.opacity=state==='locked'?.5:1;
+    btn.style.pointerEvents=state==='locked'?'none':'auto';
+    document.getElementById('infoPanel').classList.add('open');
+  }
+  function closePanel(){document.getElementById('infoPanel').classList.remove('open')}
+</script>
+</body>
+</html>

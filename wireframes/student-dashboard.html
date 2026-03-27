@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard – English Study</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    /* ─── Design Tokens ─────────────────────────────────────── */
+    :root {
+      --bg:          #F5F4F0;
+      --bg2:         #ECEAE4;
+      --card:        rgba(255,255,255,0.72);
+      --card-border: rgba(255,255,255,0.9);
+      --nav-bg:      linear-gradient(135deg,#5B6EFF 0%,#7B3FE4 100%);
+      --accent:      #5B6EFF;
+      --purple:      #7B3FE4;
+      --success:     #22C97C;
+      --streak:      #FF6B35;
+      --danger:      #E84646;
+      --txt:         #1A1A2E;
+      --txt2:        #5A5A78;
+      --shadow:      0 4px 24px rgba(0,0,0,0.08);
+      --shadow-md:   0 8px 32px rgba(0,0,0,0.12);
+      --r:           16px;
+      --r-sm:        10px;
+      --transition:  .2s ease;
+    }
+    [data-theme="dark"] {
+      --bg:          #0F0F1A;
+      --bg2:         #161625;
+      --card:        rgba(255,255,255,0.05);
+      --card-border: rgba(255,255,255,0.10);
+      --txt:         #EEEEFF;
+      --txt2:        #8888AA;
+      --shadow:      0 4px 24px rgba(0,0,0,0.4);
+      --shadow-md:   0 8px 32px rgba(0,0,0,0.55);
+    }
+
+    /* ─── Reset ─────────────────────────────────────────────── */
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{font-size:16px}
+    body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);transition:background .3s,color .3s;min-height:100vh}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%}
+
+    /* ─── Navbar ─────────────────────────────────────────────── */
+    .navbar{
+      position:sticky;top:0;z-index:100;
+      background:var(--nav-bg);
+      display:flex;align-items:center;gap:1rem;
+      padding:.75rem 1.5rem;
+      box-shadow:0 2px 20px rgba(91,110,255,.35);
+    }
+    .navbar-brand{display:flex;align-items:center;gap:.6rem;flex-shrink:0}
+    .brand-icon{
+      width:36px;height:36px;border-radius:10px;
+      background:rgba(255,255,255,0.22);
+      display:flex;align-items:center;justify-content:center;
+      font-weight:800;font-size:1rem;color:#fff;letter-spacing:-1px;
+    }
+    .brand-name{color:#fff;font-weight:700;font-size:1.05rem;white-space:nowrap}
+    .navbar-links{
+      display:flex;align-items:center;gap:.25rem;margin-left:1rem;flex:1;
+    }
+    .nav-link{
+      display:flex;align-items:center;gap:.45rem;
+      color:rgba(255,255,255,0.75);font-size:.88rem;font-weight:500;
+      padding:.45rem .9rem;border-radius:8px;transition:var(--transition);
+      white-space:nowrap;
+    }
+    .nav-link:hover,.nav-link.active{
+      background:rgba(255,255,255,0.18);color:#fff;
+    }
+    .nav-link svg{width:16px;height:16px;flex-shrink:0}
+    .navbar-right{display:flex;align-items:center;gap:.75rem;margin-left:auto}
+    .dark-toggle{
+      background:rgba(255,255,255,0.15);border:none;cursor:pointer;
+      width:36px;height:36px;border-radius:8px;
+      display:flex;align-items:center;justify-content:center;
+      font-size:1rem;transition:var(--transition);color:#fff;
+    }
+    .dark-toggle:hover{background:rgba(255,255,255,0.25)}
+    .user-chip{
+      display:flex;align-items:center;gap:.55rem;
+      background:rgba(255,255,255,0.15);
+      border-radius:9999px;padding:.35rem .8rem .35rem .35rem;
+      cursor:pointer;transition:var(--transition);
+    }
+    .user-chip:hover{background:rgba(255,255,255,0.25)}
+    .avatar{
+      width:30px;height:30px;border-radius:50%;
+      background:linear-gradient(135deg,#FFD166,#FF6B35);
+      display:flex;align-items:center;justify-content:center;
+      font-weight:700;font-size:.72rem;color:#fff;flex-shrink:0;
+    }
+    .user-chip-name{color:#fff;font-size:.82rem;font-weight:600}
+    .level-badge{
+      background:rgba(255,255,255,0.25);color:#fff;
+      font-size:.66rem;font-weight:700;padding:.15rem .45rem;border-radius:5px;
+      letter-spacing:.5px;
+    }
+    .hamburger{display:none;background:none;border:none;cursor:pointer;color:#fff}
+
+    /* ─── Page ───────────────────────────────────────────────── */
+    .page{max-width:1280px;margin:0 auto;padding:1.75rem 1.25rem 3rem}
+
+    /* ─── Greeting ───────────────────────────────────────────── */
+    .greeting{
+      display:flex;align-items:center;justify-content:space-between;
+      margin-bottom:1.5rem;flex-wrap:wrap;gap:.75rem;
+    }
+    .greeting h1{font-size:1.55rem;font-weight:700;line-height:1.25}
+    .greeting h1 span{background:var(--nav-bg);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .greeting p{color:var(--txt2);font-size:.92rem;margin-top:.3rem}
+    .streak-pill{
+      display:flex;align-items:center;gap:.55rem;
+      background:linear-gradient(135deg,#FF6B35,#E84646);
+      color:#fff;padding:.6rem 1.1rem;border-radius:9999px;
+      font-weight:700;font-size:.95rem;
+      box-shadow:0 4px 16px rgba(255,107,53,.4);
+      animation:pulse 2s infinite;
+    }
+    @keyframes pulse{0%,100%{box-shadow:0 4px 16px rgba(255,107,53,.4)}50%{box-shadow:0 4px 24px rgba(255,107,53,.65)}}
+
+    /* ─── Stats Row ───────────────────────────────────────────── */
+    .stats-row{
+      display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;
+      margin-bottom:1.5rem;
+    }
+    .stat-card{
+      background:var(--card);
+      border:1px solid var(--card-border);
+      backdrop-filter:blur(12px);
+      border-radius:var(--r);
+      padding:1rem 1.2rem;
+      box-shadow:var(--shadow);
+      display:flex;flex-direction:column;gap:.35rem;
+      transition:transform .2s,box-shadow .2s;
+    }
+    .stat-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}
+    .stat-icon{font-size:1.4rem;margin-bottom:.1rem}
+    .stat-value{font-size:1.75rem;font-weight:800;line-height:1}
+    .stat-label{font-size:.78rem;color:var(--txt2);font-weight:500;text-transform:uppercase;letter-spacing:.4px}
+    .stat-delta{font-size:.75rem;margin-top:.2rem}
+    .stat-delta.up{color:var(--success)}
+    .stat-delta.warn{color:var(--streak)}
+    .color-accent{color:var(--accent)}
+    .color-success{color:var(--success)}
+    .color-streak{color:var(--streak)}
+    .color-purple{color:var(--purple)}
+
+    /* ─── Main Grid ───────────────────────────────────────────── */
+    .main-grid{
+      display:grid;grid-template-columns:1fr 360px;gap:1.25rem;
+    }
+    .left-col{display:flex;flex-direction:column;gap:1.25rem}
+    .right-col{display:flex;flex-direction:column;gap:1.25rem}
+
+    /* ─── Card ───────────────────────────────────────────────── */
+    .card{
+      background:var(--card);
+      border:1px solid var(--card-border);
+      backdrop-filter:blur(12px);
+      border-radius:var(--r);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .card-header{
+      display:flex;align-items:center;justify-content:space-between;
+      padding:1rem 1.25rem .75rem;
+      border-bottom:1px solid rgba(0,0,0,0.06);
+    }
+    [data-theme="dark"] .card-header{border-color:rgba(255,255,255,0.06)}
+    .card-title{font-size:.92rem;font-weight:700;display:flex;align-items:center;gap:.5rem}
+    .card-title span{width:8px;height:8px;border-radius:50%;display:inline-block}
+    .card-link{font-size:.78rem;color:var(--accent);font-weight:600;cursor:pointer;transition:opacity .2s}
+    .card-link:hover{opacity:.75}
+    .card-body{padding:1.25rem}
+
+    /* ─── Radar Chart ─────────────────────────────────────────── */
+    .radar-wrap{
+      display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;
+    }
+    .radar-canvas-wrap{flex:1;min-width:180px;max-width:280px;margin:0 auto}
+    .skill-legend{flex:1;display:flex;flex-direction:column;gap:.8rem;min-width:180px}
+    .skill-row{display:flex;align-items:center;gap:.75rem}
+    .skill-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+    .skill-name{font-size:.85rem;font-weight:600;flex:1}
+    .skill-bar-wrap{flex:2;background:var(--bg2);border-radius:9999px;height:7px;overflow:hidden}
+    .skill-bar{height:100%;border-radius:9999px;transition:width .8s ease}
+    .skill-score{font-size:.82rem;font-weight:700;min-width:32px;text-align:right}
+
+    /* ─── Course Progress ─────────────────────────────────────── */
+    .course-item{
+      display:flex;align-items:center;gap:1rem;padding:.75rem 0;
+      border-bottom:1px solid rgba(0,0,0,0.05);
+    }
+    [data-theme="dark"] .course-item{border-color:rgba(255,255,255,0.05)}
+    .course-item:last-child{border-bottom:none;padding-bottom:0}
+    .course-item:first-child{padding-top:0}
+    .course-icon{
+      width:42px;height:42px;border-radius:12px;
+      display:flex;align-items:center;justify-content:center;
+      font-size:1.2rem;flex-shrink:0;
+    }
+    .course-info{flex:1;min-width:0}
+    .course-name{font-size:.88rem;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .course-meta{font-size:.75rem;color:var(--txt2);margin-top:.2rem}
+    .course-prog-wrap{margin-top:.5rem;background:var(--bg2);height:6px;border-radius:9999px;overflow:hidden}
+    .course-prog-bar{height:100%;border-radius:9999px;background:var(--accent)}
+    .course-pct{font-size:.82rem;font-weight:700;min-width:38px;text-align:right}
+
+    /* ─── Next Lesson ─────────────────────────────────────────── */
+    .next-lesson-card{
+      background:var(--nav-bg);
+      border-radius:var(--r);padding:1.25rem;
+      color:#fff;position:relative;overflow:hidden;
+    }
+    .next-lesson-card::before{
+      content:'';position:absolute;right:-30px;top:-30px;
+      width:130px;height:130px;border-radius:50%;
+      background:rgba(255,255,255,.08);
+    }
+    .next-lesson-card::after{
+      content:'';position:absolute;right:20px;bottom:-40px;
+      width:100px;height:100px;border-radius:50%;
+      background:rgba(255,255,255,.06);
+    }
+    .next-tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.6px;opacity:.8;font-weight:600}
+    .next-title{font-size:1.1rem;font-weight:700;margin:.4rem 0 .2rem;line-height:1.3}
+    .next-desc{font-size:.8rem;opacity:.8;line-height:1.5}
+    .next-btn{
+      display:inline-flex;align-items:center;gap:.45rem;
+      margin-top:1rem;background:rgba(255,255,255,.2);
+      border:1px solid rgba(255,255,255,.3);
+      border-radius:8px;padding:.55rem 1.1rem;
+      font-size:.85rem;font-weight:600;color:#fff;
+      cursor:pointer;transition:var(--transition);position:relative;z-index:1;
+    }
+    .next-btn:hover{background:rgba(255,255,255,.3);transform:translateY(-1px)}
+    .next-btn:active{transform:translateY(0) scale(.97)}
+
+    /* ─── Activity Feed ───────────────────────────────────────── */
+    .activity-item{
+      display:flex;align-items:center;gap:.85rem;
+      padding:.65rem 0;border-bottom:1px solid rgba(0,0,0,0.05);
+    }
+    [data-theme="dark"] .activity-item{border-color:rgba(255,255,255,0.05)}
+    .activity-item:last-child{border-bottom:none}
+    .activity-icon{
+      width:36px;height:36px;border-radius:10px;
+      display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0;
+    }
+    .activity-text{flex:1;min-width:0}
+    .activity-text strong{font-size:.85rem;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .activity-text span{font-size:.75rem;color:var(--txt2)}
+    .activity-score{
+      font-size:.85rem;font-weight:700;padding:.2rem .55rem;border-radius:6px;
+    }
+    .score-high{background:rgba(34,201,124,.12);color:var(--success)}
+    .score-mid{background:rgba(91,110,255,.12);color:var(--accent)}
+    .score-low{background:rgba(232,70,70,.12);color:var(--danger)}
+
+    /* ─── Achievements ────────────────────────────────────────── */
+    .achievements-grid{
+      display:grid;grid-template-columns:repeat(4,1fr);gap:.75rem;
+    }
+    .ach-item{
+      display:flex;flex-direction:column;align-items:center;gap:.4rem;
+      padding:.85rem .5rem;border-radius:var(--r-sm);
+      background:var(--bg2);text-align:center;
+      transition:transform .2s;cursor:pointer;
+    }
+    .ach-item:hover{transform:translateY(-2px)}
+    .ach-item.locked{opacity:.4;filter:grayscale(1)}
+    .ach-icon{font-size:1.6rem}
+    .ach-name{font-size:.7rem;font-weight:600;color:var(--txt2);line-height:1.2}
+
+    /* ─── Quick Actions ───────────────────────────────────────── */
+    .quick-actions{
+      display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem;
+    }
+    .qa-btn{
+      display:flex;align-items:center;gap:.75rem;
+      padding:.9rem 1rem;border-radius:var(--r-sm);
+      border:1.5px solid rgba(0,0,0,0.08);background:var(--card);
+      cursor:pointer;transition:var(--transition);
+      font-size:.85rem;font-weight:600;color:var(--txt);
+    }
+    [data-theme="dark"] .qa-btn{border-color:rgba(255,255,255,.1)}
+    .qa-btn:hover{border-color:var(--accent);background:rgba(91,110,255,.06);color:var(--accent);transform:translateY(-1px)}
+    .qa-btn:active{transform:scale(.97)}
+    .qa-icon{font-size:1.3rem}
+
+    /* ─── Responsive ─────────────────────────────────────────── */
+    @media(max-width:1024px){
+      .main-grid{grid-template-columns:1fr}
+      .right-col{order:-1}
+      .stats-row{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:640px){
+      .stats-row{grid-template-columns:repeat(2,1fr)}
+      .navbar-links{display:none}
+      .hamburger{display:flex;padding:.5rem}
+      .brand-name{display:none}
+      .radar-wrap{flex-direction:column}
+      .achievements-grid{grid-template-columns:repeat(4,1fr)}
+      .greeting h1{font-size:1.25rem}
+    }
+    @media(max-width:400px){
+      .stats-row{grid-template-columns:1fr 1fr}
+      .stat-value{font-size:1.4rem}
+    }
+
+    /* ─── Mobile drawer ───────────────────────────────────────── */
+    .mobile-drawer{
+      display:none;position:fixed;inset:0;z-index:200;
+    }
+    .mobile-drawer.open{display:block}
+    .drawer-overlay{position:absolute;inset:0;background:rgba(0,0,0,.5)}
+    .drawer-panel{
+      position:absolute;left:0;top:0;bottom:0;width:260px;
+      background:var(--bg);padding:1.5rem 1.25rem;
+      display:flex;flex-direction:column;gap:.5rem;
+      box-shadow:4px 0 32px rgba(0,0,0,.2);
+    }
+    .drawer-close{background:none;border:none;cursor:pointer;font-size:1.4rem;color:var(--txt);margin-bottom:.5rem;align-self:flex-end}
+    .drawer-link{
+      display:flex;align-items:center;gap:.75rem;
+      padding:.7rem 1rem;border-radius:10px;font-weight:500;font-size:.95rem;
+      color:var(--txt);transition:var(--transition);
+    }
+    .drawer-link:hover,.drawer-link.active{background:rgba(91,110,255,.1);color:var(--accent)}
+  </style>
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══════════════════════════════════════════════ -->
+<nav class="navbar">
+  <div class="navbar-brand">
+    <div class="brand-icon">ES</div>
+    <span class="brand-name">English Study</span>
+  </div>
+
+  <div class="navbar-links">
+    <a href="student-dashboard.html" class="nav-link active">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+      Dashboard
+    </a>
+    <a href="skill-map.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v4M7 18l5-3M17 18l-5-3"/></svg>
+      Bản đồ học tập
+    </a>
+    <a href="exercise-listening.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+      Luyện nghe
+    </a>
+    <a href="exercise-speaking.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+      Luyện nói
+    </a>
+    <a href="exercise-reading.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      Luyện đọc
+    </a>
+    <a href="exercise-writing.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+      Luyện viết
+    </a>
+  </div>
+
+  <div class="navbar-right">
+    <button class="dark-toggle" id="darkToggle" title="Chế độ tối/sáng">🌙</button>
+    <div class="user-chip">
+      <div class="avatar">HA</div>
+      <span class="user-chip-name">Hà Anh</span>
+      <span class="level-badge">A2</span>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Drawer -->
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <div class="drawer-panel">
+    <button class="drawer-close" id="drawerClose">✕</button>
+    <a href="student-dashboard.html" class="drawer-link active">🏠 Dashboard</a>
+    <a href="skill-map.html" class="drawer-link">🗺️ Bản đồ học tập</a>
+    <a href="exercise-listening.html" class="drawer-link">🎧 Luyện nghe</a>
+    <a href="exercise-speaking.html" class="drawer-link">🎤 Luyện nói</a>
+    <a href="exercise-reading.html" class="drawer-link">📖 Luyện đọc</a>
+    <a href="exercise-writing.html" class="drawer-link">✍️ Luyện viết</a>
+  </div>
+</div>
+
+<!-- ═══ PAGE CONTENT ══════════════════════════════════════════ -->
+<main class="page">
+
+  <!-- Greeting -->
+  <div class="greeting">
+    <div>
+      <h1>Chào buổi chiều, <span>Hà Anh! 👋</span></h1>
+      <p>Hôm nay bạn đã học <strong>2 bài học</strong> — hãy tiếp tục chinh phục A2 nhé!</p>
+    </div>
+    <div class="streak-pill">🔥 47 ngày liên tiếp</div>
+  </div>
+
+  <!-- Stats Row -->
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-icon">📚</div>
+      <div class="stat-value color-accent">127</div>
+      <div class="stat-label">Bài đã học</div>
+      <div class="stat-delta up">↑ +3 tuần này</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">⭐</div>
+      <div class="stat-value color-purple">2.340</div>
+      <div class="stat-label">Tổng điểm XP</div>
+      <div class="stat-delta up">↑ +120 hôm nay</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">🎯</div>
+      <div class="stat-value color-success">78</div>
+      <div class="stat-label">Điểm TB (100)</div>
+      <div class="stat-delta up">↑ +2 tháng này</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">⏱️</div>
+      <div class="stat-value" style="color:var(--streak)">3,5h</div>
+      <div class="stat-label">Thời gian học</div>
+      <div class="stat-delta warn">Tuần này</div>
+    </div>
+  </div>
+
+  <!-- Main Grid -->
+  <div class="main-grid">
+
+    <!-- LEFT COLUMN -->
+    <div class="left-col">
+
+      <!-- Radar Chart -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span style="background:var(--accent)"></span>
+            Biểu đồ kỹ năng (Radar)
+          </div>
+          <span class="card-link">Xem chi tiết →</span>
+        </div>
+        <div class="card-body">
+          <div class="radar-wrap">
+            <div class="radar-canvas-wrap">
+              <canvas id="radarChart"></canvas>
+            </div>
+            <div class="skill-legend">
+              <div class="skill-row">
+                <div class="skill-dot" style="background:#5B6EFF"></div>
+                <span class="skill-name">🎧 Nghe (Listening)</span>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar" style="width:72%;background:#5B6EFF"></div>
+                </div>
+                <span class="skill-score color-accent">72</span>
+              </div>
+              <div class="skill-row">
+                <div class="skill-dot" style="background:#7B3FE4"></div>
+                <span class="skill-name">🎤 Nói (Speaking)</span>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar" style="width:58%;background:#7B3FE4"></div>
+                </div>
+                <span class="skill-score color-purple">58</span>
+              </div>
+              <div class="skill-row">
+                <div class="skill-dot" style="background:#22C97C"></div>
+                <span class="skill-name">📖 Đọc (Reading)</span>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar" style="width:85%;background:#22C97C"></div>
+                </div>
+                <span class="skill-score color-success">85</span>
+              </div>
+              <div class="skill-row">
+                <div class="skill-dot" style="background:#FF6B35"></div>
+                <span class="skill-name">✍️ Viết (Writing)</span>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar" style="width:63%;background:#FF6B35"></div>
+                </div>
+                <span class="skill-score" style="color:var(--streak)">63</span>
+              </div>
+              <div style="margin-top:.75rem;padding:.75rem;background:rgba(255,107,53,.08);border-radius:10px;border-left:3px solid var(--streak)">
+                <p style="font-size:.8rem;color:var(--txt2)"><strong style="color:var(--streak)">💡 Gợi ý:</strong> Kỹ năng <strong>Nói</strong> của bạn đang thấp hơn mức trung bình — hãy thử thêm bài Luyện nói hôm nay!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Progress -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span style="background:var(--success)"></span>
+            Tiến độ khóa học
+          </div>
+          <span class="card-link">Tất cả →</span>
+        </div>
+        <div class="card-body" style="padding-top:.5rem;padding-bottom:.5rem">
+          <div class="course-item">
+            <div class="course-icon" style="background:rgba(91,110,255,.12)">🅰️</div>
+            <div class="course-info">
+              <div class="course-name">A2 Grammar Foundations</div>
+              <div class="course-meta">12/18 chương · 14 bài còn lại</div>
+              <div class="course-prog-wrap">
+                <div class="course-prog-bar" style="width:78%;background:var(--accent)"></div>
+              </div>
+            </div>
+            <div class="course-pct color-accent">78%</div>
+          </div>
+          <div class="course-item">
+            <div class="course-icon" style="background:rgba(34,201,124,.12)">📝</div>
+            <div class="course-info">
+              <div class="course-name">Vocabulary in Context A2</div>
+              <div class="course-meta">6/16 chương · 33 bài còn lại</div>
+              <div class="course-prog-wrap">
+                <div class="course-prog-bar" style="width:55%;background:var(--success)"></div>
+              </div>
+            </div>
+            <div class="course-pct color-success">55%</div>
+          </div>
+          <div class="course-item">
+            <div class="course-icon" style="background:rgba(255,107,53,.12)">💼</div>
+            <div class="course-info">
+              <div class="course-name">Business English Basics</div>
+              <div class="course-meta">2/10 chương · 42 bài còn lại</div>
+              <div class="course-prog-wrap">
+                <div class="course-prog-bar" style="width:23%;background:var(--streak)"></div>
+              </div>
+            </div>
+            <div class="course-pct" style="color:var(--streak)">23%</div>
+          </div>
+          <div class="course-item">
+            <div class="course-icon" style="background:rgba(123,63,228,.12)">🔒</div>
+            <div class="course-info">
+              <div class="course-name">B1 Intermediate Bridge</div>
+              <div class="course-meta">🔒 Cần hoàn thành A2 Grammar trước</div>
+              <div class="course-prog-wrap">
+                <div class="course-prog-bar" style="width:0%;background:var(--txt2)"></div>
+              </div>
+            </div>
+            <div class="course-pct" style="color:var(--txt2)">0%</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="right-col">
+
+      <!-- Next Lesson CTA -->
+      <div class="next-lesson-card">
+        <div class="next-tag">▸ TIẾP THEO</div>
+        <div class="next-title">Present Perfect – Hành động quá khứ còn ảnh hưởng</div>
+        <div class="next-desc">Unit 13 · A2 Grammar · Nghe + Trắc nghiệm · ~25 phút</div>
+        <a href="exercise-listening.html" class="next-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          Bắt đầu học
+        </a>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span style="background:var(--purple)"></span>
+            Luyện tập nhanh
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="quick-actions">
+            <a href="exercise-listening.html" class="qa-btn"><span class="qa-icon">🎧</span>Luyện nghe</a>
+            <a href="exercise-speaking.html" class="qa-btn"><span class="qa-icon">🎤</span>Luyện nói</a>
+            <a href="exercise-reading.html" class="qa-btn"><span class="qa-icon">📖</span>Luyện đọc</a>
+            <a href="exercise-writing.html" class="qa-btn"><span class="qa-icon">✍️</span>Luyện viết</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recent Activity -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span style="background:var(--success)"></span>
+            Hoạt động gần đây
+          </div>
+          <span class="card-link">Tất cả →</span>
+        </div>
+        <div class="card-body" style="padding-top:.5rem;padding-bottom:.5rem">
+          <div class="activity-item">
+            <div class="activity-icon" style="background:rgba(34,201,124,.12)">📖</div>
+            <div class="activity-text">
+              <strong>Reading – Tourism in Vietnam</strong>
+              <span>Hôm nay, 14:32 · A2 Đọc hiểu</span>
+            </div>
+            <div class="activity-score score-high">92/100</div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-icon" style="background:rgba(91,110,255,.12)">🎧</div>
+            <div class="activity-text">
+              <strong>Listening – Daily Conversations</strong>
+              <span>Hôm nay, 10:15 · A2 Nghe ngắn</span>
+            </div>
+            <div class="activity-score score-mid">74/100</div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-icon" style="background:rgba(255,107,53,.12)">🎤</div>
+            <div class="activity-text">
+              <strong>Speaking – At the Restaurant</strong>
+              <span>Hôm qua, 18:55 · Nhập vai</span>
+            </div>
+            <div class="activity-score score-low">55/100</div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-icon" style="background:rgba(123,63,228,.12)">✍️</div>
+            <div class="activity-text">
+              <strong>Writing – My Weekend Plans</strong>
+              <span>Hôm qua, 16:22 · Viết luận ngắn</span>
+            </div>
+            <div class="activity-score score-high">88/100</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievements -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span style="background:#FFD166"></span>
+            Thành tích
+          </div>
+          <span class="card-link">Tất cả →</span>
+        </div>
+        <div class="card-body">
+          <div class="achievements-grid">
+            <div class="ach-item" title="Học 7 ngày liên tiếp">
+              <div class="ach-icon">🔥</div>
+              <div class="ach-name">7-Day Streak</div>
+            </div>
+            <div class="ach-item" title="Hoàn thành cấp A1">
+              <div class="ach-icon">🥇</div>
+              <div class="ach-name">A1 Master</div>
+            </div>
+            <div class="ach-item" title="Điểm Nghe 90+">
+              <div class="ach-icon">👂</div>
+              <div class="ach-name">Ear Pro</div>
+            </div>
+            <div class="ach-item title" title="Học 100 bài">
+              <div class="ach-icon">📚</div>
+              <div class="ach-name">100 Lessons</div>
+            </div>
+            <div class="ach-item locked" title="Điểm Nói 80+ (Chưa đạt)">
+              <div class="ach-icon">🎙️</div>
+              <div class="ach-name">Voice Star</div>
+            </div>
+            <div class="ach-item locked" title="Hoàn thành A2 (Chưa đạt)">
+              <div class="ach-icon">🎓</div>
+              <div class="ach-name">A2 Graduate</div>
+            </div>
+            <div class="ach-item locked" title="Học 30 ngày liên tiếp">
+              <div class="ach-icon">⚡</div>
+              <div class="ach-name">30-Day Fire</div>
+            </div>
+            <div class="ach-item locked" title="Viết 10 bài luận">
+              <div class="ach-icon">✒️</div>
+              <div class="ach-name">Essay King</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end right-col -->
+  </div><!-- end main-grid -->
+</main>
+
+<script>
+  /* ── Dark Mode ─────────────────────────────────────────────── */
+  const html = document.documentElement;
+  const toggleBtn = document.getElementById('darkToggle');
+  const saved = localStorage.getItem('theme') || 'light';
+  if(saved === 'dark'){ html.dataset.theme = 'dark'; toggleBtn.textContent = '☀️'; }
+  toggleBtn.addEventListener('click', () => {
+    const isDark = html.dataset.theme === 'dark';
+    html.dataset.theme = isDark ? 'light' : 'dark';
+    toggleBtn.textContent = isDark ? '🌙' : '☀️';
+    localStorage.setItem('theme', isDark ? 'light' : 'dark');
+    updateChart();
+  });
+
+  /* ── Mobile Drawer ─────────────────────────────────────────── */
+  const hamburger = document.getElementById('hamburger');
+  const drawer = document.getElementById('mobileDrawer');
+  const overlay = document.getElementById('drawerOverlay');
+  const closeBtn = document.getElementById('drawerClose');
+  hamburger.addEventListener('click', () => drawer.classList.add('open'));
+  overlay.addEventListener('click', () => drawer.classList.remove('open'));
+  closeBtn.addEventListener('click', () => drawer.classList.remove('open'));
+
+  /* ── Radar Chart ────────────────────────────────────────────── */
+  let radarChart;
+  function getChartColors() {
+    const dark = html.dataset.theme === 'dark';
+    return {
+      grid: dark ? 'rgba(255,255,255,0.12)' : 'rgba(0,0,0,0.1)',
+      ticks: dark ? '#8888AA' : '#5A5A78',
+      pointLabel: dark ? '#EEEEFF' : '#1A1A2E',
+    };
+  }
+  function buildChart() {
+    const c = getChartColors();
+    const ctx = document.getElementById('radarChart').getContext('2d');
+    radarChart = new Chart(ctx, {
+      type: 'radar',
+      data: {
+        labels: ['🎧 Nghe', '🎤 Nói', '📖 Đọc', '✍️ Viết'],
+        datasets: [{
+          label: 'Kỹ năng của bạn',
+          data: [72, 58, 85, 63],
+          borderColor: '#5B6EFF',
+          backgroundColor: 'rgba(91,110,255,0.18)',
+          pointBackgroundColor: '#5B6EFF',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: '#5B6EFF',
+          pointRadius: 5,
+          borderWidth: 2,
+        },{
+          label: 'Mục tiêu A2',
+          data: [70, 70, 70, 70],
+          borderColor: 'rgba(34,201,124,0.5)',
+          backgroundColor: 'rgba(34,201,124,0.06)',
+          borderDash: [5,3],
+          pointRadius: 0,
+          borderWidth: 1.5,
+        }]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          r: {
+            min: 0, max: 100,
+            ticks: { stepSize: 25, color: c.ticks, backdropColor: 'transparent', font:{size:10} },
+            grid: { color: c.grid },
+            angleLines: { color: c.grid },
+            pointLabels: { color: c.pointLabel, font:{size:12, weight:'600'} }
+          }
+        },
+        plugins: {
+          legend: {
+            labels: { color: c.pointLabel, font:{size:11}, boxWidth:12 }
+          },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.dataset.label}: ${ctx.raw}/100` } }
+        }
+      }
+    });
+  }
+  function updateChart() {
+    const c = getChartColors();
+    radarChart.options.scales.r.ticks.color = c.ticks;
+    radarChart.options.scales.r.grid.color = c.grid;
+    radarChart.options.scales.r.angleLines.color = c.grid;
+    radarChart.options.scales.r.pointLabels.color = c.pointLabel;
+    radarChart.options.plugins.legend.labels.color = c.pointLabel;
+    radarChart.update();
+  }
+  buildChart();
+</script>
+</body>
+</html>

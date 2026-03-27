@@ -1,0 +1,177 @@
+# NHIỆM VỤ: Sinh Django JSON Fixture — A2.csv Batch 7/18
+
+Bạn là chuyên gia ngôn ngữ học và kỹ sư dữ liệu.
+Làm giàu dữ liệu (data enrichment) cho **50 từ tiếng Anh trình độ A2** bên dưới.
+Dữ liệu đầu vào đã có sẵn: pk, word, part_of_speech, ipa_uk.
+Bạn cần **bổ sung TẤT CẢ** các trường còn lại theo đúng quy tắc dưới đây.
+
+---
+## DỮ LIỆU ĐẦU VÀO (đã biết — KHÔNG thay đổi):
+
+| pk | word | part_of_speech | ipa_uk |
+|----|------|---------------|--------|
+| 1303 | figure | noun | ˈfɪɡjər |
+| 1304 | film | verb | fɪlm |
+| 1305 | final | noun | ˈfaɪnəl |
+| 1306 | finally | adverb | ˈfaɪnəli |
+| 1307 | finger | noun | ˈfɪŋɡər |
+| 1308 | finish | noun | ˈfɪnɪʃ |
+| 1309 | first | noun | fɜrst |
+| 1310 | firstly | adverb | ˈfɜrstli |
+| 1311 | fish | verb | fɪʃ |
+| 1312 | fishing | noun | ˈfɪʃɪŋ |
+| 1313 | fit | verb | fɪt |
+| 1314 | fix | verb | fɪks |
+| 1315 | flat | adjective | flæt |
+| 1316 | flu | noun | flu |
+| 1317 | fly | noun | flaɪ |
+| 1318 | flying | noun | ˈflaɪɪŋ |
+| 1319 | focus | verb | ˈfoʊkəs |
+| 1320 | following | adjective | ˈfɑloʊɪŋ |
+| 1321 | foreign | adjective | ˈfɔrən |
+| 1322 | forest | noun | ˈfɔrəst |
+| 1323 | fork | noun | fɔrk |
+| 1324 | formal | adjective | ˈfɔrməl |
+| 1325 | fortunately | adverb | ˈfɔrʧənətli |
+| 1326 | forward | adverb | ˈfɔrwərd |
+| 1327 | free | adverb | fri |
+| 1328 | fresh | adjective | frɛʃ |
+| 1329 | fridge | noun | frɪʤ |
+| 1330 | frog | noun | frɑɡ |
+| 1331 | fun | adjective | fʌn |
+| 1332 | furniture | noun | ˈfɜrnɪʧər |
+| 1333 | further | adjective | ˈfɜrðər |
+| 1334 | future | adjective | ˈfjuʧər |
+| 1335 | gallery | noun | ˈɡæləri |
+| 1336 | gap | noun | ɡæp |
+| 1337 | gas | noun | ɡæs |
+| 1338 | gate | noun | ɡeɪt |
+| 1339 | general | adjective | ˈʤɛnərəl |
+| 1340 | gift | noun | ɡɪft |
+| 1341 | goal | noun | ɡoʊl |
+| 1342 | god | noun | ɡɑd |
+| 1343 | gold | noun | ɡoʊld |
+| 1344 | golf | noun | ɡɑlf |
+| 1345 | good | noun | ɡʊd |
+| 1346 | government | noun | ˈɡʌvərmənt |
+| 1347 | grass | noun | ɡræs |
+| 1348 | greet | verb | ɡrit |
+| 1349 | ground | noun | ɡraʊnd |
+| 1350 | guest | noun | ɡɛst |
+| 1351 | guide | noun | ɡaɪd |
+| 1352 | gun | noun | ɡʌn |
+
+---
+## QUY TẮC BỔ SUNG:
+
+### 1. domain
+Gán MỘT domain phù hợp nhất từ danh sách sau (chỉ dùng đúng giá trị này, viết thường):
+`general` | `everyday` | `business` | `technology` | `academic` | `medical` | `health` | `travel` | `food` | `vegetables` | `animals` | `nature` | `art`
+
+Hướng dẫn gán domain:
+- **general**: từ chức năng/từ cơ bản không thuộc ngữ cảnh cụ thể (about, after, again, can, do, good, big…)
+- **everyday**: đời sống hằng ngày, gia đình, nhà cửa, cảm xúc, thời gian (morning, family, happy, house…)
+- **business**: kinh tế, tài chính, marketing, công ty (price, market, report, profit…)
+- **technology**: máy tính, internet, phần mềm (computer, software, wifi, data…)
+- **academic**: giáo dục, nghiên cứu, khoa học (theory, analysis, evidence…)
+- **medical**: y tế, bệnh viện, thuốc (doctor, medicine, symptom…)
+- **health**: lối sống, thể dục, dinh dưỡng (exercise, diet, sleep…)
+- **travel**: di chuyển, địa điểm, du lịch (airport, hotel, map, ticket…)
+- **food**: ẩm thực, nấu ăn, thức uống (cooking, recipe, soup, juice, restaurant…)
+- **vegetables**: rau xanh, quả, nguyên liệu nấu ăn (apple, rice, carrot, bread, flour…)
+- **animals**: động vật, côn trùng, sinh vật hoang dã (dog, cat, fish, bird, insect…)
+- **nature**: thiên nhiên, địa lý, thời tiết, cảnh quan (rain, mountain, river, sea, wind…)
+- **art**: nghệ thuật, âm nhạc, hội hoạ, văn học (music, paint, novel, dance…)
+
+### 2. ipa_us
+Nếu IPA Mỹ khác IPA Anh, điền đúng. Nếu giống hệt thì copy ipa_uk.
+
+### 3. definition_en
+1–2 câu tiếng Anh đơn giản, phù hợp trình độ A2.
+
+### 4. example_en / example_vi
+Câu ví dụ tiếng Anh có dùng đúng từ đó. Dịch sang tiếng Việt tự nhiên.
+
+### 5. collocations_json
+Mảng 3–5 cụm từ hay gặp (string). Ví dụ: ["go to school", "school bus", "after school"]
+
+### 6. synonyms_json / antonyms_json
+Mảng string, 1–3 từ đồng nghĩa/trái nghĩa. Để [] nếu không có.
+
+### 7. mnemonic
+1 câu gợi nhớ vui, sáng tạo bằng tiếng Việt hoặc tiếng Anh.
+
+### 8. frequency_rank
+Ước lượng hạng tần suất (1 = phổ biến nhất). Từ A1 thường 1–2000, C1 thường 5000–15000.
+
+### 9. Các trường cố định (giữ nguyên):
+- `audio_uk_s3_key`, `audio_us_s3_key`, `image_key`: null
+- `register`: null (trừ khi từ rõ ràng là formal/informal/slang/academic)
+- `is_oxford_3000`: true nếu trình độ A1/A2/B1, false nếu B2/C1
+- `is_oxford_5000`: true nếu trình độ A1–B2, false nếu C1
+- `created_at`: "2026-03-25T00:00:00Z"
+
+---
+## FORMAT ĐẦU RA:
+
+Trả về **CHỈ** một JSON array hợp lệ (không có text thêm), bọc trong block ```json ... ```.
+Số lượng object: đúng **50** (pk từ 1303 đến 1352, KHÔNG thêm, KHÔNG bỏ).
+
+### HƯỚNG DẪN ĐIỀN:
+
+**Dữ liệu từ CSV (KHÔNG thay đổi):**
+- "pk", "word", "part_of_speech", "ipa_uk"
+
+**Dữ liệu cần điền bởi LLM:**
+- "domain": gán theo hướng dẫn mục 1
+- "meaning_vi": nghĩa tiếng Việt ngắn gọn (3–8 từ)
+- "ipa_us": IPA Mỹ (hoặc copy ipa_uk nếu giống)
+- "definition_en", "example_en", "example_vi", "collocations_json", "synonyms_json", "antonyms_json", "mnemonic", "frequency_rank", "register"
+
+**Dữ liệu cố định:**
+- model: "vocabulary.word"
+- audio_uk_s3_key, audio_us_s3_key, image_key: null
+- is_oxford_3000: true (A1/A2/B1), false (B2/C1)
+- is_oxford_5000: true (A1–B2), false (C1)
+- created_at: "2026-03-25T00:00:00Z"
+
+### MẪU THAM KHẢO (1 object hoàn chỉnh):
+```json
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 101,
+    "fields": {
+      "word": "apple",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "food",
+      "ipa_uk": "ˈæp.əl",
+      "ipa_us": "ˈæp.əl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quả táo",
+      "definition_en": "A round fruit with red, green, or yellow skin and firm white flesh.",
+      "example_en": "She eats an apple every morning.",
+      "example_vi": "Cô ấy ăn một quả táo mỗi sáng.",
+      "collocations_json": ["apple juice", "apple pie", "fresh apple", "an apple a day"],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Think of the letter A — the first letter of the alphabet, just like apple is the first fruit most people learn.",
+      "frequency_rank": 500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]
+```
+
+> ⚠️ QUAN TRỌNG:
+> - Giữ đúng "pk" từ bảng đầu vào. KHÔNG thay đổi pk, word, part_of_speech, ipa_uk.
+> - "model" luôn là "vocabulary.word"
+> - "domain" phải là đúng 1 trong 13 giá trị: general, everyday, business, technology, academic, medical, health, travel, food, vegetables, animals, nature, art
+> - JSON phải parse được: không có trailing comma, không có comment
+> - "meaning_vi" nên ngắn gọn (3-8 từ), không 1 đoạn văn dài

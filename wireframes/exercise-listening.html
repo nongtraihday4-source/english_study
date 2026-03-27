@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luyện nghe – English Study</title>
+  <style>
+    :root {
+      --bg:#F5F4F0;--bg2:#ECEAE4;--card:rgba(255,255,255,0.72);
+      --card-border:rgba(255,255,255,0.9);--nav-bg:linear-gradient(135deg,#5B6EFF 0%,#7B3FE4 100%);
+      --accent:#5B6EFF;--purple:#7B3FE4;--success:#22C97C;--streak:#FF6B35;--danger:#E84646;
+      --txt:#1A1A2E;--txt2:#5A5A78;--shadow:0 4px 24px rgba(0,0,0,0.08);
+      --shadow-md:0 8px 32px rgba(0,0,0,0.12);--r:16px;--r-sm:10px;
+    }
+    [data-theme="dark"]{
+      --bg:#0F0F1A;--bg2:#161625;--card:rgba(255,255,255,0.05);
+      --card-border:rgba(255,255,255,0.10);--txt:#EEEEFF;--txt2:#8888AA;
+      --shadow:0 4px 24px rgba(0,0,0,0.4);--shadow-md:0 8px 32px rgba(0,0,0,0.55);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);transition:background .3s,color .3s;min-height:100vh;display:flex;flex-direction:column}
+    a{text-decoration:none;color:inherit}
+
+    /* Navbar */
+    .navbar{position:sticky;top:0;z-index:100;background:var(--nav-bg);display:flex;align-items:center;gap:1rem;padding:.75rem 1.5rem;box-shadow:0 2px 20px rgba(91,110,255,.35)}
+    .navbar-brand{display:flex;align-items:center;gap:.6rem;flex-shrink:0}
+    .brand-icon{width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,0.22);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1rem;color:#fff}
+    .brand-name{color:#fff;font-weight:700;font-size:1.05rem;white-space:nowrap}
+    .navbar-links{display:flex;align-items:center;gap:.25rem;margin-left:1rem;flex:1}
+    .nav-link{display:flex;align-items:center;gap:.45rem;color:rgba(255,255,255,0.75);font-size:.88rem;font-weight:500;padding:.45rem .9rem;border-radius:8px;transition:.2s;white-space:nowrap}
+    .nav-link:hover,.nav-link.active{background:rgba(255,255,255,0.18);color:#fff}
+    .nav-link svg{width:16px;height:16px;flex-shrink:0}
+    .navbar-right{display:flex;align-items:center;gap:.75rem;margin-left:auto}
+    .dark-toggle{background:rgba(255,255,255,0.15);border:none;cursor:pointer;width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;color:#fff;transition:.2s}
+    .dark-toggle:hover{background:rgba(255,255,255,0.25)}
+    .user-chip{display:flex;align-items:center;gap:.55rem;background:rgba(255,255,255,0.15);border-radius:9999px;padding:.35rem .8rem .35rem .35rem;cursor:pointer;transition:.2s}
+    .user-chip:hover{background:rgba(255,255,255,0.25)}
+    .avatar{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#FFD166,#FF6B35);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.72rem;color:#fff}
+    .user-chip-name{color:#fff;font-size:.82rem;font-weight:600}
+    .level-badge{background:rgba(255,255,255,0.25);color:#fff;font-size:.66rem;font-weight:700;padding:.15rem .45rem;border-radius:5px;letter-spacing:.5px}
+    .hamburger{display:none;background:none;border:none;cursor:pointer;color:#fff}
+    .mobile-drawer{display:none;position:fixed;inset:0;z-index:200}
+    .mobile-drawer.open{display:block}
+    .drawer-overlay{position:absolute;inset:0;background:rgba(0,0,0,.5)}
+    .drawer-panel{position:absolute;left:0;top:0;bottom:0;width:260px;background:var(--bg);padding:1.5rem 1.25rem;display:flex;flex-direction:column;gap:.5rem;box-shadow:4px 0 32px rgba(0,0,0,.2)}
+    .drawer-close{background:none;border:none;cursor:pointer;font-size:1.4rem;color:var(--txt);margin-bottom:.5rem;align-self:flex-end}
+    .drawer-link{display:flex;align-items:center;gap:.75rem;padding:.7rem 1rem;border-radius:10px;font-weight:500;font-size:.95rem;color:var(--txt);transition:.2s}
+    .drawer-link:hover,.drawer-link.active{background:rgba(91,110,255,.1);color:var(--accent)}
+
+    /* Exercise Chrome */
+    .exercise-header{
+      background:var(--card);backdrop-filter:blur(12px);
+      border-bottom:1px solid rgba(0,0,0,0.06);
+      padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap;
+    }
+    [data-theme="dark"] .exercise-header{border-color:rgba(255,255,255,.06)}
+    .ex-back{
+      display:flex;align-items:center;gap:.4rem;color:var(--txt2);font-size:.85rem;
+      background:none;border:none;cursor:pointer;padding:.35rem .65rem;border-radius:8px;
+      transition:.2s;font-family:inherit;
+    }
+    .ex-back:hover{background:var(--bg2);color:var(--txt)}
+    .ex-breadcrumb{font-size:.82rem;color:var(--txt2);flex:1}
+    .ex-breadcrumb strong{color:var(--txt)}
+    .ex-progress-wrap{display:flex;align-items:center;gap:.75rem;min-width:200px}
+    .ex-progress-label{font-size:.78rem;color:var(--txt2);white-space:nowrap}
+    .ex-progress-bar{flex:1;height:6px;background:var(--bg2);border-radius:9999px;overflow:hidden}
+    .ex-progress-fill{height:100%;background:var(--accent);border-radius:9999px;transition:width .4s ease}
+    .ex-timer{
+      display:flex;align-items:center;gap:.4rem;
+      background:var(--bg2);padding:.35rem .75rem;border-radius:9999px;
+      font-size:.82rem;font-weight:600;color:var(--txt2);
+    }
+
+    /* Main split area */
+    .exercise-body{
+      display:flex;flex:1;height:calc(100vh - 120px);overflow:hidden;
+    }
+
+    /* LEFT PANE */
+    .left-pane{
+      flex:6;border-right:1px solid rgba(0,0,0,0.08);
+      display:flex;flex-direction:column;overflow:hidden;
+    }
+    [data-theme="dark"] .left-pane{border-color:rgba(255,255,255,.08)}
+    .pane-header{
+      padding:.85rem 1.25rem;border-bottom:1px solid rgba(0,0,0,0.06);
+      display:flex;align-items:center;gap:.75rem;flex-shrink:0;
+    }
+    [data-theme="dark"] .pane-header{border-color:rgba(255,255,255,.06)}
+    .pane-title{font-size:.88rem;font-weight:700}
+    .pane-badge{font-size:.7rem;padding:.15rem .5rem;border-radius:5px;font-weight:700}
+    .badge-listen{background:rgba(91,110,255,.12);color:var(--accent)}
+    .pane-scroll{flex:1;overflow-y:auto;padding:1.25rem}
+    .pane-scroll::-webkit-scrollbar{width:5px}
+    .pane-scroll::-webkit-scrollbar-track{background:transparent}
+    .pane-scroll::-webkit-scrollbar-thumb{background:var(--bg2);border-radius:9999px}
+
+    /* Audio Player */
+    .audio-player{
+      background:var(--nav-bg);
+      border-radius:var(--r);padding:1.25rem 1.5rem;
+      color:#fff;margin-bottom:1.25rem;
+    }
+    .audio-info{display:flex;align-items:center;gap:.75rem;margin-bottom:1rem}
+    .audio-thumbnail{
+      width:48px;height:48px;border-radius:10px;
+      background:rgba(255,255,255,.2);
+      display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;
+    }
+    .audio-meta{flex:1}
+    .audio-title{font-weight:700;font-size:.95rem}
+    .audio-sub{font-size:.78rem;opacity:.8;margin-top:.2rem}
+    .audio-duration{font-size:.82rem;opacity:.8}
+
+    /* Waveform */
+    .waveform-wrap{
+      background:rgba(0,0,0,.2);border-radius:10px;padding:.75rem .5rem;
+      display:flex;align-items:center;gap:2px;height:56px;
+      cursor:pointer;margin-bottom:1rem;overflow:hidden;
+      position:relative;
+    }
+    .waveform-bar{
+      flex:1;border-radius:2px;
+      background:rgba(255,255,255,.35);
+      transition:height .1s;
+      min-height:4px;
+    }
+    .waveform-bar.played{background:rgba(255,255,255,.9)}
+    .waveform-progress{
+      position:absolute;top:0;left:0;bottom:0;
+      background:rgba(255,255,255,.08);
+      border-right:2px solid rgba(255,255,255,.9);
+      pointer-events:none;transition:width .3s linear;
+    }
+    .audio-controls{display:flex;align-items:center;gap:.75rem}
+    .audio-btn{
+      background:rgba(255,255,255,.2);border:none;cursor:pointer;
+      width:38px;height:38px;border-radius:50%;color:#fff;font-size:1rem;
+      display:flex;align-items:center;justify-content:center;transition:.2s;
+    }
+    .audio-btn.play{background:rgba(255,255,255,.9);color:var(--accent);font-size:1.1rem}
+    .audio-btn:hover{background:rgba(255,255,255,.35)}
+    .audio-time{font-size:.82rem;opacity:.9;flex:1;text-align:center}
+    .speed-btn{font-size:.72rem;font-weight:700;padding:.3rem .6rem;border-radius:6px;background:rgba(255,255,255,.2);border:none;color:#fff;cursor:pointer}
+
+    /* Transcript */
+    .transcript-section{margin-top:1rem}
+    .transcript-toggle{
+      display:flex;align-items:center;gap:.5rem;font-size:.82rem;font-weight:600;
+      color:var(--txt2);cursor:pointer;padding:.5rem 0;border:none;background:none;font-family:inherit;
+      transition:.2s;
+    }
+    .transcript-toggle:hover{color:var(--accent)}
+    .transcript-body{
+      background:var(--bg2);border-radius:var(--r-sm);padding:1rem;
+      font-size:.88rem;line-height:1.8;margin-top:.75rem;
+      display:none;
+    }
+    .transcript-body.visible{display:block}
+    .transcript-highlight{background:rgba(91,110,255,.15);border-radius:3px;padding:0 2px}
+
+    /* RIGHT PANE */
+    .right-pane{
+      flex:4;display:flex;flex-direction:column;overflow:hidden;
+    }
+    .questions-scroll{flex:1;overflow-y:auto;padding:1.25rem}
+    .questions-scroll::-webkit-scrollbar{width:5px}
+    .questions-scroll::-webkit-scrollbar-track{background:transparent}
+    .questions-scroll::-webkit-scrollbar-thumb{background:var(--bg2);border-radius:9999px}
+
+    .question-block{
+      margin-bottom:1.5rem;padding-bottom:1.5rem;
+      border-bottom:1px solid rgba(0,0,0,.06);
+    }
+    [data-theme="dark"] .question-block{border-color:rgba(255,255,255,.06)}
+    .question-block:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+    .q-num{
+      font-size:.7rem;text-transform:uppercase;letter-spacing:.6px;
+      font-weight:700;color:var(--accent);margin-bottom:.5rem;display:flex;align-items:center;gap:.5rem;
+    }
+    .q-num span{
+      background:var(--accent);color:#fff;width:22px;height:22px;border-radius:50%;
+      display:inline-flex;align-items:center;justify-content:center;font-size:.7rem;
+    }
+    .q-text{font-size:.92rem;font-weight:600;line-height:1.5;margin-bottom:.9rem}
+
+    /* MC Options */
+    .mc-options{display:flex;flex-direction:column;gap:.55rem}
+    .mc-opt{
+      display:flex;align-items:flex-start;gap:.75rem;
+      padding:.7rem .9rem;border-radius:10px;
+      border:1.5px solid rgba(0,0,0,.08);background:var(--card);
+      cursor:pointer;transition:.15s;font-size:.88rem;
+    }
+    [data-theme="dark"] .mc-opt{border-color:rgba(255,255,255,.1)}
+    .mc-opt:hover:not(.disabled){border-color:var(--accent);background:rgba(91,110,255,.06)}
+    .mc-opt.selected{border-color:var(--accent);background:rgba(91,110,255,.12)}
+    .mc-opt.correct{border-color:var(--success)!important;background:rgba(34,201,124,.12)!important;animation:flash-green .4s}
+    .mc-opt.wrong{border-color:var(--danger)!important;background:rgba(232,70,70,.10)!important;animation:flash-red .4s}
+    @keyframes flash-green{0%{background:rgba(34,201,124,.4)}100%{background:rgba(34,201,124,.12)}}
+    @keyframes flash-red{0%{background:rgba(232,70,70,.4)}100%{background:rgba(232,70,70,.10)}}
+    .mc-letter{
+      width:24px;height:24px;border-radius:6px;
+      background:var(--bg2);font-weight:700;font-size:.78rem;
+      display:flex;align-items:center;justify-content:center;flex-shrink:0;
+      transition:.2s;
+    }
+    .mc-opt.selected .mc-letter{background:var(--accent);color:#fff}
+    .mc-opt.correct .mc-letter{background:var(--success);color:#fff}
+    .mc-opt.wrong .mc-letter{background:var(--danger);color:#fff}
+    .feedback-msg{font-size:.8rem;margin-top:.55rem;padding:.45rem .75rem;border-radius:8px;display:none}
+    .feedback-msg.show{display:block}
+    .fb-correct{background:rgba(34,201,124,.1);color:var(--success);border-left:3px solid var(--success)}
+    .fb-wrong{background:rgba(232,70,70,.08);color:var(--danger);border-left:3px solid var(--danger)}
+
+    /* Gap fill */
+    .gap-input{
+      border:1.5px solid rgba(0,0,0,.12);background:var(--card);
+      border-radius:8px;padding:.4rem .7rem;font-size:.88rem;color:var(--txt);
+      font-family:inherit;outline:none;transition:.2s;min-width:120px;
+    }
+    [data-theme="dark"] .gap-input{border-color:rgba(255,255,255,.15)}
+    .gap-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(91,110,255,.15)}
+    .gap-input.correct{border-color:var(--success);background:rgba(34,201,124,.08)}
+    .gap-input.wrong{border-color:var(--danger);background:rgba(232,70,70,.06)}
+    .gap-sentence{font-size:.9rem;line-height:2.2;color:var(--txt)}
+
+    /* Submit row */
+    .submit-row{
+      display:flex;align-items:center;justify-content:space-between;
+      padding:.9rem 1.25rem;
+      border-top:1px solid rgba(0,0,0,.07);
+      background:var(--card);backdrop-filter:blur(8px);flex-shrink:0;
+    }
+    [data-theme="dark"] .submit-row{border-color:rgba(255,255,255,.07)}
+    .submit-progress{font-size:.82rem;color:var(--txt2)}
+    .submit-progress strong{color:var(--txt)}
+    .btn-next{
+      display:flex;align-items:center;gap:.5rem;
+      background:var(--nav-bg);color:#fff;border:none;
+      border-radius:10px;padding:.65rem 1.4rem;
+      font-weight:700;font-size:.9rem;cursor:pointer;
+      transition:.2s;font-family:inherit;
+    }
+    .btn-next:hover{opacity:.9;transform:translateY(-1px)}
+    .btn-next:active{transform:scale(.97)}
+    .btn-next:disabled{opacity:.45;cursor:not-allowed;transform:none}
+
+    @media(max-width:768px){
+      .exercise-body{flex-direction:column;height:auto;overflow:visible}
+      .left-pane{border-right:none;border-bottom:1px solid rgba(0,0,0,.08);height:auto}
+      .right-pane{height:auto}
+      .navbar-links{display:none}
+      .hamburger{display:flex;padding:.5rem}
+      .brand-name{display:none}
+      .ex-progress-wrap{min-width:120px}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="navbar-brand">
+    <div class="brand-icon">ES</div>
+    <span class="brand-name">English Study</span>
+  </div>
+  <div class="navbar-links">
+    <a href="student-dashboard.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>Dashboard</a>
+    <a href="skill-map.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v4M7 18l5-3M17 18l-5-3"/></svg>Bản đồ</a>
+    <a href="exercise-listening.html" class="nav-link active">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>Luyện nghe</a>
+    <a href="exercise-speaking.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>Luyện nói</a>
+    <a href="exercise-reading.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>Luyện đọc</a>
+    <a href="exercise-writing.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>Luyện viết</a>
+  </div>
+  <div class="navbar-right">
+    <button class="dark-toggle" id="darkToggle">🌙</button>
+    <div class="user-chip">
+      <div class="avatar">HA</div>
+      <span class="user-chip-name">Hà Anh</span>
+      <span class="level-badge">A2</span>
+    </div>
+    <button class="hamburger" id="hamburger">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <div class="drawer-panel">
+    <button class="drawer-close" id="drawerClose">✕</button>
+    <a href="student-dashboard.html" class="drawer-link">🏠 Dashboard</a>
+    <a href="skill-map.html" class="drawer-link">🗺️ Bản đồ học tập</a>
+    <a href="exercise-listening.html" class="drawer-link active">🎧 Luyện nghe</a>
+    <a href="exercise-speaking.html" class="drawer-link">🎤 Luyện nói</a>
+    <a href="exercise-reading.html" class="drawer-link">📖 Luyện đọc</a>
+    <a href="exercise-writing.html" class="drawer-link">✍️ Luyện viết</a>
+  </div>
+</div>
+
+<!-- Exercise Header -->
+<div class="exercise-header">
+  <a href="skill-map.html" class="ex-back">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+    Quay lại
+  </a>
+  <div class="ex-breadcrumb">A2 Grammar · <strong>Daily Conversations (Listening)</strong></div>
+  <div class="ex-progress-wrap">
+    <span class="ex-progress-label">3 / 5 câu</span>
+    <div class="ex-progress-bar"><div class="ex-progress-fill" id="progressFill" style="width:60%"></div></div>
+  </div>
+  <div class="ex-timer">⏱ <span id="timerDisplay">18:42</span></div>
+</div>
+
+<!-- Exercise Body -->
+<div class="exercise-body">
+
+  <!-- LEFT: Audio + Transcript / Passage -->
+  <div class="left-pane">
+    <div class="pane-header">
+      <span class="pane-title">🎧 Đoạn hội thoại ngắn</span>
+      <span class="pane-badge badge-listen">A2 · Nghe</span>
+    </div>
+    <div class="pane-scroll">
+
+      <!-- Audio Player -->
+      <div class="audio-player">
+        <div class="audio-info">
+          <div class="audio-thumbnail">🎭</div>
+          <div class="audio-meta">
+            <div class="audio-title">At the Airport - Departure</div>
+            <div class="audio-sub">Track 04 · Daily Conversations Set A</div>
+          </div>
+          <div class="audio-duration">02:34</div>
+        </div>
+
+        <!-- Waveform -->
+        <div class="waveform-wrap" id="waveform" onclick="togglePlay()">
+          <div class="waveform-progress" id="waveProgress" style="width:38%"></div>
+        </div>
+
+        <div class="audio-controls">
+          <button class="audio-btn" title="Tua lại 10s">⏮</button>
+          <button class="audio-btn play" id="playBtn" onclick="togglePlay()">▶</button>
+          <button class="audio-btn" title="Tua tiếp 10s">⏭</button>
+          <span class="audio-time">0:58 / 2:34</span>
+          <button class="speed-btn" id="speedBtn" onclick="cycleSpeed()">1.0×</button>
+        </div>
+      </div>
+
+      <!-- Context hint -->
+      <div style="background:rgba(91,110,255,.07);border-radius:var(--r-sm);padding:.85rem 1rem;margin-bottom:1rem;border-left:3px solid var(--accent)">
+        <p style="font-size:.82rem;font-weight:600;color:var(--accent);margin-bottom:.3rem">📌 Bối cảnh</p>
+        <p style="font-size:.85rem;line-height:1.6;color:var(--txt2)">Anna đang ở sân bay và nói chuyện với nhân viên check-in về chuyến bay của cô ấy đến London. Lắng nghe và trả lời các câu hỏi bên phải.</p>
+      </div>
+
+      <!-- Transcript -->
+      <div class="transcript-section">
+        <button class="transcript-toggle" onclick="toggleTranscript()">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 6h22M1 12h15M1 18h10"/></svg>
+          <span id="txToggleLabel">Hiện nội dung hội thoại (Spoiler)</span>
+        </button>
+        <div class="transcript-body" id="transcriptBody">
+          <p><strong style="color:var(--accent)">Staff:</strong> Good morning! Can I see your passport and boarding pass, please?</p>
+          <br>
+          <p><strong style="color:var(--purple)">Anna:</strong> Of course. Here you are. My flight is <span class="transcript-highlight">BA247 to London Heathrow</span>.</p>
+          <br>
+          <p><strong style="color:var(--accent)">Staff:</strong> Thank you. How many bags are you checking in today?</p>
+          <br>
+          <p><strong style="color:var(--purple)">Anna:</strong> Just one large suitcase. It's about <span class="transcript-highlight">22 kilograms</span>, I think.</p>
+          <br>
+          <p><strong style="color:var(--accent)">Staff:</strong> That's fine. Your seat is <span class="transcript-highlight">14C</span>, a window seat. Boarding starts at <span class="transcript-highlight">9:45</span> at Gate B12.</p>
+          <br>
+          <p><strong style="color:var(--purple)">Anna:</strong> Perfect. Is there a lounge I can use? I have a Premier card.</p>
+          <br>
+          <p><strong style="color:var(--accent)">Staff:</strong> Yes, the Sky Lounge is on the second floor, near gate B10. Enjoy your flight!</p>
+        </div>
+      </div>
+
+    </div><!-- end pane-scroll -->
+  </div><!-- end left-pane -->
+
+  <!-- RIGHT: Questions -->
+  <div class="right-pane">
+    <div class="pane-header">
+      <span class="pane-title">📝 Câu hỏi trắc nghiệm</span>
+      <span class="pane-badge" style="background:rgba(34,201,124,.12);color:var(--success)">5 câu</span>
+    </div>
+    <div class="questions-scroll">
+
+      <!-- Q1 (answered correctly) -->
+      <div class="question-block">
+        <div class="q-num"><span>1</span> Trắc nghiệm</div>
+        <div class="q-text">Where is Anna going?</div>
+        <div class="mc-options">
+          <div class="mc-opt disabled correct">
+            <div class="mc-letter">A</div>
+            <span>London Heathrow Airport</span>
+          </div>
+          <div class="mc-opt disabled">
+            <div class="mc-letter">B</div>
+            <span>Paris Charles de Gaulle</span>
+          </div>
+          <div class="mc-opt disabled">
+            <div class="mc-letter">C</div>
+            <span>New York JFK</span>
+          </div>
+          <div class="mc-opt disabled">
+            <div class="mc-letter">D</div>
+            <span>Tokyo Narita</span>
+          </div>
+        </div>
+        <div class="feedback-msg fb-correct show">✅ Chính xác! "BA247 to London Heathrow" — Anna nói điều này khi đưa passport.</div>
+      </div>
+
+      <!-- Q2 (answered wrong) -->
+      <div class="question-block">
+        <div class="q-num"><span>2</span> Trắc nghiệm</div>
+        <div class="q-text">How much does Anna's suitcase weigh?</div>
+        <div class="mc-options">
+          <div class="mc-opt disabled">
+            <div class="mc-letter">A</div>
+            <span>18 kilograms</span>
+          </div>
+          <div class="mc-opt disabled wrong">
+            <div class="mc-letter">B</div>
+            <span>25 kilograms</span>
+          </div>
+          <div class="mc-opt disabled correct">
+            <div class="mc-letter">C</div>
+            <span>22 kilograms</span>
+          </div>
+          <div class="mc-opt disabled">
+            <div class="mc-letter">D</div>
+            <span>20 kilograms</span>
+          </div>
+        </div>
+        <div class="feedback-msg fb-wrong show">❌ Sai rồi! Đáp án đúng là <strong>C – 22 kilograms</strong>. Anna nói "It's about 22 kilograms, I think."</div>
+      </div>
+
+      <!-- Q3 (Gap fill – current) -->
+      <div class="question-block">
+        <div class="q-num"><span>3</span> Điền vào chỗ trống</div>
+        <div class="q-text">Complete the sentence from the dialogue:</div>
+        <div class="gap-sentence" style="margin-top:.5rem">
+          Anna's seat number is <input class="gap-input" id="gapQ3" placeholder="e.g. 14C" maxlength="4" oninput="checkGap(this,'14C')"> and boarding starts at
+          <input class="gap-input" id="gapQ3b" placeholder="e.g. 9:45" maxlength="5" oninput="checkGap(this,'9:45')"> at Gate <strong>B12</strong>.
+        </div>
+        <div class="feedback-msg" id="gapFeedback3"></div>
+      </div>
+
+      <!-- Q4 & Q5 (locked/upcoming) -->
+      <div class="question-block" style="opacity:.4;pointer-events:none">
+        <div class="q-num"><span>4</span> Trắc nghiệm</div>
+        <div class="q-text">Where is the Sky Lounge located?</div>
+        <div class="mc-options">
+          <div class="mc-opt"><div class="mc-letter">A</div><span>First floor, near Gate B10</span></div>
+          <div class="mc-opt"><div class="mc-letter">B</div><span>Second floor, near Gate B10</span></div>
+          <div class="mc-opt"><div class="mc-letter">C</div><span>Third floor, Gate A5</span></div>
+          <div class="mc-opt"><div class="mc-letter">D</div><span>Ground floor, Gate C1</span></div>
+        </div>
+      </div>
+
+      <div class="question-block" style="opacity:.4;pointer-events:none">
+        <div class="q-num"><span>5</span> Trắc nghiệm</div>
+        <div class="q-text">What type of seat does Anna have?</div>
+        <div class="mc-options">
+          <div class="mc-opt"><div class="mc-letter">A</div><span>Aisle seat</span></div>
+          <div class="mc-opt"><div class="mc-letter">B</div><span>Middle seat</span></div>
+          <div class="mc-opt"><div class="mc-letter">C</div><span>Window seat</span></div>
+          <div class="mc-opt"><div class="mc-letter">D</div><span>Business class</span></div>
+        </div>
+      </div>
+
+    </div><!-- end questions-scroll -->
+
+    <div class="submit-row">
+      <div class="submit-progress">Đã trả lời: <strong>2/5</strong> · Đúng: <strong style="color:var(--success)">1</strong> · Sai: <strong style="color:var(--danger)">1</strong></div>
+      <button class="btn-next" id="submitBtn" onclick="submitExercise()">
+        Câu tiếp theo
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+  </div><!-- end right-pane -->
+
+</div><!-- end exercise-body -->
+
+<script>
+  /* Dark Mode */
+  const html=document.documentElement;
+  const toggleBtn=document.getElementById('darkToggle');
+  const saved=localStorage.getItem('theme')||'light';
+  if(saved==='dark'){html.dataset.theme='dark';toggleBtn.textContent='☀️'}
+  toggleBtn.addEventListener('click',()=>{
+    const d=html.dataset.theme==='dark';html.dataset.theme=d?'light':'dark';
+    toggleBtn.textContent=d?'🌙':'☀️';localStorage.setItem('theme',d?'light':'dark');
+  });
+  const hamburger=document.getElementById('hamburger');
+  const drawer=document.getElementById('mobileDrawer');
+  const overlay=document.getElementById('drawerOverlay');
+  const closeBtn=document.getElementById('drawerClose');
+  hamburger.addEventListener('click',()=>drawer.classList.add('open'));
+  overlay.addEventListener('click',()=>drawer.classList.remove('open'));
+  closeBtn.addEventListener('click',()=>drawer.classList.remove('open'));
+
+  /* Waveform Generation */
+  const wf=document.getElementById('waveform');
+  const heights=[18,32,24,40,28,44,36,50,30,42,20,38,28,46,22,34,26,48,32,52,24,40,18,36,30,44,28,50,22,38,20,46,26,42,32,56,24,44,28,50,20,36,30,46,22,42,18,38,26,48,32,52,28,44,24,40,20,36,26,48];
+  heights.forEach((h,i)=>{
+    const bar=document.createElement('div');
+    bar.className=`waveform-bar${i<22?' played':''}`;
+    bar.style.height=`${h}%`;
+    wf.appendChild(bar);
+  });
+
+  /* Play/Pause toggle */
+  let playing=false;
+  let progress=38;
+  let playInterval;
+  function togglePlay(){
+    playing=!playing;
+    document.getElementById('playBtn').textContent=playing?'⏸':'▶';
+    if(playing){
+      playInterval=setInterval(()=>{
+        progress=Math.min(progress+0.15,100);
+        document.getElementById('waveProgress').style.width=progress+'%';
+        const bars=wf.querySelectorAll('.waveform-bar');
+        const played=Math.floor(bars.length*(progress/100));
+        bars.forEach((b,i)=>b.classList.toggle('played',i<played));
+      },100);
+    } else {
+      clearInterval(playInterval);
+    }
+  }
+
+  /* Speed cycle */
+  const speeds=['0.75×','1.0×','1.25×','1.5×','2.0×'];let si=1;
+  function cycleSpeed(){si=(si+1)%speeds.length;document.getElementById('speedBtn').textContent=speeds[si]}
+
+  /* Transcript toggle */
+  let txOpen=false;
+  function toggleTranscript(){
+    txOpen=!txOpen;
+    document.getElementById('transcriptBody').classList.toggle('visible',txOpen);
+    document.getElementById('txToggleLabel').textContent=txOpen?'Ẩn nội dung hội thoại':'Hiện nội dung hội thoại (Spoiler)';
+  }
+
+  /* Gap fill check */
+  function checkGap(el,correct){
+    const val=el.value.trim();
+    if(!val){el.classList.remove('correct','wrong');return}
+    const ok=val.toLowerCase()===correct.toLowerCase();
+    el.classList.toggle('correct',ok);el.classList.toggle('wrong',!ok);
+    const fb=document.getElementById('gapFeedback3');
+    const q3a=document.getElementById('gapQ3').classList.contains('correct');
+    const q3b=document.getElementById('gapQ3b').classList.contains('correct');
+    if(q3a&&q3b){
+      fb.textContent='✅ Hoàn hảo! Cả hai câu đều chính xác.';fb.className='feedback-msg fb-correct show';
+    } else if(el.classList.contains('wrong')){
+      fb.textContent=`❌ Chưa đúng — kiểm tra lại nhé.`;fb.className='feedback-msg fb-wrong show';
+    } else {fb.className='feedback-msg'}
+  }
+
+  /* Timer */
+  let seconds=1122;
+  setInterval(()=>{
+    seconds--;if(seconds<0)seconds=0;
+    const m=Math.floor(seconds/60),s=seconds%60;
+    document.getElementById('timerDisplay').textContent=`${m}:${s.toString().padStart(2,'0')}`;
+    if(seconds<120)document.getElementById('timerDisplay').style.color='var(--danger)';
+  },1000);
+
+  /* Submit button */
+  function submitExercise(){
+    const btn=document.getElementById('submitBtn');
+    btn.disabled=true;btn.textContent='Đang xử lý…';
+    setTimeout(()=>{
+      document.getElementById('progressFill').style.width='80%';
+      btn.disabled=false;btn.innerHTML='Câu tiếp theo <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+    },700);
+  }
+</script>
+</body>
+</html>

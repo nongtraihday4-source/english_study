@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thành tích – English Study</title>
+  <style>
+    /* ─── Design Tokens ─────────────────────────────────────── */
+    :root {
+      --bg:          #F5F4F0;
+      --bg2:         #ECEAE4;
+      --card:        rgba(255,255,255,0.72);
+      --card-border: rgba(255,255,255,0.9);
+      --nav-bg:      linear-gradient(135deg,#5B6EFF 0%,#7B3FE4 100%);
+      --accent:      #5B6EFF;
+      --purple:      #7B3FE4;
+      --success:     #22C97C;
+      --streak:      #FF6B35;
+      --danger:      #E84646;
+      --txt:         #1A1A2E;
+      --txt2:        #5A5A78;
+      --shadow:      0 4px 24px rgba(0,0,0,0.08);
+      --shadow-md:   0 8px 32px rgba(0,0,0,0.12);
+      --r:           16px;
+      --r-sm:        10px;
+      --transition:  .2s ease;
+    }
+    [data-theme="dark"] {
+      --bg:          #0F0F1A;
+      --bg2:         #161625;
+      --card:        rgba(255,255,255,0.05);
+      --card-border: rgba(255,255,255,0.10);
+      --txt:         #EEEEFF;
+      --txt2:        #8888AA;
+      --shadow:      0 4px 24px rgba(0,0,0,0.4);
+      --shadow-md:   0 8px 32px rgba(0,0,0,0.55);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);transition:background .3s,color .3s;min-height:100vh}
+    a{text-decoration:none;color:inherit}
+    button{font-family:inherit;cursor:pointer}
+
+    /* ─── Navbar ─────────────────────────────────────────────── */
+    .navbar{
+      position:sticky;top:0;z-index:100;
+      background:var(--nav-bg);
+      display:flex;align-items:center;gap:1rem;
+      padding:.75rem 1.5rem;
+      box-shadow:0 2px 20px rgba(91,110,255,.35);
+    }
+    .navbar-brand{display:flex;align-items:center;gap:.6rem;flex-shrink:0}
+    .brand-icon{width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,0.22);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1rem;color:#fff;letter-spacing:-1px}
+    .brand-name{color:#fff;font-weight:700;font-size:1.05rem;white-space:nowrap}
+    .navbar-links{display:flex;align-items:center;gap:.25rem;margin-left:1rem;flex:1}
+    .nav-link{display:flex;align-items:center;gap:.45rem;color:rgba(255,255,255,0.75);font-size:.88rem;font-weight:500;padding:.45rem .9rem;border-radius:8px;transition:var(--transition);white-space:nowrap;border:none;background:none}
+    .nav-link:hover,.nav-link.active{background:rgba(255,255,255,0.18);color:#fff}
+    .nav-link svg{width:16px;height:16px;flex-shrink:0}
+    .navbar-right{display:flex;align-items:center;gap:.75rem;margin-left:auto}
+    .dark-toggle{background:rgba(255,255,255,0.15);border:none;cursor:pointer;width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;transition:var(--transition);color:#fff}
+    .dark-toggle:hover{background:rgba(255,255,255,0.25)}
+    .user-chip{display:flex;align-items:center;gap:.55rem;background:rgba(255,255,255,0.15);border-radius:9999px;padding:.35rem .8rem .35rem .35rem;cursor:pointer;transition:var(--transition)}
+    .user-chip:hover{background:rgba(255,255,255,0.25)}
+    .avatar{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#FFD166,#FF6B35);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.72rem;color:#fff;flex-shrink:0}
+    .user-chip-name{color:#fff;font-size:.82rem;font-weight:600}
+    .level-badge{background:rgba(255,255,255,0.25);color:#fff;font-size:.66rem;font-weight:700;padding:.15rem .45rem;border-radius:5px;letter-spacing:.5px}
+
+    /* ─── Page ───────────────────────────────────────────────── */
+    .page{max-width:1100px;margin:0 auto;padding:2rem 1.25rem 4rem}
+
+    /* ─── Page Header ─────────────────────────────────────────── */
+    .page-header{
+      display:flex;align-items:flex-start;justify-content:space-between;
+      margin-bottom:1.75rem;flex-wrap:wrap;gap:1.1rem;
+    }
+    .page-title{font-size:1.75rem;font-weight:800;display:flex;align-items:center;gap:.5rem}
+    .page-subtitle{font-size:.9rem;color:var(--txt2);margin-top:.2rem}
+
+    /* ─── Summary Bar ─────────────────────────────────────────── */
+    .summary-bar{
+      display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;
+      margin-bottom:2rem;
+    }
+    .summary-card{
+      background:var(--card);border:1.5px solid var(--card-border);
+      backdrop-filter:blur(12px);border-radius:var(--r-sm);
+      box-shadow:var(--shadow);padding:1rem 1.1rem;
+      display:flex;align-items:center;gap:.9rem;
+    }
+    .summary-icon{font-size:1.75rem;flex-shrink:0;line-height:1}
+    .summary-val{font-size:1.5rem;font-weight:900;line-height:1}
+    .summary-lbl{font-size:.78rem;color:var(--txt2);margin-top:.2rem}
+    .summary-prog{margin-top:.5rem}
+    .prog-bar{height:5px;background:var(--bg2);border-radius:3px;overflow:hidden}
+    .prog-fill{height:100%;background:var(--nav-bg);border-radius:3px}
+
+    /* ─── Filter Tabs ─────────────────────────────────────────── */
+    .filter-row{
+      display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:1.5rem;
+    }
+    .filter-tab{
+      padding:.42rem 1rem;border-radius:9999px;
+      font-size:.83rem;font-weight:600;
+      border:1.5px solid var(--bg2);background:var(--card);
+      backdrop-filter:blur(12px);color:var(--txt2);
+      transition:all .15s;
+    }
+    .filter-tab:hover{border-color:var(--accent);color:var(--accent)}
+    .filter-tab.active{
+      background:var(--nav-bg);color:#fff;border-color:transparent;
+      box-shadow:0 3px 12px rgba(91,110,255,.3);
+    }
+    .filter-spacer{flex:1}
+    .sort-select{
+      background:var(--card);border:1.5px solid var(--card-border);
+      backdrop-filter:blur(12px);
+      padding:.42rem .75rem;border-radius:var(--r-sm);
+      font-size:.82rem;color:var(--txt);font-family:inherit;
+      appearance:none;-webkit-appearance:none;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%235A5A78' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+      background-repeat:no-repeat;background-position:right 8px center;
+      padding-right:28px;cursor:pointer;
+    }
+
+    /* ─── Section label ───────────────────────────────────────── */
+    .section-label{
+      font-size:.8rem;font-weight:700;color:var(--txt2);text-transform:uppercase;
+      letter-spacing:.6px;margin-bottom:.9rem;margin-top:1.75rem;
+      display:flex;align-items:center;gap:.5rem;
+    }
+    .section-label::after{content:'';flex:1;height:1.5px;background:var(--bg2);border-radius:1px}
+    .section-count{
+      font-size:.72rem;font-weight:700;background:var(--bg2);color:var(--txt2);
+      padding:.12rem .45rem;border-radius:9999px;
+    }
+
+    /* ─── Badge Grid ──────────────────────────────────────────── */
+    .badge-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(170px,1fr));
+      gap:1rem;
+    }
+
+    /* Badge Card Base */
+    .badge-card{
+      background:var(--card);border:1.5px solid var(--card-border);
+      backdrop-filter:blur(12px);border-radius:var(--r);
+      box-shadow:var(--shadow);
+      display:flex;flex-direction:column;align-items:center;
+      padding:1.25rem .9rem 1rem;text-align:center;
+      position:relative;
+      transition:transform .2s,box-shadow .2s;
+      cursor:default;
+    }
+    .badge-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
+
+    /* Earned state — glow border */
+    .badge-card.earned{
+      border-color:rgba(91,110,255,.4);
+      box-shadow:0 0 0 1px rgba(91,110,255,.2), var(--shadow);
+    }
+    .badge-card.earned:hover{box-shadow:0 0 0 1px rgba(91,110,255,.3), var(--shadow-md)}
+
+    /* Special "rare" */
+    .badge-card.rare{
+      border-color:rgba(255,215,0,.4);
+      box-shadow:0 0 0 1px rgba(255,215,0,.2), var(--shadow);
+      background:linear-gradient(135deg,rgba(255,215,0,.05),rgba(255,165,0,.03));
+    }
+
+    /* Unearned — greyscale */
+    .badge-card.unearned{
+      filter:grayscale(0.85) opacity(0.55);
+    }
+    .badge-card.unearned:hover{filter:grayscale(0.6) opacity(0.7);transform:translateY(-2px)}
+
+    /* Earned badge indicator */
+    .earned-check{
+      position:absolute;top:-7px;right:-7px;
+      width:22px;height:22px;border-radius:50%;
+      background:var(--success);display:flex;align-items:center;justify-content:center;
+      font-size:.7rem;color:#fff;font-weight:700;
+      box-shadow:0 2px 6px rgba(34,201,124,.4);
+      border:2px solid var(--bg);
+    }
+
+    /* Lock overlay for unearned */
+    .lock-overlay{
+      position:absolute;top:-7px;right:-7px;
+      width:22px;height:22px;border-radius:50%;
+      background:var(--txt2);display:flex;align-items:center;justify-content:center;
+      font-size:.7rem;color:#fff;
+      box-shadow:0 2px 6px rgba(0,0,0,.15);
+      border:2px solid var(--bg);
+    }
+
+    /* New badge flash */
+    .new-badge-flash{
+      position:absolute;top:-9px;left:50%;transform:translateX(-50%);
+      background:var(--streak);color:#fff;
+      font-size:.6rem;font-weight:800;padding:.12rem .45rem;border-radius:9999px;
+      letter-spacing:.5px;text-transform:uppercase;
+      box-shadow:0 2px 8px rgba(255,107,53,.4);
+      animation:flash-pulse 1.5s ease-in-out infinite;
+    }
+    @keyframes flash-pulse{0%,100%{transform:translateX(-50%) scale(1)}50%{transform:translateX(-50%) scale(1.08)}}
+
+    /* Badge icon */
+    .badge-icon{
+      font-size:2.75rem;line-height:1;margin-bottom:.65rem;
+      filter:drop-shadow(0 2px 6px rgba(0,0,0,.12));
+      transition:transform .2s;
+    }
+    .badge-card.earned:hover .badge-icon{transform:scale(1.1) rotate(-4deg)}
+    .badge-cat-pill{
+      font-size:.62rem;font-weight:700;padding:.12rem .45rem;
+      border-radius:9999px;margin-bottom:.4rem;text-transform:uppercase;letter-spacing:.4px;
+    }
+    .cat-streak{background:rgba(255,107,53,.15);color:var(--streak)}
+    .cat-skill{background:rgba(91,110,255,.15);color:var(--accent)}
+    .cat-speed{background:rgba(255,215,0,.2);color:#c08000}
+    .cat-milestone{background:rgba(34,201,124,.15);color:#18a06a}
+    .cat-social{background:rgba(123,63,228,.15);color:var(--purple)}
+    .badge-name{font-size:.88rem;font-weight:700;margin-bottom:.3rem;line-height:1.3}
+    .badge-cond{font-size:.72rem;color:var(--txt2);line-height:1.4;margin-bottom:.55rem}
+    .badge-xp{
+      font-size:.72rem;font-weight:700;color:var(--accent);
+      background:rgba(91,110,255,.1);padding:.15rem .5rem;border-radius:9999px;
+      margin-bottom:.35rem;
+    }
+    .badge-date{font-size:.68rem;color:var(--txt2)}
+    /* Hover tooltip for unearned */
+    .badge-card[data-tip]{position:relative}
+    .badge-tip{
+      display:none;position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);
+      background:var(--txt);color:var(--bg);font-size:.72rem;padding:.35rem .65rem;
+      border-radius:6px;white-space:nowrap;pointer-events:none;z-index:50;
+      box-shadow:var(--shadow);
+    }
+    .badge-card:hover .badge-tip{display:block}
+
+    /* ─── Responsive ─────────────────────────────────────────── */
+    @media(max-width:860px){
+      .summary-bar{grid-template-columns:1fr 1fr}
+    }
+    @media(max-width:520px){
+      .summary-bar{grid-template-columns:1fr 1fr}
+      .badge-grid{grid-template-columns:repeat(2,1fr)}
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════ NAVBAR ═══════ -->
+<nav class="navbar">
+  <div class="navbar-brand">
+    <div class="brand-icon">ES</div>
+    <span class="brand-name">English Study</span>
+  </div>
+  <div class="navbar-links">
+    <a href="student-dashboard.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      <span>Dashboard</span>
+    </a>
+    <a href="skill-map.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+      <span>Skill Map</span>
+    </a>
+    <a href="flashcard.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="9" height="6" rx="1"/><rect x="2" y="13" width="9" height="6" rx="1"/><rect x="13" y="5" width="9" height="14" rx="1"/></svg>
+      <span>Flashcard</span>
+    </a>
+    <a href="leaderboard.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20L22 16l-4-4"/><path d="M2 4h7"/><path d="M2 9h5"/><path d="M2 14h3"/><path d="M22 16H9"/></svg>
+      <span>Leaderboard</span>
+    </a>
+    <button class="nav-link active">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+      <span>Thành tích</span>
+    </button>
+  </div>
+  <div class="navbar-right">
+    <button class="dark-toggle" id="darkBtn" onclick="toggleDark()">🌙</button>
+    <div class="user-chip">
+      <div class="avatar">N</div>
+      <span class="user-chip-name">Nam</span>
+      <span class="level-badge">PRO</span>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════ PAGE ═══════ -->
+<div class="page">
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div>
+      <div class="page-title">🎖 Thành tích &amp; Huy hiệu</div>
+      <div class="page-subtitle">Ghi dấu hành trình học tập của bạn</div>
+    </div>
+  </div>
+
+  <!-- Summary Bar -->
+  <div class="summary-bar">
+    <div class="summary-card">
+      <div class="summary-icon">🏅</div>
+      <div>
+        <div class="summary-val" style="color:var(--accent)">11</div>
+        <div class="summary-lbl">Huy hiệu đã đạt</div>
+        <div class="summary-prog">
+          <div class="prog-bar"><div class="prog-fill" style="width:36%"></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-icon">⭐</div>
+      <div>
+        <div class="summary-val" style="color:var(--streak)">19</div>
+        <div class="summary-lbl">Chưa mở khóa (/ 30+)</div>
+        <div class="summary-prog">
+          <div class="prog-bar"><div class="prog-fill" style="width:64%;background:linear-gradient(90deg,var(--streak),#FFD166)"></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-icon">💎</div>
+      <div>
+        <div class="summary-val" style="color:var(--success)">2.150</div>
+        <div class="summary-lbl">Tổng XP từ huy hiệu</div>
+      </div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-icon">🔥</div>
+      <div>
+        <div class="summary-val" style="color:var(--streak)">12</div>
+        <div class="summary-lbl">Ngày streak hiện tại</div>
+        <div class="summary-prog">
+          <div class="prog-bar"><div class="prog-fill" style="width:80%;background:linear-gradient(90deg,var(--streak),#FFD166)"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Filter Row -->
+  <div class="filter-row">
+    <button class="filter-tab active" onclick="setFilter(this,'all')">🏅 Tất cả</button>
+    <button class="filter-tab" onclick="setFilter(this,'streak')">🔥 Streak</button>
+    <button class="filter-tab" onclick="setFilter(this,'skill')">🎯 Kỹ năng</button>
+    <button class="filter-tab" onclick="setFilter(this,'speed')">⚡ Tốc độ</button>
+    <button class="filter-tab" onclick="setFilter(this,'milestone')">📚 Milestone</button>
+    <button class="filter-tab" onclick="setFilter(this,'social')">🤝 Social</button>
+    <div class="filter-spacer"></div>
+    <select class="sort-select">
+      <option>Mới nhất trước</option>
+      <option>Cũ nhất trước</option>
+      <option>XP: Cao → Thấp</option>
+      <option>Còn lại: Gần đạt</option>
+    </select>
+  </div>
+
+  <!-- ── SECTION: Streak ─────────────────────────── -->
+  <div class="section-label">🔥 Streak <span class="section-count">3 đã đạt / 3</span></div>
+  <div class="badge-grid">
+
+    <div class="badge-card earned rare">
+      <div class="earned-check">✓</div>
+      <div class="badge-icon">🔥</div>
+      <div class="badge-cat-pill cat-streak">Streak</div>
+      <div class="badge-name">Lửa Không Tắt</div>
+      <div class="badge-cond">Duy trì streak 7 ngày liên tiếp</div>
+      <div class="badge-xp">+100 XP</div>
+      <div class="badge-date">Đạt: 12/06/2025</div>
+    </div>
+
+    <div class="badge-card earned rare">
+      <div class="earned-check">✓</div>
+      <div class="badge-icon">🌋</div>
+      <div class="badge-cat-pill cat-streak">Streak</div>
+      <div class="badge-name">Núi Lửa</div>
+      <div class="badge-cond">Duy trì streak 30 ngày liên tiếp</div>
+      <div class="badge-xp">+300 XP</div>
+      <div class="badge-date">Đạt: 02/07/2025</div>
+    </div>
+
+    <div class="badge-card unearned">
+      <div class="lock-overlay">🔒</div>
+      <div class="badge-tip">Học 100 ngày liên tiếp để mở khóa</div>
+      <div class="badge-icon">☀️</div>
+      <div class="badge-cat-pill cat-streak">Streak</div>
+      <div class="badge-name">Mặt Trời Bất Diệt</div>
+      <div class="badge-cond">Duy trì streak 100 ngày liên tiếp</div>
+      <div class="badge-xp">+500 XP</div>
+      <div class="badge-date">Tiến độ: 12/100 ngày</div>
+    </div>
+
+  </div>
+
+  <!-- ── SECTION: Kỹ năng ─────────────────────────── -->
+  <div class="section-label">🎯 Kỹ năng <span class="section-count">2 đã đạt / 4</span></div>
+  <div class="badge-grid">
+
+    <div class="badge-card earned">
+      <div class="new-badge-flash">MỚI</div>
+      <div class="earned-check">✓</div>
+      <div class="badge-icon">👂</div>
+      <div class="badge-cat-pill cat-skill">Skill</div>
+      <div class="badge-name">Tai Nghe Sắc Bén</div>
+      <div class="badge-cond">Đạt điểm Nghe ≥ 90/100</div>
+      <div class="badge-xp">+200 XP</div>
+      <div class="badge-date">Đạt: 14/07/2025</div>
+    </div>
+
+    <div class="badge-card earned">
+      <div class="earned-check">✓</div>
+      <div class="badge-icon">📖</div>
+      <div class="badge-cat-pill cat-skill">Skill</div>
+      <div class="badge-name">Mắt Đọc Bão</div>
+      <div class="badge-cond">Đạt điểm Đọc ≥ 90/100</div>
+      <div class="badge-xp">+200 XP</div>
+      <div class="badge-date">Đạt: 08/07/2025</div>
+    </div>
+
+    <div class="badge-card unearned">
+      <div class="lock-overlay">🔒</div>
+      <div class="badge-icon">🎤</div>
+      <div class="badge-cat-pill cat-skill">Skill</div>
+      <div class="badge-name">Giong Vang</div>
+      <div class="badge-cond">Đạt điểm Nói ≥ 90/100</div>
+      <div class="badge-xp">+200 XP</div>
+      <div class="badge-date">Tiến độ: 72/90 điểm</div>
+    </div>
+
+    <div class="badge-card unearned">
+      <div class="lock-overlay">🔒</div>
+      <div class="badge-icon">✍️</div>
+      <div class="badge-cat-pill cat-skill">Skill</div>
+      <div class="badge-name">Ngòi Bút Vàng</div>
+      <div class="badge-cond">Đạt điểm Viết ≥ 90/100</div>
+      <div class="badge-xp">+200 XP</div>
+      <div class="badge-date">Tiến độ: 68/90 điểm</div>
+    </div>
+
+  </div>
+
+  <!-- ── SECTION: Tốc độ ─────────────────────────── -->
+  <div class="section-label">⚡ Tốc độ <span class="section-count">1 đã đạt / 3</span></div>
+  <div class="badge-grid">
+
+    <div class="badge-card earned">
+      <div class="earned-check">✓</div>
+      <div class="badge-icon">⚡</div>
+      <div class="badge-cat-pill cat-speed">Speed</div>
+      <div class="badge-name">Tia Sét</div>
+      <div class="badge-cond">Hoàn thành 1 chương trong 24 giờ</div>
+      <div class="badge-xp">+150 XP</div>
+      <div class="badge-date">Đạt: 25/06/2025</div>
+    </div>
+
+    <div class="badge-card unearned">
+      <div class="lock-overlay">🔒</div>
+      <div class="badge-icon">🌙</div>
+      <div class="badge-cat-pill cat-speed">Speed</div>
+      <div class="badge-name">Cú Đêm</div>
+      <div class="badge-cond">Học sau 22:00 VN từ 5 ngày trở lên</div>
+      <div class="badge-xp">+80 XP</div>
+      <div class="badge-date">Tiến độ: 3/5 ngày đêm</div>
+    </div>
+
+    <div class="badge-card unearned">
+      <div class="lock-overlay">🔒</div>
+      <div class="badge-icon">⏰</div>
+      <div class="badge-cat-pill cat-speed">Speed</div>
+      <div class="badge-name">Thức Sớm</div>
+      <div class="badge-cond">Học trước 06:00 VN từ 5 ngày trở lên</div>
+      <div class="badge-xp">+80 XP</div>
+      <div class="badge-date">Tiến độ: 1/5 ngày sáng</div>
+    </div>
+
+  </div>
+
+  <!-- ── SECTION: Milestone ─────────────────────────── -->
+  <div class="section-label">📚 Milestone <span class="section-count">5 đã đạt / 7</span></div>
+  <div class="badge-grid">
+
+    <div class="badge-card earned">
+      <div class="earned-check">✓</div>
+      <div class="badge-icon">🗣️</div>
+      <div class="badge-cat-pill cat-milestone">Milestone</div>
+      <div class="badge-name">Bước Đầu</div>
+      <div class="badge-cond">Hoàn thành bài học đầu tiên</div>
+      <div class="badge-xp">+20 XP</div>
+      <div class="badge-date">Đạt: 01/05/2025</div>
+    </div>
+
+    <div class="badge-card earned">
+      <div class="earned-check">✓</div>
+      <div class="badge-icon">💯</div>
+      <div class="badge-cat-pill cat-milestone">Milestone</div>
+      <div class="badge-name">Điểm Tuyệt Đối</div>
+      <div class="badge-cond">Đạt điểm 100/100 lần đầu tiên</div>
+      <div class="badge-xp">+100 XP</div>
+      <div class="badge-date">Đạt: 03/05/2025</div>
+    </div>
+
+    <div class="badge-card earned">
+      <div class="earned-check">✓</div>
+      <div class="badge-icon">📝</div>
+      <div class="badge-cat-pill cat-milestone">Milestone</div>
+      <div class="badge-name">Chăm Chỉ</div>
+      <div class="badge-cond">Hoàn thành 10 bài học</div>
+      <div class="badge-xp">+50 XP</div>
+      <div class="badge-date">Đạt: 12/05/2025</div>
+    </div>
+
+    <div class="badge-card earned">
+      <div class="earned-check">✓</div>
+      <div class="badge-icon">📖</div>
+      <div class="badge-cat-pill cat-milestone">Milestone</div>
+      <div class="badge-name">Từ Vựng 100</div>
+      <div class="badge-cond">Học được 100 từ mới (SRS)</div>
+      <div class="badge-xp">+100 XP</div>
+      <div class="badge-date">Đạt: 20/05/2025</div>
+    </div>
+
+    <div class="badge-card earned">
+      <div class="earned-check">✓</div>
+      <div class="badge-icon">📚</div>
+      <div class="badge-cat-pill cat-milestone">Milestone</div>
+      <div class="badge-name">Từ Vựng 500</div>
+      <div class="badge-cond">Học được 500 từ mới (SRS)</div>
+      <div class="badge-xp">+250 XP</div>
+      <div class="badge-date">Đạt: 18/07/2025</div>
+    </div>
+
+    <div class="badge-card unearned">
+      <div class="lock-overlay">🔒</div>
+      <div class="badge-icon">🌊</div>
+      <div class="badge-cat-pill cat-milestone">Milestone</div>
+      <div class="badge-name">Từ Vựng 1000</div>
+      <div class="badge-cond">Học được 1.000 từ mới (SRS)</div>
+      <div class="badge-xp">+400 XP</div>
+      <div class="badge-date">Tiến độ: 512/1000 từ</div>
+    </div>
+
+    <div class="badge-card unearned">
+      <div class="lock-overlay">🔒</div>
+      <div class="badge-icon">🏁</div>
+      <div class="badge-cat-pill cat-milestone">Milestone</div>
+      <div class="badge-name">Thăng Cấp CEFR</div>
+      <div class="badge-cond">Hoàn thành 1 cấp độ CEFR đầy đủ</div>
+      <div class="badge-xp">+500 XP</div>
+      <div class="badge-date">Tiến độ: B1 → đang học</div>
+    </div>
+
+  </div>
+
+  <!-- ── SECTION: Social ─────────────────────────── -->
+  <div class="section-label">🤝 Social <span class="section-count">0 đã đạt / 3</span></div>
+  <div class="badge-grid">
+
+    <div class="badge-card unearned">
+      <div class="lock-overlay">🔒</div>
+      <div class="badge-icon">🏆</div>
+      <div class="badge-cat-pill cat-social">Social</div>
+      <div class="badge-name">Top 10 Tuần</div>
+      <div class="badge-cond">Lọt vào Top 10 bảng xếp hạng tuần</div>
+      <div class="badge-xp">+200 XP</div>
+      <div class="badge-date">Chưa đạt • Hạng hiện tại: #47</div>
+    </div>
+
+    <div class="badge-card unearned">
+      <div class="lock-overlay">🔒</div>
+      <div class="badge-icon">🤝</div>
+      <div class="badge-cat-pill cat-social">Social</div>
+      <div class="badge-name">Người Truyền Cảm Hứng</div>
+      <div class="badge-cond">Có ≥5 học viên tham gia lớp học của bạn</div>
+      <div class="badge-xp">+150 XP</div>
+      <div class="badge-date">Chưa đạt • 0/5 học viên</div>
+    </div>
+
+    <div class="badge-card unearned">
+      <div class="lock-overlay">🔒</div>
+      <div class="badge-icon">💬</div>
+      <div class="badge-cat-pill cat-social">Social</div>
+      <div class="badge-name">Nhà Bình Luận</div>
+      <div class="badge-cond">Để lại ≥10 bình luận hữu ích trong diễn đàn</div>
+      <div class="badge-xp">+100 XP</div>
+      <div class="badge-date">Chưa đạt • 0/10 bình luận</div>
+    </div>
+
+  </div>
+
+</div><!-- /page -->
+
+<script>
+  const root = document.documentElement;
+  const darkBtn = document.getElementById('darkBtn');
+  function toggleDark(){
+    const isDark = root.getAttribute('data-theme') === 'dark';
+    root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    darkBtn.textContent = isDark ? '🌙' : '☀️';
+  }
+
+  function setFilter(btn, category){
+    document.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    /* In production: filter .badge-grid sections by data-category attribute */
+  }
+</script>
+</body>
+</html>
