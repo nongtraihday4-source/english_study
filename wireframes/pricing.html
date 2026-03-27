@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing – English Study</title>
+  <style>
+    /* ─── Design Tokens ─────────────────────────────────────── */
+    :root {
+      --bg:          #F5F4F0;
+      --bg2:         #ECEAE4;
+      --card:        rgba(255,255,255,0.72);
+      --card-border: rgba(255,255,255,0.9);
+      --nav-bg:      linear-gradient(135deg,#5B6EFF 0%,#7B3FE4 100%);
+      --accent:      #5B6EFF;
+      --purple:      #7B3FE4;
+      --success:     #22C97C;
+      --streak:      #FF6B35;
+      --danger:      #E84646;
+      --txt:         #1A1A2E;
+      --txt2:        #5A5A78;
+      --shadow:      0 4px 24px rgba(0,0,0,0.08);
+      --shadow-md:   0 8px 32px rgba(0,0,0,0.12);
+      --r:           16px;
+      --r-sm:        10px;
+      --transition:  .2s ease;
+    }
+    [data-theme="dark"] {
+      --bg:          #0F0F1A;
+      --bg2:         #161625;
+      --card:        rgba(255,255,255,0.05);
+      --card-border: rgba(255,255,255,0.10);
+      --txt:         #EEEEFF;
+      --txt2:        #8888AA;
+      --shadow:      0 4px 24px rgba(0,0,0,0.4);
+      --shadow-md:   0 8px 32px rgba(0,0,0,0.55);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{font-size:16px}
+    body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);transition:background .3s,color .3s;min-height:100vh}
+    a{text-decoration:none;color:inherit}
+    button{font-family:inherit;cursor:pointer}
+
+    /* ─── Navbar ─────────────────────────────────────────────── */
+    .navbar{
+      position:sticky;top:0;z-index:100;
+      background:var(--nav-bg);
+      display:flex;align-items:center;gap:1rem;
+      padding:.75rem 1.5rem;
+      box-shadow:0 2px 20px rgba(91,110,255,.35);
+    }
+    .navbar-brand{display:flex;align-items:center;gap:.6rem;flex-shrink:0}
+    .brand-icon{width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,0.22);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1rem;color:#fff;letter-spacing:-1px}
+    .brand-name{color:#fff;font-weight:700;font-size:1.05rem;white-space:nowrap}
+    .navbar-links{display:flex;align-items:center;gap:.25rem;margin-left:1rem;flex:1}
+    .nav-link{display:flex;align-items:center;gap:.45rem;color:rgba(255,255,255,0.75);font-size:.88rem;font-weight:500;padding:.45rem .9rem;border-radius:8px;transition:var(--transition);white-space:nowrap;border:none;background:none}
+    .nav-link:hover,.nav-link.active{background:rgba(255,255,255,0.18);color:#fff}
+    .nav-link svg{width:16px;height:16px;flex-shrink:0}
+    .navbar-right{display:flex;align-items:center;gap:.75rem;margin-left:auto}
+    .dark-toggle{background:rgba(255,255,255,0.15);border:none;cursor:pointer;width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;transition:var(--transition);color:#fff}
+    .dark-toggle:hover{background:rgba(255,255,255,0.25)}
+    .user-chip{display:flex;align-items:center;gap:.55rem;background:rgba(255,255,255,0.15);border-radius:9999px;padding:.35rem .8rem .35rem .35rem;cursor:pointer;transition:var(--transition)}
+    .user-chip:hover{background:rgba(255,255,255,0.25)}
+    .avatar{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#FFD166,#FF6B35);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.72rem;color:#fff;flex-shrink:0}
+    .user-chip-name{color:#fff;font-size:.82rem;font-weight:600}
+    .level-badge{background:rgba(255,255,255,0.25);color:#fff;font-size:.66rem;font-weight:700;padding:.15rem .45rem;border-radius:5px;letter-spacing:.5px}
+
+    /* ─── Page ───────────────────────────────────────────────── */
+    .page{max-width:1200px;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+
+    /* ─── Hero Header ─────────────────────────────────────────── */
+    .pricing-hero{text-align:center;margin-bottom:2.75rem}
+    .pricing-hero h1{font-size:2.25rem;font-weight:800;line-height:1.2;margin-bottom:.65rem}
+    .pricing-hero h1 span{background:var(--nav-bg);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .pricing-hero p{font-size:1.05rem;color:var(--txt2);max-width:560px;margin:0 auto 1.5rem;line-height:1.65}
+    /* Toggle monthly/yearly */
+    .billing-toggle{
+      display:inline-flex;align-items:center;gap:.85rem;
+      background:var(--card);border:1.5px solid var(--card-border);
+      backdrop-filter:blur(12px);
+      border-radius:9999px;padding:.4rem .6rem;
+      box-shadow:var(--shadow);
+    }
+    .billing-opt{
+      padding:.4rem 1rem;border-radius:9999px;font-size:.85rem;font-weight:600;
+      border:none;background:transparent;color:var(--txt2);transition:.15s;
+    }
+    .billing-opt.active{background:var(--nav-bg);color:#fff;box-shadow:0 2px 8px rgba(91,110,255,.3)}
+    .save-badge{
+      background:rgba(34,201,124,.15);color:#18a06a;
+      font-size:.72rem;font-weight:700;padding:.18rem .55rem;
+      border-radius:9999px;border:1px solid rgba(34,201,124,.3);
+    }
+
+    /* ─── Pricing Cards ───────────────────────────────────────── */
+    .plans-grid{
+      display:grid;grid-template-columns:repeat(3,1fr);
+      gap:1.5rem;align-items:stretch;margin-bottom:3rem;
+    }
+    .plan-card{
+      background:var(--card);border:1.5px solid var(--card-border);
+      backdrop-filter:blur(12px);border-radius:calc(var(--r)+4px);
+      box-shadow:var(--shadow);
+      display:flex;flex-direction:column;
+      overflow:hidden;transition:transform .2s,box-shadow .2s;
+      position:relative;
+    }
+    .plan-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+    /* Popular highlight */
+    .plan-card.popular{
+      border-color:var(--accent);
+      box-shadow:0 0 0 1px var(--accent), var(--shadow-md);
+    }
+    .plan-card.popular:hover{box-shadow:0 0 0 1px var(--accent), 0 16px 48px rgba(91,110,255,.2)}
+    .popular-ribbon{
+      background:var(--nav-bg);color:#fff;
+      font-size:.7rem;font-weight:700;letter-spacing:.5px;text-transform:uppercase;
+      text-align:center;padding:.38rem 0;
+    }
+    .plan-body{padding:1.75rem 1.5rem;flex:1;display:flex;flex-direction:column}
+    .plan-icon{font-size:2rem;margin-bottom:.75rem}
+    .plan-name{font-size:1.25rem;font-weight:800;margin-bottom:.3rem}
+    .plan-sub{font-size:.85rem;color:var(--txt2);margin-bottom:1.25rem;line-height:1.5}
+    .plan-price-row{display:flex;align-items:flex-end;gap:.35rem;margin-bottom:.35rem}
+    .price-amount{font-size:2.5rem;font-weight:900;line-height:1;color:var(--txt)}
+    .price-amount.free{color:var(--success)}
+    .price-amount.premium{background:var(--nav-bg);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .price-unit{font-size:.88rem;color:var(--txt2);margin-bottom:.4rem}
+    .price-original{
+      font-size:.8rem;color:var(--txt2);text-decoration:line-through;margin-bottom:.25rem;
+    }
+    .price-saving{
+      font-size:.75rem;font-weight:700;color:var(--success);
+      background:rgba(34,201,124,.1);padding:.15rem .55rem;border-radius:9999px;
+      display:inline-block;margin-top:.1rem;
+    }
+    .plan-billing-note{font-size:.75rem;color:var(--txt2);margin-bottom:1.35rem}
+    /* CTA button */
+    .btn-plan{
+      width:100%;padding:.75rem;border-radius:var(--r-sm);
+      font-size:.95rem;font-weight:700;border:none;
+      transition:all .15s;margin-bottom:1.25rem;
+    }
+    .btn-plan:active{transform:scale(.97)}
+    .btn-free{background:var(--bg2);color:var(--txt)}
+    .btn-free:hover{background:var(--card-border)}
+    .btn-premium{
+      background:var(--nav-bg);color:#fff;
+      box-shadow:0 4px 16px rgba(91,110,255,.35);
+    }
+    .btn-premium:hover{opacity:.9}
+    .btn-current{
+      background:transparent;border:1.5px solid var(--bg2);color:var(--txt2);
+      cursor:default;
+    }
+    /* Feature list */
+    .plan-features{display:flex;flex-direction:column;gap:.6rem;flex:1}
+    .feat-item{display:flex;align-items:flex-start;gap:.6rem;font-size:.85rem;line-height:1.4}
+    .feat-icon{flex-shrink:0;width:18px;height:18px;margin-top:.05rem}
+    .feat-check{color:var(--success);font-size:1rem}
+    .feat-cross{color:var(--txt2);opacity:.4;font-size:1rem}
+    .feat-txt{color:var(--txt)}
+    .feat-txt.muted{color:var(--txt2)}
+    .feat-highlight{color:var(--accent);font-weight:600}
+    .plan-divider{height:1px;background:rgba(0,0,0,0.07);margin:.85rem 0}
+    [data-theme="dark"] .plan-divider{background:rgba(255,255,255,.07)}
+
+    /* ─── Comparison Table ────────────────────────────────────── */
+    .table-section{}
+    .section-label{
+      font-size:1.15rem;font-weight:800;margin-bottom:1.25rem;
+      display:flex;align-items:center;gap:.6rem;
+    }
+    .section-label::after{content:'';flex:1;height:2px;background:var(--bg2);border-radius:1px}
+    .compare-table{
+      background:var(--card);border:1.5px solid var(--card-border);
+      backdrop-filter:blur(12px);border-radius:var(--r);
+      box-shadow:var(--shadow);overflow:hidden;width:100%;
+    }
+    table{width:100%;border-collapse:collapse}
+    thead{background:var(--nav-bg)}
+    thead th{
+      color:#fff;padding:1rem 1.1rem;font-size:.85rem;font-weight:700;
+      text-align:center;
+    }
+    thead th:first-child{text-align:left;width:40%}
+    tbody tr{border-bottom:1px solid rgba(0,0,0,0.06);transition:background .15s}
+    [data-theme="dark"] tbody tr{border-color:rgba(255,255,255,.05)}
+    tbody tr:last-child{border-bottom:none}
+    tbody tr:hover{background:rgba(91,110,255,.04)}
+    thead tr.category-row th{
+      background:var(--bg2);color:var(--txt2);font-size:.72rem;
+      letter-spacing:.6px;text-transform:uppercase;padding:.55rem 1.1rem;
+    }
+    .category-row{background:var(--bg2)!important}
+    tbody td{padding:.85rem 1.1rem;font-size:.85rem;text-align:center;color:var(--txt)}
+    tbody td:first-child{text-align:left;font-weight:500}
+    .check-yes{color:var(--success);font-size:1.05rem}
+    .check-no{color:var(--txt2);opacity:.4;font-size:1rem}
+    .check-partial{color:var(--streak);font-size:.8rem;font-weight:600}
+    .check-limited{
+      font-size:.72rem;font-weight:600;color:var(--streak);
+      background:rgba(255,107,53,.1);padding:.15rem .45rem;border-radius:5px;
+    }
+    .col-popular-bg{background:rgba(91,110,255,.04)}
+    .thead-popular{
+      font-size:.75rem;display:block;font-weight:600;
+      color:#fff;opacity:.8;margin-top:.15rem;
+    }
+
+    /* ─── FAQ Strip ───────────────────────────────────────────── */
+    .faq-strip{
+      margin-top:3rem;
+      background:var(--card);border:1.5px solid var(--card-border);
+      backdrop-filter:blur(12px);border-radius:var(--r);
+      box-shadow:var(--shadow);padding:1.5rem;
+    }
+    .faq-strip h3{font-size:1rem;font-weight:700;margin-bottom:1.1rem}
+    .faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:.85rem}
+    .faq-item{display:flex;flex-direction:column;gap:.35rem}
+    .faq-q{font-size:.87rem;font-weight:600}
+    .faq-a{font-size:.82rem;color:var(--txt2);line-height:1.5}
+
+    /* ─── Trust badges ────────────────────────────────────────── */
+    .trust-row{
+      display:flex;justify-content:center;align-items:center;gap:2rem;
+      margin-top:2rem;flex-wrap:wrap;
+    }
+    .trust-item{
+      display:flex;align-items:center;gap:.5rem;
+      font-size:.82rem;color:var(--txt2);
+    }
+    .trust-item span{font-size:1.1rem}
+
+    /* ─── Responsive ─────────────────────────────────────────── */
+    @media(max-width:900px){
+      .plans-grid{grid-template-columns:1fr}
+      .plan-card.popular{order:-1}
+      .faq-grid{grid-template-columns:1fr}
+      .pricing-hero h1{font-size:1.75rem}
+      thead th:first-child{width:35%}
+    }
+    @media(max-width:600px){
+      thead th:nth-child(2){display:none}
+      tbody td:nth-child(2){display:none}
+      .pricing-hero h1{font-size:1.5rem}
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════ NAVBAR ═══════ -->
+<nav class="navbar">
+  <div class="navbar-brand">
+    <div class="brand-icon">ES</div>
+    <span class="brand-name">English Study</span>
+  </div>
+  <div class="navbar-links">
+    <a href="student-dashboard.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      <span>Dashboard</span>
+    </a>
+    <a href="skill-map.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+      <span>Skill Map</span>
+    </a>
+    <a href="flashcard.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="9" height="6" rx="1"/><rect x="2" y="13" width="9" height="6" rx="1"/><rect x="13" y="5" width="9" height="14" rx="1"/></svg>
+      <span>Flashcard</span>
+    </a>
+    <button class="nav-link active">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <span>Nâng cấp</span>
+    </button>
+    <a href="achievements.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+      <span>Thành tích</span>
+    </a>
+  </div>
+  <div class="navbar-right">
+    <button class="dark-toggle" id="darkBtn" onclick="toggleDark()">🌙</button>
+    <div class="user-chip">
+      <div class="avatar">N</div>
+      <span class="user-chip-name">Nam</span>
+      <span class="level-badge">DEMO</span>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════ PAGE ═══════ -->
+<div class="page">
+
+  <!-- Hero Header -->
+  <div class="pricing-hero">
+    <h1>Chọn gói học <span>phù hợp với bạn</span></h1>
+    <p>Bắt đầu miễn phí, nâng cấp khi bạn sẵn sàng. Không có phí ẩn — huỷ bất cứ lúc nào.</p>
+    <div class="billing-toggle">
+      <button class="billing-opt active" id="btnMonthly" onclick="setBilling('monthly')">Theo tháng</button>
+      <button class="billing-opt" id="btnYearly" onclick="setBilling('yearly')">Theo năm &nbsp;<span class="save-badge">Tiết kiệm 38%</span></button>
+    </div>
+  </div>
+
+  <!-- Pricing Cards -->
+  <div class="plans-grid">
+
+    <!-- Plan: Demo -->
+    <div class="plan-card">
+      <div class="plan-body">
+        <div class="plan-icon">🆓</div>
+        <div class="plan-name">Demo</div>
+        <div class="plan-sub">Dùng thử miễn phí, không cần thẻ ngân hàng</div>
+        <div class="plan-price-row">
+          <span class="price-amount free">0</span>
+          <span class="price-unit">đ / mãi mãi</span>
+        </div>
+        <div class="plan-billing-note">Không yêu cầu thanh toán</div>
+        <button class="btn-plan btn-current" disabled>Gói hiện tại</button>
+        <div class="plan-features">
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">3 bài học đầu mỗi cấp độ</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Từ điển Oxford 3000 cơ bản</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Flashcard — 1 deck mẫu (50 thẻ)</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Trắc nghiệm Nghe &amp; Đọc (giới hạn)</span></div>
+          <div class="plan-divider"></div>
+          <div class="feat-item"><span class="feat-icon feat-cross">✕</span><span class="feat-txt muted">Luyện Nói AI (chấm điểm Whisper)</span></div>
+          <div class="feat-item"><span class="feat-icon feat-cross">✕</span><span class="feat-txt muted">Luyện Viết AI (chấm điểm GPT-4o)</span></div>
+          <div class="feat-item"><span class="feat-icon feat-cross">✕</span><span class="feat-txt muted">SRS không giới hạn &amp; Deck cá nhân</span></div>
+          <div class="feat-item"><span class="feat-icon feat-cross">✕</span><span class="feat-txt muted">Tải PDF tài liệu nguồn</span></div>
+          <div class="feat-item"><span class="feat-icon feat-cross">✕</span><span class="feat-txt muted">Chứng chỉ hoàn thành CEFR</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Plan: Premium Monthly (Popular) -->
+    <div class="plan-card popular">
+      <div class="popular-ribbon">⭐ Phổ biến nhất</div>
+      <div class="plan-body">
+        <div class="plan-icon">💎</div>
+        <div class="plan-name">Premium</div>
+        <div class="plan-sub">Truy cập toàn bộ, AI chấm không giới hạn</div>
+        <div id="monthlyPriceBlock">
+          <div class="plan-price-row">
+            <span class="price-amount premium" id="mainPrice">199.000</span>
+            <span class="price-unit" id="mainUnit">đ / tháng</span>
+          </div>
+          <div class="plan-billing-note" id="mainNote">Thanh toán hàng tháng • Huỷ bất cứ lúc nào</div>
+          <div id="savingBlock" style="display:none;margin-bottom:.5rem">
+            <span class="price-original">2.388.000 đ / năm</span>
+            <br><span class="price-saving">✅ Tiết kiệm 898.000 đ (~38%)</span>
+          </div>
+        </div>
+        <button class="btn-plan btn-premium" onclick="checkout('premium')">🚀 Nâng cấp ngay</button>
+        <div class="plan-features">
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt"><span class="feat-highlight">Toàn bộ</span> bài học A1 → C1 không giới hạn</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt"><span class="feat-highlight">AI chấm Nói</span> — Whisper + GPT-4o rubric 4 tiêu chí</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt"><span class="feat-highlight">AI chấm Viết</span> — phân tích ngữ pháp, từ vựng CEFR</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Oxford 5000 + domain filter đầy đủ</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">SRS không giới hạn &amp; Deck cá nhân</span></div>
+          <div class="plan-divider"></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Pronunciation Curriculum 4 giai đoạn</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Tải PDF tài liệu nguồn gốc</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Chứng chỉ hoàn thành CEFR (PDF có mã xác thực)</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Daily Challenge — 2× XP duy nhất</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Leaderboard &amp; Badge không giới hạn</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Plan: Single Course -->
+    <div class="plan-card">
+      <div class="plan-body">
+        <div class="plan-icon">📚</div>
+        <div class="plan-name">Khóa đơn lẻ</div>
+        <div class="plan-sub">Mua riêng 1 khóa học bất kỳ — truy cập vĩnh viễn</div>
+        <div class="plan-price-row">
+          <span class="price-amount" style="background:var(--nav-bg);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:2.5rem;font-weight:900;line-height:1">từ 299k</span>
+        </div>
+        <div class="plan-billing-note">Thanh toán 1 lần · Không subscription</div>
+        <button class="btn-plan btn-premium" onclick="checkout('single')" style="background:linear-gradient(135deg,#FF6B35,#E84646);box-shadow:0 4px 16px rgba(255,107,53,.35)">🎯 Xem danh sách khóa</button>
+        <div class="plan-features">
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Truy cập vĩnh viễn 1 khóa đã mua</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Bao gồm AI chấm Nói &amp; Viết cho khóa đó</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Tải PDF tài liệu của khóa</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Flashcard deck gắn với khóa học</span></div>
+          <div class="plan-divider"></div>
+          <div class="feat-item"><span class="feat-icon feat-cross">✕</span><span class="feat-txt muted">Các khóa học khác (ngoài khóa đã mua)</span></div>
+          <div class="feat-item"><span class="feat-icon feat-cross">✕</span><span class="feat-txt muted">Leaderboard toàn hệ thống</span></div>
+          <div class="feat-item"><span class="feat-icon feat-check">✓</span><span class="feat-txt">Chứng chỉ cho khóa đã hoàn thành</span></div>
+          <div class="feat-item">
+            <span class="check-limited">Tip</span>
+            <span class="feat-txt" style="margin-left:.4rem">Mua ≥3 khóa = tự động nâng Premium năm</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /plans-grid -->
+
+  <!-- Comparison Table -->
+  <div class="table-section">
+    <div class="section-label">So sánh tính năng chi tiết</div>
+    <div class="compare-table">
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align:left">Tính năng</th>
+            <th>Demo</th>
+            <th class="col-popular-bg">
+              Premium
+              <span class="thead-popular">⭐ Phổ biến</span>
+            </th>
+            <th>Khóa đơn lẻ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Category: Học tập -->
+          <tr class="category-row"><th colspan="4">📖 Học tập & Bài tập</th></tr>
+          <tr><td>Bài học cơ bản (3 đầu mỗi cấp)</td><td><span class="check-yes">✓</span></td><td class="col-popular-bg"><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td></tr>
+          <tr><td>Toàn bộ bài học A1 – C1</td><td><span class="check-no">—</span></td><td class="col-popular-bg"><span class="check-yes">✓</span></td><td><span class="check-limited">Theo khóa</span></td></tr>
+          <tr><td>Trắc nghiệm Nghe &amp; Đọc</td><td><span class="check-partial">Giới hạn</span></td><td class="col-popular-bg"><span class="check-yes">✓ Không giới hạn</span></td><td><span class="check-yes">✓</span></td></tr>
+          <tr><td>AI chấm bài Nói (Whisper)</td><td><span class="check-no">—</span></td><td class="col-popular-bg"><span class="check-yes">✓ Không giới hạn</span></td><td><span class="check-yes">✓</span></td></tr>
+          <tr><td>AI chấm bài Viết (GPT-4o)</td><td><span class="check-no">—</span></td><td class="col-popular-bg"><span class="check-yes">✓ Không giới hạn</span></td><td><span class="check-yes">✓</span></td></tr>
+          <!-- Category: Từ vựng -->
+          <tr class="category-row"><th colspan="4">📚 Từ vựng & Phát âm</th></tr>
+          <tr><td>Oxford 3000 (A1–B2)</td><td><span class="check-partial">Cơ bản</span></td><td class="col-popular-bg"><span class="check-yes">✓ Đầy đủ</span></td><td><span class="check-yes">✓</span></td></tr>
+          <tr><td>Oxford 5000 (B2–C1)</td><td><span class="check-no">—</span></td><td class="col-popular-bg"><span class="check-yes">✓</span></td><td><span class="check-limited">Theo khóa</span></td></tr>
+          <tr><td>Flashcard SRS (SM-2)</td><td><span class="check-partial">1 deck / 50 thẻ</span></td><td class="col-popular-bg"><span class="check-yes">✓ Không giới hạn</span></td><td><span class="check-yes">✓</span></td></tr>
+          <tr><td>Pronunciation Curriculum 4 stages</td><td><span class="check-no">—</span></td><td class="col-popular-bg"><span class="check-yes">✓</span></td><td><span class="check-limited">Theo khóa</span></td></tr>
+          <!-- Category: Gamification -->
+          <tr class="category-row"><th colspan="4">🏆 Gamification & Cộng đồng</th></tr>
+          <tr><td>Streak &amp; XP cơ bản</td><td><span class="check-yes">✓</span></td><td class="col-popular-bg"><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td></tr>
+          <tr><td>30+ Achievement Badges</td><td><span class="check-partial">5 badges</span></td><td class="col-popular-bg"><span class="check-yes">✓ 30+ badges</span></td><td><span class="check-partial">15 badges</span></td></tr>
+          <tr><td>Leaderboard tuần / tháng</td><td><span class="check-no">—</span></td><td class="col-popular-bg"><span class="check-yes">✓</span></td><td><span class="check-no">—</span></td></tr>
+          <tr><td>Daily Challenge (2× XP)</td><td><span class="check-no">—</span></td><td class="col-popular-bg"><span class="check-yes">✓</span></td><td><span class="check-no">—</span></td></tr>
+          <tr><td>Chứng chỉ PDF có mã xác thực</td><td><span class="check-no">—</span></td><td class="col-popular-bg"><span class="check-yes">✓</span></td><td><span class="check-yes">✓</span></td></tr>
+          <!-- Category: Hỗ trợ -->
+          <tr class="category-row"><th colspan="4">⚙️ Hỗ trợ & Tài nguyên</th></tr>
+          <tr><td>Tải PDF tài liệu nguồn</td><td><span class="check-no">—</span></td><td class="col-popular-bg"><span class="check-yes">✓</span></td><td><span class="check-limited">Theo khóa</span></td></tr>
+          <tr><td>Tham gia lớp học của Giáo viên</td><td><span class="check-no">—</span></td><td class="col-popular-bg"><span class="check-yes">✓</span></td><td><span class="check-no">—</span></td></tr>
+          <tr><td>Push Notification nhắc học</td><td><span class="check-yes">✓</span></td><td class="col-popular-bg"><span class="check-yes">✓ Nâng cao</span></td><td><span class="check-yes">✓</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq-strip">
+    <h3>❓ Câu hỏi thường gặp</h3>
+    <div class="faq-grid">
+      <div class="faq-item">
+        <div class="faq-q">Tôi có thể huỷ gói bất cứ lúc nào không?</div>
+        <div class="faq-a">Có. Gói tháng và gói năm đều có thể huỷ tự do trong phần Cài đặt tài khoản. Không phí phạt, không rắc rối.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Thanh toán bằng những hình thức nào?</div>
+        <div class="faq-a">Chấp nhận VNPay (ví điện tử, ATM, QR), Visa/Mastercard qua Stripe, và chuyển khoản ngân hàng.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Mã giảm giá (Coupon) dùng như thế nào?</div>
+        <div class="faq-a">Nhập mã tại màn hình thanh toán trước khi xác nhận. Mã có thể giảm % hoặc giảm số tiền cố định (VND).</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Học viên Demo bị giới hạn những gì?</div>
+        <div class="faq-a">Chỉ truy cập 3 bài đầu mỗi cấp, không dùng AI chấm Nói/Viết, không tải tài liệu PDF gốc và không có chứng chỉ.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Trust badges -->
+  <div class="trust-row">
+    <div class="trust-item"><span>🔒</span> Thanh toán bảo mật SSL</div>
+    <div class="trust-item"><span>🔄</span> Hoàn tiền 7 ngày</div>
+    <div class="trust-item"><span>🌏</span> VNPay &amp; Stripe hỗ trợ</div>
+    <div class="trust-item"><span>⚡</span> Kích hoạt tức thì</div>
+    <div class="trust-item"><span>🎓</span> 2.400+ học viên</div>
+  </div>
+
+</div><!-- /page -->
+
+<script>
+  const root = document.documentElement;
+  const darkBtn = document.getElementById('darkBtn');
+  function toggleDark(){
+    const isDark = root.getAttribute('data-theme') === 'dark';
+    root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    darkBtn.textContent = isDark ? '🌙' : '☀️';
+  }
+
+  let billingMode = 'monthly';
+  function setBilling(mode){
+    billingMode = mode;
+    document.getElementById('btnMonthly').classList.toggle('active', mode === 'monthly');
+    document.getElementById('btnYearly').classList.toggle('active', mode === 'yearly');
+    if(mode === 'yearly'){
+      document.getElementById('mainPrice').textContent = '1.490.000';
+      document.getElementById('mainUnit').textContent = 'đ / năm';
+      document.getElementById('mainNote').textContent = 'Thanh toán 1 lần / năm • Huỷ bất cứ lúc nào';
+      document.getElementById('savingBlock').style.display = 'block';
+    } else {
+      document.getElementById('mainPrice').textContent = '199.000';
+      document.getElementById('mainUnit').textContent = 'đ / tháng';
+      document.getElementById('mainNote').textContent = 'Thanh toán hàng tháng • Huỷ bất cứ lúc nào';
+      document.getElementById('savingBlock').style.display = 'none';
+    }
+  }
+
+  function checkout(plan){
+    alert('Chuyển đến màn hình thanh toán: ' + plan + ' (' + billingMode + ')');
+  }
+</script>
+</body>
+</html>

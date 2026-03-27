@@ -1,0 +1,177 @@
+# NHIỆM VỤ: Sinh Django JSON Fixture — B1.csv Batch 6/17
+
+Bạn là chuyên gia ngôn ngữ học và kỹ sư dữ liệu.
+Làm giàu dữ liệu (data enrichment) cho **50 từ tiếng Anh trình độ B1** bên dưới.
+Dữ liệu đầu vào đã có sẵn: pk, word, part_of_speech, ipa_uk.
+Bạn cần **bổ sung TẤT CẢ** các trường còn lại theo đúng quy tắc dưới đây.
+
+---
+## DỮ LIỆU ĐẦU VÀO (đã biết — KHÔNG thay đổi):
+
+| pk | word | part_of_speech | ipa_uk |
+|----|------|---------------|--------|
+| 2121 | excitement | noun | ɪkˈsaɪtmənt |
+| 2122 | exhibition | noun | ˌɛksəˈbɪʃən |
+| 2123 | expand | verb | ɪkˈspænd |
+| 2124 | expected | adjective | ɪkˈspɛktəd |
+| 2125 | expedition | noun | ˌɛkspəˈdɪʃən |
+| 2126 | experience | verb | ɪkˈspɪriəns |
+| 2127 | experienced | adjective | ɪkˈspɪriənst |
+| 2128 | experiment | verb | ɪkˈspɛrəmənt |
+| 2129 | explode | verb | ɪkˈsploʊd |
+| 2130 | explore | verb | ɪkˈsplɔr |
+| 2131 | explosion | noun | ɪkˈsploʊʒən |
+| 2132 | export | noun | ˈɛkspɔrt |
+| 2133 | extra | noun | ˈɛkstrə |
+| 2134 | face | verb | feɪs |
+| 2135 | fairly | adverb | ˈfɛrli |
+| 2136 | familiar | adjective | fəˈmɪljər |
+| 2137 | fancy | verb | ˈfænsi |
+| 2138 | far | adjective | fɑr |
+| 2139 | fascinating | adjective | ˈfæsəˌneɪtɪŋ |
+| 2140 | fashionable | adjective | ˈfæʃənəbəl |
+| 2141 | fasten | verb | ˈfæsən |
+| 2142 | favour | noun | favour |
+| 2143 | fear | verb | fɪr |
+| 2144 | feature | verb | ˈfiʧər |
+| 2145 | fence | noun | fɛns |
+| 2146 | fighting | noun | ˈfaɪtɪŋ |
+| 2147 | file | noun | faɪl |
+| 2148 | financial | adjective | fəˈnænʃəl |
+| 2149 | fire | verb | ˈfaɪər |
+| 2150 | fitness | noun | ˈfɪtnəs |
+| 2151 | fixed | adjective | fɪkst |
+| 2152 | flag | noun | flæɡ |
+| 2153 | flood | noun | flʌd |
+| 2154 | flour | noun | ˈflaʊər |
+| 2155 | flow | verb | floʊ |
+| 2156 | fold | verb | foʊld |
+| 2157 | folk | noun | foʊk |
+| 2158 | following | noun | ˈfɑloʊɪŋ |
+| 2159 | force | noun | fɔrs |
+| 2160 | forever | adverb | fəˈrɛvər |
+| 2161 | frame | noun | freɪm |
+| 2162 | freeze | verb | friz |
+| 2163 | frequently | adverb | ˈfrikwəntli |
+| 2164 | friendship | noun | ˈfrɛndʃɪp |
+| 2165 | frighten | verb | ˈfraɪtən |
+| 2166 | frightened | adjective | ˈfraɪtənd |
+| 2167 | frightening | adjective | ˈfraɪtənɪŋ |
+| 2168 | frozen | adjective | ˈfroʊzən |
+| 2169 | fry | verb | fraɪ |
+| 2170 | fuel | noun | ˈfjuəl |
+
+---
+## QUY TẮC BỔ SUNG:
+
+### 1. domain
+Gán MỘT domain phù hợp nhất từ danh sách sau (chỉ dùng đúng giá trị này, viết thường):
+`general` | `everyday` | `business` | `technology` | `academic` | `medical` | `health` | `travel` | `food` | `vegetables` | `animals` | `nature` | `art`
+
+Hướng dẫn gán domain:
+- **general**: từ chức năng/từ cơ bản không thuộc ngữ cảnh cụ thể (about, after, again, can, do, good, big…)
+- **everyday**: đời sống hằng ngày, gia đình, nhà cửa, cảm xúc, thời gian (morning, family, happy, house…)
+- **business**: kinh tế, tài chính, marketing, công ty (price, market, report, profit…)
+- **technology**: máy tính, internet, phần mềm (computer, software, wifi, data…)
+- **academic**: giáo dục, nghiên cứu, khoa học (theory, analysis, evidence…)
+- **medical**: y tế, bệnh viện, thuốc (doctor, medicine, symptom…)
+- **health**: lối sống, thể dục, dinh dưỡng (exercise, diet, sleep…)
+- **travel**: di chuyển, địa điểm, du lịch (airport, hotel, map, ticket…)
+- **food**: ẩm thực, nấu ăn, thức uống (cooking, recipe, soup, juice, restaurant…)
+- **vegetables**: rau xanh, quả, nguyên liệu nấu ăn (apple, rice, carrot, bread, flour…)
+- **animals**: động vật, côn trùng, sinh vật hoang dã (dog, cat, fish, bird, insect…)
+- **nature**: thiên nhiên, địa lý, thời tiết, cảnh quan (rain, mountain, river, sea, wind…)
+- **art**: nghệ thuật, âm nhạc, hội hoạ, văn học (music, paint, novel, dance…)
+
+### 2. ipa_us
+Nếu IPA Mỹ khác IPA Anh, điền đúng. Nếu giống hệt thì copy ipa_uk.
+
+### 3. definition_en
+1–2 câu tiếng Anh đơn giản, phù hợp trình độ B1.
+
+### 4. example_en / example_vi
+Câu ví dụ tiếng Anh có dùng đúng từ đó. Dịch sang tiếng Việt tự nhiên.
+
+### 5. collocations_json
+Mảng 3–5 cụm từ hay gặp (string). Ví dụ: ["go to school", "school bus", "after school"]
+
+### 6. synonyms_json / antonyms_json
+Mảng string, 1–3 từ đồng nghĩa/trái nghĩa. Để [] nếu không có.
+
+### 7. mnemonic
+1 câu gợi nhớ vui, sáng tạo bằng tiếng Việt hoặc tiếng Anh.
+
+### 8. frequency_rank
+Ước lượng hạng tần suất (1 = phổ biến nhất). Từ A1 thường 1–2000, C1 thường 5000–15000.
+
+### 9. Các trường cố định (giữ nguyên):
+- `audio_uk_s3_key`, `audio_us_s3_key`, `image_key`: null
+- `register`: null (trừ khi từ rõ ràng là formal/informal/slang/academic)
+- `is_oxford_3000`: true nếu trình độ A1/A2/B1, false nếu B2/C1
+- `is_oxford_5000`: true nếu trình độ A1–B2, false nếu C1
+- `created_at`: "2026-03-25T00:00:00Z"
+
+---
+## FORMAT ĐẦU RA:
+
+Trả về **CHỈ** một JSON array hợp lệ (không có text thêm), bọc trong block ```json ... ```.
+Số lượng object: đúng **50** (pk từ 2121 đến 2170, KHÔNG thêm, KHÔNG bỏ).
+
+### HƯỚNG DẪN ĐIỀN:
+
+**Dữ liệu từ CSV (KHÔNG thay đổi):**
+- "pk", "word", "part_of_speech", "ipa_uk"
+
+**Dữ liệu cần điền bởi LLM:**
+- "domain": gán theo hướng dẫn mục 1
+- "meaning_vi": nghĩa tiếng Việt ngắn gọn (3–8 từ)
+- "ipa_us": IPA Mỹ (hoặc copy ipa_uk nếu giống)
+- "definition_en", "example_en", "example_vi", "collocations_json", "synonyms_json", "antonyms_json", "mnemonic", "frequency_rank", "register"
+
+**Dữ liệu cố định:**
+- model: "vocabulary.word"
+- audio_uk_s3_key, audio_us_s3_key, image_key: null
+- is_oxford_3000: true (A1/A2/B1), false (B2/C1)
+- is_oxford_5000: true (A1–B2), false (C1)
+- created_at: "2026-03-25T00:00:00Z"
+
+### MẪU THAM KHẢO (1 object hoàn chỉnh):
+```json
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 101,
+    "fields": {
+      "word": "apple",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "food",
+      "ipa_uk": "ˈæp.əl",
+      "ipa_us": "ˈæp.əl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quả táo",
+      "definition_en": "A round fruit with red, green, or yellow skin and firm white flesh.",
+      "example_en": "She eats an apple every morning.",
+      "example_vi": "Cô ấy ăn một quả táo mỗi sáng.",
+      "collocations_json": ["apple juice", "apple pie", "fresh apple", "an apple a day"],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Think of the letter A — the first letter of the alphabet, just like apple is the first fruit most people learn.",
+      "frequency_rank": 500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]
+```
+
+> ⚠️ QUAN TRỌNG:
+> - Giữ đúng "pk" từ bảng đầu vào. KHÔNG thay đổi pk, word, part_of_speech, ipa_uk.
+> - "model" luôn là "vocabulary.word"
+> - "domain" phải là đúng 1 trong 13 giá trị: general, everyday, business, technology, academic, medical, health, travel, food, vegetables, animals, nature, art
+> - JSON phải parse được: không có trailing comma, không có comment
+> - "meaning_vi" nên ngắn gọn (3-8 từ), không 1 đoạn văn dài

@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flashcard – English Study</title>
+  <style>
+    /* ─── Design Tokens ─────────────────────────────────────── */
+    :root {
+      --bg:          #F5F4F0;
+      --bg2:         #ECEAE4;
+      --card:        rgba(255,255,255,0.72);
+      --card-border: rgba(255,255,255,0.9);
+      --nav-bg:      linear-gradient(135deg,#5B6EFF 0%,#7B3FE4 100%);
+      --accent:      #5B6EFF;
+      --purple:      #7B3FE4;
+      --success:     #22C97C;
+      --streak:      #FF6B35;
+      --danger:      #E84646;
+      --txt:         #1A1A2E;
+      --txt2:        #5A5A78;
+      --shadow:      0 4px 24px rgba(0,0,0,0.08);
+      --shadow-md:   0 8px 32px rgba(0,0,0,0.12);
+      --r:           16px;
+      --r-sm:        10px;
+      --transition:  .2s ease;
+    }
+    [data-theme="dark"] {
+      --bg:          #0F0F1A;
+      --bg2:         #161625;
+      --card:        rgba(255,255,255,0.05);
+      --card-border: rgba(255,255,255,0.10);
+      --txt:         #EEEEFF;
+      --txt2:        #8888AA;
+      --shadow:      0 4px 24px rgba(0,0,0,0.4);
+      --shadow-md:   0 8px 32px rgba(0,0,0,0.55);
+    }
+
+    /* ─── Reset ─────────────────────────────────────────────── */
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{font-size:16px}
+    body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);transition:background .3s,color .3s;min-height:100vh}
+    a{text-decoration:none;color:inherit}
+    button{font-family:inherit;cursor:pointer}
+
+    /* ─── Navbar ─────────────────────────────────────────────── */
+    .navbar{
+      position:sticky;top:0;z-index:100;
+      background:var(--nav-bg);
+      display:flex;align-items:center;gap:1rem;
+      padding:.75rem 1.5rem;
+      box-shadow:0 2px 20px rgba(91,110,255,.35);
+    }
+    .navbar-brand{display:flex;align-items:center;gap:.6rem;flex-shrink:0}
+    .brand-icon{
+      width:36px;height:36px;border-radius:10px;
+      background:rgba(255,255,255,0.22);
+      display:flex;align-items:center;justify-content:center;
+      font-weight:800;font-size:1rem;color:#fff;letter-spacing:-1px;
+    }
+    .brand-name{color:#fff;font-weight:700;font-size:1.05rem;white-space:nowrap}
+    .navbar-links{display:flex;align-items:center;gap:.25rem;margin-left:1rem;flex:1}
+    .nav-link{
+      display:flex;align-items:center;gap:.45rem;
+      color:rgba(255,255,255,0.75);font-size:.88rem;font-weight:500;
+      padding:.45rem .9rem;border-radius:8px;transition:var(--transition);
+      white-space:nowrap;border:none;background:none;
+    }
+    .nav-link:hover,.nav-link.active{background:rgba(255,255,255,0.18);color:#fff}
+    .nav-link svg{width:16px;height:16px;flex-shrink:0}
+    .navbar-right{display:flex;align-items:center;gap:.75rem;margin-left:auto}
+    .dark-toggle{
+      background:rgba(255,255,255,0.15);border:none;cursor:pointer;
+      width:36px;height:36px;border-radius:8px;
+      display:flex;align-items:center;justify-content:center;
+      font-size:1rem;transition:var(--transition);color:#fff;
+    }
+    .dark-toggle:hover{background:rgba(255,255,255,0.25)}
+    .user-chip{
+      display:flex;align-items:center;gap:.55rem;
+      background:rgba(255,255,255,0.15);
+      border-radius:9999px;padding:.35rem .8rem .35rem .35rem;
+      cursor:pointer;transition:var(--transition);
+    }
+    .user-chip:hover{background:rgba(255,255,255,0.25)}
+    .avatar{
+      width:30px;height:30px;border-radius:50%;
+      background:linear-gradient(135deg,#FFD166,#FF6B35);
+      display:flex;align-items:center;justify-content:center;
+      font-weight:700;font-size:.72rem;color:#fff;flex-shrink:0;
+    }
+    .user-chip-name{color:#fff;font-size:.82rem;font-weight:600}
+    .level-badge{
+      background:rgba(255,255,255,0.25);color:#fff;
+      font-size:.66rem;font-weight:700;padding:.15rem .45rem;border-radius:5px;
+      letter-spacing:.5px;
+    }
+
+    /* ─── Views ──────────────────────────────────────────────── */
+    .view{display:none}
+    .view.active{display:block}
+
+    /* ═══════════════════════════════════════════════════════════
+       DECK BROWSER VIEW
+    ═══════════════════════════════════════════════════════════ */
+    .page{max-width:1280px;margin:0 auto;padding:1.75rem 1.25rem 3rem}
+
+    /* Page Header */
+    .page-header{
+      display:flex;align-items:flex-start;justify-content:space-between;
+      margin-bottom:1.5rem;flex-wrap:wrap;gap:1rem;
+    }
+    .page-title h1{font-size:1.55rem;font-weight:700}
+    .page-title h1 span{
+      background:var(--nav-bg);-webkit-background-clip:text;-webkit-text-fill-color:transparent;
+    }
+    .page-title p{color:var(--txt2);font-size:.9rem;margin-top:.3rem}
+    .btn-create{
+      display:flex;align-items:center;gap:.5rem;
+      background:var(--nav-bg);color:#fff;
+      border:none;padding:.65rem 1.2rem;border-radius:var(--r-sm);
+      font-size:.9rem;font-weight:600;
+      box-shadow:0 4px 14px rgba(91,110,255,.35);
+      transition:opacity .2s,transform .15s;flex-shrink:0;
+    }
+    .btn-create:hover{opacity:.88;transform:translateY(-1px)}
+    .btn-create:active{transform:scale(.97)}
+    .btn-create svg{width:18px;height:18px}
+
+    /* Summary Stats */
+    .summary-row{
+      display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:1.5rem;
+    }
+    .sum-card{
+      background:var(--card);border:1px solid var(--card-border);
+      backdrop-filter:blur(12px);border-radius:var(--r);
+      padding:1rem 1.2rem;box-shadow:var(--shadow);
+      display:flex;align-items:center;gap:1rem;
+      transition:transform .2s,box-shadow .2s;
+    }
+    .sum-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}
+    .sum-icon{
+      width:44px;height:44px;border-radius:12px;
+      display:flex;align-items:center;justify-content:center;
+      font-size:1.3rem;flex-shrink:0;
+    }
+    .sum-icon.blue{background:rgba(91,110,255,.12)}
+    .sum-icon.orange{background:rgba(255,107,53,.12)}
+    .sum-icon.green{background:rgba(34,201,124,.12)}
+    .sum-icon.purple{background:rgba(123,63,228,.12)}
+    .sum-info{}
+    .sum-value{font-size:1.7rem;font-weight:800;line-height:1}
+    .sum-label{font-size:.75rem;color:var(--txt2);font-weight:500;margin-top:.25rem;letter-spacing:.3px;text-transform:uppercase}
+    .sum-value.accent{color:var(--accent)}
+    .sum-value.orange{color:var(--streak)}
+    .sum-value.green{color:var(--success)}
+    .sum-value.purple{color:var(--purple)}
+
+    /* Filter Bar */
+    .filter-bar{
+      background:var(--card);border:1px solid var(--card-border);
+      backdrop-filter:blur(12px);border-radius:var(--r);
+      padding:1rem 1.25rem;box-shadow:var(--shadow);
+      display:flex;align-items:center;gap:1.25rem;margin-bottom:1.25rem;
+      flex-wrap:wrap;
+    }
+    .filter-group{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
+    .filter-label{font-size:.78rem;font-weight:600;color:var(--txt2);white-space:nowrap;letter-spacing:.3px;text-transform:uppercase}
+    .chip{
+      padding:.35rem .8rem;border-radius:9999px;font-size:.78rem;font-weight:600;
+      border:1.5px solid var(--bg2);background:transparent;color:var(--txt2);
+      transition:all .15s;
+    }
+    .chip:hover{border-color:var(--accent);color:var(--accent)}
+    .chip.active{background:var(--accent);border-color:var(--accent);color:#fff}
+    .chip.cefr-a1.active{background:#22C97C;border-color:#22C97C}
+    .chip.cefr-a2.active{background:#5B6EFF;border-color:#5B6EFF}
+    .chip.cefr-b1.active{background:#7B3FE4;border-color:#7B3FE4}
+    .chip.cefr-b2.active{background:#FF6B35;border-color:#FF6B35}
+    .chip.cefr-c1.active{background:#E84646;border-color:#E84646}
+    .filter-divider{width:1px;height:28px;background:var(--bg2);flex-shrink:0}
+    .filter-select{
+      background:var(--bg2);border:1.5px solid transparent;border-radius:var(--r-sm);
+      padding:.38rem .8rem;font-size:.82rem;font-weight:500;color:var(--txt);
+      transition:border-color .15s;outline:none;font-family:inherit;
+    }
+    .filter-select:focus{border-color:var(--accent)}
+    .filter-search{
+      margin-left:auto;display:flex;align-items:center;gap:.5rem;
+      background:var(--bg2);border:1.5px solid transparent;border-radius:var(--r-sm);
+      padding:.38rem .85rem;
+    }
+    .filter-search:focus-within{border-color:var(--accent)}
+    .filter-search svg{width:14px;height:14px;color:var(--txt2);flex-shrink:0}
+    .filter-search input{
+      background:none;border:none;outline:none;font-size:.82rem;color:var(--txt);
+      font-family:inherit;width:140px;
+    }
+    .filter-search input::placeholder{color:var(--txt2)}
+
+    /* Deck Section */
+    .deck-section-label{
+      font-size:.78rem;font-weight:700;color:var(--txt2);letter-spacing:.8px;
+      text-transform:uppercase;margin-bottom:.85rem;display:flex;align-items:center;gap:.6rem;
+    }
+    .deck-section-label::after{content:'';flex:1;height:1px;background:var(--bg2)}
+    .decks-grid{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem;margin-bottom:1.75rem;
+    }
+    .deck-card{
+      background:var(--card);border:1.5px solid var(--card-border);
+      backdrop-filter:blur(12px);border-radius:var(--r);
+      box-shadow:var(--shadow);overflow:hidden;
+      transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column;
+    }
+    .deck-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
+    .deck-card-top{padding:1.1rem 1.2rem .85rem;flex:1}
+    .deck-meta-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:.65rem}
+    .deck-badges{display:flex;gap:.4rem;flex-wrap:wrap}
+    .badge{
+      font-size:.67rem;font-weight:700;padding:.18rem .5rem;border-radius:5px;
+      letter-spacing:.3px;text-transform:uppercase;
+    }
+    .badge-a1{background:rgba(34,201,124,.15);color:#18a06a}
+    .badge-a2{background:rgba(91,110,255,.12);color:var(--accent)}
+    .badge-b1{background:rgba(123,63,228,.12);color:var(--purple)}
+    .badge-b2{background:rgba(255,107,53,.12);color:var(--streak)}
+    .badge-c1{background:rgba(232,70,70,.12);color:var(--danger)}
+    .badge-domain{background:var(--bg2);color:var(--txt2)}
+    .badge-sys{background:linear-gradient(135deg,rgba(91,110,255,.18),rgba(123,63,228,.18));color:var(--accent)}
+    .badge-personal{background:rgba(34,201,124,.1);color:#18a06a}
+    .deck-more-btn{
+      background:none;border:none;padding:.25rem;border-radius:6px;color:var(--txt2);
+      transition:background .15s;display:flex;align-items:center;justify-content:center;
+    }
+    .deck-more-btn:hover{background:var(--bg2)}
+    .deck-name{font-size:1.02rem;font-weight:700;margin-bottom:.35rem;line-height:1.3}
+    .deck-desc{font-size:.8rem;color:var(--txt2);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .deck-counts{display:flex;gap:.85rem;margin-top:.85rem}
+    .deck-count-item{display:flex;align-items:center;gap:.35rem;font-size:.78rem}
+    .count-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+    .dot-total{background:var(--txt2)}
+    .dot-new{background:var(--accent)}
+    .dot-due{background:var(--streak)}
+    .dot-done{background:var(--success)}
+    .count-label{color:var(--txt2)}
+    .count-val{font-weight:700;color:var(--txt)}
+    /* Progress bar */
+    .deck-progress-wrap{
+      padding:.7rem 1.2rem;
+      border-top:1px solid rgba(0,0,0,0.05);
+    }
+    [data-theme="dark"] .deck-progress-wrap{border-color:rgba(255,255,255,0.06)}
+    .deck-progress-meta{display:flex;justify-content:space-between;margin-bottom:.4rem}
+    .deck-prog-txt{font-size:.72rem;color:var(--txt2)}
+    .deck-prog-pct{font-size:.72rem;font-weight:700;color:var(--accent)}
+    .prog-track{background:var(--bg2);border-radius:9999px;height:6px;overflow:hidden}
+    .prog-fill{height:100%;border-radius:9999px;transition:width .6s ease}
+    .prog-fill.green{background:linear-gradient(90deg,#22C97C,#16a85e)}
+    .prog-fill.blue{background:linear-gradient(90deg,#5B6EFF,#7B3FE4)}
+    .prog-fill.orange{background:linear-gradient(90deg,#FF6B35,#E84646)}
+    /* Action row */
+    .deck-actions{display:flex;gap:.65rem;padding:.85rem 1.2rem .95rem}
+    .deck-btn{
+      flex:1;padding:.55rem;border-radius:var(--r-sm);font-size:.82rem;font-weight:600;
+      border:1.5px solid;transition:all .15s;display:flex;align-items:center;justify-content:center;gap:.4rem;
+    }
+    .deck-btn:active{transform:scale(.97)}
+    .deck-btn svg{width:14px;height:14px}
+    .deck-btn-primary{
+      background:var(--nav-bg);border-color:transparent;color:#fff;
+      box-shadow:0 3px 10px rgba(91,110,255,.3);
+    }
+    .deck-btn-primary:hover{opacity:.88}
+    .deck-btn-secondary{
+      background:transparent;border-color:var(--bg2);color:var(--txt2);
+    }
+    .deck-btn-secondary:hover{background:var(--bg2);color:var(--txt)}
+    /* Due badge */
+    .due-badge{
+      background:linear-gradient(135deg,#FF6B35,#E84646);
+      color:#fff;font-size:.65rem;font-weight:700;
+      padding:.12rem .45rem;border-radius:9999px;
+      margin-left:.4rem;
+    }
+
+    /* Empty state */
+    .deck-empty{
+      grid-column:1/-1;text-align:center;padding:3rem 1rem;color:var(--txt2);
+    }
+    .deck-empty-icon{font-size:3rem;margin-bottom:.75rem}
+    .deck-empty p{font-size:.92rem}
+
+
+    /* ═══════════════════════════════════════════════════════════
+       STUDY SESSION VIEW
+    ═══════════════════════════════════════════════════════════ */
+    .session-layout{
+      min-height:calc(100vh - 64px);
+      display:flex;flex-direction:column;
+    }
+
+    /* Session Top Bar */
+    .session-top{
+      background:var(--card);border-bottom:1px solid var(--card-border);
+      backdrop-filter:blur(8px);
+      padding:.85rem 1.5rem;
+      display:flex;align-items:center;gap:1.25rem;
+      position:sticky;top:64px;z-index:50;
+    }
+    .btn-back{
+      display:flex;align-items:center;gap:.4rem;
+      color:var(--txt2);font-size:.85rem;
+      background:none;border:none;padding:.35rem .65rem;border-radius:8px;
+      transition:.2s;font-family:inherit;
+    }
+    .btn-back:hover{background:var(--bg2);color:var(--txt)}
+    .btn-back svg{width:16px;height:16px}
+    .session-title{font-size:1rem;font-weight:700}
+    .session-title span{color:var(--txt2);font-weight:400;font-size:.88rem}
+    /* Session progress bar (full width inside top bar) */
+    .session-prog-wrap{flex:1;display:flex;flex-direction:column;gap:.3rem}
+    .session-prog-track{background:var(--bg2);border-radius:9999px;height:8px;overflow:hidden}
+    .session-prog-fill{
+      height:100%;border-radius:9999px;
+      background:linear-gradient(90deg,#5B6EFF,#7B3FE4);
+      transition:width .5s cubic-bezier(.4,0,.2,1);
+    }
+    .session-prog-meta{display:flex;justify-content:space-between}
+    .session-prog-txt{font-size:.72rem;color:var(--txt2)}
+    .session-prog-done{font-size:.72rem;font-weight:700;color:var(--accent)}
+    /* Session stat chips */
+    .session-chips{display:flex;gap:.55rem;flex-shrink:0}
+    .s-chip{
+      display:flex;align-items:center;gap:.35rem;
+      padding:.3rem .7rem;border-radius:9999px;font-size:.78rem;font-weight:600;
+      border:1.5px solid;
+    }
+    .s-chip svg{width:11px;height:11px}
+    .s-chip-new{border-color:rgba(91,110,255,.3);color:var(--accent);background:rgba(91,110,255,.08)}
+    .s-chip-review{border-color:rgba(255,107,53,.3);color:var(--streak);background:rgba(255,107,53,.08)}
+    .s-chip-done{border-color:rgba(34,201,124,.3);color:var(--success);background:rgba(34,201,124,.08)}
+    /* End session btn */
+    .btn-end{
+      background:none;border:1.5px solid var(--bg2);padding:.38rem .85rem;
+      border-radius:var(--r-sm);font-size:.8rem;font-weight:600;color:var(--txt2);
+      transition:.15s;white-space:nowrap;
+    }
+    .btn-end:hover{border-color:var(--danger);color:var(--danger)}
+
+    /* Session Body */
+    .session-body{
+      flex:1;display:flex;align-items:center;justify-content:center;
+      padding:2rem 1.5rem;flex-direction:column;gap:1.75rem;
+    }
+    /* Card stack hint */
+    .card-stack-hint{position:relative;width:100%;max-width:600px}
+    .stack-shadow-b{
+      position:absolute;bottom:-8px;left:50%;transform:translateX(-50%);
+      width:94%;height:100%;border-radius:var(--r);
+      background:var(--card);border:1px solid var(--card-border);
+      opacity:.5;z-index:0;
+    }
+    .stack-shadow-c{
+      position:absolute;bottom:-16px;left:50%;transform:translateX(-50%);
+      width:88%;height:100%;border-radius:var(--r);
+      background:var(--card);border:1px solid var(--card-border);
+      opacity:.3;z-index:0;
+    }
+
+    /* 3D Flip Card */
+    .flip-card-scene{
+      width:100%;max-width:600px;
+      perspective:1000px;
+      position:relative;z-index:2;
+      /* Height driven by content — min for short words */
+    }
+    .flip-card{
+      width:100%;
+      transform-style:preserve-3d;
+      transition:transform .55s cubic-bezier(.4,0,.2,1);
+      cursor:pointer;
+    }
+    .flip-card.flipped{transform:rotateY(180deg)}
+    .flip-card-face{
+      backface-visibility:hidden;
+      background:var(--card);
+      border:1.5px solid var(--card-border);
+      backdrop-filter:blur(16px);
+      border-radius:var(--r);
+      box-shadow:var(--shadow-md);
+      padding:2.25rem 2rem;
+      min-height:260px;
+      display:flex;flex-direction:column;align-items:center;justify-content:center;
+      text-align:center;
+      gap:.85rem;
+    }
+    .flip-card-face.back{
+      position:absolute;top:0;left:0;width:100%;
+      transform:rotateY(180deg);
+      justify-content:flex-start;text-align:left;
+    }
+    /* Front face content */
+    .card-front-tags{display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap}
+    .card-word{font-size:2.75rem;font-weight:800;letter-spacing:-.5px;line-height:1.1;color:var(--txt)}
+    .card-pos{
+      font-size:.85rem;font-weight:600;color:var(--txt2);
+      background:var(--bg2);padding:.25rem .75rem;border-radius:9999px;
+    }
+    .card-hint{
+      font-size:.82rem;color:var(--txt2);font-style:italic;
+      margin-top:.25rem;cursor:pointer;transition:color .15s;
+    }
+    .card-hint:hover{color:var(--accent)}
+    .flip-indicator{
+      position:absolute;bottom:1rem;right:1.1rem;
+      display:flex;align-items:center;gap:.3rem;
+      font-size:.72rem;color:var(--txt2);opacity:.7;
+    }
+    .flip-indicator svg{width:14px;height:14px}
+    /* Back face content */
+    .back-header{
+      display:flex;align-items:flex-start;justify-content:space-between;
+      width:100%;margin-bottom:.25rem;gap:1rem;
+    }
+    .back-word{font-size:1.9rem;font-weight:800;color:var(--txt);line-height:1.2}
+    .back-tags{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.35rem}
+    .back-ipa-block{text-align:right;flex-shrink:0}
+    .ipa-row{font-size:.82rem;line-height:1.7}
+    .ipa-label{color:var(--txt2);font-size:.72rem;font-weight:600;margin-right:.2rem}
+    .ipa-val{font-family:'Segoe UI',monospace;color:var(--accent);font-weight:600}
+    .divider{width:100%;height:1px;background:rgba(0,0,0,0.07);margin:.1rem 0}
+    [data-theme="dark"] .divider{background:rgba(255,255,255,0.07)}
+    .back-meaning{font-size:1.15rem;font-weight:700;color:var(--txt);margin-top:.1rem}
+    .back-meaning-en{font-size:.85rem;color:var(--txt2);margin-top:.1rem;font-style:italic}
+    .back-example-block{
+      background:var(--bg2);border-radius:var(--r-sm);
+      padding:.7rem 1rem;margin-top:.35rem;width:100%;
+      border-left:3px solid var(--accent);
+    }
+    .back-example-en{font-size:.88rem;color:var(--txt);font-style:italic;line-height:1.5}
+    .back-example-vi{font-size:.82rem;color:var(--txt2);margin-top:.25rem;line-height:1.4}
+    .back-collocations{
+      margin-top:.6rem;width:100%;
+    }
+    .collocations-label{font-size:.72rem;font-weight:700;color:var(--txt2);letter-spacing:.4px;text-transform:uppercase;margin-bottom:.35rem}
+    .colloc-tags{display:flex;flex-wrap:wrap;gap:.35rem}
+    .colloc-tag{
+      font-size:.75rem;padding:.18rem .6rem;border-radius:5px;
+      background:rgba(91,110,255,.1);color:var(--accent);font-weight:500;
+    }
+
+    /* Rating Panel */
+    .rating-panel{
+      width:100%;max-width:600px;
+      background:var(--card);
+      border:1.5px solid var(--card-border);
+      backdrop-filter:blur(12px);
+      border-radius:var(--r);
+      box-shadow:var(--shadow);
+      padding:1.1rem 1.2rem;
+      display:flex;flex-direction:column;gap:.8rem;
+      transition:opacity .3s,transform .3s;
+    }
+    .rating-panel.hidden{opacity:0;transform:translateY(8px);pointer-events:none}
+    .rating-label{
+      font-size:.78rem;font-weight:700;color:var(--txt2);
+      text-align:center;letter-spacing:.3px;text-transform:uppercase;
+    }
+    .rating-row{display:flex;gap:.6rem;justify-content:center}
+    .rate-btn{
+      flex:1;max-width:88px;
+      display:flex;flex-direction:column;align-items:center;gap:.3rem;
+      padding:.6rem .4rem;border-radius:12px;border:2px solid;
+      transition:transform .15s,box-shadow .15s;
+    }
+    .rate-btn:hover{transform:translateY(-2px);box-shadow:0 4px 14px rgba(0,0,0,0.12)}
+    .rate-btn:active{transform:scale(.96)}
+    .rate-num{font-size:1.15rem;font-weight:900;line-height:1}
+    .rate-text{font-size:.65rem;font-weight:600;letter-spacing:.2px;text-align:center}
+    /* 0 = red, 1 = orange-red, 2 = orange, 3 = lime-green, 4 = green, 5 = emerald */
+    .rate-0{border-color:rgba(232,70,70,.4);color:#E84646;background:rgba(232,70,70,.07)}
+    .rate-0:hover{background:rgba(232,70,70,.15)}
+    .rate-1{border-color:rgba(255,107,53,.4);color:#FF6B35;background:rgba(255,107,53,.07)}
+    .rate-1:hover{background:rgba(255,107,53,.15)}
+    .rate-2{border-color:rgba(250,173,20,.45);color:#c8861a;background:rgba(250,173,20,.07)}
+    .rate-2:hover{background:rgba(250,173,20,.15)}
+    .rate-3{border-color:rgba(132,204,22,.5);color:#5a8f0a;background:rgba(132,204,22,.07)}
+    .rate-3:hover{background:rgba(132,204,22,.15)}
+    [data-theme="dark"] .rate-3{color:#a4d544}
+    .rate-4{border-color:rgba(34,201,124,.45);color:#18a06a;background:rgba(34,201,124,.07)}
+    .rate-4:hover{background:rgba(34,201,124,.15)}
+    [data-theme="dark"] .rate-4{color:#22C97C}
+    .rate-5{border-color:rgba(34,201,124,.6);color:#1dba7a;background:rgba(34,201,124,.12);box-shadow:0 2px 8px rgba(34,201,124,.2)}
+    .rate-5:hover{background:rgba(34,201,124,.22)}
+    [data-theme="dark"] .rate-5{color:#3fffa6}
+    /* Sub-label for flip hint  */
+    .flip-hint-row{
+      display:flex;align-items:center;gap:.5rem;justify-content:center;
+      font-size:.78rem;color:var(--txt2);
+    }
+    .flip-hint-row svg{width:14px;height:14px}
+    .flip-hint-row kbd{
+      font-size:.72rem;background:var(--bg2);border:1px solid rgba(0,0,0,.12);
+      border-radius:4px;padding:.1rem .4rem;font-family:inherit;color:var(--txt2);
+    }
+    [data-theme="dark"] .flip-hint-row kbd{border-color:rgba(255,255,255,.1)}
+
+    /* ─── Session Complete Modal ─────────────────────────────── */
+    .modal-overlay{
+      position:fixed;inset:0;background:rgba(0,0,0,.45);
+      z-index:200;display:flex;align-items:center;justify-content:center;
+      opacity:0;pointer-events:none;transition:opacity .3s;
+      backdrop-filter:blur(4px);
+    }
+    .modal-overlay.show{opacity:1;pointer-events:auto}
+    .modal{
+      background:var(--bg);border:1.5px solid var(--card-border);
+      border-radius:calc(var(--r) + 4px);box-shadow:0 20px 60px rgba(0,0,0,.25);
+      padding:2.25rem 2rem;max-width:420px;width:90%;
+      text-align:center;
+      transform:translateY(12px) scale(.97);
+      transition:transform .3s;
+    }
+    .modal-overlay.show .modal{transform:translateY(0) scale(1)}
+    .modal-emoji{font-size:3.5rem;margin-bottom:.75rem;display:block}
+    .modal-title{font-size:1.45rem;font-weight:800;margin-bottom:.5rem}
+    .modal-subtitle{font-size:.88rem;color:var(--txt2);line-height:1.5;margin-bottom:1.5rem}
+    .modal-stats{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:.85rem;margin-bottom:1.75rem;
+    }
+    .modal-stat{
+      background:var(--card);border:1px solid var(--card-border);
+      border-radius:var(--r-sm);padding:.85rem .6rem;
+    }
+    .modal-stat-val{font-size:1.55rem;font-weight:800}
+    .modal-stat-lbl{font-size:.7rem;color:var(--txt2);font-weight:500;margin-top:.2rem;text-transform:uppercase;letter-spacing:.3px}
+    .modal-actions{display:flex;flex-direction:column;gap:.75rem}
+    .btn-full{
+      width:100%;padding:.75rem;border-radius:var(--r-sm);
+      font-size:.92rem;font-weight:700;border:none;
+      transition:all .15s;
+    }
+    .btn-full:active{transform:scale(.98)}
+    .btn-primary-full{
+      background:var(--nav-bg);color:#fff;
+      box-shadow:0 4px 16px rgba(91,110,255,.35);
+    }
+    .btn-primary-full:hover{opacity:.9}
+    .btn-secondary-full{
+      background:var(--bg2);color:var(--txt);
+    }
+    .btn-secondary-full:hover{background:var(--card-border)}
+    /* XP toast inside complete modal */
+    .xp-toast{
+      display:inline-flex;align-items:center;gap:.4rem;
+      background:linear-gradient(135deg,#FFD166,#FF6B35);
+      color:#fff;font-size:.85rem;font-weight:700;
+      padding:.4rem 1rem;border-radius:9999px;margin-bottom:1.2rem;
+    }
+
+    /* ─── Responsive ─────────────────────────────────────────── */
+    @media(max-width:900px){
+      .summary-row{grid-template-columns:repeat(2,1fr)}
+      .decks-grid{grid-template-columns:repeat(2,1fr)}
+      .session-chips{display:none}
+    }
+    @media(max-width:600px){
+      .summary-row{grid-template-columns:1fr 1fr}
+      .decks-grid{grid-template-columns:1fr}
+      .filter-bar{flex-direction:column;align-items:flex-start}
+      .filter-search{margin-left:0;width:100%}
+      .filter-search input{width:100%}
+      .rating-row{gap:.35rem}
+      .rate-btn{padding:.5rem .25rem}
+      .card-word{font-size:2rem}
+      .session-top{flex-wrap:wrap;gap:.75rem}
+      .session-title span{display:none}
+      .btn-end{display:none}
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════ NAVBAR ═══════ -->
+<nav class="navbar">
+  <div class="navbar-brand">
+    <div class="brand-icon">ES</div>
+    <span class="brand-name">English Study</span>
+  </div>
+  <div class="navbar-links">
+    <a href="student-dashboard.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      <span>Dashboard</span>
+    </a>
+    <a href="skill-map.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+      <span>Skill Map</span>
+    </a>
+    <button class="nav-link active" onclick="showView('browser')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="9" height="6" rx="1"/><rect x="2" y="13" width="9" height="6" rx="1"/><rect x="13" y="5" width="9" height="14" rx="1"/></svg>
+      <span>Flashcard</span>
+    </button>
+    <a href="exercise-listening.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3v5z"/><path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3v5z"/></svg>
+      <span>Luyện Nghe</span>
+    </a>
+    <a href="exercise-speaking.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+      <span>Luyện Nói</span>
+    </a>
+  </div>
+  <div class="navbar-right">
+    <button class="dark-toggle" id="darkBtn" onclick="toggleDark()" title="Chuyển giao diện tối/sáng">🌙</button>
+    <div class="user-chip">
+      <div class="avatar">N</div>
+      <span class="user-chip-name">Nam</span>
+      <span class="level-badge">PRO</span>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--  VIEW 1: DECK BROWSER                                       -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div id="view-browser" class="view active">
+<div class="page">
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="page-title">
+      <h1>🃏 Deck <span>Flashcard</span></h1>
+      <p>Ôn tập từ vựng mỗi ngày với thuật toán SM-2 thông minh</p>
+    </div>
+    <button class="btn-create" onclick="alert('Tạo Deck mới (chức năng Premium)')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+      Tạo Deck mới
+    </button>
+  </div>
+
+  <!-- Summary Stats -->
+  <div class="summary-row">
+    <div class="sum-card">
+      <div class="sum-icon blue">📚</div>
+      <div class="sum-info">
+        <div class="sum-value accent">847</div>
+        <div class="sum-label">Tổng Thẻ</div>
+      </div>
+    </div>
+    <div class="sum-card">
+      <div class="sum-icon orange">⏰</div>
+      <div class="sum-info">
+        <div class="sum-value orange">63</div>
+        <div class="sum-label">Đến hạn ôn hôm nay</div>
+      </div>
+    </div>
+    <div class="sum-card">
+      <div class="sum-icon green">✅</div>
+      <div class="sum-info">
+        <div class="sum-value green">512</div>
+        <div class="sum-label">Đã thuộc</div>
+      </div>
+    </div>
+    <div class="sum-card">
+      <div class="sum-icon purple">⚡</div>
+      <div class="sum-info">
+        <div class="sum-value purple">+340</div>
+        <div class="sum-label">XP tuần này</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Filter Bar -->
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Cấp độ</span>
+      <button class="chip active" onclick="filterChip(this,'level','all')">Tất cả</button>
+      <button class="chip cefr-a1" onclick="filterChip(this,'level','a1')">A1</button>
+      <button class="chip cefr-a2" onclick="filterChip(this,'level','a2')">A2</button>
+      <button class="chip cefr-b1" onclick="filterChip(this,'level','b1')">B1</button>
+      <button class="chip cefr-b2" onclick="filterChip(this,'level','b2')">B2</button>
+      <button class="chip cefr-c1" onclick="filterChip(this,'level','c1')">C1</button>
+    </div>
+    <div class="filter-divider"></div>
+    <div class="filter-group">
+      <span class="filter-label">Lĩnh vực</span>
+      <select class="filter-select" onchange="console.log('domain:',this.value)">
+        <option value="">Tất cả domain</option>
+        <option value="business">💼 Business English</option>
+        <option value="academic">🎓 Academic English</option>
+        <option value="casual">💬 Casual English</option>
+        <option value="travel">✈️ Travel English</option>
+        <option value="medical">🏥 Medical English</option>
+      </select>
+    </div>
+    <div class="filter-divider"></div>
+    <div class="filter-group">
+      <span class="filter-label">Hiển thị</span>
+      <select class="filter-select" onchange="console.log('show:',this.value)">
+        <option value="all">Tất cả deck</option>
+        <option value="due">⏰ Có thẻ đến hạn</option>
+        <option value="system">🔵 Hệ thống</option>
+        <option value="mine">🟢 Của tôi</option>
+      </select>
+    </div>
+    <div class="filter-search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" placeholder="Tìm tên deck..." />
+    </div>
+  </div>
+
+  <!-- System Decks -->
+  <div class="deck-section-label">Deck hệ thống</div>
+  <div class="decks-grid">
+
+    <!-- Deck 1: A1 Core -->
+    <div class="deck-card">
+      <div class="deck-card-top">
+        <div class="deck-meta-row">
+          <div class="deck-badges">
+            <span class="badge badge-a1">A1</span>
+            <span class="badge badge-sys">Hệ thống</span>
+          </div>
+          <button class="deck-more-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="12" cy="19" r="1.5"/></svg>
+          </button>
+        </div>
+        <div class="deck-name">A1 Core Vocabulary <span class="due-badge">18 hạn</span></div>
+        <div class="deck-desc">300 từ nền tảng Oxford 3000 cấp A1. Danh từ, động từ, tính từ cơ bản nhất.</div>
+        <div class="deck-counts">
+          <div class="deck-count-item"><span class="count-dot dot-total"></span><span class="count-label">Tổng</span><span class="count-val">&nbsp;300</span></div>
+          <div class="deck-count-item"><span class="count-dot dot-new"></span><span class="count-label">Mới</span><span class="count-val">&nbsp;45</span></div>
+          <div class="deck-count-item"><span class="count-dot dot-due"></span><span class="count-label">Ôn</span><span class="count-val">&nbsp;18</span></div>
+          <div class="deck-count-item"><span class="count-dot dot-done"></span><span class="count-label">Thuộc</span><span class="count-val">&nbsp;237</span></div>
+        </div>
+      </div>
+      <div class="deck-progress-wrap">
+        <div class="deck-progress-meta">
+          <span class="deck-prog-txt">Tiến độ thuộc</span>
+          <span class="deck-prog-pct">79%</span>
+        </div>
+        <div class="prog-track"><div class="prog-fill green" style="width:79%"></div></div>
+      </div>
+      <div class="deck-actions">
+        <button class="deck-btn deck-btn-primary" onclick="startSession('A1 Core Vocabulary')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5,3 19,12 5,21"/></svg>
+          Ôn tập (18)
+        </button>
+        <button class="deck-btn deck-btn-secondary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Học mới
+        </button>
+      </div>
+    </div>
+
+    <!-- Deck 2: A2 Expansion -->
+    <div class="deck-card">
+      <div class="deck-card-top">
+        <div class="deck-meta-row">
+          <div class="deck-badges">
+            <span class="badge badge-a2">A2</span>
+            <span class="badge badge-sys">Hệ thống</span>
+          </div>
+          <button class="deck-more-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="12" cy="19" r="1.5"/></svg>
+          </button>
+        </div>
+        <div class="deck-name">A2 Expansion Pack <span class="due-badge">27 hạn</span></div>
+        <div class="deck-desc">450 từ Oxford 3000 cấp A2. Mở rộng ngữ vựng hội thoại và văn viết cơ bản.</div>
+        <div class="deck-counts">
+          <div class="deck-count-item"><span class="count-dot dot-total"></span><span class="count-label">Tổng</span><span class="count-val">&nbsp;450</span></div>
+          <div class="deck-count-item"><span class="count-dot dot-new"></span><span class="count-label">Mới</span><span class="count-val">&nbsp;120</span></div>
+          <div class="deck-count-item"><span class="count-dot dot-due"></span><span class="count-label">Ôn</span><span class="count-val">&nbsp;27</span></div>
+          <div class="deck-count-item"><span class="count-dot dot-done"></span><span class="count-label">Thuộc</span><span class="count-val">&nbsp;303</span></div>
+        </div>
+      </div>
+      <div class="deck-progress-wrap">
+        <div class="deck-progress-meta">
+          <span class="deck-prog-txt">Tiến độ thuộc</span>
+          <span class="deck-prog-pct">67%</span>
+        </div>
+        <div class="prog-track"><div class="prog-fill blue" style="width:67%"></div></div>
+      </div>
+      <div class="deck-actions">
+        <button class="deck-btn deck-btn-primary" onclick="startSession('A2 Expansion Pack')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5,3 19,12 5,21"/></svg>
+          Ôn tập (27)
+        </button>
+        <button class="deck-btn deck-btn-secondary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Học mới
+        </button>
+      </div>
+    </div>
+
+    <!-- Deck 3: B1 Business -->
+    <div class="deck-card">
+      <div class="deck-card-top">
+        <div class="deck-meta-row">
+          <div class="deck-badges">
+            <span class="badge badge-b1">B1</span>
+            <span class="badge badge-domain">💼 Business</span>
+            <span class="badge badge-sys">Hệ thống</span>
+          </div>
+          <button class="deck-more-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="12" cy="19" r="1.5"/></svg>
+          </button>
+        </div>
+        <div class="deck-name">B1 Business English</div>
+        <div class="deck-desc">200 từ nghiệp vụ thương mại cấp B1. Phù hợp luyện thi IELTS và giao tiếp công sở.</div>
+        <div class="deck-counts">
+          <div class="deck-count-item"><span class="count-dot dot-total"></span><span class="count-label">Tổng</span><span class="count-val">&nbsp;200</span></div>
+          <div class="deck-count-item"><span class="count-dot dot-new"></span><span class="count-label">Mới</span><span class="count-val">&nbsp;200</span></div>
+          <div class="deck-count-item"><span class="count-dot dot-due"></span><span class="count-label">Ôn</span><span class="count-val">&nbsp;0</span></div>
+          <div class="deck-count-item"><span class="count-dot dot-done"></span><span class="count-label">Thuộc</span><span class="count-val">&nbsp;0</span></div>
+        </div>
+      </div>
+      <div class="deck-progress-wrap">
+        <div class="deck-progress-meta">
+          <span class="deck-prog-txt">Tiến độ thuộc</span>
+          <span class="deck-prog-pct">0%</span>
+        </div>
+        <div class="prog-track"><div class="prog-fill orange" style="width:0%"></div></div>
+      </div>
+      <div class="deck-actions">
+        <button class="deck-btn deck-btn-primary" onclick="startSession('B1 Business English')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5,3 19,12 5,21"/></svg>
+          Bắt đầu học
+        </button>
+        <button class="deck-btn deck-btn-secondary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          Chi tiết
+        </button>
+      </div>
+    </div>
+
+  </div><!-- /system decks grid -->
+
+  <!-- Personal Decks -->
+  <div class="deck-section-label">Deck của tôi</div>
+  <div class="decks-grid">
+
+    <!-- Personal deck 1 -->
+    <div class="deck-card">
+      <div class="deck-card-top">
+        <div class="deck-meta-row">
+          <div class="deck-badges">
+            <span class="badge badge-b2">B2</span>
+            <span class="badge badge-domain">🎓 Academic</span>
+            <span class="badge badge-personal">Của tôi</span>
+          </div>
+          <button class="deck-more-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="12" cy="19" r="1.5"/></svg>
+          </button>
+        </div>
+        <div class="deck-name">IELTS Academic B2 <span class="due-badge">18 hạn</span></div>
+        <div class="deck-desc">Tổng hợp từ vựng học thuật tự sưu tầm từ đề thi IELTS. Tập trung danh từ ghép và cụm động từ.</div>
+        <div class="deck-counts">
+          <div class="deck-count-item"><span class="count-dot dot-total"></span><span class="count-label">Tổng</span><span class="count-val">&nbsp;87</span></div>
+          <div class="deck-count-item"><span class="count-dot dot-new"></span><span class="count-label">Mới</span><span class="count-val">&nbsp;22</span></div>
+          <div class="deck-count-item"><span class="count-dot dot-due"></span><span class="count-label">Ôn</span><span class="count-val">&nbsp;18</span></div>
+          <div class="deck-count-item"><span class="count-dot dot-done"></span><span class="count-label">Thuộc</span><span class="count-val">&nbsp;47</span></div>
+        </div>
+      </div>
+      <div class="deck-progress-wrap">
+        <div class="deck-progress-meta">
+          <span class="deck-prog-txt">Tiến độ thuộc</span>
+          <span class="deck-prog-pct">54%</span>
+        </div>
+        <div class="prog-track"><div class="prog-fill blue" style="width:54%"></div></div>
+      </div>
+      <div class="deck-actions">
+        <button class="deck-btn deck-btn-primary" onclick="startSession('IELTS Academic B2')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5,3 19,12 5,21"/></svg>
+          Ôn tập (18)
+        </button>
+        <button class="deck-btn deck-btn-secondary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+          Chỉnh sửa
+        </button>
+      </div>
+    </div>
+
+  </div><!-- /personal decks grid -->
+
+</div><!-- /page -->
+</div><!-- /view-browser -->
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--  VIEW 2: STUDY SESSION                                      -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div id="view-session" class="view">
+<div class="session-layout">
+
+  <!-- Session Top Bar -->
+  <div class="session-top">
+    <button class="btn-back" onclick="showView('browser')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"/></svg>
+      Deck
+    </button>
+
+    <div class="session-prog-wrap">
+      <div class="session-prog-meta">
+        <span class="session-prog-txt" id="deckNameLabel">A1 Core Vocabulary</span>
+        <span class="session-prog-done" id="progLabel">3 / 20</span>
+      </div>
+      <div class="session-prog-track">
+        <div class="session-prog-fill" id="sessionProgBar" style="width:15%"></div>
+      </div>
+    </div>
+
+    <div class="session-chips">
+      <span class="s-chip s-chip-new">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+        Mới: <strong id="countNew">8</strong>
+      </span>
+      <span class="s-chip s-chip-review">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-.49-3.56"/></svg>
+        Ôn: <strong id="countReview">9</strong>
+      </span>
+      <span class="s-chip s-chip-done">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+        Xong: <strong id="countDone">3</strong>
+      </span>
+    </div>
+
+    <button class="btn-end" onclick="showComplete()">Kết thúc</button>
+  </div>
+
+  <!-- Session Body: card + rating -->
+  <div class="session-body">
+
+    <!-- Card Stack depth hint -->
+    <div class="card-stack-hint">
+      <div class="stack-shadow-c"></div>
+      <div class="stack-shadow-b"></div>
+
+      <!-- 3D Flip Card -->
+      <div class="flip-card-scene">
+        <div class="flip-card" id="flipCard" onclick="flipCard()">
+
+          <!-- FRONT FACE -->
+          <div class="flip-card-face front">
+            <div class="card-front-tags">
+              <span class="badge badge-a1">A1</span>
+              <span class="badge badge-domain">💬 Casual</span>
+              <span class="badge" style="background:rgba(91,110,255,.1);color:var(--accent)">🔵 Từ mới</span>
+            </div>
+            <div class="card-word">apple</div>
+            <div class="card-pos">noun · countable</div>
+            <div class="card-hint" onclick="event.stopPropagation();revealHint()">💡 Nhấp để xem gợi ý IPA</div>
+            <div class="flip-indicator">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              Nhấp / Space để lật thẻ
+            </div>
+          </div>
+
+          <!-- BACK FACE -->
+          <div class="flip-card-face back">
+            <div class="back-header">
+              <div>
+                <div class="back-word">apple</div>
+                <div class="back-tags">
+                  <span class="badge badge-a1">A1</span>
+                  <span class="badge badge-domain">💬 Casual</span>
+                  <span class="badge badge-domain">noun</span>
+                </div>
+              </div>
+              <div class="back-ipa-block">
+                <div class="ipa-row"><span class="ipa-label">🇬🇧 UK</span><span class="ipa-val">/ˈæp.əl/</span></div>
+                <div class="ipa-row"><span class="ipa-label">🇺🇸 US</span><span class="ipa-val">/ˈæp.əl/</span></div>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="back-meaning">🍎 Quả táo</div>
+            <div class="back-meaning-en">A round fruit with red or green skin and white flesh</div>
+
+            <div class="back-example-block">
+              <div class="back-example-en">"She eats <strong>an apple</strong> every morning for breakfast."</div>
+              <div class="back-example-vi">Cô ấy ăn một quả táo mỗi sáng vào bữa sáng.</div>
+            </div>
+
+            <div class="back-collocations">
+              <div class="collocations-label">Collocations</div>
+              <div class="colloc-tags">
+                <span class="colloc-tag">apple juice</span>
+                <span class="colloc-tag">apple pie</span>
+                <span class="colloc-tag">bite an apple</span>
+                <span class="colloc-tag">fresh apple</span>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /flip-card -->
+      </div><!-- /flip-card-scene -->
+    </div><!-- /card-stack-hint -->
+
+    <!-- Flip hint + Rating Panel -->
+    <div class="rating-panel hidden" id="ratingPanel">
+      <div class="rating-label">Bạn nhớ từ này như thế nào?</div>
+      <div class="rating-row">
+        <button class="rate-btn rate-0" onclick="rateCard(0)">
+          <span class="rate-num">0</span>
+          <span class="rate-text">Không nhớ</span>
+        </button>
+        <button class="rate-btn rate-1" onclick="rateCard(1)">
+          <span class="rate-num">1</span>
+          <span class="rate-text">Sai hoàn toàn</span>
+        </button>
+        <button class="rate-btn rate-2" onclick="rateCard(2)">
+          <span class="rate-num">2</span>
+          <span class="rate-text">Khó</span>
+        </button>
+        <button class="rate-btn rate-3" onclick="rateCard(3)">
+          <span class="rate-num">3</span>
+          <span class="rate-text">Ổn</span>
+        </button>
+        <button class="rate-btn rate-4" onclick="rateCard(4)">
+          <span class="rate-num">4</span>
+          <span class="rate-text">Dễ</span>
+        </button>
+        <button class="rate-btn rate-5" onclick="rateCard(5)">
+          <span class="rate-num">5</span>
+          <span class="rate-text">Rất dễ</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- While not flipped: show flip hint -->
+    <div class="flip-hint-row" id="flipHintRow">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg>
+      Nhấp vào thẻ để xem mặt sau — hoặc nhấn
+      <kbd>Space</kbd>
+    </div>
+
+  </div><!-- /session-body -->
+</div><!-- /session-layout -->
+</div><!-- /view-session -->
+
+
+<!-- ═══════ SESSION COMPLETE MODAL ═══════ -->
+<div class="modal-overlay" id="completeModal">
+  <div class="modal">
+    <span class="modal-emoji">🎉</span>
+    <div class="xp-toast">⚡ +45 XP</div>
+    <div class="modal-title">Phiên học hoàn thành!</div>
+    <div class="modal-subtitle">Tuyệt vời! Bạn vừa ôn xong <strong>20 thẻ</strong> trong deck <strong>A1 Core Vocabulary</strong>. Thuật toán SM-2 đã lên lịch ôn tập tiếp theo.</div>
+    <div class="modal-stats">
+      <div class="modal-stat">
+        <div class="modal-stat-val" style="color:var(--accent)">8</div>
+        <div class="modal-stat-lbl">Thẻ mới</div>
+      </div>
+      <div class="modal-stat">
+        <div class="modal-stat-val" style="color:var(--streak)">9</div>
+        <div class="modal-stat-lbl">Ôn lại</div>
+      </div>
+      <div class="modal-stat">
+        <div class="modal-stat-val" style="color:var(--success)">3</div>
+        <div class="modal-stat-lbl">Đã thuộc</div>
+      </div>
+    </div>
+    <div class="modal-stats" style="margin-top:-.5rem">
+      <div class="modal-stat">
+        <div class="modal-stat-val" style="color:var(--success)">85%</div>
+        <div class="modal-stat-lbl">Accuracy</div>
+      </div>
+      <div class="modal-stat">
+        <div class="modal-stat-val">12<small style="font-size:.75rem">ph</small></div>
+        <div class="modal-stat-lbl">Thời gian</div>
+      </div>
+      <div class="modal-stat">
+        <div class="modal-stat-val" style="color:var(--streak)">🔥 14</div>
+        <div class="modal-stat-lbl">Ngày liên tiếp</div>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-full btn-primary-full" onclick="closeModal();showView('browser')">Về Deck Browser</button>
+      <button class="btn-full btn-secondary-full" onclick="closeModal();resetSession()">Học tiếp deck khác</button>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  // ── Dark Mode ──────────────────────────────────────────────
+  const root = document.documentElement;
+  const darkBtn = document.getElementById('darkBtn');
+  function toggleDark(){
+    const isDark = root.getAttribute('data-theme') === 'dark';
+    root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    darkBtn.textContent = isDark ? '🌙' : '☀️';
+  }
+
+  // ── View Switching ─────────────────────────────────────────
+  function showView(name){
+    document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+    document.getElementById('view-'+name).classList.add('active');
+  }
+
+  // ── Filter Chips ───────────────────────────────────────────
+  function filterChip(el, group, val){
+    el.closest('.filter-group').querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+    el.classList.add('active');
+    console.log('filter:', group, val);
+  }
+
+  // ── Start Session ──────────────────────────────────────────
+  function startSession(deckName){
+    document.getElementById('deckNameLabel').textContent = deckName;
+    resetSession();
+    showView('session');
+  }
+
+  // ── Session State ──────────────────────────────────────────
+  let sessionState = {
+    total: 20, done: 0, newCount: 8, reviewCount: 9, doneCount: 0, isFlipped: false
+  };
+
+  function resetSession(){
+    sessionState = { total:20, done:0, newCount:8, reviewCount:9, doneCount:0, isFlipped:false };
+    updateSessionUI();
+    const card = document.getElementById('flipCard');
+    card.classList.remove('flipped');
+    document.getElementById('ratingPanel').classList.add('hidden');
+    document.getElementById('flipHintRow').style.display = 'flex';
+  }
+
+  function updateSessionUI(){
+    const pct = Math.round((sessionState.done / sessionState.total) * 100);
+    document.getElementById('sessionProgBar').style.width = pct + '%';
+    document.getElementById('progLabel').textContent = sessionState.done + ' / ' + sessionState.total;
+    document.getElementById('countNew').textContent = sessionState.newCount;
+    document.getElementById('countReview').textContent = sessionState.reviewCount;
+    document.getElementById('countDone').textContent = sessionState.doneCount;
+  }
+
+  // ── Card Flip ──────────────────────────────────────────────
+  function flipCard(){
+    if(sessionState.isFlipped) return;
+    sessionState.isFlipped = true;
+    document.getElementById('flipCard').classList.add('flipped');
+    document.getElementById('ratingPanel').classList.remove('hidden');
+    document.getElementById('flipHintRow').style.display = 'none';
+  }
+
+  function revealHint(){
+    // TODO: show IPA tooltip on front face
+  }
+
+  // ── Rating ─────────────────────────────────────────────────
+  function rateCard(rating){
+    sessionState.done++;
+    sessionState.doneCount++;
+    if(sessionState.newCount > 0) sessionState.newCount--;
+    else if(sessionState.reviewCount > 0) sessionState.reviewCount--;
+
+    updateSessionUI();
+
+    if(sessionState.done >= sessionState.total){
+      setTimeout(showComplete, 350);
+      return;
+    }
+    // Reset for next card
+    sessionState.isFlipped = false;
+    const card = document.getElementById('flipCard');
+    card.classList.add('flipped'); // quick flip away
+    setTimeout(()=>{
+      card.style.transition = 'none';
+      card.classList.remove('flipped');
+      void card.offsetWidth; // reflow
+      card.style.transition = '';
+    }, 50);
+    document.getElementById('ratingPanel').classList.add('hidden');
+    document.getElementById('flipHintRow').style.display = 'flex';
+  }
+
+  // ── Session Complete ───────────────────────────────────────
+  function showComplete(){
+    document.getElementById('completeModal').classList.add('show');
+  }
+  function closeModal(){
+    document.getElementById('completeModal').classList.remove('show');
+  }
+
+  // ── Keyboard shortcuts ─────────────────────────────────────
+  document.addEventListener('keydown', e => {
+    const sessionActive = document.getElementById('view-session').classList.contains('active');
+    if(!sessionActive) return;
+    if(e.code === 'Space'){
+      e.preventDefault();
+      if(!sessionState.isFlipped) flipCard();
+    }
+    if(sessionState.isFlipped){
+      const map = {'Digit0':0,'Digit1':1,'Digit2':2,'Digit3':3,'Digit4':4,'Digit5':5};
+      if(map[e.code] !== undefined) rateCard(map[e.code]);
+    }
+  });
+</script>
+</body>
+</html>

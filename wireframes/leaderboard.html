@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leaderboard – English Study</title>
+  <style>
+    /* ─── Design Tokens ─────────────────────────────────────── */
+    :root {
+      --bg:          #F5F4F0;
+      --bg2:         #ECEAE4;
+      --card:        rgba(255,255,255,0.72);
+      --card-border: rgba(255,255,255,0.9);
+      --nav-bg:      linear-gradient(135deg,#5B6EFF 0%,#7B3FE4 100%);
+      --accent:      #5B6EFF;
+      --purple:      #7B3FE4;
+      --success:     #22C97C;
+      --streak:      #FF6B35;
+      --danger:      #E84646;
+      --txt:         #1A1A2E;
+      --txt2:        #5A5A78;
+      --shadow:      0 4px 24px rgba(0,0,0,0.08);
+      --shadow-md:   0 8px 32px rgba(0,0,0,0.12);
+      --r:           16px;
+      --r-sm:        10px;
+      --transition:  .2s ease;
+      /* Rank colors */
+      --gold:        #FFD700;
+      --silver:      #C0C0C0;
+      --bronze:      #CD7F32;
+    }
+    [data-theme="dark"] {
+      --bg:          #0F0F1A;
+      --bg2:         #161625;
+      --card:        rgba(255,255,255,0.05);
+      --card-border: rgba(255,255,255,0.10);
+      --txt:         #EEEEFF;
+      --txt2:        #8888AA;
+      --shadow:      0 4px 24px rgba(0,0,0,0.4);
+      --shadow-md:   0 8px 32px rgba(0,0,0,0.55);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);transition:background .3s,color .3s;min-height:100vh}
+    a{text-decoration:none;color:inherit}
+    button{font-family:inherit;cursor:pointer}
+
+    /* ─── Navbar ─────────────────────────────────────────────── */
+    .navbar{
+      position:sticky;top:0;z-index:100;
+      background:var(--nav-bg);
+      display:flex;align-items:center;gap:1rem;
+      padding:.75rem 1.5rem;
+      box-shadow:0 2px 20px rgba(91,110,255,.35);
+    }
+    .navbar-brand{display:flex;align-items:center;gap:.6rem;flex-shrink:0}
+    .brand-icon{width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,0.22);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1rem;color:#fff;letter-spacing:-1px}
+    .brand-name{color:#fff;font-weight:700;font-size:1.05rem;white-space:nowrap}
+    .navbar-links{display:flex;align-items:center;gap:.25rem;margin-left:1rem;flex:1}
+    .nav-link{display:flex;align-items:center;gap:.45rem;color:rgba(255,255,255,0.75);font-size:.88rem;font-weight:500;padding:.45rem .9rem;border-radius:8px;transition:var(--transition);white-space:nowrap;border:none;background:none}
+    .nav-link:hover,.nav-link.active{background:rgba(255,255,255,0.18);color:#fff}
+    .nav-link svg{width:16px;height:16px;flex-shrink:0}
+    .navbar-right{display:flex;align-items:center;gap:.75rem;margin-left:auto}
+    .dark-toggle{background:rgba(255,255,255,0.15);border:none;cursor:pointer;width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;transition:var(--transition);color:#fff}
+    .dark-toggle:hover{background:rgba(255,255,255,0.25)}
+    .user-chip{display:flex;align-items:center;gap:.55rem;background:rgba(255,255,255,0.15);border-radius:9999px;padding:.35rem .8rem .35rem .35rem;cursor:pointer;transition:var(--transition)}
+    .user-chip:hover{background:rgba(255,255,255,0.25)}
+    .avatar{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#FFD166,#FF6B35);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.72rem;color:#fff;flex-shrink:0}
+    .user-chip-name{color:#fff;font-size:.82rem;font-weight:600}
+    .level-badge{background:rgba(255,255,255,0.25);color:#fff;font-size:.66rem;font-weight:700;padding:.15rem .45rem;border-radius:5px;letter-spacing:.5px}
+
+    /* ─── Page Layout ─────────────────────────────────────────── */
+    .page{max-width:900px;margin:0 auto;padding:2rem 1.25rem 4rem}
+
+    /* ─── Page Header ─────────────────────────────────────────── */
+    .page-header{
+      display:flex;align-items:center;justify-content:space-between;
+      margin-bottom:1.5rem;flex-wrap:wrap;gap:1rem;
+    }
+    .page-title{
+      font-size:1.75rem;font-weight:800;
+      display:flex;align-items:center;gap:.5rem;
+    }
+    .page-subtitle{font-size:.9rem;color:var(--txt2);margin-top:.2rem}
+    .refresh-btn{
+      background:var(--card);border:1.5px solid var(--card-border);
+      backdrop-filter:blur(12px);
+      border-radius:var(--r-sm);padding:.5rem .9rem;
+      font-size:.82rem;font-weight:600;color:var(--txt2);
+      display:flex;align-items:center;gap:.4rem;transition:var(--transition);
+    }
+    .refresh-btn:hover{background:var(--nav-bg);color:#fff;border-color:transparent}
+
+    /* ─── Filter Tabs ─────────────────────────────────────────── */
+    .filter-tabs{
+      display:flex;gap:.5rem;margin-bottom:2rem;flex-wrap:wrap;
+    }
+    .filter-tab{
+      padding:.45rem 1.1rem;border-radius:9999px;
+      font-size:.85rem;font-weight:600;
+      border:1.5px solid var(--bg2);background:var(--card);
+      backdrop-filter:blur(12px);color:var(--txt2);
+      transition:all .15s;
+    }
+    .filter-tab:hover{border-color:var(--accent);color:var(--accent)}
+    .filter-tab.active{
+      background:var(--nav-bg);color:#fff;
+      border-color:transparent;
+      box-shadow:0 3px 12px rgba(91,110,255,.3);
+    }
+
+    /* ─── Countdown strip ─────────────────────────────────────── */
+    .countdown-strip{
+      background:linear-gradient(135deg,rgba(91,110,255,.12),rgba(123,63,228,.08));
+      border:1.5px solid rgba(91,110,255,.2);
+      border-radius:var(--r-sm);padding:.65rem 1.1rem;
+      display:flex;align-items:center;gap:.75rem;
+      margin-bottom:2rem;font-size:.85rem;
+    }
+    .countdown-strip .timer{font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
+    .countdown-strip .label{color:var(--txt2)}
+    .xp-info{margin-left:auto;font-size:.78rem;color:var(--txt2)}
+    .xp-info strong{color:var(--txt);font-weight:700}
+
+    /* ─── Podium ──────────────────────────────────────────────── */
+    .podium-section{
+      display:flex;align-items:flex-end;justify-content:center;
+      gap:1.1rem;margin-bottom:2.5rem;
+    }
+    .podium-card{
+      background:var(--card);border:1.5px solid var(--card-border);
+      backdrop-filter:blur(12px);border-radius:var(--r);
+      box-shadow:var(--shadow);
+      display:flex;flex-direction:column;align-items:center;
+      padding:1.25rem .85rem .85rem;position:relative;
+      min-width:140px;transition:transform .2s,box-shadow .2s;
+    }
+    .podium-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
+    /* #1 gold */
+    .podium-card.rank-1{
+      border-color:rgba(255,215,0,.5);
+      box-shadow:0 0 0 2px rgba(255,215,0,.25), var(--shadow-md);
+      padding-top:1.6rem;
+    }
+    /* #2 silver */
+    .podium-card.rank-2{border-color:rgba(192,192,192,.4)}
+    /* #3 bronze */
+    .podium-card.rank-3{border-color:rgba(205,127,50,.4)}
+    /* Crown for #1 */
+    .crown{
+      position:absolute;top:-14px;left:50%;transform:translateX(-50%);
+      font-size:1.5rem;line-height:1;filter:drop-shadow(0 2px 4px rgba(0,0,0,.2));
+    }
+    .podium-rank-badge{
+      position:absolute;top:-10px;right:-10px;
+      width:28px;height:28px;border-radius:50%;
+      display:flex;align-items:center;justify-content:center;
+      font-size:.75rem;font-weight:900;color:#fff;
+      box-shadow:0 2px 8px rgba(0,0,0,.2);
+    }
+    .rank-badge-1{background:var(--gold)}
+    .rank-badge-2{background:var(--silver);color:#333}
+    .rank-badge-3{background:var(--bronze)}
+    .podium-avatar{
+      width:56px;height:56px;border-radius:50%;
+      display:flex;align-items:center;justify-content:center;
+      font-size:1.4rem;font-weight:700;color:#fff;
+      margin-bottom:.7rem;position:relative;
+    }
+    .podium-avatar.av-1{background:linear-gradient(135deg,#FFD166,#FF6B35);box-shadow:0 3px 12px rgba(255,209,102,.4)}
+    .podium-avatar.av-2{background:linear-gradient(135deg,#5B6EFF,#7B3FE4)}
+    .podium-avatar.av-3{background:linear-gradient(135deg,#22C97C,#0A9E5C)}
+    .online-dot{
+      width:12px;height:12px;border-radius:50%;
+      background:var(--success);border:2px solid var(--card);
+      position:absolute;bottom:2px;right:2px;
+    }
+    .podium-name{font-size:.9rem;font-weight:700;text-align:center;margin-bottom:.25rem}
+    .podium-cefr{
+      font-size:.68rem;font-weight:700;padding:.15rem .45rem;border-radius:5px;
+      margin-bottom:.5rem;
+    }
+    .cefr-b2{background:rgba(91,110,255,.15);color:var(--accent)}
+    .cefr-c1{background:rgba(123,63,228,.15);color:var(--purple)}
+    .cefr-b1{background:rgba(34,201,124,.15);color:#1aab62}
+    .podium-xp{
+      font-size:1rem;font-weight:800;color:var(--accent);
+    }
+    .podium-xp-label{font-size:.72rem;color:var(--txt2);margin-top:.1rem}
+    /* Podium bar height effect */
+    .podium-card.rank-1{min-height:220px;justify-content:flex-end;padding-bottom:1.1rem}
+    .podium-card.rank-2{min-height:185px;justify-content:flex-end;padding-bottom:1rem}
+    .podium-card.rank-3{min-height:165px;justify-content:flex-end;padding-bottom:.9rem}
+    .podium-inner{display:flex;flex-direction:column;align-items:center}
+    /* Pedestal strip */
+    .podium-bar{
+      width:100%;height:8px;border-radius:0 0 12px 12px;margin-top:.75rem;
+    }
+    .bar-1{background:linear-gradient(90deg,#FFD700,#FFA500)}
+    .bar-2{background:linear-gradient(90deg,#A0A0A0,#D0D0D0)}
+    .bar-3{background:linear-gradient(90deg,#CD7F32,#A0522D)}
+
+    /* ─── Rank List (#4–#10) ──────────────────────────────────── */
+    .rank-list{
+      background:var(--card);border:1.5px solid var(--card-border);
+      backdrop-filter:blur(12px);border-radius:var(--r);
+      box-shadow:var(--shadow);overflow:hidden;
+      margin-bottom:1.25rem;
+    }
+    .rank-item{
+      display:grid;
+      grid-template-columns:44px 1fr auto auto;
+      align-items:center;gap:.75rem;
+      padding:.85rem 1.1rem;
+      border-bottom:1px solid rgba(0,0,0,.06);
+      transition:background .15s;
+    }
+    [data-theme="dark"] .rank-item{border-color:rgba(255,255,255,.05)}
+    .rank-item:last-child{border-bottom:none}
+    .rank-item:hover{background:rgba(91,110,255,.04)}
+    /* Self-row highlight */
+    .rank-item.self-row{
+      background:linear-gradient(135deg,rgba(91,110,255,.08),rgba(123,63,228,.05));
+      border-color:rgba(91,110,255,.25);
+    }
+    .rank-item.self-row:hover{background:linear-gradient(135deg,rgba(91,110,255,.12),rgba(123,63,228,.08))}
+    .rank-num{
+      font-size:.95rem;font-weight:700;color:var(--txt2);
+      text-align:center;
+    }
+    .rank-num.top-3{color:var(--accent);font-size:1rem}
+    .rank-user{display:flex;align-items:center;gap:.75rem}
+    .list-avatar{
+      width:38px;height:38px;border-radius:50%;
+      display:flex;align-items:center;justify-content:center;
+      font-size:.95rem;font-weight:700;color:#fff;flex-shrink:0;
+    }
+    .av-a{background:linear-gradient(135deg,#5B6EFF,#7B3FE4)}
+    .av-b{background:linear-gradient(135deg,#22C97C,#0EA86A)}
+    .av-c{background:linear-gradient(135deg,#FF6B35,#E84646)}
+    .av-d{background:linear-gradient(135deg,#FFD166,#FF9500)}
+    .av-e{background:linear-gradient(135deg,#00D2FF,#3A7BD5)}
+    .av-f{background:linear-gradient(135deg,#f953c6,#b91d73)}
+    .av-g{background:linear-gradient(135deg,#4facfe,#00f2fe)}
+    .av-self{background:linear-gradient(135deg,#FFD166,#FF6B35);box-shadow:0 0 0 2px var(--accent)}
+    .rank-name{font-size:.9rem;font-weight:600}
+    .rank-name-sub{font-size:.75rem;color:var(--txt2)}
+    .cefr-pill{
+      font-size:.65rem;font-weight:700;padding:.12rem .4rem;border-radius:5px;
+      display:inline-block;margin-left:.35rem;
+    }
+    .rank-xp-col{display:flex;flex-direction:column;align-items:flex-end;gap:.25rem}
+    .rank-xp{font-size:.95rem;font-weight:800;color:var(--accent)}
+    .rank-xp small{font-size:.68rem;color:var(--txt2);font-weight:400}
+    .xp-bar-wrap{width:80px;height:5px;background:var(--bg2);border-radius:3px;overflow:hidden}
+    .xp-bar-fill{height:100%;border-radius:3px;background:var(--nav-bg)}
+    .rank-delta{
+      font-size:.75rem;font-weight:600;
+      padding:.15rem .45rem;border-radius:5px;
+      display:flex;align-items:center;gap:.2rem;min-width:44px;text-align:right;
+      justify-content:flex-end;
+    }
+    .delta-up{color:var(--success);background:rgba(34,201,124,.1)}
+    .delta-down{color:var(--danger);background:rgba(232,70,70,.1)}
+    .delta-same{color:var(--txt2);background:var(--bg2)}
+
+    /* ─── Self Position Card ──────────────────────────────────── */
+    .self-position-card{
+      background:linear-gradient(135deg,rgba(91,110,255,.1),rgba(123,63,228,.07));
+      border:2px solid rgba(91,110,255,.3);
+      backdrop-filter:blur(12px);border-radius:var(--r);
+      box-shadow:var(--shadow);padding:1.25rem 1.35rem;
+      margin-bottom:1.5rem;
+    }
+    .self-position-header{
+      font-size:.75rem;color:var(--accent);font-weight:700;text-transform:uppercase;
+      letter-spacing:.5px;margin-bottom:.9rem;display:flex;align-items:center;gap:.4rem;
+    }
+    .self-stats-row{
+      display:flex;align-items:center;gap:1.25rem;flex-wrap:wrap;
+    }
+    .self-rank-big{
+      font-size:2.5rem;font-weight:900;line-height:1;
+      background:var(--nav-bg);-webkit-background-clip:text;-webkit-text-fill-color:transparent;
+    }
+    .self-rank-label{font-size:.75rem;color:var(--txt2)}
+    .self-sep{width:1px;height:44px;background:rgba(0,0,0,.1)}
+    [data-theme="dark"] .self-sep{background:rgba(255,255,255,.1)}
+    .self-stat{display:flex;flex-direction:column;gap:.15rem}
+    .self-stat-val{font-size:1.15rem;font-weight:800}
+    .self-stat-lbl{font-size:.72rem;color:var(--txt2)}
+    .next-rank-strip{
+      margin-top:1rem;padding-top:.85rem;
+      border-top:1px solid rgba(91,110,255,.15);
+      font-size:.82rem;color:var(--txt2);
+    }
+    .next-rank-progress{
+      width:100%;height:8px;background:rgba(91,110,255,.12);
+      border-radius:4px;overflow:hidden;margin-top:.5rem;
+    }
+    .next-rank-fill{height:100%;background:var(--nav-bg);border-radius:4px;width:62%}
+
+    /* ─── Section labels ─────────────────────────────────────── */
+    .section-label{
+      font-size:.8rem;font-weight:700;color:var(--txt2);text-transform:uppercase;
+      letter-spacing:.6px;margin-bottom:.75rem;margin-top:1.5rem;
+      display:flex;align-items:center;gap:.5rem;
+    }
+    .section-label::after{content:'';flex:1;height:1.5px;background:var(--bg2);border-radius:1px}
+
+    /* Responsive */
+    @media(max-width:700px){
+      .podium-section{gap:.5rem}
+      .podium-card{min-width:100px;padding:.85rem .5rem .6rem}
+      .podium-card.rank-1{min-height:180px}
+      .podium-card.rank-2{min-height:152px}
+      .podium-card.rank-3{min-height:135px}
+      .podium-avatar{width:44px;height:44px;font-size:1.1rem}
+      .rank-item{grid-template-columns:38px 1fr auto}
+      .rank-xp-col .xp-bar-wrap{display:none}
+      .rank-delta{display:none}
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════ NAVBAR ═══════ -->
+<nav class="navbar">
+  <div class="navbar-brand">
+    <div class="brand-icon">ES</div>
+    <span class="brand-name">English Study</span>
+  </div>
+  <div class="navbar-links">
+    <a href="student-dashboard.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      <span>Dashboard</span>
+    </a>
+    <a href="skill-map.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+      <span>Skill Map</span>
+    </a>
+    <a href="flashcard.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="9" height="6" rx="1"/><rect x="2" y="13" width="9" height="6" rx="1"/><rect x="13" y="5" width="9" height="14" rx="1"/></svg>
+      <span>Flashcard</span>
+    </a>
+    <button class="nav-link active">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20L22 16l-4-4"/><path d="M2 4h7"/><path d="M2 9h5"/><path d="M2 14h3"/><path d="M22 16H9"/></svg>
+      <span>Leaderboard</span>
+    </button>
+    <a href="achievements.html" class="nav-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+      <span>Thành tích</span>
+    </a>
+  </div>
+  <div class="navbar-right">
+    <button class="dark-toggle" id="darkBtn" onclick="toggleDark()">🌙</button>
+    <div class="user-chip">
+      <div class="avatar">N</div>
+      <span class="user-chip-name">Nam</span>
+      <span class="level-badge">PRO</span>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════ PAGE ═══════ -->
+<div class="page">
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div>
+      <div class="page-title">🏆 Bảng Xếp Hạng</div>
+      <div class="page-subtitle">Top học viên xuất sắc nhất nền tảng</div>
+    </div>
+    <button class="refresh-btn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.32"/></svg>
+      Cập nhật
+    </button>
+  </div>
+
+  <!-- Filter Tabs -->
+  <div class="filter-tabs">
+    <button class="filter-tab active" onclick="setFilter(this,'week')">🗓 Tuần này</button>
+    <button class="filter-tab" onclick="setFilter(this,'month')">📅 Tháng này</button>
+    <button class="filter-tab" onclick="setFilter(this,'all')">🌟 Toàn thời gian</button>
+    <button class="filter-tab" onclick="setFilter(this,'class')">🏫 Lớp học</button>
+  </div>
+
+  <!-- Countdown Strip -->
+  <div class="countdown-strip">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--accent)"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    <span class="label">Bảng tuần kết thúc sau:</span>
+    <span class="timer" id="countdown">2n 14g 37p 08s</span>
+    <span class="xp-info">Phần thưởng tuần: <strong>#1 → +500 XP</strong> · #2 → +300 XP · #3 → +150 XP</span>
+  </div>
+
+  <!-- Podium (#1, #2, #3) -->
+  <div class="section-label">#1 – #3 Hàng đầu</div>
+  <div class="podium-section">
+
+    <!-- #2 Silver -->
+    <div class="podium-card rank-2">
+      <div class="podium-rank-badge rank-badge-2">2</div>
+      <div class="podium-inner">
+        <div class="podium-avatar av-2" style="position:relative">
+          T
+        </div>
+        <div class="podium-name">Trần Hưng</div>
+        <div class="podium-cefr cefr-b2">B2</div>
+        <div class="podium-xp">14.820</div>
+        <div class="podium-xp-label">XP tuần này</div>
+      </div>
+      <div class="podium-bar bar-2"></div>
+    </div>
+
+    <!-- #1 Gold (center, tallest) -->
+    <div class="podium-card rank-1">
+      <div class="crown">👑</div>
+      <div class="podium-rank-badge rank-badge-1">1</div>
+      <div class="podium-inner">
+        <div class="podium-avatar av-1" style="position:relative">
+          M
+          <div class="online-dot"></div>
+        </div>
+        <div class="podium-name">Minh Châu</div>
+        <div class="podium-cefr cefr-c1">C1</div>
+        <div class="podium-xp" style="font-size:1.25rem">18.540</div>
+        <div class="podium-xp-label">XP tuần này</div>
+      </div>
+      <div class="podium-bar bar-1"></div>
+    </div>
+
+    <!-- #3 Bronze -->
+    <div class="podium-card rank-3">
+      <div class="podium-rank-badge rank-badge-3">3</div>
+      <div class="podium-inner">
+        <div class="podium-avatar av-3">A</div>
+        <div class="podium-name">Anh Thư</div>
+        <div class="podium-cefr cefr-b1">B1</div>
+        <div class="podium-xp">12.310</div>
+        <div class="podium-xp-label">XP tuần này</div>
+      </div>
+      <div class="podium-bar bar-3"></div>
+    </div>
+
+  </div>
+
+  <!-- Rank List #4–#10 -->
+  <div class="section-label">#4 – #10</div>
+  <div class="rank-list">
+
+    <!-- #4 -->
+    <div class="rank-item">
+      <div class="rank-num">4</div>
+      <div class="rank-user">
+        <div class="list-avatar av-d">P</div>
+        <div>
+          <div class="rank-name">Phúc Nguyên <span class="cefr-pill cefr-b2">B2</span></div>
+          <div class="rank-name-sub">Streak: 🔥 23 ngày</div>
+        </div>
+      </div>
+      <div class="rank-xp-col">
+        <div class="rank-xp">11.900 <small>XP</small></div>
+        <div class="xp-bar-wrap"><div class="xp-bar-fill" style="width:64%"></div></div>
+      </div>
+      <div class="rank-delta delta-up">▲ 2</div>
+    </div>
+
+    <!-- #5 -->
+    <div class="rank-item">
+      <div class="rank-num">5</div>
+      <div class="rank-user">
+        <div class="list-avatar av-e">L</div>
+        <div>
+          <div class="rank-name">Linh Đan <span class="cefr-pill cefr-c1">C1</span></div>
+          <div class="rank-name-sub">Streak: 🔥 41 ngày</div>
+        </div>
+      </div>
+      <div class="rank-xp-col">
+        <div class="rank-xp">10.750 <small>XP</small></div>
+        <div class="xp-bar-wrap"><div class="xp-bar-fill" style="width:58%"></div></div>
+      </div>
+      <div class="rank-delta delta-same">— 0</div>
+    </div>
+
+    <!-- #6 -->
+    <div class="rank-item">
+      <div class="rank-num">6</div>
+      <div class="rank-user">
+        <div class="list-avatar av-f">H</div>
+        <div>
+          <div class="rank-name">Hà Phương <span class="cefr-pill cefr-b2">B2</span></div>
+          <div class="rank-name-sub">Streak: 🔥 7 ngày</div>
+        </div>
+      </div>
+      <div class="rank-xp-col">
+        <div class="rank-xp">9.340 <small>XP</small></div>
+        <div class="xp-bar-wrap"><div class="xp-bar-fill" style="width:50%"></div></div>
+      </div>
+      <div class="rank-delta delta-down">▼ 1</div>
+    </div>
+
+    <!-- #7 -->
+    <div class="rank-item">
+      <div class="rank-num">7</div>
+      <div class="rank-user">
+        <div class="list-avatar av-a">D</div>
+        <div>
+          <div class="rank-name">Đức Khải <span class="cefr-pill cefr-b1">B1</span></div>
+          <div class="rank-name-sub">Streak: 🔥 15 ngày</div>
+        </div>
+      </div>
+      <div class="rank-xp-col">
+        <div class="rank-xp">8.200 <small>XP</small></div>
+        <div class="xp-bar-wrap"><div class="xp-bar-fill" style="width:44%"></div></div>
+      </div>
+      <div class="rank-delta delta-up">▲ 3</div>
+    </div>
+
+    <!-- #8 -->
+    <div class="rank-item">
+      <div class="rank-num">8</div>
+      <div class="rank-user">
+        <div class="list-avatar av-b">K</div>
+        <div>
+          <div class="rank-name">Kim Oanh <span class="cefr-pill cefr-b2">B2</span></div>
+          <div class="rank-name-sub">Streak: 🔥 4 ngày</div>
+        </div>
+      </div>
+      <div class="rank-xp-col">
+        <div class="rank-xp">7.870 <small>XP</small></div>
+        <div class="xp-bar-wrap"><div class="xp-bar-fill" style="width:42%"></div></div>
+      </div>
+      <div class="rank-delta delta-down">▼ 2</div>
+    </div>
+
+    <!-- #9 -->
+    <div class="rank-item">
+      <div class="rank-num">9</div>
+      <div class="rank-user">
+        <div class="list-avatar av-c">V</div>
+        <div>
+          <div class="rank-name">Vinh Hưng <span class="cefr-pill cefr-b1">B1</span></div>
+          <div class="rank-name-sub">Streak: 🔥 2 ngày</div>
+        </div>
+      </div>
+      <div class="rank-xp-col">
+        <div class="rank-xp">7.120 <small>XP</small></div>
+        <div class="xp-bar-wrap"><div class="xp-bar-fill" style="width:38%"></div></div>
+      </div>
+      <div class="rank-delta delta-up">▲ 1</div>
+    </div>
+
+    <!-- #10 -->
+    <div class="rank-item">
+      <div class="rank-num">10</div>
+      <div class="rank-user">
+        <div class="list-avatar av-g">S</div>
+        <div>
+          <div class="rank-name">Son Nguyen <span class="cefr-pill cefr-b2">B2</span></div>
+          <div class="rank-name-sub">Streak: 🔥 9 ngày</div>
+        </div>
+      </div>
+      <div class="rank-xp-col">
+        <div class="rank-xp">6.880 <small>XP</small></div>
+        <div class="xp-bar-wrap"><div class="xp-bar-fill" style="width:37%"></div></div>
+      </div>
+      <div class="rank-delta delta-same">— 0</div>
+    </div>
+
+  </div><!-- /rank-list -->
+
+  <!-- Separator: your position -->
+  <div class="section-label">📍 Vị trí của bạn</div>
+
+  <!-- Self Position Card -->
+  <div class="self-position-card">
+    <div class="self-position-header">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Vị trí hiện tại của bạn trong tuần
+    </div>
+    <div class="self-stats-row">
+      <div>
+        <div class="self-rank-big">#47</div>
+        <div class="self-rank-label">Hạng tuần này</div>
+      </div>
+      <div class="self-sep"></div>
+      <div class="self-stat">
+        <div class="self-stat-val" style="color:var(--accent)">3.240</div>
+        <div class="self-stat-lbl">XP tuần này</div>
+      </div>
+      <div class="self-stat">
+        <div class="self-stat-val" style="color:var(--streak)">🔥 12</div>
+        <div class="self-stat-lbl">Ngày streak</div>
+      </div>
+      <div class="self-stat">
+        <div class="self-stat-val">B1 → B2</div>
+        <div class="self-stat-lbl">CEFR hiện tại</div>
+      </div>
+      <div class="self-stat" style="margin-left:auto">
+        <div class="rank-item self-row" style="border-radius:var(--r-sm);padding:.7rem 1rem;gap:.65rem">
+          <div style="flex-shrink:0;font-size:1.2rem;font-weight:800;background:var(--nav-bg);-webkit-background-clip:text;-webkit-text-fill-color:transparent;min-width:30px">#47</div>
+          <div class="rank-user" style="margin:0">
+            <div class="list-avatar av-self">N</div>
+            <div>
+              <div class="rank-name">Nam <span class="cefr-pill cefr-b1">B1</span></div>
+              <div class="rank-name-sub">Bạn • Streak 🔥 12</div>
+            </div>
+          </div>
+          <div class="rank-xp-col">
+            <div class="rank-xp">3.240 <small>XP</small></div>
+            <div class="xp-bar-wrap"><div class="xp-bar-fill" style="width:17%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="next-rank-strip">
+      <span>Cần thêm <strong style="color:var(--accent)">+1.280 XP</strong> để lên hạng #46 (Vinh Phát · 4.520 XP)</span>
+      <div class="next-rank-progress"><div class="next-rank-fill"></div></div>
+    </div>
+  </div>
+
+</div><!-- /page -->
+
+<script>
+  const root = document.documentElement;
+  const darkBtn = document.getElementById('darkBtn');
+  function toggleDark(){
+    const isDark = root.getAttribute('data-theme') === 'dark';
+    root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    darkBtn.textContent = isDark ? '🌙' : '☀️';
+  }
+
+  function setFilter(btn, mode){
+    document.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  }
+
+  /* Simple countdown tick */
+  let totalSec = 2*86400 + 14*3600 + 37*60 + 8;
+  function updateCountdown(){
+    if(totalSec <= 0) return;
+    totalSec--;
+    const d = Math.floor(totalSec / 86400);
+    const h = Math.floor((totalSec % 86400) / 3600);
+    const m = Math.floor((totalSec % 3600) / 60);
+    const s = totalSec % 60;
+    document.getElementById('countdown').textContent =
+      `${d}n ${String(h).padStart(2,'0')}g ${String(m).padStart(2,'0')}p ${String(s).padStart(2,'0')}s`;
+  }
+  setInterval(updateCountdown, 1000);
+</script>
+</body>
+</html>
