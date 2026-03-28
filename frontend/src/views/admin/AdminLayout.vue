@@ -85,6 +85,7 @@ const NAV = [
   { to: '/admin',                icon: '📊', label: 'Tổng quan' },
   { to: '/admin/users',         icon: '👥', label: 'Người dùng' },
   { to: '/admin/content',       icon: '📚', label: 'Nội dung' },
+  { to: '/admin/grammar',       icon: '📘', label: 'Ngữ pháp' },
   { to: '/admin/payments',      icon: '💳', label: 'Thanh toán' },
   { to: '/admin/assessments',   icon: '📝', label: 'Bài thi' },
   { to: '/admin/grading',       icon: '🤖', label: 'AI Grading' },

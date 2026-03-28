@@ -3,7 +3,8 @@ apps/admin_portal/serializers.py
 """
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
-from apps.curriculum.models import CEFRLevel, Course, Chapter, Lesson
+from apps.curriculum.models import CEFRLevel, Course, Chapter, Lesson, LessonExercise
+from apps.grammar.models import GrammarTopic, GrammarRule, GrammarExample
 from apps.payments.models import Coupon, CouponRedemption, PaymentTransaction, SubscriptionPlan, UserSubscription
 from apps.exercises.models import ExamSet, ListeningExercise, ReadingExercise, SpeakingExercise, WritingExercise
 from apps.progress.models import AIGradingJob, SpeakingSubmission, WritingSubmission
@@ -37,7 +38,7 @@ class AdminChapterSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Chapter
-        fields = ["id", "title", "order", "passing_score", "lesson_count"]
+        fields = ["id", "title", "description", "order", "passing_score", "lesson_count"]
         read_only_fields = ["id"]
 
 
@@ -144,6 +145,107 @@ class AdminWritingExerciseSerializer(serializers.ModelSerializer):
         model = WritingExercise
         fields = ["id", "title", "cefr_level", "min_words", "max_words", "time_limit_minutes", "created_at"]
         read_only_fields = ["id", "created_at"]
+
+
+# ── Full exercise serializers (for CRUD) ───────────────────────────────────────
+
+class AdminListeningExerciseFullSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ListeningExercise
+        fields = [
+            "id", "title", "audio_file", "audio_duration_seconds", "transcript",
+            "context_hint", "cefr_level", "max_plays", "time_limit_seconds", "created_at",
+        ]
+        read_only_fields = ["id", "created_at"]
+
+
+class AdminSpeakingExerciseFullSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = SpeakingExercise
+        fields = [
+            "id", "title", "scenario", "dialogue_json", "target_sentence",
+            "target_audio_key", "karaoke_words_json", "cefr_level",
+            "time_limit_seconds", "created_at",
+        ]
+        read_only_fields = ["id", "created_at"]
+
+
+class AdminReadingExerciseFullSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ReadingExercise
+        fields = [
+            "id", "title", "article_text", "vocab_tooltip_json", "cefr_level",
+            "time_limit_seconds", "created_at",
+        ]
+        read_only_fields = ["id", "created_at"]
+
+
+class AdminWritingExerciseFullSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = WritingExercise
+        fields = [
+            "id", "title", "prompt_text", "prompt_description", "min_words", "max_words",
+            "time_limit_minutes", "structure_tips_json", "cefr_level", "created_at",
+        ]
+        read_only_fields = ["id", "created_at"]
+
+
+# ── Lesson-Exercise binding ────────────────────────────────────────────────────
+
+class AdminLessonExerciseSerializer(serializers.ModelSerializer):
+    exercise_title = serializers.SerializerMethodField()
+
+    class Meta:
+        model = LessonExercise
+        fields = ["id", "lesson", "exercise_type", "exercise_id", "order", "passing_score", "exercise_title"]
+        read_only_fields = ["id", "exercise_title"]
+
+    def get_exercise_title(self, obj):
+        model_map = {
+            "listening": ListeningExercise,
+            "speaking": SpeakingExercise,
+            "reading": ReadingExercise,
+            "writing": WritingExercise,
+        }
+        M = model_map.get(obj.exercise_type)
+        if not M:
+            return None
+        try:
+            return M.objects.get(pk=obj.exercise_id).title
+        except M.DoesNotExist:
+            return None
+
+
+# ── Grammar admin serializers ──────────────────────────────────────────────────
+
+class AdminGrammarTopicSerializer(serializers.ModelSerializer):
+    rule_count = serializers.SerializerMethodField()
+
+    class Meta:
+        model = GrammarTopic
+        fields = [
+            "id", "title", "slug", "level", "chapter", "order", "is_published",
+            "icon", "description", "analogy", "real_world_use", "memory_hook",
+            "lesson", "rule_count", "created_at", "updated_at",
+        ]
+        read_only_fields = ["id", "rule_count", "created_at", "updated_at"]
+
+    def get_rule_count(self, obj):
+        return obj.rules.count()
+
+
+class AdminGrammarRuleSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = GrammarRule
+        fields = ["id", "topic", "title", "formula", "explanation", "memory_hook", "is_exception", "order"]
+        read_only_fields = ["id"]
+
+
+class AdminGrammarExampleSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = GrammarExample
+        fields = ["id", "rule", "sentence", "translation", "context", "highlight", "audio_url"]
+        read_only_fields = ["id"]
 
 
 # ── AI Grading ─────────────────────────────────────────────────────────────────

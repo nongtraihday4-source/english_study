@@ -44,6 +44,12 @@ export const grammarApi = {
 
   getTopic: (slug) =>
     api.get(`/grammar/${slug}/`),
+
+  getProgress: () =>
+    api.get('/grammar/progress/'),
+
+  submitQuiz: (slug, data) =>
+    api.post(`/grammar/${slug}/quiz/`, data),
 }
 
 export const vocabularyApi = {

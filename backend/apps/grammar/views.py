@@ -3,12 +3,20 @@ import logging
 
 from django.utils.decorators import method_decorator
 from django.views.decorators.cache import cache_page
+from rest_framework import status
 from rest_framework.generics import ListAPIView, RetrieveAPIView
-from rest_framework.permissions import IsAuthenticatedOrReadOnly
+from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
+from rest_framework.response import Response
+from rest_framework.views import APIView
 
 from utils.pagination import StandardPagination
-from .models import GrammarTopic
-from .serializers import GrammarTopicDetailSerializer, GrammarTopicListSerializer
+from .models import GrammarQuizResult, GrammarTopic
+from .serializers import (
+    GrammarQuizResultSerializer,
+    GrammarQuizSubmitSerializer,
+    GrammarTopicDetailSerializer,
+    GrammarTopicListSerializer,
+)
 
 logger = logging.getLogger("es.curriculum")
 
@@ -59,3 +67,56 @@ class GrammarTopicDetailView(RetrieveAPIView):
             obj.slug, obj.level,
         )
         return obj
+
+
+class GrammarQuizSubmitView(APIView):
+    """
+    POST /api/v1/grammar/<slug>/quiz/
+    Body: { score, total_questions, correct_answers }
+
+    Upserts quiz result for the authenticated user.
+    """
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request, slug):
+        topic = GrammarTopic.objects.filter(slug=slug, is_published=True).first()
+        if not topic:
+            return Response({"detail": "Không tìm thấy chủ điểm."}, status=status.HTTP_404_NOT_FOUND)
+
+        serializer = GrammarQuizSubmitSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        d = serializer.validated_data
+
+        result, _ = GrammarQuizResult.objects.update_or_create(
+            user=request.user,
+            topic=topic,
+            defaults={
+                "score": d["score"],
+                "total_questions": d["total_questions"],
+                "correct_answers": d["correct_answers"],
+            },
+        )
+        return Response(GrammarQuizResultSerializer(result).data, status=status.HTTP_200_OK)
+
+
+class GrammarProgressView(APIView):
+    """
+    GET /api/v1/grammar/progress/
+
+    Returns all quiz results for the authenticated user,
+    keyed by topic slug for easy lookup on the frontend.
+    """
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        results = GrammarQuizResult.objects.filter(user=request.user).select_related("topic")
+        data = {
+            r.topic.slug: {
+                "score": r.score,
+                "total_questions": r.total_questions,
+                "correct_answers": r.correct_answers,
+                "attempted_at": r.attempted_at.isoformat(),
+            }
+            for r in results
+        }
+        return Response(data)

@@ -11,6 +11,7 @@ Design: Ported from grammar-trichxuat-notebooklm.md with
         additional curriculum linking.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 """
+from django.conf import settings
 from django.db import models
 from django.utils.text import slugify
 
@@ -35,6 +36,11 @@ class GrammarTopic(models.Model):
     title = models.CharField(max_length=200, help_text="Tên chủ đề (VD: Present Simple Tense)")
     slug = models.SlugField(max_length=220, unique=True, db_index=True)
     level = models.CharField(max_length=2, choices=CEFR_CHOICES, default="A1", db_index=True)
+    chapter = models.CharField(
+        max_length=200, blank=True, default="",
+        db_index=True,
+        help_text="Tên chương (VD: 'Thì cơ bản', 'Modal Verbs'). Dùng để nhóm các topic trên UI.",
+    )
     order = models.PositiveIntegerField(default=0, db_index=True)
     is_published = models.BooleanField(default=True, db_index=True)
 
@@ -85,6 +91,7 @@ class GrammarTopic(models.Model):
         ordering = ["level", "order"]
         indexes = [
             models.Index(fields=["level", "order"]),
+            models.Index(fields=["level", "chapter", "order"]),
             models.Index(fields=["level", "is_published"]),
         ]
         verbose_name = "Chủ đề Ngữ pháp"
@@ -170,3 +177,30 @@ class GrammarExample(models.Model):
 
     def __str__(self):
         return self.sentence[:80]
+
+
+class GrammarQuizResult(models.Model):
+    """
+    Persists a learner's quiz score for a GrammarTopic.
+    Upserted on each attempt (keeps latest score).
+    """
+    user = models.ForeignKey(
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE,
+        related_name="grammar_quiz_results",
+    )
+    topic = models.ForeignKey(
+        GrammarTopic, on_delete=models.CASCADE,
+        related_name="quiz_results",
+    )
+    score = models.FloatField(help_text="Điểm phần trăm (0-100)")
+    total_questions = models.PositiveIntegerField(default=5)
+    correct_answers = models.PositiveIntegerField(default=0)
+    attempted_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = "grammar_quiz_result"
+        unique_together = ("user", "topic")
+        verbose_name = "Kết quả Quiz Ngữ pháp"
+
+    def __str__(self):
+        return f"{self.user} — {self.topic.title}: {self.score}%"
