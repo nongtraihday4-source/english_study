@@ -7,15 +7,16 @@ from .views import (
     ChangePasswordView,
     CookieTokenRefreshView,
     DeviceListView,
+    Disable2FAView,
+    Generate2FAView,
     LoginView,
     LogoutView,
     MeView,
+    PasswordResetConfirmView,
     RegisterView,
     RevokeDeviceView,
     UserSettingsView,
-    Generate2FAView,
     Verify2FAView,
-    Disable2FAView,
 )
 
 urlpatterns = [
@@ -28,6 +29,7 @@ urlpatterns = [
     path("auth/2fa/generate/", Generate2FAView.as_view(), name="auth-2fa-generate"),
     path("auth/2fa/verify/", Verify2FAView.as_view(), name="auth-2fa-verify"),
     path("auth/2fa/disable/", Disable2FAView.as_view(), name="auth-2fa-disable"),
+    path("auth/password-reset/confirm/", PasswordResetConfirmView.as_view(), name="auth-password-reset-confirm"),
     
     path("me/", MeView.as_view(), name="me"),
     path("me/password/", ChangePasswordView.as_view(), name="me-change-password"),

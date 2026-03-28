@@ -42,6 +42,16 @@ urlpatterns = [
     path(f"{API}/grammar/", include("apps.grammar.urls")),
     # ── Pronunciation ─────────────────────────────────────
     path(f"{API}/pronunciation/", include("apps.pronunciation.urls")),
+
+    # ── Teacher Portal ────────────────────────────────────
+    path(f"{API}/teacher/", include("apps.teacher.urls")),
+
+    # ── Admin Portal ──────────────────────────────────────
+    path(f"{API}/admin-portal/", include("apps.admin_portal.urls")),
+
+    # ── Support Portal ────────────────────────────────────
+    path(f"{API}/support/", include("apps.support.urls")),
+
     # ── API Schema & Docs ────────────────────────────────────────
     path(f"{API}/schema/", SpectacularAPIView.as_view(), name="schema"),
     path(f"{API}/docs/", SpectacularSwaggerView.as_view(url_name="schema"), name="swagger-ui"),

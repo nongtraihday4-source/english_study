@@ -277,30 +277,25 @@
       </div>
 
       <!-- Active exercise -->
-      <div v-else-if="activeMpSet" class="max-w-2xl mx-auto">
-        <div class="rounded-2xl p-6" style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)">
-          <!-- Header -->
-          <div class="flex items-center justify-between mb-4">
-            <div>
-              <h3 class="font-bold text-lg" style="color: var(--color-text-base)">{{ activeMpSet.title }}</h3>
-              <p class="text-sm" style="color: var(--color-text-muted)">{{ activeMpSet.description }}</p>
-            </div>
-            <button @click="activeMpSet = null; mpResult = null; mpFinished = false" class="rounded-xl px-3 py-2 text-sm hover:opacity-80 transition" style="background-color: var(--color-surface-03); color: var(--color-text-muted)">← Quay lại</button>
-          </div>
+      <div v-else-if="activeMpSet" class="max-w-lg mx-auto">
+        <div class="rounded-2xl p-5" style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)">
 
-          <!-- Round progress bar (hidden when finished) -->
-          <div v-if="!mpFinished" class="mb-5">
-            <div class="flex justify-between items-center mb-2 text-xs" style="color: var(--color-text-muted)">
-              <span>Câu <strong style="color: var(--color-text-base)">{{ mpRound }}</strong> / {{ mpTotalRounds }}</span>
-              <span>✅ {{ mpCorrectCount }} đúng</span>
+          <!-- Exercise header -->
+          <div class="flex items-center gap-3 mb-4">
+            <div class="flex-1 min-w-0">
+              <h3 class="font-bold text-base truncate" style="color: var(--color-text-base)">{{ activeMpSet.title }}</h3>
+              <p class="text-xs mt-0.5 truncate" style="color: var(--color-text-muted)">{{ activeMpSet.description }}</p>
             </div>
-            <div class="w-full h-1.5 rounded-full overflow-hidden" style="background-color: var(--color-surface-04)">
-              <div class="h-full rounded-full transition-all" style="background-color: var(--color-primary-500)" :style="{ width: ((mpRound - 1) / mpTotalRounds * 100) + '%' }" />
-            </div>
+            <button
+              @click="activeMpSet = null; mpResult = null; mpFinished = false"
+              class="shrink-0 rounded-xl px-3 py-1.5 text-xs font-semibold hover:opacity-80 transition"
+              style="background-color: var(--color-surface-03); color: var(--color-text-muted)">
+              ← Quay lại
+            </button>
           </div>
 
           <!-- Final score -->
-          <div v-if="mpFinished" class="text-center py-8">
+          <div v-if="mpFinished" class="text-center py-10">
             <p class="text-6xl font-black mb-2" style="color: var(--color-primary-400)">
               {{ mpCorrectCount }}<span class="text-3xl font-normal" style="color: var(--color-text-muted)">/{{ mpTotalRounds }}</span>
             </p>
@@ -314,33 +309,71 @@
             </div>
           </div>
 
-          <!-- Question (rounds not finished) -->
+          <!-- Question rounds -->
           <template v-else>
-            <div v-if="!mpResult" class="rounded-2xl p-5 mb-5 text-center" style="background-color: var(--color-surface-01); border: 1px solid var(--color-surface-04)">
-              <p class="text-sm mb-3" style="color: var(--color-text-muted)">Nghe âm dưới đây và chọn từ đúng:</p>
-              <button @click="playMpAudio" :disabled="tts.speaking || !!tts.loadingText"
-                class="inline-flex items-center gap-2 px-6 py-3 rounded-2xl text-base font-semibold mb-3 hover:opacity-80 transition disabled:opacity-60"
-                style="background-color: var(--color-primary-600); color: #fff">
-                <span :class="tts.loadingText ? 'animate-ping' : tts.speaking ? 'animate-pulse' : ''">🎵</span>
-                {{ tts.loadingText ? 'Đang tải...' : tts.speaking ? 'Đang phát...' : 'Phát lại' }}
-              </button>
-              <p class="text-xs" style="color: var(--color-text-muted)">Nhấn để phát lại</p>
+            <!-- Progress -->
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-1.5 text-xs" style="color: var(--color-text-muted)">
+                <span>Câu <strong style="color: var(--color-text-base)">{{ mpRound }}</strong> / {{ mpTotalRounds }}</span>
+                <span>✅ {{ mpCorrectCount }} đúng</span>
+              </div>
+              <div class="w-full h-1.5 rounded-full overflow-hidden" style="background-color: var(--color-surface-04)">
+                <div class="h-full rounded-full transition-all" style="background-color: var(--color-primary-500)" :style="{ width: ((mpRound - 1) / mpTotalRounds * 100) + '%' }" />
+              </div>
             </div>
-            <div v-if="!mpResult" class="grid grid-cols-2 gap-3 mb-4">
-              <button v-for="pair in shuffledMpOptions" :key="pair.id" @click="checkMpAnswer(pair)"
-                class="rounded-2xl p-4 text-center hover:opacity-90 hover:-translate-y-0.5 transition"
-                style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)">
-                <p class="text-2xl font-extrabold mb-1" style="color: var(--color-text-base)">{{ pair.word }}</p>
-                <p class="text-sm" style="color: var(--color-primary-400)">{{ pair.ipa }}</p>
-                <p class="text-xs mt-1" style="color: var(--color-text-muted)">{{ pair.meaning }}</p>
+
+            <!-- Audio area — always visible, replay works at any time -->
+            <div class="rounded-2xl p-4 mb-4 text-center" style="background-color: var(--color-surface-01); border: 1px solid var(--color-surface-04)">
+              <p class="text-xs mb-3" style="color: var(--color-text-muted)">Nghe và chọn từ đúng:</p>
+              <button
+                @click="playMpAudio"
+                class="inline-flex items-center gap-2 px-7 py-3.5 rounded-2xl font-semibold hover:opacity-90 active:scale-95 transition-all"
+                :class="tts.speaking ? 'mp-audio-playing' : 'mp-audio-idle'"
+              >
+                <span class="text-lg">{{ tts.loadingText ? '⏳' : tts.speaking ? '🔈' : '🔊' }}</span>
+                <span>{{ tts.loadingText ? 'Đang tải...' : tts.speaking ? 'Đang phát...' : 'Phát lại' }}</span>
+              </button>
+              <!-- Show revealed word after answering -->
+              <Transition name="fade">
+                <p v-if="mpResult" class="mt-3 text-sm font-bold" style="color: var(--color-primary-400)">
+                  {{ mpResult.correct_word }}
+                  <span class="font-normal text-xs ml-1" style="color: var(--color-text-muted)">{{ mpResult.correct_ipa }}</span>
+                </p>
+              </Transition>
+            </div>
+
+            <!-- Answer choices — stay visible, show inline feedback -->
+            <div class="grid grid-cols-2 gap-2.5 mb-4">
+              <button
+                v-for="pair in mpChoices"
+                :key="pair.id"
+                @click="!mpResult && checkMpAnswer(pair)"
+                :disabled="!!mpResult"
+                class="mp-choice-btn rounded-2xl p-4 text-center transition-all"
+                :class="mpResult
+                  ? pair.id === activeMpSet.pairs[mpCorrectIdx].id
+                    ? 'mp-state-correct'
+                    : pair.id === mpResult.selected_id
+                      ? 'mp-state-wrong'
+                      : 'mp-state-dim'
+                  : 'mp-state-idle'"
+              >
+                <p class="text-xl font-extrabold mb-0.5">{{ pair.word }}</p>
+                <p class="text-xs font-mono" style="color: var(--color-primary-400)">{{ pair.ipa }}</p>
+                <p class="text-xs mt-0.5 truncate" style="color: var(--color-text-muted)">{{ pair.meaning }}</p>
               </button>
             </div>
-            <Transition name="fade">
-              <div v-if="mpResult" class="text-center py-6">
-                <p class="text-5xl mb-3">{{ mpResult.correct ? '🎉' : '❌' }}</p>
-                <p class="text-xl font-bold mb-1" :style="mpResult.correct ? 'color:#86efac' : 'color:#fca5a5'">{{ mpResult.correct ? 'Chính xác!' : 'Chưa đúng rồi!' }}</p>
-                <p class="text-sm mb-5" style="color: var(--color-text-muted)">Đáp án đúng: <strong style="color: var(--color-text-base)">{{ mpResult.correct_word }}</strong> — {{ mpResult.correct_ipa }}</p>
-                <button @click="resetMpExercise" class="px-5 py-2.5 rounded-xl text-sm font-semibold hover:opacity-80 transition" style="background-color: var(--color-primary-600); color: #fff">
+
+            <!-- Feedback + Next button -->
+            <Transition name="slide-up">
+              <div v-if="mpResult" class="flex items-center justify-between gap-3">
+                <p class="text-sm font-semibold" :style="mpResult.correct ? 'color:#86efac' : 'color:#fca5a5'">
+                  {{ mpResult.correct ? '🎉 Chính xác!' : '❌ Chưa đúng!' }}
+                </p>
+                <button
+                  @click="resetMpExercise"
+                  class="shrink-0 px-6 py-2.5 rounded-xl text-sm font-semibold hover:opacity-80 active:scale-95 transition-all"
+                  style="background-color: var(--color-primary-600); color: #fff">
                   {{ mpRound < mpTotalRounds ? 'Câu tiếp →' : 'Xem kết quả 🏁' }}
                 </button>
               </div>
@@ -352,19 +385,35 @@
       <!-- Pair list grid -->
       <div v-else class="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
         <div v-for="mp in minimalPairs" :key="mp.id"
-          class="rounded-2xl p-5 flex flex-col gap-3 cursor-pointer hover:-translate-y-0.5 transition"
-          style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)"
-          @click="startMpExercise(mp)">
-          <span class="text-xs px-2 py-0.5 rounded-full self-start" style="background-color: var(--color-primary-600)22; color: var(--color-primary-400)">{{ mp.cefr_level }}</span>
-          <h3 class="font-bold" style="color: var(--color-text-base)">{{ mp.title }}</h3>
+          class="rounded-2xl p-4 flex flex-col gap-3 hover:-translate-y-0.5 transition"
+          style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)">
+          <div class="flex items-center gap-2">
+            <span class="text-xs px-2 py-0.5 rounded-full font-semibold" style="background-color: color-mix(in srgb, var(--color-primary-600) 20%, transparent); color: var(--color-primary-400)">{{ mp.cefr_level }}</span>
+            <span class="text-xs ml-auto" style="color: var(--color-text-muted)">{{ mp.pairs?.length }} từ</span>
+          </div>
+          <h3 class="font-bold text-sm" style="color: var(--color-text-base)">{{ mp.title }}</h3>
           <p class="text-xs" style="color: var(--color-text-muted)">{{ mp.description }}</p>
-          <div class="flex gap-2 mt-auto">
-            <div v-for="pair in mp.pairs" :key="pair.id" class="flex-1 rounded-xl p-2.5 text-center" style="background-color: var(--color-surface-01); border: 1px solid var(--color-surface-04)">
-              <p class="font-bold" style="color: var(--color-text-base)" :data-tts-word="pair.word">{{ pair.word }}</p>
-              <p class="text-xs" style="color: var(--color-primary-400)">{{ pair.ipa }}</p>
+          <!-- Preview: only first 2 words to avoid overflow -->
+          <div class="flex gap-2 mt-auto items-stretch">
+            <div v-for="pair in mp.pairs.slice(0, 2)" :key="pair.id"
+              class="flex-1 rounded-xl p-2.5 text-center"
+              style="background-color: var(--color-surface-01); border: 1px solid var(--color-surface-04)">
+              <p class="font-bold text-sm" style="color: var(--color-text-base)">{{ pair.word }}</p>
+              <p class="text-xs mt-0.5 font-mono" style="color: var(--color-primary-400)">{{ pair.ipa }}</p>
+              <p class="text-xs mt-0.5 truncate" style="color: var(--color-text-muted)">{{ pair.meaning }}</p>
+            </div>
+            <div v-if="mp.pairs.length > 2"
+              class="flex items-center justify-center rounded-xl px-3 text-sm font-bold"
+              style="background-color: var(--color-surface-01); border: 1px solid var(--color-surface-04); color: var(--color-text-muted); min-width: 44px">
+              +{{ mp.pairs.length - 2 }}
             </div>
           </div>
-          <button class="mt-1 w-full py-2 rounded-xl text-sm font-semibold hover:opacity-80 transition" style="background-color: var(--color-primary-600); color: #fff">Luyện tập →</button>
+          <button
+            class="w-full py-2.5 rounded-xl text-sm font-semibold hover:opacity-80 active:scale-95 transition-all"
+            style="background-color: var(--color-primary-600); color: #fff"
+            @click="startMpExercise(mp)">
+            🎵 Luyện tập →
+          </button>
         </div>
         <div v-if="minimalPairs.length === 0" class="col-span-full text-center py-16 rounded-2xl" style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)">
           <p class="text-5xl mb-3">🎵</p><p class="font-semibold" style="color: var(--color-text-base)">Chưa có bài tập Minimal Pairs nào.</p>
@@ -487,9 +536,14 @@ const mpTotalRounds = ref(5)
 const mpCorrectCount = ref(0)
 const mpFinished    = ref(false)
 
-const shuffledMpOptions = computed(() => {
-  if (!activeMpSet.value?.pairs?.length) return []
-  return [...activeMpSet.value.pairs].sort(() => Math.random() - 0.5)
+// Limit to 4 choices: 1 correct + up to 3 random distractors, re-computed each round
+const mpChoices = computed(() => {
+  const pairs = activeMpSet.value?.pairs
+  if (!pairs?.length) return []
+  const correct = pairs[mpCorrectIdx.value]
+  const others = pairs.filter((_, i) => i !== mpCorrectIdx.value)
+  const distractors = [...others].sort(() => Math.random() - 0.5).slice(0, 3)
+  return [...distractors, correct].sort(() => Math.random() - 0.5)
 })
 
 async function loadMinimalPairs() {
@@ -525,7 +579,7 @@ function checkMpAnswer(sel) {
   if (!correct) return
   const isCorrect = sel.id === correct.id
   if (isCorrect) mpCorrectCount.value++
-  mpResult.value = { correct: isCorrect, correct_word: correct.word, correct_ipa: correct.ipa }
+  mpResult.value = { correct: isCorrect, selected_id: sel.id, correct_word: correct.word, correct_ipa: correct.ipa }
 }
 
 function resetMpExercise() {
@@ -629,4 +683,49 @@ onMounted(() => {
 /* ── fade transition ──────────────────────────────────────────────────────── */
 .fade-enter-active, .fade-leave-active { transition: opacity .25s ease; }
 .fade-enter-from, .fade-leave-to       { opacity: 0; }
+
+/* ── Minimal pairs exercise — answer cards ───────────────────────────────── */
+.mp-choice-btn {
+  border: 2px solid var(--color-surface-04);
+  background-color: var(--color-surface-01);
+}
+.mp-state-idle {
+  color: var(--color-text-base);
+  cursor: pointer;
+}
+.mp-state-idle:hover {
+  border-color: var(--color-primary-500);
+  background-color: color-mix(in srgb, var(--color-primary-600) 10%, var(--color-surface-01));
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.mp-state-correct {
+  border-color: #86efac;
+  background-color: color-mix(in srgb, #22c55e 18%, var(--color-surface-01));
+  color: #86efac;
+}
+.mp-state-wrong {
+  border-color: #fca5a5;
+  background-color: color-mix(in srgb, #ef4444 18%, var(--color-surface-01));
+  color: #fca5a5;
+}
+.mp-state-dim {
+  opacity: 0.35;
+  color: var(--color-text-muted);
+}
+
+/* ── Audio button states ──────────────────────────────────────────────────── */
+.mp-audio-idle {
+  background-color: var(--color-primary-600);
+  color: #fff;
+}
+.mp-audio-playing {
+  background-color: color-mix(in srgb, var(--color-primary-600) 75%, #000);
+  color: #fff;
+  animation: audio-pulse 0.8s ease infinite alternate;
+}
+@keyframes audio-pulse {
+  from { box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-primary-500) 50%, transparent); }
+  to   { box-shadow: 0 0 0 8px color-mix(in srgb, var(--color-primary-500) 0%, transparent); }
+}
 </style>
