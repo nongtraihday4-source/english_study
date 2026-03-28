@@ -6,7 +6,7 @@ trigger: always_on
 
 ## Tài khoản tester frontend:
 - email: admin@gmail.com
-- password: 12345678a.
+- password: TestPass@123
 
 ## Tech Stack
 - Framework: Vue.js 3 + Vite

@@ -10,6 +10,7 @@ export const useAuthStore = defineStore('auth', () => {
   const isLoggedIn = computed(() => !!user.value)
   const isAdmin = computed(() => user.value?.role === 'admin')
   const isTeacher = computed(() => user.value?.role === 'teacher' || user.value?.role === 'admin')
+  const isSupport = computed(() => user.value?.role === 'support' || user.value?.role === 'admin')
   const isPremium = computed(() => user.value?.account_type === 'premium')
   const displayName = computed(() =>
     user.value ? (user.value.full_name || user.value.email) : ''
@@ -130,7 +131,7 @@ export const useAuthStore = defineStore('auth', () => {
 
   return {
     user, loading, initialized,
-    isLoggedIn, isAdmin, isTeacher, isPremium, displayName,
+    isLoggedIn, isAdmin, isTeacher, isSupport, isPremium, displayName,
     init, login, logout, register, refreshUser,
   }
 })

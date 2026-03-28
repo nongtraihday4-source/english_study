@@ -15,6 +15,7 @@ class User(AbstractUser):
         ("admin", "Admin"),
         ("teacher", "Giáo viên"),
         ("student", "Học viên"),
+        ("support", "Nhân viên hỗ trợ"),
     ]
     ACCOUNT_CHOICES = [
         ("demo", "Demo"),

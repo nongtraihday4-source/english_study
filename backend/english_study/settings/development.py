@@ -16,6 +16,7 @@ REST_FRAMEWORK["DEFAULT_THROTTLE_RATES"] = {  # noqa: F405
     "login": "100/min",
     "submission": "200/min",
     "ai_grading": "100/min",
+    "support_public_request": "30/hour",
 }
 
 # Allow all origins in dev

@@ -11,13 +11,64 @@
           <span class="font-semibold" style="color: var(--color-primary-400)">{{ auth.user?.current_level || '—' }}</span>
         </p>
       </div>
-      <RouterLink
-        to="/courses"
-        class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-white transition hover:opacity-90 self-start sm:self-auto"
-        style="background: linear-gradient(135deg, #4f46e5, #7c3aed)"
+      <div class="flex items-center gap-2 self-start sm:self-auto">
+        <RouterLink
+          to="/help/support-request"
+          class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold transition hover:opacity-90"
+          style="background-color: color-mix(in srgb, #3b82f6 16%, transparent); color: #60a5fa"
+        >
+          🛟 Cần hỗ trợ
+        </RouterLink>
+        <RouterLink
+          to="/courses"
+          class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-white transition hover:opacity-90"
+          style="background: linear-gradient(135deg, #4f46e5, #7c3aed)"
+        >
+          ▶ Học ngay
+        </RouterLink>
+      </div>
+    </div>
+
+    <!-- ── Teacher Portal Banner (chỉ hiển thị khi role = teacher/admin) ── -->
+    <div v-if="auth.isTeacher" class="mb-6 rounded-2xl overflow-hidden"
+      style="border: 1px solid color-mix(in srgb,#f59e0b 40%,transparent)"
+    >
+      <!-- Header bar -->
+      <div class="flex items-center justify-between gap-4 px-5 py-3"
+        style="background: linear-gradient(135deg,#92400e22,#78350f33)"
       >
-        ▶ Học ngay
-      </RouterLink>
+        <div class="flex items-center gap-2.5">
+          <span class="text-xl">🏫</span>
+          <div>
+            <p class="font-bold text-sm" style="color: #fcd34d">Chế độ Giáo viên</p>
+            <p class="text-xs" style="color: var(--color-text-muted)">
+              Role: <strong style="color:#fbbf24">{{ auth.user?.role }}</strong>
+            </p>
+          </div>
+        </div>
+        <RouterLink to="/teacher"
+          class="shrink-0 px-4 py-2 rounded-xl text-xs font-bold hover:opacity-80 transition"
+          style="background-color:#f59e0b;color:#000"
+        >
+          Vào Teacher Portal →
+        </RouterLink>
+      </div>
+
+      <!-- Stats row -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 divide-x"
+        style="background-color:var(--color-surface-02);divide-color:var(--color-surface-04)"
+      >
+        <RouterLink
+          v-for="ts in teacherStatCards" :key="ts.label"
+          :to="ts.to"
+          class="flex flex-col items-center py-4 gap-1 hover:opacity-80 transition"
+        >
+          <p class="text-xs" style="color:var(--color-text-muted)">{{ ts.label }}</p>
+          <p class="text-2xl font-black" :style="{color: ts.color}">
+            {{ teacherStatsLoading ? '…' : ts.value }}
+          </p>
+        </RouterLink>
+      </div>
     </div>
 
     <!-- Loading skeleton -->
@@ -185,10 +236,11 @@
 </template>
 
 <script setup>
-import { computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import { useAuthStore } from '@/stores/auth.js'
 import { useDashboardStore } from '@/stores/dashboard.js'
 import { fmtDate, fmtScore } from '@/utils/formatters.js'
+import { teacherApi } from '@/api/teacher.js'
 import StreakCard from '@/components/dashboard/StreakCard.vue'
 import XPCard from '@/components/dashboard/XPCard.vue'
 import SkillRadar from '@/components/dashboard/SkillRadar.vue'
@@ -198,7 +250,38 @@ import RecentResults from '@/components/dashboard/RecentResults.vue'
 const auth = useAuthStore()
 const dashboard = useDashboardStore()
 
-onMounted(() => dashboard.fetch())
+// ── Teacher quick-stats ────────────────────────────────────────────────────
+const teacherStatsLoading = ref(false)
+const _ts = ref({ pending_grading: 0, pending_speaking: 0, pending_writing: 0, total_students: 0, active_courses: 0 })
+
+const teacherStatCards = computed(() => [
+  { label: '⏳ Chờ chấm',     value: _ts.value.pending_grading,  color: '#fcd34d', to: '/teacher/grading?status=pending' },
+  { label: '🎤 Speaking',     value: _ts.value.pending_speaking, color: '#fb923c', to: '/teacher/grading?type=speaking' },
+  { label: '✍️ Writing',      value: _ts.value.pending_writing,  color: '#60a5fa', to: '/teacher/grading?type=writing' },
+  { label: '👥 Học viên',     value: _ts.value.total_students,   color: 'var(--color-primary-400)', to: '/teacher/classes' },
+])
+
+function loadTeacherStats() {
+  teacherStatsLoading.value = true
+  teacherApi.getDashboard()
+    .then(res => { _ts.value = res.data?.data ?? res.data })
+    .catch(() => {})
+    .finally(() => { teacherStatsLoading.value = false })
+}
+
+// Re-load teacher stats whenever isTeacher flips to true
+// (handles the case where role was updated in Django admin mid-session)
+watch(() => auth.isTeacher, (val) => {
+  if (val) loadTeacherStats()
+})
+
+onMounted(async () => {
+  // Always refresh user data from DB on dashboard load so role changes
+  // made in Django admin are picked up without requiring logout/login
+  await auth.refreshUser()
+  dashboard.fetch()
+  if (auth.isTeacher) loadTeacherStats()
+})
 
 // Display computed
 const firstName = computed(() => {

@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     "apps.notifications",
     "apps.grammar",
     "apps.pronunciation",
+    "apps.teacher",
+    "apps.admin_portal",
+    "apps.support",
 ]
 
 # ─── Middleware ───────────────────────────────────────────────────────────────
@@ -167,6 +170,7 @@ REST_FRAMEWORK = {
         "login": "5/min",        # Layer 5: Rate limiting on sensitive endpoints
         "submission": "20/min",
         "ai_grading": "10/min",
+        "support_public_request": "3/hour",
     },
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "EXCEPTION_HANDLER": "utils.exceptions.custom_exception_handler",
@@ -308,6 +312,19 @@ LOGGING = {
         "es.curriculum": {"handlers": ["console"], "level": "DEBUG", "propagate": False},
     },
 }
+
+# ─── Email ───────────────────────────────────────────────────────────────────
+EMAIL_HOST          = config("EMAIL_HOST",          default="smtp.gmail.com")
+EMAIL_PORT          = config("EMAIL_PORT",          default=587, cast=int)
+EMAIL_USE_TLS       = config("EMAIL_USE_TLS",       default=True, cast=bool)
+EMAIL_HOST_USER     = config("EMAIL_HOST_USER",     default="")
+EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD", default="")
+DEFAULT_FROM_EMAIL  = config("DEFAULT_FROM_EMAIL",  default="English Study <noreply@english-study.vn>")
+SERVER_EMAIL        = DEFAULT_FROM_EMAIL
+FRONTEND_URL        = config("FRONTEND_URL",        default="http://localhost:5173")
+# Extra public holidays injected via env (YYYY-MM-DD, comma-separated)
+_extra_holidays     = config("PUBLIC_HOLIDAYS_EXTRA", default="")
+PUBLIC_HOLIDAYS_EXTRA: list[str] = [d.strip() for d in _extra_holidays.split(",") if d.strip()]
 
 # ─── API Docs ─────────────────────────────────────────────────────────────────
 SPECTACULAR_SETTINGS = {

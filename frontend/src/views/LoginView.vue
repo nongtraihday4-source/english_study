@@ -117,6 +117,12 @@
           <RouterLink to="/register" class="font-semibold transition hover:opacity-80"
                       style="color: var(--color-primary-400)">Đăng ký ngay</RouterLink>
         </p>
+        <p v-if="step === 1" class="text-center text-xs mt-3" style="color: var(--color-text-muted)">
+          Không đăng nhập được?
+          <RouterLink to="/help/support-request" class="font-semibold transition hover:opacity-80" style="color: #3b82f6">
+            Gửi yêu cầu hỗ trợ tại đây
+          </RouterLink>
+        </p>
       </div>
     </div>
   </div>
@@ -159,7 +165,12 @@ async function handleLogin() {
        globalError.value = result.message || 'Mã xác thực không đúng.'
     }
   } else if (result.success) {
-    const redirect = route.query.redirect || '/dashboard'
+    const role = auth.user?.role
+    let redirect = route.query.redirect || ''
+    if (!redirect) {
+      if (role === 'support') redirect = '/support'
+      else redirect = '/dashboard'
+    }
     router.push(redirect)
   } else {
     globalError.value = result.message
