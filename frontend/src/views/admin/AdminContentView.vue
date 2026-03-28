@@ -104,9 +104,16 @@
           <h3 class="font-semibold text-sm" style="color: var(--color-text-base)">
             📚 {{ selectedCourse.title }} — Chương học
           </h3>
-          <button class="text-xs" style="color: var(--color-text-muted)" @click="selectedCourse = null">
-            ✕ Đóng
-          </button>
+          <div class="flex items-center gap-2">
+            <button
+              class="text-xs px-3 py-1.5 rounded-lg font-semibold transition hover:opacity-90"
+              style="background-color: var(--color-primary-500); color: #fff"
+              @click="openChapterForm()"
+            >+ Thêm chương</button>
+            <button class="text-xs" style="color: var(--color-text-muted)" @click="selectedCourse = null">
+              ✕ Đóng
+            </button>
+          </div>
         </div>
 
         <div v-if="chaptersLoading" class="text-sm text-center py-4" style="color: var(--color-text-muted)">Đang tải...</div>
@@ -120,16 +127,33 @@
             class="rounded-xl overflow-hidden border"
             style="border-color: var(--color-surface-04)"
           >
-            <button
-              class="w-full flex items-center justify-between px-4 py-3 text-sm font-medium transition hover:opacity-80"
-              style="background-color: var(--color-surface-03); color: var(--color-text-base)"
-              @click="toggleChapter(ch)"
+            <div
+              class="flex items-center justify-between px-4 py-2 text-sm"
+              style="background-color: var(--color-surface-03)"
             >
-              <span>{{ ch.order }}. {{ ch.title }}</span>
-              <span class="text-xs ml-2" style="color: var(--color-text-muted)">
-                {{ ch.lesson_count }} bài · {{ expandedChapter === ch.id ? '▲' : '▼' }}
-              </span>
-            </button>
+              <button
+                class="flex items-center gap-2 flex-1 text-left font-medium transition hover:opacity-80"
+                style="color: var(--color-text-base)"
+                @click="toggleChapter(ch)"
+              >
+                <span>{{ ch.order }}. {{ ch.title }}</span>
+                <span class="text-xs ml-2" style="color: var(--color-text-muted)">
+                  {{ ch.lesson_count }} bài · {{ expandedChapter === ch.id ? '▲' : '▼' }}
+                </span>
+              </button>
+              <div class="flex items-center gap-1 shrink-0 ml-2" @click.stop>
+                <button
+                  class="text-xs px-2 py-1 rounded-lg transition hover:opacity-80"
+                  style="background-color:color-mix(in srgb,var(--color-primary-600) 18%,transparent);color:var(--color-primary-400)"
+                  @click="openChapterForm(ch)"
+                >Sửa</button>
+                <button
+                  class="text-xs px-2 py-1 rounded-lg transition hover:opacity-80"
+                  style="background-color:color-mix(in srgb,#ef4444 16%,transparent);color:#f87171"
+                  @click="confirmDeleteChapter(ch)"
+                >Xoá</button>
+              </div>
+            </div>
 
             <div v-if="expandedChapter === ch.id" class="divide-y" style="border-color: var(--color-surface-04)">
               <div v-if="lessonsLoading" class="px-4 py-3 text-xs" style="color: var(--color-text-muted)">Đang tải...</div>
@@ -148,9 +172,27 @@
                     ? 'background-color:color-mix(in srgb,#22c55e 15%,transparent);color:#4ade80'
                     : 'background-color:color-mix(in srgb,#ef4444 15%,transparent);color:#f87171'"
                 >{{ lesson.is_active ? '✓' : '✕' }}</span>
+                <div class="flex items-center gap-1 shrink-0">
+                  <button
+                    class="px-2 py-0.5 rounded-lg transition hover:opacity-80"
+                    style="background-color:color-mix(in srgb,var(--color-primary-600) 18%,transparent);color:var(--color-primary-400)"
+                    @click="openLessonForm(ch.id, lesson)"
+                  >Sửa</button>
+                  <button
+                    class="px-2 py-0.5 rounded-lg transition hover:opacity-80"
+                    style="background-color:color-mix(in srgb,#ef4444 16%,transparent);color:#f87171"
+                    @click="confirmDeleteLesson(lesson, ch.id)"
+                  >Xoá</button>
+                </div>
               </div>
-              <div v-if="!(lessons[ch.id]?.length)" class="px-4 py-3 text-xs" style="color: var(--color-text-muted)">
-                Chưa có bài học.
+              <div class="px-4 py-2 flex justify-between items-center" style="background-color: var(--color-surface-02)">
+                <span v-if="!(lessons[ch.id]?.length)" class="text-xs" style="color: var(--color-text-muted)">Chưa có bài học.</span>
+                <span v-else></span>
+                <button
+                  class="text-xs px-3 py-1.5 rounded-lg font-semibold transition hover:opacity-90"
+                  style="background-color: var(--color-primary-500); color: #fff"
+                  @click="openLessonForm(ch.id)"
+                >+ Thêm bài học</button>
               </div>
             </div>
           </div>
@@ -298,6 +340,157 @@
         </div>
       </div>
     </Teleport>
+
+    <!-- ─── CHAPTER FORM MODAL ──────────────────────────────────────────────── -->
+    <Teleport to="body">
+      <div
+        v-if="showChapterForm"
+        class="fixed inset-0 z-50 flex items-center justify-center p-4"
+        style="background-color: rgba(0,0,0,0.6)"
+        @click.self="showChapterForm = false"
+      >
+        <div class="w-full max-w-md rounded-2xl p-6 space-y-4" style="background-color: var(--color-surface-01)">
+          <h3 class="text-base font-bold" style="color: var(--color-text-base)">
+            {{ chapterFormData.id ? 'Sửa chương' : 'Thêm chương mới' }}
+          </h3>
+          <div class="space-y-3">
+            <div>
+              <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Tiêu đề *</label>
+              <input v-model="chapterFormData.title" type="text" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)" />
+            </div>
+            <div>
+              <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Mô tả</label>
+              <textarea v-model="chapterFormData.description" rows="2" class="w-full rounded-xl px-3 py-2 text-sm border outline-none resize-none"
+                style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)" />
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Thứ tự</label>
+                <input v-model.number="chapterFormData.order" type="number" min="1" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                  style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)" />
+              </div>
+              <div>
+                <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Điểm qua (%)</label>
+                <input v-model.number="chapterFormData.passing_score" type="number" min="0" max="100" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                  style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)" />
+              </div>
+            </div>
+          </div>
+          <div v-if="chapterFormError" class="rounded-xl p-3 text-sm"
+            style="background-color:color-mix(in srgb,#ef4444 12%,transparent);color:#f87171">{{ chapterFormError }}</div>
+          <div class="flex justify-end gap-3 pt-2">
+            <button class="px-4 py-2 text-sm rounded-xl transition hover:opacity-80"
+              style="background-color: var(--color-surface-03); color: var(--color-text-muted)" @click="showChapterForm = false">Huỷ</button>
+            <button class="px-4 py-2 text-sm rounded-xl font-semibold transition hover:opacity-90"
+              style="background-color: var(--color-primary-500); color: #fff" :disabled="chapterFormLoading" @click="submitChapterForm">
+              {{ chapterFormLoading ? 'Đang lưu...' : 'Lưu' }}</button>
+          </div>
+        </div>
+      </div>
+    </Teleport>
+
+    <!-- ─── CHAPTER DELETE CONFIRM ───────────────────────────────────────────── -->
+    <Teleport to="body">
+      <div v-if="chapterDeleteTarget" class="fixed inset-0 z-50 flex items-center justify-center p-4"
+        style="background-color: rgba(0,0,0,0.6)" @click.self="chapterDeleteTarget = null">
+        <div class="w-full max-w-sm rounded-2xl p-6 space-y-4" style="background-color: var(--color-surface-01)">
+          <h3 class="text-base font-bold" style="color: var(--color-text-base)">Xác nhận xoá chương</h3>
+          <p class="text-sm" style="color: var(--color-text-muted)">
+            Xoá chương "<strong>{{ chapterDeleteTarget.title }}</strong>"? Tất cả bài học trong chương sẽ bị xoá. Hành động này không thể hoàn tác.
+          </p>
+          <div class="flex justify-end gap-3">
+            <button class="px-4 py-2 text-sm rounded-xl" style="background-color: var(--color-surface-03); color: var(--color-text-muted)"
+              @click="chapterDeleteTarget = null">Huỷ</button>
+            <button class="px-4 py-2 text-sm rounded-xl font-semibold transition hover:opacity-90"
+              style="background-color: #ef4444; color: #fff" :disabled="chapterDeleteLoading" @click="deleteChapter">
+              {{ chapterDeleteLoading ? 'Đang xoá...' : 'Xoá' }}</button>
+          </div>
+        </div>
+      </div>
+    </Teleport>
+
+    <!-- ─── LESSON FORM MODAL ────────────────────────────────────────────────── -->
+    <Teleport to="body">
+      <div v-if="showLessonForm" class="fixed inset-0 z-50 flex items-center justify-center p-4"
+        style="background-color: rgba(0,0,0,0.6)" @click.self="showLessonForm = false">
+        <div class="w-full max-w-md rounded-2xl p-6 space-y-4" style="background-color: var(--color-surface-01)">
+          <h3 class="text-base font-bold" style="color: var(--color-text-base)">
+            {{ lessonFormData.id ? 'Sửa bài học' : 'Thêm bài học mới' }}
+          </h3>
+          <div class="space-y-3">
+            <div>
+              <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Tiêu đề *</label>
+              <input v-model="lessonFormData.title" type="text" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)" />
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Loại bài học</label>
+                <select v-model="lessonFormData.lesson_type" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                  style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)">
+                  <option value="grammar">📘 Ngữ pháp</option>
+                  <option value="vocabulary">📝 Từ vựng</option>
+                  <option value="listening">🎧 Nghe</option>
+                  <option value="speaking">🎤 Nói</option>
+                  <option value="reading">📖 Đọc</option>
+                  <option value="writing">✍️ Viết</option>
+                  <option value="pronunciation">🔊 Phát âm</option>
+                  <option value="assessment">📊 Kiểm tra</option>
+                </select>
+              </div>
+              <div>
+                <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Thứ tự</label>
+                <input v-model.number="lessonFormData.order" type="number" min="1" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                  style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)" />
+              </div>
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Thời gian (phút)</label>
+                <input v-model.number="lessonFormData.estimated_minutes" type="number" min="1" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                  style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)" />
+              </div>
+              <div class="flex items-end pb-2">
+                <label class="flex items-center gap-2 text-sm cursor-pointer" style="color: var(--color-text-base)">
+                  <input v-model="lessonFormData.is_active" type="checkbox" class="rounded" />
+                  Hiển thị
+                </label>
+              </div>
+            </div>
+          </div>
+          <div v-if="lessonFormError" class="rounded-xl p-3 text-sm"
+            style="background-color:color-mix(in srgb,#ef4444 12%,transparent);color:#f87171">{{ lessonFormError }}</div>
+          <div class="flex justify-end gap-3 pt-2">
+            <button class="px-4 py-2 text-sm rounded-xl transition hover:opacity-80"
+              style="background-color: var(--color-surface-03); color: var(--color-text-muted)" @click="showLessonForm = false">Huỷ</button>
+            <button class="px-4 py-2 text-sm rounded-xl font-semibold transition hover:opacity-90"
+              style="background-color: var(--color-primary-500); color: #fff" :disabled="lessonFormLoading" @click="submitLessonForm">
+              {{ lessonFormLoading ? 'Đang lưu...' : 'Lưu' }}</button>
+          </div>
+        </div>
+      </div>
+    </Teleport>
+
+    <!-- ─── LESSON DELETE CONFIRM ─────────────────────────────────────────────── -->
+    <Teleport to="body">
+      <div v-if="lessonDeleteTarget" class="fixed inset-0 z-50 flex items-center justify-center p-4"
+        style="background-color: rgba(0,0,0,0.6)" @click.self="lessonDeleteTarget = null">
+        <div class="w-full max-w-sm rounded-2xl p-6 space-y-4" style="background-color: var(--color-surface-01)">
+          <h3 class="text-base font-bold" style="color: var(--color-text-base)">Xác nhận xoá bài học</h3>
+          <p class="text-sm" style="color: var(--color-text-muted)">
+            Xoá bài học "<strong>{{ lessonDeleteTarget.title }}</strong>"? Hành động này không thể hoàn tác.
+          </p>
+          <div class="flex justify-end gap-3">
+            <button class="px-4 py-2 text-sm rounded-xl" style="background-color: var(--color-surface-03); color: var(--color-text-muted)"
+              @click="lessonDeleteTarget = null">Huỷ</button>
+            <button class="px-4 py-2 text-sm rounded-xl font-semibold transition hover:opacity-90"
+              style="background-color: #ef4444; color: #fff" :disabled="lessonDeleteLoading" @click="deleteLesson">
+              {{ lessonDeleteLoading ? 'Đang xoá...' : 'Xoá' }}</button>
+          </div>
+        </div>
+      </div>
+    </Teleport>
   </div>
 </template>
 
@@ -334,6 +527,28 @@ const formData = reactive({
 // ── Delete ─────────────────────────────────────────────────────────────────
 const deleteTarget = ref(null)
 const deleteLoading = ref(false)
+
+// ── Chapter CRUD ───────────────────────────────────────────────────────────
+const showChapterForm = ref(false)
+const chapterFormLoading = ref(false)
+const chapterFormError = ref(null)
+const chapterDeleteTarget = ref(null)
+const chapterDeleteLoading = ref(false)
+const chapterFormData = reactive({
+  id: null, title: '', description: '', order: 1, passing_score: 60,
+})
+
+// ── Lesson CRUD ────────────────────────────────────────────────────────────
+const showLessonForm = ref(false)
+const lessonFormLoading = ref(false)
+const lessonFormError = ref(null)
+const lessonFormChapterId = ref(null)
+const lessonDeleteTarget = ref(null)
+const lessonDeleteChapterId = ref(null)
+const lessonDeleteLoading = ref(false)
+const lessonFormData = reactive({
+  id: null, title: '', order: 1, lesson_type: 'grammar', is_active: true, estimated_minutes: 15,
+})
 
 async function fetchCourses() {
   coursesLoading.value = true
@@ -469,6 +684,134 @@ function lessonTypeIcon(type) {
     grammar: '📘', vocabulary: '📝', pronunciation: '🔊', assessment: '📊',
   }
   return map[type] || '📄'
+}
+
+// ── Chapter form ────────────────────────────────────────────────────────────
+function openChapterForm(ch = null) {
+  chapterFormError.value = null
+  if (ch) {
+    Object.assign(chapterFormData, {
+      id: ch.id, title: ch.title, description: ch.description || '',
+      order: ch.order, passing_score: ch.passing_score ?? 60,
+    })
+  } else {
+    Object.assign(chapterFormData, { id: null, title: '', description: '', order: (chapters.value.length + 1), passing_score: 60 })
+  }
+  showChapterForm.value = true
+}
+
+async function submitChapterForm() {
+  chapterFormError.value = null
+  if (!chapterFormData.title) { chapterFormError.value = 'Vui lòng nhập tiêu đề chương.'; return }
+  chapterFormLoading.value = true
+  try {
+    const payload = {
+      title: chapterFormData.title,
+      description: chapterFormData.description,
+      order: chapterFormData.order,
+      passing_score: chapterFormData.passing_score,
+    }
+    if (chapterFormData.id) {
+      await adminApi.updateChapter(selectedCourse.value.id, chapterFormData.id, payload)
+    } else {
+      await adminApi.createChapter(selectedCourse.value.id, payload)
+    }
+    showChapterForm.value = false
+    const { data } = await adminApi.getChapters(selectedCourse.value.id)
+    chapters.value = data.results ?? data
+  } catch (e) {
+    chapterFormError.value = e?.response?.data?.detail || 'Không thể lưu chương.'
+  } finally {
+    chapterFormLoading.value = false
+  }
+}
+
+function confirmDeleteChapter(ch) {
+  chapterDeleteTarget.value = ch
+}
+
+async function deleteChapter() {
+  chapterDeleteLoading.value = true
+  try {
+    await adminApi.deleteChapter(selectedCourse.value.id, chapterDeleteTarget.value.id)
+    chapterDeleteTarget.value = null
+    const { data } = await adminApi.getChapters(selectedCourse.value.id)
+    chapters.value = data.results ?? data
+    expandedChapter.value = null
+  } catch {
+    error.value = 'Không thể xoá chương.'
+    chapterDeleteTarget.value = null
+  } finally {
+    chapterDeleteLoading.value = false
+  }
+}
+
+// ── Lesson form ─────────────────────────────────────────────────────────────
+function openLessonForm(chapterId, lesson = null) {
+  lessonFormError.value = null
+  lessonFormChapterId.value = chapterId
+  if (lesson) {
+    Object.assign(lessonFormData, {
+      id: lesson.id, title: lesson.title, order: lesson.order,
+      lesson_type: lesson.lesson_type, is_active: lesson.is_active,
+      estimated_minutes: lesson.estimated_minutes,
+    })
+  } else {
+    const existing = lessons[chapterId] || []
+    Object.assign(lessonFormData, {
+      id: null, title: '', order: existing.length + 1,
+      lesson_type: 'grammar', is_active: true, estimated_minutes: 15,
+    })
+  }
+  showLessonForm.value = true
+}
+
+async function submitLessonForm() {
+  lessonFormError.value = null
+  if (!lessonFormData.title) { lessonFormError.value = 'Vui lòng nhập tiêu đề bài học.'; return }
+  lessonFormLoading.value = true
+  try {
+    const payload = {
+      title: lessonFormData.title,
+      order: lessonFormData.order,
+      lesson_type: lessonFormData.lesson_type,
+      is_active: lessonFormData.is_active,
+      estimated_minutes: lessonFormData.estimated_minutes,
+    }
+    if (lessonFormData.id) {
+      await adminApi.updateLesson(lessonFormData.id, payload)
+    } else {
+      await adminApi.createLesson(selectedCourse.value.id, lessonFormChapterId.value, payload)
+    }
+    showLessonForm.value = false
+    const { data } = await adminApi.getLessons(selectedCourse.value.id, lessonFormChapterId.value)
+    lessons[lessonFormChapterId.value] = data.results ?? data
+  } catch (e) {
+    lessonFormError.value = e?.response?.data?.detail || 'Không thể lưu bài học.'
+  } finally {
+    lessonFormLoading.value = false
+  }
+}
+
+function confirmDeleteLesson(lesson, chapterId) {
+  lessonDeleteTarget.value = lesson
+  lessonDeleteChapterId.value = chapterId
+}
+
+async function deleteLesson() {
+  lessonDeleteLoading.value = true
+  try {
+    await adminApi.deleteLesson(lessonDeleteTarget.value.id)
+    const chId = lessonDeleteChapterId.value
+    lessonDeleteTarget.value = null
+    const { data } = await adminApi.getLessons(selectedCourse.value.id, chId)
+    lessons[chId] = data.results ?? data
+  } catch {
+    error.value = 'Không thể xoá bài học.'
+    lessonDeleteTarget.value = null
+  } finally {
+    lessonDeleteLoading.value = false
+  }
 }
 
 onMounted(fetchCourses)

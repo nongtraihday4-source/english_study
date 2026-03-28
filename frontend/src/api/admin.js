@@ -17,8 +17,42 @@ export const adminApi = {
 
   // ── Chapters & Lessons ─────────────────────────────────────────
   getChapters: (coursePk) => api.get(`/admin-portal/courses/${coursePk}/chapters/`),
+  createChapter: (coursePk, data) => api.post(`/admin-portal/courses/${coursePk}/chapters/`, data),
+  updateChapter: (coursePk, pk, data) => api.patch(`/admin-portal/courses/${coursePk}/chapters/${pk}/`, data),
+  deleteChapter: (coursePk, pk) => api.delete(`/admin-portal/courses/${coursePk}/chapters/${pk}/`),
+
   getLessons: (coursePk, chapterPk) =>
     api.get(`/admin-portal/courses/${coursePk}/chapters/${chapterPk}/lessons/`),
+  createLesson: (coursePk, chapterPk, data) =>
+    api.post(`/admin-portal/courses/${coursePk}/chapters/${chapterPk}/lessons/`, data),
+  updateLesson: (pk, data) => api.patch(`/admin-portal/lessons/${pk}/`, data),
+  deleteLesson: (pk) => api.delete(`/admin-portal/lessons/${pk}/`),
+
+  // ── Lesson-Exercise binding ────────────────────────────────────────────
+  getLessonExercises: (lessonPk) => api.get(`/admin-portal/lessons/${lessonPk}/exercises/`),
+  bindExercise: (lessonPk, data) => api.post(`/admin-portal/lessons/${lessonPk}/exercises/`, data),
+  updateBinding: (lessonPk, pk, data) => api.patch(`/admin-portal/lessons/${lessonPk}/exercises/${pk}/`, data),
+  unbindExercise: (lessonPk, pk) => api.delete(`/admin-portal/lessons/${lessonPk}/exercises/${pk}/`),
+
+  // ── Exercise CRUD (typed) ─────────────────────────────────────────────
+  getExercisesByType: (type, params = {}) => api.get(`/admin-portal/exercises/${type}/`, { params }),
+  createExercise: (type, data) => api.post(`/admin-portal/exercises/${type}/`, data),
+  updateExercise: (type, pk, data) => api.patch(`/admin-portal/exercises/${type}/${pk}/`, data),
+  deleteExercise: (type, pk) => api.delete(`/admin-portal/exercises/${type}/${pk}/`),
+
+  // ── Grammar admin CRUD ────────────────────────────────────────────────
+  getGrammarTopics: (params = {}) => api.get('/admin-portal/grammar/topics/', { params }),
+  createGrammarTopic: (data) => api.post('/admin-portal/grammar/topics/', data),
+  updateGrammarTopic: (pk, data) => api.patch(`/admin-portal/grammar/topics/${pk}/`, data),
+  deleteGrammarTopic: (pk) => api.delete(`/admin-portal/grammar/topics/${pk}/`),
+  getGrammarRules: (topicPk) => api.get(`/admin-portal/grammar/topics/${topicPk}/rules/`),
+  createGrammarRule: (topicPk, data) => api.post(`/admin-portal/grammar/topics/${topicPk}/rules/`, data),
+  updateGrammarRule: (topicPk, pk, data) => api.patch(`/admin-portal/grammar/topics/${topicPk}/rules/${pk}/`, data),
+  deleteGrammarRule: (topicPk, pk) => api.delete(`/admin-portal/grammar/topics/${topicPk}/rules/${pk}/`),
+  getGrammarExamples: (rulePk) => api.get(`/admin-portal/grammar/rules/${rulePk}/examples/`),
+  createGrammarExample: (rulePk, data) => api.post(`/admin-portal/grammar/rules/${rulePk}/examples/`, data),
+  updateGrammarExample: (rulePk, pk, data) => api.patch(`/admin-portal/grammar/rules/${rulePk}/examples/${pk}/`, data),
+  deleteGrammarExample: (rulePk, pk) => api.delete(`/admin-portal/grammar/rules/${rulePk}/examples/${pk}/`),
 
   // ── CEFR Levels (for form dropdowns) ──────────────────────────
   getCEFRLevels: () => api.get('/admin-portal/cefr-levels/'),
@@ -48,7 +82,7 @@ export const adminApi = {
   updateExamSet: (pk, data) => api.patch(`/admin-portal/exam-sets/${pk}/`, data),
   deleteExamSet: (pk) => api.delete(`/admin-portal/exam-sets/${pk}/`),
 
-  // ── Exercises ──────────────────────────────────────────────────
+  // ── Exercises (legacy query-param list, kept for backward compat) ─────
   getExercises: (params = {}) => api.get('/admin-portal/exercises/', { params }),
 
   // ── AI Grading ─────────────────────────────────────────────────

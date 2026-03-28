@@ -26,7 +26,8 @@ from rest_framework.pagination import PageNumberPagination
 from django.shortcuts import get_object_or_404
 
 from utils.permissions import IsAdmin
-from apps.curriculum.models import CEFRLevel, Chapter, Course, Lesson
+from apps.curriculum.models import CEFRLevel, Chapter, Course, Lesson, LessonExercise
+from apps.grammar.models import GrammarTopic, GrammarRule, GrammarExample
 from apps.payments.models import Coupon, PaymentTransaction, SubscriptionPlan, UserSubscription
 from apps.exercises.models import ExamSet, ListeningExercise, ReadingExercise, SpeakingExercise, WritingExercise
 from apps.progress.models import AIGradingJob, SpeakingSubmission, UserEnrollment, WritingSubmission
@@ -47,6 +48,14 @@ from .serializers import (
     AdminSpeakingExerciseSerializer,
     AdminReadingExerciseSerializer,
     AdminWritingExerciseSerializer,
+    AdminListeningExerciseFullSerializer,
+    AdminSpeakingExerciseFullSerializer,
+    AdminReadingExerciseFullSerializer,
+    AdminWritingExerciseFullSerializer,
+    AdminLessonExerciseSerializer,
+    AdminGrammarTopicSerializer,
+    AdminGrammarRuleSerializer,
+    AdminGrammarExampleSerializer,
     AdminGradingJobSerializer,
     AdminSpeakingSubmissionSerializer,
     AdminWritingSubmissionSerializer,
@@ -280,9 +289,10 @@ class AdminCourseDetailView(generics.RetrieveUpdateDestroyAPIView):
 
 # ── Chapters ───────────────────────────────────────────────────────────────────
 
-class AdminChapterListView(generics.ListAPIView):
+class AdminChapterListView(AuditLogMixin, generics.ListCreateAPIView):
     serializer_class = AdminChapterSerializer
     permission_classes = [IsAdmin]
+    audit_label_field = "title"
 
     def get_queryset(self):
         return (
@@ -291,18 +301,229 @@ class AdminChapterListView(generics.ListAPIView):
             .order_by("order")
         )
 
+    def perform_create(self, serializer):
+        obj = serializer.save(course_id=self.kwargs["pk"])
+        self._audit("create", obj)
+
+
+class AdminChapterDetailView(AuditLogMixin, generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = AdminChapterSerializer
+    permission_classes = [IsAdmin]
+    audit_label_field = "title"
+
+    def get_queryset(self):
+        return (
+            Chapter.objects.filter(course_id=self.kwargs["course_pk"])
+            .annotate(lesson_count=Count("lessons"))
+        )
+
 
 # ── Lessons ────────────────────────────────────────────────────────────────────
 
-class AdminLessonListView(generics.ListAPIView):
+class AdminLessonListView(AuditLogMixin, generics.ListCreateAPIView):
     serializer_class = AdminLessonSerializer
     permission_classes = [IsAdmin]
+    audit_label_field = "title"
 
     def get_queryset(self):
         return Lesson.objects.filter(
             chapter_id=self.kwargs["cpk"],
             chapter__course_id=self.kwargs["pk"],
         ).order_by("order")
+
+    def perform_create(self, serializer):
+        obj = serializer.save(chapter_id=self.kwargs["cpk"])
+        self._audit("create", obj)
+
+
+class AdminLessonDetailView(AuditLogMixin, generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = AdminLessonSerializer
+    permission_classes = [IsAdmin]
+    audit_label_field = "title"
+    queryset = Lesson.objects.all()
+
+
+# ── Lesson-Exercise binding ─────────────────────────────────────────────────────
+
+class AdminLessonExerciseListView(AuditLogMixin, generics.ListCreateAPIView):
+    serializer_class = AdminLessonExerciseSerializer
+    permission_classes = [IsAdmin]
+    audit_label_field = "exercise_type"
+
+    def get_queryset(self):
+        return LessonExercise.objects.filter(lesson_id=self.kwargs["pk"]).order_by("order")
+
+    def perform_create(self, serializer):
+        obj = serializer.save(lesson_id=self.kwargs["pk"])
+        self._audit("create", obj)
+
+
+class AdminLessonExerciseDetailView(AuditLogMixin, generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = AdminLessonExerciseSerializer
+    permission_classes = [IsAdmin]
+    audit_label_field = "exercise_type"
+
+    def get_queryset(self):
+        return LessonExercise.objects.filter(lesson_id=self.kwargs["lesson_pk"])
+
+
+# ── Exercise type CRUD ─────────────────────────────────────────────────────────
+
+_EXERCISE_TYPE_MAP = {
+    "listening": (ListeningExercise, AdminListeningExerciseFullSerializer),
+    "speaking":  (SpeakingExercise,  AdminSpeakingExerciseFullSerializer),
+    "reading":   (ReadingExercise,   AdminReadingExerciseFullSerializer),
+    "writing":   (WritingExercise,   AdminWritingExerciseFullSerializer),
+}
+
+
+class AdminExerciseTypeListView(AuditLogMixin, APIView):
+    """GET/POST /admin-portal/exercises/<exercise_type>/"""
+    permission_classes = [IsAdmin]
+    audit_label_field = "title"
+
+    def _get_parts(self, exercise_type):
+        parts = _EXERCISE_TYPE_MAP.get(exercise_type)
+        if not parts:
+            return None, None
+        return parts
+
+    def get(self, request, exercise_type):
+        model_cls, serializer_cls = self._get_parts(exercise_type)
+        if model_cls is None:
+            return Response({"detail": "Loại bài tập không hợp lệ."}, status=status.HTTP_400_BAD_REQUEST)
+        qs = model_cls.objects.all()
+        level = request.query_params.get("level")
+        if level:
+            qs = qs.filter(cefr_level=level)
+        search = request.query_params.get("search")
+        if search:
+            qs = qs.filter(title__icontains=search)
+        qs = qs.order_by("-created_at")
+        paginator = StandardPagination()
+        page = paginator.paginate_queryset(qs, request)
+        if page is not None:
+            return paginator.get_paginated_response(serializer_cls(page, many=True).data)
+        return Response(serializer_cls(qs, many=True).data)
+
+    def post(self, request, exercise_type):
+        model_cls, serializer_cls = self._get_parts(exercise_type)
+        if model_cls is None:
+            return Response({"detail": "Loại bài tập không hợp lệ."}, status=status.HTTP_400_BAD_REQUEST)
+        serializer = serializer_cls(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        obj = serializer.save()
+        _log_action(request, "create", model_cls.__name__, obj.pk, f"Create {exercise_type} exercise: {obj.title}")
+        return Response(serializer_cls(obj).data, status=status.HTTP_201_CREATED)
+
+
+class AdminExerciseTypeDetailView(AuditLogMixin, APIView):
+    """GET/PATCH/DELETE /admin-portal/exercises/<exercise_type>/<pk>/"""
+    permission_classes = [IsAdmin]
+
+    def _get_obj(self, exercise_type, pk):
+        parts = _EXERCISE_TYPE_MAP.get(exercise_type)
+        if not parts:
+            return None, None, None
+        model_cls, serializer_cls = parts
+        return model_cls, serializer_cls, get_object_or_404(model_cls, pk=pk)
+
+    def get(self, request, exercise_type, pk):
+        model_cls, serializer_cls, obj = self._get_obj(exercise_type, pk)
+        if model_cls is None:
+            return Response({"detail": "Loại bài tập không hợp lệ."}, status=status.HTTP_400_BAD_REQUEST)
+        return Response(serializer_cls(obj).data)
+
+    def patch(self, request, exercise_type, pk):
+        model_cls, serializer_cls, obj = self._get_obj(exercise_type, pk)
+        if model_cls is None:
+            return Response({"detail": "Loại bài tập không hợp lệ."}, status=status.HTTP_400_BAD_REQUEST)
+        serializer = serializer_cls(obj, data=request.data, partial=True)
+        serializer.is_valid(raise_exception=True)
+        obj = serializer.save()
+        _log_action(request, "update", model_cls.__name__, obj.pk, f"Update {exercise_type} exercise: {obj.title}")
+        return Response(serializer_cls(obj).data)
+
+    def delete(self, request, exercise_type, pk):
+        model_cls, serializer_cls, obj = self._get_obj(exercise_type, pk)
+        if model_cls is None:
+            return Response({"detail": "Loại bài tập không hợp lệ."}, status=status.HTTP_400_BAD_REQUEST)
+        _log_action(request, "delete", model_cls.__name__, obj.pk, f"Delete {exercise_type} exercise: {obj.title}")
+        obj.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
+
+# ── Grammar admin CRUD ──────────────────────────────────────────────────────────
+
+class AdminGrammarTopicListView(AuditLogMixin, generics.ListCreateAPIView):
+    serializer_class = AdminGrammarTopicSerializer
+    permission_classes = [IsAdmin]
+    audit_label_field = "title"
+    pagination_class = StandardPagination
+
+    def get_queryset(self):
+        qs = GrammarTopic.objects.prefetch_related("rules").order_by("level", "order")
+        level = self.request.query_params.get("level")
+        if level:
+            qs = qs.filter(level=level)
+        chapter = self.request.query_params.get("chapter")
+        if chapter:
+            qs = qs.filter(chapter__icontains=chapter)
+        search = self.request.query_params.get("search")
+        if search:
+            qs = qs.filter(title__icontains=search)
+        return qs
+
+
+class AdminGrammarTopicDetailView(AuditLogMixin, generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = AdminGrammarTopicSerializer
+    permission_classes = [IsAdmin]
+    audit_label_field = "title"
+    queryset = GrammarTopic.objects.prefetch_related("rules")
+
+
+class AdminGrammarRuleListView(AuditLogMixin, generics.ListCreateAPIView):
+    serializer_class = AdminGrammarRuleSerializer
+    permission_classes = [IsAdmin]
+    audit_label_field = "title"
+
+    def get_queryset(self):
+        return GrammarRule.objects.filter(topic_id=self.kwargs["topic_pk"]).order_by("order")
+
+    def perform_create(self, serializer):
+        obj = serializer.save(topic_id=self.kwargs["topic_pk"])
+        self._audit("create", obj)
+
+
+class AdminGrammarRuleDetailView(AuditLogMixin, generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = AdminGrammarRuleSerializer
+    permission_classes = [IsAdmin]
+    audit_label_field = "title"
+
+    def get_queryset(self):
+        return GrammarRule.objects.filter(topic_id=self.kwargs["topic_pk"])
+
+
+class AdminGrammarExampleListView(AuditLogMixin, generics.ListCreateAPIView):
+    serializer_class = AdminGrammarExampleSerializer
+    permission_classes = [IsAdmin]
+    audit_label_field = "sentence"
+
+    def get_queryset(self):
+        return GrammarExample.objects.filter(rule_id=self.kwargs["rule_pk"])
+
+    def perform_create(self, serializer):
+        obj = serializer.save(rule_id=self.kwargs["rule_pk"])
+        self._audit("create", obj)
+
+
+class AdminGrammarExampleDetailView(AuditLogMixin, generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = AdminGrammarExampleSerializer
+    permission_classes = [IsAdmin]
+    audit_label_field = "sentence"
+
+    def get_queryset(self):
+        return GrammarExample.objects.filter(rule_id=self.kwargs["rule_pk"])
 
 
 # ── CEFRLevels (for dropdowns) ─────────────────────────────────────────────────

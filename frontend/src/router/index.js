@@ -230,6 +230,12 @@ const router = createRouter({
           meta: { title: 'Admin — Nội dung' },
         },
         {
+          path: 'grammar',
+          name: 'admin-grammar',
+          component: () => import('@/views/admin/AdminGrammarView.vue'),
+          meta: { title: 'Admin — Ngữ pháp' },
+        },
+        {
           path: 'payments',
           name: 'admin-payments',
           component: () => import('@/views/admin/AdminPaymentsView.vue'),
