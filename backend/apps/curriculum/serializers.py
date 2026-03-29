@@ -26,13 +26,14 @@ class LessonSerializer(serializers.ModelSerializer):
     progress_status = serializers.SerializerMethodField()
     exercise_type = serializers.SerializerMethodField()
     exercise_id = serializers.SerializerMethodField()
+    is_unlocked = serializers.SerializerMethodField()
 
     class Meta:
         model = Lesson
         fields = [
             "id", "title", "lesson_type", "order", "estimated_minutes",
             "is_active", "unlock_rules", "progress_status",
-            "exercise_type", "exercise_id",
+            "exercise_type", "exercise_id", "is_unlocked",
         ]
 
     def get_exercise_type(self, obj):
@@ -50,6 +51,24 @@ class LessonSerializer(serializers.ModelSerializer):
         from apps.progress.models import LessonProgress
         lp = LessonProgress.objects.filter(user=request.user, lesson=obj).first()
         return lp.status if lp else "locked"
+
+    def get_is_unlocked(self, obj):
+        request = self.context.get("request")
+        if not request or not request.user.is_authenticated:
+            return False
+        from apps.progress.models import LessonProgress
+        rules = obj.unlock_rules.all()
+        if not rules.exists():
+            return True
+        for rule in rules:
+            has_passed = LessonProgress.objects.filter(
+                user=request.user,
+                lesson=rule.required_lesson,
+                best_score__gte=rule.min_score,
+            ).exists()
+            if not has_passed:
+                return False
+        return True
 
 
 class ChapterSerializer(serializers.ModelSerializer):

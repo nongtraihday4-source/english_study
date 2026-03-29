@@ -1141,3 +1141,97 @@ class AdminRefundReviewView(APIView):
 
         return Response(RefundRequestSerializer(refund).data)
 
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# VOCABULARY ADMIN CRUD + CSV IMPORT
+# ─────────────────────────────────────────────────────────────────────────────
+
+class AdminVocabularyListView(AuditLogMixin, generics.ListCreateAPIView):
+    """Admin CRUD for vocabulary words."""
+    permission_classes = [IsAdmin]
+    pagination_class = StandardPagination
+
+    def get_serializer_class(self):
+        from apps.vocabulary.serializers import WordSerializer
+        return WordSerializer
+
+    def get_queryset(self):
+        from apps.vocabulary.models import Word
+        qs = Word.objects.all()
+        level = self.request.query_params.get("cefr_level")
+        search = self.request.query_params.get("search")
+        if level:
+            qs = qs.filter(cefr_level=level)
+        if search:
+            qs = qs.filter(word__icontains=search) | qs.filter(meaning_vi__icontains=search)
+        return qs.order_by("word")
+
+    audit_model_name = "Word"
+    audit_label_field = "word"
+
+
+class AdminVocabularyDetailView(AuditLogMixin, generics.RetrieveUpdateDestroyAPIView):
+    """Admin CRUD detail for a single vocabulary word."""
+    permission_classes = [IsAdmin]
+
+    def get_serializer_class(self):
+        from apps.vocabulary.serializers import WordSerializer
+        return WordSerializer
+
+    def get_queryset(self):
+        from apps.vocabulary.models import Word
+        return Word.objects.all()
+
+    audit_model_name = "Word"
+    audit_label_field = "word"
+
+
+class AdminVocabularyImportView(APIView):
+    """POST /admin-portal/vocabulary/import/ — Bulk import words from CSV."""
+    permission_classes = [IsAdmin]
+
+    def post(self, request):
+        import codecs
+        from rest_framework.parsers import MultiPartParser, FormParser
+        from apps.vocabulary.models import Word
+
+        file = request.FILES.get("file")
+        if not file or not file.name.endswith(".csv"):
+            return Response({"error": "Cần file CSV"}, status=400)
+
+        reader = csv.DictReader(codecs.iterdecode(file, "utf-8"))
+        created, duplicates, errors = 0, 0, []
+
+        VALID_LEVELS = {"A1", "A2", "B1", "B2", "C1", "C2"}
+
+        for i, row in enumerate(reader, start=2):
+            try:
+                word_val = row.get("word", "").strip()
+                level_code = row.get("cefr_level", "").strip().upper()
+                meaning_vi = row.get("meaning_vi", "").strip()
+                if not word_val or not level_code or not meaning_vi:
+                    errors.append(f"Hàng {i}: thiếu trường bắt buộc (word, cefr_level, meaning_vi)")
+                    continue
+                if level_code not in VALID_LEVELS:
+                    errors.append(f"Hàng {i}: cefr_level không hợp lệ '{level_code}'")
+                    continue
+                defaults = {
+                    "meaning_vi": meaning_vi,
+                    "definition_en": row.get("definition_en", "").strip() or None,
+                    "example_en": row.get("example_en", "").strip() or None,
+                    "part_of_speech": row.get("part_of_speech", "").strip() or None,
+                }
+                _, created_flag = Word.objects.get_or_create(
+                    word=word_val,
+                    cefr_level=level_code,
+                    defaults=defaults,
+                )
+                if created_flag:
+                    created += 1
+                else:
+                    duplicates += 1
+            except Exception as e:
+                errors.append(f"Hàng {i}: {e}")
+
+        return Response({"created": created, "duplicates": duplicates, "errors": errors[:20]})

@@ -127,7 +127,7 @@
 
                   <!-- Available / Completed → clickable RouterLink -->
                   <RouterLink
-                    v-if="lesson.progress_status !== 'locked' && lesson.exercise_id"
+                    v-if="lesson.is_unlocked !== false && lesson.progress_status !== 'locked' && lesson.exercise_id"
                     :to="{
                       name: `learn-${lesson.exercise_type || lesson.lesson_type}`,
                       params: { id: lesson.exercise_id },
@@ -155,7 +155,7 @@
                     v-else
                     class="flex items-center gap-3 px-4 py-3 md:py-4 cursor-not-allowed select-none"
                     style="border-top: 1px solid var(--color-surface-04); opacity: 0.4"
-                    :title="lesson.exercise_id ? 'Hoàn thành bài trước để mở khoá' : 'Chưa có bài tập'"
+                    :title="lesson.is_unlocked === false ? 'Hoàn thành bài trước để mở khóa' : (lesson.exercise_id ? 'Hoàn thành bài trước để mở khoá' : 'Chưa có bài tập')"
                   >
                     <span class="flex-shrink-0 text-base">{{ lessonIcon(lesson.exercise_type || lesson.lesson_type) }}</span>
                     <span class="flex-1 min-w-0 truncate text-sm" style="color: var(--color-text-base)">

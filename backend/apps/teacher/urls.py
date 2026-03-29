@@ -8,6 +8,7 @@ from .views import (
     TeacherGradeWritingView,
     TeacherClassListView,
     TeacherClassStudentsView,
+    TeacherExportClassView,
 )
 
 urlpatterns = [
@@ -17,4 +18,5 @@ urlpatterns = [
     path("grade/writing/<int:pk>/",       TeacherGradeWritingView.as_view(),   name="teacher-grade-writing"),
     path("classes/",                      TeacherClassListView.as_view(),      name="teacher-classes"),
     path("classes/<int:pk>/students/",    TeacherClassStudentsView.as_view(),  name="teacher-class-students"),
+    path("classes/<int:pk>/export/",      TeacherExportClassView.as_view(),    name="teacher-class-export"),
 ]
