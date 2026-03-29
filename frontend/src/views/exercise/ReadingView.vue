@@ -51,11 +51,19 @@
                : 'background: var(--color-surface-03); color: var(--color-text-base)'">
           ⏱ {{ timerDisplay }}
         </div>
+
+        <!-- Split view toggle -->
+        <button @click="splitMode = !splitMode"
+                class="shrink-0 px-3 py-1 rounded-lg text-xs font-semibold transition hover:opacity-80"
+                :style="splitMode
+                  ? 'background: rgba(99,102,241,0.15); color: #818cf8'
+                  : 'background: var(--color-surface-03); color: var(--color-text-muted)'">
+          ⊞ Split
+        </button>
       </div>
 
       <!-- ── Split pane ─────────────────────────────────────────────────── -->
-      <div class="reading-grid flex-1 overflow-hidden"
-           :class="{ 'md:grid': true }">
+      <div class="reading-grid flex-1 overflow-hidden" :class="{ 'split-mode': splitMode }">
 
         <!-- LEFT: Passage (60%) -->
         <section class="passage-pane overflow-y-auto border-b md:border-b-0 md:border-r"
@@ -229,6 +237,7 @@ const exercise = ref(null)
 const loading = ref(false)
 const submitting = ref(false)
 const answers = reactive({})
+const splitMode = ref(true)
 
 const passagePaneRef = ref(null)
 const fontSize = ref(15)
@@ -362,17 +371,18 @@ async function submit() {
 
 <style scoped>
 .reading-grid {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 768px) {
-  .reading-grid {
+  .reading-grid.split-mode {
+    display: grid;
     grid-template-columns: 6fr 4fr;
     height: calc(100vh - 112px); /* subtract top bar height */
   }
-  .passage-pane,
-  .questions-pane {
+  .reading-grid.split-mode .passage-pane,
+  .reading-grid.split-mode .questions-pane {
     max-height: calc(100vh - 112px);
   }
 }
