@@ -47,13 +47,23 @@
                : 'background: var(--color-surface-03); color: var(--color-text-base)'">
           ⏱ {{ timerDisplay }}
         </div>
+
+        <!-- Split view toggle -->
+        <button @click="splitMode = !splitMode"
+                class="shrink-0 px-3 py-1 rounded-lg text-xs font-semibold transition hover:opacity-80"
+                :style="splitMode
+                  ? 'background: rgba(99,102,241,0.15); color: #818cf8'
+                  : 'background: var(--color-surface-03); color: var(--color-text-muted)'">
+          ⊞ Split
+        </button>
       </div>
 
       <!-- ── Split pane body ─────────────────────────────────────── -->
-      <div class="flex flex-col md:flex-row flex-1 overflow-hidden">
+      <div class="flex-1 overflow-hidden" :class="splitMode ? 'flex flex-col md:flex-row' : 'flex flex-col'">
 
         <!-- LEFT PANE — Audio player (40%) -->
-        <aside class="md:w-2/5 overflow-y-auto p-4 md:p-6 border-b md:border-b-0 md:border-r"
+        <aside class="overflow-y-auto p-4 md:p-6 border-b"
+               :class="splitMode ? 'md:w-2/5 md:border-b-0 md:border-r' : ''"
                style="background: var(--color-surface-01); border-color: var(--color-surface-04)">
 
           <!-- CEFR badge -->
@@ -174,7 +184,8 @@
         </aside>
 
         <!-- RIGHT PANE — Questions (60%) -->
-        <main class="md:w-3/5 overflow-y-auto p-4 md:p-6 space-y-5">
+        <main class="overflow-y-auto p-4 md:p-6 space-y-5" :class="splitMode ? 'md:w-3/5' : ''"
+              style="background: var(--color-surface-01)">
 
           <div v-for="(q, qi) in exercise.questions" :key="q.id"
                :id="`question-${q.id}`"
@@ -303,6 +314,7 @@ const exercise = ref(null)
 const loading = ref(false)
 const submitting = ref(false)
 const submitted = ref(false)
+const splitMode = ref(true)
 
 // Audio
 const audioRef = ref(null)
