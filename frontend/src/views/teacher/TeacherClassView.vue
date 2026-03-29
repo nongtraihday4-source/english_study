@@ -218,7 +218,7 @@ async function exportCsv() {
     a.click()
     URL.revokeObjectURL(url)
   } catch {
-    // silent fail — browser will show nothing
+    alert('Xuất CSV thất bại, vui lòng thử lại.')
   } finally {
     exportingCsv.value = false
   }
