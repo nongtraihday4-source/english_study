@@ -1200,7 +1200,11 @@ class AdminVocabularyImportView(APIView):
         if not file or not file.name.endswith(".csv"):
             return Response({"error": "Cần file CSV"}, status=400)
 
-        reader = csv.DictReader(codecs.iterdecode(file, "utf-8"))
+        try:
+            decoded = codecs.iterdecode(file, "utf-8")
+        except (UnicodeDecodeError, LookupError):
+            return Response({"error": "File không đúng định dạng UTF-8. Vui lòng kiểm tra lại."}, status=400)
+        reader = csv.DictReader(decoded)
         created, duplicates, errors = 0, 0, []
 
         VALID_LEVELS = {"A1", "A2", "B1", "B2", "C1", "C2"}

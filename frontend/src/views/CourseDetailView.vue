@@ -155,7 +155,7 @@
                     v-else
                     class="flex items-center gap-3 px-4 py-3 md:py-4 cursor-not-allowed select-none"
                     style="border-top: 1px solid var(--color-surface-04); opacity: 0.4"
-                    :title="lesson.is_unlocked === false ? 'Hoàn thành bài trước để mở khóa' : (lesson.exercise_id ? 'Hoàn thành bài trước để mở khóa' : 'Chưa có bài tập')"
+                    :title="lessonLockTitle(lesson)"
                   >
                     <span class="flex-shrink-0 text-base">{{ lessonIcon(lesson.exercise_type || lesson.lesson_type) }}</span>
                     <span class="flex-1 min-w-0 truncate text-sm" style="color: var(--color-text-base)">
@@ -225,6 +225,12 @@ function scoreColor(score) {
 function lessonIcon(type) {
   const icons = { listening: '🎧', speaking: '🎤', reading: '📄', writing: '✍️' }
   return icons[type] || '📚'
+}
+
+function lessonLockTitle(lesson) {
+  if (lesson.is_unlocked === false) return 'Hoàn thành bài trước để mở khóa'
+  if (!lesson.exercise_id) return 'Chưa có bài tập'
+  return 'Hoàn thành bài trước để mở khóa'
 }
 
 // ── Enrollment ───────────────────────────────────────────────────────────────
