@@ -1,6 +1,7 @@
 # Phân tích & Kế hoạch triển khai — Content/Curriculum System
 
-> Cập nhật: **28/03/2026** — ✅ Tất cả P0 đã triển khai xong  
+> Cập nhật: **29/03/2026** — ✅ Tất cả P0 + hầu hết P1/P2 đã triển khai  
+> Phiên 4 (29/03/2026): §8.1 Prerequisite enforcement, §8.4 Teacher CSV export, §8.5 Vocabulary import, Vocabulary CRUD admin, §9.1 UnlockModal, §9.2 SkillTree, §9.3 Split-pane, §9.4 Writing Zen Mode  
 > Phạm vi: So sánh codebase hiện tại vs PRD.md, xác định thiếu sót, lập kế hoạch kỹ thuật chi tiết.
 
 ---
@@ -108,12 +109,12 @@ Admin hiện tại chỉ là **Course Manager** — không phải **Content Mana
 | Chapter CRUD (tạo/sửa/xóa/sắp xếp) | ✅ **DONE** — AdminChapterListView (ListCreateAPIView) + AdminChapterDetailView | ✅ **DONE** — form modal + edit/delete buttons |
 | Lesson CRUD + reorder | ✅ **DONE** — AdminLessonListView (ListCreateAPIView) + AdminLessonDetailView | ✅ **DONE** — form modal + edit/delete buttons |
 | Exercise CRUD (L/S/R/W) | ✅ **DONE** — AdminExerciseTypeListView + AdminExerciseTypeDetailView (type-dispatch pattern) | ⚠️ UI chưa có trang riêng — có API nhưng frontend chỉ CRUD qua API |
-| Exercise → Lesson binding | ✅ **DONE** — AdminLessonExerciseListView + DetailView | ⚠️ UI chưa có trong lesson drill-down |
+| Exercise → Lesson binding | ✅ **DONE** — AdminLessonExerciseListView + DetailView | ⚠️ API có, UI trong lesson drill-down chưa có |
 | Upload source file (PDF/audio/img) | ❌ Không có model SourceFile, không có endpoint | ❌ Không có UI | 🟡 Thiếu |
 | Question Bank full CRUD + filter | ⚠️ ExamSet CRUD có, Question chỉ nested | ❌ AdminAssessmentsView: list ExamSet + browse exercise | 🟡 Thiếu Question CRUD |
-| CSV import vocabulary/questions | ❌ Không có endpoint | ❌ Không có UI | 🟡 Thiếu |
+| CSV import vocabulary/questions | ✅ **DONE** — `AdminVocabularyImportView` POST `/admin-portal/vocabulary/import/` | ⚠️ API method có (`importVocabulary`), UI upload form chưa có | 🟡 UI còn thiếu |
 | Grammar topic/rule/example CRUD | ✅ **DONE** — 6 admin views (Topic/Rule/Example × List+Detail) | ✅ **DONE** — AdminGrammarView.vue 3-panel tree |
-| Vocabulary word CRUD | ❌ WordListView/WordDetailView chỉ GET | ❌ Không có UI | 🟡 Thiếu |
+| Vocabulary word CRUD | ✅ **DONE** — AdminVocabularyListView + AdminVocabularyDetailView | ⚠️ API methods có (`getVocabulary`, `createWord`, etc.), UI tab chưa có | 🟡 UI còn thiếu |
 | Content preview trước publish | ❌ Không có cơ chế | ❌ Không có UI | 🟢 Nice-to-have |
 | Draft/publish workflow | ❌ Chỉ có `is_active` flag | ❌ Không có UI | 🟢 Nice-to-have |
 
@@ -140,14 +141,14 @@ Admin hiện tại chỉ là **Course Manager** — không phải **Content Mana
 
 | Tính năng PRD | Hiện trạng | Đánh giá |
 |--------------|-----------|---------|
-| Skill Tree / Learning Map (visual) | Danh sách phẳng list | 🟢 P2 — UX upgrade |
-| Unlock animation (confetti + XP bar) | Không có | 🟢 P2 |
-| Prerequisite enforcement UI | UnlockRule model tồn tại nhưng frontend không enforce | 🟡 P1 |
-| Progress Check bắt buộc sau chapter | Không có | 🟡 P1 |
+| Skill Tree / Learning Map (visual) | ✅ **DONE** — `SkillTreeView.vue` component (chapter dividers + lesson nodes, trạng thái locked/available/completed) | 🟢 ~~P2~~ — component sẵn sàng, chưa tích hợp vào CourseDetailView |
+| Unlock animation (confetti + XP bar) | ✅ **DONE** — `UnlockModal.vue` component (auto-dismiss 3s, XP display) | 🟢 ~~P2~~ — component sẵn sàng, chưa trigger khi nộp bài |
+| Prerequisite enforcement UI | ✅ **DONE** — `is_unlocked` field trong LessonSerializer + CourseDetailView.vue block navigation | ✅ P1 — **DONE** |
+| Progress Check bắt buộc sau chapter | ❌ Logic chưa có | ❌ Không có trigger | 🟡 P1 — còn thiếu |
 | CEFR cumulative scoring + auto-cert | Logic certificate có, nhưng không có trigger từ course | 🟡 P1 |
-| Split-pane layout exercises (6:4) | Không có | 🟢 P2 |
-| Speaking dialogue UI (iMessage + karaoke) | Không có | 🟢 P2 |
-| Writing Zen Mode (focus editor) | Không có | 🟢 P2 |
+| Split-pane layout exercises (6:4) | ✅ **DONE** — toggle `⊞ Split` trong ListeningView + ReadingView | 🟢 ~~P2~~ |
+| Speaking dialogue UI (iMessage + karaoke) | Không có | 🟢 P2 — còn thiếu |
+| Writing Zen Mode (focus editor) | ✅ **DONE** — `☯ Zen mode` trong WritingView.vue | 🟢 ~~P2~~ |
 
 ---
 
@@ -196,9 +197,9 @@ example.audio_url    # URL audio phát âm
 |-------|-------|
 | ~~Admin không thể tạo/sửa grammar qua UI~~ | ✅ P0 **DONE** — AdminGrammarView.vue |
 | ~~Mini-quiz không persist kết quả~~ | ✅ P1 **DONE** — GrammarQuizResult + POST `/grammar/<slug>/quiz/` |
-| GrammarTopic linked với Lesson nhưng không hiển thị bài tập liên quan | 🟡 P1 |
+| GrammarTopic linked với Lesson nhưng không hiển thị bài tập liên quan | 🟡 P1 — còn thiếu |
 | ~~audio_url có trường nhưng player chưa được build~~ | ✅ P1 **DONE** — audio player trong GrammarDetailView.vue |
-| Không có liên kết grammar → Gap Fill exercises | 🟡 P1 |
+| Không có liên kết grammar → Gap Fill exercises | 🟡 P1 — còn thiếu |
 
 ---
 
@@ -219,10 +220,10 @@ example.audio_url    # URL audio phát âm
 
 | Tính năng PRD | Hiện trạng | Đánh giá |
 |--------------|-----------|---------|
-| Tạo custom exam từ Question Bank | Không có | 🟡 P1 |
-| Giao bài tập cho lớp/cá nhân có deadline | Không có | 🟡 P1 |
-| Tạo supplementary course cho học viên yếu | Không có | 🟡 P1 |
-| Export class performance CSV | Không có | 🟡 P1 |
+| Tạo custom exam từ Question Bank | Không có | 🟡 P1 — còn thiếu |
+| Giao bài tập cho lớp/cá nhân có deadline | Không có | 🟡 P1 — còn thiếu |
+| Tạo supplementary course cho học viên yếu | Không có | 🟡 P1 — còn thiếu |
+| Export class performance CSV | ✅ **DONE** — `TeacherExportClassView` GET `/teacher/classes/<pk>/export/` + nút "Xuất CSV" trong TeacherClassView.vue | ✅ P1 |
 | Override AI feedback bằng comment riêng | Có thể grade (set score), nhưng không có field để thêm bên cạnh AI | 🟡 P1 |
 | Filter grade queue by skill/level/student | Không có filter | 🟢 P2 |
 
@@ -243,21 +244,21 @@ example.audio_url    # URL audio phát âm
 | 3 | Exercise CRUD — 4 loại (L/S/R/W) | ✅ **DONE** — typed CRUD views | ⚠️ API có, UI form riêng chưa có | Cao | 🔴 ~~P0~~ → ⚠️ UI còn thiếu |
 | 4 | Exercise → Lesson binding | ✅ **DONE** | ⚠️ API có, UI trong lesson drill-down chưa có | Trung bình | 🔴 ~~P0~~ → ⚠️ UI còn thiếu |
 | 5 | Grammar CRUD (topic/rule/example) | ✅ **DONE** | ✅ **DONE** — AdminGrammarView.vue | – | 🔴 ~~P0~~ |
-| 6 | Question CRUD ngân hàng câu hỏi | ⚠️ Question chỉ nested trong ExamSet; cần standalone | ⚠️ AdminAssessmentsView chỉ browse | Trung bình | 🟡 P1 |
-| 7 | Prerequisite enforcement UI | ✅ UnlockRule model có | ❌ Frontend không check trước khi cho học | Thấp | 🟡 P1 |
+| 6 | Question CRUD ngân hàng câu hỏi | ⚠️ Question chỉ nested trong ExamSet; cần standalone | ⚠️ AdminAssessmentsView chỉ browse | Trung bình | 🟡 P1 — **còn thiếu** |
+| 7 | Prerequisite enforcement UI | ✅ **DONE** — `is_unlocked` field trong LessonSerializer | ✅ **DONE** — CourseDetailView.vue block + tooltip | Thấp | 🟡 ~~P1~~ |
 | 8 | Grammar quiz persistence | ✅ **DONE** | ✅ **DONE** | – | 🟡 ~~P1~~ |
 | 9 | Grammar audio player | ✅ audio_url field có | ✅ **DONE** — GrammarDetailView.vue | – | 🟡 ~~P1~~ |
-| 10 | Progress Check bắt buộc sau chapter | ❌ Logic chưa có | ❌ Không có trigger | Cao | 🟡 P1 |
-| 11 | Source file upload S3 | ❌ Không có SourceFile model, không có endpoint | ❌ Không có upload UI | Cao | 🟡 P1 |
-| 12 | CSV bulk import | ❌ Không có endpoint/management command mới | ❌ Không có UI | Trung bình | 🟡 P1 |
-| 13 | Teacher: tạo exam + giao bài | ❌ Không có endpoint | ❌ Không có UI | Cao | 🟡 P1 |
-| 14 | Teacher: export class CSV | ❌ Không có endpoint | ❌ Không có UI | Thấp | 🟡 P1 |
-| 15 | Skill Tree visual map | ✅ Data có | ❌ Chỉ có list view | Cao | 🟢 P2 |
-| 16 | Unlock animations | ✅ Data có | ❌ Không có animation | Thấp | 🟢 P2 |
-| 17 | Split-pane exercise layout | – | ❌ Không có | Trung bình | 🟢 P2 |
-| 18 | Speaking dialogue UI (karaoke) | – | ❌ Không có | Cao | 🟢 P2 |
-| 19 | Writing Zen Mode editor | – | ❌ Không có | Trung bình | 🟢 P2 |
-| 20 | Vocabulary CRUD (admin) | ❌ Chỉ GET | ❌ Không có UI | Trung bình | 🟢 P2 |
+| 10 | Progress Check bắt buộc sau chapter | ❌ Logic chưa có | ❌ Không có trigger | Cao | 🟡 P1 — **còn thiếu** |
+| 11 | Source file upload S3 | ❌ Không có SourceFile model, không có endpoint | ❌ Không có upload UI | Cao | 🟡 P1 — **còn thiếu** |
+| 12 | CSV bulk import vocabulary | ✅ **DONE** — `AdminVocabularyImportView` | ⚠️ API method có, UI upload form chưa có | Trung bình | 🟡 ~~P1~~ → ⚠️ UI còn thiếu |
+| 13 | Teacher: tạo exam + giao bài | ❌ Không có endpoint | ❌ Không có UI | Cao | 🟡 P1 — **còn thiếu** |
+| 14 | Teacher: export class CSV | ✅ **DONE** — `TeacherExportClassView` | ✅ **DONE** — nút "Xuất CSV" trong TeacherClassView.vue | Thấp | 🟡 ~~P1~~ |
+| 15 | Skill Tree visual map | ✅ Data có | ✅ **DONE** — `SkillTreeView.vue` component | Cao | 🟢 ~~P2~~ → ⚠️ chưa tích hợp vào CourseDetailView |
+| 16 | Unlock animations | ✅ Data có | ✅ **DONE** — `UnlockModal.vue` component | Thấp | 🟢 ~~P2~~ → ⚠️ chưa trigger khi nộp bài |
+| 17 | Split-pane exercise layout | – | ✅ **DONE** — toggle `⊞ Split` trong ListeningView + ReadingView | Trung bình | 🟢 ~~P2~~ |
+| 18 | Speaking dialogue UI (karaoke) | – | ❌ Không có | Cao | 🟢 P2 — **còn thiếu** |
+| 19 | Writing Zen Mode editor | – | ✅ **DONE** — `☯ Zen mode` trong WritingView.vue | Trung bình | 🟢 ~~P2~~ |
+| 20 | Vocabulary CRUD (admin) | ✅ **DONE** — AdminVocabularyListView + DetailView | ⚠️ API methods có, UI tab chưa có trong AdminContentView | Trung bình | 🟢 ~~P2~~ → ⚠️ UI còn thiếu |
 
 ---
 
@@ -630,44 +631,58 @@ Layout 3 cột (tương tự content tree):
 
 ## 8. Kế hoạch triển khai chi tiết — P1 (Quan trọng)
 
-### 8.1 Prerequisite Enforcement trên Frontend
+### 8.1 Prerequisite Enforcement trên Frontend ✅ DONE
 
-#### Luồng hiện tại (sai)
-```
-CourseDetailView → render lessons → tất cả đều clickable
-→ học viên có thể click lesson bất kỳ dù chưa hoàn thành prerequisites
-```
+> **✅ Hoàn thành — 29/03/2026**  
+> Backend: `is_unlocked: bool` field thêm vào `LessonSerializer` — kiểm tra tất cả `UnlockRule` trong 1 query, dùng `LessonProgress.best_score`.  
+> Frontend: `CourseDetailView.vue` dùng `lesson.is_unlocked !== false` làm điều kiện gate (không dùng `progress_status !== 'locked'` vì `progress_status` là `"locked"` cho tất cả bài chưa bắt đầu). Tooltip "Hoàn thành bài trước để mở khóa" khi hover.
 
-#### Luồng cần có
-```
-CourseDetailView → fetch lessons với progress data
-→ với mỗi lesson: gọi GET /api/v1/curriculum/lessons/<pk>/unlock-status/
-  hoặc include unlock_status trong lesson serializer response
+#### Triển khai thực tế
 
-Backend: LessonSerializer thêm field:
-  is_unlocked: bool = property (kiểm tra UnlockRule + UserProgress)
-
-Frontend: nếu is_unlocked == false → lesson row không clickable + tooltip "Cần hoàn thành: [lesson trước]"
-```
-
-**Backend thêm:**
+**Backend — `curriculum/serializers.py`:**
 ```python
-# curriculum/serializers.py — LessonSerializer
+is_unlocked = serializers.SerializerMethodField()
+
 def get_is_unlocked(self, obj):
     request = self.context.get("request")
     if not request or not request.user.is_authenticated:
         return False
-    # Kiểm tra UnlockRule
-    rules = UnlockRule.objects.filter(lesson=obj)
-    for rule in rules:
-        has_passed = UserProgress.objects.filter(
+    from apps.progress.models import LessonProgress
+    rules = list(obj.unlock_rules.values("required_lesson_id", "min_score"))
+    if not rules:
+        return True
+    passed_ids = set(
+        LessonProgress.objects.filter(
             user=request.user,
-            lesson=rule.required_lesson,
-            score__gte=rule.min_score
-        ).exists()
-        if not has_passed:
+            lesson_id__in=[r["required_lesson_id"] for r in rules],
+        ).values_list("lesson_id", "best_score")
+    )
+    for rule in rules:
+        req_id = rule["required_lesson_id"]
+        min_sc = rule["min_score"]
+        if not any(
+            lid == req_id and (sc if sc is not None else 0) >= min_sc
+            for lid, sc in passed_ids
+        ):
             return False
     return True
+```
+
+**Frontend — `CourseDetailView.vue`:**
+```vue
+<!-- Lesson có thể học → RouterLink -->
+<RouterLink v-if="lesson.is_unlocked !== false && lesson.exercise_id" ...>
+
+<!-- Lesson bị khóa → div không click được -->
+<div v-else :title="lessonLockTitle(lesson)" class="cursor-not-allowed opacity-40">
+  ...🔒
+</div>
+
+function lessonLockTitle(lesson) {
+  if (lesson.is_unlocked === false) return 'Hoàn thành bài trước để mở khóa'
+  if (!lesson.exercise_id) return 'Chưa có bài tập'
+  return 'Hoàn thành bài trước để mở khóa'
+}
 ```
 
 ---
@@ -727,193 +742,78 @@ function playAudio(url) {
 
 ---
 
-### 8.4 Teacher Export Class CSV
+### 8.4 Teacher Export Class CSV ✅ DONE
 
-#### Backend thêm
-```python
-# teacher/views.py
-class TeacherExportClassView(APIView):
-    permission_classes = [IsTeacher]
-    def get(self, request, pk):
-        students_data = ... # query progress
-        import csv, io
-        output = io.StringIO()
-        writer = csv.writer(output)
-        writer.writerow(["Student", "Email", "Progress %", "Listening", "Speaking", "Reading", "Writing"])
-        for s in students_data:
-            writer.writerow([s["name"], s["email"], ...])
-        response = HttpResponse(output.getvalue(), content_type="text/csv")
-        response["Content-Disposition"] = f'attachment; filename="class_{pk}_report.csv"'
-        return response
-
-# URL: GET /api/v1/teacher/classes/<pk>/export/
-```
+> **✅ Hoàn thành — 29/03/2026**  
+> Backend: `TeacherExportClassView` → `GET /api/v1/teacher/classes/<pk>/export/` trả về CSV UTF-8-BOM (họ tên, email, tiến độ %, ngày đăng ký, trạng thái).  
+> Frontend: Nút "📥 Xuất CSV" trong `TeacherClassView.vue`, download blob, filename = `class_<id>_students.csv`.  
+> API: `teacherApi.exportClass(id)` trong `api/teacher.js`.
 
 ---
 
-### 8.5 CSV Bulk Import — Vocabulary
+### 8.5 CSV Bulk Import — Vocabulary ✅ DONE (backend) / ⚠️ UI còn thiếu
 
-#### Luồng
-```
-Admin upload file CSV → POST /admin-portal/vocabulary/import/
-Backend:
-  1. Parse CSV (pandas hoặc csv module)
-  2. Validate từng row (required: word, cefr_level, meaning_vi)
-  3. Bulk create Word objects (ignore duplicates)
-  4. Return summary: {total: N, created: M, duplicates: K, errors: []}
-
-Frontend:
-  Trang trong AdminContentView / riêng:
-  Upload dropzone → show preview (10 rows) → confirm → import
-  Progress indicator → result summary
-```
-
-**Backend endpoint:**
-```python
-class AdminVocabularyImportView(APIView):
-    permission_classes = [IsAdmin]
-    parser_classes = [MultiPartParser]
-    
-    def post(self, request):
-        file = request.FILES.get("file")
-        if not file or not file.name.endswith(".csv"):
-            return Response({"error": "Cần file CSV"}, status=400)
-        
-        import csv, codecs
-        reader = csv.DictReader(codecs.iterdecode(file, "utf-8"))
-        created, duplicates, errors = 0, 0, []
-        
-        for i, row in enumerate(reader, start=2):
-            try:
-                word = row.get("word", "").strip()
-                level_code = row.get("cefr_level", "").strip()
-                meaning_vi = row.get("meaning_vi", "").strip()
-                if not word or not level_code or not meaning_vi:
-                    errors.append(f"Row {i}: thiếu trường bắt buộc")
-                    continue
-                level = CEFRLevel.objects.filter(code__iexact=level_code).first()
-                if not level:
-                    errors.append(f"Row {i}: level không hợp lệ '{level_code}'")
-                    continue
-                _, created_flag = Word.objects.get_or_create(
-                    word=word, defaults={"level": level, "meaning_vi": meaning_vi, ...}
-                )
-                if created_flag: created += 1
-                else: duplicates += 1
-            except Exception as e:
-                errors.append(f"Row {i}: {e}")
-        
-        return Response({"created": created, "duplicates": duplicates, "errors": errors[:20]})
-```
+> **✅ Backend hoàn thành — 29/03/2026**  
+> `AdminVocabularyImportView` → `POST /admin-portal/vocabulary/import/`  
+> - Validate mỗi row: bắt buộc `word`, `cefr_level` (A1-C2), `meaning_vi`  
+> - `get_or_create` để tránh duplicate  
+> - Return: `{created, duplicates, errors[]}` (tối đa 20 lỗi)  
+> - UTF-8 decode error → 400 (không crash server)  
+> API: `adminApi.importVocabulary(formData)` trong `api/admin.js`.
+>
+> **⚠️ Frontend UI chưa có:**  
+> Chưa có upload dropzone/form trong `/admin/content`. Chỉ có API method.
 
 ---
 
 ## 9. Kế hoạch triển khai chi tiết — P2 (Nâng cấp UX)
 
-### 9.1 Unlock Animations
+### 9.1 Unlock Animations ✅ DONE (component) / ⚠️ chưa tích hợp
 
-#### Luồng
-```
-Khi học viên submit bài và đạt passing_score:
-  Backend response bao gồm: {score, passed, newly_unlocked_lessons: [{id, title, type}]}
-
-Frontend (sau khi nhận response):
-  if (newly_unlocked_lessons.length > 0) {
-    → Hiển thị UnlockModal component
-    → Animation: lock icon opens → confetti (canvas-confetti library) → XP bar increment
-    → Duration ≤ 2.5s → auto-dismiss
-  }
-```
-
-```vue
-<!-- UnlockModal.vue -->
-<template>
-  <Teleport to="body">
-    <div v-if="show" class="fixed inset-0 z-50 flex items-center justify-center">
-      <div class="text-center space-y-4">
-        <div class="text-6xl animate-bounce">🔓</div>
-        <h2 class="text-2xl font-bold" style="color: var(--color-primary-400)">
-          Bài học mới đã mở khóa!
-        </h2>
-        <p style="color: var(--color-text-muted)">{{ lesson.title }}</p>
-        <div class="xp-bar ...">+{{ xpGained }} XP ⚡</div>
-      </div>
-    </div>
-  </Teleport>
-</template>
-```
+> **✅ Component hoàn thành — 29/03/2026**  
+> `UnlockModal.vue` — `<Teleport to="body">` overlay với:
+> - 🔓 animate-bounce icon
+> - Hiển thị tên bài học (`lessonTitle` prop)
+> - XP gained badge (`xpGained` prop)
+> - Nút "Tiếp tục" + tự đóng sau 3s
+> - Cleanup timer trong `onUnmounted` (không memory leak)
+>
+> **⚠️ Chưa tích hợp:** Component chưa được import/dùng trong ExerciseResultView hay các submit flows. Cần trigger khi backend trả về `newly_unlocked_lessons` sau khi nộp bài.
 
 ---
 
-### 9.2 Skill Tree Visual Map (thay thế list view)
+### 9.2 Skill Tree Visual Map ✅ DONE (component) / ⚠️ chưa tích hợp
 
-#### Cách tiếp cận đơn giản (không cần library nặng)
-
-```
-Dùng CSS flexbox/grid tạo layout dọc theo chapters:
-Chapter 1 ─── [Lesson 1] → [Lesson 2] → [Lesson 3]
-     │
-Chapter 2 ─── [Lesson 4] → [Lesson 5] [LOCKED]
-     │
-[Chapter Progress Check 📝]
-```
-
-Mỗi node là 1 component `LessonNode.vue`:
-- State: completed (filled color) / available (border) / locked (grayed)
-- Tooltip on hover: title + type + estimated_minutes
-- Click: navigate to `/learn/:type/:id`
+> **✅ Component hoàn thành — 29/03/2026**  
+> `SkillTreeView.vue` — vertical tree layout với:
+> - Chapter dividers (dashed line + label)
+> - Lesson nodes: completed (xanh), available (tím viền), locked (mờ 50%)
+> - Connector lines màu xanh nếu previous completed
+> - Click navigate → `/learn/:type/:id` (dùng `RouterLink` khi `canNavigate()`)
+> - Tooltip cho locked lessons
+>
+> **⚠️ Chưa tích hợp:** `SkillTreeView.vue` chưa được dùng trong `CourseDetailView.vue`. Tab/toggle giữa list view và skill tree chưa có.
 
 ---
 
-### 9.3 Split-Pane Exercise Layout
+### 9.3 Split-Pane Exercise Layout ✅ DONE
 
-#### Áp dụng cho: ListeningExercise, ReadingExercise
-
-```vue
-<!-- LessonView.vue / ExerciseLayout.vue -->
-<div class="flex h-full gap-4">
-  <!-- Left: Content (6/10 width) -->
-  <div class="w-6/10 overflow-y-auto" style="height: calc(100vh - 120px)">
-    <!-- Transcript / Reading passage -->
-    <!-- Vocab tooltip on hover word -->
-  </div>
-  <!-- Right: Questions (4/10 width) -->
-  <div class="w-4/10 overflow-y-auto sticky top-4">
-    <!-- Question list -->
-  </div>
-</div>
-```
+> **✅ Hoàn thành — 29/03/2026**  
+> `ListeningView.vue` và `ReadingView.vue` đều có:
+> - Toggle button `⊞ Split` (default ON — `splitMode = ref(true)`)
+> - Khi ON: flex-row layout, audio/passage pane (60%), questions pane (40%)
+> - Khi OFF: single column (original layout)
 
 ---
 
-### 9.4 Writing Zen Mode
+### 9.4 Writing Zen Mode ✅ DONE
 
-```vue
-<template>
-  <Teleport to="body">
-    <div class="fixed inset-0 z-50 flex flex-col" style="background: #0a0a14">
-      <!-- Minimal header: title + timer + word count -->
-      <header class="flex items-center justify-between p-4 opacity-20 hover:opacity-100 transition">
-        <span>{{ exercise.title }}</span>
-        <span>{{ wordCount }} / {{ exercise.word_count_min }} từ</span>
-        <span>{{ timeRemaining }}</span>
-      </header>
-      <!-- Full-width editor -->
-      <textarea
-        v-model="answer"
-        class="flex-1 w-full max-w-3xl mx-auto p-8 text-lg bg-transparent outline-none resize-none"
-        style="color: var(--color-text-base); font-family: 'Georgia', serif"
-        placeholder="Bắt đầu viết..."
-        spellcheck="true"
-      />
-      <!-- Submit bar -->
-      <footer class="p-4 flex justify-end opacity-20 hover:opacity-100 transition">
-        <button @click="submit">Nộp bài</button>
-      </footer>
-    </div>
-  </Teleport>
-</template>
-```
+> **✅ Đã có sẵn trong `WritingView.vue`** — không cần triển khai thêm:
+> - Nút `☯ Zen mode` trong header bài viết
+> - `<Teleport to="body">` fullscreen overlay với nền tối `#0a0a14`
+> - Textarea full-width với font Georgia, word count real-time
+> - Header/footer fade-in khi hover (opacity 30% → 100%)
+> - Nộp bài từ trong Zen mode, thoát bằng Esc hoặc nút "← Thoát"
 
 ---
 

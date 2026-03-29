@@ -70,3 +70,9 @@ Thumbs.db
 .env.local
 .env.*.local
 ! .env.example
+# ----------------------
+# PYCACHE & COMPILED (already covered but ensure nested)
+# ----------------------
+**/__pycache__/
+**/*.pyc
+backend/logs/

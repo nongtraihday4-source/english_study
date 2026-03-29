@@ -125,9 +125,11 @@
               <template v-else>
                 <div v-for="lesson in chapter.lessons" :key="lesson.id">
 
-                  <!-- Available / Completed → clickable RouterLink -->
+                  <!-- Available / Completed → clickable RouterLink.
+                       is_unlocked=false means prerequisites not met.
+                       progress_status is only used for visual badges, NOT for gating navigation. -->
                   <RouterLink
-                    v-if="lesson.is_unlocked !== false && lesson.progress_status !== 'locked' && lesson.exercise_id"
+                    v-if="lesson.is_unlocked !== false && lesson.exercise_id"
                     :to="{
                       name: `learn-${lesson.exercise_type || lesson.lesson_type}`,
                       params: { id: lesson.exercise_id },
