@@ -130,5 +130,14 @@ export const adminApi = {
   getSettings: (params = {}) => api.get('/admin-portal/settings/', { params }),
   getSetting: (key) => api.get(`/admin-portal/settings/${key}/`),
   updateSetting: (key, value) => api.patch(`/admin-portal/settings/${key}/`, { value }),
+
+  // ── Vocabulary admin ──────────────────────────────────────────
+  getVocabulary: (params = {}) => api.get('/admin-portal/vocabulary/', { params }),
+  createWord: (data) => api.post('/admin-portal/vocabulary/', data),
+  updateWord: (pk, data) => api.patch(`/admin-portal/vocabulary/${pk}/`, data),
+  deleteWord: (pk) => api.delete(`/admin-portal/vocabulary/${pk}/`),
+  importVocabulary: (formData) => api.post('/admin-portal/vocabulary/import/', formData, {
+    headers: { 'Content-Type': 'multipart/form-data' },
+  }),
 }
 

@@ -62,6 +62,15 @@
             ({{ selectedCourse.student_count }} học viên)
           </span>
         </div>
+        <button
+          @click="exportCsv"
+          :disabled="exportingCsv"
+          class="ml-auto flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-semibold transition hover:opacity-90 disabled:opacity-50"
+          style="background-color: var(--color-surface-03); color: var(--color-text-base); border: 1px solid var(--color-surface-04)"
+        >
+          <span>📥</span>
+          {{ exportingCsv ? 'Đang xuất…' : 'Xuất CSV' }}
+        </button>
       </div>
 
       <!-- Search -->
@@ -143,6 +152,7 @@ import { teacherApi } from '@/api/teacher.js'
 
 const loadingCourses  = ref(false)
 const loadingStudents = ref(false)
+const exportingCsv    = ref(false)
 const courses         = ref([])
 const students        = ref([])
 const selectedCourse  = ref(null)
@@ -195,6 +205,24 @@ const filteredStudents = computed(() => {
     s.email?.toLowerCase().includes(q)
   )
 })
+
+async function exportCsv() {
+  if (!selectedCourse.value) return
+  exportingCsv.value = true
+  try {
+    const res = await teacherApi.exportClass(selectedCourse.value.id)
+    const url = URL.createObjectURL(new Blob([res.data], { type: 'text/csv' }))
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `class_${selectedCourse.value.id}_students.csv`
+    a.click()
+    URL.revokeObjectURL(url)
+  } catch {
+    // silent fail — browser will show nothing
+  } finally {
+    exportingCsv.value = false
+  }
+}
 
 onMounted(loadCourses)
 </script>

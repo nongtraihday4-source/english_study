@@ -11,9 +11,12 @@ GET  /api/v1/teacher/classes/<pk>/students/ → Enrolled students + progress for
 """
 from django.contrib.auth import get_user_model
 from django.db.models import Avg, Count, Q
+from django.http import HttpResponse
 from django.utils import timezone
 from rest_framework.response import Response
 from rest_framework.views import APIView
+import csv
+import io
 
 from utils.permissions import IsTeacher
 from apps.progress.models import SpeakingSubmission, WritingSubmission, UserEnrollment
@@ -245,3 +248,38 @@ class TeacherClassStudentsView(APIView):
             "count": enrollments.count(),
             "students": serializer.data,
         })
+
+
+class TeacherExportClassView(APIView):
+    """Export class students + progress as CSV."""
+    permission_classes = [IsTeacher]
+
+    def get(self, request, pk):
+        try:
+            course = Course.objects.select_related("level").get(pk=pk, is_active=True)
+        except Course.DoesNotExist:
+            return Response({"detail": "Khóa học không tồn tại."}, status=404)
+
+        enrollments = (
+            UserEnrollment.objects
+            .filter(course=course, is_deleted=False)
+            .select_related("user")
+            .order_by("user__last_name", "user__first_name")
+        )
+
+        output = io.StringIO()
+        writer = csv.writer(output)
+        writer.writerow(["Họ tên", "Email", "Tiến độ (%)", "Ngày đăng ký", "Trạng thái"])
+        for e in enrollments:
+            u = e.user
+            writer.writerow([
+                f"{u.last_name} {u.first_name}".strip() or u.email,
+                u.email,
+                float(e.progress_percent) if e.progress_percent else 0,
+                e.enrolled_at.strftime("%d/%m/%Y") if e.enrolled_at else "",
+                e.status,
+            ])
+
+        response = HttpResponse(output.getvalue(), content_type="text/csv; charset=utf-8-sig")
+        response["Content-Disposition"] = f'attachment; filename="class_{pk}_students.csv"'
+        return response

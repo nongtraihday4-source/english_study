@@ -63,6 +63,10 @@ from .views import (
     # Refund requests
     AdminRefundRequestListView,
     AdminRefundReviewView,
+    # Vocabulary
+    AdminVocabularyListView,
+    AdminVocabularyDetailView,
+    AdminVocabularyImportView,
 )
 
 urlpatterns = [
@@ -143,4 +147,9 @@ urlpatterns = [
     # ── Refund Requests (created by support staff, reviewed by admin) ─────────
     path("refund-requests/",                      AdminRefundRequestListView.as_view(),   name="admin-refund-request-list"),
     path("refund-requests/<int:pk>/review/",      AdminRefundReviewView.as_view(),        name="admin-refund-request-review"),
+
+    # ── Vocabulary ────────────────────────────────────────────────────────────
+    path("vocabulary/",           AdminVocabularyListView.as_view(),   name="admin-vocabulary-list"),
+    path("vocabulary/import/",    AdminVocabularyImportView.as_view(), name="admin-vocabulary-import"),
+    path("vocabulary/<int:pk>/",  AdminVocabularyDetailView.as_view(), name="admin-vocabulary-detail"),
 ]

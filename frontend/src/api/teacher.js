@@ -18,4 +18,7 @@ export const teacherApi = {
 
   // Get enrolled students + progress for a course
   getClassStudents: (id) => api.get(`/teacher/classes/${id}/students/`),
+
+  // Export class students + progress as CSV
+  exportClass: (id) => api.get(`/teacher/classes/${id}/export/`, { responseType: 'blob' }),
 }
