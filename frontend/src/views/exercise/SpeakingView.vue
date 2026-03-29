@@ -1,7 +1,15 @@
 <template>
   <div class="flex flex-col" style="min-height: calc(100vh - 64px)">
 
-    <!-- Loading -->
+    <!-- Error toast -->
+    <Transition name="toast">
+      <div v-if="errorToast"
+           class="fixed bottom-6 left-1/2 z-50 px-5 py-3 rounded-xl shadow-xl text-sm font-semibold"
+           style="-webkit-transform:translateX(-50%);transform:translateX(-50%);
+                  background:#450a0a; border:1px solid rgba(239,68,68,0.5); color:#fca5a5;">
+        ⚠️ {{ errorToast }}
+      </div>
+    </Transition>
     <div v-if="loading" class="p-6 space-y-4">
       <div class="h-6 w-48 rounded-lg animate-pulse" style="background: var(--color-surface-03)"></div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -234,6 +242,16 @@ const router = useRouter()
 const exercise = ref(null)
 const loading = ref(false)
 const submitting = ref(false)
+
+// Error toast
+const errorToast = ref('')
+let _errorToastTimer = null
+
+function showErrorToast(message) {
+  clearTimeout(_errorToastTimer)
+  errorToast.value = message
+  _errorToastTimer = setTimeout(() => { errorToast.value = '' }, 4000)
+}
 
 // Recording
 const recordingState = ref('idle')   // idle | recording | review
@@ -468,8 +486,8 @@ async function submit() {
     const d = res.data?.data ?? res.data
     const submissionId = d?.submission_id ?? d?.id
     router.push(`/learn/result/${submissionId}?type=speaking`)
-  } catch {
-    // TODO: error toast
+  } catch (err) {
+    showErrorToast(err?.response?.data?.detail || 'Đã có lỗi xảy ra, vui lòng thử lại.')
   } finally {
     submitting.value = false
   }
@@ -487,5 +505,8 @@ function formatTime(sec) {
 .slide-up-enter-active, .slide-up-leave-active { transition: all 0.3s ease; }
 .slide-up-enter-from { opacity: 0; transform: translateY(12px); }
 .slide-up-leave-to   { opacity: 0; transform: translateY(12px); }
+
+.toast-enter-active, .toast-leave-active { transition: all 0.3s ease; }
+.toast-enter-from, .toast-leave-to { opacity: 0; transform: translate(-50%, 12px); }
 </style>
 

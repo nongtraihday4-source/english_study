@@ -13,6 +13,8 @@ import hashlib
 import hmac
 import json
 import logging
+import urllib.parse
+from datetime import datetime
 
 from django.conf import settings
 from django.utils import timezone
@@ -134,8 +136,11 @@ class CheckoutView(APIView):
             else:
                 base = "http://localhost:5173"
             payment_url = f"{base}/payment/success?txn={txn.pk}"
+        elif data["gateway"] == "vnpay":
+            payment_url = _build_vnpay_url(txn, request)
+        elif data["gateway"] == "stripe":
+            payment_url = _build_stripe_url(txn)
         else:
-            # TODO: integrate real VNPay/Stripe SDK to get payment_url
             payment_url = f"https://payment-gateway.example.com/pay?txn={txn.pk}&amount={final_price}"
 
         return Response({
@@ -239,6 +244,114 @@ class TransactionListView(generics.ListAPIView):
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
+
+def _build_vnpay_url(txn: PaymentTransaction, request) -> str:
+    """
+    Build a VNPay payment URL using HMAC-SHA512 signature.
+    Follows VNPay API v2.1 specification.
+    https://sandbox.vnpayment.vn/apis/docs/thanh-toan-pay/pay.html
+    """
+    tmn_code = getattr(settings, "VNPAY_TMN_CODE", "")
+    hash_secret = getattr(settings, "VNPAY_HASH_SECRET", "")
+    vnpay_url = getattr(settings, "VNPAY_PAYMENT_URL", "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html")
+    return_url = getattr(settings, "VNPAY_RETURN_URL", "http://localhost:5173/payment/success")
+
+    if not tmn_code or not hash_secret:
+        payment_logger.warning("VNPay not configured (missing TMN_CODE or HASH_SECRET) — returning placeholder URL")
+        return f"https://sandbox.vnpayment.vn/pay?txn={txn.pk}&amount={txn.amount_vnd}"
+
+    now = datetime.now()
+    from datetime import timedelta as _td
+    create_date = now.strftime("%Y%m%d%H%M%S")
+    expire_date = (now + _td(minutes=15)).strftime("%Y%m%d%H%M%S")
+    ip_address = request.META.get("REMOTE_ADDR", "127.0.0.1")
+
+    # VNPay requires amount * 100 (tính theo đồng, không có lẻ)
+    vnp_amount = int(txn.amount_vnd) * 100
+
+    params = {
+        "vnp_Version": "2.1.0",
+        "vnp_Command": "pay",
+        "vnp_TmnCode": tmn_code,
+        "vnp_Amount": str(vnp_amount),
+        "vnp_CurrCode": "VND",
+        "vnp_TxnRef": str(txn.pk),
+        "vnp_OrderInfo": f"Thanh toan goi hoc {txn.plan.name}",
+        "vnp_OrderType": "other",
+        "vnp_Locale": "vn",
+        "vnp_ReturnUrl": f"{return_url}?txn={txn.pk}",
+        "vnp_IpAddr": ip_address,
+        "vnp_CreateDate": create_date,
+        "vnp_ExpireDate": expire_date,
+    }
+
+    # Sort by key name (required by VNPay spec)
+    sorted_params = sorted(params.items())
+    hash_data = "&".join(f"{k}={urllib.parse.quote_plus(str(v))}" for k, v in sorted_params)
+    secure_hash = hmac.new(
+        hash_secret.encode("utf-8"),
+        hash_data.encode("utf-8"),
+        hashlib.sha512,
+    ).hexdigest()
+
+    query_string = "&".join(f"{k}={urllib.parse.quote_plus(str(v))}" for k, v in sorted_params)
+    payment_url = f"{vnpay_url}?{query_string}&vnp_SecureHash={secure_hash}"
+
+    payment_logger.info(
+        "VNPay URL built | txn=%s amount=%s",
+        txn.pk, txn.amount_vnd,
+    )
+    return payment_url
+
+
+def _build_stripe_url(txn: PaymentTransaction) -> str:
+    """
+    Create a Stripe Checkout Session and return the session URL.
+    Falls back to a placeholder URL if Stripe is not configured.
+    """
+    stripe_secret = getattr(settings, "STRIPE_SECRET_KEY", "")
+    frontend_url = getattr(settings, "FRONTEND_URL", "http://localhost:5173")
+
+    if not stripe_secret:
+        payment_logger.warning("Stripe not configured (missing STRIPE_SECRET_KEY) — returning placeholder URL")
+        return f"https://checkout.stripe.com/pay?txn={txn.pk}&amount={txn.amount_vnd}"
+
+    try:
+        import stripe
+        stripe.api_key = stripe_secret
+
+        # Convert VND to cents-equivalent (Stripe uses smallest currency unit)
+        # VND is zero-decimal, so amount is passed as-is
+        session = stripe.checkout.Session.create(
+            payment_method_types=["card"],
+            line_items=[{
+                "price_data": {
+                    "currency": "vnd",
+                    "unit_amount": int(txn.amount_vnd),
+                    "product_data": {
+                        "name": txn.plan.name,
+                        "description": f"English Study — {txn.plan.name}",
+                    },
+                },
+                "quantity": 1,
+            }],
+            mode="payment",
+            success_url=f"{frontend_url}/payment/success?txn={txn.pk}&session_id={{CHECKOUT_SESSION_ID}}",
+            cancel_url=f"{frontend_url}/pricing?cancelled=1",
+            metadata={"txn_id": str(txn.pk)},
+        )
+        payment_logger.info(
+            "Stripe session created | txn=%s session=%s",
+            txn.pk, session.id,
+        )
+        return session.url
+    except ImportError:
+        payment_logger.warning("stripe package not installed — returning placeholder URL")
+        return f"https://checkout.stripe.com/pay?txn={txn.pk}"
+    except Exception as exc:
+        payment_logger.error("Stripe session creation failed | txn=%s err=%s", txn.pk, exc)
+        return f"https://checkout.stripe.com/pay?txn={txn.pk}"
+
 
 def _activate_subscription(txn: PaymentTransaction) -> None:
     """Called on successful payment — activates or extends subscription."""

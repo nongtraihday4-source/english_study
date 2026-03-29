@@ -240,9 +240,151 @@ def issue_certificate(user, course=None, level=None) -> "Certificate":
         level=level,
         verification_code=secrets.token_hex(16),
     )
-    # TODO: generate PDF via reportlab/wkhtmltopdf, upload to S3
+    _generate_certificate_pdf(cert)
     logger.info("Certificate issued | user=%s cert=%s", user.pk, cert.verification_code)
     return cert
+
+
+def _generate_certificate_pdf(cert: "Certificate") -> None:
+    """
+    Generate a certificate PDF using reportlab and upload to S3 (or local MEDIA_ROOT).
+    Sets cert.pdf_s3_key on success.
+    """
+    import io
+    from django.conf import settings as django_settings
+
+    try:
+        from reportlab.lib import colors
+        from reportlab.lib.pagesizes import A4, landscape
+        from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+        from reportlab.lib.units import mm
+        from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+        from reportlab.lib.enums import TA_CENTER
+    except ImportError:
+        logger.warning("reportlab not installed — certificate PDF skipped for cert=%s", cert.pk)
+        return
+
+    width, height = landscape(A4)
+    buf = io.BytesIO()
+    doc = SimpleDocTemplate(
+        buf,
+        pagesize=landscape(A4),
+        leftMargin=20 * mm,
+        rightMargin=20 * mm,
+        topMargin=15 * mm,
+        bottomMargin=15 * mm,
+    )
+
+    styles = getSampleStyleSheet()
+    center = ParagraphStyle(
+        "center", parent=styles["Normal"],
+        alignment=TA_CENTER, fontName="Helvetica",
+    )
+    title_style = ParagraphStyle(
+        "cert_title", parent=center,
+        fontSize=32, fontName="Helvetica-Bold",
+        textColor=colors.HexColor("#1e3a5f"),
+        spaceAfter=6,
+    )
+    subtitle_style = ParagraphStyle(
+        "cert_sub", parent=center,
+        fontSize=14, fontName="Helvetica",
+        textColor=colors.HexColor("#555555"),
+        spaceAfter=4,
+    )
+    name_style = ParagraphStyle(
+        "cert_name", parent=center,
+        fontSize=28, fontName="Helvetica-Bold",
+        textColor=colors.HexColor("#2c3e50"),
+        spaceAfter=4,
+    )
+    body_style = ParagraphStyle(
+        "cert_body", parent=center,
+        fontSize=13, fontName="Helvetica",
+        textColor=colors.HexColor("#444444"),
+        spaceAfter=6,
+    )
+    meta_style = ParagraphStyle(
+        "cert_meta", parent=center,
+        fontSize=10, fontName="Helvetica-Oblique",
+        textColor=colors.HexColor("#888888"),
+    )
+
+    full_name = (
+        f"{cert.user.first_name} {cert.user.last_name}".strip()
+        or cert.user.email
+    )
+    course_name = cert.course.title if cert.course else ""
+    level_name = cert.level.name if cert.level else ""
+    achievement = course_name or level_name or "English Study Programme"
+    issued_date = cert.issued_at.strftime("%d/%m/%Y")
+
+    story = [
+        Spacer(1, 10 * mm),
+        Paragraph("CERTIFICATE OF ACHIEVEMENT", title_style),
+        Spacer(1, 4 * mm),
+        Paragraph("This is to certify that", subtitle_style),
+        Spacer(1, 3 * mm),
+        Paragraph(full_name, name_style),
+        Spacer(1, 3 * mm),
+        Paragraph(
+            f"has successfully completed the <b>{achievement}</b>",
+            body_style,
+        ),
+        Spacer(1, 2 * mm),
+        Paragraph(
+            "demonstrating proficiency in English language skills.",
+            body_style,
+        ),
+        Spacer(1, 8 * mm),
+        Paragraph(f"Issued on: {issued_date}", meta_style),
+        Spacer(1, 2 * mm),
+        Paragraph(
+            f"Verification code: {cert.verification_code}",
+            meta_style,
+        ),
+    ]
+
+    doc.build(story)
+    pdf_bytes = buf.getvalue()
+
+    # ── Upload to S3 or save locally ─────────────────────────────────────────
+    s3_prefix = getattr(django_settings, "CERTIFICATE_PDF_S3_PREFIX", "certificates/")
+    s3_key = f"{s3_prefix}{cert.verification_code}.pdf"
+
+    aws_key = getattr(django_settings, "AWS_ACCESS_KEY_ID", "")
+    if aws_key:
+        try:
+            import boto3
+            s3 = boto3.client(
+                "s3",
+                aws_access_key_id=aws_key,
+                aws_secret_access_key=django_settings.AWS_SECRET_ACCESS_KEY,
+                region_name=django_settings.AWS_S3_REGION_NAME,
+            )
+            s3.put_object(
+                Bucket=django_settings.AWS_STORAGE_BUCKET_NAME,
+                Key=s3_key,
+                Body=pdf_bytes,
+                ContentType="application/pdf",
+            )
+            cert.pdf_s3_key = s3_key
+            cert.save(update_fields=["pdf_s3_key"])
+            logger.info("Certificate PDF uploaded to S3 | key=%s", s3_key)
+            return
+        except Exception as exc:
+            logger.warning("S3 upload failed for cert PDF — falling back to local: %s", exc)
+
+    # Fallback: save to MEDIA_ROOT/certificates/
+    from pathlib import Path
+    media_root = getattr(django_settings, "MEDIA_ROOT", "/tmp")
+    cert_dir = Path(media_root) / "certificates"
+    cert_dir.mkdir(parents=True, exist_ok=True)
+    local_path = cert_dir / f"{cert.verification_code}.pdf"
+    local_path.write_bytes(pdf_bytes)
+    cert.pdf_s3_key = str(local_path)
+    cert.save(update_fields=["pdf_s3_key"])
+    logger.info("Certificate PDF saved locally | path=%s", local_path)
 
 
 # ─── Celery tasks (defined here to avoid circular imports) ────────────────────

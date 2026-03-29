@@ -1,6 +1,8 @@
 """
 apps/progress/serializers.py
 """
+import logging
+
 from rest_framework import serializers
 
 from utils.formatters import fmt_percent, fmt_score
@@ -13,6 +15,8 @@ from .models import (
     DailyStreak,
     CumulativeScore,
 )
+
+logger = logging.getLogger("es.progress")
 
 
 class UserEnrollmentSerializer(serializers.ModelSerializer):
@@ -105,16 +109,55 @@ class SubmitExamSerializer(serializers.Serializer):
 
 class ExerciseResultSerializer(serializers.ModelSerializer):
     score_display = serializers.SerializerMethodField()
+    next_lesson_id = serializers.SerializerMethodField()
 
     class Meta:
         model = ExerciseResult
         fields = [
             "id", "exercise_type", "exercise_id", "score", "score_display",
-            "passed", "detail_json", "created_at",
+            "passed", "detail_json", "created_at", "next_lesson_id",
         ]
 
     def get_score_display(self, obj):
         return fmt_score(obj.score)
+
+    def get_next_lesson_id(self, obj):
+        """
+        Return the ID of the next available lesson in the same chapter,
+        after the lesson associated with this exercise result.
+        Returns None if the lesson is not set or no next lesson exists.
+        """
+        if not obj.lesson_id:
+            return None
+        try:
+            from apps.curriculum.models import Lesson
+            lesson = obj.lesson
+            # Find the next lesson in order within the same chapter
+            next_lesson = (
+                Lesson.objects.filter(
+                    chapter_id=lesson.chapter_id,
+                    order__gt=lesson.order,
+                    is_active=True,
+                )
+                .order_by("order")
+                .first()
+            )
+            if next_lesson:
+                # Only return it if the user has it unlocked/available
+                user = getattr(obj, "_user_override", None)
+                if user is None:
+                    return next_lesson.pk
+                from apps.progress.models import LessonProgress
+                lp = LessonProgress.objects.filter(
+                    user=user, lesson=next_lesson
+                ).first()
+                if lp and lp.status in ("available", "in_progress", "completed"):
+                    return next_lesson.pk
+                # No progress record means it may have just been unlocked
+                return next_lesson.pk
+        except Exception as exc:
+            logger.warning("Failed to compute next_lesson_id for result=%s: %s", obj.pk, exc)
+        return None
 
 
 class SpeakingSubmissionSerializer(serializers.ModelSerializer):

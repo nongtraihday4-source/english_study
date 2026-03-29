@@ -1,6 +1,16 @@
 <template>
   <div class="flex flex-col" style="min-height: calc(100vh - 64px)">
 
+    <!-- Error toast -->
+    <Transition name="toast">
+      <div v-if="errorToast"
+           class="fixed bottom-6 left-1/2 z-50 px-5 py-3 rounded-xl shadow-xl text-sm font-semibold"
+           style="-webkit-transform:translateX(-50%);transform:translateX(-50%);
+                  background:#450a0a; border:1px solid rgba(239,68,68,0.5); color:#fca5a5;">
+        ⚠️ {{ errorToast }}
+      </div>
+    </Transition>
+
     <!-- Loading skeleton -->
     <div v-if="loading" class="p-6 space-y-4">
       <div class="h-6 w-48 rounded-lg animate-pulse" style="background: var(--color-surface-03)"></div>
@@ -319,6 +329,16 @@ const gapAnswers = reactive({})   // text answers for free-form gap fill
 const dragSlots = reactive({})    // { [q.id]: [option_id, ...] }
 const dragItem = ref(null)        // { source: 'bank'|'placed', optionId, qId, idx }
 
+// Error toast
+const errorToast = ref('')
+let _errorToastTimer = null
+
+function showErrorToast(message) {
+  clearTimeout(_errorToastTimer)
+  errorToast.value = message
+  _errorToastTimer = setTimeout(() => { errorToast.value = '' }, 4000)
+}
+
 // Timer
 const timerSeconds = ref(0)
 let timerInterval = null
@@ -516,8 +536,8 @@ async function submit() {
     const submissionId = d?.id ?? d?.submission_id
     submitted.value = true
     router.push(`/learn/result/${submissionId}?type=listening`)
-  } catch {
-    // TODO: show error toast
+  } catch (err) {
+    showErrorToast(err?.response?.data?.detail || 'Đã có lỗi xảy ra, vui lòng thử lại.')
   } finally {
     submitting.value = false
   }
@@ -527,5 +547,8 @@ async function submit() {
 <style scoped>
 .fade-enter-active, .fade-leave-active { transition: opacity 0.3s ease; }
 .fade-enter-from, .fade-leave-to { opacity: 0; }
+
+.toast-enter-active, .toast-leave-active { transition: all 0.3s ease; }
+.toast-enter-from, .toast-leave-to { opacity: 0; transform: translate(-50%, 12px); }
 </style>
 
