@@ -135,7 +135,7 @@ function nodeStyle(lesson) {
 
 function nodeTitle(lesson) {
   if (lesson.is_unlocked === false) return 'Hoàn thành bài trước để mở khóa'
-  if (lesson.progress_status === 'locked') return 'Hoàn thành bài trước để mở khoá'
+  if (lesson.progress_status === 'locked') return 'Hoàn thành bài trước để mở khóa'
   if (!lesson.exercise_id) return 'Chưa có bài tập'
   return ''
 }

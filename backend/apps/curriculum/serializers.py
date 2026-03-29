@@ -57,16 +57,21 @@ class LessonSerializer(serializers.ModelSerializer):
         if not request or not request.user.is_authenticated:
             return False
         from apps.progress.models import LessonProgress
-        rules = obj.unlock_rules.all()
-        if not rules.exists():
+        from django.db.models import Q
+        rules = list(obj.unlock_rules.values("required_lesson_id", "min_score"))
+        if not rules:
             return True
-        for rule in rules:
-            has_passed = LessonProgress.objects.filter(
+        # Build a single query checking all required lessons in one shot
+        passed_ids = set(
+            LessonProgress.objects.filter(
                 user=request.user,
-                lesson=rule.required_lesson,
-                best_score__gte=rule.min_score,
-            ).exists()
-            if not has_passed:
+                lesson_id__in=[r["required_lesson_id"] for r in rules],
+            ).values_list("lesson_id", "best_score")
+        )
+        for rule in rules:
+            req_id = rule["required_lesson_id"]
+            min_sc = rule["min_score"]
+            if not any(lid == req_id and (sc or 0) >= min_sc for lid, sc in passed_ids):
                 return False
         return True
 

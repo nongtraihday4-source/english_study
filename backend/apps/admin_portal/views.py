@@ -1164,7 +1164,7 @@ class AdminVocabularyListView(AuditLogMixin, generics.ListCreateAPIView):
         if level:
             qs = qs.filter(cefr_level=level)
         if search:
-            qs = qs.filter(word__icontains=search) | qs.filter(meaning_vi__icontains=search)
+            qs = qs.filter(Q(word__icontains=search) | Q(meaning_vi__icontains=search))
         return qs.order_by("word")
 
     audit_model_name = "Word"
