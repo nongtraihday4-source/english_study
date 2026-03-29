@@ -71,7 +71,10 @@ class LessonSerializer(serializers.ModelSerializer):
         for rule in rules:
             req_id = rule["required_lesson_id"]
             min_sc = rule["min_score"]
-            if not any(lid == req_id and (sc or 0) >= min_sc for lid, sc in passed_ids):
+            if not any(
+                lid == req_id and (sc if sc is not None else 0) >= min_sc
+                for lid, sc in passed_ids
+            ):
                 return False
         return True
 

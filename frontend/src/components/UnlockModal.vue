@@ -29,7 +29,7 @@
 </template>
 
 <script setup>
-import { watch } from 'vue'
+import { watch, onUnmounted } from 'vue'
 
 const props = defineProps({
   show: { type: Boolean, default: false },
@@ -39,16 +39,22 @@ const props = defineProps({
 
 const emit = defineEmits(['close'])
 
+let dismissTimer = null
+
 function close() {
+  clearTimeout(dismissTimer)
   emit('close')
 }
 
 // Auto-dismiss after 3 seconds
 watch(() => props.show, (val) => {
+  clearTimeout(dismissTimer)
   if (val) {
-    setTimeout(() => emit('close'), 3000)
+    dismissTimer = setTimeout(() => emit('close'), 3000)
   }
 })
+
+onUnmounted(() => clearTimeout(dismissTimer))
 </script>
 
 <style scoped>

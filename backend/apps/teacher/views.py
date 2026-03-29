@@ -275,7 +275,7 @@ class TeacherExportClassView(APIView):
             writer.writerow([
                 f"{u.last_name} {u.first_name}".strip() or u.email,
                 u.email,
-                float(e.progress_percent) if e.progress_percent else 0,
+                float(e.progress_percent) if e.progress_percent is not None else 0,
                 e.enrolled_at.strftime("%d/%m/%Y") if e.enrolled_at else "",
                 e.status,
             ])

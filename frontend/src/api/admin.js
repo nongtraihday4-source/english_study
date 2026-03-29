@@ -136,8 +136,6 @@ export const adminApi = {
   createWord: (data) => api.post('/admin-portal/vocabulary/', data),
   updateWord: (pk, data) => api.patch(`/admin-portal/vocabulary/${pk}/`, data),
   deleteWord: (pk) => api.delete(`/admin-portal/vocabulary/${pk}/`),
-  importVocabulary: (formData) => api.post('/admin-portal/vocabulary/import/', formData, {
-    headers: { 'Content-Type': 'multipart/form-data' },
-  }),
+  importVocabulary: (formData) => api.post('/admin-portal/vocabulary/import/', formData),
 }
 
