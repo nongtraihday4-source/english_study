@@ -1,5 +1,16 @@
 <template>
   <div class="flex gap-0 h-[calc(100vh-8rem)] overflow-hidden -m-6">
+
+    <!-- Error toast -->
+    <Transition name="toast">
+      <div v-if="errorToast"
+           class="fixed bottom-6 left-1/2 z-50 px-5 py-3 rounded-xl shadow-xl text-sm font-semibold"
+           style="-webkit-transform:translateX(-50%);transform:translateX(-50%);
+                  background:#450a0a; border:1px solid rgba(239,68,68,0.5); color:#fca5a5;">
+        ⚠️ {{ errorToast }}
+      </div>
+    </Transition>
+
     <!-- ── Left column: table ─────────────────────────────────────────────── -->
     <div class="flex-1 flex flex-col min-w-0 overflow-hidden p-6">
 
@@ -259,6 +270,16 @@ const items      = ref([])
 const selected   = ref(null)
 const form       = ref({ score: 75, feedback: '' })
 
+// Error toast
+const errorToast = ref('')
+let _errorToastTimer = null
+
+function showErrorToast(message) {
+  clearTimeout(_errorToastTimer)
+  errorToast.value = message
+  _errorToastTimer = setTimeout(() => { errorToast.value = '' }, 4000)
+}
+
 // Filters
 const search       = ref('')
 const statusFilter = ref(route.query.status || 'pending')
@@ -317,10 +338,15 @@ async function submitGrade() {
       items.value[idx] = { ...items.value[idx], ai_score: form.value.score, status: 'completed' }
       selected.value = items.value[idx]
     }
-  } catch { /* TODO: toast */ }
+  } catch (err) { showErrorToast(err?.response?.data?.detail || 'Đã có lỗi khi lưu điểm.') }
   finally { submitting.value = false }
 }
 
 watch([statusFilter, typeFilter], load)
 onMounted(load)
 </script>
+
+<style scoped>
+.toast-enter-active, .toast-leave-active { transition: all 0.3s ease; }
+.toast-enter-from, .toast-leave-to { opacity: 0; transform: translate(-50%, 12px); }
+</style>

@@ -2,6 +2,16 @@
   <!-- Normal mode wrapper -->
   <div class="p-4 sm:p-6 max-w-4xl mx-auto">
 
+    <!-- Error toast -->
+    <Transition name="toast">
+      <div v-if="errorToast"
+           class="fixed bottom-6 left-1/2 z-50 px-5 py-3 rounded-xl shadow-xl text-sm font-semibold"
+           style="-webkit-transform:translateX(-50%);transform:translateX(-50%);
+                  background:#450a0a; border:1px solid rgba(239,68,68,0.5); color:#fca5a5;">
+        ⚠️ {{ errorToast }}
+      </div>
+    </Transition>
+
     <!-- Header -->
     <div class="flex items-center justify-between gap-3 mb-6 flex-wrap">
       <div class="flex items-center gap-3">
@@ -206,6 +216,15 @@ const showDraftBanner = ref(false)
 const savedDraftContent = ref('')
 const lastSavedTime = ref('')
 
+const errorToast = ref('')
+let _errorToastTimer = null
+
+function showErrorToast(message) {
+  clearTimeout(_errorToastTimer)
+  errorToast.value = message
+  _errorToastTimer = setTimeout(() => { errorToast.value = '' }, 4000)
+}
+
 const timerSeconds = ref(0)
 let timerInterval = null
 let autoSaveInterval = null
@@ -353,7 +372,9 @@ async function submit() {
     if (draftKey.value) localStorage.removeItem(draftKey.value)
     exitZen()
     router.push(`/learn/result/${submissionId}?type=writing`)
-  } catch { /* TODO: error toast */ }
+  } catch (err) {
+    showErrorToast(err?.response?.data?.detail || 'Đã có lỗi xảy ra, vui lòng thử lại.')
+  }
   finally { submitting.value = false }
 }
 
@@ -520,4 +541,7 @@ onBeforeUnmount(() => {
 .slide-down-enter-active { transition: all 0.25s ease; }
 .slide-down-leave-active { transition: all 0.2s ease; }
 .slide-down-enter-from, .slide-down-leave-to { opacity: 0; transform: translateY(-8px); }
+
+.toast-enter-active, .toast-leave-active { transition: all 0.3s ease; }
+.toast-enter-from, .toast-leave-to { opacity: 0; transform: translate(-50%, 12px); }
 </style>
