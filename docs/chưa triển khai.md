@@ -2,7 +2,7 @@
 
 > Cập nhật: **31/03/2026** — ✅ Tất cả P0 + hầu hết P1/P2 đã triển khai  
 > Phiên 4 (29/03/2026): §8.1 Prerequisite enforcement, §8.4 Teacher CSV export, §8.5 Vocabulary import, Vocabulary CRUD admin, §9.1 UnlockModal, §9.2 SkillTree, §9.3 Split-pane, §9.4 Writing Zen Mode  
-> Phiên 5 (31/03/2026): Fix bug `goNextLesson` (route không tồn tại → dùng `next_exercise_type`/`next_exercise_id`), Tích hợp SkillTreeView vào CourseDetailView (toggle List/Tree), Tích hợp UnlockModal vào ExerciseResultView (auto-show khi next_lesson_id có)  
+> Phiên 5 (31/03/2026): Fix bug `goNextLesson` (route không tồn tại → dùng `next_exercise_type`/`next_exercise_id`), Tích hợp SkillTreeView vào CourseDetailView (toggle List/Tree), Tích hợp UnlockModal vào ExerciseResultView (auto-show khi next_lesson_id có), §12 CSV Import UI (dropzone panel), §20 Vocabulary CRUD UI (tab đầy đủ CRUD + import)  
 > Phạm vi: So sánh codebase hiện tại vs PRD.md, xác định thiếu sót, lập kế hoạch kỹ thuật chi tiết.
 
 ---
@@ -251,7 +251,7 @@ example.audio_url    # URL audio phát âm
 | 9 | Grammar audio player | ✅ audio_url field có | ✅ **DONE** — GrammarDetailView.vue | – | 🟡 ~~P1~~ |
 | 10 | Progress Check bắt buộc sau chapter | ❌ Logic chưa có | ❌ Không có trigger | Cao | 🟡 P1 — **còn thiếu** |
 | 11 | Source file upload S3 | ❌ Không có SourceFile model, không có endpoint | ❌ Không có upload UI | Cao | 🟡 P1 — **còn thiếu** |
-| 12 | CSV bulk import vocabulary | ✅ **DONE** — `AdminVocabularyImportView` | ⚠️ API method có, UI upload form chưa có | Trung bình | 🟡 ~~P1~~ → ⚠️ UI còn thiếu |
+| 12 | CSV bulk import vocabulary | ✅ **DONE** — `AdminVocabularyImportView` | ✅ **DONE** — Dropzone panel trong tab 📝 Từ vựng (AdminContentView), kéo thả hoặc click chọn file, hiển thị kết quả created/duplicates/errors | Trung bình | 🟡 ~~P1~~ |
 | 13 | Teacher: tạo exam + giao bài | ❌ Không có endpoint | ❌ Không có UI | Cao | 🟡 P1 — **còn thiếu** |
 | 14 | Teacher: export class CSV | ✅ **DONE** — `TeacherExportClassView` | ✅ **DONE** — nút "Xuất CSV" trong TeacherClassView.vue | Thấp | 🟡 ~~P1~~ |
 | 15 | Skill Tree visual map | ✅ Data có | ✅ **DONE** — `SkillTreeView.vue` component + **tích hợp vào CourseDetailView** toggle List/🌿 Skill Tree | Cao | 🟢 ~~P2~~ |

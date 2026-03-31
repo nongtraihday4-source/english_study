@@ -491,14 +491,287 @@
         </div>
       </div>
     </Teleport>
+
+    <!-- ─── VOCABULARY TAB ──────────────────────────────────────────────────── -->
+    <template v-if="activeTab === 'vocabulary'">
+
+      <!-- Toolbar -->
+      <div class="flex flex-wrap items-center gap-3">
+        <input
+          v-model="vocabSearch"
+          type="text"
+          placeholder="Tìm từ vựng..."
+          class="rounded-xl px-3 py-2 text-sm border outline-none flex-1 min-w-[160px]"
+          style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)"
+          @keyup.enter="fetchVocab"
+        />
+        <select
+          v-model="vocabLevel"
+          class="rounded-xl px-3 py-2 text-sm border outline-none"
+          style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)"
+          @change="fetchVocab"
+        >
+          <option value="">Tất cả cấp độ</option>
+          <option v-for="lv in ['A1','A2','B1','B2','C1','C2']" :key="lv" :value="lv">{{ lv }}</option>
+        </select>
+        <button
+          class="px-3 py-2 rounded-xl text-sm font-semibold transition hover:opacity-90"
+          style="background-color: var(--color-surface-03); color: var(--color-text-muted)"
+          @click="fetchVocab"
+        >🔍</button>
+        <button
+          class="px-4 py-2 rounded-xl text-sm font-semibold transition hover:opacity-90"
+          style="background: rgba(99,102,241,0.15); color: #818cf8; border: 1px solid rgba(99,102,241,0.3)"
+          @click="showImportPanel = !showImportPanel"
+        >📥 Import CSV</button>
+        <button
+          class="px-4 py-2 rounded-xl text-sm font-semibold transition hover:opacity-90"
+          style="background-color: var(--color-primary-500); color: #fff"
+          @click="openWordForm()"
+        >+ Thêm từ</button>
+      </div>
+
+      <!-- CSV Import Panel (collapsible) -->
+      <Transition name="fade">
+        <div v-if="showImportPanel" class="rounded-2xl p-5 space-y-4"
+             style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)">
+          <h4 class="text-sm font-bold" style="color: var(--color-text-base)">📥 Import từ vựng từ CSV</h4>
+          <p class="text-xs" style="color: var(--color-text-muted)">
+            File CSV cần có cột: <code class="px-1 rounded" style="background:var(--color-surface-03)">word</code>,
+            <code class="px-1 rounded" style="background:var(--color-surface-03)">cefr_level</code> (A1-C2),
+            <code class="px-1 rounded" style="background:var(--color-surface-03)">meaning_vi</code>.
+            Tuỳ chọn: <code class="px-1 rounded" style="background:var(--color-surface-03)">definition_en</code>,
+            <code class="px-1 rounded" style="background:var(--color-surface-03)">example_en</code>,
+            <code class="px-1 rounded" style="background:var(--color-surface-03)">part_of_speech</code>.
+          </p>
+
+          <!-- Dropzone -->
+          <div
+            class="rounded-xl border-2 border-dashed flex flex-col items-center justify-center gap-3 py-8 cursor-pointer transition hover:opacity-80"
+            :style="importDragOver
+              ? 'border-color:#818cf8; background: rgba(99,102,241,0.08)'
+              : 'border-color: var(--color-surface-04); background: var(--color-surface-01)'"
+            @dragover.prevent="importDragOver = true"
+            @dragleave="importDragOver = false"
+            @drop.prevent="onImportDrop"
+            @click="$refs.importFileInput.click()"
+          >
+            <span class="text-3xl">📄</span>
+            <p class="text-sm font-medium" style="color: var(--color-text-muted)">
+              {{ importFile ? importFile.name : 'Kéo thả file CSV vào đây, hoặc click để chọn file' }}
+            </p>
+            <input ref="importFileInput" type="file" accept=".csv" class="hidden" @change="onImportFileChange" />
+          </div>
+
+          <!-- Import result -->
+          <div v-if="importResult" class="rounded-xl p-4 text-sm space-y-2"
+               :style="importResult.errors?.length
+                 ? 'background: color-mix(in srgb,#f59e0b 10%,transparent); border: 1px solid rgba(245,158,11,0.3)'
+                 : 'background: color-mix(in srgb,#22c55e 10%,transparent); border: 1px solid rgba(34,197,94,0.3)'">
+            <p style="color: var(--color-text-base)">
+              ✅ Thêm mới: <strong>{{ importResult.created }}</strong> từ
+              · 🔁 Trùng lặp: <strong>{{ importResult.duplicates }}</strong>
+            </p>
+            <ul v-if="importResult.errors?.length" class="space-y-0.5">
+              <li v-for="(e, i) in importResult.errors" :key="i" class="text-xs" style="color: #fca5a5">⚠ {{ e }}</li>
+            </ul>
+          </div>
+
+          <div class="flex justify-end gap-3">
+            <button
+              class="px-4 py-2 text-sm rounded-xl transition hover:opacity-80"
+              style="background-color: var(--color-surface-03); color: var(--color-text-muted)"
+              @click="showImportPanel = false; importFile = null; importResult = null"
+            >Đóng</button>
+            <button
+              class="px-4 py-2 text-sm rounded-xl font-semibold transition hover:opacity-90 disabled:opacity-50"
+              style="background-color: var(--color-primary-500); color: #fff"
+              :disabled="!importFile || importLoading"
+              @click="submitImport"
+            >{{ importLoading ? 'Đang nhập...' : '📥 Nhập CSV' }}</button>
+          </div>
+        </div>
+      </Transition>
+
+      <!-- Loading -->
+      <div v-if="vocabLoading" class="space-y-2">
+        <div v-for="i in 6" :key="i" class="h-10 rounded-xl animate-pulse" style="background-color: var(--color-surface-02)"></div>
+      </div>
+
+      <!-- Table -->
+      <div v-else class="rounded-2xl overflow-hidden" style="border: 1px solid var(--color-surface-04)">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr style="background-color: var(--color-surface-02)">
+              <th class="text-left px-4 py-3 font-semibold" style="color: var(--color-text-muted)">Từ</th>
+              <th class="text-left px-4 py-3 font-semibold" style="color: var(--color-text-muted)">Nghĩa tiếng Việt</th>
+              <th class="text-left px-4 py-3 font-semibold hidden md:table-cell" style="color: var(--color-text-muted)">Ví dụ</th>
+              <th class="text-left px-4 py-3 font-semibold" style="color: var(--color-text-muted)">Cấp</th>
+              <th class="px-4 py-3"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-if="!vocabWords.length">
+              <td colspan="5" class="text-center py-8 text-sm" style="color: var(--color-text-muted)">Không có từ vựng nào.</td>
+            </tr>
+            <tr
+              v-for="word in vocabWords"
+              :key="word.id"
+              class="border-t transition hover:bg-white/3"
+              style="border-color: var(--color-surface-04)"
+            >
+              <td class="px-4 py-3 font-semibold" style="color: var(--color-text-base)">
+                {{ word.word }}
+                <span v-if="word.part_of_speech" class="ml-1 text-xs font-normal" style="color: var(--color-text-muted)">({{ word.part_of_speech }})</span>
+              </td>
+              <td class="px-4 py-3" style="color: var(--color-text-base)">{{ word.meaning_vi }}</td>
+              <td class="px-4 py-3 hidden md:table-cell text-xs truncate max-w-[200px]" style="color: var(--color-text-muted)">
+                {{ word.example_en || '—' }}
+              </td>
+              <td class="px-4 py-3">
+                <span class="px-2 py-0.5 rounded-full text-xs font-bold"
+                      style="background: rgba(79,70,229,0.15); color: #818cf8">{{ word.cefr_level }}</span>
+              </td>
+              <td class="px-4 py-3">
+                <div class="flex items-center gap-1 justify-end">
+                  <button
+                    class="text-xs px-2 py-1 rounded-lg transition hover:opacity-80"
+                    style="background-color:color-mix(in srgb,var(--color-primary-600) 18%,transparent);color:var(--color-primary-400)"
+                    @click="openWordForm(word)"
+                  >Sửa</button>
+                  <button
+                    class="text-xs px-2 py-1 rounded-lg transition hover:opacity-80"
+                    style="background-color:color-mix(in srgb,#ef4444 16%,transparent);color:#f87171"
+                    @click="confirmDeleteWord(word)"
+                  >Xoá</button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Pagination -->
+        <div v-if="vocabTotal > vocabPageSize" class="flex items-center justify-between px-4 py-3"
+             style="background-color: var(--color-surface-02); border-top: 1px solid var(--color-surface-04)">
+          <span class="text-xs" style="color: var(--color-text-muted)">
+            {{ (vocabPage - 1) * vocabPageSize + 1 }}–{{ Math.min(vocabPage * vocabPageSize, vocabTotal) }} / {{ vocabTotal }} từ
+          </span>
+          <div class="flex gap-2">
+            <button
+              class="px-3 py-1 rounded-lg text-xs transition disabled:opacity-40"
+              style="background-color: var(--color-surface-03); color: var(--color-text-muted)"
+              :disabled="vocabPage <= 1"
+              @click="vocabPage--; fetchVocab()"
+            >← Trước</button>
+            <button
+              class="px-3 py-1 rounded-lg text-xs transition disabled:opacity-40"
+              style="background-color: var(--color-surface-03); color: var(--color-text-muted)"
+              :disabled="vocabPage * vocabPageSize >= vocabTotal"
+              @click="vocabPage++; fetchVocab()"
+            >Sau →</button>
+          </div>
+        </div>
+      </div>
+
+    </template>
+
+    <!-- ─── WORD FORM MODAL ─────────────────────────────────────────────────── -->
+    <Teleport to="body">
+      <div v-if="showWordForm" class="fixed inset-0 z-50 flex items-center justify-center p-4"
+           style="background-color: rgba(0,0,0,0.6)" @click.self="showWordForm = false">
+        <div class="w-full max-w-md rounded-2xl p-6 space-y-4" style="background-color: var(--color-surface-01)">
+          <h3 class="text-base font-bold" style="color: var(--color-text-base)">
+            {{ wordFormData.id ? 'Sửa từ vựng' : 'Thêm từ vựng' }}
+          </h3>
+          <div class="space-y-3">
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Từ *</label>
+                <input v-model="wordFormData.word" type="text" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                  style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)" />
+              </div>
+              <div>
+                <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Cấp độ *</label>
+                <select v-model="wordFormData.cefr_level" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                  style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)">
+                  <option value="">Chọn cấp</option>
+                  <option v-for="lv in ['A1','A2','B1','B2','C1','C2']" :key="lv" :value="lv">{{ lv }}</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Nghĩa tiếng Việt *</label>
+              <input v-model="wordFormData.meaning_vi" type="text" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)" />
+            </div>
+            <div>
+              <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Định nghĩa (EN)</label>
+              <input v-model="wordFormData.definition_en" type="text" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)" />
+            </div>
+            <div>
+              <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Ví dụ (EN)</label>
+              <input v-model="wordFormData.example_en" type="text" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)" />
+            </div>
+            <div>
+              <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Loại từ</label>
+              <select v-model="wordFormData.part_of_speech" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)">
+                <option value="">—</option>
+                <option value="noun">noun</option>
+                <option value="verb">verb</option>
+                <option value="adjective">adjective</option>
+                <option value="adverb">adverb</option>
+                <option value="preposition">preposition</option>
+                <option value="phrase">phrase</option>
+                <option value="other">other</option>
+              </select>
+            </div>
+          </div>
+          <div v-if="wordFormError" class="rounded-xl p-3 text-sm"
+            style="background-color:color-mix(in srgb,#ef4444 12%,transparent);color:#f87171">{{ wordFormError }}</div>
+          <div class="flex justify-end gap-3 pt-2">
+            <button class="px-4 py-2 text-sm rounded-xl transition hover:opacity-80"
+              style="background-color: var(--color-surface-03); color: var(--color-text-muted)" @click="showWordForm = false">Huỷ</button>
+            <button class="px-4 py-2 text-sm rounded-xl font-semibold transition hover:opacity-90"
+              style="background-color: var(--color-primary-500); color: #fff" :disabled="wordFormLoading" @click="submitWordForm">
+              {{ wordFormLoading ? 'Đang lưu...' : 'Lưu' }}</button>
+          </div>
+        </div>
+      </div>
+    </Teleport>
+
+    <!-- ─── WORD DELETE CONFIRM ─────────────────────────────────────────────── -->
+    <Teleport to="body">
+      <div v-if="wordDeleteTarget" class="fixed inset-0 z-50 flex items-center justify-center p-4"
+           style="background-color: rgba(0,0,0,0.6)" @click.self="wordDeleteTarget = null">
+        <div class="w-full max-w-sm rounded-2xl p-6 space-y-4" style="background-color: var(--color-surface-01)">
+          <h3 class="text-base font-bold" style="color: var(--color-text-base)">Xác nhận xoá từ vựng</h3>
+          <p class="text-sm" style="color: var(--color-text-muted)">
+            Xoá từ "<strong>{{ wordDeleteTarget.word }}</strong>"? Hành động này không thể hoàn tác.
+          </p>
+          <div class="flex justify-end gap-3">
+            <button class="px-4 py-2 text-sm rounded-xl" style="background-color: var(--color-surface-03); color: var(--color-text-muted)"
+              @click="wordDeleteTarget = null">Huỷ</button>
+            <button class="px-4 py-2 text-sm rounded-xl font-semibold transition hover:opacity-90"
+              style="background-color: #ef4444; color: #fff" :disabled="wordDeleteLoading" @click="deleteWord">
+              {{ wordDeleteLoading ? 'Đang xoá...' : 'Xoá' }}</button>
+          </div>
+        </div>
+      </div>
+    </Teleport>
   </div>
 </template>
 
 <script setup>
-import { onMounted, reactive, ref } from 'vue'
+import { onMounted, reactive, ref, watch } from 'vue'
 import { adminApi } from '@/api/admin.js'
 
-const TABS = [{ id: 'courses', label: '📚 Khoá học' }]
+const TABS = [
+  { id: 'courses', label: '📚 Khoá học' },
+  { id: 'vocabulary', label: '📝 Từ vựng' },
+]
 const activeTab = ref('courses')
 
 // ── Courses ────────────────────────────────────────────────────────────────
@@ -815,4 +1088,152 @@ async function deleteLesson() {
 }
 
 onMounted(fetchCourses)
+
+// ─── VOCABULARY STATE ─────────────────────────────────────────────────────
+const vocabWords    = ref([])
+const vocabLoading  = ref(false)
+const vocabSearch   = ref('')
+const vocabLevel    = ref('')
+const vocabPage     = ref(1)
+const vocabTotal    = ref(0)
+const vocabPageSize = 20
+
+async function fetchVocab() {
+  vocabLoading.value = true
+  try {
+    const { data } = await adminApi.getVocabulary({
+      search: vocabSearch.value || undefined,
+      cefr_level: vocabLevel.value || undefined,
+      page: vocabPage.value,
+      page_size: vocabPageSize,
+    })
+    vocabWords.value = data.results ?? data
+    vocabTotal.value = data.count ?? vocabWords.value.length
+  } catch {
+    vocabWords.value = []
+  } finally {
+    vocabLoading.value = false
+  }
+}
+
+// Auto-load when switching to vocabulary tab
+watch(activeTab, (tab) => {
+  if (tab === 'vocabulary' && !vocabWords.value.length) {
+    vocabPage.value = 1
+    fetchVocab()
+  }
+})
+
+// ─── WORD FORM ────────────────────────────────────────────────────────────
+const showWordForm  = ref(false)
+const wordFormData  = reactive({ id: null, word: '', cefr_level: '', meaning_vi: '', definition_en: '', example_en: '', part_of_speech: '' })
+const wordFormError = ref('')
+const wordFormLoading = ref(false)
+
+function openWordForm(word = null) {
+  Object.assign(wordFormData, {
+    id: word?.id ?? null,
+    word: word?.word ?? '',
+    cefr_level: word?.cefr_level ?? '',
+    meaning_vi: word?.meaning_vi ?? '',
+    definition_en: word?.definition_en ?? '',
+    example_en: word?.example_en ?? '',
+    part_of_speech: word?.part_of_speech ?? '',
+  })
+  wordFormError.value = ''
+  showWordForm.value = true
+}
+
+async function submitWordForm() {
+  if (!wordFormData.word.trim() || !wordFormData.cefr_level || !wordFormData.meaning_vi.trim()) {
+    wordFormError.value = 'Vui lòng điền đầy đủ các trường bắt buộc (Từ, Cấp độ, Nghĩa).'
+    return
+  }
+  wordFormLoading.value = true
+  wordFormError.value = ''
+  try {
+    const payload = {
+      word: wordFormData.word.trim(),
+      cefr_level: wordFormData.cefr_level,
+      meaning_vi: wordFormData.meaning_vi.trim(),
+      definition_en: wordFormData.definition_en.trim() || null,
+      example_en: wordFormData.example_en.trim() || null,
+      part_of_speech: wordFormData.part_of_speech || null,
+    }
+    if (wordFormData.id) {
+      await adminApi.updateWord(wordFormData.id, payload)
+    } else {
+      await adminApi.createWord(payload)
+    }
+    showWordForm.value = false
+    fetchVocab()
+  } catch (e) {
+    wordFormError.value = e?.response?.data?.detail || JSON.stringify(e?.response?.data) || 'Không thể lưu từ vựng.'
+  } finally {
+    wordFormLoading.value = false
+  }
+}
+
+// ─── WORD DELETE ──────────────────────────────────────────────────────────
+const wordDeleteTarget  = ref(null)
+const wordDeleteLoading = ref(false)
+
+function confirmDeleteWord(word) {
+  wordDeleteTarget.value = word
+}
+
+async function deleteWord() {
+  wordDeleteLoading.value = true
+  try {
+    await adminApi.deleteWord(wordDeleteTarget.value.id)
+    wordDeleteTarget.value = null
+    fetchVocab()
+  } catch {
+    wordDeleteTarget.value = null
+    error.value = 'Không thể xoá từ vựng.'
+  } finally {
+    wordDeleteLoading.value = false
+  }
+}
+
+// ─── CSV IMPORT ───────────────────────────────────────────────────────────
+const showImportPanel = ref(false)
+const importFile      = ref(null)
+const importDragOver  = ref(false)
+const importLoading   = ref(false)
+const importResult    = ref(null)
+
+function onImportFileChange(e) {
+  importFile.value = e.target.files[0] ?? null
+  importResult.value = null
+}
+
+function onImportDrop(e) {
+  importDragOver.value = false
+  const f = e.dataTransfer.files[0]
+  if (f && f.name.endsWith('.csv')) {
+    importFile.value = f
+    importResult.value = null
+  }
+}
+
+async function submitImport() {
+  if (!importFile.value) return
+  importLoading.value = true
+  importResult.value = null
+  try {
+    const fd = new FormData()
+    fd.append('file', importFile.value)
+    const { data } = await adminApi.importVocabulary(fd)
+    importResult.value = data
+    importFile.value = null
+    // Refresh table
+    vocabPage.value = 1
+    fetchVocab()
+  } catch (e) {
+    importResult.value = { created: 0, duplicates: 0, errors: [e?.response?.data?.error || 'Import thất bại.'] }
+  } finally {
+    importLoading.value = false
+  }
+}
 </script>
