@@ -110,29 +110,33 @@ class SubmitExamSerializer(serializers.Serializer):
 class ExerciseResultSerializer(serializers.ModelSerializer):
     score_display = serializers.SerializerMethodField()
     next_lesson_id = serializers.SerializerMethodField()
+    next_exercise_type = serializers.SerializerMethodField()
+    next_exercise_id = serializers.SerializerMethodField()
 
     class Meta:
         model = ExerciseResult
         fields = [
             "id", "exercise_type", "exercise_id", "score", "score_display",
-            "passed", "detail_json", "created_at", "next_lesson_id",
+            "passed", "detail_json", "created_at",
+            "next_lesson_id", "next_exercise_type", "next_exercise_id",
         ]
 
     def get_score_display(self, obj):
         return fmt_score(obj.score)
 
-    def get_next_lesson_id(self, obj):
+    def _resolve_next_lesson(self, obj):
         """
-        Return the ID of the next available lesson in the same chapter,
-        after the lesson associated with this exercise result.
-        Returns None if the lesson is not set or no next lesson exists.
+        Compute and cache the next available Lesson object on `obj`.
+        Returns a Lesson instance or None.
         """
+        if hasattr(obj, "_next_lesson_cache"):
+            return obj._next_lesson_cache
         if not obj.lesson_id:
+            obj._next_lesson_cache = None
             return None
         try:
             from apps.curriculum.models import Lesson
             lesson = obj.lesson
-            # Find the next lesson in order within the same chapter
             next_lesson = (
                 Lesson.objects.filter(
                     chapter_id=lesson.chapter_id,
@@ -142,22 +146,31 @@ class ExerciseResultSerializer(serializers.ModelSerializer):
                 .order_by("order")
                 .first()
             )
-            if next_lesson:
-                # Only return it if the user has it unlocked/available
-                user = getattr(obj, "_user_override", None)
-                if user is None:
-                    return next_lesson.pk
-                from apps.progress.models import LessonProgress
-                lp = LessonProgress.objects.filter(
-                    user=user, lesson=next_lesson
-                ).first()
-                if lp and lp.status in ("available", "in_progress", "completed"):
-                    return next_lesson.pk
-                # No progress record means it may have just been unlocked
-                return next_lesson.pk
+            obj._next_lesson_cache = next_lesson
         except Exception as exc:
-            logger.warning("Failed to compute next_lesson_id for result=%s: %s", obj.pk, exc)
-        return None
+            logger.warning("Failed to resolve next_lesson for result=%s: %s", obj.pk, exc)
+            obj._next_lesson_cache = None
+        return obj._next_lesson_cache
+
+    def get_next_lesson_id(self, obj):
+        next_lesson = self._resolve_next_lesson(obj)
+        return next_lesson.pk if next_lesson else None
+
+    def get_next_exercise_type(self, obj):
+        """Return the exercise_type of the first LessonExercise in the next lesson."""
+        next_lesson = self._resolve_next_lesson(obj)
+        if not next_lesson:
+            return None
+        le = next_lesson.lessonexercise_set.order_by("order").first()
+        return le.exercise_type if le else next_lesson.lesson_type
+
+    def get_next_exercise_id(self, obj):
+        """Return the exercise_id of the first LessonExercise in the next lesson."""
+        next_lesson = self._resolve_next_lesson(obj)
+        if not next_lesson:
+            return None
+        le = next_lesson.lessonexercise_set.order_by("order").first()
+        return le.exercise_id if le else None
 
 
 class SpeakingSubmissionSerializer(serializers.ModelSerializer):
