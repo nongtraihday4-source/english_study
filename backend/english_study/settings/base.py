@@ -322,6 +322,21 @@ EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD", default="")
 DEFAULT_FROM_EMAIL  = config("DEFAULT_FROM_EMAIL",  default="English Study <noreply@english-study.vn>")
 SERVER_EMAIL        = DEFAULT_FROM_EMAIL
 FRONTEND_URL        = config("FRONTEND_URL",        default="http://localhost:5173")
+
+# ─── VNPay ───────────────────────────────────────────────────────────────────
+VNPAY_TMN_CODE      = config("VNPAY_TMN_CODE",      default="")
+VNPAY_HASH_SECRET   = config("VNPAY_HASH_SECRET",   default="")
+VNPAY_PAYMENT_URL   = config("VNPAY_PAYMENT_URL",   default="https://sandbox.vnpayment.vn/paymentv2/vpcpay.html")
+VNPAY_RETURN_URL    = config("VNPAY_RETURN_URL",     default="http://localhost:5173/payment/success")
+
+# ─── Stripe ──────────────────────────────────────────────────────────────────
+STRIPE_SECRET_KEY       = config("STRIPE_SECRET_KEY",       default="")
+STRIPE_PUBLISHABLE_KEY  = config("STRIPE_PUBLISHABLE_KEY",  default="")
+STRIPE_WEBHOOK_SECRET   = config("STRIPE_WEBHOOK_SECRET",   default="")
+
+# ─── Certificate ─────────────────────────────────────────────────────────────
+CERTIFICATE_PDF_S3_PREFIX = config("CERTIFICATE_PDF_S3_PREFIX", default="certificates/")
+
 # Extra public holidays injected via env (YYYY-MM-DD, comma-separated)
 _extra_holidays     = config("PUBLIC_HOLIDAYS_EXTRA", default="")
 PUBLIC_HOLIDAYS_EXTRA: list[str] = [d.strip() for d in _extra_holidays.split(",") if d.strip()]
