@@ -1,7 +1,15 @@
 <template>
   <div class="flex flex-col" style="min-height: calc(100vh - 64px)">
 
-    <!-- Loading skeleton -->
+    <!-- Error toast -->
+    <Transition name="toast">
+      <div v-if="errorToast"
+           class="fixed bottom-6 left-1/2 z-50 px-5 py-3 rounded-xl shadow-xl text-sm font-semibold"
+           style="-webkit-transform:translateX(-50%);transform:translateX(-50%);
+                  background:#450a0a; border:1px solid rgba(239,68,68,0.5); color:#fca5a5;">
+        ⚠️ {{ errorToast }}
+      </div>
+    </Transition>
     <div v-if="loading" class="p-6 space-y-4">
       <div class="h-6 w-56 rounded-lg animate-pulse" style="background: var(--color-surface-03)"></div>
       <div class="h-2 rounded-full animate-pulse" style="background: var(--color-surface-03)"></div>
@@ -239,6 +247,16 @@ const submitting = ref(false)
 const answers = reactive({})
 const splitMode = ref(true)
 
+// Error toast
+const errorToast = ref('')
+let _errorToastTimer = null
+
+function showErrorToast(message) {
+  clearTimeout(_errorToastTimer)
+  errorToast.value = message
+  _errorToastTimer = setTimeout(() => { errorToast.value = '' }, 4000)
+}
+
 const passagePaneRef = ref(null)
 const fontSize = ref(15)
 const highlightMode = ref(true)
@@ -361,8 +379,8 @@ async function submit() {
     const d = res.data?.data ?? res.data
     const submissionId = d?.id ?? d?.submission_id
     router.push(`/learn/result/${submissionId}?type=reading`)
-  } catch {
-    // TODO: error toast
+  } catch (err) {
+    showErrorToast(err?.response?.data?.detail || 'Đã có lỗi xảy ra, vui lòng thử lại.')
   } finally {
     submitting.value = false
   }
@@ -386,5 +404,8 @@ async function submit() {
     max-height: calc(100vh - 112px);
   }
 }
+
+.toast-enter-active, .toast-leave-active { transition: all 0.3s ease; }
+.toast-enter-from, .toast-leave-to { opacity: 0; transform: translate(-50%, 12px); }
 </style>
 

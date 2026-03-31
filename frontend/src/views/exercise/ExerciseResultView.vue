@@ -274,8 +274,13 @@ function retry() {
 }
 
 function goNextLesson() {
-  // TODO: when backend exposes next_lesson_id, navigate to that lesson
-  router.push('/dashboard')
+  // Navigate to next lesson if backend exposes next_lesson_id
+  const nextId = resultData.value?.next_lesson_id
+  if (nextId) {
+    router.push(`/courses/lesson/${nextId}`)
+  } else {
+    router.push('/dashboard')
+  }
 }
 
 function goDashboard() {
