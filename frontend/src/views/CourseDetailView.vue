@@ -90,13 +90,35 @@
 
       <!-- ── Chapter accordion ────────────────────────────────────────── -->
       <div>
-        <h2 class="font-bold text-lg mb-3" style="color: var(--color-text-base)">Nội dung khoá học</h2>
-        <div v-if="chaptersLoading" class="space-y-2">
+        <div class="flex items-center justify-between mb-3">
+          <h2 class="font-bold text-lg" style="color: var(--color-text-base)">Nội dung khoá học</h2>
+          <div class="flex rounded-lg overflow-hidden" style="border: 1px solid var(--color-surface-04)">
+            <button @click="viewMode = 'list'"
+                    class="px-3 py-1 text-xs font-semibold transition"
+                    :style="viewMode === 'list'
+                      ? 'background: var(--color-primary-600); color: white'
+                      : 'background: var(--color-surface-02); color: var(--color-text-muted)'">
+              ☰ Danh sách
+            </button>
+            <button @click="switchToTree"
+                    class="px-3 py-1 text-xs font-semibold transition"
+                    :style="viewMode === 'tree'
+                      ? 'background: var(--color-primary-600); color: white'
+                      : 'background: var(--color-surface-02); color: var(--color-text-muted)'">
+              🌿 Skill Tree
+            </button>
+          </div>
+        </div>
+
+        <!-- Tree view -->
+        <SkillTreeView v-if="viewMode === 'tree'" :chapters="chapters" />
+
+        <div v-if="viewMode === 'list' && chaptersLoading" class="space-y-2">
           <div v-for="i in 4" :key="i" class="h-14 rounded-xl animate-pulse"
                style="background-color: var(--color-surface-02)"></div>
         </div>
 
-        <div v-else class="space-y-2">
+        <div v-else-if="viewMode === 'list'" class="space-y-2">
           <div v-for="chapter in chapters" :key="chapter.id"
                class="rounded-xl overflow-hidden"
                style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)">
@@ -191,6 +213,7 @@ import { useRoute } from 'vue-router'
 import { curriculumApi } from '@/api/curriculum.js'
 import { progressApi } from '@/api/progress.js'
 import { useDashboardStore } from '@/stores/dashboard.js'
+import SkillTreeView from '@/components/SkillTreeView.vue'
 
 const route = useRoute()
 const dashboard = useDashboardStore()
@@ -198,6 +221,7 @@ const dashboard = useDashboardStore()
 const course = ref(null)
 const chapters = ref([])
 const loading = ref(false)
+const viewMode = ref('list')  // 'list' | 'tree'
 const chaptersLoading = ref(false)
 const enrolling = ref(false)
 
@@ -249,6 +273,25 @@ async function enroll() {
   } finally {
     enrolling.value = false
   }
+}
+
+// ── Switch to tree view: pre-load all chapter lessons ──────────────────────
+async function switchToTree() {
+  viewMode.value = 'tree'
+  // Load lessons for all chapters that haven't been fetched yet
+  await Promise.all(
+    chapters.value
+      .filter(ch => ch.lessons === null)
+      .map(async ch => {
+        try {
+          const res = await curriculumApi.getLessons(route.params.id, ch.id)
+          const ld = res.data?.data ?? res.data
+          ch.lessons = ld?.results || (Array.isArray(ld) ? ld : [])
+        } catch {
+          ch.lessons = []
+        }
+      })
+  )
 }
 
 // ── Chapter auto-load lessons (with cache) ───────────────────────────────────

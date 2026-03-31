@@ -1,7 +1,8 @@
 # Phân tích & Kế hoạch triển khai — Content/Curriculum System
 
-> Cập nhật: **29/03/2026** — ✅ Tất cả P0 + hầu hết P1/P2 đã triển khai  
+> Cập nhật: **31/03/2026** — ✅ Tất cả P0 + hầu hết P1/P2 đã triển khai  
 > Phiên 4 (29/03/2026): §8.1 Prerequisite enforcement, §8.4 Teacher CSV export, §8.5 Vocabulary import, Vocabulary CRUD admin, §9.1 UnlockModal, §9.2 SkillTree, §9.3 Split-pane, §9.4 Writing Zen Mode  
+> Phiên 5 (31/03/2026): Fix bug `goNextLesson` (route không tồn tại → dùng `next_exercise_type`/`next_exercise_id`), Tích hợp SkillTreeView vào CourseDetailView (toggle List/Tree), Tích hợp UnlockModal vào ExerciseResultView (auto-show khi next_lesson_id có)  
 > Phạm vi: So sánh codebase hiện tại vs PRD.md, xác định thiếu sót, lập kế hoạch kỹ thuật chi tiết.
 
 ---
@@ -253,8 +254,8 @@ example.audio_url    # URL audio phát âm
 | 12 | CSV bulk import vocabulary | ✅ **DONE** — `AdminVocabularyImportView` | ⚠️ API method có, UI upload form chưa có | Trung bình | 🟡 ~~P1~~ → ⚠️ UI còn thiếu |
 | 13 | Teacher: tạo exam + giao bài | ❌ Không có endpoint | ❌ Không có UI | Cao | 🟡 P1 — **còn thiếu** |
 | 14 | Teacher: export class CSV | ✅ **DONE** — `TeacherExportClassView` | ✅ **DONE** — nút "Xuất CSV" trong TeacherClassView.vue | Thấp | 🟡 ~~P1~~ |
-| 15 | Skill Tree visual map | ✅ Data có | ✅ **DONE** — `SkillTreeView.vue` component | Cao | 🟢 ~~P2~~ → ⚠️ chưa tích hợp vào CourseDetailView |
-| 16 | Unlock animations | ✅ Data có | ✅ **DONE** — `UnlockModal.vue` component | Thấp | 🟢 ~~P2~~ → ⚠️ chưa trigger khi nộp bài |
+| 15 | Skill Tree visual map | ✅ Data có | ✅ **DONE** — `SkillTreeView.vue` component + **tích hợp vào CourseDetailView** toggle List/🌿 Skill Tree | Cao | 🟢 ~~P2~~ |
+| 16 | Unlock animations | ✅ Data có | ✅ **DONE** — `UnlockModal.vue` component + **tích hợp ExerciseResultView** (auto-show khi next_lesson_id có, 3s auto-dismiss) | Thấp | 🟢 ~~P2~~ |
 | 17 | Split-pane exercise layout | – | ✅ **DONE** — toggle `⊞ Split` trong ListeningView + ReadingView | Trung bình | 🟢 ~~P2~~ |
 | 18 | Speaking dialogue UI (karaoke) | – | ❌ Không có | Cao | 🟢 P2 — **còn thiếu** |
 | 19 | Writing Zen Mode editor | – | ✅ **DONE** — `☯ Zen mode` trong WritingView.vue | Trung bình | 🟢 ~~P2~~ |
@@ -771,6 +772,7 @@ function playAudio(url) {
 ### 9.1 Unlock Animations ✅ DONE (component) / ⚠️ chưa tích hợp
 
 > **✅ Component hoàn thành — 29/03/2026**  
+> **✅ Tích hợp ExerciseResultView — 31/03/2026**  
 > `UnlockModal.vue` — `<Teleport to="body">` overlay với:
 > - 🔓 animate-bounce icon
 > - Hiển thị tên bài học (`lessonTitle` prop)
@@ -778,13 +780,16 @@ function playAudio(url) {
 > - Nút "Tiếp tục" + tự đóng sau 3s
 > - Cleanup timer trong `onUnmounted` (không memory leak)
 >
-> **⚠️ Chưa tích hợp:** Component chưa được import/dùng trong ExerciseResultView hay các submit flows. Cần trigger khi backend trả về `newly_unlocked_lessons` sau khi nộp bài.
+> Import và sử dụng trong `ExerciseResultView.vue`: sau khi `fetchResult()` thành công và kết quả có `next_lesson_id`, modal tự hiển thị với tên loại bài tập tiếp theo.  
+>
+> **Lưu ý kỹ thuật (31/03/2026):** Backend `ExerciseResultSerializer` đã được refactor để bổ sung `next_exercise_type` và `next_exercise_id` (cùng cache logic `_resolve_next_lesson`). `goNextLesson()` trong `ExerciseResultView` đã được **fix** — trước đó navigate sai tới `/courses/lesson/${id}` (route không tồn tại), nay dùng `router.push({ name: 'learn-${type}', params: { id }, query: { lesson_id } })`.
 
 ---
 
 ### 9.2 Skill Tree Visual Map ✅ DONE (component) / ⚠️ chưa tích hợp
 
 > **✅ Component hoàn thành — 29/03/2026**  
+> **✅ Tích hợp CourseDetailView — 31/03/2026**  
 > `SkillTreeView.vue` — vertical tree layout với:
 > - Chapter dividers (dashed line + label)
 > - Lesson nodes: completed (xanh), available (tím viền), locked (mờ 50%)
@@ -792,7 +797,8 @@ function playAudio(url) {
 > - Click navigate → `/learn/:type/:id` (dùng `RouterLink` khi `canNavigate()`)
 > - Tooltip cho locked lessons
 >
-> **⚠️ Chưa tích hợp:** `SkillTreeView.vue` chưa được dùng trong `CourseDetailView.vue`. Tab/toggle giữa list view và skill tree chưa có.
+> Toggle **☰ Danh sách / 🌿 Skill Tree** trong header section "Nội dung khoá học" của `CourseDetailView.vue`.  
+> Khi chuyển sang Skill Tree, tự động pre-load lessons của tất cả chapters chưa được fetch (`switchToTree()` dùng `Promise.all`).
 
 ---
 

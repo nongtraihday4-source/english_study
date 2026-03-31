@@ -1,5 +1,14 @@
 <template>
   <div class="p-6 max-w-2xl mx-auto">
+
+    <!-- Unlock modal (shown when a new lesson becomes accessible) -->
+    <UnlockModal
+      :show="unlockModal.show"
+      :lesson-title="unlockModal.lessonTitle"
+      :xp-gained="unlockModal.xpGained"
+      @close="unlockModal.show = false"
+    />
+
     <!-- Breadcrumb header -->
     <div class="flex items-center gap-2 mb-8 text-sm" style="color:var(--color-text-muted)">
       <RouterLink to="/dashboard" class="transition hover:opacity-80"
@@ -51,10 +60,11 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+import { ref, computed, reactive, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { progressApi } from '@/api/progress.js'
 import ExerciseResult from '@/components/exercise/ExerciseResult.vue'
+import UnlockModal from '@/components/UnlockModal.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -67,6 +77,9 @@ const error = ref('')
 const resultData = ref(null)
 const status = ref('completed')
 const pollTimer = ref(null)
+
+// Unlock modal state
+const unlockModal = reactive({ show: false, lessonTitle: '', xpGained: 0 })
 
 const score = computed(() => {
   if (!resultData.value) return null
@@ -236,6 +249,13 @@ async function fetchResult() {
     await fetchResultOnce()
     if (!isListeningOrReading.value && status.value !== 'completed') {
       startPolling()
+    } else if (resultData.value?.next_lesson_id) {
+      // Show unlock modal when the next lesson is available (just unlocked)
+      const exType = resultData.value?.next_exercise_type || 'listening'
+      const typeLabels = { listening: 'Listening', speaking: 'Speaking', reading: 'Reading', writing: 'Writing' }
+      unlockModal.lessonTitle = `Bài ${typeLabels[exType] || exType} tiếp theo đã mở khóa!`
+      unlockModal.xpGained = 0
+      unlockModal.show = true
     }
   } catch (e) {
     error.value = e?.response?.data?.detail || 'Không thể tải kết quả.'
@@ -274,10 +294,16 @@ function retry() {
 }
 
 function goNextLesson() {
-  // Navigate to next lesson if backend exposes next_lesson_id
-  const nextId = resultData.value?.next_lesson_id
-  if (nextId) {
-    router.push(`/courses/lesson/${nextId}`)
+  // Navigate to next lesson's exercise using next_exercise_type + next_exercise_id
+  const exType = resultData.value?.next_exercise_type
+  const exId   = resultData.value?.next_exercise_id
+  const lessonId = resultData.value?.next_lesson_id
+  if (exType && exId) {
+    router.push({
+      name: `learn-${exType}`,
+      params: { id: exId },
+      query: lessonId ? { lesson_id: lessonId } : undefined,
+    })
   } else {
     router.push('/dashboard')
   }
