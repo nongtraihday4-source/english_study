@@ -197,6 +197,48 @@ def _unlock_next_lessons(user, lesson, score: float) -> None:
             )
 
 
+def _check_chapter_completion(user, lesson) -> dict:
+    """
+    Check if ALL active lessons in lesson.chapter are completed.
+    Returns dict with chapter_completed bool and metadata.
+    """
+    from apps.progress.models import LessonProgress
+
+    chapter = lesson.chapter
+    total = chapter.lessons.filter(is_active=True).count()
+    if total == 0:
+        return {"chapter_completed": False}
+
+    completed = LessonProgress.objects.filter(
+        user=user,
+        lesson__chapter=chapter,
+        lesson__is_active=True,
+        status="completed",
+    ).count()
+
+    if completed >= total:
+        scores = list(
+            LessonProgress.objects.filter(
+                user=user,
+                lesson__chapter=chapter,
+                lesson__is_active=True,
+            ).values_list("best_score", flat=True)
+        )
+        valid_scores = [s for s in scores if s is not None]
+        avg = round(sum(valid_scores) / len(valid_scores), 1) if valid_scores else 0
+        logger.info(
+            "🏆 CHAPTER COMPLETE | chapter=%s '%s' user=%s avg_score=%.1f",
+            chapter.pk, chapter.title, user.pk, avg,
+        )
+        return {
+            "chapter_completed": True,
+            "chapter_id": chapter.pk,
+            "chapter_title": chapter.title,
+            "chapter_avg_score": avg,
+        }
+    return {"chapter_completed": False}
+
+
 def _update_course_enrollment(user, lesson) -> None:
     """Recalculate enrollment.progress_percent after a lesson is completed."""
     from apps.progress.models import UserEnrollment, LessonProgress
@@ -382,6 +424,10 @@ class AutoGrader:
         _update_lesson_progress(user, lesson, score, passing_score)
         _unlock_next_lessons(user, lesson, score)
         _update_course_enrollment(user, lesson)
+
+        # Check if the chapter is now fully completed
+        chapter_info = _check_chapter_completion(user, lesson)
+        ex_result._chapter_info = chapter_info
 
         # Update rolling cumulative score
         level_code = lesson.chapter.course.level.code

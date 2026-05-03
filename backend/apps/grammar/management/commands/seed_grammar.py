@@ -12,15 +12,16 @@ from pathlib import Path
 
 from django.core.management.base import BaseCommand, CommandError
 from django.db import transaction
+from django.utils.text import slugify
 
-from apps.grammar.models import GrammarExample, GrammarRule, GrammarTopic
+from apps.grammar.models import GrammarChapter, GrammarExample, GrammarRule, GrammarTopic
 
 LEVELS = ["A1", "A2", "B1", "B2", "C1"]
 FIXTURES_DIR = Path(__file__).resolve().parents[5] / "scripts" / "grammar_fixtures"
 
 
 class Command(BaseCommand):
-    help = "Seed grammar topics/rules/examples from JSON fixtures"
+    help = "Seed grammar chapters/topics/rules/examples from JSON fixtures"
 
     def add_arguments(self, parser):
         parser.add_argument(
@@ -44,6 +45,7 @@ class Command(BaseCommand):
             GrammarExample.objects.all().delete()
             GrammarRule.objects.all().delete()
             GrammarTopic.objects.filter(level__in=levels).delete()
+            GrammarChapter.objects.filter(level__in=levels).delete()
             self.stdout.write(self.style.SUCCESS("Cleared."))
 
         for level in levels:
@@ -59,22 +61,63 @@ class Command(BaseCommand):
 
     @transaction.atomic
     def _seed_level(self, fixture_path: Path, level: str):
-        data = json.loads(fixture_path.read_text(encoding="utf-8"))
+        raw = json.loads(fixture_path.read_text(encoding="utf-8"))
+
+        # Support both legacy list format and new {chapters, topics} dict format
+        if isinstance(raw, list):
+            chapters_data = []
+            topics_data = raw
+        else:
+            chapters_data = raw.get("chapters", [])
+            topics_data = raw.get("topics", [])
+
+        # ── 1. Seed chapters ────────────────────────────────────────────────
+        chapter_map: dict[str, GrammarChapter] = {}  # name → GrammarChapter
+        chapter_count = 0
+        for ch_data in chapters_data:
+            name = ch_data["name"]
+            slug = ch_data.get("slug") or slugify(name)[:220]
+            chapter, _ = GrammarChapter.objects.update_or_create(
+                level=level,
+                slug=slug,
+                defaults={
+                    "name":        name,
+                    "order":       ch_data.get("order", 0),
+                    "icon":        ch_data.get("icon", "📚"),
+                    "description": ch_data.get("description", ""),
+                },
+            )
+            chapter_map[name] = chapter
+            chapter_count += 1
+
+        # ── 2. Seed topics ──────────────────────────────────────────────────
         topic_count = rule_count = example_count = 0
 
-        for topic_data in data:
-            topic, created = GrammarTopic.objects.update_or_create(
+        for topic_data in topics_data:
+            chapter_name = topic_data.get("chapter", "")
+            chapter_obj = chapter_map.get(chapter_name)
+
+            topic, _ = GrammarTopic.objects.update_or_create(
                 slug=topic_data["slug"],
                 defaults={
-                    "level":          topic_data.get("level", level),
-                    "title":          topic_data["title"],
-                    "order":          topic_data.get("order", 0),
-                    "description":    topic_data.get("description", ""),
-                    "analogy":        topic_data.get("analogy", ""),
-                    "real_world_use": topic_data.get("real_world_use", ""),
-                    "memory_hook":    topic_data.get("memory_hook", ""),
-                    "icon":           topic_data.get("icon", "📖"),
-                    "is_published":   True,
+                    "level":           topic_data.get("level", level),
+                    "title":           topic_data["title"],
+                    "order":           topic_data.get("order", 0),
+                    "chapter":         chapter_obj,
+                    "description":     topic_data.get("description", ""),
+                    "metaphor_title":  topic_data.get("metaphor_title", ""),
+                    "narrative_intro": topic_data.get("narrative_intro", ""),
+                    "quick_vibe":      topic_data.get("quick_vibe", ""),
+                    "concept_image_url": topic_data.get("concept_image_url", ""),
+                    "analogy":         topic_data.get("analogy", ""),
+                    "real_world_use":  topic_data.get("real_world_use", ""),
+                    "memory_hook":     topic_data.get("memory_hook", ""),
+                    "signal_words":    topic_data.get("signal_words", []),
+                    "common_mistakes": topic_data.get("common_mistakes", []),
+                    "comparison_with": topic_data.get("comparison_with", []),
+                    "notes":           topic_data.get("notes", []),
+                    "icon":            topic_data.get("icon", "📖"),
+                    "is_published":    True,
                 },
             )
             topic_count += 1
@@ -84,11 +127,12 @@ class Command(BaseCommand):
                     topic=topic,
                     order=rule_data.get("order", 0),
                     defaults={
-                        "title":        rule_data["title"],
-                        "formula":      rule_data.get("formula", ""),
-                        "explanation":  rule_data.get("explanation", ""),
-                        "memory_hook":  rule_data.get("memory_hook", ""),
-                        "is_exception": rule_data.get("is_exception", False),
+                        "title":         rule_data["title"],
+                        "formula":       rule_data.get("formula", ""),
+                        "explanation":   rule_data.get("explanation", ""),
+                        "memory_hook":   rule_data.get("memory_hook", ""),
+                        "is_exception":  rule_data.get("is_exception", False),
+                        "grammar_table": rule_data.get("grammar_table", {}),
                     },
                 )
                 rule_count += 1
@@ -102,14 +146,14 @@ class Command(BaseCommand):
                             "context":     ex_data.get("context", ""),
                             "highlight":   ex_data.get("highlight", ""),
                             "audio_url":   ex_data.get("audio_url", ""),
+                            "is_correct":  ex_data.get("is_correct", True),
                         },
                     )
                     example_count += 1
 
-        action = "created/updated"
         self.stdout.write(
             self.style.SUCCESS(
-                f"  [{level}] {topic_count} topics, {rule_count} rules, "
-                f"{example_count} examples {action}"
+                f"  [{level}] {chapter_count} chapters, {topic_count} topics, "
+                f"{rule_count} rules, {example_count} examples"
             )
         )

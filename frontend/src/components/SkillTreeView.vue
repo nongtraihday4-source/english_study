@@ -37,11 +37,16 @@
           <component
             :is="canNavigate(lesson) ? 'RouterLink' : 'div'"
             v-bind="canNavigate(lesson) ? {
-              to: {
-                name: `learn-${lesson.exercise_type || lesson.lesson_type}`,
-                params: { id: lesson.exercise_id },
-                query: { lesson_id: lesson.id }
-              }
+              to: lesson.exercise_id
+                ? {
+                    name: `learn-${lesson.exercise_type || lesson.lesson_type}`,
+                    params: { id: lesson.exercise_id },
+                    query: { lesson_id: lesson.id }
+                  }
+                : {
+                    name: 'lesson-detail',
+                    params: { id: lesson.id }
+                  }
             } : {}"
             class="skill-node flex items-center gap-3 w-full max-w-sm px-4 py-3 rounded-2xl transition"
             :class="nodeClass(lesson)"
@@ -107,7 +112,7 @@ function isLocked(lesson) {
 }
 
 function canNavigate(lesson) {
-  return !isLocked(lesson) && !!lesson.exercise_id
+  return !isLocked(lesson)
 }
 
 function nodeIcon(lesson) {
@@ -136,7 +141,7 @@ function nodeStyle(lesson) {
 function nodeTitle(lesson) {
   if (lesson.is_unlocked === false) return 'Hoàn thành bài trước để mở khóa'
   if (lesson.progress_status === 'locked') return 'Hoàn thành bài trước để mở khóa'
-  if (!lesson.exercise_id) return 'Chưa có bài tập'
+  if (!lesson.exercise_id) return 'Mở bài học tích hợp'
   return ''
 }
 

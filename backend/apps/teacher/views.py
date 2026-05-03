@@ -283,3 +283,133 @@ class TeacherExportClassView(APIView):
         response = HttpResponse(output.getvalue(), content_type="text/csv; charset=utf-8-sig")
         response["Content-Disposition"] = f'attachment; filename="class_{pk}_students.csv"'
         return response
+
+
+# ─── Assignment views ──────────────────────────────────────────────────────
+
+class TeacherAssignmentListView(APIView):
+    """
+    GET  /api/v1/teacher/assignments/        → List assignments created by this teacher
+    POST /api/v1/teacher/assignments/        → Create new assignment
+    """
+    permission_classes = [IsTeacher]
+
+    def get(self, request):
+        from apps.teacher.models import ClassAssignment
+        from .serializers import ClassAssignmentSerializer
+
+        qs = (
+            ClassAssignment.objects
+            .filter(teacher=request.user)
+            .select_related("course", "exam_set")
+            .order_by("-created_at")
+        )
+        course_id = request.query_params.get("course_id")
+        if course_id:
+            qs = qs.filter(course_id=course_id)
+        is_active = request.query_params.get("is_active")
+        if is_active is not None:
+            qs = qs.filter(is_active=is_active.lower() == "true")
+
+        serializer = ClassAssignmentSerializer(qs, many=True, context={"request": request})
+        return Response({"count": qs.count(), "results": serializer.data})
+
+    def post(self, request):
+        from .serializers import ClassAssignmentSerializer
+
+        serializer = ClassAssignmentSerializer(data=request.data, context={"request": request})
+        if not serializer.is_valid():
+            return Response(serializer.errors, status=400)
+        assignment = serializer.save()
+        return Response(ClassAssignmentSerializer(assignment, context={"request": request}).data, status=201)
+
+
+class TeacherAssignmentDetailView(APIView):
+    """
+    GET    /api/v1/teacher/assignments/<pk>/  → Retrieve
+    PATCH  /api/v1/teacher/assignments/<pk>/  → Update
+    DELETE /api/v1/teacher/assignments/<pk>/  → Delete (soft: set is_active=False)
+    """
+    permission_classes = [IsTeacher]
+
+    def _get_assignment(self, request, pk):
+        from apps.teacher.models import ClassAssignment
+        try:
+            return ClassAssignment.objects.get(pk=pk, teacher=request.user)
+        except ClassAssignment.DoesNotExist:
+            return None
+
+    def get(self, request, pk):
+        from .serializers import ClassAssignmentSerializer
+        obj = self._get_assignment(request, pk)
+        if obj is None:
+            return Response({"detail": "Không tìm thấy bài tập."}, status=404)
+        return Response(ClassAssignmentSerializer(obj, context={"request": request}).data)
+
+    def patch(self, request, pk):
+        from .serializers import ClassAssignmentSerializer
+        obj = self._get_assignment(request, pk)
+        if obj is None:
+            return Response({"detail": "Không tìm thấy bài tập."}, status=404)
+        serializer = ClassAssignmentSerializer(obj, data=request.data,
+                                               partial=True, context={"request": request})
+        if not serializer.is_valid():
+            return Response(serializer.errors, status=400)
+        serializer.save()
+        return Response(serializer.data)
+
+    def delete(self, request, pk):
+        obj = self._get_assignment(request, pk)
+        if obj is None:
+            return Response({"detail": "Không tìm thấy bài tập."}, status=404)
+        obj.is_active = False
+        obj.save(update_fields=["is_active"])
+        return Response(status=204)
+
+
+class TeacherAssignmentSubmissionsView(APIView):
+    """
+    GET /api/v1/teacher/assignments/<pk>/submissions/
+    Returns all ExamAttempts (if the ExamAttempt model links back to an assignment)
+    or a placeholder list of assigned students + their submission status.
+    """
+    permission_classes = [IsTeacher]
+
+    def get(self, request, pk):
+        from apps.teacher.models import ClassAssignment, AssignmentStudent
+        try:
+            assignment = ClassAssignment.objects.select_related(
+                "course", "exam_set"
+            ).get(pk=pk, teacher=request.user)
+        except ClassAssignment.DoesNotExist:
+            return Response({"detail": "Không tìm thấy bài tập."}, status=404)
+
+        # Determine student list
+        if assignment.assign_to_all:
+            enrolled_ids = (
+                UserEnrollment.objects
+                .filter(course=assignment.course, is_deleted=False, status="active")
+                .values_list("user_id", flat=True)
+            )
+            students = User.objects.filter(id__in=enrolled_ids)
+        else:
+            student_ids = AssignmentStudent.objects.filter(
+                assignment=assignment
+            ).values_list("student_id", flat=True)
+            students = User.objects.filter(id__in=student_ids)
+
+        results = []
+        for student in students.order_by("last_name", "first_name"):
+            results.append({
+                "student_id": student.id,
+                "student_email": student.email,
+                "student_name": f"{student.last_name} {student.first_name}".strip() or student.email,
+            })
+
+        return Response({
+            "assignment_id": assignment.id,
+            "assignment_title": assignment.title,
+            "due_date": assignment.due_date,
+            "count": len(results),
+            "results": results,
+        })

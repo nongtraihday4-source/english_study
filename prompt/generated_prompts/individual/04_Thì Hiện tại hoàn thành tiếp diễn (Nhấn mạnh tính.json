@@ -1,0 +1,257 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have study English for 2 hours.",
+    "output": "✅ **Corrected Sentence:** I have been studying English for 2 hours.\n🔍 **Error Identification:** Thiếu 'been' và thiếu 'ing' – cần dùng hiện tại hoàn thành tiếp diễn (have/has + been + V-ing).\n📘 **Vietnamese Explanation:** Người Việt thường dùng hiện tại hoàn thành đơn (have studied) nhưng muốn nhấn mạnh 'đang học liên tục' thì phải dùng tiếp diễn. Mẹo: Có 'for + khoảng thời gian' + muốn nhấn mạnh hành động vẫn tiếp diễn → dùng have/has been + V-ing.\n💡 **Ví dụ:** She has been waiting for an hour. / They have been playing since 2 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has been work here since 2018.",
+    "output": "✅ **Corrected Sentence:** She has been working here since 2018.\n🔍 **Error Identification:** Thiếu 'ing' – sau 'been' phải là V-ing, không phải V nguyên thể.\n📘 **Vietnamese Explanation:** Người Việt nhớ 'has been' nhưng quên thêm 'ing' vào động từ chính. Mẹo: Cấu trúc: have/has + been + V-ing (bắt buộc có ing).\n💡 **Ví dụ:** He has been running. / They have been talking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long do you wait for me?",
+    "output": "✅ **Corrected Sentence:** How long have you been waiting for me?\n🔍 **Error Identification:** Sai thì – hỏi về hành động kéo dài từ quá khứ đến hiện tại phải dùng hiện tại hoàn thành tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho 'how long' vì dịch 'bạn chờ tôi bao lâu?'. Mẹo: 'How long' + hành động chưa kết thúc → hiện tại hoàn thành tiếp diễn.\n💡 **Ví dụ:** How long have you been learning English? / How long has it been raining?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been knowing her for 5 years.",
+    "output": "✅ **Corrected Sentence:** I have known her for 5 years.\n🔍 **Error Identification:** Dùng hiện tại hoàn thành tiếp diễn với stative verb 'know' – không đúng (know, believe, like, love không dùng tiếp diễn).\n📘 **Vietnamese Explanation:** Người Việt muốn nhấn mạnh 'biết lâu rồi' nên thêm 'been knowing'. Mẹo: Động từ chỉ nhận thức, cảm xúc (know, understand, like, love, believe) không dùng tiếp diễn, kể cả hiện tại hoàn thành tiếp diễn.\n💡 **Ví dụ:** I have loved her since college (not have been loving). / He has owned this car for 3 years."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We have been waiting for the bus since 30 minutes.",
+    "output": "✅ **Corrected Sentence:** We have been waiting for the bus for 30 minutes.\n🔍 **Error Identification:** 'Since' + mốc thời gian, 'for' + khoảng thời gian. '30 minutes' là khoảng → dùng 'for'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'since' và 'for' trong hiện tại hoàn thành tiếp diễn. Mẹo: 'Since' + điểm bắt đầu (8 AM, Monday), 'for' + độ dài (30 minutes, 2 hours).\n💡 **Ví dụ:** I have been working for 3 hours. / I have been working since 9 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has been study all night.",
+    "output": "✅ **Corrected Sentence:** She has been studying all night.\n🔍 **Error Identification:** Thiếu 'ing' – 'study' phải thành 'studying'.\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'ing' vào động từ chính. Mẹo: 'Has been' phải đi cùng V-ing, không bao giờ là V1.\n💡 **Ví dụ:** He has been sleeping. / They have been traveling."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They have been play soccer for 2 hours.",
+    "output": "✅ **Corrected Sentence:** They have been playing soccer for 2 hours.\n🔍 **Error Identification:** 'Play' cần thêm 'ing' thành 'playing'.\n📘 **Vietnamese Explanation:** Người Việt nhớ 'have been' nhưng để động từ nguyên thể. Mẹo: Cứ sau 'have/has been' thì động từ bắt buộc thêm 'ing'.\n💡 **Ví dụ:** We have been eating. / She has been writing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am waiting for you since 2 hours.",
+    "output": "✅ **Corrected Sentence:** I have been waiting for you for 2 hours.\n🔍 **Error Identification:** Dùng hiện tại tiếp diễn (am waiting) với 'since/for' – không đúng; phải dùng hiện tại hoàn thành tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'am waiting' vì nghĩ 'đang chờ' nhưng quên mất mốc thời gian. Mẹo: 'Since/for' + khoảng thời gian kéo dài đến hiện tại → hiện tại hoàn thành tiếp diễn.\n💡 **Ví dụ:** She has been crying for an hour. / They have been arguing since morning."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He has been feel tired lately.",
+    "output": "✅ **Corrected Sentence:** He has been feeling tired lately.\n🔍 **Error Identification:** 'Feel' cần thêm 'ing' thành 'feeling'.\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'ing' cho động từ sau 'has been'. Mẹo: 'Lately, recently' thường đi với hiện tại hoàn thành (đơn hoặc tiếp diễn), nhưng nếu nhấn mạnh quá trình thì dùng tiếp diễn.\n💡 **Ví dụ:** She has been feeling better. / They have been working hard lately."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long does she work here?",
+    "output": "✅ **Corrected Sentence:** How long has she been working here?\n🔍 **Error Identification:** Hỏi về khoảng thời gian làm việc đến hiện tại → hiện tại hoàn thành tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho 'how long'. Mẹo: 'How long' + hành động bắt đầu trong quá khứ và còn tiếp diễn → dùng have/has been + V-ing.\n💡 **Ví dụ:** How long have they been dating? / How long has it been snowing?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been learn English for 3 years.",
+    "output": "✅ **Corrected Sentence:** I have been learning English for 3 years.\n🔍 **Error Identification:** 'Learn' cần thêm 'ing' thành 'learning'.\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'been'. Mẹo: 'Been' là dấu hiệu của tiếp diễn, động từ phía sau luôn thêm 'ing'.\n💡 **Ví dụ:** We have been living here. / She has been reading that book."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It has been rain since morning.",
+    "output": "✅ **Corrected Sentence:** It has been raining since morning.\n🔍 **Error Identification:** 'Rain' cần thêm 'ing' thành 'raining'.\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' khi nói về thời tiết. Mẹo: Mưa từ sáng đến giờ vẫn chưa tạnh → dùng has been raining.\n💡 **Ví dụ:** It has been snowing all day. / The sun has been shining since 6 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has been cooking since 2 hours.",
+    "output": "✅ **Corrected Sentence:** She has been cooking for 2 hours.\n🔍 **Error Identification:** '2 hours' là khoảng thời gian → dùng 'for', không dùng 'since'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'since' cho mọi trường hợp. Mẹo: 'Since' + mốc thời gian (2 PM, Monday), 'for' + số lượng (2 hours, 3 days).\n💡 **Ví dụ:** He has been sleeping for 8 hours. / He has been sleeping since midnight."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They have been waiting for the bus since 30 minutes.",
+    "output": "✅ **Corrected Sentence:** They have been waiting for the bus for 30 minutes.\n🔍 **Error Identification:** '30 minutes' là khoảng thời gian → dùng 'for'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'since' và 'for'. Mẹo: Nhìn vào danh từ phía sau: mốc thời gian → since; số lượng + đơn vị thời gian → for.\n💡 **Ví dụ:** I have been studying for 2 hours. / I have been studying since 8 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been try to call you all morning.",
+    "output": "✅ **Corrected Sentence:** I have been trying to call you all morning.\n🔍 **Error Identification:** 'Try' cần thêm 'ing' thành 'trying' (bỏ y thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên quy tắc 'try' → 'trying'. Mẹo: Động từ kết thúc bằng 'y' vẫn thêm 'ing' bình thường (try→trying, study→studying).\n💡 **Ví dụ:** She has been crying. / He has been playing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He has been work here since he graduated.",
+    "output": "✅ **Corrected Sentence:** He has been working here since he graduated.\n🔍 **Error Identification:** Thiếu 'ing' – 'work' phải là 'working'.\n📘 **Vietnamese Explanation:** Người Việt nhớ 'has been' nhưng quên 'ing'. Mẹo: 'Since + mệnh đề quá khứ' + hiện tại hoàn thành tiếp diễn, nhớ thêm 'ing'.\n💡 **Ví dụ:** She has been living alone since she moved out. / They have been dating since they met."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long have you been know him?",
+    "output": "✅ **Corrected Sentence:** How long have you known him? (hoặc have you been knowing – không đúng vì know là stative verb)\n🔍 **Error Identification:** 'Know' là stative verb, không dùng tiếp diễn. Phải dùng hiện tại hoàn thành đơn.\n📘 **Vietnamese Explanation:** Người Việt muốn dùng tiếp diễn cho mọi động từ. Mẹo: Know, believe, understand, like, love, hate, belong, own không bao giờ dùng tiếp diễn.\n💡 **Ví dụ:** How long have you loved her? (not been loving) / I have owned this house for 5 years."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We have been study for the exam all week.",
+    "output": "✅ **Corrected Sentence:** We have been studying for the exam all week.\n🔍 **Error Identification:** 'Study' cần thêm 'ing' thành 'studying'.\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'all week' (dấu hiệu của tiếp diễn). Mẹo: 'All day, all week, all morning' thường đi với hiện tại hoàn thành tiếp diễn.\n💡 **Ví dụ:** I have been working all day. / She has been sleeping all morning."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been wait for the bus since 7 AM.",
+    "output": "✅ **Corrected Sentence:** I have been waiting for the bus since 7 AM.\n🔍 **Error Identification:** 'Wait' cần thêm 'ing' thành 'waiting'.\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'since'. Mẹo: 'Since + mốc thời gian' bắt buộc dùng hiện tại hoàn thành (đơn hoặc tiếp diễn), nếu muốn nhấn mạnh hành động kéo dài thì dùng tiếp diễn.\n💡 **Ví dụ:** She has been working since 9 AM. / They have been playing since 2 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He has been smoke for 10 years.",
+    "output": "✅ **Corrected Sentence:** He has been smoking for 10 years.\n🔍 **Error Identification:** 'Smoke' cần thêm 'ing' thành 'smoking'.\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' khi nói về thói quen kéo dài. Mẹo: Hành động bắt đầu trong quá khứ và vẫn tiếp diễn ở hiện tại → have/has been + V-ing.\n💡 **Ví dụ:** She has been exercising for 2 years. / They have been traveling for 6 months."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been feel sick since yesterday.",
+    "output": "✅ **Corrected Sentence:** I have been feeling sick since yesterday.\n🔍 **Error Identification:** 'Feel' cần thêm 'ing' thành 'feeling'.\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' cho động từ chỉ cảm giác. Mẹo: 'Feel' có thể dùng tiếp diễn khi nói về cảm giác thể chất đang diễn ra.\n💡 **Ví dụ:** She has been feeling dizzy. / They have been feeling happy lately."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What have you been do all day?",
+    "output": "✅ **Corrected Sentence:** What have you been doing all day?\n🔍 **Error Identification:** 'Do' cần thêm 'ing' thành 'doing'.\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' trong câu hỏi. Mẹo: Câu hỏi với 'what have/has + S + been + V-ing?' – nhớ thêm 'ing'.\n💡 **Ví dụ:** What has she been eating? / What have they been discussing?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has been wait for you since 5 PM.",
+    "output": "✅ **Corrected Sentence:** She has been waiting for you since 5 PM.\n🔍 **Error Identification:** 'Wait' → 'waiting' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'since'. Mẹo: Sau 'has been' là 'V-ing', không được để nguyên thể.\n💡 **Ví dụ:** He has been sitting here since morning. / They have been talking since 3 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long have you been live in this city?",
+    "output": "✅ **Corrected Sentence:** How long have you been living in this city?\n🔍 **Error Identification:** 'Live' cần bỏ 'e' thêm 'ing' thành 'living'.\n📘 **Vietnamese Explanation:** Người Việt quên bỏ 'e' khi thêm 'ing'. Mẹo: live→living, write→writing, dance→dancing.\n💡 **Ví dụ:** How long have they been dancing? / How long has she been writing?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been think about you all day.",
+    "output": "✅ **Corrected Sentence:** I have been thinking about you all day.\n🔍 **Error Identification:** 'Think' cần thêm 'ing' thành 'thinking'.\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' với động từ 'think'. Mẹo: 'Think' có thể dùng tiếp diễn khi nói về quá trình suy nghĩ.\n💡 **Ví dụ:** She has been considering the offer. / They have been planning the trip."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They have been argue since they met.",
+    "output": "✅ **Corrected Sentence:** They have been arguing since they met.\n🔍 **Error Identification:** 'Argue' cần bỏ 'e' thêm 'ing' thành 'arguing'.\n📘 **Vietnamese Explanation:** Người Việt quên bỏ 'e' khi thêm 'ing' (argue→arguing). Mẹo: Động từ kết thúc 'e' → bỏ 'e' + ing.\n💡 **Ví dụ:** We have been dancing. / She has been typing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been work on this project for 2 months.",
+    "output": "✅ **Corrected Sentence:** I have been working on this project for 2 months.\n🔍 **Error Identification:** 'Work' cần thêm 'ing' thành 'working'.\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'for 2 months'. Mẹo: 'For + khoảng thời gian' + hành động kéo dài đến hiện tại → hiện tại hoàn thành tiếp diễn.\n💡 **Ví dụ:** She has been studying for 3 hours. / They have been traveling for a week."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He has been run every morning for 5 years.",
+    "output": "✅ **Corrected Sentence:** He has been running every morning for 5 years.\n🔍 **Error Identification:** 'Run' (CVC) → gấp đôi 'n' thành 'running'.\n📘 **Vietnamese Explanation:** Người Việt quên gấp đôi phụ âm. Mẹo: run→running, swim→swimming, get→getting.\n💡 **Ví dụ:** She has been swimming. / They have been sitting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been wait for this moment my whole life.",
+    "output": "✅ **Corrected Sentence:** I have been waiting for this moment my whole life.\n🔍 **Error Identification:** 'Wait' → 'waiting' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'my whole life'. Mẹo: 'All my life, my whole life' → hiện tại hoàn thành tiếp diễn để nhấn mạnh sự kéo dài.\n💡 **Ví dụ:** She has been dreaming of this all her life. / They have been hoping for a change."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The baby has been cry for an hour.",
+    "output": "✅ **Corrected Sentence:** The baby has been crying for an hour.\n🔍 **Error Identification:** 'Cry' → 'crying' (giữ y thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' với động từ kết thúc 'y'. Mẹo: cry→crying, play→playing, study→studying.\n💡 **Ví dụ:** The dog has been barking. / The wind has been blowing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long has she been wait?",
+    "output": "✅ **Corrected Sentence:** How long has she been waiting?\n🔍 **Error Identification:** 'Wait' → 'waiting' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' trong câu hỏi. Mẹo: Câu hỏi 'how long' + have/has + S + been + V-ing?\n💡 **Ví dụ:** How long has he been sleeping? / How long have they been dating?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been live here since 2015.",
+    "output": "✅ **Corrected Sentence:** I have been living here since 2015.\n🔍 **Error Identification:** 'Live' → 'living' (bỏ e thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên bỏ 'e' khi thêm 'ing'. Mẹo: live→living, give→giving, write→writing.\n💡 **Ví dụ:** She has been giving advice. / They have been writing emails."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He has been smoke since he was 18.",
+    "output": "✅ **Corrected Sentence:** He has been smoking since he was 18.\n🔍 **Error Identification:** 'Smoke' → 'smoking' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'since'. Mẹo: 'Since + mệnh đề quá khứ' + hiện tại hoàn thành tiếp diễn, nhớ thêm 'ing'.\n💡 **Ví dụ:** She has been teaching since she graduated. / They have been living here since they got married."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We have been try to fix this computer for 2 hours.",
+    "output": "✅ **Corrected Sentence:** We have been trying to fix this computer for 2 hours.\n🔍 **Error Identification:** 'Try' → 'trying' (giữ y thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' với 'try'. Mẹo: try→trying, play→playing, stay→staying.\n💡 **Ví dụ:** I have been trying to call you. / She has been trying to lose weight."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What have you been do lately?",
+    "output": "✅ **Corrected Sentence:** What have you been doing lately?\n🔍 **Error Identification:** 'Do' → 'doing' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' trong câu hỏi với 'lately'. Mẹo: 'Lately, recently' + hiện tại hoàn thành tiếp diễn, động từ thêm 'ing'.\n💡 **Ví dụ:** What has she been reading lately? / What have they been watching recently?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been know her for a decade.",
+    "output": "✅ **Corrected Sentence:** I have known her for a decade.\n🔍 **Error Identification:** 'Know' là stative verb → không dùng tiếp diễn. Phải dùng hiện tại hoàn thành đơn.\n📘 **Vietnamese Explanation:** Người Việt muốn nhấn mạnh 'biết lâu' nên thêm 'been knowing' – sai. Mẹo: Know, understand, believe, like, love, hate không bao giờ dùng tiếp diễn.\n💡 **Ví dụ:** I have believed in him for years. / She has loved him since college."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They have been build a new house for 6 months.",
+    "output": "✅ **Corrected Sentence:** They have been building a new house for 6 months.\n🔍 **Error Identification:** 'Build' → 'building' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'for 6 months'. Mẹo: 'For + khoảng thời gian' + hành động chưa hoàn thành → hiện tại hoàn thành tiếp diễn.\n💡 **Ví dụ:** The workers have been repairing the road. / She has been painting her room."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long have you been wait for me?",
+    "output": "✅ **Corrected Sentence:** How long have you been waiting for me?\n🔍 **Error Identification:** 'Wait' → 'waiting' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' trong câu hỏi 'how long'. Mẹo: 'How long' + have/has + S + been + V-ing? (bắt buộc có ing).\n💡 **Ví dụ:** How long has she been sleeping? / How long have they been traveling?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has been study Chinese since 2019.",
+    "output": "✅ **Corrected Sentence:** She has been studying Chinese since 2019.\n🔍 **Error Identification:** 'Study' → 'studying' (giữ y thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' với 'study'. Mẹo: study→studying, carry→carrying, cry→crying.\n💡 **Ví dụ:** He has been carrying heavy boxes. / The baby has been crying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been work out every day for a year.",
+    "output": "✅ **Corrected Sentence:** I have been working out every day for a year.\n🔍 **Error Identification:** 'Work' → 'working' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'for a year'. Mẹo: Thói quen lặp lại trong quá khứ và vẫn tiếp diễn → hiện tại hoàn thành tiếp diễn.\n💡 **Ví dụ:** He has been jogging every morning. / They have been eating healthy food."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The phone has been ring for 5 minutes.",
+    "output": "✅ **Corrected Sentence:** The phone has been ringing for 5 minutes.\n🔍 **Error Identification:** 'Ring' (CVC) → gấp đôi 'g'? 'ring' kết thúc 'ng' – thực tế 'ring' → 'ringing' (thêm ing bình thường, không gấp đôi vì 'ng' không phải CVC điển hình).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' với 'ring'. Mẹo: Hầu hết động từ thêm 'ing', ngoại lệ học riêng.\n💡 **Ví dụ:** The bell has been ringing. / The alarm has been beeping."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been read this book for 2 weeks.",
+    "output": "✅ **Corrected Sentence:** I have been reading this book for 2 weeks.\n🔍 **Error Identification:** 'Read' → 'reading' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'for 2 weeks'. Mẹo: 'For + thời gian' + hành động chưa kết thúc → hiện tại hoàn thành tiếp diễn.\n💡 **Ví dụ:** She has been watching that series for a month. / They have been renovating the house for 3 months."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He has been play video games since morning.",
+    "output": "✅ **Corrected Sentence:** He has been playing video games since morning.\n🔍 **Error Identification:** 'Play' → 'playing' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'since morning'. Mẹo: 'Since + mốc thời gian' + hiện tại hoàn thành tiếp diễn, động từ thêm 'ing'.\n💡 **Ví dụ:** She has been chatting since 8 AM. / They have been watching TV since noon."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been wait for the results for 3 days.",
+    "output": "✅ **Corrected Sentence:** I have been waiting for the results for 3 days.\n🔍 **Error Identification:** 'Wait' → 'waiting' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'for 3 days'. Mẹo: 'For + số ngày' + hành động kéo dài đến hiện tại → hiện tại hoàn thành tiếp diễn.\n💡 **Ví dụ:** They have been waiting for news. / She has been hoping for a reply."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long has it been rain?",
+    "output": "✅ **Corrected Sentence:** How long has it been raining?\n🔍 **Error Identification:** 'Rain' → 'raining' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' trong câu hỏi về thời tiết. Mẹo: Hỏi về thời tiết kéo dài: How long has it been + V-ing?\n💡 **Ví dụ:** How long has it been snowing? / How long has the wind been blowing?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has been cook dinner since 5 PM.",
+    "output": "✅ **Corrected Sentence:** She has been cooking dinner since 5 PM.\n🔍 **Error Identification:** 'Cook' → 'cooking' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'since 5 PM'. Mẹo: 'Since + giờ' + hiện tại hoàn thành tiếp diễn, nhớ thêm 'ing'.\n💡 **Ví dụ:** He has been cleaning since 2 PM. / They have been studying since 1 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been feel exhausted all day.",
+    "output": "✅ **Corrected Sentence:** I have been feeling exhausted all day.\n🔍 **Error Identification:** 'Feel' → 'feeling' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' với 'feel' trong hiện tại hoàn thành tiếp diễn. Mẹo: 'All day' là dấu hiệu của tiếp diễn, nhớ thêm 'ing'.\n💡 **Ví dụ:** She has been feeling sick. / They have been feeling stressed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We have been discuss this problem for 2 hours.",
+    "output": "✅ **Corrected Sentence:** We have been discussing this problem for 2 hours.\n🔍 **Error Identification:** 'Discuss' → 'discussing' (gấp đôi 's' vì CVC? 'discuss' có trọng âm rơi vào âm tiết thứ 2? Thực tế 'discuss' thêm 'ing' bình thường: discussing – không gấp đôi vì âm tiết đầu không nhấn? Nhưng quy tắc: động từ 2 âm tiết, trọng âm rơi vào âm tiết đầu thì không gấp đôi. 'discuss' trọng âm rơi vào âm tiết thứ 2 (di-SCUSS) → gấp đôi phụ âm cuối: discussing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' và quên gấp đôi phụ âm khi cần. Mẹo: Động từ kết thúc 'CVC', trọng âm cuối → gấp đôi phụ âm: begin→beginning, prefer→preferring.\n💡 **Ví dụ:** They have been beginning the project. / She has been preferring tea lately."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He has been work at this company since 2015.",
+    "output": "✅ **Corrected Sentence:** He has been working at this company since 2015.\n🔍 **Error Identification:** 'Work' → 'working' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'since 2015'. Mẹo: 'Since + năm' + hiện tại hoàn thành tiếp diễn, động từ thêm 'ing'.\n💡 **Ví dụ:** She has been teaching since 2010. / They have been living abroad since 2018."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been try to reach you all morning.",
+    "output": "✅ **Corrected Sentence:** I have been trying to reach you all morning.\n🔍 **Error Identification:** 'Try' → 'trying' (giữ y thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' với 'try'. Mẹo: 'All morning' → hiện tại hoàn thành tiếp diễn, nhớ thêm 'ing'.\n💡 **Ví dụ:** She has been trying to study. / They have been trying to fix the car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long have you been know each other?",
+    "output": "✅ **Corrected Sentence:** How long have you known each other?\n🔍 **Error Identification:** 'Know' là stative verb → không dùng tiếp diễn. Phải dùng hiện tại hoàn thành đơn.\n📘 **Vietnamese Explanation:** Người Việt muốn dùng tiếp diễn cho 'know' – sai. Mẹo: Những động từ chỉ trạng thái (know, believe, understand) không bao giờ dùng ở dạng tiếp diễn.\n💡 **Ví dụ:** How long have they owned this house? / How long have you understood the lesson?"
+  }
+]

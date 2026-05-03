@@ -120,6 +120,7 @@ const navGroups = [
       { to: '/grammar', icon: '📖', label: 'Ngữ pháp' },
       { to: '/vocabulary', icon: '🔤', label: 'Từ vựng' },
       { to: '/pronunciation', icon: '🎙️', label: 'Phát âm' },
+      { to: '/skill-practice', icon: '🎯', label: 'Luyện Kỹ Năng' },
       { to: '/flashcards', icon: '🃏', label: 'Flashcards' },
       { to: '/assessments', icon: '📝', label: 'Assessment' },
     ],

@@ -378,7 +378,13 @@ async function submit() {
     })
     const d = res.data?.data ?? res.data
     const submissionId = d?.id ?? d?.submission_id
-    router.push(`/learn/result/${submissionId}?type=reading`)
+    router.push({
+      path: `/learn/result/${submissionId}`,
+      query: {
+        type: 'reading',
+        lesson_id: route.query.lesson_id ?? undefined,
+      },
+    })
   } catch (err) {
     showErrorToast(err?.response?.data?.detail || 'Đã có lỗi xảy ra, vui lòng thử lại.')
   } finally {

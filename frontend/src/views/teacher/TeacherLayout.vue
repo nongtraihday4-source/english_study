@@ -74,9 +74,10 @@ const route = useRoute()
 const collapsed = ref(false)
 
 const NAV = [
-  { to: '/teacher',         icon: '📊', label: 'Tổng quan' },
-  { to: '/teacher/grading', icon: '✏️',  label: 'Chấm bài' },
-  { to: '/teacher/classes', icon: '👥',  label: 'Lớp học' },
+  { to: '/teacher',             icon: '📊', label: 'Tổng quan' },
+  { to: '/teacher/grading',     icon: '✏️',  label: 'Chấm bài' },
+  { to: '/teacher/classes',     icon: '👥',  label: 'Lớp học' },
+  { to: '/teacher/assignments', icon: '📋',  label: 'Bài tập giao' },
 ]
 
 function isActive(path) {

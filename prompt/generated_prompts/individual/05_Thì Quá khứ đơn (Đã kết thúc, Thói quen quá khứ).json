@@ -1,0 +1,472 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Yesterday, I go to the market.",
+    "output": "✅ **Corrected Sentence:** Yesterday, I went to the market.\n🔍 **Error Identification:** Tense – dùng hiện tại đơn (go) thay vì quá khứ đơn (went) cho hành động đã xảy ra trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt thường dùng hiện tại đơn cho mọi thì vì tiếng Việt không chia động từ. Mẹo: Có 'yesterday, last week, ago' → dùng quá khứ đơn (V2/ed).\n💡 **Ví dụ:** She visited me last Sunday. / They watched a movie yesterday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He didn't went to school yesterday.",
+    "output": "✅ **Corrected Sentence:** He didn't go to school yesterday.\n🔍 **Error Identification:** Trong câu phủ định quá khứ đơn, sau 'didn't' dùng động từ nguyên thể (V1), không dùng V2.\n📘 **Vietnamese Explanation:** Người Việt nhớ 'went' là quá khứ nên giữ nguyên sau 'didn't'. Mẹo: 'Didn't' đã thể hiện quá khứ rồi, động từ chính phải ở nguyên thể.\n💡 **Ví dụ:** She didn't eat breakfast. / They didn't come to the party."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What time you get up this morning?",
+    "output": "✅ **Corrected Sentence:** What time did you get up this morning?\n🔍 **Error Identification:** Câu hỏi quá khứ đơn thiếu trợ động từ 'did' và đảo ngữ.\n📘 **Vietnamese Explanation:** Người Việt dịch 'bạn dậy lúc mấy giờ sáng nay?' quên 'did'. Mẹo: Câu hỏi Wh- quá khứ: Wh- + did + S + V(nguyên thể)?\n💡 **Ví dụ:** Where did you buy that? / When did she leave?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She walk to work yesterday.",
+    "output": "✅ **Corrected Sentence:** She walked to work yesterday.\n🔍 **Error Identification:** Thiếu '-ed' cho động từ có quy tắc ở quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt quên thêm '-ed' vào động từ. Mẹo: Động từ có quy tắc (walk, play, watch) → thêm '-ed' cho quá khứ đơn.\n💡 **Ví dụ:** I called you last night. / He cooked dinner."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I was a child, I often play with dolls.",
+    "output": "✅ **Corrected Sentence:** When I was a child, I often played with dolls.\n🔍 **Error Identification:** Thói quen trong quá khứ dùng quá khứ đơn (played), không dùng hiện tại đơn (play).\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho thói quen quá khứ. Mẹo: 'When I was a child, when I was young' → quá khứ đơn.\n💡 **Ví dụ:** She always woke up early when she was young. / They often visited their grandma."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't saw that movie.",
+    "output": "✅ **Corrected Sentence:** I didn't see that movie.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (see), không dùng V2 (saw).\n📘 **Vietnamese Explanation:** Người Việt dùng 'saw' vì nghĩ quá khứ. Mẹo: 'Didn't' + V1 (nguyên thể).\n💡 **Ví dụ:** She didn't know the answer. / We didn't hear anything."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Where did she went?",
+    "output": "✅ **Corrected Sentence:** Where did she go?\n🔍 **Error Identification:** Sau 'did' dùng V1 (go), không dùng V2 (went).\n📘 **Vietnamese Explanation:** Người Việt thấy 'went' là quá khứ nên giữ nguyên. Mẹo: 'Did' + chủ ngữ + V1 (không chia).\n💡 **Ví dụ:** What did he eat? / Why did they leave?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Last year, I go to Da Nang.",
+    "output": "✅ **Corrected Sentence:** Last year, I went to Da Nang.\n🔍 **Error Identification:** 'Last year' là thời gian cụ thể trong quá khứ → dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn với 'last year'. Mẹo: 'Last year/month/week' → quá khứ đơn.\n💡 **Ví dụ:** She moved to HCMC last year. / We met last week."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He studyed very hard for the exam.",
+    "output": "✅ **Corrected Sentence:** He studied very hard for the exam.\n🔍 **Error Identification:** Lỗi chính tả – 'study' kết thúc bằng 'y' trước phụ âm → bỏ 'y' thêm 'ied'.\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' trực tiếp vào 'study' thành 'studyed' – sai. Mẹo: Phụ âm + y → ried (studied, cried, tried).\n💡 **Ví dụ:** She carried a heavy bag. / He worried about the test."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They didn't finished their homework.",
+    "output": "✅ **Corrected Sentence:** They didn't finish their homework.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (finish), không dùng V2/ed (finished).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên '-ed' sau 'didn't'. Mẹo: 'Didn't' + V1 (không thêm gì).\n💡 **Ví dụ:** I didn't like the food. / She didn't call me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What did you did yesterday?",
+    "output": "✅ **Corrected Sentence:** What did you do yesterday?\n🔍 **Error Identification:** Dùng hai lần quá khứ – 'did' và 'did' là sai, chỉ cần một 'did' + V1.\n📘 **Vietnamese Explanation:** Người Việt thấy 'yesterday' nên muốn chia cả hai động từ. Mẹo: Chỉ trợ động từ 'did' thể hiện quá khứ, động từ chính để nguyên.\n💡 **Ví dụ:** Where did you go? / How did she know?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She not come to class yesterday.",
+    "output": "✅ **Corrected Sentence:** She didn't come to class yesterday.\n🔍 **Error Identification:** Câu phủ định quá khứ đơn phải có 'didn't', không thể chỉ dùng 'not'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cô ấy không đến' thành 'she not come' vì tiếng Việt không cần trợ động từ. Mẹo: Phủ định quá khứ: S + didn't + V1.\n💡 **Ví dụ:** He didn't eat. / They didn't arrive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I used to played football when I was young.",
+    "output": "✅ **Corrected Sentence:** I used to play football when I was young.\n🔍 **Error Identification:** Sau 'used to' dùng V1 (play), không dùng V2 (played).\n📘 **Vietnamese Explanation:** Người Việt thấy 'used to' chỉ thói quen quá khứ nên chia tiếp. Mẹo: 'Used to' + V1 (nguyên thể).\n💡 **Ví dụ:** She used to live in Hue. / They used to be friends."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Did you watched TV last night?",
+    "output": "✅ **Corrected Sentence:** Did you watch TV last night?\n🔍 **Error Identification:** Sau 'did' dùng V1 (watch), không dùng V2 (watched).\n📘 **Vietnamese Explanation:** Người Việt thấy 'last night' nên thêm 'ed' vào 'watch'. Mẹo: 'Did' đã là quá khứ, động từ chính giữ nguyên.\n💡 **Ví dụ:** Did she call you? / Did they enjoy the party?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I stoped smoking 2 years ago.",
+    "output": "✅ **Corrected Sentence:** I stopped smoking 2 years ago.\n🔍 **Error Identification:** Lỗi chính tả – 'stop' (CVC) cần gấp đôi 'p' trước khi thêm 'ed' → 'stopped'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'ed' trực tiếp, quên gấp đôi phụ âm. Mẹo: Động từ 1 âm tiết, kết thúc nguyên âm + phụ âm → gấp đôi phụ âm + ed.\n💡 **Ví dụ:** She planned a trip. / He robbed a bank."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I was a child, I don't like vegetables.",
+    "output": "✅ **Corrected Sentence:** When I was a child, I didn't like vegetables.\n🔍 **Error Identification:** 'Don't' là hiện tại, nhưng 'when I was a child' là quá khứ → dùng 'didn't'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'don't' cho mọi thì. Mẹo: Thói quen quá khứ → dùng 'didn't + V1'.\n💡 **Ví dụ:** She didn't like coffee when she was young. / They didn't have a car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He runned very fast in the race.",
+    "output": "✅ **Corrected Sentence:** He ran very fast in the race.\n🔍 **Error Identification:** 'Run' là động từ bất quy tắc, quá khứ là 'ran', không phải 'runned'.\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' vào động từ bất quy tắc. Mẹo: Học thuộc bảng bất quy tắc: run – ran – run.\n💡 **Ví dụ:** She swam across the river. / He drank all the milk."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We didn't ate much at the party.",
+    "output": "✅ **Corrected Sentence:** We didn't eat much at the party.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (eat), không dùng V2 (ate).\n📘 **Vietnamese Explanation:** Người Việt dùng 'ate' vì nghĩ quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** I didn't see him. / She didn't hear the news."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Where you went yesterday?",
+    "output": "✅ **Corrected Sentence:** Where did you go yesterday?\n🔍 **Error Identification:** Câu hỏi thiếu 'did' và đảo ngữ, 'went' phải thành 'go'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên trật tự 'you went' vì dịch 'bạn đã đi đâu?'. Mẹo: Câu hỏi quá khứ: Did + S + V1?\n💡 **Ví dụ:** Where did she buy that? / When did they arrive?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She always wore a hat when she was young. (câu đúng) - Học viên viết \'She always wears a hat when she was young.\'",
+    "output": "✅ **Corrected Sentence:** She always wore a hat when she was young.\n🔍 **Error Identification:** 'When she was young' là quá khứ, động từ chính phải là 'wore', không phải 'wears'.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn (wears) trong khi có mệnh đề quá khứ. Mẹo: Hai vế trong câu phải cùng thì.\n💡 **Ví dụ:** He always walked to school when he was a student. / They often played together when they were kids."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't saw nothing.",
+    "output": "✅ **Corrected Sentence:** I didn't see anything. (hoặc I saw nothing)\n🔍 **Error Identification:** Lỗi kép phủ định (double negative) – 'didn't' và 'nothing' không đi cùng nhau.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi không thấy gì cả' thành 'didn't see nothing'. Mẹo: Trong tiếng Anh, chỉ dùng một phủ định.\n💡 **Ví dụ:** She didn't eat anything. / He knows nothing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He used to smoking when he was young.",
+    "output": "✅ **Corrected Sentence:** He used to smoke when he was young.\n🔍 **Error Identification:** Sau 'used to' dùng V1 (smoke), không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt thấy 'used to' chỉ thói quen quá khứ nên thêm 'ing' giống hiện tại tiếp diễn. Mẹo: 'Used to' + V1.\n💡 **Ví dụ:** She used to be a teacher. / They used to live in the countryside."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Did she enjoyed the concert?",
+    "output": "✅ **Corrected Sentence:** Did she enjoy the concert?\n🔍 **Error Identification:** Sau 'did' dùng V1 (enjoy), không dùng V2 (enjoyed).\n📘 **Vietnamese Explanation:** Người Việt thấy 'concert' trong quá khứ nên thêm 'ed'. Mẹo: 'Did' đã thể hiện quá khứ rồi.\n💡 **Ví dụ:** Did he like the gift? / Did they finish the work?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Last night, I have dinner with my family.",
+    "output": "✅ **Corrected Sentence:** Last night, I had dinner with my family.\n🔍 **Error Identification:** 'Last night' là quá khứ → dùng 'had' (quá khứ của have), không dùng 'have' (hiện tại).\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho mọi thì. Mẹo: 'Last night' → quá khứ đơn.\n💡 **Ví dụ:** She had a meeting yesterday. / They had fun at the party."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't went to the cinema because I was busy.",
+    "output": "✅ **Corrected Sentence:** I didn't go to the cinema because I was busy.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (go), không dùng V2 (went).\n📘 **Vietnamese Explanation:** Người Việt dùng 'went' vì nghĩ quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** She didn't come because she was sick. / They didn't buy anything."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How did you went there?",
+    "output": "✅ **Corrected Sentence:** How did you go there?\n🔍 **Error Identification:** Sau 'did' dùng V1 (go), không dùng V2 (went).\n📘 **Vietnamese Explanation:** Người Việt dùng 'went' vì quá khứ. Mẹo: 'Did' + S + V1.\n💡 **Ví dụ:** How did she find the place? / Why did they leave early?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She live in London from 2010 to 2015.",
+    "output": "✅ **Corrected Sentence:** She lived in London from 2010 to 2015.\n🔍 **Error Identification:** 'From 2010 to 2015' là khoảng thời gian đã kết thúc trong quá khứ → dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn vì nghĩ 'live' là trạng thái. Mẹo: Khoảng thời gian đã kết thúc hoàn toàn → quá khứ đơn.\n💡 **Ví dụ:** He worked there from 2005 to 2010. / They studied at this school from 2015 to 2020."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't met him yesterday.",
+    "output": "✅ **Corrected Sentence:** I didn't meet him yesterday.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (meet), không dùng V2 (met).\n📘 **Vietnamese Explanation:** Người Việt dùng 'met' vì là quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** She didn't see the sign. / We didn't hear the bell."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I was a child, I can swim very well.",
+    "output": "✅ **Corrected Sentence:** When I was a child, I could swim very well.\n🔍 **Error Identification:** 'Can' ở hiện tại, nhưng 'when I was a child' là quá khứ → dùng 'could'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'can' cho mọi thì. Mẹo: Động từ khiếm khuyết 'can' quá khứ là 'could'.\n💡 **Ví dụ:** She could run fast when she was young. / They could speak French as children."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He didn't said anything.",
+    "output": "✅ **Corrected Sentence:** He didn't say anything.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (say), không dùng V2 (said).\n📘 **Vietnamese Explanation:** Người Việt dùng 'said' vì là quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** She didn't tell the truth. / They didn't ask for help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I tryed to open the door, but it was locked.",
+    "output": "✅ **Corrected Sentence:** I tried to open the door, but it was locked.\n🔍 **Error Identification:** 'Try' kết thúc bằng 'y' trước phụ âm → bỏ 'y' thêm 'ied' (tried).\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' trực tiếp thành 'tryed' – sai. Mẹo: Phụ âm + y → ied.\n💡 **Ví dụ:** She cried loudly. / He carried the box."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What time did the movie started?",
+    "output": "✅ **Corrected Sentence:** What time did the movie start?\n🔍 **Error Identification:** Sau 'did' dùng V1 (start), không dùng V2 (started).\n📘 **Vietnamese Explanation:** Người Việt thêm 'ed' dù đã có 'did'. Mẹo: 'Did' + V1.\n💡 **Ví dụ:** What time did she arrive? / When did the meeting end?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She never went to Hanoi when she was alive. (câu đúng) - Học viên viết \'She never go to Hanoi when she was alive.\'",
+    "output": "✅ **Corrected Sentence:** She never went to Hanoi when she was alive.\n🔍 **Error Identification:** 'When she was alive' là quá khứ → động từ chính phải là 'went', không phải 'go'.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn 'go' dù có mệnh đề quá khứ. Mẹo: 'Never' trong câu quá khứ vẫn dùng V2.\n💡 **Ví dụ:** He never ate meat when he was a monk. / They never traveled abroad before they died."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I use to play guitar when I was in college.",
+    "output": "✅ **Corrected Sentence:** I used to play guitar when I was in college.\n🔍 **Error Identification:** Thiếu 'd' – 'use to' phải là 'used to' để chỉ thói quen quá khứ.\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'd' ở 'used to'. Mẹo: 'Used to' + V1 (thói quen quá khứ).\n💡 **Ví dụ:** She used to be shy. / They used to live in a small house."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We didn't had time to finish.",
+    "output": "✅ **Corrected Sentence:** We didn't have time to finish.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (have), không dùng V2 (had).\n📘 **Vietnamese Explanation:** Người Việt dùng 'had' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** She didn't have a choice. / They didn't have money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I buyed a new phone yesterday.",
+    "output": "✅ **Corrected Sentence:** I bought a new phone yesterday.\n🔍 **Error Identification:** 'Buy' là động từ bất quy tắc, quá khứ là 'bought', không phải 'buyed'.\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' vào động từ bất quy tắc. Mẹo: Học thuộc bảng bất quy tắc: buy – bought – bought.\n💡 **Ví dụ:** She brought flowers. / He fought bravely."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Did you ever ate pho when you were in Vietnam?",
+    "output": "✅ **Corrected Sentence:** Did you ever eat pho when you were in Vietnam?\n🔍 **Error Identification:** Sau 'did' dùng V1 (eat), không dùng V2 (ate).\n📘 **Vietnamese Explanation:** Người Việt dùng 'ate' vì quá khứ. Mẹo: 'Did you ever' + V1.\n💡 **Ví dụ:** Did she ever try durian? / Did they ever visit Hue?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He not went to work yesterday.",
+    "output": "✅ **Corrected Sentence:** He didn't go to work yesterday.\n🔍 **Error Identification:** Phủ định quá khứ phải có 'didn't', 'not' không đứng một mình với V2.\n📘 **Vietnamese Explanation:** Người Việt dịch 'anh ấy không đi làm' thành 'he not went'. Mẹo: Phủ định quá khứ: S + didn't + V1.\n💡 **Ví dụ:** She not came → She didn't come. / They not arrived → They didn't arrive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Where did she bought that dress?",
+    "output": "✅ **Corrected Sentence:** Where did she buy that dress?\n🔍 **Error Identification:** Sau 'did' dùng V1 (buy), không dùng V2 (bought).\n📘 **Vietnamese Explanation:** Người Việt dùng 'bought' vì quá khứ. Mẹo: 'Did' + S + V1.\n💡 **Ví dụ:** Where did he find the key? / When did they build this house?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She always got up late when she was a student. (câu đúng) - Học viên viết \'She always gets up late when she was a student.\'",
+    "output": "✅ **Corrected Sentence:** She always got up late when she was a student.\n🔍 **Error Identification:** 'When she was a student' là quá khứ → dùng 'got up', không phải 'gets up'.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho thói quen quá khứ. Mẹo: 'When I was...' + quá khứ đơn.\n💡 **Ví dụ:** He always wore a tie when he worked at the bank. / They often ate out when they lived in the city."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't spoke to her because she was busy.",
+    "output": "✅ **Corrected Sentence:** I didn't speak to her because she was busy.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (speak), không dùng V2 (spoke).\n📘 **Vietnamese Explanation:** Người Việt dùng 'spoke' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** She didn't write the letter. / They didn't know the answer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I studyed at this school 10 years ago.",
+    "output": "✅ **Corrected Sentence:** I studied at this school 10 years ago.\n🔍 **Error Identification:** 'Study' kết thúc 'y' trước phụ âm → bỏ 'y' thêm 'ied' (studied).\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' trực tiếp thành 'studyed' – sai. Mẹo: Phụ âm + y → ied.\n💡 **Ví dụ:** She married young. / He worried too much."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When did you last saw him?",
+    "output": "✅ **Corrected Sentence:** When did you last see him?\n🔍 **Error Identification:** Sau 'did' dùng V1 (see), không dùng V2 (saw).\n📘 **Vietnamese Explanation:** Người Việt dùng 'saw' vì quá khứ. Mẹo: 'Did you' + V1.\n💡 **Ví dụ:** When did you last eat sushi? / When did she last call you?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He didn't used to like coffee, but now he does.",
+    "output": "✅ **Corrected Sentence:** He didn't use to like coffee, but now he does.\n🔍 **Error Identification:** Trong câu phủ định của 'used to', ta dùng 'didn't use to' (không có 'd' ở 'used').\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'used' sau 'didn't'. Mẹo: Phủ định: didn't + use to (không có d).\n💡 **Ví dụ:** She didn't use to smoke. / They didn't use to have a car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We goed to the beach last summer.",
+    "output": "✅ **Corrected Sentence:** We went to the beach last summer.\n🔍 **Error Identification:** 'Go' là động từ bất quy tắc, quá khứ là 'went', không phải 'goed'.\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' vào 'go'. Mẹo: Học thuộc: go – went – gone.\n💡 **Ví dụ:** She did her homework. / They had lunch."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Did you had breakfast this morning?",
+    "output": "✅ **Corrected Sentence:** Did you have breakfast this morning?\n🔍 **Error Identification:** Sau 'did' dùng V1 (have), không dùng V2 (had).\n📘 **Vietnamese Explanation:** Người Việt dùng 'had' vì quá khứ. Mẹo: 'Did you' + V1.\n💡 **Ví dụ:** Did she do her homework? / Did they make a decision?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't ate anything because I wasn't hungry.",
+    "output": "✅ **Corrected Sentence:** I didn't eat anything because I wasn't hungry.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (eat), không dùng V2 (ate).\n📘 **Vietnamese Explanation:** Người Việt dùng 'ate' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** She didn't drink water. / They didn't sleep well."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I used to living in a small village.",
+    "output": "✅ **Corrected Sentence:** I used to live in a small village.\n🔍 **Error Identification:** Sau 'used to' dùng V1 (live), không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt thấy 'used to' rồi thêm 'ing'. Mẹo: 'Used to' + V1.\n💡 **Ví dụ:** She used to work at a bank. / They used to play together."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She didn't told me the truth.",
+    "output": "✅ **Corrected Sentence:** She didn't tell me the truth.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (tell), không dùng V2 (told).\n📘 **Vietnamese Explanation:** Người Việt dùng 'told' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** He didn't show his ticket. / They didn't send the email."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What did you do last weekend? (câu đúng) - Học viên viết \'What did you did last weekend?\'",
+    "output": "✅ **Corrected Sentence:** What did you do last weekend?\n🔍 **Error Identification:** Dùng hai lần 'did' – chỉ cần một 'did' + V1.\n📘 **Vietnamese Explanation:** Người Việt thấy 'last weekend' nên muốn chia cả hai động từ. Mẹo: Chỉ trợ động từ 'did' thể hiện quá khứ.\n💡 **Ví dụ:** Where did she go? / Why did they leave?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He runned a marathon last year.",
+    "output": "✅ **Corrected Sentence:** He ran a marathon last year.\n🔍 **Error Identification:** 'Run' là bất quy tắc, quá khứ là 'ran', không phải 'runned'.\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' vào 'run'. Mẹo: run – ran – run.\n💡 **Ví dụ:** She sang a song. / He drank water."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't saw the sign, so I got lost.",
+    "output": "✅ **Corrected Sentence:** I didn't see the sign, so I got lost.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (see), không dùng V2 (saw).\n📘 **Vietnamese Explanation:** Người Việt dùng 'saw' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** She didn't hear the alarm. / They didn't feel the earthquake."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I was young, I often go fishing with my dad.",
+    "output": "✅ **Corrected Sentence:** When I was young, I often went fishing with my dad.\n🔍 **Error Identification:** 'When I was young' là quá khứ → dùng 'went', không dùng 'go'.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho thói quen quá khứ. Mẹo: 'Often' trong quá khứ vẫn dùng V2.\n💡 **Ví dụ:** She always read books before bed. / They usually walked to school."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Did she called you yesterday?",
+    "output": "✅ **Corrected Sentence:** Did she call you yesterday?\n🔍 **Error Identification:** Sau 'did' dùng V1 (call), không dùng V2 (called).\n📘 **Vietnamese Explanation:** Người Việt thêm 'ed' dù đã có 'did'. Mẹo: 'Did' + S + V1.\n💡 **Ví dụ:** Did he ask for help? / Did they finish early?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I catched a fish yesterday.",
+    "output": "✅ **Corrected Sentence:** I caught a fish yesterday.\n🔍 **Error Identification:** 'Catch' là bất quy tắc, quá khứ là 'caught', không phải 'catched'.\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' vào 'catch'. Mẹo: catch – caught – caught.\n💡 **Ví dụ:** She taught English. / He bought a car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We didn't went to the party because we were tired.",
+    "output": "✅ **Corrected Sentence:** We didn't go to the party because we were tired.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (go), không dùng V2 (went).\n📘 **Vietnamese Explanation:** Người Việt dùng 'went' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** They didn't come because it rained. / She didn't buy it because it was expensive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I used to be a teacher. (câu đúng) - Học viên viết \'I use to be a teacher.\'",
+    "output": "✅ **Corrected Sentence:** I used to be a teacher.\n🔍 **Error Identification:** Thiếu 'd' – 'use to' phải là 'used to' để chỉ thói quen quá khứ.\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'd' ở 'used to'. Mẹo: 'Used to' + V1.\n💡 **Ví dụ:** She used to live in Paris. / They used to be friends."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He didn't said goodbye.",
+    "output": "✅ **Corrected Sentence:** He didn't say goodbye.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (say), không dùng V2 (said).\n📘 **Vietnamese Explanation:** Người Việt dùng 'said' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** She didn't answer the phone. / They didn't pay attention."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I stoped working at 5 PM yesterday.",
+    "output": "✅ **Corrected Sentence:** I stopped working at 5 PM yesterday.\n🔍 **Error Identification:** 'Stop' (CVC) → gấp đôi 'p' thêm 'ed' → 'stopped'.\n📘 **Vietnamese Explanation:** Người Việt quên gấp đôi phụ âm. Mẹo: stop → stopped, plan → planned.\n💡 **Ví dụ:** She dropped the glass. / He nodded his head."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What did you ate for breakfast?",
+    "output": "✅ **Corrected Sentence:** What did you eat for breakfast?\n🔍 **Error Identification:** Sau 'did' dùng V1 (eat), không dùng V2 (ate).\n📘 **Vietnamese Explanation:** Người Việt dùng 'ate' vì quá khứ. Mẹo: 'Did you' + V1.\n💡 **Ví dụ:** What did she wear to the party? / What did they buy?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She didn't knew the answer.",
+    "output": "✅ **Corrected Sentence:** She didn't know the answer.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (know), không dùng V2 (knew).\n📘 **Vietnamese Explanation:** Người Việt dùng 'knew' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** He didn't understand the lesson. / They didn't recognize me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I used to playing soccer every day.",
+    "output": "✅ **Corrected Sentence:** I used to play soccer every day.\n🔍 **Error Identification:** Sau 'used to' dùng V1 (play), không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt thêm 'ing' sau 'used to'. Mẹo: 'Used to' + V1.\n💡 **Ví dụ:** She used to read before sleep. / They used to walk to school."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He didn't came to the meeting.",
+    "output": "✅ **Corrected Sentence:** He didn't come to the meeting.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (come), không dùng V2 (came).\n📘 **Vietnamese Explanation:** Người Việt dùng 'came' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** She didn't become a doctor. / They didn't become famous."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I studyed very hard for the exam last year.",
+    "output": "✅ **Corrected Sentence:** I studied very hard for the exam last year.\n🔍 **Error Identification:** 'Study' → 'studied' (bỏ y thêm ied).\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' trực tiếp. Mẹo: Phụ âm + y → ied.\n💡 **Ví dụ:** She tried her best. / He cried loudly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When did you bought that phone?",
+    "output": "✅ **Corrected Sentence:** When did you buy that phone?\n🔍 **Error Identification:** Sau 'did' dùng V1 (buy), không dùng V2 (bought).\n📘 **Vietnamese Explanation:** Người Việt dùng 'bought' vì quá khứ. Mẹo: 'Did' + S + V1.\n💡 **Ví dụ:** When did she arrive? / When did they leave?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She didn't ate dinner with us.",
+    "output": "✅ **Corrected Sentence:** She didn't eat dinner with us.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (eat), không dùng V2 (ate).\n📘 **Vietnamese Explanation:** Người Việt dùng 'ate' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** He didn't drink beer. / They didn't play tennis."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't used to like spicy food.",
+    "output": "✅ **Corrected Sentence:** I didn't use to like spicy food.\n🔍 **Error Identification:** Phủ định của 'used to' là 'didn't use to' (không có 'd' ở 'used').\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'used' sau 'didn't'. Mẹo: 'Didn't' + use to.\n💡 **Ví dụ:** She didn't use to exercise. / They didn't use to travel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He feeled happy when he heard the news.",
+    "output": "✅ **Corrected Sentence:** He felt happy when he heard the news.\n🔍 **Error Identification:** 'Feel' là bất quy tắc, quá khứ là 'felt', không phải 'feeled'.\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' vào 'feel'. Mẹo: feel – felt – felt.\n💡 **Ví dụ:** She kept the secret. / He slept well."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What time you left yesterday?",
+    "output": "✅ **Corrected Sentence:** What time did you leave yesterday?\n🔍 **Error Identification:** Câu hỏi thiếu 'did' và đảo ngữ.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'you left' vì dịch 'bạn rời đi lúc mấy giờ?'. Mẹo: Câu hỏi quá khứ: Did + S + V1?\n💡 **Ví dụ:** What time did she wake up? / What time did they start?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We didn't seen that movie.",
+    "output": "✅ **Corrected Sentence:** We didn't see that movie.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (see), không dùng V2 (seen – V3).\n📘 **Vietnamese Explanation:** Người Việt dùng 'seen' (V3) sau 'didn't'. Mẹo: 'Didn't' + V1 (không V2, không V3).\n💡 **Ví dụ:** She didn't done her homework → She didn't do. / They didn't gone home → They didn't go."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I used to swimming in the river when I was young.",
+    "output": "✅ **Corrected Sentence:** I used to swim in the river when I was young.\n🔍 **Error Identification:** Sau 'used to' dùng V1 (swim), không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt thêm 'ing' sau 'used to'. Mẹo: 'Used to' + V1.\n💡 **Ví dụ:** She used to dance. / They used to sing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Did you ever visited Hue?",
+    "output": "✅ **Corrected Sentence:** Did you ever visit Hue?\n🔍 **Error Identification:** Sau 'did' dùng V1 (visit), không dùng V2 (visited).\n📘 **Vietnamese Explanation:** Người Việt thêm 'ed' dù đã có 'did'. Mẹo: 'Did you ever' + V1.\n💡 **Ví dụ:** Did she ever try durian? / Did they ever meet him?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't took the bus because it was late.",
+    "output": "✅ **Corrected Sentence:** I didn't take the bus because it was late.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (take), không dùng V2 (took).\n📘 **Vietnamese Explanation:** Người Việt dùng 'took' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** She didn't make a cake. / They didn't choose the red one."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I was a child, I can't swim.",
+    "output": "✅ **Corrected Sentence:** When I was a child, I couldn't swim.\n🔍 **Error Identification:** 'Can't' ở hiện tại, nhưng 'when I was a child' là quá khứ → dùng 'couldn't'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'can't' cho mọi thì. Mẹo: Quá khứ của 'can' là 'could'.\n💡 **Ví dụ:** She couldn't read when she was 4. / They couldn't afford a car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have seen her yesterday.",
+    "output": "✅ **Corrected Sentence:** I saw her yesterday.\n🔍 **Error Identification:** 'Yesterday' là thời gian cụ thể → dùng quá khứ đơn, không dùng hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại hoàn thành với 'yesterday'. Mẹo: Thời gian đã kết thúc → quá khứ đơn.\n💡 **Ví dụ:** She has eaten lunch an hour ago → She ate lunch an hour ago. / They have arrived last night → They arrived last night."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He didn't spoke to me after the argument.",
+    "output": "✅ **Corrected Sentence:** He didn't speak to me after the argument.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (speak), không dùng V2 (spoke).\n📘 **Vietnamese Explanation:** Người Việt dùng 'spoke' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** She didn't write back. / They didn't sing well."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She didn't used to be so shy.",
+    "output": "✅ **Corrected Sentence:** She didn't use to be so shy.\n🔍 **Error Identification:** Phủ định của 'used to' là 'didn't use to' (không d).\n📘 **Vietnamese Explanation:** Người Việt giữ 'used' sau 'didn't'. Mẹo: 'Didn't' + use to.\n💡 **Ví dụ:** He didn't use to smoke. / They didn't use to argue."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I eated too much at the party last night.",
+    "output": "✅ **Corrected Sentence:** I ate too much at the party last night.\n🔍 **Error Identification:** 'Eat' là bất quy tắc, quá khứ là 'ate', không phải 'eated'.\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' vào 'eat'. Mẹo: eat – ate – eaten.\n💡 **Ví dụ:** She gave me a gift. / He forgave her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Did you went to school yesterday?",
+    "output": "✅ **Corrected Sentence:** Did you go to school yesterday?\n🔍 **Error Identification:** Sau 'did' dùng V1 (go), không dùng V2 (went).\n📘 **Vietnamese Explanation:** Người Việt dùng 'went' vì quá khứ. Mẹo: 'Did you' + V1.\n💡 **Ví dụ:** Did she come to the party? / Did they buy a new house?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't saw nobody.",
+    "output": "✅ **Corrected Sentence:** I didn't see anybody. (hoặc I saw nobody)\n🔍 **Error Identification:** Lỗi kép phủ định – 'didn't' và 'nobody' cùng nhau.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi không thấy ai cả' thành 'didn't see nobody'. Mẹo: Chỉ dùng một phủ định.\n💡 **Ví dụ:** She didn't tell anyone. / He knows nothing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He runned away when he saw the dog.",
+    "output": "✅ **Corrected Sentence:** He ran away when he saw the dog.\n🔍 **Error Identification:** 'Run' → 'ran', không phải 'runned'.\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' vào 'run'. Mẹo: run – ran – run.\n💡 **Ví dụ:** She began to cry. / He drank too much."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We didn't ate because we weren't hungry.",
+    "output": "✅ **Corrected Sentence:** We didn't eat because we weren't hungry.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (eat), không dùng V2 (ate).\n📘 **Vietnamese Explanation:** Người Việt dùng 'ate' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** They didn't sleep because they were excited. / She didn't laugh because the joke wasn't funny."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I use to wake up early when I had a job.",
+    "output": "✅ **Corrected Sentence:** I used to wake up early when I had a job.\n🔍 **Error Identification:** Thiếu 'd' – 'use to' phải là 'used to'.\n📘 **Vietnamese Explanation:** Người Việt quên 'd' ở 'used to'. Mẹo: 'Used to' + V1.\n💡 **Ví dụ:** She used to wear glasses. / They used to live nearby."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Where did she bought that bag?",
+    "output": "✅ **Corrected Sentence:** Where did she buy that bag?\n🔍 **Error Identification:** Sau 'did' dùng V1 (buy), không dùng V2 (bought).\n📘 **Vietnamese Explanation:** Người Việt dùng 'bought' vì quá khứ. Mẹo: 'Did' + S + V1.\n💡 **Ví dụ:** Where did he find the keys? / Where did they park the car?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She didn't came to the party because she was sick.",
+    "output": "✅ **Corrected Sentence:** She didn't come to the party because she was sick.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (come), không dùng V2 (came).\n📘 **Vietnamese Explanation:** Người Việt dùng 'came' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** He didn't become a doctor. / They didn't become famous."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I sended the email yesterday.",
+    "output": "✅ **Corrected Sentence:** I sent the email yesterday.\n🔍 **Error Identification:** 'Send' là bất quy tắc, quá khứ là 'sent', không phải 'sended'.\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' vào 'send'. Mẹo: send – sent – sent.\n💡 **Ví dụ:** She spent all her money. / He lent me some money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What did you did last night?",
+    "output": "✅ **Corrected Sentence:** What did you do last night?\n🔍 **Error Identification:** Dùng hai lần 'did' – chỉ cần một 'did' + V1.\n📘 **Vietnamese Explanation:** Người Việt muốn chia cả hai động từ. Mẹo: Chỉ trợ động từ 'did' thể hiện quá khứ.\n💡 **Ví dụ:** What did she eat? / What did they watch?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't knew that you were here.",
+    "output": "✅ **Corrected Sentence:** I didn't know that you were here.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (know), không dùng V2 (knew).\n📘 **Vietnamese Explanation:** Người Việt dùng 'knew' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** She didn't understand the question. / They didn't hear the noise."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He used to smoking 2 packs a day.",
+    "output": "✅ **Corrected Sentence:** He used to smoke 2 packs a day.\n🔍 **Error Identification:** Sau 'used to' dùng V1 (smoke), không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt thêm 'ing' sau 'used to'. Mẹo: 'Used to' + V1.\n💡 **Ví dụ:** She used to drink coffee. / They used to fight a lot."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Did she went to the concert?",
+    "output": "✅ **Corrected Sentence:** Did she go to the concert?\n🔍 **Error Identification:** Sau 'did' dùng V1 (go), không dùng V2 (went).\n📘 **Vietnamese Explanation:** Người Việt dùng 'went' vì quá khứ. Mẹo: 'Did' + S + V1.\n💡 **Ví dụ:** Did he come to the party? / Did they arrive on time?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't taked the test because I was sick.",
+    "output": "✅ **Corrected Sentence:** I didn't take the test because I was sick.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (take), không dùng 'taked' (không có từ này).\n📘 **Vietnamese Explanation:** Người Việt thêm '-ed' vào 'take' (bất quy tắc). Mẹo: take – took – taken, 'didn't' + take.\n💡 **Ví dụ:** She didn't make a mistake. / They didn't choose wisely."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I was a child, I always walk to school.",
+    "output": "✅ **Corrected Sentence:** When I was a child, I always walked to school.\n🔍 **Error Identification:** 'When I was a child' là quá khứ → dùng 'walked', không dùng 'walk'.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho thói quen quá khứ. Mẹo: 'Always' trong quá khứ vẫn dùng V2/ed.\n💡 **Ví dụ:** She always helped her mom. / They always played together."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't saw the warning sign.",
+    "output": "✅ **Corrected Sentence:** I didn't see the warning sign.\n🔍 **Error Identification:** Sau 'didn't' dùng V1 (see), không dùng V2 (saw).\n📘 **Vietnamese Explanation:** Người Việt dùng 'saw' vì quá khứ. Mẹo: 'Didn't' + V1.\n💡 **Ví dụ:** She didn't hear the bell. / They didn't feel the vibration."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She didn't used to like him, but now she does.",
+    "output": "✅ **Corrected Sentence:** She didn't use to like him, but now she does.\n🔍 **Error Identification:** Phủ định của 'used to' là 'didn't use to'.\n📘 **Vietnamese Explanation:** Người Việt giữ 'used' sau 'didn't'. Mẹo: 'Didn't' + use to.\n💡 **Ví dụ:** He didn't use to exercise. / They didn't use to travel."
+  }
+]

@@ -172,7 +172,7 @@ class TTSGenerateView(APIView):
         """Generate (or return cached) audio file path. Runs in a thread."""
         if not text or not text.strip():
             return None
-        if len(text) > 500:
+        if len(text) > 3000:
             return None
         voice = voice if voice in TTSVoice.ALLOWED else TTSVoice.DEFAULT
         with concurrent.futures.ThreadPoolExecutor(max_workers=1) as pool:

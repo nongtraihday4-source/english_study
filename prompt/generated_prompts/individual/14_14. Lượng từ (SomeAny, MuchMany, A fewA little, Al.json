@@ -1,0 +1,502 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have much books.",
+    "output": "✅ **Corrected Sentence:** I have many books.\n🔍 **Error Identification:** 'Much' dùng cho danh từ không đếm được, 'books' là danh từ đếm được số nhiều → dùng 'many'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'much' cho mọi trường hợp vì dịch 'nhiều'. Mẹo: Many + danh từ đếm được số nhiều (books, cars). Much + không đếm được (water, time).\n💡 **Ví dụ:** I have many friends. / I don't have much money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has a few water.",
+    "output": "✅ **Corrected Sentence:** She has a little water.\n🔍 **Error Identification:** 'A few' dùng cho danh từ đếm được số nhiều, 'water' là không đếm được → dùng 'a little'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một ít nước' thành 'a few water'. Mẹo: A few + đếm được số nhiều (a few apples). A little + không đếm được (a little sugar).\n💡 **Ví dụ:** I have a few questions. / I need a little help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't have some money.",
+    "output": "✅ **Corrected Sentence:** I don't have any money.\n🔍 **Error Identification:** Trong câu phủ định, dùng 'any', không dùng 'some'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'some' trong câu phủ định vì dịch 'một vài'. Mẹo: Some dùng trong câu khẳng định; any dùng trong câu phủ định và câu hỏi.\n💡 **Ví dụ:** I have some apples. / I don't have any apples."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All of students passed the exam.",
+    "output": "✅ **Corrected Sentence:** All of the students passed the exam. (hoặc All students passed)\n🔍 **Error Identification:** 'All of' + xác định (the students), không dùng 'all of students' không có mạo từ.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tất cả học sinh' thành 'all of students' quên 'the'. Mẹo: 'All of + the/my/these/those + N'.\n💡 **Ví dụ:** All of my friends are here. / All children like candy (không có 'of')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Both of my brother are doctors.",
+    "output": "✅ **Corrected Sentence:** Both of my brothers are doctors. (hoặc Both my brothers)\n🔍 **Error Identification:** 'Both' + danh từ số nhiều (brothers), không dùng số ít 'brother'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'brother' số ít sau 'both'. Mẹo: 'Both' chỉ hai người/vật → danh từ số nhiều.\n💡 **Ví dụ:** Both of my parents work. / Both answers are correct."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "None of the students is here.",
+    "output": "✅ **Corrected Sentence:** None of the students are here. (hoặc is – cả hai đều được chấp nhận)\n🔍 **Error Identification:** 'None of + danh từ số nhiều' thường dùng động từ số nhiều (are) trong tiếng Anh hiện đại.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is' vì nghĩ 'none' là số ít. Mẹo: None of + plural N + plural verb (phổ biến).\n💡 **Ví dụ:** None of the cars are working. / None of the food is fresh (số ít)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can I have some water? (câu đúng trong đề nghị) - Học viên viết \'Can I have any water?\'",
+    "output": "✅ **Corrected Sentence:** Can I have some water? (khi mong đợi câu trả lời yes)\n🔍 **Error Identification:** Trong câu hỏi đề nghị, yêu cầu, dùng 'some', không dùng 'any'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'any' trong mọi câu hỏi. Mẹo: Câu hỏi đề nghị (offer/request) → dùng 'some'.\n💡 **Ví dụ:** Would you like some coffee? / Can you lend me some money?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a few times to finish.",
+    "output": "✅ **Corrected Sentence:** I have a little time to finish.\n🔍 **Error Identification:** 'Time' là không đếm được → dùng 'a little', không dùng 'a few'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a few' cho mọi 'một ít'. Mẹo: A few + đếm được (a few minutes). A little + không đếm được (a little time).\n💡 **Ví dụ:** I have a few questions. / I have a little patience."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is much people in the room.",
+    "output": "✅ **Corrected Sentence:** There are many people in the room.\n🔍 **Error Identification:** 'People' là danh từ đếm được số nhiều → dùng 'many' và động từ số nhiều 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'much' và 'is' với 'people'. Mẹo: Many + people (đếm được). Much + không đếm được.\n💡 **Ví dụ:** Many people speak English. / Much work is needed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have some any questions.",
+    "output": "✅ **Corrected Sentence:** I have some questions. (hoặc I don't have any questions)\n🔍 **Error Identification:** 'Some any' không bao giờ đi cùng nhau.\n📘 **Vietnamese Explanation:** Người Việt kết hợp 'some' và 'any'. Mẹo: Chọn một trong hai: some (khẳng định) hoặc any (phủ định/câu hỏi).\n💡 **Ví dụ:** I have some apples. / Do you have any apples?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Both of them is coming.",
+    "output": "✅ **Corrected Sentence:** Both of them are coming.\n🔍 **Error Identification:** 'Both' chỉ hai người → động từ số nhiều 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is' với 'both'. Mẹo: Both + động từ số nhiều.\n💡 **Ví dụ:** Both of us are tired. / Both answers are wrong."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "None of the information are correct.",
+    "output": "✅ **Corrected Sentence:** None of the information is correct.\n🔍 **Error Identification:** 'Information' là không đếm được → động từ số ít 'is'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are' vì 'information' không có 's'. Mẹo: None of + không đếm được + động từ số ít.\n💡 **Ví dụ:** None of the news is good. / None of the advice was helpful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a few informations.",
+    "output": "✅ **Corrected Sentence:** I need a little information. (hoặc some information)\n🔍 **Error Identification:** 'Information' là không đếm được, không dùng 'a few', không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'information' và dùng 'a few'. Mẹo: Information không đếm được → a little / some.\n💡 **Ví dụ:** I need a little help. / I have some advice for you."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How many sugar do you want?",
+    "output": "✅ **Corrected Sentence:** How much sugar do you want?\n🔍 **Error Identification:** 'Sugar' là không đếm được → dùng 'how much', không dùng 'how many'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'how many' cho mọi thứ. Mẹo: How many + đếm được (apples). How much + không đếm được (sugar).\n💡 **Ví dụ:** How many eggs? / How much milk?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All what I need is love.",
+    "output": "✅ **Corrected Sentence:** All that I need is love. (hoặc All I need is love)\n🔍 **Error Identification:** 'All what' là sai – dùng 'all that' hoặc bỏ 'that'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tất cả những gì' thành 'all what'. Mẹo: 'All that' hoặc 'all' + mệnh đề.\n💡 **Ví dụ:** All (that) I know is this. / All (that) she said was true."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are a little apples left.",
+    "output": "✅ **Corrected Sentence:** There are a few apples left.\n🔍 **Error Identification:** 'Apples' đếm được số nhiều → dùng 'a few', không dùng 'a little'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a little' cho mọi 'một ít'. Mẹo: A few + đếm được (a few apples). A little + không đếm được (a little water).\n💡 **Ví dụ:** I have a few dollars. / I have a little money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't have some friends.",
+    "output": "✅ **Corrected Sentence:** I don't have any friends. (hoặc I have no friends)\n🔍 **Error Identification:** Câu phủ định dùng 'any', không dùng 'some'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'some' trong câu phủ định. Mẹo: Khẳng định → some; phủ định/câu hỏi → any.\n💡 **Ví dụ:** She has some money. / She doesn't have any money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Both my sister is tall.",
+    "output": "✅ **Corrected Sentence:** Both my sisters are tall. (hoặc Both of my sisters)\n🔍 **Error Identification:** 'Both' + danh từ số nhiều (sisters) + động từ số nhiều (are).\n📘 **Vietnamese Explanation:** Người Việt dùng 'sister' số ít và 'is'. Mẹo: Both = hai → số nhiều.\n💡 **Ví dụ:** Both parents are teachers. / Both cars are red."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "None of the answer is correct.",
+    "output": "✅ **Corrected Sentence:** None of the answers is correct. (hoặc are correct)\n🔍 **Error Identification:** 'Answer' cần ở dạng số nhiều 'answers' vì có 'none of the'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'answer' số ít sau 'none of the'. Mẹo: 'None of the' + danh từ số nhiều.\n💡 **Ví dụ:** None of the students passed. / None of the cars were damaged."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How much apples do you need?",
+    "output": "✅ **Corrected Sentence:** How many apples do you need?\n🔍 **Error Identification:** 'Apples' đếm được → 'how many', không dùng 'how much'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'how much' cho mọi thứ. Mẹo: How many + đếm được số nhiều.\n💡 **Ví dụ:** How many people are coming? / How many books did you read?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a few money left.",
+    "output": "✅ **Corrected Sentence:** I have a little money left.\n🔍 **Error Identification:** 'Money' không đếm được → 'a little', không dùng 'a few'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a few' cho mọi 'một ít'. Mẹo: A little + không đếm được (money, time, water).\n💡 **Ví dụ:** I have a little time. / She has a little patience."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All of they are coming.",
+    "output": "✅ **Corrected Sentence:** All of them are coming.\n🔍 **Error Identification:** Sau 'all of' dùng tân ngữ (them), không dùng chủ ngữ (they).\n📘 **Vietnamese Explanation:** Người Việt dịch 'tất cả bọn họ' thành 'all of they'. Mẹo: All of + us/you/them.\n💡 **Ví dụ:** All of us are tired. / All of you need to listen."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is much students in the class.",
+    "output": "✅ **Corrected Sentence:** There are many students in the class.\n🔍 **Error Identification:** 'Students' đếm được số nhiều → 'many' và 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'much' và 'is' với danh từ đếm được. Mẹo: Many + danh từ đếm được số nhiều.\n💡 **Ví dụ:** Many people are here. / Much noise is annoying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can speak a little French. (câu đúng) - Học viên viết \'I can speak a few French.\'",
+    "output": "✅ **Corrected Sentence:** I can speak a little French.\n🔍 **Error Identification:** 'French' (ngôn ngữ) là không đếm được → 'a little', không dùng 'a few'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a few' cho ngôn ngữ. Mẹo: Ngôn ngữ, môn học → a little.\n💡 **Ví dụ:** I know a little Spanish. / She understands a little Chinese."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Would you like any coffee? (câu hỏi đề nghị nên dùng some)",
+    "output": "✅ **Corrected Sentence:** Would you like some coffee?\n🔍 **Error Identification:** Câu hỏi đề nghị (offer) dùng 'some', không dùng 'any'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'any' trong mọi câu hỏi. Mẹo: Đề nghị, mời ai đó → dùng 'some'.\n💡 **Ví dụ:** Would you like some tea? / Do you want some cake?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are a few water in the bottle.",
+    "output": "✅ **Corrected Sentence:** There is a little water in the bottle.\n🔍 **Error Identification:** 'Water' không đếm được → 'a little' và 'is'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a few' và 'are' với nước. Mẹo: Water không đếm được → a little + is.\n💡 **Ví dụ:** There is a little milk left. / There are a few eggs."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Both of the answer is right.",
+    "output": "✅ **Corrected Sentence:** Both of the answers are right.\n🔍 **Error Identification:** 'Both' + danh từ số nhiều (answers) + động từ số nhiều (are).\n📘 **Vietnamese Explanation:** Người Việt dùng 'answer' số ít và 'is'. Mẹo: Both = hai → số nhiều.\n💡 **Ví dụ:** Both of the doors are locked. / Both options are good."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need some informations.",
+    "output": "✅ **Corrected Sentence:** I need some information.\n🔍 **Error Identification:** 'Information' không đếm được, không có dạng 'informations'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'information'. Mẹo: Information, advice, news, furniture, luggage là không đếm được.\n💡 **Ví dụ:** I need some advice. / That's useful information."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How many rice do you want?",
+    "output": "✅ **Corrected Sentence:** How much rice do you want?\n🔍 **Error Identification:** 'Rice' không đếm được → 'how much', không dùng 'how many'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'how many' cho gạo. Mẹo: Rice, water, sugar, salt → how much.\n💡 **Ví dụ:** How much bread do you need? / How many loaves of bread?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All of students are here.",
+    "output": "✅ **Corrected Sentence:** All of the students are here. (hoặc All students are here)\n🔍 **Error Identification:** 'All of' + xác định (the students).\n📘 **Vietnamese Explanation:** Người Việt quên 'the' sau 'all of'. Mẹo: All of + the/my/these/those + N.\n💡 **Ví dụ:** All of my friends are nice. / All of the books are new."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is a few milk in the fridge.",
+    "output": "✅ **Corrected Sentence:** There is a little milk in the fridge.\n🔍 **Error Identification:** 'Milk' không đếm được → 'a little', không dùng 'a few'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a few' cho sữa. Mẹo: A little + không đếm được (milk, water).\n💡 **Ví dụ:** I have a little coffee left. / There's a little sugar."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't have no money.",
+    "output": "✅ **Corrected Sentence:** I don't have any money. (hoặc I have no money)\n🔍 **Error Identification:** Lỗi kép phủ định – 'don't' và 'no'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'không có tiền' thành 'don't have no money'. Mẹo: don't + any = no.\n💡 **Ví dụ:** I don't have any friends. / I have no friends."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Both of them is tired.",
+    "output": "✅ **Corrected Sentence:** Both of them are tired.\n🔍 **Error Identification:** 'Both' chỉ hai người → động từ số nhiều 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is' với 'both'. Mẹo: Both + are.\n💡 **Ví dụ:** Both of us are students. / Both of you are right."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a little apples.",
+    "output": "✅ **Corrected Sentence:** I have a few apples.\n🔍 **Error Identification:** 'Apples' đếm được số nhiều → 'a few', không dùng 'a little'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a little' cho táo. Mẹo: A few + đếm được (apples).\n💡 **Ví dụ:** I have a few books. / She has a few friends."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "None of the luggage are heavy.",
+    "output": "✅ **Corrected Sentence:** None of the luggage is heavy.\n🔍 **Error Identification:** 'Luggage' không đếm được → động từ số ít 'is'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are' với 'luggage'. Mẹo: None of + không đếm được + động từ số ít.\n💡 **Ví dụ:** None of the furniture is new. / None of the advice was good."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Would you like any help? (câu hỏi đề nghị nên dùng some)",
+    "output": "✅ **Corrected Sentence:** Would you like some help?\n🔍 **Error Identification:** Câu hỏi đề nghị giúp đỡ → dùng 'some', không dùng 'any'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'any' trong câu đề nghị. Mẹo: 'Would you like some...?' là đề nghị.\n💡 **Ví dụ:** Would you like some water? / Would you like some cake?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many homeworks.",
+    "output": "✅ **Corrected Sentence:** I have a lot of homework. (hoặc much homework)\n🔍 **Error Identification:** 'Homework' không đếm được, không có 'homeworks', không dùng 'many'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' và dùng 'many' với 'homework'. Mẹo: Homework không đếm được → much / a lot of.\n💡 **Ví dụ:** I have much work. / She has a lot of homework."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How much students are in the class?",
+    "output": "✅ **Corrected Sentence:** How many students are in the class?\n🔍 **Error Identification:** 'Students' đếm được → 'how many', không dùng 'how much'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'how much' cho người. Mẹo: How many + đếm được (students).\n💡 **Ví dụ:** How many people are coming? / How many cars are there?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are a little chairs in the room.",
+    "output": "✅ **Corrected Sentence:** There are a few chairs in the room.\n🔍 **Error Identification:** 'Chairs' đếm được số nhiều → 'a few', không dùng 'a little'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a little' cho ghế. Mẹo: A few + đếm được số nhiều.\n💡 **Ví dụ:** There are a few cars in the parking lot. / I have a few questions."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All of the people is happy.",
+    "output": "✅ **Corrected Sentence:** All of the people are happy.\n🔍 **Error Identification:** 'People' là danh từ số nhiều → động từ số nhiều 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is' với 'people'. Mẹo: People = nhiều người → are.\n💡 **Ví dụ:** All of the students are here. / All of the cars are new."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't find some information.",
+    "output": "✅ **Corrected Sentence:** I can't find any information.\n🔍 **Error Identification:** Câu phủ định dùng 'any', không dùng 'some'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'some' trong câu phủ định. Mẹo: Phủ định + any.\n💡 **Ví dụ:** I don't have any money. / She can't find any solution."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Both my parent work.",
+    "output": "✅ **Corrected Sentence:** Both my parents work.\n🔍 **Error Identification:** 'Both' + danh từ số nhiều (parents).\n📘 **Vietnamese Explanation:** Người Việt dùng 'parent' số ít sau 'both'. Mẹo: Both + plural noun.\n💡 **Ví dụ:** Both my sisters are married. / Both answers are correct."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is much noise outside.",
+    "output": "✅ **Corrected Sentence:** There is much noise outside. (câu đúng)\n🔍 **Error Identification:** 'Noise' không đếm được → 'much' đúng. Câu này không sai.\n📘 **Vietnamese Explanation:** Người Việt hay dùng 'many noise' – sai. Mẹo: Noise không đếm được → much.\n💡 **Ví dụ:** There is too much noise. / I don't have much time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a few advices.",
+    "output": "✅ **Corrected Sentence:** I need a little advice. (hoặc some advice)\n🔍 **Error Identification:** 'Advice' không đếm được, không có 'advices', không dùng 'a few'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' và dùng 'a few' với 'advice'. Mẹo: Advice không đếm được → a little / some.\n💡 **Ví dụ:** I need a little help. / She gave me some advice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "None of them knows the truth. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** None of them know the truth. (hoặc knows – cả hai đều đúng)\n🔍 **Error Identification:** 'None of + plural noun' có thể dùng động từ số nhiều (know) hoặc số ít (knows).\n📘 **Vietnamese Explanation:** Người Việt chỉ dùng 'knows'. Mẹo: None of them + know (số nhiều) phổ biến hơn.\n💡 **Ví dụ:** None of the students have arrived. / None of us is perfect."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have some any questions for you.",
+    "output": "✅ **Corrected Sentence:** I have some questions for you.\n🔍 **Error Identification:** 'Some any' không đi cùng nhau.\n📘 **Vietnamese Explanation:** Người Việt kết hợp 'some' và 'any'. Mẹo: Chọn một: some hoặc any.\n💡 **Ví dụ:** I have some ideas. / Do you have any ideas?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How many time do you need?",
+    "output": "✅ **Corrected Sentence:** How much time do you need?\n🔍 **Error Identification:** 'Time' (thời gian) là không đếm được → 'how much'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'how many time'. Mẹo: Time (thời gian) không đếm được → how much.\n💡 **Ví dụ:** How much time is left? / How many times = bao nhiêu lần."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All what she said is true.",
+    "output": "✅ **Corrected Sentence:** All that she said is true. (hoặc All she said is true)\n🔍 **Error Identification:** 'All what' là sai; dùng 'all that' hoặc 'all'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tất cả những gì' thành 'all what'. Mẹo: All + that + mệnh đề.\n💡 **Ví dụ:** All (that) I know is this. / All (that) you need is love."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a few bread.",
+    "output": "✅ **Corrected Sentence:** I have a little bread. (hoặc some bread)\n🔍 **Error Identification:** 'Bread' không đếm được → 'a little', không dùng 'a few'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a few' cho bánh mì. Mẹo: Bread không đếm được → a little.\n💡 **Ví dụ:** I have a little butter. / Can I have some bread?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "None of my friend came to the party.",
+    "output": "✅ **Corrected Sentence:** None of my friends came to the party.\n🔍 **Error Identification:** 'None of the/my' + danh từ số nhiều (friends).\n📘 **Vietnamese Explanation:** Người Việt dùng 'friend' số ít. Mẹo: None of + plural noun.\n💡 **Ví dụ:** None of the students passed. / None of my answers were correct."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Both of the child are playing.",
+    "output": "✅ **Corrected Sentence:** Both of the children are playing.\n🔍 **Error Identification:** 'Both' + danh từ số nhiều (children), không dùng 'child' số ít.\n📘 **Vietnamese Explanation:** Người Việt dùng 'child' số ít sau 'both'. Mẹo: Both + plural noun.\n💡 **Ví dụ:** Both of the girls are singing. / Both of the cars are red."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need some water. (câu đúng) - Học viên viết \'I need any water.\'",
+    "output": "✅ **Corrected Sentence:** I need some water.\n🔍 **Error Identification:** Câu khẳng định dùng 'some', không dùng 'any'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'any' trong câu khẳng định. Mẹo: Khẳng định → some; phủ định/câu hỏi → any.\n💡 **Ví dụ:** I have some money. / She has some friends."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is many traffic today.",
+    "output": "✅ **Corrected Sentence:** There is much traffic today. (hoặc a lot of traffic)\n🔍 **Error Identification:** 'Traffic' không đếm được → dùng 'much', không dùng 'many'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'many' với 'traffic'. Mẹo: Traffic không đếm được → much / a lot of.\n💡 **Ví dụ:** There is too much noise. / I have a lot of work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All of they are my friends.",
+    "output": "✅ **Corrected Sentence:** All of them are my friends.\n🔍 **Error Identification:** 'All of' + tân ngữ (them), không dùng chủ ngữ (they).\n📘 **Vietnamese Explanation:** Người Việt dịch 'tất cả bọn họ' thành 'all of they'. Mẹo: All of + us/you/them.\n💡 **Ví dụ:** All of us are ready. / All of you need to listen."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a little questions.",
+    "output": "✅ **Corrected Sentence:** I have a few questions.\n🔍 **Error Identification:** 'Questions' đếm được số nhiều → 'a few', không dùng 'a little'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a little' cho câu hỏi. Mẹo: A few + đếm được số nhiều.\n💡 **Ví dụ:** I have a few minutes. / She has a few books."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How much apples are there?",
+    "output": "✅ **Corrected Sentence:** How many apples are there?\n🔍 **Error Identification:** 'Apples' đếm được → 'how many'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'how much' cho táo. Mẹo: How many + đếm được số nhiều.\n💡 **Ví dụ:** How many oranges do you want? / How many eggs are left?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't see some people.",
+    "output": "✅ **Corrected Sentence:** I can't see any people.\n🔍 **Error Identification:** Câu phủ định dùng 'any', không dùng 'some'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'some' trong câu phủ định. Mẹo: Phủ định + any.\n💡 **Ví dụ:** I don't know anyone. / She doesn't have any friends."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Both of the book is interesting.",
+    "output": "✅ **Corrected Sentence:** Both of the books are interesting.\n🔍 **Error Identification:** 'Both' + danh từ số nhiều (books) + động từ số nhiều (are).\n📘 **Vietnamese Explanation:** Người Việt dùng 'book' số ít và 'is'. Mẹo: Both = hai → số nhiều.\n💡 **Ví dụ:** Both of the movies are good. / Both answers are correct."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "None of the furniture are old.",
+    "output": "✅ **Corrected Sentence:** None of the furniture is old.\n🔍 **Error Identification:** 'Furniture' không đếm được → động từ số ít 'is'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are' với 'furniture'. Mẹo: Furniture không đếm được → is.\n💡 **Ví dụ:** None of the information is correct. / None of the news is good."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can you lend me some money? (câu hỏi yêu cầu, đúng)",
+    "output": "✅ **Corrected Sentence:** Can you lend me some money? (câu đúng)\n🔍 **Error Identification:** Câu hỏi yêu cầu (request) dùng 'some', không dùng 'any'. Đây là câu đúng.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'any' trong câu hỏi này. Mẹo: Câu hỏi yêu cầu/đề nghị → dùng 'some'.\n💡 **Ví dụ:** Can you give me some advice? / Could you lend me some sugar?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have much friends.",
+    "output": "✅ **Corrected Sentence:** I have many friends.\n🔍 **Error Identification:** 'Friends' đếm được → 'many', không dùng 'much'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'much' cho bạn bè. Mẹo: Many + friends (đếm được).\n💡 **Ví dụ:** I have many books. / She has many ideas."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is a few sugar in the jar.",
+    "output": "✅ **Corrected Sentence:** There is a little sugar in the jar.\n🔍 **Error Identification:** 'Sugar' không đếm được → 'a little', không dùng 'a few'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a few' cho đường. Mẹo: Sugar không đếm được → a little.\n💡 **Ví dụ:** There is a little salt. / I have a little honey."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All of the student passed the test.",
+    "output": "✅ **Corrected Sentence:** All of the students passed the test.\n🔍 **Error Identification:** 'All of the' + danh từ số nhiều (students).\n📘 **Vietnamese Explanation:** Người Việt dùng 'student' số ít. Mẹo: All of + plural noun.\n💡 **Ví dụ:** All of the cars are new. / All of the books are on the shelf."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't have no friends.",
+    "output": "✅ **Corrected Sentence:** I don't have any friends. (hoặc I have no friends)\n🔍 **Error Identification:** Lỗi kép phủ định – 'don't' và 'no'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'không có bạn nào' thành 'don't have no friends'. Mẹo: don't + any = no.\n💡 **Ví dụ:** She doesn't have any money. / She has no money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Both of us is tired.",
+    "output": "✅ **Corrected Sentence:** Both of us are tired.\n🔍 **Error Identification:** 'Both' + động từ số nhiều 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is' với 'both'. Mẹo: Both + are.\n💡 **Ví dụ:** Both of you are wrong. / Both of them are happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a few time.",
+    "output": "✅ **Corrected Sentence:** I need a little time.\n🔍 **Error Identification:** 'Time' không đếm được → 'a little', không dùng 'a few'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a few' cho thời gian. Mẹo: Time (thời gian) không đếm được → a little.\n💡 **Ví dụ:** I need a little rest. / She has a little patience."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are much cars on the road.",
+    "output": "✅ **Corrected Sentence:** There are many cars on the road.\n🔍 **Error Identification:** 'Cars' đếm được → 'many', không dùng 'much'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'much' cho xe cộ. Mẹo: Many + cars (đếm được).\n💡 **Ví dụ:** Many people are waiting. / Much traffic is on the road."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "None of the answer are right.",
+    "output": "✅ **Corrected Sentence:** None of the answers are right. (hoặc is right)\n🔍 **Error Identification:** 'None of the' + danh từ số nhiều (answers).\n📘 **Vietnamese Explanation:** Người Việt dùng 'answer' số ít. Mẹo: None of + plural noun.\n💡 **Ví dụ:** None of the questions were easy. / None of the options is good."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can I have any coffee? (câu hỏi yêu cầu nên dùng some)",
+    "output": "✅ **Corrected Sentence:** Can I have some coffee?\n🔍 **Error Identification:** Câu hỏi yêu cầu dùng 'some', không dùng 'any'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'any' trong câu yêu cầu. Mẹo: Can I have some...? là yêu cầu.\n💡 **Ví dụ:** Can I have some water? / Could I have some sugar?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a few work to do.",
+    "output": "✅ **Corrected Sentence:** I have a little work to do.\n🔍 **Error Identification:** 'Work' không đếm được → 'a little', không dùng 'a few'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a few' cho công việc. Mẹo: Work (công việc) không đếm được → a little.\n💡 **Ví dụ:** I have a little homework. / She has a little experience."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How much languages do you speak?",
+    "output": "✅ **Corrected Sentence:** How many languages do you speak?\n🔍 **Error Identification:** 'Languages' đếm được → 'how many'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'how much' cho ngôn ngữ. Mẹo: How many + languages (đếm được).\n💡 **Ví dụ:** How many countries have you visited? / How many books did you read?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All of the news are good.",
+    "output": "✅ **Corrected Sentence:** All of the news is good.\n🔍 **Error Identification:** 'News' không đếm được → động từ số ít 'is'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are' với 'news'. Mẹo: News không đếm được → is.\n💡 **Ví dụ:** All of the information is correct. / All of the advice is helpful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't find no information.",
+    "output": "✅ **Corrected Sentence:** I can't find any information. (hoặc I can find no information)\n🔍 **Error Identification:** Lỗi kép phủ định – 'can't' và 'no'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'không thể tìm thấy thông tin' thành 'can't find no information'. Mẹo: can't + any = no.\n💡 **Ví dụ:** I don't see any difference. / I see no difference."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Both my sister is a doctor.",
+    "output": "✅ **Corrected Sentence:** Both my sisters are doctors.\n🔍 **Error Identification:** 'Both' + danh từ số nhiều (sisters) + động từ số nhiều (are).\n📘 **Vietnamese Explanation:** Người Việt dùng 'sister' số ít và 'is'. Mẹo: Both = hai → số nhiều.\n💡 **Ví dụ:** Both my parents are teachers. / Both cars are expensive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need some advices.",
+    "output": "✅ **Corrected Sentence:** I need some advice.\n🔍 **Error Identification:** 'Advice' không đếm được, không có 'advices'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'advice'. Mẹo: Advice luôn số ít.\n💡 **Ví dụ:** Can you give me some advice? / That's good advice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is much people in the park.",
+    "output": "✅ **Corrected Sentence:** There are many people in the park.\n🔍 **Error Identification:** 'People' là danh từ đếm được số nhiều → 'many' và 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'much' và 'is' với 'people'. Mẹo: People = nhiều người → many + are.\n💡 **Ví dụ:** Many people are happy. / Much love is in the air."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a little apples in my bag.",
+    "output": "✅ **Corrected Sentence:** I have a few apples in my bag.\n🔍 **Error Identification:** 'Apples' đếm được → 'a few', không dùng 'a little'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a little' cho táo. Mẹo: A few + apples (đếm được).\n💡 **Ví dụ:** I have a few oranges. / She has a few candies."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All of us is going to the beach.",
+    "output": "✅ **Corrected Sentence:** All of us are going to the beach.\n🔍 **Error Identification:** 'All of us' = số nhiều → động từ số nhiều 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is' với 'all of us'. Mẹo: All of us/you/them + are.\n💡 **Ví dụ:** All of them are coming. / All of you are invited."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How many sugar should I add?",
+    "output": "✅ **Corrected Sentence:** How much sugar should I add?\n🔍 **Error Identification:** 'Sugar' không đếm được → 'how much'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'how many' cho đường. Mẹo: How much + sugar (không đếm được).\n💡 **Ví dụ:** How much salt do you need? / How much water is left?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "None of the child is here.",
+    "output": "✅ **Corrected Sentence:** None of the children is here. (hoặc are here)\n🔍 **Error Identification:** 'None of the' + danh từ số nhiều (children).\n📘 **Vietnamese Explanation:** Người Việt dùng 'child' số ít. Mẹo: None of + plural noun.\n💡 **Ví dụ:** None of the students passed. / None of the cars are working."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't want some coffee.",
+    "output": "✅ **Corrected Sentence:** I don't want any coffee.\n🔍 **Error Identification:** Câu phủ định dùng 'any', không dùng 'some'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'some' trong câu phủ định. Mẹo: Phủ định + any.\n💡 **Ví dụ:** I don't have some money → I don't have any money. / She doesn't want some help → any help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Both of the answer is correct.",
+    "output": "✅ **Corrected Sentence:** Both of the answers are correct.\n🔍 **Error Identification:** 'Both' + danh từ số nhiều (answers) + động từ số nhiều (are).\n📘 **Vietnamese Explanation:** Người Việt dùng 'answer' số ít và 'is'. Mẹo: Both + plural noun + plural verb.\n💡 **Ví dụ:** Both of the options are good. / Both of the doors are open."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a lot of homeworks.",
+    "output": "✅ **Corrected Sentence:** I have a lot of homework.\n🔍 **Error Identification:** 'Homework' không đếm được, không có 'homeworks'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'homework'. Mẹo: Homework không đếm được.\n💡 **Ví dụ:** I have a lot of work. / She has a lot of patience."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is a few water in the glass.",
+    "output": "✅ **Corrected Sentence:** There is a little water in the glass.\n🔍 **Error Identification:** 'Water' không đếm được → 'a little', không dùng 'a few'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a few' cho nước. Mẹo: Water không đếm được → a little.\n💡 **Ví dụ:** There is a little milk. / I have a little tea."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All of they are students.",
+    "output": "✅ **Corrected Sentence:** All of them are students.\n🔍 **Error Identification:** 'All of' + tân ngữ (them), không dùng 'they'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tất cả bọn họ' thành 'all of they'. Mẹo: All of + us/you/them.\n💡 **Ví dụ:** All of us are here. / All of you are right."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a few money in my wallet.",
+    "output": "✅ **Corrected Sentence:** I have a little money in my wallet.\n🔍 **Error Identification:** 'Money' không đếm được → 'a little', không dùng 'a few'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a few' cho tiền. Mẹo: Money không đếm được → a little.\n💡 **Ví dụ:** I have a little cash. / She has a little savings."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How much people are coming?",
+    "output": "✅ **Corrected Sentence:** How many people are coming?\n🔍 **Error Identification:** 'People' đếm được → 'how many'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'how much' cho người. Mẹo: How many + people (đếm được).\n💡 **Ví dụ:** How many guests are there? / How many students are in the class?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "None of the furniture are expensive.",
+    "output": "✅ **Corrected Sentence:** None of the furniture is expensive.\n🔍 **Error Identification:** 'Furniture' không đếm được → động từ số ít 'is'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are' với 'furniture'. Mẹo: Furniture không đếm được → is.\n💡 **Ví dụ:** None of the luggage is heavy. / None of the information is useful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can I have any sugar? (câu hỏi yêu cầu nên dùng some)",
+    "output": "✅ **Corrected Sentence:** Can I have some sugar?\n🔍 **Error Identification:** Câu hỏi yêu cầu dùng 'some', không dùng 'any'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'any' trong câu yêu cầu. Mẹo: Can I have some...? là yêu cầu.\n💡 **Ví dụ:** Can I have some milk? / Could I have some bread?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many luggages.",
+    "output": "✅ **Corrected Sentence:** I have a lot of luggage. (hoặc much luggage)\n🔍 **Error Identification:** 'Luggage' không đếm được, không có 'luggages', không dùng 'many'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' và dùng 'many' với 'luggage'. Mẹo: Luggage không đếm được → much / a lot of.\n💡 **Ví dụ:** I have much luggage. / She has a lot of luggage."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is a few people in the room.",
+    "output": "✅ **Corrected Sentence:** There are a few people in the room.\n🔍 **Error Identification:** 'People' đếm được số nhiều → 'a few' và 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a few' nhưng dùng 'is'. Mẹo: A few + plural noun + plural verb.\n💡 **Ví dụ:** There are a few cars. / I have a few friends."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Both of the child is playing.",
+    "output": "✅ **Corrected Sentence:** Both of the children are playing.\n🔍 **Error Identification:** 'Both' + danh từ số nhiều (children) + động từ số nhiều (are).\n📘 **Vietnamese Explanation:** Người Việt dùng 'child' số ít và 'is'. Mẹo: Both + plural noun + plural verb.\n💡 **Ví dụ:** Both of the girls are singing. / Both of the boys are running."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't have some change.",
+    "output": "✅ **Corrected Sentence:** I don't have any change.\n🔍 **Error Identification:** Câu phủ định dùng 'any', không dùng 'some'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'some' trong câu phủ định. Mẹo: Phủ định + any.\n💡 **Ví dụ:** I don't have any time. / She doesn't have any idea."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How many bread do you want?",
+    "output": "✅ **Corrected Sentence:** How much bread do you want?\n🔍 **Error Identification:** 'Bread' không đếm được → 'how much'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'how many' cho bánh mì. Mẹo: How much + bread (không đếm được).\n💡 **Ví dụ:** How much butter do you need? / How much cheese is left?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All of the people is here.",
+    "output": "✅ **Corrected Sentence:** All of the people are here.\n🔍 **Error Identification:** 'People' là danh từ số nhiều → động từ số nhiều 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is' với 'people'. Mẹo: People = nhiều người → are.\n💡 **Ví dụ:** All of the students are ready. / All of the guests are here."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a few informations.",
+    "output": "✅ **Corrected Sentence:** I need a little information. (hoặc some information)\n🔍 **Error Identification:** 'Information' không đếm được, không có 'informations', không dùng 'a few'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' và dùng 'a few' với 'information'. Mẹo: Information không đếm được → a little / some.\n💡 **Ví dụ:** I need a little help. / She gave me some information."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "None of my friend are coming.",
+    "output": "✅ **Corrected Sentence:** None of my friends are coming. (hoặc is coming)\n🔍 **Error Identification:** 'None of my' + danh từ số nhiều (friends).\n📘 **Vietnamese Explanation:** Người Việt dùng 'friend' số ít. Mẹo: None of + plural noun.\n💡 **Ví dụ:** None of my relatives live nearby. / None of my answers were correct."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have much homeworks.",
+    "output": "✅ **Corrected Sentence:** I have a lot of homework. (hoặc much homework)\n🔍 **Error Identification:** 'Homework' không đếm được, không có 'homeworks', 'much' đúng nhưng 'homeworks' sai.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'homework'. Mẹo: Homework không đếm được, không thêm s.\n💡 **Ví dụ:** I have much work. / She has a lot of homework."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Both of us is going.",
+    "output": "✅ **Corrected Sentence:** Both of us are going.\n🔍 **Error Identification:** 'Both' + động từ số nhiều 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is' với 'both'. Mẹo: Both + are.\n💡 **Ví dụ:** Both of you are right. / Both of them are happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a little friends.",
+    "output": "✅ **Corrected Sentence:** I have a few friends.\n🔍 **Error Identification:** 'Friends' đếm được → 'a few', không dùng 'a little'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a little' cho bạn bè. Mẹo: A few + friends (đếm được).\n💡 **Ví dụ:** I have a few classmates. / She has a few neighbors."
+  }
+]

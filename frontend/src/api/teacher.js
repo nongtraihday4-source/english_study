@@ -21,4 +21,20 @@ export const teacherApi = {
 
   // Export class students + progress as CSV
   exportClass: (id) => api.get(`/teacher/classes/${id}/export/`, { responseType: 'blob' }),
+
+  // ── Assignments ──────────────────────────────────────────────────────
+  // List assignments (params: course_id, is_active)
+  getAssignments: (params = {}) => api.get('/teacher/assignments/', { params }),
+
+  // Create new assignment
+  createAssignment: (payload) => api.post('/teacher/assignments/', payload),
+
+  // Update assignment (partial)
+  updateAssignment: (id, payload) => api.patch(`/teacher/assignments/${id}/`, payload),
+
+  // Deactivate (soft-delete) assignment
+  deleteAssignment: (id) => api.delete(`/teacher/assignments/${id}/`),
+
+  // Get submission status list for an assignment
+  getAssignmentSubmissions: (id) => api.get(`/teacher/assignments/${id}/submissions/`),
 }

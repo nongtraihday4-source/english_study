@@ -1,0 +1,267 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Yesterday at 8 PM, I eat dinner.",
+    "output": "✅ **Corrected Sentence:** Yesterday at 8 PM, I was eating dinner.\n🔍 **Error Identification:** Tense – dùng hiện tại đơn (eat) thay vì quá khứ tiếp diễn (was eating) cho hành động đang xảy ra tại thời điểm cụ thể trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt thường dùng hiện tại đơn cho mọi thì. Mẹo: Có thời gian cụ thể trong quá khứ (at 8 PM yesterday, at this time last week) → dùng was/were + V-ing.\n💡 **Ví dụ:** At 7 AM yesterday, I was sleeping. / At noon last Sunday, they were having lunch."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I arrived, she cook dinner.",
+    "output": "✅ **Corrected Sentence:** When I arrived, she was cooking dinner.\n🔍 **Error Identification:** Hành động đang xảy ra (cook dinner) thì hành động khác cắt ngang (arrived) → quá khứ tiếp diễn cho hành động dài hơn.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho cả hai hành động. Mẹo: Hành động dài (đang diễn ra) dùng was/were + V-ing, hành động ngắn (cắt ngang) dùng V2/ed.\n💡 **Ví dụ:** When the phone rang, I was taking a shower. / When she saw me, I was crossing the street."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was watch TV when he came.",
+    "output": "✅ **Corrected Sentence:** I was watching TV when he came.\n🔍 **Error Identification:** Thiếu 'ing' – sau 'was' phải là V-ing (watching), không phải V1 (watch).\n📘 **Vietnamese Explanation:** Người Việt nhớ 'was' nhưng quên thêm 'ing' vào động từ chính. Mẹo: Cấu trúc: was/were + V-ing (bắt buộc có ing).\n💡 **Ví dụ:** She was reading when I called. / They were playing when it started to rain."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "While I studied, my brother listened to music.",
+    "output": "✅ **Corrected Sentence:** While I was studying, my brother was listening to music. (hoặc listened)\n🔍 **Error Identification:** 'While' + quá khứ tiếp diễn cho hành động đang xảy ra song song.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho cả hai vế. Mẹo: 'While' (trong khi) thường đi với quá khứ tiếp diễn để nhấn mạnh tính đồng thời.\n💡 **Ví dụ:** While I was cooking, she was cleaning. / While he was sleeping, I was working."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They were play soccer at 5 PM yesterday.",
+    "output": "✅ **Corrected Sentence:** They were playing soccer at 5 PM yesterday.\n🔍 **Error Identification:** Thiếu 'ing' – 'play' phải là 'playing'.\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'ing' sau 'were'. Mẹo: was/were + V-ing, không được để động từ nguyên thể.\n💡 **Ví dụ:** We were walking home at 6 PM. / She was sleeping at midnight."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What did you do at 3 PM yesterday?",
+    "output": "✅ **Corrected Sentence:** What were you doing at 3 PM yesterday?\n🔍 **Error Identification:** Hỏi về hành động đang xảy ra tại thời điểm cụ thể trong quá khứ → dùng quá khứ tiếp diễn, không dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho mọi câu hỏi về quá khứ. Mẹo: Hỏi 'đang làm gì' vào thời điểm cụ thể → were/was + S + V-ing?\n💡 **Ví dụ:** What were you watching at 9 PM last night? / Where was she going when you saw her?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I saw her, she run to the bus stop.",
+    "output": "✅ **Corrected Sentence:** When I saw her, she was running to the bus stop.\n🔍 **Error Identification:** Hành động đang xảy ra (run) khi hành động khác cắt ngang (saw) → dùng was running.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'ran' cho cả hai. Mẹo: Hành động dài (was running), hành động ngắn (saw).\n💡 **Ví dụ:** When I called, she was taking a bath. / When the teacher entered, the students were talking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wasn't listen to the teacher when she asked a question.",
+    "output": "✅ **Corrected Sentence:** I wasn't listening to the teacher when she asked a question.\n🔍 **Error Identification:** Thiếu 'ing' – 'listen' phải là 'listening' trong câu phủ định.\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'ing' sau 'wasn't'. Mẹo: was/were + not + V-ing.\n💡 **Ví dụ:** He wasn't paying attention. / They weren't looking at the road."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She was study all night yesterday.",
+    "output": "✅ **Corrected Sentence:** She was studying all night yesterday.\n🔍 **Error Identification:** 'Study' → 'studying' (giữ y thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'ing' và quên quy tắc giữ y. Mẹo: study→studying, play→playing, cry→crying.\n💡 **Ví dụ:** He was crying for hours. / They were playing all evening."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "While I was walking home, I was see an accident.",
+    "output": "✅ **Corrected Sentence:** While I was walking home, I saw an accident.\n🔍 **Error Identification:** 'See' là hành động ngắn, không dùng tiếp diễn trong khi có 'while' chỉ hành động dài. Dùng quá khứ đơn 'saw'.\n📘 **Vietnamese Explanation:** Người Việt dùng tiếp diễn cho mọi động từ. Mẹo: Hành động ngắn (see, hear, notice) trong khi hành động dài đang diễn ra → dùng quá khứ đơn.\n💡 **Ví dụ:** While I was driving, I heard a loud noise. / While she was cooking, she cut her finger."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The children were play in the park when it started to rain.",
+    "output": "✅ **Corrected Sentence:** The children were playing in the park when it started to rain.\n🔍 **Error Identification:** Thiếu 'ing' – 'play' phải là 'playing'.\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'were'. Mẹo: Nhìn thấy 'when' + quá khứ đơn, vế kia dùng was/were + V-ing.\n💡 **Ví dụ:** I was cooking when the phone rang. / She was sleeping when the alarm went off."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This time last week, I lie on the beach.",
+    "output": "✅ **Corrected Sentence:** This time last week, I was lying on the beach.\n🔍 **Error Identification:** 'Lie' (nằm) → 'lying' (bỏ ie thêm ying). Có 'this time last week' → quá khứ tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn và quên quy tắc 'lie' → 'lying'. Mẹo: 'This time + thời gian quá khứ' → was/were + V-ing.\n💡 **Ví dụ:** This time yesterday, I was flying to Hanoi. / This time last month, we were renovating the house."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What were you do when I called?",
+    "output": "✅ **Corrected Sentence:** What were you doing when I called?\n🔍 **Error Identification:** Thiếu 'ing' – 'do' phải là 'doing'.\n📘 **Vietnamese Explanation:** Người Việt có 'were you' rồi nhưng quên thêm 'ing'. Mẹo: Câu hỏi quá khứ tiếp diễn: Wh- + was/were + S + V-ing?\n💡 **Ví dụ:** What was she wearing when you saw her? / Where were they going when it started to rain?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He was run when he fell and broke his leg.",
+    "output": "✅ **Corrected Sentence:** He was running when he fell and broke his leg.\n🔍 **Error Identification:** 'Run' (CVC) → gấp đôi 'n' thành 'running'.\n📘 **Vietnamese Explanation:** Người Việt quên gấp đôi phụ âm khi thêm 'ing'. Mẹo: run→running, swim→swimming, get→getting.\n💡 **Ví dụ:** She was sitting when the door opened. / He was stopping when the light turned red."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "While I was shop, someone stole my wallet.",
+    "output": "✅ **Corrected Sentence:** While I was shopping, someone stole my wallet.\n🔍 **Error Identification:** 'Shop' (CVC) → gấp đôi 'p' thành 'shopping'.\n📘 **Vietnamese Explanation:** Người Việt quên gấp đôi phụ âm với 'shop'. Mẹo: shop→shopping, stop→stopping, plan→planning.\n💡 **Ví dụ:** He was planning a trip. / They were clapping loudly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I was a child, I was playing football every day.",
+    "output": "✅ **Corrected Sentence:** When I was a child, I played football every day.\n🔍 **Error Identification:** Thói quen trong quá khứ (every day) dùng quá khứ đơn, không dùng quá khứ tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng tiếp diễn cho mọi hành động trong quá khứ. Mẹo: Quá khứ tiếp diễn không dùng cho thói quen, mà dùng cho hành động đang diễn ra tại một thời điểm.\n💡 **Ví dụ:** She always woke up early (not was waking). / He often visited his grandma."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "At 10 PM last night, I was sleep.",
+    "output": "✅ **Corrected Sentence:** At 10 PM last night, I was sleeping.\n🔍 **Error Identification:** 'Sleep' → 'sleeping' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'ing' vào 'sleep'. Mẹo: 'At + giờ + thời gian quá khứ' → was/were + V-ing.\n💡 **Ví dụ:** At 6 AM yesterday, she was jogging. / At 8 PM last Sunday, they were watching a movie."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was work on my computer when the power went out.",
+    "output": "✅ **Corrected Sentence:** I was working on my computer when the power went out.\n🔍 **Error Identification:** 'Work' → 'working' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'was'. Mẹo: 'Was' luôn đi với V-ing, không đi với V1.\n💡 **Ví dụ:** She was driving when the accident happened. / They were talking when the teacher came in."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "While I was waiting for the bus, I was meeting my old friend.",
+    "output": "✅ **Corrected Sentence:** While I was waiting for the bus, I met my old friend.\n🔍 **Error Identification:** 'Meet' là hành động ngắn, không dùng tiếp diễn. Dùng quá khứ đơn 'met'.\n📘 **Vietnamese Explanation:** Người Việt dùng tiếp diễn cho mọi động từ. Mẹo: Hành động đột ngột xảy ra trong khi hành động dài đang diễn ra → dùng quá khứ đơn.\n💡 **Ví dụ:** While I was walking, I saw a shooting star. / While she was cooking, she heard a loud bang."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She wasn't wear a seatbelt when the crash happened.",
+    "output": "✅ **Corrected Sentence:** She wasn't wearing a seatbelt when the crash happened.\n🔍 **Error Identification:** Thiếu 'ing' – 'wear' phải là 'wearing'.\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'ing' sau 'wasn't'. Mẹo: was/were + not + V-ing.\n💡 **Ví dụ:** He wasn't listening. / They weren't looking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What did you do at this time yesterday?",
+    "output": "✅ **Corrected Sentence:** What were you doing at this time yesterday?\n🔍 **Error Identification:** 'At this time yesterday' là thời điểm cụ thể → dùng quá khứ tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho mọi câu hỏi. Mẹo: 'At this time + yesterday/last week' → were/was + S + V-ing?\n💡 **Ví dụ:** Where were you going at this time last Monday? / What was she wearing at this time yesterday?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They were try to open the door when I found them.",
+    "output": "✅ **Corrected Sentence:** They were trying to open the door when I found them.\n🔍 **Error Identification:** 'Try' → 'trying' (giữ y thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' và quên quy tắc 'try' vẫn giữ y. Mẹo: try→trying, cry→crying, play→playing.\n💡 **Ví dụ:** She was crying when I arrived. / He was playing when his mother called."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When the teacher asked a question, I didn't listen because I was daydream.",
+    "output": "✅ **Corrected Sentence:** When the teacher asked a question, I wasn't listening because I was daydreaming.\n🔍 **Error Identification:** 'Daydream' → 'daydreaming' (thêm ing). Và 'didn't listen' nên thành 'wasn't listening' để diễn tả hành động đang diễn ra.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho cả hai. Mẹo: Hành động dài (wasn't listening, was daydreaming) dùng tiếp diễn.\n💡 **Ví dụ:** When she called, I wasn't paying attention. / He wasn't looking when the car passed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "While I was have breakfast, the postman came.",
+    "output": "✅ **Corrected Sentence:** While I was having breakfast, the postman came.\n🔍 **Error Identification:** 'Have' → 'having' (bỏ e thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên bỏ 'e' khi thêm 'ing' với 'have'. Mẹo: have→having, make→making, write→writing.\n💡 **Ví dụ:** She was making coffee when I arrived. / He was writing a letter when the phone rang."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We were study when the lights went out.",
+    "output": "✅ **Corrected Sentence:** We were studying when the lights went out.\n🔍 **Error Identification:** 'Study' → 'studying' (giữ y thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'were'. Mẹo: 'When + quá khứ đơn, was/were + V-ing'.\n💡 **Ví dụ:** I was sleeping when the earthquake struck. / She was dancing when the music stopped."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He was knowing the answer when the teacher called him.",
+    "output": "✅ **Corrected Sentence:** He knew the answer when the teacher called him.\n🔍 **Error Identification:** 'Know' là stative verb, không dùng tiếp diễn. Dùng quá khứ đơn 'knew'.\n📘 **Vietnamese Explanation:** Người Việt dùng tiếp diễn cho mọi động từ, kể cả stative verb. Mẹo: Know, believe, understand, like, love, hate không dùng tiếp diễn.\n💡 **Ví dụ:** She understood the lesson (not was understanding). / I liked the movie (not was liking)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What were you do at 9 PM last night?",
+    "output": "✅ **Corrected Sentence:** What were you doing at 9 PM last night?\n🔍 **Error Identification:** 'Do' → 'doing' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt có 'were you' nhưng quên 'ing'. Mẹo: Câu hỏi quá khứ tiếp diễn: Wh- + was/were + S + V-ing?\n💡 **Ví dụ:** What was she reading at 8 PM? / Where were they going at 7 AM?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was walk home when I saw a strange man.",
+    "output": "✅ **Corrected Sentence:** I was walking home when I saw a strange man.\n🔍 **Error Identification:** 'Walk' → 'walking' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'was'. Mẹo: was/were + V-ing, không thể thiếu 'ing'.\n💡 **Ví dụ:** She was running when she tripped. / They were laughing when the teacher entered."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "While he was cook, he burned his hand.",
+    "output": "✅ **Corrected Sentence:** While he was cooking, he burned his hand.\n🔍 **Error Identification:** 'Cook' → 'cooking' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'was'. Mẹo: 'While' + quá khứ tiếp diễn (was/were + V-ing).\n💡 **Ví dụ:** While she was cleaning, she found an old photo. / While they were hiking, they saw a bear."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The baby was sleep peacefully when the doorbell rang.",
+    "output": "✅ **Corrected Sentence:** The baby was sleeping peacefully when the doorbell rang.\n🔍 **Error Identification:** 'Sleep' → 'sleeping' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'was'. Mẹo: 'When' + quá khứ đơn, vế kia quá khứ tiếp diễn.\n💡 **Ví dụ:** The dog was barking when the mailman came. / The cat was sleeping when I walked in."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They were not play attention to the road.",
+    "output": "✅ **Corrected Sentence:** They were not paying attention to the road.\n🔍 **Error Identification:** 'Pay' → 'paying' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'were not'. Mẹo: Phủ định quá khứ tiếp diễn: was/were + not + V-ing.\n💡 **Ví dụ:** I wasn't listening. / She wasn't looking where she was going."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When the alarm rang, I was have a dream.",
+    "output": "✅ **Corrected Sentence:** When the alarm rang, I was having a dream.\n🔍 **Error Identification:** 'Have' → 'having' (bỏ e thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên bỏ 'e' khi thêm 'ing' với 'have'. Mẹo: have→having, live→living, write→writing.\n💡 **Ví dụ:** She was having a shower when I called. / He was having lunch when the boss arrived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was sit on the bench when a bird landed next to me.",
+    "output": "✅ **Corrected Sentence:** I was sitting on the bench when a bird landed next to me.\n🔍 **Error Identification:** 'Sit' (CVC) → gấp đôi 't' thành 'sitting'.\n📘 **Vietnamese Explanation:** Người Việt quên gấp đôi phụ âm với 'sit'. Mẹo: sit→sitting, hit→hitting, put→putting.\n💡 **Ví dụ:** She was sitting in the garden. / He was hitting the ball."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What time were you come home last night?",
+    "output": "✅ **Corrected Sentence:** What time did you come home last night? (hành động hoàn thành, không dùng tiếp diễn)\n🔍 **Error Identification:** Hỏi về thời điểm hoàn thành của hành động → dùng quá khứ đơn, không dùng quá khứ tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng tiếp diễn cho mọi câu hỏi. Mẹo: Quá khứ tiếp diễn dùng cho hành động đang diễn ra, không dùng cho hành động đã hoàn thành.\n💡 **Ví dụ:** What time did she leave? / When did they arrive?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She was always complain about everything when she was young.",
+    "output": "✅ **Corrected Sentence:** She always complained about everything when she was young. (thói quen dùng quá khứ đơn)\n🔍 **Error Identification:** 'Always' chỉ thói quen trong quá khứ → dùng quá khứ đơn, không dùng quá khứ tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng tiếp diễn cho 'always' vì nghĩ nhấn mạnh. Mẹo: 'Always' với quá khứ đơn chỉ thói quen; với quá khứ tiếp diễn chỉ sự phàn nàn (nhưng hiếm).\n💡 **Ví dụ:** She always woke up late (thói quen). / She was always losing her keys (phàn nàn – vẫn dùng được nhưng ít)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was thinking about you when you called. (câu đúng) - Học viên viết \'I thought about you when you called.\' (cũng đúng nhưng khác sắc thái)",
+    "output": "✅ **Corrected Sentence (nhấn mạnh đang nghĩ):** I was thinking about you when you called.\n🔍 **Error Identification:** 'Think' có thể dùng tiếp diễn khi diễn tả quá trình suy nghĩ đang xảy ra.\n📘 **Vietnamese Explanation:** Người Việt thường dùng quá khứ đơn 'thought' cho mọi trường hợp. Mẹo: Muốn nói 'đang nghĩ' thì dùng was thinking.\n💡 **Ví dụ:** I was considering your offer when you texted. / She was planning the trip when I interrupted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "While I was reading, my sister was watch TV.",
+    "output": "✅ **Corrected Sentence:** While I was reading, my sister was watching TV.\n🔍 **Error Identification:** 'Watch' → 'watching' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' cho động từ thứ hai. Mẹo: 'While' + was/were + V-ing cho cả hai vế.\n💡 **Ví dụ:** While I was cooking, he was cleaning. / While she was singing, they were dancing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The phone rang while I took a shower.",
+    "output": "✅ **Corrected Sentence:** The phone rang while I was taking a shower.\n🔍 **Error Identification:** 'While' + hành động dài (was taking), không dùng quá khứ đơn (took).\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho cả hai vế. Mẹo: 'While' + quá khứ tiếp diễn (hành động dài), vế kia quá khứ đơn (hành động ngắn).\n💡 **Ví dụ:** The doorbell rang while I was having dinner. / The fire started while they were sleeping."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She was dance when she twisted her ankle.",
+    "output": "✅ **Corrected Sentence:** She was dancing when she twisted her ankle.\n🔍 **Error Identification:** 'Dance' → 'dancing' (bỏ e thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên bỏ 'e' khi thêm 'ing' với 'dance'. Mẹo: dance→dancing, take→taking, write→writing.\n💡 **Ví dụ:** He was taking a photo when the phone rang. / She was writing a letter when I knocked."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't see anything because I wasn't look.",
+    "output": "✅ **Corrected Sentence:** I didn't see anything because I wasn't looking.\n🔍 **Error Identification:** 'Look' → 'looking' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'wasn't'. Mẹo: wasn't/weren't + V-ing.\n💡 **Ví dụ:** She didn't hear the question because she wasn't paying attention. / They didn't see the sign because they weren't watching the road."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This time last year, I was live in London.",
+    "output": "✅ **Corrected Sentence:** This time last year, I was living in London.\n🔍 **Error Identification:** 'Live' → 'living' (bỏ e thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên bỏ 'e' khi thêm 'ing' với 'live'. Mẹo: live→living, give→giving, drive→driving.\n💡 **Ví dụ:** This time last month, she was working in a new company. / This time yesterday, they were flying to Paris."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I got home, my mom was prepare dinner.",
+    "output": "✅ **Corrected Sentence:** When I got home, my mom was preparing dinner.\n🔍 **Error Identification:** 'Prepare' → 'preparing' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'was'. Mẹo: 'When' + quá khứ đơn, vế kia was/were + V-ing.\n💡 **Ví dụ:** When she arrived, the guests were waiting. / When he woke up, the sun was shining."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Were you sleeping when I called? (câu đúng) - Học viên viết \'Did you sleep when I called?\'",
+    "output": "✅ **Corrected Sentence:** Were you sleeping when I called?\n🔍 **Error Identification:** Hỏi về hành động đang xảy ra tại thời điểm trong quá khứ → dùng quá khứ tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'did you sleep' cho mọi câu hỏi. Mẹo: Hỏi 'đang ngủ' dùng 'were you sleeping'.\n💡 **Ví dụ:** Were you watching TV when I texted? / Was she driving when the accident happened?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "While I was walk to work, I met an old friend.",
+    "output": "✅ **Corrected Sentence:** While I was walking to work, I met an old friend.\n🔍 **Error Identification:** 'Walk' → 'walking' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'was'. Mẹo: 'While' + was/were + V-ing.\n💡 **Ví dụ:** While she was waiting for the bus, she saw a famous actor. / While they were hiking, they found a hidden cave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He was listening to music while he was drive.",
+    "output": "✅ **Corrected Sentence:** He was listening to music while he was driving.\n🔍 **Error Identification:** 'Drive' → 'driving' (bỏ e thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên bỏ 'e' khi thêm 'ing' với 'drive'. Mẹo: drive→driving, write→writing, live→living.\n💡 **Ví dụ:** She was talking on the phone while she was driving. / They were singing while they were walking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What was you doing at 8 PM last night?",
+    "output": "✅ **Corrected Sentence:** What were you doing at 8 PM last night?\n🔍 **Error Identification:** S-V agreement – 'you' đi với 'were', không phải 'was'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'was' cho mọi chủ ngữ. Mẹo: I/he/she/it + was; you/we/they + were.\n💡 **Ví dụ:** What was she doing? / What were they doing?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When the storm started, we were have a picnic.",
+    "output": "✅ **Corrected Sentence:** When the storm started, we were having a picnic.\n🔍 **Error Identification:** 'Have' → 'having' (bỏ e thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên bỏ 'e' khi thêm 'ing' với 'have'. Mẹo: have→having, make→making, take→taking.\n💡 **Ví dụ:** When the rain started, they were making a fire. / When the teacher arrived, we were taking a test."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was not understand what she said because she spoke too fast.",
+    "output": "✅ **Corrected Sentence:** I didn't understand what she said because she spoke too fast.\n🔍 **Error Identification:** 'Understand' là stative verb, không dùng tiếp diễn. Dùng quá khứ đơn 'didn't understand'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'was not understand' vì dịch 'đã không hiểu'. Mẹo: Stative verbs (understand, know, believe) không dùng tiếp diễn.\n💡 **Ví dụ:** I didn't believe him (not was not believing). / She didn't know the answer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He was fall asleep while he was watching TV.",
+    "output": "✅ **Corrected Sentence:** He fell asleep while he was watching TV.\n🔍 **Error Identification:** 'Fall asleep' là hành động ngắn, hoàn thành trong chốc lát → dùng quá khứ đơn 'fell', không dùng 'was falling'.\n📘 **Vietnamese Explanation:** Người Việt dùng tiếp diễn cho mọi động từ. Mẹo: Hành động ngắn, đột ngột dùng quá khứ đơn.\n💡 **Ví dụ:** I started to rain (not was starting). / She stopped the car (not was stopping)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "At this time yesterday, I was work in the garden.",
+    "output": "✅ **Corrected Sentence:** At this time yesterday, I was working in the garden.\n🔍 **Error Identification:** 'Work' → 'working' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'was'. Mẹo: 'At this time + quá khứ' → was/were + V-ing.\n💡 **Ví dụ:** At this time last week, she was traveling to Da Nang. / At this time yesterday, they were having a meeting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "While I was cleaning the house, I was find an old letter.",
+    "output": "✅ **Corrected Sentence:** While I was cleaning the house, I found an old letter.\n🔍 **Error Identification:** 'Find' là hành động ngắn, không dùng tiếp diễn. Dùng quá khứ đơn 'found'.\n📘 **Vietnamese Explanation:** Người Việt dùng tiếp diễn cho mọi động từ. Mẹo: Hành động phát hiện đột ngột dùng quá khứ đơn.\n💡 **Ví dụ:** While I was walking, I noticed a strange car. / While she was cooking, she discovered a recipe."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They were play chess when I visited them.",
+    "output": "✅ **Corrected Sentence:** They were playing chess when I visited them.\n🔍 **Error Identification:** 'Play' → 'playing' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'were'. Mẹo: 'When' + quá khứ đơn, vế kia was/were + V-ing.\n💡 **Ví dụ:** She was reading a book when I came in. / They were discussing a problem when the phone rang."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was waiting for the bus for 30 minutes yesterday.",
+    "output": "✅ **Corrected Sentence:** I waited for the bus for 30 minutes yesterday. (hành động đã hoàn thành, không nhấn mạnh quá trình)\n🔍 **Error Identification:** 'For 30 minutes' + hành động đã kết thúc trong quá khứ → dùng quá khứ đơn. Quá khứ tiếp diễn không dùng với khoảng thời gian xác định đã kết thúc.\n📘 **Vietnamese Explanation:** Người Việt dùng tiếp diễn cho mọi hành động có thời gian. Mẹo: Quá khứ tiếp diễn dùng cho thời điểm cụ thể, không dùng cho khoảng thời gian đã kết thúc hoàn toàn.\n💡 **Ví dụ:** I studied for 2 hours last night (not was studying for 2 hours). / She lived in London for 5 years."
+  }
+]

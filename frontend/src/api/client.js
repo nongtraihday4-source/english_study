@@ -10,9 +10,21 @@ const api = axios.create({
   headers: { 'Content-Type': 'application/json' },
 })
 
-// Response interceptor: auto-refresh token on 401
+// Response interceptor: auto-refresh token on 401 + unwrap VNNumberJSONRenderer envelope
 api.interceptors.response.use(
-  (res) => res,
+  (res) => {
+    // VNNumberJSONRenderer wraps successful responses as { success: true, data: ... }
+    // Unwrap here so callers always get the actual payload in res.data
+    if (
+      res.data &&
+      typeof res.data === 'object' &&
+      res.data.success === true &&
+      'data' in res.data
+    ) {
+      res.data = res.data.data
+    }
+    return res
+  },
   async (error) => {
     const originalRequest = error.config
     if (

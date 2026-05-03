@@ -5,6 +5,7 @@ but a companion `*_display` field is added for monetary/stat fields
 when explicitly requested via `fmt_vn()` in serializers.
 """
 import json
+from django.core.serializers.json import DjangoJSONEncoder
 
 from rest_framework.renderers import JSONRenderer
 
@@ -37,4 +38,9 @@ class VNNumberJSONRenderer(JSONRenderer):
                 "data": data,
             }
 
-        return json.dumps(envelope, ensure_ascii=False, indent=None).encode(self.charset)
+        return json.dumps(
+            envelope,
+            ensure_ascii=False,
+            indent=None,
+            cls=DjangoJSONEncoder,
+        ).encode(self.charset)

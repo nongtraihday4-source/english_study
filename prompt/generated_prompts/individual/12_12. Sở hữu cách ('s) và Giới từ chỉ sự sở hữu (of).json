@@ -1,0 +1,262 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book of John is on the table.",
+    "output": "✅ **Corrected Sentence:** John's book is on the table.\n🔍 **Error Identification:** Dùng 'of' cho người (John) – nên dùng sở hữu cách ('s) cho danh từ chỉ người.\n📘 **Vietnamese Explanation:** Người Việt dịch 'quyển sách của John' thành 'the book of John' vì từ 'của'. Mẹo: Dùng 's cho người, động vật, tổ chức; dùng 'of' cho vật, địa điểm.\n💡 **Ví dụ:** Mary's car is new. / The door of the car is open."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My sister dog is very friendly.",
+    "output": "✅ **Corrected Sentence:** My sister's dog is very friendly.\n🔍 **Error Identification:** Thiếu dấu nháy 's – 'my sister dog' nghĩa là 'con chó chị em' (vô nghĩa), phải là 'my sister's dog' (con chó của chị tôi).\n📘 **Vietnamese Explanation:** Người Việt quên thêm 's vào danh từ chỉ người để chỉ sở hữu. Mẹo: Nếu có 'của' trong tiếng Việt, thường dùng 's cho người.\n💡 **Ví dụ:** My mother's cooking is delicious. / My brother's room is messy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The roof of the house is red. (câu đúng) - Học viên viết \'The house's roof is red.\'",
+    "output": "✅ **Corrected Sentence (cả hai đều đúng, nhưng 'of' tự nhiên hơn):** The roof of the house is red.\n🔍 **Error Identification:** Với vật vô tri, dùng 'of' thường tự nhiên hơn 's, nhưng cả hai đều chấp nhận được.\n📘 **Vietnamese Explanation:** Người Việt có xu hướng dùng 's cho mọi thứ vì nghĩ giống tiếng Việt. Mẹo: Vật, địa điểm → ưu tiên 'of'; người, động vật → ưu tiên 's.\n💡 **Ví dụ:** The color of the car / The car's color (cả hai đều được)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The childrens' toys are scattered.",
+    "output": "✅ **Corrected Sentence:** The children's toys are scattered.\n🔍 **Error Identification:** 'Children' đã là số nhiều bất quy tắc, thêm 's chỉ cần dấu nháy sau 'children' (children's), không phải 'childrens'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'children' rồi mới thêm dấu nháy. Mẹo: Với danh từ số nhiều bất quy tắc (children, men, women) → thêm 's (children's toys).\n💡 **Ví dụ:** The men's room. / The women's clothes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car of my friend is expensive.",
+    "output": "✅ **Corrected Sentence:** My friend's car is expensive.\n🔍 **Error Identification:** Dùng 'of' cho người (my friend) – không tự nhiên, nên dùng 's.\n📘 **Vietnamese Explanation:** Người Việt dịch 'xe của bạn tôi' thành 'the car of my friend'. Mẹo: Người + 's + vật sở hữu.\n💡 **Ví dụ:** My mother's bag is new. / My boss's office is large."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the house of my uncle.",
+    "output": "✅ **Corrected Sentence:** This is my uncle's house.\n🔍 **Error Identification:** Dùng 'of' cho người (uncle) – nên dùng 's.\n📘 **Vietnamese Explanation:** Người Việt dịch 'nhà của chú tôi' thành 'the house of my uncle'. Mẹo: Người + 's + vật.\n💡 **Ví dụ:** My brother's bike. / My sister's school."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The door of the car is broken.",
+    "output": "✅ **Corrected Sentence:** The door of the car is broken. (câu đúng, không cần sửa)\n🔍 **Error Identification:** Câu này đúng. 'Of' dùng cho vật (car) là phù hợp.\n📘 **Vietnamese Explanation:** Người Việt đôi khi dùng 's cho vật ('the car's door') cũng được, nhưng 'of' tự nhiên hơn. Mẹo: Vật vô tri → 'of' thường an toàn hơn.\n💡 **Ví dụ:** The top of the mountain. / The pages of the book."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The dogs's bowls are empty.",
+    "output": "✅ **Corrected Sentence:** The dogs' bowls are empty.\n🔍 **Error Identification:** Với danh từ số nhiều kết thúc bằng 's' (dogs), chỉ cần thêm dấu nháy sau 's' (dogs'), không thêm 's' nữa.\n📘 **Vietnamese Explanation:** Người Việt thêm 's vào danh từ số nhiều đã có 's' (dogs's). Mẹo: Số nhiều có 's' → thêm ' (dogs'), số ít → thêm 's (dog's).\n💡 **Ví dụ:** The cats' toys. / The teachers' room."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The name of the song is 'Hello'.",
+    "output": "✅ **Corrected Sentence:** The name of the song is 'Hello'. (câu đúng)\n🔍 **Error Identification:** Câu đúng. 'Of' dùng cho vật (song).\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'the song's name' cũng được. Mẹo: Cả hai đều chấp nhận, nhưng 'of' trang trọng hơn.\n💡 **Ví dụ:** The title of the movie. / The author of the book."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My parents's car is new.",
+    "output": "✅ **Corrected Sentence:** My parents' car is new.\n🔍 **Error Identification:** 'Parents' là số nhiều kết thúc bằng 's' → chỉ cần dấu nháy sau 's' (parents'), không phải 'parents's'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's vào danh từ số nhiều đã có 's'. Mẹo: Danh từ số nhiều kết thúc 's' → thêm ' (không thêm s).\n💡 **Ví dụ:** My friends' house. / The students' books."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The tail of the dog is wagging.",
+    "output": "✅ **Corrected Sentence:** The dog's tail is wagging. (hoặc The tail of the dog – cũng đúng)\n🔍 **Error Identification:** Với động vật, có thể dùng cả 's và 'of', nhưng 's tự nhiên hơn.\n📘 **Vietnamese Explanation:** Người Việt hay dùng 'of' cho động vật vì nghĩ 'của con chó'. Mẹo: Động vật thân thuộc → dùng 's (the cat's whiskers).\n💡 **Ví dụ:** The bird's nest. / The horse's mane."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car's door is open. (câu đúng) - Học viên viết \'The car door is open.\' (thiếu sở hữu)",
+    "output": "✅ **Corrected Sentence:** The car's door is open. (hoặc The car door – nếu 'car door' là danh từ ghép)\n🔍 **Error Identification:** 'Car door' có thể là danh từ ghép (cửa xe), không cần 's. Nếu muốn nhấn mạnh sở hữu thì dùng 'car's door'.\n📘 **Vietnamese Explanation:** Người Việt thường bỏ qua sở hữu cách vì tiếng Việt không phân biệt. Mẹo: Danh từ ghép (car door, kitchen table) không cần 's.\n💡 **Ví dụ:** The kitchen window. / The school bus."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The color of the sky is blue.",
+    "output": "✅ **Corrected Sentence:** The color of the sky is blue. (câu đúng)\n🔍 **Error Identification:** 'Of' dùng cho vật (sky) là phù hợp.\n📘 **Vietnamese Explanation:** 'Sky's color' cũng được nhưng ít tự nhiên. Mẹo: Vật lớn, trừu tượng → 'of' an toàn.\n💡 **Ví dụ:** The beauty of nature. / The history of Vietnam."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My friend house is big.",
+    "output": "✅ **Corrected Sentence:** My friend's house is big.\n🔍 **Error Identification:** Thiếu dấu nháy 's – 'my friend house' không phải sở hữu.\n📘 **Vietnamese Explanation:** Người Việt quên 's khi nói 'nhà của bạn tôi'. Mẹo: Có 'của' → thường cần 's cho người.\n💡 **Ví dụ:** My sister's boyfriend. / My mother's recipe."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cover of the book is torn.",
+    "output": "✅ **Corrected Sentence:** The cover of the book is torn. (câu đúng)\n🔍 **Error Identification:** Câu đúng. 'Of' dùng cho vật.\n📘 **Vietnamese Explanation:** 'The book's cover' cũng được. Mẹo: Cả hai đều chấp nhận.\n💡 **Ví dụ:** The first page of the chapter. / The end of the story."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "James car is red.",
+    "output": "✅ **Corrected Sentence:** James's car is red. (hoặc James' car – tùy phong cách)\n🔍 **Error Identification:** Thiếu dấu nháy 's cho tên riêng kết thúc bằng 's' (James).\n📘 **Vietnamese Explanation:** Người Việt quên thêm 's cho tên riêng. Mẹo: Tên riêng kết thúc 's' có thể thêm 's (James's) hoặc chỉ ' (James') – cả hai đều được.\n💡 **Ví dụ:** Charles's book. / Jesus' teachings."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The legs of the table are broken.",
+    "output": "✅ **Corrected Sentence:** The legs of the table are broken. (câu đúng)\n🔍 **Error Identification:** 'Of' dùng cho vật (table) là phù hợp.\n📘 **Vietnamese Explanation:** 'The table's legs' cũng được. Mẹo: Đồ vật thông thường → 'of' an toàn.\n💡 **Ví dụ:** The handle of the door. / The wheels of the bike."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My boss office is on the 5th floor.",
+    "output": "✅ **Corrected Sentence:** My boss's office is on the 5th floor.\n🔍 **Error Identification:** Thiếu 's – 'my boss office' không phải sở hữu.\n📘 **Vietnamese Explanation:** Người Việt quên 's cho danh từ chỉ người. Mẹo: 'Boss' số ít → thêm 's (boss's).\n💡 **Ví dụ:** My manager's decision. / The president's speech."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The windows of the house are clean.",
+    "output": "✅ **Corrected Sentence:** The windows of the house are clean. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The house's windows' cũng được. Mẹo: Không sai khi dùng 'of' cho nhà cửa.\n💡 **Ví dụ:** The rooms of the hotel. / The walls of the castle."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cat's whiskers are long. (câu đúng) - Học viên viết \'The cat whiskers are long.\'",
+    "output": "✅ **Corrected Sentence:** The cat's whiskers are long.\n🔍 **Error Identification:** Thiếu 's – 'cat whiskers' không phải sở hữu.\n📘 **Vietnamese Explanation:** Người Việt bỏ 's khi nói 'râu của mèo'. Mẹo: Động vật + 's + bộ phận cơ thể.\n💡 **Ví dụ:** The dog's tail. / The bird's wings."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The name of the company is Google.",
+    "output": "✅ **Corrected Sentence:** The name of the company is Google. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The company's name' cũng được. Mẹo: Tổ chức, công ty có thể dùng cả 's và 'of'.\n💡 **Ví dụ:** The CEO of the company. / The company's policy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My childrens' toys are everywhere.",
+    "output": "✅ **Corrected Sentence:** My children's toys are everywhere.\n🔍 **Error Identification:** 'Childrens' là sai, phải là 'children' (đã là số nhiều).\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'children' rồi mới thêm dấu nháy. Mẹo: children (số nhiều) → children's.\n💡 **Ví dụ:** The men's hats. / The women's shoes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The results of the test will come tomorrow.",
+    "output": "✅ **Corrected Sentence:** The results of the test will come tomorrow. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The test's results' cũng được. Mẹo: Sự kiện, hoạt động → 'of' thường dùng.\n💡 **Ví dụ:** The outcome of the election. / The date of the meeting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My parents house is near the beach.",
+    "output": "✅ **Corrected Sentence:** My parents' house is near the beach.\n🔍 **Error Identification:** 'Parents' là số nhiều, cần dấu nháy sau 's' (parents'), không phải 'parents' không dấu.\n📘 **Vietnamese Explanation:** Người Việt quên dấu nháy cho danh từ số nhiều. Mẹo: Số nhiều kết thúc 's' → thêm ' (parents').\n💡 **Ví dụ:** My grandparents' farm. / The students' homework."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The sound of the waves is relaxing.",
+    "output": "✅ **Corrected Sentence:** The sound of the waves is relaxing. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The waves' sound' cũng được. Mẹo: Hiện tượng tự nhiên → 'of' phổ biến.\n💡 **Ví dụ:** The light of the moon. / The heat of the sun."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book's cover is torn. (câu đúng) - Học viên viết \'The book cover is torn.\'",
+    "output": "✅ **Corrected Sentence:** The book's cover is torn. (hoặc The cover of the book)\n🔍 **Error Identification:** 'Book cover' có thể là danh từ ghép (bìa sách), không cần 's. Nếu muốn sở hữu thì dùng 'book's cover'.\n📘 **Vietnamese Explanation:** Người Việt thường bỏ 's. Mẹo: Danh từ ghép (book cover, bus stop) không dùng sở hữu.\n💡 **Ví dụ:** The bus stop is near here. / The coffee cup is on the table."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The queen of England lives in London.",
+    "output": "✅ **Corrected Sentence:** The Queen of England lives in London. (câu đúng)\n🔍 **Error Identification:** Câu đúng. 'Of' dùng cho danh hiệu, chức vụ.\n📘 **Vietnamese Explanation:** 'England's queen' cũng được nhưng kém tự nhiên. Mẹo: Chức danh + of + địa danh là phổ biến.\n💡 **Ví dụ:** The Mayor of London. / The President of the United States."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My brother girlfriend is very kind.",
+    "output": "✅ **Corrected Sentence:** My brother's girlfriend is very kind.\n🔍 **Error Identification:** Thiếu 's – 'my brother girlfriend' không phải sở hữu.\n📘 **Vietnamese Explanation:** Người Việt quên 's khi nói 'bạn gái của anh tôi'. Mẹo: Người + 's + người (quan hệ).\n💡 **Ví dụ:** My sister's husband. / My friend's mother."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The top of the mountain is covered with snow.",
+    "output": "✅ **Corrected Sentence:** The top of the mountain is covered with snow. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The mountain's top' cũng được. Mẹo: Địa danh → có thể dùng 'of' hoặc 's.\n💡 **Ví dụ:** The foot of the hill. / The mountain's peak."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The teachers' room is on the second floor. (câu đúng) - Học viên viết \'The teachers room is on the second floor.\'",
+    "output": "✅ **Corrected Sentence:** The teachers' room is on the second floor.\n🔍 **Error Identification:** Thiếu dấu nháy sau 'teachers' (teachers' room = phòng của các giáo viên).\n📘 **Vietnamese Explanation:** Người Việt quên dấu nháy cho danh từ số nhiều. Mẹo: Số nhiều + ' + danh từ (teachers' room).\n💡 **Ví dụ:** The students' library. / The workers' cafeteria."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The taste of this soup is delicious.",
+    "output": "✅ **Corrected Sentence:** The taste of this soup is delicious. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'This soup's taste' cũng được. Mẹo: Đồ ăn, thức uống → 'of' phổ biến.\n💡 **Ví dụ:** The flavor of the wine. / The smell of the bread."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My cousins' house is in the countryside. (câu đúng) - Học viên viết \'My cousin's house is in the countryside.\' (nếu chỉ một người)",
+    "output": "✅ **Corrected Sentence (nếu nhiều họ hàng):** My cousins' house is in the countryside.\n🔍 **Error Identification:** 'Cousins' (số nhiều) → dấu nháy sau 's' (cousins'). 'Cousin's' (số ít). Phân biệt rõ.\n📘 **Vietnamese Explanation:** Người Việt nhầm giữa số ít và số nhiều khi dùng sở hữu. Mẹo: Số ít → 's (cousin's), số nhiều có 's' → ' (cousins').\n💡 **Ví dụ:** My friend's car (1 bạn). / My friends' car (nhiều bạn)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The end of the road is near.",
+    "output": "✅ **Corrected Sentence:** The end of the road is near. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The road's end' cũng được. Mẹo: Vị trí, địa điểm → 'of' phổ biến.\n💡 **Ví dụ:** The middle of the street. / The side of the building."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My dog's bowl is empty. (câu đúng) - Học viên viết \'My dog bowl is empty.\'",
+    "output": "✅ **Corrected Sentence:** My dog's bowl is empty.\n🔍 **Error Identification:** Thiếu 's – 'dog bowl' có thể hiểu là 'bát dành cho chó' (danh từ ghép), nhưng nếu là bát của chó tôi thì cần 's.\n📘 **Vietnamese Explanation:** Người Việt hay bỏ 's. Mẹo: Nếu có 'của' trong tiếng Việt, thường cần 's.\n💡 **Ví dụ:** My cat's food. / My bird's cage."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The price of this phone is high.",
+    "output": "✅ **Corrected Sentence:** The price of this phone is high. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'This phone's price' cũng được. Mẹo: Sản phẩm, vật dụng → 'of' an toàn.\n💡 **Ví dụ:** The cost of the trip. / The value of the painting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My son's teacher is very nice. (câu đúng) - Học viên viết \'My son teacher is very nice.\'",
+    "output": "✅ **Corrected Sentence:** My son's teacher is very nice.\n🔍 **Error Identification:** Thiếu 's – 'my son teacher' không phải sở hữu.\n📘 **Vietnamese Explanation:** Người Việt quên 's cho mối quan hệ gia đình. Mẹo: Quan hệ gia đình + 's + người.\n💡 **Ví dụ:** My daughter's friend. / My father's colleague."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The city's streets are crowded. (câu đúng) - Học viên viết \'The city streets are crowded.\'",
+    "output": "✅ **Corrected Sentence:** The city's streets are crowded. (hoặc The streets of the city)\n🔍 **Error Identification:** 'City streets' có thể là danh từ ghép (đường phố thành phố), không cần 's. Nếu muốn nhấn mạnh sở hữu thì dùng 'city's streets'.\n📘 **Vietnamese Explanation:** Người Việt thường bỏ 's. Mẹo: Danh từ ghép (city streets, country roads) không cần sở hữu.\n💡 **Ví dụ:** The country roads are quiet. / The town square is beautiful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The roof of the church is old.",
+    "output": "✅ **Corrected Sentence:** The roof of the church is old. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The church's roof' cũng được. Mẹo: Công trình kiến trúc → 'of' phổ biến.\n💡 **Ví dụ:** The spire of the cathedral. / The dome of the mosque."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My boss's car is expensive. (câu đúng) - Học viên viết \'My boss car is expensive.\'",
+    "output": "✅ **Corrected Sentence:** My boss's car is expensive.\n🔍 **Error Identification:** Thiếu 's – 'boss' số ít, thêm 's.\n📘 **Vietnamese Explanation:** Người Việt quên 's cho danh từ số ít chỉ người. Mẹo: Số ít + 's (boss's).\n💡 **Ví dụ:** My teacher's advice. / The doctor's opinion."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The first page of the book is missing.",
+    "output": "✅ **Corrected Sentence:** The first page of the book is missing. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The book's first page' cũng được. Mẹo: Số thứ tự + of + vật.\n💡 **Ví dụ:** The last chapter of the novel. / The second verse of the song."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My friends' party was great. (câu đúng) - Học viên viết \'My friends party was great.\'",
+    "output": "✅ **Corrected Sentence:** My friends' party was great.\n🔍 **Error Identification:** Thiếu dấu nháy sau 'friends' (số nhiều).\n📘 **Vietnamese Explanation:** Người Việt quên dấu nháy cho số nhiều. Mẹo: Số nhiều + ' + danh từ.\n💡 **Ví dụ:** My parents' anniversary. / The students' graduation."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The handle of the suitcase is broken.",
+    "output": "✅ **Corrected Sentence:** The handle of the suitcase is broken. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The suitcase's handle' cũng được. Mẹo: Đồ dùng cá nhân → 'of' an toàn.\n💡 **Ví dụ:** The strap of the bag. / The zipper of the jacket."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My husband's birthday is in May. (câu đúng) - Học viên viết \'My husband birthday is in May.\'",
+    "output": "✅ **Corrected Sentence:** My husband's birthday is in May.\n🔍 **Error Identification:** Thiếu 's – 'husband' số ít, cần 's.\n📘 **Vietnamese Explanation:** Người Việt quên 's cho người thân. Mẹo: Quan hệ gia đình + 's + sự kiện.\n💡 **Ví dụ:** My wife's anniversary. / My child's birthday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The result of the experiment was surprising.",
+    "output": "✅ **Corrected Sentence:** The result of the experiment was surprising. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The experiment's result' cũng được. Mẹo: Khoa học, nghiên cứu → 'of' phổ biến.\n💡 **Ví dụ:** The findings of the study. / The conclusion of the research."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The girls' dresses are beautiful. (câu đúng) - Học viên viết \'The girl's dresses are beautiful.\' (chỉ một cô gái)",
+    "output": "✅ **Corrected Sentence (nếu nhiều cô gái):** The girls' dresses are beautiful.\n🔍 **Error Identification:** 'Girls' (số nhiều) → dấu nháy sau 's' (girls'). 'Girl's' (số ít). Phân biệt rõ.\n📘 **Vietnamese Explanation:** Người Việt nhầm số ít và số nhiều. Mẹo: Số nhiều có 's' → thêm ' (girls'); số ít → thêm 's (girl's).\n💡 **Ví dụ:** The boy's hat (1 boy). / The boys' hats (many boys)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The back of the chair is comfortable.",
+    "output": "✅ **Corrected Sentence:** The back of the chair is comfortable. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The chair's back' cũng được. Mẹo: Đồ nội thất → 'of' an toàn.\n💡 **Ví dụ:** The seat of the bench. / The arm of the sofa."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My uncle's farm is large. (câu đúng) - Học viên viết \'My uncle farm is large.\'",
+    "output": "✅ **Corrected Sentence:** My uncle's farm is large.\n🔍 **Error Identification:** Thiếu 's – 'uncle' số ít, cần 's.\n📘 **Vietnamese Explanation:** Người Việt quên 's cho người thân. Mẹo: Người + 's + tài sản.\n💡 **Ví dụ:** My aunt's garden. / My grandfather's house."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The contents of the box are a mystery.",
+    "output": "✅ **Corrected Sentence:** The contents of the box are a mystery. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The box's contents' cũng được. Mẹo: Vật chứa đựng → 'of' phổ biến.\n💡 **Ví dụ:** The inside of the envelope. / The outside of the package."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The womens' shoes are on sale.",
+    "output": "✅ **Corrected Sentence:** The women's shoes are on sale.\n🔍 **Error Identification:** 'Womens' là sai, 'women' đã là số nhiều bất quy tắc → thêm 's (women's).\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'woman' trước rồi mới thêm dấu nháy. Mẹo: Bất quy tắc (women, children, men) → thêm 's (women's).\n💡 **Ví dụ:** The men's department. / The children's section."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The future of the company looks bright.",
+    "output": "✅ **Corrected Sentence:** The future of the company looks bright. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The company's future' cũng được. Mẹo: Trừu tượng → 'of' trang trọng hơn.\n💡 **Ví dụ:** The success of the project. / The growth of the economy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My brother's girlfriend is a doctor. (câu đúng) - Học viên viết \'My brother girlfriend is a doctor.\'",
+    "output": "✅ **Corrected Sentence:** My brother's girlfriend is a doctor.\n🔍 **Error Identification:** Thiếu 's – cần sở hữu cách cho mối quan hệ.\n📘 **Vietnamese Explanation:** Người Việt quên 's trong các mối quan hệ. Mẹo: A + 's + B (quan hệ gia đình/xã hội).\n💡 **Ví dụ:** My sister's colleague. / My father's boss."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The color of the flower is red.",
+    "output": "✅ **Corrected Sentence:** The color of the flower is red. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** 'The flower's color' cũng được. Mẹo: Thực vật, thiên nhiên → 'of' phổ biến.\n💡 **Ví dụ:** The scent of the rose. / The leaf of the tree."
+  }
+]

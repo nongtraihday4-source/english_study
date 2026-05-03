@@ -1,0 +1,463 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I arrived, the movie already started.",
+    "output": "✅ **Corrected Sentence:** When I arrived, the movie had already started.\n🔍 **Error Identification:** Tense – cần quá khứ hoàn thành (had started) cho hành động xảy ra trước một hành động khác trong quá khứ (arrived).\n📘 **Vietnamese Explanation:** Người Việt thường dùng quá khứ đơn cho cả hai hành động vì tiếng Việt không phân biệt thứ tự trước sau. Mẹo: Hành động nào xảy ra trước → dùng had + V3; hành động xảy ra sau → dùng quá khứ đơn.\n💡 **Ví dụ:** She had left before I called. / They had eaten when we arrived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I never been to Hanoi before I moved there.",
+    "output": "✅ **Corrected Sentence:** I had never been to Hanoi before I moved there.\n🔍 **Error Identification:** Thiếu 'had' – quá khứ hoàn thành cần 'had' + V3 (been).\n📘 **Vietnamese Explanation:** Người Việt quên 'had' vì nghĩ 'never' đã đủ. Mẹo: 'Before' + quá khứ đơn, vế chính dùng had + V3.\n💡 **Ví dụ:** She had never seen snow before she went to Japan. / He had never eaten pho before he visited Vietnam."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time we got to the station, the train left.",
+    "output": "✅ **Corrected Sentence:** By the time we got to the station, the train had left.\n🔍 **Error Identification:** 'By the time' + quá khứ đơn, hành động xảy ra trước dùng quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho cả hai. Mẹo: 'By the time' (vào lúc) + S + V2/ed, mệnh đề chính dùng had + V3.\n💡 **Ví dụ:** By the time she arrived, we had already eaten. / By the time I woke up, he had left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After she finished her homework, she watched TV.",
+    "output": "✅ **Corrected Sentence:** After she had finished her homework, she watched TV.\n🔍 **Error Identification:** 'After' + quá khứ hoàn thành (had finished) để nhấn mạnh hành động hoàn tất trước hành động khác.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho cả hai, nhưng để rõ thứ tự nên dùng quá khứ hoàn thành. Mẹo: 'After' + had + V3, mệnh đề chính quá khứ đơn.\n💡 **Ví dụ:** After he had said sorry, she forgave him. / After they had left, we cleaned the house."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told me she never saw that movie.",
+    "output": "✅ **Corrected Sentence:** She told me she had never seen that movie.\n🔍 **Error Identification:** Câu tường thuật – hành động 'never saw' xảy ra trước 'told' nên dùng quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên quá khứ đơn trong câu tường thuật. Mẹo: Khi tường thuật lại lời nói trong quá khứ, lùi thì: hiện tại hoàn thành → quá khứ hoàn thành.\n💡 **Ví dụ:** He said he had already eaten. / They thought they had lost the keys."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was tired because I worked all day.",
+    "output": "✅ **Corrected Sentence:** I was tired because I had worked all day. (hoặc had been working)\n🔍 **Error Identification:** Hành động 'worked all day' xảy ra trước và là nguyên nhân của 'was tired' → dùng quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho cả nguyên nhân và kết quả. Mẹo: Nguyên nhân xảy ra trước trong quá khứ → dùng had + V3.\n💡 **Ví dụ:** She was happy because she had passed the exam. / The ground was wet because it had rained."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We had drove for 2 hours before we stopped.",
+    "output": "✅ **Corrected Sentence:** We had driven for 2 hours before we stopped.\n🔍 **Error Identification:** 'Drove' là V2, cần V3 'driven' sau 'had'.\n📘 **Vietnamese Explanation:** Người Việt nhầm V2 và V3 của động từ bất quy tắc. Mẹo: Học thuộc: drive – drove – driven. Sau 'had' luôn dùng V3.\n💡 **Ví dụ:** She had written the letter before he came. / They had spoken to him earlier."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before I started school, I learned to read.",
+    "output": "✅ **Corrected Sentence:** Before I started school, I had learned to read.\n🔍 **Error Identification:** 'Before' + quá khứ đơn, hành động xảy ra trước dùng quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho cả hai. Mẹo: 'Before' + S + V2/ed, vế chính dùng had + V3.\n💡 **Ví dụ:** Before she moved to Hanoi, she had lived in HCMC. / Before they got married, they had dated for 5 years."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He had already went to bed when I came.",
+    "output": "✅ **Corrected Sentence:** He had already gone to bed when I came.\n🔍 **Error Identification:** 'Went' là V2, cần V3 'gone' sau 'had'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'went' và 'gone'. Mẹo: go – went – gone. Sau 'had' dùng 'gone'.\n💡 **Ví dụ:** She had already eaten when I invited her. / They had already left when we arrived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't recognize him because I never met him before.",
+    "output": "✅ **Corrected Sentence:** I didn't recognize him because I had never met him before.\n🔍 **Error Identification:** 'Never met' xảy ra trước 'didn't recognize' → dùng had never met.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho cả hai. Mẹo: 'Because' + nguyên nhân xảy ra trước → quá khứ hoàn thành.\n💡 **Ví dụ:** She failed the test because she hadn't studied. / He was angry because they hadn't told him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By 10 PM last night, I finished my work.",
+    "output": "✅ **Corrected Sentence:** By 10 PM last night, I had finished my work.\n🔍 **Error Identification:** 'By + thời điểm trong quá khứ' → dùng quá khứ hoàn thành cho hành động hoàn tất trước thời điểm đó.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn với 'by + thời gian'. Mẹo: 'By the time, by + mốc' → had + V3.\n💡 **Ví dụ:** By 8 AM, she had already left. / By 2020, he had graduated from university."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The room was messy because they didn't clean it.",
+    "output": "✅ **Corrected Sentence:** The room was messy because they hadn't cleaned it.\n🔍 **Error Identification:** Hành động 'didn't clean' xảy ra trước 'was messy' → dùng hadn't cleaned.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho mối quan hệ nguyên nhân – kết quả. Mẹo: Nguyên nhân trong quá khứ xảy ra trước kết quả → quá khứ hoàn thành.\n💡 **Ví dụ:** The car was dirty because it hadn't been washed. / She was late because she hadn't woken up on time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "No sooner did I arrive than she left.",
+    "output": "✅ **Corrected Sentence:** No sooner had I arrived than she left.\n🔍 **Error Identification:** Cấu trúc đảo ngữ 'No sooner... than' + quá khứ hoàn thành (had arrived).\n📘 **Vietnamese Explanation:** Người Việt dùng 'did arrive' thay vì 'had arrived'. Mẹo: 'No sooner had + S + V3 than + S + V2/ed'.\n💡 **Ví dụ:** No sooner had he spoken than she interrupted. / No sooner had we left than it started to rain."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Hardly I closed the door when the phone rang.",
+    "output": "✅ **Corrected Sentence:** Hardly had I closed the door when the phone rang.\n🔍 **Error Identification:** Cấu trúc đảo ngữ 'Hardly... when' + quá khứ hoàn thành (had closed).\n📘 **Vietnamese Explanation:** Người Việt quên đảo 'had' và dùng sai trật tự. Mẹo: 'Hardly had + S + V3 when + S + V2/ed'.\n💡 **Ví dụ:** Hardly had she sat down when the bell rang. / Hardly had they started when the fire alarm went off."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wished I went to the party.",
+    "output": "✅ **Corrected Sentence:** I wished I had gone to the party.\n🔍 **Error Identification:** 'Wish' về quá khứ (ước điều đã không xảy ra) → dùng quá khứ hoàn thành (had gone).\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn sau 'wish'. Mẹo: 'Wish' + had + V3 để diễn tả ước muốn trái ngược với quá khứ.\n💡 **Ví dụ:** She wished she had studied harder. / They wished they hadn't said that."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I knew you were coming, I would have waited.",
+    "output": "✅ **Corrected Sentence:** If I had known you were coming, I would have waited.\n🔍 **Error Identification:** Câu điều kiện loại 3 (trái ngược với quá khứ) – if + had + V3, would have + V3.\n📘 **Vietnamese Explanation:** Người Việt dùng 'if I knew' (quá khứ đơn) thay vì 'if I had known'. Mẹo: Điều kiện loại 3: If + had + V3, S + would/could/might + have + V3.\n💡 **Ví dụ:** If she had studied, she would have passed. / If they had left earlier, they wouldn't have missed the bus."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was the first time I ate sushi.",
+    "output": "✅ **Corrected Sentence:** It was the first time I had eaten sushi.\n🔍 **Error Identification:** 'It was the first time' + quá khứ hoàn thành (had eaten).\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn sau cấu trúc này. Mẹo: 'This/It was the first/second time' + had + V3.\n💡 **Ví dụ:** It was the first time she had driven a car. / That was the third time he had called her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told me she already finished the report.",
+    "output": "✅ **Corrected Sentence:** She told me she had already finished the report.\n🔍 **Error Identification:** Câu tường thuật – 'already finished' xảy ra trước 'told' → dùng had already finished.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên quá khứ đơn. Mẹo: Khi tường thuật, lùi thì: hiện tại hoàn thành → quá khứ hoàn thành.\n💡 **Ví dụ:** He said he had already seen the movie. / They thought they had already paid."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had been wait for an hour when the bus finally came.",
+    "output": "✅ **Corrected Sentence:** I had been waiting for an hour when the bus finally came.\n🔍 **Error Identification:** Quá khứ hoàn thành tiếp diễn – 'wait' → 'waiting' (cần V-ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'had been'. Mẹo: 'Had been + V-ing' nhấn mạnh quá trình kéo dài trước một hành động khác.\n💡 **Ví dụ:** She had been studying for 3 hours when I called. / They had been traveling for a month before they returned home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The ground was wet because it rained all night.",
+    "output": "✅ **Corrected Sentence:** The ground was wet because it had been raining all night.\n🔍 **Error Identification:** Nhấn mạnh quá trình mưa kéo dài (all night) trước khi mặt đất ướt → dùng quá khứ hoàn thành tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'rained'. Mẹo: Hành động kéo dài liên tục trước một mốc quá khứ → had been + V-ing.\n💡 **Ví dụ:** Her eyes were red because she had been crying. / He was tired because he had been working all day."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time she arrived, we waited for 2 hours.",
+    "output": "✅ **Corrected Sentence:** By the time she arrived, we had been waiting for 2 hours.\n🔍 **Error Identification:** Nhấn mạnh hành động 'wait' kéo dài 2 giờ trước khi cô ấy đến → dùng quá khứ hoàn thành tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'waited'. Mẹo: 'For + khoảng thời gian' + hành động kéo dài trước một mốc → had been + V-ing.\n💡 **Ví dụ:** By 8 AM, he had been running for an hour. / When she called, I had been sleeping for 3 hours."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He had been smoke for 20 years before he quit.",
+    "output": "✅ **Corrected Sentence:** He had been smoking for 20 years before he quit.\n🔍 **Error Identification:** 'Smoke' → 'smoking' (thiếu ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'had been'. Mẹo: 'Had been' + V-ing (luôn có ing).\n💡 **Ví dụ:** She had been working there for 5 years before she got promoted. / They had been dating for 2 years before they got married."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't know who she was because I never saw her before.",
+    "output": "✅ **Corrected Sentence:** I didn't know who she was because I had never seen her before.\n🔍 **Error Identification:** 'Never saw' xảy ra trước 'didn't know' → dùng had never seen.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'never saw'. Mẹo: 'Before' trong quá khứ thường đi với quá khứ hoàn thành.\n💡 **Ví dụ:** She didn't recognize the song because she had never heard it before. / He didn't understand the joke because he hadn't heard it before."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After he finished work, he went home.",
+    "output": "✅ **Corrected Sentence:** After he had finished work, he went home.\n🔍 **Error Identification:** 'After' + quá khứ hoàn thành để nhấn mạnh hành động hoàn tất trước.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho cả hai. Mẹo: 'After' + had + V3 để chỉ thứ tự rõ ràng.\n💡 **Ví dụ:** After they had eaten dinner, they watched a movie. / After she had said goodbye, she left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She was tired because she ran for an hour.",
+    "output": "✅ **Corrected Sentence:** She was tired because she had been running for an hour.\n🔍 **Error Identification:** Hành động chạy kéo dài 1 giờ trước khi cô ấy mệt → dùng had been running.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'ran'. Mẹo: Nhấn mạnh quá trình kéo dài dẫn đến kết quả → had been + V-ing.\n💡 **Ví dụ:** His clothes were dirty because he had been working in the garden. / She was out of breath because she had been running."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before the party, I never met her.",
+    "output": "✅ **Corrected Sentence:** Before the party, I had never met her.\n🔍 **Error Identification:** 'Before + mốc quá khứ' + quá khứ hoàn thành cho hành động chưa từng xảy ra.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'never met'. Mẹo: 'Before' + danh từ/mệnh đề quá khứ → dùng had + V3.\n💡 **Ví dụ:** Before that day, she had never traveled abroad. / Before the accident, he had never broken a bone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I got home, my mom already cooked dinner.",
+    "output": "✅ **Corrected Sentence:** When I got home, my mom had already cooked dinner.\n🔍 **Error Identification:** Hành động 'cooked dinner' xảy ra trước 'got home' → dùng had already cooked.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'cooked'. Mẹo: 'Already' trong quá khứ thường đi với quá khứ hoàn thành.\n💡 **Ví dụ:** When she arrived, the movie had already started. / When he woke up, the sun had already risen."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told me he never saw such a beautiful girl.",
+    "output": "✅ **Corrected Sentence:** He told me he had never seen such a beautiful girl.\n🔍 **Error Identification:** Câu tường thuật – 'never saw' lùi thì thành 'had never seen'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên quá khứ đơn. Mẹo: Khi tường thuật lời nói quá khứ, hiện tại hoàn thành lùi thành quá khứ hoàn thành.\n💡 **Ví dụ:** She said she had already eaten. / They claimed they had never met him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I realized that I met him before.",
+    "output": "✅ **Corrected Sentence:** I realized that I had met him before.\n🔍 **Error Identification:** Hành động 'met' xảy ra trước 'realized' → dùng had met.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'met'. Mẹo: 'Before' trong mệnh đề phụ thường đi với quá khứ hoàn thành.\n💡 **Ví dụ:** She remembered that she had seen the man before. / He understood that he had made a mistake."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time we reached the cinema, the film already started.",
+    "output": "✅ **Corrected Sentence:** By the time we reached the cinema, the film had already started.\n🔍 **Error Identification:** 'By the time' + quá khứ đơn, vế chính dùng quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho cả hai. Mẹo: 'By the time' = before the moment → had + V3.\n💡 **Ví dụ:** By the time he arrived, everyone had left. / By the time I found the restaurant, it had closed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She had been live in London for 3 years before she moved to Paris.",
+    "output": "✅ **Corrected Sentence:** She had been living in London for 3 years before she moved to Paris.\n🔍 **Error Identification:** 'Live' → 'living' (thiếu ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'had been'. Mẹo: had been + V-ing.\n💡 **Ví dụ:** He had been working at the bank before he started his own business. / They had been dating for a year before they got engaged."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would have known, I would have told you.",
+    "output": "✅ **Corrected Sentence:** If I had known, I would have told you.\n🔍 **Error Identification:** Câu điều kiện loại 3 – mệnh đề if dùng 'had known', không dùng 'would have known'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'would have' trong cả hai vế. Mẹo: If + had + V3, S + would have + V3.\n💡 **Ví dụ:** If she had studied, she would have passed. / If they had left earlier, they wouldn't have missed the train."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car broke down because it didn't get serviced for a long time.",
+    "output": "✅ **Corrected Sentence:** The car broke down because it hadn't been serviced for a long time.\n🔍 **Error Identification:** Thể bị động quá khứ hoàn thành – hadn't been serviced.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn bị động 'wasn't serviced'. Mẹo: Hành động bị động xảy ra trước → had been + V3.\n💡 **Ví dụ:** The window was broken because it hadn't been fixed. / She was angry because she hadn't been informed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We had ate before we went to the restaurant.",
+    "output": "✅ **Corrected Sentence:** We had eaten before we went to the restaurant.\n🔍 **Error Identification:** 'Ate' là V2, cần V3 'eaten'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'ate' và 'eaten'. Mẹo: eat – ate – eaten. Sau 'had' dùng 'eaten'.\n💡 **Ví dụ:** She had drunk all the water before I arrived. / They had taken the test before the bell rang."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had been think about quitting my job for months before I finally did it.",
+    "output": "✅ **Corrected Sentence:** I had been thinking about quitting my job for months before I finally did it.\n🔍 **Error Identification:** 'Think' → 'thinking' (thiếu ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'had been'. Mẹo: had been + V-ing.\n💡 **Ví dụ:** She had been considering the offer for weeks. / They had been planning the trip for a year."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me if I ever been to Italy.",
+    "output": "✅ **Corrected Sentence:** He asked me if I had ever been to Italy.\n🔍 **Error Identification:** Câu tường thuật thiếu 'had' – 'I ever been' → 'I had ever been'.\n📘 **Vietnamese Explanation:** Người Việt quên 'had' trong câu gián tiếp. Mẹo: Câu hỏi gián tiếp ở quá khứ lùi thì: have/has been → had been.\n💡 **Ví dụ:** She asked if I had ever seen a ghost. / They wondered if we had ever tried durian."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was the most delicious cake I ever tasted.",
+    "output": "✅ **Corrected Sentence:** It was the most delicious cake I had ever tasted.\n🔍 **Error Identification:** So sánh nhất trong quá khứ + had ever + V3.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'tasted'. Mẹo: Cấu trúc: It was the + adj + est + S + had ever + V3.\n💡 **Ví dụ:** That was the best movie I had ever seen. / He was the kindest person she had ever met."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After she had taken a shower, she goes to bed.",
+    "output": "✅ **Corrected Sentence:** After she had taken a shower, she went to bed.\n🔍 **Error Identification:** Hành động sau (goes) ở thì hiện tại, nhưng câu đang kể chuyện quá khứ → dùng 'went'.\n📘 **Vietnamese Explanation:** Người Việt lẫn lộn giữa hiện tại và quá khứ. Mẹo: Khi dùng quá khứ hoàn thành, mệnh đề chính phải ở quá khứ đơn.\n💡 **Ví dụ:** After he had finished work, he went home. / After they had eaten, they left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had no idea that he already left.",
+    "output": "✅ **Corrected Sentence:** I had no idea that he had already left.\n🔍 **Error Identification:** Hành động 'left' xảy ra trước 'had no idea' → dùng had already left.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'left'. Mẹo: Khi một hành động xảy ra trước một hành động khác trong quá khứ → quá khứ hoàn thành.\n💡 **Ví dụ:** She didn't know that they had already arrived. / He wasn't aware that she had already called."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie started by the time we got to the cinema.",
+    "output": "✅ **Corrected Sentence:** The movie had started by the time we got to the cinema.\n🔍 **Error Identification:** 'By the time' + mệnh đề quá khứ đơn, hành động xảy ra trước dùng quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'started'. Mẹo: 'By the time' luôn đi với quá khứ hoàn thành cho hành động xảy ra trước.\n💡 **Ví dụ:** The party had ended by the time we arrived. / The store had closed by the time I got there."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She hadn't never been to a concert before last week.",
+    "output": "✅ **Corrected Sentence:** She had never been to a concert before last week. (hoặc She hadn't ever been)\n🔍 **Error Identification:** Lỗi kép phủ định – 'hadn't' và 'never' cùng nhau.\n📘 **Vietnamese Explanation:** Người Việt dịch 'chưa bao giờ' thành 'hadn't never'. Mẹo: Chỉ dùng một phủ định: 'had never' hoặc 'hadn't ever'.\n💡 **Ví dụ:** He had never seen snow. / They hadn't ever tried Vietnamese food."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By 9 PM, I waited for 2 hours.",
+    "output": "✅ **Corrected Sentence:** By 9 PM, I had been waiting for 2 hours.\n🔍 **Error Identification:** 'By + thời điểm' + hành động kéo dài đến thời điểm đó → dùng quá khứ hoàn thành tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'waited'. Mẹo: Nhấn mạnh quá trình kéo dài đến một mốc → had been + V-ing.\n💡 **Ví dụ:** By midnight, he had been driving for 5 hours. / By the time she arrived, I had been waiting for an hour."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He had never drove a car before that day.",
+    "output": "✅ **Corrected Sentence:** He had never driven a car before that day.\n🔍 **Error Identification:** 'Drove' là V2, cần V3 'driven'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'drove' và 'driven'. Mẹo: drive – drove – driven.\n💡 **Ví dụ:** She had never written a letter before. / They had never spoken English in public."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was surprised because I didn't expect to see him.",
+    "output": "✅ **Corrected Sentence:** I was surprised because I hadn't expected to see him.\n🔍 **Error Identification:** Hành động 'didn't expect' xảy ra trước 'was surprised' → dùng hadn't expected.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'didn't expect'. Mẹo: Nguyên nhân xảy ra trước kết quả → quá khứ hoàn thành.\n💡 **Ví dụ:** She was upset because she hadn't received the gift. / He was relieved because he hadn't lost his wallet."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "No sooner had we left when it started to rain.",
+    "output": "✅ **Corrected Sentence:** No sooner had we left than it started to rain.\n🔍 **Error Identification:** Cấu trúc 'No sooner... than' (không phải 'when').\n📘 **Vietnamese Explanation:** Người Việt dùng 'when' thay vì 'than'. Mẹo: No sooner... than = Hardly... when.\n💡 **Ví dụ:** No sooner had he arrived than she left. / No sooner had I closed the door than the phone rang."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was the first time she visited Ho Chi Minh City.",
+    "output": "✅ **Corrected Sentence:** It was the first time she had visited Ho Chi Minh City.\n🔍 **Error Identification:** 'The first time' trong quá khứ + quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'visited'. Mẹo: 'It was the first/second time' + had + V3.\n💡 **Ví dụ:** It was the first time he had tried pho. / That was the second time they had met."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only I listened to my parents.",
+    "output": "✅ **Corrected Sentence:** If only I had listened to my parents.\n🔍 **Error Identification:** 'If only' về quá khứ (ước điều đã không xảy ra) → dùng had + V3.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'listened'. Mẹo: 'If only' + had + V3 để diễn tả sự hối tiếc về quá khứ.\n💡 **Ví dụ:** If only she had studied harder. / If only they had told me earlier."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When we arrived, the concert already finished.",
+    "output": "✅ **Corrected Sentence:** When we arrived, the concert had already finished.\n🔍 **Error Identification:** 'Finished' xảy ra trước 'arrived' → dùng had already finished.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'finished'. Mẹo: 'Already' thường đi với quá khứ hoàn thành để nhấn mạnh.\n💡 **Ví dụ:** When she woke up, her husband had already left. / When I called, they had already eaten."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He had been study all night before the exam.",
+    "output": "✅ **Corrected Sentence:** He had been studying all night before the exam.\n🔍 **Error Identification:** 'Study' → 'studying' (thiếu ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'had been'. Mẹo: had been + V-ing.\n💡 **Ví dụ:** She had been working all day before she went home. / They had been traveling for a month before they returned."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I thought I already saw that movie.",
+    "output": "✅ **Corrected Sentence:** I thought I had already seen that movie.\n🔍 **Error Identification:** 'Saw' xảy ra trước 'thought' → dùng had already seen.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'saw'. Mẹo: Khi tường thuật ý nghĩ trong quá khứ, lùi thì.\n💡 **Ví dụ:** She believed she had already met him. / He remembered that he had already locked the door."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time we got there, they ate all the food.",
+    "output": "✅ **Corrected Sentence:** By the time we got there, they had eaten all the food.\n🔍 **Error Identification:** 'By the time' + quá khứ đơn, vế chính dùng had eaten.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'ate'. Mẹo: 'By the time' = trước khi → quá khứ hoàn thành.\n💡 **Ví dụ:** By the time she arrived, he had left. / By the time I woke up, the sun had risen."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After the movie ended, we went home.",
+    "output": "✅ **Corrected Sentence:** After the movie had ended, we went home.\n🔍 **Error Identification:** 'After' + quá khứ hoàn thành để nhấn mạnh thứ tự.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'ended'. Mẹo: 'After' + had + V3 cho hành động hoàn tất trước.\n💡 **Ví dụ:** After the rain had stopped, we went out. / After she had said sorry, he forgave her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was hungry because I didn't eat all day.",
+    "output": "✅ **Corrected Sentence:** I was hungry because I hadn't eaten all day.\n🔍 **Error Identification:** 'Didn't eat' xảy ra trước 'was hungry' → dùng hadn't eaten.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'didn't eat'. Mẹo: Nguyên nhân trong quá khứ xảy ra trước → quá khứ hoàn thành.\n💡 **Ví dụ:** She was tired because she hadn't slept. / He was late because he hadn't woken up on time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He had been run for an hour before he stopped.",
+    "output": "✅ **Corrected Sentence:** He had been running for an hour before he stopped.\n🔍 **Error Identification:** 'Run' (CVC) → 'running' (gấp đôi n).\n📘 **Vietnamese Explanation:** Người Việt quên gấp đôi phụ âm và 'ing'. Mẹo: run→running, swim→swimming.\n💡 **Ví dụ:** She had been swimming for 30 minutes. / They had been sitting for 2 hours."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she had invited me, I would go.",
+    "output": "✅ **Corrected Sentence:** If she had invited me, I would have gone.\n🔍 **Error Identification:** Câu điều kiện loại 3 – mệnh đề chính dùng 'would have gone', không dùng 'would go'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'would go' (loại 2) cho quá khứ. Mẹo: Loại 3: would have + V3.\n💡 **Ví dụ:** If they had told me, I would have helped. / If he had studied, he would have passed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Hardly had I sat down than the phone rang.",
+    "output": "✅ **Corrected Sentence:** Hardly had I sat down when the phone rang.\n🔍 **Error Identification:** 'Hardly... when' (không phải 'than').\n📘 **Vietnamese Explanation:** Người Việt dùng 'than' thay vì 'when'. Mẹo: Hardly + had + S + V3 + when + S + V2/ed.\n💡 **Ví dụ:** Hardly had she arrived when the meeting started. / Hardly had I closed the door when someone knocked."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't know that she already finished the work.",
+    "output": "✅ **Corrected Sentence:** I didn't know that she had already finished the work.\n🔍 **Error Identification:** 'Already finished' xảy ra trước 'didn't know' → dùng had already finished.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'finished'. Mẹo: Khi có 'already' trong câu quá khứ, thường dùng quá khứ hoàn thành.\n💡 **Ví dụ:** He didn't realize that they had already left. / She wasn't aware that he had already arrived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time we arrived, the party had been going on for 2 hours. (câu đúng) - Học viên viết \'By the time we arrived, the party went on for 2 hours.\'",
+    "output": "✅ **Corrected Sentence:** By the time we arrived, the party had been going on for 2 hours.\n🔍 **Error Identification:** 'Went on' là quá khứ đơn, nhưng cần nhấn mạnh quá trình kéo dài đến thời điểm đó → dùng had been going on.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'went on'. Mẹo: 'By the time' + hành động kéo dài → had been + V-ing.\n💡 **Ví dụ:** By 10 PM, she had been studying for 3 hours. / When I found him, he had been waiting for an hour."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She had never ate sushi before last night.",
+    "output": "✅ **Corrected Sentence:** She had never eaten sushi before last night.\n🔍 **Error Identification:** 'Ate' là V2, cần V3 'eaten'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'ate' và 'eaten'. Mẹo: eat – ate – eaten.\n💡 **Ví dụ:** He had never drunk coffee before. / They had never seen snow before."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The children were dirty because they played in the mud.",
+    "output": "✅ **Corrected Sentence:** The children were dirty because they had been playing in the mud.\n🔍 **Error Identification:** Nhấn mạnh quá trình chơi kéo dài dẫn đến kết quả → had been playing.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'played'. Mẹo: Hành động kéo dài là nguyên nhân → had been + V-ing.\n💡 **Ví dụ:** His hands were dirty because he had been fixing the car. / Her eyes were red because she had been crying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before she moved to Hanoi, she lived in HCMC for 10 years.",
+    "output": "✅ **Corrected Sentence:** Before she moved to Hanoi, she had lived in HCMC for 10 years.\n🔍 **Error Identification:** 'Lived' xảy ra trước 'moved' → dùng had lived.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'lived'. Mẹo: 'Before' + quá khứ đơn, vế chính dùng quá khứ hoàn thành.\n💡 **Ví dụ:** Before he became a teacher, he had worked as a journalist. / Before they got married, they had dated for 3 years."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wished I didn't say that.",
+    "output": "✅ **Corrected Sentence:** I wished I hadn't said that.\n🔍 **Error Identification:** 'Wish' về quá khứ → dùng hadn't said.\n📘 **Vietnamese Explanation:** Người Việt dùng 'didn't say' (quá khứ đơn). Mẹo: 'Wish' + had + V3 cho ước muốn trái ngược với quá khứ.\n💡 **Ví dụ:** She wished she hadn't bought that dress. / They wished they hadn't missed the flight."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I arrived at the party, everyone already left.",
+    "output": "✅ **Corrected Sentence:** When I arrived at the party, everyone had already left.\n🔍 **Error Identification:** 'Left' xảy ra trước 'arrived' → dùng had already left.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'left'. Mẹo: 'Already' trong quá khứ + quá khứ hoàn thành.\n💡 **Ví dụ:** When she got to the station, the train had already departed. / When he woke up, his friends had already gone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He had been sleep for 10 hours when I woke him up.",
+    "output": "✅ **Corrected Sentence:** He had been sleeping for 10 hours when I woke him up.\n🔍 **Error Identification:** 'Sleep' → 'sleeping' (thiếu ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'had been'. Mẹo: had been + V-ing.\n💡 **Ví dụ:** She had been waiting for an hour when the bus finally came. / They had been traveling for a week when they ran out of money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "No sooner had I closed my eyes than I fell asleep.",
+    "output": "✅ **Corrected Sentence:** No sooner had I closed my eyes than I fell asleep.\n🔍 **Error Identification:** Câu này đúng. Học viên viết \'No sooner I closed my eyes than I fell asleep.\' (thiếu had và đảo ngữ)",
+    "output_alt": "✅ **Corrected Sentence (nếu câu sai là 'No sooner I closed my eyes than I fell asleep'):** No sooner had I closed my eyes than I fell asleep.\n🔍 **Error Identification:** Thiếu 'had' và đảo ngữ – 'No sooner' + had + S + V3.\n📘 **Vietnamese Explanation:** Người Việt quên đảo trợ động từ 'had' lên trước chủ ngữ. Mẹo: 'No sooner' + had + S + V3 + than + S + V2/ed.\n💡 **Ví dụ:** No sooner had he arrived than she left. / No sooner had we sat down than the phone rang."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said she already posted the letter.",
+    "output": "✅ **Corrected Sentence:** She said she had already posted the letter.\n🔍 **Error Identification:** Câu tường thuật – 'already posted' lùi thì thành 'had already posted'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên quá khứ đơn 'posted'. Mẹo: Khi tường thuật, lùi thì: quá khứ đơn → quá khứ hoàn thành.\n💡 **Ví dụ:** He said he had already finished. / They told me they had already eaten."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time we reached the top, we climbed for 4 hours.",
+    "output": "✅ **Corrected Sentence:** By the time we reached the top, we had been climbing for 4 hours.\n🔍 **Error Identification:** Hành động leo núi kéo dài 4 giờ trước khi lên đỉnh → dùng had been climbing.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'climbed'. Mẹo: 'By the time' + hành động kéo dài → had been + V-ing.\n💡 **Ví dụ:** By the time she got home, she had been walking for 2 hours. / By the time he retired, he had been working for 40 years."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't recognize the song because I never heard it.",
+    "output": "✅ **Corrected Sentence:** I didn't recognize the song because I had never heard it.\n🔍 **Error Identification:** 'Never heard' xảy ra trước 'didn't recognize' → dùng had never heard.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'never heard'. Mẹo: 'Never' trong quá khứ thường đi với quá khứ hoàn thành.\n💡 **Ví dụ:** She didn't know him because she had never met him. / He didn't understand the joke because he had never heard it before."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only I had taken that job offer.",
+    "output": "✅ **Corrected Sentence:** If only I had taken that job offer.\n🔍 **Error Identification:** Câu đúng. Học viên viết \'If only I took that job offer.\' (sai)\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'took' thay vì 'had taken'. Mẹo: 'If only' + had + V3 để diễn tả sự hối tiếc.\n💡 **Ví dụ:** If only she had listened to my advice. / If only they had told me the truth."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The room smelled nice because she sprayed perfume.",
+    "output": "✅ **Corrected Sentence:** The room smelled nice because she had sprayed perfume.\n🔍 **Error Identification:** Hành động 'sprayed' xảy ra trước 'smelled' → dùng had sprayed.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'sprayed'. Mẹo: Nguyên nhân trong quá khứ xảy ra trước kết quả → quá khứ hoàn thành.\n💡 **Ví dụ:** The cake was delicious because she had used good ingredients. / He was famous because he had won many awards."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He had been try to call her all morning before she finally answered.",
+    "output": "✅ **Corrected Sentence:** He had been trying to call her all morning before she finally answered.\n🔍 **Error Identification:** 'Try' → 'trying' (thiếu ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'had been'. Mẹo: had been + V-ing.\n💡 **Ví dụ:** She had been trying to lose weight for months. / They had been planning the event for weeks."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After he had washed the car, he polished it.",
+    "output": "✅ **Corrected Sentence:** After he had washed the car, he polished it.\n🔍 **Error Identification:** Câu đúng. Học viên viết \'After he washed the car, he polished it.\' (thiếu had)\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'washed' thay vì 'had washed'. Mẹo: 'After' + had + V3 để nhấn mạnh hành động hoàn tất trước.\n💡 **Ví dụ:** After she had finished work, she went home. / After they had eaten, they washed the dishes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was the most exciting trip I ever took.",
+    "output": "✅ **Corrected Sentence:** It was the most exciting trip I had ever taken.\n🔍 **Error Identification:** So sánh nhất trong quá khứ + had ever + V3 (taken).\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'took'. Mẹo: 'It was the most + adj + S + had ever + V3'.\n💡 **Ví dụ:** That was the hardest exam she had ever taken. / He was the most interesting person I had ever met."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before the storm came, we already prepared everything.",
+    "output": "✅ **Corrected Sentence:** Before the storm came, we had already prepared everything.\n🔍 **Error Identification:** 'Already prepared' xảy ra trước 'came' → dùng had already prepared.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'prepared'. Mẹo: 'Before' + quá khứ đơn, vế chính dùng quá khứ hoàn thành.\n💡 **Ví dụ:** Before the guests arrived, she had already cleaned the house. / Before the teacher entered, the students had already sat down."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had been knowing her for 5 years before she moved away.",
+    "output": "✅ **Corrected Sentence:** I had known her for 5 years before she moved away.\n🔍 **Error Identification:** 'Know' là stative verb, không dùng tiếp diễn. Dùng quá khứ hoàn thành đơn 'had known'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'had been knowing' vì nghĩ nhấn mạnh quá trình. Mẹo: Know, believe, understand, like, love không dùng tiếp diễn.\n💡 **Ví dụ:** She had loved him for years (not had been loving). / They had owned the house for a decade."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time I arrived, she waited for 30 minutes.",
+    "output": "✅ **Corrected Sentence:** By the time I arrived, she had been waiting for 30 minutes.\n🔍 **Error Identification:** 'Waited' cần chuyển thành 'had been waiting' để nhấn mạnh quá trình kéo dài.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'waited'. Mẹo: 'For + khoảng thời gian' + 'by the time' → had been + V-ing.\n💡 **Ví dụ:** By the time he called, I had been sleeping for 2 hours. / By the time we found the restaurant, they had been waiting for an hour."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told me he never saw such a beautiful sunset.",
+    "output": "✅ **Corrected Sentence:** He told me he had never seen such a beautiful sunset.\n🔍 **Error Identification:** Câu tường thuật – 'never saw' lùi thì thành 'had never seen'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên quá khứ đơn 'saw'. Mẹo: Khi tường thuật, lùi thì: quá khứ đơn → quá khứ hoàn thành.\n💡 **Ví dụ:** She said she had never tried pho before. / They claimed they had never met him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The grass was wet because it rained during the night.",
+    "output": "✅ **Corrected Sentence:** The grass was wet because it had rained during the night.\n🔍 **Error Identification:** 'Rained' xảy ra trước 'was wet' → dùng had rained.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'rained'. Mẹo: Nguyên nhân xảy ra trước kết quả trong quá khứ → quá khứ hoàn thành.\n💡 **Ví dụ:** The street was flooded because it had rained heavily. / The ground was muddy because it had rained all night."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She had been work at that company for 10 years before she quit.",
+    "output": "✅ **Corrected Sentence:** She had been working at that company for 10 years before she quit.\n🔍 **Error Identification:** 'Work' → 'working' (thiếu ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'had been'. Mẹo: had been + V-ing.\n💡 **Ví dụ:** He had been teaching for 20 years before he retired. / They had been dating for 2 years before they got engaged."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had known you were sick, I would visit you.",
+    "output": "✅ **Corrected Sentence:** If I had known you were sick, I would have visited you.\n🔍 **Error Identification:** Câu điều kiện loại 3 – mệnh đề chính dùng 'would have visited', không dùng 'would visit'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'would visit' (loại 2) cho quá khứ. Mẹo: Loại 3: would have + V3.\n💡 **Ví dụ:** If she had studied, she would have passed. / If they had left earlier, they wouldn't have missed the bus."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After she had taken the medicine, she feels better.",
+    "output": "✅ **Corrected Sentence:** After she had taken the medicine, she felt better.\n🔍 **Error Identification:** 'Feels' là hiện tại, nhưng câu đang kể chuyện quá khứ → dùng 'felt'.\n📘 **Vietnamese Explanation:** Người Việt lẫn lộn thì trong câu. Mẹo: Khi dùng quá khứ hoàn thành, mệnh đề chính phải ở quá khứ đơn.\n💡 **Ví dụ:** After he had eaten, he went to bed. / After they had finished, they left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I didn't realize that I met him before.",
+    "output": "✅ **Corrected Sentence:** I didn't realize that I had met him before.\n🔍 **Error Identification:** 'Met' xảy ra trước 'didn't realize' → dùng had met.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'met'. Mẹo: 'Before' trong mệnh đề phụ thường đi với quá khứ hoàn thành.\n💡 **Ví dụ:** She didn't remember that she had seen him before. / He didn't know that they had already left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Hardly I had arrived when the meeting started.",
+    "output": "✅ **Corrected Sentence:** Hardly had I arrived when the meeting started.\n🔍 **Error Identification:** Đảo ngữ sai trật tự – 'Hardly' + had + S + V3.\n📘 **Vietnamese Explanation:** Người Việt đặt 'I had' thay vì 'had I'. Mẹo: 'Hardly' + had + S + V3 + when + S + V2/ed.\n💡 **Ví dụ:** Hardly had she sat down when the phone rang. / Hardly had we started when the fire alarm went off."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He was nervous because he never flew before.",
+    "output": "✅ **Corrected Sentence:** He was nervous because he had never flown before.\n🔍 **Error Identification:** 'Never flew' xảy ra trước 'was nervous' → dùng had never flown.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'flew'. Mẹo: 'Never' + hành động trong quá khứ trước một mốc → quá khứ hoàn thành.\n💡 **Ví dụ:** She was excited because she had never traveled abroad. / They were scared because they had never seen a ghost."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the end of last year, he finished his thesis.",
+    "output": "✅ **Corrected Sentence:** By the end of last year, he had finished his thesis.\n🔍 **Error Identification:** 'By the end of + thời gian quá khứ' + quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'finished'. Mẹo: 'By the end of' + had + V3.\n💡 **Ví dụ:** By the end of 2020, she had graduated. / By the end of last month, they had completed the project."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She had been live in the US for 3 years before she returned to Vietnam.",
+    "output": "✅ **Corrected Sentence:** She had been living in the US for 3 years before she returned to Vietnam.\n🔍 **Error Identification:** 'Live' → 'living' (thiếu ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'had been'. Mẹo: had been + V-ing.\n💡 **Ví dụ:** They had been waiting for an hour before the bus came. / He had been studying for 2 hours before he took a break."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was sure that I locked the door before I left.",
+    "output": "✅ **Corrected Sentence:** I was sure that I had locked the door before I left.\n🔍 **Error Identification:** 'Locked' xảy ra trước 'was sure' → dùng had locked.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'locked'. Mẹo: Khi có hai hành động trong quá khứ, hành động nào xảy ra trước dùng quá khứ hoàn thành.\n💡 **Ví dụ:** She remembered that she had turned off the stove. / He thought that he had seen her before."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "No sooner did we leave than it started to rain.",
+    "output": "✅ **Corrected Sentence:** No sooner had we left than it started to rain.\n🔍 **Error Identification:** 'No sooner' + had + S + V3 (không dùng 'did').\n📘 **Vietnamese Explanation:** Người Việt dùng 'did leave' thay vì 'had left'. Mẹo: 'No sooner' + had + V3.\n💡 **Ví dụ:** No sooner had she arrived than she left. / No sooner had I closed my eyes than I fell asleep."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was the third time she called him that day.",
+    "output": "✅ **Corrected Sentence:** It was the third time she had called him that day.\n🔍 **Error Identification:** 'The third time' trong quá khứ + quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'called'. Mẹo: 'It was the first/second/third time' + had + V3.\n💡 **Ví dụ:** That was the second time he had been late. / It was the first time they had met."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He had been try to find a job for months before he succeeded.",
+    "output": "✅ **Corrected Sentence:** He had been trying to find a job for months before he succeeded.\n🔍 **Error Identification:** 'Try' → 'trying' (thiếu ing).\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' sau 'had been'. Mẹo: had been + V-ing.\n💡 **Ví dụ:** She had been looking for her keys for an hour before she found them. / They had been practicing for weeks before the performance."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wished I listened to my mother's advice.",
+    "output": "✅ **Corrected Sentence:** I wished I had listened to my mother's advice.\n🔍 **Error Identification:** 'Wish' về quá khứ → dùng had listened.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'listened'. Mẹo: 'Wish' + had + V3.\n💡 **Ví dụ:** She wished she hadn't said that. / They wished they had arrived earlier."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time the police arrived, the thief already escaped.",
+    "output": "✅ **Corrected Sentence:** By the time the police arrived, the thief had already escaped.\n🔍 **Error Identification:** 'Already escaped' xảy ra trước 'arrived' → dùng had already escaped.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'escaped'. Mẹo: 'By the time' + quá khứ đơn, vế chính quá khứ hoàn thành.\n💡 **Ví dụ:** By the time the firemen came, the building had already collapsed. / By the time I got there, she had already left."
+  }
+]

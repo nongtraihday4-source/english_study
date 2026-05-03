@@ -78,6 +78,14 @@ class EnrollView(APIView):
             enrollment.save(update_fields=["is_deleted"])
             created = True
 
+        # Initialize lesson progress if no rows exist yet (covers old enrollments)
+        has_progress = LessonProgress.objects.filter(
+            user=request.user,
+            lesson__chapter__course=course,
+        ).exists()
+        if not has_progress:
+            _initialize_lesson_progress(request.user, course)
+
         progress_logger.info(
             "Enroll | user=%s course=%s new=%s", request.user.pk, course_id, created
         )
@@ -85,6 +93,63 @@ class EnrollView(APIView):
             UserEnrollmentSerializer(enrollment).data,
             status=201 if created else 200,
         )
+
+
+def _initialize_lesson_progress(user, course):
+    """Create LessonProgress(available) for the first lesson of each chapter."""
+    from apps.curriculum.models import Chapter, Lesson
+    chapters = Chapter.objects.filter(course=course).order_by("order")
+    to_create = []
+    for chapter in chapters:
+        first = Lesson.objects.filter(chapter=chapter, is_active=True).order_by("order").first()
+        if first:
+            to_create.append(
+                LessonProgress(user=user, lesson=first, status="available")
+            )
+    if to_create:
+        LessonProgress.objects.bulk_create(to_create, ignore_conflicts=True)
+
+
+def _unlock_next_lesson(user, completed_lesson):
+    """After completing a lesson, unlock the next lesson in the chapter.
+    Returns the next Lesson object if one exists, else None."""
+    from apps.curriculum.models import Lesson
+    chapter = completed_lesson.chapter
+    lessons = list(
+        Lesson.objects.filter(chapter=chapter, is_active=True).order_by("order")
+    )
+    ids = [l.pk for l in lessons]
+    try:
+        idx = ids.index(completed_lesson.pk)
+    except ValueError:
+        return None
+    if idx + 1 < len(lessons):
+        next_lesson = lessons[idx + 1]
+        LessonProgress.objects.get_or_create(
+            user=user, lesson=next_lesson,
+            defaults={"status": "available"},
+        )
+        return next_lesson
+    return None
+
+
+def _recalc_enrollment_progress(user, course):
+    """Recalculate and save enrollment.progress_percent."""
+    from apps.curriculum.models import Lesson as CLesson
+    total = CLesson.objects.filter(chapter__course=course, is_active=True).count()
+    if not total:
+        return
+    done = LessonProgress.objects.filter(
+        user=user, lesson__chapter__course=course, status="completed"
+    ).count()
+    pct = round((done / total) * 100, 2)
+    update_fields = {"progress_percent": pct}
+    if pct >= 100:
+        update_fields["status"] = "completed"
+        update_fields["completed_at"] = timezone.now()
+    UserEnrollment.objects.filter(user=user, course=course, is_deleted=False).update(
+        **update_fields
+    )
 
 
 # ── Submission views ──────────────────────────────────────────────────────────
@@ -429,6 +494,107 @@ class LessonProgressView(generics.RetrieveAPIView):
         return lp
 
 
+class MarkLessonCompleteView(APIView):
+    """POST /api/v1/progress/lessons/<lesson_pk>/complete/ — mark lesson done, unlock next."""
+    permission_classes = [permissions.IsAuthenticated]
+
+    def post(self, request, lesson_pk):
+        from apps.curriculum.models import Lesson
+        try:
+            lesson = Lesson.objects.select_related("chapter__course").get(
+                pk=lesson_pk, is_active=True
+            )
+        except Lesson.DoesNotExist:
+            return Response({"detail": "Bài học không tồn tại."}, status=404)
+
+        score = request.data.get("score")
+        time_spent = request.data.get("time_spent_seconds", 0)
+        attempt_score = None
+
+        lp, _ = LessonProgress.objects.get_or_create(
+            user=request.user, lesson=lesson,
+            defaults={"status": "available"},
+        )
+        lp.status = "completed"
+        lp.attempts_count = (lp.attempts_count or 0) + 1
+        lp.time_spent_seconds = (lp.time_spent_seconds or 0) + int(time_spent)
+        lp.completed_at = timezone.now()
+        if score is not None:
+            try:
+                sc = int(score)
+                attempt_score = sc
+                if lp.best_score is None or sc > lp.best_score:
+                    lp.best_score = sc
+            except (TypeError, ValueError):
+                pass
+        lp.save()
+
+        # Unlock the next lesson in the chapter
+        next_lesson = _unlock_next_lesson(request.user, lesson)
+
+        from .grading import _check_chapter_completion
+
+        # Recalc enrollment progress
+        enrollment = _recalc_enrollment_progress(request.user, lesson.chapter.course)
+        chapter_info = _check_chapter_completion(request.user, lesson)
+
+        # Award XP (10 per lesson, 50 bonus if score >= 80)
+        xp_gained = 0
+        try:
+            from apps.gamification.models import XPLog
+            xp = 10
+            if lp.best_score is not None and lp.best_score >= 80:
+                xp += 50
+            XPLog.objects.create(
+                user=request.user,
+                source="exercise_complete",
+                xp_amount=xp,
+                reference_id=lesson.pk,
+                reference_type="lesson",
+                note=f"Hoàn thành bài: {lesson.title}",
+            )
+            xp_gained = xp
+        except Exception:
+            pass
+
+        # Update daily streak
+        try:
+            streak, _ = DailyStreak.objects.get_or_create(user=request.user)
+            today = timezone.localdate()
+            if streak.last_activity_date != today:
+                if streak.last_activity_date and (today - streak.last_activity_date).days == 1:
+                    streak.current_streak = (streak.current_streak or 0) + 1
+                else:
+                    streak.current_streak = 1
+                streak.longest_streak = max(
+                    streak.longest_streak or 0, streak.current_streak
+                )
+                streak.last_activity_date = today
+                streak.save()
+        except Exception:
+            pass
+
+        payload = LessonProgressSerializer(lp).data
+        payload.update({
+            "attempt_score": attempt_score,
+            "score": attempt_score,
+            "best_score": lp.best_score,
+            "xp_gained": xp_gained,
+            "course_id": lesson.chapter.course_id,
+            "chapter_id": lesson.chapter_id,
+            "lesson_title": lesson.title,
+            "next_lesson_id": next_lesson.id if next_lesson else None,
+            "next_lesson_title": next_lesson.title if next_lesson else None,
+            "course_completed": float(UserEnrollment.objects.filter(
+                user=request.user,
+                course=lesson.chapter.course,
+                is_deleted=False,
+            ).values_list("progress_percent", flat=True).first() or 0) >= 100,
+        })
+        payload.update(chapter_info)
+        return Response(payload, status=200)
+
+
 # ── Dashboard ─────────────────────────────────────────────────────────────────
 
 class DashboardView(APIView):
@@ -463,3 +629,63 @@ class DashboardView(APIView):
         }
         serializer = DashboardStatsSerializer(data)
         return Response(serializer.data)
+
+
+class MyAssignmentsView(APIView):
+    """
+    GET /api/v1/progress/my-assignments/
+    Returns active ClassAssignments for courses the current student is enrolled in.
+    """
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get(self, request):
+        from apps.teacher.models import ClassAssignment, AssignmentStudent
+        from django.utils import timezone as tz
+
+        user = request.user
+
+        enrolled_course_ids = (
+            UserEnrollment.objects
+            .filter(user=user, is_deleted=False, status="active")
+            .values_list("course_id", flat=True)
+        )
+
+        # Assignments where:
+        # (1) assign_to_all=True for an enrolled course, OR
+        # (2) student is explicitly listed via AssignmentStudent
+        from django.db.models import Q
+        explicit_assignment_ids = AssignmentStudent.objects.filter(
+            student=user
+        ).values_list("assignment_id", flat=True)
+
+        assignments = (
+            ClassAssignment.objects
+            .filter(
+                Q(assign_to_all=True, course_id__in=enrolled_course_ids) |
+                Q(id__in=explicit_assignment_ids)
+            )
+            .filter(is_active=True)
+            .select_related("course", "exam_set", "teacher")
+            .order_by("due_date")
+        )
+
+        now = tz.now()
+        results = []
+        for a in assignments:
+            results.append({
+                "id": a.id,
+                "title": a.title,
+                "description": a.description,
+                "course_id": a.course_id,
+                "course_title": a.course.title if a.course_id else "",
+                "exam_set_id": a.exam_set_id,
+                "exam_set_title": a.exam_set.title if a.exam_set_id else "",
+                "teacher_name": (
+                    f"{a.teacher.last_name} {a.teacher.first_name}".strip()
+                    or a.teacher.email
+                ) if a.teacher_id else "",
+                "due_date": a.due_date,
+                "is_overdue": a.due_date < now if a.due_date else False,
+            })
+
+        return Response({"count": len(results), "results": results})

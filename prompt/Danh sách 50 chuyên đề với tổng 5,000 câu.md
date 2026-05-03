@@ -1,0 +1,27 @@
+BẢN THIẾT KẾ DATASET 5,000 CÂU (QWEN 2.5 - 7B FINE-TUNING)
+PHẦN 1: NGỮ PHÁP & TỪ VỰNG (70% = 3,500 CÂU)
+1. NHÓM THÌ TRONG TIẾNG ANH (TENSES) - 800 Câu Lỗi Vinglish đặc trưng: Không chia động từ, dịch "word-by-word" từ "đã", "đang", "sẽ".
+
+    Thì Hiện tại đơn (Thói quen, Sự thật, Lịch trình) - 100 câu
+    Thì Hiện tại tiếp diễn (Đang xảy ra, Tương lai đã chốt) - 100 câu
+    Thì Hiện tại hoàn thành (Trải nghiệm, Quá trình kéo dài) - 100 câu
+    Thì Hiện tại hoàn thành tiếp diễn (Nhấn mạnh tính liên tục) - 50 câu
+    Thì Quá khứ đơn (Đã kết thúc, Thói quen quá khứ) - 100 câu
+    Thì Quá khứ tiếp diễn (Đang xảy ra trong QK, Cắt ngang) - 50 câu
+    Thì Quá khứ hoàn thành & QKHT Tiếp diễn (Xảy ra trước 1 mốc QK) - 100 câu
+    Nhóm thì Tương lai (Will vs Be going to vs HTTD) - 100 câu
+    Sự hòa hợp thì trong mệnh đề thời gian (When/Before/After/By the time) - 100 câu
+
+2. NHÓM TỪ LOẠI & CẤU TRÚC CƠ BẢN (PARTS OF SPEECH) - 900 Câu Lỗi Vinglish đặc trưng: Quên mạo từ "a/an/the", nhầm số ít/nhiều, nhầm tính từ/trạng từ. 10. Danh từ đếm được, không đếm được & Số nhiều bất quy tắc - 100 câu 11. Mạo từ (A, An, The, Không dùng mạo từ) - 100 câu 12. Sở hữu cách ('s) và Giới từ chỉ sự sở hữu (of) - 50 câu 13. Đại từ (Nhân xưng, Phản thân, Bất định: Someone, Anything) - 100 câu 14. Lượng từ (Some/Any, Much/Many, A few/A little, All/Both/None) - 100 câu 15. Tính từ & Trạng từ (Vị trí, Đuôi -ed/-ing, Tính từ ghép) - 100 câu 16. Giới từ chỉ Thời gian & Nơi chốn (In/On/At, Under, Between) - 100 câu 17. Giới từ đi kèm Động từ & Tính từ (Dependent Prepositions) - 100 câu 18. Động từ khuyết thiếu cơ bản (Can, Could, Must, Have to, Should) - 100 câu 19. Sự hòa hợp Chủ ngữ và Động từ (S-V Agreement) - 50 câu
+3. NHÓM MỆNH ĐỀ & CÂU PHỨC (CLAUSES) - 700 Câu Lỗi Vinglish đặc trưng: Thiếu từ nối, dịch tiếng Việt ghép vào nhau không có cấu trúc. 20. Mệnh đề Quan hệ xác định & Không xác định (Who, Whom, Which, That) - 100 câu 21. Giới từ trong Mệnh đề Quan hệ & Lược bỏ đại từ quan hệ - 50 câu 22. Rút gọn mệnh đề quan hệ (V-ing, V-ed, To-V) - 100 câu 23. Câu điều kiện Loại 0, Loại 1 & Unless - 100 câu 24. Câu điều kiện Loại 2, Loại 3 & Câu điều kiện Hỗn hợp - 100 câu 25. Mệnh đề trạng ngữ chỉ Thời gian & Nguyên nhân (Because, Since, As) - 100 câu 26. Mệnh đề trạng ngữ chỉ Sự nhượng bộ (Although, Despite, In spite of) - 50 câu 27. Mệnh đề Danh ngữ (Noun Clauses: What you said, Whether...) - 100 câu
+4. NHÓM CẤU TRÚC NÂNG CAO (ADVANCED GRAMMAR) - 1,100 Câu Lỗi Vinglish đặc trưng: Bối rối trước cấu trúc đảo ngữ, bị động hoặc V-ing/To-V. 28. Câu Bị động cơ bản (Present & Past Simple Passive) - 100 câu 29. Câu Bị động nâng cao (Impersonal Passive: It is said that / Have sth done) - 100 câu 30. Câu Trực tiếp & Gián tiếp (Reported Speech: Say vs Tell, Lùi thì) - 100 câu 31. Động từ theo sau bởi To-V hoặc V-ing (Gerunds & Infinitives) - 150 câu 32. So sánh bằng, So sánh hơn & So sánh kém - 100 câu 33. So sánh nhất & So sánh đa bội (Gấp X lần) - 100 câu 34. So sánh Kép (The more... the more...) - 50 câu 35. Động từ khuyết thiếu chỉ sự suy luận (Must have V3, Can't be...) - 100 câu 36. Cấu trúc giả định (Wish, If only, It's high time, Would rather) - 100 câu 37. Rút gọn mệnh đề trạng ngữ (Participle Clauses) - 100 câu 38. Đảo ngữ (Inversion với Never, Hardly, Not only, Câu điều kiện) - 50 câu 39. Câu chẻ nhấn mạnh (Cleft Sentences: It is... that / What I need is...) - 50 câu
+
+--------------------------------------------------------------------------------
+PHẦN 2: PHÁT ÂM & GIAO TIẾP (30% = 1,500 CÂU)
+5. KỊCH BẢN CHẤM ĐIỂM SPEAKING FEEDBACK - 1,500 Câu (So sánh "Câu gốc" và "Câu Whisper nhận diện sai" do học viên đọc kém) Lỗi Vinglish đặc trưng: Nuốt âm đuôi, không nối âm, đọc sai trọng âm, đọc bằng bằng không có ngữ điệu. 40. Lỗi Âm đuôi "s/es" (Phân biệt /s/, /z/, /ɪz/) - 200 câu (Ví dụ: Học viên đọc "He like it", Whisper ra "He like it" -> Nhắc nhở âm /s/) 41. Lỗi Âm đuôi "ed" (Phân biệt /t/, /d/, /ɪd/ & V3) - 200 câu 42. Lỗi quên Phụ âm cuối nói chung (Ending sounds: /k/, /p/, /t/, /d/) - 200 câu 43. Lỗi Cặp âm dễ nhầm (Minimal Pairs: /ɪ/ vs /i:/ - ship/sheep, /ʃ/ vs /s/) - 150 câu 44. Nhận xét Nối âm Phụ âm - Nguyên âm (Linking sounds: Get up -> /gedʌp/) - 150 câu 45. Nhận xét Nối âm Phụ âm - Phụ âm & Nguyên âm - Nguyên âm - 100 câu 46. Lỗi đọc sai Trọng âm từ (Word Stress - nhấn sai âm tiết) - 150 câu 47. Hiện tượng Biến âm (American T: Flap T, Held T, Silent T) - 100 câu 48. Hiện tượng Giảm âm trong giao tiếp (Reduced sounds: Wanna, Gonna, Lemme, 'Cuz) - 100 câu 49. Nhận xét Ngữ điệu câu hỏi (Lên giọng Yes/No, Xuống giọng Wh-questions) - 100 câu 50. Nhận xét Ngữ điệu câu trần thuật & Câu liệt kê (Lên trước chữ 'and', xuống cuối câu) - 50 câu
+
+--------------------------------------------------------------------------------
+CÁCH ỨNG DỤNG DANH SÁCH NÀY VÀO PROMPT CỦA BẠN:
+Giả sử bạn muốn nhờ AI tạo dữ liệu cho chuyên đề số 40 (Lỗi âm đuôi s/es), bạn chỉ cần truyền vào Prompt của bạn như sau:
+# CHUYÊN ĐỀ CẦN TẠO: Phát âm (Speaking Feedback) - Lỗi Âm đuôi "s/es" (Phân biệt /s/, /z/, /ɪz/) # KỊCH BẢN: Kịch bản 2 (Speaking Feedback). Output cần có "Câu yêu cầu đọc", "Văn bản Whisper nghe được do học viên nuốt âm", và "Phản hồi của giáo viên".
+Với cấu trúc 50 chuyên đề này, bạn chạy vòng lặp (hoặc copy-paste) 50 lần vào Prompt, mỗi lần yêu cầu AI tạo đúng số lượng câu được ghi chú ở trên. Cuối cùng, bạn gộp lại sẽ có một file dataset.json cực kỳ hoàn hảo, mô phỏng đúng 100% các lỗi kinh điển của người Việt để fine-tune Qwen 2.5 7B.

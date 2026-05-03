@@ -44,6 +44,9 @@
         style="border-color: var(--color-primary-600); color: var(--color-primary-400)"
       >{{ auth.user?.current_level || '—' }}</div>
 
+      <!-- Theme toggle -->
+      <ThemeToggle />
+
       <!-- Logout -->
       <button
         @click="handleLogout"
@@ -89,6 +92,7 @@ import { ref, computed, onMounted } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useAuthStore } from '@/stores/auth.js'
 import { useNotificationsStore } from '@/stores/notifications.js'
+import ThemeToggle from '@/components/common/ThemeToggle.vue'
 
 defineProps({ sidebarCollapsed: Boolean })
 defineEmits(['toggle-sidebar'])

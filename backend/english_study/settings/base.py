@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "apps.teacher",
     "apps.admin_portal",
     "apps.support",
+    "apps.skill_practice",
 ]
 
 # ─── Middleware ───────────────────────────────────────────────────────────────

@@ -1,0 +1,467 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have saw that movie.",
+    "output": "✅ **Corrected Sentence:** I have seen that movie.\n🔍 **Error Identification:** Past participle – 'saw' là quá khứ đơn, cần dùng 'seen' (V3) sau 'have'.\n📘 **Vietnamese Explanation:** Người Việt thường nhầm V2 và V3 vì tiếng Việt không có phân từ. Mẹo: Học thuộc bảng động từ bất quy tắc: see – saw – seen. Sau 'have/has' luôn dùng V3.\n💡 **Ví dụ:** She has eaten lunch. / They have gone home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She have been to London.",
+    "output": "✅ **Corrected Sentence:** She has been to London.\n🔍 **Error Identification:** S-V agreement – 'She' số ít phải đi với 'has', không phải 'have'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'have' cho mọi chủ ngữ vì quên quy tắc chia. Mẹo: He/She/It + has; I/You/We/They + have.\n💡 **Ví dụ:** He has visited Paris. / We have seen that film."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I never go to Japan.",
+    "output": "✅ **Corrected Sentence:** I have never been to Japan.\n🔍 **Error Identification:** Thiếu thì hiện tại hoàn thành – 'never' chỉ trải nghiệm cần dùng 'have/has + ever/never + V3'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi chưa bao giờ đi Nhật' thành hiện tại đơn. Mẹo: 'Never' trong câu trải nghiệm phải đi với hiện tại hoàn thành.\n💡 **Ví dụ:** She has never tried sushi. / They have never seen the ocean."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have lived here since 5 years.",
+    "output": "✅ **Corrected Sentence:** I have lived here for 5 years.\n🔍 **Error Identification:** 'Since' + mốc thời gian, 'for' + khoảng thời gian. '5 years' là khoảng thời gian → dùng 'for'.\n📘 **Vietnamese Explanation:** Người Việt hay nhầm 'since' và 'for' vì tiếng Việt dùng 'từ' cho cả hai. Mẹo: Since + mốc (2010, Monday, yesterday). For + khoảng (5 years, 2 months, a week).\n💡 **Ví dụ:** I have known her since 2020. / She has worked here for 3 months."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have visited Hanoi last year.",
+    "output": "✅ **Corrected Sentence:** I visited Hanoi last year. (hoặc I have visited Hanoi before, nhưng không đi với last year)\n🔍 **Error Identification:** Hiện tại hoàn thành không đi với thời gian cụ thể trong quá khứ (last year, yesterday, in 2010).\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại hoàn thành với mọi mốc thời gian. Mẹo: Thời gian cụ thể đã kết thúc → dùng quá khứ đơn. Hiện tại hoàn thành dùng với 'ever, never, before, recently, already'.\n💡 **Ví dụ:** I saw her yesterday. / I have already seen her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has went to the market.",
+    "output": "✅ **Corrected Sentence:** She has gone to the market.\n🔍 **Error Identification:** 'Went' là V2, cần V3 là 'gone'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'went' và 'gone'. Mẹo: go – went – gone. Sau 'has' dùng 'gone'.\n💡 **Ví dụ:** He has done his homework. / They have written a letter."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long do you live here?",
+    "output": "✅ **Corrected Sentence:** How long have you lived here?\n🔍 **Error Identification:** Hỏi về khoảng thời gian từ quá khứ đến hiện tại → dùng hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn vì dịch 'bạn sống ở đây bao lâu?'. Mẹo: 'How long' + hiện tại hoàn thành khi hỏi về hành động bắt đầu trong quá khứ và còn tiếp diễn.\n💡 **Ví dụ:** How long have you known her? / How long have they been married?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I haven't never seen that movie.",
+    "output": "✅ **Corrected Sentence:** I have never seen that movie. (hoặc I haven't ever seen that movie)\n🔍 **Error Identification:** Lỗi kép phủ định (double negative) – 'haven't' và 'never' không đi cùng nhau.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi chưa bao giờ xem' thành 'I haven't never' vì 'chưa' và 'bao giờ' đi cùng. Mẹo: Chỉ dùng một phủ định trong câu tiếng Anh.\n💡 **Ví dụ:** I don't know anything. / He never eats meat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We have studied English since 3 years.",
+    "output": "✅ **Corrected Sentence:** We have studied English for 3 years.\n🔍 **Error Identification:** 'Since' + mốc thời gian, 'for' + khoảng thời gian.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'since' và 'for' phổ biến. Mẹo: 'For' đi với số lượng thời gian (3 years, 2 months, 5 days). 'Since' đi với điểm bắt đầu (2021, Monday, last week).\n💡 **Ví dụ:** I have waited for 2 hours. / She has been here since 8 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Have you ever ate pho?",
+    "output": "✅ **Corrected Sentence:** Have you ever eaten pho?\n🔍 **Error Identification:** 'Ate' là V2, cần V3 'eaten' sau 'have ever'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'ate' và 'eaten'. Mẹo: eat – ate – eaten. Học thuộc bảng động từ bất quy tắc.\n💡 **Ví dụ:** Have you ever written a poem? / Has she ever driven a car?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has lost her keys. She can't find them. (câu đúng) - Học viên viết \'She lost her keys. She can't find them.\' (cũng đúng nhưng thiếu liên kết)",
+    "output": "✅ **Corrected Sentence (nhấn mạnh kết quả hiện tại):** She has lost her keys. She can't find them.\n🔍 **Error Identification:** Thiếu hiện tại hoàn thành để diễn tả kết quả để lại ở hiện tại.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho mọi việc đã xảy ra, quên mất mối liên hệ với hiện tại. Mẹo: Khi kết quả vẫn còn ảnh hưởng đến hiện tại → dùng hiện tại hoàn thành.\n💡 **Ví dụ:** I have broken my leg (still broken). / She has eaten (not hungry now)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is the first time I eat sushi.",
+    "output": "✅ **Corrected Sentence:** It is the first time I have eaten sushi.\n🔍 **Error Identification:** Cấu trúc 'It is the first time + hiện tại hoàn thành'.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'the first time'. Mẹo: 'The first/second time' luôn đi với hiện tại hoàn thành.\n💡 **Ví dụ:** This is the first time I have seen her. / That is the third time he has called."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have bought a new car yesterday.",
+    "output": "✅ **Corrected Sentence:** I bought a new car yesterday.\n🔍 **Error Identification:** Hiện tại hoàn thành không đi với 'yesterday' (thời gian cụ thể).\n📘 **Vietnamese Explanation:** Người Việt thêm 'yesterday' vào hiện tại hoàn thành vì nghĩ nó vẫn đúng. Mẹo: Thời gian đã kết thúc (yesterday, last week, in 2010) → quá khứ đơn.\n💡 **Ví dụ:** She called me last night. / They arrived two days ago."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has just went out.",
+    "output": "✅ **Corrected Sentence:** She has just gone out.\n🔍 **Error Identification:** 'Just' + hiện tại hoàn thành, nhưng 'went' phải là 'gone'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'went' và 'gone'. Mẹo: Với 'just, already, yet' luôn dùng V3 sau have/has.\n💡 **Ví dụ:** I have just finished my homework. / He has already eaten."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I haven't seen her since a long time.",
+    "output": "✅ **Corrected Sentence:** I haven't seen her for a long time.\n🔍 **Error Identification:** 'A long time' là khoảng thời gian → dùng 'for', không phải 'since'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'since' cho mọi trường hợp. Mẹo: 'Since' + điểm bắt đầu (Monday, 2020, yesterday). 'For' + độ dài (a long time, 3 days, 2 weeks).\n💡 **Ví dụ:** We haven't met for ages. / She hasn't called since Tuesday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have never been to Hanoi before. (câu đúng) - Học viên viết \'I never been to Hanoi.\'",
+    "output": "✅ **Corrected Sentence:** I have never been to Hanoi. (hoặc I've never been to Hanoi)\n🔍 **Error Identification:** Thiếu trợ động từ 'have' – 'I never been' là sai cấu trúc.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi chưa bao giờ đi Hà Nội' thành 'I never been' vì quên 'have'. Mẹo: 'Never' trong hiện tại hoàn thành phải có 'have/has'.\n💡 **Ví dụ:** She has never eaten durian. / They have never traveled abroad."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We have knew each other since 2015.",
+    "output": "✅ **Corrected Sentence:** We have known each other since 2015.\n🔍 **Error Identification:** 'Knew' là V2, cần V3 'known'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'knew' và 'known'. Mẹo: know – knew – known. Học thuộc bảng bất quy tắc.\n💡 **Ví dụ:** She has grown so tall. / He has drawn a picture."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Has you ever seen a ghost?",
+    "output": "✅ **Corrected Sentence:** Have you ever seen a ghost?\n🔍 **Error Identification:** 'You' đi với 'have', không phải 'has'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'has' cho mọi câu hỏi. Mẹo: Has + he/she/it/số ít. Have + I/you/we/they/số nhiều.\n💡 **Ví dụ:** Has she called? / Have they arrived?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have played tennis when I was a child.",
+    "output": "✅ **Corrected Sentence:** I played tennis when I was a child.\n🔍 **Error Identification:** 'When I was a child' là thời gian cụ thể đã kết thúc → dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại hoàn thành cho quá khứ xa. Mẹo: Thời gian đã kết thúc hoàn toàn (when I was young, in the past) → quá khứ đơn.\n💡 **Ví dụ:** I lived in Hue when I was a child. / She studied hard in high school."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the best book I ever read.",
+    "output": "✅ **Corrected Sentence:** This is the best book I have ever read.\n🔍 **Error Identification:** Cấu trúc so sánh nhất + hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt quên 'have' và 'ever'. Mẹo: So sánh nhất (best, most beautiful) + that + S + have/has + ever + V3.\n💡 **Ví dụ:** That is the most delicious cake I have ever eaten. / He is the kindest person I have ever met."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They have moved to new house last month.",
+    "output": "✅ **Corrected Sentence:** They moved to a new house last month.\n🔍 **Error Identification:** 'Last month' là thời gian cụ thể → quá khứ đơn, không dùng hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại hoàn thành với 'last month' vì nghĩ vẫn liên quan. Mẹo: 'Last week/month/year' luôn đi với quá khứ đơn.\n💡 **Ví dụ:** She graduated last year. / We met last week."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been to HCM City many times. (câu đúng) - Học viên viết \'I went to HCM City many times.\' (cũng đúng nếu không còn ý định quay lại)",
+    "output": "✅ **Corrected Sentence (nếu vẫn còn có thể quay lại):** I have been to HCM City many times.\n🔍 **Error Identification:** 'Many times' (số lần không xác định) dùng hiện tại hoàn thành để nhấn mạnh trải nghiệm.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho mọi việc đã xảy ra. Mẹo: Nói về trải nghiệm sống (không quan trọng thời gian) → dùng hiện tại hoàn thành.\n💡 **Ví dụ:** I have seen that movie twice. / She has visited Da Nang several times."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has been married since 10 years.",
+    "output": "✅ **Corrected Sentence:** She has been married for 10 years.\n🔍 **Error Identification:** '10 years' là khoảng thời gian → dùng 'for'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'since' cho mọi trường hợp. Mẹo: 'Since' đi với mốc thời gian (2014, their wedding day). 'For' đi với số năm/tháng.\n💡 **Ví dụ:** They have been friends for a decade. / He has worked here since 2015."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have never hear that song before.",
+    "output": "✅ **Corrected Sentence:** I have never heard that song before.\n🔍 **Error Identification:** 'Hear' là V1, cần V3 'heard'.\n📘 **Vietnamese Explanation:** Người Việt quên chuyển động từ sang V3 sau 'have never'. Mẹo: Với 'never, ever, already, just' luôn dùng V3.\n💡 **Ví dụ:** She has never seen snow. / I have already done my work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long does she work here?",
+    "output": "✅ **Corrected Sentence:** How long has she worked here?\n🔍 **Error Identification:** Hỏi về khoảng thời gian từ quá khứ đến hiện tại → hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho 'how long'. Mẹo: 'How long' + hiện tại hoàn thành khi hành động chưa kết thúc.\n💡 **Ví dụ:** How long have you waited? / How long has it rained?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He has broke his leg.",
+    "output": "✅ **Corrected Sentence:** He has broken his leg.\n🔍 **Error Identification:** 'Broke' là V2, cần V3 'broken'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'broke' và 'broken'. Mẹo: break – broke – broken.\n💡 **Ví dụ:** She has spoken to the manager. / They have chosen a new leader."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have finished my homework already. (câu đúng) - Học viên viết \'I finished my homework already.\' (cũng đúng trong Anh-Mỹ)",
+    "output": "✅ **Corrected Sentence (nhấn mạnh hoàn thành):** I have finished my homework already.\n🔍 **Error Identification:** 'Already' thường đi với hiện tại hoàn thành để nhấn mạnh hành động đã xảy ra sớm hơn dự kiến.\n📘 **Vietnamese Explanation:** Người Việt dùng 'already' với quá khứ đơn. Mẹo: 'Already' thường dùng với hiện tại hoàn thành (Anh-Anh), nhưng cũng được dùng với quá khứ đơn trong Anh-Mỹ.\n💡 **Ví dụ:** She has already left. / They have already eaten."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I haven't ate anything since morning.",
+    "output": "✅ **Corrected Sentence:** I haven't eaten anything since morning.\n🔍 **Error Identification:** 'Ate' là V2, cần V3 'eaten'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'ate' sau 'haven't'. Mẹo: Sau have/has/haven't/hasn't luôn dùng V3.\n💡 **Ví dụ:** She hasn't written the report. / They haven't taken the test."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the most beautiful place I visited.",
+    "output": "✅ **Corrected Sentence:** This is the most beautiful place I have ever visited.\n🔍 **Error Identification:** Cấu trúc so sánh nhất thiếu 'have ever'.\n📘 **Vietnamese Explanation:** Người Việt quên 'have ever' trong mệnh đề quan hệ. Mẹo: So sánh nhất + that + S + have/has + ever + V3.\n💡 **Ví dụ:** That is the funniest joke I have ever heard. / She is the smartest student I have ever taught."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We have waited for you since 2 hours.",
+    "output": "✅ **Corrected Sentence:** We have waited for you for 2 hours.\n🔍 **Error Identification:** '2 hours' là khoảng thời gian → dùng 'for'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'since' và 'for'. Mẹo: 'Since' + mốc thời gian (2 PM, Monday). 'For' + số lượng (2 hours, 3 days).\n💡 **Ví dụ:** I have been here since 9 AM. / I have been here for 30 minutes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She have never tried Vietnamese coffee.",
+    "output": "✅ **Corrected Sentence:** She has never tried Vietnamese coffee.\n🔍 **Error Identification:** S-V agreement – 'She' + 'has'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'have' cho mọi chủ ngữ. Mẹo: He/She/It/ danh từ số ít + has.\n💡 **Ví dụ:** He has never been late. / The dog has never bitten anyone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have lived in this city for 10 years. (câu đúng) - Học viên viết \'I live in this city for 10 years.\'",
+    "output": "✅ **Corrected Sentence:** I have lived in this city for 10 years.\n🔍 **Error Identification:** 'For 10 years' chỉ khoảng thời gian kéo dài đến hiện tại → dùng hiện tại hoàn thành, không phải hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn với 'for + thời gian'. Mẹo: 'For + khoảng thời gian' là dấu hiệu của hiện tại hoàn thành khi hành động chưa kết thúc.\n💡 **Ví dụ:** She has worked here for 5 years. / They have known each other for a long time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Have you ever been to Singapore? (câu đúng) - Học viên viết \'Did you ever go to Singapore?\'",
+    "output": "✅ **Corrected Sentence:** Have you ever been to Singapore?\n🔍 **Error Identification:** 'Ever' hỏi về trải nghiệm → dùng hiện tại hoàn thành, không phải quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn với 'ever'. Mẹo: 'Ever' trong câu hỏi về trải nghiệm sống → hiện tại hoàn thành.\n💡 **Ví dụ:** Have you ever seen a whale? / Has she ever tried Korean food?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He has just finished his work. (câu đúng) - Học viên viết \'He just finished his work.\'",
+    "output": "✅ **Corrected Sentence (Anh-Anh):** He has just finished his work.\n🔍 **Error Identification:** 'Just' thường đi với hiện tại hoàn thành trong Anh-Anh để diễn tả hành động vừa mới xảy ra.\n📘 **Vietnamese Explanation:** Người Việt dùng 'just' với quá khứ đơn. Mẹo: Trong Anh-Anh, 'just, already, yet' thường dùng với hiện tại hoàn thành.\n💡 **Ví dụ:** She has just left. / They have just arrived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has lost her phone. She can't call anyone. (câu đúng) - Học viên viết \'She lost her phone. She can't call anyone.\'",
+    "output": "✅ **Corrected Sentence (nhấn mạnh kết quả):** She has lost her phone. She can't call anyone.\n🔍 **Error Identification:** Dùng quá khứ đơn trong khi kết quả vẫn còn ở hiện tại (can't call).\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn khi kết quả vẫn còn. Mẹo: Nếu hành động trong quá khứ gây ra hậu quả ở hiện tại → dùng hiện tại hoàn thành.\n💡 **Ví dụ:** I have broken the vase (still broken). / She has eaten (not hungry)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I haven't seen her since a week.",
+    "output": "✅ **Corrected Sentence:** I haven't seen her for a week.\n🔍 **Error Identification:** 'A week' là khoảng thời gian → dùng 'for'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'since' với 'a week'. Mẹo: 'Since' không bao giờ đi với 'a week, 3 days, 2 months' (trừ khi nói 'since a week ago' – không phổ biến).\n💡 **Ví dụ:** They haven't called for a month. / We haven't met for a long time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Has she ever sang in public?",
+    "output": "✅ **Corrected Sentence:** Has she ever sung in public?\n🔍 **Error Identification:** 'Sang' là V2, cần V3 'sung'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'sang' và 'sung'. Mẹo: sing – sang – sung.\n💡 **Ví dụ:** Have you ever swum in the sea? / Has he ever rung the bell?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We have never meet before.",
+    "output": "✅ **Corrected Sentence:** We have never met before.\n🔍 **Error Identification:** 'Meet' là V1, cần V3 'met'.\n📘 **Vietnamese Explanation:** Người Việt quên chuyển 'meet' thành 'met'. Mẹo: meet – met – met (bất quy tắc).\n💡 **Ví dụ:** I have never kept a pet. / She has never slept so late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How many times have you watch that movie?",
+    "output": "✅ **Corrected Sentence:** How many times have you watched that movie?\n🔍 **Error Identification:** 'Watch' cần V3 'watched' (thêm -ed vì là động từ có quy tắc).\n📘 **Vietnamese Explanation:** Người Việt quên thêm -ed cho động từ có quy tắc. Mẹo: Hỏi số lần trải nghiệm → hiện tại hoàn thành + V3.\n💡 **Ví dụ:** How many times have you tried? / How many books has she read?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have lived here since I was a child. (câu đúng) - Học viên viết \'I live here since I was a child.\'",
+    "output": "✅ **Corrected Sentence:** I have lived here since I was a child.\n🔍 **Error Identification:** 'Since + mệnh đề quá khứ' + hiện tại hoàn thành, không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn với 'since'. Mẹo: 'Since' (từ khi) bắt buộc dùng hiện tại hoàn thành ở mệnh đề chính.\n💡 **Ví dụ:** She has worked here since she graduated. / They have known each other since they were kids."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They haven't decided yet. (câu đúng) - Học viên viết \'They didn't decide yet.\'",
+    "output": "✅ **Corrected Sentence:** They haven't decided yet.\n🔍 **Error Identification:** 'Yet' thường đi với hiện tại hoàn thành trong câu phủ định và câu hỏi.\n📘 **Vietnamese Explanation:** Người Việt dùng 'yet' với quá khứ đơn. Mẹo: 'Yet' (chưa) luôn dùng với hiện tại hoàn thành.\n💡 **Ví dụ:** I haven't finished yet. / Has she arrived yet?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has took my pen.",
+    "output": "✅ **Corrected Sentence:** She has taken my pen.\n🔍 **Error Identification:** 'Took' là V2, cần V3 'taken'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'took' và 'taken'. Mẹo: take – took – taken.\n💡 **Ví dụ:** He has given me a gift. / They have written a letter."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have never seen such a beautiful girl. (câu đúng) - Học viên viết \'I never see such a beautiful girl.\'",
+    "output": "✅ **Corrected Sentence:** I have never seen such a beautiful girl.\n🔍 **Error Identification:** 'Never' + trải nghiệm → hiện tại hoàn thành, không phải hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn với 'never'. Mẹo: 'Never' trong câu trải nghiệm bắt buộc dùng hiện tại hoàn thành.\n💡 **Ví dụ:** She has never eaten such delicious food. / They have never traveled so far."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long have you been waiting? (câu đúng) - Học viên viết \'How long have you waited?\' (cũng đúng, nhưng khác sắc thái)",
+    "output": "✅ **Corrected Sentence (nhấn mạnh quá trình):** How long have you been waiting?\n🔍 **Error Identification:** Dùng hiện tại hoàn thành tiếp diễn để nhấn mạnh hành động vẫn đang tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt chỉ dùng hiện tại hoàn thành đơn cho mọi trường hợp. Mẹo: Nhấn mạnh hành động chưa kết thúc và còn tiếp diễn → hiện tại hoàn thành tiếp diễn.\n💡 **Ví dụ:** I have been studying all day. / She has been working here since 2010."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have done my homework. (câu đúng) - Học viên viết \'I did my homework.\' (cũng đúng nhưng không nhấn mạnh kết quả)",
+    "output": "✅ **Corrected Sentence (nhấn mạnh kết quả hiện tại):** I have done my homework.\n🔍 **Error Identification:** Dùng quá khứ đơn thay vì hiện tại hoàn thành khi kết quả quan trọng.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho mọi hành động đã xảy ra. Mẹo: Nếu muốn nói 'việc đã hoàn thành, bây giờ rảnh rỗi' → dùng hiện tại hoàn thành.\n💡 **Ví dụ:** I have eaten (now I'm full). / She has left (now she's not here)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has never been to a concert before. (câu đúng) - Học viên viết \'She never went to a concert before.\'",
+    "output": "✅ **Corrected Sentence:** She has never been to a concert before.\n🔍 **Error Identification:** 'Before' + trải nghiệm → hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn với 'before'. Mẹo: 'Before' trong câu trải nghiệm thường đi với hiện tại hoàn thành.\n💡 **Ví dụ:** I have never met her before. / They have never tried this dish before."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We have knew each other for a decade.",
+    "output": "✅ **Corrected Sentence:** We have known each other for a decade.\n🔍 **Error Identification:** 'Knew' là V2, cần V3 'known'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'knew' và 'known'. Mẹo: know – knew – known.\n💡 **Ví dụ:** I have grown a lot. / She has flown a kite."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Has the train arrived already? (câu đúng trong Anh-Anh) - Học viên viết \'Did the train arrive already?\'",
+    "output": "✅ **Corrected Sentence (Anh-Anh):** Has the train arrived already?\n🔍 **Error Identification:** 'Already' trong câu hỏi thường dùng với hiện tại hoàn thành (Anh-Anh).\n📘 **Vietnamese Explanation:** Người Việt dùng 'already' với quá khứ đơn. Mẹo: Trong Anh-Anh, 'already' thường đi với hiện tại hoàn thành để diễn tả sự ngạc nhiên.\n💡 **Ví dụ:** Have you finished already? / Has she left already?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been to the cinema last night.",
+    "output": "✅ **Corrected Sentence:** I went to the cinema last night.\n🔍 **Error Identification:** 'Last night' là thời gian cụ thể → quá khứ đơn, không dùng hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại hoàn thành với 'last night'. Mẹo: 'Last night, yesterday, last week, in 2020' → quá khứ đơn.\n💡 **Ví dụ:** She called me last night. / We met last week."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He has never drove a car.",
+    "output": "✅ **Corrected Sentence:** He has never driven a car.\n🔍 **Error Identification:** 'Drove' là V2, cần V3 'driven'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'drove' và 'driven'. Mẹo: drive – drove – driven.\n💡 **Ví dụ:** She has written a novel. / They have spoken English."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have seen that movie last week.",
+    "output": "✅ **Corrected Sentence:** I saw that movie last week.\n🔍 **Error Identification:** 'Last week' là thời gian cụ thể → quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'last week' vào hiện tại hoàn thành. Mẹo: Thời gian đã kết thúc hoàn toàn không dùng với hiện tại hoàn thành.\n💡 **Ví dụ:** She bought a car last month. / They moved last year."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We have been friends since 5 years.",
+    "output": "✅ **Corrected Sentence:** We have been friends for 5 years.\n🔍 **Error Identification:** '5 years' là khoảng thời gian → dùng 'for'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'since' và 'for'. Mẹo: 'For + số năm/tháng/ngày', 'Since + mốc thời gian'.\n💡 **Ví dụ:** I have studied English for 3 years. / I have studied English since 2022."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Have you ever ate Korean food?",
+    "output": "✅ **Corrected Sentence:** Have you ever eaten Korean food?\n🔍 **Error Identification:** 'Ate' là V2, cần V3 'eaten'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'ate' sau 'have ever'. Mẹo: 'Ever' + V3.\n💡 **Ví dụ:** Have you ever swum in the ocean? / Has she ever flown a plane?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has just went to bed.",
+    "output": "✅ **Corrected Sentence:** She has just gone to bed.\n🔍 **Error Identification:** 'Went' là V2, cần V3 'gone'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'went' và 'gone'. Mẹo: go – went – gone.\n💡 **Ví dụ:** He has just come home. / They have just left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I haven't received the letter yet. (câu đúng) - Học viên viết \'I didn't receive the letter yet.\'",
+    "output": "✅ **Corrected Sentence:** I haven't received the letter yet.\n🔍 **Error Identification:** 'Yet' trong câu phủ định dùng với hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng 'yet' với quá khứ đơn. Mẹo: 'Yet' luôn đi với hiện tại hoàn thành trong câu phủ định và câu hỏi.\n💡 **Ví dụ:** She hasn't called yet. / Have they arrived yet?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He has never ate sushi before.",
+    "output": "✅ **Corrected Sentence:** He has never eaten sushi before.\n🔍 **Error Identification:** 'Ate' là V2, cần V3 'eaten'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'ate' sau 'has never'. Mẹo: 'Never' + V3.\n💡 **Ví dụ:** She has never driven a car. / They have never seen the ocean."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long have you know her?",
+    "output": "✅ **Corrected Sentence:** How long have you known her?\n🔍 **Error Identification:** 'Know' cần V3 'known'.\n📘 **Vietnamese Explanation:** Người Việt quên chuyển 'know' thành 'known'. Mẹo: know – knew – known.\n💡 **Ví dụ:** How long have they been married? / How long has she lived here?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have forgot my password.",
+    "output": "✅ **Corrected Sentence:** I have forgotten my password.\n🔍 **Error Identification:** 'Forgot' là V2, cần V3 'forgotten'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'forgot' và 'forgotten'. Mẹo: forget – forgot – forgotten.\n💡 **Ví dụ:** She has spoken to him. / They have chosen the winner."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has been to Paris two years ago.",
+    "output": "✅ **Corrected Sentence:** She went to Paris two years ago.\n🔍 **Error Identification:** 'Two years ago' là thời gian cụ thể → quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại hoàn thành với 'ago'. Mẹo: 'Ago' luôn đi với quá khứ đơn.\n💡 **Ví dụ:** I met him three days ago. / She arrived an hour ago."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We have never try Vietnamese street food.",
+    "output": "✅ **Corrected Sentence:** We have never tried Vietnamese street food.\n🔍 **Error Identification:** 'Try' cần V3 'tried' (thêm -ed).\n📘 **Vietnamese Explanation:** Người Việt quên thêm -ed cho động từ có quy tắc. Mẹo: 'Never' + V3 (kể cả động từ có quy tắc cũng thêm -ed).\n💡 **Ví dụ:** I have never played golf. / She has never cooked pho."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Has the postman came yet?",
+    "output": "✅ **Corrected Sentence:** Has the postman come yet?\n🔍 **Error Identification:** 'Came' là V2, cần V3 'come' (bất quy tắc: come – came – come).\n📘 **Vietnamese Explanation:** Người Việt dùng 'came' sau 'has'. Mẹo: Với động từ bất quy tắc, V3 có thể giống V1 (come, become, run).\n💡 **Ví dụ:** He has run a marathon. / She has become a doctor."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have lived in this house since 2015. (câu đúng) - Học viên viết \'I lived in this house since 2015.\'",
+    "output": "✅ **Corrected Sentence:** I have lived in this house since 2015.\n🔍 **Error Identification:** 'Since 2015' + hiện tại hoàn thành, không dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn với 'since'. Mẹo: 'Since + mốc thời gian' yêu cầu hiện tại hoàn thành ở mệnh đề chính.\n💡 **Ví dụ:** She has worked here since 2018. / They have known each other since 2010."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They have already ate dinner.",
+    "output": "✅ **Corrected Sentence:** They have already eaten dinner.\n🔍 **Error Identification:** 'Ate' là V2, cần V3 'eaten'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'ate' và 'eaten'. Mẹo: eat – ate – eaten.\n💡 **Ví dụ:** We have already taken a shower. / She has already written the email."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have never been to a wedding. (câu đúng) - Học viên viết \'I never went to a wedding.\'",
+    "output": "✅ **Corrected Sentence:** I have never been to a wedding.\n🔍 **Error Identification:** 'Never' + trải nghiệm → hiện tại hoàn thành, không phải quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn với 'never'. Mẹo: 'Never' trong câu nói về toàn bộ cuộc đời → hiện tại hoàn thành.\n💡 **Ví dụ:** She has never ridden a horse. / They have never owned a car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long does she know him?",
+    "output": "✅ **Corrected Sentence:** How long has she known him?\n🔍 **Error Identification:** 'How long' + hiện tại hoàn thành, không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn với 'how long'. Mẹo: 'How long' hỏi về khoảng thời gian kéo dài đến hiện tại → hiện tại hoàn thành.\n💡 **Ví dụ:** How long have you had this phone? / How long has it rained?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have never meet such a kind person.",
+    "output": "✅ **Corrected Sentence:** I have never met such a kind person.\n🔍 **Error Identification:** 'Meet' cần V3 'met'.\n📘 **Vietnamese Explanation:** Người Việt quên chuyển 'meet' thành 'met'. Mẹo: meet – met – met.\n💡 **Ví dụ:** She has never felt so happy. / They have never heard such a story."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has took the book from the shelf.",
+    "output": "✅ **Corrected Sentence:** She has taken the book from the shelf.\n🔍 **Error Identification:** 'Took' là V2, cần V3 'taken'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'took' và 'taken'. Mẹo: take – took – taken.\n💡 **Ví dụ:** He has given me advice. / They have spoken the truth."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I haven't seen my best friend since 2 months.",
+    "output": "✅ **Corrected Sentence:** I haven't seen my best friend for 2 months.\n🔍 **Error Identification:** '2 months' là khoảng thời gian → dùng 'for'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'since' với '2 months'. Mẹo: 'Since' + mốc thời gian, 'for' + số lượng thời gian.\n💡 **Ví dụ:** We haven't talked for a week. / She hasn't slept for 24 hours."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Have you ever be to Thailand?",
+    "output": "✅ **Corrected Sentence:** Have you ever been to Thailand?\n🔍 **Error Identification:** 'Be' cần V3 'been'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'be' thay vì 'been'. Mẹo: be – was/were – been.\n💡 **Ví dụ:** Has she ever been late? / Have they ever been famous?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He has wrote a long email.",
+    "output": "✅ **Corrected Sentence:** He has written a long email.\n🔍 **Error Identification:** 'Wrote' là V2, cần V3 'written'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'wrote' và 'written'. Mẹo: write – wrote – written.\n💡 **Ví dụ:** She has driven a truck. / They have swum across the river."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have lived here for my entire life. (câu đúng) - Học viên viết \'I live here for my entire life.\'",
+    "output": "✅ **Corrected Sentence:** I have lived here for my entire life.\n🔍 **Error Identification:** 'For my entire life' chỉ khoảng thời gian kéo dài đến hiện tại → hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn với 'for my entire life'. Mẹo: Cụm 'for + all my life, my entire life' → hiện tại hoàn thành.\n💡 **Ví dụ:** She has been a teacher for her entire career. / They have lived in this village all their lives."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have never saw such a big building.",
+    "output": "✅ **Corrected Sentence:** I have never seen such a big building.\n🔍 **Error Identification:** 'Saw' là V2, cần V3 'seen'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'saw' và 'seen'. Mẹo: see – saw – seen.\n💡 **Ví dụ:** She has never worn a dress. / They have never built a house."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How many times have you tell that lie?",
+    "output": "✅ **Corrected Sentence:** How many times have you told that lie?\n🔍 **Error Identification:** 'Tell' cần V3 'told'.\n📘 **Vietnamese Explanation:** Người Việt quên chuyển 'tell' thành 'told'. Mẹo: tell – told – told.\n💡 **Ví dụ:** How many books have you read? / How many times has she called?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has been studying English since she was 10. (câu đúng) - Học viên viết \'She studied English since she was 10.\'",
+    "output": "✅ **Corrected Sentence:** She has been studying English since she was 10.\n🔍 **Error Identification:** 'Since she was 10' + hiện tại hoàn thành (hoặc hiện tại hoàn thành tiếp diễn), không dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn với 'since + mệnh đề'. Mẹo: 'Since + mệnh đề quá khứ' → hiện tại hoàn thành ở mệnh đề chính.\n💡 **Ví dụ:** I have known her since we were children. / He has worked here since he graduated."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They have already left. (câu đúng) - Học viên viết \'They already left.\'",
+    "output": "✅ **Corrected Sentence (Anh-Anh):** They have already left.\n🔍 **Error Identification:** 'Already' thường dùng với hiện tại hoàn thành trong Anh-Anh.\n📘 **Vietnamese Explanation:** Người Việt dùng 'already' với quá khứ đơn. Mẹo: Trong văn viết trang trọng và Anh-Anh, 'already' + hiện tại hoàn thành.\n💡 **Ví dụ:** I have already eaten. / She has already finished."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have never been to a foreign country. (câu đúng) - Học viên viết \'I never been to a foreign country.\'",
+    "output": "✅ **Corrected Sentence:** I have never been to a foreign country.\n🔍 **Error Identification:** Thiếu 'have' – 'I never been' là sai.\n📘 **Vietnamese Explanation:** Người Việt quên 'have' trong 'have never been'. Mẹo: 'Never' không thể đứng một mình, cần 'have/has' đi trước.\n💡 **Ví dụ:** She has never flown. / They have never traveled."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Has she ever ride a bicycle?",
+    "output": "✅ **Corrected Sentence:** Has she ever ridden a bicycle?\n🔍 **Error Identification:** 'Ride' cần V3 'ridden'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'ride' thay vì 'ridden'. Mẹo: ride – rode – ridden.\n💡 **Ví dụ:** Have you ever written a song? / Has he ever driven a bus?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have worked here since 3 years.",
+    "output": "✅ **Corrected Sentence:** I have worked here for 3 years.\n🔍 **Error Identification:** '3 years' là khoảng thời gian → dùng 'for'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'since' và 'for'. Mẹo: 'Since' + thời điểm, 'for' + khoảng thời gian.\n💡 **Ví dụ:** He has been sick for 2 days. / He has been sick since Monday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We have knew each other since childhood.",
+    "output": "✅ **Corrected Sentence:** We have known each other since childhood.\n🔍 **Error Identification:** 'Knew' là V2, cần V3 'known'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'knew' và 'known'. Mẹo: know – knew – known.\n💡 **Ví dụ:** I have grown a lot since last year. / She has flown many times."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I haven't ate anything today.",
+    "output": "✅ **Corrected Sentence:** I haven't eaten anything today.\n🔍 **Error Identification:** 'Ate' là V2, cần V3 'eaten'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'ate' sau 'haven't'. Mẹo: Sau 'haven't/hasn't' luôn dùng V3.\n💡 **Ví dụ:** She hasn't drunk water. / They haven't seen the movie."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the first time I eat this dish.",
+    "output": "✅ **Corrected Sentence:** This is the first time I have eaten this dish.\n🔍 **Error Identification:** 'The first time' + hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'the first time'. Mẹo: 'This is the first/second/third time' luôn đi với hiện tại hoàn thành.\n💡 **Ví dụ:** That is the third time she has called. / This is the first time I have seen him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Has your mother ever went abroad?",
+    "output": "✅ **Corrected Sentence:** Has your mother ever gone abroad?\n🔍 **Error Identification:** 'Went' là V2, cần V3 'gone'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'went' và 'gone'. Mẹo: go – went – gone.\n💡 **Ví dụ:** Has your father ever driven a taxi? / Has your sister ever sung in public?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They have been friends since a decade.",
+    "output": "✅ **Corrected Sentence:** They have been friends for a decade.\n🔍 **Error Identification:** 'A decade' là khoảng thời gian → dùng 'for'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'since' với 'a decade'. Mẹo: 'Since' + mốc thời gian (since 2014, since last decade). 'For' + số lượng (for a decade, for 10 years).\n💡 **Ví dụ:** I have waited for an hour. / I have waited since 3 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have never heard such a funny story. (câu đúng) - Học viên viết \'I never heard such a funny story.\'",
+    "output": "✅ **Corrected Sentence:** I have never heard such a funny story.\n🔍 **Error Identification:** 'Never' + trải nghiệm → hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn với 'never'. Mẹo: 'Never' trong câu nói về toàn bộ cuộc đời tính đến hiện tại → hiện tại hoàn thành.\n💡 **Ví dụ:** She has never seen such a beautiful sunset. / They have never tasted such good coffee."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has broke the vase.",
+    "output": "✅ **Corrected Sentence:** She has broken the vase.\n🔍 **Error Identification:** 'Broke' là V2, cần V3 'broken'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'broke' và 'broken'. Mẹo: break – broke – broken.\n💡 **Ví dụ:** He has chosen a new car. / They have frozen the food."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How long have you been waiting? (câu đúng) - Học viên viết \'How long do you wait?\'",
+    "output": "✅ **Corrected Sentence:** How long have you been waiting?\n🔍 **Error Identification:** Hỏi về hành động bắt đầu trong quá khứ và còn tiếp diễn → hiện tại hoàn thành tiếp diễn hoặc hiện tại hoàn thành đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho 'how long'. Mẹo: 'How long' + hành động chưa kết thúc → hiện tại hoàn thành.\n💡 **Ví dụ:** How long has it snowed? / How long have they known each other?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have never saw a ghost.",
+    "output": "✅ **Corrected Sentence:** I have never seen a ghost.\n🔍 **Error Identification:** 'Saw' là V2, cần V3 'seen'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'saw' và 'seen'. Mẹo: see – saw – seen.\n💡 **Ví dụ:** She has never worn a hat. / They have never grown flowers."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We have just finished our project. (câu đúng) - Học viên viết \'We just finished our project.\'",
+    "output": "✅ **Corrected Sentence (Anh-Anh):** We have just finished our project.\n🔍 **Error Identification:** 'Just' (vừa mới) thường dùng với hiện tại hoàn thành trong Anh-Anh.\n📘 **Vietnamese Explanation:** Người Việt dùng 'just' với quá khứ đơn. Mẹo: 'Just' diễn tả hành động vừa xảy ra → hiện tại hoàn thành trong văn phong trang trọng.\n💡 **Ví dụ:** The train has just left. / She has just called."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has never drove a car before.",
+    "output": "✅ **Corrected Sentence:** She has never driven a car before.\n🔍 **Error Identification:** 'Drove' là V2, cần V3 'driven'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'drove' và 'driven'. Mẹo: drive – drove – driven.\n💡 **Ví dụ:** He has never written a book. / They have never spoken French."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have been to Nha Trang last summer.",
+    "output": "✅ **Corrected Sentence:** I went to Nha Trang last summer.\n🔍 **Error Identification:** 'Last summer' là thời gian cụ thể → quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại hoàn thành với 'last summer'. Mẹo: 'Last summer, last year, yesterday' là dấu hiệu của quá khứ đơn.\n💡 **Ví dụ:** She visited her grandma last week. / They ate pho yesterday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have never forget your kindness.",
+    "output": "✅ **Corrected Sentence:** I have never forgotten your kindness.\n🔍 **Error Identification:** 'Forget' cần V3 'forgotten'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'forget' thay vì 'forgotten'. Mẹo: forget – forgot – forgotten.\n💡 **Ví dụ:** She has never stolen anything. / They have never hidden the truth."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Has the movie started yet? (câu đúng) - Học viên viết \'Did the movie start yet?\'",
+    "output": "✅ **Corrected Sentence:** Has the movie started yet?\n🔍 **Error Identification:** 'Yet' trong câu hỏi dùng với hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng 'yet' với quá khứ đơn. Mẹo: 'Yet' (đã... chưa?) luôn đi với hiện tại hoàn thành.\n💡 **Ví dụ:** Have you eaten yet? / Has she arrived yet?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has lived in Hanoi since 5 years.",
+    "output": "✅ **Corrected Sentence:** She has lived in Hanoi for 5 years.\n🔍 **Error Identification:** '5 years' là khoảng thời gian → dùng 'for'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'since' và 'for'. Mẹo: 'For + thời gian dài (5 years, 2 months, a week)', 'Since + mốc (2018, January, Monday)'.\n💡 **Ví dụ:** I have been here for 2 hours. / I have been here since 2 PM."
+  }
+]

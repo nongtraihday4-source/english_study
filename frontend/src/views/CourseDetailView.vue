@@ -148,15 +148,13 @@
                 <div v-for="lesson in chapter.lessons" :key="lesson.id">
 
                   <!-- Available / Completed → clickable RouterLink.
-                       is_unlocked=false means prerequisites not met.
-                       progress_status is only used for visual badges, NOT for gating navigation. -->
+                       Gated on progress_status (set by backend after enrollment).
+                       exercise_id may be null for seeded lessons without exercises yet. -->
                   <RouterLink
-                    v-if="lesson.is_unlocked !== false && lesson.exercise_id"
-                    :to="{
-                      name: `learn-${lesson.exercise_type || lesson.lesson_type}`,
-                      params: { id: lesson.exercise_id },
-                      query: { lesson_id: lesson.id }
-                    }"
+                    v-if="lesson.progress_status !== 'locked'"
+                    :to="lesson.exercise_id
+                      ? { name: `learn-${lesson.exercise_type || lesson.lesson_type}`, params: { id: lesson.exercise_id }, query: { lesson_id: lesson.id } }
+                      : { name: 'lesson-detail', params: { id: lesson.id } }"
                     class="lesson-row available flex items-center gap-3 px-4 py-3 md:py-4 transition hover:bg-white/5"
                     :class="lesson.progress_status === 'available' ? 'lesson-available' : ''"
                     style="border-top: 1px solid var(--color-surface-04); text-decoration: none; display: flex"
@@ -178,8 +176,8 @@
                   <div
                     v-else
                     class="flex items-center gap-3 px-4 py-3 md:py-4 cursor-not-allowed select-none"
-                    style="border-top: 1px solid var(--color-surface-04); opacity: 0.4"
-                    :title="lessonLockTitle(lesson)"
+                    style="border-top: 1px solid var(--color-surface-04); opacity: 0.35"
+                    title="Hoàn thành bài học trước để mở khoá"
                   >
                     <span class="flex-shrink-0 text-base">{{ lessonIcon(lesson.exercise_type || lesson.lesson_type) }}</span>
                     <span class="flex-1 min-w-0 truncate text-sm" style="color: var(--color-text-base)">
@@ -208,14 +206,16 @@
 </template>
 
 <script setup>
-import { ref, reactive, computed, watch, onMounted } from 'vue'
-import { useRoute } from 'vue-router'
+import { ref, reactive, computed, watch, onMounted, onBeforeUnmount } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import { curriculumApi } from '@/api/curriculum.js'
 import { progressApi } from '@/api/progress.js'
 import { useDashboardStore } from '@/stores/dashboard.js'
 import SkillTreeView from '@/components/SkillTreeView.vue'
+import { readCourseRefreshMarker, clearCourseRefreshMarker } from '@/utils/courseProgressRefresh.js'
 
 const route = useRoute()
+const router = useRouter()
 const dashboard = useDashboardStore()
 
 const course = ref(null)
@@ -249,7 +249,10 @@ function scoreColor(score) {
 
 // ── Helpers ─────────────────────────────────────────────────────────────────
 function lessonIcon(type) {
-  const icons = { listening: '🎧', speaking: '🎤', reading: '📄', writing: '✍️' }
+  const icons = {
+    vocabulary: '📝', grammar: '📐', reading: '📖', assessment: '🧩',
+    listening: '🎧', speaking: '🎤', writing: '✍️',
+  }
   return icons[type] || '📚'
 }
 
@@ -267,11 +270,95 @@ async function enroll() {
     course.value.is_enrolled = true
     dashboard.invalidate()
     showToast('✓ Đăng ký thành công!')
+    // Reload lessons for all already-open chapters so progress_status reflects
+    // the newly created LessonProgress records (available for first lessons).
+    await reloadOpenChapterLessons()
   } catch (e) {
     const msg = e?.response?.data?.detail || 'Đăng ký thất bại, vui lòng thử lại.'
     showToast('⚠ ' + msg)
   } finally {
     enrolling.value = false
+  }
+}
+
+async function reloadOpenChapterLessons() {
+  await Promise.all(
+    chapters.value.map(async ch => {
+      if (!ch._open && ch.lessons === null) return  // not yet loaded, skip
+      try {
+        const res = await curriculumApi.getLessons(route.params.id, ch.id)
+        const ld = res.data?.data ?? res.data
+        ch.lessons = ld?.results || (Array.isArray(ld) ? ld : [])
+      } catch { /* ignore */ }
+    })
+  )
+}
+
+async function fetchCourseDetail() {
+  const courseRes = await curriculumApi.getCourse(route.params.id)
+  course.value = courseRes.data?.data ?? courseRes.data
+}
+
+async function fetchChapters() {
+  chaptersLoading.value = true
+  const chRes = await curriculumApi.getChapters(route.params.id)
+  const chd = chRes.data?.data ?? chRes.data
+  chapters.value = (chd?.results || (Array.isArray(chd) ? chd : [])).map(
+    ch => reactive({ ...ch, _open: false, lessons: null })
+  )
+  chaptersLoading.value = false
+}
+
+async function loadChapterLessons(chapter) {
+  const res = await curriculumApi.getLessons(route.params.id, chapter.id)
+  const ld = res.data?.data ?? res.data
+  chapter.lessons = ld?.results || (Array.isArray(ld) ? ld : [])
+}
+
+async function applyCourseRefresh(marker = null) {
+  const refresh = marker || readCourseRefreshMarker()
+  if (!refresh || String(refresh.courseId) !== String(route.params.id)) return
+
+  const preservedOpen = new Set(chapters.value.filter(ch => ch._open).map(ch => ch.id))
+  if (refresh.chapterId) preservedOpen.add(Number(refresh.chapterId))
+  if (route.query.chapter) preservedOpen.add(Number(route.query.chapter))
+
+  await fetchCourseDetail()
+  await fetchChapters()
+
+  const chaptersToLoad = viewMode.value === 'tree'
+    ? chapters.value
+    : chapters.value.filter(ch => preservedOpen.has(ch.id))
+
+  await Promise.all(
+    chaptersToLoad.map(async ch => {
+      if (viewMode.value !== 'tree') ch._open = true
+      try {
+        await loadChapterLessons(ch)
+      } catch {
+        ch.lessons = []
+      }
+    })
+  )
+
+  clearCourseRefreshMarker()
+  if (route.query.refresh) {
+    router.replace({ name: 'course-detail', params: { id: route.params.id }, query: {} })
+  }
+
+  if (refresh.courseCompleted) {
+    showToast('🏅 Khóa học đã được cập nhật hoàn thành.')
+  } else if (refresh.chapterCompleted) {
+    showToast(`🏆 Chương "${refresh.chapterTitle || 'hiện tại'}" đã hoàn thành.`)
+  } else if (refresh.nextLessonId) {
+    showToast('✨ Tiến độ đã cập nhật. Bài tiếp theo đã mở khóa.')
+  }
+}
+
+async function handlePossibleRefresh() {
+  const marker = readCourseRefreshMarker()
+  if (route.query.refresh || (marker && String(marker.courseId) === String(route.params.id))) {
+    await applyCourseRefresh(marker)
   }
 }
 
@@ -284,9 +371,7 @@ async function switchToTree() {
       .filter(ch => ch.lessons === null)
       .map(async ch => {
         try {
-          const res = await curriculumApi.getLessons(route.params.id, ch.id)
-          const ld = res.data?.data ?? res.data
-          ch.lessons = ld?.results || (Array.isArray(ld) ? ld : [])
+          await loadChapterLessons(ch)
         } catch {
           ch.lessons = []
         }
@@ -300,9 +385,7 @@ watch(chapters, (chs) => {
     watch(() => ch._open, async (open) => {
       if (!open || ch.lessons !== null) return  // skip if closing or already cached
       try {
-        const res = await curriculumApi.getLessons(route.params.id, ch.id)
-        const ld = res.data?.data ?? res.data
-        ch.lessons = ld?.results || (Array.isArray(ld) ? ld : [])
+        await loadChapterLessons(ch)
       } catch {
         ch.lessons = []
       }
@@ -314,21 +397,24 @@ watch(chapters, (chs) => {
 onMounted(async () => {
   loading.value = true
   try {
-    const courseRes = await curriculumApi.getCourse(route.params.id)
-    course.value = courseRes.data?.data ?? courseRes.data
-
-    chaptersLoading.value = true
-    const chRes = await curriculumApi.getChapters(route.params.id)
-    const chd = chRes.data?.data ?? chRes.data
-    chapters.value = (chd?.results || (Array.isArray(chd) ? chd : [])).map(
-      ch => reactive({ ...ch, _open: false, lessons: null })
-    )
+    await fetchCourseDetail()
+    await fetchChapters()
+    await handlePossibleRefresh()
   } catch {
     course.value = null
   } finally {
     loading.value = false
-    chaptersLoading.value = false
   }
+})
+
+async function onWindowFocus() {
+  await handlePossibleRefresh()
+}
+
+window.addEventListener('focus', onWindowFocus)
+
+onBeforeUnmount(() => {
+  window.removeEventListener('focus', onWindowFocus)
 })
 </script>
 

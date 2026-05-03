@@ -2,6 +2,14 @@
   <div class="min-h-screen flex items-center justify-center px-4"
        style="background: radial-gradient(ellipse at 40% 0%, rgba(99,102,241,0.12) 0%, transparent 60%), var(--color-surface)">
     <div class="w-full max-w-md">
+      <!-- Back to home -->
+      <div class="text-center mb-4">
+        <RouterLink to="/" class="inline-flex items-center gap-1.5 text-xs font-medium transition hover:opacity-70"
+                    style="color: var(--color-text-muted)">
+          ← Về trang chủ
+        </RouterLink>
+      </div>
+
       <!-- Logo -->
       <div class="text-center mb-8">
         <div class="inline-flex w-16 h-16 rounded-2xl items-center justify-center text-white font-black text-2xl mb-4"

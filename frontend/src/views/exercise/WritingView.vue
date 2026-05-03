@@ -371,7 +371,13 @@ async function submit() {
     const submissionId = payload?.submission_id || payload?.id
     if (draftKey.value) localStorage.removeItem(draftKey.value)
     exitZen()
-    router.push(`/learn/result/${submissionId}?type=writing`)
+    router.push({
+      path: `/learn/result/${submissionId}`,
+      query: {
+        type: 'writing',
+        lesson_id: route.query.lesson_id ?? undefined,
+      },
+    })
   } catch (err) {
     showErrorToast(err?.response?.data?.detail || 'Đã có lỗi xảy ra, vui lòng thử lại.')
   }

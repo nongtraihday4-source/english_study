@@ -19,6 +19,7 @@ from django.db.models import Avg, Count, Q, Sum
 from django.http import HttpResponse
 from django.utils import timezone
 from rest_framework import generics, status
+from rest_framework.parsers import FormParser, MultiPartParser
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -27,12 +28,16 @@ from django.shortcuts import get_object_or_404
 
 from utils.permissions import IsAdmin
 from apps.curriculum.models import CEFRLevel, Chapter, Course, Lesson, LessonExercise
-from apps.grammar.models import GrammarTopic, GrammarRule, GrammarExample
+from apps.grammar.models import GrammarChapter, GrammarTopic, GrammarRule, GrammarExample
 from apps.payments.models import Coupon, PaymentTransaction, SubscriptionPlan, UserSubscription
-from apps.exercises.models import ExamSet, ListeningExercise, ReadingExercise, SpeakingExercise, WritingExercise
+from apps.exercises.models import (
+    ExamSet, ListeningExercise, ReadingExercise, SpeakingExercise, WritingExercise,
+    Question, QuestionOption,
+)
 from apps.progress.models import AIGradingJob, SpeakingSubmission, UserEnrollment, WritingSubmission
 from apps.gamification.models import Achievement, Certificate, XPLog
 from apps.notifications.models import Notification, NotificationTemplate
+from apps.curriculum.models import SourceFile
 
 from .models import AuditLog, StaffPermission, SystemSetting
 from .serializers import (
@@ -44,6 +49,8 @@ from .serializers import (
     AdminTransactionSerializer,
     AdminSubscriptionSerializer,
     AdminExamSetSerializer,
+    AdminQuestionSerializer,
+    AdminSourceFileSerializer,
     AdminListeningExerciseSerializer,
     AdminSpeakingExerciseSerializer,
     AdminReadingExerciseSerializer,
@@ -53,6 +60,7 @@ from .serializers import (
     AdminReadingExerciseFullSerializer,
     AdminWritingExerciseFullSerializer,
     AdminLessonExerciseSerializer,
+    AdminGrammarChapterSerializer,
     AdminGrammarTopicSerializer,
     AdminGrammarRuleSerializer,
     AdminGrammarExampleSerializer,
@@ -455,6 +463,27 @@ class AdminExerciseTypeDetailView(AuditLogMixin, APIView):
 
 # ── Grammar admin CRUD ──────────────────────────────────────────────────────────
 
+class AdminGrammarChapterListView(AuditLogMixin, generics.ListCreateAPIView):
+    serializer_class = AdminGrammarChapterSerializer
+    permission_classes = [IsAdmin]
+    audit_label_field = "name"
+    pagination_class = None  # always return full list
+
+    def get_queryset(self):
+        qs = GrammarChapter.objects.order_by("level", "order")
+        level = self.request.query_params.get("level")
+        if level:
+            qs = qs.filter(level=level)
+        return qs
+
+
+class AdminGrammarChapterDetailView(AuditLogMixin, generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = AdminGrammarChapterSerializer
+    permission_classes = [IsAdmin]
+    audit_label_field = "name"
+    queryset = GrammarChapter.objects.all()
+
+
 class AdminGrammarTopicListView(AuditLogMixin, generics.ListCreateAPIView):
     serializer_class = AdminGrammarTopicSerializer
     permission_classes = [IsAdmin]
@@ -462,13 +491,13 @@ class AdminGrammarTopicListView(AuditLogMixin, generics.ListCreateAPIView):
     pagination_class = StandardPagination
 
     def get_queryset(self):
-        qs = GrammarTopic.objects.prefetch_related("rules").order_by("level", "order")
+        qs = GrammarTopic.objects.select_related("chapter").prefetch_related("rules").order_by("level", "chapter__order", "order")
         level = self.request.query_params.get("level")
         if level:
             qs = qs.filter(level=level)
         chapter = self.request.query_params.get("chapter")
         if chapter:
-            qs = qs.filter(chapter__icontains=chapter)
+            qs = qs.filter(chapter__name__icontains=chapter)
         search = self.request.query_params.get("search")
         if search:
             qs = qs.filter(title__icontains=search)
@@ -672,6 +701,190 @@ class AdminExamSetDetailView(AuditLogMixin, generics.RetrieveUpdateDestroyAPIVie
     permission_classes = [IsAdmin]
     audit_label_field = "title"
     queryset = ExamSet.objects.select_related("created_by").all()
+
+
+# ── Question Bank CRUD ────────────────────────────────────────────────────────
+
+class AdminQuestionListView(AuditLogMixin, generics.ListCreateAPIView):
+    """GET/POST /admin-portal/questions/"""
+    serializer_class = AdminQuestionSerializer
+    permission_classes = [IsAdmin]
+    pagination_class = StandardPagination
+    audit_label_field = "question_text"
+
+    def get_queryset(self):
+        qs = Question.objects.prefetch_related("options").order_by("exercise_type", "exercise_id", "order")
+        ex_type = self.request.query_params.get("exercise_type")
+        if ex_type:
+            qs = qs.filter(exercise_type=ex_type)
+        ex_id = self.request.query_params.get("exercise_id")
+        if ex_id:
+            qs = qs.filter(exercise_id=ex_id)
+        q_type = self.request.query_params.get("question_type")
+        if q_type:
+            qs = qs.filter(question_type=q_type)
+        search = self.request.query_params.get("search")
+        if search:
+            qs = qs.filter(question_text__icontains=search)
+        return qs
+
+
+class AdminQuestionDetailView(AuditLogMixin, generics.RetrieveUpdateDestroyAPIView):
+    """GET/PATCH/DELETE /admin-portal/questions/<pk>/"""
+    serializer_class = AdminQuestionSerializer
+    permission_classes = [IsAdmin]
+    audit_label_field = "question_text"
+    queryset = Question.objects.prefetch_related("options").all()
+
+
+# ── Source File Upload ────────────────────────────────────────────────────────
+
+_ALLOWED_CONTENT_TYPES = {
+    "audio/mpeg", "audio/wav", "audio/webm", "audio/ogg", "audio/mp4",
+    "image/jpeg", "image/png", "image/gif", "image/webp",
+    "application/pdf", "video/mp4", "video/webm",
+}
+_MAX_FILE_SIZE = 50 * 1024 * 1024  # 50 MB
+
+
+def _detect_file_type(content_type: str) -> str:
+    if content_type.startswith("audio"):  return "audio"
+    if content_type.startswith("image"):  return "image"
+    if content_type.startswith("video"):  return "video"
+    if "pdf" in content_type:             return "pdf"
+    return "other"
+
+
+def _upload_source_file(file_obj, lesson_pk: int) -> tuple[str, str]:
+    """Upload to S3 if configured, else save to MEDIA_ROOT. Returns (s3_key, local_url)."""
+    import os
+    from django.conf import settings as dj_settings
+
+    filename = file_obj.name
+    s3_key = f"source_files/{lesson_pk}/{filename}"
+
+    # Try S3
+    if getattr(dj_settings, "AWS_ACCESS_KEY_ID", None) and getattr(dj_settings, "AWS_SECRET_ACCESS_KEY", None):
+        try:
+            import boto3
+            s3 = boto3.client(
+                "s3",
+                aws_access_key_id=dj_settings.AWS_ACCESS_KEY_ID,
+                aws_secret_access_key=dj_settings.AWS_SECRET_ACCESS_KEY,
+                region_name=getattr(dj_settings, "AWS_S3_REGION_NAME", "ap-southeast-1"),
+            )
+            s3.upload_fileobj(file_obj, dj_settings.AWS_STORAGE_BUCKET_NAME, s3_key)
+            return s3_key, ""
+        except Exception as exc:
+            logger.warning("S3 upload failed, falling back to local: %s", exc)
+
+    # Local fallback
+    import os
+    media_dir = os.path.join(dj_settings.MEDIA_ROOT, "source_files", str(lesson_pk))
+    os.makedirs(media_dir, exist_ok=True)
+    local_path = os.path.join(media_dir, filename)
+    with open(local_path, "wb") as f:
+        for chunk in file_obj.chunks():
+            f.write(chunk)
+    local_key = f"source_files/{lesson_pk}/{filename}"
+    return local_key, dj_settings.MEDIA_URL + local_key
+
+
+def _get_file_url(s3_key: str) -> str:
+    """Return presigned URL (S3) or media URL (local)."""
+    from django.conf import settings as dj_settings
+    if getattr(dj_settings, "AWS_ACCESS_KEY_ID", None) and getattr(dj_settings, "AWS_SECRET_ACCESS_KEY", None):
+        try:
+            import boto3
+            s3 = boto3.client(
+                "s3",
+                aws_access_key_id=dj_settings.AWS_ACCESS_KEY_ID,
+                aws_secret_access_key=dj_settings.AWS_SECRET_ACCESS_KEY,
+                region_name=getattr(dj_settings, "AWS_S3_REGION_NAME", "ap-southeast-1"),
+            )
+            return s3.generate_presigned_url(
+                "get_object",
+                Params={"Bucket": dj_settings.AWS_STORAGE_BUCKET_NAME, "Key": s3_key},
+                ExpiresIn=getattr(dj_settings, "AWS_PRESIGNED_URL_EXPIRY", 3600),
+            )
+        except Exception:
+            pass
+    return dj_settings.MEDIA_URL + s3_key
+
+
+class AdminSourceFileListView(APIView):
+    """GET/POST /admin-portal/lessons/<pk>/files/"""
+    permission_classes = [IsAdmin]
+    parser_classes = [MultiPartParser, FormParser]
+
+    def get(self, request, pk):
+        lesson = get_object_or_404(Lesson, pk=pk)
+        files = SourceFile.objects.filter(lesson=lesson).order_by("-created_at")
+        data = AdminSourceFileSerializer(files, many=True).data
+        for item, f in zip(data, files):
+            item["file_url"] = _get_file_url(f.s3_key) if f.s3_key else None
+        return Response(data)
+
+    def post(self, request, pk):
+        lesson = get_object_or_404(Lesson, pk=pk)
+        file_obj = request.FILES.get("file")
+        if not file_obj:
+            return Response({"detail": "Không có file được gửi lên."}, status=status.HTTP_400_BAD_REQUEST)
+        content_type = file_obj.content_type or ""
+        if content_type not in _ALLOWED_CONTENT_TYPES:
+            return Response({"detail": f"Loại file không được phép: {content_type}"}, status=status.HTTP_400_BAD_REQUEST)
+        if file_obj.size > _MAX_FILE_SIZE:
+            return Response({"detail": "File quá lớn (tối đa 50MB)."}, status=status.HTTP_413_REQUEST_ENTITY_TOO_LARGE)
+
+        s3_key, _ = _upload_source_file(file_obj, lesson.pk)
+        sf = SourceFile.objects.create(
+            lesson=lesson,
+            file_type=_detect_file_type(content_type),
+            s3_key=s3_key,
+            original_name=file_obj.name,
+            file_size_bytes=file_obj.size,
+            uploaded_by=request.user,
+        )
+        _log_action(request, "create", "SourceFile", sf.pk, f"Upload file {file_obj.name} for lesson {lesson.pk}")
+        out = AdminSourceFileSerializer(sf).data
+        out["file_url"] = _get_file_url(sf.s3_key)
+        return Response(out, status=status.HTTP_201_CREATED)
+
+
+class AdminSourceFileDetailView(APIView):
+    """GET/DELETE /admin-portal/lessons/<pk>/files/<fpk>/"""
+    permission_classes = [IsAdmin]
+
+    def get(self, request, pk, fpk):
+        sf = get_object_or_404(SourceFile, pk=fpk, lesson_id=pk)
+        out = AdminSourceFileSerializer(sf).data
+        out["file_url"] = _get_file_url(sf.s3_key) if sf.s3_key else None
+        return Response(out)
+
+    def delete(self, request, pk, fpk):
+        sf = get_object_or_404(SourceFile, pk=fpk, lesson_id=pk)
+        # Remove from S3 or local
+        if sf.s3_key:
+            from django.conf import settings as dj_settings
+            if getattr(dj_settings, "AWS_ACCESS_KEY_ID", None):
+                try:
+                    import boto3
+                    s3 = boto3.client("s3",
+                        aws_access_key_id=dj_settings.AWS_ACCESS_KEY_ID,
+                        aws_secret_access_key=dj_settings.AWS_SECRET_ACCESS_KEY,
+                        region_name=getattr(dj_settings, "AWS_S3_REGION_NAME", "ap-southeast-1"),
+                    )
+                    s3.delete_object(Bucket=dj_settings.AWS_STORAGE_BUCKET_NAME, Key=sf.s3_key)
+                except Exception as exc:
+                    logger.warning("S3 delete failed: %s", exc)
+            else:
+                import os
+                local_path = os.path.join(dj_settings.MEDIA_ROOT, sf.s3_key)
+                if os.path.exists(local_path):
+                    os.remove(local_path)
+        _log_action(request, "delete", "SourceFile", sf.pk, f"Delete {sf.original_name}")
+        sf.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 
 class AdminExerciseListView(APIView):

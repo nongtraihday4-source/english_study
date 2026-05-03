@@ -1,0 +1,517 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many homeworks to do.",
+    "output": "✅ **Corrected Sentence:** I have a lot of homework to do. (hoặc much homework)\n🔍 **Error Identification:** 'Homework' là danh từ không đếm được (uncountable), không có dạng số nhiều 'homeworks'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'nhiều bài tập về nhà' và thêm 's' vì nghĩ 'homework' đếm được. Mẹo: Các từ chỉ công việc, thông tin, kiến thức (homework, work, information, knowledge) là không đếm được.\n💡 **Ví dụ:** She has a lot of work. / I need some information."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can you give me an advice?",
+    "output": "✅ **Corrected Sentence:** Can you give me some advice? (hoặc a piece of advice)\n🔍 **Error Identification:** 'Advice' là danh từ không đếm được, không dùng 'an' (a/an chỉ dùng với danh từ đếm được số ít).\n📘 **Vietnamese Explanation:** Người Việt dịch 'một lời khuyên' nên dùng 'an advice'. Mẹo: 'Advice' không đếm được → dùng 'some advice' hoặc 'a piece of advice'.\n💡 **Ví dụ:** I need some advice. / Let me give you a piece of advice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I bought a new furniture for my room.",
+    "output": "✅ **Corrected Sentence:** I bought new furniture for my room. (hoặc a piece of furniture)\n🔍 **Error Identification:** 'Furniture' là danh từ không đếm được, không dùng 'a'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một món đồ nội thất' nên dùng 'a furniture'. Mẹo: 'Furniture' không đếm được → dùng 'some furniture' hoặc 'an item of furniture'.\n💡 **Ví dụ:** We need to buy some furniture. / That is a beautiful piece of furniture."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She gave me a very useful information.",
+    "output": "✅ **Corrected Sentence:** She gave me very useful information. (hoặc a piece of useful information)\n🔍 **Error Identification:** 'Information' là danh từ không đếm được, không dùng 'a'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một thông tin' nên dùng 'a information'. Mẹo: 'Information' không đếm được, dùng 'some information' hoặc 'a piece of information'.\n💡 **Ví dụ:** That is useful information. / I have a piece of information for you."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many equipments in the gym.",
+    "output": "✅ **Corrected Sentence:** There is a lot of equipment in the gym. (hoặc much equipment)\n🔍 **Error Identification:** 'Equipment' là danh từ không đếm được, không có dạng 'equipments'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'equipment' vì nghĩ nhiều thiết bị. Mẹo: 'Equipment' luôn ở dạng số ít, không có số nhiều.\n💡 **Ví dụ:** We need to buy new equipment. / The laboratory has modern equipment."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a lot of luggages.",
+    "output": "✅ **Corrected Sentence:** I have a lot of luggage. (hoặc much luggage)\n🔍 **Error Identification:** 'Luggage' (hành lý) là danh từ không đếm được, không có 'luggages'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'luggage' vì nghĩ nhiều vali. Mẹo: 'Luggage, baggage' luôn ở dạng số ít.\n💡 **Ví dụ:** How much luggage do you have? / He carried all the luggage."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to buy some breads for breakfast.",
+    "output": "✅ **Corrected Sentence:** I need to buy some bread for breakfast. (hoặc some loaves of bread)\n🔍 **Error Identification:** 'Bread' là danh từ không đếm được, không có dạng 'breads'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'bread' vì nghĩ nhiều ổ bánh mì. Mẹo: 'Bread' không đếm được → dùng 'some bread' hoặc 'a loaf of bread'.\n💡 **Ví dụ:** Can you buy some bread? / I ate two slices of bread."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The news are very good today.",
+    "output": "✅ **Corrected Sentence:** The news is very good today.\n🔍 **Error Identification:** 'News' là danh từ không đếm được, luôn dùng động từ số ít (is), không dùng 'are'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'news' có 's' tưởng là số nhiều. Mẹo: 'News' (tin tức) là số ít, dùng 'is'.\n💡 **Ví dụ:** The news is shocking. / No news is good news."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have three childrens.",
+    "output": "✅ **Corrected Sentence:** I have three children.\n🔍 **Error Identification:** 'Children' đã là dạng số nhiều bất quy tắc của 'child', không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'child' thêm 's' thành 'childrens' vì nghĩ số nhiều thêm 's'. Mẹo: Học thuộc: child – children, man – men, woman – women.\n💡 **Ví dụ:** She has two children. / The children are playing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many sheeps on the farm.",
+    "output": "✅ **Corrected Sentence:** There are many sheep on the farm.\n🔍 **Error Identification:** 'Sheep' có dạng số nhiều giống số ít, không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'sheep' vì nghĩ số nhiều thường có 's'. Mẹo: Học thuộc: sheep – sheep, fish – fish, deer – deer.\n💡 **Ví dụ:** Look at those sheep. / I saw a sheep in the field."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I ate two toasts for breakfast.",
+    "output": "✅ **Corrected Sentence:** I ate two slices of toast for breakfast. (hoặc some toast)\n🔍 **Error Identification:** 'Toast' (bánh mì nướng) là danh từ không đếm được, không có 'toasts'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'toast' vì nghĩ nhiều miếng. Mẹo: 'Toast' không đếm được → dùng 'some toast' hoặc 'a slice of toast'.\n💡 **Ví dụ:** I had toast and eggs. / Can I have a piece of toast?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to buy some fruits.",
+    "output": "✅ **Corrected Sentence:** I need to buy some fruit. (hoặc some fruits – có thể chấp nhận khi nói về các loại quả khác nhau)\n🔍 **Error Identification:** 'Fruit' thường được dùng như danh từ không đếm được khi nói chung về trái cây.\n📘 **Vietnamese Explanation:** Người Việt thường thêm 's' vào 'fruit'. Mẹo: 'Fruit' không đếm được khi nói chung; 'fruits' dùng để chỉ các loại quả khác nhau.\n💡 **Ví dụ:** Eat plenty of fruit. / The supermarket sells many tropical fruits."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has long hairs.",
+    "output": "✅ **Corrected Sentence:** She has long hair. (hoặc She has long hairs – chỉ khi nói về từng sợi tóc)\n🔍 **Error Identification:** 'Hair' thường là không đếm được khi nói về mái tóc nói chung.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'hair' vì nghĩ nhiều sợi tóc. Mẹo: 'Hair' (mái tóc) không đếm được; 'hairs' (từng sợi tóc rời) hiếm dùng.\n💡 **Ví dụ:** She has beautiful hair. / I found a few grey hairs."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many different peoples in the world.",
+    "output": "✅ **Corrected Sentence:** There are many different people in the world. (hoặc peoples – chỉ các dân tộc khác nhau)\n🔍 **Error Identification:** 'People' đã là số nhiều (người), 'peoples' dùng để chỉ các dân tộc.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'people' không cần thiết. Mẹo: 'People' = nhiều người; 'peoples' = nhiều dân tộc.\n💡 **Ví dụ:** Many people speak English. / The peoples of Asia are diverse."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I saw a mouse in the kitchen. There are many mouses in this house.",
+    "output": "✅ **Corrected Sentence:** I saw a mouse in the kitchen. There are many mice in this house.\n🔍 **Error Identification:** 'Mice' là dạng số nhiều bất quy tắc của 'mouse', không phải 'mouses'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'mouse' thành 'mouses'. Mẹo: Học thuộc: mouse – mice, louse – lice.\n💡 **Ví dụ:** I'm afraid of mice. / The cat caught a mouse."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My tooths hurt.",
+    "output": "✅ **Corrected Sentence:** My teeth hurt.\n🔍 **Error Identification:** 'Teeth' là dạng số nhiều bất quy tắc của 'tooth', không phải 'tooths'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'tooth' thành 'tooths'. Mẹo: Học thuộc: tooth – teeth, foot – feet, goose – geese.\n💡 **Ví dụ:** I need to brush my teeth. / He has a cavity in his tooth."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How many moneys do you have?",
+    "output": "✅ **Corrected Sentence:** How much money do you have?\n🔍 **Error Identification:** 'Money' là danh từ không đếm được, không có dạng 'moneys' (trừ ngữ cảnh chuyên ngành).\n📘 **Vietnamese Explanation:** Người Việt hỏi 'bao nhiêu tiền' nhưng dùng 'many' và thêm 's'. Mẹo: 'Money' không đếm được → dùng 'much' hoặc 'a lot of'.\n💡 **Ví dụ:** I don't have much money. / She saved a lot of money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need some informations about the course.",
+    "output": "✅ **Corrected Sentence:** I need some information about the course.\n🔍 **Error Identification:** 'Information' là danh từ không đếm được, không có 'informations'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'information' vì nghĩ nhiều thông tin. Mẹo: 'Information' luôn ở dạng số ít.\n💡 **Ví dụ:** Can you give me more information? / The information is correct."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is a lot of traffics in Hanoi.",
+    "output": "✅ **Corrected Sentence:** There is a lot of traffic in Hanoi.\n🔍 **Error Identification:** 'Traffic' là danh từ không đếm được, không có 'traffics'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'traffic' vì nghĩ nhiều phương tiện. Mẹo: 'Traffic' không đếm được → dùng 'much traffic' hoặc 'a lot of traffic'.\n💡 **Ví dụ:** The traffic is terrible. / We got stuck in heavy traffic."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I bought a new jeans.",
+    "output": "✅ **Corrected Sentence:** I bought new jeans. (hoặc a pair of jeans)\n🔍 **Error Identification:** 'Jeans' luôn ở dạng số nhiều, không dùng 'a jeans'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một cái quần jean' thành 'a jeans'. Mẹo: Quần (trousers, jeans, shorts) luôn ở số nhiều → dùng 'a pair of'.\n💡 **Ví dụ:** She is wearing jeans. / I need a new pair of jeans."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a new trousers.",
+    "output": "✅ **Corrected Sentence:** I need new trousers. (hoặc a pair of trousers)\n🔍 **Error Identification:** 'Trousers' luôn ở dạng số nhiều, không dùng 'a trousers'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một cái quần' thành 'a trousers'. Mẹo: 'Trousers, pants, shorts' → dùng 'a pair of'.\n💡 **Ví dụ:** He bought a pair of trousers. / These trousers are too long."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has a long hair. (ý nói mái tóc dài)",
+    "output": "✅ **Corrected Sentence:** She has long hair.\n🔍 **Error Identification:** 'Hair' khi nói về mái tóc nói chung là không đếm được, không dùng 'a'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một mái tóc dài' thành 'a long hair'. Mẹo: 'Hair' (mái tóc) không đếm được → không dùng 'a'.\n💡 **Ví dụ:** He has black hair. / Her hair is beautiful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many fishes in the aquarium.",
+    "output": "✅ **Corrected Sentence:** There are many fish in the aquarium. (hoặc fishes – chỉ các loài cá khác nhau)\n🔍 **Error Identification:** 'Fish' số nhiều vẫn là 'fish' (trừ khi nói về các loài cá khác nhau).\n📘 **Vietnamese Explanation:** Người Việt thêm 'es' vào 'fish' thành 'fishes' thường xuyên. Mẹo: 'Fish' số nhiều = fish; 'fishes' = nhiều loài cá.\n💡 **Ví dụ:** I caught three fish. / The book is about tropical fishes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many works to do.",
+    "output": "✅ **Corrected Sentence:** I have a lot of work to do. (hoặc many tasks)\n🔍 **Error Identification:** 'Work' (công việc) là không đếm được, không có 'works' (trừ khi nghĩa là tác phẩm).\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'work' vì nghĩ nhiều việc. Mẹo: 'Work' không đếm được; 'works' = tác phẩm nghệ thuật.\n💡 **Ví dụ:** I have so much work. / The museum displays works of art."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She gave me a very good news.",
+    "output": "✅ **Corrected Sentence:** She gave me very good news. (hoặc a piece of good news)\n🔍 **Error Identification:** 'News' là không đếm được, không dùng 'a'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một tin tốt' thành 'a good news'. Mẹo: 'News' không đếm được → dùng 'some news' hoặc 'a piece of news'.\n💡 **Ví dụ:** That's great news! / I have a piece of news for you."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to buy some new furnitures.",
+    "output": "✅ **Corrected Sentence:** I need to buy some new furniture.\n🔍 **Error Identification:** 'Furniture' là không đếm được, không có 'furnitures'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'furniture' vì nghĩ nhiều món. Mẹo: 'Furniture' không đếm được, dùng 'some furniture'.\n💡 **Ví dụ:** We need to buy furniture for the new house. / This furniture is expensive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many deers in the forest.",
+    "output": "✅ **Corrected Sentence:** There are many deer in the forest.\n🔍 **Error Identification:** 'Deer' số nhiều giống số ít, không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'deer' thành 'deers'. Mẹo: Học thuộc: deer – deer, sheep – sheep, fish – fish.\n💡 **Ví dụ:** I saw a deer in the woods. / Deer are herbivores."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a lot of homeworks.",
+    "output": "✅ **Corrected Sentence:** I have a lot of homework.\n🔍 **Error Identification:** 'Homework' không đếm được, không có 'homeworks'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'homework' phổ biến. Mẹo: 'Homework' luôn ở dạng số ít.\n💡 **Ví dụ:** The teacher gave us a lot of homework. / My homework is difficult."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has two childs.",
+    "output": "✅ **Corrected Sentence:** She has two children.\n🔍 **Error Identification:** 'Child' số nhiều là 'children', không phải 'childs'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'child' vì nghĩ quy tắc thông thường. Mẹo: Học thuộc bảng bất quy tắc: child – children.\n💡 **Ví dụ:** They have three children. / The children are at school."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I ate a lot of rice for lunch. (câu đúng) - Học viên viết \'I ate a lot of rices.\'",
+    "output": "✅ **Corrected Sentence:** I ate a lot of rice for lunch.\n🔍 **Error Identification:** 'Rice' là danh từ không đếm được, không có 'rices'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'rice' vì nghĩ nhiều hạt cơm. Mẹo: 'Rice' không đếm được, dùng 'some rice' hoặc 'a bowl of rice'.\n💡 **Ví dụ:** Would you like some rice? / Rice is a staple food in Asia."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can I have a glass of water? (câu đúng) - Học viên viết \'Can I have a water?\'",
+    "output": "✅ **Corrected Sentence:** Can I have a glass of water? (hoặc some water)\n🔍 **Error Identification:** 'Water' là không đếm được, không dùng 'a water' trực tiếp.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một nước' thành 'a water'. Mẹo: Nước không đếm được → dùng 'some water' hoặc 'a bottle/glass of water'.\n💡 **Ví dụ:** I need some water. / She drank two bottles of water."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have an important work to do.",
+    "output": "✅ **Corrected Sentence:** I have important work to do. (hoặc an important task)\n🔍 **Error Identification:** 'Work' không đếm được, không dùng 'an'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một công việc quan trọng' thành 'an important work'. Mẹo: 'Work' (công việc) không đếm được; 'a job' mới đếm được.\n💡 **Ví dụ:** She has a lot of work. / He found a new job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The scissor is on the table.",
+    "output": "✅ **Corrected Sentence:** The scissors are on the table. (hoặc a pair of scissors)\n🔍 **Error Identification:** 'Scissors' luôn ở dạng số nhiều, dùng 'are', không dùng 'is' và 'a scissor'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cái kéo' thành 'a scissor'. Mẹo: 'Scissors, glasses, trousers, jeans' → số nhiều, dùng 'a pair of'.\n💡 **Ví dụ:** Where are the scissors? / I need a pair of scissors."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My glasses is broken.",
+    "output": "✅ **Corrected Sentence:** My glasses are broken.\n🔍 **Error Identification:** 'Glasses' (kính mắt) luôn ở dạng số nhiều, dùng 'are'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cái kính' thành 'a glass' và dùng 'is'. Mẹo: 'Glasses' = kính mắt (số nhiều), dùng 'are' hoặc 'a pair of glasses'.\n💡 **Ví dụ:** His glasses are expensive. / I bought a new pair of glasses."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many oxes on the farm.",
+    "output": "✅ **Corrected Sentence:** There are many oxen on the farm.\n🔍 **Error Identification:** 'Ox' số nhiều bất quy tắc là 'oxen', không phải 'oxes'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'es' vào 'ox' thành 'oxes'. Mẹo: Học thuộc: ox – oxen, child – children.\n💡 **Ví dụ:** Oxen are used for farming. / The ox is strong."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to buy some breads and cheeses.",
+    "output": "✅ **Corrected Sentence:** I need to buy some bread and cheese. (hoặc some cheeses – chỉ các loại phô mai khác nhau)\n🔍 **Error Identification:** 'Bread' và 'cheese' thường không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'bread' và 'cheese'. Mẹo: 'Bread, cheese, butter, milk' không đếm được, trừ khi nói về các loại.\n💡 **Ví dụ:** I'd like some bread and butter. / French cheeses are famous."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has a lot of knowledges.",
+    "output": "✅ **Corrected Sentence:** She has a lot of knowledge.\n🔍 **Error Identification:** 'Knowledge' là không đếm được, không có 'knowledges'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'knowledge' vì nghĩ nhiều kiến thức. Mẹo: 'Knowledge' luôn ở dạng số ít.\n💡 **Ví dụ:** His knowledge of history is impressive. / She has extensive knowledge."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a piece of paper. (câu đúng) - Học viên viết \'I need a paper.\' (khi muốn nói một tờ giấy)",
+    "output": "✅ **Corrected Sentence:** I need a piece of paper. (hoặc I need some paper)\n🔍 **Error Identification:** 'Paper' (giấy) là không đếm được, không dùng 'a paper' trực tiếp (trừ khi nghĩa là bài báo/bài luận).\n📘 **Vietnamese Explanation:** Người Việt dịch 'một tờ giấy' thành 'a paper'. Mẹo: 'Paper' không đếm được → 'a piece of paper'.\n💡 **Ví dụ:** Can you give me some paper? / I wrote it on a piece of paper."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many staffs in the company.",
+    "output": "✅ **Corrected Sentence:** There are many staff in the company. (hoặc staff members)\n🔍 **Error Identification:** 'Staff' (nhân viên) có thể dùng số ít hoặc số nhiều, nhưng không dùng 'staffs'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'staff' thành 'staffs'. Mẹo: 'Staff' là danh từ tập thể, số nhiều vẫn là 'staff'.\n💡 **Ví dụ:** The staff is working hard. / All the staff are friendly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many works to do at the office.",
+    "output": "✅ **Corrected Sentence:** I have a lot of work to do at the office.\n🔍 **Error Identification:** 'Work' (công việc) không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'work' phổ biến. Mẹo: 'Work' không đếm được; 'a job' mới đếm được.\n💡 **Ví dụ:** I have so much work. / She found a new job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The furnitures in this room are expensive.",
+    "output": "✅ **Corrected Sentence:** The furniture in this room is expensive.\n🔍 **Error Identification:** 'Furniture' không đếm được, dùng 'is', không có 'furnitures'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' và dùng 'are' cho 'furniture'. Mẹo: 'Furniture' + động từ số ít.\n💡 **Ví dụ:** The furniture is modern. / This furniture is made of wood."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to buy a new pant.",
+    "output": "✅ **Corrected Sentence:** I need to buy new pants. (hoặc a pair of pants)\n🔍 **Error Identification:** 'Pants' luôn ở dạng số nhiều, không dùng 'a pant'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một cái quần' thành 'a pant'. Mẹo: 'Pants, trousers, shorts, jeans' → 'a pair of'.\n💡 **Ví dụ:** These pants are too tight. / I bought a pair of pants."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many womans in the meeting.",
+    "output": "✅ **Corrected Sentence:** There are many women in the meeting.\n🔍 **Error Identification:** 'Woman' số nhiều là 'women', không phải 'womans'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'woman' thành 'womans'. Mẹo: man – men, woman – women.\n💡 **Ví dụ:** The women are talking. / She is a strong woman."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a lot of luggages.",
+    "output": "✅ **Corrected Sentence:** I have a lot of luggage.\n🔍 **Error Identification:** 'Luggage' không đếm được, không có 'luggages'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'luggage'. Mẹo: 'Luggage, baggage' không đếm được.\n💡 **Ví dụ:** How much luggage do you have? / He carried all the luggage."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can you give me an advice? (lặp lại để nhấn mạnh)",
+    "output": "✅ **Corrected Sentence:** Can you give me some advice? / Can you give me a piece of advice?\n🔍 **Error Identification:** 'Advice' không đếm được, không dùng 'an'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'an advice' rất phổ biến. Mẹo: 'Advice' không đếm được, dùng 'some advice' hoặc 'a piece of advice'.\n💡 **Ví dụ:** Let me give you a piece of advice. / I need some career advice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many fishes in my aquarium.",
+    "output": "✅ **Corrected Sentence:** I have many fish in my aquarium. (hoặc fishes – nếu nhiều loài)\n🔍 **Error Identification:** 'Fish' số nhiều vẫn là 'fish' trong hầu hết trường hợp.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'fishes'. Mẹo: 'Fish' (cá) số nhiều = fish; 'fishes' chỉ dùng cho nhiều loài.\n💡 **Ví dụ:** I caught three fish. / The aquarium has many tropical fishes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has a very long hairs.",
+    "output": "✅ **Corrected Sentence:** She has very long hair.\n🔍 **Error Identification:** 'Hair' (mái tóc) không đếm được, không dùng 'a' và không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a hairs' sai hai lỗi. Mẹo: 'Hair' không đếm được khi nói về mái tóc.\n💡 **Ví dụ:** Her hair is shiny. / He has short hair."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many sheeps in the meadow.",
+    "output": "✅ **Corrected Sentence:** There are many sheep in the meadow.\n🔍 **Error Identification:** 'Sheep' số nhiều giống số ít, không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'sheep'. Mẹo: Học thuộc các từ số nhiều bất quy tắc: sheep, deer, fish.\n💡 **Ví dụ:** The sheep are grazing. / A sheep is eating grass."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a new short.",
+    "output": "✅ **Corrected Sentence:** I need new shorts. (hoặc a pair of shorts)\n🔍 **Error Identification:** 'Shorts' luôn ở dạng số nhiều.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một cái quần short' thành 'a short'. Mẹo: 'Shorts, pants, jeans, trousers' → 'a pair of'.\n💡 **Ví dụ:** He bought a pair of shorts. / These shorts are comfortable."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The police is investigating the case.",
+    "output": "✅ **Corrected Sentence:** The police are investigating the case.\n🔍 **Error Identification:** 'Police' là danh từ tập thể, luôn dùng động từ số nhiều.\n📘 **Vietnamese Explanation:** Người Việt thấy 'police' không có 's' tưởng số ít. Mẹo: 'Police' luôn đi với động từ số nhiều (are, have, work).\n💡 **Ví dụ:** The police have arrived. / Police are searching the area."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many homeworks to finish tonight.",
+    "output": "✅ **Corrected Sentence:** I have a lot of homework to finish tonight.\n🔍 **Error Identification:** 'Homework' không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'homework'. Mẹo: 'Homework' luôn số ít, dùng 'much' hoặc 'a lot of'.\n💡 **Ví dụ:** I have too much homework. / The homework is due tomorrow."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She gave me many informations.",
+    "output": "✅ **Corrected Sentence:** She gave me a lot of information.\n🔍 **Error Identification:** 'Information' không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'information'. Mẹo: 'Information' luôn số ít.\n💡 **Ví dụ:** This information is useful. / I need more information."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many traffics in the city.",
+    "output": "✅ **Corrected Sentence:** There is a lot of traffic in the city.\n🔍 **Error Identification:** 'Traffic' không đếm được, không có 'traffics'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'traffic'. Mẹo: 'Traffic' không đếm được, dùng 'much' hoặc 'a lot of'.\n💡 **Ví dụ:** Heavy traffic causes delays. / The traffic is bad today."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a new trouser.",
+    "output": "✅ **Corrected Sentence:** I need new trousers. (hoặc a pair of trousers)\n🔍 **Error Identification:** 'Trousers' luôn số nhiều.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một cái quần' thành 'a trouser'. Mẹo: 'Trousers' + 'a pair of'.\n💡 **Ví dụ:** He bought a pair of trousers. / These trousers are expensive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The childs are playing in the yard.",
+    "output": "✅ **Corrected Sentence:** The children are playing in the yard.\n🔍 **Error Identification:** 'Child' số nhiều là 'children'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'child'. Mẹo: child – children (bất quy tắc).\n💡 **Ví dụ:** The children are laughing. / A child needs care."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many works to do around the house.",
+    "output": "✅ **Corrected Sentence:** I have a lot of work to do around the house.\n🔍 **Error Identification:** 'Work' không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'work'. Mẹo: 'Work' = công việc (không đếm được); 'works' = tác phẩm.\n💡 **Ví dụ:** Housework is tiring. / She has so much work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can you give me a feedback on my presentation?",
+    "output": "✅ **Corrected Sentence:** Can you give me some feedback on my presentation? (hoặc a piece of feedback)\n🔍 **Error Identification:** 'Feedback' là không đếm được, không dùng 'a'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một phản hồi' thành 'a feedback'. Mẹo: 'Feedback' không đếm được, dùng 'some feedback' hoặc 'a piece of feedback'.\n💡 **Ví dụ:** I need your feedback. / The teacher gave us helpful feedback."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many deers in the national park.",
+    "output": "✅ **Corrected Sentence:** There are many deer in the national park.\n🔍 **Error Identification:** 'Deer' số nhiều giống số ít.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'deer'. Mẹo: deer – deer, fish – fish, sheep – sheep.\n💡 **Ví dụ:** I saw a deer in the forest. / Deer are gentle animals."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a lot of experiences in teaching.",
+    "output": "✅ **Corrected Sentence:** I have a lot of experience in teaching. (hoặc many experiences – nếu nhiều trải nghiệm cụ thể)\n🔍 **Error Identification:** 'Experience' (kinh nghiệm nói chung) là không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'experience' cho mọi trường hợp. Mẹo: 'Experience' không đếm được khi nói về kinh nghiệm tích lũy; đếm được khi nói về sự kiện/trải nghiệm.\n💡 **Ví dụ:** She has extensive experience. / I had many interesting experiences during my trip."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to buy some new cloths.",
+    "output": "✅ **Corrected Sentence:** I need to buy some new clothes.\n🔍 **Error Identification:** 'Clothes' (quần áo) luôn ở dạng số nhiều, không có 'cloths' (cloth = vải).\n📘 **Vietnamese Explanation:** Người Việt viết 'cloths' thay vì 'clothes'. Mẹo: 'Clothes' = quần áo (luôn số nhiều); 'cloth' = vải (không đếm được).\n💡 **Ví dụ:** She bought new clothes. / This cloth is soft."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The news are depressing today.",
+    "output": "✅ **Corrected Sentence:** The news is depressing today.\n🔍 **Error Identification:** 'News' là không đếm được, dùng động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 's' tưởng số nhiều. Mẹo: 'News' luôn số ít.\n💡 **Ví dụ:** The news is good. / I have some news for you."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many sheeps on the hill.",
+    "output": "✅ **Corrected Sentence:** There are many sheep on the hill.\n🔍 **Error Identification:** 'Sheep' số nhiều giống số ít.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'sheep'. Mẹo: Học thuộc các từ có dạng số nhiều đặc biệt.\n💡 **Ví dụ:** The sheep are grazing. / A sheep is following me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a lot of homeworks every day.",
+    "output": "✅ **Corrected Sentence:** I have a lot of homework every day.\n🔍 **Error Identification:** 'Homework' không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'homework'. Mẹo: 'Homework' luôn số ít.\n💡 **Ví dụ:** Math homework is difficult. / I finished my homework."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She gave me a very good advices.",
+    "output": "✅ **Corrected Sentence:** She gave me very good advice. (hoặc a piece of good advice)\n🔍 **Error Identification:** 'Advice' không đếm được, không có 'advices' và không dùng 'a'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'a advices' sai hai lỗi. Mẹo: 'Advice' không đếm được.\n💡 **Ví dụ:** That's great advice. / Let me give you some advice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to buy some stationeries.",
+    "output": "✅ **Corrected Sentence:** I need to buy some stationery. (hoặc some office supplies)\n🔍 **Error Identification:** 'Stationery' (văn phòng phẩm) thường không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'stationery'. Mẹo: 'Stationery' không đếm được, dùng 'some stationery'.\n💡 **Ví dụ:** Where can I buy stationery? / The store sells stationery."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many works of art in my collection.",
+    "output": "✅ **Corrected Sentence:** I have many works of art in my collection. (câu này đúng – 'works' = tác phẩm)\n🔍 **Error Identification:** Câu này đúng! 'Works of art' là cách dùng đúng của 'works' (tác phẩm nghệ thuật).\n📘 **Vietnamese Explanation:** 'Work' có hai nghĩa: công việc (không đếm được) và tác phẩm (đếm được, số nhiều 'works'). Mẹo: Phân biệt 'work' (công việc) và 'works' (tác phẩm).\n💡 **Ví dụ:** I have a lot of work. / The museum has many famous works."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I ate two rices for lunch.",
+    "output": "✅ **Corrected Sentence:** I ate a lot of rice for lunch. (hoặc two bowls of rice)\n🔍 **Error Identification:** 'Rice' không đếm được, không có 'rices'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'rice'. Mẹo: 'Rice' không đếm được, dùng 'some rice' hoặc 'a bowl of rice'.\n💡 **Ví dụ:** Would you like some rice? / I had a bowl of rice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many fishes in the sea.",
+    "output": "✅ **Corrected Sentence:** There are many fish in the sea. (hoặc fishes – nếu nói về nhiều loài)\n🔍 **Error Identification:** 'Fish' số nhiều vẫn là 'fish' trong hầu hết trường hợp.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'fishes'. Mẹo: 'Fish' (số nhiều) = fish; 'fishes' = các loài cá.\n💡 **Vídeo:** I caught five fish. / The ocean is home to many species of fishes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a new jean.",
+    "output": "✅ **Corrected Sentence:** I need new jeans. (hoặc a pair of jeans)\n🔍 **Error Identification:** 'Jeans' luôn số nhiều.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một cái quần jean' thành 'a jean'. Mẹo: 'Jeans' + 'a pair of'.\n💡 **Ví dụ:** She is wearing jeans. / I bought a pair of jeans."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The staffs are very friendly.",
+    "output": "✅ **Corrected Sentence:** The staff are very friendly. (hoặc staff members)\n🔍 **Error Identification:** 'Staff' (nhân viên) số nhiều vẫn là 'staff', không phải 'staffs'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'staff'. Mẹo: 'Staff' là danh từ tập thể, số nhiều vẫn giữ nguyên.\n💡 **Ví dụ:** The staff is helpful. / All the staff are trained."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many luggages with me.",
+    "output": "✅ **Corrected Sentence:** I have a lot of luggage with me.\n🔍 **Error Identification:** 'Luggage' không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'luggage'. Mẹo: 'Luggage' không đếm được, dùng 'much' hoặc 'a lot of'.\n💡 **Ví dụ:** How much luggage do you have? / He carried all the luggage."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a glass of waters.",
+    "output": "✅ **Corrected Sentence:** I need a glass of water.\n🔍 **Error Identification:** 'Water' không đếm được, không có 'waters' (trừ nghĩa vùng nước).\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'water'. Mẹo: 'Water' không đếm được, dùng 'some water' hoặc 'a glass of water'.\n💡 **Ví dụ:** Can I have some water? / The waters of the ocean are deep (vùng nước)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many oxes in the field.",
+    "output": "✅ **Corrected Sentence:** There are many oxen in the field.\n🔍 **Error Identification:** 'Ox' số nhiều là 'oxen'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'es' vào 'ox'. Mẹo: ox – oxen (bất quy tắc).\n💡 **Ví dụ:** Oxen are strong animals. / The ox is working."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a lot of knowledges about history.",
+    "output": "✅ **Corrected Sentence:** I have a lot of knowledge about history.\n🔍 **Error Identification:** 'Knowledge' không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'knowledge'. Mẹo: 'Knowledge' luôn số ít.\n💡 **Ví dụ:** His knowledge is impressive. / She has deep knowledge of art."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to buy some new equipment for the gym.",
+    "output": "✅ **Corrected Sentence:** I need to buy some new equipment for the gym. (câu đúng)\n🔍 **Error Identification:** Câu này đúng! 'Equipment' không đếm được, dùng 'some equipment'.\n📘 **Vietnamese Explanation:** Người Việt hay sai khi thêm 's' vào 'equipment'. Mẹo: 'Equipment' luôn số ít.\n💡 **Ví dụ:** The gym has modern equipment. / We need more equipment."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many homeworks to do tonight.",
+    "output": "✅ **Corrected Sentence:** I have a lot of homework to do tonight.\n🔍 **Error Identification:** 'Homework' không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'homework'. Mẹo: 'Homework' không đếm được.\n💡 **Ví dụ:** I finished my homework. / The teacher gave us a lot of homework."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She has a beautiful hair.",
+    "output": "✅ **Corrected Sentence:** She has beautiful hair.\n🔍 **Error Identification:** 'Hair' (mái tóc) không đếm được, không dùng 'a'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một mái tóc đẹp' thành 'a beautiful hair'. Mẹo: 'Hair' không đếm được khi nói về mái tóc.\n💡 **Ví dụ:** He has black hair. / Her hair is long."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The furnitures are very old.",
+    "output": "✅ **Corrected Sentence:** The furniture is very old.\n🔍 **Error Identification:** 'Furniture' không đếm được, dùng 'is', không có 'furnitures'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' và dùng 'are'. Mẹo: 'Furniture' + động từ số ít.\n💡 **Ví dụ:** This furniture is antique. / The furniture needs cleaning."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a paper to write on.",
+    "output": "✅ **Corrected Sentence:** I need a piece of paper to write on. (hoặc some paper)\n🔍 **Error Identification:** 'Paper' (giấy) không đếm được, không dùng 'a paper' (trừ nghĩa bài báo).\n📘 **Vietnamese Explanation:** Người Việt dịch 'một tờ giấy' thành 'a paper'. Mẹo: 'Paper' không đếm được → 'a piece of paper'.\n💡 **Ví dụ:** Can you give me some paper? / I wrote it on a piece of paper."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many deers in the zoo.",
+    "output": "✅ **Corrected Sentence:** There are many deer in the zoo.\n🔍 **Error Identification:** 'Deer' số nhiều giống số ít.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'deer'. Mẹo: deer – deer (bất quy tắc).\n💡 **Ví dụ:** I saw a deer. / Deer are herbivores."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many works to do at the office.",
+    "output": "✅ **Corrected Sentence:** I have a lot of work to do at the office.\n🔍 **Error Identification:** 'Work' (công việc) không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'work' cho công việc. Mẹo: 'Work' không đếm được; 'works' = tác phẩm.\n💡 **Ví dụ:** I have so much work. / The artist's works are famous."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The police is coming.",
+    "output": "✅ **Corrected Sentence:** The police are coming.\n🔍 **Error Identification:** 'Police' luôn dùng động từ số nhiều.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is' với 'police'. Mẹo: 'Police' = số nhiều.\n💡 **Ví dụ:** The police have arrived. / Police are investigating."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to buy some breads.",
+    "output": "✅ **Corrected Sentence:** I need to buy some bread.\n🔍 **Error Identification:** 'Bread' không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'bread'. Mẹo: 'Bread' không đếm được, dùng 'some bread' hoặc 'a loaf of bread'.\n💡 **Ví dụ:** Can you buy some bread? / I ate two slices of bread."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many news to tell you.",
+    "output": "✅ **Corrected Sentence:** I have a lot of news to tell you. (hoặc some news)\n🔍 **Error Identification:** 'News' không đếm được, không có 'many news'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'many' với 'news'. Mẹo: 'News' không đếm được → 'much news' hoặc 'a lot of news'.\n💡 **Ví dụ:** I have some good news. / That's great news!"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a new pant.",
+    "output": "✅ **Corrected Sentence:** I need new pants. (hoặc a pair of pants)\n🔍 **Error Identification:** 'Pants' luôn số nhiều.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một cái quần' thành 'a pant'. Mẹo: 'Pants' + 'a pair of'.\n💡 **Ví dụ:** These pants are comfortable. / I bought a pair of pants."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many mouses in the basement.",
+    "output": "✅ **Corrected Sentence:** There are many mice in the basement.\n🔍 **Error Identification:** 'Mouse' số nhiều là 'mice'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'mouse'. Mẹo: mouse – mice.\n💡 **Ví dụ:** I saw a mouse. / Mice are afraid of cats."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a lot of homeworks.",
+    "output": "✅ **Corrected Sentence:** I have a lot of homework.\n🔍 **Error Identification:** 'Homework' không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'homework'. Mẹo: 'Homework' luôn số ít.\n💡 **Ví dụ:** I finished my homework. / The homework is easy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can you give me an information?",
+    "output": "✅ **Corrected Sentence:** Can you give me some information? (hoặc a piece of information)\n🔍 **Error Identification:** 'Information' không đếm được, không dùng 'an'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'an information'. Mẹo: 'Information' không đếm được.\n💡 **Ví dụ:** I need some information. / That's useful information."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many works to finish before Friday.",
+    "output": "✅ **Corrected Sentence:** I have a lot of work to finish before Friday.\n🔍 **Error Identification:** 'Work' (công việc) không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'work'. Mẹo: Phân biệt 'work' (công việc) và 'works' (tác phẩm).\n💡 **Ví dụ:** I have so much work. / The museum has many works of art."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The childs are playing outside.",
+    "output": "✅ **Corrected Sentence:** The children are playing outside.\n🔍 **Error Identification:** 'Child' số nhiều là 'children'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'child'. Mẹo: child – children.\n💡 **Ví dụ:** The children are laughing. / A child needs love."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to buy some new clothes for the trip. (câu đúng) - Học viên viết \'I need to buy some new cloths.\'",
+    "output": "✅ **Corrected Sentence:** I need to buy some new clothes for the trip.\n🔍 **Error Identification:** 'Clothes' (quần áo) khác 'cloth' (vải).\n📘 **Vietnamese Explanation:** Người Việt viết 'cloths' thay vì 'clothes'. Mẹo: 'Clothes' = quần áo (số nhiều), 'cloth' = vải (không đếm được).\n💡 **Ví dụ:** She bought new clothes. / This cloth is cotton."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many equipments.",
+    "output": "✅ **Corrected Sentence:** I have a lot of equipment.\n🔍 **Error Identification:** 'Equipment' không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'equipment'. Mẹo: 'Equipment' không có số nhiều.\n💡 **Ví dụ:** The lab has modern equipment. / We need more equipment."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many fishes in the pond.",
+    "output": "✅ **Corrected Sentence:** There are many fish in the pond.\n🔍 **Error Identification:** 'Fish' số nhiều = fish.\n📘 **Vietnamese Explanation:** Người Việt dùng 'fishes' phổ biến. Mẹo: 'Fish' (số nhiều) = fish.\n💡 **Ví dụ:** I caught two fish. / The pond has many fish."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a lot of luggages.",
+    "output": "✅ **Corrected Sentence:** I have a lot of luggage.\n🔍 **Error Identification:** 'Luggage' không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'luggage'. Mẹo: 'Luggage' luôn số ít.\n💡 **Ví dụ:** How much luggage do you have? / He carried all the luggage."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a new scissors.",
+    "output": "✅ **Corrected Sentence:** I need new scissors. (hoặc a pair of scissors)\n🔍 **Error Identification:** 'Scissors' luôn số nhiều, không dùng 'a'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một cái kéo' thành 'a scissors'. Mẹo: 'Scissors' + 'a pair of'.\n💡 **Ví dụ:** Where are the scissors? / I bought a pair of scissors."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many works.",
+    "output": "✅ **Corrected Sentence:** I have a lot of work. (hoặc many works – nếu là tác phẩm)\n🔍 **Error Identification:** 'Work' (công việc) không đếm được; 'works' = tác phẩm.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'works' sai. Mẹo: Phân biệt nghĩa.\n💡 **Ví dụ:** I have so much work. / Shakespeare's works are famous."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need a glass of milk. (câu đúng) - Học viên viết \'I need a milk.\'",
+    "output": "✅ **Corrected Sentence:** I need a glass of milk. (hoặc some milk)\n🔍 **Error Identification:** 'Milk' không đếm được, không dùng 'a milk'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một sữa' thành 'a milk'. Mẹo: 'Milk' không đếm được → 'a glass of milk'.\n💡 **Ví dụ:** Would you like some milk? / I drank a glass of milk."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many sheeps in the field.",
+    "output": "✅ **Corrected Sentence:** There are many sheep in the field.\n🔍 **Error Identification:** 'Sheep' số nhiều = sheep.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'sheep'. Mẹo: sheep – sheep.\n💡 **Ví dụ:** The sheep are grazing. / A sheep is white."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a lot of homeworks.",
+    "output": "✅ **Corrected Sentence:** I have a lot of homework.\n🔍 **Error Identification:** 'Homework' không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'homework'. Mẹo: 'Homework' không có số nhiều.\n💡 **Ví dụ:** I finished my homework. / The homework is hard."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can you give me an advice about this problem?",
+    "output": "✅ **Corrected Sentence:** Can you give me some advice about this problem? (hoặc a piece of advice)\n🔍 **Error Identification:** 'Advice' không đếm được.\n📘 **Vietnamese Explanation:** Người Việt dùng 'an advice'. Mẹo: 'Advice' không đếm được.\n💡 **Ví dụ:** I need your advice. / Let me give you a piece of advice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have many works to do at home.",
+    "output": "✅ **Corrected Sentence:** I have a lot of work to do at home.\n🔍 **Error Identification:** 'Work' (công việc nhà) không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'work'. Mẹo: 'Housework' cũng không đếm được.\n💡 **Ví dụ:** I have so much housework. / She has a lot of work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are many peoples in the square.",
+    "output": "✅ **Corrected Sentence:** There are many people in the square.\n🔍 **Error Identification:** 'People' đã là số nhiều, không thêm 's' (trừ khi nói về dân tộc).\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'people'. Mẹo: 'People' = nhiều người; 'peoples' = các dân tộc.\n💡 **Ví dụ:** Many people speak English. / The peoples of Asia are diverse."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to buy a new short.",
+    "output": "✅ **Corrected Sentence:** I need new shorts. (hoặc a pair of shorts)\n🔍 **Error Identification:** 'Shorts' luôn số nhiều.\n📘 **Vietnamese Explanation:** Người Việt dịch 'một cái quần short' thành 'a short'. Mẹo: 'Shorts' + 'a pair of'.\n💡 **Ví dụ:** He is wearing shorts. / I bought a pair of shorts."
+  }
+]

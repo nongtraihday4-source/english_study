@@ -4,7 +4,39 @@ import { useAuthStore } from '@/stores/auth.js'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    // ── Public routes ────────────────────────────────────────────────────────
+    // ── Public pages with PublicLayout (navbar + footer) ─────────────────────
+    {
+      path: '/',
+      component: () => import('@/components/layout/PublicLayout.vue'),
+      children: [
+        {
+          path: '',
+          name: 'home',
+          component: () => import('@/views/HomeView.vue'),
+          meta: { public: true, title: 'English Study — Học tiếng Anh thực chiến' },
+        },
+        {
+          path: 'about',
+          name: 'about',
+          component: () => import('@/views/AboutView.vue'),
+          meta: { public: true, title: 'Giới thiệu' },
+        },
+        {
+          path: 'blog',
+          name: 'blog',
+          component: () => import('@/views/BlogView.vue'),
+          meta: { public: true, title: 'Blog' },
+        },
+        {
+          path: 'pricing',
+          name: 'pricing',
+          component: () => import('@/views/PricingView.vue'),
+          meta: { public: true, title: 'Bảng giá' },
+        },
+      ],
+    },
+
+    // ── Standalone public routes (no layout) ─────────────────────────────────
     {
       path: '/login',
       name: 'login',
@@ -16,12 +48,6 @@ const router = createRouter({
       name: 'register',
       component: () => import('@/views/RegisterView.vue'),
       meta: { public: true, guestOnly: true },
-    },
-    {
-      path: '/pricing',
-      name: 'pricing',
-      component: () => import('@/views/PricingView.vue'),
-      meta: { public: true, title: 'Bảng giá' },
     },
     {
       path: '/checkout/:planId',
@@ -48,16 +74,12 @@ const router = createRouter({
       meta: { public: true, title: 'Gửi yêu cầu hỗ trợ' },
     },
 
-    // ── Authenticated routes (inside AppLayout) ────────────────────────────
+    // ── Authenticated routes (inside AppLayout) ─────────────────────────
     {
       path: '/',
       component: () => import('@/components/layout/AppLayout.vue'),
       meta: { requiresAuth: true },
       children: [
-        {
-          path: '',
-          redirect: '/dashboard',
-        },
         {
           path: 'dashboard',
           name: 'dashboard',
@@ -75,6 +97,12 @@ const router = createRouter({
           name: 'course-detail',
           component: () => import('@/views/CourseDetailView.vue'),
           meta: { title: 'Chi tiết khoá học' },
+        },
+        {
+          path: 'lessons/:id',
+          name: 'lesson-detail',
+          component: () => import('@/views/LessonDetailView.vue'),
+          meta: { title: 'Bài học' },
         },
         {
           path: 'learn/listening/:id',
@@ -177,6 +205,38 @@ const router = createRouter({
           name: 'pronunciation-lesson',
           component: () => import('@/views/PronunciationLessonView.vue'),
           meta: { title: 'Bài học phát âm' },
+        },
+        // ── Skill Practice ────────────────────────────────────────────────────
+        {
+          path: 'skill-practice',
+          name: 'skill-practice',
+          component: () => import('@/views/skill-practice/SkillPracticeHomeView.vue'),
+          meta: { title: 'Luyện Kỹ Năng' },
+        },
+        {
+          path: 'skill-practice/topics/:level',
+          name: 'skill-practice-topics',
+          component: () => import('@/views/skill-practice/SkillPracticeTopicsView.vue'),
+          props: true,
+          meta: { title: 'Chủ đề luyện tập' },
+        },
+        {
+          path: 'skill-practice/passages/:topicSlug',
+          name: 'skill-practice-passages',
+          component: () => import('@/views/skill-practice/SkillPracticePassagesView.vue'),
+          meta: { title: 'Bài luyện tập' },
+        },
+        {
+          path: 'skill-practice/dictation/:id',
+          name: 'skill-practice-dictation',
+          component: () => import('@/views/skill-practice/DictationPracticeView.vue'),
+          meta: { title: 'Luyện Chính tả' },
+        },
+        {
+          path: 'skill-practice/shadowing/:id',
+          name: 'skill-practice-shadowing',
+          component: () => import('@/views/skill-practice/ShadowingPracticeView.vue'),
+          meta: { title: 'Luyện Shadowing' },
         },
         {
           path: 'leaderboard',
@@ -304,6 +364,12 @@ const router = createRouter({
           component: () => import('@/views/teacher/TeacherClassView.vue'),
           meta: { title: 'Lớp học' },
         },
+        {
+          path: 'assignments',
+          name: 'teacher-assignments',
+          component: () => import('@/views/teacher/TeacherAssignmentView.vue'),
+          meta: { title: 'Bài tập giao' },
+        },
       ],
     },
 
@@ -373,7 +439,7 @@ const router = createRouter({
     // ── Catch-all ────────────────────────────────────────────────────────────
     {
       path: '/:pathMatch(.*)*',
-      redirect: '/dashboard',
+      redirect: '/',
     },
   ],
   scrollBehavior: () => ({ top: 0 }),
@@ -410,7 +476,9 @@ router.beforeEach(async (to, from, next) => {
 
   // Update page title
   if (to.meta.title) {
-    document.title = `${to.meta.title} — English Study`
+    document.title = to.name === 'home'
+      ? to.meta.title
+      : `${to.meta.title} — English Study`
   }
 
   next()

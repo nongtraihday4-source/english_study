@@ -109,16 +109,23 @@ class SubmitExamSerializer(serializers.Serializer):
 
 class ExerciseResultSerializer(serializers.ModelSerializer):
     score_display = serializers.SerializerMethodField()
+    course_id = serializers.SerializerMethodField()
     next_lesson_id = serializers.SerializerMethodField()
     next_exercise_type = serializers.SerializerMethodField()
     next_exercise_id = serializers.SerializerMethodField()
+    chapter_completed = serializers.SerializerMethodField()
+    chapter_id = serializers.SerializerMethodField()
+    chapter_title = serializers.SerializerMethodField()
+    chapter_avg_score = serializers.SerializerMethodField()
 
     class Meta:
         model = ExerciseResult
         fields = [
             "id", "exercise_type", "exercise_id", "score", "score_display",
             "passed", "detail_json", "created_at",
+            "course_id",
             "next_lesson_id", "next_exercise_type", "next_exercise_id",
+            "chapter_completed", "chapter_id", "chapter_title", "chapter_avg_score",
         ]
 
     def get_score_display(self, obj):
@@ -152,6 +159,12 @@ class ExerciseResultSerializer(serializers.ModelSerializer):
             obj._next_lesson_cache = None
         return obj._next_lesson_cache
 
+    def get_course_id(self, obj):
+        try:
+            return obj.lesson.chapter.course_id if obj.lesson_id else None
+        except Exception:
+            return None
+
     def get_next_lesson_id(self, obj):
         next_lesson = self._resolve_next_lesson(obj)
         return next_lesson.pk if next_lesson else None
@@ -172,9 +185,32 @@ class ExerciseResultSerializer(serializers.ModelSerializer):
         le = next_lesson.lessonexercise_set.order_by("order").first()
         return le.exercise_id if le else None
 
+    def _get_chapter_info(self, obj):
+        return getattr(obj, "_chapter_info", {})
+
+    def get_chapter_completed(self, obj):
+        return self._get_chapter_info(obj).get("chapter_completed", False)
+
+    def get_chapter_id(self, obj):
+        return self._get_chapter_info(obj).get("chapter_id")
+
+    def get_chapter_title(self, obj):
+        return self._get_chapter_info(obj).get("chapter_title")
+
+    def get_chapter_avg_score(self, obj):
+        return self._get_chapter_info(obj).get("chapter_avg_score")
+
 
 class SpeakingSubmissionSerializer(serializers.ModelSerializer):
     ai_score_display = serializers.SerializerMethodField()
+    course_id = serializers.SerializerMethodField()
+    next_lesson_id = serializers.SerializerMethodField()
+    next_exercise_type = serializers.SerializerMethodField()
+    next_exercise_id = serializers.SerializerMethodField()
+    chapter_completed = serializers.SerializerMethodField()
+    chapter_id = serializers.SerializerMethodField()
+    chapter_title = serializers.SerializerMethodField()
+    chapter_avg_score = serializers.SerializerMethodField()
 
     class Meta:
         model = SpeakingSubmission
@@ -184,15 +220,92 @@ class SpeakingSubmissionSerializer(serializers.ModelSerializer):
             "ai_score", "ai_score_display",
             "score_pronunciation", "score_fluency", "score_intonation", "score_vocabulary",
             "error_list_json", "submitted_at",
+            "course_id", "next_lesson_id", "next_exercise_type", "next_exercise_id",
+            "chapter_completed", "chapter_id", "chapter_title", "chapter_avg_score",
         ]
         read_only_fields = ["__all__"]
 
     def get_ai_score_display(self, obj):
         return fmt_score(obj.ai_score) if obj.ai_score is not None else "Đang chấm..."
 
+    def _resolve_next_lesson(self, obj):
+        if hasattr(obj, "_next_lesson_cache"):
+            return obj._next_lesson_cache
+        if not obj.lesson_id:
+            obj._next_lesson_cache = None
+            return None
+        try:
+            from apps.curriculum.models import Lesson
+            lesson = obj.lesson
+            obj._next_lesson_cache = (
+                Lesson.objects.filter(chapter_id=lesson.chapter_id, order__gt=lesson.order, is_active=True)
+                .order_by("order")
+                .first()
+            )
+        except Exception:
+            obj._next_lesson_cache = None
+        return obj._next_lesson_cache
+
+    def _get_chapter_info(self, obj):
+        if hasattr(obj, "_chapter_info_cache"):
+            return obj._chapter_info_cache
+        if not obj.lesson_id or obj.status != "completed":
+            obj._chapter_info_cache = {"chapter_completed": False}
+            return obj._chapter_info_cache
+        try:
+            from .grading import _check_chapter_completion
+            obj._chapter_info_cache = _check_chapter_completion(obj.user, obj.lesson)
+        except Exception:
+            obj._chapter_info_cache = {"chapter_completed": False}
+        return obj._chapter_info_cache
+
+    def get_course_id(self, obj):
+        try:
+            return obj.lesson.chapter.course_id if obj.lesson_id else None
+        except Exception:
+            return None
+
+    def get_next_lesson_id(self, obj):
+        next_lesson = self._resolve_next_lesson(obj)
+        return next_lesson.pk if next_lesson else None
+
+    def get_next_exercise_type(self, obj):
+        next_lesson = self._resolve_next_lesson(obj)
+        if not next_lesson:
+            return None
+        le = next_lesson.lessonexercise_set.order_by("order").first()
+        return le.exercise_type if le else next_lesson.lesson_type
+
+    def get_next_exercise_id(self, obj):
+        next_lesson = self._resolve_next_lesson(obj)
+        if not next_lesson:
+            return None
+        le = next_lesson.lessonexercise_set.order_by("order").first()
+        return le.exercise_id if le else None
+
+    def get_chapter_completed(self, obj):
+        return self._get_chapter_info(obj).get("chapter_completed", False)
+
+    def get_chapter_id(self, obj):
+        return self._get_chapter_info(obj).get("chapter_id")
+
+    def get_chapter_title(self, obj):
+        return self._get_chapter_info(obj).get("chapter_title")
+
+    def get_chapter_avg_score(self, obj):
+        return self._get_chapter_info(obj).get("chapter_avg_score")
+
 
 class WritingSubmissionSerializer(serializers.ModelSerializer):
     ai_score_display = serializers.SerializerMethodField()
+    course_id = serializers.SerializerMethodField()
+    next_lesson_id = serializers.SerializerMethodField()
+    next_exercise_type = serializers.SerializerMethodField()
+    next_exercise_id = serializers.SerializerMethodField()
+    chapter_completed = serializers.SerializerMethodField()
+    chapter_id = serializers.SerializerMethodField()
+    chapter_title = serializers.SerializerMethodField()
+    chapter_avg_score = serializers.SerializerMethodField()
 
     class Meta:
         model = WritingSubmission
@@ -202,11 +315,80 @@ class WritingSubmissionSerializer(serializers.ModelSerializer):
             "score_task_achievement", "score_grammar", "score_vocabulary", "score_coherence",
             "feedback_text", "error_list_json", "vocab_cefr_json", "teacher_comment",
             "submitted_at",
+            "course_id", "next_lesson_id", "next_exercise_type", "next_exercise_id",
+            "chapter_completed", "chapter_id", "chapter_title", "chapter_avg_score",
         ]
         read_only_fields = ["__all__"]
 
     def get_ai_score_display(self, obj):
         return fmt_score(obj.ai_score) if obj.ai_score is not None else "Đang chấm..."
+
+    def _resolve_next_lesson(self, obj):
+        if hasattr(obj, "_next_lesson_cache"):
+            return obj._next_lesson_cache
+        if not obj.lesson_id:
+            obj._next_lesson_cache = None
+            return None
+        try:
+            from apps.curriculum.models import Lesson
+            lesson = obj.lesson
+            obj._next_lesson_cache = (
+                Lesson.objects.filter(chapter_id=lesson.chapter_id, order__gt=lesson.order, is_active=True)
+                .order_by("order")
+                .first()
+            )
+        except Exception:
+            obj._next_lesson_cache = None
+        return obj._next_lesson_cache
+
+    def _get_chapter_info(self, obj):
+        if hasattr(obj, "_chapter_info_cache"):
+            return obj._chapter_info_cache
+        if not obj.lesson_id or obj.status != "completed":
+            obj._chapter_info_cache = {"chapter_completed": False}
+            return obj._chapter_info_cache
+        try:
+            from .grading import _check_chapter_completion
+            obj._chapter_info_cache = _check_chapter_completion(obj.user, obj.lesson)
+        except Exception:
+            obj._chapter_info_cache = {"chapter_completed": False}
+        return obj._chapter_info_cache
+
+    def get_course_id(self, obj):
+        try:
+            return obj.lesson.chapter.course_id if obj.lesson_id else None
+        except Exception:
+            return None
+
+    def get_next_lesson_id(self, obj):
+        next_lesson = self._resolve_next_lesson(obj)
+        return next_lesson.pk if next_lesson else None
+
+    def get_next_exercise_type(self, obj):
+        next_lesson = self._resolve_next_lesson(obj)
+        if not next_lesson:
+            return None
+        le = next_lesson.lessonexercise_set.order_by("order").first()
+        return le.exercise_type if le else next_lesson.lesson_type
+
+    def get_next_exercise_id(self, obj):
+        next_lesson = self._resolve_next_lesson(obj)
+        if not next_lesson:
+            return None
+        le = next_lesson.lessonexercise_set.order_by("order").first()
+        return le.exercise_id if le else None
+
+    def get_chapter_completed(self, obj):
+        return self._get_chapter_info(obj).get("chapter_completed", False)
+
+    def get_chapter_id(self, obj):
+        return self._get_chapter_info(obj).get("chapter_id")
+
+    def get_chapter_title(self, obj):
+        return self._get_chapter_info(obj).get("chapter_title")
+
+    def get_chapter_avg_score(self, obj):
+        return self._get_chapter_info(obj).get("chapter_avg_score")
 
 
 class DailyStreakSerializer(serializers.ModelSerializer):

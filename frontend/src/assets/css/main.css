@@ -2,8 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --color-primary-50: #eef2ff;
+/* ── Light theme (default — landing page + user preference) ─── */
+:root,
+[data-theme="light"] {
+  --color-primary-50:  #fff7ed;
+  --color-primary-100: #ffedd5;
+  --color-primary-200: #fed7aa;
+  --color-primary-300: #fdba74;
+  --color-primary-400: #fb923c;
+  --color-primary-500: #F47C26;   /* Cam Bí Ngô — brand primary */
+  --color-primary-600: #D35400;   /* Cam đậm hover */
+  --color-primary-700: #b34500;
+  --color-primary-800: #92400e;
+  --color-primary-900: #7c2d12;
+
+  --color-secondary:   #183B56;   /* Xanh Than Đại Dương */
+  --color-accent-400:  #fb923c;
+  --color-accent-500:  #F47C26;
+
+  --color-surface:     #F9FAFC;   /* Trắng Ánh Xanh — page bg */
+  --color-surface-02:  #FFFFFF;   /* Cards / modals */
+  --color-surface-03:  #F0F2F5;   /* Input backgrounds */
+  --color-surface-04:  #E0E6ED;   /* Borders */
+
+  --color-text-base:   #2C3E50;   /* Xám Than Chì */
+  --color-text-muted:  #57606F;   /* Xám Trung Tính */
+  --color-text-soft:   #8896A6;
+
+  --color-success:     #2ECC71;
+  --color-error:       #E74C3C;
+
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body:    'Open Sans', 'Inter', 'Be Vietnam Pro', sans-serif;
+}
+
+/* ── Dark theme ─────────────────────────────────────────────── */
+[data-theme="dark"] {
+  --color-primary-50:  #eef2ff;
   --color-primary-100: #e0e7ff;
   --color-primary-200: #c7d2fe;
   --color-primary-300: #a5b4fc;
@@ -14,19 +49,24 @@
   --color-primary-800: #3730a3;
   --color-primary-900: #312e81;
 
-  --color-accent-400: #fb923c;
-  --color-accent-500: #f97316;
+  --color-secondary:   #6366f1;
+  --color-accent-400:  #fb923c;
+  --color-accent-500:  #f97316;
 
-  --color-surface: #0f0f1a;
-  --color-surface-02: #16162a;
-  --color-surface-03: #1e1e35;
-  --color-surface-04: #252540;
+  --color-surface:     #0f0f1a;
+  --color-surface-02:  #16162a;
+  --color-surface-03:  #1e1e35;
+  --color-surface-04:  #252540;
 
-  --color-text-base: #e2e8f0;
-  --color-text-muted: #94a3b8;
-  --color-text-soft: #64748b;
+  --color-text-base:   #e2e8f0;
+  --color-text-muted:  #94a3b8;
+  --color-text-soft:   #64748b;
 
-  --font-body: 'Inter', 'Be Vietnam Pro', sans-serif;
+  --color-success:     #2ECC71;
+  --color-error:       #E74C3C;
+
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body:    'Inter', 'Be Vietnam Pro', sans-serif;
 }
 
 body {

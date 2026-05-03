@@ -6,13 +6,14 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import filters, generics, permissions, viewsets
 
 from utils.permissions import IsAdmin, IsAdminOrReadOnly, IsTeacher
-from .models import CEFRLevel, Chapter, Course, Lesson
+from .models import CEFRLevel, Chapter, Course, Lesson, LessonContent
 from .serializers import (
     CEFRLevelSerializer,
     ChapterSerializer,
     CourseDetailSerializer,
     CourseListSerializer,
     CourseWriteSerializer,
+    LessonContentSerializer,
     LessonSerializer,
 )
 
@@ -81,3 +82,16 @@ class LessonDetailView(generics.RetrieveUpdateDestroyAPIView):
     def perform_destroy(self, instance):
         instance.is_active = False
         instance.save(update_fields=["is_active"])
+
+
+class LessonContentView(generics.RetrieveUpdateAPIView):
+    """GET/PATCH the rich integrated content for a lesson."""
+    serializer_class = LessonContentSerializer
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+
+    def get_object(self):
+        lesson = generics.get_object_or_404(
+            Lesson.objects.filter(is_active=True), pk=self.kwargs["pk"]
+        )
+        content, _ = LessonContent.objects.get_or_create(lesson=lesson)
+        return content

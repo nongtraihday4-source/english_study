@@ -1,0 +1,487 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She go to school every day.",
+    "output": "✅ **Corrected Sentence:** She goes to school every day.\n🔍 **Error Identification:** S-V agreement (Chủ ngữ - Động từ) – chủ ngữ 'She' ngôi thứ 3 số ít nhưng động từ 'go' chưa thêm 'es'.\n📘 **Vietnamese Explanation:** Người Việt thường quên chia động từ vì tiếng Việt không có chia theo ngôi. Mẹo: Nhớ 'He, She, It' + V(s/es). 'Go' thêm 'es' thành 'goes'.\n💡 **Ví dụ đúng:** He eats breakfast at 7 AM. / It rains a lot here."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The train leave at 6 PM tomorrow.",
+    "output": "✅ **Corrected Sentence:** The train leaves at 6 PM tomorrow.\n🔍 **Error Identification:** S-V agreement + Lịch trình (timetable) dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt hay dịch từ 'sẽ' nghĩ là tương lai, nhưng lịch trình cố định dùng hiện tại đơn. Mẹo: Tàu chạy theo giờ biểu => không đổi.\n💡 **Ví dụ:** The movie starts at 8 PM. / The plane lands at 9 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He don't like coffee.",
+    "output": "✅ **Corrected Sentence:** He doesn't like coffee.\n🔍 **Error Identification:** S-V agreement in negative – dùng 'don't' với ngôi thứ 3 số ít.\n📘 **Vietnamese Explanation:** Người Việt học 'don't' trước, rồi gắn mọi chủ ngữ. Mẹo: He/She/It + doesn't + V(nguyên thể).\n💡 **Ví dụ:** She doesn't play tennis. / It doesn't work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My father always watch TV after dinner.",
+    "output": "✅ **Corrected Sentence:** My father always watches TV after dinner.\n🔍 **Error Identification:** S-V agreement – 'My father' = He (số ít) nên động từ thêm 'es'.\n📘 **Vietnamese Explanation:** Người Việt thường quên thêm đuôi vì nghĩ 'always' chỉ thói quen nhưng không cần chia. Mẹo: Chủ ngữ số ít + V(s/es).\n💡 **Ví dụ:** My mother cooks well. / The baby cries often."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Water boil at 100 degrees Celsius.",
+    "output": "✅ **Corrected Sentence:** Water boils at 100 degrees Celsius.\n🔍 **Error Identification:** S-V agreement – 'Water' (uncountable, số ít) + V(s/es).\n📘 **Vietnamese Explanation:** Người Việt hay bỏ qua sự thật hiển nhiên vì tưởng 'nước' là số nhiều. Mẹo: Sự thật khoa học luôn dùng hiện tại đơn, chủ ngữ số ít chia động từ.\n💡 **Ví dụ:** The sun rises in the east. / Milk contains calcium."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They doesn't work on Sundays.",
+    "output": "✅ **Corrected Sentence:** They don't work on Sundays.\n🔍 **Error Identification:** S-V agreement in negative – 'They' số nhiều nhưng dùng 'doesn't'.\n📘 **Vietnamese Explanation:** Người Việt nhầm lẫn giữa don't/doesn't. Mẹo: I/You/We/They + don't; He/She/It + doesn't.\n💡 **Ví dụ:** We don't eat meat. / The students don't like homework."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Every morning, she brush her teeth.",
+    "output": "✅ **Corrected Sentence:** Every morning, she brushes her teeth.\n🔍 **Error Identification:** S-V agreement – 'she' + brush → brushes (thêm 'es' vì 'ch' kết thúc).\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'es' với động từ kết thúc bằng ch, sh, s, x, o, z. Mẹo: 'Brush' kết thúc 'sh' → thêm 'es'.\n💡 **Ví dụ:** He watches TV. / She washes the car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The store open at 9 AM every day.",
+    "output": "✅ **Corrected Sentence:** The store opens at 9 AM every day.\n🔍 **Error Identification:** S-V agreement – 'The store' (số ít) + open → opens.\n📘 **Vietnamese Explanation:** Người Việt thường bỏ 's' vì nghĩ cửa hàng là vật không cần chia. Mẹo: Mọi chủ ngữ số ít đều cần 's/es' ở hiện tại đơn.\n💡 **Ví dụ:** The bank closes at 5 PM. / The phone rings loudly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He always arrive late for class.",
+    "output": "✅ **Corrected Sentence:** He always arrives late for class.\n🔍 **Error Identification:** S-V agreement – 'He' + arrive → arrives.\n📘 **Vietnamese Explanation:** Người Việt hay quên chia dù có trạng từ 'always'. Mẹo: Trạng từ tần suất không làm thay đổi quy tắc chia động từ.\n💡 **Ví dụ:** She often helps me. / It rarely rains here."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My sister and I goes to the same school.",
+    "output": "✅ **Corrected Sentence:** My sister and I go to the same school.\n🔍 **Error Identification:** S-V agreement – Chủ ngữ số nhiều (my sister + I = we) nên dùng 'go', không thêm 'es'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'sister' số ít nên thêm 's', quên mất 'and I' tạo thành số nhiều. Mẹo: Hai chủ ngữ nối bằng 'and' → động từ nguyên thể.\n💡 **Ví dụ:** Tom and Jerry like fighting. / My parents work hard."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The news are very interesting.",
+    "output": "✅ **Corrected Sentence:** The news is very interesting.\n🔍 **Error Identification:** S-V agreement – 'News' là danh từ không đếm được, số ít dù có 's'.\n📘 **Vietnamese Explanation:** Người Việt thấy 's' tưởng số nhiều. Mẹo: Những từ như news, physics, mathematics, economics dùng động từ số ít.\n💡 **Ví dụ:** Mathematics is difficult. / The news is on at 7 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She not like swimming.",
+    "output": "✅ **Corrected Sentence:** She doesn't like swimming.\n🔍 **Error Identification:** Thiếu trợ động từ trong câu phủ định.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cô ấy không thích' thành 'she not like' vì tiếng Việt không cần trợ động từ. Mẹo: Hiện tại đơn phủ định cần do/does + not + V.\n💡 **Ví dụ:** He doesn't eat fish. / They don't smoke."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The Earth go around the Sun.",
+    "output": "✅ **Corrected Sentence:** The Earth goes around the Sun.\n🔍 **Error Identification:** S-V agreement – 'The Earth' (số ít) + go → goes.\n📘 **Vietnamese Explanation:** Người Việt quên chia sự thật hiển nhiên vì nghĩ nó luôn đúng. Mẹo: Sự thật khoa học bắt buộc chia động từ theo chủ ngữ.\n💡 **Ví dụ:** The Moon orbits the Earth. / Water freezes at 0°C."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How often does she goes to the gym?",
+    "output": "✅ **Corrected Sentence:** How often does she go to the gym?\n🔍 **Error Identification:** Câu hỏi với 'does' + V(nguyên thể), không thêm 's/es'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'she' nên thêm 'goes' nhưng 'does' đã thay thế cho chia động từ. Mẹo: Does/Do + chủ ngữ + V nguyên thể.\n💡 **Ví dụ:** Does he play soccer? / Do they like pizza?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My brother have three cars.",
+    "output": "✅ **Corrected Sentence:** My brother has three cars.\n🔍 **Error Identification:** Động từ bất quy tắc 'have' chia thành 'has' với ngôi thứ 3 số ít.\n📘 **Vietnamese Explanation:** Người Việt quên 'have' là ngoại lệ. Mẹo: He/She/It/My brother + has, còn lại + have.\n💡 **Ví dụ:** She has a cat. / They have a new house."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The bus leave at 7:30 every weekday.",
+    "output": "✅ **Corrected Sentence:** The bus leaves at 7:30 every weekday.\n🔍 **Error Identification:** S-V agreement – 'The bus' số ít + leaves.\n📘 **Vietnamese Explanation:** Lịch trình cố định dùng hiện tại đơn. Người Việt dịch 'xe buýt rời bến' quên chia. Mẹo: Chủ ngữ vật số ít vẫn chia động từ.\n💡 **Ví dụ:** The train departs at noon. / The class starts at 8 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Does your parents work in Hanoi?",
+    "output": "✅ **Corrected Sentence:** Do your parents work in Hanoi?\n🔍 **Error Identification:** Câu hỏi – 'your parents' số nhiều nên dùng 'Do', không phải 'Does'.\n📘 **Vietnamese Explanation:** Người Việt hay dùng 'Does' cho mọi câu hỏi. Mẹo: 'Does' chỉ dùng với He/She/It/số ít.\n💡 **Ví dụ:** Do your friends play football? / Does your mother cook?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She always forgets her keys?",
+    "output": "✅ **Corrected Sentence:** She always forgets her keys. (hoặc: Does she always forget her keys? nếu là câu hỏi)\n🔍 **Error Identification:** Sai dấu câu – dùng dấu hỏi nhưng câu khẳng định.\n📘 **Vietnamese Explanation:** Người Việt đôi khi viết câu khẳng định nhưng để dấu hỏi do lẫn lộn. Mẹo: Kiểm tra lại cấu trúc trước khi đặt dấu câu.\n💡 **Ví dụ:** He likes coffee. / Does she like tea?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The children plays in the park every afternoon.",
+    "output": "✅ **Corrected Sentence:** The children play in the park every afternoon.\n🔍 **Error Identification:** S-V agreement – 'Children' số nhiều, động từ không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'children' kết thúc 's' tưởng số ít, nhưng nó là số nhiều. Mẹo: Children, people, men, women là số nhiều.\n💡 **Ví dụ:** People speak English here. / Women often live longer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Every student have to wear uniform.",
+    "output": "✅ **Corrected Sentence:** Every student has to wear a uniform.\n🔍 **Error Identification:** 'Every' + danh từ số ít + động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt tưởng 'every' chỉ nhiều nên dùng have. Mẹo: Every + N(số ít) + V(số ít).\n💡 **Ví dụ:** Every dog has its day. / Every child likes candy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie start at 8 PM tonight.",
+    "output": "✅ **Corrected Sentence:** The movie starts at 8 PM tonight.\n🔍 **Error Identification:** S-V agreement – 'The movie' số ít + starts.\n📘 **Vietnamese Explanation:** Lịch trình buổi tối vẫn dùng hiện tại đơn. Người Việt hay lẫn với tương lai. Mẹo: Giờ giới hạn cố định (rạp chiếu, chuyến bay) luôn hiện tại đơn.\n💡 **Ví dụ:** The concert begins at 9 PM. / The show ends at 11 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My mother cook very well.",
+    "output": "✅ **Corrected Sentence:** My mother cooks very well.\n🔍 **Error Identification:** S-V agreement – 'My mother' = She + cook → cooks.\n📘 **Vietnamese Explanation:** Người Việt quên chia vì động từ trong câu ngắn. Mẹo: Chủ ngữ số ít luôn thêm s/es vào động từ chính.\n💡 **Ví dụ:** My dad drives carefully. / The chef prepares food."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She don't have any brothers.",
+    "output": "✅ **Corrected Sentence:** She doesn't have any brothers.\n🔍 **Error Identification:** S-V agreement in negative – 'She' + doesn't + have.\n📘 **Vietnamese Explanation:** Lỗi kinh điển: dùng 'don't' với ngôi thứ 3. Mẹo: He/She/It + doesn't + V(nguyên thể).\n💡 **Ví dụ:** He doesn't know the answer. / It doesn't matter."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Does she has a car?",
+    "output": "✅ **Corrected Sentence:** Does she have a car?\n🔍 **Error Identification:** Câu hỏi với 'Does' + V(nguyên thể) – 'has' phải thành 'have'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'has' vì quen chia. Mẹo: Trợ động từ đã chia thì động từ chính giữ nguyên.\n💡 **Ví dụ:** Does he like pizza? (không phải likes). / Do they need help?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cat sleep all day.",
+    "output": "✅ **Corrected Sentence:** The cat sleeps all day.\n🔍 **Error Identification:** S-V agreement – 'The cat' số ít + sleeps.\n📘 **Vietnamese Explanation:** Người Việt nghĩ mèo là vật nên không cần chia. Mẹo: Động từ luôn phải phù hợp chủ ngữ, kể cả chủ ngữ là vật.\n💡 **Ví dụ:** The dog barks loudly. / The bird sings beautifully."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He always is late for school.",
+    "output": "✅ **Corrected Sentence:** He is always late for school.\n🔍 **Error Identification:** Vị trí trạng từ tần suất – 'always' đứng sau động từ 'to be'.\n📘 **Vietnamese Explanation:** Người Việt đặt 'always' trước 'is' như trong tiếng Việt. Mẹo: Trạng từ tần suất đứng sau 'to be' (am/is/are) nhưng trước động từ thường.\n💡 **Ví dụ:** She is often tired. / They sometimes go out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How much does it cost? (đúng) - Học viên viết \'How much it cost?\'",
+    "output": "✅ **Corrected Sentence:** How much does it cost?\n🔍 **Error Identification:** Thiếu trợ động từ 'does' trong câu hỏi.\n📘 **Vietnamese Explanation:** Người Việt thường hỏi 'How much it cost?' vì dịch 'nó giá bao nhiêu?' không có trợ động từ. Mẹo: Câu hỏi Wh- + do/does + S + V?\n💡 **Ví dụ:** Where do you live? / What does she want?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Tom and Jerry doesn't like each other.",
+    "output": "✅ **Corrected Sentence:** Tom and Jerry don't like each other.\n🔍 **Error Identification:** Chủ ngữ số nhiều (Tom and Jerry = they) + don't.\n📘 **Vietnamese Explanation:** Người Việt thấy 'Jerry' số ít nhưng quên 'Tom and' tạo thành số nhiều. Mẹo: Hai tên nối bằng 'and' = they → dùng don't.\n💡 **Ví dụ:** John and Mary don't agree. / My parents don't smoke."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She teach English at a school.",
+    "output": "✅ **Corrected Sentence:** She teaches English at a school.\n🔍 **Error Identification:** S-V agreement – 'teach' kết thúc 'ch' → thêm 'es' thành 'teaches'.\n📘 **Vietnamese Explanation:** Người Việt quên quy tắc thêm 'es' với động từ kết thúc ch, sh, s, x, o, z. Mẹo: 'Teach' + 'es' vì phát âm thêm âm /ɪz/.\n💡 **Ví dụ:** He fixes cars. / She watches movies."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The shop close at 10 PM.",
+    "output": "✅ **Corrected Sentence:** The shop closes at 10 PM.\n🔍 **Error Identification:** S-V agreement – 'The shop' số ít + closes.\n📘 **Vietnamese Explanation:** Lịch trình cửa hàng. Người Việt hay bỏ 's'. Mẹo: Mọi hành động lặp lại hàng ngày đều chia động từ theo chủ ngữ.\n💡 **Ví dụ:** The market opens early. / The library closes late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Why he always come late?",
+    "output": "✅ **Corrected Sentence:** Why does he always come late?\n🔍 **Error Identification:** Thiếu trợ động từ 'does' trong câu hỏi Wh-.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tại sao anh ấy luôn đến muộn?' quên mất trợ động từ. Mẹo: Wh- + do/does + S + V?\n💡 **Ví dụ:** Where does she work? / When do they arrive?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Either you or I am wrong. (đúng) - Học viên viết \'Either you or I is wrong\'",
+    "output": "✅ **Corrected Sentence:** Either you or I am wrong.\n🔍 **Error Identification:** Quy tắc chủ ngữ gần nhất – 'I' đi với 'am'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'you' và 'I' rồi dùng 'is' sai. Mẹo: Với either/or, neither/nor, động từ chia theo chủ ngữ gần nhất.\n💡 **Ví dụ:** Neither he nor they are ready. / Either she or you go first."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My family go to the beach every summer.",
+    "output": "✅ **Corrected Sentence:** My family goes to the beach every summer. (hoặc: My family go nếu nghĩ là các thành viên)\n🔍 **Error Identification:** Danh từ tập thể 'family' thường dùng số ít trong Anh-Anh, số nhiều trong Anh-Mỹ nhưng phổ biến là số ít.\n📘 **Vietnamese Explanation:** Người Việt hay dùng 'family' như số nhiều vì nghĩ gia đình gồm nhiều người. Mẹo: Nếu là một khối thống nhất → dùng số ít.\n💡 **Ví dụ:** The team wins (một đội). / The team are arguing (các thành viên)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is many people in the park.",
+    "output": "✅ **Corrected Sentence:** There are many people in the park.\n🔍 **Error Identification:** There + be – 'many people' số nhiều nên dùng 'are'.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'there is' cho mọi trường hợp. Mẹo: There is + số ít / There are + số nhiều.\n💡 **Ví dụ:** There is a cat. / There are two cats."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The police is looking for the thief.",
+    "output": "✅ **Corrected Sentence:** The police are looking for the thief.\n🔍 **Error Identification:** 'Police' luôn là danh từ số nhiều.\n📘 **Vietnamese Explanation:** Người Việt thấy 'police' không có 's' tưởng số ít. Mẹo: Police, people, cattle, clergy luôn dùng động từ số nhiều.\n💡 **Ví dụ:** The police have arrived. / People are happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She doesn't likes ice cream.",
+    "output": "✅ **Corrected Sentence:** She doesn't like ice cream.\n🔍 **Error Identification:** Sau 'doesn't' dùng động từ nguyên thể, không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt vừa có 'doesn't' vừa thêm 's' vào 'like'. Mẹo: Trợ động từ đã chia rồi thì động từ chính giữ nguyên.\n💡 **Ví dụ:** He doesn't work here. / They don't eat meat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The sun rise in the east.",
+    "output": "✅ **Corrected Sentence:** The sun rises in the east.\n🔍 **Error Identification:** S-V agreement – 'The sun' số ít + rises.\n📘 **Vietnamese Explanation:** Sự thật hiển nhiên nhưng người Việt vẫn quên chia. Mẹo: Các sự thật khoa học, địa lý, thiên văn bắt buộc chia động từ.\n💡 **Ví dụ:** The Earth rotates. / Water boils at 100°C."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She go to bed at 10 PM every night.",
+    "output": "✅ **Corrected Sentence:** She goes to bed at 10 PM every night.\n🔍 **Error Identification:** S-V agreement – 'She' + goes.\n📘 **Vietnamese Explanation:** Thói quen hàng ngày. Người Việt quên 's' ở 'goes'. Mẹo: every day/night/morning + hiện tại đơn, chia động từ.\n💡 **Ví dụ:** He wakes up early. / The baby sleeps at noon."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My father and mother works in a hospital.",
+    "output": "✅ **Corrected Sentence:** My father and mother work in a hospital.\n🔍 **Error Identification:** Chủ ngữ số nhiều (father and mother = they) + work (không s).\n📘 **Vietnamese Explanation:** Người Việt thấy mẹ và cha là 2 người nhưng vẫn thêm 's' vì nghĩ mỗi người. Mẹo: Hai người trở lên → động từ nguyên thể.\n💡 **Ví dụ:** Tom and Jerry play together. / My sisters sing well."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The class start at 8 AM everyday.",
+    "output": "✅ **Corrected Sentence:** The class starts at 8 AM every day.\n🔍 **Error Identification:** S-V agreement – 'The class' số ít + starts.\n📘 **Vietnamese Explanation:** Lịch trình lớp học. Người Việt quên chia. Mẹo: 'Every day' là dấu hiệu của hiện tại đơn, chia động từ số ít.\n💡 **Ví dụ:** The meeting begins at 9 AM. / The exam ends at 11 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He study very hard for his exams.",
+    "output": "✅ **Corrected Sentence:** He studies very hard for his exams.\n🔍 **Error Identification:** S-V agreement – 'study' kết thúc bằng 'y' trước là phụ âm → bỏ 'y' thêm 'ies'.\n📘 **Vietnamese Explanation:** Người Việt quên quy tắc y → ies. Mẹo: Phụ âm + y → ies (studies, cries, tries).\n💡 **Ví dụ:** She carries a bag. / The baby cries a lot."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The shop open at 9 AM and close at 9 PM.",
+    "output": "✅ **Corrected Sentence:** The shop opens at 9 AM and closes at 9 PM.\n🔍 **Error Identification:** S-V agreement với cả hai động từ 'open' và 'close'.\n📘 **Vietnamese Explanation:** Người Việt chỉ sửa một động từ, quên động từ thứ hai. Mẹo: Liệt kê các động từ, tất cả đều phải chia theo chủ ngữ.\n💡 **Ví dụ:** She sings and dances. / He eats and sleeps."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He doesn't works here anymore.",
+    "output": "✅ **Corrected Sentence:** He doesn't work here anymore.\n🔍 **Error Identification:** Sau 'doesn't' dùng V(nguyên thể), không thêm 's' vào 'works'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào động từ chính dù đã có 'doesn't'. Mẹo: 'Doesn't' = does + not, động từ sau luôn nguyên thể.\n💡 **Ví dụ:** She doesn't like fish. / It doesn't rain often."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Where does she lives?",
+    "output": "✅ **Corrected Sentence:** Where does she live?\n🔍 **Error Identification:** Câu hỏi với 'does' + V(nguyên thể), không thêm 's' vào 'live'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'lives' vì quen chia 'she lives'. Mẹo: Có 'does' rồi thì động từ chính bỏ 's/es'.\n💡 **Ví dụ:** What does he do? / Why does she cry?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The Earth go around the Sun, and the Moon go around the Earth.",
+    "output": "✅ **Corrected Sentence:** The Earth goes around the Sun, and the Moon goes around the Earth.\n🔍 **Error Identification:** Cả hai chủ ngữ số ít đều cần động từ thêm 'es'.\n📘 **Vietnamese Explanation:** Người Việt quên chia động từ thứ hai trong câu ghép. Mẹo: Mỗi mệnh đề có chủ ngữ riêng thì động từ riêng phải chia.\n💡 **Ví dụ:** Tom likes coffee, but Mary prefers tea."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The furniture in my room are very old.",
+    "output": "✅ **Corrected Sentence:** The furniture in my room is very old.\n🔍 **Error Identification:** 'Furniture' là danh từ không đếm được, luôn số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'furniture' không có 's' nhưng nghĩ nhiều món nên dùng 'are'. Mẹo: Furniture, luggage, equipment, information → số ít.\n💡 **Ví dụ:** The information is correct. / The luggage is heavy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Each of the students have a book.",
+    "output": "✅ **Corrected Sentence:** Each of the students has a book.\n🔍 **Error Identification:** 'Each of the + N số nhiều' + động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'students' số nhiều nên dùng 'have'. Mẹo: Each/every + động từ số ít.\n💡 **Ví dụ:** Each of them is ready. / Every one of us has a dream."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "None of the milk are fresh.",
+    "output": "✅ **Corrected Sentence:** None of the milk is fresh. (hoặc are tùy ngữ cảnh, nhưng milk không đếm được nên dùng is)\n🔍 **Error Identification:** 'None of the + danh từ không đếm được' + động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'none' tưởng là số nhiều. Mẹo: None of + không đếm được → số ít; None of + đếm được số nhiều → có thể số ít hoặc nhiều.\n💡 **Ví dụ:** None of the water is clean. / None of the apples are fresh."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The number of unemployed people are rising.",
+    "output": "✅ **Corrected Sentence:** The number of unemployed people is rising.\n🔍 **Error Identification:** 'The number of + N số nhiều' + động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'people' số nhiều nên dùng 'are'. Mẹo: 'The number of' = con số → số ít; 'A number of' = nhiều → số nhiều.\n💡 **Ví dụ:** The number of cars is increasing. / A number of cars are parked."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Physics are my favorite subject.",
+    "output": "✅ **Corrected Sentence:** Physics is my favorite subject.\n🔍 **Error Identification:** Môn học kết thúc bằng 'ics' (physics, mathematics, economics) dùng động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'physics' có 's' tưởng số nhiều. Mẹo: Các môn học, bệnh tật (measles, mumps) dùng số ít.\n💡 **Ví dụ:** Mathematics is hard. / Economics is useful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The scissors is on the table.",
+    "output": "✅ **Corrected Sentence:** The scissors are on the table.\n🔍 **Error Identification:** 'Scissors' luôn ở dạng số nhiều (cặp).\n📘 **Vietnamese Explanation:** Người Việt dịch 'cái kéo' số ít nhưng trong tiếng Anh 'scissors' luôn dùng 'are'. Mẹo: Các vật có 2 mảnh (trousers, glasses, jeans, pliers) dùng số nhiều.\n💡 **Ví dụ:** The trousers are new. / My glasses are broken."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The committee have decided to postpone.",
+    "output": "✅ **Corrected Sentence:** The committee has decided to postpone. (Anh-Anh: have nếu nghĩ là các cá nhân, nhưng phổ biến số ít)\n🔍 **Error Identification:** Danh từ tập thể 'committee' thường dùng số ít khi nói về một khối.\n📘 **Vietnamese Explanation:** Người Việt hay dùng số nhiều cho danh từ tập thể. Mẹo: Nếu hành động thống nhất → số ít; nếu hành động riêng lẻ → số nhiều.\n💡 **Ví dụ:** The team is playing well. / The team are arguing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are a book on the desk.",
+    "output": "✅ **Corrected Sentence:** There is a book on the desk.\n🔍 **Error Identification:** There + be – 'a book' số ít nên dùng 'is'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'there are' cho mọi danh từ. Mẹo: Nhìn vào danh từ ngay sau 'there' để quyết định is/are.\n💡 **Ví dụ:** There is an apple. / There are some apples."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Every morning, the birds sings.",
+    "output": "✅ **Corrected Sentence:** Every morning, the birds sing.\n🔍 **Error Identification:** 'Birds' số nhiều + sing (không 's').\n📘 **Vietnamese Explanation:** Người Việt thấy 's' ở cuối 'birds' lại thêm 's' vào 'sings' gây thừa. Mẹo: Danh từ số nhiều + động từ nguyên thể.\n💡 **Ví dụ:** The dogs bark. / The children play."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She don't know how to cook.",
+    "output": "✅ **Corrected Sentence:** She doesn't know how to cook.\n🔍 **Error Identification:** S-V agreement in negative – 'She' + doesn't.\n📘 **Vietnamese Explanation:** Lỗi phổ biến nhất: dùng don't với ngôi thứ 3. Mẹo: Lặp lại 'He doesn't, She doesn't, It doesn't' 10 lần mỗi ngày.\n💡 **Ví dụ:** He doesn't drive. / It doesn't matter."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My dog and my cat eats together.",
+    "output": "✅ **Corrected Sentence:** My dog and my cat eat together.\n🔍 **Error Identification:** Chủ ngữ số nhiều (dog + cat = they) + eat.\n📘 **Vietnamese Explanation:** Người Việt thấy mỗi con vật số ít nhưng ghép lại thành số nhiều. Mẹo: A and B + động từ số nhiều.\n💡 **Ví dụ:** Tom and Jerry fight. / Salt and pepper go together."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He always forget his homework.",
+    "output": "✅ **Corrected Sentence:** He always forgets his homework.\n🔍 **Error Identification:** S-V agreement – 'He' + forgets.\n📘 **Vietnamese Explanation:** Người Việt quên 's' dù có 'always' nhấn mạnh thói quen. Mẹo: Trạng từ tần suất không ảnh hưởng đến việc chia động từ.\n💡 **Ví dụ:** She often visits her grandma. / It usually rains here."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Does your brother plays guitar?",
+    "output": "✅ **Corrected Sentence:** Does your brother play guitar?\n🔍 **Error Identification:** Câu hỏi với 'Does' + V(nguyên thể) – 'plays' thành 'play'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'plays' vì 'brother' số ít. Mẹo: Trợ động từ 'does' đã thay thế cho việc chia.\n💡 **Ví dụ:** Does she write letters? / Does he read books?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The shop don't open on Sundays.",
+    "output": "✅ **Corrected Sentence:** The shop doesn't open on Sundays.\n🔍 **Error Identification:** 'The shop' số ít + doesn't.\n📘 **Vietnamese Explanation:** Người Việt dùng 'don't' cho mọi chủ ngữ. Mẹo: Chủ ngữ số ít (kể cả vật) → doesn't; số nhiều → don't.\n💡 **Ví dụ:** The car doesn't start. / The shops don't open."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The bus arrive at 8 AM and leave at 8:15 AM.",
+    "output": "✅ **Corrected Sentence:** The bus arrives at 8 AM and leaves at 8:15 AM.\n🔍 **Error Identification:** Cả hai động từ 'arrive' và 'leave' đều cần chia 's' vì chủ ngữ 'the bus' số ít.\n📘 **Vietnamese Explanation:** Người Việt chỉ chia động từ đầu tiên, quên động từ sau. Mẹo: Kiểm tra tất cả động từ trong câu.\n💡 **Ví dụ:** The train stops and picks up passengers."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She go to the gym every Monday and Wednesday.",
+    "output": "✅ **Corrected Sentence:** She goes to the gym every Monday and Wednesday.\n🔍 **Error Identification:** S-V agreement – 'She' + goes.\n📘 **Vietnamese Explanation:** Thói quen vào các ngày cụ thể trong tuần vẫn dùng hiện tại đơn. Mẹo: every + ngày trong tuần + hiện tại đơn, chia động từ.\n💡 **Ví dụ:** He plays soccer every Saturday. / She studies every Friday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The Earth's climate change rapidly.",
+    "output": "✅ **Corrected Sentence:** The Earth's climate changes rapidly.\n🔍 **Error Identification:** 'Climate' (số ít) + changes.\n📘 **Vietnamese Explanation:** Sự thật về khí hậu. Người Việt quên chia vì chủ ngữ dài. Mẹo: Tìm chủ ngữ chính (climate) không phải bổ ngữ (Earth's).\n💡 **Ví dụ:** The price of oil rises. / The color of the sky changes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My sister and I doesn't like the same music.",
+    "output": "✅ **Corrected Sentence:** My sister and I don't like the same music.\n🔍 **Error Identification:** Chủ ngữ số nhiều (my sister + I = we) + don't.\n📘 **Vietnamese Explanation:** Người Việt thấy 'sister' số ít nên dùng 'doesn't'. Mẹo: 'I' đi với 'do', cộng thêm 'my sister' nữa thành 'do'.\n💡 **Ví dụ:** You and he don't agree. / Tom and I don't smoke."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The news make me feel sad.",
+    "output": "✅ **Corrected Sentence:** The news makes me feel sad.\n🔍 **Error Identification:** 'News' là danh từ không đếm được, số ít → makes.\n📘 **Vietnamese Explanation:** Người Việt thấy 'news' kết thúc 's' nhưng nó số ít. Mẹo: 'News' = tin tức (không đếm được), luôn đi với động từ số ít.\n💡 **Ví dụ:** The news is good. / The news surprises everyone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "How many children does your family has?",
+    "output": "✅ **Corrected Sentence:** How many children does your family have?\n🔍 **Error Identification:** Câu hỏi với 'does' + V(nguyên thể) – 'has' thành 'have'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'has' vì 'family' số ít. Mẹo: Sau 'does' luôn là động từ nguyên thể, không chia.\n💡 **Ví dụ:** Does she have a car? / Does he have any siblings?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The police hasn't caught the thief yet.",
+    "output": "✅ **Corrected Sentence:** The police haven't caught the thief yet.\n🔍 **Error Identification:** 'Police' luôn số nhiều → haven't.\n📘 **Vietnamese Explanation:** Người Việt dùng 'hasn't' vì không có 's' ở 'police'. Mẹo: Police, people, cattle → dùng have/haven't.\n💡 **Ví dụ:** The police have arrived. / People haven't seen him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She always is kind to everyone.",
+    "output": "✅ **Corrected Sentence:** She is always kind to everyone.\n🔍 **Error Identification:** Vị trí trạng từ tần suất – 'always' sau 'is'.\n📘 **Vietnamese Explanation:** Người Việt đặt 'always' trước 'is' như 'cô ấy luôn luôn tốt'. Mẹo: To be + always/usually/often/sometimes/seldom/never.\n💡 **Ví dụ:** They are often busy. / He is never late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He go to work by bus every day.",
+    "output": "✅ **Corrected Sentence:** He goes to work by bus every day.\n🔍 **Error Identification:** S-V agreement – 'He' + goes.\n📘 **Vietnamese Explanation:** Lỗi cơ bản nhất của người Việt: quên 's' với chủ ngữ ngôi 3 số ít. Mẹo: He/She/It/ tên riêng số ít + V(s/es).\n💡 **Ví dụ:** She drinks coffee. / It works fine."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Does your mother work on weekends? - Học viên viết \'Does your mother works on weekends?\'",
+    "output": "✅ **Corrected Sentence:** Does your mother work on weekends?\n🔍 **Error Identification:** Câu hỏi với 'Does' + V(nguyên thể) – 'works' thành 'work'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'mother' số ít nên thêm 's' vào 'work'. Mẹo: Trong câu hỏi, 'does' đã làm nhiệm vụ chia thì.\n💡 **Ví dụ:** Does he need help? / Does it cost much?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The sun set in the west.",
+    "output": "✅ **Corrected Sentence:** The sun sets in the west.\n🔍 **Error Identification:** S-V agreement – 'The sun' số ít + sets.\n📘 **Vietnamese Explanation:** Sự thật địa lý hiển nhiên nhưng người Việt quên chia. Mẹo: Tất cả sự thật hiển nhiên đều chia động từ số ít nếu chủ ngữ số ít.\n💡 **Ví dụ:** The moon shines at night. / Stars twinkle."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My brother have a new job.",
+    "output": "✅ **Corrected Sentence:** My brother has a new job.\n🔍 **Error Identification:** Động từ 'have' chia thành 'has' với ngôi thứ 3 số ít.\n📘 **Vietnamese Explanation:** Người Việt dùng 'have' cho mọi ngôi. Mẹo: He/She/It + has; I/You/We/They + have.\n💡 **Ví dụ:** She has a headache. / It has four legs."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The class don't start until 8:30.",
+    "output": "✅ **Corrected Sentence:** The class doesn't start until 8:30.\n🔍 **Error Identification:** 'The class' số ít + doesn't.\n📘 **Vietnamese Explanation:** Người Việt dùng 'don't' với danh từ số ít. Mẹo: 'Class' là một tập thể, số ít → doesn't.\n💡 **Ví dụ:** The team doesn't practice today. / The group doesn't agree."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He play football very well.",
+    "output": "✅ **Corrected Sentence:** He plays football very well.\n🔍 **Error Identification:** S-V agreement – 'He' + plays.\n📘 **Vietnamese Explanation:** Người Việt hay quên 's' với động từ tận cùng bằng 'y' nhưng 'play' thì thêm 's' bình thường. Mẹo: Đa số động từ thêm 's', ngoại lệ thì học riêng.\n💡 **Ví dụ:** She swims fast. / It runs away."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie start at 7 PM, but I arrive late.",
+    "output": "✅ **Corrected Sentence:** The movie starts at 7 PM, but I arrive late.\n🔍 **Error Identification:** 'The movie' số ít + starts.\n📘 **Vietnamese Explanation:** Lịch trình rạp chiếu. Người Việt chỉ sửa một vế, quên vế kia. Mẹo: Mỗi mệnh đề có chủ ngữ riêng phải chia riêng.\n💡 **Ví dụ:** The show ends at 10 PM, and we go home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Why does they always complain?",
+    "output": "✅ **Corrected Sentence:** Why do they always complain?\n🔍 **Error Identification:** 'They' số nhiều → dùng 'do', không phải 'does'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'does' cho mọi chủ ngữ trong câu hỏi. Mẹo: 'Does' chỉ đi với số ít (he/she/it), 'do' với số nhiều (they/we/you/I).\n💡 **Ví dụ:** Why do you cry? / Why does she laugh?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Each student have to submit their homework.",
+    "output": "✅ **Corrected Sentence:** Each student has to submit their homework.\n🔍 **Error Identification:** 'Each + N số ít' + động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'student' có thể nhiều nên dùng 'have'. Mẹo: Each/every/any + N số ít → động từ số ít.\n💡 **Ví dụ:** Every child needs love. / Any student knows that."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The water in the rivers are polluted.",
+    "output": "✅ **Corrected Sentence:** The water in the rivers is polluted.\n🔍 **Error Identification:** Chủ ngữ chính 'water' không đếm được, số ít → is.\n📘 **Vietnamese Explanation:** Người Việt thấy 'rivers' số nhiều nên dùng 'are'. Mẹo: Tìm chủ ngữ chính, bỏ qua bổ ngữ (in the rivers).\n💡 **Ví dụ:** The juice in the fridge is cold. / The air in cities is dirty."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Neither John nor his friends is coming.",
+    "output": "✅ **Corrected Sentence:** Neither John nor his friends are coming.\n🔍 **Error Identification:** Quy tắc chủ ngữ gần nhất – 'friends' số nhiều → are.\n📘 **Vietnamese Explanation:** Người Việt chia theo 'John' số ít, quên quy tắc gần nhất. Mẹo: Neither A nor B → động từ chia theo B.\n💡 **Ví dụ:** Neither she nor they are ready. / Neither they nor she is ready."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The advice you gave me are very helpful.",
+    "output": "✅ **Corrected Sentence:** The advice you gave me is very helpful.\n🔍 **Error Identification:** 'Advice' là danh từ không đếm được, số ít → is.\n📘 **Vietnamese Explanation:** Người Việt thấy 'advice' có thể nhiều lời khuyên nên dùng 'are'. Mẹo: Advice, information, news, furniture → luôn số ít.\n💡 **Ví dụ:** The news is bad. / The information is useful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She never eat breakfast.",
+    "output": "✅ **Corrected Sentence:** She never eats breakfast.\n🔍 **Error Identification:** S-V agreement – 'She' + eats.\n📘 **Vietnamese Explanation:** Người Việt quên chia dù có 'never'. Mẹo: Các trạng từ phủ định (never, rarely, seldom) vẫn yêu cầu chia động từ.\n💡 **Ví dụ:** He rarely smokes. / It seldom snows here."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The store close at 6 PM on Saturdays.",
+    "output": "✅ **Corrected Sentence:** The store closes at 6 PM on Saturdays.\n🔍 **Error Identification:** S-V agreement – 'The store' + closes.\n📘 **Vietnamese Explanation:** Thói quen vào thứ 7. Người Việt quên 's'. Mẹo: on Mondays, on Sundays... vẫn chia động từ.\n💡 **Ví dụ:** The bank opens at 9 AM on weekdays. / The pool closes at 8 PM on weekends."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Do your sister live in Hanoi?",
+    "output": "✅ **Corrected Sentence:** Does your sister live in Hanoi?\n🔍 **Error Identification:** 'Your sister' số ít → dùng 'Does', không phải 'Do'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'Do' cho mọi câu hỏi. Mẹo: Hỏi về một người (sister) → Does.\n💡 **Ví dụ:** Does your mother work? / Do your parents work?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The flight leave at 10 AM tomorrow.",
+    "output": "✅ **Corrected Sentence:** The flight leaves at 10 AM tomorrow.\n🔍 **Error Identification:** Lịch trình chuyến bay – hiện tại đơn dù nói về ngày mai.\n📘 **Vietnamese Explanation:** Người Việt thấy 'tomorrow' liền dùng tương lai. Mẹo: Lịch trình cố định (chuyến bay, tàu, xe) luôn hiện tại đơn.\n💡 **Ví dụ:** The train leaves at 6 AM tomorrow. / The bus arrives at 8 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "One of my friends have a car.",
+    "output": "✅ **Corrected Sentence:** One of my friends has a car.\n🔍 **Error Identification:** 'One of + N số nhiều' + động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'friends' số nhiều nên dùng 'have'. Mẹo: 'One of' = một trong số → chủ ngữ là 'one' (số ít).\n💡 **Ví dụ:** One of the students is late. / One of the cars is red."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The team are playing well today. (đúng với Anh-Anh nhưng Anh-Mỹ thường dùng is) - Học viên viết \'The team is playing well today.\' là đúng. Nhưng lỗi sai: \'The team play well every match.\'",
+    "output": "✅ **Corrected Sentence:** The team plays well every match.\n🔍 **Error Identification:** 'The team' danh từ tập thể dùng số ít + plays (thói quen).\n📘 **Vietnamese Explanation:** Người Việt dùng 'play' vì nghĩ đội có nhiều người. Mẹo: Khi nói về một tập thể như một khối → động từ số ít.\n💡 **Ví dụ:** The band plays rock music. / The company hires new staff."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My glasses is broken.",
+    "output": "✅ **Corrected Sentence:** My glasses are broken.\n🔍 **Error Identification:** 'Glasses' (kính mắt) luôn số nhiều.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cái kính' số ít. Mẹo: Glasses, trousers, scissors, jeans → dùng are/were.\n💡 **Ví dụ:** Your jeans are nice. / The scissors are sharp."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The staff at this company is very friendly. (có thể đúng nếu coi là một tập thể) - Học viên viết \'The staff at this company are very friendly.\' cũng được. Lỗi: \'The staff work very hard\' → đúng, nhưng sai: \'The staff works very hard\' nếu muốn số ít tập thể.",
+    "output": "✅ **Corrected Sentence (Anh-Mỹ thường dùng số nhiều):** The staff are very friendly.\n🔍 **Error Identification:** 'Staff' thường dùng số nhiều khi nói về các thành viên.\n📘 **Vietnamese Explanation:** Người Việt dùng 'staff' như số ít vì không có 's'. Mẹo: Staff, faculty, public → có thể số ít hoặc nhiều tùy ý, nhưng phổ biến là số nhiều.\n💡 **Ví dụ:** The staff are helpful. / The public are angry."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is some apples on the table.",
+    "output": "✅ **Corrected Sentence:** There are some apples on the table.\n🔍 **Error Identification:** 'Apples' số nhiều → there are.\n📘 **Vietnamese Explanation:** Người Việt dùng 'there is' cho mọi danh từ. Mẹo: Nhìn danh từ phía sau: số ít → is, số nhiều → are.\n💡 **Ví dụ:** There is an orange. / There are some oranges."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She don't like to be late.",
+    "output": "✅ **Corrected Sentence:** She doesn't like to be late.\n🔍 **Error Identification:** S-V agreement negative – 'She' + doesn't.\n📘 **Vietnamese Explanation:** Lỗi 'don't' với ngôi thứ 3 rất phổ biến. Mẹo: Tạo câu 'He doesn't, She doesn't, It doesn't' thành phản xạ.\n💡 **Ví dụ:** He doesn't smoke. / It doesn't hurt."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The homework take too much time.",
+    "output": "✅ **Corrected Sentence:** The homework takes too much time.\n🔍 **Error Identification:** 'Homework' không đếm được, số ít → takes.\n📘 **Vietnamese Explanation:** Người Việt thấy 'homework' không 's' nhưng nghĩ nhiều bài nên dùng số nhiều. Mẹo: Homework luôn số ít.\n💡 **Ví dụ:** The housework is boring. / The work is hard."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Does your parents allow you to go out?",
+    "output": "✅ **Corrected Sentence:** Do your parents allow you to go out?\n🔍 **Error Identification:** 'Parents' số nhiều → do, không phải does.\n📘 **Vietnamese Explanation:** Người Việt dùng 'does' với danh từ có 's' ở cuối. Mẹo: 'Parents' là bố mẹ (2 người) → dùng 'do'.\n💡 **Ví dụ:** Do your friends help you? / Does your friend help you?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The earth rotate around the sun.",
+    "output": "✅ **Corrected Sentence:** The earth rotates around the sun.\n🔍 **Error Identification:** S-V agreement – 'The earth' số ít + rotates.\n📘 **Vietnamese Explanation:** Sự thật khoa học cơ bản nhưng người Việt quên chia. Mẹo: Mọi sự thật hiển nhiên đều chia động từ số ít nếu chủ ngữ số ít.\n💡 **Ví dụ:** The moon orbits the earth. / The sun rises."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My uncle always watch the news at 7 PM.",
+    "output": "✅ **Corrected Sentence:** My uncle always watches the news at 7 PM.\n🔍 **Error Identification:** S-V agreement – 'My uncle' + watches.\n📘 **Vietnamese Explanation:** Thói quen xem tin tức. Người Việt quên 'es' với 'watch'. Mẹo: Động từ kết thúc 'ch' thêm 'es'.\n💡 **Ví dụ:** She teaches math. / He catches the ball."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The concert start at 8 PM. Don't be late!",
+    "output": "✅ **Corrected Sentence:** The concert starts at 8 PM. Don't be late!\n🔍 **Error Identification:** Lịch trình buổi hòa nhạc – hiện tại đơn, chủ ngữ số ít + starts.\n📘 **Vietnamese Explanation:** Người Việt quên 's' ở 'start'. Mẹo: Sự kiện có giờ cố định (concert, show, match) dùng hiện tại đơn, chia động từ.\n💡 **Ví dụ:** The match begins at 3 PM. / The ceremony ends at 9 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What time does the movie starts?",
+    "output": "✅ **Corrected Sentence:** What time does the movie start?\n🔍 **Error Identification:** Câu hỏi với 'does' + V(nguyên thể) – 'starts' thành 'start'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'starts' vì 'the movie' số ít. Mẹo: 'Does' đã thay thế cho 's', nên động từ chính bỏ 's'.\n💡 **Ví dụ:** What time does the class begin? / When does the train leave?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The dog and the cat is sleeping.",
+    "output": "✅ **Corrected Sentence:** The dog and the cat are sleeping.\n🔍 **Error Identification:** Chủ ngữ số nhiều (dog + cat = they) + are.\n📘 **Vietnamese Explanation:** Người Việt thấy 'the dog' số ít nên dùng 'is', quên 'and the cat'. Mẹo: A and B + động từ số nhiều.\n💡 **Ví dụ:** Tom and Jerry are friends. / The book and the pen are on the desk."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She study English every day.",
+    "output": "✅ **Corrected Sentence:** She studies English every day.\n🔍 **Error Identification:** 'Study' kết thúc bằng 'y' trước phụ âm 'd' → bỏ 'y' thêm 'ies'.\n📘 **Vietnamese Explanation:** Người Việt quên quy tắc y→ies. Mẹo: Phụ âm + y → ies (studies, cries, flies).\n💡 **Ví dụ:** He tries his best. / She carries a bag."
+  }
+]

@@ -9,6 +9,62 @@
       @close="unlockModal.show = false"
     />
 
+    <!-- Chapter completion modal -->
+    <Transition name="chapter-burst">
+      <div v-if="chapterModal.show" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/72 p-4 backdrop-blur-sm">
+        <div class="chapter-complete-card relative w-full max-w-md overflow-hidden rounded-[2rem] text-center shadow-2xl">
+          <div class="chapter-complete-orb chapter-complete-orb-left"></div>
+          <div class="chapter-complete-orb chapter-complete-orb-right"></div>
+          <div class="chapter-complete-spark chapter-complete-spark-a">✦</div>
+          <div class="chapter-complete-spark chapter-complete-spark-b">✦</div>
+          <div class="chapter-complete-spark chapter-complete-spark-c">✦</div>
+
+          <div class="relative px-7 pt-8 pb-7">
+            <div class="chapter-complete-emblem mx-auto mb-4">
+              <span>🏆</span>
+            </div>
+
+            <div class="inline-flex items-center gap-2 rounded-full px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.22em] chapter-complete-pill">
+              <span>Chapter Complete</span>
+            </div>
+
+            <h2 class="mt-4 text-[1.65rem] font-extrabold leading-tight" style="color:#fff">Bạn đã chốt xong chương này</h2>
+
+            <p class="mt-3 text-sm leading-6 chapter-complete-copy">
+              Toàn bộ bài học trong
+              <strong class="font-bold text-white">{{ chapterModal.chapterTitle }}</strong>
+              đã được hoàn thành. Phần tiếp theo đã sẵn sàng để tiếp tục.
+            </p>
+
+            <div class="mt-6 grid grid-cols-2 gap-3 text-left">
+              <div class="chapter-complete-stat">
+                <div class="text-[11px] font-semibold uppercase tracking-[0.18em] chapter-complete-stat-label">Điểm trung bình</div>
+                <div class="mt-2 text-3xl font-extrabold text-white">{{ chapterAverageLabel }}</div>
+              </div>
+              <div class="chapter-complete-stat">
+                <div class="text-[11px] font-semibold uppercase tracking-[0.18em] chapter-complete-stat-label">Trạng thái</div>
+                <div class="mt-3 inline-flex items-center rounded-full px-3 py-1 text-sm font-semibold chapter-complete-chip">
+                  Đã mở phần tiếp theo
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6 flex flex-col gap-3">
+              <button @click="chapterModal.show = false; goToCourseDetail()"
+                      class="w-full rounded-2xl px-5 py-3.5 text-sm font-semibold text-white transition hover:opacity-95 chapter-complete-button">
+                Xem tiến độ chương tiếp theo →
+              </button>
+              <button @click="chapterModal.show = false"
+                      class="w-full rounded-2xl px-5 py-3 text-sm font-semibold transition hover:opacity-85"
+                      style="background:rgba(255,255,255,0.08);color:rgba(255,255,255,0.86);border:1px solid rgba(255,255,255,0.12)">
+                Ở lại xem kết quả
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Transition>
+
     <!-- Breadcrumb header -->
     <div class="flex items-center gap-2 mb-8 text-sm" style="color:var(--color-text-muted)">
       <RouterLink to="/dashboard" class="transition hover:opacity-80"
@@ -65,6 +121,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { progressApi } from '@/api/progress.js'
 import ExerciseResult from '@/components/exercise/ExerciseResult.vue'
 import UnlockModal from '@/components/UnlockModal.vue'
+import { writeCourseRefreshMarker } from '@/utils/courseProgressRefresh.js'
 
 const route = useRoute()
 const router = useRouter()
@@ -80,6 +137,7 @@ const pollTimer = ref(null)
 
 // Unlock modal state
 const unlockModal = reactive({ show: false, lessonTitle: '', xpGained: 0 })
+const chapterModal = reactive({ show: false, chapterTitle: '', avgScore: 0 })
 
 const score = computed(() => {
   if (!resultData.value) return null
@@ -169,6 +227,11 @@ const feedbackText = computed(() => resultData.value?.feedback_vi || resultData.
 const errorList = computed(() => resultData.value?.error_list_json || [])
 const exerciseId = computed(() => resultData.value?.exercise_id || null)
 const submissionIdDisplay = computed(() => `#${submissionId.value}`)
+const chapterAverageLabel = computed(() => {
+  const raw = Number(chapterModal.avgScore ?? 0)
+  if (!Number.isFinite(raw)) return '0'
+  return raw.toFixed(1).replace(/\.0$/, '')
+})
 
 // ── Props for ExerciseResult component ───────────────────────────────────────
 const resultScore = computed(() => score.value ?? 0)
@@ -243,19 +306,43 @@ async function fetchResultOnce() {
   }
 }
 
+function handleCompletedResultState() {
+  if (resultData.value?.course_id) {
+    writeCourseRefreshMarker({
+      course_id: resultData.value.course_id,
+      chapter_id: resultData.value.chapter_id,
+      next_lesson_id: resultData.value.next_lesson_id,
+      chapter_completed: resultData.value.chapter_completed,
+      chapter_title: resultData.value.chapter_title,
+      chapter_avg_score: resultData.value.chapter_avg_score,
+    })
+  }
+
+  if (resultData.value?.chapter_completed) {
+    chapterModal.chapterTitle = resultData.value.chapter_title || 'Chương này'
+    chapterModal.avgScore = resultData.value.chapter_avg_score ?? 0
+    chapterModal.show = true
+    unlockModal.show = false
+    return
+  }
+
+  if (resultData.value?.next_lesson_id) {
+    const exType = resultData.value?.next_exercise_type || 'listening'
+    const typeLabels = { listening: 'Listening', speaking: 'Speaking', reading: 'Reading', writing: 'Writing', vocabulary: 'Lesson', grammar: 'Lesson', assessment: 'Lesson' }
+    unlockModal.lessonTitle = `Bài ${typeLabels[exType] || exType} tiếp theo đã mở khóa!`
+    unlockModal.xpGained = 0
+    unlockModal.show = true
+  }
+}
+
 async function fetchResult() {
   loading.value = true
   try {
     await fetchResultOnce()
     if (!isListeningOrReading.value && status.value !== 'completed') {
       startPolling()
-    } else if (resultData.value?.next_lesson_id) {
-      // Show unlock modal when the next lesson is available (just unlocked)
-      const exType = resultData.value?.next_exercise_type || 'listening'
-      const typeLabels = { listening: 'Listening', speaking: 'Speaking', reading: 'Reading', writing: 'Writing' }
-      unlockModal.lessonTitle = `Bài ${typeLabels[exType] || exType} tiếp theo đã mở khóa!`
-      unlockModal.xpGained = 0
-      unlockModal.show = true
+    } else {
+      handleCompletedResultState()
     }
   } catch (e) {
     error.value = e?.response?.data?.detail || 'Không thể tải kết quả.'
@@ -271,6 +358,9 @@ function startPolling() {
       await fetchResultOnce()
       if (status.value === 'completed' || status.value === 'failed') {
         stopPolling()
+        if (status.value === 'completed') {
+          handleCompletedResultState()
+        }
       }
     } catch (e) {
       // keep polling; optionally log
@@ -283,6 +373,25 @@ function stopPolling() {
     clearInterval(pollTimer.value)
     pollTimer.value = null
   }
+}
+
+function goToCourses() {
+  router.push('/courses')
+}
+
+function goToCourseDetail() {
+  if (resultData.value?.course_id) {
+    router.push({
+      name: 'course-detail',
+      params: { id: resultData.value.course_id },
+      query: {
+        refresh: String(Date.now()),
+        chapter: String(resultData.value?.chapter_id || ''),
+      },
+    })
+    return
+  }
+  goToCourses()
 }
 
 function retry() {
@@ -304,6 +413,8 @@ function goNextLesson() {
       params: { id: exId },
       query: lessonId ? { lesson_id: lessonId } : undefined,
     })
+  } else if (lessonId) {
+    router.push({ name: 'lesson-detail', params: { id: lessonId } })
   } else {
     router.push('/dashboard')
   }
@@ -318,4 +429,134 @@ onBeforeUnmount(stopPolling)
 </script>
 
 <style scoped>
+.chapter-complete-card {
+  background:
+    radial-gradient(circle at top, rgba(255,255,255,0.14), transparent 34%),
+    linear-gradient(160deg, #312e81 0%, #5b21b6 46%, #7c3aed 100%);
+  border: 1px solid rgba(255,255,255,0.14);
+}
+
+.chapter-complete-orb {
+  position: absolute;
+  width: 13rem;
+  height: 13rem;
+  border-radius: 9999px;
+  filter: blur(18px);
+  opacity: 0.38;
+}
+
+.chapter-complete-orb-left {
+  top: -4rem;
+  left: -3rem;
+  background: rgba(251, 191, 36, 0.4);
+}
+
+.chapter-complete-orb-right {
+  right: -3.5rem;
+  bottom: -4rem;
+  background: rgba(125, 211, 252, 0.28);
+}
+
+.chapter-complete-emblem {
+  width: 5.5rem;
+  height: 5.5rem;
+  display: grid;
+  place-items: center;
+  font-size: 2.4rem;
+  border-radius: 9999px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.28), rgba(255,255,255,0.08));
+  border: 1px solid rgba(255,255,255,0.22);
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.35);
+  animation: chapter-crown-bob 2.2s ease-in-out infinite;
+}
+
+.chapter-complete-pill {
+  background: rgba(255,255,255,0.12);
+  color: rgba(255,255,255,0.8);
+  border: 1px solid rgba(255,255,255,0.14);
+}
+
+.chapter-complete-copy {
+  color: rgba(255,255,255,0.84);
+}
+
+.chapter-complete-stat {
+  background: rgba(15,23,42,0.18);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 1.2rem;
+  padding: 1rem;
+  backdrop-filter: blur(6px);
+}
+
+.chapter-complete-stat-label {
+  color: rgba(255,255,255,0.62);
+}
+
+.chapter-complete-chip {
+  background: rgba(250,204,21,0.14);
+  color: #fef08a;
+  border: 1px solid rgba(250,204,21,0.24);
+}
+
+.chapter-complete-button {
+  background: linear-gradient(135deg, #f59e0b, #fb7185);
+  box-shadow: 0 16px 35px rgba(244, 114, 182, 0.28);
+}
+
+.chapter-complete-spark {
+  position: absolute;
+  color: rgba(255,255,255,0.82);
+  animation: chapter-sparkle 2s ease-in-out infinite;
+}
+
+.chapter-complete-spark-a {
+  top: 1.4rem;
+  left: 1.8rem;
+  font-size: 1rem;
+}
+
+.chapter-complete-spark-b {
+  top: 4.2rem;
+  right: 2.1rem;
+  font-size: 1.2rem;
+  animation-delay: .35s;
+}
+
+.chapter-complete-spark-c {
+  bottom: 6rem;
+  left: 2.6rem;
+  font-size: 0.95rem;
+  animation-delay: .7s;
+}
+
+.chapter-burst-enter-active,
+.chapter-burst-leave-active {
+  transition: opacity .34s ease;
+}
+
+.chapter-burst-enter-active .chapter-complete-card,
+.chapter-burst-leave-active .chapter-complete-card {
+  transition: transform .44s cubic-bezier(.22,1,.36,1), opacity .34s ease;
+}
+
+.chapter-burst-enter-from,
+.chapter-burst-leave-to {
+  opacity: 0;
+}
+
+.chapter-burst-enter-from .chapter-complete-card,
+.chapter-burst-leave-to .chapter-complete-card {
+  opacity: 0;
+  transform: translateY(1rem) scale(.92) rotate(-1.2deg);
+}
+
+@keyframes chapter-crown-bob {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-0.35rem) scale(1.02); }
+}
+
+@keyframes chapter-sparkle {
+  0%, 100% { transform: translateY(0) scale(.85); opacity: 0.45; }
+  50% { transform: translateY(-0.35rem) scale(1.1); opacity: 1; }
+}
 </style>

@@ -1,11 +1,12 @@
 """
 App: grammar
-Models: GrammarTopic, GrammarRule, GrammarExample
+Models: GrammarChapter, GrammarTopic, GrammarRule, GrammarExample
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Hierarchy:
-  GrammarTopic (e.g. "Present Simple Tense")
-    └── GrammarRule  (e.g. "Affirmative Form")
-          └── GrammarExample (e.g. "She goes to school every day.")
+  GrammarChapter  (e.g. "Present tenses")
+    └── GrammarTopic (e.g. "Present Simple Tense")
+          └── GrammarRule  (e.g. "Affirmative Form")
+                └── GrammarExample (e.g. "She goes to school every day.")
 
 Design: Ported from grammar-trichxuat-notebooklm.md with
         additional curriculum linking.
@@ -26,6 +27,38 @@ CEFR_CHOICES = [
 ]
 
 
+class GrammarChapter(models.Model):
+    """
+    A category grouping for GrammarTopics within a CEFR level.
+    Derived from Heading 3 sections of the source DOCX.
+    Examples: A1 → "Present tenses", "Past tenses", "Future"
+    """
+    name  = models.CharField(max_length=200, help_text="Tên chương (VD: Present tenses)")
+    slug  = models.SlugField(max_length=220, db_index=True)
+    level = models.CharField(max_length=2, choices=CEFR_CHOICES, default="A1", db_index=True)
+    order = models.PositiveIntegerField(default=0)
+    description = models.TextField(blank=True)
+    icon  = models.CharField(max_length=50, default="📚")
+
+    class Meta:
+        db_table = "grammar_chapter"
+        unique_together = [("level", "slug")]
+        ordering = ["level", "order"]
+        indexes = [
+            models.Index(fields=["level", "order"]),
+        ]
+        verbose_name = "Chương Ngữ pháp"
+        verbose_name_plural = "Danh sách Chương Ngữ pháp"
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = slugify(self.name)[:220]
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return f"[{self.level}] {self.name}"
+
+
 class GrammarTopic(models.Model):
     """
     Top-level grammar unit (1 Lesson = 1 Topic).
@@ -36,10 +69,12 @@ class GrammarTopic(models.Model):
     title = models.CharField(max_length=200, help_text="Tên chủ đề (VD: Present Simple Tense)")
     slug = models.SlugField(max_length=220, unique=True, db_index=True)
     level = models.CharField(max_length=2, choices=CEFR_CHOICES, default="A1", db_index=True)
-    chapter = models.CharField(
-        max_length=200, blank=True, default="",
-        db_index=True,
-        help_text="Tên chương (VD: 'Thì cơ bản', 'Modal Verbs'). Dùng để nhóm các topic trên UI.",
+    chapter = models.ForeignKey(
+        "GrammarChapter",
+        on_delete=models.SET_NULL,
+        null=True, blank=True,
+        related_name="topics",
+        help_text="Chương phân loại chủ đề (VD: Present tenses).",
     )
     order = models.PositiveIntegerField(default=0, db_index=True)
     is_published = models.BooleanField(default=True, db_index=True)
@@ -64,6 +99,26 @@ class GrammarTopic(models.Model):
     )
 
     # ── Pedagogical enrichment ────────────────────────────────────────────────
+    metaphor_title = models.CharField(
+        max_length=200, blank=True,
+        verbose_name="Tiêu đề ẩn dụ",
+        help_text="VD: Chiếc cầu nối giữa Quá khứ và Hiện tại",
+    )
+    narrative_intro = models.TextField(
+        blank=True,
+        verbose_name="Lời dẫn dắt",
+        help_text="Lời mở đầu dẫn dắt, giải thích 'Tại sao' thì này tồn tại.",
+    )
+    quick_vibe = models.CharField(
+        max_length=255, blank=True,
+        verbose_name="Thần chú",
+        help_text="Câu chốt 'thần chú' để nhớ thì (VD: Không cần biết khi nào, chỉ cần biết đã xong).",
+    )
+    concept_image_url = models.URLField(
+        blank=True, null=True,
+        verbose_name="Ảnh minh họa khái niệm",
+        help_text="Link ảnh minh họa cho khái niệm ẩn dụ (Concept Art).",
+    )
     analogy = models.TextField(
         blank=True,
         verbose_name="Phép ẩn dụ (Analogy)",
@@ -83,6 +138,28 @@ class GrammarTopic(models.Model):
         help_text="Câu thần chú ngắn để nhớ toàn bộ chủ đề.",
     )
 
+    # ── Extended pedagogical fields ───────────────────────────────────────────
+    signal_words = models.JSONField(
+        default=list, blank=True,
+        verbose_name="Dấu hiệu nhận biết",
+        help_text="Danh sách từ/cụm từ dấu hiệu nhận biết (VD: ['now', 'at the moment', 'these days']).",
+    )
+    common_mistakes = models.JSONField(
+        default=list, blank=True,
+        verbose_name="Lỗi thường gặp",
+        help_text="Danh sách lỗi thường gặp. Mỗi item: {wrong, correct, explanation}.",
+    )
+    comparison_with = models.JSONField(
+        default=list, blank=True,
+        verbose_name="Phân biệt",
+        help_text="So sánh với thì/cấu trúc dễ nhầm lẫn: {title, difference, examples}.",
+    )
+    notes = models.JSONField(
+        default=list, blank=True,
+        verbose_name="Ghi chú bổ sung",
+        help_text="Danh sách ghi chú/tips bổ sung cho chủ đề. Mỗi item: {text, type} với type: 'tip'|'warning'|'info'.",
+    )
+
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
@@ -91,7 +168,6 @@ class GrammarTopic(models.Model):
         ordering = ["level", "order"]
         indexes = [
             models.Index(fields=["level", "order"]),
-            models.Index(fields=["level", "chapter", "order"]),
             models.Index(fields=["level", "is_published"]),
         ]
         verbose_name = "Chủ đề Ngữ pháp"
@@ -134,6 +210,11 @@ class GrammarRule(models.Model):
         help_text="Đánh dấu nếu đây là ngoại lệ (hiển thị cảnh báo đỏ trên UI).",
     )
     order = models.PositiveIntegerField(default=0)
+    grammar_table = models.JSONField(
+        default=dict, blank=True,
+        verbose_name="Bảng ngữ pháp",
+        help_text="Bảng chia động từ/so sánh dạng responsive. {headers: [...], rows: [[...]]}",
+    )
 
     class Meta:
         db_table = "grammar_rule"
@@ -169,6 +250,10 @@ class GrammarExample(models.Model):
     audio_url = models.URLField(
         blank=True, null=True,
         help_text="Link file âm thanh (S3 key hoặc URL CDN).",
+    )
+    is_correct = models.BooleanField(
+        default=True,
+        help_text="True = câu đúng (✓), False = câu sai (✗) dùng để minh họa lỗi.",
     )
 
     class Meta:

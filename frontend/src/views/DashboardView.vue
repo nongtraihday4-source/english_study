@@ -200,7 +200,7 @@
       <!-- Row 4: CumulativeScore table (all levels) -->
       <div
         v-if="dashboard.cumulativeScores().length > 1"
-        class="rounded-2xl p-5"
+        class="rounded-2xl p-5 mb-6"
         style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)"
       >
         <h3 class="text-sm font-semibold mb-4" style="color: var(--color-text-base)">Điểm tổng hợp theo cấp độ</h3>
@@ -231,6 +231,49 @@
           </table>
         </div>
       </div>
+
+      <!-- Row 5: Bài tập được giao (only for students, not teachers/admins) -->
+      <div
+        v-if="!auth.isTeacher && myAssignments.length"
+        class="rounded-2xl p-5"
+        style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)"
+      >
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-sm font-semibold" style="color: var(--color-text-base)">📋 Bài tập được giao</h3>
+          <span class="text-xs px-2 py-0.5 rounded-full font-semibold"
+            style="background-color:rgba(99,102,241,0.15);color:#818cf8"
+          >{{ myAssignments.length }}</span>
+        </div>
+        <div class="space-y-2">
+          <div
+            v-for="a in myAssignments" :key="a.id"
+            class="flex items-center gap-3 rounded-xl px-4 py-3"
+            style="background-color: var(--color-surface-03)"
+          >
+            <div class="flex-1 min-w-0">
+              <p class="text-sm font-medium truncate" style="color: var(--color-text-base)">{{ a.title }}</p>
+              <p class="text-xs truncate" style="color: var(--color-text-muted)">
+                {{ a.course_title }} · {{ a.exam_set_title }}
+              </p>
+            </div>
+            <div class="shrink-0 text-right">
+              <p class="text-xs font-semibold"
+                :style="a.is_overdue ? 'color:#f87171' : 'color:var(--color-text-soft)'"
+              >
+                {{ a.is_overdue ? '⚠ Quá hạn' : 'Hạn:' }}
+                {{ fmtDate(a.due_date) }}
+              </p>
+              <RouterLink
+                :to="`/exercise/exam/${a.exam_set_id}`"
+                class="text-xs font-bold hover:underline"
+                style="color: var(--color-primary-400)"
+              >
+                Làm bài →
+              </RouterLink>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -241,6 +284,7 @@ import { useAuthStore } from '@/stores/auth.js'
 import { useDashboardStore } from '@/stores/dashboard.js'
 import { fmtDate, fmtScore } from '@/utils/formatters.js'
 import { teacherApi } from '@/api/teacher.js'
+import { progressApi } from '@/api/progress.js'
 import StreakCard from '@/components/dashboard/StreakCard.vue'
 import XPCard from '@/components/dashboard/XPCard.vue'
 import SkillRadar from '@/components/dashboard/SkillRadar.vue'
@@ -269,6 +313,16 @@ function loadTeacherStats() {
     .finally(() => { teacherStatsLoading.value = false })
 }
 
+// ── Student: my assignments ────────────────────────────────────────────────
+const myAssignments = ref([])
+
+function loadMyAssignments() {
+  if (auth.isTeacher) return   // teachers don't need this section
+  progressApi.getMyAssignments()
+    .then(res => { myAssignments.value = res.data?.results ?? [] })
+    .catch(() => {})
+}
+
 // Re-load teacher stats whenever isTeacher flips to true
 // (handles the case where role was updated in Django admin mid-session)
 watch(() => auth.isTeacher, (val) => {
@@ -281,6 +335,7 @@ onMounted(async () => {
   await auth.refreshUser()
   dashboard.fetch()
   if (auth.isTeacher) loadTeacherStats()
+  else loadMyAssignments()
 })
 
 // Display computed

@@ -1,0 +1,482 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Me and my friend went to the cinema.",
+    "output": "✅ **Corrected Sentence:** My friend and I went to the cinema.\n🔍 **Error Identification:** Lỗi đại từ nhân xưng – dùng 'me' (tân ngữ) thay vì 'I' (chủ ngữ).\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi và bạn tôi' thành 'me and my friend' vì 'tôi' đứng sau động từ trong tiếng Việt. Mẹo: Khi là chủ ngữ, dùng 'I, he, she, we, they'; đặt người khác lên trước.\n💡 **Ví dụ:** She and I are friends. / Tom and I play soccer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Him is a doctor.",
+    "output": "✅ **Corrected Sentence:** He is a doctor.\n🔍 **Error Identification:** Dùng 'him' (tân ngữ) thay vì 'he' (chủ ngữ).\n📘 **Vietnamese Explanation:** Người Việt nhầm 'him' và 'he' vì tiếng Việt không phân biệt. Mẹo: Chủ ngữ (làm chủ hành động) → I, you, he, she, it, we, they.\n💡 **Ví dụ:** She is a teacher. / They are students."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Please give the book to I.",
+    "output": "✅ **Corrected Sentence:** Please give the book to me.\n🔍 **Error Identification:** Dùng 'I' (chủ ngữ) thay vì 'me' (tân ngữ) sau giới từ 'to'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cho tôi' thành 'to I'. Mẹo: Sau giới từ (to, for, with, by) hoặc động từ, dùng tân ngữ: me, him, her, us, them.\n💡 **Ví dụ:** She gave it to him. / This is for her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Everyone are happy.",
+    "output": "✅ **Corrected Sentence:** Everyone is happy.\n🔍 **Error Identification:** Đại từ bất định 'everyone' luôn đi với động từ số ít (is), không dùng 'are'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'everyone' chỉ nhiều người nên dùng 'are'. Mẹo: 'Everyone, somebody, nobody, anybody' + động từ số ít.\n💡 **Ví dụ:** Someone is at the door. / Nobody knows the answer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She cut herself with a knife. (câu đúng) - Học viên viết \'She cut her with a knife.\'",
+    "output": "✅ **Corrected Sentence:** She cut herself with a knife.\n🔍 **Error Identification:** Thiếu đại từ phản thân – hành động tác động lại chính chủ ngữ, cần 'herself', không phải 'her'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cô ấy cắt cô ấy' thành 'cut her'. Mẹo: Hành động tự làm lên bản thân → myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.\n💡 **Ví dụ:** He hurt himself. / We enjoyed ourselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can do it by me.",
+    "output": "✅ **Corrected Sentence:** I can do it by myself.\n🔍 **Error Identification:** 'By + đại từ phản thân' (by myself), không dùng 'by me'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tự tôi' thành 'by me'. Mẹo: 'By + myself/yourself/himself/herself/itself/ourselves/yourselves/themselves'.\n💡 **Ví dụ:** She did it by herself. / They built the house by themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Somebody have left their bag.",
+    "output": "✅ **Corrected Sentence:** Somebody has left their bag. (hoặc his/her bag)\n🔍 **Error Identification:** 'Somebody' là đại từ bất định số ít → dùng 'has', không dùng 'have'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'somebody' chỉ một ai đó nhưng tưởng số nhiều. Mẹo: 'Somebody, someone, anybody, anyone, nobody, no one, everybody, everyone' + động từ số ít.\n💡 **Ví dụ:** Anyone is welcome. / Nobody has arrived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know nothing about it.",
+    "output": "✅ **Corrected Sentence:** I don't know anything about it. (hoặc I know nothing)\n🔍 **Error Identification:** Lỗi kép phủ định (double negative) – 'don't' và 'nothing' cùng nhau.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi không biết gì cả' thành 'don't know nothing'. Mẹo: Trong tiếng Anh, chỉ dùng một phủ định.\n💡 **Ví dụ:** I don't have any money. / She didn't see anyone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She looked at herself in the mirror. (câu đúng) - Học viên viết \'She looked at her in the mirror.\'",
+    "output": "✅ **Corrected Sentence:** She looked at herself in the mirror.\n🔍 **Error Identification:** Hành động hướng về chính chủ ngữ → dùng đại từ phản thân 'herself'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'her' (tân ngữ) thay vì 'herself'. Mẹo: Khi chủ ngữ và tân ngữ là một, dùng đại từ phản thân.\n💡 **Ví dụ:** He introduced himself. / They blamed themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Is there something to eat?",
+    "output": "✅ **Corrected Sentence:** Is there anything to eat?\n🔍 **Error Identification:** Trong câu hỏi, dùng 'anything' thay vì 'something'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'something' trong câu hỏi vì tiếng Việt không phân biệt. Mẹo: Câu hỏi và câu phủ định → dùng 'anything, anyone, anybody'.\n💡 **Ví dụ:** Do you have any questions? / Is there anyone home?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Her and me are going to the party.",
+    "output": "✅ **Corrected Sentence:** She and I are going to the party.\n🔍 **Error Identification:** Dùng tân ngữ (her, me) làm chủ ngữ → phải dùng 'she' và 'I'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cô ấy và tôi' thành 'her and me'. Mẹo: Chủ ngữ = người thực hiện hành động → dùng I, you, he, she, we, they.\n💡 **Ví dụ:** He and I are friends. / She and they will come."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Between you and I, this is a secret.",
+    "output": "✅ **Corrected Sentence:** Between you and me, this is a secret.\n🔍 **Error Identification:** Sau giới từ 'between', dùng tân ngữ (me), không dùng chủ ngữ (I).\n📘 **Vietnamese Explanation:** Người Việt nhầm vì 'I' nghe 'trang trọng' hơn. Mẹo: Sau giới từ (to, for, with, between, from) → dùng me, him, her, us, them.\n💡 **Ví dụ:** This is between him and her. / From us to them."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Nobody are perfect.",
+    "output": "✅ **Corrected Sentence:** Nobody is perfect.\n🔍 **Error Identification:** 'Nobody' là đại từ bất định số ít → dùng 'is', không dùng 'are'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'nobody' chỉ nhiều người? Mẹo: 'Nobody, somebody, anybody, everybody' + động từ số ít.\n💡 **Ví dụ:** Everybody is here. / Somebody is calling."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He made this cake hisself.",
+    "output": "✅ **Corrected Sentence:** He made this cake himself.\n🔍 **Error Identification:** 'Hisself' không tồn tại, đúng là 'himself'.\n📘 **Vietnamese Explanation:** Người Việt nghĩ 'his' + 'self' = 'hisself'. Mẹo: Học thuộc: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.\n💡 **Ví dụ:** She did it herself. / They fixed it themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have something to tell you. (câu đúng trong câu khẳng định) - Học viên viết \'I have anything to tell you.\'",
+    "output": "✅ **Corrected Sentence:** I have something to tell you.\n🔍 **Error Identification:** Trong câu khẳng định, dùng 'something', không dùng 'anything'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'anything' trong câu khẳng định vì nghĩ 'bất cứ điều gì'. Mẹo: Khẳng định → something, someone, somebody; phủ định/câu hỏi → anything, anyone, anybody.\n💡 **Ví dụ:** I need someone to help me. / Do you need anything?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They enjoyed themself at the party.",
+    "output": "✅ **Corrected Sentence:** They enjoyed themselves at the party.\n🔍 **Error Identification:** 'Themself' không đúng, số nhiều 'they' đi với 'themselves'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'themself' cho số nhiều. Mẹo: Số ít → himself/herself/itself; số nhiều → themselves.\n💡 **Ví dụ:** We enjoyed ourselves. / You should behave yourselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Me and him are classmates.",
+    "output": "✅ **Corrected Sentence:** He and I are classmates.\n🔍 **Error Identification:** Dùng 'me' và 'him' (tân ngữ) làm chủ ngữ.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi và anh ấy' thành 'me and him'. Mẹo: Chủ ngữ: I, you, he, she, it, we, they.\n💡 **Ví dụ:** She and I are sisters. / He and they are working."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Someone left their umbrella. (câu đúng, dùng 'their' để tránh giới tính) - Học viên viết \'Someone left his umbrella.\' (nếu không rõ giới tính)",
+    "output": "✅ **Corrected Sentence:** Someone left their umbrella. (hoặc his/her)\n🔍 **Error Identification:** Dùng 'their' cho đại từ bất định khi không rõ giới tính là phổ biến và được chấp nhận.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'his' cho mọi trường hợp. Mẹo: 'Someone, everybody, nobody' + their (singular they) rất phổ biến.\n💡 **Ví dụ:** Everybody should bring their own lunch. / No one forgot their keys."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I hurt me when I fell.",
+    "output": "✅ **Corrected Sentence:** I hurt myself when I fell.\n🔍 **Error Identification:** Hành động tự làm lên bản thân → dùng đại từ phản thân 'myself'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'me' (tân ngữ) thay vì 'myself'. Mẹo: Chủ ngữ 'I' → tân ngữ là bản thân → myself.\n💡 **Ví dụ:** She taught herself to play piano. / We introduced ourselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is nothing to worry about. (câu đúng) - Học viên viết \'There is anything to worry about.\'",
+    "output": "✅ **Corrected Sentence:** There is nothing to worry about.\n🔍 **Error Identification:** 'Anything' trong câu khẳng định mang nghĩa 'bất cứ điều gì', không phải 'không có gì'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'anything' để nói 'không có gì' – sai. Mẹo: Phủ định + anything = nothing. 'Nothing' là phủ định rõ ràng.\n💡 **Ví dụ:** I have nothing to say. / There's nothing in the fridge."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Give the book to she.",
+    "output": "✅ **Corrected Sentence:** Give the book to her.\n🔍 **Error Identification:** Sau giới từ 'to' dùng tân ngữ 'her', không dùng 'she'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cho cô ấy' thành 'to she'. Mẹo: To/for/with + me, him, her, us, them.\n💡 **Ví dụ:** I spoke to him. / She went with them."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The dog hurt itself. (câu đúng) - Học viên viết \'The dog hurt it.\'",
+    "output": "✅ **Corrected Sentence:** The dog hurt itself.\n🔍 **Error Identification:** Hành động tự làm lên bản thân → dùng 'itself', không dùng 'it'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'it' thay vì 'itself'. Mẹo: Vật nuôi, động vật có thể dùng phản thân.\n💡 **Ví dụ:** The cat washed itself. / The bird hurt itself."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Someone are waiting for you.",
+    "output": "✅ **Corrected Sentence:** Someone is waiting for you.\n🔍 **Error Identification:** 'Someone' số ít → dùng 'is', không dùng 'are'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'someone' chỉ người nhưng tưởng số nhiều. Mẹo: 'Someone, anybody, nobody, everybody' + động từ số ít.\n💡 **Ví dụ:** Anyone is welcome. / Nobody is perfect."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Please help yourself to some coffee. (câu đúng) - Học viên viết \'Please help you to some coffee.\'",
+    "output": "✅ **Corrected Sentence:** Please help yourself to some coffee.\n🔍 **Error Identification:** 'Help yourself' là cấu trúc cố định với đại từ phản thân.\n📘 **Vietnamese Explanation:** Người Việt dùng 'help you' thay vì 'help yourself'. Mẹo: 'Help yourself' = tự phục vụ.\n💡 **Ví dụ:** Make yourself at home. / Enjoy yourselves at the party."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Did anyone called me?",
+    "output": "✅ **Corrected Sentence:** Did anyone call me?\n🔍 **Error Identification:** Sau 'did', động từ ở dạng nguyên thể (call), không chia 'called'.\n📘 **Vietnamese Explanation:** Người Việt chia động từ sau 'anyone' và 'did' cùng lúc. Mẹo: 'Did' + S + V(nguyên thể). 'Anyone' là chủ ngữ, không ảnh hưởng đến dạng động từ sau 'did'.\n💡 **Ví dụ:** Did anyone see you? / Did somebody help her?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't find my keys nowhere.",
+    "output": "✅ **Corrected Sentence:** I can't find my keys anywhere. (hoặc I can find my keys nowhere)\n🔍 **Error Identification:** Lỗi kép phủ định – 'can't' và 'nowhere' cùng nhau.\n📘 **Vietnamese Explanation:** Người Việt dịch 'không thể tìm thấy ở đâu cả' thành 'can't find nowhere'. Mẹo: Chỉ dùng một phủ định: can't + anywhere hoặc can + nowhere.\n💡 **Ví dụ:** I don't have any money. / I have no money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She blamed herself for the mistake. (câu đúng) - Học viên viết \'She blamed her for the mistake.\'",
+    "output": "✅ **Corrected Sentence:** She blamed herself for the mistake.\n🔍 **Error Identification:** 'Blame someone' khác 'blame oneself' – tự trách bản thân cần đại từ phản thân.\n📘 **Vietnamese Explanation:** Người Việt dùng 'blamed her' (cô ấy đổ lỗi cho một cô gái khác). Mẹo: Khi chủ ngữ tự làm lên mình → dùng phản thân.\n💡 **Ví dụ:** He criticized himself. / They punished themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Everybody have a dream.",
+    "output": "✅ **Corrected Sentence:** Everybody has a dream.\n🔍 **Error Identification:** 'Everybody' số ít → dùng 'has', không dùng 'have'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'everybody' chỉ nhiều người nên dùng 'have'. Mẹo: 'Everybody, everyone, everything' + động từ số ít.\n💡 **Ví dụ:** Everything is ready. / Everyone loves her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Let me introduce myself. (câu đúng) - Học viên viết \'Let me introduce me.\'",
+    "output": "✅ **Corrected Sentence:** Let me introduce myself.\n🔍 **Error Identification:** 'Introduce oneself' – hành động giới thiệu bản thân cần đại từ phản thân.\n📘 **Vietnamese Explanation:** Người Việt dùng 'introduce me' (giới thiệu tôi cho ai đó). Mẹo: 'Introduce myself/yourself/himself' = tự giới thiệu.\n💡 **Ví dụ:** She introduced herself. / They introduced themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can do it myself. (câu đúng) - Học viên viết \'I can do it myself.\' (đúng rồi)",
+    "output": "✅ **Corrected Sentence (nếu sai là 'I can do it my self'):** I can do it myself.\n🔍 **Error Identification:** 'Myself' viết liền, không tách rời 'my self'.\n📘 **Vietnamese Explanation:** Người Việt viết tách 'my self' vì nghĩ 'my' + 'self'. Mẹo: Đại từ phản thân là một từ: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.\n💡 **Ví dụ:** She did it herself. / They did it themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Give it to they.",
+    "output": "✅ **Corrected Sentence:** Give it to them.\n🔍 **Error Identification:** Sau giới từ 'to' dùng tân ngữ 'them', không dùng 'they'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cho họ' thành 'to they'. Mẹo: 'To, for, with, by' + me, you, him, her, it, us, them.\n💡 **Ví dụ:** I talked to them. / This gift is for us."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Someone stole my wallet, but I don't know who.",
+    "output": "✅ **Corrected Sentence:** Someone stole my wallet, but I don't know who. (câu đúng)\n🔍 **Error Identification:** Câu đúng. 'Someone' + động từ số ít (stole).\n📘 **Vietnamese Explanation:** Người Việt cần nhớ 'someone' số ít. Mẹo: 'Someone, somebody' = một người nào đó → động từ số ít.\n💡 **Ví dụ:** Someone is at the door. / Somebody wants to see you."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I and my mother are cooking dinner.",
+    "output": "✅ **Corrected Sentence:** My mother and I are cooking dinner.\n🔍 **Error Identification:** Lỗi lịch sự – đặt người khác lên trước 'I'.\n📘 **Vietnamese Explanation:** Người Việt nói 'tôi và mẹ tôi' trước. Mẹo: Trong tiếng Anh, luôn đặt người khác lên trước, 'I' ở cuối.\n💡 **Ví dụ:** Tom and I are friends. / She and I will go."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We should take care of ourselves. (câu đúng) - Học viên viết \'We should take care of ourself.\'",
+    "output": "✅ **Corrected Sentence:** We should take care of ourselves.\n🔍 **Error Identification:** 'We' số nhiều → 'ourselves', không phải 'ourself' (không tồn tại).\n📘 **Vietnamese Explanation:** Người Việt dùng 'ourself' cho số nhiều. Mẹo: Số nhiều: ourselves, yourselves, themselves.\n💡 **Ví dụ:** You should behave yourselves. / They blamed themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Did you see anyone? (câu đúng) - Học viên viết \'Did you see someone?\'",
+    "output": "✅ **Corrected Sentence:** Did you see anyone?\n🔍 **Error Identification:** Trong câu hỏi, dùng 'anyone' thay vì 'someone' (nhưng 'someone' cũng có thể dùng trong câu hỏi khi mong đợi câu trả lời 'yes').\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'someone' trong câu hỏi. Mẹo: Câu hỏi thông thường → anyone; câu hỏi đề nghị/mong đợi yes → someone.\n💡 **Ví dụ:** Is anyone home? (hỏi thật). / Would you like someone to help you? (đề nghị)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Herself went to the store.",
+    "output": "✅ **Corrected Sentence:** She went to the store by herself. (hoặc She herself went to the store)\n🔍 **Error Identification:** Đại từ phản thân không thể làm chủ ngữ chính trong câu.\n📘 **Vietnamese Explanation:** Người Việt dùng 'herself' như chủ ngữ. Mẹo: Đại từ phản thân chỉ dùng làm tân ngữ hoặc để nhấn mạnh (I myself saw it).\n💡 **Ví dụ:** I myself will do it. / He himself said that."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Everyone have done their homework.",
+    "output": "✅ **Corrected Sentence:** Everyone has done their homework.\n🔍 **Error Identification:** 'Everyone' số ít → 'has', không phải 'have'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'everyone' chỉ nhiều người nên dùng 'have'. Mẹo: 'Everyone, everybody' + động từ số ít.\n💡 **Ví dụ:** Everybody is happy. / Everything looks good."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She bought a gift for he.",
+    "output": "✅ **Corrected Sentence:** She bought a gift for him.\n🔍 **Error Identification:** Sau giới từ 'for' dùng tân ngữ 'him', không dùng 'he'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cho anh ấy' thành 'for he'. Mẹo: 'For, to, with, by' + tân ngữ.\n💡 **Ví dụ:** I made this for her. / He did it for us."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Nobody don't like him.",
+    "output": "✅ **Corrected Sentence:** Nobody likes him. (hoặc Everybody likes him)\n🔍 **Error Identification:** 'Nobody' đã mang nghĩa phủ định, không dùng 'don't'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'nobody don't' (kép phủ định). Mẹo: 'Nobody, no one, nothing' = phủ định sẵn, không thêm 'not'.\n💡 **Ví dụ:** Nobody knows the answer. / Nothing is impossible."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We enjoyed us at the beach.",
+    "output": "✅ **Corrected Sentence:** We enjoyed ourselves at the beach.\n🔍 **Error Identification:** 'Enjoy' + đại từ phản thân (enjoyed ourselves), không dùng tân ngữ 'us'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'chúng tôi vui vẻ' thành 'enjoyed us'. Mẹo: 'Enjoy myself/yourself/himself/ourselves/themselves'.\n💡 **Ví dụ:** She enjoyed herself at the party. / They enjoyed themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Someone are knocking at the door.",
+    "output": "✅ **Corrected Sentence:** Someone is knocking at the door.\n🔍 **Error Identification:** 'Someone' số ít → 'is', không dùng 'are'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'someone' chỉ người nhưng dùng 'are'. Mẹo: 'Someone' = một ai đó → số ít.\n💡 **Ví dụ:** Somebody is calling. / Anyone is welcome."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The children can take care of them.",
+    "output": "✅ **Corrected Sentence:** The children can take care of themselves.\n🔍 **Error Identification:** 'Take care of' + đại từ phản thân khi chủ ngữ tự chăm sóc bản thân.\n📘 **Vietnamese Explanation:** Người Việt dùng 'them' (tân ngữ) thay vì 'themselves'. Mẹo: Chủ ngữ số nhiều + themselves.\n💡 **Ví dụ:** You need to take care of yourself. / They taught themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have anything to say.",
+    "output": "✅ **Corrected Sentence:** I have something to say. (hoặc I don't have anything to say)\n🔍 **Error Identification:** Trong câu khẳng định, dùng 'something', không dùng 'anything'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'anything' trong câu khẳng định. Mẹo: Khẳng định → something; phủ định/câu hỏi → anything.\n💡 **Ví dụ:** I need something to drink. / Do you need anything?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Him and me are good friends.",
+    "output": "✅ **Corrected Sentence:** He and I are good friends.\n🔍 **Error Identification:** Dùng tân ngữ (him, me) làm chủ ngữ.\n📘 **Vietnamese Explanation:** Người Việt dịch 'anh ấy và tôi' thành 'him and me'. Mẹo: Chủ ngữ: he, she, I, we, they.\n💡 **Ví dụ:** She and they are coming. / He and you should talk."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She saw herself in the mirror. (câu đúng) - Học viên viết \'She saw her in the mirror.\'",
+    "output": "✅ **Corrected Sentence:** She saw herself in the mirror.\n🔍 **Error Identification:** 'Saw her' = nhìn thấy một cô gái khác, 'saw herself' = tự nhìn mình.\n📘 **Vietnamese Explanation:** Người Việt dùng 'her' khi chủ ngữ là 'she'. Mẹo: Nếu hành động hướng về chính chủ ngữ → dùng phản thân.\n💡 **Ví dụ:** He looked at himself. / They saw themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Anyone can do it. (câu đúng) - Học viên viết \'Anyone can does it.\'",
+    "output": "✅ **Corrected Sentence:** Anyone can do it.\n🔍 **Error Identification:** Sau động từ khiếm khuyết (can, could, will, would, should, may, might), dùng động từ nguyên thể (do), không chia 'does'.\n📘 **Vietnamese Explanation:** Người Việt chia động từ theo 'anyone' (số ít) sau 'can'. Mẹo: Can + V(nguyên thể), không thêm s/es.\n💡 **Ví dụ:** Everyone can sing. / Nobody should go."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Let's keep this between ourselves. (câu đúng) - Học viên viết \'Let's keep this between us.\'",
+    "output": "✅ **Corrected Sentence:** Let's keep this between ourselves. (hoặc between us)\n🔍 **Error Identification:** 'Between ourselves' nhấn mạnh 'chỉ riêng chúng ta', 'between us' cũng đúng.\n📘 **Vietnamese Explanation:** Cả hai đều đúng, nhưng 'ourselves' nhấn mạnh hơn. Mẹo: 'Between ourselves' = chuyện riêng tư.\n💡 **Ví dụ:** Just between us, I'm leaving. / Keep this between ourselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Nobody have solved the problem.",
+    "output": "✅ **Corrected Sentence:** Nobody has solved the problem.\n🔍 **Error Identification:** 'Nobody' số ít → 'has', không dùng 'have'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'have' với 'nobody'. Mẹo: 'Nobody, no one' + has.\n💡 **Ví dụ:** No one has arrived. / Nobody knows the truth."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She made this cake by herself. (câu đúng) - Học viên viết \'She made this cake by her.\'",
+    "output": "✅ **Corrected Sentence:** She made this cake by herself.\n🔍 **Error Identification:** 'By + đại từ phản thân' (by herself), không dùng 'by her'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'by her' (bên cạnh cô ấy). Mẹo: 'By myself/yourself/himself/itself/ourselves/themselves' = một mình, tự mình.\n💡 **Ví dụ:** He lives by himself. / They did it by themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Anything is possible if you try. (câu đúng) - Học viên viết \'Something is possible if you try.\' (cũng đúng nhưng khác nghĩa)",
+    "output": "✅ **Corrected Sentence (nhấn mạnh bất cứ điều gì):** Anything is possible.\n🔍 **Error Identification:** 'Anything' trong câu khẳng định mang nghĩa 'bất cứ điều gì', 'something' = 'một điều gì đó'.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'something' cho mọi trường hợp. Mẹo: 'Anything' = bất kỳ cái gì (không giới hạn).\n💡 **Ví dụ:** Anything goes. / You can do anything."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I myself saw the accident. (câu đúng) - Học viên viết \'I saw the accident myself.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** I myself saw the accident. (hoặc I saw the accident myself)\n🔍 **Error Identification:** Đại từ phản thân có thể đứng sau chủ ngữ để nhấn mạnh.\n📘 **Vietnamese Explanation:** Người Việt thường đặt 'myself' ở cuối câu. Mẹo: 'I myself' (chính tôi) – vị trí linh hoạt.\n💡 **Ví dụ:** She herself told me. / We ourselves will do it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Somebody have left the door open.",
+    "output": "✅ **Corrected Sentence:** Somebody has left the door open.\n🔍 **Error Identification:** 'Somebody' số ít → 'has', không dùng 'have'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'have' với 'somebody'. Mẹo: 'Somebody, someone' + has.\n💡 **Ví dụ:** Someone has taken my pen. / Somebody has called."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Let's not blame ourselves. (câu đúng) - Học viên viết \'Let's not blame us.\'",
+    "output": "✅ **Corrected Sentence:** Let's not blame ourselves.\n🔍 **Error Identification:** 'Blame oneself' – tự đổ lỗi cho bản thân cần đại từ phản thân.\n📘 **Vietnamese Explanation:** Người Việt dùng 'blame us' (đổ lỗi cho chúng tôi). Mẹo: Hành động hướng vào chính mình → phản thân.\n💡 **Ví dụ:** Don't blame yourself. / They blamed themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Everyone need to bring their own food.",
+    "output": "✅ **Corrected Sentence:** Everyone needs to bring their own food.\n🔍 **Error Identification:** 'Everyone' số ít → 'needs', không dùng 'need'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'need' (nguyên thể) sau 'everyone'. Mẹo: 'Everyone' + động từ số ít (needs, wants, likes).\n💡 **Ví dụ:** Everybody wants to be happy. / Everything costs money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is taller than me. (câu đúng trong tiếng Anh hiện đại) - Học viên viết \'He is taller than I.\' (cũng đúng nhưng trang trọng)",
+    "output": "✅ **Corrected Sentence:** He is taller than me. (hoặc than I am)\n🔍 **Error Identification:** Cả 'than me' và 'than I' đều đúng, 'than me' phổ biến hơn.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'than me'. Mẹo: 'Than me' là chuẩn trong tiếng Anh hàng ngày.\n💡 **Ví dụ:** She is smarter than him. / They run faster than us."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't want nothing.",
+    "output": "✅ **Corrected Sentence:** I don't want anything. (hoặc I want nothing)\n🔍 **Error Identification:** Lỗi kép phủ định – 'don't' và 'nothing'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'không muốn gì cả' thành 'don't want nothing'. Mẹo: don't + anything = nothing.\n💡 **Ví dụ:** I don't know anyone. / I know no one."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She always thinks about herself. (câu đúng) - Học viên viết \'She always thinks about her.\'",
+    "output": "✅ **Corrected Sentence:** She always thinks about herself.\n🔍 **Error Identification:** 'Thinks about herself' = nghĩ về bản thân mình; 'thinks about her' = nghĩ về một cô gái khác.\n📘 **Vietnamese Explanation:** Người Việt dùng 'her' thay vì 'herself'. Mẹo: Khi tân ngữ trùng với chủ ngữ → dùng phản thân.\n💡 **Ví dụ:** He needs to believe in himself. / They only care about themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Anybody are welcome to join.",
+    "output": "✅ **Corrected Sentence:** Anybody is welcome to join.\n🔍 **Error Identification:** 'Anybody' số ít → 'is', không dùng 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are' với 'anybody'. Mẹo: 'Anybody, anyone' + động từ số ít.\n💡 **Ví dụ:** Anyone is free to leave. / Anybody knows that."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We did all the work ourselves. (câu đúng) - Học viên viết \'We did all the work ourself.\'",
+    "output": "✅ **Corrected Sentence:** We did all the work ourselves.\n🔍 **Error Identification:** 'We' số nhiều → 'ourselves', không phải 'ourself'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'ourself' cho 'we'. Mẹo: ourselves (số nhiều), yourself (số ít).\n💡 **Ví dụ:** You yourselves said that. / They themselves admitted it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Someone needs to fix this. (câu đúng) - Học viên viết \'Someone need to fix this.\'",
+    "output": "✅ **Corrected Sentence:** Someone needs to fix this.\n🔍 **Error Identification:** 'Someone' số ít → 'needs', không dùng 'need'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'need' (nguyên thể) sau 'someone'. Mẹo: 'Someone, somebody' + động từ số ít.\n💡 **Ví dụ:** Somebody wants to meet you. / Someone has to do it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Me and her are going to the mall.",
+    "output": "✅ **Corrected Sentence:** She and I are going to the mall.\n🔍 **Error Identification:** Dùng tân ngữ 'me' và 'her' làm chủ ngữ.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi và cô ấy' thành 'me and her'. Mẹo: Chủ ngữ: I, you, he, she, we, they.\n💡 **Ví dụ:** He and she are siblings. / You and I are partners."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't find nothing.",
+    "output": "✅ **Corrected Sentence:** I can't find anything. (hoặc I can find nothing)\n🔍 **Error Identification:** Lỗi kép phủ định – 'can't' và 'nothing'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'không thể tìm thấy gì' thành 'can't find nothing'. Mẹo: can't + anything = nothing.\n💡 **Ví dụ:** She didn't say anything. / She said nothing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Everyone should do their best. (câu đúng) - Học viên viết \'Everyone should do his best.\' (cũng đúng nhưng ít phổ biến)",
+    "output": "✅ **Corrected Sentence:** Everyone should do their best.\n🔍 **Error Identification:** Dùng 'their' cho đại từ bất định số ít là chuẩn hiện đại.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'his' cho mọi trường hợp. Mẹo: 'Everyone, somebody, nobody' + their (singular they) rất phổ biến.\n💡 **Ví dụ:** Nobody should forget their passport. / Someone left their phone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Give it to he and she.",
+    "output": "✅ **Corrected Sentence:** Give it to him and her.\n🔍 **Error Identification:** Sau giới từ 'to' dùng tân ngữ 'him and her', không dùng 'he and she'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cho anh ấy và cô ấy' thành 'to he and she'. Mẹo: To + me/him/her/us/them.\n💡 **Ví dụ:** I sent it to him and her. / This is for you and me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Myself will take care of it.",
+    "output": "✅ **Corrected Sentence:** I myself will take care of it. (hoặc I will take care of it myself)\n🔍 **Error Identification:** Đại từ phản thân không thể làm chủ ngữ chính.\n📘 **Vietnamese Explanation:** Người Việt dùng 'myself' như chủ ngữ. Mẹo: Phản thân chỉ đứng sau chủ ngữ để nhấn mạnh hoặc làm tân ngữ.\n💡 **Ví dụ:** He himself fixed it. / She did it herself."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Nobody are here yet.",
+    "output": "✅ **Corrected Sentence:** Nobody is here yet.\n🔍 **Error Identification:** 'Nobody' số ít → 'is', không dùng 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are' với 'nobody'. Mẹo: 'Nobody, no one' + is.\n💡 **Ví dụ:** No one is coming. / Nobody is perfect."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We bought ourselves some presents. (câu đúng) - Học viên viết \'We bought us some presents.\'",
+    "output": "✅ **Corrected Sentence:** We bought ourselves some presents.\n🔍 **Error Identification:** 'Buy oneself something' – mua cho bản thân, dùng đại từ phản thân.\n📘 **Vietnamese Explanation:** Người Việt dùng 'bought us' (mua cho chúng tôi từ người khác). Mẹo: Khi chủ ngữ nhận hành động → phản thân.\n💡 **Ví dụ:** She bought herself a new dress. / They made themselves some coffee."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Someone have taken my seat.",
+    "output": "✅ **Corrected Sentence:** Someone has taken my seat.\n🔍 **Error Identification:** 'Someone' số ít → 'has', không dùng 'have'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'have' với 'someone'. Mẹo: 'Someone' + has.\n💡 **Ví dụ:** Someone has called. / Somebody has arrived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know somebody here.",
+    "output": "✅ **Corrected Sentence:** I don't know anybody here. (hoặc I know nobody here)\n🔍 **Error Identification:** Trong câu phủ định, dùng 'anybody', không dùng 'somebody'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'somebody' trong câu phủ định. Mẹo: Phủ định + anybody = nobody.\n💡 **Ví dụ:** I don't have anywhere to go. / I have nowhere to go."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cat cleans itself. (câu đúng) - Học viên viết \'The cat cleans it.\'",
+    "output": "✅ **Corrected Sentence:** The cat cleans itself.\n🔍 **Error Identification:** 'Cleans itself' = tự liếm lông; 'cleans it' = lau cái gì đó.\n📘 **Vietnamese Explanation:** Người Việt dùng 'it' thay vì 'itself'. Mẹo: Động vật tự làm hành động trên cơ thể mình → phản thân.\n💡 **Ví dụ:** The dog scratched itself. / The bird preened itself."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Everything are fine.",
+    "output": "✅ **Corrected Sentence:** Everything is fine.\n🔍 **Error Identification:** 'Everything' số ít → 'is', không dùng 'are'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'everything' chỉ nhiều thứ nên dùng 'are'. Mẹo: 'Everything, something, anything, nothing' + động từ số ít.\n💡 **Ví dụ:** Something is wrong. / Nothing matters."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They consider themselves lucky. (câu đúng) - Học viên viết \'They consider them lucky.\'",
+    "output": "✅ **Corrected Sentence:** They consider themselves lucky.\n🔍 **Error Identification:** 'Consider oneself lucky' – tự cho mình là may mắn, dùng phản thân.\n📘 **Vietnamese Explanation:** Người Việt dùng 'them' (họ) thay vì 'themselves'. Mẹo: Chủ ngữ số nhiều + themselves.\n💡 **Ví dụ:** We consider ourselves fortunate. / She considers herself an artist."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Anyone can learn to swim. (câu đúng) - Học viên viết \'Anyone can learns to swim.\'",
+    "output": "✅ **Corrected Sentence:** Anyone can learn to swim.\n🔍 **Error Identification:** Sau 'can' dùng động từ nguyên thể (learn), không chia 'learns'.\n📘 **Vietnamese Explanation:** Người Việt chia động từ theo 'anyone' (số ít) sau 'can'. Mẹo: Động từ khiếm khuyết + V(nguyên thể).\n💡 **Ví dụ:** Everyone can sing. / Nobody can do it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Between you and I, this is boring.",
+    "output": "✅ **Corrected Sentence:** Between you and me, this is boring.\n🔍 **Error Identification:** Sau giới từ 'between', dùng tân ngữ 'me', không dùng 'I'.\n📘 **Vietnamese Explanation:** Người Việt nhầm vì nghĩ 'I' trang trọng hơn. Mẹo: 'Between, for, to, with' + me/him/her/us/them.\n💡 **Ví dụ:** Between him and her. / For you and me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Someone has left their jacket. (câu đúng) - Học viên viết \'Someone has left his jacket.\'",
+    "output": "✅ **Corrected Sentence:** Someone has left their jacket. (hoặc his/her jacket)\n🔍 **Error Identification:** Dùng 'their' cho đại từ bất định khi không rõ giới tính là chuẩn.\n📘 **Vietnamese Explanation:** Người Việt thường mặc định dùng 'his'. Mẹo: 'Someone, nobody, everybody' + their rất phổ biến.\n💡 **Ví dụ:** Nobody should lose their temper. / Everyone needs their own space."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have no something to wear.",
+    "output": "✅ **Corrected Sentence:** I have nothing to wear. (hoặc I don't have anything to wear)\n🔍 **Error Identification:** 'No something' là sai – dùng 'nothing' hoặc 'not anything'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'no something' vì dịch 'không có gì'. Mẹo: 'No' + danh từ (no money); 'nothing' = không có gì.\n💡 **Ví dụ:** I have no time. / I have nothing to say."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She and me are going to the cinema.",
+    "output": "✅ **Corrected Sentence:** She and I are going to the cinema.\n🔍 **Error Identification:** Dùng 'me' (tân ngữ) thay vì 'I' (chủ ngữ).\n📘 **Vietnamese Explanation:** Người Việt dịch 'cô ấy và tôi' thành 'she and me'. Mẹo: Chủ ngữ: I, you, he, she, we, they.\n💡 **Ví dụ:** He and I are working. / She and they are leaving."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Nobody can do it themselves? (câu đúng) - Học viên viết \'Nobody can do it hisself.\'",
+    "output": "✅ **Corrected Sentence:** Nobody can do it themselves. (hoặc himself/herself)\n🔍 **Error Identification:** 'Hisself' không tồn tại; đúng là 'himself' hoặc 'themselves'.\n📘 **Vietnamese Explanation:** Người Việt tạo ra 'hisself'. Mẹo: himself (số ít), themselves (số nhiều hoặc singular they).\n💡 **Ví dụ:** Someone hurt themselves. / He did it himself."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Give it to she.",
+    "output": "✅ **Corrected Sentence:** Give it to her.\n🔍 **Error Identification:** Sau giới từ 'to' dùng tân ngữ 'her', không dùng 'she'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cho cô ấy' thành 'to she'. Mẹo: 'To, for, with' + me, you, him, her, us, them.\n💡 **Ví dụ:** I spoke to him. / She went with them."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Everyone have their own opinion.",
+    "output": "✅ **Corrected Sentence:** Everyone has their own opinion.\n🔍 **Error Identification:** 'Everyone' số ít → 'has', không dùng 'have'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'have' với 'everyone'. Mẹo: 'Everyone' + has.\n💡 **Ví dụ:** Everyone wants to be loved. / Everyone needs a friend."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I hurt myself. (câu đúng) - Học viên viết \'I hurt me.\'",
+    "output": "✅ **Corrected Sentence:** I hurt myself.\n🔍 **Error Identification:** 'Hurt oneself' – tự làm đau bản thân, dùng phản thân.\n📘 **Vietnamese Explanation:** Người Việt dùng 'hurt me' (làm đau tôi). Mẹo: Chủ ngữ 'I' + 'myself'.\n💡 **Ví dụ:** She cut herself. / He burned himself."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There's nothing in the fridge. (câu đúng) - Học viên viết \'There's not nothing in the fridge.\'",
+    "output": "✅ **Corrected Sentence:** There's nothing in the fridge.\n🔍 **Error Identification:** 'Not nothing' là kép phủ định.\n📘 **Vietnamese Explanation:** Người Việt dùng 'not nothing' (không không có gì). Mẹo: 'Nothing' đã là phủ định, không thêm 'not'.\n💡 **Ví dụ:** I saw nothing. / I didn't see anything."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The students should behave themselves. (câu đúng) - Học viên viết \'The students should behave them.\'",
+    "output": "✅ **Corrected Sentence:** The students should behave themselves.\n🔍 **Error Identification:** 'Behave oneself' – cư xử đúng mực, dùng phản thân.\n📘 **Vietnamese Explanation:** Người Việt dùng 'behave them'. Mẹo: 'Behave yourself/yourselves/himself/themselves'.\n💡 **Ví dụ:** You should behave yourself. / He can't behave himself."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Somebody need help.",
+    "output": "✅ **Corrected Sentence:** Somebody needs help.\n🔍 **Error Identification:** 'Somebody' số ít → 'needs', không dùng 'need'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'need' (nguyên thể) sau 'somebody'. Mẹo: 'Somebody, someone' + động từ số ít.\n💡 **Ví dụ:** Someone wants to talk to you. / Somebody has a question."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I and my friends are going out.",
+    "output": "✅ **Corrected Sentence:** My friends and I are going out.\n🔍 **Error Identification:** Lỗi lịch sự – đặt người khác lên trước 'I'.\n📘 **Vietnamese Explanation:** Người Việt nói 'tôi và bạn bè tôi' trước. Mẹo: 'My friends and I' (không phải 'I and my friends').\n💡 **Ví dụ:** Tom and I are leaving. / My sister and I went shopping."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She doesn't know nobody here.",
+    "output": "✅ **Corrected Sentence:** She doesn't know anybody here. (hoặc She knows nobody)\n🔍 **Error Identification:** Lỗi kép phủ định – 'doesn't' và 'nobody'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cô ấy không biết ai cả' thành 'doesn't know nobody'. Mẹo: doesn't + anybody = knows nobody.\n💡 **Ví dụ:** I don't have any friends. / I have no friends."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We should do it ourself.",
+    "output": "✅ **Corrected Sentence:** We should do it ourselves.\n🔍 **Error Identification:** 'We' số nhiều → 'ourselves', không phải 'ourself'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'ourself' cho 'we'. Mẹo: ourselves (số nhiều), yourself (số ít).\n💡 **Ví dụ:** You yourselves are responsible. / They themselves made the decision."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Someone forgot their keys. (câu đúng) - Học viên viết \'Someone forgot his keys.\'",
+    "output": "✅ **Corrected Sentence:** Someone forgot their keys.\n🔍 **Error Identification:** Dùng 'their' cho đại từ bất định khi không rõ giới tính.\n📘 **Vietnamese Explanation:** Người Việt mặc định dùng 'his'. Mẹo: Singular 'their' rất phổ biến trong tiếng Anh hiện đại.\n💡 **Ví dụ:** Anyone can bring their own food. / Nobody should forget their ticket."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Himself went to the store.",
+    "output": "✅ **Corrected Sentence:** He went to the store himself. (hoặc He himself went to the store)\n🔍 **Error Identification:** Đại từ phản thân không thể làm chủ ngữ chính.\n📘 **Vietnamese Explanation:** Người Việt dùng 'himself' như chủ ngữ. Mẹo: Phản thân chỉ để nhấn mạnh, không thay thế chủ ngữ.\n💡 **Ví dụ:** I myself will do it. / She herself said that."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Everybody need to eat.",
+    "output": "✅ **Corrected Sentence:** Everybody needs to eat.\n🔍 **Error Identification:** 'Everybody' số ít → 'needs', không dùng 'need'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'need' (nguyên thể) sau 'everybody'. Mẹo: 'Everybody' + động từ số ít.\n💡 **Ví dụ:** Everybody loves ice cream. / Everybody knows that."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Let's introduce ourselves. (câu đúng) - Học viên viết \'Let's introduce us.\'",
+    "output": "✅ **Corrected Sentence:** Let's introduce ourselves.\n🔍 **Error Identification:** 'Introduce oneself' – tự giới thiệu, dùng phản thân.\n📘 **Vietnamese Explanation:** Người Việt dùng 'introduce us' (giới thiệu chúng tôi với ai đó). Mẹo: 'Introduce myself/yourself/ourselves'.\n💡 **Ví dụ:** Let me introduce myself. / They introduced themselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have something to share with you. (câu đúng) - Học viên viết \'I have anything to share with you.\'",
+    "output": "✅ **Corrected Sentence:** I have something to share with you.\n🔍 **Error Identification:** Trong câu khẳng định, dùng 'something', không dùng 'anything'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'anything' trong câu khẳng định. Mẹo: Khẳng định → something; phủ định/câu hỏi → anything.\n💡 **Ví dụ:** I need something to eat. / Do you need anything?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "No one are coming to the party.",
+    "output": "✅ **Corrected Sentence:** No one is coming to the party.\n🔍 **Error Identification:** 'No one' số ít → 'is', không dùng 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are' với 'no one'. Mẹo: 'No one, nobody' + is.\n💡 **Ví dụ:** No one is perfect. / Nobody is here."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They bought the house by themselves. (câu đúng) - Học viên viết \'They bought the house by them.\'",
+    "output": "✅ **Corrected Sentence:** They bought the house by themselves.\n🔍 **Error Identification:** 'By + đại từ phản thân' (by themselves), không dùng 'by them'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'by them' (bên cạnh họ). Mẹo: 'By myself/yourself/himself/herself/itself/ourselves/themselves'.\n💡 **Ví dụ:** She lives by herself. / We did it by ourselves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Somebody is waiting for you. (câu đúng) - Học viên viết \'Somebody are waiting for you.\'",
+    "output": "✅ **Corrected Sentence:** Somebody is waiting for you.\n🔍 **Error Identification:** 'Somebody' số ít → 'is', không dùng 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are' với 'somebody'. Mẹo: 'Somebody, someone' + is.\n💡 **Ví dụ:** Someone is at the door. / Somebody is calling."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She and me are best friends.",
+    "output": "✅ **Corrected Sentence:** She and I are best friends.\n🔍 **Error Identification:** Dùng 'me' (tân ngữ) thay vì 'I' (chủ ngữ).\n📘 **Vietnamese Explanation:** Người Việt dịch 'cô ấy và tôi' thành 'she and me'. Mẹo: Chủ ngữ: I, you, he, she, we, they.\n💡 **Ví dụ:** He and I are brothers. / She and they are teammates."
+  }
+]

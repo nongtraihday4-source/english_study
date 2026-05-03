@@ -1,6 +1,27 @@
 """apps/grammar/admin.py"""
 from django.contrib import admin
-from .models import GrammarExample, GrammarRule, GrammarTopic
+from .models import GrammarChapter, GrammarExample, GrammarRule, GrammarTopic
+
+
+class GrammarTopicInline(admin.TabularInline):
+    model = GrammarTopic
+    extra = 0
+    fields = ("order", "level", "title", "is_published")
+    ordering = ("order",)
+    show_change_link = True
+
+
+@admin.register(GrammarChapter)
+class GrammarChapterAdmin(admin.ModelAdmin):
+    list_display  = ("level", "order", "name", "icon", "topic_count")
+    list_filter   = ("level",)
+    search_fields = ("name",)
+    ordering      = ("level", "order")
+    inlines       = [GrammarTopicInline]
+
+    @admin.display(description="# Topics")
+    def topic_count(self, obj):
+        return obj.topics.count()
 
 
 class GrammarRuleInline(admin.TabularInline):
@@ -18,11 +39,11 @@ class GrammarExampleInline(admin.TabularInline):
 
 @admin.register(GrammarTopic)
 class GrammarTopicAdmin(admin.ModelAdmin):
-    list_display  = ("level", "order", "title", "is_published", "rule_count", "updated_at")
-    list_filter   = ("level", "is_published")
+    list_display  = ("level", "order", "chapter", "title", "is_published", "rule_count", "updated_at")
+    list_filter   = ("level", "is_published", "chapter")
     search_fields = ("title", "slug", "description")
     prepopulated_fields = {"slug": ("level", "title")}
-    ordering = ("level", "order")
+    ordering = ("level", "chapter__order", "order")
     inlines = [GrammarRuleInline]
 
     @admin.display(description="# Rules")

@@ -1,0 +1,422 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I think it rains tomorrow.",
+    "output": "✅ **Corrected Sentence:** I think it will rain tomorrow.\n🔍 **Error Identification:** Dùng thì hiện tại đơn (rains) cho dự đoán trong tương lai – cần 'will rain'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi nghĩ ngày mai trời mưa' thành hiện tại đơn vì không phân biệt dự đoán. Mẹo: Dự đoán không có căn cứ chắc chắn, có 'think, believe, probably' → dùng 'will'.\n💡 **Ví dụ:** I think she will come. / He believes it will be sunny."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Look at those black clouds! It will rain.",
+    "output": "✅ **Corrected Sentence:** Look at those black clouds! It is going to rain.\n🔍 **Error Identification:** Có bằng chứng rõ ràng ở hiện tại (mây đen) → dùng 'be going to', không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho mọi trường hợp tương lai. Mẹo: Dấu hiệu trực tiếp (clouds, dark sky, someone is holding a ladder) → be going to.\n💡 **Ví dụ:** The sky is dark. It is going to storm. / She is going to fall (because she's walking on ice)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I meet my friend tomorrow at 7 PM.",
+    "output": "✅ **Corrected Sentence:** I am meeting my friend tomorrow at 7 PM. (hoặc I will meet / I am going to meet)\n🔍 **Error Identification:** Kế hoạch đã được sắp xếp cụ thể (thời gian, địa điểm) → dùng hiện tại tiếp diễn, không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho tương lai vì dịch 'tôi gặp bạn tôi tối mai'. Mẹo: Kế hoạch đã chốt (đã đặt lịch, hẹn giờ) → dùng am/is/are + V-ing.\n💡 **Ví dụ:** We are having dinner at 8 PM. / She is flying to Da Nang tomorrow."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I promise I am going to help you.",
+    "output": "✅ **Corrected Sentence:** I promise I will help you.\n🔍 **Error Identification:** Lời hứa – dùng 'will', không dùng 'be going to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'be going to' cho mọi dự định. Mẹo: Lời hứa, đề nghị, quyết định tức thời → dùng 'will'.\n💡 **Ví dụ:** I'll call you later. / I will never do that again."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The phone is ringing. I go to answer it.",
+    "output": "✅ **Corrected Sentence:** The phone is ringing. I'll go to answer it.\n🔍 **Error Identification:** Quyết định tức thời tại thời điểm nói → dùng 'will', không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi đi nghe điện' thành hiện tại đơn. Mẹo: Hành động được quyết định ngay lúc nói → will + V1.\n💡 **Ví dụ:** I'll get the door. / I'll have the steak, please."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will visit my grandma next Sunday. (câu đúng, nhưng nếu đã đặt vé thì dùng be going to/HTTD hay hơn)",
+    "output": "✅ **Corrected Sentence (kế hoạch đã chốt):** I am visiting my grandma next Sunday. / I am going to visit my grandma next Sunday.\n🔍 **Error Identification:** Kế hoạch đã được sắp xếp (mua vé, hẹn giờ) → ưu tiên hiện tại tiếp diễn hoặc 'be going to', không phải 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho mọi dự định tương lai. Mẹo: Kế hoạch đã được chuẩn bị → be going to / hiện tại tiếp diễn; ý định mới nghĩ ra → will.\n💡 **Ví dụ:** I'm meeting my doctor at 3 PM. / She's going to buy a new car next week (already saved money)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Probably it will rain tomorrow. (câu đúng) - Học viên viết \'Probably it rains tomorrow.\'",
+    "output": "✅ **Corrected Sentence:** Probably it will rain tomorrow.\n🔍 **Error Identification:** 'Probably' (có lẽ) + dự đoán trong tương lai → dùng 'will', không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn với trạng từ chỉ khả năng. Mẹo: 'Probably, maybe, perhaps' + will + V1.\n💡 **Ví dụ:** Maybe she will come. / Perhaps they will win."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am going to have a party next week. (câu đúng) - Học viên viết \'I have a party next week.\'",
+    "output": "✅ **Corrected Sentence:** I am going to have a party next week. (hoặc I am having a party)\n🔍 **Error Identification:** Kế hoạch tương lai (đã lên ý định) → dùng be going to hoặc hiện tại tiếp diễn, không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho lịch trình cá nhân. Mẹo: Kế hoạch của con người (không phải lịch trình tàu xe) → be going to / hiện tại tiếp diễn.\n💡 **Ví dụ:** We are going to travel to Hue. / She is going to study abroad."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The train will leave at 6 PM tomorrow. (câu đúng, nhưng lịch trình cố định dùng hiện tại đơn hay hơn)",
+    "output": "✅ **Corrected Sentence (lịch trình cố định):** The train leaves at 6 PM tomorrow.\n🔍 **Error Identification:** Lịch trình cố định (tàu chạy theo giờ biểu) → dùng hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho mọi tương lai, kể cả lịch trình. Mẹo: Thời khóa biểu, giờ tàu chạy, chuyến bay cố định → hiện tại đơn.\n💡 **Ví dụ:** The plane takes off at 9 AM. / The class starts at 8 AM tomorrow."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm hungry. I am going to make a sandwich.",
+    "output": "✅ **Corrected Sentence:** I'm hungry. I'll make a sandwich.\n🔍 **Error Identification:** Quyết định tức thời (vừa thấy đói) → dùng 'will', không dùng 'be going to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'be going to' cho mọi dự định. Mẹo: Quyết định làm ngay lúc nói, không có kế hoạch trước → will.\n💡 **Ví dụ:** Wait, I'll help you. / This bag is heavy. I'll carry it for you."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Look! That car is going to hit the tree! (câu đúng) - Học viên viết \'Look! That car will hit the tree!\'",
+    "output": "✅ **Corrected Sentence:** Look! That car is going to hit the tree!\n🔍 **Error Identification:** Có bằng chứng nhìn thấy trực tiếp (car đang lao) → dùng 'be going to', không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho mọi dự đoán. Mẹo: Thấy nguy cơ sắp xảy ra ngay trước mắt → be going to.\n💡 **Ví dụ:** Watch out! You are going to fall. / The glass is going to fall off the table."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I hope you will pass the exam. (câu đúng) - Học viên viết \'I hope you pass the exam.\'",
+    "output": "✅ **Corrected Sentence:** I hope you will pass the exam. (hoặc I hope you pass – cũng được nhưng will nhấn mạnh tương lai hơn)\n🔍 **Error Identification:** Sau 'I hope' thường dùng 'will' để diễn tả hy vọng về tương lai.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'hope'. Mẹo: 'I hope' + will + V1 cho tương lai.\n💡 **Ví dụ:** I hope she will come. / I hope they will win."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The meeting starts at 9 AM tomorrow. (câu đúng) - Học viên viết \'The meeting will start at 9 AM tomorrow.\'",
+    "output": "✅ **Corrected Sentence (lịch trình cố định):** The meeting starts at 9 AM tomorrow.\n🔍 **Error Identification:** Lịch trình cố định (cuộc họp có giờ biểu) → dùng hiện tại đơn, 'will' cũng chấp nhận được nhưng ít tự nhiên hơn.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'will' cho lịch trình vì nghĩ 'sẽ diễn ra'. Mẹo: Sự kiện theo thời gian biểu (timetable) → hiện tại đơn.\n💡 **Ví dụ:** The concert begins at 8 PM. / The sale ends on Friday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is going to have a baby. (câu đúng) - Học viên viết \'She will have a baby.\'",
+    "output": "✅ **Corrected Sentence (dựa trên dấu hiệu):** She is going to have a baby.\n🔍 **Error Identification:** Dấu hiệu rõ ràng (bụng to) → dùng 'be going to', không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho mọi dự đoán. Mẹo: Nhìn thấy bụng bầu → be going to (chắc chắn dựa vào bằng chứng).\n💡 **Ví dụ:** She is going to have a baby. / They are going to get married (engaged)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Don't worry, I am going to help you.",
+    "output": "✅ **Corrected Sentence:** Don't worry, I will help you.\n🔍 **Error Identification:** Lời hứa / an ủi tức thời → dùng 'will', không dùng 'be going to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'be going to' cho mọi dự định. Mẹo: Lời hứa, trấn an ai đó → will.\n💡 **Ví dụ:** I'll help you with your homework. / I'll never leave you."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We are going to be late if we don't hurry. (câu đúng) - Học viên viết \'We will be late if we don't hurry.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** We are going to be late if we don't hurry. (hoặc will)\n🔍 **Error Identification:** Dự đoán dựa trên tình huống hiện tại (đang chậm) → 'be going to' phù hợp hơn 'will'.\n📘 **Vietnamese Explanation:** Cả hai đều được, nhưng 'be going to' nhấn mạnh bằng chứng. Mẹo: Có căn cứ thực tế → be going to; suy luận chung → will.\n💡 **Ví dụ:** The road is icy. We are going to crash. / It's 8 AM. We are going to be late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "According to the weather forecast, it will be sunny tomorrow. (câu đúng) - Học viên viết \'According to the weather forecast, it is going to be sunny tomorrow.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** According to the weather forecast, it will be sunny tomorrow.\n🔍 **Error Identification:** Dự báo thời tiết thường dùng 'will' (dự đoán dựa trên dữ liệu). 'Be going to' cũng được nhưng 'will' phổ biến hơn.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'be going to' cho dự báo. Mẹo: Dự báo chính thức → will; dấu hiệu trực tiếp (mây đen) → be going to.\n💡 **Ví dụ:** The news says it will rain. / The report says prices will rise."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will call you when I will arrive.",
+    "output": "✅ **Corrected Sentence:** I will call you when I arrive.\n🔍 **Error Identification:** Trong mệnh đề thời gian (when, after, before, as soon as) không dùng 'will', dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'khi tôi sẽ đến' thành 'when I will arrive'. Mẹo: Mệnh đề chỉ thời gian (when, after, before, as soon as) + hiện tại đơn.\n💡 **Ví dụ:** I'll text you as soon as I get home. / She'll cook dinner after she finishes work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If it will rain, we will stay home.",
+    "output": "✅ **Corrected Sentence:** If it rains, we will stay home.\n🔍 **Error Identification:** Trong mệnh đề điều kiện loại 1 (if), không dùng 'will', dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'nếu trời sẽ mưa' thành 'if it will rain'. Mẹo: If + hiện tại đơn, mệnh đề chính + will.\n💡 **Ví dụ:** If she studies, she will pass. / If you don't hurry, you will miss the bus."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am going to watch a movie tonight. (câu đúng) - Học viên viết \'I will watch a movie tonight.\' (cũng đúng nhưng khác sắc thái)",
+    "output": "✅ **Corrected Sentence (kế hoạch đã có):** I am going to watch a movie tonight. / I am watching a movie tonight.\n🔍 **Error Identification:** Kế hoạch đã được lên từ trước → ưu tiên 'be going to' hoặc hiện tại tiếp diễn, không phải 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho mọi dự định. Mẹo: Đã quyết định trước khi nói → be going to; quyết định ngay lúc nói → will.\n💡 **Ví dụ:** I'm going to study medicine (already decided). / I'll study medicine (just decided)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What will you do tomorrow? (câu đúng) - Học viên viết \'What do you do tomorrow?\'",
+    "output": "✅ **Corrected Sentence:** What will you do tomorrow? / What are you doing tomorrow? / What are you going to do tomorrow?\n🔍 **Error Identification:** Hỏi về tương lai, không dùng hiện tại đơn (trừ lịch trình cố định).\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho mọi câu hỏi về tương lai. Mẹo: Hỏi kế hoạch → hiện tại tiếp diễn; hỏi dự định → be going to; hỏi quyết định → will.\n💡 **Ví dụ:** What are you doing tonight? / Where will you go next summer?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I promise I am going to pay you back.",
+    "output": "✅ **Corrected Sentence:** I promise I will pay you back.\n🔍 **Error Identification:** Lời hứa → dùng 'will', không dùng 'be going to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'be going to' cho lời hứa. Mẹo: 'Promise' + will.\n💡 **Ví dụ:** I promise I'll be there. / He promised he will call."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This time next week, I will lie on the beach.",
+    "output": "✅ **Corrected Sentence:** This time next week, I will be lying on the beach.\n🔍 **Error Identification:** Hành động đang diễn ra tại một thời điểm cụ thể trong tương lai → dùng tương lai tiếp diễn (will be lying).\n📘 **Vietnamese Explanation:** Người Việt dùng 'will lie' (đơn) thay vì 'will be lying'. Mẹo: 'This time next week/month' → will be + V-ing.\n💡 **Ví dụ:** At 8 PM tonight, I will be eating dinner. / This time tomorrow, she will be flying to Paris."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I think I am going to be late. (câu đúng) - Học viên viết \'I think I will be late.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence (dự đoán có căn cứ):** I think I am going to be late.\n🔍 **Error Identification:** Dự đoán dựa trên tình huống hiện tại (đã trễ) → 'be going to' phù hợp hơn.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'will' cho 'I think'. Mẹo: Dự đoán có lý do cụ thể → be going to; dự đoán chung chung → will.\n💡 **Ví dụ:** I think it's going to snow (cloudy). / I think it will snow tomorrow (no evidence now)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are going to get married in June. (kế hoạch) - Học viên viết \'They will get married in June.\' (cũng đúng nhưng ít tự nhiên)",
+    "output": "✅ **Corrected Sentence (kế hoạch đã chốt):** They are going to get married in June. / They are getting married in June.\n🔍 **Error Identification:** Kế hoạch cá nhân đã được sắp xếp (đặt địa điểm, mời khách) → ưu tiên 'be going to' hoặc hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho mọi dự định tương lai. Mẹo: Đã có sự chuẩn bị cụ thể → be going to / hiện tại tiếp diễn.\n💡 **Ví dụ:** We are moving to a new house next month. / She is starting a new job on Monday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I hope the weather will be nice. (câu đúng) - Học viên viết \'I hope the weather is nice.\' (cũng được)",
+    "output": "✅ **Corrected Sentence:** I hope the weather will be nice.\n🔍 **Error Identification:** 'I hope' về tương lai thường dùng 'will' để diễn tả mong đợi.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'hope'. Mẹo: 'I hope' + will + V1 cho tương lai; 'I hope' + hiện tại đơn cho hiện tại.\n💡 **Ví dụ:** I hope she will recover soon. / I hope you will like the gift."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Watch out! You will fall!",
+    "output": "✅ **Corrected Sentence:** Watch out! You are going to fall!\n🔍 **Error Identification:** Cảnh báo dựa trên tình huống trước mắt (đang mất thăng bằng) → dùng 'be going to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho mọi cảnh báo. Mẹo: Nguy cơ nhìn thấy ngay lúc này → be going to.\n💡 **Ví dụ:** Careful! The glass is going to break. / Look out! You are going to hit that pole."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By 2025, I will graduate from university. (câu đúng) - Học viên viết \'By 2025, I graduate from university.\'",
+    "output": "✅ **Corrected Sentence:** By 2025, I will have graduated from university.\n🔍 **Error Identification:** 'By + thời điểm tương lai' + hành động hoàn tất trước đó → dùng tương lai hoàn thành (will have + V3).\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn hoặc 'will' cho 'by'. Mẹo: 'By + mốc tương lai' → will have + V3.\n💡 **Ví dụ:** By next month, I will have finished the project. / By 2030, she will have become a doctor."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The bus is going to arrive at 7 PM. (lịch trình cố định) - Học viên viết \'The bus will arrive at 7 PM.\'",
+    "output": "✅ **Corrected Sentence (lịch trình cố định):** The bus arrives at 7 PM.\n🔍 **Error Identification:** Lịch trình cố định của phương tiện công cộng → dùng hiện tại đơn, không dùng 'will' hay 'be going to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' hoặc 'be going to' cho lịch trình tàu xe. Mẹo: Giờ tàu chạy, xe buýt, chuyến bay cố định → hiện tại đơn.\n💡 **Ví dụ:** The train leaves at 8 AM. / The ferry departs at 6 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I think she won't come to the party. (câu đúng) - Học viên viết \'I think she doesn't come to the party.\'",
+    "output": "✅ **Corrected Sentence:** I think she won't come to the party.\n🔍 **Error Identification:** Dự đoán phủ định trong tương lai → dùng 'won't', không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'doesn't come' vì dịch 'cô ấy không đến'. Mẹo: 'I think' + will/won't cho tương lai.\n💡 **Ví dụ:** I think he won't pass the exam. / She thinks they won't arrive on time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Maybe it will be cold tomorrow. (câu đúng) - Học viên viết \'Maybe it is cold tomorrow.\'",
+    "output": "✅ **Corrected Sentence:** Maybe it will be cold tomorrow.\n🔍 **Error Identification:** 'Maybe' + dự đoán tương lai → dùng 'will', không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn với 'maybe'. Mẹo: 'Maybe, perhaps, probably' + will.\n💡 **Ví dụ:** Maybe she will call. / Perhaps they will win."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have a doctor's appointment at 3 PM tomorrow. (câu đúng) - Học viên viết \'I will have a doctor's appointment at 3 PM tomorrow.\'",
+    "output": "✅ **Corrected Sentence (lịch trình cố định):** I have a doctor's appointment at 3 PM tomorrow.\n🔍 **Error Identification:** Cuộc hẹn đã được đặt lịch cố định → dùng hiện tại đơn (giống lịch trình).\n📘 **Vietnamese Explanation:** Người Việt dùng 'will have' cho mọi sự kiện tương lai. Mẹo: Lịch hẹn, thời khóa biểu → hiện tại đơn.\n💡 **Ví dụ:** I have a meeting at 10 AM. / She has a flight at 7 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will help you with your homework. (lời đề nghị) - Học viên viết \'I am going to help you with your homework.\'",
+    "output": "✅ **Corrected Sentence (lời đề nghị):** I will help you with your homework.\n🔍 **Error Identification:** Lời đề nghị tự nguyện giúp đỡ → dùng 'will', không dùng 'be going to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'be going to' cho lời đề nghị. Mẹo: Đề nghị, ngỏ ý giúp → will.\n💡 **Ví dụ:** I'll carry that for you. / We'll pay for the meal."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The store closes at 9 PM tonight. (câu đúng) - Học viên viết \'The store will close at 9 PM tonight.\'",
+    "output": "✅ **Corrected Sentence (giờ đóng cửa cố định):** The store closes at 9 PM tonight.\n🔍 **Error Identification:** Giờ đóng cửa của cửa hàng là lịch trình cố định → dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will close' vì nghĩ 'tối nay'. Mẹo: Lịch trình hoạt động của cửa hàng, thư viện, bảo tàng → hiện tại đơn.\n💡 **Ví dụ:** The library opens at 8 AM. / The museum closes at 5 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am going to study abroad next year. (dự định) - Học viên viết \'I will study abroad next year.\'",
+    "output": "✅ **Corrected Sentence (dự định đã có):** I am going to study abroad next year.\n🔍 **Error Identification:** Dự định đã được ấp ủ, có kế hoạch → dùng 'be going to', không dùng 'will' (trừ khi quyết định ngay lúc nói).\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho mọi dự định tương lai. Mẹo: Dự định từ trước → be going to; quyết định tại chỗ → will.\n💡 **Ví dụ:** She is going to apply for a scholarship. / They are going to buy a house (already saved money)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We will have a test next Monday. (câu đúng, nhưng nếu có lịch báo trước thì dùng hiện tại đơn hay hơn)",
+    "output": "✅ **Corrected Sentence (lịch học cố định):** We have a test next Monday.\n🔍 **Error Identification:** Lịch thi / lịch học cố định → dùng hiện tại đơn, tự nhiên hơn 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho lịch học. Mẹo: Lịch trình trên trường lớp → hiện tại đơn.\n💡 **Ví dụ:** We have a holiday next week. / The semester ends in May."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I think I will stay home tonight. (quyết định ngay lúc nói) - Học viên viết \'I think I am going to stay home tonight.\'",
+    "output": "✅ **Corrected Sentence (quyết định tức thời):** I think I will stay home tonight.\n🔍 **Error Identification:** 'I think' + quyết định vừa mới nghĩ ra → dùng 'will', không dùng 'be going to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'be going to' cho mọi suy nghĩ về tương lai. Mẹo: 'I think' + will cho ý định chưa chắc chắn lắm.\n💡 **Ví dụ:** I think I'll have the chicken. / I think I'll go to bed early."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I promise I will call you every day. (câu đúng) - Học viên viết \'I promise I am going to call you every day.\'",
+    "output": "✅ **Corrected Sentence:** I promise I will call you every day.\n🔍 **Error Identification:** Lời hứa → dùng 'will', không dùng 'be going to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'be going to' cho lời hứa. Mẹo: 'Promise' + will.\n💡 **Ví dụ:** I promise I'll be on time. / He promised he will return the money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie starts at 7 PM. (lịch rạp) - Học viên viết \'The movie will start at 7 PM.\'",
+    "output": "✅ **Corrected Sentence (lịch trình cố định):** The movie starts at 7 PM.\n🔍 **Error Identification:** Giờ chiếu phim cố định → hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will start' cho giờ chiếu. Mẹo: Rạp chiếu phim, nhà hát, sự kiện có giờ biểu → hiện tại đơn.\n💡 **Ví dụ:** The show begins at 8 PM. / The concert ends at 11 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'll call you when I get home. (câu đúng) - Học viên viết \'I'll call you when I will get home.\'",
+    "output": "✅ **Corrected Sentence:** I'll call you when I get home.\n🔍 **Error Identification:** Mệnh đề 'when' không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'when'. Mẹo: 'When, after, before, as soon as' + hiện tại đơn.\n💡 **Ví dụ:** I'll text you after I arrive. / She'll cook dinner before he comes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will study hard, you will pass.",
+    "output": "✅ **Corrected Sentence:** If you study hard, you will pass.\n🔍 **Error Identification:** Mệnh đề 'if' không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'if'. Mẹo: If + hiện tại đơn, S + will + V1.\n💡 **Ví dụ:** If she comes, I'll be happy. / If it rains, we'll stay home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She will be 30 next month. (câu đúng) - Học viên viết \'She is 30 next month.\'",
+    "output": "✅ **Corrected Sentence:** She will be 30 next month.\n🔍 **Error Identification:** Tuổi tác trong tương lai → dùng 'will be', không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho tuổi tác tương lai. Mẹo: 'Next month/year' + will be + age.\n💡 **Ví dụ:** He will be 18 next year. / They will be married for 10 years next June."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We are going to have dinner at a restaurant tomorrow. (kế hoạch) - Học viên viết \'We will have dinner at a restaurant tomorrow.\'",
+    "output": "✅ **Corrected Sentence (kế hoạch đã đặt bàn):** We are going to have dinner at a restaurant tomorrow.\n🔍 **Error Identification:** Kế hoạch đã được sắp xếp (đặt bàn) → dùng 'be going to' hoặc hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho mọi kế hoạch. Mẹo: Có sự chuẩn bị → be going to; chưa chuẩn bị → will.\n💡 **Ví dụ:** I'm going to meet my boss tomorrow (already arranged). / I'll meet my boss tomorrow (no arrangement yet)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am going to be a doctor when I grow up. (câu đúng) - Học viên viết \'I will be a doctor when I grow up.\'",
+    "output": "✅ **Corrected Sentence (dự định từ nhỏ):** I am going to be a doctor when I grow up.\n🔍 **Error Identification:** Dự định lâu dài, ước mơ → dùng 'be going to' (nhấn mạnh ý định).\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho ước mơ. Mẹo: Ước mơ, kế hoạch dài hạn → be going to.\n💡 **Ví dụ:** She is going to become a singer. / They are going to build a new house."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The shop will open at 9 AM tomorrow. (lịch trình) - Học viên viết \'The shop opens at 9 AM tomorrow.\' (câu đúng hơn)",
+    "output": "✅ **Corrected Sentence (lịch trình cố định):** The shop opens at 9 AM tomorrow.\n🔍 **Error Identification:** Giờ mở cửa cố định → hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will open' cho lịch trình. Mẹo: Mọi lịch trình đều dùng hiện tại đơn.\n💡 **Ví dụ:** The pool opens at 6 AM. / The bank closes at 4 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Don't worry, I am going to fix it for you.",
+    "output": "✅ **Corrected Sentence:** Don't worry, I will fix it for you.\n🔍 **Error Identification:** Lời trấn an / hứa giúp đỡ → dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'be going to' cho lời an ủi. Mẹo: Trấn an ai đó → will.\n💡 **Ví dụ:** Don't cry, I'll help you. / Relax, the doctor will see you soon."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She will be a famous singer one day. (dự đoán) - Học viên viết \'She is a famous singer one day.\'",
+    "output": "✅ **Corrected Sentence:** She will be a famous singer one day.\n🔍 **Error Identification:** 'One day' trong tương lai → dùng 'will be', không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn với 'one day'. Mẹo: 'One day, someday, in the future' + will.\n💡 **Ví dụ:** You will succeed one day. / They will travel around the world someday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm going to see a movie tonight. (câu đúng) - Học viên viết \'I see a movie tonight.\'",
+    "output": "✅ **Corrected Sentence:** I'm going to see a movie tonight.\n🔍 **Error Identification:** Kế hoạch tương lai không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho kế hoạch. Mẹo: 'Tonight, tomorrow, next week' + be going to / hiện tại tiếp diễn.\n💡 **Ví dụ:** We are playing tennis tomorrow. / She is visiting her mom next weekend."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'll help you if you need. (câu đúng) - Học viên viết \'I help you if you need.\'",
+    "output": "✅ **Corrected Sentence:** I'll help you if you need.\n🔍 **Error Identification:** Mệnh đề chính trong câu điều kiện dùng 'will', không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho cả hai vế. Mẹo: If + hiện tại đơn, S + will + V1.\n💡 **Ví dụ:** If you ask, she will help. / If they invite me, I will go."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I think it won't rain tomorrow. (câu đúng) - Học viên viết \'I think it doesn't rain tomorrow.\'",
+    "output": "✅ **Corrected Sentence:** I think it won't rain tomorrow.\n🔍 **Error Identification:** Dự đoán phủ định tương lai → dùng 'won't'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'doesn't rain' cho tương lai. Mẹo: 'I think' + will/won't + V1.\n💡 **Ví dụ:** I think she won't come. / He thinks they won't win."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We are meeting at 6 PM. (đã hẹn) - Học viên viết \'We meet at 6 PM.\'",
+    "output": "✅ **Corrected Sentence:** We are meeting at 6 PM.\n🔍 **Error Identification:** Cuộc hẹn đã được sắp xếp → dùng hiện tại tiếp diễn, không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho cuộc hẹn. Mẹo: Cuộc hẹn với người → hiện tại tiếp diễn.\n💡 **Ví dụ:** I'm seeing the dentist at 3 PM. / They're having a meeting at 10 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Look at those dark clouds. It will rain.",
+    "output": "✅ **Corrected Sentence:** Look at those dark clouds. It is going to rain.\n🔍 **Error Identification:** Dấu hiệu trực tiếp → be going to.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho mọi dự báo thời tiết. Mẹo: Có bằng chứng nhìn thấy → be going to.\n💡 **Ví dụ:** The sky is getting dark. It is going to storm. / He's driving too fast. He is going to crash."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The plane takes off at 10 AM. (lịch trình) - Học viên viết \'The plane will take off at 10 AM.\'",
+    "output": "✅ **Corrected Sentence:** The plane takes off at 10 AM.\n🔍 **Error Identification:** Lịch trình chuyến bay cố định → hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will take off' cho chuyến bay. Mẹo: Lịch trình máy bay, tàu hỏa → hiện tại đơn.\n💡 **Ví dụ:** The train departs at 8 AM. / The bus arrives at 7 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'll call you as soon as I will get there.",
+    "output": "✅ **Corrected Sentence:** I'll call you as soon as I get there.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'as soon as'. Mẹo: 'As soon as, when, after, before' + hiện tại đơn.\n💡 **Ví dụ:** I'll tell her as soon as I see her. / She'll pay after she receives the bill."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is going to have a baby in December. (dấu hiệu) - Học viên viết \'She will have a baby in December.\'",
+    "output": "✅ **Corrected Sentence (dựa trên dấu hiệu thực tế):** She is going to have a baby in December.\n🔍 **Error Identification:** Dấu hiệu (bụng bầu) → be going to.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho mang thai. Mẹo: Dấu hiệu nhìn thấy → be going to.\n💡 **Ví dụ:** She is going to have twins. / They are going to have a new house (already building)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I promise I will be there on time. (câu đúng) - Học viên viết \'I promise I am there on time.\'",
+    "output": "✅ **Corrected Sentence:** I promise I will be there on time.\n🔍 **Error Identification:** Lời hứa + will.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'promise'. Mẹo: 'Promise' + will.\n💡 **Ví dụ:** I promise I'll study harder. / He promises he will return."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The exam starts at 8 AM tomorrow. (lịch trình) - Học viên viết \'The exam will start at 8 AM tomorrow.\'",
+    "output": "✅ **Corrected Sentence:** The exam starts at 8 AM tomorrow.\n🔍 **Error Identification:** Lịch thi cố định → hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will start' cho lịch thi. Mẹo: Lịch trình trường học → hiện tại đơn.\n💡 **Ví dụ:** The lesson begins at 9 AM. / The break ends at 10 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm hungry. I think I make a sandwich.",
+    "output": "✅ **Corrected Sentence:** I'm hungry. I think I'll make a sandwich.\n🔍 **Error Identification:** 'I think' + quyết định tức thời → will.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'I think'. Mẹo: 'I think' + will cho quyết định nhanh.\n💡 **Ví dụ:** I think I'll take a nap. / I think I'll order pizza."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We will go to the beach if the weather is nice. (câu đúng) - Học viên viết \'We go to the beach if the weather will be nice.\'",
+    "output": "✅ **Corrected Sentence:** We will go to the beach if the weather is nice.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'if'. Mẹo: If + hiện tại đơn, S + will.\n💡 **Ví dụ:** If she calls, I'll answer. / If they offer, I'll accept."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She will probably be late. (câu đúng) - Học viên viết \'She probably is late.\'",
+    "output": "✅ **Corrected Sentence:** She will probably be late.\n🔍 **Error Identification:** 'Probably' + dự đoán tương lai → will.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn với 'probably'. Mẹo: 'Probably, maybe' + will.\n💡 **Ví dụ:** He will probably come. / They will probably win."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm going to buy a new car next year. (dự định) - Học viên viết \'I buy a new car next year.\'",
+    "output": "✅ **Corrected Sentence:** I'm going to buy a new car next year.\n🔍 **Error Identification:** Dự định tương lai không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho dự định. Mẹo: Dự định + be going to / hiện tại tiếp diễn.\n💡 **Ví dụ:** She is going to learn French. / They are going to move to a new city."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm sure she will come. (câu đúng) - Học viên viết \'I'm sure she comes.\'",
+    "output": "✅ **Corrected Sentence:** I'm sure she will come.\n🔍 **Error Identification:** 'I'm sure' + dự đoán tương lai → will.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'I'm sure'. Mẹo: 'I'm sure, I'm certain' + will.\n💡 **Ví dụ:** I'm sure they will succeed. / I'm certain he will pass."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This time next month, I will be lying on the beach. (tương lai tiếp diễn) - Học viên viết \'This time next month, I will lie on the beach.\'",
+    "output": "✅ **Corrected Sentence:** This time next month, I will be lying on the beach.\n🔍 **Error Identification:** 'This time next month' + tương lai tiếp diễn (will be lying).\n📘 **Vietnamese Explanation:** Người Việt dùng 'will lie' (đơn) cho thời điểm cụ thể. Mẹo: 'This time + tương lai' → will be + V-ing.\n💡 **Ví dụ:** At 9 PM tonight, I will be watching a movie. / This time next week, she will be flying to London."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'll call you when I arrive. (câu đúng) - Học viên viết \'I'll call you when I will arrive.\'",
+    "output": "✅ **Corrected Sentence:** I'll call you when I arrive.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'when'. Mẹo: 'When, after, before, as soon as' + hiện tại đơn.\n💡 **Ví dụ:** She'll text me after she lands. / He'll pay before he leaves."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The store will close at 9 PM every day. (lịch trình) - Học viên viết \'The store closes at 9 PM every day.\' (câu đúng hơn)",
+    "output": "✅ **Corrected Sentence:** The store closes at 9 PM every day.\n🔍 **Error Identification:** Lịch trình lặp lại (every day) → hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will close' cho lịch trình hàng ngày. Mẹo: Hành động lặp lại theo lịch → hiện tại đơn.\n💡 **Ví dụ:** The library opens at 8 AM every weekday. / The market closes at 6 PM on Sundays."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will help you carry those bags. (lời đề nghị) - Học viên viết \'I am going to help you carry those bags.\'",
+    "output": "✅ **Corrected Sentence:** I will help you carry those bags.\n🔍 **Error Identification:** Đề nghị giúp đỡ tức thời → will.\n📘 **Vietnamese Explanation:** Người Việt dùng 'be going to' cho đề nghị. Mẹo: Đề nghị giúp ai → will.\n💡 **Ví dụ:** I'll open the door for you. / We'll pay for the coffee."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She will have finished her report by Friday. (tương lai hoàn thành) - Học viên viết \'She finishes her report by Friday.\'",
+    "output": "✅ **Corrected Sentence:** She will have finished her report by Friday.\n🔍 **Error Identification:** 'By Friday' + tương lai hoàn thành (will have + V3).\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn với 'by + thời gian'. Mẹo: 'By + mốc tương lai' → will have + V3.\n💡 **Ví dụ:** They will have left by 6 PM. / I will have eaten by the time you arrive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I think I will stay home because it's raining. (quyết định) - Học viên viết \'I think I stay home because it's raining.\'",
+    "output": "✅ **Corrected Sentence:** I think I will stay home because it's raining.\n🔍 **Error Identification:** 'I think' + quyết định tức thời → will.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'I think'. Mẹo: 'I think' + will cho quyết định tại chỗ.\n💡 **Ví dụ:** I think I'll have coffee. / I think I'll go to bed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We are flying to Bangkok next Monday. (kế hoạch đã đặt vé) - Học viên viết \'We fly to Bangkok next Monday.\'",
+    "output": "✅ **Corrected Sentence:** We are flying to Bangkok next Monday.\n🔍 **Error Identification:** Kế hoạch đã đặt vé → hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho chuyến bay đã đặt. Mẹo: Chuyến bay, khách sạn đã đặt → hiện tại tiếp diễn.\n💡 **Ví dụ:** We are staying at a hotel. / She is catching the 8 AM flight."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Don't call me at 7 PM. I will have dinner then.",
+    "output": "✅ **Corrected Sentence:** Don't call me at 7 PM. I will be having dinner then.\n🔍 **Error Identification:** 'At 7 PM' + hành động đang diễn ra → tương lai tiếp diễn (will be having).\n📘 **Vietnamese Explanation:** Người Việt dùng 'will have' (đơn) cho thời điểm cụ thể. Mẹo: 'At + giờ cụ thể' trong tương lai → will be + V-ing.\n💡 **Ví dụ:** At 8 PM, I will be watching a movie. / At noon, she will be sleeping."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I promise I won't be late. (câu đúng) - Học viên viết \'I promise I am not late.\'",
+    "output": "✅ **Corrected Sentence:** I promise I won't be late.\n🔍 **Error Identification:** Lời hứa về tương lai → will/won't.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho lời hứa. Mẹo: 'Promise' + will/won't.\n💡 **Ví dụ:** I promise I won't forget. / He promises he won't lie."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will help me, I will finish faster.",
+    "output": "✅ **Corrected Sentence:** If you help me, I will finish faster.\n🔍 **Error Identification:** Mệnh đề 'if' không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, S + will.\n💡 **Ví dụ:** If you study, you will pass. / If they invite us, we will go."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm sure she will succeed. (câu đúng) - Học viên viết \'I'm sure she succeeds.\'",
+    "output": "✅ **Corrected Sentence:** I'm sure she will succeed.\n🔍 **Error Identification:** 'I'm sure' + dự đoán tương lai → will.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'I'm sure'. Mẹo: 'I'm sure/certain' + will.\n💡 **Ví dụ:** I'm certain they will come. / I'm sure he will apologize."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am going to meet my boss at 2 PM. (đã hẹn) - Học viên viết \'I will meet my boss at 2 PM.\'",
+    "output": "✅ **Corrected Sentence:** I am meeting my boss at 2 PM. / I am going to meet my boss at 2 PM.\n🔍 **Error Identification:** Cuộc hẹn đã được sắp xếp → hiện tại tiếp diễn / be going to.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho cuộc hẹn. Mẹo: Cuộc hẹn có giờ cụ thể → hiện tại tiếp diễn.\n💡 **Ví dụ:** I'm seeing the doctor at 4 PM. / They're having a call at 3 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This time next year, I will have graduated. (tương lai hoàn thành) - Học viên viết \'This time next year, I will graduate.\'",
+    "output": "✅ **Corrected Sentence:** This time next year, I will have graduated.\n🔍 **Error Identification:** 'This time next year' + hành động hoàn tất trước thời điểm đó → tương lai hoàn thành (will have + V3).\n📘 **Vietnamese Explanation:** Người Việt dùng 'will graduate' (đơn). Mẹo: 'This time next year/month' + will have + V3.\n💡 **Ví dụ:** This time next month, I will have finished my course. / By 2025, she will have become a manager."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I think it is going to snow because the sky is gray. (câu đúng) - Học viên viết \'I think it will snow because the sky is gray.\'",
+    "output": "✅ **Corrected Sentence:** I think it is going to snow because the sky is gray.\n🔍 **Error Identification:** Bằng chứng trực tiếp (gray sky) → be going to.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho dự đoán có bằng chứng. Mẹo: Nhìn thấy bằng chứng → be going to.\n💡 **Ví dụ:** The ground is wet. It is going to rain. / She's yawning. She is going to sleep."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The bus leaves at 7 AM tomorrow. (lịch trình) - Học viên viết \'The bus is leaving at 7 AM tomorrow.\' (cũng được nhưng kém tự nhiên)",
+    "output": "✅ **Corrected Sentence (lịch trình cố định):** The bus leaves at 7 AM tomorrow.\n🔍 **Error Identification:** Lịch trình phương tiện công cộng → ưu tiên hiện tại đơn hơn hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại tiếp diễn cho lịch trình tàu xe. Mẹo: Giờ tàu chạy cố định → hiện tại đơn.\n💡 **Ví dụ:** The train arrives at 8 PM. / The ferry departs at 6 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'll take you to the airport tomorrow. (lời hứa) - Học viên viết \'I take you to the airport tomorrow.\'",
+    "output": "✅ **Corrected Sentence:** I'll take you to the airport tomorrow.\n🔍 **Error Identification:** Lời hứa / đề nghị → will.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho lời hứa. Mẹo: Hứa hẹn → will.\n💡 **Ví dụ:** I'll pick you up. / We'll bring snacks."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Look! He's going to fall off his bike! (câu đúng) - Học viên viết \'Look! He will fall off his bike!\'",
+    "output": "✅ **Corrected Sentence:** Look! He's going to fall off his bike!\n🔍 **Error Identification:** Nhìn thấy nguy cơ trực tiếp → be going to.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho cảnh báo. Mẹo: 'Look!, Watch out!' + be going to.\n💡 **Ví dụ:** Watch out! That car is going to hit us. / Look! The glass is going to break."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She will call me when she gets home. (câu đúng) - Học viên viết \'She will call me when she will get home.\'",
+    "output": "✅ **Corrected Sentence:** She will call me when she gets home.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'when'. Mẹo: 'When, after, before' + hiện tại đơn.\n💡 **Ví dụ:** He will text me after he lands. / I'll pay before I leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I think I am going to stay home tonight. (dự định) - Học viên viết \'I think I stay home tonight.\'",
+    "output": "✅ **Corrected Sentence:** I think I am going to stay home tonight. (hoặc I think I'll stay home)\n🔍 **Error Identification:** 'I think' + dự định có thể dùng 'be going to' hoặc 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'I think'. Mẹo: 'I think' + will/be going to.\n💡 **Ví dụ:** I think I'm going to take a nap. / I think I'll have tea."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are going to build a new hospital here. (kế hoạch) - Học viên viết \'They build a new hospital here.\'",
+    "output": "✅ **Corrected Sentence:** They are going to build a new hospital here.\n🔍 **Error Identification:** Kế hoạch tương lai không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho kế hoạch xây dựng. Mẹo: Dự án, kế hoạch → be going to.\n💡 **Ví dụ:** The city is going to build a new bridge. / They are going to open a new school."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I promise I will never lie to you. (câu đúng) - Học viên viết \'I promise I never lie to you.\'",
+    "output": "✅ **Corrected Sentence:** I promise I will never lie to you.\n🔍 **Error Identification:** Lời hứa về tương lai → will.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho lời hứa. Mẹo: 'Promise' + will.\n💡 **Ví dụ:** I promise I will always love you. / He promises he will be honest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time you read this, I will have left. (tương lai hoàn thành) - Học viên viết \'By the time you read this, I leave.\'",
+    "output": "✅ **Corrected Sentence:** By the time you read this, I will have left.\n🔍 **Error Identification:** 'By the time + hiện tại đơn' + tương lai hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: 'By the time' + will have + V3.\n💡 **Ví dụ:** By the time she arrives, we will have eaten. / By the time you wake up, I will have gone."
+  }
+]

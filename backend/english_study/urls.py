@@ -52,6 +52,9 @@ urlpatterns = [
     # ── Support Portal ────────────────────────────────────
     path(f"{API}/support/", include("apps.support.urls")),
 
+    # ── Skill Practice ────────────────────────────────────
+    path(f"{API}/skill-practice/", include("apps.skill_practice.urls")),
+
     # ── API Schema & Docs ────────────────────────────────────────
     path(f"{API}/schema/", SpectacularAPIView.as_view(), name="schema"),
     path(f"{API}/docs/", SpectacularSwaggerView.as_view(url_name="schema"), name="swagger-ui"),

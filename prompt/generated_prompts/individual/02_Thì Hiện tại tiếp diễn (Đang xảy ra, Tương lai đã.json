@@ -1,0 +1,463 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She go to school now.",
+    "output": "✅ **Corrected Sentence:** She is going to school now.\n🔍 **Error Identification:** Tense – dùng thì hiện tại đơn (go) thay vì hiện tại tiếp diễn (is going) cho hành động đang xảy ra.\n📘 **Vietnamese Explanation:** Người Việt thường dịch 'cô ấy đi học bây giờ' word-by-word, quên cấu trúc 'to be + V-ing'. Mẹo: Có 'now, at the moment, right now' → dùng am/is/are + V-ing.\n💡 **Ví dụ:** I am reading now. / They are playing football at the moment."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is play video games right now.",
+    "output": "✅ **Corrected Sentence:** He is playing video games right now.\n🔍 **Error Identification:** Thiếu 'ing' sau động từ chính 'play'.\n📘 **Vietnamese Explanation:** Người Việt nhớ 'is' nhưng quên thêm 'ing'. Mẹo: Cấu trúc: to be (am/is/are) + V-ing. Không được thiếu 'ing'.\n💡 **Ví dụ:** She is cooking dinner. / They are watching TV."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are go to the cinema tonight.",
+    "output": "✅ **Corrected Sentence:** They are going to the cinema tonight.\n🔍 **Error Identification:** Tương lai có kế hoạch – dùng 'going' thay vì 'go' sau 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are go' vì dịch 'sẽ đi', nhưng đây là kế hoạch chắc chắn nên dùng hiện tại tiếp diễn. Mẹo: Kế hoạch có thời gian cụ thể trong tương lai gần → am/is/are + V-ing.\n💡 **Ví dụ:** We are meeting at 7 PM. / She is flying to Da Nang tomorrow."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am study for the exam at the moment.",
+    "output": "✅ **Corrected Sentence:** I am studying for the exam at the moment.\n🔍 **Error Identification:** Thiếu 'ing' – 'study' phải thành 'studying'.\n📘 **Vietnamese Explanation:** Người Việt quên quy tắc thêm 'ing' với động từ kết thúc bằng 'y'. Mẹo: 'study' → bỏ 'y' thêm 'ying'? Không, 'study' giữ nguyên y và thêm ing: studying.\n💡 **Ví dụ:** She is crying. / He is playing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What do you do right now?",
+    "output": "✅ **Corrected Sentence:** What are you doing right now?\n🔍 **Error Identification:** Câu hỏi sai thì – dùng hiện tại đơn thay vì hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'bạn làm gì bây giờ?' quên mất trợ động từ 'are' và 'ing'. Mẹo: Hỏi hành động đang xảy ra → What + am/is/are + S + V-ing?\n💡 **Ví dụ:** What is she wearing? / What are they eating?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She not coming to the party tomorrow.",
+    "output": "✅ **Corrected Sentence:** She is not coming to the party tomorrow.\n🔍 **Error Identification:** Thiếu 'to be' trong câu phủ định – 'She not' phải là 'She is not'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cô ấy không đến' thành 'she not come' vì tiếng Việt không cần 'is'. Mẹo: Phủ định hiện tại tiếp diễn: S + am/is/are + not + V-ing.\n💡 **Ví dụ:** I am not joking. / They are not staying here."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is swiming in the pool.",
+    "output": "✅ **Corrected Sentence:** He is swimming in the pool.\n🔍 **Error Identification:** Lỗi chính tả khi thêm 'ing' – 'swim' cần gấp đôi 'm' thành 'swimming'.\n📘 **Vietnamese Explanation:** Người Việt quên quy tắc gấp đôi phụ âm cuối khi động từ kết thúc bằng nguyên âm + phụ âm (CVC). Mẹo: 'swim' (CVC) → swimming; 'run' → running.\n💡 **Ví dụ:** She is sitting. / He is getting up."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are play soccer at the moment.",
+    "output": "✅ **Corrected Sentence:** They are playing soccer at the moment.\n🔍 **Error Identification:** Thiếu 'ing' – 'play' phải thành 'playing'.\n📘 **Vietnamese Explanation:** Người Việt nhớ 'are' nhưng quên thêm 'ing' vào động từ chính. Mẹo: Luôn kiểm tra: to be + V-ing, không thể thiếu 'ing'.\n💡 **Ví dụ:** We are eating lunch. / The dog is barking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Is she work here now?",
+    "output": "✅ **Corrected Sentence:** Is she working here now?\n🔍 **Error Identification:** Câu hỏi thiếu 'ing' – 'work' phải là 'working'.\n📘 **Vietnamese Explanation:** Người Việt nhớ đảo 'is' lên đầu nhưng quên thêm 'ing' vào động từ. Mẹo: Câu hỏi hiện tại tiếp diễn: Is/Am/Are + S + V-ing?\n💡 **Ví dụ:** Are you listening? / Is it raining?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We are going to the beach next weekend. (câu đúng) - Học viên viết \'We go to the beach next weekend.\'",
+    "output": "✅ **Corrected Sentence:** We are going to the beach next weekend.\n🔍 **Error Identification:** Tương lai đã lên kế hoạch – dùng hiện tại tiếp diễn thay vì hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho tương lai vì nghĩ 'next weekend' là tương lai. Mẹo: Kế hoạch đã chốt (đã đặt vé, hẹn lịch) → dùng hiện tại tiếp diễn.\n💡 **Ví dụ:** I am meeting my doctor tomorrow. / She is starting a new job on Monday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The children is playing in the garden.",
+    "output": "✅ **Corrected Sentence:** The children are playing in the garden.\n🔍 **Error Identification:** S-V agreement – 'children' số nhiều nên dùng 'are', không phải 'is'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'children' kết thúc 's' tưởng số ít? Nhưng 'children' đã là số nhiều rồi. Mẹo: Children, people, men, women + are.\n💡 **Ví dụ:** People are waiting outside. / The men are working."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am not understanding you. (một số trường hợp được chấp nhận nhưng với stative verb thì không) - Học viên viết \'I don't understand you.\' (đúng) nhưng sai khi dùng \'I am not understand you.\'",
+    "output": "✅ **Corrected Sentence:** I don't understand you. (hoặc I am not understanding you nếu muốn nhấn mạnh quá trình, nhưng không phổ biến)\n🔍 **Error Identification:** Dùng hiện tại tiếp diễn với stative verb (understand) – không đúng.\n📘 **Vietnamese Explanation:** Người Việt muốn nhấn mạnh 'đang không hiểu' nên thêm 'am not'. Mẹo: Các động từ chỉ cảm xúc, nhận thức (know, believe, understand, like, love, hate) không dùng tiếp diễn.\n💡 **Ví dụ:** I like coffee (not I am liking). / She knows the answer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He are sleeping right now.",
+    "output": "✅ **Corrected Sentence:** He is sleeping right now.\n🔍 **Error Identification:** S-V agreement – 'He' số ít đi với 'is', không phải 'are'.\n📘 **Vietnamese Explanation:** Người Việt hay nhầm 'are' cho mọi chủ ngữ. Mẹo: I am, He/She/It is, You/We/They are.\n💡 **Ví dụ:** She is dancing. / They are laughing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What time are you leave tomorrow?",
+    "output": "✅ **Corrected Sentence:** What time are you leaving tomorrow?\n🔍 **Error Identification:** Thiếu 'ing' – 'leave' phải thành 'leaving'.\n📘 **Vietnamese Explanation:** Người Việt có 'are you' rồi nhưng quên thêm 'ing' vào 'leave'. Mẹo: Hỏi kế hoạch tương lai: are/is/am + S + V-ing?\n💡 **Ví dụ:** When is she coming? / Where are they staying?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is write a letter at the moment.",
+    "output": "✅ **Corrected Sentence:** She is writing a letter at the moment.\n🔍 **Error Identification:** 'write' kết thúc bằng 'e' → bỏ 'e' thêm 'ing' thành 'writing'.\n📘 **Vietnamese Explanation:** Người Việt quên bỏ 'e' khi thêm 'ing'. Mẹo: Động từ kết thúc 'e' (make, write, drive) → bỏ 'e' + ing.\n💡 **Ví dụ:** He is making coffee. / She is driving home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They is playing football now.",
+    "output": "✅ **Corrected Sentence:** They are playing football now.\n🔍 **Error Identification:** S-V agreement – 'They' số nhiều đi với 'are', không phải 'is'.\n📘 **Vietnamese Explanation:** Lỗi phổ biến: dùng 'is' cho mọi chủ ngữ. Mẹo: Nhớ 'They are, We are, You are'.\n💡 **Ví dụ:** We are studying. / You are listening."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am go to the market tomorrow.",
+    "output": "✅ **Corrected Sentence:** I am going to the market tomorrow.\n🔍 **Error Identification:** Thiếu 'ing' – 'go' phải thành 'going' cho kế hoạch tương lai.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi sẽ đi chợ mai' thành 'I am go' vì quên cấu trúc. Mẹo: Tương lai có kế hoạch: am/is/are + going (không phải go).\n💡 **Ví dụ:** She is visiting her grandma next week. / We are traveling to Hue."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Look! The bus come.",
+    "output": "✅ **Corrected Sentence:** Look! The bus is coming.\n🔍 **Error Identification:** Hành động đang xảy ra ngay lúc nói – dùng hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** 'Look!' là dấu hiệu của hành động đang diễn ra, nhưng người Việt dùng hiện tại đơn. Mẹo: 'Look!, Listen!, Watch!' → hiện tại tiếp diễn.\n💡 **Ví dụ:** Listen! Someone is singing. / Look! The baby is smiling."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is study now.",
+    "output": "✅ **Corrected Sentence:** She is studying now.\n🔍 **Error Identification:** 'study' → 'studying' (giữ nguyên y và thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'ing' vào 'study'. Mẹo: Hầu hết động từ thêm 'ing', ngoại lệ học riêng.\n💡 **Ví dụ:** He is playing. / They are working."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We are not go to the party tonight.",
+    "output": "✅ **Corrected Sentence:** We are not going to the party tonight.\n🔍 **Error Identification:** Phủ định tương lai có kế hoạch – 'go' phải là 'going'.\n📘 **Vietnamese Explanation:** Người Việt có 'are not' rồi nhưng quên 'ing'. Mẹo: Phủ định: S + am/is/are + not + V-ing.\n💡 **Ví dụ:** I am not staying late. / He is not coming."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Why you are laughing at me?",
+    "output": "✅ **Corrected Sentence:** Why are you laughing at me?\n🔍 **Error Identification:** Trật tự từ trong câu hỏi Wh- – phải đảo 'are' lên trước chủ ngữ 'you'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên trật tự 'you are' vì dịch 'tại sao bạn đang cười'. Mẹo: Wh- + am/is/are + S + V-ing?\n💡 **Ví dụ:** Why is she crying? / Where are they going?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is runing very fast.",
+    "output": "✅ **Corrected Sentence:** He is running very fast.\n🔍 **Error Identification:** 'run' (CVC) → gấp đôi 'n' thành 'running', không phải 'runing'.\n📘 **Vietnamese Explanation:** Người Việt quên gấp đôi phụ âm. Mẹo: Một âm tiết, kết thúc nguyên âm + phụ âm → gấp đôi phụ âm + ing.\n💡 **Ví dụ:** She is sitting. / He is stopping."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are visit Hanoi next month.",
+    "output": "✅ **Corrected Sentence:** They are visiting Hanoi next month.\n🔍 **Error Identification:** Kế hoạch tương lai – 'visit' phải thêm 'ing'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are visit' vì dịch 'sẽ thăm'. Mẹo: Kế hoạch đã định sẵn (ngày tháng cụ thể) → dùng V-ing.\n💡 **Ví dụ:** We are moving to a new house in July. / She is starting university in September."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I is doing my homework now.",
+    "output": "✅ **Corrected Sentence:** I am doing my homework now.\n🔍 **Error Identification:** S-V agreement – 'I' đi với 'am', không phải 'is'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is' cho mọi chủ ngữ vì nghĩ nó là 'là'. Mẹo: I am (không phải I is).\n💡 **Ví dụ:** I am eating. / I am sleeping."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She doesn't working today.",
+    "output": "✅ **Corrected Sentence:** She isn't working today.\n🔍 **Error Identification:** Phủ định – dùng 'doesn't' (hiện tại đơn) thay vì 'isn't' (hiện tại tiếp diễn).\n📘 **Vietnamese Explanation:** Người Việt nhầm lẫn giữa trợ động từ của hiện tại đơn và tiếp diễn. Mẹo: Hiện tại tiếp diễn phủ định: am/is/are + not + V-ing, không dùng do/does.\n💡 **Ví dụ:** He isn't sleeping. / They aren't playing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Look! The dog run after the cat.",
+    "output": "✅ **Corrected Sentence:** Look! The dog is running after the cat.\n🔍 **Error Identification:** Hành động đang xảy ra – dùng hiện tại tiếp diễn, 'run' → 'running'.\n📘 **Vietnamese Explanation:** 'Look!' báo hiệu hành động đang diễn ra, nhưng người Việt dùng hiện tại đơn và quên gấp đôi phụ âm. Mẹo: Nhìn thấy trực tiếp → hiện tại tiếp diễn.\n💡 **Ví dụ:** Listen! The phone is ringing. / Watch! The car is coming."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am going to the cinema tonight. (câu đúng) - Học viên viết \'I go to the cinema tonight.\'",
+    "output": "✅ **Corrected Sentence:** I am going to the cinema tonight.\n🔍 **Error Identification:** Kế hoạch tối nay – dùng hiện tại tiếp diễn, không phải hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'I go' vì nghĩ 'tonight' là hiện tại? Mẹo: Tối nay có kế hoạch cụ thể → dùng 'am going'.\n💡 **Ví dụ:** She is meeting friends tonight. / We are eating out tonight."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Where is he go?",
+    "output": "✅ **Corrected Sentence:** Where is he going?\n🔍 **Error Identification:** Câu hỏi thiếu 'ing' – 'go' phải thành 'going'.\n📘 **Vietnamese Explanation:** Người Việt có 'is he' rồi nhưng quên thêm 'ing' vào 'go'. Mẹo: Câu hỏi với where/what/when + is/are/am + S + V-ing?\n💡 **Ví dụ:** What is she doing? / Where are they going?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cat is sleep on the sofa.",
+    "output": "✅ **Corrected Sentence:** The cat is sleeping on the sofa.\n🔍 **Error Identification:** Thiếu 'ing' – 'sleep' phải thành 'sleeping'.\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'ing' vào động từ chính. Mẹo: is/are/am phải đi cùng V-ing.\n💡 **Ví dụ:** The baby is crying. / The phone is ringing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We are study for the test right now.",
+    "output": "✅ **Corrected Sentence:** We are studying for the test right now.\n🔍 **Error Identification:** 'study' → 'studying'.\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'ing' dù có 'right now'. Mẹo: 'Right now, at the moment' luôn đi với V-ing.\n💡 **Ví dụ:** They are playing right now. / She is sleeping at the moment."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He don't like to talk now because he is study.",
+    "output": "✅ **Corrected Sentence:** He doesn't like to talk now because he is studying.\n🔍 **Error Identification:** Hai lỗi: 'don't' với he (phải 'doesn't') và 'is study' thiếu 'ing'.\n📘 **Vietnamese Explanation:** Người Việt mắc lỗi kép: vừa sai trợ động từ vừa quên 'ing'. Mẹo: Chia động từ theo từng mệnh đề.\n💡 **Ví dụ:** She doesn't eat meat because she is a vegetarian."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are waiting for the bus since 8 AM. (sai vì since + mốc thời gian dùng hiện tại hoàn thành) - Học viên viết \'They are waiting for the bus now.\' (đúng) nhưng sai: \'They are waiting for the bus every day.\'",
+    "output": "✅ **Corrected Sentence:** They wait for the bus every day. (hoặc They are waiting for the bus now)\n🔍 **Error Identification:** Dùng hiện tại tiếp diễn cho thói quen ('every day') – không đúng.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are waiting' cho mọi trường hợp vì nghĩ nó dễ hơn. Mẹo: Hiện tại tiếp diễn chỉ dùng cho hành động đang xảy ra hoặc kế hoạch tương lai, không dùng cho thói quen.\n💡 **Ví dụ:** I read books every day (not I am reading). / She drinks tea in the morning."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am wanting a new phone. (sai vì want là stative verb) - Học viên viết \'I want a new phone.\' (đúng)",
+    "output": "✅ **Corrected Sentence:** I want a new phone.\n🔍 **Error Identification:** Dùng hiện tại tiếp diễn với stative verb 'want' – không đúng.\n📘 **Vietnamese Explanation:** Người Việt muốn nhấn mạnh 'đang muốn' nên thêm 'am wanting'. Mẹo: Want, need, like, love, hate, know, believe, understand không dùng tiếp diễn.\n💡 **Ví dụ:** I need help (not I am needing). / She loves chocolate."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is make dinner at the moment.",
+    "output": "✅ **Corrected Sentence:** She is making dinner at the moment.\n🔍 **Error Identification:** 'make' kết thúc 'e' → bỏ 'e' thêm 'ing' thành 'making'.\n📘 **Vietnamese Explanation:** Người Việt quên bỏ 'e' khi thêm 'ing'. Mẹo: make→making, write→writing, dance→dancing.\n💡 **Ví dụ:** He is taking a shower. / She is baking a cake."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What are you do?",
+    "output": "✅ **Corrected Sentence:** What are you doing?\n🔍 **Error Identification:** Thiếu 'ing' – 'do' phải thành 'doing'.\n📘 **Vietnamese Explanation:** Người Việt hỏi 'what are you do' vì dịch 'bạn làm gì?'. Mẹo: Luôn nhớ 'are you + V-ing'.\n💡 **Ví dụ:** What are you eating? / What are you wearing?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is always interrupt me. (sai vì interrupt thiếu ing và tân ngữ) - Học viên viết \'He is always interrupting me.\' (đúng, diễn tả sự phàn nàn)",
+    "output": "✅ **Corrected Sentence:** He is always interrupting me.\n🔍 **Error Identification:** Thiếu 'ing' – 'interrupt' phải là 'interrupting'.\n📘 **Vietnamese Explanation:** 'Always' + hiện tại tiếp diễn diễn tả sự phàn nàn về thói quen xấu. Người Việt hay dùng hiện tại đơn. Mẹo: always/constantly + V-ing = phàn nàn.\n💡 **Ví dụ:** She is always losing her keys. / They are always talking in class."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am have breakfast now.",
+    "output": "✅ **Corrected Sentence:** I am having breakfast now.\n🔍 **Error Identification:** 'have' là động từ chính, không được dùng 'am have' mà phải 'am having'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'have' sau 'am' vì nghĩ 'am' là 'đang'. Mẹo: Cấu trúc đúng: am/is/are + V-ing (không được để động từ nguyên thể).\n💡 **Ví dụ:** She is having a shower. / They are having lunch."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The students is listening to the teacher.",
+    "output": "✅ **Corrected Sentence:** The students are listening to the teacher.\n🔍 **Error Identification:** S-V agreement – 'students' số nhiều + 'are'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'students' có 's' nhưng vẫn dùng 'is' vì quên quy tắc. Mẹo: Danh từ số nhiều (có 's') + are.\n💡 **Ví dụ:** The teachers are talking. / The boys are running."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We are going to have a meeting at 3 PM tomorrow. (câu đúng) - Học viên viết \'We have a meeting at 3 PM tomorrow.\'",
+    "output": "✅ **Corrected Sentence:** We are having a meeting at 3 PM tomorrow.\n🔍 **Error Identification:** Kế hoạch có thời gian cụ thể trong tương lai → dùng hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho lịch trình cố định, nhưng đây là kế hoạch của con người, không phải giờ tàu chạy. Mẹo: Kế hoạch cá nhân đã chốt → hiện tại tiếp diễn.\n💡 **Ví dụ:** I am seeing the doctor at 10 AM. / She is catching a flight at 6 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am not agree with you.",
+    "output": "✅ **Corrected Sentence:** I don't agree with you. (hoặc I am not agreeing with you – hiếm)\n🔍 **Error Identification:** Dùng hiện tại tiếp diễn với 'agree' (stative verb) – không đúng.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi không đồng ý' thành 'I am not agree' vì nghĩ 'am not' là 'không'. Mẹo: Agree là động từ chỉ trạng thái, dùng hiện tại đơn: I don't agree.\n💡 **Ví dụ:** I don't think so. / She doesn't believe him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are building a new school now.",
+    "output": "✅ **Corrected Sentence:** They are building a new school now.\n🔍 **Error Identification:** Câu này đúng. Học viên viết \'They build a new school now.\' (sai)",
+    "output_alt": "✅ **Corrected Sentence (nếu câu sai là 'They build a new school now'):** They are building a new school now.\n🔍 **Error Identification:** Hành động đang xảy ra – dùng hiện tại tiếp diễn, không phải hiện tại đơn.\n📘 **Vietnamese Explanation:** 'Now' là dấu hiệu của hiện tại tiếp diễn, nhưng người Việt dùng hiện tại đơn 'build'. Mẹo: Có 'now, at present, currently' → dùng to be + V-ing.\n💡 **Ví dụ:** They are playing now. / She is sleeping now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is shop for clothes at the mall.",
+    "output": "✅ **Corrected Sentence:** She is shopping for clothes at the mall.\n🔍 **Error Identification:** 'shop' (CVC) → gấp đôi 'p' thành 'shopping'.\n📘 **Vietnamese Explanation:** Người Việt quên gấp đôi phụ âm. Mẹo: shop (nguyên âm o + phụ âm p) → shopping; stop → stopping.\n💡 **Ví dụ:** He is jogging. / She is clapping."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He are going to the gym now.",
+    "output": "✅ **Corrected Sentence:** He is going to the gym now.\n🔍 **Error Identification:** S-V agreement – 'He' + 'is', không phải 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are' cho mọi chủ ngữ vì nghĩ 'are' là 'đang'. Mẹo: He/She/It + is; You/We/They + are; I + am.\n💡 **Ví dụ:** She is singing. / They are dancing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am waiting for you since 5 PM. (sai, vì since + mốc thời gian dùng hiện tại hoàn thành tiếp diễn) - Học viên viết \'I am waiting for you now.\' (đúng)",
+    "output": "✅ **Corrected Sentence:** I have been waiting for you since 5 PM. (hoặc I am waiting for you now)\n🔍 **Error Identification:** Dùng hiện tại tiếp diễn với 'since' – không đúng.\n📘 **Vietnamese Explanation:** Người Việt dùng 'am waiting' vì nghĩ 'từ 5h đến giờ' vẫn đang chờ. Mẹo: Since + mốc thời gian → dùng hiện tại hoàn thành hoặc hiện tại hoàn thành tiếp diễn.\n💡 **Ví dụ:** I have lived here since 2010. / She has been studying since 8 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My mother is cook dinner in the kitchen.",
+    "output": "✅ **Corrected Sentence:** My mother is cooking dinner in the kitchen.\n🔍 **Error Identification:** Thiếu 'ing' – 'cook' phải thành 'cooking'.\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù đã có 'is'. Mẹo: is/are/am + V-ing là công thức bất di bất dịch.\n💡 **Ví dụ:** My father is reading a book. / My sister is watching TV."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They is playing chess right now.",
+    "output": "✅ **Corrected Sentence:** They are playing chess right now.\n🔍 **Error Identification:** 'They' số nhiều + 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is' cho số nhiều. Mẹo: 'They' luôn đi với 'are'.\n💡 **Ví dụ:** We are working. / You are learning."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Listen! Someone knock the door.",
+    "output": "✅ **Corrected Sentence:** Listen! Someone is knocking at the door.\n🔍 **Error Identification:** 'Listen!' + hành động đang xảy ra → hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn 'knock' vì dịch 'ai đó gõ cửa'. Mẹo: 'Listen!, Look!' báo hiệu hành động đang diễn ra ngay lúc nói.\n💡 **Ví dụ:** Listen! The birds are singing. / Look! The man is waving."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is live in London at the moment.",
+    "output": "✅ **Corrected Sentence:** She is living in London at the moment.\n🔍 **Error Identification:** 'live' → 'living' (bỏ e thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên bỏ 'e' khi thêm 'ing'. Mẹo: live→living, write→writing, dance→dancing.\n💡 **Ví dụ:** He is driving to work. / She is taking a photo."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What do you do at the moment?",
+    "output": "✅ **Corrected Sentence:** What are you doing at the moment?\n🔍 **Error Identification:** 'At the moment' là dấu hiệu của hiện tại tiếp diễn, không phải hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho mọi câu hỏi. Mẹo: 'At the moment, right now, currently' → hiện tại tiếp diễn.\n💡 **Ví dụ:** What is she wearing at the moment? / What are they watching?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am not understanding the lesson.",
+    "output": "✅ **Corrected Sentence:** I don't understand the lesson.\n🔍 **Error Identification:** 'Understand' là stative verb, không dùng tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'am not understanding' để nhấn mạnh 'đang không hiểu'. Mẹo: Các động từ chỉ nhận thức (know, understand, realize, recognize) không dùng tiếp diễn.\n💡 **Ví dụ:** I know the answer (not I am knowing). / She remembers his name."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is learning English at the moment. (câu đúng) - Học viên viết \'He learn English at the moment.\'",
+    "output": "✅ **Corrected Sentence:** He is learning English at the moment.\n🔍 **Error Identification:** 'At the moment' + hành động đang diễn ra → hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt quên chia thì khi có 'at the moment'. Mẹo: Gặp 'at the moment' là nghĩ ngay đến 'am/is/are + V-ing'.\n💡 **Ví dụ:** She is cooking at the moment. / They are sleeping at the moment."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Where you are going?",
+    "output": "✅ **Corrected Sentence:** Where are you going?\n🔍 **Error Identification:** Trật tự từ trong câu hỏi – phải đảo 'are' lên trước 'you'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'you are' vì dịch 'bạn đang đi đâu?'. Mẹo: Câu hỏi Wh-: Wh- + am/is/are + S + V-ing?\n💡 **Ví dụ:** Where is she going? / Why are they laughing?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am thinking of you now. (câu đúng) - Học viên viết \'I think of you now.\'",
+    "output": "✅ **Corrected Sentence:** I am thinking of you now.\n🔍 **Error Identification:** 'Now' + hành động đang diễn ra trong đầu – có thể dùng tiếp diễn với 'think' khi nói về quá trình suy nghĩ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'I think' vì 'think' thường là stative verb, nhưng ở đây nó diễn tả hành động đang xảy ra. Mẹo: 'Think' có thể dùng tiếp diễn khi nói 'đang nghĩ về điều gì đó ngay lúc này'.\n💡 **Ví dụ:** I am thinking about the exam. / She is thinking of changing her job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The phone ring. Can you answer it?",
+    "output": "✅ **Corrected Sentence:** The phone is ringing. Can you answer it?\n🔍 **Error Identification:** Hành động đang xảy ra – 'ring' phải là 'is ringing'.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn 'ring' cho hành động đang xảy ra. Mẹo: Khi bạn nghe thấy tiếng chuông, nó đang kêu → dùng tiếp diễn.\n💡 **Ví dụ:** The baby is crying. / The car is honking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am meeting my old friend later today. (câu đúng) - Học viên viết \'I meet my old friend later today.\'",
+    "output": "✅ **Corrected Sentence:** I am meeting my old friend later today.\n🔍 **Error Identification:** Kế hoạch trong ngày (later today) → dùng hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho tương lai gần. Mẹo: 'Later today, tonight, tomorrow, this weekend' + kế hoạch đã chốt → hiện tại tiếp diễn.\n💡 **Ví dụ:** She is leaving later today. / We are eating out tonight."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is always forgetting his keys. (câu đúng, phàn nàn) - Học viên viết \'He always forgets his keys.\' (cũng đúng nhưng sắc thái khác)",
+    "output": "✅ **Corrected Sentence (nếu muốn phàn nàn):** He is always forgetting his keys.\n🔍 **Error Identification:** 'Always' + hiện tại tiếp diễn diễn tả sự phàn nàn về thói quen xấu.\n📘 **Vietnamese Explanation:** Người Việt chỉ biết dùng hiện tại đơn với 'always'. Mẹo: Để phàn nàn (than phiền) về hành vi lặp đi lặp lại gây khó chịu → dùng always + V-ing.\n💡 **Ví dụ:** She is always complaining. / They are always arriving late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am having a headache. (sai vì have chỉ sở hữu/sức khỏe không dùng tiếp diễn) - Học viên viết \'I have a headache.\' (đúng)",
+    "output": "✅ **Corrected Sentence:** I have a headache.\n🔍 **Error Identification:** 'Have' chỉ tình trạng sức khỏe (have a headache, have a cold) không dùng hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi đang bị đau đầu' thành 'I am having'. Mẹo: Các cụm 'have + bệnh/triệu chứng' dùng hiện tại đơn.\n💡 **Ví dụ:** She has a fever. / He has a cough."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are plan to travel next month.",
+    "output": "✅ **Corrected Sentence:** They are planning to travel next month.\n🔍 **Error Identification:** 'plan' (CVC) → gấp đôi 'n' thành 'planning'.\n📘 **Vietnamese Explanation:** Người Việt quên gấp đôi phụ âm khi thêm 'ing' với 'plan'. Mẹo: plan→planning, begin→beginning, prefer→preferring.\n💡 **Ví dụ:** She is beginning to learn piano. / He is preferring tea? (hiếm)"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She doesn't work today because she is sick.",
+    "output": "✅ **Corrected Sentence:** She isn't working today because she is sick.\n🔍 **Error Identification:** 'Today' có thể là hôm nay nói chung, nhưng nếu ý nói 'hôm nay cô ấy không làm việc' (tạm thời) → dùng hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho mọi trường hợp. Mẹo: Hành động tạm thời, không phải thói quen cố định → dùng hiện tại tiếp diễn.\n💡 **Ví dụ:** I am staying at home today. / He is wearing a suit today (khác thường)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Why you don't come to the party tonight?",
+    "output": "✅ **Corrected Sentence:** Why aren't you coming to the party tonight?\n🔍 **Error Identification:** Kế hoạch tối nay – dùng hiện tại tiếp diễn cho câu hỏi phủ định.\n📘 **Vietnamese Explanation:** Người Việt dùng 'why you don't come' vì dịch 'tại sao bạn không đến'. Mẹo: Hỏi về kế hoạch → Why + am/is/are + S + not + V-ing?\n💡 **Ví dụ:** Why isn't she coming? / Why aren't they joining us?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am look for my keys right now.",
+    "output": "✅ **Corrected Sentence:** I am looking for my keys right now.\n🔍 **Error Identification:** 'look' → 'looking' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'ing' sau 'am'. Mẹo: 'Right now' bắt buộc dùng V-ing.\n💡 **Ví dụ:** She is looking for a job. / They are looking at the sky."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is study very hard these days.",
+    "output": "✅ **Corrected Sentence:** He is studying very hard these days.\n🔍 **Error Identification:** 'study' → 'studying'.\n📘 **Vietnamese Explanation:** 'These days' (những ngày này) diễn tả hành động đang diễn ra trong khoảng thời gian gần đây → dùng hiện tại tiếp diễn. Người Việt quên 'ing'.\n💡 **Ví dụ:** I am working a lot these days. / She is exercising regularly these days."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are build a new hospital at present.",
+    "output": "✅ **Corrected Sentence:** They are building a new hospital at present.\n🔍 **Error Identification:** 'build' → 'building' (thêm ing).\n📘 **Vietnamese Explanation:** 'At present' (hiện tại) là dấu hiệu của hiện tại tiếp diễn. Người Việt quên 'ing'.\n💡 **Ví dụ:** The company is expanding at present. / The economy is growing at present."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My father is repair his car in the garage.",
+    "output": "✅ **Corrected Sentence:** My father is repairing his car in the garage.\n🔍 **Error Identification:** 'repair' → 'repairing' (thêm ing, không gấp đôi vì trọng âm không rơi vào âm cuối).\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'ing' hoặc gấp đôi sai. Mẹo: repair không gấp đôi 'r' vì âm tiết cuối không được nhấn.\n💡 **Ví dụ:** She is visiting her parents. / He is listening to music."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am feel tired now.",
+    "output": "✅ **Corrected Sentence:** I feel tired now. (hoặc I am feeling tired now – được chấp nhận trong tiếng Anh hiện đại)\n🔍 **Error Identification:** 'Feel' có thể dùng tiếp diễn, nhưng cách dùng phổ biến là hiện tại đơn. Nếu dùng 'am feel' là sai cấu trúc.\n📘 **Vietnamese Explanation:** Người Việt viết 'am feel' vì dịch 'đang cảm thấy'. Mẹo: Feel có thể dùng 'am feeling' nhưng phải đúng cấu trúc: am + feeling (không phải feel).\n💡 **Ví dụ:** I feel happy. / I am feeling better now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The kids is playing video games too much these days.",
+    "output": "✅ **Corrected Sentence:** The kids are playing video games too much these days.\n🔍 **Error Identification:** 'Kids' số nhiều + 'are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is' với danh từ số nhiều. Mẹo: 'The kids' = nhiều đứa trẻ → are.\n💡 **Ví dụ:** The children are playing outside. / The students are taking a test."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is always complain about everything.",
+    "output": "✅ **Corrected Sentence:** She is always complaining about everything.\n🔍 **Error Identification:** 'Always' + V-ing để phàn nàn, thiếu 'ing' ở 'complain'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'complain' nguyên thể sau 'is always'. Mẹo: Phàn nàn: is/are/am + always + V-ing.\n💡 **Ví dụ:** He is always talking in class. / They are always making noise."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We are go to the museum next Sunday.",
+    "output": "✅ **Corrected Sentence:** We are going to the museum next Sunday.\n🔍 **Error Identification:** Kế hoạch chủ nhật tới – 'go' phải là 'going'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'are go' vì dịch 'sẽ đi'. Mẹo: Next Sunday/week/month + kế hoạch → dùng V-ing.\n💡 **Ví dụ:** She is starting her new job next Monday. / They are moving next month."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is run in the park every morning. (sai vì every morning là thói quen) - Học viên viết \'He runs in the park every morning.\' (đúng)",
+    "output": "✅ **Corrected Sentence:** He runs in the park every morning.\n🔍 **Error Identification:** 'Every morning' là thói quen → dùng hiện tại đơn, không phải hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại tiếp diễn cho mọi thì. Mẹo: Thói quen (every day, every morning, always, usually) → hiện tại đơn.\n💡 **Ví dụ:** I drink coffee every day. / She walks to school every morning."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am not knowing the answer.",
+    "output": "✅ **Corrected Sentence:** I don't know the answer.\n🔍 **Error Identification:** 'Know' là stative verb, không dùng tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'am not knowing' vì nghĩ 'đang không biết'. Mẹo: Know, believe, doubt, forget, imagine, remember → không dùng tiếp diễn.\n💡 **Ví dụ:** I believe you (not I am believing). / She remembers the story."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What are you do tonight?",
+    "output": "✅ **Corrected Sentence:** What are you doing tonight?\n🔍 **Error Identification:** 'Tonight' + kế hoạch → dùng V-ing, 'do' thành 'doing'.\n📘 **Vietnamese Explanation:** Người Việt hỏi 'what are you do' vì dịch 'bạn làm gì tối nay'. Mẹo: Hỏi kế hoạch: What + are/is/am + S + V-ing + (thời gian tương lai)?\n💡 **Ví dụ:** What is she doing tomorrow? / Where are they staying tonight?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is waiting for the bus since 7 AM.",
+    "output": "✅ **Corrected Sentence:** She has been waiting for the bus since 7 AM. (hoặc She is waiting for the bus now)\n🔍 **Error Identification:** 'Since' + mốc thời gian dùng hiện tại hoàn thành tiếp diễn, không dùng hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is waiting' vì nghĩ 'đang chờ từ 7h'. Mẹo: Since/for + khoảng thời gian → hiện tại hoàn thành / hiện tại hoàn thành tiếp diễn.\n💡 **Ví dụ:** I have studied English for 5 years. / She has been working since 9 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are watch a movie at home right now.",
+    "output": "✅ **Corrected Sentence:** They are watching a movie at home right now.\n🔍 **Error Identification:** Thiếu 'ing' – 'watch' phải là 'watching'.\n📘 **Vietnamese Explanation:** Người Việt quên thêm 'ing' dù có 'right now'. Mẹo: 'Right now' bắt buộc V-ing.\n💡 **Ví dụ:** We are eating dinner right now. / She is taking a bath right now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am thinking it's a good idea. (sai, vì think ở đây là ý kiến) - Học viên viết \'I think it's a good idea.\' (đúng)",
+    "output": "✅ **Corrected Sentence:** I think it's a good idea.\n🔍 **Error Identification:** 'Think' khi diễn tả ý kiến, quan điểm là stative verb, không dùng tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'am thinking' cho mọi trường hợp. Mẹo: 'Think' = có ý kiến → hiện tại đơn. 'Think' = đang suy nghĩ (quá trình) → tiếp diễn.\n💡 **Ví dụ:** I think you are right (ý kiến). / I am thinking about the problem (quá trình)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is wearing a blue shirt today. (câu đúng) - Học viên viết \'He wears a blue shirt today.\'",
+    "output": "✅ **Corrected Sentence:** He is wearing a blue shirt today.\n🔍 **Error Identification:** 'Today' diễn tả hành động tạm thời, khác với thường ngày → dùng hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn vì nghĩ 'today' là hôm nay nói chung. Mẹo: Hành động không phải thói quen, chỉ xảy ra trong hôm nay → hiện tại tiếp diễn.\n💡 **Ví dụ:** I am staying at a hotel today. / She is driving to work today (instead of taking the bus)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My brother is study abroad next year.",
+    "output": "✅ **Corrected Sentence:** My brother is studying abroad next year.\n🔍 **Error Identification:** Kế hoạch năm tới – 'study' → 'studying'.\n📘 **Vietnamese Explanation:** Người Việt quên 'ing' dù có 'next year'. Mẹo: Tương lai đã lên kế hoạch dù xa vẫn dùng hiện tại tiếp diễn.\n💡 **Ví dụ:** We are getting married next year. / She is retiring next year."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Look! The children are fight.",
+    "output": "✅ **Corrected Sentence:** Look! The children are fighting.\n🔍 **Error Identification:** 'Fight' (CVC) → gấp đôi 't' thành 'fighting'.\n📘 **Vietnamese Explanation:** Người Việt quên gấp đôi phụ âm. Mẹo: fight→fighting, nhưng 'fight' kết thúc 'ght' không phải CVC điển hình? Thực tế 'fight' thêm ing bình thường, không gấp đôi vì 'gh' là phụ âm đôi? 'Fight' vẫn thêm 'ing' bình thường: fighting.\n💡 **Ví dụ:** They are playing. / The dogs are barking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is liking the new job. (sai, vì like là stative verb) - Học viên viết \'She likes the new job.\' (đúng)",
+    "output": "✅ **Corrected Sentence:** She likes the new job.\n🔍 **Error Identification:** 'Like' là động từ chỉ cảm xúc, không dùng hiện tại tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is liking' vì nghĩ 'đang thích'. Mẹo: Like, love, hate, prefer, adore không dùng tiếp diễn.\n💡 **Ví dụ:** I love ice cream. / He hates waiting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Are you come to the party tomorrow?",
+    "output": "✅ **Corrected Sentence:** Are you coming to the party tomorrow?\n🔍 **Error Identification:** 'Come' → 'coming' (bỏ e thêm ing).\n📘 **Vietnamese Explanation:** Người Việt có 'are you' rồi nhưng quên 'ing' và quên bỏ 'e' ở 'come'. Mẹo: come→coming, invite→inviting.\n💡 **Ví dụ:** Is she coming with us? / Are they joining the meeting?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The population of the world is increase rapidly.",
+    "output": "✅ **Corrected Sentence:** The population of the world is increasing rapidly.\n🔍 **Error Identification:** 'Increase' → 'increasing' (thêm ing).\n📘 **Vietnamese Explanation:** Hành động đang diễn ra (dân số đang tăng) dùng hiện tại tiếp diễn. Người Việt quên 'ing'.\n💡 **Ví dụ:** The climate is changing. / The economy is growing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is always leaving the door open. (câu đúng, phàn nàn) - Học viên viết \'He always leaves the door open.\' (cũng đúng nhưng ít phàn nàn hơn)",
+    "output": "✅ **Corrected Sentence (nếu muốn phàn nàn):** He is always leaving the door open.\n🔍 **Error Identification:** 'Always' + hiện tại tiếp diễn để phàn nàn về thói quen xấu.\n📘 **Vietnamese Explanation:** Người Việt không phân biệt sắc thái này. Mẹo: Dùng 'always + V-ing' để thể hiện sự khó chịu.\n💡 **Ví dụ:** You are always interrupting me! / She is always losing her phone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am see the doctor at 4 PM.",
+    "output": "✅ **Corrected Sentence:** I am seeing the doctor at 4 PM.\n🔍 **Error Identification:** 'See' → 'seeing' (bỏ e thêm ing).\n📘 **Vietnamese Explanation:** 'See the doctor' là kế hoạch đã chốt, dùng hiện tại tiếp diễn. Người Việt quên 'ing' và quên bỏ 'e'.\n💡 **Ví dụ:** She is seeing a client at 2 PM. / We are seeing a movie tonight."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The baby is sleep peacefully at the moment.",
+    "output": "✅ **Corrected Sentence:** The baby is sleeping peacefully at the moment.\n🔍 **Error Identification:** 'Sleep' → 'sleeping' (thêm ing).\n📘 **Vietnamese Explanation:** 'At the moment' + hành động đang xảy ra. Người Việt quên 'ing' ở 'sleep'.\n💡 **Ví dụ:** The cat is sleeping on the sofa. / He is sleeping in his room."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Why are you look at me like that?",
+    "output": "✅ **Corrected Sentence:** Why are you looking at me like that?\n🔍 **Error Identification:** 'Look' → 'looking' (thêm ing).\n📘 **Vietnamese Explanation:** Người Việt có 'are you' rồi nhưng quên 'ing' ở 'look'. Mẹo: Câu hỏi Wh-: Wh- + are/is/am + S + V-ing?\n💡 **Ví dụ:** Why is she crying? / What are they discussing?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am not belong to this group.",
+    "output": "✅ **Corrected Sentence:** I don't belong to this group.\n🔍 **Error Identification:** 'Belong' là stative verb, không dùng tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'am not belong' vì dịch 'không thuộc về'. Mẹo: Belong, own, possess, contain không dùng tiếp diễn.\n💡 **Ví dụ:** This book belongs to me. / The house owns a big garden."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is have lunch right now.",
+    "output": "✅ **Corrected Sentence:** He is having lunch right now.\n🔍 **Error Identification:** 'Have' khi là động từ chỉ hành động (ăn uống) có thể dùng tiếp diễn, nhưng phải là 'having', không phải 'is have'.\n📘 **Vietnamese Explanation:** Người Việt viết 'is have' vì giữ nguyên 'have'. Mẹo: 'Have' chỉ hành động (have breakfast/lunch/dinner, have a shower, have a meeting) → dùng 'having' ở tiếp diễn.\n💡 **Ví dụ:** She is having a shower. / They are having a meeting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am hearing you. (sai vì hear là stative verb) - Học viên viết \'I hear you.\' (đúng)",
+    "output": "✅ **Corrected Sentence:** I hear you.\n🔍 **Error Identification:** 'Hear' là động từ chỉ giác quan, không dùng tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'am hearing' vì nghĩ 'đang nghe thấy'. Mẹo: See, hear, smell, taste, feel (giác quan) thường không dùng tiếp diễn, trừ khi cố ý.\n💡 **Ví dụ:** I see the bird. / She smells the flowers."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are plan a trip to Da Lat next month.",
+    "output": "✅ **Corrected Sentence:** They are planning a trip to Da Lat next month.\n🔍 **Error Identification:** 'Plan' (CVC) → 'planning' (gấp đôi n).\n📘 **Vietnamese Explanation:** Người Việt quên gấp đôi phụ âm với 'plan'. Mẹo: plan→planning, begin→beginning.\n💡 **Ví dụ:** We are beginning the project. / She is preferring? (không dùng với prefer stative)"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What does she do at the moment?",
+    "output": "✅ **Corrected Sentence:** What is she doing at the moment?\n🔍 **Error Identification:** 'At the moment' + hiện tại tiếp diễn, không dùng 'does' + V.\n📘 **Vietnamese Explanation:** Người Việt dùng cấu trúc câu hỏi hiện tại đơn cho 'at the moment'. Mẹo: 'At the moment' bắt buộc dùng hiện tại tiếp diễn.\n💡 **Ví dụ:** What is he reading at the moment? / What are they eating?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am work on a new project these days.",
+    "output": "✅ **Corrected Sentence:** I am working on a new project these days.\n🔍 **Error Identification:** 'Work' → 'working' (thêm ing).\n📘 **Vietnamese Explanation:** 'These days' diễn tả hành động đang diễn ra trong khoảng thời gian gần đây. Người Việt quên 'ing'.\n💡 **Ví dụ:** She is learning French these days. / They are renovating their house these days."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is always come late to class.",
+    "output": "✅ **Corrected Sentence:** He is always coming late to class.\n🔍 **Error Identification:** 'Always' + V-ing để phàn nàn, 'come' → 'coming' (bỏ e).\n📘 **Vietnamese Explanation:** Người Việt dùng 'come' nguyên thể sau 'is always'. Mẹo: Phàn nàn: is/are/am + always + V-ing.\n💡 **Ví dụ:** She is always coming late. / They are always making excuses."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am feeling cold. (câu này có thể chấp nhận trong Anh-Anh) - Học viên viết \'I feel cold.\' (đúng)",
+    "output": "✅ **Corrected Sentence:** I feel cold. (hoặc I am feeling cold – được dùng trong tiếng Anh hiện đại)\n🔍 **Error Identification:** 'Feel' có thể dùng tiếp diễn khi nói về cảm giác thể chất, nhưng truyền thống dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'I feel cold' là chuẩn. 'I am feeling cold' cũng chấp nhận được. Mẹo: Cảm giác (cold, hot, tired, happy) thường dùng hiện tại đơn, nhưng tiếp diễn ngày càng phổ biến.\n💡 **Ví dụ:** I feel tired. / I am feeling tired (cũng OK)."
+  }
+]

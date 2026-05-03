@@ -7,6 +7,8 @@ from .views import (
     ExamResultView,
     LessonProgressView,
     ListeningResultView,
+    MarkLessonCompleteView,
+    MyAssignmentsView,
     ReadingResultView,
     SpeakingSubmissionStatusView,
     SubmitListeningView,
@@ -35,4 +37,7 @@ urlpatterns = [
     path("submissions/exam/<int:pk>/", ExamResultView.as_view(), name="exam-result"),
     # Lesson progress
     path("lessons/<int:lesson_pk>/", LessonProgressView.as_view(), name="lesson-progress"),
+    path("lessons/<int:lesson_pk>/complete/", MarkLessonCompleteView.as_view(), name="lesson-complete"),
+    # Student: my assignments
+    path("my-assignments/", MyAssignmentsView.as_view(), name="my-assignments"),
 ]

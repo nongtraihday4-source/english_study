@@ -95,3 +95,64 @@ class StudentProgressSerializer(serializers.ModelSerializer):
 
     def get_course_title(self, obj):
         return obj.course.title if obj.course_id else ""
+
+
+# ─── Assignment serializers ────────────────────────────────────────────────
+
+class ClassAssignmentSerializer(serializers.ModelSerializer):
+    """Read/Write serializer for ClassAssignment."""
+    teacher_email = serializers.EmailField(source="teacher.email", read_only=True)
+    course_title  = serializers.SerializerMethodField()
+    exam_set_title = serializers.SerializerMethodField()
+    student_ids    = serializers.PrimaryKeyRelatedField(
+        many=True, write_only=True, queryset=User.objects.all(), required=False
+    )
+    submission_count = serializers.SerializerMethodField()
+
+    class Meta:
+        from apps.teacher.models import ClassAssignment
+        model = ClassAssignment
+        fields = [
+            "id", "title", "description",
+            "teacher_email",
+            "course", "course_title",
+            "exam_set", "exam_set_title",
+            "due_date", "assign_to_all",
+            "student_ids",
+            "is_active", "created_at",
+            "submission_count",
+        ]
+        read_only_fields = ["id", "teacher_email", "course_title",
+                            "exam_set_title", "created_at", "submission_count"]
+
+    def get_course_title(self, obj):
+        return obj.course.title if obj.course_id else ""
+
+    def get_exam_set_title(self, obj):
+        return obj.exam_set.title if obj.exam_set_id else ""
+
+    def get_submission_count(self, obj):
+        # Count ExamAttempts linked to this assignment (if the field exists)
+        try:
+            return obj.attempts.count()
+        except Exception:
+            return 0
+
+    def create(self, validated_data):
+        from apps.teacher.models import AssignmentStudent
+        student_objs = validated_data.pop("student_ids", [])
+        validated_data["teacher"] = self.context["request"].user
+        assignment = super().create(validated_data)
+        for s in student_objs:
+            AssignmentStudent.objects.get_or_create(assignment=assignment, student=s)
+        return assignment
+
+    def update(self, instance, validated_data):
+        from apps.teacher.models import AssignmentStudent
+        student_objs = validated_data.pop("student_ids", None)
+        instance = super().update(instance, validated_data)
+        if student_objs is not None:
+            instance.students.all().delete()
+            for s in student_objs:
+                AssignmentStudent.objects.get_or_create(assignment=instance, student=s)
+        return instance

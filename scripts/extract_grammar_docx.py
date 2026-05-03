@@ -120,13 +120,14 @@ def _detect_doc_mode(doc) -> str:
     return "h1_mode" if len(h1_topics) >= 3 else "h2_mode"
 
 
-def _make_topic(text: str, level: str, order: int) -> dict:
+def _make_topic(text: str, level: str, order: int, chapter: str = "") -> dict:
     clean = re.sub(r"^\d+[\.\)]\s*", "", text).strip()
     return {
         "level": level,
         "title": clean,
         "slug": f"{level.lower()}-{_slugify(clean)}",
         "order": order,
+        "chapter": chapter,
         "description": "",
         "analogy": "",
         "real_world_use": "",
@@ -178,25 +179,71 @@ def _append_content(current_rule, current_topic, text: str):
                 current_rule["explanation"] = text
 
 
-def parse_docx(filepath: str, level: str) -> list:
+def parse_docx(filepath: str, level: str) -> dict:
     """
-    Parse a DOCX file and return a list of GrammarTopic dicts.
+    Parse a DOCX file and return a dict with 'chapters' and 'topics'.
 
     Two modes detected automatically:
-      h1_mode (C1):   Heading 1 → topic, Heading 2 → rule
-      h2_mode (A1-B2): Heading 2 → topic, Heading 4 → rule
-                       Heading 3 = TOC sections (skipped)
-                       Heading 6 = image captions (skipped)
+      h1_mode (C1):   Heading 1 → topic, Heading 2 → rule, Heading 3 → chapter
+      h2_mode (A1-B2): Heading 3 (TOC) → chapter list, Heading 2 → topic, Heading 4 → rule
+
+    Chapter detection (h2_mode — two-pass):
+      Pass 1: Collect canonical chapter names from the TOC section
+              (H3 headings between 'Complete list…' H2 and the first real H2).
+      Pass 2: Main parse. Only treat content-section H3 as a chapter boundary
+              when the text is in the TOC chapter set. Subsection H3 within
+              topics (e.g. 'Form', 'Use', "Let's") are silently ignored.
+              The very first content group inherits toc_chapters_ordered[0].
     """
     doc = Document(filepath)
     mode = _detect_doc_mode(doc)
 
+    # ── Pass 1 (h2_mode): collect canonical TOC chapter names ────────────────
+    toc_chapters_ordered: list = []
+    toc_chapters_set: set = set()
+    if mode == "h2_mode":
+        _in_toc = False
+        for para in doc.paragraphs:
+            text = para.text.strip()
+            if not text:
+                continue
+            sname = (para.style.name if para.style else "") or ""
+            if sname == "Heading 2":
+                if "complete list" in text.lower():
+                    _in_toc = True
+                    continue
+                break  # first real content H2 → end of TOC
+            if sname == "Heading 3" and _in_toc and text not in toc_chapters_set:
+                toc_chapters_ordered.append(text)
+                toc_chapters_set.add(text)
+
+    # ── Pass 2: main parse ────────────────────────────────────────────────────
     topics: list = []
+    chapters_seen: dict = {}   # name → {name, slug, order, icon, description}
+    chapter_order = 0
+    current_chapter = ""
     current_topic = None
     current_rule = None
     topic_order = 0
     rule_order = 0
-    in_toc = (mode == "h2_mode")  # A1-B2 starts with a TOC section
+    in_toc = (mode == "h2_mode")
+    first_content_h2_seen = False
+
+    def _register_chapter(name: str):
+        nonlocal current_chapter, chapter_order
+        name = name.strip()
+        if not name:
+            return
+        current_chapter = name
+        if name not in chapters_seen:
+            chapter_order += 1
+            chapters_seen[name] = {
+                "name": name,
+                "slug": _slugify(name),
+                "order": chapter_order,
+                "icon": _pick_icon(name),
+                "description": "",
+            }
 
     def flush_rule():
         nonlocal current_rule
@@ -214,7 +261,7 @@ def parse_docx(filepath: str, level: str) -> list:
 
     # ─────────────────────────────────────────────────────────────────────────
     if mode == "h1_mode":
-        # C1 pattern: H1=topic, H2=rule, H3/H4=sub-rules, body=content
+        # C1: H1=topic, H2/H3/H4=rule (C1 DOCX has no TOC chapter structure)
         for para in doc.paragraphs:
             text = para.text.strip()
             if not text:
@@ -228,14 +275,14 @@ def parse_docx(filepath: str, level: str) -> list:
                 flush_topic()
                 topic_order += 1
                 rule_order = 0
-                current_topic = _make_topic(text, level, topic_order)
+                current_topic = _make_topic(text, level, topic_order, current_chapter)
                 continue
 
             if sname in ("Heading 2", "Heading 3", "Heading 4"):
                 if current_topic is None:
                     topic_order += 1
                     rule_order = 0
-                    current_topic = _make_topic(f"{level} Grammar", level, topic_order)
+                    current_topic = _make_topic(f"{level} Grammar", level, topic_order, current_chapter)
                 flush_rule()
                 rule_order += 1
                 current_rule = _make_rule(text, rule_order)
@@ -246,31 +293,37 @@ def parse_docx(filepath: str, level: str) -> list:
             _append_content(current_rule, current_topic, text)
 
     else:
-        # A1-B2 pattern: H2=topic, H4=rule, H3=TOC (skip), H6=skip
+        # A1-B2: H2=topic, H4=rule, H6=skip; H3 only from TOC list = chapter boundary
         for para in doc.paragraphs:
             text = para.text.strip()
             if not text:
                 continue
             sname = (para.style.name if para.style else "") or ""
 
-            # Always skip image captions
             if sname == "Heading 6" or "download" in text.lower():
                 continue
 
-            # Heading 3 = TOC category header — always skip
-            if sname == "Heading 3":
-                continue
-
             if sname == "Heading 2":
-                # Skip TOC title paragraph ("Complete list of X grammar contents")
                 if "complete list" in text.lower():
                     in_toc = True
                     continue
+                # First real content H2: bootstrap chapter to first TOC entry
+                if not first_content_h2_seen:
+                    first_content_h2_seen = True
+                    if not current_chapter and toc_chapters_ordered:
+                        _register_chapter(toc_chapters_ordered[0])
                 in_toc = False
                 flush_topic()
                 topic_order += 1
                 rule_order = 0
-                current_topic = _make_topic(text, level, topic_order)
+                current_topic = _make_topic(text, level, topic_order, current_chapter)
+                continue
+
+            if sname == "Heading 3":
+                # Only valid chapter boundary when text is in TOC chapter set
+                if not in_toc and text in toc_chapters_set:
+                    _register_chapter(text)
+                # Otherwise (in_toc=True, or subsection H3) → ignore
                 continue
 
             if sname == "Heading 4":
@@ -281,13 +334,26 @@ def parse_docx(filepath: str, level: str) -> list:
                 current_rule = _make_rule(text, rule_order)
                 continue
 
-            # Body Text / Normal / Block Quotation → content
             if in_toc or current_topic is None:
-                continue  # still in TOC section
+                continue
             _append_content(current_rule, current_topic, text)
 
     flush_topic()
-    return topics
+
+    # Final chapter list: preserve TOC order for h2_mode
+    if mode == "h2_mode" and toc_chapters_ordered:
+        final_chapters = [
+            chapters_seen[name]
+            for name in toc_chapters_ordered
+            if name in chapters_seen
+        ]
+    else:
+        final_chapters = list(chapters_seen.values())
+
+    return {
+        "chapters": final_chapters,
+        "topics": topics,
+    }
 
 
 def _looks_like_example(text: str) -> bool:
@@ -362,12 +428,14 @@ def post_process(topics: list) -> list:
 
 # ─── Report ───────────────────────────────────────────────────────────────────
 
-def print_summary(level: str, topics: list):
+def print_summary(level: str, data: dict):
+    topics = data.get("topics", data) if isinstance(data, dict) else data
+    chapters = data.get("chapters", []) if isinstance(data, dict) else []
     total_rules = sum(len(t["rules"]) for t in topics)
     total_examples = sum(
         sum(len(r["examples"]) for r in t["rules"]) for t in topics
     )
-    print(f"  [{level}] Topics: {len(topics):3d}  |  Rules: {total_rules:4d}  |  Examples: {total_examples:4d}")
+    print(f"  [{level}] Chapters: {len(chapters):2d}  |  Topics: {len(topics):3d}  |  Rules: {total_rules:4d}  |  Examples: {total_examples:4d}")
 
 
 # ─── Entry point ─────────────────────────────────────────────────────────────
@@ -388,23 +456,23 @@ def main():
             continue
 
         print(f"  ℹ  [{level}] Parsing: {filename}")
-        topics = parse_docx(filepath, level)
-        topics = post_process(topics)
-        print_summary(level, topics)
+        data = parse_docx(filepath, level)
+        data["topics"] = post_process(data["topics"])
+        print_summary(level, data)
 
         output_path = os.path.join(OUTPUT_DIR, f"grammar_{level}.json")
         with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(topics, f, ensure_ascii=False, indent=2)
+            json.dump(data, f, ensure_ascii=False, indent=2)
         print(f"  ✔  [{level}] Saved → {output_path}")
         print()
 
-        all_stats.append((level, len(topics)))
+        all_stats.append((level, len(data["topics"]), len(data["chapters"])))
 
     print("━" * 60)
     print("  EXTRACTION COMPLETE")
     print("  Kiểm tra thủ công các file JSON trước khi seed:")
-    for level, count in all_stats:
-        print(f"    scripts/grammar_fixtures/grammar_{level}.json  ({count} topics)")
+    for level, topic_count, chapter_count in all_stats:
+        print(f"    scripts/grammar_fixtures/grammar_{level}.json  ({chapter_count} chapters, {topic_count} topics)")
     print()
     print("  Bước tiếp theo:")
     print("    cd backend")

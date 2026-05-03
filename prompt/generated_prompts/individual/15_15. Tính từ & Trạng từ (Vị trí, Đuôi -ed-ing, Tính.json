@@ -1,0 +1,437 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She sings beautiful.",
+    "output": "✅ **Corrected Sentence:** She sings beautifully.\n🔍 **Error Identification:** Dùng tính từ (beautiful) thay vì trạng từ (beautifully) để bổ nghĩa cho động từ 'sings'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cô ấy hát hay' và dùng 'beautiful' vì tiếng Việt không phân biệt. Mẹo: Động từ + trạng từ (V + adv).\n💡 **Ví dụ:** He runs fast. / She speaks softly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This movie is very interested.",
+    "output": "✅ **Corrected Sentence:** This movie is very interesting.\n🔍 **Error Identification:** Dùng đuôi -ed (interested) thay vì -ing (interesting) cho tính từ mô tả vật/sự việc.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'interested' (cảm thấy thú vị) và 'interesting' (gây thú vị). Mẹo: -ed cho cảm xúc của người, -ing cho tính chất của vật/sự việc.\n💡 **Ví dụ:** The book is exciting. / I am excited."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am boring with this lesson.",
+    "output": "✅ **Corrected Sentence:** I am bored with this lesson.\n🔍 **Error Identification:** Dùng 'boring' (gây chán) thay vì 'bored' (cảm thấy chán) cho người.\n📘 **Vietnamese Explanation:** Người Việt nói 'tôi chán' dùng 'boring' (tính chất của vật). Mẹo: Người + bored; Vật + boring.\n💡 **Ví dụ:** I am tired. / The work is tiring."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is a well player.",
+    "output": "✅ **Corrected Sentence:** He is a good player.\n🔍 **Error Identification:** Dùng trạng từ 'well' thay vì tính từ 'good' trước danh từ 'player'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cầu thủ tốt' thành 'well player' vì 'well' là 'tốt'. Mẹo: Tính từ + danh từ (adj + N); trạng từ + động từ (adv + V).\n💡 **Ví dụ:** She is a fast runner. / He runs fast."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I felt very sadly yesterday.",
+    "output": "✅ **Corrected Sentence:** I felt very sad yesterday.\n🔍 **Error Identification:** Dùng trạng từ 'sadly' thay vì tính từ 'sad' sau động từ liên kết 'felt'.\n📘 **Vietnamese Explanation:** Người Việt dùng trạng từ cho mọi động từ. Mẹo: Sau động từ liên kết (feel, look, seem, be) dùng tính từ.\n💡 **Ví dụ:** She looks beautiful. / He seems happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The news was surprised.",
+    "output": "✅ **Corrected Sentence:** The news was surprising.\n🔍 **Error Identification:** Dùng 'surprised' (cảm thấy ngạc nhiên) thay vì 'surprising' (gây ngạc nhiên).\n📘 **Vietnamese Explanation:** Người Việt nhầm đuôi -ed và -ing. Mẹo: Vật/sự việc + -ing; người + -ed.\n💡 **Ví dụ:** The result was shocking. / I was shocked."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She speaks English good.",
+    "output": "✅ **Corrected Sentence:** She speaks English well.\n🔍 **Error Identification:** Dùng tính từ 'good' thay vì trạng từ 'well' bổ nghĩa cho động từ 'speaks'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'nói tốt' thành 'speaks good'. Mẹo: Động từ thường + trạng từ (well, fast, beautifully).\n💡 **Ví dụ:** He drives carefully. / She sings loudly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a 5-hours long trip.",
+    "output": "✅ **Corrected Sentence:** This is a 5-hour long trip. (hoặc a five-hour trip)\n🔍 **Error Identification:** Tính từ ghép chỉ số lượng + danh từ: danh từ ở dạng số ít (hour), không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt giữ số nhiều 'hours' trong tính từ ghép. Mẹo: Số + danh từ số ít (a 5-hour trip, a 10-page report).\n💡 **Ví dụ:** A 3-day vacation. / A 20-minute walk."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is a twenty-years-old girl.",
+    "output": "✅ **Corrected Sentence:** She is a twenty-year-old girl.\n🔍 **Error Identification:** Tính từ ghép chỉ tuổi: 'year' ở dạng số ít, không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'year' trong tính từ ghép. Mẹo: Số + year + old (a 5-year-old child).\n💡 **Ví dụ:** A 10-year-old boy. / A 30-year-old woman."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He drove very careful.",
+    "output": "✅ **Corrected Sentence:** He drove very carefully.\n🔍 **Error Identification:** Dùng tính từ 'careful' thay vì trạng từ 'carefully' sau động từ 'drove'.\n📘 **Vietnamese Explanation:** Người Việt quên thêm -ly để tạo trạng từ. Mẹo: Tính từ + ly = trạng từ (careful → carefully, quick → quickly).\n💡 **Ví dụ:** She spoke quietly. / They danced beautifully."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The teacher's explanation was confused.",
+    "output": "✅ **Corrected Sentence:** The teacher's explanation was confusing.\n🔍 **Error Identification:** 'Confused' (bị bối rối) dùng cho người, 'confusing' (gây bối rối) dùng cho vật/sự việc.\n📘 **Vietnamese Explanation:** Người Việt dùng 'confused' cho lời giải thích. Mẹo: Sự việc gây cảm xúc → -ing; người có cảm xúc → -ed.\n💡 **Ví dụ:** The instructions were confusing. / I was confused."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is a well-known singer. (câu đúng) - Học viên viết \'He is a well known singer.\'",
+    "output": "✅ **Corrected Sentence:** He is a well-known singer.\n🔍 **Error Identification:** Tính từ ghép đứng trước danh từ cần có dấu gạch nối (hyphen).\n📘 **Vietnamese Explanation:** Người Việt quên dấu gạch nối trong tính từ ghép. Mẹo: Tính từ ghép trước danh từ → có dấu gạch nối (well-known, part-time, full-time).\n💡 **Ví dụ:** A part-time job. / A full-time employee."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a high-developed country.",
+    "output": "✅ **Corrected Sentence:** This is a highly developed country.\n🔍 **Error Identification:** Dùng tính từ 'high' thay vì trạng từ 'highly' để bổ nghĩa cho tính từ 'developed'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'high' cho mọi trường hợp. Mẹo: Trạng từ bổ nghĩa cho tính từ: highly developed, well educated.\n💡 **Ví dụ:** A well-known artist. / A badly injured patient."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie was really bored.",
+    "output": "✅ **Corrected Sentence:** The movie was really boring.\n🔍 **Error Identification:** 'Bored' (cảm thấy chán) dùng cho người, 'boring' (gây chán) dùng cho vật.\n📘 **Vietnamese Explanation:** Người Việt dùng 'bored' cho phim. Mẹo: Phim (vật) + boring; người + bored.\n💡 **Ví dụ:** The lesson was boring. / The students were bored."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am interesting in learning English.",
+    "output": "✅ **Corrected Sentence:** I am interested in learning English.\n🔍 **Error Identification:** Dùng 'interesting' (gây thú vị) thay vì 'interested' (cảm thấy thú vị) cho người.\n📘 **Vietnamese Explanation:** Người Việt nói 'tôi thích thú' dùng 'interesting'. Mẹo: Người + interested in; Vật + interesting.\n💡 **Ví dụ:** She is interested in art. / Art is interesting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He works very hardly.",
+    "output": "✅ **Corrected Sentence:** He works very hard.\n🔍 **Error Identification:** 'Hardly' có nghĩa là 'hầu như không', không phải 'chăm chỉ'. 'Hard' vừa là tính từ vừa là trạng từ.\n📘 **Vietnamese Explanation:** Người Việt thêm -ly vào 'hard' tưởng thành trạng từ. Mẹo: Học thuộc trạng từ đặc biệt: hard (chăm chỉ), fast (nhanh), late (muộn).\n💡 **Ví dụ:** She works hard. / He drives fast."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This soup tastes well.",
+    "output": "✅ **Corrected Sentence:** This soup tastes good.\n🔍 **Error Identification:** Sau động từ liên kết (tastes) dùng tính từ 'good', không dùng trạng từ 'well'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'well' cho mọi 'tốt'. Mẹo: Động từ chỉ giác quan (taste, smell, feel, look) + tính từ.\n💡 **Ví dụ:** The flower smells sweet. / You look beautiful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have an one-week vacation.",
+    "output": "✅ **Corrected Sentence:** I have a one-week vacation.\n🔍 **Error Identification:** Dùng 'an' trước 'one' vì 'one' bắt đầu bằng phụ âm /w/ → dùng 'a'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'o' tưởng nguyên âm. Mẹo: Cách phát âm quyết định: a one (âm /w/), an hour (âm câm).\n💡 **Ví dụ:** A university. / An honest man."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is a 30 years old doctor.",
+    "output": "✅ **Corrected Sentence:** She is a 30-year-old doctor.\n🔍 **Error Identification:** Tính từ ghép chỉ tuổi: 'year' số ít, có dấu gạch nối.\n📘 **Vietnamese Explanation:** Người Việt dùng 'years' và quên dấu gạch nối. Mẹo: Số + danh từ số ít + tính từ (a 30-year-old doctor).\n💡 **Ví dụ:** A 5-year-old girl. / A 100-year-old tree."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is an 8-years-old boy.",
+    "output": "✅ **Corrected Sentence:** He is an 8-year-old boy.\n🔍 **Error Identification:** 'Year' số ít, dấu gạch nối, không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' và quên dấu gạch nối. Mẹo: Tuổi trong tính từ ghép luôn số ít.\n💡 **Ví dụ:** A 6-month-old baby. / A 2-week-old puppy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a three-stories building.",
+    "output": "✅ **Corrected Sentence:** This is a three-story building.\n🔍 **Error Identification:** Tính từ ghép chỉ số tầng: 'story' ở dạng số ít, không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt giữ số nhiều 'stories'. Mẹo: Số + danh từ số ít trong tính từ ghép (a three-story building).\n💡 **Ví dụ:** A two-door car. / A five-star hotel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The children were exciting about the trip.",
+    "output": "✅ **Corrected Sentence:** The children were excited about the trip.\n🔍 **Error Identification:** 'Exciting' (gây hào hứng) dùng cho vật, 'excited' (cảm thấy hào hứng) dùng cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'exciting' cho trẻ em. Mẹo: Người + excited; Sự việc + exciting.\n💡 **Ví dụ:** We were excited. / The news was exciting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She sings very good.",
+    "output": "✅ **Corrected Sentence:** She sings very well.\n🔍 **Error Identification:** Dùng 'good' (tính từ) thay vì 'well' (trạng từ) sau động từ 'sings'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'good' cho mọi 'tốt'. Mẹo: Động từ chỉ hành động + trạng từ (well, beautifully, quickly).\n💡 **Ví dụ:** He cooks well. / She dances beautifully."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The journey was tired.",
+    "output": "✅ **Corrected Sentence:** The journey was tiring.\n🔍 **Error Identification:** 'Tired' (mệt mỏi) dùng cho người, 'tiring' (gây mệt mỏi) dùng cho vật.\n📘 **Vietnamese Explanation:** Người Việt dùng 'tired' cho hành trình. Mẹo: Hành trình (vật) + tiring; người + tired.\n💡 **Ví dụ:** The work was tiring. / I was tired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is a fast runner. (câu đúng) - Học viên viết \'He runs fastly.\'",
+    "output": "✅ **Corrected Sentence:** He runs fast.\n🔍 **Error Identification:** 'Fast' vừa là tính từ vừa là trạng từ, không có 'fastly'.\n📘 **Vietnamese Explanation:** Người Việt thêm -ly vào 'fast' thành 'fastly' (sai). Mẹo: Fast, hard, late là trạng từ giữ nguyên dạng.\n💡 **Ví dụ:** She works hard. / He arrived late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am very interesting in that topic.",
+    "output": "✅ **Corrected Sentence:** I am very interested in that topic.\n🔍 **Error Identification:** 'Interesting' (gây thú vị) thay vì 'interested' (cảm thấy thú vị).\n📘 **Vietnamese Explanation:** Người Việt dùng 'interesting' cho cảm xúc của mình. Mẹo: Người + interested in + something.\n💡 **Ví dụ:** She is interested in music. / He is interested in science."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She looked angrily at him.",
+    "output": "✅ **Corrected Sentence:** She looked angry at him. (hoặc She looked at him angrily)\n🔍 **Error Identification:** 'Looked' ở đây là động từ liên kết (trông có vẻ) → dùng tính từ 'angry'.\n📘 **Vietnamese Explanation:** Người Việt dùng trạng từ sau 'look' vì nghĩ là động từ hành động. Mẹo: Look + adj (trông có vẻ); look at + adv (nhìn).\n💡 **Ví dụ:** She looks happy. / She looked at me happily."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a 2-days trip.",
+    "output": "✅ **Corrected Sentence:** This is a 2-day trip.\n🔍 **Error Identification:** Tính từ ghép: 'day' ở dạng số ít, không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'day'. Mẹo: Số + danh từ số ít trong tính từ ghép (a 2-day trip).\n💡 **Ví dụ:** A 3-week course. / A 10-page report."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is a well-educated woman. (câu đúng) - Học viên viết \'She is a well educated woman.\'",
+    "output": "✅ **Corrected Sentence:** She is a well-educated woman.\n🔍 **Error Identification:** Thiếu dấu gạch nối trong tính từ ghép trước danh từ.\n📘 **Vietnamese Explanation:** Người Việt quên dấu gạch nối. Mẹo: Tính từ ghép trước danh từ → có dấu gạch nối (well-educated, well-known).\n💡 **Ví dụ:** A well-dressed man. / A badly-behaved child."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book is interested.",
+    "output": "✅ **Corrected Sentence:** The book is interesting.\n🔍 **Error Identification:** 'Interested' (cảm thấy thú vị) dùng cho người, 'interesting' (gây thú vị) dùng cho vật.\n📘 **Vietnamese Explanation:** Người Việt dùng 'interested' cho sách. Mẹo: Sách (vật) + interesting; người + interested.\n💡 **Ví dụ:** The movie is exciting. / I am excited."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He speaks English very fluent.",
+    "output": "✅ **Corrected Sentence:** He speaks English very fluently.\n🔍 **Error Identification:** Dùng tính từ 'fluent' thay vì trạng từ 'fluently' sau động từ 'speaks'.\n📘 **Vietnamese Explanation:** Người Việt quên thêm -ly. Mẹo: Fluent → fluently, quick → quickly, careful → carefully.\n💡 **Ví dụ:** She speaks slowly. / He writes neatly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The weather was freezing cold. (câu đúng) - Học viên viết \'The weather was freezingly cold.\'",
+    "output": "✅ **Corrected Sentence:** The weather was freezing cold.\n🔍 **Error Identification:** 'Freezing' là tính từ bổ nghĩa cho 'cold', không cần chuyển thành trạng từ.\n📘 **Vietnamese Explanation:** Người Việt thêm -ly vào 'freezing'. Mẹo: Tính từ có thể đứng trước tính từ khác để nhấn mạnh (freezing cold, boiling hot).\n💡 **Ví dụ:** The water was boiling hot. / The room was freezing cold."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is a 5-years-old child.",
+    "output": "✅ **Corrected Sentence:** She is a 5-year-old child.\n🔍 **Error Identification:** 'Year' số ít, dấu gạch nối.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' và quên dấu gạch nối. Mẹo: A 5-year-old child (số + danh từ số ít + old).\n💡 **Ví dụ:** A 2-month-old baby. / A 10-year-old student."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am really exciting about my new job.",
+    "output": "✅ **Corrected Sentence:** I am really excited about my new job.\n🔍 **Error Identification:** 'Exciting' (gây hào hứng) thay vì 'excited' (cảm thấy hào hứng).\n📘 **Vietnamese Explanation:** Người Việt dùng 'exciting' cho cảm xúc của mình. Mẹo: Người + excited about; Vật + exciting.\n💡 **Ví dụ:** She is excited about the trip. / The trip is exciting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a two-pages document.",
+    "output": "✅ **Corrected Sentence:** This is a two-page document.\n🔍 **Error Identification:** Tính từ ghép: 'page' số ít, không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'page'. Mẹo: Số + danh từ số ít (a two-page document).\n💡 **Ví dụ:** A four-door car. / A one-bedroom apartment."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is a well-known actress. (câu đúng) - Học viên viết \'She is a well known actress.\'",
+    "output": "✅ **Corrected Sentence:** She is a well-known actress.\n🔍 **Error Identification:** Thiếu dấu gạch nối trong tính từ ghép.\n📘 **Vietnamese Explanation:** Người Việt quên dấu gạch nối. Mẹo: Tính từ ghép trước danh từ luôn có dấu gạch nối.\n💡 **Ví dụ:** A world-famous singer. / A newly-wed couple."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The children were frightening by the loud noise.",
+    "output": "✅ **Corrected Sentence:** The children were frightened by the loud noise.\n🔍 **Error Identification:** 'Frightening' (gây sợ) thay vì 'frightened' (cảm thấy sợ) cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'frightening' cho trẻ em. Mẹo: Người + frightened by; Vật + frightening.\n💡 **Ví dụ:** I was frightened. / The horror movie was frightening."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She runs very quick.",
+    "output": "✅ **Corrected Sentence:** She runs very quickly.\n🔍 **Error Identification:** Dùng tính từ 'quick' thay vì trạng từ 'quickly'.\n📘 **Vietnamese Explanation:** Người Việt quên thêm -ly. Mẹo: Quick → quickly, slow → slowly, quiet → quietly.\n💡 **Ví dụ:** He answered quickly. / She spoke quietly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The food smells deliciously.",
+    "output": "✅ **Corrected Sentence:** The food smells delicious.\n🔍 **Error Identification:** 'Smells' là động từ liên kết → dùng tính từ 'delicious', không dùng trạng từ.\n📘 **Vietnamese Explanation:** Người Việt dùng trạng từ sau 'smells'. Mẹo: Động từ chỉ giác quan + tính từ.\n💡 **Ví dụ:** The cake tastes sweet. / The flower smells nice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a four-stars hotel.",
+    "output": "✅ **Corrected Sentence:** This is a four-star hotel.\n🔍 **Error Identification:** Tính từ ghép: 'star' số ít, không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'star'. Mẹo: Số + danh từ số ít (a four-star hotel).\n💡 **Ví dụ:** A five-star restaurant. / A three-star rating."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is a 40-years-old professor.",
+    "output": "✅ **Corrected Sentence:** He is a 40-year-old professor.\n🔍 **Error Identification:** 'Year' số ít, dấu gạch nối.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' và quên dấu gạch nối. Mẹo: A 40-year-old professor.\n💡 **Ví dụ:** A 25-year-old athlete. / A 70-year-old grandmother."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The result was surprised.",
+    "output": "✅ **Corrected Sentence:** The result was surprising.\n🔍 **Error Identification:** 'Surprised' (ngạc nhiên) dùng cho người, 'surprising' (gây ngạc nhiên) dùng cho vật.\n📘 **Vietnamese Explanation:** Người Việt dùng 'surprised' cho kết quả. Mẹo: Kết quả (vật) + surprising; người + surprised.\n💡 **Ví dụ:** The news was shocking. / I was shocked."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I felt happily when I heard the news.",
+    "output": "✅ **Corrected Sentence:** I felt happy when I heard the news.\n🔍 **Error Identification:** 'Felt' là động từ liên kết → dùng tính từ 'happy'.\n📘 **Vietnamese Explanation:** Người Việt dùng trạng từ 'happily'. Mẹo: Feel + adj (cảm thấy như thế nào).\n💡 **Ví dụ:** She felt sad. / He felt tired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a 10-miles walk.",
+    "output": "✅ **Corrected Sentence:** This is a 10-mile walk.\n🔍 **Error Identification:** Tính từ ghép: 'mile' số ít, không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'mile'. Mẹo: Số + danh từ số ít (a 10-mile walk).\n💡 **Ví dụ:** A 5-kilometer run. / A 20-meter pool."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is a well-trained dancer. (câu đúng) - Học viên viết \'She is a well trained dancer.\'",
+    "output": "✅ **Corrected Sentence:** She is a well-trained dancer.\n🔍 **Error Identification:** Thiếu dấu gạch nối.\n📘 **Vietnamese Explanation:** Người Việt quên dấu gạch nối trong tính từ ghép. Mẹo: well-trained, well-organized, well-prepared.\n💡 **Ví dụ:** A well-organized event. / A well-prepared meal."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He looked at me strange.",
+    "output": "✅ **Corrected Sentence:** He looked at me strangely.\n🔍 **Error Identification:** 'Looked at' là động từ hành động (nhìn) → dùng trạng từ 'strangely'.\n📘 **Vietnamese Explanation:** Người Việt dùng tính từ 'strange'. Mẹo: Look at + tân ngữ + trạng từ.\n💡 **Ví dụ:** She looked at me sadly. / He stared at me angrily."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a 500-pages book.",
+    "output": "✅ **Corrected Sentence:** This is a 500-page book.\n🔍 **Error Identification:** Tính từ ghép: 'page' số ít.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'page'. Mẹo: A 500-page book (số + danh từ số ít).\n💡 **Ví dụ:** A 300-page novel. / A 50-word essay."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am tiring after a long day.",
+    "output": "✅ **Corrected Sentence:** I am tired after a long day.\n🔍 **Error Identification:** 'Tiring' (gây mệt) dùng cho vật, 'tired' (cảm thấy mệt) dùng cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'tiring' cho bản thân. Mẹo: Người + tired; Công việc + tiring.\n💡 **Ví dụ:** I am exhausted. / The work is exhausting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He speaks very loud.",
+    "output": "✅ **Corrected Sentence:** He speaks very loudly. (hoặc He has a loud voice)\n🔍 **Error Identification:** 'Loud' có thể dùng như trạng từ trong văn nói, nhưng 'loudly' chuẩn hơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'loud' cho mọi trường hợp. Mẹo: Trong văn viết, dùng 'loudly' cho trạng từ.\n💡 **Ví dụ:** She laughed loudly. / He shouted loudly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The explanation was confused.",
+    "output": "✅ **Corrected Sentence:** The explanation was confusing.\n🔍 **Error Identification:** 'Confused' (bị bối rối) dùng cho người, 'confusing' (gây bối rối) dùng cho vật.\n📘 **Vietnamese Explanation:** Người Việt dùng 'confused' cho lời giải thích. Mẹo: Explanation (vật) + confusing.\n💡 **Ví dụ:** The instructions were confusing. / The map was confusing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is a high-educated person.",
+    "output": "✅ **Corrected Sentence:** She is a highly educated person.\n🔍 **Error Identification:** Dùng 'high' thay vì trạng từ 'highly' bổ nghĩa cho 'educated'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'high' cho mọi trường hợp. Mẹo: Trạng từ bổ nghĩa cho tính từ (highly educated, well known).\n💡 **Ví dụ:** A well-known singer. / A badly injured patient."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is a 10-years-old boy.",
+    "output": "✅ **Corrected Sentence:** He is a 10-year-old boy.\n🔍 **Error Identification:** 'Year' số ít.\n📘 **Vietnamese Explanation:** Người Việt thêm 's'. Mẹo: A 10-year-old boy.\n💡 **Ví dụ:** A 8-year-old girl. / A 12-year-old student."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The trip was very excited.",
+    "output": "✅ **Corrected Sentence:** The trip was very exciting.\n🔍 **Error Identification:** 'Excited' (cảm thấy hào hứng) dùng cho người, 'exciting' (gây hào hứng) dùng cho vật.\n📘 **Vietnamese Explanation:** Người Việt dùng 'excited' cho chuyến đi. Mẹo: Trip (vật) + exciting.\n💡 **Ví dụ:** The adventure was exciting. / I was excited."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He drives very careful.",
+    "output": "✅ **Corrected Sentence:** He drives very carefully.\n🔍 **Error Identification:** Dùng 'careful' thay vì 'carefully'.\n📘 **Vietnamese Explanation:** Người Việt quên thêm -ly. Mẹo: Drive + carefully.\n💡 **Ví dụ:** She drives slowly. / He drives recklessly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a three-hours meeting.",
+    "output": "✅ **Corrected Sentence:** This is a three-hour meeting.\n🔍 **Error Identification:** 'Hour' số ít.\n📘 **Vietnamese Explanation:** Người Việt thêm 's'. Mẹo: A three-hour meeting.\n💡 **Ví dụ:** A two-hour delay. / A one-hour break."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The food tastes well.",
+    "output": "✅ **Corrected Sentence:** The food tastes good.\n🔍 **Error Identification:** 'Tastes' là động từ liên kết → dùng tính từ 'good'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'well' (trạng từ). Mẹo: Taste + adj (good, sweet, salty).\n💡 **Ví dụ:** The soup tastes salty. / The cake tastes sweet."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was amazing by the view.",
+    "output": "✅ **Corrected Sentence:** I was amazed by the view.\n🔍 **Error Identification:** 'Amazing' (gây kinh ngạc) dùng cho vật, 'amazed' (cảm thấy kinh ngạc) dùng cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'amazing' cho bản thân. Mẹo: Người + amazed by; Vật + amazing.\n💡 **Ví dụ:** I was amazed. / The view was amazing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is a well- known actor. (có dấu cách thừa)",
+    "output": "✅ **Corrected Sentence:** He is a well-known actor.\n🔍 **Error Identification:** Tính từ ghép phải viết liền với dấu gạch nối, không có khoảng trắng.\n📘 **Vietnamese Explanation:** Người Việt để khoảng trắng sau dấu gạch nối. Mẹo: well-known, không phải 'well- known'.\n💡 **Ví dụ:** A part-time job. / A full-time employee."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She sings beautifully. (câu đúng) - Học viên viết \'She sings beautiful.\'",
+    "output": "✅ **Corrected Sentence:** She sings beautifully.\n🔍 **Error Identification:** Dùng tính từ 'beautiful' thay vì trạng từ 'beautifully'.\n📘 **Vietnamese Explanation:** Người Việt quên thêm -ly. Mẹo: Sings + beautifully (adv).\n💡 **Ví dụ:** She dances gracefully. / He plays piano skillfully."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The child was annoying by the noise.",
+    "output": "✅ **Corrected Sentence:** The child was annoyed by the noise.\n🔍 **Error Identification:** 'Annoying' (gây khó chịu) dùng cho vật, 'annoyed' (cảm thấy khó chịu) dùng cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'annoying' cho đứa trẻ. Mẹo: Người + annoyed by; Vật + annoying.\n💡 **Ví dụ:** I was annoyed. / The noise was annoying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He works hardly.",
+    "output": "✅ **Corrected Sentence:** He works hard.\n🔍 **Error Identification:** 'Hardly' có nghĩa là 'hầu như không', không phải 'chăm chỉ'.\n📘 **Vietnamese Explanation:** Người Việt thêm -ly vào 'hard'. Mẹo: Hard (chăm chỉ) vừa là tính từ vừa là trạng từ.\n💡 **Ví dụ:** She studies hard. / He tried hard to win."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a 10-pages report.",
+    "output": "✅ **Corrected Sentence:** This is a 10-page report.\n🔍 **Error Identification:** 'Page' số ít.\n📘 **Vietnamese Explanation:** Người Việt thêm 's'. Mẹo: A 10-page report.\n💡 **Ví dụ:** A 5-page essay. / A 2-page letter."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The instructions were confused.",
+    "output": "✅ **Corrected Sentence:** The instructions were confusing.\n🔍 **Error Identification:** 'Confused' (bị bối rối) dùng cho người, 'confusing' (gây bối rối) dùng cho vật.\n📘 **Vietnamese Explanation:** Người Việt dùng 'confused' cho hướng dẫn. Mẹo: Instructions (vật) + confusing.\n💡 **Ví dụ:** The manual was confusing. / The rules were confusing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is a well-known artist. (câu đúng) - Học viên viết \'She is a well known artist.\'",
+    "output": "✅ **Corrected Sentence:** She is a well-known artist.\n🔍 **Error Identification:** Thiếu dấu gạch nối.\n📘 **Vietnamese Explanation:** Người Việt quên dấu gạch nối. Mẹo: well-known, not 'well known'.\n💡 **Ví dụ:** A well-respected teacher. / A well-written book."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I felt very relaxing after the massage.",
+    "output": "✅ **Corrected Sentence:** I felt very relaxed after the massage.\n🔍 **Error Identification:** 'Relaxing' (gây thư giãn) dùng cho vật, 'relaxed' (cảm thấy thư giãn) dùng cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'relaxing' cho bản thân. Mẹo: Người + relaxed; Massage + relaxing.\n💡 **Ví dụ:** I was relaxed. / The music was relaxing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He runs fastly.",
+    "output": "✅ **Corrected Sentence:** He runs fast.\n🔍 **Error Identification:** 'Fast' không thêm -ly.\n📘 **Vietnamese Explanation:** Người Việt thêm -ly vào 'fast'. Mẹo: Fast, hard, late là trạng từ đặc biệt.\n💡 **Ví dụ:** She works fast. / He arrived late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a 20-minutes break.",
+    "output": "✅ **Corrected Sentence:** This is a 20-minute break.\n🔍 **Error Identification:** 'Minute' số ít.\n📘 **Vietnamese Explanation:** Người Việt thêm 's'. Mẹo: A 20-minute break.\n💡 **Ví dụ:** A 15-minute wait. / A 30-minute workout."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She looked beautiful in that dress. (câu đúng) - Học viên viết \'She looked beautifully in that dress.\'",
+    "output": "✅ **Corrected Sentence:** She looked beautiful in that dress.\n🔍 **Error Identification:** 'Looked' là động từ liên kết (trông có vẻ) → dùng tính từ 'beautiful'.\n📘 **Vietnamese Explanation:** Người Việt dùng trạng từ 'beautifully'. Mẹo: Look + adj (trông như thế nào).\n💡 **Ví dụ:** She looks happy. / He looked sad."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The news was very surprised.",
+    "output": "✅ **Corrected Sentence:** The news was very surprising.\n🔍 **Error Identification:** 'Surprised' (ngạc nhiên) dùng cho người, 'surprising' (gây ngạc nhiên) dùng cho vật.\n📘 **Vietnamese Explanation:** Người Việt dùng 'surprised' cho tin tức. Mẹo: News (vật) + surprising.\n💡 **Ví dụ:** The result was surprising. / I was surprised."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is a 25-years-old man.",
+    "output": "✅ **Corrected Sentence:** He is a 25-year-old man.\n🔍 **Error Identification:** 'Year' số ít.\n📘 **Vietnamese Explanation:** Người Việt thêm 's'. Mẹo: A 25-year-old man.\n💡 **Ví dụ:** A 30-year-old woman. / A 40-year-old doctor."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The children were very tiring after the trip.",
+    "output": "✅ **Corrected Sentence:** The children were very tired after the trip.\n🔍 **Error Identification:** 'Tiring' (gây mệt) dùng cho vật, 'tired' (cảm thấy mệt) dùng cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'tiring' cho trẻ em. Mẹo: Children + tired; Trip + tiring.\n💡 **Ví dụ:** I was tired. / The journey was tiring."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She speaks English perfect.",
+    "output": "✅ **Corrected Sentence:** She speaks English perfectly.\n🔍 **Error Identification:** Dùng 'perfect' thay vì 'perfectly'.\n📘 **Vietnamese Explanation:** Người Việt quên thêm -ly. Mẹo: Speaks + perfectly.\n💡 **Ví dụ:** He writes perfectly. / She sings perfectly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a 5-days course.",
+    "output": "✅ **Corrected Sentence:** This is a 5-day course.\n🔍 **Error Identification:** 'Day' số ít.\n📘 **Vietnamese Explanation:** Người Việt thêm 's'. Mẹo: A 5-day course.\n💡 **Ví dụ:** A 3-day workshop. / A 7-day trip."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was so exciting to meet her.",
+    "output": "✅ **Corrected Sentence:** I was so excited to meet her.\n🔍 **Error Identification:** 'Exciting' (gây hào hứng) thay vì 'excited' (cảm thấy hào hứng).\n📘 **Vietnamese Explanation:** Người Việt dùng 'exciting' cho cảm xúc của mình. Mẹo: I + excited.\n💡 **Ví dụ:** She was excited about the news. / He was excited to travel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is a well- known singer. (có khoảng trắng)",
+    "output": "✅ **Corrected Sentence:** He is a well-known singer.\n🔍 **Error Identification:** Dấu gạch nối không có khoảng trắng.\n📘 **Vietnamese Explanation:** Người Việt để khoảng trắng sau dấu gạch nối. Mẹo: well-known, không có space.\n💡 **Ví dụ:** A part-time job (không space). / A full-time employee."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She looked at him angry.",
+    "output": "✅ **Corrected Sentence:** She looked at him angrily.\n🔍 **Error Identification:** 'Looked at' là động từ hành động → dùng trạng từ 'angrily'.\n📘 **Vietnamese Explanation:** Người Việt dùng tính từ 'angry'. Mẹo: Looked at + angrily.\n💡 **Ví dụ:** He stared at me coldly. / She glanced at him quickly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The test was very stressed.",
+    "output": "✅ **Corrected Sentence:** The test was very stressful. (hoặc I was very stressed)\n🔍 **Error Identification:** 'Stressed' (cảm thấy căng thẳng) dùng cho người, 'stressful' (gây căng thẳng) dùng cho vật.\n📘 **Vietnamese Explanation:** Người Việt dùng 'stressed' cho bài kiểm tra. Mẹo: Test (vật) + stressful.\n💡 **Ví dụ:** The job was stressful. / I was stressed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is a 40 year old man. (thiếu dấu gạch nối)",
+    "output": "✅ **Corrected Sentence:** He is a 40-year-old man.\n🔍 **Error Identification:** Thiếu dấu gạch nối trong tính từ ghép.\n📘 **Vietnamese Explanation:** Người Việt quên dấu gạch nối. Mẹo: 40-year-old.\n💡 **Ví dụ:** A 50-year-old woman. / A 60-year-old professor."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie was really interested.",
+    "output": "✅ **Corrected Sentence:** The movie was really interesting.\n🔍 **Error Identification:** 'Interested' (cảm thấy thú vị) dùng cho người, 'interesting' (gây thú vị) dùng cho vật.\n📘 **Vietnamese Explanation:** Người Việt dùng 'interested' cho phim. Mẹo: Movie + interesting.\n💡 **Ví dụ:** The book was interesting. / The lecture was interesting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She speaks English very well. (câu đúng) - Học viên viết \'She speaks English very good.\'",
+    "output": "✅ **Corrected Sentence:** She speaks English very well.\n🔍 **Error Identification:** Dùng 'good' (tính từ) thay vì 'well' (trạng từ).\n📘 **Vietnamese Explanation:** Người Việt dùng 'good' cho mọi 'tốt'. Mẹo: Speaks + well.\n💡 **Ví dụ:** He plays soccer well. / She cooks well."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a 100-meters race.",
+    "output": "✅ **Corrected Sentence:** This is a 100-meter race.\n🔍 **Error Identification:** 'Meter' số ít.\n📘 **Vietnamese Explanation:** Người Việt thêm 's'. Mẹo: A 100-meter race.\n💡 **Ví dụ:** A 200-meter dash. / A 50-meter pool."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was very tiring after the workout.",
+    "output": "✅ **Corrected Sentence:** I was very tired after the workout.\n🔍 **Error Identification:** 'Tiring' (gây mệt) dùng cho vật, 'tired' (cảm thấy mệt) dùng cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'tiring' cho bản thân. Mẹo: I + tired.\n💡 **Ví dụ:** She was tired. / He was exhausted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is a well-known doctor. (câu đúng) - Học viên viết \'He is a wellknown doctor.\'",
+    "output": "✅ **Corrected Sentence:** He is a well-known doctor.\n🔍 **Error Identification:** Thiếu dấu gạch nối, viết liền 'wellknown' là sai.\n📘 **Vietnamese Explanation:** Người Việt viết liền 'wellknown'. Mẹo: well-known (có dấu gạch nối).\n💡 **Ví dụ:** Well-educated, well-organized, well-prepared."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She looked beautifully at the painting.",
+    "output": "✅ **Corrected Sentence:** She looked at the painting beautifully. (hoặc She looked beautiful in the painting)\n🔍 **Error Identification:** 'Looked at' là động từ hành động, trạng từ 'beautifully' nên đứng cuối câu.\n📘 **Vietnamese Explanation:** Người Việt đặt 'beautifully' sai vị trí. Mẹo: Trạng từ thường đứng sau tân ngữ.\n💡 **Ví dụ:** She looked at me kindly. / He stared at her coldly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The explanation was very confused.",
+    "output": "✅ **Corrected Sentence:** The explanation was very confusing.\n🔍 **Error Identification:** 'Confused' (bối rối) dùng cho người, 'confusing' (gây bối rối) dùng cho vật.\n📘 **Vietnamese Explanation:** Người Việt dùng 'confused' cho lời giải thích. Mẹo: Explanation + confusing.\n💡 **Ví dụ:** The diagram was confusing. / The speech was confusing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is a 2-days weekend.",
+    "output": "✅ **Corrected Sentence:** This is a 2-day weekend.\n🔍 **Error Identification:** 'Day' số ít.\n📘 **Vietnamese Explanation:** Người Việt thêm 's'. Mẹo: A 2-day weekend.\n💡 **Ví dụ:** A 3-day holiday. / A 4-day break."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I felt very interesting in the topic.",
+    "output": "✅ **Corrected Sentence:** I felt very interested in the topic.\n🔍 **Error Identification:** 'Interesting' (gây thú vị) thay vì 'interested' (cảm thấy thú vị).\n📘 **Vietnamese Explanation:** Người Việt dùng 'interesting' cho cảm xúc của mình. Mẹo: I + interested in.\n💡 **Ví dụ:** She is interested in art. / He is interested in history."
+  }
+]

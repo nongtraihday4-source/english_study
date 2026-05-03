@@ -20,6 +20,10 @@ class Word(models.Model):
     ]
 
     word = models.CharField(max_length=100, db_index=True)
+    topic = models.CharField(
+        max_length=200, null=True, blank=True, db_index=True,
+        help_text="Vocabulary topic this word belongs to, e.g. 'Health - Symptoms & Illnesses'",
+    )
     part_of_speech = models.CharField(max_length=20, choices=POS_CHOICES, null=True, blank=True)
     cefr_level = models.CharField(max_length=3, choices=CEFR_CHOICES, db_index=True)
     domain = models.CharField(

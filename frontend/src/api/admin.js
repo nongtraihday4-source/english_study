@@ -41,6 +41,10 @@ export const adminApi = {
   deleteExercise: (type, pk) => api.delete(`/admin-portal/exercises/${type}/${pk}/`),
 
   // ── Grammar admin CRUD ────────────────────────────────────────────────
+  getGrammarChapters: (params = {}) => api.get('/admin-portal/grammar/chapters/', { params }),
+  createGrammarChapter: (data) => api.post('/admin-portal/grammar/chapters/', data),
+  updateGrammarChapter: (pk, data) => api.patch(`/admin-portal/grammar/chapters/${pk}/`, data),
+  deleteGrammarChapter: (pk) => api.delete(`/admin-portal/grammar/chapters/${pk}/`),
   getGrammarTopics: (params = {}) => api.get('/admin-portal/grammar/topics/', { params }),
   createGrammarTopic: (data) => api.post('/admin-portal/grammar/topics/', data),
   updateGrammarTopic: (pk, data) => api.patch(`/admin-portal/grammar/topics/${pk}/`, data),
@@ -81,6 +85,16 @@ export const adminApi = {
   createExamSet: (data) => api.post('/admin-portal/exam-sets/', data),
   updateExamSet: (pk, data) => api.patch(`/admin-portal/exam-sets/${pk}/`, data),
   deleteExamSet: (pk) => api.delete(`/admin-portal/exam-sets/${pk}/`),
+  // ── Question Bank ──────────────────────────────────────────
+  getQuestions: (params = {}) => api.get('/admin-portal/questions/', { params }),
+  createQuestion: (data) => api.post('/admin-portal/questions/', data),
+  updateQuestion: (pk, data) => api.patch(`/admin-portal/questions/${pk}/`, data),
+  deleteQuestion: (pk) => api.delete(`/admin-portal/questions/${pk}/`),
+
+  // ── Source Files ───────────────────────────────────────────
+  getLessonFiles: (lessonPk) => api.get(`/admin-portal/lessons/${lessonPk}/files/`),
+  uploadLessonFile: (lessonPk, formData) => api.post(`/admin-portal/lessons/${lessonPk}/files/`, formData, { headers: { 'Content-Type': 'multipart/form-data' } }),
+  deleteLessonFile: (lessonPk, filePk) => api.delete(`/admin-portal/lessons/${lessonPk}/files/${filePk}/`),
 
   // ── Exercises (legacy query-param list, kept for backward compat) ─────
   getExercises: (params = {}) => api.get('/admin-portal/exercises/', { params }),

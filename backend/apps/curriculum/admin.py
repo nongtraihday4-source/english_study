@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import CEFRLevel, Chapter, Course, Lesson, LessonExercise, UnlockRule
+from .models import CEFRLevel, Chapter, Course, Lesson, LessonContent, LessonExercise, UnlockRule
 
 
 @admin.register(CEFRLevel)
@@ -43,3 +43,28 @@ class LessonAdmin(admin.ModelAdmin):
     list_display = ["title", "chapter", "lesson_type", "order", "estimated_minutes"]
     list_filter = ["lesson_type"]
     search_fields = ["title"]
+
+
+@admin.register(LessonContent)
+class LessonContentAdmin(admin.ModelAdmin):
+    list_display = ["lesson", "lesson_type_display", "has_reading", "vocab_count", "exercise_count", "completion_xp"]
+    search_fields = ["lesson__title", "grammar_title"]
+    list_filter = ["lesson__lesson_type", "lesson__chapter__course"]
+    readonly_fields = ["created_at", "updated_at"]
+
+    def lesson_type_display(self, obj):
+        return obj.lesson.lesson_type
+    lesson_type_display.short_description = "Type"
+
+    def has_reading(self, obj):
+        return bool(obj.reading_passage)
+    has_reading.boolean = True
+    has_reading.short_description = "Reading"
+
+    def vocab_count(self, obj):
+        return len(obj.vocab_items or [])
+    vocab_count.short_description = "Vocab"
+
+    def exercise_count(self, obj):
+        return len(obj.exercises or [])
+    exercise_count.short_description = "Exercises"

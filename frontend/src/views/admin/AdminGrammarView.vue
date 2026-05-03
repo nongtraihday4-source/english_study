@@ -60,8 +60,8 @@
               <div class="flex items-center gap-1.5 mt-0.5 flex-wrap">
                 <span class="px-1.5 py-0.5 rounded-full text-[10px] font-semibold"
                   style="background-color:color-mix(in srgb,var(--color-primary-600) 18%,transparent);color:var(--color-primary-400)">{{ topic.level }}</span>
-                <span v-if="topic.chapter" class="px-1.5 py-0.5 rounded-full text-[10px]"
-                  style="background-color:var(--color-surface-03);color:var(--color-text-muted)">{{ topic.chapter }}</span>
+                <span v-if="topic.chapter_name" class="px-1.5 py-0.5 rounded-full text-[10px]"
+                  style="background-color:var(--color-surface-03);color:var(--color-text-muted)">{{ topic.chapter_name }}</span>
                 <span class="text-[10px]" style="color: var(--color-text-muted)">{{ topic.rule_count }} rules</span>
                 <span v-if="!topic.is_published" class="px-1.5 py-0.5 rounded-full text-[10px]"
                   style="background-color:color-mix(in srgb,#ef4444 15%,transparent);color:#f87171">Ẩn</span>
@@ -210,9 +210,12 @@
               </select>
             </div>
             <div>
-              <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Chương (VD: "Thì cơ bản")</label>
-              <input v-model="topicFormData.chapter" type="text" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
-                style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)" />
+              <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Chương</label>
+              <select v-model="topicFormData.chapter" class="w-full rounded-xl px-3 py-2 text-sm border outline-none"
+                style="background-color: var(--color-surface-02); border-color: var(--color-surface-04); color: var(--color-text-base)">
+                <option :value="null">— Không có chương —</option>
+                <option v-for="ch in chapterOptions" :key="ch.id" :value="ch.id">{{ ch.icon ? ch.icon + ' ' : '' }}{{ ch.name }}</option>
+              </select>
             </div>
             <div>
               <label class="text-xs font-medium block mb-1" style="color: var(--color-text-muted)">Thứ tự</label>
@@ -435,7 +438,7 @@
 </template>
 
 <script setup>
-import { onMounted, reactive, ref } from 'vue'
+import { onMounted, reactive, ref, watch } from 'vue'
 import { adminApi } from '@/api/admin.js'
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
@@ -484,28 +487,40 @@ const topicFormError = ref(null)
 const topicDeleteTarget = ref(null)
 const topicDeleteLoading = ref(false)
 const topicFormData = reactive({
-  id: null, title: '', slug: '', level: 'A1', chapter: '', order: 0,
+  id: null, title: '', slug: '', level: 'A1', chapter: null, order: 0,
   icon: '📚', description: '', analogy: '', real_world_use: '', memory_hook: '',
   is_published: true,
 })
+
+const chapterOptions = ref([])
+async function fetchChaptersForLevel(level) {
+  chapterOptions.value = []
+  if (!level) return
+  try {
+    const { data } = await adminApi.getGrammarChapters({ level })
+    chapterOptions.value = data.results ?? data
+  } catch { /* ignore */ }
+}
+watch(() => topicFormData.level, (lvl) => fetchChaptersForLevel(lvl))
 
 function openTopicForm(topic = null) {
   topicFormError.value = null
   if (topic) {
     Object.assign(topicFormData, {
       id: topic.id, title: topic.title, slug: topic.slug, level: topic.level,
-      chapter: topic.chapter || '', order: topic.order, icon: topic.icon || '📚',
+      chapter: topic.chapter?.id ?? null, order: topic.order, icon: topic.icon || '📚',
       description: topic.description || '', analogy: topic.analogy || '',
       real_world_use: topic.real_world_use || '', memory_hook: topic.memory_hook || '',
       is_published: topic.is_published,
     })
   } else {
     Object.assign(topicFormData, {
-      id: null, title: '', slug: '', level: topicFilter.level || 'A1', chapter: '', order: 0,
+      id: null, title: '', slug: '', level: topicFilter.level || 'A1', chapter: null, order: 0,
       icon: '📚', description: '', analogy: '', real_world_use: '', memory_hook: '',
       is_published: true,
     })
   }
+  fetchChaptersForLevel(topicFormData.level)
   showTopicForm.value = true
 }
 
@@ -517,7 +532,7 @@ async function submitTopicForm() {
     const payload = {
       title: topicFormData.title,
       level: topicFormData.level,
-      chapter: topicFormData.chapter,
+      chapter: topicFormData.chapter || null,
       order: topicFormData.order,
       icon: topicFormData.icon,
       description: topicFormData.description,

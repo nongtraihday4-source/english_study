@@ -16,6 +16,8 @@ from .views import (
     AdminLessonExerciseDetailView,
     AdminExerciseTypeListView,
     AdminExerciseTypeDetailView,
+    AdminGrammarChapterListView,
+    AdminGrammarChapterDetailView,
     AdminGrammarTopicListView,
     AdminGrammarTopicDetailView,
     AdminGrammarRuleListView,
@@ -34,7 +36,12 @@ from .views import (
     # Assessments
     AdminExamSetListView,
     AdminExamSetDetailView,
+    AdminQuestionListView,
+    AdminQuestionDetailView,
     AdminExerciseListView,
+    # Source Files
+    AdminSourceFileListView,
+    AdminSourceFileDetailView,
     # AI Grading
     AdminGradingStatsView,
     AdminGradingJobListView,
@@ -87,10 +94,14 @@ urlpatterns = [
     path("lessons/<int:pk>/exercises/",       AdminLessonExerciseListView.as_view(),  name="admin-lesson-exercise-list"),
     path("lessons/<int:lesson_pk>/exercises/<int:pk>/",
                                               AdminLessonExerciseDetailView.as_view(), name="admin-lesson-exercise-detail"),
+    path("lessons/<int:pk>/files/",           AdminSourceFileListView.as_view(),  name="admin-lesson-files"),
+    path("lessons/<int:pk>/files/<int:fpk>/", AdminSourceFileDetailView.as_view(), name="admin-lesson-file-detail"),
     # ── Exercise CRUD ─────────────────────────────────────────────────────────
     path("exercises/<str:exercise_type>/",            AdminExerciseTypeListView.as_view(),   name="admin-exercise-type-list"),
     path("exercises/<str:exercise_type>/<int:pk>/",   AdminExerciseTypeDetailView.as_view(), name="admin-exercise-type-detail"),
     # ── Grammar admin CRUD ────────────────────────────────────────────────────
+    path("grammar/chapters/",                                      AdminGrammarChapterListView.as_view(),  name="admin-grammar-chapter-list"),
+    path("grammar/chapters/<int:pk>/",                             AdminGrammarChapterDetailView.as_view(), name="admin-grammar-chapter-detail"),
     path("grammar/topics/",                                        AdminGrammarTopicListView.as_view(),    name="admin-grammar-topic-list"),
     path("grammar/topics/<int:pk>/",                               AdminGrammarTopicDetailView.as_view(),  name="admin-grammar-topic-detail"),
     path("grammar/topics/<int:topic_pk>/rules/",                   AdminGrammarRuleListView.as_view(),     name="admin-grammar-rule-list"),
@@ -110,6 +121,8 @@ urlpatterns = [
     # ── Assessments ───────────────────────────────────────────────────────────
     path("exam-sets/",                        AdminExamSetListView.as_view(),   name="admin-examset-list"),
     path("exam-sets/<int:pk>/",               AdminExamSetDetailView.as_view(), name="admin-examset-detail"),
+    path("questions/",                        AdminQuestionListView.as_view(),  name="admin-question-list"),
+    path("questions/<int:pk>/",               AdminQuestionDetailView.as_view(), name="admin-question-detail"),
     path("exercises/",                        AdminExerciseListView.as_view(),  name="admin-exercise-list"),
 
     # ── AI Grading ────────────────────────────────────────────────────────────

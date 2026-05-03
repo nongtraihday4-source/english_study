@@ -70,8 +70,11 @@ class Command(BaseCommand):
         clear = options["clear"]
 
         if clear and not dry_run:
-            deleted, _ = FlashcardDeck.objects.filter(owner__isnull=True).delete()
-            self.stdout.write(f"Cleared {deleted} existing system decks.\n")
+            own_names = [cfg["name"] for cfg in DECK_CONFIG]
+            deleted, _ = FlashcardDeck.objects.filter(
+                owner__isnull=True, name__in=own_names
+            ).delete()
+            self.stdout.write(f"Cleared {deleted} rows for {len(own_names)} CEFR system decks.\n")
 
         total_decks = 0
         total_cards = 0

@@ -4,12 +4,16 @@ apps/admin_portal/serializers.py
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
 from apps.curriculum.models import CEFRLevel, Course, Chapter, Lesson, LessonExercise
-from apps.grammar.models import GrammarTopic, GrammarRule, GrammarExample
+from apps.grammar.models import GrammarChapter, GrammarTopic, GrammarRule, GrammarExample
 from apps.payments.models import Coupon, CouponRedemption, PaymentTransaction, SubscriptionPlan, UserSubscription
-from apps.exercises.models import ExamSet, ListeningExercise, ReadingExercise, SpeakingExercise, WritingExercise
+from apps.exercises.models import (
+    ExamSet, ListeningExercise, ReadingExercise, SpeakingExercise, WritingExercise,
+    Question, QuestionOption,
+)
 from apps.progress.models import AIGradingJob, SpeakingSubmission, WritingSubmission
 from apps.gamification.models import Achievement, Certificate, LeaderboardSnapshot, XPLog
 from apps.notifications.models import Notification, NotificationTemplate
+from apps.curriculum.models import SourceFile
 from .models import AuditLog, StaffPermission, SystemSetting
 
 User = get_user_model()
@@ -106,6 +110,47 @@ class AdminSubscriptionSerializer(serializers.ModelSerializer):
 
 # ── Assessments ────────────────────────────────────────────────────────────────
 
+class AdminQuestionOptionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = QuestionOption
+        fields = ["id", "option_text", "order"]
+        extra_kwargs = {"id": {"read_only": False, "required": False}}
+
+
+class AdminQuestionSerializer(serializers.ModelSerializer):
+    options = AdminQuestionOptionSerializer(many=True, required=False, default=list)
+
+    class Meta:
+        model = Question
+        fields = [
+            "id", "exercise_type", "exercise_id", "question_type",
+            "question_text", "order", "correct_answers_json", "explanation",
+            "points", "is_locked_initially", "passage_ref_start", "passage_ref_end",
+            "options",
+        ]
+        read_only_fields = ["id"]
+
+    def create(self, validated_data):
+        options_data = validated_data.pop("options", [])
+        question = Question.objects.create(**validated_data)
+        for opt in options_data:
+            opt.pop("id", None)
+            QuestionOption.objects.create(question=question, **opt)
+        return question
+
+    def update(self, instance, validated_data):
+        options_data = validated_data.pop("options", None)
+        for attr, value in validated_data.items():
+            setattr(instance, attr, value)
+        instance.save()
+        if options_data is not None:
+            instance.options.all().delete()
+            for opt in options_data:
+                opt.pop("id", None)
+                QuestionOption.objects.create(question=instance, **opt)
+        return instance
+
+
 class AdminExamSetSerializer(serializers.ModelSerializer):
     created_by_email = serializers.CharField(source="created_by.email", read_only=True, default=None)
 
@@ -117,6 +162,18 @@ class AdminExamSetSerializer(serializers.ModelSerializer):
             "is_active", "created_by_email", "created_at",
         ]
         read_only_fields = ["id", "created_by_email", "created_at"]
+
+
+class AdminSourceFileSerializer(serializers.ModelSerializer):
+    uploaded_by_email = serializers.CharField(source="uploaded_by.email", read_only=True, default=None)
+
+    class Meta:
+        model = SourceFile
+        fields = [
+            "id", "lesson", "file_type", "s3_key", "original_name",
+            "file_size_bytes", "uploaded_by_email", "created_at",
+        ]
+        read_only_fields = ["id", "s3_key", "original_name", "file_size_bytes", "uploaded_by_email", "created_at"]
 
 
 class AdminListeningExerciseSerializer(serializers.ModelSerializer):
@@ -198,7 +255,7 @@ class AdminLessonExerciseSerializer(serializers.ModelSerializer):
     class Meta:
         model = LessonExercise
         fields = ["id", "lesson", "exercise_type", "exercise_id", "order", "passing_score", "exercise_title"]
-        read_only_fields = ["id", "exercise_title"]
+        read_only_fields = ["id", "lesson", "exercise_title"]
 
     def get_exercise_title(self, obj):
         model_map = {
@@ -218,34 +275,53 @@ class AdminLessonExerciseSerializer(serializers.ModelSerializer):
 
 # ── Grammar admin serializers ──────────────────────────────────────────────────
 
+class AdminGrammarChapterSerializer(serializers.ModelSerializer):
+    topic_count = serializers.SerializerMethodField()
+
+    class Meta:
+        model = GrammarChapter
+        fields = ["id", "name", "slug", "level", "order", "description", "icon", "topic_count",
+                  "created_at" if hasattr(GrammarChapter, "created_at") else "id"]
+        # GrammarChapter has no timestamps; just include safe fields:
+        fields = ["id", "name", "slug", "level", "order", "description", "icon", "topic_count"]
+        read_only_fields = ["id", "topic_count"]
+
+    def get_topic_count(self, obj):
+        return obj.topics.count()
+
+
 class AdminGrammarTopicSerializer(serializers.ModelSerializer):
     rule_count = serializers.SerializerMethodField()
+    chapter_name = serializers.SerializerMethodField()
 
     class Meta:
         model = GrammarTopic
         fields = [
-            "id", "title", "slug", "level", "chapter", "order", "is_published",
+            "id", "title", "slug", "level", "chapter", "chapter_name", "order", "is_published",
             "icon", "description", "analogy", "real_world_use", "memory_hook",
             "lesson", "rule_count", "created_at", "updated_at",
         ]
-        read_only_fields = ["id", "rule_count", "created_at", "updated_at"]
+        read_only_fields = ["id", "rule_count", "chapter_name", "created_at", "updated_at"]
 
     def get_rule_count(self, obj):
         return obj.rules.count()
+
+    def get_chapter_name(self, obj):
+        return obj.chapter.name if obj.chapter else ""
 
 
 class AdminGrammarRuleSerializer(serializers.ModelSerializer):
     class Meta:
         model = GrammarRule
         fields = ["id", "topic", "title", "formula", "explanation", "memory_hook", "is_exception", "order"]
-        read_only_fields = ["id"]
+        read_only_fields = ["id", "topic"]
 
 
 class AdminGrammarExampleSerializer(serializers.ModelSerializer):
     class Meta:
         model = GrammarExample
         fields = ["id", "rule", "sentence", "translation", "context", "highlight", "audio_url"]
-        read_only_fields = ["id"]
+        read_only_fields = ["id", "rule"]
 
 
 # ── AI Grading ─────────────────────────────────────────────────────────────────

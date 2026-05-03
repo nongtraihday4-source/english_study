@@ -13,6 +13,9 @@ export const progressApi = {
   getLessonProgress: (lessonId) =>
     api.get(`/progress/lessons/${lessonId}/`),
 
+  markLessonComplete: (lessonId, data = {}) =>
+    api.post(`/progress/lessons/${lessonId}/complete/`, data),
+
   submitListening: (payload) =>
     api.post('/progress/submit/listening/', payload),
 
@@ -42,4 +45,7 @@ export const progressApi = {
 
   getExamResult: (id) =>
     api.get(`/progress/submissions/exam/${id}/`),
+
+  // Assignments given to current student
+  getMyAssignments: () => api.get('/progress/my-assignments/'),
 }

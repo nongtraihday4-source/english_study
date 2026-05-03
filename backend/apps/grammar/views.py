@@ -10,8 +10,9 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from utils.pagination import StandardPagination
-from .models import GrammarQuizResult, GrammarTopic
+from .models import GrammarChapter, GrammarQuizResult, GrammarTopic
 from .serializers import (
+    GrammarChapterSerializer,
     GrammarQuizResultSerializer,
     GrammarQuizSubmitSerializer,
     GrammarTopicDetailSerializer,
@@ -19,6 +20,25 @@ from .serializers import (
 )
 
 logger = logging.getLogger("es.curriculum")
+
+
+class GrammarChapterListView(ListAPIView):
+    """
+    GET /api/v1/grammar/chapters/
+    GET /api/v1/grammar/chapters/?level=A1
+
+    Returns ordered list of grammar chapters (optionally filtered by level).
+    """
+    serializer_class = GrammarChapterSerializer
+    permission_classes = [IsAuthenticatedOrReadOnly]
+    pagination_class = None  # always return full list
+
+    def get_queryset(self):
+        qs = GrammarChapter.objects.order_by("level", "order")
+        level = self.request.query_params.get("level")
+        if level:
+            qs = qs.filter(level=level.upper())
+        return qs
 
 
 class GrammarTopicListView(ListAPIView):
@@ -35,7 +55,12 @@ class GrammarTopicListView(ListAPIView):
     permission_classes = [IsAuthenticatedOrReadOnly]
 
     def get_queryset(self):
-        qs = GrammarTopic.objects.filter(is_published=True).order_by("level", "order")
+        qs = (
+            GrammarTopic.objects
+            .select_related("chapter")
+            .filter(is_published=True)
+            .order_by("level", "chapter__order", "order")
+        )
         level = self.request.query_params.get("level")
         if level:
             qs = qs.filter(level=level.upper())
@@ -55,7 +80,7 @@ class GrammarTopicDetailView(RetrieveAPIView):
     serializer_class = GrammarTopicDetailSerializer
     permission_classes = [IsAuthenticatedOrReadOnly]
     lookup_field = "slug"
-    queryset = GrammarTopic.objects.filter(is_published=True).prefetch_related(
+    queryset = GrammarTopic.objects.filter(is_published=True).select_related("chapter").prefetch_related(
         "rules", "rules__examples"
     )
 

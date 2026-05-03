@@ -13,7 +13,6 @@
         {{ tab.label }}
       </button>
     </div>
-
     <!-- ── Exam Sets ────────────────────────────────────────────────── -->
     <section v-if="activeTab === 'exam-sets'">
       <div class="flex flex-wrap gap-3 mb-4">
@@ -110,6 +109,65 @@
       </div>
     </section>
 
+    <!-- ── Questions ──────────────────────────────────────────────── -->
+    <section v-if="activeTab === 'questions'">
+      <div class="flex flex-wrap gap-3 mb-4">
+        <input v-model="qSearch" @input="loadQuestions" placeholder="Tìm câu hỏi..." class="input-sm" />
+        <select v-model="qExType" @change="loadQuestions" class="input-sm">
+          <option value="">Tất cả exercise_type</option>
+          <option value="listening">Listening</option>
+          <option value="reading">Reading</option>
+          <option value="grammar">Grammar</option>
+          <option value="exam">Exam</option>
+        </select>
+        <select v-model="qType" @change="loadQuestions" class="input-sm">
+          <option value="">Tất cả loại</option>
+          <option value="mc">Trắc nghiệm</option>
+          <option value="gap_fill">Điền từ</option>
+          <option value="drag_drop">Kéo thả</option>
+        </select>
+        <button @click="openQModal(null)" class="btn-primary text-sm px-4 py-2 rounded-lg ml-auto">+ Thêm câu hỏi</button>
+      </div>
+      <div v-if="qLoading" class="space-y-2">
+        <div v-for="n in 5" :key="n" class="h-12 animate-pulse rounded-xl" style="background-color:var(--color-surface-02)" />
+      </div>
+      <div v-else class="rounded-2xl overflow-hidden" style="background-color:var(--color-surface-02)">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="text-left border-b" style="border-color:var(--color-border);color:var(--color-text-muted)">
+              <th class="px-4 py-3">Câu hỏi</th>
+              <th class="px-4 py-3">Loại</th>
+              <th class="px-4 py-3">Exercise</th>
+              <th class="px-4 py-3">Điểm</th>
+              <th class="px-4 py-3"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="q in questions" :key="q.id" class="border-b last:border-0" style="border-color:var(--color-border)">
+              <td class="px-4 py-3 font-medium max-w-xs truncate" style="color:var(--color-text-base)" :title="q.question_text">
+                {{ q.question_text }}
+              </td>
+              <td class="px-4 py-3">
+                <span class="text-xs px-2 py-0.5 rounded font-mono" style="background:var(--color-surface-03);color:var(--color-text-base)">
+                  {{ q.question_type }}
+                </span>
+              </td>
+              <td class="px-4 py-3 text-xs" style="color:var(--color-text-muted)">
+                {{ q.exercise_type }}/{{ q.exercise_id }}
+              </td>
+              <td class="px-4 py-3 text-xs" style="color:var(--color-text-muted)">{{ q.points }}đ</td>
+              <td class="px-4 py-3 flex gap-2">
+                <button @click="openQModal(q)" class="text-xs px-3 py-1 rounded-lg" style="background-color:var(--color-surface-03);color:var(--color-text-base)">Sửa</button>
+                <button @click="deleteQuestion(q)" class="text-xs px-3 py-1 rounded-lg text-red-500" style="background-color:var(--color-surface-03)">Xoá</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p v-if="!qLoading && questions.length === 0" class="text-center text-sm py-8" style="color:var(--color-text-muted)">Không tìm thấy câu hỏi.</p>
+        <PaginationBar :pagination="qPagination" @change="loadQPage" />
+      </div>
+    </section>
+
     <!-- ── Exam Set Modal ──────────────────────────────────────────── -->
     <div v-if="examModal.open" class="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
       <div class="w-full max-w-md rounded-2xl p-6 space-y-4" style="background-color:var(--color-surface-01)">
@@ -154,6 +212,70 @@
         </div>
       </div>
     </div>
+
+    <!-- ── Question Modal ─────────────────────────────────────────── -->
+    <div v-if="qModal.open" class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+      <div class="w-full max-w-2xl rounded-2xl p-6 space-y-4 overflow-y-auto max-h-[90vh]"
+           style="background-color:var(--color-surface-01)">
+        <h3 class="text-base font-bold" style="color:var(--color-text-base)">
+          {{ qModal.item ? 'Sửa câu hỏi' : 'Thêm câu hỏi mới' }}
+        </h3>
+        <div class="space-y-3">
+          <div class="grid grid-cols-2 gap-3">
+            <select v-model="qForm.question_type" class="input-base">
+              <option value="mc">Trắc nghiệm (MC)</option>
+              <option value="gap_fill">Điền từ (Gap Fill)</option>
+              <option value="drag_drop">Kéo thả (Drag & Drop)</option>
+            </select>
+            <div class="grid grid-cols-2 gap-2">
+              <select v-model="qForm.exercise_type" class="input-base">
+                <option value="listening">Listening</option>
+                <option value="reading">Reading</option>
+                <option value="grammar">Grammar</option>
+                <option value="exam">Exam</option>
+              </select>
+              <input v-model.number="qForm.exercise_id" type="number" placeholder="Exercise ID" class="input-base" />
+            </div>
+          </div>
+          <textarea v-model="qForm.question_text" rows="3" placeholder="Nội dung câu hỏi*" class="input-base w-full resize-none" />
+          <div class="grid grid-cols-3 gap-3">
+            <input v-model.number="qForm.points" type="number" min="1" placeholder="Điểm" class="input-base" />
+            <input v-model.number="qForm.order" type="number" min="0" placeholder="Thứ tự" class="input-base" />
+            <input v-model="qForm.explanation" placeholder="Giải thích (tuỳ chọn)" class="input-base" />
+          </div>
+
+          <!-- MC Options -->
+          <div v-if="qForm.question_type === 'mc'" class="space-y-2">
+            <p class="text-xs font-semibold uppercase tracking-wide" style="color:var(--color-text-muted)">Đáp án lựa chọn</p>
+            <div v-for="(opt, i) in qForm.options" :key="i" class="flex items-center gap-2">
+              <input type="checkbox" :value="opt.option_text" v-model="qForm.correct_answers_json"
+                     class="rounded" title="Chọn là đáp án đúng" />
+              <input v-model="opt.option_text" :placeholder="`Lựa chọn ${i+1}`" class="input-base flex-1" />
+              <button @click="qForm.options.splice(i, 1)" class="text-red-400 text-xs px-1.5 py-0.5 rounded">✕</button>
+            </div>
+            <button @click="qForm.options.push({ option_text: '', order: qForm.options.length })"
+                    class="text-xs px-3 py-1.5 rounded-lg" style="background-color:var(--color-surface-02);color:var(--color-text-muted)">
+              + Thêm lựa chọn
+            </button>
+          </div>
+
+          <!-- Gap Fill / Drag Drop correct answers -->
+          <div v-else class="space-y-2">
+            <p class="text-xs font-semibold uppercase tracking-wide" style="color:var(--color-text-muted)">
+              Đáp án đúng (mỗi dòng một đáp án)
+            </p>
+            <textarea v-model="qForm.correctAnswersText" rows="3" placeholder="Nhập từng đáp án đúng, mỗi dòng một đáp án"
+                      class="input-base w-full resize-none text-sm" />
+          </div>
+        </div>
+        <div class="flex gap-3 justify-end pt-2">
+          <button @click="qModal.open = false" class="text-sm px-4 py-2 rounded-lg" style="background-color:var(--color-surface-02);color:var(--color-text-base)">Huỷ</button>
+          <button @click="saveQuestion" :disabled="qSaving" class="btn-primary text-sm px-4 py-2 rounded-lg">
+            {{ qSaving ? '...' : 'Lưu câu hỏi' }}
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -165,6 +287,7 @@ import PaginationBar from '@/components/PaginationBar.vue'
 const TABS = [
   { key: 'exam-sets', label: 'Exam Sets' },
   { key: 'exercises', label: 'Exercises' },
+  { key: 'questions', label: '📋 Ngân hàng câu hỏi' },
 ]
 const activeTab = ref('exam-sets')
 
@@ -190,6 +313,7 @@ const exSearch = ref('')
 
 watch(activeTab, (tab) => {
   if (tab === 'exercises' && exercises.value.length === 0) loadExercises()
+  if (tab === 'questions' && questions.value.length === 0) loadQuestions()
 })
 
 onMounted(async () => {
@@ -240,5 +364,97 @@ async function deleteExam(e) {
   if (!confirm(`Xoá Exam Set "${e.title}"?`)) return
   await adminApi.deleteExamSet(e.id)
   await loadExamSets()
+}
+
+// ── Questions ──────────────────────────────────────────────────────────────
+const questions = ref([])
+const qLoading = ref(false)
+const qSearch = ref('')
+const qExType = ref('')
+const qType = ref('')
+const qPagination = reactive({ count: 0, next: null, previous: null, page: 1 })
+const qModal = reactive({ open: false, item: null })
+const qForm = reactive({
+  exercise_type: 'listening', exercise_id: '',
+  question_type: 'mc', question_text: '', order: 0,
+  points: 1, explanation: '',
+  options: [],
+  correct_answers_json: [],
+  correctAnswersText: '',
+})
+const qSaving = ref(false)
+
+async function loadQuestions(page = 1) {
+  qLoading.value = true
+  try {
+    const r = await adminApi.getQuestions({
+      search: qSearch.value || undefined,
+      exercise_type: qExType.value || undefined,
+      question_type: qType.value || undefined,
+      page,
+    })
+    questions.value = r.data.results ?? r.data
+    Object.assign(qPagination, { count: r.data.count, next: r.data.next, previous: r.data.previous, page })
+  } finally { qLoading.value = false }
+}
+function loadQPage(p) { loadQuestions(p) }
+
+function openQModal(item) {
+  qModal.item = item
+  if (item) {
+    Object.assign(qForm, {
+      exercise_type: item.exercise_type,
+      exercise_id: item.exercise_id,
+      question_type: item.question_type,
+      question_text: item.question_text,
+      order: item.order,
+      points: item.points,
+      explanation: item.explanation || '',
+      options: item.options ? item.options.map(o => ({ ...o })) : [],
+      correct_answers_json: item.correct_answers_json ? [...item.correct_answers_json] : [],
+      correctAnswersText: item.correct_answers_json ? item.correct_answers_json.join('\n') : '',
+    })
+  } else {
+    Object.assign(qForm, {
+      exercise_type: 'listening', exercise_id: '',
+      question_type: 'mc', question_text: '', order: 0,
+      points: 1, explanation: '',
+      options: [],
+      correct_answers_json: [],
+      correctAnswersText: '',
+    })
+  }
+  qModal.open = true
+}
+
+async function saveQuestion() {
+  qSaving.value = true
+  try {
+    const payload = {
+      exercise_type: qForm.exercise_type,
+      exercise_id: qForm.exercise_id,
+      question_type: qForm.question_type,
+      question_text: qForm.question_text,
+      order: qForm.order,
+      points: qForm.points,
+      explanation: qForm.explanation,
+      options: qForm.question_type === 'mc'
+        ? qForm.options.map((o, i) => ({ option_text: o.option_text, order: i }))
+        : [],
+      correct_answers_json: qForm.question_type === 'mc'
+        ? qForm.correct_answers_json
+        : qForm.correctAnswersText.split('\n').map(s => s.trim()).filter(Boolean),
+    }
+    if (qModal.item) await adminApi.updateQuestion(qModal.item.id, payload)
+    else await adminApi.createQuestion(payload)
+    qModal.open = false
+    await loadQuestions()
+  } finally { qSaving.value = false }
+}
+
+async function deleteQuestion(q) {
+  if (!confirm(`Xoá câu hỏi: "${q.question_text.slice(0, 50)}..."?`)) return
+  await adminApi.deleteQuestion(q.id)
+  await loadQuestions()
 }
 </script>

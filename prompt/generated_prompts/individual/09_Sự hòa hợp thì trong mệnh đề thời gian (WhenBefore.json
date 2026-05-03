@@ -1,0 +1,522 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will call you when I will arrive home.",
+    "output": "✅ **Corrected Sentence:** I will call you when I arrive home.\n🔍 **Error Identification:** Trong mệnh đề thời gian bắt đầu bằng 'when', không dùng 'will' – chỉ dùng thì hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'khi tôi sẽ về đến nhà' thành 'when I will arrive'. Mẹo: 'When, before, after, as soon as, until' + hiện tại đơn (cho tương lai).\n💡 **Ví dụ:** She will text me when she gets there. / I'll call you before I leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before she will come, I will prepare dinner.",
+    "output": "✅ **Corrected Sentence:** Before she comes, I will prepare dinner.\n🔍 **Error Identification:** Mệnh đề 'before' không dùng 'will' – dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'trước khi cô ấy sẽ đến' thành 'before she will come'. Mẹo: Mệnh đề chỉ thời gian luôn dùng hiện tại đơn (không dùng will).\n💡 **Ví dụ:** Before you go, please lock the door. / After he finishes work, he will call you."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After I will eat dinner, I will watch TV.",
+    "output": "✅ **Corrected Sentence:** After I eat dinner, I will watch TV.\n🔍 **Error Identification:** Mệnh đề 'after' dùng hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'sau khi tôi sẽ ăn tối' thành 'after I will eat'. Mẹo: 'After' + hiện tại đơn (diễn tả tương lai).\n💡 **Ví dụ:** After the rain stops, we will go out. / After she arrives, the meeting will start."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as I will get the money, I will buy a new phone.",
+    "output": "✅ **Corrected Sentence:** As soon as I get the money, I will buy a new phone.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'ngay khi tôi sẽ có tiền' thành 'as soon as I will get'. Mẹo: 'As soon as, when, after, before' + hiện tại đơn cho tương lai.\n💡 **Ví dụ:** As soon as she calls, I will tell her. / I will let you know as soon as I hear anything."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will wait here until you will come back.",
+    "output": "✅ **Corrected Sentence:** I will wait here until you come back.\n🔍 **Error Identification:** 'Until' + hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cho đến khi bạn sẽ quay lại' thành 'until you will come'. Mẹo: 'Until, till' + hiện tại đơn.\n💡 **Ví dụ:** He will stay until she arrives. / I won't leave until you come."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I will be in Hanoi, I will visit you.",
+    "output": "✅ **Corrected Sentence:** When I am in Hanoi, I will visit you.\n🔍 **Error Identification:** 'When' + hiện tại đơn, không dùng 'will be'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'khi tôi sẽ ở Hà Nội' thành 'when I will be'. Mẹo: Mệnh đề 'when' luôn dùng hiện tại đơn để chỉ tương lai.\n💡 **Ví dụ:** When it stops raining, we will go out. / When she comes, I will tell her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time you will arrive, we will have finished dinner.",
+    "output": "✅ **Corrected Sentence:** By the time you arrive, we will have finished dinner.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'vào lúc bạn sẽ đến' thành 'by the time you will arrive'. Mẹo: 'By the time' + hiện tại đơn, mệnh đề chính dùng tương lai hoàn thành.\n💡 **Ví dụ:** By the time she gets home, I will have cooked dinner. / By the time they arrive, the movie will have started."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will tell him when I will see him.",
+    "output": "✅ **Corrected Sentence:** I will tell him when I see him.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong cả hai mệnh đề. Mẹo: Chỉ mệnh đề chính dùng 'will', mệnh đề 'when' dùng hiện tại đơn.\n💡 **Ví dụ:** I will ask her when she calls. / He will explain when he comes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After the class will end, we will go home.",
+    "output": "✅ **Corrected Sentence:** After the class ends, we will go home.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'after'. Mẹo: 'After, before, when, as soon as' + hiện tại đơn.\n💡 **Ví dụ:** After the movie ends, we will leave. / Before the sun sets, we will arrive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Don't forget to lock the door before you will leave.",
+    "output": "✅ **Corrected Sentence:** Don't forget to lock the door before you leave.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will leave' sau 'before'. Mẹo: Mệnh đề 'before' luôn dùng hiện tại đơn.\n💡 **Ví dụ:** Turn off the lights before you go. / Wash your hands before you eat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will call you as soon as I will finish work.",
+    "output": "✅ **Corrected Sentence:** I will call you as soon as I finish work.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'ngay khi tôi sẽ làm xong việc' thành 'as soon as I will finish'. Mẹo: 'As soon as' + hiện tại đơn, mệnh đề chính dùng will.\n💡 **Ví dụ:** I will text you as soon as I land. / She will pay as soon as she gets paid."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will stay here until she will come.",
+    "output": "✅ **Corrected Sentence:** I will stay here until she comes.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will come' sau 'until'. Mẹo: 'Until, till' + hiện tại đơn cho tương lai.\n💡 **Ví dụ:** Wait here until I return. / He won't stop until he succeeds."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When you will see her, give her this message.",
+    "output": "✅ **Corrected Sentence:** When you see her, give her this message.\n🔍 **Error Identification:** Mệnh lệnh + 'when' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will see' trong mệnh đề 'when'. Mẹo: Câu mệnh lệnh, mệnh đề 'when' vẫn dùng hiện tại đơn.\n💡 **Ví dụ:** When you meet him, say hello for me. / Call me when you get there."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before I will go to bed, I will read a book.",
+    "output": "✅ **Corrected Sentence:** Before I go to bed, I will read a book.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'before'. Mẹo: Hành động trong mệnh đề 'before' xảy ra sau? Không, 'before' + hiện tại đơn cho tương lai.\n💡 **Ví dụ:** Before he leaves, he will say goodbye. / Before you start, read the instructions."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After I will finish my homework, I will play games.",
+    "output": "✅ **Corrected Sentence:** After I finish my homework, I will play games.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'sau khi tôi sẽ làm xong bài tập' thành 'after I will finish'. Mẹo: 'After' + hiện tại đơn.\n💡 **Ví dụ:** After the rain stops, we will go for a walk. / After she graduates, she will look for a job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as I will have time, I will call you.",
+    "output": "✅ **Corrected Sentence:** As soon as I have time, I will call you.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will have' sau 'as soon as'. Mẹo: 'As soon as' + hiện tại đơn (không dùng will).\n💡 **Ví dụ:** As soon as I get home, I will text you. / As soon as she wakes up, she will call."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I won't believe it until I will see it with my own eyes.",
+    "output": "✅ **Corrected Sentence:** I won't believe it until I see it with my own eyes.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will see' sau 'until'. Mẹo: 'Until' + hiện tại đơn, mệnh đề chính có thể dùng will.\n💡 **Ví dụ:** I won't leave until she arrives. / He won't stop until he wins."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When the winter will come, the birds will fly south.",
+    "output": "✅ **Corrected Sentence:** When winter comes, the birds will fly south.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'khi mùa đông sẽ đến' thành 'when winter will come'. Mẹo: Mệnh đề 'when' dùng hiện tại đơn, dù sự việc ở tương lai.\n💡 **Ví dụ:** When spring arrives, flowers will bloom. / When the sun sets, we will go home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will let you know after I will talk to the manager.",
+    "output": "✅ **Corrected Sentence:** I will let you know after I talk to the manager.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will talk' sau 'after'. Mẹo: 'After' + hiện tại đơn, không dùng will.\n💡 **Ví dụ:** I will decide after I see the price. / She will reply after she checks her email."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before you will make a decision, think carefully.",
+    "output": "✅ **Corrected Sentence:** Before you make a decision, think carefully.\n🔍 **Error Identification:** 'Before' + hiện tại đơn (trong câu mệnh lệnh).\n📘 **Vietnamese Explanation:** Người Việt dùng 'will make' sau 'before'. Mẹo: 'Before' + hiện tại đơn, không dùng will.\n💡 **Ví dụ:** Before you speak, think. / Before you leave, check your bag."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time you will wake up, I will have left.",
+    "output": "✅ **Corrected Sentence:** By the time you wake up, I will have left.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'vào lúc bạn sẽ thức dậy' thành 'by the time you will wake up'. Mẹo: 'By the time' + hiện tại đơn, mệnh đề chính dùng tương lai hoàn thành.\n💡 **Ví dụ:** By the time she gets here, we will have eaten. / By the time he arrives, the meeting will have started."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will finish the report before you will come back.",
+    "output": "✅ **Corrected Sentence:** I will finish the report before you come back.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will come back' sau 'before'. Mẹo: Mệnh đề 'before' luôn dùng hiện tại đơn cho tương lai.\n💡 **Ví dụ:** I will clean the house before they arrive. / She will cook dinner before he gets home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I will be 30, I will have my own house.",
+    "output": "✅ **Corrected Sentence:** When I am 30, I will have my own house.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'khi tôi sẽ 30 tuổi' thành 'when I will be'. Mẹo: 'When' + hiện tại đơn (to be: am/is/are).\n💡 **Ví dụ:** When she is 18, she will go to university. / When he is old enough, he will drive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will wait here until you will finish.",
+    "output": "✅ **Corrected Sentence:** I will wait here until you finish.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will finish' sau 'until'. Mẹo: 'Until' + hiện tại đơn.\n💡 **Ví dụ:** I will stay until the store closes. / He will keep running until he reaches the finish line."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as she will get the letter, she will call you.",
+    "output": "✅ **Corrected Sentence:** As soon as she gets the letter, she will call you.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will get' sau 'as soon as'. Mẹo: 'As soon as' + hiện tại đơn.\n💡 **Ví dụ:** As soon as the bell rings, the students will leave. / As soon as he sees me, he will wave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After the rain will stop, we will go out.",
+    "output": "✅ **Corrected Sentence:** After the rain stops, we will go out.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'after'. Mẹo: 'After' + hiện tại đơn cho tương lai.\n💡 **Ví dụ:** After the baby falls asleep, we will watch a movie. / After he apologizes, I will forgive him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will tell you the news when I will know it.",
+    "output": "✅ **Corrected Sentence:** I will tell you the news when I know it.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will know' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn, 'will' ở mệnh đề chính.\n💡 **Ví dụ:** I will give you the book when I finish reading it. / She will call when she arrives."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before the movie will start, buy some popcorn.",
+    "output": "✅ **Corrected Sentence:** Before the movie starts, buy some popcorn.\n🔍 **Error Identification:** 'Before' + hiện tại đơn (câu mệnh lệnh).\n📘 **Vietnamese Explanation:** Người Việt dùng 'will start' sau 'before'. Mẹo: 'Before' + hiện tại đơn.\n💡 **Ví dụ:** Before you go out, lock the door. / Before the teacher comes, sit down."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time you will read this, I will have gone.",
+    "output": "✅ **Corrected Sentence:** By the time you read this, I will have gone.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'vào lúc bạn sẽ đọc cái này' thành 'by the time you will read'. Mẹo: 'By the time' + hiện tại đơn.\n💡 **Ví dụ:** By the time you get this message, I will have left. / By the time she wakes up, he will have gone to work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will help you when I will have time.",
+    "output": "✅ **Corrected Sentence:** I will help you when I have time.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will have' trong mệnh đề 'when'. Mẹo: Mệnh đề 'when' chỉ sự việc trong tương lai vẫn dùng hiện tại đơn.\n💡 **Ví dụ:** I will go when I am ready. / She will speak when she is called."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After I will graduate, I will travel the world.",
+    "output": "✅ **Corrected Sentence:** After I graduate, I will travel the world.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'after'. Mẹo: 'After' + hiện tại đơn cho tương lai.\n💡 **Ví dụ:** After she gets married, she will change her name. / After he retires, he will move to the countryside."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as the train will stop, we will get off.",
+    "output": "✅ **Corrected Sentence:** As soon as the train stops, we will get off.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will stop' sau 'as soon as'. Mẹo: 'As soon as' + hiện tại đơn.\n💡 **Ví dụ:** As soon as the light turns green, we will go. / As soon as she hears the news, she will call."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I won't start eating until everyone will sit down.",
+    "output": "✅ **Corrected Sentence:** I won't start eating until everyone sits down.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will sit' sau 'until'. Mẹo: 'Until' + hiện tại đơn.\n💡 **Ví dụ:** I won't leave until you come back. / He won't speak until he is asked."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When the summer will come, we will go swimming every day.",
+    "output": "✅ **Corrected Sentence:** When summer comes, we will go swimming every day.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'khi mùa hè sẽ đến' thành 'when summer will come'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** When the holidays begin, we will travel. / When the clock strikes 12, we will celebrate."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before you will go to sleep, take your medicine.",
+    "output": "✅ **Corrected Sentence:** Before you go to sleep, take your medicine.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will go' sau 'before'. Mẹo: 'Before' + hiện tại đơn trong câu mệnh lệnh.\n💡 **Ví dụ:** Before you eat, wash your hands. / Before you leave, turn off the lights."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will call you after I will get home.",
+    "output": "✅ **Corrected Sentence:** I will call you after I get home.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will get' sau 'after'. Mẹo: 'After' + hiện tại đơn.\n💡 **Ví dụ:** I will cook after I finish work. / She will text after she lands."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When you will see him, tell him I said hello.",
+    "output": "✅ **Corrected Sentence:** When you see him, tell him I said hello.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will see' trong mệnh đề 'when'. Mẹo: Mệnh đề 'when' dùng hiện tại đơn, mệnh đề chính có thể là mệnh lệnh.\n💡 **Ví dụ:** When you meet her, give her this gift. / When you arrive, call me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time you will finish your homework, it will be midnight.",
+    "output": "✅ **Corrected Sentence:** By the time you finish your homework, it will be midnight.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will finish' sau 'by the time'. Mẹo: 'By the time' + hiện tại đơn.\n💡 **Ví dụ:** By the time you arrive, the party will have started. / By the time she gets home, he will have cooked dinner."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as I will have enough money, I will buy a car.",
+    "output": "✅ **Corrected Sentence:** As soon as I have enough money, I will buy a car.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will have' sau 'as soon as'. Mẹo: 'As soon as' + hiện tại đơn.\n💡 **Ví dụ:** As soon as I save enough, I will travel. / As soon as she gets paid, she will buy a gift."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will keep working until I will finish.",
+    "output": "✅ **Corrected Sentence:** I will keep working until I finish.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will finish' sau 'until'. Mẹo: 'Until' + hiện tại đơn.\n💡 **Ví dụ:** He will practice until he gets it right. / I will wait until she calls."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After the party will end, we will clean up.",
+    "output": "✅ **Corrected Sentence:** After the party ends, we will clean up.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'after'. Mẹo: 'After' + hiện tại đơn.\n💡 **Ví dụ:** After the concert finishes, we will go home. / After the game ends, we will celebrate."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I will finish this book, I will lend it to you.",
+    "output": "✅ **Corrected Sentence:** When I finish this book, I will lend it to you.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will finish' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** When she finishes her work, she will join us. / When he arrives, we will start the meeting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before you will make a mistake, ask me.",
+    "output": "✅ **Corrected Sentence:** Before you make a mistake, ask me.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will make' sau 'before'. Mẹo: 'Before' + hiện tại đơn.\n💡 **Ví dụ:** Before you sign anything, read the contract. / Before you answer, think carefully."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will tell her the news when she will come home.",
+    "output": "✅ **Corrected Sentence:** I will tell her the news when she comes home.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will come' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** I will ask him when he calls. / She will explain when she gets here."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time you will read this letter, I will have left.",
+    "output": "✅ **Corrected Sentence:** By the time you read this letter, I will have left.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will read' sau 'by the time'. Mẹo: 'By the time' + hiện tại đơn.\n💡 **Ví dụ:** By the time you get this message, I will have arrived. / By the time she sees this, I will have fixed it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as I will be ready, I will call you.",
+    "output": "✅ **Corrected Sentence:** As soon as I am ready, I will call you.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' sau 'as soon as'. Mẹo: 'As soon as' + hiện tại đơn (am/is/are).\n💡 **Ví dụ:** As soon as she is free, she will help you. / As soon as they are done, they will leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will not stop until I will succeed.",
+    "output": "✅ **Corrected Sentence:** I will not stop until I succeed.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will succeed' sau 'until'. Mẹo: 'Until' + hiện tại đơn.\n💡 **Ví dụ:** She won't rest until she finishes. / He won't quit until he wins."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When you will be in town, let's meet for coffee.",
+    "output": "✅ **Corrected Sentence:** When you are in town, let's meet for coffee.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** When she is in Hanoi, she will visit me. / When he is free, he will call."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After I will eat breakfast, I will go to work.",
+    "output": "✅ **Corrected Sentence:** After I eat breakfast, I will go to work.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'after'. Mẹo: 'After' + hiện tại đơn.\n💡 **Ví dụ:** After she takes a shower, she will get dressed. / After he finishes breakfast, he will leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will text you before I will get on the plane.",
+    "output": "✅ **Corrected Sentence:** I will text you before I get on the plane.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will get' sau 'before'. Mẹo: 'Before' + hiện tại đơn.\n💡 **Ví dụ:** I will call you before I leave. / She will check before she buys."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time we will get there, the store will be closed.",
+    "output": "✅ **Corrected Sentence:** By the time we get there, the store will be closed.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will get' sau 'by the time'. Mẹo: 'By the time' + hiện tại đơn.\n💡 **Ví dụ:** By the time he arrives, the meeting will be over. / By the time you come back, I will have cleaned the house."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I will have free time, I will learn to play guitar.",
+    "output": "✅ **Corrected Sentence:** When I have free time, I will learn to play guitar.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will have' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** When she has time, she will call you. / When he has money, he will buy a car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will stay home until the rain will stop.",
+    "output": "✅ **Corrected Sentence:** I will stay home until the rain stops.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will stop' sau 'until'. Mẹo: 'Until' + hiện tại đơn.\n💡 **Ví dụ:** We will wait until the bus comes. / I will stay until the store opens."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as the sun will rise, we will start hiking.",
+    "output": "✅ **Corrected Sentence:** As soon as the sun rises, we will start hiking.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will rise' sau 'as soon as'. Mẹo: 'As soon as' + hiện tại đơn.\n💡 **Ví dụ:** As soon as the alarm rings, I will wake up. / As soon as the bell rings, the students will leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After I will save enough money, I will buy a house.",
+    "output": "✅ **Corrected Sentence:** After I save enough money, I will buy a house.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'after'. Mẹo: 'After' + hiện tại đơn.\n💡 **Ví dụ:** After she graduates, she will apply for jobs. / After he recovers, he will return to work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will let you know when I will decide.",
+    "output": "✅ **Corrected Sentence:** I will let you know when I decide.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will decide' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** She will call when she arrives. / He will tell you when he knows."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before you will cross the street, look both ways.",
+    "output": "✅ **Corrected Sentence:** Before you cross the street, look both ways.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will cross' sau 'before'. Mẹo: 'Before' + hiện tại đơn trong câu mệnh lệnh.\n💡 **Ví dụ:** Before you cook, wash your hands. / Before you leave, turn off the stove."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time you will wake up, I will have made breakfast.",
+    "output": "✅ **Corrected Sentence:** By the time you wake up, I will have made breakfast.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will wake up' sau 'by the time'. Mẹo: 'By the time' + hiện tại đơn.\n💡 **Ví dụ:** By the time she wakes up, he will have left. / By the time you get home, I will have cooked dinner."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will help you as soon as I will finish my work.",
+    "output": "✅ **Corrected Sentence:** I will help you as soon as I finish my work.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will finish' sau 'as soon as'. Mẹo: 'As soon as' + hiện tại đơn.\n💡 **Ví dụ:** I will come as soon as I am free. / She will reply as soon as she gets your message."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will wait until you will call me.",
+    "output": "✅ **Corrected Sentence:** I will wait until you call me.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will call' sau 'until'. Mẹo: 'Until' + hiện tại đơn.\n💡 **Ví dụ:** I will stay until she comes back. / He will wait until the store opens."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When the weather will be nice, we will have a picnic.",
+    "output": "✅ **Corrected Sentence:** When the weather is nice, we will have a picnic.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** When it stops snowing, we will go outside. / When the sun shines, we will go to the beach."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After the movie will finish, we will grab a coffee.",
+    "output": "✅ **Corrected Sentence:** After the movie finishes, we will grab a coffee.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'after'. Mẹo: 'After' + hiện tại đơn.\n💡 **Ví dụ:** After the show ends, we will go home. / After the class ends, we will eat lunch."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will tell you everything before I will leave.",
+    "output": "✅ **Corrected Sentence:** I will tell you everything before I leave.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will leave' sau 'before'. Mẹo: 'Before' + hiện tại đơn.\n💡 **Ví dụ:** I will clean the room before my parents come. / She will finish her homework before she watches TV."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time you will finish cooking, I will have set the table.",
+    "output": "✅ **Corrected Sentence:** By the time you finish cooking, I will have set the table.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will finish' sau 'by the time'. Mẹo: 'By the time' + hiện tại đơn.\n💡 **Ví dụ:** By the time he comes, we will have eaten. / By the time she arrives, I will have left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When you will be ready, we will start the presentation.",
+    "output": "✅ **Corrected Sentence:** When you are ready, we will start the presentation.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** When she is ready, she will call. / When he is calm, we will talk."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will not speak until I will be asked.",
+    "output": "✅ **Corrected Sentence:** I will not speak until I am asked.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' sau 'until'. Mẹo: 'Until' + hiện tại đơn (kể cả thể bị động).\n💡 **Ví dụ:** He won't leave until he is told. / She won't stop until she is finished."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as the baby will fall asleep, I will take a nap.",
+    "output": "✅ **Corrected Sentence:** As soon as the baby falls asleep, I will take a nap.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will fall' sau 'as soon as'. Mẹo: 'As soon as' + hiện tại đơn.\n💡 **Ví dụ:** As soon as he arrives, we will eat. / As soon as she wakes up, she will drink coffee."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After I will find a job, I will rent an apartment.",
+    "output": "✅ **Corrected Sentence:** After I find a job, I will rent an apartment.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'after'. Mẹo: 'After' + hiện tại đơn.\n💡 **Ví dụ:** After she passes the exam, she will celebrate. / After he gets promoted, he will buy a car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will call you when I will reach the station.",
+    "output": "✅ **Corrected Sentence:** I will call you when I reach the station.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will reach' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** I will text you when I land. / She will call when she gets to the hotel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before the sun will set, we must finish the work.",
+    "output": "✅ **Corrected Sentence:** Before the sun sets, we must finish the work.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will set' sau 'before'. Mẹo: 'Before' + hiện tại đơn.\n💡 **Ví dụ:** Before the store closes, buy some milk. / Before winter comes, we will harvest the crops."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time the teacher will arrive, the students will have left.",
+    "output": "✅ **Corrected Sentence:** By the time the teacher arrives, the students will have left.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will arrive' sau 'by the time'. Mẹo: 'By the time' + hiện tại đơn.\n💡 **Ví dụ:** By the time the police come, the thief will have escaped. / By the time the doctor arrives, the patient will have died."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will get a drink as soon as the movie will end.",
+    "output": "✅ **Corrected Sentence:** I will get a drink as soon as the movie ends.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will end' sau 'as soon as'. Mẹo: 'As soon as' + hiện tại đơn.\n💡 **Ví dụ:** I will call you as soon as I land. / She will text you as soon as she arrives."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will keep studying until I will understand the lesson.",
+    "output": "✅ **Corrected Sentence:** I will keep studying until I understand the lesson.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will understand' sau 'until'. Mẹo: 'Until' + hiện tại đơn.\n💡 **Ví dụ:** He will practice until he gets it right. / She will work until she finishes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When the concert will be over, we will go home.",
+    "output": "✅ **Corrected Sentence:** When the concert is over, we will go home.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** When the game is over, we will leave. / When the meeting is finished, I will call you."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After the storm will pass, we will go outside.",
+    "output": "✅ **Corrected Sentence:** After the storm passes, we will go outside.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'after'. Mẹo: 'After' + hiện tại đơn.\n💡 **Ví dụ:** After the rain stops, we will go for a walk. / After the traffic clears, we will drive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will finish the report before the boss will ask for it.",
+    "output": "✅ **Corrected Sentence:** I will finish the report before the boss asks for it.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will ask' sau 'before'. Mẹo: 'Before' + hiện tại đơn.\n💡 **Ví dụ:** I will clean the house before my mom comes. / She will cook before her husband gets home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time you will save enough money, the price will have increased.",
+    "output": "✅ **Corrected Sentence:** By the time you save enough money, the price will have increased.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will save' sau 'by the time'. Mẹo: 'By the time' + hiện tại đơn.\n💡 **Ví dụ:** By the time she graduates, tuition will have doubled. / By the time he retires, he will have saved a lot."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When I will have children, I will teach them English.",
+    "output": "✅ **Corrected Sentence:** When I have children, I will teach them English.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will have' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** When she gets married, she will change her last name. / When he buys a house, he will invite us."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will not forgive you until you will say sorry.",
+    "output": "✅ **Corrected Sentence:** I will not forgive you until you say sorry.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will say' sau 'until'. Mẹo: 'Until' + hiện tại đơn.\n💡 **Ví dụ:** I won't believe you until I see proof. / She won't relax until she finishes work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as you will be ready, let me know.",
+    "output": "✅ **Corrected Sentence:** As soon as you are ready, let me know.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' sau 'as soon as'. Mẹo: 'As soon as' + hiện tại đơn.\n💡 **Ví dụ:** As soon as she is free, she will call. / As soon as they are done, they will leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After the game will end, we will celebrate.",
+    "output": "✅ **Corrected Sentence:** After the game ends, we will celebrate.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'after'. Mẹo: 'After' + hiện tại đơn.\n💡 **Ví dụ:** After the exam finishes, we will party. / After the speech ends, we will applaud."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will tell you the secret when I will see you.",
+    "output": "✅ **Corrected Sentence:** I will tell you the secret when I see you.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will see' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** I will give it to you when you come. / She will explain when she arrives."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before you will make a decision, consult me.",
+    "output": "✅ **Corrected Sentence:** Before you make a decision, consult me.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will make' sau 'before'. Mẹo: 'Before' + hiện tại đơn trong câu mệnh lệnh.\n💡 **Ví dụ:** Before you buy, check the price. / Before you speak, think twice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time you will read this, I will be gone.",
+    "output": "✅ **Corrected Sentence:** By the time you read this, I will be gone.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will read' sau 'by the time'. Mẹo: 'By the time' + hiện tại đơn.\n💡 **Ví dụ:** By the time she sees this, I will have left. / By the time he wakes up, I will be at work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When the spring will come, the flowers will bloom.",
+    "output": "✅ **Corrected Sentence:** When spring comes, the flowers will bloom.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will come' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** When autumn arrives, the leaves will fall. / When winter comes, it will snow."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will start cooking as soon as I will get home.",
+    "output": "✅ **Corrected Sentence:** I will start cooking as soon as I get home.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will get' sau 'as soon as'. Mẹo: 'As soon as' + hiện tại đơn.\n💡 **Ví dụ:** I will shower as soon as I arrive. / She will call as soon as she lands."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will not rest until I will find a solution.",
+    "output": "✅ **Corrected Sentence:** I will not rest until I find a solution.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will find' sau 'until'. Mẹo: 'Until' + hiện tại đơn.\n💡 **Ví dụ:** He won't sleep until he finishes. / She won't stop until she reaches her goal."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After the class will be over, I will go home.",
+    "output": "✅ **Corrected Sentence:** After the class is over, I will go home.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'after'. Mẹo: 'After' + hiện tại đơn.\n💡 **Ví dụ:** After the lesson ends, we will review. / After the shift is over, he will leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will call you when I will be free.",
+    "output": "✅ **Corrected Sentence:** I will call you when I am free.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** I will visit you when I have time. / She will help you when she is available."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before you will go to bed, brush your teeth.",
+    "output": "✅ **Corrected Sentence:** Before you go to bed, brush your teeth.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will go' sau 'before'. Mẹo: 'Before' + hiện tại đơn.\n💡 **Ví dụ:** Before you sleep, say goodnight. / Before you leave, lock the door."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time we will get to the theater, the movie will have started.",
+    "output": "✅ **Corrected Sentence:** By the time we get to the theater, the movie will have started.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will get' sau 'by the time'. Mẹo: 'By the time' + hiện tại đơn.\n💡 **Ví dụ:** By the time she arrives, the concert will have begun. / By the time he comes back, we will have eaten."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will send you the email as soon as I will finish writing it.",
+    "output": "✅ **Corrected Sentence:** I will send you the email as soon as I finish writing it.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will finish' sau 'as soon as'. Mẹo: 'As soon as' + hiện tại đơn.\n💡 **Ví dụ:** I will pay you as soon as I get paid. / She will reply as soon as she reads your message."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will keep calling until you will answer.",
+    "output": "✅ **Corrected Sentence:** I will keep calling until you answer.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will answer' sau 'until'. Mẹo: 'Until' + hiện tại đơn.\n💡 **Ví dụ:** I will knock until someone opens the door. / He will wait until she says yes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When the winter will end, the flowers will grow.",
+    "output": "✅ **Corrected Sentence:** When winter ends, the flowers will grow.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will end' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** When the rain stops, the sun will shine. / When the snow melts, the river will flow."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After I will have breakfast, I will take a shower.",
+    "output": "✅ **Corrected Sentence:** After I have breakfast, I will take a shower.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'after'. Mẹo: 'After' + hiện tại đơn.\n💡 **Ví dụ:** After she wakes up, she will exercise. / After he gets dressed, he will leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will tell you the answer before you will ask.",
+    "output": "✅ **Corrected Sentence:** I will tell you the answer before you ask.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will ask' sau 'before'. Mẹo: 'Before' + hiện tại đơn.\n💡 **Ví dụ:** I will finish before he starts. / She will leave before they arrive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time you will come back, I will have cleaned the room.",
+    "output": "✅ **Corrected Sentence:** By the time you come back, I will have cleaned the room.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will come' sau 'by the time'. Mẹo: 'By the time' + hiện tại đơn.\n💡 **Ví dụ:** By the time she returns, I will have finished. / By the time he wakes up, I will have left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "When the summer will start, we will go to the beach.",
+    "output": "✅ **Corrected Sentence:** When summer starts, we will go to the beach.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will start' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** When the holidays begin, we will travel. / When the sale starts, we will shop."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will start the meeting as soon as everyone will be here.",
+    "output": "✅ **Corrected Sentence:** I will start the meeting as soon as everyone is here.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' sau 'as soon as'. Mẹo: 'As soon as' + hiện tại đơn.\n💡 **Ví dụ:** I will begin as soon as you are ready. / She will sing as soon as the music starts."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will stay in bed until the alarm will ring.",
+    "output": "✅ **Corrected Sentence:** I will stay in bed until the alarm rings.\n🔍 **Error Identification:** 'Until' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will ring' sau 'until'. Mẹo: 'Until' + hiện tại đơn.\n💡 **Ví dụ:** I will wait until the light turns green. / He will sleep until the phone rings."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After the rain will stop, we will go for a walk.",
+    "output": "✅ **Corrected Sentence:** After the rain stops, we will go for a walk.\n🔍 **Error Identification:** 'After' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'after'. Mẹo: 'After' + hiện tại đơn.\n💡 **Ví dụ:** After the snow stops, we will build a snowman. / After the wind dies down, we will sail."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will call you when I will get there safely.",
+    "output": "✅ **Corrected Sentence:** I will call you when I get there safely.\n🔍 **Error Identification:** 'When' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will get' trong mệnh đề 'when'. Mẹo: 'When' + hiện tại đơn.\n💡 **Ví dụ:** I will text you when I land. / She will call when she arrives."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Before you will leave the house, check the windows.",
+    "output": "✅ **Corrected Sentence:** Before you leave the house, check the windows.\n🔍 **Error Identification:** 'Before' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will leave' sau 'before'. Mẹo: 'Before' + hiện tại đơn.\n💡 **Ví dụ:** Before you go out, take your keys. / Before you cook, preheat the oven."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "By the time we will reach the station, the train will have left.",
+    "output": "✅ **Corrected Sentence:** By the time we reach the station, the train will have left.\n🔍 **Error Identification:** 'By the time' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will reach' sau 'by the time'. Mẹo: 'By the time' + hiện tại đơn.\n💡 **Ví dụ:** By the time she gets to the airport, the plane will have taken off. / By the time he arrives, the party will have ended."
+  }
+]

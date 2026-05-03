@@ -4,7 +4,7 @@ apps/curriculum/serializers.py
 from rest_framework import serializers
 
 from utils.formatters import fmt_vn
-from .models import CEFRLevel, Course, Chapter, Lesson, LessonExercise, UnlockRule
+from .models import CEFRLevel, Course, Chapter, Lesson, LessonContent, LessonExercise, UnlockRule
 
 
 class CEFRLevelSerializer(serializers.ModelSerializer):
@@ -27,13 +27,15 @@ class LessonSerializer(serializers.ModelSerializer):
     exercise_type = serializers.SerializerMethodField()
     exercise_id = serializers.SerializerMethodField()
     is_unlocked = serializers.SerializerMethodField()
+    chapter_id = serializers.IntegerField(source="chapter.id", read_only=True)
+    course_id = serializers.IntegerField(source="chapter.course.id", read_only=True)
 
     class Meta:
         model = Lesson
         fields = [
             "id", "title", "lesson_type", "order", "estimated_minutes",
             "is_active", "unlock_rules", "progress_status",
-            "exercise_type", "exercise_id", "is_unlocked",
+            "exercise_type", "exercise_id", "is_unlocked", "chapter_id", "course_id",
         ]
 
     def get_exercise_type(self, obj):
@@ -170,3 +172,37 @@ class CourseWriteSerializer(serializers.ModelSerializer):
             "title", "slug", "description", "level", "is_premium",
             "thumbnail_s3_key",
         ]
+
+
+class LessonContentSerializer(serializers.ModelSerializer):
+    lesson_id = serializers.IntegerField(source="lesson.id", read_only=True)
+    lesson_title = serializers.CharField(source="lesson.title", read_only=True)
+    lesson_type = serializers.CharField(source="lesson.lesson_type", read_only=True)
+    estimated_minutes = serializers.IntegerField(source="lesson.estimated_minutes", read_only=True)
+    chapter_title = serializers.CharField(source="lesson.chapter.title", read_only=True)
+    progress_status = serializers.SerializerMethodField()
+
+    class Meta:
+        model = LessonContent
+        fields = [
+            "id", "lesson_id", "lesson_title", "lesson_type", "estimated_minutes",
+            "chapter_title", "progress_status",
+            "reading_passage", "reading_image_url", "reading_questions",
+            "vocab_items", "vocab_word_ids",
+            # New structured fields (preferred by frontend)
+            "grammar_sections", "skill_sections",
+            # Dedicated skill lesson content
+            "listening_content", "speaking_content", "writing_content",
+            # Legacy flat fields (kept for backward compat)
+            "grammar_topic_id", "grammar_title", "grammar_note", "grammar_examples",
+            "exercises",
+            "srs_review_count", "completion_xp", "bonus_xp",
+        ]
+
+    def get_progress_status(self, obj):
+        request = self.context.get("request")
+        if not request or not request.user.is_authenticated:
+            return "locked"
+        from apps.progress.models import LessonProgress
+        lp = LessonProgress.objects.filter(user=request.user, lesson=obj.lesson).first()
+        return lp.status if lp else "locked"

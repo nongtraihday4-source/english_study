@@ -18,6 +18,18 @@ export const curriculumApi = {
 
   getLesson: (id) =>
     api.get(`/curriculum/lessons/${id}/`),
+
+  getLessonContent: (id) =>
+    api.get(`/curriculum/lessons/${id}/content/`),
+
+  enroll: (courseId) =>
+    api.post('/progress/enroll/', { course_id: courseId }),
+
+  markLessonComplete: (lessonId, data = {}) =>
+    api.post(`/progress/lessons/${lessonId}/complete/`, data),
+
+  getLessonProgress: (lessonId) =>
+    api.get(`/progress/lessons/${lessonId}/`),
 }
 
 export const exercisesApi = {
@@ -39,6 +51,9 @@ export const getCourses = (params) => curriculumApi.getCourses(params)
 export const getCourse = (id) => curriculumApi.getCourse(id)
 
 export const grammarApi = {
+  listChapters: (params = {}) =>
+    api.get('/grammar/chapters/', { params }),
+
   listTopics: (params = {}) =>
     api.get('/grammar/', { params }),
 
@@ -50,6 +65,9 @@ export const grammarApi = {
 
   submitQuiz: (slug, data) =>
     api.post(`/grammar/${slug}/quiz/`, data),
+
+  getTopicExercises: (slug) =>
+    api.get(`/grammar/${slug}/exercises/`),
 }
 
 export const vocabularyApi = {

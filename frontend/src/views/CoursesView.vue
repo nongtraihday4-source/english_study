@@ -40,13 +40,16 @@
                     style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04); text-decoration: none">
           <div class="flex items-center justify-between">
             <span class="px-2 py-0.5 rounded text-xs font-bold"
-                  style="background-color: var(--color-primary-600); color: white">
-              {{ course.cefr_level_name || course.cefr_level }}
+                  :style="levelBadgeStyle(course.level?.code)">
+              {{ course.level?.code || course.level }}
             </span>
             <span class="text-xs" style="color: var(--color-text-muted)">{{ course.total_lessons }} bài</span>
           </div>
           <div>
             <h3 class="font-bold text-base" style="color: var(--color-text-base)">{{ course.title }}</h3>
+            <p class="text-xs mt-1 text-[10px] font-semibold" :style="levelBadgeStyle(course.level?.code)" style="background:none;padding:0">
+              {{ course.level?.name_vi || course.level?.name }}
+            </p>
             <p class="text-xs mt-1 line-clamp-2" style="color: var(--color-text-muted)">{{ course.description }}</p>
           </div>
           <div class="mt-auto">
@@ -72,8 +75,22 @@ const loading = ref(false)
 const error = ref('')
 
 const filteredCourses = computed(() =>
-  activeLevel.value ? courses.value.filter(c => c.cefr_level === activeLevel.value) : courses.value
+  activeLevel.value
+    ? courses.value.filter(c => (c.level?.code || c.level) === activeLevel.value)
+    : courses.value
 )
+
+function levelBadgeStyle(code) {
+  const map = {
+    A1: 'background:#d1fae5; color:#065f46',
+    A2: 'background:#dbeafe; color:#1e40af',
+    B1: 'background:#ede9fe; color:#4c1d95',
+    B2: 'background:#fef3c7; color:#92400e',
+    C1: 'background:#fee2e2; color:#991b1b',
+    C2: 'background:#fce7f3; color:#831843',
+  }
+  return map[code] || 'background:var(--color-surface-04); color:var(--color-text-muted)'
+}
 
 async function loadCourses() {
   loading.value = true

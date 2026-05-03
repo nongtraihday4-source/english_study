@@ -40,6 +40,170 @@
       <!-- ── Split body ─────────────────────────────────────────── -->
       <div class="flex flex-col md:flex-row flex-1 overflow-hidden">
 
+        <!-- ════════ DIALOGUE MODE ════════ -->
+        <template v-if="isDialogueMode">
+          <!-- Chat column (60%) -->
+          <div ref="chatContainerRef"
+               class="flex-1 md:w-7/12 overflow-y-auto p-4 md:p-6 space-y-3"
+               style="background:var(--color-surface-01)">
+
+            <!-- Scenario -->
+            <div v-if="exercise.scenario" class="rounded-xl p-3 mb-2"
+                 style="background:var(--color-surface-02);border:1px solid var(--color-surface-04)">
+              <p class="text-xs font-semibold uppercase tracking-wider mb-1" style="color:var(--color-text-muted)">🎭 Tình huống</p>
+              <p class="text-sm leading-relaxed" style="color:var(--color-text-base)">{{ exercise.scenario }}</p>
+            </div>
+
+            <!-- Dialogue bubbles -->
+            <div v-for="(turn, i) in exercise.dialogue_json" :key="i"
+                 class="flex gap-2"
+                 :class="turn.role?.toUpperCase() === 'AI' ? 'flex-row' : 'flex-row-reverse'">
+
+              <!-- Avatar -->
+              <div class="w-8 h-8 rounded-full shrink-0 flex items-center justify-center text-xs font-bold mt-1"
+                   :style="turn.role?.toUpperCase() === 'AI'
+                     ? 'background:rgba(79,70,229,0.2);color:#818cf8'
+                     : 'background:rgba(34,197,94,0.2);color:#4ade80'">
+                {{ turn.role?.toUpperCase() === 'AI' ? '🤖' : '👤' }}
+              </div>
+
+              <!-- Bubble -->
+              <div class="max-w-[75%] space-y-1.5">
+                <!-- AI bubble with karaoke -->
+                <div v-if="turn.role?.toUpperCase() === 'AI'"
+                     class="px-4 py-3 rounded-2xl rounded-tl-sm text-sm leading-relaxed"
+                     :style="i <= dialogueStep
+                       ? 'background:var(--color-surface-02);border:1px solid var(--color-surface-04);color:var(--color-text-base)'
+                       : 'background:var(--color-surface-02);opacity:0.4;color:var(--color-text-muted)'">
+                  <!-- Karaoke words for active AI turn -->
+                  <template v-if="i === dialogueStep && dialogueKaraokeActive">
+                    <span v-for="(w, wi) in dialogueTurnWords(i)" :key="wi"
+                          class="inline-block px-0.5 py-0.5 rounded transition-all duration-75"
+                          :style="wi === dialogueActiveWordIndex
+                            ? 'background:rgba(99,102,241,0.3);color:#818cf8;transform:scale(1.05)'
+                            : wi < dialogueActiveWordIndex
+                            ? 'color:var(--color-text-muted)'
+                            : ''">{{ w.word || w }} </span>
+                  </template>
+                  <template v-else>{{ turn.text }}</template>
+                </div>
+                <!-- Play AI audio button -->
+                <div v-if="turn.role?.toUpperCase() === 'AI' && turn.audio_url && i <= dialogueStep"
+                     class="flex">
+                  <button @click="playDialogueAudio(i, turn.audio_url)"
+                          class="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium transition"
+                          :style="dialoguePlayingIdx === i
+                            ? 'background:rgba(99,102,241,0.2);color:#818cf8'
+                            : 'background:var(--color-surface-03);color:var(--color-text-muted)'">
+                    {{ dialoguePlayingIdx === i ? '⏹ Dừng' : '🔊 Nghe' }}
+                  </button>
+                </div>
+
+                <!-- User turn bubble (completed) -->
+                <div v-if="turn.role?.toUpperCase() !== 'AI' && dialogueRecordings[i] && i < dialogueStep"
+                     class="px-4 py-3 rounded-2xl rounded-tr-sm text-sm"
+                     style="background:rgba(79,70,229,0.15);color:var(--color-text-base)">
+                  <span class="text-xs" style="color:var(--color-text-muted)">🎤 Đã ghi âm</span>
+                  <audio :src="dialogueRecordings[i].url" controls class="w-full mt-1 rounded" style="height:30px"></audio>
+                </div>
+                <!-- User turn placeholder (future) -->
+                <div v-else-if="turn.role?.toUpperCase() !== 'AI' && i > dialogueStep"
+                     class="px-4 py-3 rounded-2xl rounded-tr-sm text-sm opacity-30"
+                     style="background:rgba(79,70,229,0.1);color:var(--color-text-muted)">
+                  🎤 Lượt của bạn...
+                </div>
+              </div>
+            </div>
+
+            <!-- Final submit after all user turns done -->
+            <div v-if="allDialogueDone" class="pt-4 flex justify-center">
+              <button @click="submitDialogue" :disabled="submitting"
+                      class="px-8 py-3 rounded-xl text-sm font-semibold text-white disabled:opacity-50"
+                      style="background:linear-gradient(135deg,#4f46e5,#7c3aed)">
+                <span v-if="submitting" class="flex items-center gap-1.5">
+                  <svg class="w-4 h-4 animate-spin" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="10" stroke="white" stroke-width="3" stroke-dasharray="30 70"/>
+                  </svg>Đang nộp...
+                </span>
+                <span v-else>✓ Nộp toàn bộ hội thoại</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Recorder column (40%) for current user turn -->
+          <div class="md:w-5/12 flex flex-col p-4 md:p-6 border-l"
+               style="background:var(--color-surface-01);border-color:var(--color-surface-04)">
+            <template v-if="currentDialogueTurn && currentDialogueTurn.role?.toUpperCase() !== 'AI'">
+              <div class="mb-3">
+                <p class="text-xs font-semibold uppercase tracking-wider mb-1" style="color:#4ade80">🎤 Lượt của bạn</p>
+                <p class="text-sm leading-relaxed" style="color:var(--color-text-muted)">{{ currentDialogueTurn.text }}</p>
+              </div>
+
+              <!-- Waveform -->
+              <div class="rounded-2xl overflow-hidden flex items-end justify-center mb-4"
+                   style="height:70px;background:var(--color-surface-02);border:1px solid var(--color-surface-04)">
+                <canvas v-if="recordingState === 'recording'" ref="canvasRef" class="w-full h-full" width="400" height="70"></canvas>
+                <div v-else class="flex items-center justify-center w-full h-full gap-1">
+                  <div v-for="n in 16" :key="n" class="w-1.5 rounded-full"
+                       :style="`height:${8}px;background:var(--color-surface-04)`"></div>
+                </div>
+              </div>
+
+              <!-- Record button -->
+              <div class="flex flex-col items-center gap-3">
+                <button @click="toggleRecord" :disabled="recordingState === 'done'"
+                        class="relative flex items-center justify-center rounded-full transition"
+                        style="width:72px;height:72px">
+                  <span v-if="recordingState === 'recording'" class="absolute inset-0 rounded-full animate-ping opacity-40" style="background:rgba(239,68,68,0.4)"></span>
+                  <span class="relative z-10 w-full h-full rounded-full flex items-center justify-center text-xl shadow-lg"
+                        :style="recordingState === 'recording'
+                          ? 'background:rgba(239,68,68,0.15);border:2px solid #ef4444'
+                          : 'background:linear-gradient(135deg,#4f46e5,#7c3aed)'">
+                    <span v-if="recordingState === 'recording'" style="color:#ef4444">⏹</span>
+                    <span v-else style="color:white">🎙</span>
+                  </span>
+                </button>
+                <p class="text-xs font-mono" style="color:var(--color-text-muted)">
+                  <template v-if="recordingState === 'recording'">{{ formatTime(recordingSeconds) }} / {{ formatTime(maxSeconds) }}</template>
+                  <template v-else-if="recordingState === 'review'">Đã ghi {{ formatTime(recordedDuration) }}</template>
+                  <template v-else>Nhấn để ghi âm</template>
+                </p>
+              </div>
+
+              <!-- Review controls -->
+              <div v-if="recordingState === 'review' && audioBlob" class="mt-4 space-y-3">
+                <audio :src="recordingUrl" controls class="w-full rounded-lg" style="height:34px"></audio>
+                <div class="grid grid-cols-2 gap-2">
+                  <button @click="resetRecording" class="py-2 rounded-xl text-sm font-semibold" style="background:var(--color-surface-03);color:var(--color-text-base)">🔄 Ghi lại</button>
+                  <button @click="confirmDialogueTurn" class="py-2 rounded-xl text-sm font-semibold text-white" style="background:linear-gradient(135deg,#22c55e,#16a34a)">✓ Xác nhận</button>
+                </div>
+              </div>
+            </template>
+
+            <template v-else-if="currentDialogueTurn && currentDialogueTurn.role?.toUpperCase() === 'AI'">
+              <div class="flex flex-col items-center justify-center h-full gap-3 text-center">
+                <div class="text-3xl">🤖</div>
+                <p class="text-sm" style="color:var(--color-text-muted)">Lượt của AI</p>
+                <p class="text-xs" style="color:var(--color-text-muted)">Nghe AI nói, sau đó bấm tiếp tục</p>
+                <button @click="advanceDialogue" class="px-5 py-2 rounded-xl text-sm font-semibold"
+                        style="background:var(--color-surface-02);color:var(--color-text-base)">
+                  Tiếp tục →
+                </button>
+              </div>
+            </template>
+
+            <template v-else>
+              <div class="flex flex-col items-center justify-center h-full gap-2 text-center">
+                <div class="text-3xl">✅</div>
+                <p class="text-sm font-semibold" style="color:#4ade80">Hoàn thành hội thoại!</p>
+              </div>
+            </template>
+          </div>
+        </template>
+
+        <!-- ════════ SINGLE-RECORD MODE (unchanged) ════════ -->
+        <template v-else>
+
         <!-- LEFT: Scenario + Karaoke (50%) -->
         <aside class="md:w-1/2 overflow-y-auto p-4 md:p-6 space-y-4 border-b md:border-b-0 md:border-r"
                style="background: var(--color-surface-01); border-color: var(--color-surface-04)">
@@ -224,6 +388,7 @@
 
           <!-- Submit from idle (if already has audio) shouldn't appear; just the review block covers it -->
         </main>
+        </template><!-- end single-record mode -->
       </div>
     </template>
   </div>
@@ -279,6 +444,153 @@ let karaokeInterval = null
 // ── Computed ─────────────────────────────────────────────────────────────────
 const maxSeconds = computed(() => exercise.value?.time_limit_seconds || 60)
 
+const isDialogueMode = computed(() =>
+  Array.isArray(exercise.value?.dialogue_json) && exercise.value.dialogue_json.length > 0
+)
+
+// ── Dialogue state ────────────────────────────────────────────────────────────
+const dialogueStep = ref(0)            // index into dialogue_json of current turn
+const dialogueRecordings = ref([])    // { blob, url } per turn index
+const dialoguePlayingIdx = ref(-1)
+const dialogueActiveWordIndex = ref(-1)
+const dialogueKaraokeActive = ref(false)
+const chatContainerRef = ref(null)
+let dialogueAudioEl = null
+let dialogueKaraokeInterval = null
+
+const currentDialogueTurn = computed(() => {
+  const dj = exercise.value?.dialogue_json
+  if (!dj) return null
+  return dj[dialogueStep.value] ?? null
+})
+
+const allDialogueDone = computed(() => {
+  const dj = exercise.value?.dialogue_json
+  if (!dj) return false
+  return dialogueStep.value >= dj.length
+})
+
+function dialogueTurnWords(turnIdx) {
+  const turn = exercise.value?.dialogue_json?.[turnIdx]
+  if (!turn) return []
+  // Use karaoke_words_json from exercise for the last AI turn, otherwise split text
+  const kw = exercise.value?.karaoke_words_json
+  if (kw?.length) return kw
+  return turn.text ? turn.text.split(' ').map(w => ({ word: w })) : []
+}
+
+function advanceDialogue() {
+  const dj = exercise.value?.dialogue_json
+  if (!dj || dialogueStep.value >= dj.length) return
+  dialogueStep.value++
+  nextTick(() => {
+    if (chatContainerRef.value) {
+      chatContainerRef.value.scrollTop = chatContainerRef.value.scrollHeight
+    }
+  })
+}
+
+function playDialogueAudio(idx, url) {
+  if (dialoguePlayingIdx.value === idx) {
+    // Stop
+    dialogueAudioEl?.pause()
+    if (dialogueAudioEl) dialogueAudioEl.currentTime = 0
+    dialoguePlayingIdx.value = -1
+    dialogueKaraokeActive.value = false
+    stopDialogueKaraoke()
+    return
+  }
+  // Play
+  if (dialogueAudioEl) {
+    dialogueAudioEl.pause()
+    dialogueAudioEl.removeEventListener('ended', onDialogueAudioEnded)
+    dialogueAudioEl.removeEventListener('timeupdate', onDialogueTimeUpdate)
+  }
+  dialogueAudioEl = new Audio(url)
+  dialogueAudioEl.addEventListener('ended', onDialogueAudioEnded)
+  dialogueAudioEl.addEventListener('timeupdate', onDialogueTimeUpdate)
+  dialogueAudioEl.play()
+  dialoguePlayingIdx.value = idx
+  dialogueActiveWordIndex.value = -1
+  dialogueKaraokeActive.value = true
+  startDialogueKaraoke(idx)
+}
+
+function onDialogueAudioEnded() {
+  dialoguePlayingIdx.value = -1
+  dialogueKaraokeActive.value = false
+  stopDialogueKaraoke()
+  setTimeout(() => { dialogueActiveWordIndex.value = -1 }, 600)
+}
+
+function onDialogueTimeUpdate(e) {
+  const ms = e.target.currentTime * 1000
+  const kw = exercise.value?.karaoke_words_json
+  if (!kw?.length) return
+  const idx = kw.findIndex((w, i) => {
+    const next = kw[i + 1]
+    return ms >= w.start_ms && (!next || ms < next.start_ms)
+  })
+  dialogueActiveWordIndex.value = idx
+}
+
+function startDialogueKaraoke(turnIdx) {
+  stopDialogueKaraoke()
+  const words = dialogueTurnWords(turnIdx)
+  if (!words.length) return
+  dialogueKaraokeInterval = setInterval(() => {
+    if (!dialogueAudioEl) return
+    const ms = dialogueAudioEl.currentTime * 1000
+    const idx = words.findIndex((w, i) => {
+      const next = words[i + 1]
+      const start = w.start_ms ?? 0
+      const end = next?.start_ms ?? Infinity
+      return ms >= start && ms < end
+    })
+    dialogueActiveWordIndex.value = idx
+  }, 80)
+}
+
+function stopDialogueKaraoke() {
+  if (dialogueKaraokeInterval) { clearInterval(dialogueKaraokeInterval); dialogueKaraokeInterval = null }
+}
+
+function confirmDialogueTurn() {
+  if (!audioBlob.value) return
+  dialogueRecordings.value[dialogueStep.value] = { blob: audioBlob.value, url: recordingUrl.value }
+  resetRecording()
+  advanceDialogue()
+}
+
+async function submitDialogue() {
+  if (submitting.value) return
+  // Submit last user recording as the main audio blob (MVP: last recorded turn)
+  const lastRec = [...dialogueRecordings.value].reverse().find(r => r)
+  if (!lastRec) return
+  submitting.value = true
+  try {
+    const fd = new FormData()
+    fd.append('exercise_id', exercise.value.id)
+    if (route.query.lesson_id) fd.append('lesson_id', route.query.lesson_id)
+    fd.append('audio_file', lastRec.blob, 'dialogue_recording.webm')
+    const res = await progressApi.submitSpeaking(fd)
+    const d = res.data?.data ?? res.data
+    const submissionId = d?.submission_id ?? d?.id
+    router.push({
+      path: `/learn/result/${submissionId}`,
+      query: {
+        type: 'speaking',
+        lesson_id: route.query.lesson_id ?? undefined,
+      },
+    })
+  } catch (err) {
+    showErrorToast(err?.response?.data?.detail || 'Đã có lỗi xảy ra, vui lòng thử lại.')
+  } finally {
+    submitting.value = false
+  }
+}
+
+// ── Computed (continued) ─────────────────────────────────────────────────────
 const karaokeWords = computed(() => {
   const arr = exercise.value?.karaoke_words_json
   if (!Array.isArray(arr) || !arr.length) return []
@@ -325,6 +637,9 @@ onBeforeUnmount(() => {
     sampleAudioRef.value.pause()
   }
   if (recordingUrl.value) URL.revokeObjectURL(recordingUrl.value)
+  stopDialogueKaraoke()
+  if (dialogueAudioEl) { dialogueAudioEl.pause(); dialogueAudioEl = null }
+  dialogueRecordings.value.forEach(r => { if (r?.url) URL.revokeObjectURL(r.url) })
 })
 
 // ── Sample audio ─────────────────────────────────────────────────────────────
@@ -485,7 +800,13 @@ async function submit() {
     const res = await progressApi.submitSpeaking(fd)
     const d = res.data?.data ?? res.data
     const submissionId = d?.submission_id ?? d?.id
-    router.push(`/learn/result/${submissionId}?type=speaking`)
+    router.push({
+      path: `/learn/result/${submissionId}`,
+      query: {
+        type: 'speaking',
+        lesson_id: route.query.lesson_id ?? undefined,
+      },
+    })
   } catch (err) {
     showErrorToast(err?.response?.data?.detail || 'Đã có lỗi xảy ra, vui lòng thử lại.')
   } finally {

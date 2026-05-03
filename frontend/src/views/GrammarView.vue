@@ -55,9 +55,9 @@
         <div v-for="(chapter, ci) in section.chapters" :key="chapter.name" class="mb-8">
           <!-- Chapter header -->
           <div class="flex items-center gap-3 mb-3">
-            <div class="flex items-center justify-center w-8 h-8 rounded-lg text-sm font-bold"
+            <div class="flex items-center justify-center w-8 h-8 rounded-lg text-base font-bold"
                  style="background: rgba(99,102,241,0.15); color: #818cf8">
-              {{ ci + 1 }}
+              {{ chapter.icon || ci + 1 }}
             </div>
             <h2 class="font-bold text-base" style="color: var(--color-text-base)">
               {{ chapter.name || 'Chưa phân chương' }}
@@ -70,6 +70,14 @@
             <span v-if="chapter.completedCount > 0" class="ml-auto text-xs font-medium" style="color: #34d399">
               {{ chapter.completedCount }}/{{ chapter.topics.length }} ✓
             </span>
+          </div>
+
+          <!-- Chapter progress bar -->
+          <div v-if="chapter.completedCount > 0"
+               class="h-1.5 rounded-full overflow-hidden mb-3"
+               style="background: var(--color-surface-04)">
+            <div class="h-full rounded-full transition-all duration-700"
+                 :style="`width:${Math.round(chapter.completedCount / chapter.topics.length * 100)}%; background: linear-gradient(90deg, #34d399, #6366f1)`"></div>
           </div>
 
           <!-- Topic nodes grid -->
@@ -104,6 +112,16 @@
                     {{ topic.description }}
                   </p>
                 </div>
+              </div>
+
+              <!-- Signal words preview -->
+              <div v-if="topic.signal_words?.length" class="flex flex-wrap gap-1 mt-2">
+                <span v-for="word in topic.signal_words.slice(0, 3)" :key="word"
+                      class="px-1.5 py-0.5 rounded text-[10px] font-medium"
+                      style="background:rgba(6,182,212,0.1); color:#22d3ee">{{ word }}</span>
+                <span v-if="topic.signal_words.length > 3"
+                      class="px-1.5 py-0.5 rounded text-[10px]"
+                      style="color:var(--color-text-muted)">+{{ topic.signal_words.length - 3 }}</span>
               </div>
 
               <!-- Bottom row: rule count + quiz score -->
@@ -205,19 +223,28 @@ const chapters = computed(() => {
   for (const topic of topics.value) {
     if (!byLevel.has(topic.level)) byLevel.set(topic.level, new Map())
     const levelChapters = byLevel.get(topic.level)
-    const chapterName = topic.chapter || ''
-    if (!levelChapters.has(chapterName)) {
-      levelChapters.set(chapterName, { name: chapterName, topics: [] })
+    // chapter is now an object { id, name, slug, icon, order } or null
+    const chapterId = topic.chapter?.id ?? '__none__'
+    if (!levelChapters.has(chapterId)) {
+      levelChapters.set(chapterId, {
+        id:    topic.chapter?.id   ?? null,
+        name:  topic.chapter?.name ?? '',
+        icon:  topic.chapter?.icon ?? '📚',
+        order: topic.chapter?.order ?? 9999,
+        topics: [],
+      })
     }
-    levelChapters.get(chapterName).topics.push(topic)
+    levelChapters.get(chapterId).topics.push(topic)
   }
 
   const result = []
   for (const [level, chaptersMap] of byLevel) {
-    const chs = [...chaptersMap.values()].map(ch => ({
-      ...ch,
-      completedCount: ch.topics.filter(t => isTopicCompleted(t.slug)).length,
-    }))
+    const chs = [...chaptersMap.values()]
+      .sort((a, b) => a.order - b.order)
+      .map(ch => ({
+        ...ch,
+        completedCount: ch.topics.filter(t => isTopicCompleted(t.slug)).length,
+      }))
     result.push({ level, chapters: chs })
   }
 
