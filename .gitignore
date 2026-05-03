@@ -19,6 +19,7 @@ deepseek_chunks/
 # Exclude .txt files but keep requirements.txt
 topics*.txt
 tu_vung/**/*.txt
+prompt/generated_prompts/**/*.txt
 old_system/
 docs/source/EDIT/
 
