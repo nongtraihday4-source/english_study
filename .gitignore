@@ -19,6 +19,8 @@ deepseek_chunks/
 # Exclude .txt files but keep requirements.txt
 topics*.txt
 tu_vung/**/*.txt
+old_system/
+docs/source/EDIT/
 
 # Django local settings & configurations
 *.log
