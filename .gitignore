@@ -25,6 +25,9 @@ tu_vung/**/*.txt
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+.env
+.env.local
+.env.*.local
 
 # Django Media (File do người dùng upload - không nên push code)
 media/
