@@ -1,0 +1,432 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said me that she was tired.",
+    "output": "✅ **Corrected Sentence:** She told me that she was tired. (hoặc She said to me that she was tired)\n🔍 **Error Identification:** 'Say' không đi trực tiếp với tân ngữ là người – dùng 'tell someone' hoặc 'say to someone'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cô ấy nói với tôi' thành 'said me'. Mẹo: Say + (to someone), tell + someone.\n💡 **Ví dụ:** He told me the news. / He said to me, 'Hello'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I am happy.' -> He said that he is happy.",
+    "output": "✅ **Corrected Sentence:** He said that he was happy.\n🔍 **Error Identification:** Khi chuyển từ câu trực tiếp sang gián tiếp, phải lùi thì: 'am' (hiện tại) → 'was' (quá khứ).\n📘 **Vietnamese Explanation:** Người Việt quên lùi thì khi tường thuật. Mẹo: Hiện tại đơn → quá khứ đơn; hiện tại tiếp diễn → quá khứ tiếp diễn.\n💡 **Ví dụ:** 'I like coffee' → He said he liked coffee. / 'I am reading' → She said she was reading."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told that she was leaving.",
+    "output": "✅ **Corrected Sentence:** She said that she was leaving. (hoặc She told me that she was leaving)\n🔍 **Error Identification:** 'Tell' cần có tân ngữ chỉ người (tell someone), không thể dùng 'told that'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'tell' như 'say'. Mẹo: Tell + someone + (that); Say + (that).\n💡 **Ví dụ:** She said she was tired. / She told me she was tired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me what is my name.",
+    "output": "✅ **Corrected Sentence:** He asked me what my name was.\n🔍 **Error Identification:** Câu hỏi gián tiếp cần lùi thì ('is' → 'was') và trật tự từ S + V (không đảo).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên cấu trúc câu hỏi trực tiếp. Mẹo: Câu hỏi gián tiếp: S + asked + what/where/when + S + V (lùi thì).\n💡 **Ví dụ:** 'Where do you live?' → He asked where I lived. / 'What time is it?' → She asked what time it was."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'I will call you.' -> She said she will call me.",
+    "output": "✅ **Corrected Sentence:** She said she would call me.\n🔍 **Error Identification:** Lùi thì: 'will' (tương lai) → 'would'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'will'. Mẹo: will → would, can → could, may → might.\n💡 **Ví dụ:** 'I can help' → He said he could help. / 'I may come' → She said she might come."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told me, 'I saw her yesterday.' -> He told me he saw her yesterday.",
+    "output": "✅ **Corrected Sentence:** He told me he had seen her the day before.\n🔍 **Error Identification:** Lùi thì: quá khứ đơn (saw) → quá khứ hoàn thành (had seen); 'yesterday' → 'the day before'.\n📘 **Vietnamese Explanation:** Người Việt quên lùi thì và thay đổi trạng từ thời gian. Mẹo: yesterday → the day before; tomorrow → the next day; now → then.\n💡 **Ví dụ:** 'I met her last week' → He said he had met her the week before."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me where did I go.",
+    "output": "✅ **Corrected Sentence:** She asked me where I went. (hoặc where I had gone)\n🔍 **Error Identification:** Câu hỏi gián tiếp không đảo ngữ (không dùng 'did').\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên cấu trúc 'did I go'. Mẹo: Where + S + V (không trợ động từ).\n💡 **Ví dụ:** 'What did you say?' → He asked what I said. / 'Why did she leave?' → He asked why she left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I am studying now.' -> He said he is studying now.",
+    "output": "✅ **Corrected Sentence:** He said he was studying then.\n🔍 **Error Identification:** Lùi thì: 'am studying' (hiện tại tiếp diễn) → 'was studying' (quá khứ tiếp diễn); 'now' → 'then'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên thì và trạng từ. Mẹo: Hiện tại tiếp diễn → quá khứ tiếp diễn.\n💡 **Ví dụ:** 'I am working now' → She said she was working then. / 'We are leaving tomorrow' → They said they were leaving the next day."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told me, 'I have finished my work.' -> She told me she has finished her work.",
+    "output": "✅ **Corrected Sentence:** She told me she had finished her work.\n🔍 **Error Identification:** Lùi thì: hiện tại hoàn thành (have finished) → quá khứ hoàn thành (had finished).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên hiện tại hoàn thành. Mẹo: Hiện tại hoàn thành → quá khứ hoàn thành.\n💡 **Ví dụ:** 'I have seen the movie' → He said he had seen the movie. / 'She has left' → He said she had left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I will help you.' -> He told me he will help me.",
+    "output": "✅ **Corrected Sentence:** He told me he would help me.\n🔍 **Error Identification:** Lùi thì: 'will' → 'would'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'will'. Mẹo: will → would, can → could.\n💡 **Ví dụ:** 'I can do it' → He said he could do it. / 'We may be late' → They said they might be late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me if I can help her.",
+    "output": "✅ **Corrected Sentence:** She asked me if I could help her.\n🔍 **Error Identification:** Lùi thì: 'can' (hiện tại) → 'could' (quá khứ).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'can' trong câu gián tiếp. Mẹo: Yes/No question: asked if + S + V (lùi thì).\n💡 **Ví dụ:** 'Do you like coffee?' → He asked if I liked coffee. / 'Are you ready?' → She asked if I was ready."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I don't like this.' -> He said he doesn't like that.",
+    "output": "✅ **Corrected Sentence:** He said he didn't like that.\n🔍 **Error Identification:** Lùi thì: 'don't like' (hiện tại) → 'didn't like' (quá khứ); 'this' → 'that'.\n📘 **Vietnamese Explanation:** Người Việt quên lùi thì và thay đổi đại từ chỉ định. Mẹo: this → that, these → those.\n💡 **Ví dụ:** 'I like these shoes' → He said he liked those shoes. / 'This is my book' → She said that was her book."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'I am going to the market.' -> She said she is going to the market.",
+    "output": "✅ **Corrected Sentence:** She said she was going to the market.\n🔍 **Error Identification:** Lùi thì: 'am going' → 'was going'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên thì hiện tại tiếp diễn. Mẹo: Hiện tại tiếp diễn → quá khứ tiếp diễn.\n💡 **Ví dụ:** 'I am waiting for you' → He said he was waiting for me. / 'We are having dinner' → They said they were having dinner."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me what time does the movie start.",
+    "output": "✅ **Corrected Sentence:** He asked me what time the movie started.\n🔍 **Error Identification:** Câu hỏi gián tiếp: không đảo ngữ (bỏ 'does') và lùi thì (start → started).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'does' và trật tự câu hỏi. Mẹo: Wh-word + S + V (lùi thì).\n💡 **Ví dụ:** 'Where does she work?' → He asked where she worked. / 'When will they arrive?' → He asked when they would arrive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told, 'I am happy.'",
+    "output": "✅ **Corrected Sentence:** She said she was happy. (hoặc She told me she was happy)\n🔍 **Error Identification:** 'Told' cần tân ngữ chỉ người – không thể 'told' đơn độc.\n📘 **Vietnamese Explanation:** Người Việt dùng 'told' như 'said'. Mẹo: Tell + someone, say + (that).\n💡 **Ví dụ:** He said he was tired. / He told his mother he was tired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I will be there tomorrow.' -> He said he will be there tomorrow.",
+    "output": "✅ **Corrected Sentence:** He said he would be there the next day.\n🔍 **Error Identification:** Lùi thì: 'will' → 'would'; 'tomorrow' → 'the next day'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'will' và 'tomorrow'. Mẹo: tomorrow → the next day / the following day.\n💡 **Ví dụ:** 'I'll call you later' → He said he would call me later. / 'We'll meet next week' → They said they would meet the following week."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me where is the station.",
+    "output": "✅ **Corrected Sentence:** She asked me where the station was.\n🔍 **Error Identification:** Câu hỏi gián tiếp: trật tự S + V, lùi thì (is → was).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên cấu trúc 'where is'. Mẹo: Where + S + V.\n💡 **Ví dụ:** 'Where is the bank?' → He asked where the bank was. / 'Who is she?' → He asked who she was."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told me that he will come.",
+    "output": "✅ **Corrected Sentence:** He told me that he would come.\n🔍 **Error Identification:** Lùi thì: 'will' → 'would'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'will'. Mẹo: Khi động từ tường thuật ở quá khứ (told), lùi thì.\n💡 **Ví dụ:** She said she would help. / He told us he could swim."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'I have never been to Paris.' -> She said she has never been to Paris.",
+    "output": "✅ **Corrected Sentence:** She said she had never been to Paris.\n🔍 **Error Identification:** Lùi thì: hiện tại hoàn thành (have been) → quá khứ hoàn thành (had been).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên hiện tại hoàn thành. Mẹo: Hiện tại hoàn thành → quá khứ hoàn thành.\n💡 **Ví dụ:** 'I have finished' → He said he had finished. / 'She has gone' → He said she had gone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me why did she leave.",
+    "output": "✅ **Corrected Sentence:** He asked me why she left. (hoặc why she had left)\n🔍 **Error Identification:** Câu hỏi gián tiếp: không đảo ngữ (bỏ 'did'), lùi thì (leave → left).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'did she leave'. Mẹo: Why + S + V (lùi thì).\n💡 **Ví dụ:** 'Why are you crying?' → He asked why I was crying. / 'Why did they go?' → He asked why they had gone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said me, 'I love you.'",
+    "output": "✅ **Corrected Sentence:** She told me she loved me. (hoặc She said to me that she loved me)\n🔍 **Error Identification:** 'Said me' là sai – dùng 'told me' hoặc 'said to me'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'nói tôi' thành 'said me'. Mẹo: Say to someone, tell someone.\n💡 **Ví dụ:** He said to her, 'I'm sorry.' / He told her he was sorry."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I was sleeping.' -> He said he was sleeping.",
+    "output": "✅ **Corrected Sentence:** He said he had been sleeping.\n🔍 **Error Identification:** Lùi thì: quá khứ tiếp diễn (was sleeping) → quá khứ hoàn thành tiếp diễn (had been sleeping).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên quá khứ tiếp diễn. Mẹo: Quá khứ tiếp diễn → quá khứ hoàn thành tiếp diễn.\n💡 **Ví dụ:** 'I was reading' → He said he had been reading. / 'They were playing' → He said they had been playing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me if I was hungry. (câu đúng) - Học viên viết \'She asked me if I am hungry.\'",
+    "output": "✅ **Corrected Sentence:** She asked me if I was hungry.\n🔍 **Error Identification:** Lùi thì: 'am' (hiện tại) → 'was' (quá khứ).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'am' trong câu gián tiếp. Mẹo: Nếu động từ tường thuật ở quá khứ (asked), lùi thì.\n💡 **Ví dụ:** 'Are you ready?' → He asked if I was ready. / 'Do you need help?' → She asked if I needed help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I must go now.' -> He said he must go now.",
+    "output": "✅ **Corrected Sentence:** He said he had to go then.\n🔍 **Error Identification:** 'Must' thường chuyển thành 'had to'; 'now' → 'then'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'must' và 'now'. Mẹo: must → had to, now → then.\n💡 **Ví dụ:** 'I must leave' → He said he had to leave. / 'You must see this' → She said I had to see that."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told, 'I am tired.'",
+    "output": "✅ **Corrected Sentence:** She said she was tired. (hoặc She told me she was tired)\n🔍 **Error Identification:** 'Told' cần tân ngữ – không thể đứng một mình.\n📘 **Vietnamese Explanation:** Người Việt dùng 'told' như 'said'. Mẹo: Tell + object + (that).\n💡 **Ví dụ:** He told us a story. / He said a story (sai? He told a story đúng, nhưng 'told that' cần object)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me what is your name.",
+    "output": "✅ **Corrected Sentence:** He asked me what my name was.\n🔍 **Error Identification:** Câu hỏi gián tiếp: thay đổi đại từ (your → my), lùi thì (is → was).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'your name is'. Mẹo: Thay đổi đại từ nhân xưng và tính từ sở hữu.\n💡 **Ví dụ:** 'Where is your book?' → He asked where my book was. / 'What is your job?' → She asked what my job was."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'We are going to the cinema tonight.' -> She said they are going to the cinema tonight.",
+    "output": "✅ **Corrected Sentence:** She said they were going to the cinema that night.\n🔍 **Error Identification:** Lùi thì: 'are going' → 'were going'; 'tonight' → 'that night'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên thì và trạng từ. Mẹo: tonight → that night, today → that day.\n💡 **Ví dụ:** 'I'm leaving today' → He said he was leaving that day. / 'We'll meet here tomorrow' → They said they would meet there the next day."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told me that he is a doctor.",
+    "output": "✅ **Corrected Sentence:** He told me that he was a doctor. (nếu thông tin đó không còn đúng hoặc cần lùi thì)\n🔍 **Error Identification:** Nếu động từ tường thuật ở quá khứ (told), thường lùi thì 'is' → 'was'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên hiện tại. Mẹo: Trừ khi sự thật hiển nhiên luôn đúng, vẫn có thể lùi thì.\n💡 **Ví dụ:** 'The earth is round' → He said the earth is round (có thể không lùi). / 'I am tired' → He said he was tired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me where did I buy it.",
+    "output": "✅ **Corrected Sentence:** She asked me where I bought it.\n🔍 **Error Identification:** Câu hỏi gián tiếp: bỏ 'did', trật tự S + V (I bought).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'did I buy'. Mẹo: Where + S + V (không trợ động từ).\n💡 **Ví dụ:** 'How did you do it?' → He asked how I did it. / 'When did she arrive?' → He asked when she arrived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I can speak three languages.' -> He said he can speak three languages.",
+    "output": "✅ **Corrected Sentence:** He said he could speak three languages.\n🔍 **Error Identification:** Lùi thì: 'can' → 'could'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'can'. Mẹo: can → could, may → might.\n💡 **Ví dụ:** 'I may be late' → He said he might be late. / 'She can swim' → He said she could swim."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told me that she will visit me.",
+    "output": "✅ **Corrected Sentence:** She told me that she would visit me.\n🔍 **Error Identification:** Lùi thì: 'will' → 'would'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'will'. Mẹo: Khi động từ tường thuật ở quá khứ, lùi thì.\n💡 **Ví dụ:** 'I'll call you' → He said he would call me. / 'We'll be there' → They said they would be there."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me what do I want.",
+    "output": "✅ **Corrected Sentence:** He asked me what I wanted.\n🔍 **Error Identification:** Câu hỏi gián tiếp: bỏ 'do', lùi thì (want → wanted).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'do I want'. Mẹo: What + S + V (lùi thì).\n💡 **Ví dụ:** 'What do you need?' → He asked what I needed. / 'What does she like?' → He asked what she liked."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'I'm going to buy a car.' -> She said she is going to buy a car.",
+    "output": "✅ **Corrected Sentence:** She said she was going to buy a car.\n🔍 **Error Identification:** Lùi thì: 'am going' → 'was going'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên hiện tại. Mẹo: Hiện tại tiếp diễn (be going to) → quá khứ tiếp diễn.\n💡 **Ví dụ:** 'I'm going to study' → He said he was going to study. / 'We are going to travel' → They said they were going to travel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told, 'I am happy.'",
+    "output": "✅ **Corrected Sentence:** He said he was happy. (hoặc He told me he was happy)\n🔍 **Error Identification:** 'Told' cần tân ngữ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'told' không có object. Mẹo: Tell someone, say (to someone).\n💡 **Ví dụ:** He told his friend the news. / He said to his friend, 'Hello'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me if I have a car.",
+    "output": "✅ **Corrected Sentence:** She asked me if I had a car.\n🔍 **Error Identification:** Lùi thì: 'have' (hiện tại) → 'had' (quá khứ).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'have'. Mẹo: Yes/No question: asked if + S + V (lùi thì).\n💡 **Ví dụ:** 'Do you have time?' → He asked if I had time. / 'Are you a student?' → He asked if I was a student."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I saw her yesterday.' -> He said he saw her yesterday.",
+    "output": "✅ **Corrected Sentence:** He said he had seen her the day before.\n🔍 **Error Identification:** Lùi thì: quá khứ đơn (saw) → quá khứ hoàn thành (had seen); 'yesterday' → 'the day before'.\n📘 **Vietnamese Explanation:** Người Việt quên lùi thì và thay đổi trạng từ. Mẹo: Quá khứ đơn → quá khứ hoàn thành.\n💡 **Ví dụ:** 'I met her last week' → He said he had met her the week before. / 'She called me two days ago' → He said she had called him two days before."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me where is my phone.",
+    "output": "✅ **Corrected Sentence:** She asked me where my phone was.\n🔍 **Error Identification:** Câu hỏi gián tiếp: trật tự S + V, lùi thì (is → was).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'where is'. Mẹo: Where + S + V (lùi thì).\n💡 **Ví dụ:** 'Where is the library?' → He asked where the library was. / 'Where are my keys?' → He asked where his keys were."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told me, 'I will call you later.' -> He told me he will call me later.",
+    "output": "✅ **Corrected Sentence:** He told me he would call me later.\n🔍 **Error Identification:** Lùi thì: 'will' → 'would'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'will'. Mẹo: will → would.\n💡 **Ví dụ:** 'I'll send you an email' → He said he would send me an email. / 'We'll meet again' → They said they would meet again."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'I have been waiting for an hour.' -> She said she has been waiting for an hour.",
+    "output": "✅ **Corrected Sentence:** She said she had been waiting for an hour.\n🔍 **Error Identification:** Lùi thì: hiện tại hoàn thành tiếp diễn → quá khứ hoàn thành tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên hiện tại hoàn thành tiếp diễn. Mẹo: have been V-ing → had been V-ing.\n💡 **Ví dụ:** 'I've been working' → He said he had been working. / 'She's been crying' → He said she had been crying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me why you are sad.",
+    "output": "✅ **Corrected Sentence:** He asked me why I was sad.\n🔍 **Error Identification:** Thay đổi đại từ (you → I), lùi thì (are → was).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'you are'. Mẹo: Thay đổi đại từ theo ngữ cảnh.\n💡 **Ví dụ:** 'Why are you crying?' → He asked why I was crying. / 'What are you doing?' → He asked what I was doing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'I can't swim.' -> She said she can't swim.",
+    "output": "✅ **Corrected Sentence:** She said she couldn't swim.\n🔍 **Error Identification:** Lùi thì: 'can't' → 'couldn't'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'can't'. Mẹo: can → could, can't → couldn't.\n💡 **Ví dụ:** 'I can't hear you' → He said he couldn't hear me. / 'She can't come' → He said she couldn't come."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told me that he was tired. (câu đúng) - Học viên viết \'He told me that he is tired.\'",
+    "output": "✅ **Corrected Sentence:** He told me that he was tired.\n🔍 **Error Identification:** Lùi thì: 'is' → 'was'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên hiện tại. Mẹo: Động từ tường thuật ở quá khứ (told) → lùi thì.\n💡 **Ví dụ:** 'I am busy' → He said he was busy. / 'She is happy' → He said she was happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me what time is it.",
+    "output": "✅ **Corrected Sentence:** She asked me what time it was.\n🔍 **Error Identification:** Câu hỏi gián tiếp: trật tự S + V (it was).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'what time is it'. Mẹo: What time + S + V.\n💡 **Ví dụ:** 'What time is the meeting?' → He asked what time the meeting was. / 'What day is today?' → He asked what day it was."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I must finish this today.' -> He said he must finish this today.",
+    "output": "✅ **Corrected Sentence:** He said he had to finish that that day.\n🔍 **Error Identification:** 'Must' → 'had to'; 'this' → 'that'; 'today' → 'that day'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'must', 'this', 'today'. Mẹo: must → had to, this → that, today → that day.\n💡 **Ví dụ:** 'I must go now' → He said he had to go then. / 'You must see this' → He said I had to see that."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told me, 'I love you.' -> She told me she loves me.",
+    "output": "✅ **Corrected Sentence:** She told me she loved me.\n🔍 **Error Identification:** Lùi thì: 'love' → 'loved'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'loves'. Mẹo: Hiện tại đơn → quá khứ đơn.\n💡 **Ví dụ:** 'I like coffee' → He said he liked coffee. / 'She hates him' → He said she hated him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me if I can drive.",
+    "output": "✅ **Corrected Sentence:** He asked me if I could drive.\n🔍 **Error Identification:** Lùi thì: 'can' → 'could'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'can'. Mẹo: can → could.\n💡 **Ví dụ:** 'Can you swim?' → He asked if I could swim. / 'Can she sing?' → He asked if she could sing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'I am not feeling well.' -> She said she is not feeling well.",
+    "output": "✅ **Corrected Sentence:** She said she was not feeling well.\n🔍 **Error Identification:** Lùi thì: 'am feeling' → 'was feeling'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên hiện tại tiếp diễn. Mẹo: Hiện tại tiếp diễn → quá khứ tiếp diễn.\n💡 **Ví dụ:** 'I'm feeling better' → He said he was feeling better. / 'She's working hard' → He said she was working hard."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me where do I live.",
+    "output": "✅ **Corrected Sentence:** He asked me where I lived.\n🔍 **Error Identification:** Câu hỏi gián tiếp: bỏ 'do', lùi thì (live → lived).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'do I live'. Mẹo: Where + S + V (lùi thì).\n💡 **Ví dụ:** 'Where do you work?' → He asked where I worked. / 'Where does she study?' → He asked where she studied."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told, 'I will be late.'",
+    "output": "✅ **Corrected Sentence:** She said she would be late. (hoặc She told me she would be late)\n🔍 **Error Identification:** 'Told' cần tân ngữ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'told' không object. Mẹo: Tell someone, say.\n💡 **Ví dụ:** He told his mother he would be late. / He said he would be late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I have finished my homework.' -> He said he has finished his homework.",
+    "output": "✅ **Corrected Sentence:** He said he had finished his homework.\n🔍 **Error Identification:** Lùi thì: hiện tại hoàn thành → quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên hiện tại hoàn thành. Mẹo: have/has + V3 → had + V3.\n💡 **Ví dụ:** 'I have seen the film' → He said he had seen the film. / 'She has left' → He said she had left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me why are you crying.",
+    "output": "✅ **Corrected Sentence:** She asked me why I was crying.\n🔍 **Error Identification:** Thay đổi đại từ (you → I), lùi thì (are → was), bỏ đảo ngữ.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'why are you'. Mẹo: Why + S + V (lùi thì).\n💡 **Ví dụ:** 'Why are you laughing?' → He asked why I was laughing. / 'Why is she sad?' → He asked why she was sad."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told me, 'I can help you.' -> He told me he can help me.",
+    "output": "✅ **Corrected Sentence:** He told me he could help me.\n🔍 **Error Identification:** Lùi thì: 'can' → 'could'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'can'. Mẹo: can → could.\n💡 **Ví dụ:** 'I can do it' → He said he could do it. / 'She can sing' → He said she could sing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'I will be there at 6 PM.' -> She said she will be there at 6 PM.",
+    "output": "✅ **Corrected Sentence:** She said she would be there at 6 PM.\n🔍 **Error Identification:** Lùi thì: 'will' → 'would'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'will'. Mẹo: will → would.\n💡 **Ví dụ:** 'I'll be home soon' → He said he would be home soon. / 'We'll arrive tomorrow' → They said they would arrive the next day."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me what is your job.",
+    "output": "✅ **Corrected Sentence:** He asked me what my job was.\n🔍 **Error Identification:** Thay đổi đại từ (your → my), lùi thì (is → was).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'what is your job'. Mẹo: What + S + V (lùi thì).\n💡 **Ví dụ:** 'What is your name?' → He asked what my name was. / 'What is his address?' → He asked what his address was."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told me, 'I'm sorry.' -> She told me she is sorry.",
+    "output": "✅ **Corrected Sentence:** She told me she was sorry.\n🔍 **Error Identification:** Lùi thì: 'am' → 'was'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'is'. Mẹo: Hiện tại đơn → quá khứ đơn.\n💡 **Ví dụ:** 'I'm tired' → He said he was tired. / 'She's happy' → He said she was happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I have never seen her before.' -> He said he has never seen her before.",
+    "output": "✅ **Corrected Sentence:** He said he had never seen her before.\n🔍 **Error Identification:** Lùi thì: 'have seen' → 'had seen'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên hiện tại hoàn thành. Mẹo: Hiện tại hoàn thành → quá khứ hoàn thành.\n💡 **Ví dụ:** 'I've never met him' → He said he had never met him. / 'She's already eaten' → He said she had already eaten."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me if I was okay. (câu đúng) - Học viên viết \'She asked me if I am okay.\'",
+    "output": "✅ **Corrected Sentence:** She asked me if I was okay.\n🔍 **Error Identification:** Lùi thì: 'am' → 'was'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'am'. Mẹo: Nếu động từ tường thuật ở quá khứ (asked), lùi thì.\n💡 **Ví dụ:** 'Are you okay?' → He asked if I was okay. / 'Do you need help?' → He asked if I needed help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told me, 'I will help you.' -> He told me he will help me.",
+    "output": "✅ **Corrected Sentence:** He told me he would help me.\n🔍 **Error Identification:** Lùi thì: 'will' → 'would'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'will'. Mẹo: will → would.\n💡 **Ví dụ:** 'I'll call you' → He said he would call me. / 'We'll be there' → They said they would be there."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'I am a teacher.' -> She said she is a teacher.",
+    "output": "✅ **Corrected Sentence:** She said she was a teacher.\n🔍 **Error Identification:** Lùi thì: 'am' → 'was'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'is'. Mẹo: Hiện tại đơn → quá khứ đơn.\n💡 **Ví dụ:** 'I'm a student' → He said he was a student. / 'She's a doctor' → He said she was a doctor."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me where is the nearest bank.",
+    "output": "✅ **Corrected Sentence:** He asked me where the nearest bank was.\n🔍 **Error Identification:** Câu hỏi gián tiếp: trật tự S + V, lùi thì (is → was).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'where is'. Mẹo: Where + S + V (lùi thì).\n💡 **Ví dụ:** 'Where is the post office?' → He asked where the post office was. / 'Where is the bus stop?' → He asked where the bus stop was."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told, 'I am leaving.'",
+    "output": "✅ **Corrected Sentence:** She said she was leaving. (hoặc She told me she was leaving)\n🔍 **Error Identification:** 'Told' cần tân ngữ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'told' không object. Mẹo: Tell + someone.\n💡 **Ví dụ:** He told his friend he was leaving. / He said he was leaving."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I can swim.' -> He said he can swim.",
+    "output": "✅ **Corrected Sentence:** He said he could swim.\n🔍 **Error Identification:** Lùi thì: 'can' → 'could'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'can'. Mẹo: can → could.\n💡 **Ví dụ:** 'I can speak French' → He said he could speak French. / 'She can dance' → He said she could dance."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me what did he say.",
+    "output": "✅ **Corrected Sentence:** She asked me what he said.\n🔍 **Error Identification:** Câu hỏi gián tiếp: bỏ 'did', lùi thì (say → said).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'did he say'. Mẹo: What + S + V (lùi thì).\n💡 **Ví dụ:** 'What did she say?' → He asked what she said. / 'What did they do?' → He asked what they did."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told me, 'I have a car.' -> He told me he has a car.",
+    "output": "✅ **Corrected Sentence:** He told me he had a car.\n🔍 **Error Identification:** Lùi thì: 'have' → 'had'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'has'. Mẹo: Hiện tại đơn → quá khứ đơn.\n💡 **Ví dụ:** 'I have a dog' → He said he had a dog. / 'She has a sister' → He said she had a sister."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'I will call you tomorrow.' -> She said she will call me tomorrow.",
+    "output": "✅ **Corrected Sentence:** She said she would call me the next day.\n🔍 **Error Identification:** Lùi thì: 'will' → 'would'; 'tomorrow' → 'the next day'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'will' và 'tomorrow'. Mẹo: tomorrow → the next day / the following day.\n💡 **Ví dụ:** 'I'll see you tomorrow' → He said he would see me the next day. / 'We'll finish tomorrow' → They said they would finish the next day."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me if I like coffee.",
+    "output": "✅ **Corrected Sentence:** He asked me if I liked coffee.\n🔍 **Error Identification:** Lùi thì: 'like' → 'liked'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'like'. Mẹo: Hiện tại đơn → quá khứ đơn.\n💡 **Ví dụ:** 'Do you like tea?' → He asked if I liked tea. / 'Does she like music?' → He asked if she liked music."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told me, 'I am reading a book.' -> She told me she is reading a book.",
+    "output": "✅ **Corrected Sentence:** She told me she was reading a book.\n🔍 **Error Identification:** Lùi thì: 'am reading' → 'was reading'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên hiện tại tiếp diễn. Mẹo: Hiện tại tiếp diễn → quá khứ tiếp diễn.\n💡 **Ví dụ:** 'I'm cooking dinner' → He said he was cooking dinner. / 'She's sleeping' → He said she was sleeping."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I have to go.' -> He said he has to go.",
+    "output": "✅ **Corrected Sentence:** He said he had to go.\n🔍 **Error Identification:** Lùi thì: 'have to' → 'had to'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'has to'. Mẹo: have to / has to → had to.\n💡 **Ví dụ:** 'I have to study' → He said he had to study. / 'She has to leave' → He said she had to leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me where do you live.",
+    "output": "✅ **Corrected Sentence:** She asked me where I lived.\n🔍 **Error Identification:** Thay đổi đại từ (you → I), bỏ 'do', lùi thì (live → lived).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'where do you live'. Mẹo: Where + S + V.\n💡 **Ví dụ:** 'Where do you work?' → He asked where I worked. / 'Where do they live?' → He asked where they lived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told, 'I am happy.'",
+    "output": "✅ **Corrected Sentence:** He said he was happy. (hoặc He told me he was happy)\n🔍 **Error Identification:** 'Told' cần tân ngữ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'told' không object. Mẹo: Tell + someone.\n💡 **Ví dụ:** He told his mother he was happy. / He said he was happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'I can't come to the party.' -> She said she can't come to the party.",
+    "output": "✅ **Corrected Sentence:** She said she couldn't come to the party.\n🔍 **Error Identification:** Lùi thì: 'can't' → 'couldn't'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'can't'. Mẹo: can't → couldn't.\n💡 **Ví dụ:** 'I can't swim' → He said he couldn't swim. / 'She can't drive' → He said she couldn't drive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me what is your name.",
+    "output": "✅ **Corrected Sentence:** He asked me what my name was.\n🔍 **Error Identification:** Thay đổi đại từ (your → my), lùi thì (is → was).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'what is your name'. Mẹo: What + S + V (lùi thì).\n💡 **Ví dụ:** 'What is his name?' → He asked what his name was. / 'What is her job?' → He asked what her job was."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told me, 'I will be back soon.' -> She told me she will be back soon.",
+    "output": "✅ **Corrected Sentence:** She told me she would be back soon.\n🔍 **Error Identification:** Lùi thì: 'will' → 'would'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'will'. Mẹo: will → would.\n💡 **Ví dụ:** 'I'll return soon' → He said he would return soon. / 'We'll be back' → They said they would be back."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I am waiting for you.' -> He said he is waiting for me.",
+    "output": "✅ **Corrected Sentence:** He said he was waiting for me.\n🔍 **Error Identification:** Lùi thì: 'am waiting' → 'was waiting'; thay đổi đại từ (you → me).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên thì và đại từ. Mẹo: Thay đổi đại từ theo ngữ cảnh.\n💡 **Ví dụ:** 'I'm waiting for him' → He said he was waiting for him. / 'She's waiting for us' → He said she was waiting for them."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me if I was a student. (câu đúng) - Học viên viết \'She asked me if I am a student.\'",
+    "output": "✅ **Corrected Sentence:** She asked me if I was a student.\n🔍 **Error Identification:** Lùi thì: 'am' → 'was'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'am'. Mẹo: Nếu động từ tường thuật ở quá khứ (asked), lùi thì.\n💡 **Ví dụ:** 'Are you a student?' → He asked if I was a student. / 'Do you have a car?' → He asked if I had a car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told me, 'I can swim.' -> He told me he can swim.",
+    "output": "✅ **Corrected Sentence:** He told me he could swim.\n🔍 **Error Identification:** Lùi thì: 'can' → 'could'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'can'. Mẹo: can → could.\n💡 **Ví dụ:** 'I can cook' → He said he could cook. / 'She can play piano' → He said she could play piano."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'I have been studying for 2 hours.' -> She said she has been studying for 2 hours.",
+    "output": "✅ **Corrected Sentence:** She said she had been studying for 2 hours.\n🔍 **Error Identification:** Lùi thì: 'have been studying' → 'had been studying'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên hiện tại hoàn thành tiếp diễn. Mẹo: have/has been V-ing → had been V-ing.\n💡 **Ví dụ:** 'I've been waiting' → He said he had been waiting. / 'She's been crying' → He said she had been crying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me where is my car.",
+    "output": "✅ **Corrected Sentence:** He asked me where my car was.\n🔍 **Error Identification:** Câu hỏi gián tiếp: trật tự S + V, lùi thì (is → was).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'where is'. Mẹo: Where + S + V.\n💡 **Ví dụ:** 'Where is your phone?' → He asked where my phone was. / 'Where is your house?' → He asked where my house was."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told, 'I am tired.'",
+    "output": "✅ **Corrected Sentence:** She said she was tired. (hoặc She told me she was tired)\n🔍 **Error Identification:** 'Told' cần tân ngữ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'told' không object. Mẹo: Tell + someone.\n💡 **Ví dụ:** She told her friend she was tired. / She said she was tired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I will call you.' -> He said he will call me.",
+    "output": "✅ **Corrected Sentence:** He said he would call me.\n🔍 **Error Identification:** Lùi thì: 'will' → 'would'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'will'. Mẹo: will → would.\n💡 **Ví dụ:** 'I'll text you' → He said he would text me. / 'We'll help you' → They said they would help me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She asked me what time do you wake up.",
+    "output": "✅ **Corrected Sentence:** She asked me what time I woke up.\n🔍 **Error Identification:** Thay đổi đại từ (you → I), bỏ 'do', lùi thì (wake → woke).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'what time do you wake up'. Mẹo: What time + S + V (lùi thì).\n💡 **Ví dụ:** 'What time do you get up?' → He asked what time I got up. / 'What time does she arrive?' → He asked what time she arrived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He told me, 'I am sorry.' -> He told me he is sorry.",
+    "output": "✅ **Corrected Sentence:** He told me he was sorry.\n🔍 **Error Identification:** Lùi thì: 'am' → 'was'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'is'. Mẹo: Hiện tại đơn → quá khứ đơn.\n💡 **Ví dụ:** 'I'm sorry' → He said he was sorry. / 'She's busy' → He said she was busy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She said, 'I have finished my work.' -> She said she has finished her work.",
+    "output": "✅ **Corrected Sentence:** She said she had finished her work.\n🔍 **Error Identification:** Lùi thì: 'have finished' → 'had finished'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên hiện tại hoàn thành. Mẹo: have/has + V3 → had + V3.\n💡 **Ví dụ:** 'I've finished' → He said he had finished. / 'She's left' → He said she had left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me if I can swim.",
+    "output": "✅ **Corrected Sentence:** He asked me if I could swim.\n🔍 **Error Identification:** Lùi thì: 'can' → 'could'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'can'. Mẹo: can → could.\n💡 **Ví dụ:** 'Can you swim?' → He asked if I could swim. / 'Can she dance?' → He asked if she could dance."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She told me, 'I will be there.' -> She told me she will be there.",
+    "output": "✅ **Corrected Sentence:** She told me she would be there.\n🔍 **Error Identification:** Lùi thì: 'will' → 'would'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'will'. Mẹo: will → would.\n💡 **Ví dụ:** 'I'll be there' → He said he would be there. / 'We'll come' → They said they would come."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He said, 'I can help you.' -> He said he can help me.",
+    "output": "✅ **Corrected Sentence:** He said he could help me.\n🔍 **Error Identification:** Lùi thì: 'can' → 'could'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'can'. Mẹo: can → could.\n💡 **Ví dụ:** 'I can drive you' → He said he could drive me. / 'She can carry it' → He said she could carry it."
+  }
+]

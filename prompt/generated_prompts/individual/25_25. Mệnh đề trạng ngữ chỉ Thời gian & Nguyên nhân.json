@@ -1,0 +1,367 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because it was raining, so I stayed home.",
+    "output": "✅ **Corrected Sentence:** Because it was raining, I stayed home. (hoặc It was raining, so I stayed home.)\n🔍 **Error Identification:** Dùng 'because' và 'so' trong cùng một câu – không được dùng cả hai.\n📘 **Vietnamese Explanation:** Người Việt dịch 'bởi vì trời mưa, vì vậy tôi ở nhà' – dùng cả 'vì' và 'vậy'. Mẹo: Chọn một: because hoặc so, không dùng cả hai.\n💡 **Ví dụ:** Because I was tired, I went to bed early. / I was tired, so I went to bed early."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since I have finished my homework, I will watch TV.",
+    "output": "✅ **Corrected Sentence:** Since I have finished my homework, I will watch TV. (câu đúng – 'since' = bởi vì)\n🔍 **Error Identification:** 'Since' có thể chỉ nguyên nhân (bởi vì) hoặc thời gian (kể từ khi). Câu này đúng nếu 'since' = 'because'.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'since' chỉ thời gian, ít dùng để chỉ nguyên nhân. Mẹo: 'Since' (nguyên nhân) = because, thường đặt ở đầu câu.\n💡 **Ví dụ:** Since you're here, let's start. / Since it's late, we should go home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the rain, we cancelled the picnic.",
+    "output": "✅ **Corrected Sentence:** Because of the rain, we cancelled the picnic. (câu đúng)\n🔍 **Error Identification:** 'Because of' + danh từ / cụm danh từ, 'because' + mệnh đề. Câu này đúng.\n📘 **Vietnamese Explanation:** Người Việt hay nhầm 'because of' và 'because'. Mẹo: 'Because of' + N/V-ing; 'because' + S + V.\n💡 **Ví dụ:** Because of the traffic, I was late. / Because there was traffic, I was late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because I was tired, so I went to sleep.",
+    "output": "✅ **Corrected Sentence:** Because I was tired, I went to sleep. (hoặc I was tired, so I went to sleep.)\n🔍 **Error Identification:** Lỗi kép 'because...so'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'bởi vì tôi mệt, vì vậy tôi đi ngủ'. Mẹo: Dùng 'because' hoặc 'so', không dùng cả hai.\n💡 **Ví dụ:** Because she studied, she passed. / She studied, so she passed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As I was walking home, I saw an accident.",
+    "output": "✅ **Corrected Sentence:** As I was walking home, I saw an accident. (câu đúng – 'as' = trong khi)\n🔍 **Error Identification:** 'As' có thể chỉ thời gian (trong khi) hoặc nguyên nhân (bởi vì). Câu này đúng.\n📘 **Vietnamese Explanation:** Người Việt ít dùng 'as' để chỉ thời gian. Mẹo: 'As' (thời gian) = while, thường dùng với quá khứ tiếp diễn.\n💡 **Ví dụ:** As she was cooking, the phone rang. / As we were leaving, it started to rain."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of he was sick, he didn't go to work.",
+    "output": "✅ **Corrected Sentence:** Because he was sick, he didn't go to work. (hoặc Because of his sickness)\n🔍 **Error Identification:** 'Because of' + danh từ, không dùng mệnh đề.\n📘 **Vietnamese Explanation:** Người Việt dùng 'because of' với mệnh đề. Mẹo: 'Because of' + N/V-ing; 'because' + S + V.\n💡 **Ví dụ:** Because of the rain, we stayed home. / Because it rained, we stayed home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since 2010, I have lived in Hanoi. (câu đúng – 'since' chỉ thời gian)",
+    "output": "✅ **Corrected Sentence:** Since 2010, I have lived in Hanoi. (câu đúng)\n🔍 **Error Identification:** 'Since' + mốc thời gian + hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'for' thay vì 'since'. Mẹo: 'Since' + điểm bắt đầu (2010, Monday), 'for' + khoảng thời gian (5 years).\n💡 **Ví dụ:** I have worked here since 2015. / She has been waiting since 8 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because the heavy rain, the flight was delayed.",
+    "output": "✅ **Corrected Sentence:** Because of the heavy rain, the flight was delayed.\n🔍 **Error Identification:** 'Because' + mệnh đề, 'because of' + danh từ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'because' với danh từ. Mẹo: 'Because of' + N, 'because' + S + V.\n💡 **Ví dụ:** Because of the storm, the power went out. / Because there was a storm, the power went out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As it was getting dark, we turned on the lights.",
+    "output": "✅ **Corrected Sentence:** As it was getting dark, we turned on the lights. (câu đúng)\n🔍 **Error Identification:** 'As' chỉ nguyên nhân (bởi vì) – câu đúng.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'because' thay vì 'as'. Mẹo: 'As' (nguyên nhân) trang trọng hơn 'because', thường đứng đầu câu.\n💡 **Ví dụ:** As it was late, we decided to go home. / As she is the boss, she makes the decisions."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was late because of I missed the bus.",
+    "output": "✅ **Corrected Sentence:** I was late because I missed the bus. (hoặc because of missing the bus)\n🔍 **Error Identification:** 'Because of' + V-ing (missing), không dùng mệnh đề.\n📘 **Vietnamese Explanation:** Người Việt dùng 'because of' với mệnh đề. Mẹo: 'Because of' + N/V-ing.\n💡 **Ví dụ:** Because of losing his keys, he couldn't get in. / Because he lost his keys, he couldn't get in."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since I have time, I will help you.",
+    "output": "✅ **Corrected Sentence:** Since I have time, I will help you. (câu đúng)\n🔍 **Error Identification:** 'Since' = because – câu đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể hiểu 'since' là 'kể từ khi'. Mẹo: 'Since' ở đầu câu thường chỉ nguyên nhân.\n💡 **Ví dụ:** Since you asked, I'll tell you. / Since we're all here, let's begin."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the fact that it rained, we stayed home.",
+    "output": "✅ **Corrected Sentence:** Because it rained, we stayed home. (hoặc Because of the rain)\n🔍 **Error Identification:** 'Because of the fact that' là cách diễn đạt dài dòng, có thể rút gọn.\n📘 **Vietnamese Explanation:** Người Việt thường dùng cấu trúc này do dịch word-by-word. Mẹo: Dùng 'because' hoặc 'because of' ngắn gọn hơn.\n💡 **Ví dụ:** Because of the weather, we cancelled. / Because the weather was bad, we cancelled."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as I will arrive, I will call you.",
+    "output": "✅ **Corrected Sentence:** As soon as I arrive, I will call you.\n🔍 **Error Identification:** Mệnh đề 'as soon as' dùng hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'ngay khi tôi sẽ đến' thành 'as soon as I will arrive'. Mẹo: Mệnh đề chỉ thời gian + hiện tại đơn.\n💡 **Ví dụ:** As soon as she gets here, we'll start. / I'll tell him as soon as I see him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the rain so we stayed home.",
+    "output": "✅ **Corrected Sentence:** Because of the rain, we stayed home. (hoặc It rained, so we stayed home.)\n🔍 **Error Identification:** Dùng 'because of' và 'so' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'bởi vì' và 'vì vậy'. Mẹo: Chọn một – because hoặc so.\n💡 **Ví dụ:** Because of the traffic, we were late. / There was traffic, so we were late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since I was a child, I have loved music. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** Since I was a child, I have loved music. (câu đúng)\n🔍 **Error Identification:** 'Since' + mệnh đề quá khứ + hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'for' thay vì 'since'. Mẹo: 'Since' + mốc thời gian / mệnh đề quá khứ.\n💡 **Ví dụ:** I have known her since we were kids. / He has worked here since he graduated."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because it was late, so we decided to go home.",
+    "output": "✅ **Corrected Sentence:** Because it was late, we decided to go home.\n🔍 **Error Identification:** Lỗi kép 'because...so'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'bởi vì...vì vậy'. Mẹo: Dùng 'because' hoặc 'so'.\n💡 **Ví dụ:** Because she was tired, she went to bed. / She was tired, so she went to bed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As I was late, I took a taxi.",
+    "output": "✅ **Corrected Sentence:** As I was late, I took a taxi. (câu đúng)\n🔍 **Error Identification:** 'As' = because – câu đúng.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'because' thay vì 'as'. Mẹo: 'As' (nguyên nhân) trang trọng hơn.\n💡 **Ví dụ:** As he wasn't feeling well, he stayed home. / As it's your birthday, I bought you a gift."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of his laziness, he failed the exam.",
+    "output": "✅ **Corrected Sentence:** Because of his laziness, he failed the exam. (câu đúng)\n🔍 **Error Identification:** 'Because of' + danh từ – câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt 'because of' + N và 'because' + S + V.\n💡 **Ví dụ:** Because of her hard work, she succeeded. / Because she worked hard, she succeeded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since the meeting will start at 9, we need to hurry.",
+    "output": "✅ **Corrected Sentence:** Since the meeting starts at 9, we need to hurry. (mệnh đề thời gian dùng hiện tại đơn)\n🔍 **Error Identification:** 'Since' chỉ thời gian, mệnh đề sau 'since' dùng hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'since' (thời gian). Mẹo: Mệnh đề chỉ thời gian + hiện tại đơn.\n💡 **Ví dụ:** Since he arrives at 8, we'll meet at 8:30. / I'll call you since I get home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the traffic jam, we were late.",
+    "output": "✅ **Corrected Sentence:** Because of the traffic jam, we were late. (câu đúng)\n🔍 **Error Identification:** 'Because of' + danh từ – đúng.\n📘 **Vietnamese Explanation:** Người Việt hay viết 'because of the traffic' (không 'jam') cũng đúng.\n💡 **Ví dụ:** Because of the snow, flights were cancelled. / Because of his help, I finished on time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As the sun set, we went home.",
+    "output": "✅ **Corrected Sentence:** As the sun set, we went home. (câu đúng – 'as' = khi)\n🔍 **Error Identification:** 'As' chỉ thời gian (khi) – câu đúng.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'when' thay vì 'as'. Mẹo: 'As' (thời gian) = when, thường dùng với hành động ngắn.\n💡 **Ví dụ:** As she opened the door, the phone rang. / As I entered, everyone stood up."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of being late, I missed the bus.",
+    "output": "✅ **Corrected Sentence:** Because of being late, I missed the bus. (câu đúng – 'because of' + V-ing)\n🔍 **Error Identification:** 'Because of' + V-ing là đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'because I was late' thay thế. Mẹo: 'Because of + V-ing' = 'because + S + V'.\n💡 **Ví dụ:** Because of arriving late, he missed the introduction. / Because he arrived late, he missed the introduction."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since it's raining, we should cancel the picnic.",
+    "output": "✅ **Corrected Sentence:** Since it's raining, we should cancel the picnic. (câu đúng)\n🔍 **Error Identification:** 'Since' = because – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'since' thay 'because' để tránh lặp từ.\n💡 **Ví dụ:** Since you're here, let's start. / Since everyone is ready, we can go."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the heavy traffic, so we were late.",
+    "output": "✅ **Corrected Sentence:** Because of the heavy traffic, we were late.\n🔍 **Error Identification:** Dùng 'because of' và 'so' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'bởi vì' và 'vì vậy'. Mẹo: Chọn một.\n💡 **Ví dụ:** Because of the fog, the flight was delayed. / There was fog, so the flight was delayed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as I will finish, I will let you know.",
+    "output": "✅ **Corrected Sentence:** As soon as I finish, I will let you know.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'as soon as'. Mẹo: Mệnh đề chỉ thời gian + hiện tại đơn.\n💡 **Ví dụ:** As soon as she arrives, call me. / I'll text you as soon as I get home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of he didn't study, he failed.",
+    "output": "✅ **Corrected Sentence:** Because he didn't study, he failed. (hoặc Because of not studying)\n🔍 **Error Identification:** 'Because of' + mệnh đề là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'because of' với mệnh đề. Mẹo: 'Because of' + N/V-ing.\n💡 **Ví dụ:** Because of his laziness, he failed. / Because he was lazy, he failed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since we have no money, we can't buy it.",
+    "output": "✅ **Corrected Sentence:** Since we have no money, we can't buy it. (câu đúng)\n🔍 **Error Identification:** 'Since' = because – đúng.\n📘 **Vietnamese Explanation:** Người Việt nên dùng 'since' để tránh lặp 'because'.\n💡 **Ví dụ:** Since it's late, let's go home. / Since you're tired, take a rest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as the train will stop, we will get off.",
+    "output": "✅ **Corrected Sentence:** As soon as the train stops, we will get off.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề chỉ thời gian. Mẹo: Hiện tại đơn cho tương lai sau 'as soon as'.\n💡 **Ví dụ:** As soon as the light turns green, go. / I'll call as soon as I arrive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the rain, we stayed home. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** Because of the rain, we stayed home. (câu đúng)\n🔍 **Error Identification:** 'Because of' + danh từ – đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'because of' + N, 'because' + S + V.\n💡 **Ví dụ:** Because of the noise, I couldn't sleep. / Because the noise was loud, I couldn't sleep."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since I will be late, please wait for me.",
+    "output": "✅ **Corrected Sentence:** Since I am late, please wait for me. (hoặc Since I will be late – cũng có thể chấp nhận nếu 'since' = 'because')\n🔍 **Error Identification:** Nếu 'since' = 'because', dùng hiện tại đơn cũng được. 'Since' chỉ thời gian mới cần hiện tại.\n📘 **Vietnamese Explanation:** Người Việt nên dùng hiện tại đơn sau 'since' (nguyên nhân).\n💡 **Ví dụ:** Since it's raining, take an umbrella. / Since you're here, let's start."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As I was walking, I found a wallet.",
+    "output": "✅ **Corrected Sentence:** As I was walking, I found a wallet. (câu đúng)\n🔍 **Error Identification:** 'As' = while – đúng.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'when' thay 'as'. Mẹo: 'As' (thời gian) thường dùng với quá khứ tiếp diễn.\n💡 **Ví dụ:** As she was reading, the phone rang. / As we were driving, we saw a deer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the storm, the power went out.",
+    "output": "✅ **Corrected Sentence:** Because of the storm, the power went out. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'due to' thay 'because of' trong văn viết trang trọng.\n💡 **Ví dụ:** Due to the bad weather, the match was cancelled. / Because of the snow, schools closed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since you will ask, I will tell you.",
+    "output": "✅ **Corrected Sentence:** Since you ask, I will tell you. (hoặc Since you asked)\n🔍 **Error Identification:** 'Since' = because, dùng hiện tại đơn hoặc quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'since'. Mẹo: Mệnh đề 'since' (nguyên nhân) dùng hiện tại đơn.\n💡 **Ví dụ:** Since you want to know, I'll explain. / Since he asked, I answered."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as the bell will ring, the students will leave.",
+    "output": "✅ **Corrected Sentence:** As soon as the bell rings, the students will leave.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'as soon as'. Mẹo: Mệnh đề chỉ thời gian + hiện tại đơn.\n💡 **Ví dụ:** As soon as the class ends, we'll go. / I'll call as soon as I know."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of he was tired, he went to bed.",
+    "output": "✅ **Corrected Sentence:** Because he was tired, he went to bed.\n🔍 **Error Identification:** 'Because of' + mệnh đề là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'because of' với mệnh đề. Mẹo: 'Because' + S + V.\n💡 **Ví dụ:** Because she was sick, she stayed home. / Because it rained, we stayed inside."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since I have lived here for 5 years, I know the area well.",
+    "output": "✅ **Corrected Sentence:** Since I have lived here for 5 years, I know the area well. (câu đúng)\n🔍 **Error Identification:** 'Since' = because – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'since' để chỉ nguyên nhân với hiện tại hoàn thành.\n💡 **Ví dụ:** Since she has studied English, she speaks fluently. / Since they have experience, they got the job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as I will get the results, I will share them.",
+    "output": "✅ **Corrected Sentence:** As soon as I get the results, I will share them.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'as soon as'. Mẹo: Hiện tại đơn cho tương lai.\n💡 **Ví dụ:** As soon as she hears the news, she'll call. / I'll let you know as soon as I find out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the rain, so we didn't go out.",
+    "output": "✅ **Corrected Sentence:** Because of the rain, we didn't go out.\n🔍 **Error Identification:** Dùng 'because of' và 'so' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'bởi vì' và 'vì vậy'. Mẹo: Chọn một.\n💡 **Ví dụ:** Because of the heat, we stayed inside. / It was hot, so we stayed inside."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since the store will close at 9, we need to hurry.",
+    "output": "✅ **Corrected Sentence:** Since the store closes at 9, we need to hurry. (lịch trình cố định dùng hiện tại đơn)\n🔍 **Error Identification:** Mệnh đề 'since' chỉ thời gian hoặc nguyên nhân – với lịch trình, dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho lịch trình. Mẹo: Lịch trình cố định + hiện tại đơn.\n💡 **Ví dụ:** Since the movie starts at 8, let's go now. / Since the sale ends tomorrow, we should buy today."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As I was getting ready, the doorbell rang.",
+    "output": "✅ **Corrected Sentence:** As I was getting ready, the doorbell rang. (câu đúng)\n🔍 **Error Identification:** 'As' = while – đúng.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'when' thay 'as'. Mẹo: 'As' (thời gian) nhấn mạnh hai hành động xảy ra đồng thời.\n💡 **Ví dụ:** As he was leaving, he saw her. / As we were eating, someone knocked."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the accident, the road was closed.",
+    "output": "✅ **Corrected Sentence:** Because of the accident, the road was closed. (câu đúng)\n🔍 **Error Identification:** 'Because of' + danh từ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'due to' trong văn viết.\n💡 **Ví dụ:** Due to the accident, traffic was heavy. / Because of the strike, buses stopped running."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since you will be here, we can start.",
+    "output": "✅ **Corrected Sentence:** Since you are here, we can start. (nếu 'since' = because)\n🔍 **Error Identification:** 'Since' (nguyên nhân) dùng hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'since'. Mẹo: 'Since' + hiện tại đơn.\n💡 **Ví dụ:** Since everyone is present, let's begin. / Since it's your turn, go ahead."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as I will have time, I will call you.",
+    "output": "✅ **Corrected Sentence:** As soon as I have time, I will call you.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will have' trong mệnh đề 'as soon as'. Mẹo: Mệnh đề chỉ thời gian + hiện tại đơn.\n💡 **Ví dụ:** As soon as I finish work, I'll come. / I'll call as soon as I arrive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the noise, I couldn't concentrate.",
+    "output": "✅ **Corrected Sentence:** Because of the noise, I couldn't concentrate. (câu đúng)\n🔍 **Error Identification:** 'Because of' + danh từ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'because of' hoặc 'due to'.\n💡 **Ví dụ:** Because of the loud music, I couldn't sleep. / Due to the delay, we missed the flight."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since I will finish early, I will join you.",
+    "output": "✅ **Corrected Sentence:** Since I finish early, I will join you. (nếu 'since' = because)\n🔍 **Error Identification:** 'Since' (nguyên nhân) dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'since'. Mẹo: 'Since' + hiện tại đơn.\n💡 **Ví dụ:** Since she arrives at 8, we'll meet at 8:30. / Since he works hard, he will succeed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As the teacher entered, the students stood up.",
+    "output": "✅ **Corrected Sentence:** As the teacher entered, the students stood up. (câu đúng)\n🔍 **Error Identification:** 'As' = when – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'when' thay 'as'. Mẹo: 'As' trang trọng hơn 'when'.\n💡 **Ví dụ:** As she spoke, everyone listened. / As the sun rose, we started our journey."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the fact that I was tired, I went to bed.",
+    "output": "✅ **Corrected Sentence:** Because I was tired, I went to bed. (hoặc Because of my tiredness)\n🔍 **Error Identification:** 'Because of the fact that' dài dòng, nên dùng 'because'.\n📘 **Vietnamese Explanation:** Người Việt thường dịch 'vì sự thật rằng'. Mẹo: Dùng 'because' hoặc 'because of' ngắn gọn.\n💡 **Ví dụ:** Because it was late, we left. / Because of the late hour, we left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as the movie will end, we will leave.",
+    "output": "✅ **Corrected Sentence:** As soon as the movie ends, we will leave.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'as soon as'. Mẹo: Mệnh đề chỉ thời gian + hiện tại đơn.\n💡 **Ví dụ:** As soon as the concert finishes, we'll go. / I'll call as soon as I arrive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since I moved to this city, I have made many friends.",
+    "output": "✅ **Corrected Sentence:** Since I moved to this city, I have made many friends. (câu đúng)\n🔍 **Error Identification:** 'Since' chỉ thời gian (kể từ khi) + mệnh đề quá khứ + hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'for' thay 'since'. Mẹo: 'Since' + mốc thời gian / mệnh đề quá khứ.\n💡 **Ví dụ:** Since she left, I haven't seen her. / Since we met, we've been friends."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the rain, so we cancelled the picnic.",
+    "output": "✅ **Corrected Sentence:** Because of the rain, we cancelled the picnic.\n🔍 **Error Identification:** Dùng 'because of' và 'so' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'bởi vì' và 'vì vậy'. Mẹo: Chọn một.\n💡 **Ví dụ:** Because of the storm, the event was postponed. / There was a storm, so the event was postponed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as I will hear the news, I will tell you.",
+    "output": "✅ **Corrected Sentence:** As soon as I hear the news, I will tell you.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'as soon as'. Mẹo: Mệnh đề chỉ thời gian + hiện tại đơn.\n💡 **Ví dụ:** As soon as she knows, she'll inform us. / I'll let you know as soon as I find out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of he was late, he missed the bus.",
+    "output": "✅ **Corrected Sentence:** Because he was late, he missed the bus.\n🔍 **Error Identification:** 'Because of' + mệnh đề là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'because of' với mệnh đề. Mẹo: 'Because' + S + V.\n💡 **Ví dụ:** Because she overslept, she was late. / Because it snowed, roads were slippery."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since the baby is sleeping, please be quiet.",
+    "output": "✅ **Corrected Sentence:** Since the baby is sleeping, please be quiet. (câu đúng)\n🔍 **Error Identification:** 'Since' = because – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'since' thay 'because' để câu văn đa dạng.\n💡 **Ví dụ:** Since it's your birthday, let's celebrate. / Since you're the expert, you decide."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As the door opened, I saw him.",
+    "output": "✅ **Corrected Sentence:** As the door opened, I saw him. (câu đúng)\n🔍 **Error Identification:** 'As' = when – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'as' để chỉ hai hành động xảy ra gần như đồng thời.\n💡 **Ví dụ:** As she turned around, she saw me. / As the light changed, we crossed the street."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the heavy rain, so the match was cancelled.",
+    "output": "✅ **Corrected Sentence:** Because of the heavy rain, the match was cancelled.\n🔍 **Error Identification:** Dùng 'because of' và 'so' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'bởi vì' và 'vì vậy'. Mẹo: Chọn một.\n💡 **Ví dụ:** Because of the fog, the flight was delayed. / There was fog, so the flight was delayed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as I will be ready, I will come.",
+    "output": "✅ **Corrected Sentence:** As soon as I am ready, I will come.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong mệnh đề 'as soon as'. Mẹo: Mệnh đề chỉ thời gian + hiện tại đơn.\n💡 **Ví dụ:** As soon as she is free, she'll call. / I'll come as soon as I finish."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since you are here, we can start the meeting.",
+    "output": "✅ **Corrected Sentence:** Since you are here, we can start the meeting. (câu đúng)\n🔍 **Error Identification:** 'Since' = because – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'since' ở đầu câu để chỉ nguyên nhân.\n💡 **Ví dụ:** Since everyone is ready, let's begin. / Since it's getting late, we should go."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As I was about to leave, the phone rang.",
+    "output": "✅ **Corrected Sentence:** As I was about to leave, the phone rang. (câu đúng)\n🔍 **Error Identification:** 'As' = when – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'as' với 'was about to' để diễn tả hành động sắp xảy ra.\n💡 **Ví dụ:** As I was about to go out, it started to rain. / As he was about to speak, she interrupted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the noise, so I couldn't study.",
+    "output": "✅ **Corrected Sentence:** Because of the noise, I couldn't study.\n🔍 **Error Identification:** Dùng 'because of' và 'so' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'bởi vì' và 'vì vậy'. Mẹo: Chọn một.\n💡 **Ví dụ:** Because of the loud music, I couldn't sleep. / The music was loud, so I couldn't sleep."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as the sun will rise, we will start hiking.",
+    "output": "✅ **Corrected Sentence:** As soon as the sun rises, we will start hiking.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'as soon as'. Mẹo: Mệnh đề chỉ thời gian + hiện tại đơn.\n💡 **Ví dụ:** As soon as the alarm rings, I'll wake up. / We'll leave as soon as it stops raining."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since he was late, he missed the beginning of the movie.",
+    "output": "✅ **Corrected Sentence:** Since he was late, he missed the beginning of the movie. (câu đúng)\n🔍 **Error Identification:** 'Since' = because – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'since' thay 'because' để tránh lặp từ.\n💡 **Ví dụ:** Since she didn't study, she failed. / Since they were tired, they rested."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the fact that it was cold, I wore a coat.",
+    "output": "✅ **Corrected Sentence:** Because it was cold, I wore a coat. (hoặc Because of the cold)\n🔍 **Error Identification:** 'Because of the fact that' dài dòng.\n📘 **Vietnamese Explanation:** Người Việt thường dịch 'vì sự thật rằng'. Mẹo: Dùng 'because' ngắn gọn.\n💡 **Ví dụ:** Because it was raining, I took an umbrella. / Because of the rain, I took an umbrella."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as I will get home, I will call you.",
+    "output": "✅ **Corrected Sentence:** As soon as I get home, I will call you.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'as soon as'. Mẹo: Mệnh đề chỉ thời gian + hiện tại đơn.\n💡 **Ví dụ:** As soon as she arrives, we'll eat. / I'll call as soon as I land."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since I am the boss, I make the decisions.",
+    "output": "✅ **Corrected Sentence:** Since I am the boss, I make the decisions. (câu đúng)\n🔍 **Error Identification:** 'Since' = because – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'since' trong câu nói hàng ngày.\n💡 **Ví dụ:** Since you're the expert, you should decide. / Since it's your fault, you should apologize."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As the water was rising, we moved to higher ground.",
+    "output": "✅ **Corrected Sentence:** As the water was rising, we moved to higher ground. (câu đúng)\n🔍 **Error Identification:** 'As' = while – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'as' để chỉ hành động đang diễn ra thì hành động khác xen vào.\n💡 **Ví dụ:** As the fire was spreading, people evacuated. / As he was speaking, the audience listened."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the traffic, so we were late.",
+    "output": "✅ **Corrected Sentence:** Because of the traffic, we were late.\n🔍 **Error Identification:** Dùng 'because of' và 'so' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'bởi vì' và 'vì vậy'. Mẹo: Chọn một.\n💡 **Ví dụ:** Because of the delay, we missed the train. / There was a delay, so we missed the train."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as the bell will ring, the students will leave the classroom.",
+    "output": "✅ **Corrected Sentence:** As soon as the bell rings, the students will leave the classroom.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'as soon as'. Mẹo: Mệnh đề chỉ thời gian + hiện tại đơn.\n💡 **Ví dụ:** As soon as the teacher arrives, we'll start. / I'll go as soon as I'm ready."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since the weather is nice, let's go for a walk.",
+    "output": "✅ **Corrected Sentence:** Since the weather is nice, let's go for a walk. (câu đúng)\n🔍 **Error Identification:** 'Since' = because – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'since' trong đề nghị, rủ rê.\n💡 **Ví dụ:** Since we have time, let's grab coffee. / Since it's sunny, let's go to the beach."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As the clock struck twelve, we celebrated the New Year.",
+    "output": "✅ **Corrected Sentence:** As the clock struck twelve, we celebrated the New Year. (câu đúng)\n🔍 **Error Identification:** 'As' = when – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'as' để kể chuyện.\n💡 **Ví dụ:** As the music started, everyone began to dance. / As the door opened, he walked in."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of he didn't have money, he couldn't buy it.",
+    "output": "✅ **Corrected Sentence:** Because he didn't have money, he couldn't buy it.\n🔍 **Error Identification:** 'Because of' + mệnh đề là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'because of' với mệnh đề. Mẹo: 'Because' + S + V.\n💡 **Ví dụ:** Because she was ill, she stayed home. / Because it was expensive, I didn't buy it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Since I was young, I have wanted to travel.",
+    "output": "✅ **Corrected Sentence:** Since I was young, I have wanted to travel. (câu đúng)\n🔍 **Error Identification:** 'Since' chỉ thời gian (kể từ khi) + mệnh đề quá khứ + hiện tại hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'for' thay 'since' trong trường hợp này. Mẹo: 'Since' + mốc quá khứ.\n💡 **Ví dụ:** Since we met, we've been best friends. / Since she left, I've been lonely."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "As soon as I will see her, I will tell her the news.",
+    "output": "✅ **Corrected Sentence:** As soon as I see her, I will tell her the news.\n🔍 **Error Identification:** 'As soon as' + hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'as soon as'. Mẹo: Mệnh đề chỉ thời gian + hiện tại đơn.\n💡 **Ví dụ:** As soon as she arrives, I'll inform you. / I'll call as soon as I hear anything."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Because of the snow, the roads were slippery.",
+    "output": "✅ **Corrected Sentence:** Because of the snow, the roads were slippery. (câu đúng)\n🔍 **Error Identification:** 'Because of' + danh từ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'due to' thay 'because of' trong văn viết.\n💡 **Ví dụ:** Due to the storm, flights were cancelled. / Because of the ice, the roads were dangerous."
+  }
+]

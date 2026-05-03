@@ -1,0 +1,572 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Are you coming?\' (lên giọng ở cuối câu). Văn bản Whisper nhận được: \'Are you coming?\' (xuống giọng ở cuối câu).",
+    "output": "✅ **Corrected Intonation:** Are you ↗coming? (lên giọng ở âm tiết cuối 'coming')\n🔍 **Error Identification:** Câu hỏi Yes/No (bắt đầu bằng trợ động từ) yêu cầu ngữ điệu lên giọng ở cuối câu. Học viên đọc xuống giọng như câu trần thuật.\n📘 **Vietnamese Explanation:** Trong tiếng Việt, câu hỏi thường lên giọng cuối câu, nhưng nhiều người Việt khi nói tiếng Anh lại có xu hướng xuống giọng vì ảnh hưởng của câu trần thuật. Mẹo: Câu hỏi Yes/No → lên giọng ở âm tiết cuối cùng.\n💡 **Luyện tập:** \'Do you ↗like it?\', \'Is she ↗here?\', \'Can you ↗help me?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What is your name?\' (xuống giọng ở cuối câu). Văn bản Whisper nhận được: \'What is your name?\' (lên giọng ở cuối câu).",
+    "output": "✅ **Corrected Intonation:** What is your ↘name? (xuống giọng ở âm tiết cuối 'name')\n🔍 **Error Identification:** Câu hỏi Wh- (bắt đầu bằng what, where, when, why, who, how) yêu cầu ngữ điệu xuống giọng ở cuối câu. Học viên đọc lên giọng như câu hỏi Yes/No.\n📘 **Vietnamese Explanation:** Người Việt thường lên giọng cuối câu cho mọi câu hỏi. Mẹo: Wh-questions → xuống giọng, thể hiện sự tò mò, hỏi thông tin.\n💡 **Luyện tập:** \'Where do you ↘live?\', \'Why are you ↘late?\', \'How does it ↘work?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Did you see the movie?\' (lên giọng). Văn bản Whisper nhận được: \'Did you see the movie?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Did you see the ↗movie?\n🔍 **Error Identification:** Yes/No question → lên giọng.\n📘 **Vietnamese Explanation:** Lên giọng thể hiện sự không chắc chắn, cần câu trả lời.\n💡 **Luyện tập:** \'Have you ↗eaten?\', \'Will she ↗come?\', \'Is it ↗true?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where are you going?\' (xuống giọng). Văn bản Whisper nhận được: \'Where are you going?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Where are you ↘going?\n🔍 **Error Identification:** Wh-question → xuống giọng.\n📘 **Vietnamese Explanation:** Xuống giọng cho thấy người hỏi đang tìm kiếm thông tin cụ thể.\n💡 **Luyện tập:** \'What time is ↘it?\', \'Who is ↘that?\', \'How much is ↘this?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Can you help me?\' (lên giọng). Văn bản Whisper nhận được: \'Can you help me?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Can you ↗help me?\n🔍 **Error Identification:** Yes/No question → lên giọng.\n💡 **Luyện tập:** \'Would you ↗like some coffee?\', \'May I ↗come in?\', \'Shall we ↗go?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Why did you leave?\' (xuống giọng). Văn bản Whisper nhận được: \'Why did you leave?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Why did you ↘leave?\n🔍 **Error Identification:** Wh-question → xuống giọng.\n💡 **Luyện tập:** \'When will you ↘return?\', \'Which one do you ↘prefer?\', \'Whose car is ↘this?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Are you ready?\' (lên giọng). Văn bản Whisper nhận được: \'Are you ready?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Are you ↗ready?\n💡 **Luyện tập:** \'Is she ↗coming?\', \'Do they ↗know?\', \'Has he ↗arrived?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How old are you?\' (xuống giọng). Văn bản Whisper nhận được: \'How old are you?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How old are ↘you?\n💡 **Luyện tập:** \'How long does it ↘take?\', \'How far is the ↘station?\', \'How often do you ↘exercise?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Did you enjoy the party?\' (lên giọng). Văn bản Whisper nhận được: \'Did you enjoy the party?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Did you enjoy the ↗party?\n💡 **Luyện tập:** \'Will you be ↗there?\', \'Can I ↗help?\', \'Do you ↗understand?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What do you think?\' (xuống giọng). Văn bản Whisper nhận được: \'What do you think?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What do you ↘think?\n💡 **Luyện tập:** \'What are you ↘doing?\', \'What did you ↘say?\', \'What will she ↘do?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Have you ever been to London?\' (lên giọng). Văn bản Whisper nhận được: \'Have you ever been to London?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Have you ever been to ↗London?\n💡 **Luyện tập:** \'Has she ↗called?\', \'Have they ↗arrived?\', \'Have you ↗eaten?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where do you live?\' (xuống giọng). Văn bản Whisper nhận được: \'Where do you live?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Where do you ↘live?\n💡 **Luyện tập:** \'Where is the ↗bank?\' (nhưng Wh-question vẫn xuống giọng, trừ khi hỏi lại). Thực tế 'Where is the bank?' cũng xuống giọng. Vậy giữ nguyên."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Could you repeat that?\' (lên giọng). Văn bản Whisper nhận được: \'Could you repeat that?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Could you ↗repeat that?\n💡 **Luyện tập:** \'Would you ↗mind?\', \'Should I ↗wait?\', \'Must we ↗go?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Why are you crying?\' (xuống giọng). Văn bản Whisper nhận được: \'Why are you crying?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Why are you ↘crying?\n💡 **Luyện tập:** \'Why is she ↘sad?\', \'Why did they ↘leave?\', \'Why doesn't he ↘answer?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Do you like coffee?\' (lên giọng). Văn bản Whisper nhận được: \'Do you like coffee?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Do you like ↗coffee?\n💡 **Luyện tập:** \'Does she ↗sing?\', \'Do they ↗play?\', \'Does it ↗work?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How much is this?\' (xuống giọng). Văn bản Whisper nhận được: \'How much is this?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How much is ↘this?\n💡 **Luyện tập:** \'How many do you ↘need?\', \'How much does it ↘cost?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Are they coming?\' (lên giọng). Văn bản Whisper nhận được: \'Are they coming?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Are they ↗coming?\n💡 **Luyện tập:** \'Is he ↗ready?\', \'Are we ↗late?\', \'Is it ↗okay?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Who is that?\' (xuống giọng). Văn bản Whisper nhận được: \'Who is that?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Who is ↘that?\n💡 **Luyện tập:** \'Who called ↘you?\', \'Who will ↘come?\', \'Who did ↘that?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Will you join us?\' (lên giọng). Văn bản Whisper nhận được: \'Will you join us?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Will you ↗join us?\n💡 **Luyện tập:** \'Would you ↗like?\', \'Could you ↗help?\', \'Shall we ↗start?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What time is it?\' (xuống giọng). Văn bản Whisper nhận được: \'What time is it?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What time is ↘it?\n💡 **Luyện tập:** \'What day is ↘today?\', \'What month is ↘this?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Have you finished?\' (lên giọng). Văn bản Whisper nhận được: \'Have you finished?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Have you ↗finished?\n💡 **Luyện tập:** \'Has she ↗left?\', \'Have they ↗eaten?\', \'Have we ↗met?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where can I find a restroom?\' (xuống giọng). Văn bản Whisper nhận được: \'Where can I find a restroom?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Where can I find a ↘restroom?\n💡 **Luyện tập:** \'Where can I ↘buy?\', \'Where should I ↘go?\', \'Where could I ↘park?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Is this your phone?\' (lên giọng). Văn bản Whisper nhận được: \'Is this your phone?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Is this your ↗phone?\n💡 **Luyện tập:** \'Is that your ↗car?\', \'Is she your ↗sister?\', \'Is it your ↗turn?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How are you?\' (xuống giọng). Văn bản Whisper nhận được: \'How are you?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How are ↘you?\n💡 **Luyện tập:** \'How is ↘she?\', \'How are ↘they?\', \'How was ↘it?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Did you call me?\' (lên giọng). Văn bản Whisper nhận được: \'Did you call me?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Did you ↗call me?\n💡 **Luyện tập:** \'Did she ↗text you?\', \'Did they ↗email?\', \'Did he ↗message?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Why didn't you tell me?\' (xuống giọng). Văn bản Whisper nhận được: \'Why didn't you tell me?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Why didn't you ↘tell me?\n💡 **Luyện tập:** \'Why didn't she ↘come?\', \'Why haven't you ↘called?\', \'Why isn't it ↘working?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Can I borrow your pen?\' (lên giọng). Văn bản Whisper nhận được: \'Can I borrow your pen?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Can I ↗borrow your pen?\n💡 **Luyện tập:** \'Can I ↗help?\', \'May I ↗sit here?\', \'Could I ↗ask?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What did you eat for breakfast?\' (xuống giọng). Văn bản Whisper nhận được: \'What did you eat for breakfast?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What did you eat for ↘breakfast?\n💡 **Luyện tập:** \'What did you do ↘yesterday?\', \'What will you eat ↘tonight?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Are you sure?\' (lên giọng). Văn bản Whisper nhận được: \'Are you sure?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Are you ↗sure?\n💡 **Luyện tập:** \'Is it ↗true?\', \'Are they ↗serious?\', \'Was he ↗right?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How often do you exercise?\' (xuống giọng). Văn bản Whisper nhận được: \'How often do you exercise?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How often do you ↘exercise?\n💡 **Luyện tập:** \'How often does she ↘travel?\', \'How often do they ↘meet?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Do you want some water?\' (lên giọng). Văn bản Whisper nhận được: \'Do you want some water?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Do you want some ↗water?\n💡 **Luyện tập:** \'Would you like some ↗tea?\', \'Do you need any ↗help?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where did you buy that?\' (xuống giọng). Văn bản Whisper nhận được: \'Where did you buy that?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Where did you buy ↘that?\n💡 **Luyện tập:** \'Where did you get ↘it?\', \'Where did she find ↘that?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Have you seen my keys?\' (lên giọng). Văn bản Whisper nhận được: \'Have you seen my keys?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Have you seen my ↗keys?\n💡 **Luyện tập:** \'Have you heard the ↗news?\', \'Have you met ↗him?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Who is your favorite singer?\' (xuống giọng). Văn bản Whisper nhận được: \'Who is your favorite singer?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Who is your favorite ↘singer?\n💡 **Luyện tập:** \'Who is your best ↘friend?\', \'Who is the ↘president?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Will you marry me?\' (lên giọng – cầu hôn thường lên giọng). Văn bản Whisper nhận được: \'Will you marry me?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Will you ↗marry me?\n💡 **Luyện tập:** \'Will you be my ↗friend?\', \'Will you help ↗me?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How long have you been waiting?\' (xuống giọng). Văn bản Whisper nhận được: \'How long have you been waiting?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How long have you been ↘waiting?\n💡 **Luyện tập:** \'How long have you lived ↘here?\', \'How long will it ↘take?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Do you speak English?\' (lên giọng). Văn bản Whisper nhận được: \'Do you speak English?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Do you speak ↗English?\n💡 **Luyện tập:** \'Do you understand ↗me?\', \'Do you know ↗him?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What's the matter?\' (xuống giọng). Văn bản Whisper nhận được: \'What's the matter?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What's the ↘matter?\n💡 **Luyện tập:** \'What's the ↘problem?\', \'What's the ↘news?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Can you swim?\' (lên giọng). Văn bản Whisper nhận được: \'Can you swim?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Can you ↗swim?\n💡 **Luyện tập:** \'Can you ↗dance?\', \'Can you ↗sing?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Why are you laughing?\' (xuống giọng). Văn bản Whisper nhận được: \'Why are you laughing?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Why are you ↘laughing?\n💡 **Luyện tập:** \'Why are you ↘smiling?\', \'Why is she ↘crying?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Is everything okay?\' (lên giọng). Văn bản Whisper nhận được: \'Is everything okay?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Is everything ↗okay?\n💡 **Luyện tập:** \'Is everyone ↗here?\', \'Is all ↗well?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How was your day?\' (xuống giọng). Văn bản Whisper nhận được: \'How was your day?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How was your ↘day?\n💡 **Luyện tập:** \'How was your ↘trip?\', \'How was the ↘movie?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Do you have any siblings?\' (lên giọng). Văn bản Whisper nhận được: \'Do you have any siblings?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Do you have any ↗siblings?\n💡 **Luyện tập:** \'Do you have any ↗questions?\', \'Do you have any ↗idea?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What's your favorite color?\' (xuống giọng). Văn bản Whisper nhận được: \'What's your favorite color?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What's your favorite ↘color?\n💡 **Luyện tập:** \'What's your favorite ↘food?\', \'What's your favorite ↘movie?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Are you listening?\' (lên giọng). Văn bản Whisper nhận được: \'Are you listening?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Are you ↗listening?\n💡 **Luyện tập:** \'Are you ↗watching?\', \'Are you ↗paying attention?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'When will you arrive?\' (xuống giọng). Văn bản Whisper nhận được: \'When will you arrive?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** When will you ↘arrive?\n💡 **Luyện tập:** \'When will she ↘come?\', \'When will they ↘leave?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Could you close the door?\' (lên giọng – yêu cầu lịch sự). Văn bản Whisper nhận được: \'Could you close the door?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Could you ↗close the door?\n💡 **Luyện tập:** \'Could you ↗open the window?\', \'Could you ↗turn on the light?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How did you do that?\' (xuống giọng). Văn bản Whisper nhận được: \'How did you do that?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How did you do ↘that?\n💡 **Luyện tập:** \'How did you learn ↘English?\', \'How did you get ↘here?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Do you want to play?\' (lên giọng). Văn bản Whisper nhận được: \'Do you want to play?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Do you want to ↗play?\n💡 **Luyện tập:** \'Do you want to ↗go?\', \'Do you want to ↗eat?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where are the keys?\' (xuống giọng). Văn bản Whisper nhận được: \'Where are the keys?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Where are the ↘keys?\n💡 **Luyện tập:** \'Where is my ↘phone?\', \'Where are my ↘glasses?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Is this seat taken?\' (lên giọng). Văn bản Whisper nhận được: \'Is this seat taken?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Is this seat ↗taken?\n💡 **Luyện tập:** \'Is this seat ↗free?\', \'Is this ↗available?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How do you spell that?\' (xuống giọng). Văn bản Whisper nhận được: \'How do you spell that?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How do you spell ↘that?\n💡 **Luyện tập:** \'How do you pronounce ↘this?\', \'How do you say ↘that?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Did you hear that?\' (lên giọng). Văn bản Whisper nhận được: \'Did you hear that?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Did you hear ↗that?\n💡 **Luyện tập:** \'Did you see ↗that?\', \'Did you feel ↗that?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Why don't you try?\' (xuống giọng). Văn bản Whisper nhận được: \'Why don't you try?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Why don't you ↘try?\n💡 **Luyện tập:** \'Why don't we ↘go?\', \'Why don't you ↘join?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Are we there yet?\' (lên giọng). Văn bản Whisper nhận được: \'Are we there yet?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Are we ↗there yet?\n💡 **Luyện tập:** \'Are you ↗ready yet?\', \'Is it ↗done yet?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What happened?\' (xuống giọng). Văn bản Whisper nhận được: \'What happened?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What ↘happened?\n💡 **Luyện tập:** \'What ↘happens?\', \'What went ↘wrong?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Can you hear me?\' (lên giọng). Văn bản Whisper nhận được: \'Can you hear me?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Can you ↗hear me?\n💡 **Luyện tập:** \'Can you ↗see me?\', \'Can you ↗understand me?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where did you go?\' (xuống giọng). Văn bản Whisper nhận được: \'Where did you go?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Where did you ↘go?\n💡 **Luyện tập:** \'Where did she ↘stay?\', \'Where did they ↘eat?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Do you mind if I sit here?\' (lên giọng). Văn bản Whisper nhận được: \'Do you mind if I sit here?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Do you mind if I sit ↗here?\n💡 **Luyện tập:** \'Do you mind if I ↗smoke?\', \'Do you mind if we ↗leave?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How old is your son?\' (xuống giọng). Văn bản Whisper nhận được: \'How old is your son?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How old is your ↘son?\n💡 **Luyện tập:** \'How old is your ↘daughter?\', \'How old are ↘they?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Have you ever tried sushi?\' (lên giọng). Văn bản Whisper nhận được: \'Have you ever tried sushi?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Have you ever tried ↗sushi?\n💡 **Luyện tập:** \'Have you ever been to ↗Paris?\', \'Have you ever seen a ↗ghost?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What did he say?\' (xuống giọng). Văn bản Whisper nhận được: \'What did he say?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What did he ↘say?\n💡 **Luyện tập:** \'What did she ↘mean?\', \'What did they ↘want?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Will you be home for dinner?\' (lên giọng). Văn bản Whisper nhận được: \'Will you be home for dinner?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Will you be home for ↗dinner?\n💡 **Luyện tập:** \'Will you be ↗late?\', \'Will they be ↗there?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How much does it cost?\' (xuống giọng). Văn bản Whisper nhận được: \'How much does it cost?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How much does it ↘cost?\n💡 **Luyện tập:** \'How much do they ↘charge?\', \'How much is the ↘ticket?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Are you feeling okay?\' (lên giọng). Văn bản Whisper nhận được: \'Are you feeling okay?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Are you feeling ↗okay?\n💡 **Luyện tập:** \'Are you feeling ↗better?\', \'Is she feeling ↗well?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What's the difference?\' (xuống giọng). Văn bản Whisper nhận được: \'What's the difference?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What's the ↘difference?\n💡 **Luyện tập:** \'What's the ↘problem?\', \'What's the ↘solution?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Do you know the answer?\' (lên giọng). Văn bản Whisper nhận được: \'Do you know the answer?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Do you know the ↗answer?\n💡 **Luyện tập:** \'Do you know the ↗way?\', \'Do you know the ↗truth?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where do you work?\' (xuống giọng). Văn bản Whisper nhận được: \'Where do you work?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Where do you ↘work?\n💡 **Luyện tập:** \'Where does she ↘study?\', \'Where do they ↘live?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Is that your final answer?\' (lên giọng). Văn bản Whisper nhận được: \'Is that your final answer?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Is that your final ↗answer?\n💡 **Luyện tập:** \'Is that your ↗decision?\', \'Is that your ↗choice?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How long will it take?\' (xuống giọng). Văn bản Whisper nhận được: \'How long will it take?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How long will it ↘take?\n💡 **Luyện tập:** \'How long will the meeting ↘last?\', \'How long will the journey ↘be?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Can you speak slower?\' (lên giọng). Văn bản Whisper nhận được: \'Can you speak slower?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Can you speak ↗slower?\n💡 **Luyện tập:** \'Can you speak ↗louder?\', \'Can you repeat ↗that?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What kind of music do you like?\' (xuống giọng). Văn bản Whisper nhận được: \'What kind of music do you like?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What kind of music do you ↘like?\n💡 **Luyện tập:** \'What kind of food do you ↘enjoy?\', \'What kind of books do you ↘read?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Are you coming with us?\' (lên giọng). Văn bản Whisper nhận được: \'Are you coming with us?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Are you coming with ↗us?\n💡 **Luyện tập:** \'Are you joining ↗us?\', \'Are you leaving ↗now?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Who told you that?\' (xuống giọng). Văn bản Whisper nhận được: \'Who told you that?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Who told you ↘that?\n💡 **Luyện tập:** \'Who gave you ↘that?\', \'Who showed you ↘that?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Have you finished your homework?\' (lên giọng). Văn bản Whisper nhận được: \'Have you finished your homework?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Have you finished your ↗homework?\n💡 **Luyện tập:** \'Have you done your ↗chores?\', \'Have you completed your ↗task?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How was your weekend?\' (xuống giọng). Văn bản Whisper nhận được: \'How was your weekend?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How was your ↘weekend?\n💡 **Luyện tập:** \'How was your ↘vacation?\', \'How was your ↘holiday?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Do you like pizza?\' (lên giọng). Văn bản Whisper nhận được: \'Do you like pizza?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Do you like ↗pizza?\n💡 **Luyện tập:** \'Do you like ↗coffee?\', \'Do you like ↗tea?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Why is the sky blue?\' (xuống giọng). Văn bản Whisper nhận được: \'Why is the sky blue?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Why is the sky ↘blue?\n💡 **Luyện tập:** \'Why is the grass ↘green?\', \'Why is water ↘wet?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Could you help me with this?\' (lên giọng). Văn bản Whisper nhận được: \'Could you help me with this?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Could you help me with ↗this?\n💡 **Luyện tập:** \'Could you assist ↗me?\', \'Could you explain ↗that?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What's the weather like?\' (xuống giọng). Văn bản Whisper nhận được: \'What's the weather like?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What's the weather ↘like?\n💡 **Luyện tập:** \'What's the temperature ↘today?\', \'What's the forecast ↘like?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Are you hungry?\' (lên giọng). Văn bản Whisper nhận được: \'Are you hungry?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Are you ↗hungry?\n💡 **Luyện tập:** \'Are you ↗thirsty?\', \'Are you ↗tired?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where did you learn English?\' (xuống giọng). Văn bản Whisper nhận được: \'Where did you learn English?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Where did you learn ↘English?\n💡 **Luyện tập:** \'Where did you study ↘French?\', \'Where did you pick up ↘Spanish?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Do you want to go out tonight?\' (lên giọng). Văn bản Whisper nhận được: \'Do you want to go out tonight?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Do you want to go out ↗tonight?\n💡 **Luyện tập:** \'Do you want to eat ↗out?\', \'Do you want to stay ↗home?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How did you meet your wife?\' (xuống giọng). Văn bản Whisper nhận được: \'How did you meet your wife?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How did you meet your ↘wife?\n💡 **Luyện tập:** \'How did you meet your ↘husband?\', \'How did you become ↘friends?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Will you be there?\' (lên giọng). Văn bản Whisper nhận được: \'Will you be there?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Will you be ↗there?\n💡 **Luyện tập:** \'Will you be ↗home?\', \'Will you be ↗available?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What's your phone number?\' (xuống giọng). Văn bản Whisper nhận được: \'What's your phone number?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What's your phone ↘number?\n💡 **Luyện tập:** \'What's your email ↘address?\', \'What's your home ↘address?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Can I have the bill?\' (lên giọng). Văn bản Whisper nhận được: \'Can I have the bill?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Can I have the ↗bill?\n💡 **Luyện tập:** \'Can I have the ↗menu?\', \'Can I have a ↗receipt?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where are you from?\' (xuống giọng). Văn bản Whisper nhận được: \'Where are you from?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Where are you ↘from?\n💡 **Luyện tập:** \'Where do you come ↘from?\', \'Where were you ↘born?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Did you enjoy the show?\' (lên giọng). Văn bản Whisper nhận được: \'Did you enjoy the show?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Did you enjoy the ↗show?\n💡 **Luyện tập:** \'Did you like the ↗concert?\', \'Did you love the ↗play?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How often do you go to the gym?\' (xuống giọng). Văn bản Whisper nhận được: \'How often do you go to the gym?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How often do you go to the ↘gym?\n💡 **Luyện tập:** \'How often do you ↘run?\', \'How often do you ↘swim?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Are you free tomorrow?\' (lên giọng). Văn bản Whisper nhận được: \'Are you free tomorrow?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Are you free ↗tomorrow?\n💡 **Luyện tập:** \'Are you available ↗tomorrow?\', \'Are you busy ↗tomorrow?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What do you do for a living?\' (xuống giọng). Văn bản Whisper nhận được: \'What do you do for a living?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What do you do for a ↘living?\n💡 **Luyện tập:** \'What's your ↘job?\', \'What's your ↘profession?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Do you want some coffee?\' (lên giọng). Văn bản Whisper nhận được: \'Do you want some coffee?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Do you want some ↗coffee?\n💡 **Luyện tập:** \'Do you want some ↗tea?\', \'Do you want some ↗juice?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Why did you choose that?\' (xuống giọng). Văn bản Whisper nhận được: \'Why did you choose that?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Why did you choose ↘that?\n💡 **Luyện tập:** \'Why did you pick ↘that?\', \'Why did you select ↘that?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Have you heard the news?\' (lên giọng). Văn bản Whisper nhận được: \'Have you heard the news?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Have you heard the ↗news?\n💡 **Luyện tập:** \'Have you seen the ↗headlines?\', \'Have you read the ↗article?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How do you know that?\' (xuống giọng). Văn bản Whisper nhận được: \'How do you know that?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How do you know ↘that?\n💡 **Luyện tập:** \'How did you find ↘out?\', \'How did you learn ↘that?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Is this your first time here?\' (lên giọng). Văn bản Whisper nhận được: \'Is this your first time here?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Is this your first time ↗here?\n💡 **Luyện tập:** \'Is this your first ↗visit?\', \'Is this your first ↗trip?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What time do you wake up?\' (xuống giọng). Văn bản Whisper nhận được: \'What time do you wake up?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What time do you wake ↘up?\n💡 **Luyện tập:** \'What time do you get ↘up?\', \'What time do you start ↘work?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Can you give me a hand?\' (lên giọng). Văn bản Whisper nhận được: \'Can you give me a hand?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Can you give me a ↗hand?\n💡 **Luyện tập:** \'Can you lend me a ↗hand?\', \'Can you help ↗me?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where did you put my keys?\' (xuống giọng). Văn bản Whisper nhận được: \'Where did you put my keys?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Where did you put my ↘keys?\n💡 **Luyện tập:** \'Where did you leave my ↘phone?\', \'Where did you hide my ↘wallet?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Do you know what time it is?\' (lên giọng). Văn bản Whisper nhận được: \'Do you know what time it is?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Do you know what time it ↗is?\n💡 **Luyện tập:** \'Do you know what day it ↗is?\', \'Do you know what date it ↗is?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How was your exam?\' (xuống giọng). Văn bản Whisper nhận được: \'How was your exam?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How was your ↘exam?\n💡 **Luyện tập:** \'How was your ↘test?\', \'How was your ↘interview?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Are you ready to order?\' (lên giọng). Văn bản Whisper nhận được: \'Are you ready to order?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Are you ready to ↗order?\n💡 **Luyện tập:** \'Are you ready to ↗leave?\', \'Are you ready to ↗start?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What did you have for lunch?\' (xuống giọng). Văn bản Whisper nhận được: \'What did you have for lunch?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What did you have for ↘lunch?\n💡 **Luyện tập:** \'What did you eat for ↘breakfast?\', \'What did you drink for ↘dinner?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Can I ask you a question?\' (lên giọng). Văn bản Whisper nhận được: \'Can I ask you a question?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Can I ask you a ↗question?\n💡 **Luyện tập:** \'Can I ask you a ↗favor?\', \'Can I ask you ↗something?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How many people are coming?\' (xuống giọng). Văn bản Whisper nhận được: \'How many people are coming?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How many people are ↘coming?\n💡 **Luyện tập:** \'How many guests are ↘invited?\', \'How many friends are ↘joining?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Do you need any help?\' (lên giọng). Văn bản Whisper nhận được: \'Do you need any help?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Do you need any ↗help?\n💡 **Luyện tập:** \'Do you need any ↗assistance?\', \'Do you need any ↗support?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What's your hobby?\' (xuống giọng). Văn bản Whisper nhận được: \'What's your hobby?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What's your ↘hobby?\n💡 **Luyện tập:** \'What's your ↘interest?\', \'What's your ↘passion?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Is it raining outside?\' (lên giọng). Văn bản Whisper nhận được: \'Is it raining outside?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Is it raining ↗outside?\n💡 **Luyện tập:** \'Is it snowing ↗outside?\', \'Is it sunny ↗outside?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where were you born?\' (xuống giọng). Văn bản Whisper nhận được: \'Where were you born?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** Where were you ↘born?\n💡 **Luyện tập:** \'Where did you grow ↘up?\', \'Where did you live as a ↘child?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Did you watch the game last night?\' (lên giọng). Văn bản Whisper nhận được: \'Did you watch the game last night?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Did you watch the game last ↗night?\n💡 **Luyện tập:** \'Did you see the movie last ↗week?\', \'Did you hear the concert last ↗month?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How do you get to work?\' (xuống giọng). Văn bản Whisper nhận được: \'How do you get to work?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** How do you get to ↘work?\n💡 **Luyện tập:** \'How do you commute to ↘school?\', \'How do you travel to ↘the office?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Could you turn down the music?\' (lên giọng). Văn bản Whisper nhận được: \'Could you turn down the music?\' (xuống giọng).",
+    "output": "✅ **Corrected Intonation:** Could you turn down the ↗music?\n💡 **Luyện tập:** \'Could you turn up the ↗TV?\', \'Could you turn off the ↗light?\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu hỏi và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What's your favorite season?\' (xuống giọng). Văn bản Whisper nhận được: \'What's your favorite season?\' (lên giọng).",
+    "output": "✅ **Corrected Intonation:** What's your favorite ↘season?\n💡 **Luyện tập:** \'What's your favorite ↘month?\', \'What's your favorite ↘holiday?\'"
+  }
+]

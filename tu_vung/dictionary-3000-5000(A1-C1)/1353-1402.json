@@ -1,0 +1,1837 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 1353,
+    "fields": {
+      "word": "guy",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ɡaɪ",
+      "ipa_us": "ɡaɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chàng trai, gã",
+      "definition_en": "An informal word for a man.",
+      "example_en": "He's a really nice guy.",
+      "example_vi": "Anh ấy là một chàng trai thực sự tốt.",
+      "collocations_json": [
+        "nice guy",
+        "bad guy",
+        "tough guy"
+      ],
+      "synonyms_json": [
+        "man",
+        "fellow",
+        "dude"
+      ],
+      "antonyms_json": [
+        "girl"
+      ],
+      "mnemonic": "Đọc giống 'gai'. Một chàng trai có thể là một cái 'gai' trong mắt ai đó.",
+      "frequency_rank": 800,
+      "register": "informal",
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1354,
+    "fields": {
+      "word": "habit",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈhæbət",
+      "ipa_us": "ˈhæbɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thói quen",
+      "definition_en": "Something that you do often and regularly, sometimes without knowing that you are doing it.",
+      "example_en": "I'm trying to break the habit of biting my nails.",
+      "example_vi": "Tôi đang cố gắng từ bỏ thói quen cắn móng tay.",
+      "collocations_json": [
+        "good habit",
+        "bad habit",
+        "break a habit"
+      ],
+      "synonyms_json": [
+        "routine",
+        "custom"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Đọc giống 'hả bịt'. Có thói quen 'hả bịt' mũi khi hắt hơi.",
+      "frequency_rank": 1500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1355,
+    "fields": {
+      "word": "half",
+      "part_of_speech": "adverb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "hæf",
+      "ipa_us": "hæf",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một nửa, phần rưỡi",
+      "definition_en": "To the extent of half.",
+      "example_en": "The glass is half empty.",
+      "example_vi": "Cái ly đã vơi đi một nửa.",
+      "collocations_json": [
+        "half asleep",
+        "half done",
+        "half dead"
+      ],
+      "synonyms_json": [
+        "partially",
+        "partly"
+      ],
+      "antonyms_json": [
+        "fully",
+        "completely"
+      ],
+      "mnemonic": "Đọc giống 'háp'. Ăn một 'háp' là hết một nửa cái bánh.",
+      "frequency_rank": 500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1356,
+    "fields": {
+      "word": "hall",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "hɔl",
+      "ipa_us": "hɔːl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hội trường, hành lang",
+      "definition_en": "A large room for meetings or a space just inside the main entrance of a building.",
+      "example_en": "Leave your umbrella in the hall.",
+      "example_vi": "Hãy để ô của bạn ở hành lang.",
+      "collocations_json": [
+        "entrance hall",
+        "town hall",
+        "concert hall"
+      ],
+      "synonyms_json": [
+        "corridor",
+        "lobby"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Đọc giống 'ho'. Trong hội trường lớn, một tiếng 'ho' cũng vang vọng.",
+      "frequency_rank": 1200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1357,
+    "fields": {
+      "word": "happily",
+      "part_of_speech": "adverb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈhæpəli",
+      "ipa_us": "ˈhæpɪli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một cách vui vẻ",
+      "definition_en": "In a happy way.",
+      "example_en": "They lived happily ever after.",
+      "example_vi": "Họ sống hạnh phúc mãi mãi về sau.",
+      "collocations_json": [
+        "live happily",
+        "smile happily",
+        "happily married"
+      ],
+      "synonyms_json": [
+        "joyfully",
+        "cheerfully"
+      ],
+      "antonyms_json": [
+        "sadly",
+        "unhappily"
+      ],
+      "mnemonic": "Từ này được tạo ra từ 'happy' + đuôi '-ly' để chỉ trạng thái vui vẻ.",
+      "frequency_rank": 2000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1358,
+    "fields": {
+      "word": "have",
+      "part_of_speech": "other",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "hæv",
+      "ipa_us": "hæv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trợ động từ (thì hoàn thành)",
+      "definition_en": "Used with a past participle to form the present perfect and past perfect tenses.",
+      "example_en": "I have lived here for 10 years.",
+      "example_vi": "Tôi đã sống ở đây được 10 năm.",
+      "collocations_json": [
+        "have been",
+        "have done",
+        "have seen"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Khi 'have' đi kèm một động từ ở phân từ hai (V3/ed), nó là trợ động từ của thì hoàn thành.",
+      "frequency_rank": 10,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1359,
+    "fields": {
+      "word": "headache",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "medical",
+      "ipa_uk": "ˈhɛˌdeɪk",
+      "ipa_us": "ˈhedeɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chứng đau đầu",
+      "definition_en": "A pain you feel inside your head.",
+      "example_en": "I have a terrible headache.",
+      "example_vi": "Tôi bị đau đầu khủng khiếp.",
+      "collocations_json": [
+        "have a headache",
+        "terrible headache",
+        "give someone a headache"
+      ],
+      "synonyms_json": [
+        "migraine"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Kết hợp 'head' (đầu) và 'ache' (đau) -> Đau đầu.",
+      "frequency_rank": 2500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1360,
+    "fields": {
+      "word": "heart",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "hɑrt",
+      "ipa_us": "hɑːrt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trái tim",
+      "definition_en": "The organ in your chest that sends the blood around your body.",
+      "example_en": "He has a kind heart.",
+      "example_vi": "Anh ấy có một trái tim nhân hậu.",
+      "collocations_json": [
+        "heart attack",
+        "broken heart",
+        "learn by heart"
+      ],
+      "synonyms_json": [
+        "core",
+        "center"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Đọc giống 'hát'. Trái tim thích 'hát' những bản tình ca.",
+      "frequency_rank": 800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1361,
+    "fields": {
+      "word": "heat",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "nature",
+      "ipa_uk": "hit",
+      "ipa_us": "hiːt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sức nóng, hơi nóng",
+      "definition_en": "The quality of being hot or warm.",
+      "example_en": "I can't stand the heat of the sun.",
+      "example_vi": "Tôi không thể chịu nổi sức nóng của mặt trời.",
+      "collocations_json": [
+        "summer heat",
+        "intense heat",
+        "turn up the heat"
+      ],
+      "synonyms_json": [
+        "warmth",
+        "hotness"
+      ],
+      "antonyms_json": [
+        "cold"
+      ],
+      "mnemonic": "Đọc giống 'hít'. Khi trời nóng, ta thở 'hít' hà.",
+      "frequency_rank": 1100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1362,
+    "fields": {
+      "word": "heavy",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈhɛvi",
+      "ipa_us": "ˈhevi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nặng",
+      "definition_en": "Weighing a lot.",
+      "example_en": "This box is too heavy for me to lift.",
+      "example_vi": "Chiếc hộp này quá nặng đối với tôi để nâng lên.",
+      "collocations_json": [
+        "heavy rain",
+        "heavy bag",
+        "heavy traffic"
+      ],
+      "synonyms_json": [
+        "weighty",
+        "massive"
+      ],
+      "antonyms_json": [
+        "light"
+      ],
+      "mnemonic": "Đọc giống 'he-vi' (con heo). Con heo (heo-vi) thì rất nặng.",
+      "frequency_rank": 800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1363,
+    "fields": {
+      "word": "height",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "haɪt",
+      "ipa_us": "haɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chiều cao, độ cao",
+      "definition_en": "The distance from the top to the bottom of something.",
+      "example_en": "What is the height of that building?",
+      "example_vi": "Chiều cao của tòa nhà đó là bao nhiêu?",
+      "collocations_json": [
+        "great height",
+        "average height",
+        "fear of heights"
+      ],
+      "synonyms_json": [
+        "tallness",
+        "elevation"
+      ],
+      "antonyms_json": [
+        "depth",
+        "width"
+      ],
+      "mnemonic": "Đọc giống 'hát'. Lên độ cao (height) thì phải 'hát' thật to.",
+      "frequency_rank": 1600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1364,
+    "fields": {
+      "word": "helpful",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈhɛlpfəl",
+      "ipa_us": "ˈhelpfl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hữu ích, hay giúp đỡ",
+      "definition_en": "Willing to help, or useful.",
+      "example_en": "The staff at the hotel were very helpful.",
+      "example_vi": "Nhân viên tại khách sạn rất nhiệt tình giúp đỡ.",
+      "collocations_json": [
+        "helpful advice",
+        "very helpful",
+        "find something helpful"
+      ],
+      "synonyms_json": [
+        "useful",
+        "supportive"
+      ],
+      "antonyms_json": [
+        "useless",
+        "unhelpful"
+      ],
+      "mnemonic": "Help (giúp) + ful (đầy) = Đầy sự giúp đỡ -> Hữu ích.",
+      "frequency_rank": 1800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1365,
+    "fields": {
+      "word": "hero",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "art",
+      "ipa_uk": "ˈhɪroʊ",
+      "ipa_us": "ˈhɪroʊ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "anh hùng",
+      "definition_en": "A person who is admired for having done something very brave or having achieved something great.",
+      "example_en": "He is a national hero.",
+      "example_vi": "Ông ấy là một vị anh hùng dân tộc.",
+      "collocations_json": [
+        "national hero",
+        "action hero",
+        "local hero"
+      ],
+      "synonyms_json": [
+        "champion",
+        "idol"
+      ],
+      "antonyms_json": [
+        "villain",
+        "coward"
+      ],
+      "mnemonic": "Đọc giống 'hi-rô'. 'Hi-rô' (Hiro) thường là tên của những anh hùng trong truyện tranh.",
+      "frequency_rank": 1900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1366,
+    "fields": {
+      "word": "hers",
+      "part_of_speech": "other",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "hərz",
+      "ipa_us": "hɜːrz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái của cô ấy",
+      "definition_en": "The one or ones belonging to or connected with a woman, girl, or female animal.",
+      "example_en": "That book is hers.",
+      "example_vi": "Cuốn sách đó là của cô ấy.",
+      "collocations_json": [
+        "a friend of hers"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "his",
+        "mine"
+      ],
+      "mnemonic": "Từ 'her' thêm 's' để trở thành đại từ sở hữu, thay thế cho danh từ đứng trước.",
+      "frequency_rank": 1200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1367,
+    "fields": {
+      "word": "herself",
+      "part_of_speech": "other",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "hərˈsɛlf",
+      "ipa_us": "hərˈself",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chính cô ấy",
+      "definition_en": "Used to refer back to a female person or animal that is the subject of the verb.",
+      "example_en": "She made the dress herself.",
+      "example_vi": "Cô ấy tự tay may chiếc váy đó.",
+      "collocations_json": [
+        "by herself",
+        "she herself"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "himself"
+      ],
+      "mnemonic": "Her (cô ấy) + self (bản thân) = Chính cô ấy.",
+      "frequency_rank": 950,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1368,
+    "fields": {
+      "word": "hide",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "haɪd",
+      "ipa_us": "haɪd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giấu, trốn",
+      "definition_en": "To put something or someone in a place where they cannot be seen or found.",
+      "example_en": "She tried to hide her face.",
+      "example_vi": "Cô ấy cố gắng che giấu khuôn mặt của mình.",
+      "collocations_json": [
+        "hide from",
+        "hide and seek",
+        "hide something"
+      ],
+      "synonyms_json": [
+        "conceal",
+        "cover"
+      ],
+      "antonyms_json": [
+        "show",
+        "reveal"
+      ],
+      "mnemonic": "Đọc giống 'hai' (2). Phải 'hai' đứa mới chơi trò trốn tìm (hide and seek) được.",
+      "frequency_rank": 1150,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1369,
+    "fields": {
+      "word": "high",
+      "part_of_speech": "adverb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "haɪ",
+      "ipa_us": "haɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cao (mức độ, vị trí)",
+      "definition_en": "At or to a large distance above the ground.",
+      "example_en": "The bird flew high in the sky.",
+      "example_vi": "Con chim bay cao vút trên bầu trời.",
+      "collocations_json": [
+        "fly high",
+        "jump high",
+        "aim high"
+      ],
+      "synonyms_json": [
+        "aloft",
+        "soaring"
+      ],
+      "antonyms_json": [
+        "low"
+      ],
+      "mnemonic": "Đọc giống 'hai' (2). Vị trí số 2 không cao bằng số 1 nhưng cũng rất 'cao' rồi.",
+      "frequency_rank": 200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1370,
+    "fields": {
+      "word": "hill",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "nature",
+      "ipa_uk": "hɪl",
+      "ipa_us": "hɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ngọn đồi",
+      "definition_en": "An area of land that is higher than the surrounding land.",
+      "example_en": "They ran up the hill.",
+      "example_vi": "Họ chạy lên đồi.",
+      "collocations_json": [
+        "up the hill",
+        "down the hill",
+        "steep hill"
+      ],
+      "synonyms_json": [
+        "mound",
+        "rise"
+      ],
+      "antonyms_json": [
+        "valley"
+      ],
+      "mnemonic": "Đọc giống 'hiu'. Gió hiu hiu thổi trên ngọn đồi.",
+      "frequency_rank": 1600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1371,
+    "fields": {
+      "word": "himself",
+      "part_of_speech": "other",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "hɪmˈsɛlf",
+      "ipa_us": "hɪmˈself",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chính anh ấy",
+      "definition_en": "Used to refer back to a male person or animal that is the subject of the verb.",
+      "example_en": "He painted the room himself.",
+      "example_vi": "Anh ấy đã tự tay sơn căn phòng.",
+      "collocations_json": [
+        "by himself",
+        "he himself"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "herself"
+      ],
+      "mnemonic": "Him (anh ấy) + self (bản thân) = Chính anh ấy.",
+      "frequency_rank": 650,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1372,
+    "fields": {
+      "word": "his",
+      "part_of_speech": "other",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "hɪz",
+      "ipa_us": "hɪz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái của anh ấy",
+      "definition_en": "The one or ones belonging to or connected with a man, boy, or male animal.",
+      "example_en": "The red car is his.",
+      "example_vi": "Chiếc xe màu đỏ là của anh ấy.",
+      "collocations_json": [
+        "a friend of his"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "hers",
+        "mine"
+      ],
+      "mnemonic": "Từ 'his' vừa là tính từ sở hữu vừa là đại từ sở hữu.",
+      "frequency_rank": 80,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1373,
+    "fields": {
+      "word": "hit",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "hɪt",
+      "ipa_us": "hɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đánh, va chạm",
+      "definition_en": "To touch someone or something quickly and with force.",
+      "example_en": "The ball hit him on the head.",
+      "example_vi": "Quả bóng đã đập trúng đầu anh ấy.",
+      "collocations_json": [
+        "hit hard",
+        "hit a target",
+        "hit the road"
+      ],
+      "synonyms_json": [
+        "strike",
+        "beat",
+        "smash"
+      ],
+      "antonyms_json": [
+        "miss"
+      ],
+      "mnemonic": "Đọc giống 'hít'. Hít một hơi thật sâu rồi 'đánh' một cái thật mạnh.",
+      "frequency_rank": 850,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1374,
+    "fields": {
+      "word": "hockey",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "ˈhɑki",
+      "ipa_us": "ˈhɑːki",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khúc côn cầu",
+      "definition_en": "A game played on a sports field or on ice, in which two teams try to hit a small hard object into a goal.",
+      "example_en": "He plays ice hockey in the winter.",
+      "example_vi": "Anh ấy chơi khúc côn cầu trên băng vào mùa đông.",
+      "collocations_json": [
+        "ice hockey",
+        "field hockey",
+        "play hockey"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Đọc giống 'hoắc-kỳ' (hoa kỳ). Ở Hoa Kỳ (Mỹ), khúc côn cầu trên băng rất phổ biến.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1375,
+    "fields": {
+      "word": "hold",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "hoʊld",
+      "ipa_us": "hoʊld",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cầm, nắm, giữ",
+      "definition_en": "To have something in your hand or arms.",
+      "example_en": "Can you hold my bag for a minute?",
+      "example_vi": "Bạn có thể cầm túi giúp tôi một phút được không?",
+      "collocations_json": [
+        "hold hands",
+        "hold on",
+        "hold a meeting"
+      ],
+      "synonyms_json": [
+        "grasp",
+        "keep",
+        "retain"
+      ],
+      "antonyms_json": [
+        "drop",
+        "release"
+      ],
+      "mnemonic": "Đọc giống 'hâu'. Khi chụp ảnh (hâu), mọi người phải 'giữ' nguyên vị trí.",
+      "frequency_rank": 400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1376,
+    "fields": {
+      "word": "hole",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "hoʊl",
+      "ipa_us": "hoʊl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái lỗ, hố",
+      "definition_en": "An empty space in an object, usually with an opening to the object's surface.",
+      "example_en": "There's a hole in my sock.",
+      "example_vi": "Có một cái lỗ trên chiếc tất của tôi.",
+      "collocations_json": [
+        "dig a hole",
+        "black hole",
+        "deep hole"
+      ],
+      "synonyms_json": [
+        "gap",
+        "opening"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Đọc giống 'hô'. Rơi xuống một cái hố sâu phải 'hô' hoán lên để người ta cứu.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1377,
+    "fields": {
+      "word": "home",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "hoʊm",
+      "ipa_us": "hoʊm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về gia đình, ở nhà",
+      "definition_en": "Relating to the place where you live or the country where you were born.",
+      "example_en": "He enjoys home cooking.",
+      "example_vi": "Anh ấy thích đồ ăn nấu ở nhà.",
+      "collocations_json": [
+        "home town",
+        "home cooking",
+        "home address"
+      ],
+      "synonyms_json": [
+        "domestic",
+        "family"
+      ],
+      "antonyms_json": [
+        "away",
+        "foreign"
+      ],
+      "mnemonic": "Home (nhà) được dùng như một tính từ để chỉ những gì thuộc về ngôi nhà.",
+      "frequency_rank": 200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1378,
+    "fields": {
+      "word": "hope",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "hoʊp",
+      "ipa_us": "hoʊp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "niềm hy vọng",
+      "definition_en": "A confident feeling about what will happen in the future.",
+      "example_en": "We must not lose hope.",
+      "example_vi": "Chúng ta không được đánh mất niềm hy vọng.",
+      "collocations_json": [
+        "give up hope",
+        "high hopes",
+        "ray of hope"
+      ],
+      "synonyms_json": [
+        "optimism",
+        "expectation"
+      ],
+      "antonyms_json": [
+        "despair",
+        "doubt"
+      ],
+      "mnemonic": "Đọc giống 'hốp' (hớp). Uống một 'hớp' nước để lấy lại niềm hy vọng.",
+      "frequency_rank": 500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1379,
+    "fields": {
+      "word": "huge",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "hjuʤ",
+      "ipa_us": "hjuːdʒ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khổng lồ, rất lớn",
+      "definition_en": "Extremely large in size or amount.",
+      "example_en": "They live in a huge house.",
+      "example_vi": "Họ sống trong một ngôi nhà rất lớn.",
+      "collocations_json": [
+        "huge amount",
+        "huge success",
+        "huge problem"
+      ],
+      "synonyms_json": [
+        "enormous",
+        "massive",
+        "giant"
+      ],
+      "antonyms_json": [
+        "tiny",
+        "small"
+      ],
+      "mnemonic": "Đọc giống 'hiu' (hươu) + giơ (giơ lên). Con hươu cao cổ 'hiu giơ' cái cổ khổng lồ của nó lên.",
+      "frequency_rank": 1000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1380,
+    "fields": {
+      "word": "human",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈhjumən",
+      "ipa_us": "ˈhjuːmən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về con người",
+      "definition_en": "Relating to people or their characteristics.",
+      "example_en": "The human body is very complex.",
+      "example_vi": "Cơ thể con người rất phức tạp.",
+      "collocations_json": [
+        "human rights",
+        "human nature",
+        "human error"
+      ],
+      "synonyms_json": [
+        "mortal",
+        "personal"
+      ],
+      "antonyms_json": [
+        "animal",
+        "alien"
+      ],
+      "mnemonic": "Humanity là nhân loại, Human là tính từ chỉ đặc điểm của loài người.",
+      "frequency_rank": 400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1381,
+    "fields": {
+      "word": "hurt",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "hɜrt",
+      "ipa_us": "hɜːrt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "làm đau, bị đau",
+      "definition_en": "To feel pain in a part of your body, or to injure someone.",
+      "example_en": "My back hurts.",
+      "example_vi": "Lưng tôi bị đau.",
+      "collocations_json": [
+        "hurt feelings",
+        "get hurt",
+        "hurt yourself"
+      ],
+      "synonyms_json": [
+        "injure",
+        "ache",
+        "harm"
+      ],
+      "antonyms_json": [
+        "heal",
+        "comfort"
+      ],
+      "mnemonic": "Đọc giống 'hớt'. Bị 'hớt' tóc trúng da đầu thì rất đau.",
+      "frequency_rank": 950,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1382,
+    "fields": {
+      "word": "ideal",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "aɪˈdil",
+      "ipa_us": "aɪˈdiːəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lý tưởng",
+      "definition_en": "Perfect, or the best possible.",
+      "example_en": "This is an ideal place for a picnic.",
+      "example_vi": "Đây là một nơi lý tưởng cho một buổi dã ngoại.",
+      "collocations_json": [
+        "ideal for",
+        "ideal candidate",
+        "ideal solution"
+      ],
+      "synonyms_json": [
+        "perfect",
+        "flawless"
+      ],
+      "antonyms_json": [
+        "flawed",
+        "imperfect"
+      ],
+      "mnemonic": "Đọc giống 'ai đi eo' (ai đi eo hẹp). Người có vòng eo nhỏ (eo hẹp) là có vóc dáng lý tưởng.",
+      "frequency_rank": 2000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1383,
+    "fields": {
+      "word": "identify",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "academic",
+      "ipa_uk": "aɪˈdɛntəˌfaɪ",
+      "ipa_us": "aɪˈdentɪfaɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhận diện, nhận dạng",
+      "definition_en": "To recognize someone or something and say or prove who or what they are.",
+      "example_en": "Can you identify the man in the photo?",
+      "example_vi": "Bạn có thể nhận dạng người đàn ông trong bức ảnh không?",
+      "collocations_json": [
+        "identify a problem",
+        "identify the cause",
+        "easy to identify"
+      ],
+      "synonyms_json": [
+        "recognize",
+        "spot"
+      ],
+      "antonyms_json": [
+        "confuse"
+      ],
+      "mnemonic": "ID (chứng minh nhân dân) được dùng để identify (nhận diện) một người.",
+      "frequency_rank": 800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1384,
+    "fields": {
+      "word": "ill",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "ɪl",
+      "ipa_us": "ɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ốm, bệnh",
+      "definition_en": "Not feeling well, or suffering from a disease.",
+      "example_en": "He was seriously ill with a fever.",
+      "example_vi": "Anh ấy đã bị ốm nặng vì một cơn sốt.",
+      "collocations_json": [
+        "fall ill",
+        "seriously ill",
+        "mentally ill"
+      ],
+      "synonyms_json": [
+        "sick",
+        "unwell"
+      ],
+      "antonyms_json": [
+        "healthy",
+        "well"
+      ],
+      "mnemonic": "Đọc giống 'iu' (yêu). Đang ốm đau thì cần được 'yêu' thương, chăm sóc.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1385,
+    "fields": {
+      "word": "illness",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "ˈɪlnəs",
+      "ipa_us": "ˈɪlnəs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bệnh tật, sự đau ốm",
+      "definition_en": "A disease of the body or mind.",
+      "example_en": "He missed school because of a sudden illness.",
+      "example_vi": "Anh ấy đã nghỉ học vì một căn bệnh đột ngột.",
+      "collocations_json": [
+        "serious illness",
+        "mental illness",
+        "recover from an illness"
+      ],
+      "synonyms_json": [
+        "disease",
+        "sickness"
+      ],
+      "antonyms_json": [
+        "health"
+      ],
+      "mnemonic": "Ill (ốm) + ness (hậu tố danh từ) = Sự ốm đau, bệnh tật.",
+      "frequency_rank": 1500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1386,
+    "fields": {
+      "word": "image",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "technology",
+      "ipa_uk": "ˈɪməʤ",
+      "ipa_us": "ˈɪmɪdʒ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hình ảnh",
+      "definition_en": "A picture in your mind or an idea of how someone or something is.",
+      "example_en": "The website has high-quality images.",
+      "example_vi": "Trang web có những hình ảnh chất lượng cao.",
+      "collocations_json": [
+        "clear image",
+        "public image",
+        "brand image"
+      ],
+      "synonyms_json": [
+        "picture",
+        "photo",
+        "representation"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Imagine (tưởng tượng) là tạo ra một image (hình ảnh) trong đầu.",
+      "frequency_rank": 500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1387,
+    "fields": {
+      "word": "immediately",
+      "part_of_speech": "adverb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ɪˈmidiətli",
+      "ipa_us": "ɪˈmiːdiətli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ngay lập tức",
+      "definition_en": "Now or without waiting or thinking.",
+      "example_en": "You need to leave immediately.",
+      "example_vi": "Bạn cần phải rời đi ngay lập tức.",
+      "collocations_json": [
+        "act immediately",
+        "stop immediately",
+        "almost immediately"
+      ],
+      "synonyms_json": [
+        "instantly",
+        "at once",
+        "promptly"
+      ],
+      "antonyms_json": [
+        "later",
+        "slowly"
+      ],
+      "mnemonic": "Immediate (ngay lập tức) + ly = một cách ngay lập tức.",
+      "frequency_rank": 950,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1388,
+    "fields": {
+      "word": "impossible",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ɪmˈpɑsəbəl",
+      "ipa_us": "ɪmˈpɑːsəbl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "không thể",
+      "definition_en": "If an action or event is impossible, it cannot happen or be achieved.",
+      "example_en": "It is impossible to finish this in one day.",
+      "example_vi": "Thật không thể hoàn thành việc này trong một ngày.",
+      "collocations_json": [
+        "almost impossible",
+        "virtually impossible",
+        "next to impossible"
+      ],
+      "synonyms_json": [
+        "unachievable",
+        "unthinkable"
+      ],
+      "antonyms_json": [
+        "possible",
+        "achievable"
+      ],
+      "mnemonic": "Im (không) + possible (có thể) = Không thể.",
+      "frequency_rank": 1050,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1389,
+    "fields": {
+      "word": "included",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ɪnˈkludəd",
+      "ipa_us": "ɪnˈkluːdɪd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đã bao gồm",
+      "definition_en": "Contained as part of a whole.",
+      "example_en": "Is breakfast included in the price?",
+      "example_vi": "Bữa sáng có bao gồm trong giá phòng không?",
+      "collocations_json": [
+        "all included",
+        "tax included"
+      ],
+      "synonyms_json": [
+        "contained",
+        "incorporated"
+      ],
+      "antonyms_json": [
+        "excluded"
+      ],
+      "mnemonic": "Include (bao gồm) + ed = đã được bao gồm.",
+      "frequency_rank": 1100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1390,
+    "fields": {
+      "word": "including",
+      "part_of_speech": "other",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ɪnˈkludɪŋ",
+      "ipa_us": "ɪnˈkluːdɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bao gồm cả, kể cả",
+      "definition_en": "Used for saying that a person or thing is part of a particular group or amount.",
+      "example_en": "Everyone was there, including my parents.",
+      "example_vi": "Mọi người đều ở đó, bao gồm cả bố mẹ tôi.",
+      "collocations_json": [
+        "up to and including"
+      ],
+      "synonyms_json": [
+        "plus",
+        "counting"
+      ],
+      "antonyms_json": [
+        "excluding",
+        "except"
+      ],
+      "mnemonic": "Include (bao gồm) chuyển sang dạng V-ing đóng vai trò như một giới từ.",
+      "frequency_rank": 350,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1391,
+    "fields": {
+      "word": "increase",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "business",
+      "ipa_uk": "ˈɪnˌkris",
+      "ipa_us": "ɪnˈkriːs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tăng lên",
+      "definition_en": "To (make something) become larger in amount or size.",
+      "example_en": "The price of oil has increased again.",
+      "example_vi": "Giá dầu lại tăng lên.",
+      "collocations_json": [
+        "increase significantly",
+        "increase the risk",
+        "increase steadily"
+      ],
+      "synonyms_json": [
+        "grow",
+        "rise",
+        "expand"
+      ],
+      "antonyms_json": [
+        "decrease",
+        "reduce"
+      ],
+      "mnemonic": "In (vào) + crease (giống 'khiến') -> Làm cho mọi thứ nhiều thêm vào.",
+      "frequency_rank": 500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1392,
+    "fields": {
+      "word": "incredible",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ɪnˈkrɛdəbəl",
+      "ipa_us": "ɪnˈkredəbl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đáng kinh ngạc, không thể tin được",
+      "definition_en": "Impossible, or very difficult, to believe.",
+      "example_en": "He told an incredible story.",
+      "example_vi": "Anh ấy đã kể một câu chuyện thật khó tin.",
+      "collocations_json": [
+        "absolutely incredible",
+        "incredible speed",
+        "find it incredible"
+      ],
+      "synonyms_json": [
+        "unbelievable",
+        "amazing",
+        "astounding"
+      ],
+      "antonyms_json": [
+        "believable",
+        "ordinary"
+      ],
+      "mnemonic": "In (không) + credible (có thể tin được) = Không thể tin được.",
+      "frequency_rank": 2100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1393,
+    "fields": {
+      "word": "independent",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˌɪndɪˈpɛndənt",
+      "ipa_us": "ˌɪndɪˈpendənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "độc lập, không phụ thuộc",
+      "definition_en": "Not influenced or controlled in any way by other people, events, or things.",
+      "example_en": "She is a very independent young woman.",
+      "example_vi": "Cô ấy là một người phụ nữ trẻ rất độc lập.",
+      "collocations_json": [
+        "independent country",
+        "financially independent",
+        "independent variable"
+      ],
+      "synonyms_json": [
+        "autonomous",
+        "self-reliant"
+      ],
+      "antonyms_json": [
+        "dependent",
+        "reliant"
+      ],
+      "mnemonic": "In (không) + dependent (phụ thuộc) = Độc lập.",
+      "frequency_rank": 1150,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1394,
+    "fields": {
+      "word": "individual",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "academic",
+      "ipa_uk": "ˌɪndəˈvɪʤəwəl",
+      "ipa_us": "ˌɪndɪˈvɪdʒuəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cá nhân",
+      "definition_en": "A single person or thing, especially when compared to the group or set to which they belong.",
+      "example_en": "Every individual has rights.",
+      "example_vi": "Mỗi cá nhân đều có những quyền lợi riêng.",
+      "collocations_json": [
+        "individual needs",
+        "private individual",
+        "each individual"
+      ],
+      "synonyms_json": [
+        "person",
+        "entity"
+      ],
+      "antonyms_json": [
+        "group",
+        "collective"
+      ],
+      "mnemonic": "In-di-vi-du-al: 'In' giấu ấn 'đi-vào' từng người cụ thể -> cá nhân.",
+      "frequency_rank": 550,
+      "register": "academic",
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1395,
+    "fields": {
+      "word": "industry",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "business",
+      "ipa_uk": "ˈɪndəstri",
+      "ipa_us": "ˈɪndəstri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "công nghiệp, ngành công nghiệp",
+      "definition_en": "The companies and activities involved in the process of producing goods for sale.",
+      "example_en": "The car industry is growing fast.",
+      "example_vi": "Ngành công nghiệp ô tô đang phát triển nhanh chóng.",
+      "collocations_json": [
+        "tourist industry",
+        "manufacturing industry",
+        "heavy industry"
+      ],
+      "synonyms_json": [
+        "business",
+        "trade",
+        "commerce"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "In-dus-try: Đi vào (In) đất (dus) khô cằn để cố gắng (try) xây dựng nhà máy công nghiệp.",
+      "frequency_rank": 620,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1396,
+    "fields": {
+      "word": "informal",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ɪnˈfɔrməl",
+      "ipa_us": "ɪnˈfɔːrml",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thân mật, không trang trọng",
+      "definition_en": "Not formal or official.",
+      "example_en": "They had an informal meeting over coffee.",
+      "example_vi": "Họ đã có một cuộc họp thân mật bên tách cà phê.",
+      "collocations_json": [
+        "informal letter",
+        "informal clothes",
+        "informal setting"
+      ],
+      "synonyms_json": [
+        "casual",
+        "relaxed",
+        "unofficial"
+      ],
+      "antonyms_json": [
+        "formal",
+        "official"
+      ],
+      "mnemonic": "In (không) + formal (trang trọng) = Không trang trọng.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1397,
+    "fields": {
+      "word": "injury",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "medical",
+      "ipa_uk": "ˈɪnʤəri",
+      "ipa_us": "ˈɪndʒəri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chấn thương, vết thương",
+      "definition_en": "Physical harm or damage to someone's body.",
+      "example_en": "He suffered a serious head injury.",
+      "example_vi": "Anh ấy đã bị một chấn thương nghiêm trọng ở đầu.",
+      "collocations_json": [
+        "serious injury",
+        "minor injury",
+        "suffer an injury"
+      ],
+      "synonyms_json": [
+        "wound",
+        "damage",
+        "harm"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Đọc giống 'in-giơ-ri'. 'In' dấu vết dơ bẩn lên da thịt -> Vết thương.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1398,
+    "fields": {
+      "word": "insect",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "animals",
+      "ipa_uk": "ˈɪnˌsɛkt",
+      "ipa_us": "ˈɪnsekt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "côn trùng",
+      "definition_en": "A type of very small animal with six legs, a body divided into three parts and usually two pairs of wings.",
+      "example_en": "Ants and flies are insects.",
+      "example_vi": "Kiến và ruồi là côn trùng.",
+      "collocations_json": [
+        "insect bite",
+        "flying insect",
+        "insect repellent"
+      ],
+      "synonyms_json": [
+        "bug"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "In (trong) + sect (cắt ra/phân đoạn). Côn trùng có cơ thể chia thành nhiều đoạn nhỏ.",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1399,
+    "fields": {
+      "word": "inside",
+      "part_of_speech": "other",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ɪnˈsaɪd",
+      "ipa_us": "ˌɪnˈsaɪd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bên trong",
+      "definition_en": "In or into a room, building, container, or something similar.",
+      "example_en": "It's cold outside, let's go inside.",
+      "example_vi": "Bên ngoài trời lạnh, chúng ta hãy vào bên trong đi.",
+      "collocations_json": [
+        "go inside",
+        "look inside",
+        "step inside"
+      ],
+      "synonyms_json": [
+        "indoors",
+        "within"
+      ],
+      "antonyms_json": [
+        "outside",
+        "outdoors"
+      ],
+      "mnemonic": "In (trong) + side (phía) = Phía bên trong.",
+      "frequency_rank": 600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1400,
+    "fields": {
+      "word": "instead",
+      "part_of_speech": "adverb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ɪnˈstɛd",
+      "ipa_us": "ɪnˈsted",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thay vì, thay vào đó",
+      "definition_en": "In place of someone or something else.",
+      "example_en": "I will have tea instead of coffee.",
+      "example_vi": "Tôi sẽ uống trà thay vì cà phê.",
+      "collocations_json": [
+        "instead of",
+        "do something instead",
+        "use something instead"
+      ],
+      "synonyms_json": [
+        "alternatively",
+        "rather"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Đọc giống 'in-sơ-tét'. In cái này ra thay vì (instead) cái kia để làm bài test.",
+      "frequency_rank": 500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1401,
+    "fields": {
+      "word": "instruction",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "academic",
+      "ipa_uk": "ɪnˈstrʌkʃən",
+      "ipa_us": "ɪnˈstrʌkʃn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự hướng dẫn, chỉ thị",
+      "definition_en": "Advice and information about how to do or use something.",
+      "example_en": "Read the instructions carefully before use.",
+      "example_vi": "Hãy đọc kỹ hướng dẫn trước khi sử dụng.",
+      "collocations_json": [
+        "follow instructions",
+        "step-by-step instructions",
+        "give instructions"
+      ],
+      "synonyms_json": [
+        "direction",
+        "guidance",
+        "order"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "In-struc-tion: Đưa vào (In) cấu trúc (struc) hoạt động bằng các hướng dẫn.",
+      "frequency_rank": 1450,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1402,
+    "fields": {
+      "word": "instructor",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "academic",
+      "ipa_uk": "ɪnˈstrʌktər",
+      "ipa_us": "ɪnˈstrʌktər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người hướng dẫn, giáo viên",
+      "definition_en": "A person whose job is to teach people a practical skill.",
+      "example_en": "He is a driving instructor.",
+      "example_vi": "Anh ấy là một giáo viên dạy lái xe.",
+      "collocations_json": [
+        "driving instructor",
+        "fitness instructor",
+        "flight instructor"
+      ],
+      "synonyms_json": [
+        "teacher",
+        "trainer",
+        "coach"
+      ],
+      "antonyms_json": [
+        "student",
+        "pupil"
+      ],
+      "mnemonic": "Instruct (hướng dẫn) + or = Người hướng dẫn.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

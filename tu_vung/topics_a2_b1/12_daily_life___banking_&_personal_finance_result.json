@@ -1,0 +1,2016 @@
+[
+
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "bank account",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbæŋk əˌkaʊnt/",
+      "ipa_us": "/ˈbæŋk əˌkaʊnt/",
+      "meaning_vi": "tài khoản ngân hàng",
+      "definition_en": "An arrangement with a bank to keep your money there and allow you to take it out when you need it.",
+      "example_en": "I need to open a new bank account for my salary.",
+      "example_vi": "Tôi cần mở một tài khoản ngân hàng mới cho tiền lương của mình.",
+      "collocations_json": [
+        "open a bank account",
+        "check bank account",
+        "close a bank account"
+      ],
+      "synonyms_json": [
+        "deposit account"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bank là ngân hàng, account là tài khoản. Ghép lại là tài khoản ngân hàng.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10756
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "deposit",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/dɪˈpɒzɪt/",
+      "ipa_us": "/dɪˈpɑːzɪt/",
+      "meaning_vi": "gửi tiền vào ngân hàng",
+      "definition_en": "To put money into a bank account.",
+      "example_en": "I want to deposit some cash into my savings account.",
+      "example_vi": "Tôi muốn gửi một ít tiền mặt vào tài khoản tiết kiệm của mình.",
+      "collocations_json": [
+        "deposit money",
+        "deposit a cheque",
+        "deposit funds"
+      ],
+      "synonyms_json": [
+        "pay in"
+      ],
+      "antonyms_json": [
+        "withdraw"
+      ],
+      "mnemonic": "Deposit nghe như 'để tiền vào', nhớ là gửi tiền vào ngân hàng.",
+      "frequency_rank": 2100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10757
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "withdraw",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/wɪðˈdrɔː/",
+      "ipa_us": "/wɪðˈdrɔː/",
+      "meaning_vi": "rút tiền",
+      "definition_en": "To take money out of a bank account.",
+      "example_en": "You can withdraw cash from an ATM.",
+      "example_vi": "Bạn có thể rút tiền mặt từ máy ATM.",
+      "collocations_json": [
+        "withdraw cash",
+        "withdraw money",
+        "withdraw funds"
+      ],
+      "synonyms_json": [
+        "take out"
+      ],
+      "antonyms_json": [
+        "deposit"
+      ],
+      "mnemonic": "Withdraw như 'with-draw' kéo ra, nhớ là rút tiền ra.",
+      "frequency_rank": 2300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10758
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "ATM",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˌeɪ tiː ˈem/",
+      "ipa_us": "/ˌeɪ tiː ˈem/",
+      "meaning_vi": "máy rút tiền tự động",
+      "definition_en": "A machine that allows you to get money from your bank account by using a special card.",
+      "example_en": "Is there an ATM near here where I can get some cash?",
+      "example_vi": "Có máy ATM nào gần đây tôi có thể rút tiền mặt không?",
+      "collocations_json": [
+        "find an ATM",
+        "use an ATM",
+        "go to the ATM"
+      ],
+      "synonyms_json": [
+        "cash machine",
+        "cashpoint"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "ATM là viết tắt của 'Automated Teller Machine', nhớ là máy rút tiền tự động.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10759
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "debit card",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdebɪt kɑːd/",
+      "ipa_us": "/ˈdebɪt kɑːrd/",
+      "meaning_vi": "thẻ ghi nợ",
+      "definition_en": "A plastic card that you can use to pay for things directly from your bank account.",
+      "example_en": "I'll pay with my debit card, please.",
+      "example_vi": "Vui lòng cho tôi thanh toán bằng thẻ ghi nợ của mình.",
+      "collocations_json": [
+        "use a debit card",
+        "pay by debit card",
+        "debit card payment"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "credit card"
+      ],
+      "mnemonic": "Debit là nợ, card là thẻ. Thẻ ghi nợ là tiền trừ thẳng từ tài khoản của bạn.",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10760
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "credit card",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkredɪt kɑːd/",
+      "ipa_us": "/ˈkredɪt kɑːrd/",
+      "meaning_vi": "thẻ tín dụng",
+      "definition_en": "A plastic card that allows you to buy goods or services and pay for them later.",
+      "example_en": "Do you accept credit card payments?",
+      "example_vi": "Bạn có chấp nhận thanh toán bằng thẻ tín dụng không?",
+      "collocations_json": [
+        "use a credit card",
+        "pay by credit card",
+        "credit card debt"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "debit card"
+      ],
+      "mnemonic": "Credit là tín dụng, card là thẻ. Thẻ tín dụng là bạn mượn tiền ngân hàng để chi tiêu trước.",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10761
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "PIN",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/pɪn/",
+      "ipa_us": "/pɪn/",
+      "meaning_vi": "mã số cá nhân",
+      "definition_en": "A secret number that you use to access your bank account or to use a debit/credit card.",
+      "example_en": "Never tell anyone your PIN number.",
+      "example_vi": "Đừng bao giờ nói mã PIN của bạn cho bất kỳ ai.",
+      "collocations_json": [
+        "enter your PIN",
+        "PIN number",
+        "forget your PIN"
+      ],
+      "synonyms_json": [
+        "personal identification number"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "PIN như 'pin' cài vào, là mã bảo mật riêng của bạn.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10762
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "balance",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbæləns/",
+      "ipa_us": "/ˈbæləns/",
+      "meaning_vi": "số dư tài khoản",
+      "definition_en": "The amount of money you have in your bank account.",
+      "example_en": "I need to check my account balance.",
+      "example_vi": "Tôi cần kiểm tra số dư tài khoản của mình.",
+      "collocations_json": [
+        "account balance",
+        "current balance",
+        "check your balance"
+      ],
+      "synonyms_json": [
+        "funds",
+        "amount"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Balance là cân bằng, nhớ là số tiền còn lại giúp tài khoản cân bằng.",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10763
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "bank statement",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/ˈbæŋk ˌsteɪtmənt/",
+      "ipa_us": "/ˈbæŋk ˌsteɪtmənt/",
+      "meaning_vi": "bảng sao kê ngân hàng",
+      "definition_en": "A printed record of all the money paid into and out of a customer's bank account.",
+      "example_en": "My bank statement shows all my transactions for the month.",
+      "example_vi": "Bảng sao kê ngân hàng của tôi hiển thị tất cả các giao dịch trong tháng.",
+      "collocations_json": [
+        "receive a bank statement",
+        "monthly bank statement",
+        "check bank statement"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Bank là ngân hàng, statement là báo cáo. Nhớ là báo cáo chi tiết từ ngân hàng.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10764
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "savings account",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈseɪvɪŋz əˌkaʊnt/",
+      "ipa_us": "/ˈseɪvɪŋz əˌkaʊnt/",
+      "meaning_vi": "tài khoản tiết kiệm",
+      "definition_en": "A bank account that earns interest and is typically used for money that is not needed for daily expenses.",
+      "example_en": "I put some money into my savings account every month.",
+      "example_vi": "Tôi gửi một ít tiền vào tài khoản tiết kiệm của mình mỗi tháng.",
+      "collocations_json": [
+        "open a savings account",
+        "transfer to savings account",
+        "high-interest savings account"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "checking account",
+        "current account"
+      ],
+      "mnemonic": "Savings là tiết kiệm, account là tài khoản. Dễ nhớ là tài khoản dùng để tiết kiệm tiền.",
+      "frequency_rank": 1900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10765
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "current account",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkʌrənt əˌkaʊnt/",
+      "ipa_us": "/ˈkɜːrənt əˌkaʊnt/",
+      "meaning_vi": "tài khoản vãng lai",
+      "definition_en": "A bank account that you can take money from at any time and that is used for paying bills.",
+      "example_en": "My salary is paid directly into my current account.",
+      "example_vi": "Tiền lương của tôi được trả trực tiếp vào tài khoản vãng lai.",
+      "collocations_json": [
+        "open a current account",
+        "manage a current account",
+        "current account balance"
+      ],
+      "synonyms_json": [
+        "checking account (US)"
+      ],
+      "antonyms_json": [
+        "savings account"
+      ],
+      "mnemonic": "Current là hiện tại, nhớ là tài khoản dùng cho chi tiêu hiện tại hàng ngày.",
+      "frequency_rank": 2200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10766
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "bill",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/bɪl/",
+      "ipa_us": "/bɪl/",
+      "meaning_vi": "hóa đơn",
+      "definition_en": "A written statement of the money you owe for goods or services.",
+      "example_en": "I need to pay my electricity bill by Friday.",
+      "example_vi": "Tôi cần thanh toán hóa đơn tiền điện trước thứ Sáu.",
+      "collocations_json": [
+        "pay a bill",
+        "electricity bill",
+        "phone bill"
+      ],
+      "synonyms_json": [
+        "invoice"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bill như 'bill-i', là tờ giấy ghi nợ bạn phải trả tiền.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10767
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "pay a bill",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/peɪ ə bɪl/",
+      "ipa_us": "/peɪ ə bɪl/",
+      "meaning_vi": "thanh toán hóa đơn",
+      "definition_en": "To give money for a statement of money owed for goods or services.",
+      "example_en": "I always pay my bills online.",
+      "example_vi": "Tôi luôn thanh toán hóa đơn trực tuyến.",
+      "collocations_json": [
+        "pay the electricity bill",
+        "pay your phone bill",
+        "pay bills on time"
+      ],
+      "synonyms_json": [
+        "settle a bill"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Pay là trả, bill là hóa đơn. Dễ nhớ là trả tiền hóa đơn.",
+      "frequency_rank": 1100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10768
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "loan",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ləʊn/",
+      "ipa_us": "/loʊn/",
+      "meaning_vi": "khoản vay",
+      "definition_en": "An amount of money that is borrowed, especially from a bank, and has to be paid back.",
+      "example_en": "I took out a small loan to buy a new car.",
+      "example_vi": "Tôi đã vay một khoản nhỏ để mua một chiếc ô tô mới.",
+      "collocations_json": [
+        "take out a loan",
+        "repay a loan",
+        "student loan"
+      ],
+      "synonyms_json": [
+        "credit"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Loan như 'làm ơn', là khoản tiền bạn làm ơn mượn từ ai đó.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10769
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "borrow money",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbɒrəʊ ˈmʌni/",
+      "ipa_us": "/ˈbɑːroʊ ˈmʌni/",
+      "meaning_vi": "vay tiền",
+      "definition_en": "To take money from someone with the intention of paying it back.",
+      "example_en": "I had to borrow money from my parents to pay for rent.",
+      "example_vi": "Tôi đã phải vay tiền từ bố mẹ để trả tiền thuê nhà.",
+      "collocations_json": [
+        "borrow money from the bank",
+        "borrow a large sum of money"
+      ],
+      "synonyms_json": [
+        "take a loan"
+      ],
+      "antonyms_json": [
+        "lend money"
+      ],
+      "mnemonic": "Borrow là mượn, money là tiền. Dễ nhớ là mượn tiền.",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10770
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "lend money",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/lend ˈmʌni/",
+      "ipa_us": "/lend ˈmʌni/",
+      "meaning_vi": "cho vay tiền",
+      "definition_en": "To give money to someone with the expectation that they will pay it back.",
+      "example_en": "Can you lend me some money until payday?",
+      "example_vi": "Bạn có thể cho tôi mượn một ít tiền cho đến ngày nhận lương không?",
+      "collocations_json": [
+        "lend money to a friend",
+        "lend a small amount of money"
+      ],
+      "synonyms_json": [
+        "loan"
+      ],
+      "antonyms_json": [
+        "borrow money"
+      ],
+      "mnemonic": "Lend là cho mượn, money là tiền. Dễ nhớ là cho mượn tiền.",
+      "frequency_rank": 2700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10771
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "interest rate",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/ˈɪntrəst reɪt/",
+      "ipa_us": "/ˈɪntrəst reɪt/",
+      "meaning_vi": "lãi suất",
+      "definition_en": "The percentage charged on the total amount of a loan or paid on money deposited in a bank.",
+      "example_en": "The bank offers a good interest rate on savings accounts.",
+      "example_vi": "Ngân hàng đưa ra lãi suất tốt cho các tài khoản tiết kiệm.",
+      "collocations_json": [
+        "high interest rate",
+        "low interest rate",
+        "fixed interest rate"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Interest là lãi, rate là tỷ lệ. Nhớ là tỷ lệ lãi suất bạn nhận hoặc phải trả.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10772
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "budget",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbʌdʒɪt/",
+      "ipa_us": "/ˈbʌdʒɪt/",
+      "meaning_vi": "ngân sách",
+      "definition_en": "A plan that shows how much money you have and how you will spend it.",
+      "example_en": "I need to stick to my monthly budget to save money.",
+      "example_vi": "Tôi cần tuân thủ ngân sách hàng tháng để tiết kiệm tiền.",
+      "collocations_json": [
+        "manage a budget",
+        "stick to a budget",
+        "set a budget"
+      ],
+      "synonyms_json": [
+        "financial plan"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Budget nghe như 'bớt chi', là kế hoạch chi tiêu để bớt chi tiêu không cần thiết.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10773
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "manage money",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈmænɪdʒ ˈmʌni/",
+      "ipa_us": "/ˈmænɪdʒ ˈmʌni/",
+      "meaning_vi": "quản lý tiền bạc",
+      "definition_en": "To control and organize your financial resources effectively.",
+      "example_en": "It's important to learn how to manage money wisely.",
+      "example_vi": "Điều quan trọng là phải học cách quản lý tiền bạc một cách khôn ngoan.",
+      "collocations_json": [
+        "manage personal finances",
+        "manage your budget"
+      ],
+      "synonyms_json": [
+        "handle money"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Manage là quản lý, money là tiền. Dễ nhớ là quản lý tiền của mình.",
+      "frequency_rank": 2400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10774
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "cash",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kæʃ/",
+      "ipa_us": "/kæʃ/",
+      "meaning_vi": "tiền mặt",
+      "definition_en": "Money in the form of notes and coins.",
+      "example_en": "Do you prefer to pay by card or with cash?",
+      "example_vi": "Bạn muốn thanh toán bằng thẻ hay bằng tiền mặt?",
+      "collocations_json": [
+        "pay in cash",
+        "hard cash",
+        "cash payment"
+      ],
+      "synonyms_json": [
+        "money (notes and coins)"
+      ],
+      "antonyms_json": [
+        "card",
+        "credit"
+      ],
+      "mnemonic": "Cash như 'két', là tiền mặt bạn có thể giữ trong két.",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10775
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "cheque (UK) / check (US)",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/tʃek/",
+      "ipa_us": "/tʃek/",
+      "meaning_vi": "séc",
+      "definition_en": "A printed form that you can write on and sign, telling a bank to pay a specific amount of money from your account to the person named on the form.",
+      "example_en": "I received a cheque for my birthday.",
+      "example_vi": "Tôi đã nhận được một tấm séc vào ngày sinh nhật.",
+      "collocations_json": [
+        "write a cheque",
+        "cash a cheque",
+        "pay by cheque"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Check như 'check-in', bạn dùng nó để kiểm soát việc chi trả tiền.",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10776
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "online banking",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˌɒnlaɪn ˈbæŋkɪŋ/",
+      "ipa_us": "/ˌɑːnlaɪn ˈbæŋkɪŋ/",
+      "meaning_vi": "ngân hàng trực tuyến",
+      "definition_en": "A service that allows you to manage your bank accounts and perform transactions over the internet.",
+      "example_en": "I use online banking to pay my bills and transfer money.",
+      "example_vi": "Tôi sử dụng ngân hàng trực tuyến để thanh toán hóa đơn và chuyển tiền.",
+      "collocations_json": [
+        "do online banking",
+        "access online banking",
+        "online banking services"
+      ],
+      "synonyms_json": [
+        "internet banking"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Online là trực tuyến, banking là ngân hàng. Dễ nhớ là làm việc ngân hàng trên mạng.",
+      "frequency_rank": 1400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10777
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "transfer money",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/trænsˈfɜː ˈmʌni/",
+      "ipa_us": "/trænsˈfɜːr ˈmʌni/",
+      "meaning_vi": "chuyển tiền",
+      "definition_en": "To move money from one bank account to another.",
+      "example_en": "I need to transfer money to my friend's account.",
+      "example_vi": "Tôi cần chuyển tiền vào tài khoản của bạn tôi.",
+      "collocations_json": [
+        "transfer funds",
+        "bank transfer",
+        "transfer money online"
+      ],
+      "synonyms_json": [
+        "send money"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Transfer là chuyển, money là tiền. Dễ nhớ là chuyển tiền.",
+      "frequency_rank": 1300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10778
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "transaction",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/trænˈzækʃn/",
+      "ipa_us": "/trænˈzækʃn/",
+      "meaning_vi": "giao dịch",
+      "definition_en": "An occasion when money is exchanged or transferred between accounts.",
+      "example_en": "All your transactions are listed on your bank statement.",
+      "example_vi": "Tất cả các giao dịch của bạn được liệt kê trên bảng sao kê ngân hàng.",
+      "collocations_json": [
+        "bank transaction",
+        "online transaction",
+        "financial transaction"
+      ],
+      "synonyms_json": [
+        "deal"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Transaction như 'trao đổi', là hoạt động trao đổi tiền bạc.",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10779
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "receipt",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈsiːt/",
+      "ipa_us": "/rɪˈsiːt/",
+      "meaning_vi": "biên lai, hóa đơn",
+      "definition_en": "A piece of paper that shows that you have paid for something.",
+      "example_en": "Please keep your receipt in case you need to return the item.",
+      "example_vi": "Xin hãy giữ biên lai phòng khi bạn cần trả lại món đồ.",
+      "collocations_json": [
+        "get a receipt",
+        "keep the receipt",
+        "sales receipt"
+      ],
+      "synonyms_json": [
+        "proof of purchase"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Receipt như 'receive it', là giấy tờ bạn nhận được sau khi mua hàng.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10780
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "currency",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈkʌrənsi/",
+      "ipa_us": "/ˈkɜːrənsi/",
+      "meaning_vi": "tiền tệ",
+      "definition_en": "The system of money used in a particular country.",
+      "example_en": "What is the local currency in Japan?",
+      "example_vi": "Đơn vị tiền tệ địa phương ở Nhật Bản là gì?",
+      "collocations_json": [
+        "foreign currency",
+        "local currency",
+        "exchange currency"
+      ],
+      "synonyms_json": [
+        "money"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Currency như 'current-see', là tiền tệ hiện hành mà bạn nhìn thấy và sử dụng.",
+      "frequency_rank": 3400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10781
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "exchange rate",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ɪksˈtʃeɪndʒ reɪt/",
+      "ipa_us": "/ɪksˈtʃeɪndʒ reɪt/",
+      "meaning_vi": "tỷ giá hối đoái",
+      "definition_en": "The value of one country's money in relation to the money of another country.",
+      "example_en": "What's the current exchange rate for US dollars to euros?",
+      "example_vi": "Tỷ giá hối đoái hiện tại của đô la Mỹ sang euro là bao nhiêu?",
+      "collocations_json": [
+        "current exchange rate",
+        "favorable exchange rate",
+        "exchange rate fluctuations"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Exchange là trao đổi, rate là tỷ lệ. Nhớ là tỷ lệ để trao đổi tiền tệ.",
+      "frequency_rank": 3900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10782
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "fee",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/fiː/",
+      "ipa_us": "/fiː/",
+      "meaning_vi": "phí",
+      "definition_en": "An amount of money paid for a particular service or right.",
+      "example_en": "The bank charges a small fee for international transfers.",
+      "example_vi": "Ngân hàng tính một khoản phí nhỏ cho các giao dịch chuyển khoản quốc tế.",
+      "collocations_json": [
+        "pay a fee",
+        "service fee",
+        "annual fee"
+      ],
+      "synonyms_json": [
+        "charge",
+        "cost"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Fee như 'free' nhưng có chữ 'F' ở đầu, nhớ là 'không free' mà phải trả phí.",
+      "frequency_rank": 3100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10783
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "overdraft",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/ˈəʊvədrɑːft/",
+      "ipa_us": "/ˈoʊvərdræft/",
+      "meaning_vi": "thấu chi",
+      "definition_en": "An amount of money that you owe to a bank because you have spent more money than you had in your account.",
+      "example_en": "I went into overdraft last month because of unexpected expenses.",
+      "example_vi": "Tháng trước tôi đã bị thấu chi do các khoản chi phí bất ngờ.",
+      "collocations_json": [
+        "go into overdraft",
+        "overdraft facility",
+        "overdraft limit"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Over là quá, draft là dự thảo. Nhớ là chi tiêu quá số tiền dự kiến có trong tài khoản.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10784
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "mortgage",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/ˈmɔːɡɪdʒ/",
+      "ipa_us": "/ˈmɔːrɡɪdʒ/",
+      "meaning_vi": "khoản vay thế chấp nhà",
+      "definition_en": "A legal agreement by which a bank or other organization lends you money to buy a house, and you pay the money back over a period of many years.",
+      "example_en": "They took out a mortgage to buy their first home.",
+      "example_vi": "Họ đã vay thế chấp để mua căn nhà đầu tiên của mình.",
+      "collocations_json": [
+        "take out a mortgage",
+        "pay off a mortgage",
+        "mortgage payments"
+      ],
+      "synonyms_json": [
+        "home loan"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Mortgage như 'mọt-gách', gánh nặng trả nợ mua nhà.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10785
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "rent",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rent/",
+      "ipa_us": "/rent/",
+      "meaning_vi": "thuê (nhà, phòng)",
+      "definition_en": "To regularly pay money to use a house, room, or piece of land that belongs to someone else.",
+      "example_en": "We rent an apartment in the city center.",
+      "example_vi": "Chúng tôi thuê một căn hộ ở trung tâm thành phố.",
+      "collocations_json": [
+        "rent a flat",
+        "pay rent",
+        "rent agreement"
+      ],
+      "synonyms_json": [
+        "lease"
+      ],
+      "antonyms_json": [
+        "own"
+      ],
+      "mnemonic": "Rent như 'rảnh', là tiền trả để có chỗ ở mà không cần mua.",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10786
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "salary",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsæləri/",
+      "ipa_us": "/ˈsæləri/",
+      "meaning_vi": "tiền lương (hàng tháng/năm)",
+      "definition_en": "A fixed regular payment, typically paid on a monthly or annual basis, made by an employer to an employee.",
+      "example_en": "My salary is paid directly into my bank account.",
+      "example_vi": "Tiền lương của tôi được trả trực tiếp vào tài khoản ngân hàng.",
+      "collocations_json": [
+        "monthly salary",
+        "annual salary",
+        "high salary"
+      ],
+      "synonyms_json": [
+        "wages",
+        "pay"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Salary như 'sale', là tiền bạn 'bán' sức lao động của mình.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10787
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "income",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɪnkʌm/",
+      "ipa_us": "/ˈɪnkʌm/",
+      "meaning_vi": "thu nhập",
+      "definition_en": "Money received, especially on a regular basis, for work or through investments.",
+      "example_en": "My main source of income is my job.",
+      "example_vi": "Nguồn thu nhập chính của tôi là công việc.",
+      "collocations_json": [
+        "regular income",
+        "household income",
+        "disposable income"
+      ],
+      "synonyms_json": [
+        "earnings"
+      ],
+      "antonyms_json": [
+        "expenses"
+      ],
+      "mnemonic": "Income như 'in-come', tiền 'vào' túi bạn.",
+      "frequency_rank": 3300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10788
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "expense",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɪkˈspens/",
+      "ipa_us": "/ɪkˈspens/",
+      "meaning_vi": "chi phí, khoản chi",
+      "definition_en": "The cost required for something; the money spent on something.",
+      "example_en": "Rent is our biggest monthly expense.",
+      "example_vi": "Tiền thuê nhà là khoản chi lớn nhất hàng tháng của chúng tôi.",
+      "collocations_json": [
+        "daily expenses",
+        "living expenses",
+        "unexpected expense"
+      ],
+      "synonyms_json": [
+        "cost",
+        "outlay"
+      ],
+      "antonyms_json": [
+        "income"
+      ],
+      "mnemonic": "Expense như 'ex-spend', tiền đã 'chi ra' ngoài.",
+      "frequency_rank": 3600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10789
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "save money",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/seɪv ˈmʌni/",
+      "ipa_us": "/seɪv ˈmʌni/",
+      "meaning_vi": "tiết kiệm tiền",
+      "definition_en": "To keep money instead of spending it, usually for a specific purpose.",
+      "example_en": "I'm trying to save money for a new laptop.",
+      "example_vi": "Tôi đang cố gắng tiết kiệm tiền để mua một chiếc máy tính xách tay mới.",
+      "collocations_json": [
+        "save up money",
+        "save money for a rainy day",
+        "save money on groceries"
+      ],
+      "synonyms_json": [
+        "put aside money"
+      ],
+      "antonyms_json": [
+        "spend money"
+      ],
+      "mnemonic": "Save là tiết kiệm, money là tiền. Dễ nhớ là giữ lại tiền không chi tiêu.",
+      "frequency_rank": 700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10790
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "spend money",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/spend ˈmʌni/",
+      "ipa_us": "/spend ˈmʌni/",
+      "meaning_vi": "tiêu tiền",
+      "definition_en": "To use money to buy or pay for something.",
+      "example_en": "I spend too much money on coffee.",
+      "example_vi": "Tôi chi tiêu quá nhiều tiền vào cà phê.",
+      "collocations_json": [
+        "spend money on clothes",
+        "spend wisely",
+        "spend a lot of money"
+      ],
+      "synonyms_json": [
+        "pay out"
+      ],
+      "antonyms_json": [
+        "save money"
+      ],
+      "mnemonic": "Spend là chi tiêu, money là tiền. Dễ nhớ là dùng tiền để mua sắm.",
+      "frequency_rank": 600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10791
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "debt",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/det/",
+      "ipa_us": "/det/",
+      "meaning_vi": "nợ",
+      "definition_en": "A sum of money that is owed or due.",
+      "example_en": "Many students graduate with a lot of debt.",
+      "example_vi": "Nhiều sinh viên tốt nghiệp với rất nhiều nợ nần.",
+      "collocations_json": [
+        "get into debt",
+        "pay off debt",
+        "student debt"
+      ],
+      "synonyms_json": [
+        "liability"
+      ],
+      "antonyms_json": [
+        "asset"
+      ],
+      "mnemonic": "Debt như 'đét', là khoản nợ phải 'đét' ra để trả.",
+      "frequency_rank": 3700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10792
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "pay back",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/peɪ bæk/",
+      "ipa_us": "/peɪ bæk/",
+      "meaning_vi": "hoàn trả, trả nợ",
+      "definition_en": "To return money that you borrowed from someone.",
+      "example_en": "I promised to pay back the money by next week.",
+      "example_vi": "Tôi hứa sẽ trả lại tiền vào tuần tới.",
+      "collocations_json": [
+        "pay back a loan",
+        "pay back a friend",
+        "pay back in installments"
+      ],
+      "synonyms_json": [
+        "repay",
+        "return"
+      ],
+      "antonyms_json": [
+        "borrow"
+      ],
+      "mnemonic": "Pay là trả, back là lại. Nhớ là trả lại tiền đã mượn.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10793
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "invest",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/ɪnˈvest/",
+      "ipa_us": "/ɪnˈvest/",
+      "meaning_vi": "đầu tư",
+      "definition_en": "To put money into a financial scheme, shares, or property with the expectation of achieving a profit.",
+      "example_en": "Many people invest in real estate.",
+      "example_vi": "Nhiều người đầu tư vào bất động sản.",
+      "collocations_json": [
+        "invest money",
+        "invest in stocks",
+        "invest for the future"
+      ],
+      "synonyms_json": [
+        "put money into"
+      ],
+      "antonyms_json": [
+        "divest"
+      ],
+      "mnemonic": "Invest như 'in-vest', bỏ tiền vào để 'vest' (thu hoạch) lợi nhuận.",
+      "frequency_rank": 4200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10794
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "wallet",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈwɒlɪt/",
+      "ipa_us": "/ˈwɑːlɪt/",
+      "meaning_vi": "ví tiền (nam)",
+      "definition_en": "A small, flat case, usually made of leather or plastic, for keeping paper money, bank cards, and other small items.",
+      "example_en": "I keep my debit card in my wallet.",
+      "example_vi": "Tôi giữ thẻ ghi nợ trong ví của mình.",
+      "collocations_json": [
+        "leather wallet",
+        "lose your wallet",
+        "empty wallet"
+      ],
+      "synonyms_json": [
+        "billfold"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wallet như 'wall-it', là cái ví giữ tiền của bạn trong 'tường' bảo vệ.",
+      "frequency_rank": 1100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10795
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "purse",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/pɜːs/",
+      "ipa_us": "/pɜːrs/",
+      "meaning_vi": "ví tiền (nữ), túi xách nhỏ",
+      "definition_en": "A small bag used by women for carrying money, keys, and other small personal items.",
+      "example_en": "She took her keys out of her purse.",
+      "example_vi": "Cô ấy lấy chìa khóa ra khỏi ví của mình.",
+      "collocations_json": [
+        "handbag",
+        "coin purse",
+        "designer purse"
+      ],
+      "synonyms_json": [
+        "handbag (US)",
+        "wallet (for coins)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Purse như 'person', là vật dụng cá nhân của phụ nữ.",
+      "frequency_rank": 1300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10796
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "credit limit",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/ˈkredɪt lɪmɪt/",
+      "ipa_us": "/ˈkredɪt lɪmɪt/",
+      "meaning_vi": "hạn mức tín dụng",
+      "definition_en": "The maximum amount of money you are allowed to borrow on a credit card.",
+      "example_en": "I've almost reached my credit limit this month.",
+      "example_vi": "Tháng này tôi gần đạt đến hạn mức tín dụng của mình rồi.",
+      "collocations_json": [
+        "increase credit limit",
+        "exceed credit limit",
+        "credit card limit"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Credit là tín dụng, limit là giới hạn. Nhớ là giới hạn tiền bạn có thể dùng qua thẻ tín dụng.",
+      "frequency_rank": 4700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10797
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "due date",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/djuː deɪt/",
+      "ipa_us": "/duː deɪt/",
+      "meaning_vi": "ngày đến hạn",
+      "definition_en": "The date by which something must be paid or completed.",
+      "example_en": "The due date for this bill is next Friday.",
+      "example_vi": "Ngày đến hạn của hóa đơn này là thứ Sáu tới.",
+      "collocations_json": [
+        "payment due date",
+        "bill due date",
+        "miss the due date"
+      ],
+      "synonyms_json": [
+        "deadline"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Due là đến hạn, date là ngày. Dễ nhớ là ngày bạn phải hoàn thành việc thanh toán.",
+      "frequency_rank": 4300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10798
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "minimum payment",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/ˈmɪnɪməm ˈpeɪmənt/",
+      "ipa_us": "/ˈmɪnɪməm ˈpeɪmənt/",
+      "meaning_vi": "khoản thanh toán tối thiểu",
+      "definition_en": "The smallest amount of money that you must pay each month on a loan or credit card.",
+      "example_en": "I only made the minimum payment on my credit card this month.",
+      "example_vi": "Tháng này tôi chỉ thanh toán khoản tối thiểu trên thẻ tín dụng.",
+      "collocations_json": [
+        "make minimum payment",
+        "credit card minimum payment"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "full payment"
+      ],
+      "mnemonic": "Minimum là tối thiểu, payment là thanh toán. Nhớ là số tiền ít nhất phải trả.",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10799
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "direct debit",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/ˌdaɪrekt ˈdebɪt/",
+      "ipa_us": "/ˌdaɪrekt ˈdebɪt/",
+      "meaning_vi": "lệnh ghi nợ trực tiếp",
+      "definition_en": "An instruction to your bank to allow a third party to collect varying amounts from your account.",
+      "example_en": "I pay my gym membership by direct debit.",
+      "example_vi": "Tôi thanh toán phí thành viên phòng gym bằng lệnh ghi nợ trực tiếp.",
+      "collocations_json": [
+        "set up a direct debit",
+        "cancel a direct debit",
+        "pay by direct debit"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Direct là trực tiếp, debit là ghi nợ. Nhớ là tiền tự động trừ thẳng từ tài khoản.",
+      "frequency_rank": 4900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10800
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "standing order",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/ˈstændɪŋ ˈɔːdə/",
+      "ipa_us": "/ˈstændɪŋ ˈɔːrdər/",
+      "meaning_vi": "lệnh chuyển tiền định kỳ",
+      "definition_en": "An instruction to your bank to pay a fixed amount of money to a particular person or organization at regular intervals.",
+      "example_en": "I have a standing order to transfer money to my savings account every month.",
+      "example_vi": "Tôi có một lệnh chuyển tiền định kỳ để chuyển tiền vào tài khoản tiết kiệm của mình mỗi tháng.",
+      "collocations_json": [
+        "set up a standing order",
+        "cancel a standing order"
+      ],
+      "synonyms_json": [
+        "recurring payment"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Standing là đứng yên, order là lệnh. Nhớ là lệnh chuyển tiền cố định, đứng yên không thay đổi.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10801
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "account number",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "business",
+      "ipa_uk": "/əˈkaʊnt ˈnʌmbə/",
+      "ipa_us": "/əˈkaʊnt ˈnʌmbər/",
+      "meaning_vi": "số tài khoản",
+      "definition_en": "A unique series of digits that identifies a specific bank account.",
+      "example_en": "You'll need my account number to transfer the money.",
+      "example_vi": "Bạn sẽ cần số tài khoản của tôi để chuyển tiền.",
+      "collocations_json": [
+        "bank account number",
+        "sort code and account number"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Account là tài khoản, number là số. Dễ nhớ là số để nhận diện tài khoản của bạn.",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10802
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "branch",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/brɑːntʃ/",
+      "ipa_us": "/bræntʃ/",
+      "meaning_vi": "chi nhánh (ngân hàng)",
+      "definition_en": "A local office or shop belonging to a large company or organization.",
+      "example_en": "I need to visit my bank branch to update my details.",
+      "example_vi": "Tôi cần đến chi nhánh ngân hàng của mình để cập nhật thông tin.",
+      "collocations_json": [
+        "bank branch",
+        "local branch",
+        "main branch"
+      ],
+      "synonyms_json": [
+        "office"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Branch như 'nhánh cây', là một phần của ngân hàng lớn.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10803
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "customer service",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "business",
+      "ipa_uk": "/ˈkʌstəmə ˈsɜːvɪs/",
+      "ipa_us": "/ˈkʌstəmər ˈsɜːrvɪs/",
+      "meaning_vi": "dịch vụ khách hàng",
+      "definition_en": "The department that deals with customers' questions and complaints.",
+      "example_en": "I called customer service about a problem with my card.",
+      "example_vi": "Tôi đã gọi dịch vụ khách hàng về một vấn đề với thẻ của mình.",
+      "collocations_json": [
+        "good customer service",
+        "customer service representative",
+        "contact customer service"
+      ],
+      "synonyms_json": [
+        "client support"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Customer là khách hàng, service là dịch vụ. Dễ nhớ là dịch vụ dành cho khách hàng.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10804
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "identification (ID)",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/aɪˌdentɪfɪˈkeɪʃn/",
+      "ipa_us": "/aɪˌdentɪfɪˈkeɪʃn/",
+      "meaning_vi": "giấy tờ tùy thân",
+      "definition_en": "Official documents that prove who you are.",
+      "example_en": "You need to bring your ID to open an account.",
+      "example_vi": "Bạn cần mang theo giấy tờ tùy thân để mở tài khoản.",
+      "collocations_json": [
+        "photo ID",
+        "proof of identification",
+        "valid ID"
+      ],
+      "synonyms_json": [
+        "ID card"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Identification như 'identify', là giấy tờ giúp nhận diện bạn.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10805
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "password",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpɑːswɜːd/",
+      "ipa_us": "/ˈpæswɜːrd/",
+      "meaning_vi": "mật khẩu",
+      "definition_en": "A secret word or phrase that must be used to gain admission to something.",
+      "example_en": "Always choose a strong password for your online banking.",
+      "example_vi": "Luôn chọn mật khẩu mạnh cho tài khoản ngân hàng trực tuyến của bạn.",
+      "collocations_json": [
+        "strong password",
+        "reset password",
+        "forget password"
+      ],
+      "synonyms_json": [
+        "passcode"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Password là 'pass' để 'word' (vào), là từ khóa để vượt qua bảo mật.",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10806
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "login",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlɒɡɪn/",
+      "ipa_us": "/ˈlɔːɡɪn/",
+      "meaning_vi": "đăng nhập",
+      "definition_en": "To enter information to gain access to a computer system or website.",
+      "example_en": "I can't login to my online banking account.",
+      "example_vi": "Tôi không thể đăng nhập vào tài khoản ngân hàng trực tuyến của mình.",
+      "collocations_json": [
+        "login details",
+        "secure login",
+        "login to an account"
+      ],
+      "synonyms_json": [
+        "sign in"
+      ],
+      "antonyms_json": [
+        "logout",
+        "sign out"
+      ],
+      "mnemonic": "Login như 'log in', là ghi tên mình vào để vào hệ thống.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10807
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "currency exchange",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈkʌrənsi ɪksˈtʃeɪndʒ/",
+      "ipa_us": "/ˈkɜːrənsi ɪksˈtʃeɪndʒ/",
+      "meaning_vi": "đổi tiền tệ",
+      "definition_en": "The service of exchanging money from one country for money from another country.",
+      "example_en": "You can find a currency exchange office at the airport.",
+      "example_vi": "Bạn có thể tìm thấy văn phòng đổi tiền tệ tại sân bay.",
+      "collocations_json": [
+        "currency exchange office",
+        "best currency exchange rates"
+      ],
+      "synonyms_json": [
+        "money exchange"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Currency là tiền tệ, exchange là trao đổi. Nhớ là nơi đổi tiền.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10808
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "financial advice",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/faɪˈnænʃl ədˈvaɪs/",
+      "ipa_us": "/faɪˈnænʃl ədˈvaɪs/",
+      "meaning_vi": "lời khuyên tài chính",
+      "definition_en": "Guidance provided by an expert on managing money and investments.",
+      "example_en": "It's good to get financial advice before making big investments.",
+      "example_vi": "Thật tốt khi nhận được lời khuyên tài chính trước khi thực hiện các khoản đầu tư lớn.",
+      "collocations_json": [
+        "seek financial advice",
+        "independent financial advice"
+      ],
+      "synonyms_json": [
+        "money guidance"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Financial là tài chính, advice là lời khuyên. Nhớ là lời khuyên về tiền bạc.",
+      "frequency_rank": 4600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10809
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "interest",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɪntrəst/",
+      "ipa_us": "/ˈɪntrəst/",
+      "meaning_vi": "tiền lãi",
+      "definition_en": "Money paid by a bank or other financial institution for the use of money deposited, or money charged for borrowing money.",
+      "example_en": "My savings account earns a small amount of interest.",
+      "example_vi": "Tài khoản tiết kiệm của tôi kiếm được một khoản lãi nhỏ.",
+      "collocations_json": [
+        "earn interest",
+        "pay interest",
+        "high interest"
+      ],
+      "synonyms_json": [
+        "profit",
+        "return"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Interest như 'in-tờ-rest', tiền 'vào' khi bạn để tiền 'nghỉ' (rest).",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10810
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "payment",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpeɪmənt/",
+      "ipa_us": "/ˈpeɪmənt/",
+      "meaning_vi": "khoản thanh toán",
+      "definition_en": "The act of paying money, or the money paid.",
+      "example_en": "I need to make a payment for my phone bill.",
+      "example_vi": "Tôi cần thực hiện thanh toán cho hóa đơn điện thoại của mình.",
+      "collocations_json": [
+        "make a payment",
+        "monthly payment",
+        "online payment"
+      ],
+      "synonyms_json": [
+        "settlement"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Payment như 'pay-ment', là việc trả tiền.",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10811
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "budgeting",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbʌdʒɪtɪŋ/",
+      "ipa_us": "/ˈbʌdʒɪtɪŋ/",
+      "meaning_vi": "lập ngân sách",
+      "definition_en": "The process of creating a plan to spend your money.",
+      "example_en": "Good budgeting is key to financial stability.",
+      "example_vi": "Việc lập ngân sách tốt là chìa khóa để ổn định tài chính.",
+      "collocations_json": [
+        "personal budgeting",
+        "household budgeting",
+        "effective budgeting"
+      ],
+      "synonyms_json": [
+        "financial planning"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Budgeting là hành động của việc lập budget (ngân sách).",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10812
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "cashback",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkæʃbæk/",
+      "ipa_us": "/ˈkæʃbæk/",
+      "meaning_vi": "tiền hoàn lại",
+      "definition_en": "A system where a percentage of the money spent on a purchase is returned to the buyer.",
+      "example_en": "My credit card offers 2% cashback on all purchases.",
+      "example_vi": "Thẻ tín dụng của tôi hoàn lại 2% tiền mặt cho tất cả các giao dịch mua hàng.",
+      "collocations_json": [
+        "get cashback",
+        "cashback offer",
+        "cashback card"
+      ],
+      "synonyms_json": [
+        "rebate"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Cash là tiền mặt, back là trở lại. Nhớ là tiền mặt được trả lại.",
+      "frequency_rank": 4400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10813
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "financial security",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/faɪˈnænʃl sɪˈkjʊərəti/",
+      "ipa_us": "/faɪˈnænʃl sɪˈkjʊrəti/",
+      "meaning_vi": "an toàn tài chính",
+      "definition_en": "The state of having enough money to meet your needs and protect yourself from unexpected financial difficulties.",
+      "example_en": "Saving for retirement is important for financial security.",
+      "example_vi": "Tiết kiệm cho hưu trí là quan trọng đối với an toàn tài chính.",
+      "collocations_json": [
+        "achieve financial security",
+        "long-term financial security"
+      ],
+      "synonyms_json": [
+        "financial stability"
+      ],
+      "antonyms_json": [
+        "financial insecurity"
+      ],
+      "mnemonic": "Financial là tài chính, security là an toàn. Dễ nhớ là sự an toàn về tiền bạc.",
+      "frequency_rank": 4100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10814
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "money management",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈmʌni ˈmænɪdʒmənt/",
+      "ipa_us": "/ˈmʌni ˈmænɪdʒmənt/",
+      "meaning_vi": "quản lý tiền bạc",
+      "definition_en": "The process of budgeting, saving, investing, and spending your financial resources.",
+      "example_en": "Learning good money management skills is essential for adults.",
+      "example_vi": "Học các kỹ năng quản lý tiền bạc tốt là điều cần thiết đối với người lớn.",
+      "collocations_json": [
+        "personal money management",
+        "effective money management"
+      ],
+      "synonyms_json": [
+        "financial management"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Money là tiền, management là quản lý. Dễ nhớ là việc quản lý tiền bạc.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10815
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "receipt",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈsiːt/",
+      "ipa_us": "/rɪˈsiːt/",
+      "meaning_vi": "biên lai, hóa đơn",
+      "definition_en": "A piece of paper that shows that you have paid for something.",
+      "example_en": "Please keep your receipt in case you need to return the item.",
+      "example_vi": "Xin hãy giữ biên lai phòng khi bạn cần trả lại món đồ.",
+      "collocations_json": [
+        "get a receipt",
+        "keep the receipt",
+        "sales receipt"
+      ],
+      "synonyms_json": [
+        "proof of purchase"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Receipt như 'receive it', là giấy tờ bạn nhận được sau khi mua hàng.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10816
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "refund",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈriːfʌnd/",
+      "ipa_us": "/ˈriːfʌnd/",
+      "meaning_vi": "tiền hoàn lại",
+      "definition_en": "A sum of money that is paid back to you, especially because you are not happy with goods or services that you have bought.",
+      "example_en": "I asked for a full refund for the faulty product.",
+      "example_vi": "Tôi đã yêu cầu hoàn lại toàn bộ tiền cho sản phẩm bị lỗi.",
+      "collocations_json": [
+        "get a refund",
+        "full refund",
+        "request a refund"
+      ],
+      "synonyms_json": [
+        "reimbursement"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Refund như 're-fund', là tiền 'fund' được trả 're' (lại).",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10817
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "exchange",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɪksˈtʃeɪndʒ/",
+      "ipa_us": "/ɪksˈtʃeɪndʒ/",
+      "meaning_vi": "đổi, trao đổi",
+      "definition_en": "To give something and receive something else in return.",
+      "example_en": "Can I exchange this shirt for a different size?",
+      "example_vi": "Tôi có thể đổi chiếc áo này lấy một size khác không?",
+      "collocations_json": [
+        "exchange goods",
+        "exchange money",
+        "exchange ideas"
+      ],
+      "synonyms_json": [
+        "swap",
+        "trade"
+      ],
+      "antonyms_json": [
+        "keep"
+      ],
+      "mnemonic": "Exchange như 'ex-change', là thay đổi (change) cái cũ bằng cái mới.",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10818
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "value",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈvæljuː/",
+      "ipa_us": "/ˈvæljuː/",
+      "meaning_vi": "giá trị",
+      "definition_en": "The monetary worth of something.",
+      "example_en": "The value of my house has increased over the years.",
+      "example_vi": "Giá trị ngôi nhà của tôi đã tăng lên qua nhiều năm.",
+      "collocations_json": [
+        "high value",
+        "great value",
+        "market value"
+      ],
+      "synonyms_json": [
+        "worth",
+        "price"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Value như 'vàng', là cái có giá trị.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10819
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "receipt",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈsiːt/",
+      "ipa_us": "/rɪˈsiːt/",
+      "meaning_vi": "biên lai, hóa đơn",
+      "definition_en": "A piece of paper that shows that you have paid for something.",
+      "example_en": "Please keep your receipt in case you need to return the item.",
+      "example_vi": "Xin hãy giữ biên lai phòng khi bạn cần trả lại món đồ.",
+      "collocations_json": [
+        "get a receipt",
+        "keep the receipt",
+        "sales receipt"
+      ],
+      "synonyms_json": [
+        "proof of purchase"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Receipt như 'receive it', là giấy tờ bạn nhận được sau khi mua hàng.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10820
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "loan application",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/ləʊn ˌæplɪˈkeɪʃn/",
+      "ipa_us": "/loʊn ˌæplɪˈkeɪʃn/",
+      "meaning_vi": "đơn xin vay tiền",
+      "definition_en": "A formal request for money to be borrowed from a bank or other financial institution.",
+      "example_en": "I filled out a loan application online.",
+      "example_vi": "Tôi đã điền đơn xin vay tiền trực tuyến.",
+      "collocations_json": [
+        "submit a loan application",
+        "approve a loan application",
+        "personal loan application"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Loan là khoản vay, application là đơn xin. Nhớ là đơn để xin vay tiền.",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10821
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "financial literacy",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/faɪˈnænʃl ˈlɪtərəsi/",
+      "ipa_us": "/faɪˈnænʃl ˈlɪtərəsi/",
+      "meaning_vi": "kiến thức tài chính",
+      "definition_en": "The ability to understand and effectively use various financial skills, including personal financial management, budgeting, and investing.",
+      "example_en": "Financial literacy is crucial for making informed money decisions.",
+      "example_vi": "Kiến thức tài chính là rất quan trọng để đưa ra các quyết định tiền bạc sáng suốt.",
+      "collocations_json": [
+        "improve financial literacy",
+        "basic financial literacy"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Financial là tài chính, literacy là kiến thức. Nhớ là khả năng đọc hiểu về tài chính.",
+      "frequency_rank": 4900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10822
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "expense tracking",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɪkˈspens ˈtrækɪŋ/",
+      "ipa_us": "/ɪkˈspens ˈtrækɪŋ/",
+      "meaning_vi": "theo dõi chi tiêu",
+      "definition_en": "The process of recording and monitoring how much money you spend.",
+      "example_en": "Expense tracking helps me understand where my money goes.",
+      "example_vi": "Theo dõi chi tiêu giúp tôi hiểu tiền của mình đi đâu.",
+      "collocations_json": [
+        "personal expense tracking",
+        "monthly expense tracking"
+      ],
+      "synonyms_json": [
+        "spending tracking"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Expense là chi phí, tracking là theo dõi. Dễ nhớ là theo dõi các khoản chi của bạn.",
+      "frequency_rank": 4700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10823
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Banking & Personal Finance",
+      "word": "debt consolidation",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "business",
+      "ipa_uk": "/det kənˌsɒlɪˈdeɪʃn/",
+      "ipa_us": "/det kənˌsɑːlɪˈdeɪʃn/",
+      "meaning_vi": "hợp nhất nợ",
+      "definition_en": "The process of combining multiple debts into a single, larger loan or debt.",
+      "example_en": "Debt consolidation can simplify your payments and potentially lower interest rates.",
+      "example_vi": "Hợp nhất nợ có thể đơn giản hóa các khoản thanh toán và có thể giảm lãi suất.",
+      "collocations_json": [
+        "consider debt consolidation",
+        "debt consolidation loan"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Debt là nợ, consolidation là hợp nhất. Nhớ là gộp nhiều khoản nợ thành một.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10824
+  }
+]

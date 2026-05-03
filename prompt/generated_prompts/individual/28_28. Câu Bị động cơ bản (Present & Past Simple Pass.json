@@ -1,0 +1,357 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter send yesterday.",
+    "output": "✅ **Corrected Sentence:** The letter was sent yesterday.\n🔍 **Error Identification:** Thiếu động từ 'to be' (was) và động từ chính sai dạng – câu bị động quá khứ đơn cần 'was/were + V3'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'lá thư được gửi' thành 'letter send' – quên 'was' và 'sent'. Mẹo: Bị động: S + was/were + V3/ed (by O).\n💡 **Ví dụ:** The cake was made by my mom. / The window was broken."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "English is speak all over the world.",
+    "output": "✅ **Corrected Sentence:** English is spoken all over the world.\n🔍 **Error Identification:** Thiếu V3 (spoken) – 'is speak' phải là 'is spoken'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'speak' (V1) thay vì 'spoken' (V3). Mẹo: Bị động hiện tại: am/is/are + V3/ed.\n💡 **Ví dụ:** French is spoken in France. / Coffee is grown in Brazil."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The room cleaned every day.",
+    "output": "✅ **Corrected Sentence:** The room is cleaned every day.\n🔍 **Error Identification:** Thiếu 'is' – câu bị động hiện tại đơn cần 'am/is/are + V3'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'to be' trong câu bị động. Mẹo: Nhìn trạng từ 'every day' → hiện tại → is cleaned.\n💡 **Ví dụ:** The floor is mopped daily. / The dishes are washed every evening."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car was steal last night.",
+    "output": "✅ **Corrected Sentence:** The car was stolen last night.\n🔍 **Error Identification:** Dùng V2 (steal) thay vì V3 (stolen) – steal là động từ bất quy tắc.\n📘 **Vietnamese Explanation:** Người Việt dùng 'steal' vì quên dạng quá khứ phân từ. Mẹo: steal – stole – stolen.\n💡 **Ví dụ:** The money was stolen. / The picture was taken by my friend."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The homework is do by students.",
+    "output": "✅ **Corrected Sentence:** The homework is done by students.\n🔍 **Error Identification:** 'Do' phải là 'done' (V3).\n📘 **Vietnamese Explanation:** Người Việt dùng 'do' (V1) thay vì 'done'. Mẹo: do – did – done.\n💡 **Ví dụ:** The work is done by her. / The report is written by John."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "These books were written by Shakespeare. (câu đúng) - Học viên viết \'These books are written by Shakespeare.\'",
+    "output": "✅ **Corrected Sentence:** These books were written by Shakespeare. (quá khứ)\n🔍 **Error Identification:** Shakespeare đã chết, hành động viết sách xảy ra trong quá khứ → dùng quá khứ bị động (were written).\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại cho sự thật lịch sử. Mẹo: Sự việc đã kết thúc trong quá khứ → was/were + V3.\n💡 **Ví dụ:** The Mona Lisa was painted by da Vinci. / The telephone was invented by Bell."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake is made by my mother. (câu đúng) - Học viên viết \'The cake made by my mother.\'",
+    "output": "✅ **Corrected Sentence:** The cake is made by my mother.\n🔍 **Error Identification:** Thiếu 'is' – 'made' không thể đứng một mình làm động từ chính.\n📘 **Vietnamese Explanation:** Người Việt dùng V3/ed như tính từ, quên 'to be'. Mẹo: Bị động = to be + V3.\n💡 **Ví dụ:** The song is sung by her. / The letter is written by me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The window was break by the ball.",
+    "output": "✅ **Corrected Sentence:** The window was broken by the ball.\n🔍 **Error Identification:** 'Break' phải là 'broken' (V3).\n📘 **Vietnamese Explanation:** Người Việt dùng 'break' (V1) thay vì 'broken'. Mẹo: break – broke – broken.\n💡 **Ví dụ:** The vase was broken. / The record was broken by him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The food is prepared by the chef. (câu đúng) - Học viên viết \'The food prepared by the chef.\'",
+    "output": "✅ **Corrected Sentence:** The food is prepared by the chef.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to be' trong câu bị động. Mẹo: Luôn có 'am/is/are/was/were' + V3.\n💡 **Ví dụ:** The house is cleaned every week. / The car is driven by my dad."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter was send yesterday.",
+    "output": "✅ **Corrected Sentence:** The letter was sent yesterday.\n🔍 **Error Identification:** 'Send' phải là 'sent' (V3).\n📘 **Vietnamese Explanation:** Người Việt dùng 'send' (V1) thay vì 'sent'. Mẹo: send – sent – sent.\n💡 **Ví dụ:** The package was sent by mail. / The message was sent to her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The room is clean every day. (chủ động, không phải bị động) - Học viên viết \'The room is cleaned every day.\' (bị động đúng)",
+    "output": "✅ **Corrected Sentence (nếu muốn bị động):** The room is cleaned every day.\n🔍 **Error Identification:** 'Is clean' là tính từ (sạch sẽ), 'is cleaned' là bị động (được lau dọn).\n📘 **Vietnamese Explanation:** Người Việt nhầm 'clean' (tính từ) và 'cleaned' (V3). Mẹo: Bị động cần V3/ed.\n💡 **Ví dụ:** The car is washed (được rửa) vs The car is clean (sạch)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The bridge built in 1990.",
+    "output": "✅ **Corrected Sentence:** The bridge was built in 1990.\n🔍 **Error Identification:** Thiếu 'was' – câu bị động quá khứ.\n📘 **Vietnamese Explanation:** Người Việt quên 'was' và dùng V2/ed như tính từ. Mẹo: Bị động quá khứ: was/were + V3.\n💡 **Ví dụ:** The church was built in 1800. / The statue was made of stone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie is watch by millions.",
+    "output": "✅ **Corrected Sentence:** The movie is watched by millions.\n🔍 **Error Identification:** 'Watch' phải là 'watched' (V3).\n📘 **Vietnamese Explanation:** Người Việt quên thêm -ed cho động từ có quy tắc. Mẹo: watch → watched.\n💡 **Ví dụ:** The game is played by children. / The song is listened to by many."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake was ate by the children.",
+    "output": "✅ **Corrected Sentence:** The cake was eaten by the children.\n🔍 **Error Identification:** 'Ate' là V2, cần V3 'eaten'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'ate' và 'eaten'. Mẹo: eat – ate – eaten.\n💡 **Ví dụ:** The pizza was eaten quickly. / The apple was eaten by me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The homework is doing by the students.",
+    "output": "✅ **Corrected Sentence:** The homework is being done by the students. (hoặc is done)\n🔍 **Error Identification:** 'Is doing' là chủ động (đang làm), bị động cần 'is being done' hoặc 'is done'.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing trong câu bị động. Mẹo: Bị động hiện tại tiếp diễn: is/am/are + being + V3.\n💡 **Ví dụ:** The house is being painted. / The report is being written."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car was repair yesterday.",
+    "output": "✅ **Corrected Sentence:** The car was repaired yesterday.\n🔍 **Error Identification:** 'Repair' phải là 'repaired' (thêm -ed).\n📘 **Vietnamese Explanation:** Người Việt quên thêm -ed. Mẹo: repair (kết thúc bằng phụ âm + r? không gấp đôi) → repaired.\n💡 **Ví dụ:** The bike was fixed. / The computer was repaired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Many trees are plant every year.",
+    "output": "✅ **Corrected Sentence:** Many trees are planted every year.\n🔍 **Error Identification:** 'Plant' phải là 'planted' (thêm -ed).\n📘 **Vietnamese Explanation:** Người Việt quên -ed. Mẹo: plant → planted.\n💡 **Ví dụ:** Flowers are planted in spring. / Rice is grown in Asia."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The problem was solved by the engineer. (câu đúng) - Học viên viết \'The problem solved by the engineer.\'",
+    "output": "✅ **Corrected Sentence:** The problem was solved by the engineer.\n🔍 **Error Identification:** Thiếu 'was'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to be'. Mẹo: Bị động = was/were + V3.\n💡 **Ví dụ:** The puzzle was solved by her. / The mystery was solved by the detective."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The song is sing by the artist.",
+    "output": "✅ **Corrected Sentence:** The song is sung by the artist.\n🔍 **Error Identification:** 'Sing' phải là 'sung' (V3).\n📘 **Vietnamese Explanation:** Người Việt dùng 'sing' (V1). Mẹo: sing – sang – sung.\n💡 **Ví dụ:** The national anthem is sung. / The lullaby is sung by the mother."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter was write by her.",
+    "output": "✅ **Corrected Sentence:** The letter was written by her.\n🔍 **Error Identification:** 'Write' phải là 'written' (V3).\n📘 **Vietnamese Explanation:** Người Việt dùng 'write' (V1). Mẹo: write – wrote – written.\n💡 **Ví dụ:** The poem was written by him. / The email was written by me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house is paint every year.",
+    "output": "✅ **Corrected Sentence:** The house is painted every year.\n🔍 **Error Identification:** 'Paint' phải là 'painted' (thêm -ed).\n📘 **Vietnamese Explanation:** Người Việt quên -ed. Mẹo: paint → painted.\n💡 **Ví dụ:** The fence is painted white. / The wall is painted blue."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The food was cook by my mom.",
+    "output": "✅ **Corrected Sentence:** The food was cooked by my mom.\n🔍 **Error Identification:** 'Cook' phải là 'cooked' (thêm -ed).\n📘 **Vietnamese Explanation:** Người Việt quên -ed. Mẹo: cook → cooked.\n💡 **Ví dụ:** The meal was cooked perfectly. / The soup was cooked by grandma."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The room is cleaned by the maid. (câu đúng) - Học viên viết \'The room cleaned by the maid.\'",
+    "output": "✅ **Corrected Sentence:** The room is cleaned by the maid.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to be'. Mẹo: Bị động = am/is/are + V3.\n💡 **Ví dụ:** The car is washed by my dad. / The garden is watered by my mom."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book was read by many people. (câu đúng) - Học viên viết \'The book is read by many people.\' (nếu vẫn còn đang được đọc)",
+    "output": "✅ **Corrected Sentence:** The book was read by many people. (quá khứ) / The book is read by many people (hiện tại)\n🔍 **Error Identification:** Cả hai đều đúng tùy ngữ cảnh. Nếu sách đã được đọc trong quá khứ → was read.\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt thời gian. Mẹo: 'Was/were' cho quá khứ, 'is/am/are' cho hiện tại.\n💡 **Ví dụ:** The article was read by everyone. / The news is read daily."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car is drive by my father.",
+    "output": "✅ **Corrected Sentence:** The car is driven by my father.\n🔍 **Error Identification:** 'Drive' phải là 'driven' (V3).\n📘 **Vietnamese Explanation:** Người Việt dùng 'drive' (V1). Mẹo: drive – drove – driven.\n💡 **Ví dụ:** The bus is driven by a professional. / The taxi is driven by him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The flowers were water every day.",
+    "output": "✅ **Corrected Sentence:** The flowers were watered every day.\n🔍 **Error Identification:** 'Water' phải là 'watered' (thêm -ed).\n📘 **Vietnamese Explanation:** Người Việt quên -ed. Mẹo: water → watered.\n💡 **Ví dụ:** The plants were watered. / The garden was watered by rain."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The homework is do by me.",
+    "output": "✅ **Corrected Sentence:** The homework is done by me.\n🔍 **Error Identification:** 'Do' phải là 'done'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'do' (V1). Mẹo: do – did – done.\n💡 **Ví dụ:** The task is done by her. / The job is done by the team."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter was sent yesterday. (câu đúng) - Học viên viết \'The letter sent yesterday.\'",
+    "output": "✅ **Corrected Sentence:** The letter was sent yesterday.\n🔍 **Error Identification:** Thiếu 'was'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to be'. Mẹo: Bị động quá khứ = was/were + V3.\n💡 **Ví dụ:** The package was delivered. / The message was received."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie is based on a true story. (câu đúng - bị động với 'based') - Học viên viết \'The movie bases on a true story.\'",
+    "output": "✅ **Corrected Sentence:** The movie is based on a true story.\n🔍 **Error Identification:** 'Bases' là chủ động (dựa trên), câu này cần bị động 'is based'.\n📘 **Vietnamese Explanation:** Người Việt dùng chủ động cho 'dựa trên'. Mẹo: 'Be based on' là cấu trúc bị động cố định.\n💡 **Ví dụ:** The film is based on a novel. / The theory is based on research."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The room was clean by the maid.",
+    "output": "✅ **Corrected Sentence:** The room was cleaned by the maid.\n🔍 **Error Identification:** 'Clean' phải là 'cleaned' – 'clean' là tính từ.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'clean' (tính từ) và 'cleaned' (V3). Mẹo: Bị động cần V3/ed.\n💡 **Ví dụ:** The floor was mopped. / The windows were washed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake is make by my sister.",
+    "output": "✅ **Corrected Sentence:** The cake is made by my sister.\n🔍 **Error Identification:** 'Make' phải là 'made'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'make' (V1). Mẹo: make – made – made.\n💡 **Ví dụ:** The dress is made of silk. / The table is made by him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The news is reported by many channels. (câu đúng) - Học viên viết \'The news reported by many channels.\'",
+    "output": "✅ **Corrected Sentence:** The news is reported by many channels.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to be'. Mẹo: Bị động hiện tại = is/am/are + V3.\n💡 **Ví dụ:** The story is told by her. / The fact is known by everyone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The package was send to the wrong address.",
+    "output": "✅ **Corrected Sentence:** The package was sent to the wrong address.\n🔍 **Error Identification:** 'Send' phải là 'sent'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'send' (V1). Mẹo: send – sent – sent.\n💡 **Ví dụ:** The letter was sent by airmail. / The email was sent to her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house is build by a famous architect.",
+    "output": "✅ **Corrected Sentence:** The house is built by a famous architect.\n🔍 **Error Identification:** 'Build' phải là 'built'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'build' (V1). Mẹo: build – built – built.\n💡 **Ví dụ:** The bridge is built of steel. / The wall is built by workers."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The song was sang by her.",
+    "output": "✅ **Corrected Sentence:** The song was sung by her.\n🔍 **Error Identification:** 'Sang' là V2, cần V3 'sung'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'sang' và 'sung'. Mẹo: sing – sang – sung.\n💡 **Ví dụ:** The anthem was sung loudly. / The lullaby was sung softly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The work is do by the team.",
+    "output": "✅ **Corrected Sentence:** The work is done by the team.\n🔍 **Error Identification:** 'Do' phải là 'done'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'do' (V1). Mẹo: do – did – done.\n💡 **Ví dụ:** The project is done by students. / The task is done by me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The window was broke yesterday.",
+    "output": "✅ **Corrected Sentence:** The window was broken yesterday.\n🔍 **Error Identification:** 'Broke' là V2, cần V3 'broken'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'broke' và 'broken'. Mẹo: break – broke – broken.\n💡 **Ví dụ:** The glass was broken. / The phone was broken by accident."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The flowers are water every morning.",
+    "output": "✅ **Corrected Sentence:** The flowers are watered every morning.\n🔍 **Error Identification:** 'Water' phải là 'watered'.\n📘 **Vietnamese Explanation:** Người Việt quên -ed. Mẹo: water → watered.\n💡 **Ví dụ:** The plants are watered daily. / The lawn is watered by sprinklers."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The story is tell by my grandmother.",
+    "output": "✅ **Corrected Sentence:** The story is told by my grandmother.\n🔍 **Error Identification:** 'Tell' phải là 'told'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'tell' (V1). Mẹo: tell – told – told.\n💡 **Ví dụ:** The tale is told by him. / The legend is told by elders."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car was steal by thieves.",
+    "output": "✅ **Corrected Sentence:** The car was stolen by thieves.\n🔍 **Error Identification:** 'Steal' phải là 'stolen'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'steal' (V1). Mẹo: steal – stole – stolen.\n💡 **Ví dụ:** The bike was stolen. / The purse was stolen by a pickpocket."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The food is prepare by the chef.",
+    "output": "✅ **Corrected Sentence:** The food is prepared by the chef.\n🔍 **Error Identification:** 'Prepare' phải là 'prepared' (thêm -d).\n📘 **Vietnamese Explanation:** Người Việt quên -ed. Mẹo: prepare → prepared.\n💡 **Ví dụ:** The meal is prepared fresh. / The dish is prepared by the cook."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house was build in 2000.",
+    "output": "✅ **Corrected Sentence:** The house was built in 2000.\n🔍 **Error Identification:** 'Build' phải là 'built'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'build' (V1). Mẹo: build – built – built.\n💡 **Ví dụ:** The school was built in 1995. / The statue was built of marble."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter is write by her.",
+    "output": "✅ **Corrected Sentence:** The letter is written by her.\n🔍 **Error Identification:** 'Write' phải là 'written'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'write' (V1). Mẹo: write – wrote – written.\n💡 **Ví dụ:** The note is written in pen. / The message is written by me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The room is clean by the staff.",
+    "output": "✅ **Corrected Sentence:** The room is cleaned by the staff.\n🔍 **Error Identification:** 'Clean' phải là 'cleaned'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'clean' (tính từ) và 'cleaned' (V3). Mẹo: Bị động cần V3.\n💡 **Ví dụ:** The office is cleaned every night. / The bathroom is cleaned daily."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake was made by my mom. (câu đúng) - Học viên viết \'The cake made by my mom.\'",
+    "output": "✅ **Corrected Sentence:** The cake was made by my mom.\n🔍 **Error Identification:** Thiếu 'was'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to be'. Mẹo: Bị động quá khứ = was/were + V3.\n💡 **Ví dụ:** The cookies were baked by grandma. / The pie was made by aunt."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie is base on a true story.",
+    "output": "✅ **Corrected Sentence:** The movie is based on a true story.\n🔍 **Error Identification:** 'Base' phải là 'based'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'base' (V1). Mẹo: 'Be based on' là cấu trúc cố định.\n💡 **Ví dụ:** The story is based on real events. / The book is based on her life."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car was drive by my mom.",
+    "output": "✅ **Corrected Sentence:** The car was driven by my mom.\n🔍 **Error Identification:** 'Drive' phải là 'driven'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'drive' (V1). Mẹo: drive – drove – driven.\n💡 **Ví dụ:** The bus was driven by a woman. / The truck was driven by him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The homework is do by the students.",
+    "output": "✅ **Corrected Sentence:** The homework is done by the students.\n🔍 **Error Identification:** 'Do' phải là 'done'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'do' (V1). Mẹo: do – did – done.\n💡 **Ví dụ:** The exercises are done by the class. / The assignment is done by the group."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The window was break by the wind.",
+    "output": "✅ **Corrected Sentence:** The window was broken by the wind.\n🔍 **Error Identification:** 'Break' phải là 'broken'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'break' (V1). Mẹo: break – broke – broken.\n💡 **Ví dụ:** The glass was broken by the storm. / The vase was broken by the cat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The song is sung by the choir. (câu đúng) - Học viên viết \'The song is sing by the choir.\'",
+    "output": "✅ **Corrected Sentence:** The song is sung by the choir.\n🔍 **Error Identification:** 'Sing' phải là 'sung'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'sing' (V1). Mẹo: sing – sang – sung.\n💡 **Ví dụ:** The hymn is sung by the congregation. / The carol is sung by children."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter was send to her friend.",
+    "output": "✅ **Corrected Sentence:** The letter was sent to her friend.\n🔍 **Error Identification:** 'Send' phải là 'sent'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'send' (V1). Mẹo: send – sent – sent.\n💡 **Ví dụ:** The package was sent by courier. / The invitation was sent out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The food is cook by the chef.",
+    "output": "✅ **Corrected Sentence:** The food is cooked by the chef.\n🔍 **Error Identification:** 'Cook' phải là 'cooked'.\n📘 **Vietnamese Explanation:** Người Việt quên -ed. Mẹo: cook → cooked.\n💡 **Ví dụ:** The meal is cooked by him. / The dinner is cooked by my mom."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house was paint last year.",
+    "output": "✅ **Corrected Sentence:** The house was painted last year.\n🔍 **Error Identification:** 'Paint' phải là 'painted'.\n📘 **Vietnamese Explanation:** Người Việt quên -ed. Mẹo: paint → painted.\n💡 **Ví dụ:** The fence was painted white. / The wall was painted blue."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The problem is solve by the expert.",
+    "output": "✅ **Corrected Sentence:** The problem is solved by the expert.\n🔍 **Error Identification:** 'Solve' phải là 'solved' (thêm -d).\n📘 **Vietnamese Explanation:** Người Việt quên -ed. Mẹo: solve → solved.\n💡 **Ví dụ:** The puzzle is solved by her. / The mystery is solved by the detective."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car was steal by the thief.",
+    "output": "✅ **Corrected Sentence:** The car was stolen by the thief.\n🔍 **Error Identification:** 'Steal' phải là 'stolen'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'steal' (V1). Mẹo: steal – stole – stolen.\n💡 **Ví dụ:** The bike was stolen from the garage. / The wallet was stolen on the bus."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book is read by many students. (câu đúng) - Học viên viết \'The book read by many students.\'",
+    "output": "✅ **Corrected Sentence:** The book is read by many students.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to be'. Mẹo: Bị động hiện tại = is/am/are + V3.\n💡 **Ví dụ:** The magazine is read by her. / The article is read by millions."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The room was clean by the cleaner.",
+    "output": "✅ **Corrected Sentence:** The room was cleaned by the cleaner.\n🔍 **Error Identification:** 'Clean' phải là 'cleaned'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'clean' (tính từ) và 'cleaned' (V3). Mẹo: Bị động cần V3/ed.\n💡 **Ví dụ:** The floor was mopped. / The windows were washed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake is make by the baker.",
+    "output": "✅ **Corrected Sentence:** The cake is made by the baker.\n🔍 **Error Identification:** 'Make' phải là 'made'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'make' (V1). Mẹo: make – made – made.\n💡 **Ví dụ:** The bread is made fresh daily. / The pastry is made by hand."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter was write by him.",
+    "output": "✅ **Corrected Sentence:** The letter was written by him.\n🔍 **Error Identification:** 'Write' phải là 'written'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'write' (V1). Mẹo: write – wrote – written.\n💡 **Ví dụ:** The note was written in pencil. / The email was written yesterday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car is drive by my brother.",
+    "output": "✅ **Corrected Sentence:** The car is driven by my brother.\n🔍 **Error Identification:** 'Drive' phải là 'driven'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'drive' (V1). Mẹo: drive – drove – driven.\n💡 **Ví dụ:** The taxi is driven by him. / The bus is driven by a professional."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The homework was do by me.",
+    "output": "✅ **Corrected Sentence:** The homework was done by me.\n🔍 **Error Identification:** 'Do' phải là 'done'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'do' (V1). Mẹo: do – did – done.\n💡 **Ví dụ:** The task was done by her. / The job was done by the team."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The window was break by the ball.",
+    "output": "✅ **Corrected Sentence:** The window was broken by the ball.\n🔍 **Error Identification:** 'Break' phải là 'broken'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'break' (V1). Mẹo: break – broke – broken.\n💡 **Ví dụ:** The glass was broken. / The mirror was broken by accident."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The song is sing by the band.",
+    "output": "✅ **Corrected Sentence:** The song is sung by the band.\n🔍 **Error Identification:** 'Sing' phải là 'sung'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'sing' (V1). Mẹo: sing – sang – sung.\n💡 **Ví dụ:** The hit song is sung by her. / The anthem is sung by the choir."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter is send by mail.",
+    "output": "✅ **Corrected Sentence:** The letter is sent by mail.\n🔍 **Error Identification:** 'Send' phải là 'sent'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'send' (V1). Mẹo: send – sent – sent.\n💡 **Ví dụ:** The package is sent by air. / The invitation is sent by email."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The food was cook by her.",
+    "output": "✅ **Corrected Sentence:** The food was cooked by her.\n🔍 **Error Identification:** 'Cook' phải là 'cooked'.\n📘 **Vietnamese Explanation:** Người Việt quên -ed. Mẹo: cook → cooked.\n💡 **Ví dụ:** The dinner was cooked by my mom. / The meal was cooked perfectly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house is build by workers.",
+    "output": "✅ **Corrected Sentence:** The house is built by workers.\n🔍 **Error Identification:** 'Build' phải là 'built'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'build' (V1). Mẹo: build – built – built.\n💡 **Ví dụ:** The bridge is built of concrete. / The wall is built by masons."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The problem is solve by us.",
+    "output": "✅ **Corrected Sentence:** The problem is solved by us.\n🔍 **Error Identification:** 'Solve' phải là 'solved'.\n📘 **Vietnamese Explanation:** Người Việt quên -ed. Mẹo: solve → solved.\n💡 **Ví dụ:** The issue is solved by the team. / The equation is solved by the student."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car was drive by a woman.",
+    "output": "✅ **Corrected Sentence:** The car was driven by a woman.\n🔍 **Error Identification:** 'Drive' phải là 'driven'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'drive' (V1). Mẹo: drive – drove – driven.\n💡 **Ví dụ:** The taxi was driven by a female driver. / The truck was driven by him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake is make by my sister.",
+    "output": "✅ **Corrected Sentence:** The cake is made by my sister.\n🔍 **Error Identification:** 'Make' phải là 'made'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'make' (V1). Mẹo: make – made – made.\n💡 **Ví dụ:** The cookies are made by grandma. / The pie is made by aunt."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter was write by me.",
+    "output": "✅ **Corrected Sentence:** The letter was written by me.\n🔍 **Error Identification:** 'Write' phải là 'written'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'write' (V1). Mẹo: write – wrote – written.\n💡 **Ví dụ:** The note was written by him. / The email was written by her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The room is clean every day. (chủ động/ tính từ) - Học viên muốn bị động: \'The room is cleaned every day.\'",
+    "output": "✅ **Corrected Sentence (bị động):** The room is cleaned every day.\n🔍 **Error Identification:** 'Is clean' có thể hiểu là tính từ 'sạch sẽ', muốn nói 'được lau dọn' thì dùng 'is cleaned'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'clean' (tính từ) và 'cleaned' (bị động). Mẹo: Bị động = to be + V3.\n💡 **Ví dụ:** The floor is mopped (được lau). / The floor is clean (sạch)."
+  }
+]

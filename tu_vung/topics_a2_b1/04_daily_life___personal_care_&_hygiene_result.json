@@ -1,0 +1,1932 @@
+[
+
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "brush teeth",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/brʌʃ tiːθ/",
+      "ipa_us": "/brʌʃ tiθ/",
+      "meaning_vi": "đánh răng, chải răng",
+      "definition_en": "To clean your teeth with a brush and toothpaste.",
+      "example_en": "I brush my teeth twice a day, in the morning and before bed.",
+      "example_vi": "Tôi đánh răng hai lần một ngày, vào buổi sáng và trước khi đi ngủ.",
+      "collocations_json": [
+        "brush your teeth",
+        "electric toothbrush",
+        "mint toothpaste"
+      ],
+      "synonyms_json": [
+        "clean teeth"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Nhớ 'brush' như 'bàn chải', 'teeth' là 'răng'. Dùng bàn chải chải răng.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10205
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "take a shower",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/teɪk ə ˈʃaʊə/",
+      "ipa_us": "/teɪk ə ˈʃaʊər/",
+      "meaning_vi": "tắm vòi sen",
+      "definition_en": "To wash yourself using a shower.",
+      "example_en": "After exercising, I always take a shower to feel fresh.",
+      "example_vi": "Sau khi tập thể dục, tôi luôn tắm vòi sen để cảm thấy sảng khoái.",
+      "collocations_json": [
+        "take a quick shower",
+        "take a cold shower",
+        "take a long shower"
+      ],
+      "synonyms_json": [
+        "have a shower"
+      ],
+      "antonyms_json": [
+        "take a bath"
+      ],
+      "mnemonic": "Shower là vòi sen. 'Take a shower' là đi tắm vòi sen.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10206
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "wash face",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/wɒʃ feɪs/",
+      "ipa_us": "/wɑʃ feɪs/",
+      "meaning_vi": "rửa mặt",
+      "definition_en": "To clean your face with water and often soap.",
+      "example_en": "I wash my face every morning to remove dirt and oil.",
+      "example_vi": "Tôi rửa mặt mỗi sáng để loại bỏ bụi bẩn và dầu.",
+      "collocations_json": [
+        "wash your face",
+        "washcloth",
+        "facial cleanser"
+      ],
+      "synonyms_json": [
+        "cleanse face"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wash là rửa, face là mặt. Rửa mặt là 'wash face'.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10207
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "shampoo",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ʃæmˈpuː/",
+      "ipa_us": "/ʃæmˈpuː/",
+      "meaning_vi": "gội đầu",
+      "definition_en": "To wash your hair with shampoo.",
+      "example_en": "I shampoo my hair three times a week to keep it clean.",
+      "example_vi": "Tôi gội đầu ba lần một tuần để giữ tóc sạch.",
+      "collocations_json": [
+        "shampoo hair",
+        "daily shampoo",
+        "mild shampoo"
+      ],
+      "synonyms_json": [
+        "wash hair"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Shampoo vừa là dầu gội, vừa là hành động gội đầu.",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10208
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "conditioner",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kənˈdɪʃənə/",
+      "ipa_us": "/kənˈdɪʃənər/",
+      "meaning_vi": "dầu xả",
+      "definition_en": "A liquid applied to hair after shampooing to make it softer and shinier.",
+      "example_en": "I always use conditioner after shampoo to make my hair smooth.",
+      "example_vi": "Tôi luôn dùng dầu xả sau khi gội đầu để tóc mềm mượt.",
+      "collocations_json": [
+        "hair conditioner",
+        "leave-in conditioner",
+        "rinse-out conditioner"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Conditioner giúp tóc có 'condition' tốt hơn, tức là khỏe và mềm mượt.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10209
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "comb hair",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kəʊm heə/",
+      "ipa_us": "/koʊm her/",
+      "meaning_vi": "chải tóc",
+      "definition_en": "To arrange your hair with a comb.",
+      "example_en": "She combs her hair every morning to look tidy.",
+      "example_vi": "Cô ấy chải tóc mỗi sáng để trông gọn gàng.",
+      "collocations_json": [
+        "comb your hair",
+        "comb through hair",
+        "fine-tooth comb"
+      ],
+      "synonyms_json": [
+        "brush hair"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Comb là cái lược, comb hair là dùng lược chải tóc.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10210
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "dry hair",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/draɪ heə/",
+      "ipa_us": "/draɪ her/",
+      "meaning_vi": "sấy tóc, làm khô tóc",
+      "definition_en": "To remove water from your hair, often with a hairdryer or towel.",
+      "example_en": "After my shower, I dry my hair with a towel and then a hairdryer.",
+      "example_vi": "Sau khi tắm, tôi lau khô tóc bằng khăn rồi sấy tóc.",
+      "collocations_json": [
+        "blow-dry hair",
+        "air dry hair",
+        "towel dry hair"
+      ],
+      "synonyms_json": [
+        "blow-dry"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dry là khô, dry hair là làm khô tóc.",
+      "frequency_rank": 2700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10211
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "apply lotion",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/əˈplaɪ ˈləʊʃən/",
+      "ipa_us": "/əˈplaɪ ˈloʊʃən/",
+      "meaning_vi": "thoa kem dưỡng da, bôi sữa dưỡng thể",
+      "definition_en": "To put cream or liquid on your skin to make it soft.",
+      "example_en": "It's good to apply lotion after bathing to keep your skin hydrated.",
+      "example_vi": "Thật tốt khi thoa kem dưỡng da sau khi tắm để giữ ẩm cho da.",
+      "collocations_json": [
+        "apply body lotion",
+        "apply sunscreen",
+        "apply moisturizer"
+      ],
+      "synonyms_json": [
+        "put on lotion"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Apply là thoa/bôi, lotion là kem dưỡng. Thoa kem dưỡng là 'apply lotion'.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10212
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "put on deodorant",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/pʊt ɒn diːˈəʊdərənt/",
+      "ipa_us": "/pʊt ɑn diˈoʊdərənt/",
+      "meaning_vi": "sử dụng lăn khử mùi",
+      "definition_en": "To use a substance that stops you from smelling bad.",
+      "example_en": "He always puts on deodorant before leaving the house.",
+      "example_vi": "Anh ấy luôn dùng lăn khử mùi trước khi ra khỏi nhà.",
+      "collocations_json": [
+        "apply deodorant",
+        "spray deodorant",
+        "roll-on deodorant"
+      ],
+      "synonyms_json": [
+        "use deodorant"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Deodorant là khử mùi. 'Put on' là bôi/mặc vào. 'Put on deodorant' là bôi khử mùi.",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10213
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "shave",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ʃeɪv/",
+      "ipa_us": "/ʃeɪv/",
+      "meaning_vi": "cạo râu, cạo lông",
+      "definition_en": "To remove hair from your skin, especially from your face, using a razor.",
+      "example_en": "My dad shaves his beard every morning.",
+      "example_vi": "Bố tôi cạo râu mỗi sáng.",
+      "collocations_json": [
+        "shave beard",
+        "shave legs",
+        "shaving cream"
+      ],
+      "synonyms_json": [
+        "trim"
+      ],
+      "antonyms_json": [
+        "grow beard"
+      ],
+      "mnemonic": "Shave giống 'save' nhưng với 'h'. 'Shave' là cạo đi, 'save' là giữ lại.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10214
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "razor",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈreɪzə/",
+      "ipa_us": "/ˈreɪzər/",
+      "meaning_vi": "dao cạo râu",
+      "definition_en": "An instrument with a sharp blade for shaving hair.",
+      "example_en": "He bought a new razor to get a smoother shave.",
+      "example_vi": "Anh ấy đã mua một chiếc dao cạo mới để cạo mượt hơn.",
+      "collocations_json": [
+        "electric razor",
+        "disposable razor",
+        "safety razor"
+      ],
+      "synonyms_json": [
+        "shaver"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Razor nghe giống 'racer' (tay đua), dao cạo cũng sắc bén và nhanh như vậy.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10215
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "toothpaste",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈtuːθpeɪst/",
+      "ipa_us": "/ˈtuθˌpeɪst/",
+      "meaning_vi": "kem đánh răng",
+      "definition_en": "A paste used with a toothbrush to clean your teeth.",
+      "example_en": "I need to buy a new tube of toothpaste, as this one is empty.",
+      "example_vi": "Tôi cần mua một tuýp kem đánh răng mới vì tuýp này đã hết.",
+      "collocations_json": [
+        "mint toothpaste",
+        "fluoride toothpaste",
+        "whitening toothpaste"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Tooth là răng, paste là chất sệt. 'Toothpaste' là chất sệt dùng cho răng.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10216
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "toothbrush",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈtuːθbrʌʃ/",
+      "ipa_us": "/ˈtuθˌbrʌʃ/",
+      "meaning_vi": "bàn chải đánh răng",
+      "definition_en": "A brush used for cleaning your teeth.",
+      "example_en": "Remember to change your toothbrush every three months.",
+      "example_vi": "Hãy nhớ thay bàn chải đánh răng của bạn ba tháng một lần.",
+      "collocations_json": [
+        "electric toothbrush",
+        "manual toothbrush",
+        "soft-bristle toothbrush"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Tooth là răng, brush là bàn chải. 'Toothbrush' là bàn chải răng.",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10217
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "floss",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/flɒs/",
+      "ipa_us": "/flɑs/",
+      "meaning_vi": "dùng chỉ nha khoa",
+      "definition_en": "To clean between your teeth with dental floss.",
+      "example_en": "Dentists recommend you floss your teeth daily.",
+      "example_vi": "Nha sĩ khuyên bạn nên dùng chỉ nha khoa hàng ngày.",
+      "collocations_json": [
+        "dental floss",
+        "floss your teeth",
+        "floss regularly"
+      ],
+      "synonyms_json": [
+        "clean with floss"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Floss nghe giống 'loss' (mất), nhưng đây là mất thức ăn kẹt trong răng.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10218
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "mouthwash",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈmaʊθwɒʃ/",
+      "ipa_us": "/ˈmaʊθwɑʃ/",
+      "meaning_vi": "nước súc miệng",
+      "definition_en": "A liquid used to make your breath smell fresh and to kill germs in your mouth.",
+      "example_en": "I use mouthwash every morning for fresh breath.",
+      "example_vi": "Tôi dùng nước súc miệng mỗi sáng để hơi thở thơm mát.",
+      "collocations_json": [
+        "antiseptic mouthwash",
+        "fluoride mouthwash",
+        "alcohol-free mouthwash"
+      ],
+      "synonyms_json": [
+        "oral rinse"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Mouth là miệng, wash là rửa. 'Mouthwash' là nước rửa miệng.",
+      "frequency_rank": 4200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10219
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "get dressed",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡet drest/",
+      "ipa_us": "/ɡɛt drɛst/",
+      "meaning_vi": "mặc quần áo",
+      "definition_en": "To put on your clothes.",
+      "example_en": "I usually get dressed after I have breakfast.",
+      "example_vi": "Tôi thường mặc quần áo sau khi ăn sáng.",
+      "collocations_json": [
+        "get ready",
+        "get dressed quickly",
+        "help someone get dressed"
+      ],
+      "synonyms_json": [
+        "put on clothes"
+      ],
+      "antonyms_json": [
+        "get undressed"
+      ],
+      "mnemonic": "Dress là váy, nhưng 'get dressed' là mặc quần áo nói chung.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10220
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "put on makeup",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/pʊt ɒn ˈmeɪkʌp/",
+      "ipa_us": "/pʊt ɑn ˈmeɪkʌp/",
+      "meaning_vi": "trang điểm",
+      "definition_en": "To apply cosmetics to your face to improve or change your appearance.",
+      "example_en": "She likes to put on makeup before going to work.",
+      "example_vi": "Cô ấy thích trang điểm trước khi đi làm.",
+      "collocations_json": [
+        "wear makeup",
+        "heavy makeup",
+        "light makeup"
+      ],
+      "synonyms_json": [
+        "apply makeup"
+      ],
+      "antonyms_json": [
+        "take off makeup"
+      ],
+      "mnemonic": "Makeup là đồ trang điểm. 'Put on' là bôi/đặt lên. Bôi đồ trang điểm lên mặt.",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10221
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "nail clipper",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/neɪl ˈklɪpə/",
+      "ipa_us": "/neɪl ˈklɪpər/",
+      "meaning_vi": "kềm cắt móng tay",
+      "definition_en": "A small tool used for cutting fingernails and toenails.",
+      "example_en": "I need a nail clipper to trim my long nails.",
+      "example_vi": "Tôi cần một cái kềm cắt móng tay để cắt những móng tay dài của mình.",
+      "collocations_json": [
+        "stainless steel nail clipper",
+        "fingernail clipper",
+        "toenail clipper"
+      ],
+      "synonyms_json": [
+        "nail clippers"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Nail là móng, clipper là cái cắt. 'Nail clipper' là cái cắt móng.",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10222
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "hand soap",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/hænd səʊp/",
+      "ipa_us": "/hænd soʊp/",
+      "meaning_vi": "xà phòng rửa tay",
+      "definition_en": "Soap specifically designed for washing hands.",
+      "example_en": "Always use hand soap to wash your hands before eating.",
+      "example_vi": "Luôn dùng xà phòng rửa tay để rửa tay trước khi ăn.",
+      "collocations_json": [
+        "liquid hand soap",
+        "antibacterial hand soap",
+        "foaming hand soap"
+      ],
+      "synonyms_json": [
+        "hand wash"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hand là tay, soap là xà phòng. 'Hand soap' là xà phòng cho tay.",
+      "frequency_rank": 2100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10223
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "body wash",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbɒdi wɒʃ/",
+      "ipa_us": "/ˈbɑdi wɑʃ/",
+      "meaning_vi": "sữa tắm",
+      "definition_en": "A liquid soap used to clean the body when showering or bathing.",
+      "example_en": "I prefer body wash to bar soap for my daily shower.",
+      "example_vi": "Tôi thích sữa tắm hơn xà phòng cục cho việc tắm hàng ngày.",
+      "collocations_json": [
+        "moisturizing body wash",
+        "fragrant body wash",
+        "exfoliating body wash"
+      ],
+      "synonyms_json": [
+        "shower gel"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Body là cơ thể, wash là rửa. 'Body wash' là sữa rửa cơ thể.",
+      "frequency_rank": 3300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10224
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "towel",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈtaʊəl/",
+      "ipa_us": "/ˈtaʊəl/",
+      "meaning_vi": "khăn tắm, khăn lau",
+      "definition_en": "A piece of absorbent cloth used for drying.",
+      "example_en": "Don't forget to bring a towel to the beach.",
+      "example_vi": "Đừng quên mang theo một cái khăn tắm ra bãi biển.",
+      "collocations_json": [
+        "bath towel",
+        "hand towel",
+        "beach towel"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Towel nghe giống 'tower' (tòa tháp), nhưng towel là khăn, thấp hơn nhiều.",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10225
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "cleanse",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/klenz/",
+      "ipa_us": "/klɛnz/",
+      "meaning_vi": "làm sạch, tẩy rửa",
+      "definition_en": "To make something thoroughly clean.",
+      "example_en": "It's important to cleanse your skin twice a day.",
+      "example_vi": "Việc làm sạch da hai lần một ngày là rất quan trọng.",
+      "collocations_json": [
+        "cleanse skin",
+        "facial cleanser",
+        "deep cleanse"
+      ],
+      "synonyms_json": [
+        "clean",
+        "purify"
+      ],
+      "antonyms_json": [
+        "dirty"
+      ],
+      "mnemonic": "Cleanse giống 'clean' nhưng thường dùng cho việc làm sạch sâu hơn, như da mặt.",
+      "frequency_rank": 3700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10226
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "moisturizer",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈmɔɪstʃəraɪzə/",
+      "ipa_us": "/ˈmɔɪstʃəraɪzər/",
+      "meaning_vi": "kem dưỡng ẩm",
+      "definition_en": "A cream or lotion used to prevent skin from becoming dry.",
+      "example_en": "She uses a good moisturizer to keep her skin soft and smooth.",
+      "example_vi": "Cô ấy dùng kem dưỡng ẩm tốt để giữ da mềm mại và mịn màng.",
+      "collocations_json": [
+        "face moisturizer",
+        "body moisturizer",
+        "daily moisturizer"
+      ],
+      "synonyms_json": [
+        "lotion",
+        "cream"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Moist là ẩm. Moisturizer là chất làm ẩm.",
+      "frequency_rank": 3900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10227
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "sunscreen",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈsʌnskriːn/",
+      "ipa_us": "/ˈsʌnˌskrin/",
+      "meaning_vi": "kem chống nắng",
+      "definition_en": "A cream or lotion rubbed onto the skin to protect it from the sun.",
+      "example_en": "Always apply sunscreen before going out in the sun.",
+      "example_vi": "Luôn thoa kem chống nắng trước khi ra nắng.",
+      "collocations_json": [
+        "apply sunscreen",
+        "waterproof sunscreen",
+        "SPF 50 sunscreen"
+      ],
+      "synonyms_json": [
+        "sunblock"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sun là mặt trời, screen là màn chắn. 'Sunscreen' là màn chắn nắng.",
+      "frequency_rank": 4100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10228
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "perfume",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpɜːfjuːm/",
+      "ipa_us": "/ˈpɜrˌfjuːm/",
+      "meaning_vi": "nước hoa",
+      "definition_en": "A fragrant liquid typically made from essential oils and aroma compounds, used to give a pleasant scent to one's body.",
+      "example_en": "She wears a different perfume for special occasions.",
+      "example_vi": "Cô ấy dùng một loại nước hoa khác cho những dịp đặc biệt.",
+      "collocations_json": [
+        "spray perfume",
+        "expensive perfume",
+        "floral perfume"
+      ],
+      "synonyms_json": [
+        "fragrance",
+        "scent"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Perfume là 'per-fume', mùi hương 'per' (qua) người.",
+      "frequency_rank": 3600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10229
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "cologne",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kəˈləʊn/",
+      "ipa_us": "/kəˈloʊn/",
+      "meaning_vi": "nước hoa nam",
+      "definition_en": "A light perfume, especially for men.",
+      "example_en": "He prefers a subtle cologne for daily wear.",
+      "example_vi": "Anh ấy thích một loại nước hoa nam nhẹ nhàng để dùng hàng ngày.",
+      "collocations_json": [
+        "men's cologne",
+        "aftershave cologne",
+        "spray cologne"
+      ],
+      "synonyms_json": [
+        "aftershave"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Cologne thường dành cho nam, nghe có vẻ mạnh mẽ hơn perfume.",
+      "frequency_rank": 4700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10230
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "trim",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/trɪm/",
+      "ipa_us": "/trɪm/",
+      "meaning_vi": "cắt tỉa",
+      "definition_en": "To cut something slightly so that it is neater or shorter.",
+      "example_en": "I need to trim my beard because it's getting too long.",
+      "example_vi": "Tôi cần cắt tỉa râu vì nó đang dài quá.",
+      "collocations_json": [
+        "trim hair",
+        "trim nails",
+        "trim beard"
+      ],
+      "synonyms_json": [
+        "cut",
+        "clip"
+      ],
+      "antonyms_json": [
+        "grow"
+      ],
+      "mnemonic": "Trim là cắt tỉa, làm cho gọn gàng hơn, không phải cắt cụt hẳn.",
+      "frequency_rank": 3100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10231
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "hygiene",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈhaɪdʒiːn/",
+      "ipa_us": "/ˈhaɪdʒiːn/",
+      "meaning_vi": "vệ sinh",
+      "definition_en": "The practice of keeping yourself and your surroundings clean to prevent illness.",
+      "example_en": "Good personal hygiene is essential for staying healthy.",
+      "example_vi": "Vệ sinh cá nhân tốt là điều cần thiết để giữ sức khỏe.",
+      "collocations_json": [
+        "personal hygiene",
+        "oral hygiene",
+        "food hygiene"
+      ],
+      "synonyms_json": [
+        "cleanliness",
+        "sanitation"
+      ],
+      "antonyms_json": [
+        "dirtiness"
+      ],
+      "mnemonic": "Hygiene nghe giống 'high-jean' (quần jean cao), nhưng là về sự sạch sẽ.",
+      "frequency_rank": 4300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10232
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "fresh",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/freʃ/",
+      "ipa_us": "/frɛʃ/",
+      "meaning_vi": "tươi mát, sảng khoái",
+      "definition_en": "Clean and new; not stale or tired.",
+      "example_en": "After a good night's sleep, I feel fresh and ready for the day.",
+      "example_vi": "Sau một đêm ngon giấc, tôi cảm thấy tươi tỉnh và sẵn sàng cho một ngày mới.",
+      "collocations_json": [
+        "fresh air",
+        "feel fresh",
+        "fresh breath"
+      ],
+      "synonyms_json": [
+        "clean",
+        "new",
+        "cool"
+      ],
+      "antonyms_json": [
+        "stale",
+        "tired"
+      ],
+      "mnemonic": "Fresh giống 'fresh' trong 'fresh water' (nước ngọt), luôn tươi mới.",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10233
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "routine",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ruːˈtiːn/",
+      "ipa_us": "/ruˈtin/",
+      "meaning_vi": "thói quen, lịch trình",
+      "definition_en": "A sequence of actions regularly followed; a fixed program.",
+      "example_en": "My morning routine includes brushing my teeth and having breakfast.",
+      "example_vi": "Thói quen buổi sáng của tôi bao gồm đánh răng và ăn sáng.",
+      "collocations_json": [
+        "daily routine",
+        "morning routine",
+        "skincare routine"
+      ],
+      "synonyms_json": [
+        "habit",
+        "schedule"
+      ],
+      "antonyms_json": [
+        "irregularity"
+      ],
+      "mnemonic": "Routine nghe giống 'ru tin', những việc làm 'tin' (tin tưởng) lặp lại hàng ngày.",
+      "frequency_rank": 2300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10234
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "personal care",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈpɜːsənəl keə/",
+      "ipa_us": "/ˈpɜrsənəl ker/",
+      "meaning_vi": "chăm sóc cá nhân",
+      "definition_en": "The activities involved in taking care of your body and appearance.",
+      "example_en": "Personal care products include soap, shampoo, and deodorant.",
+      "example_vi": "Các sản phẩm chăm sóc cá nhân bao gồm xà phòng, dầu gội và lăn khử mùi.",
+      "collocations_json": [
+        "personal care products",
+        "personal care routine",
+        "good personal care"
+      ],
+      "synonyms_json": [
+        "self-care"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Personal là cá nhân, care là chăm sóc. Ghép lại là chăm sóc cá nhân.",
+      "frequency_rank": 3400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10235
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "bath",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/bɑːθ/",
+      "ipa_us": "/bæθ/",
+      "meaning_vi": "bồn tắm, việc tắm bồn",
+      "definition_en": "An act of washing your body while sitting or lying in a tub of water.",
+      "example_en": "I enjoy taking a warm bath to relax after a long day.",
+      "example_vi": "Tôi thích tắm bồn nước ấm để thư giãn sau một ngày dài.",
+      "collocations_json": [
+        "take a bath",
+        "bubble bath",
+        "bath tub"
+      ],
+      "synonyms_json": [
+        "wash"
+      ],
+      "antonyms_json": [
+        "shower"
+      ],
+      "mnemonic": "Bath giống 'path' (con đường), nhưng bath là bồn tắm. Con đường dẫn đến bồn tắm.",
+      "frequency_rank": 1900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10236
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "rinse",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rɪns/",
+      "ipa_us": "/rɪns/",
+      "meaning_vi": "xả, tráng",
+      "definition_en": "To wash something with clean water to remove soap or dirt.",
+      "example_en": "Don't forget to rinse your hair thoroughly after shampooing.",
+      "example_vi": "Đừng quên xả tóc thật kỹ sau khi gội đầu.",
+      "collocations_json": [
+        "rinse hair",
+        "rinse mouth",
+        "rinse off soap"
+      ],
+      "synonyms_json": [
+        "wash out"
+      ],
+      "antonyms_json": [
+        "apply"
+      ],
+      "mnemonic": "Rinse nghe giống 'rắn' (snake), nhưng là hành động xả nước.",
+      "frequency_rank": 4400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10237
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "get ready",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡet ˈredi/",
+      "ipa_us": "/ɡɛt ˈrɛdi/",
+      "meaning_vi": "chuẩn bị sẵn sàng",
+      "definition_en": "To prepare yourself for something, such as going out or an event.",
+      "example_en": "I need about 30 minutes to get ready in the morning.",
+      "example_vi": "Tôi cần khoảng 30 phút để chuẩn bị sẵn sàng vào buổi sáng.",
+      "collocations_json": [
+        "get ready for work",
+        "get ready for bed",
+        "get ready to go"
+      ],
+      "synonyms_json": [
+        "prepare"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ready là sẵn sàng. 'Get ready' là làm cho mình sẵn sàng.",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10238
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "wake up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/weɪk ʌp/",
+      "ipa_us": "/weɪk ʌp/",
+      "meaning_vi": "thức dậy",
+      "definition_en": "To stop sleeping and become conscious.",
+      "example_en": "I usually wake up at 7 AM every day.",
+      "example_vi": "Tôi thường thức dậy lúc 7 giờ sáng mỗi ngày.",
+      "collocations_json": [
+        "wake up early",
+        "wake up late",
+        "wake up with a start"
+      ],
+      "synonyms_json": [
+        "arise"
+      ],
+      "antonyms_json": [
+        "fall asleep"
+      ],
+      "mnemonic": "Wake là tỉnh giấc, up là lên. 'Wake up' là tỉnh dậy.",
+      "frequency_rank": 500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10239
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "go to bed",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡəʊ tə bed/",
+      "ipa_us": "/ɡoʊ tə bɛd/",
+      "meaning_vi": "đi ngủ",
+      "definition_en": "To lie down in bed to sleep.",
+      "example_en": "I usually go to bed around 10 PM on weekdays.",
+      "example_vi": "Tôi thường đi ngủ vào khoảng 10 giờ tối các ngày trong tuần.",
+      "collocations_json": [
+        "go to sleep",
+        "go to bed early",
+        "go to bed late"
+      ],
+      "synonyms_json": [
+        "retire to bed"
+      ],
+      "antonyms_json": [
+        "wake up"
+      ],
+      "mnemonic": "Bed là giường. 'Go to bed' là đi đến giường để ngủ.",
+      "frequency_rank": 700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10240
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "sleep in",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/sliːp ɪn/",
+      "ipa_us": "/slip ɪn/",
+      "meaning_vi": "ngủ nướng",
+      "definition_en": "To sleep longer than usual in the morning.",
+      "example_en": "On weekends, I love to sleep in until 9 AM.",
+      "example_vi": "Vào cuối tuần, tôi thích ngủ nướng đến 9 giờ sáng.",
+      "collocations_json": [
+        "sleep in late",
+        "sleep in on weekends",
+        "sleep in until noon"
+      ],
+      "synonyms_json": [
+        "oversleep"
+      ],
+      "antonyms_json": [
+        "wake up early"
+      ],
+      "mnemonic": "Sleep là ngủ, in là trong. Ngủ 'in' (trong) nhà, không cần dậy sớm.",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10241
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "hairbrush",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈheəbrʌʃ/",
+      "ipa_us": "/ˈherˌbrʌʃ/",
+      "meaning_vi": "bàn chải tóc",
+      "definition_en": "A brush used for tidying or styling hair.",
+      "example_en": "I use my hairbrush to detangle my hair after washing it.",
+      "example_vi": "Tôi dùng bàn chải tóc để gỡ rối tóc sau khi gội.",
+      "collocations_json": [
+        "round hairbrush",
+        "paddle hairbrush",
+        "clean your hairbrush"
+      ],
+      "synonyms_json": [
+        "brush"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hair là tóc, brush là bàn chải. 'Hairbrush' là bàn chải tóc.",
+      "frequency_rank": 2400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10242
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "hairdryer",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈheəˌdraɪə/",
+      "ipa_us": "/ˈherˌdraɪər/",
+      "meaning_vi": "máy sấy tóc",
+      "definition_en": "An electrical device for drying hair with hot air.",
+      "example_en": "My hairdryer broke, so I have to air dry my hair now.",
+      "example_vi": "Máy sấy tóc của tôi bị hỏng, nên bây giờ tôi phải để tóc khô tự nhiên.",
+      "collocations_json": [
+        "travel hairdryer",
+        "professional hairdryer",
+        "use a hairdryer"
+      ],
+      "synonyms_json": [
+        "blow dryer"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hair là tóc, dryer là máy sấy. 'Hairdryer' là máy sấy tóc.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10243
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "skincare",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈskɪnkeə/",
+      "ipa_us": "/ˈskɪnker/",
+      "meaning_vi": "chăm sóc da",
+      "definition_en": "The practice of maintaining the health and appearance of skin.",
+      "example_en": "Having a good skincare routine is important for healthy skin.",
+      "example_vi": "Có một quy trình chăm sóc da tốt là quan trọng để có làn da khỏe mạnh.",
+      "collocations_json": [
+        "skincare routine",
+        "skincare products",
+        "daily skincare"
+      ],
+      "synonyms_json": [
+        "dermatology"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Skin là da, care là chăm sóc. 'Skincare' là chăm sóc da.",
+      "frequency_rank": 4600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10244
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "facial",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈfeɪʃəl/",
+      "ipa_us": "/ˈfeɪʃəl/",
+      "meaning_vi": "chăm sóc da mặt",
+      "definition_en": "A beauty treatment for the face.",
+      "example_en": "She enjoys getting a facial once a month to keep her skin glowing.",
+      "example_vi": "Cô ấy thích đi chăm sóc da mặt mỗi tháng một lần để giữ làn da rạng rỡ.",
+      "collocations_json": [
+        "get a facial",
+        "deep cleansing facial",
+        "relaxing facial"
+      ],
+      "synonyms_json": [
+        "face treatment"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Facial liên quan đến 'face' (mặt), là chăm sóc cho mặt.",
+      "frequency_rank": 4900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10245
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "germs",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/dʒɜːmz/",
+      "ipa_us": "/dʒɜrmz/",
+      "meaning_vi": "vi trùng, mầm bệnh",
+      "definition_en": "Microorganisms, especially bacteria, that can cause disease.",
+      "example_en": "Washing your hands helps to remove germs and prevent illness.",
+      "example_vi": "Rửa tay giúp loại bỏ vi trùng và ngăn ngừa bệnh tật.",
+      "collocations_json": [
+        "kill germs",
+        "spread germs",
+        "fight germs"
+      ],
+      "synonyms_json": [
+        "bacteria",
+        "microbes"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Germs nghe giống 'cherms' (từ chế) - những thứ nhỏ bé gây hại.",
+      "frequency_rank": 2200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10246
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "hand sanitizer",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/hænd ˈsænɪtaɪzə/",
+      "ipa_us": "/hænd ˈsænɪˌtaɪzər/",
+      "meaning_vi": "nước rửa tay khô",
+      "definition_en": "A liquid or gel used to kill germs on the hands.",
+      "example_en": "Always carry hand sanitizer when you can't wash your hands.",
+      "example_vi": "Luôn mang theo nước rửa tay khô khi bạn không thể rửa tay.",
+      "collocations_json": [
+        "alcohol-based hand sanitizer",
+        "use hand sanitizer",
+        "pocket hand sanitizer"
+      ],
+      "synonyms_json": [
+        "hand gel"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hand là tay, sanitizer là chất khử trùng. 'Hand sanitizer' là chất khử trùng tay.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10247
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "freshen up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈfreʃən ʌp/",
+      "ipa_us": "/ˈfrɛʃən ʌp/",
+      "meaning_vi": "làm mới, làm sạch nhanh",
+      "definition_en": "To wash and tidy yourself to feel cleaner and more energetic.",
+      "example_en": "After the long journey, I really need to freshen up.",
+      "example_vi": "Sau chuyến đi dài, tôi thực sự cần làm mới mình.",
+      "collocations_json": [
+        "freshen up quickly",
+        "freshen up your look",
+        "freshen up the room"
+      ],
+      "synonyms_json": [
+        "tidy up",
+        "spruce up"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Fresh là tươi. 'Freshen up' là làm cho mình tươi tỉnh hơn.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10248
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "smell good",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/smel ɡʊd/",
+      "ipa_us": "/smɛl ɡʊd/",
+      "meaning_vi": "thơm tho",
+      "definition_en": "To have a pleasant odor.",
+      "example_en": "She always uses scented soap to smell good.",
+      "example_vi": "Cô ấy luôn dùng xà phòng thơm để cơ thể thơm tho.",
+      "collocations_json": [
+        "make you smell good",
+        "always smell good",
+        "smell good all day"
+      ],
+      "synonyms_json": [
+        "fragrant",
+        "aromatic"
+      ],
+      "antonyms_json": [
+        "smell bad"
+      ],
+      "mnemonic": "Smell là mùi, good là tốt. 'Smell good' là mùi tốt, thơm.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10249
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "clean up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kliːn ʌp/",
+      "ipa_us": "/klin ʌp/",
+      "meaning_vi": "dọn dẹp, làm sạch",
+      "definition_en": "To make a place or person clean and tidy.",
+      "example_en": "Let's clean up before our guests arrive.",
+      "example_vi": "Hãy dọn dẹp trước khi khách của chúng ta đến.",
+      "collocations_json": [
+        "clean up mess",
+        "clean up the kitchen",
+        "clean up yourself"
+      ],
+      "synonyms_json": [
+        "tidy up",
+        "straighten up"
+      ],
+      "antonyms_json": [
+        "mess up"
+      ],
+      "mnemonic": "Clean là sạch, up là lên. 'Clean up' là làm cho sạch sẽ lên.",
+      "frequency_rank": 1100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10250
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "take care of yourself",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/teɪk keə ɒv jɔːˈself/",
+      "ipa_us": "/teɪk ker ɑv jʊrˈsɛlf/",
+      "meaning_vi": "chăm sóc bản thân",
+      "definition_en": "To look after your own health and well-being.",
+      "example_en": "It's important to take care of yourself, especially when you're busy.",
+      "example_vi": "Điều quan trọng là phải chăm sóc bản thân, đặc biệt khi bạn bận rộn.",
+      "collocations_json": [
+        "take good care of yourself",
+        "learn to take care of yourself",
+        "take care of your health"
+      ],
+      "synonyms_json": [
+        "look after yourself"
+      ],
+      "antonyms_json": [
+        "neglect yourself"
+      ],
+      "mnemonic": "Care là chăm sóc, yourself là bản thân bạn. 'Take care of yourself' là chăm sóc bản thân.",
+      "frequency_rank": 1300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10251
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "daily routine",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdeɪli ruːˈtiːn/",
+      "ipa_us": "/ˈdeɪli ruˈtin/",
+      "meaning_vi": "thói quen hàng ngày",
+      "definition_en": "The regular course of activities that you follow each day.",
+      "example_en": "My daily routine starts with coffee and reading the news.",
+      "example_vi": "Thói quen hàng ngày của tôi bắt đầu bằng cà phê và đọc tin tức.",
+      "collocations_json": [
+        "morning routine",
+        "evening routine",
+        "stick to a routine"
+      ],
+      "synonyms_json": [
+        "daily schedule",
+        "daily habits"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Daily là hàng ngày, routine là thói quen. 'Daily routine' là thói quen hàng ngày.",
+      "frequency_rank": 600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10252
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "soap",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/səʊp/",
+      "ipa_us": "/soʊp/",
+      "meaning_vi": "xà phòng",
+      "definition_en": "A substance used with water for washing and cleaning.",
+      "example_en": "Please pass me the soap so I can wash my hands.",
+      "example_vi": "Làm ơn đưa cho tôi xà phòng để tôi rửa tay.",
+      "collocations_json": [
+        "bar of soap",
+        "liquid soap",
+        "scented soap"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Soap nghe giống 'súp', nhưng đây là xà phòng, không phải đồ ăn.",
+      "frequency_rank": 1400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10253
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "washcloth",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈwɒʃklɒθ/",
+      "ipa_us": "/ˈwɑʃklɔθ/",
+      "meaning_vi": "khăn rửa mặt, khăn lau người",
+      "definition_en": "A small cloth used for washing yourself.",
+      "example_en": "She used a soft washcloth to gently clean her baby's face.",
+      "example_vi": "Cô ấy dùng một chiếc khăn rửa mặt mềm để nhẹ nhàng lau mặt em bé.",
+      "collocations_json": [
+        "clean washcloth",
+        "wet washcloth",
+        "baby washcloth"
+      ],
+      "synonyms_json": [
+        "flannel"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wash là rửa, cloth là vải. 'Washcloth' là vải để rửa.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10254
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "loofah",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈluːfə/",
+      "ipa_us": "/ˈluːfə/",
+      "meaning_vi": "bông tắm xơ mướp",
+      "definition_en": "A sponge made from the dried fibrous tissue of a loofah gourd, used for washing and exfoliating the skin.",
+      "example_en": "I use a loofah with my body wash to exfoliate my skin.",
+      "example_vi": "Tôi dùng bông tắm xơ mướp với sữa tắm để tẩy tế bào chết cho da.",
+      "collocations_json": [
+        "natural loofah",
+        "plastic loofah",
+        "exfoliating loofah"
+      ],
+      "synonyms_json": [
+        "bath sponge"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Loofah nghe giống 'lu-fa', bông tắm xơ mướp.",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10255
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "exfoliate",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/eksˈfəʊlieɪt/",
+      "ipa_us": "/ɛksˈfoʊliˌeɪt/",
+      "meaning_vi": "tẩy tế bào chết",
+      "definition_en": "To wash or rub your skin with a substance to remove dead cells.",
+      "example_en": "It's good to exfoliate your skin once or twice a week.",
+      "example_vi": "Thật tốt khi tẩy tế bào chết cho da của bạn một hoặc hai lần một tuần.",
+      "collocations_json": [
+        "exfoliate skin",
+        "facial exfoliant",
+        "body exfoliation"
+      ],
+      "synonyms_json": [
+        "scrub"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ex-foliate: ex là bỏ đi, foliate là lớp (như lá). Bỏ đi lớp da chết.",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10256
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "dental floss",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈdentl flɒs/",
+      "ipa_us": "/ˈdɛntl flɑs/",
+      "meaning_vi": "chỉ nha khoa",
+      "definition_en": "A thin thread used to clean between the teeth.",
+      "example_en": "My dentist recommended I use dental floss daily.",
+      "example_vi": "Nha sĩ của tôi khuyên tôi nên dùng chỉ nha khoa hàng ngày.",
+      "collocations_json": [
+        "use dental floss",
+        "waxed dental floss",
+        "unwaxed dental floss"
+      ],
+      "synonyms_json": [
+        "floss"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dental là răng, floss là chỉ. 'Dental floss' là chỉ cho răng.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10257
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "deodorant",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/diːˈəʊdərənt/",
+      "ipa_us": "/diˈoʊdərənt/",
+      "meaning_vi": "lăn khử mùi",
+      "definition_en": "A substance that you put on your body to prevent or hide unpleasant smells.",
+      "example_en": "He uses a natural deodorant that is free of aluminum.",
+      "example_vi": "Anh ấy dùng một loại lăn khử mùi tự nhiên không chứa nhôm.",
+      "collocations_json": [
+        "antiperspirant deodorant",
+        "spray deodorant",
+        "roll-on deodorant"
+      ],
+      "synonyms_json": [
+        "antiperspirant"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "De-odorant: 'de' là loại bỏ, 'odor' là mùi. Loại bỏ mùi hôi.",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10258
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "aftershave",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɑːftəʃeɪv/",
+      "ipa_us": "/ˈæftərˌʃeɪv/",
+      "meaning_vi": "nước dưỡng da sau cạo râu",
+      "definition_en": "A scented liquid that men put on their faces after shaving.",
+      "example_en": "He applied aftershave to soothe his skin after shaving.",
+      "example_vi": "Anh ấy thoa nước dưỡng da sau cạo râu để làm dịu da sau khi cạo.",
+      "collocations_json": [
+        "apply aftershave",
+        "aftershave balm",
+        "scented aftershave"
+      ],
+      "synonyms_json": [
+        "cologne"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "After là sau, shave là cạo râu. 'Aftershave' là dùng sau khi cạo râu.",
+      "frequency_rank": 5200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10259
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "manicure",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈmænɪkjʊə/",
+      "ipa_us": "/ˈmænɪkjʊr/",
+      "meaning_vi": "chăm sóc móng tay",
+      "definition_en": "A cosmetic treatment for the hands and fingernails.",
+      "example_en": "She went to the salon for a manicure and pedicure.",
+      "example_vi": "Cô ấy đến tiệm để làm móng tay và móng chân.",
+      "collocations_json": [
+        "get a manicure",
+        "french manicure",
+        "nail manicure"
+      ],
+      "synonyms_json": [
+        "nail treatment"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Mani-cure: 'mani' là tay, 'cure' là chữa trị/chăm sóc. Chăm sóc tay.",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10260
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "pedicure",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpedɪkjʊə/",
+      "ipa_us": "/ˈpɛdɪkjʊr/",
+      "meaning_vi": "chăm sóc móng chân",
+      "definition_en": "A cosmetic treatment for the feet and toenails.",
+      "example_en": "A good pedicure can make your feet feel soft and look great.",
+      "example_vi": "Một liệu trình chăm sóc móng chân tốt có thể làm cho đôi chân của bạn mềm mại và trông tuyệt vời.",
+      "collocations_json": [
+        "get a pedicure",
+        "spa pedicure",
+        "foot pedicure"
+      ],
+      "synonyms_json": [
+        "foot treatment"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Pedi-cure: 'pedi' là chân, 'cure' là chữa trị/chăm sóc. Chăm sóc chân.",
+      "frequency_rank": 5900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10261
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "nail polish",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/neɪl ˈpɒlɪʃ/",
+      "ipa_us": "/neɪl ˈpɑlɪʃ/",
+      "meaning_vi": "sơn móng tay",
+      "definition_en": "A lacquer applied to human fingernails or toenails to decorate and protect the nail plate.",
+      "example_en": "She chose a bright red nail polish for her manicure.",
+      "example_vi": "Cô ấy chọn một màu sơn móng tay đỏ tươi cho bộ móng của mình.",
+      "collocations_json": [
+        "apply nail polish",
+        "remove nail polish",
+        "gel nail polish"
+      ],
+      "synonyms_json": [
+        "nail varnish"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Nail là móng, polish là làm bóng. 'Nail polish' là làm bóng móng.",
+      "frequency_rank": 5700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10262
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "hair gel",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/heə dʒel/",
+      "ipa_us": "/her dʒɛl/",
+      "meaning_vi": "gel vuốt tóc",
+      "definition_en": "A styling product for hair that provides hold and shine.",
+      "example_en": "He uses hair gel to keep his hair in place all day.",
+      "example_vi": "Anh ấy dùng gel vuốt tóc để giữ tóc vào nếp cả ngày.",
+      "collocations_json": [
+        "apply hair gel",
+        "strong hold gel",
+        "wet look gel"
+      ],
+      "synonyms_json": [
+        "styling gel"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hair là tóc, gel là chất keo. 'Hair gel' là keo cho tóc.",
+      "frequency_rank": 5400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10263
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "hair spray",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/heə spreɪ/",
+      "ipa_us": "/her spreɪ/",
+      "meaning_vi": "keo xịt tóc",
+      "definition_en": "A liquid sprayed onto hair to hold it in place.",
+      "example_en": "She finished her hairstyle with a light mist of hair spray.",
+      "example_vi": "Cô ấy hoàn thiện kiểu tóc của mình bằng một lớp xịt keo tóc nhẹ.",
+      "collocations_json": [
+        "strong hold hair spray",
+        "flexible hold hair spray",
+        "anti-frizz hair spray"
+      ],
+      "synonyms_json": [
+        "hairspray"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hair là tóc, spray là xịt. 'Hair spray' là xịt tóc.",
+      "frequency_rank": 5300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10264
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "contact lenses",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈkɒntækt ˈlenzɪz/",
+      "ipa_us": "/ˈkɑntækt ˈlɛnzɪz/",
+      "meaning_vi": "kính áp tròng",
+      "definition_en": "Small plastic lenses worn directly on the eye to correct vision.",
+      "example_en": "She prefers wearing contact lenses to glasses for sports.",
+      "example_vi": "Cô ấy thích đeo kính áp tròng hơn kính gọng khi chơi thể thao.",
+      "collocations_json": [
+        "wear contact lenses",
+        "daily contact lenses",
+        "soft contact lenses"
+      ],
+      "synonyms_json": [
+        "contacts"
+      ],
+      "antonyms_json": [
+        "glasses"
+      ],
+      "mnemonic": "Contact là tiếp xúc, lenses là thấu kính. 'Kính tiếp xúc' với mắt.",
+      "frequency_rank": 6200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10265
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "put on makeup",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/pʊt ɒn ˈmeɪkʌp/",
+      "ipa_us": "/pʊt ɑn ˈmeɪkʌp/",
+      "meaning_vi": "trang điểm",
+      "definition_en": "To apply cosmetics to your face to improve or change your appearance.",
+      "example_en": "She likes to put on makeup before going to work.",
+      "example_vi": "Cô ấy thích trang điểm trước khi đi làm.",
+      "collocations_json": [
+        "wear makeup",
+        "heavy makeup",
+        "light makeup"
+      ],
+      "synonyms_json": [
+        "apply makeup"
+      ],
+      "antonyms_json": [
+        "take off makeup"
+      ],
+      "mnemonic": "Makeup là đồ trang điểm. 'Put on' là bôi/mặc vào. Bôi đồ trang điểm lên mặt.",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10266
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "take off makeup",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/teɪk ɒf ˈmeɪkʌp/",
+      "ipa_us": "/teɪk ɑf ˈmeɪkʌp/",
+      "meaning_vi": "tẩy trang",
+      "definition_en": "To remove cosmetics from your face.",
+      "example_en": "It's important to take off makeup before going to bed.",
+      "example_vi": "Điều quan trọng là phải tẩy trang trước khi đi ngủ.",
+      "collocations_json": [
+        "makeup remover",
+        "take off eye makeup",
+        "take off all makeup"
+      ],
+      "synonyms_json": [
+        "remove makeup"
+      ],
+      "antonyms_json": [
+        "put on makeup"
+      ],
+      "mnemonic": "Take off là cởi bỏ/gỡ bỏ, makeup là trang điểm. 'Take off makeup' là gỡ bỏ trang điểm.",
+      "frequency_rank": 3600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10267
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "face mask",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/feɪs mɑːsk/",
+      "ipa_us": "/feɪs mæsk/",
+      "meaning_vi": "mặt nạ dưỡng da",
+      "definition_en": "A cosmetic preparation applied to the face to improve its appearance or condition.",
+      "example_en": "She uses a hydrating face mask once a week for soft skin.",
+      "example_vi": "Cô ấy đắp mặt nạ dưỡng ẩm mỗi tuần một lần để có làn da mềm mại.",
+      "collocations_json": [
+        "apply a face mask",
+        "sheet face mask",
+        "clay face mask"
+      ],
+      "synonyms_json": [
+        "facial mask"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Face là mặt, mask là mặt nạ. 'Face mask' là mặt nạ cho mặt.",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10268
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Personal Care & Hygiene",
+      "word": "dental check-up",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈdentl ˈtʃek ʌp/",
+      "ipa_us": "/ˈdɛntl ˈtʃɛk ʌp/",
+      "meaning_vi": "kiểm tra răng miệng định kỳ",
+      "definition_en": "A regular examination of your teeth by a dentist.",
+      "example_en": "I go for a dental check-up every six months.",
+      "example_vi": "Tôi đi kiểm tra răng miệng định kỳ sáu tháng một lần.",
+      "collocations_json": [
+        "regular dental check-up",
+        "annual dental check-up",
+        "free dental check-up"
+      ],
+      "synonyms_json": [
+        "dentist appointment"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dental là răng, check-up là kiểm tra. 'Kiểm tra răng' định kỳ.",
+      "frequency_rank": 5100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10269
+  }
+]

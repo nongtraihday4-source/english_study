@@ -1,0 +1,2059 @@
+[
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "house",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/haʊs/",
+      "ipa_us": "/haʊs/",
+      "meaning_vi": "Ngôi nhà, căn nhà riêng",
+      "definition_en": "A building for human habitation, especially one that is lived in by a single family or household.",
+      "example_en": "They bought a beautiful house with a big garden.",
+      "example_vi": "Họ đã mua một ngôi nhà đẹp với một khu vườn lớn.",
+      "collocations_json": [
+        "a detached house",
+        "a big house"
+      ],
+      "synonyms_json": [
+        "home",
+        "residence"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "House (hao-s) nghe như 'hao sức' để xây một ngôi nhà.",
+      "frequency_rank": 500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10067
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "apartment",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/əˈpɑːt.mənt/",
+      "ipa_us": "/əˈpɑːrt.mənt/",
+      "meaning_vi": "Căn hộ, chung cư",
+      "definition_en": "A set of rooms for living in, usually on one floor of a building.",
+      "example_en": "She lives in a small apartment in the city center.",
+      "example_vi": "Cô ấy sống trong một căn hộ nhỏ ở trung tâm thành phố.",
+      "collocations_json": [
+        "a spacious apartment",
+        "rent an apartment"
+      ],
+      "synonyms_json": [
+        "flat",
+        "condo"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Apartment (ơ-pạt-mần) là nơi 'ở' riêng tư, 'part' of a big building.",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10068
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "rent",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rent/",
+      "ipa_us": "/rent/",
+      "meaning_vi": "Thuê (nhà, phòng)",
+      "definition_en": "To regularly pay money to a landlord for the use of a room, building, or land.",
+      "example_en": "We decided to rent a house instead of buying one.",
+      "example_vi": "Chúng tôi quyết định thuê một căn nhà thay vì mua.",
+      "collocations_json": [
+        "rent a car",
+        "rent out a room"
+      ],
+      "synonyms_json": [
+        "lease",
+        "hire"
+      ],
+      "antonyms_json": [
+        "buy",
+        "own"
+      ],
+      "mnemonic": "Rent (ren-t) giống 'rèn luyện' để tìm được nhà thuê tốt.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10069
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "landlord",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlænd.lɔːd/",
+      "ipa_us": "/ˈlænd.lɔːrd/",
+      "meaning_vi": "Chủ nhà cho thuê",
+      "definition_en": "A person or organization that owns a house, flat, or land and rents it to other people.",
+      "example_en": "Our landlord fixed the broken window very quickly.",
+      "example_vi": "Chủ nhà của chúng tôi đã sửa cửa sổ bị hỏng rất nhanh.",
+      "collocations_json": [
+        "strict landlord",
+        "good landlord"
+      ],
+      "synonyms_json": [
+        "owner",
+        "proprietor"
+      ],
+      "antonyms_json": [
+        "tenant"
+      ],
+      "mnemonic": "Landlord (len-lọt) là người 'làm chủ' mảnh đất hoặc nhà.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10070
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "tenant",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈten.ənt/",
+      "ipa_us": "/ˈten.ənt/",
+      "meaning_vi": "Người thuê nhà, người ở trọ",
+      "definition_en": "A person who pays rent for the use of land or a building to the person who owns it.",
+      "example_en": "The tenants are responsible for keeping the apartment clean.",
+      "example_vi": "Những người thuê nhà có trách nhiệm giữ căn hộ sạch sẽ.",
+      "collocations_json": [
+        "new tenant",
+        "long-term tenant"
+      ],
+      "synonyms_json": [
+        "renter",
+        "occupant"
+      ],
+      "antonyms_json": [
+        "landlord"
+      ],
+      "mnemonic": "Tenant (te-nần) là người 'tên' trong hợp đồng thuê nhà.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10071
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "living room",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlɪv.ɪŋ ˌruːm/",
+      "ipa_us": "/ˈlɪv.ɪŋ ˌruːm/",
+      "meaning_vi": "Phòng khách, phòng sinh hoạt chung",
+      "definition_en": "The main room in a house or apartment for relaxing and entertaining guests.",
+      "example_en": "We spend most of our evenings in the living room.",
+      "example_vi": "Chúng tôi dành hầu hết các buổi tối ở phòng khách.",
+      "collocations_json": [
+        "spacious living room",
+        "decorate the living room"
+      ],
+      "synonyms_json": [
+        "lounge",
+        "sitting room"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Living room (li-vinh rum) là 'room' để 'living' (sinh hoạt).",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10072
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "bedroom",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbed.ruːm/",
+      "ipa_us": "/ˈbed.ruːm/",
+      "meaning_vi": "Phòng ngủ",
+      "definition_en": "A room used for sleeping.",
+      "example_en": "My bedroom has a large window with a nice view.",
+      "example_vi": "Phòng ngủ của tôi có một cửa sổ lớn với tầm nhìn đẹp.",
+      "collocations_json": [
+        "master bedroom",
+        "small bedroom"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Bedroom (bed-rum) là 'room' có cái 'bed' (giường).",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10073
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "kitchen",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkɪtʃ.ɪn/",
+      "ipa_us": "/ˈkɪtʃ.ən/",
+      "meaning_vi": "Nhà bếp",
+      "definition_en": "A room in which food is cooked and prepared.",
+      "example_en": "The kitchen is equipped with a new oven and fridge.",
+      "example_vi": "Nhà bếp được trang bị lò nướng và tủ lạnh mới.",
+      "collocations_json": [
+        "modern kitchen",
+        "cook in the kitchen"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Kitchen (kít-chần) là nơi 'kít' (kiss) những món ăn ngon.",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10074
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "bathroom",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbɑːθ.ruːm/",
+      "ipa_us": "/ˈbæθ.ruːm/",
+      "meaning_vi": "Phòng tắm, nhà vệ sinh",
+      "definition_en": "A room containing a toilet and a sink, and usually also a bathtub or shower.",
+      "example_en": "There are two bathrooms in our new apartment.",
+      "example_vi": "Có hai phòng tắm trong căn hộ mới của chúng tôi.",
+      "collocations_json": [
+        "private bathroom",
+        "clean the bathroom"
+      ],
+      "synonyms_json": [
+        "restroom",
+        "lavatory"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bathroom (ba-th rum) là 'room' để 'bath' (tắm).",
+      "frequency_rank": 1100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10075
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "garden",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɡɑː.dən/",
+      "ipa_us": "/ˈɡɑːr.dən/",
+      "meaning_vi": "Khu vườn, vườn cây",
+      "definition_en": "A piece of ground adjoining a house, used for growing flowers, fruit, or vegetables.",
+      "example_en": "The children love playing in the garden.",
+      "example_vi": "Trẻ con thích chơi trong vườn.",
+      "collocations_json": [
+        "beautiful garden",
+        "front garden"
+      ],
+      "synonyms_json": [
+        "yard",
+        "grounds"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Garden (ga-đần) giống như 'gà đần' đang bới đất trong vườn.",
+      "frequency_rank": 1300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10076
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "balcony",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbæl.kə.ni/",
+      "ipa_us": "/ˈbæl.kə.ni/",
+      "meaning_vi": "Ban công",
+      "definition_en": "A platform projecting from the wall of a building with a railing or parapet, often with access from an upper-floor room.",
+      "example_en": "Our apartment has a small balcony overlooking the park.",
+      "example_vi": "Căn hộ của chúng tôi có một ban công nhỏ nhìn ra công viên.",
+      "collocations_json": [
+        "private balcony",
+        "flower-filled balcony"
+      ],
+      "synonyms_json": [
+        "terrace",
+        "veranda"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Balcony (ban-cờ-ni) nghe như 'ban công' của bạn.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10077
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "furniture",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈfɜː.nɪ.tʃər/",
+      "ipa_us": "/ˈfɜːr.nɪ.tʃər/",
+      "meaning_vi": "Đồ đạc, nội thất",
+      "definition_en": "Movable articles that are used to make a room or building suitable for living or working.",
+      "example_en": "We need to buy some new furniture for the living room.",
+      "example_vi": "Chúng tôi cần mua một số đồ nội thất mới cho phòng khách.",
+      "collocations_json": [
+        "wooden furniture",
+        "modern furniture"
+      ],
+      "synonyms_json": [
+        "furnishings",
+        "fixtures"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Furniture (phơ-ni-chờ) là đồ 'phơi' trong nhà, 'nhiều' thứ.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10078
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "sofa",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsəʊ.fə/",
+      "ipa_us": "/ˈsoʊ.fə/",
+      "meaning_vi": "Ghế sofa, ghế dài",
+      "definition_en": "A long upholstered seat with a back and arms, for two or more people.",
+      "example_en": "I love to relax on the sofa after work.",
+      "example_vi": "Tôi thích thư giãn trên ghế sofa sau giờ làm.",
+      "collocations_json": [
+        "comfortable sofa",
+        "leather sofa"
+      ],
+      "synonyms_json": [
+        "couch",
+        "settee"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sofa (sô-pha) là cái 'sô' (show) sự thoải mái.",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10079
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "bed",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/bed/",
+      "ipa_us": "/bed/",
+      "meaning_vi": "Giường ngủ",
+      "definition_en": "A piece of furniture for sleeping on, typically comprising a mattress and a bed frame.",
+      "example_en": "I need to make my bed every morning.",
+      "example_vi": "Tôi cần dọn giường mỗi sáng.",
+      "collocations_json": [
+        "double bed",
+        "make the bed"
+      ],
+      "synonyms_json": [
+        "cot",
+        "bunk"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bed (bét) là nơi 'bén' (bắt đầu) một giấc ngủ ngon.",
+      "frequency_rank": 600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10080
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "table",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈteɪ.bəl/",
+      "ipa_us": "/ˈteɪ.bəl/",
+      "meaning_vi": "Cái bàn",
+      "definition_en": "A piece of furniture with a flat top and one or more legs, providing a surface for eating, writing, or working.",
+      "example_en": "Please set the table for dinner.",
+      "example_vi": "Xin hãy dọn bàn ăn tối.",
+      "collocations_json": [
+        "dining table",
+        "coffee table"
+      ],
+      "synonyms_json": [
+        "desk",
+        "counter"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Table (thây-bồ) là cái bàn 'thay' đổi công dụng.",
+      "frequency_rank": 700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10081
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "chair",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/tʃeər/",
+      "ipa_us": "/tʃer/",
+      "meaning_vi": "Cái ghế",
+      "definition_en": "A separate seat for one person, typically with a back and four legs.",
+      "example_en": "Pull up a chair and join us.",
+      "example_vi": "Kéo ghế lại và tham gia cùng chúng tôi.",
+      "collocations_json": [
+        "armchair",
+        "wooden chair"
+      ],
+      "synonyms_json": [
+        "seat",
+        "stool"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Chair (che-ờ) là cái ghế để 'che' đi sự mỏi mệt.",
+      "frequency_rank": 850,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10082
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "wardrobe",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈwɔː.drəʊb/",
+      "ipa_us": "/ˈwɔːr.droʊb/",
+      "meaning_vi": "Tủ quần áo",
+      "definition_en": "A large, tall cupboard in which clothes may be hung or stored.",
+      "example_en": "She has a lot of clothes in her wardrobe.",
+      "example_vi": "Cô ấy có rất nhiều quần áo trong tủ của mình.",
+      "collocations_json": [
+        "built-in wardrobe",
+        "empty wardrobe"
+      ],
+      "synonyms_json": [
+        "closet",
+        "cabinet"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wardrobe (wo-đờ-rôb) là cái tủ 'đựng đồ' của bạn.",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10083
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "fridge",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/frɪdʒ/",
+      "ipa_us": "/frɪdʒ/",
+      "meaning_vi": "Tủ lạnh",
+      "definition_en": "An appliance that keeps food and drink cool.",
+      "example_en": "Please put the milk back in the fridge.",
+      "example_vi": "Làm ơn cho sữa vào tủ lạnh.",
+      "collocations_json": [
+        "empty fridge",
+        "stock the fridge"
+      ],
+      "synonyms_json": [
+        "refrigerator",
+        "cooler"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Fridge (frít-ch) là nơi 'giữ lạnh' thức ăn.",
+      "frequency_rank": 1900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10084
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "oven",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈʌv.ən/",
+      "ipa_us": "/ˈʌv.ən/",
+      "meaning_vi": "Lò nướng",
+      "definition_en": "An enclosed compartment, usually part of a cooker, for cooking and heating food.",
+      "example_en": "The cake is baking in the oven.",
+      "example_vi": "Bánh đang nướng trong lò.",
+      "collocations_json": [
+        "microwave oven",
+        "electric oven"
+      ],
+      "synonyms_json": [
+        "stove",
+        "cooker"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Oven (ơ-vần) là lò nướng 'vần' (xoay) món ăn.",
+      "frequency_rank": 2100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10085
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "washing machine",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈwɒʃ.ɪŋ məˌʃiːn/",
+      "ipa_us": "/ˈwɑːʃ.ɪŋ məˌʃiːn/",
+      "meaning_vi": "Máy giặt",
+      "definition_en": "A machine for washing clothes, sheets, and other textiles.",
+      "example_en": "I need to buy a new washing machine.",
+      "example_vi": "Tôi cần mua một chiếc máy giặt mới.",
+      "collocations_json": [
+        "load the washing machine",
+        "automatic washing machine"
+      ],
+      "synonyms_json": [
+        "laundry machine"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Washing machine (wo-shing mờ-sin) là 'máy' để 'wash' (giặt).",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10086
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "decorate",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdek.ə.reɪt/",
+      "ipa_us": "/ˈdek.ə.reɪt/",
+      "meaning_vi": "Trang trí (nhà cửa)",
+      "definition_en": "To make something look more attractive by adding extra items or images to it.",
+      "example_en": "We decided to decorate the living room with new paint and pictures.",
+      "example_vi": "Chúng tôi quyết định trang trí phòng khách bằng sơn và tranh mới.",
+      "collocations_json": [
+        "decorate a room",
+        "decorate for Christmas"
+      ],
+      "synonyms_json": [
+        "embellish",
+        "adorn"
+      ],
+      "antonyms_json": [
+        "strip",
+        "unadorn"
+      ],
+      "mnemonic": "Decorate (đe-cờ-rết) là 'đẹp' và 'rực rỡ' hơn khi trang trí.",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10087
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "furnish",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈfɜː.nɪʃ/",
+      "ipa_us": "/ˈfɜːr.nɪʃ/",
+      "meaning_vi": "Trang bị nội thất",
+      "definition_en": "To provide a house or room with furniture.",
+      "example_en": "The apartment is furnished with basic necessities.",
+      "example_vi": "Căn hộ được trang bị những vật dụng cơ bản.",
+      "collocations_json": [
+        "fully furnished",
+        "partially furnished"
+      ],
+      "synonyms_json": [
+        "equip",
+        "fit out"
+      ],
+      "antonyms_json": [
+        "unfurnish"
+      ],
+      "mnemonic": "Furnish (phơ-nít-ch) là 'phải' có 'nhiều' đồ đạc.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10088
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "spacious",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈspeɪ.ʃəs/",
+      "ipa_us": "/ˈspeɪ.ʃəs/",
+      "meaning_vi": "Rộng rãi, thoáng đãng",
+      "definition_en": "Having ample space; roomy.",
+      "example_en": "The new office is much more spacious than the old one.",
+      "example_vi": "Văn phòng mới rộng rãi hơn nhiều so với văn phòng cũ.",
+      "collocations_json": [
+        "spacious room",
+        "spacious garden"
+      ],
+      "synonyms_json": [
+        "roomy",
+        "large"
+      ],
+      "antonyms_json": [
+        "cramped",
+        "small"
+      ],
+      "mnemonic": "Spacious (spây-sợt) là 'space' (không gian) 'ious' (rộng).",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10089
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "cozy",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkəʊ.zi/",
+      "ipa_us": "/ˈkoʊ.zi/",
+      "meaning_vi": "Ấm cúng, thoải mái",
+      "definition_en": "Giving a feeling of comfort, warmth, and relaxation.",
+      "example_en": "Our small apartment feels very cozy in winter.",
+      "example_vi": "Căn hộ nhỏ của chúng tôi rất ấm cúng vào mùa đông.",
+      "collocations_json": [
+        "cozy atmosphere",
+        "cozy corner"
+      ],
+      "synonyms_json": [
+        "snug",
+        "comfortable"
+      ],
+      "antonyms_json": [
+        "uncomfortable",
+        "cold"
+      ],
+      "mnemonic": "Cozy (cô-zi) là cảm giác 'cô' (cô đơn) nhưng vẫn 'ấm cúng'.",
+      "frequency_rank": 3600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10090
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "cramped",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kræmpt/",
+      "ipa_us": "/kræmpt/",
+      "meaning_vi": "Chật chội, tù túng",
+      "definition_en": "Not having enough space for people or things.",
+      "example_en": "The kitchen was small and cramped.",
+      "example_vi": "Nhà bếp nhỏ và chật chội.",
+      "collocations_json": [
+        "cramped conditions",
+        "cramped room"
+      ],
+      "synonyms_json": [
+        "confined",
+        "tiny"
+      ],
+      "antonyms_json": [
+        "spacious",
+        "roomy"
+      ],
+      "mnemonic": "Cramped (krempt) là không gian 'kém' và 'chật hẹp'.",
+      "frequency_rank": 4200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10091
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "move in",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/muːv ɪn/",
+      "ipa_us": "/muːv ɪn/",
+      "meaning_vi": "Chuyển vào (nhà mới)",
+      "definition_en": "To start living in a new house or apartment.",
+      "example_en": "We're excited to move in next month.",
+      "example_vi": "Chúng tôi rất hào hứng chuyển vào tháng tới.",
+      "collocations_json": [
+        "move into a house",
+        "help someone move in"
+      ],
+      "synonyms_json": [
+        "relocate",
+        "settle in"
+      ],
+      "antonyms_json": [
+        "move out"
+      ],
+      "mnemonic": "Move in (muv in) là 'move' (di chuyển) 'in' (vào) nhà.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10092
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "move out",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/muːv aʊt/",
+      "ipa_us": "/muːv aʊt/",
+      "meaning_vi": "Chuyển ra khỏi (nhà)",
+      "definition_en": "To stop living in a particular house or apartment.",
+      "example_en": "My old flatmate is going to move out next week.",
+      "example_vi": "Bạn cùng phòng cũ của tôi sẽ chuyển đi vào tuần tới.",
+      "collocations_json": [
+        "move out of a flat",
+        "help someone move out"
+      ],
+      "synonyms_json": [
+        "vacate",
+        "leave"
+      ],
+      "antonyms_json": [
+        "move in"
+      ],
+      "mnemonic": "Move out (muv aut) là 'move' (di chuyển) 'out' (ra ngoài) khỏi nhà.",
+      "frequency_rank": 3100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10093
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "pay rent",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/peɪ rent/",
+      "ipa_us": "/peɪ rent/",
+      "meaning_vi": "Trả tiền thuê nhà",
+      "definition_en": "To give money regularly to a landlord for the use of a property.",
+      "example_en": "You need to pay rent on the first of every month.",
+      "example_vi": "Bạn cần trả tiền thuê nhà vào ngày mùng một hàng tháng.",
+      "collocations_json": [
+        "pay the rent",
+        "afford to pay rent"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Pay rent (pây ren-t) là 'pay' (trả) tiền 'rent' (thuê).",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10094
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "utility bills",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/juːˈtɪl.ə.ti bɪlz/",
+      "ipa_us": "/juːˈtɪl.ə.t̬i bɪlz/",
+      "meaning_vi": "Hóa đơn tiện ích (điện, nước, gas)",
+      "definition_en": "Bills for services such as electricity, gas, and water used in a home.",
+      "example_en": "Don't forget to pay the utility bills this month.",
+      "example_vi": "Đừng quên thanh toán hóa đơn tiện ích tháng này.",
+      "collocations_json": [
+        "monthly utility bills",
+        "high utility bills"
+      ],
+      "synonyms_json": [
+        "household expenses"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Utility bills (diu-ti-li-ti bilz) là 'bill' cho 'utility' (tiện ích).",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10095
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "electricity",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɪˌlekˈtrɪs.ə.ti/",
+      "ipa_us": "/ɪˌlekˈtrɪs.ə.t̬i/",
+      "meaning_vi": "Điện",
+      "definition_en": "A form of energy that is carried through wires and is used to operate machines, lights, etc.",
+      "example_en": "We need to save electricity by turning off lights.",
+      "example_vi": "Chúng ta cần tiết kiệm điện bằng cách tắt đèn.",
+      "collocations_json": [
+        "cut off electricity",
+        "electricity bill"
+      ],
+      "synonyms_json": [
+        "power",
+        "current"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Electricity (i-lec-tri-xi-ti) là 'điện' 'lực' mạnh.",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10096
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "water",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈwɔː.tər/",
+      "ipa_us": "/ˈwɑː.t̬ɚ/",
+      "meaning_vi": "Nước",
+      "definition_en": "A clear, colorless, odorless, and tasteless liquid essential for most animal and plant life.",
+      "example_en": "Please turn off the water when you're done washing dishes.",
+      "example_vi": "Làm ơn tắt nước khi bạn rửa bát xong.",
+      "collocations_json": [
+        "drinking water",
+        "tap water"
+      ],
+      "synonyms_json": [
+        "H2O"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Water (wo-tờ) là 'vô tư' dùng nước.",
+      "frequency_rank": 300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10097
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "gas",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡæs/",
+      "ipa_us": "/ɡæs/",
+      "meaning_vi": "Khí gas",
+      "definition_en": "A substance, such as natural gas, that is used as a fuel.",
+      "example_en": "The gas bill was higher this month because of the cold weather.",
+      "example_vi": "Hóa đơn gas tháng này cao hơn do thời tiết lạnh.",
+      "collocations_json": [
+        "natural gas",
+        "gas stove"
+      ],
+      "synonyms_json": [
+        "fuel",
+        "vapor"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Gas (gá-s) là 'ga' dùng để nấu ăn.",
+      "frequency_rank": 1400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10098
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "neighborhood",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈneɪ.bə.hʊd/",
+      "ipa_us": "/ˈneɪ.bɚ.hʊd/",
+      "meaning_vi": "Khu phố, hàng xóm",
+      "definition_en": "A district or an area with distinctive characteristics, or its residents.",
+      "example_en": "We live in a quiet and friendly neighborhood.",
+      "example_vi": "Chúng tôi sống trong một khu phố yên tĩnh và thân thiện.",
+      "collocations_json": [
+        "safe neighborhood",
+        "good neighborhood"
+      ],
+      "synonyms_json": [
+        "district",
+        "community"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Neighborhood (nây-bơ-hút) là nơi 'nay' (bạn) 'hút' (thu hút) hàng xóm.",
+      "frequency_rank": 2200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10099
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "security deposit",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/sɪˈkjʊə.rə.ti dɪˈpɒz.ɪt/",
+      "ipa_us": "/sɪˈkjʊr.ə.t̬i dɪˈpɑː.zɪt/",
+      "meaning_vi": "Tiền đặt cọc, tiền bảo lãnh",
+      "definition_en": "Money paid by a tenant to a landlord to cover potential damages or unpaid rent.",
+      "example_en": "The security deposit is usually one month's rent.",
+      "example_vi": "Tiền đặt cọc thường là một tháng tiền thuê nhà.",
+      "collocations_json": [
+        "return the security deposit",
+        "pay a security deposit"
+      ],
+      "synonyms_json": [
+        "damage deposit"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Security deposit (xì-kiu-ri-ti đi-po-zít) là tiền 'đặt cọc' để 'secure' (đảm bảo).",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10100
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "lease",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/liːs/",
+      "ipa_us": "/liːs/",
+      "meaning_vi": "Hợp đồng thuê nhà",
+      "definition_en": "A legal agreement that allows someone to use a building, land, or equipment for a specific period of time in return for rent.",
+      "example_en": "We signed a one-year lease for the apartment.",
+      "example_vi": "Chúng tôi đã ký hợp đồng thuê căn hộ một năm.",
+      "collocations_json": [
+        "sign a lease",
+        "break a lease"
+      ],
+      "synonyms_json": [
+        "rental agreement",
+        "contract"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Lease (li-s) là 'lý' do để thuê nhà theo hợp đồng.",
+      "frequency_rank": 4700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10101
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "tidy up",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈtaɪ.di ʌp/",
+      "ipa_us": "/ˈtaɪ.di ʌp/",
+      "meaning_vi": "Dọn dẹp, sắp xếp gọn gàng",
+      "definition_en": "To make a place neat and orderly.",
+      "example_en": "Please tidy up your room before guests arrive.",
+      "example_vi": "Xin hãy dọn dẹp phòng của bạn trước khi khách đến.",
+      "collocations_json": [
+        "tidy up the kitchen",
+        "tidy up toys"
+      ],
+      "synonyms_json": [
+        "clean up",
+        "straighten up"
+      ],
+      "antonyms_json": [
+        "mess up",
+        "clutter"
+      ],
+      "mnemonic": "Tidy up (thai-đi ắp) là 'thấy đi' đâu cũng phải 'up' (lên) đồ cho gọn.",
+      "frequency_rank": 3300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10102
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "clean",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kliːn/",
+      "ipa_us": "/kliːn/",
+      "meaning_vi": "Lau dọn, làm sạch",
+      "definition_en": "To remove dirt, marks, or stains from something.",
+      "example_en": "I need to clean the kitchen after cooking.",
+      "example_vi": "Tôi cần lau dọn nhà bếp sau khi nấu ăn.",
+      "collocations_json": [
+        "clean the floor",
+        "clean windows"
+      ],
+      "synonyms_json": [
+        "wash",
+        "scrub"
+      ],
+      "antonyms_json": [
+        "dirty",
+        "mess"
+      ],
+      "mnemonic": "Clean (klin) là 'khìn' (siêng) làm thì nhà sẽ sạch.",
+      "frequency_rank": 950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10103
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "share",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ʃeər/",
+      "ipa_us": "/ʃer/",
+      "meaning_vi": "Chia sẻ, ở chung",
+      "definition_en": "To have or use something with others.",
+      "example_en": "I share an apartment with two friends.",
+      "example_vi": "Tôi ở chung căn hộ với hai người bạn.",
+      "collocations_json": [
+        "share a room",
+        "share expenses"
+      ],
+      "synonyms_json": [
+        "divide",
+        "distribute"
+      ],
+      "antonyms_json": [
+        "hoard",
+        "keep"
+      ],
+      "mnemonic": "Share (she-ờ) là 'sẻ' chia.",
+      "frequency_rank": 1050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10104
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "flatmate",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈflæt.meɪt/",
+      "ipa_us": "/ˈflæt.meɪt/",
+      "meaning_vi": "Bạn cùng phòng/căn hộ",
+      "definition_en": "A person who shares a flat with one or more other people.",
+      "example_en": "My flatmate is very quiet and tidy.",
+      "example_vi": "Bạn cùng phòng của tôi rất trầm tính và gọn gàng.",
+      "collocations_json": [
+        "good flatmate",
+        "new flatmate"
+      ],
+      "synonyms_json": [
+        "roommate",
+        "housemate"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Flatmate (flát-mết) là 'bạn' cùng 'flat' (căn hộ).",
+      "frequency_rank": 4100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10105
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "downstairs",
+      "part_of_speech": "adverb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˌdaʊnˈsteəz/",
+      "ipa_us": "/ˌdaʊnˈsterz/",
+      "meaning_vi": "Dưới nhà, tầng dưới",
+      "definition_en": "To or on a lower floor of a building.",
+      "example_en": "I heard a noise downstairs.",
+      "example_vi": "Tôi nghe thấy tiếng động dưới nhà.",
+      "collocations_json": [
+        "go downstairs",
+        "downstairs bedroom"
+      ],
+      "synonyms_json": [
+        "below",
+        "ground floor"
+      ],
+      "antonyms_json": [
+        "upstairs"
+      ],
+      "mnemonic": "Downstairs (đao-stez) là 'down' (xuống) 'stairs' (cầu thang).",
+      "frequency_rank": 2300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10106
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "upstairs",
+      "part_of_speech": "adverb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˌʌpˈsteəz/",
+      "ipa_us": "/ˌʌpˈsterz/",
+      "meaning_vi": "Trên lầu, tầng trên",
+      "definition_en": "To or on a higher floor of a building.",
+      "example_en": "My bedroom is upstairs.",
+      "example_vi": "Phòng ngủ của tôi ở trên lầu.",
+      "collocations_json": [
+        "go upstairs",
+        "upstairs bathroom"
+      ],
+      "synonyms_json": [
+        "above",
+        "upper floor"
+      ],
+      "antonyms_json": [
+        "downstairs"
+      ],
+      "mnemonic": "Upstairs (ắp-stez) là 'up' (lên) 'stairs' (cầu thang).",
+      "frequency_rank": 2400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10107
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "doorbell",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdɔː.bel/",
+      "ipa_us": "/ˈdɔːr.bel/",
+      "meaning_vi": "Chuông cửa",
+      "definition_en": "A bell on the outside of a door that you ring to let the people inside know that you are there.",
+      "example_en": "The doorbell rang, so I went to answer it.",
+      "example_vi": "Chuông cửa reo, vì vậy tôi ra mở cửa.",
+      "collocations_json": [
+        "ring the doorbell",
+        "broken doorbell"
+      ],
+      "synonyms_json": [
+        "chime"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Doorbell (đo-bel) là 'bell' (chuông) ở 'door' (cửa).",
+      "frequency_rank": 3700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10108
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "key",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kiː/",
+      "ipa_us": "/kiː/",
+      "meaning_vi": "Chìa khóa",
+      "definition_en": "A small piece of shaped metal with incisions cut to fit the wards of a particular lock, which is inserted into a lock and turned to open or close it.",
+      "example_en": "Don't forget your keys when you leave the house.",
+      "example_vi": "Đừng quên chìa khóa khi bạn rời khỏi nhà.",
+      "collocations_json": [
+        "car key",
+        "house key"
+      ],
+      "synonyms_json": [
+        "opener"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Key (ki) là 'kĩ' càng cất chìa khóa.",
+      "frequency_rank": 650,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10109
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "lock",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/lɒk/",
+      "ipa_us": "/lɑːk/",
+      "meaning_vi": "Khóa (cửa)",
+      "definition_en": "To fasten something with a lock.",
+      "example_en": "Always lock the door when you go out.",
+      "example_vi": "Luôn khóa cửa khi bạn ra ngoài.",
+      "collocations_json": [
+        "lock the door",
+        "lock up"
+      ],
+      "synonyms_json": [
+        "secure",
+        "bolt"
+      ],
+      "antonyms_json": [
+        "unlock",
+        "open"
+      ],
+      "mnemonic": "Lock (lóc) là 'lọc' (chọn) khóa tốt để an toàn.",
+      "frequency_rank": 1750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10110
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "curtain",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkɜː.tən/",
+      "ipa_us": "/ˈkɝː.tən/",
+      "meaning_vi": "Rèm cửa",
+      "definition_en": "A piece of material suspended at the top to form a screen, typically one of a pair at a window.",
+      "example_en": "Please close the curtains; it's getting dark.",
+      "example_vi": "Làm ơn đóng rèm cửa; trời đang tối.",
+      "collocations_json": [
+        "draw the curtains",
+        "heavy curtains"
+      ],
+      "synonyms_json": [
+        "drape",
+        "blind"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Curtain (kơ-tần) là 'cứ' 'tần' ngần mãi không biết chọn rèm nào.",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10111
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "carpet",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkɑː.pɪt/",
+      "ipa_us": "/ˈkɑːr.pɪt/",
+      "meaning_vi": "Thảm trải sàn",
+      "definition_en": "A floor covering made from thick woven fabric, typically attached to the floor and covering an entire area.",
+      "example_en": "The new carpet makes the room feel warmer.",
+      "example_vi": "Tấm thảm mới làm căn phòng cảm thấy ấm áp hơn.",
+      "collocations_json": [
+        "fitted carpet",
+        "red carpet"
+      ],
+      "synonyms_json": [
+        "rug",
+        "mat"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Carpet (ca-pít) là 'cả' căn phòng được 'phủ' thảm.",
+      "frequency_rank": 2700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10112
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "attic",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈæt.ɪk/",
+      "ipa_us": "/ˈæt.ɪk/",
+      "meaning_vi": "Gác mái, tầng áp mái",
+      "definition_en": "A space or room directly under the roof of a house or other building.",
+      "example_en": "We store old furniture in the attic.",
+      "example_vi": "Chúng tôi cất đồ nội thất cũ trên gác mái.",
+      "collocations_json": [
+        "dusty attic",
+        "convert the attic"
+      ],
+      "synonyms_json": [
+        "loft",
+        "garret"
+      ],
+      "antonyms_json": [
+        "basement"
+      ],
+      "mnemonic": "Attic (a-tích) là 'ác' (khó) lên gác mái.",
+      "frequency_rank": 4300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10113
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "basement",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbeɪs.mənt/",
+      "ipa_us": "/ˈbeɪs.mənt/",
+      "meaning_vi": "Tầng hầm",
+      "definition_en": "The floor of a building that is partly or entirely below ground level.",
+      "example_en": "The laundry room is in the basement.",
+      "example_vi": "Phòng giặt là ở dưới tầng hầm.",
+      "collocations_json": [
+        "finished basement",
+        "dark basement"
+      ],
+      "synonyms_json": [
+        "cellar",
+        "underground"
+      ],
+      "antonyms_json": [
+        "attic"
+      ],
+      "mnemonic": "Basement (bây-smần) là 'base' (nền) 'ment' (mạnh) ở dưới đất.",
+      "frequency_rank": 4400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10114
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "studio apartment",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈstjuː.di.əʊ əˌpɑːt.mənt/",
+      "ipa_us": "/ˈstuː.di.oʊ əˌpɑːrt.mənt/",
+      "meaning_vi": "Căn hộ studio (không vách ngăn)",
+      "definition_en": "A small apartment that contains one main room for living and sleeping, a small kitchen area, and a separate bathroom.",
+      "example_en": "She rented a studio apartment near her university.",
+      "example_vi": "Cô ấy thuê một căn hộ studio gần trường đại học của mình.",
+      "collocations_json": [
+        "small studio apartment",
+        "modern studio apartment"
+      ],
+      "synonyms_json": [
+        "efficiency apartment"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Studio apartment (xtiu-đi-ô ơ-pạt-mần) là căn hộ nhỏ như 'studio' (phòng làm việc).",
+      "frequency_rank": 4600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10115
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "semi-detached house",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌsem.i.dɪˈtætʃt haʊs/",
+      "ipa_us": "/ˌsem.i.dɪˈtætʃt haʊs/",
+      "meaning_vi": "Nhà song lập (chung tường)",
+      "definition_en": "A house that is joined to another house on one side by a shared wall.",
+      "example_en": "They live in a semi-detached house in the suburbs.",
+      "example_vi": "Họ sống trong một ngôi nhà song lập ở ngoại ô.",
+      "collocations_json": [
+        "buy a semi-detached",
+        "large semi-detached house"
+      ],
+      "synonyms_json": [
+        "duplex"
+      ],
+      "antonyms_json": [
+        "detached house"
+      ],
+      "mnemonic": "Semi-detached (xe-mi-đì-tát-ch) là nhà 'semi' (một nửa) 'detached' (tách biệt).",
+      "frequency_rank": 4900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10116
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "dining room",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdaɪ.nɪŋ ˌruːm/",
+      "ipa_us": "/ˈdaɪ.nɪŋ ˌruːm/",
+      "meaning_vi": "Phòng ăn",
+      "definition_en": "A room in a house or hotel in which meals are eaten.",
+      "example_en": "We usually eat dinner together in the dining room.",
+      "example_vi": "Chúng tôi thường ăn tối cùng nhau trong phòng ăn.",
+      "collocations_json": [
+        "formal dining room",
+        "small dining room"
+      ],
+      "synonyms_json": [
+        "eating area"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dining room (đai-ning rum) là 'room' (phòng) để 'dine' (ăn).",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10117
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "hallway",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhɔːl.weɪ/",
+      "ipa_us": "/ˈhɑːl.weɪ/",
+      "meaning_vi": "Hành lang, lối đi",
+      "definition_en": "A passage in a building or house to which rooms open.",
+      "example_en": "The coat rack is in the hallway near the entrance.",
+      "example_vi": "Giá treo áo khoác ở hành lang gần lối vào.",
+      "collocations_json": [
+        "long hallway",
+        "dark hallway"
+      ],
+      "synonyms_json": [
+        "corridor",
+        "passage"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hallway (hol-wây) là 'hall' (sảnh) có 'way' (lối đi).",
+      "frequency_rank": 3400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10118
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "fridge-freezer",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/frɪdʒ ˈfriː.zər/",
+      "ipa_us": "/frɪdʒ ˈfriː.zɚ/",
+      "meaning_vi": "Tủ lạnh có ngăn đông",
+      "definition_en": "A household appliance that combines a refrigerator and a freezer in one unit.",
+      "example_en": "We bought a new fridge-freezer for the kitchen.",
+      "example_vi": "Chúng tôi đã mua một chiếc tủ lạnh có ngăn đông mới cho nhà bếp.",
+      "collocations_json": [
+        "integrated fridge-freezer",
+        "large fridge-freezer"
+      ],
+      "synonyms_json": [
+        "refrigerator-freezer"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Fridge-freezer (frít-ch fri-zơ) là 'fridge' (tủ lạnh) và 'freezer' (ngăn đông).",
+      "frequency_rank": 5200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10119
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "microwave",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈmaɪ.krə.weɪv/",
+      "ipa_us": "/ˈmaɪ.kroʊ.weɪv/",
+      "meaning_vi": "Lò vi sóng",
+      "definition_en": "An electric oven that heats and cooks food using microwave radiation.",
+      "example_en": "I usually heat my lunch in the microwave.",
+      "example_vi": "Tôi thường hâm nóng bữa trưa bằng lò vi sóng.",
+      "collocations_json": [
+        "microwave oven",
+        "use the microwave"
+      ],
+      "synonyms_json": [
+        "micro"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Microwave (mai-cờ-rô-vâyv) là 'micro' (nhỏ) nhưng làm nóng bằng 'wave' (sóng).",
+      "frequency_rank": 3900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10120
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "dishwasher",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdɪʃˌwɒʃ.ər/",
+      "ipa_us": "/ˈdɪʃˌwɑː.ʃɚ/",
+      "meaning_vi": "Máy rửa bát",
+      "definition_en": "A machine for washing dishes automatically.",
+      "example_en": "Loading the dishwasher is my least favorite chore.",
+      "example_vi": "Xếp bát vào máy rửa bát là việc nhà tôi ghét nhất.",
+      "collocations_json": [
+        "run the dishwasher",
+        "built-in dishwasher"
+      ],
+      "synonyms_json": [
+        "dishwashing machine"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dishwasher (đít-ch-wo-shơ) là 'wash' (rửa) 'dish' (bát) bằng máy.",
+      "frequency_rank": 4050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10121
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "hoover",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhuː.vər/",
+      "ipa_us": "/ˈhuː.vɚ/",
+      "meaning_vi": "Hút bụi",
+      "definition_en": "To clean with a vacuum cleaner.",
+      "example_en": "I need to hoover the carpets before the party.",
+      "example_vi": "Tôi cần hút bụi thảm trước bữa tiệc.",
+      "collocations_json": [
+        "hoover the floor",
+        "hoover up dust"
+      ],
+      "synonyms_json": [
+        "vacuum",
+        "clean"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hoover (hu-vơ) là 'hú' (hút) bụi 'vơ' vét sạch sẽ.",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10122
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "dust",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/dʌst/",
+      "ipa_us": "/dʌst/",
+      "meaning_vi": "Lau bụi, phủi bụi",
+      "definition_en": "To remove dust from the surface of something.",
+      "example_en": "I need to dust the shelves every week.",
+      "example_vi": "Tôi cần lau bụi kệ sách mỗi tuần.",
+      "collocations_json": [
+        "dust furniture",
+        "dust the surfaces"
+      ],
+      "synonyms_json": [
+        "wipe",
+        "clean"
+      ],
+      "antonyms_json": [
+        "dirty"
+      ],
+      "mnemonic": "Dust (đớt) là 'đốt' (làm biến mất) bụi bẩn.",
+      "frequency_rank": 2950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10123
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "sweep",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/swiːp/",
+      "ipa_us": "/swiːp/",
+      "meaning_vi": "Quét (sàn nhà)",
+      "definition_en": "To clean an area of floor or ground by brushing away dirt or litter.",
+      "example_en": "Could you please sweep the kitchen floor?",
+      "example_vi": "Bạn có thể quét sàn nhà bếp giúp tôi được không?",
+      "collocations_json": [
+        "sweep the floor",
+        "sweep up dirt"
+      ],
+      "synonyms_json": [
+        "brush",
+        "clean"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sweep (swip) là 'suýt' (gần như) sạch sau khi quét.",
+      "frequency_rank": 2550,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10124
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "mop",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/mɒp/",
+      "ipa_us": "/mɑːp/",
+      "meaning_vi": "Lau nhà (bằng cây lau nhà)",
+      "definition_en": "To clean a floor or other surface with a mop.",
+      "example_en": "I need to mop the kitchen floor after the spill.",
+      "example_vi": "Tôi cần lau sàn nhà bếp sau khi bị đổ.",
+      "collocations_json": [
+        "mop the floor",
+        "mop up water"
+      ],
+      "synonyms_json": [
+        "wipe",
+        "wash"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Mop (mop) là 'mò' (tìm) cây lau nhà để 'móp' (lau).",
+      "frequency_rank": 4150,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10125
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "laundry room",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlɔːn.dri ˌruːm/",
+      "ipa_us": "/ˈlɑːn.dri ˌruːm/",
+      "meaning_vi": "Phòng giặt ủi",
+      "definition_en": "A room in a house or apartment where clothes are washed and dried.",
+      "example_en": "The laundry room is equipped with a washer and dryer.",
+      "example_vi": "Phòng giặt ủi được trang bị máy giặt và máy sấy.",
+      "collocations_json": [
+        "shared laundry room",
+        "go to the laundry room"
+      ],
+      "synonyms_json": [
+        "utility room"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Laundry room (lon-đri rum) là 'room' (phòng) để 'laundry' (giặt giũ).",
+      "frequency_rank": 5300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10126
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "commute",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kəˈmjuːt/",
+      "ipa_us": "/kəˈmjuːt/",
+      "meaning_vi": "Đi lại (giữa nhà và nơi làm việc)",
+      "definition_en": "To travel some distance regularly between one's home and one's place of work or study.",
+      "example_en": "I commute to work by train every day.",
+      "example_vi": "Tôi đi làm bằng tàu hỏa mỗi ngày.",
+      "collocations_json": [
+        "daily commute",
+        "long commute"
+      ],
+      "synonyms_json": [
+        "travel",
+        "journey"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Commute (cờ-miu-t) là 'cứ' 'mỗi' ngày phải đi lại.",
+      "frequency_rank": 3550,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10127
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "facilities",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/fəˈsɪl.ɪ.tiz/",
+      "ipa_us": "/fəˈsɪl.ə.t̬iz/",
+      "meaning_vi": "Tiện nghi, cơ sở vật chất",
+      "definition_en": "Rooms, equipment, or services that are provided for a particular purpose.",
+      "example_en": "The hotel has excellent sports facilities.",
+      "example_vi": "Khách sạn có các tiện nghi thể thao tuyệt vời.",
+      "collocations_json": [
+        "sports facilities",
+        "public facilities"
+      ],
+      "synonyms_json": [
+        "amenities",
+        "services"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Facilities (phờ-xi-li-tiz) là những thứ 'phải' có để 'dễ' dùng.",
+      "frequency_rank": 4950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10128
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "storage",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈstɔː.rɪdʒ/",
+      "ipa_us": "/ˈstɔːr.ɪdʒ/",
+      "meaning_vi": "Kho chứa đồ, nơi lưu trữ",
+      "definition_en": "The action or method of storing something for future use.",
+      "example_en": "The apartment has plenty of storage space.",
+      "example_vi": "Căn hộ có rất nhiều không gian lưu trữ.",
+      "collocations_json": [
+        "extra storage",
+        "storage unit"
+      ],
+      "synonyms_json": [
+        "depot",
+        "warehouse"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Storage (sto-rít-ch) là nơi 'store' (cất giữ) đồ đạc.",
+      "frequency_rank": 4750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10129
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "lounge",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/laʊndʒ/",
+      "ipa_us": "/laʊndʒ/",
+      "meaning_vi": "Phòng chờ, phòng khách",
+      "definition_en": "A public room in a hotel, airport, or club for waiting or relaxing.",
+      "example_en": "We waited for our flight in the executive lounge.",
+      "example_vi": "Chúng tôi chờ chuyến bay ở phòng chờ hạng thương gia.",
+      "collocations_json": [
+        "departure lounge",
+        "hotel lounge"
+      ],
+      "synonyms_json": [
+        "living room",
+        "waiting room"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Lounge (lao-ndj) là nơi 'lâu' (lâu) cũng 'được' (thoải mái).",
+      "frequency_rank": 3150,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10130
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "shelves",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ʃelvz/",
+      "ipa_us": "/ʃelvz/",
+      "meaning_vi": "Những cái kệ, giá sách",
+      "definition_en": "Flat lengths of wood or other rigid material, attached to a wall or forming part of a unit, used for placing objects.",
+      "example_en": "The kitchen has open shelves for spices.",
+      "example_vi": "Nhà bếp có các kệ mở để đựng gia vị.",
+      "collocations_json": [
+        "book shelves",
+        "empty shelves"
+      ],
+      "synonyms_json": [
+        "racks",
+        "ledges"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Shelves (she-lvz) là 'kệ' để đồ 'sâu' (dài).",
+      "frequency_rank": 2750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10131
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "light fixture",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/laɪt ˈfɪk.stʃər/",
+      "ipa_us": "/laɪt ˈfɪk.stʃɚ/",
+      "meaning_vi": "Thiết bị chiếu sáng, đèn",
+      "definition_en": "An electric light that is attached to a wall or ceiling.",
+      "example_en": "We need to replace the old light fixture in the bathroom.",
+      "example_vi": "Chúng tôi cần thay thế thiết bị chiếu sáng cũ trong phòng tắm.",
+      "collocations_json": [
+        "overhead light fixture",
+        "modern light fixture"
+      ],
+      "synonyms_json": [
+        "lamp",
+        "lighting unit"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Light fixture (lai-t fíc-chơ) là 'light' (đèn) 'fix' (gắn) trên tường.",
+      "frequency_rank": 5400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10132
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "tap",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/tæp/",
+      "ipa_us": "/tæp/",
+      "meaning_vi": "Vòi nước",
+      "definition_en": "A device for controlling the flow of water from a pipe.",
+      "example_en": "Please turn off the tap to save water.",
+      "example_vi": "Làm ơn khóa vòi nước để tiết kiệm nước.",
+      "collocations_json": [
+        "turn on the tap",
+        "leaky tap"
+      ],
+      "synonyms_json": [
+        "faucet",
+        "spigot"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tap (táp) là 'tát' (khóa) vòi nước lại.",
+      "frequency_rank": 3050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10133
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "drain",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/dreɪn/",
+      "ipa_us": "/dreɪn/",
+      "meaning_vi": "Ống thoát nước, cống",
+      "definition_en": "A channel or pipe carrying off liquid, especially waste water or rain.",
+      "example_en": "The kitchen sink drain is blocked.",
+      "example_vi": "Ống thoát nước bồn rửa chén bị tắc.",
+      "collocations_json": [
+        "blocked drain",
+        "shower drain"
+      ],
+      "synonyms_json": [
+        "sewer",
+        "duct"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Drain (đrên) là 'đổ' nước 'ra' ngoài.",
+      "frequency_rank": 4550,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10134
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "boiler",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbɔɪ.lər/",
+      "ipa_us": "/ˈbɔɪ.lɚ/",
+      "meaning_vi": "Bình đun nước nóng (lớn)",
+      "definition_en": "A tank used to heat and store water, typically for central heating or hot water supply.",
+      "example_en": "Our boiler needs to be serviced every year.",
+      "example_vi": "Bình đun nước nóng của chúng tôi cần được bảo dưỡng hàng năm.",
+      "collocations_json": [
+        "combi boiler",
+        "broken boiler"
+      ],
+      "synonyms_json": [
+        "water heater",
+        "furnace"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Boiler (boi-lơ) là thiết bị làm nước 'boil' (sôi).",
+      "frequency_rank": 5100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10135
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Housing & Accommodation",
+      "word": "insulation",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌɪn.sjuˈleɪ.ʃən/",
+      "ipa_us": "/ˌɪn.səˈleɪ.ʃən/",
+      "meaning_vi": "Vật liệu cách nhiệt/điện",
+      "definition_en": "Material used to prevent heat, sound, or electricity from escaping or entering.",
+      "example_en": "Good insulation helps to keep the house warm in winter.",
+      "example_vi": "Cách nhiệt tốt giúp giữ ấm ngôi nhà vào mùa đông.",
+      "collocations_json": [
+        "loft insulation",
+        "sound insulation"
+      ],
+      "synonyms_json": [
+        "padding",
+        "lagging"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Insulation (in-su-lây-shần) là 'in' (trong) nhà được 'sử dụng' cách nhiệt.",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10136
+  }
+]

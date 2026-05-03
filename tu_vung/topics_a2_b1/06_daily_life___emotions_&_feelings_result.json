@@ -1,0 +1,2366 @@
+[
+
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "happy",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhæpi/",
+      "ipa_us": "/ˈhæpi/",
+      "meaning_vi": "Vui vẻ, hạnh phúc, hài lòng",
+      "definition_en": "Feeling or showing pleasure or contentment.",
+      "example_en": "She was very happy to see her old friends again.",
+      "example_vi": "Cô ấy rất vui khi gặp lại những người bạn cũ.",
+      "collocations_json": [
+        "feel happy",
+        "make happy",
+        "happy about"
+      ],
+      "synonyms_json": [
+        "joyful",
+        "pleased",
+        "glad"
+      ],
+      "antonyms_json": [
+        "sad",
+        "unhappy"
+      ],
+      "mnemonic": "Nhớ chữ 'hap' trong 'happen' (xảy ra điều tốt) để 'happy' (hạnh phúc).",
+      "frequency_rank": 150,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10334
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "sad",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/sæd/",
+      "ipa_us": "/sæd/",
+      "meaning_vi": "Buồn bã, không vui, thất vọng",
+      "definition_en": "Feeling or showing sorrow; unhappy.",
+      "example_en": "He felt sad when his dog went missing.",
+      "example_vi": "Anh ấy cảm thấy buồn khi con chó của mình bị mất tích.",
+      "collocations_json": [
+        "feel sad",
+        "make sad",
+        "sad news"
+      ],
+      "synonyms_json": [
+        "unhappy",
+        "down",
+        "upset"
+      ],
+      "antonyms_json": [
+        "happy",
+        "joyful"
+      ],
+      "mnemonic": "Chữ 'sad' ngắn gọn, giống như cảm giác buồn thường đến bất chợt.",
+      "frequency_rank": 300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10335
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "angry",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈæŋɡri/",
+      "ipa_us": "/ˈæŋɡri/",
+      "meaning_vi": "Tức giận, giận dữ, cáu kỉnh",
+      "definition_en": "Having a strong feeling of annoyance, displeasure, or hostility.",
+      "example_en": "She was angry because he broke her favorite mug.",
+      "example_vi": "Cô ấy tức giận vì anh ấy làm vỡ chiếc cốc yêu thích của cô.",
+      "collocations_json": [
+        "get angry",
+        "angry with",
+        "angry about"
+      ],
+      "synonyms_json": [
+        "mad",
+        "furious",
+        "annoyed"
+      ],
+      "antonyms_json": [
+        "calm",
+        "pleased"
+      ],
+      "mnemonic": "Nhớ 'angry' có 'grrr' như tiếng gầm gừ khi giận.",
+      "frequency_rank": 450,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10336
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "excited",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɪkˈsaɪtɪd/",
+      "ipa_us": "/ɪkˈsaɪtɪd/",
+      "meaning_vi": "Hào hứng, phấn khích, kích động",
+      "definition_en": "Feeling or showing great enthusiasm and eagerness.",
+      "example_en": "The children were excited about their trip to the zoo.",
+      "example_vi": "Những đứa trẻ rất hào hứng về chuyến đi sở thú của chúng.",
+      "collocations_json": [
+        "get excited",
+        "excited about",
+        "feel excited"
+      ],
+      "synonyms_json": [
+        "thrilled",
+        "eager",
+        "enthusiastic"
+      ],
+      "antonyms_json": [
+        "bored",
+        "calm"
+      ],
+      "mnemonic": "Khi 'excite' (kích thích) thì bạn sẽ 'excited' (hào hứng).",
+      "frequency_rank": 600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10337
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "tired",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈtaɪəd/",
+      "ipa_us": "/ˈtaɪərd/",
+      "meaning_vi": "Mệt mỏi, uể oải, kiệt sức",
+      "definition_en": "In need of sleep or rest; weary.",
+      "example_en": "After a long day at work, I felt very tired.",
+      "example_vi": "Sau một ngày dài làm việc, tôi cảm thấy rất mệt mỏi.",
+      "collocations_json": [
+        "feel tired",
+        "get tired",
+        "tired of"
+      ],
+      "synonyms_json": [
+        "sleepy",
+        "exhausted",
+        "weary"
+      ],
+      "antonyms_json": [
+        "energetic",
+        "rested"
+      ],
+      "mnemonic": "Từ 'tire' giống 'lốp xe' đã chạy nhiều nên 'tired' (mệt mỏi).",
+      "frequency_rank": 200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10338
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "bored",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/bɔːd/",
+      "ipa_us": "/bɔːrd/",
+      "meaning_vi": "Buồn chán, tẻ nhạt, không hứng thú",
+      "definition_en": "Feeling weary and impatient because one is unoccupied or lacks interest in one's current activity.",
+      "example_en": "I was bored watching the same TV show every night.",
+      "example_vi": "Tôi chán ngắt khi xem cùng một chương trình TV mỗi tối.",
+      "collocations_json": [
+        "feel bored",
+        "get bored",
+        "bored with"
+      ],
+      "synonyms_json": [
+        "uninterested",
+        "fed up",
+        "dull"
+      ],
+      "antonyms_json": [
+        "excited",
+        "interested"
+      ],
+      "mnemonic": "Nhớ 'board' (bảng) mà không có gì thú vị thì sẽ 'bored' (chán).",
+      "frequency_rank": 750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10339
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "surprised",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/səˈpraɪzd/",
+      "ipa_us": "/sərˈpraɪzd/",
+      "meaning_vi": "Ngạc nhiên, bất ngờ, kinh ngạc",
+      "definition_en": "Feeling or showing surprise.",
+      "example_en": "She was surprised by the unexpected gift.",
+      "example_vi": "Cô ấy ngạc nhiên trước món quà bất ngờ.",
+      "collocations_json": [
+        "be surprised",
+        "surprised at",
+        "surprised to hear"
+      ],
+      "synonyms_json": [
+        "astonished",
+        "amazed",
+        "shocked"
+      ],
+      "antonyms_json": [
+        "unmoved",
+        "expected"
+      ],
+      "mnemonic": "Từ 'surprise' (bất ngờ) khiến bạn 'surprised' (ngạc nhiên).",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10340
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "afraid",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/əˈfreɪd/",
+      "ipa_us": "/əˈfreɪd/",
+      "meaning_vi": "Sợ hãi, e ngại, lo sợ",
+      "definition_en": "Feeling fear or anxiety; frightened.",
+      "example_en": "He was afraid of the dark when he was a child.",
+      "example_vi": "Anh ấy sợ bóng tối khi còn nhỏ.",
+      "collocations_json": [
+        "be afraid",
+        "afraid of",
+        "afraid to do"
+      ],
+      "synonyms_json": [
+        "scared",
+        "frightened",
+        "terrified"
+      ],
+      "antonyms_json": [
+        "brave",
+        "courageous"
+      ],
+      "mnemonic": "Nhớ 'a' (một) 'raid' (cuộc đột kích) khiến bạn 'afraid' (sợ hãi).",
+      "frequency_rank": 500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10341
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "worried",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈwʌrid/",
+      "ipa_us": "/ˈwɜːrid/",
+      "meaning_vi": "Lo lắng, băn khoăn, phiền muộn",
+      "definition_en": "Feeling or showing anxiety or concern about something.",
+      "example_en": "Parents often get worried about their children's future.",
+      "example_vi": "Cha mẹ thường lo lắng về tương lai của con cái mình.",
+      "collocations_json": [
+        "get worried",
+        "worried about",
+        "feel worried"
+      ],
+      "synonyms_json": [
+        "anxious",
+        "concerned",
+        "stressed"
+      ],
+      "antonyms_json": [
+        "calm",
+        "relaxed"
+      ],
+      "mnemonic": "'Worry' (lo lắng) khiến bạn 'worried' (lo lắng).",
+      "frequency_rank": 700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10342
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "stressed",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/strest/",
+      "ipa_us": "/strest/",
+      "meaning_vi": "Căng thẳng, áp lực, mệt mỏi",
+      "definition_en": "Suffering from mental or emotional strain or tension.",
+      "example_en": "I feel really stressed with all the deadlines at work.",
+      "example_vi": "Tôi cảm thấy thực sự căng thẳng với tất cả các hạn chót ở nơi làm việc.",
+      "collocations_json": [
+        "feel stressed",
+        "get stressed",
+        "stressed out"
+      ],
+      "synonyms_json": [
+        "pressured",
+        "overwhelmed",
+        "anxious"
+      ],
+      "antonyms_json": [
+        "relaxed",
+        "calm"
+      ],
+      "mnemonic": "Khi bị 'stress' (áp lực) thì bạn sẽ 'stressed' (căng thẳng).",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10343
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "calm",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kɑːm/",
+      "ipa_us": "/kɑːm/",
+      "meaning_vi": "Bình tĩnh, điềm tĩnh, yên lặng",
+      "definition_en": "Not feeling or showing excitement, anger, or other strong emotions.",
+      "example_en": "It's important to stay calm in an emergency.",
+      "example_vi": "Điều quan trọng là phải giữ bình tĩnh trong trường hợp khẩn cấp.",
+      "collocations_json": [
+        "stay calm",
+        "keep calm",
+        "calm voice"
+      ],
+      "synonyms_json": [
+        "peaceful",
+        "serene",
+        "tranquil"
+      ],
+      "antonyms_json": [
+        "agitated",
+        "nervous"
+      ],
+      "mnemonic": "Từ 'calm' không có chữ 'l', giống như sự yên bình không ồn ào.",
+      "frequency_rank": 650,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10344
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "relaxed",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈlækst/",
+      "ipa_us": "/rɪˈlækst/",
+      "meaning_vi": "Thư giãn, thoải mái, dễ chịu",
+      "definition_en": "Free from tension and anxiety; at ease.",
+      "example_en": "After a long walk, I felt completely relaxed.",
+      "example_vi": "Sau một chuyến đi bộ dài, tôi cảm thấy hoàn toàn thư giãn.",
+      "collocations_json": [
+        "feel relaxed",
+        "get relaxed",
+        "relaxed atmosphere"
+      ],
+      "synonyms_json": [
+        "calm",
+        "at ease",
+        "peaceful"
+      ],
+      "antonyms_json": [
+        "stressed",
+        "tense"
+      ],
+      "mnemonic": "Khi 'relax' (thư giãn) thì bạn sẽ 'relaxed' (thư giãn).",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10345
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "confused",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kənˈfjuːzd/",
+      "ipa_us": "/kənˈfjuːzd/",
+      "meaning_vi": "Bối rối, hoang mang, lúng túng",
+      "definition_en": "Unable to think clearly or understand something.",
+      "example_en": "I was confused by the complicated instructions.",
+      "example_vi": "Tôi bối rối bởi những hướng dẫn phức tạp.",
+      "collocations_json": [
+        "feel confused",
+        "get confused",
+        "confused about"
+      ],
+      "synonyms_json": [
+        "puzzled",
+        "bewildered",
+        "perplexed"
+      ],
+      "antonyms_json": [
+        "clear",
+        "understandable"
+      ],
+      "mnemonic": "Khi 'confuse' (làm bối rối) thì bạn sẽ 'confused' (bối rối).",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10346
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "disappointed",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌdɪsəˈpɔɪntɪd/",
+      "ipa_us": "/ˌdɪsəˈpɔɪntɪd/",
+      "meaning_vi": "Thất vọng, chán nản",
+      "definition_en": "Sad or displeased because someone or something has failed to fulfill one's hopes or expectations.",
+      "example_en": "She was disappointed with her exam results.",
+      "example_vi": "Cô ấy thất vọng với kết quả thi của mình.",
+      "collocations_json": [
+        "feel disappointed",
+        "disappointed in",
+        "deeply disappointed"
+      ],
+      "synonyms_json": [
+        "unhappy",
+        "let down",
+        "frustrated"
+      ],
+      "antonyms_json": [
+        "pleased",
+        "satisfied"
+      ],
+      "mnemonic": "Khi 'disappoint' (làm thất vọng) thì bạn sẽ 'disappointed' (thất vọng).",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10347
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "proud",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/praʊd/",
+      "ipa_us": "/praʊd/",
+      "meaning_vi": "Tự hào, kiêu hãnh",
+      "definition_en": "Feeling deep pleasure or satisfaction as a result of one's own achievements, qualities, or possessions or those of someone with whom one is closely associated.",
+      "example_en": "Her parents were very proud of her success.",
+      "example_vi": "Cha mẹ cô ấy rất tự hào về thành công của cô.",
+      "collocations_json": [
+        "feel proud",
+        "proud of",
+        "justifiably proud"
+      ],
+      "synonyms_json": [
+        "satisfied",
+        "content",
+        "honored"
+      ],
+      "antonyms_json": [
+        "ashamed",
+        "humble"
+      ],
+      "mnemonic": "Từ 'proud' có âm 'oud' nghe như 'oách' khi tự hào.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10348
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "lonely",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈləʊnli/",
+      "ipa_us": "/ˈloʊnli/",
+      "meaning_vi": "Cô đơn, hiu quạnh",
+      "definition_en": "Sad because one has no friends or company.",
+      "example_en": "She felt lonely after moving to a new city.",
+      "example_vi": "Cô ấy cảm thấy cô đơn sau khi chuyển đến một thành phố mới.",
+      "collocations_json": [
+        "feel lonely",
+        "lonely person",
+        "lonely night"
+      ],
+      "synonyms_json": [
+        "isolated",
+        "solitary",
+        "forlorn"
+      ],
+      "antonyms_json": [
+        "accompanied",
+        "social"
+      ],
+      "mnemonic": "Nhớ 'lone' (một mình) sẽ dẫn đến 'lonely' (cô đơn).",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10349
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "embarrassed",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɪmˈbærəst/",
+      "ipa_us": "/ɪmˈbærəst/",
+      "meaning_vi": "Ngượng ngùng, xấu hổ, bối rối",
+      "definition_en": "Feeling or showing embarrassment.",
+      "example_en": "He was embarrassed when he tripped in front of everyone.",
+      "example_vi": "Anh ấy ngượng ngùng khi vấp ngã trước mặt mọi người.",
+      "collocations_json": [
+        "feel embarrassed",
+        "embarrassed about",
+        "deeply embarrassed"
+      ],
+      "synonyms_json": [
+        "ashamed",
+        "humiliated",
+        "awkward"
+      ],
+      "antonyms_json": [
+        "proud",
+        "confident"
+      ],
+      "mnemonic": "Khi 'embarrass' (làm xấu hổ) thì bạn sẽ 'embarrassed' (ngượng ngùng).",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10350
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "grateful",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɡreɪtfʊl/",
+      "ipa_us": "/ˈɡreɪtfəl/",
+      "meaning_vi": "Biết ơn, cảm kích",
+      "definition_en": "Feeling or showing an appreciation for something received or something done.",
+      "example_en": "I'm so grateful for your help with my project.",
+      "example_vi": "Tôi rất biết ơn vì sự giúp đỡ của bạn với dự án của tôi.",
+      "collocations_json": [
+        "feel grateful",
+        "grateful for",
+        "truly grateful"
+      ],
+      "synonyms_json": [
+        "thankful",
+        "appreciative",
+        "indebted"
+      ],
+      "antonyms_json": [
+        "ungrateful"
+      ],
+      "mnemonic": "Từ 'great' (tuyệt vời) trong 'grateful' (biết ơn) vì nhận được điều tuyệt vời.",
+      "frequency_rank": 1900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10351
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "annoyed",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/əˈnɔɪd/",
+      "ipa_us": "/əˈnɔɪd/",
+      "meaning_vi": "Bực mình, khó chịu, phiền toái",
+      "definition_en": "Slightly irritated or bothered.",
+      "example_en": "She was annoyed by the constant noise from next door.",
+      "example_vi": "Cô ấy bực mình vì tiếng ồn liên tục từ nhà bên cạnh.",
+      "collocations_json": [
+        "get annoyed",
+        "annoyed with",
+        "annoyed about"
+      ],
+      "synonyms_json": [
+        "irritated",
+        "bothered",
+        "exasperated"
+      ],
+      "antonyms_json": [
+        "pleased",
+        "delighted"
+      ],
+      "mnemonic": "Khi bị 'annoy' (làm phiền) thì bạn sẽ 'annoyed' (bực mình).",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10352
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "upset",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ʌpˈset/",
+      "ipa_us": "/ʌpˈset/",
+      "meaning_vi": "Buồn bã, khó chịu, tức giận",
+      "definition_en": "Unhappy, disappointed, or worried.",
+      "example_en": "Don't get upset over little things; it's not worth it.",
+      "example_vi": "Đừng buồn vì những chuyện nhỏ nhặt; nó không đáng đâu.",
+      "collocations_json": [
+        "get upset",
+        "feel upset",
+        "upset about"
+      ],
+      "synonyms_json": [
+        "distressed",
+        "troubled",
+        "sad"
+      ],
+      "antonyms_json": [
+        "calm",
+        "happy"
+      ],
+      "mnemonic": "Khi mọi thứ 'up-set' (đặt ngược) thì bạn sẽ 'upset' (khó chịu).",
+      "frequency_rank": 950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10353
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "joyful",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdʒɔɪfəl/",
+      "ipa_us": "/ˈdʒɔɪfəl/",
+      "meaning_vi": "Vui sướng, hân hoan, tràn đầy niềm vui",
+      "definition_en": "Feeling, expressing, or causing great pleasure and happiness.",
+      "example_en": "The wedding was a joyful occasion for everyone.",
+      "example_vi": "Đám cưới là một dịp vui sướng cho tất cả mọi người.",
+      "collocations_json": [
+        "joyful occasion",
+        "joyful news",
+        "feel joyful"
+      ],
+      "synonyms_json": [
+        "happy",
+        "cheerful",
+        "delighted"
+      ],
+      "antonyms_json": [
+        "sad",
+        "sorrowful"
+      ],
+      "mnemonic": "Từ 'joy' (niềm vui) trong 'joyful' (vui sướng).",
+      "frequency_rank": 2200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10354
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "pleased",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/pliːzd/",
+      "ipa_us": "/pliːzd/",
+      "meaning_vi": "Hài lòng, vui lòng, vừa ý",
+      "definition_en": "Feeling or showing pleasure and satisfaction.",
+      "example_en": "I'm very pleased with your progress in English.",
+      "example_vi": "Tôi rất hài lòng với tiến bộ của bạn trong tiếng Anh.",
+      "collocations_json": [
+        "be pleased",
+        "pleased with",
+        "pleased to meet"
+      ],
+      "synonyms_json": [
+        "happy",
+        "satisfied",
+        "glad"
+      ],
+      "antonyms_json": [
+        "displeased",
+        "unhappy"
+      ],
+      "mnemonic": "Khi 'please' (làm hài lòng) thì bạn sẽ 'pleased' (hài lòng).",
+      "frequency_rank": 850,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10355
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "nervous",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈnɜːvəs/",
+      "ipa_us": "/ˈnɜːrvəs/",
+      "meaning_vi": "Lo lắng, hồi hộp, bồn chồn",
+      "definition_en": "Easily agitated or alarmed; tending to be anxious.",
+      "example_en": "He was nervous before his job interview.",
+      "example_vi": "Anh ấy lo lắng trước buổi phỏng vấn xin việc.",
+      "collocations_json": [
+        "feel nervous",
+        "get nervous",
+        "nervous about"
+      ],
+      "synonyms_json": [
+        "anxious",
+        "apprehensive",
+        "tense"
+      ],
+      "antonyms_json": [
+        "calm",
+        "confident"
+      ],
+      "mnemonic": "Khi 'nerve' (dây thần kinh) bị căng thì sẽ 'nervous' (hồi hộp).",
+      "frequency_rank": 1400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10356
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "confident",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkɒnfɪdənt/",
+      "ipa_us": "/ˈkɑːnfɪdənt/",
+      "meaning_vi": "Tự tin, tin tưởng, chắc chắn",
+      "definition_en": "Feeling or showing certainty about something.",
+      "example_en": "She felt confident that she would pass the exam.",
+      "example_vi": "Cô ấy cảm thấy tự tin rằng mình sẽ vượt qua kỳ thi.",
+      "collocations_json": [
+        "feel confident",
+        "confident in",
+        "self-confident"
+      ],
+      "synonyms_json": [
+        "assured",
+        "optimistic",
+        "certain"
+      ],
+      "antonyms_json": [
+        "insecure",
+        "doubtful"
+      ],
+      "mnemonic": "Khi có 'con' (cùng) 'fide' (tin tưởng) thì bạn 'confident' (tự tin).",
+      "frequency_rank": 1300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10357
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "hopeful",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhəʊpfʊl/",
+      "ipa_us": "/ˈhoʊpfəl/",
+      "meaning_vi": "Đầy hy vọng, lạc quan",
+      "definition_en": "Feeling or inspiring optimism about a future event.",
+      "example_en": "I'm hopeful that things will get better soon.",
+      "example_vi": "Tôi hy vọng rằng mọi thứ sẽ tốt hơn sớm thôi.",
+      "collocations_json": [
+        "feel hopeful",
+        "hopeful about",
+        "remain hopeful"
+      ],
+      "synonyms_json": [
+        "optimistic",
+        "positive",
+        "promising"
+      ],
+      "antonyms_json": [
+        "hopeless",
+        "pessimistic"
+      ],
+      "mnemonic": "Khi có 'hope' (hy vọng) thì bạn sẽ 'hopeful' (đầy hy vọng).",
+      "frequency_rank": 2100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10358
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "hopeless",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhəʊpləs/",
+      "ipa_us": "/ˈhoʊpləs/",
+      "meaning_vi": "Tuyệt vọng, vô vọng, không có hy vọng",
+      "definition_en": "Feeling or causing despair; without hope.",
+      "example_en": "He felt hopeless after failing the exam for the third time.",
+      "example_vi": "Anh ấy cảm thấy tuyệt vọng sau khi trượt kỳ thi lần thứ ba.",
+      "collocations_json": [
+        "feel hopeless",
+        "hopeless situation",
+        "utterly hopeless"
+      ],
+      "synonyms_json": [
+        "despairing",
+        "desperate",
+        "futile"
+      ],
+      "antonyms_json": [
+        "hopeful",
+        "optimistic"
+      ],
+      "mnemonic": "Không có 'hope' (hy vọng) thì sẽ 'hopeless' (tuyệt vọng).",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10359
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "frustrated",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/frʌˈstreɪtɪd/",
+      "ipa_us": "/ˈfrʌstreɪtɪd/",
+      "meaning_vi": "Thất vọng, bực bội, khó chịu",
+      "definition_en": "Feeling annoyed or less confident because you cannot achieve what you want.",
+      "example_en": "I get frustrated when I can't solve a problem.",
+      "example_vi": "Tôi cảm thấy bực bội khi không thể giải quyết được vấn đề.",
+      "collocations_json": [
+        "feel frustrated",
+        "get frustrated",
+        "frustrated with"
+      ],
+      "synonyms_json": [
+        "annoyed",
+        "exasperated",
+        "disappointed"
+      ],
+      "antonyms_json": [
+        "satisfied",
+        "content"
+      ],
+      "mnemonic": "Khi 'frustrate' (gây khó chịu) thì bạn sẽ 'frustrated' (bực bội).",
+      "frequency_rank": 2300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10360
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "relieved",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈliːvd/",
+      "ipa_us": "/rɪˈliːvd/",
+      "meaning_vi": "Nhẹ nhõm, bớt lo lắng",
+      "definition_en": "Feeling or showing relief.",
+      "example_en": "I was relieved to hear that everyone was safe after the accident.",
+      "example_vi": "Tôi nhẹ nhõm khi nghe tin mọi người đều an toàn sau vụ tai nạn.",
+      "collocations_json": [
+        "feel relieved",
+        "greatly relieved",
+        "relieved to hear"
+      ],
+      "synonyms_json": [
+        "eased",
+        "comforted",
+        "unburdened"
+      ],
+      "antonyms_json": [
+        "worried",
+        "stressed"
+      ],
+      "mnemonic": "Khi được 'relieve' (giải tỏa) thì bạn sẽ 'relieved' (nhẹ nhõm).",
+      "frequency_rank": 2400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10361
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "jealous",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdʒeləs/",
+      "ipa_us": "/ˈdʒeləs/",
+      "meaning_vi": "Ghen tị, đố kỵ",
+      "definition_en": "Feeling or showing envy of someone or their achievements and advantages.",
+      "example_en": "She felt jealous of her sister's success.",
+      "example_vi": "Cô ấy cảm thấy ghen tị với thành công của chị mình.",
+      "collocations_json": [
+        "feel jealous",
+        "jealous of",
+        "become jealous"
+      ],
+      "synonyms_json": [
+        "envious",
+        "resentful",
+        "possessive"
+      ],
+      "antonyms_json": [
+        "supportive",
+        "content"
+      ],
+      "mnemonic": "Khi 'jealous' (ghen tị) thường thấy 'ghen' ('gell').",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10362
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "shy",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ʃaɪ/",
+      "ipa_us": "/ʃaɪ/",
+      "meaning_vi": "Nhút nhát, e thẹn, rụt rè",
+      "definition_en": "Being reserved or reluctant in social situations.",
+      "example_en": "She was too shy to ask him to dance.",
+      "example_vi": "Cô ấy quá nhút nhát để mời anh ấy nhảy.",
+      "collocations_json": [
+        "feel shy",
+        "shy person",
+        "be shy"
+      ],
+      "synonyms_json": [
+        "timid",
+        "introverted",
+        "reserved"
+      ],
+      "antonyms_json": [
+        "confident",
+        "outgoing"
+      ],
+      "mnemonic": "Từ 'shy' nghe như 'sai' khi cảm thấy không tự tin.",
+      "frequency_rank": 1100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10363
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "brave",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/breɪv/",
+      "ipa_us": "/breɪv/",
+      "meaning_vi": "Dũng cảm, gan dạ, can đảm",
+      "definition_en": "Ready to face and endure danger or pain; showing courage.",
+      "example_en": "It was brave of him to rescue the child from the fire.",
+      "example_vi": "Anh ấy thật dũng cảm khi cứu đứa bé khỏi đám cháy.",
+      "collocations_json": [
+        "be brave",
+        "brave decision",
+        "brave act"
+      ],
+      "synonyms_json": [
+        "courageous",
+        "fearless",
+        "heroic"
+      ],
+      "antonyms_json": [
+        "cowardly",
+        "afraid"
+      ],
+      "mnemonic": "Nhớ 'brave' như 'vua' (brave king) rất dũng cảm.",
+      "frequency_rank": 1050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10364
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "curious",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkjʊəriəs/",
+      "ipa_us": "/ˈkjʊriəs/",
+      "meaning_vi": "Tò mò, hiếu kỳ",
+      "definition_en": "Eager to know or learn something.",
+      "example_en": "Children are often curious about how things work.",
+      "example_vi": "Trẻ em thường tò mò về cách mọi thứ hoạt động.",
+      "collocations_json": [
+        "be curious",
+        "curious about",
+        "naturally curious"
+      ],
+      "synonyms_json": [
+        "inquisitive",
+        "eager",
+        "interested"
+      ],
+      "antonyms_json": [
+        "indifferent",
+        "uninterested"
+      ],
+      "mnemonic": "Từ 'cure' (chữa bệnh) khiến bạn 'curious' (tò mò) tìm hiểu.",
+      "frequency_rank": 2700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10365
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "thoughtful",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈθɔːtfʊl/",
+      "ipa_us": "/ˈθɔːtfəl/",
+      "meaning_vi": "Chu đáo, ân cần, biết suy nghĩ",
+      "definition_en": "Showing consideration for the needs of other people.",
+      "example_en": "It was very thoughtful of you to bring me flowers.",
+      "example_vi": "Bạn thật chu đáo khi mang hoa đến cho tôi.",
+      "collocations_json": [
+        "thoughtful gesture",
+        "thoughtful person",
+        "be thoughtful"
+      ],
+      "synonyms_json": [
+        "considerate",
+        "kind",
+        "caring"
+      ],
+      "antonyms_json": [
+        "thoughtless",
+        "inconsiderate"
+      ],
+      "mnemonic": "Khi 'thought' (suy nghĩ) nhiều cho người khác thì bạn 'thoughtful' (chu đáo).",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10366
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "patient",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpeɪʃnt/",
+      "ipa_us": "/ˈpeɪʃnt/",
+      "meaning_vi": "Kiên nhẫn, nhẫn nại",
+      "definition_en": "Able to accept or tolerate delays, problems, or suffering without becoming annoyed or anxious.",
+      "example_en": "You need to be patient when teaching children.",
+      "example_vi": "Bạn cần kiên nhẫn khi dạy trẻ em.",
+      "collocations_json": [
+        "be patient",
+        "patient with",
+        "extremely patient"
+      ],
+      "synonyms_json": [
+        "forbearing",
+        "tolerant",
+        "calm"
+      ],
+      "antonyms_json": [
+        "impatient"
+      ],
+      "mnemonic": "Nhớ 'patient' (bệnh nhân) thường phải 'patient' (kiên nhẫn) chờ đợi.",
+      "frequency_rank": 1750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10367
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "impatient",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɪmˈpeɪʃnt/",
+      "ipa_us": "/ɪmˈpeɪʃnt/",
+      "meaning_vi": "Thiếu kiên nhẫn, nóng vội",
+      "definition_en": "Having or showing a tendency to be quickly irritated or provoked.",
+      "example_en": "He gets impatient if he has to wait too long.",
+      "example_vi": "Anh ấy trở nên thiếu kiên nhẫn nếu phải đợi quá lâu.",
+      "collocations_json": [
+        "get impatient",
+        "impatient with",
+        "become impatient"
+      ],
+      "synonyms_json": [
+        "restless",
+        "eager",
+        "irritable"
+      ],
+      "antonyms_json": [
+        "patient"
+      ],
+      "mnemonic": "Thêm 'im-' (không) vào 'patient' (kiên nhẫn) thành 'impatient' (thiếu kiên nhẫn).",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10368
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "satisfied",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsætɪsfaɪd/",
+      "ipa_us": "/ˈsætɪsfaɪd/",
+      "meaning_vi": "Hài lòng, mãn nguyện, thỏa mãn",
+      "definition_en": "Contented; pleased.",
+      "example_en": "She was satisfied with her new car.",
+      "example_vi": "Cô ấy hài lòng với chiếc xe mới của mình.",
+      "collocations_json": [
+        "feel satisfied",
+        "satisfied with",
+        "fully satisfied"
+      ],
+      "synonyms_json": [
+        "content",
+        "pleased",
+        "fulfilled"
+      ],
+      "antonyms_json": [
+        "dissatisfied",
+        "unhappy"
+      ],
+      "mnemonic": "Khi 'satisfy' (làm hài lòng) thì bạn sẽ 'satisfied' (hài lòng).",
+      "frequency_rank": 1650,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10369
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "comfortable",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkʌmfətəbl/",
+      "ipa_us": "/ˈkʌmfərtəbl/",
+      "meaning_vi": "Thoải mái, dễ chịu, tiện nghi",
+      "definition_en": "Providing physical ease and relaxation.",
+      "example_en": "I feel comfortable in my new home.",
+      "example_vi": "Tôi cảm thấy thoải mái trong ngôi nhà mới của mình.",
+      "collocations_json": [
+        "feel comfortable",
+        "comfortable chair",
+        "make comfortable"
+      ],
+      "synonyms_json": [
+        "cozy",
+        "relaxed",
+        "at ease"
+      ],
+      "antonyms_json": [
+        "uncomfortable",
+        "awkward"
+      ],
+      "mnemonic": "Từ 'comfort' (sự thoải mái) giúp bạn 'comfortable' (thoải mái).",
+      "frequency_rank": 700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10370
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "uncomfortable",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ʌnˈkʌmfətəbl/",
+      "ipa_us": "/ʌnˈkʌmfərtəbl/",
+      "meaning_vi": "Không thoải mái, khó chịu",
+      "definition_en": "Causing or feeling slight pain or physical discomfort.",
+      "example_en": "The shoes were so uncomfortable that I had to take them off.",
+      "example_vi": "Đôi giày quá khó chịu đến nỗi tôi phải cởi chúng ra.",
+      "collocations_json": [
+        "feel uncomfortable",
+        "uncomfortable situation",
+        "make uncomfortable"
+      ],
+      "synonyms_json": [
+        "uneasy",
+        "awkward",
+        "discomforting"
+      ],
+      "antonyms_json": [
+        "comfortable"
+      ],
+      "mnemonic": "Thêm 'un-' (không) vào 'comfortable' (thoải mái) thành 'uncomfortable' (không thoải mái).",
+      "frequency_rank": 1250,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10371
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "cheer up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/tʃɪər ʌp/",
+      "ipa_us": "/tʃɪr ʌp/",
+      "meaning_vi": "Vui lên, làm cho vui lên",
+      "definition_en": "To become happier, or to make someone happier.",
+      "example_en": "She was feeling sad, so I tried to cheer her up.",
+      "example_vi": "Cô ấy đang buồn, nên tôi cố gắng làm cô ấy vui lên.",
+      "collocations_json": [
+        "cheer someone up",
+        "cheer up a little"
+      ],
+      "synonyms_json": [
+        "brighten up",
+        "liven up",
+        "encourage"
+      ],
+      "antonyms_json": [
+        "depress",
+        "discourage"
+      ],
+      "mnemonic": "Khi 'cheer' (cổ vũ) 'up' (lên) thì sẽ 'cheer up' (vui lên).",
+      "frequency_rank": 2050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10372
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "calm down",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kɑːm daʊn/",
+      "ipa_us": "/kɑːm daʊn/",
+      "meaning_vi": "Bình tĩnh lại, trấn tĩnh",
+      "definition_en": "To become less excited, upset, or angry, or to make someone do this.",
+      "example_en": "Please calm down and tell me what happened.",
+      "example_vi": "Xin hãy bình tĩnh lại và nói cho tôi biết chuyện gì đã xảy ra.",
+      "collocations_json": [
+        "calm someone down",
+        "just calm down"
+      ],
+      "synonyms_json": [
+        "relax",
+        "settle down",
+        "compose oneself"
+      ],
+      "antonyms_json": [
+        "agitate",
+        "excite"
+      ],
+      "mnemonic": "Khi 'calm' (bình tĩnh) 'down' (xuống) thì sẽ 'calm down' (bình tĩnh lại).",
+      "frequency_rank": 1950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10373
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "look forward to",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/lʊk ˈfɔːwəd tuː/",
+      "ipa_us": "/lʊk ˈfɔːrwərd tuː/",
+      "meaning_vi": "Mong đợi, háo hức chờ đợi",
+      "definition_en": "To feel pleased and excited about something that is going to happen.",
+      "example_en": "I'm really looking forward to my vacation next month.",
+      "example_vi": "Tôi thực sự mong đợi kỳ nghỉ của mình vào tháng tới.",
+      "collocations_json": [
+        "look forward to seeing",
+        "look forward to hearing"
+      ],
+      "synonyms_json": [
+        "anticipate",
+        "eagerly await",
+        "expect"
+      ],
+      "antonyms_json": [
+        "dread",
+        "fear"
+      ],
+      "mnemonic": "Khi 'look forward' (nhìn về phía trước) 'to' (đến) điều tốt đẹp thì bạn 'mong đợi'.",
+      "frequency_rank": 1850,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10374
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "get angry",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡet ˈæŋɡri/",
+      "ipa_us": "/ɡet ˈæŋɡri/",
+      "meaning_vi": "Trở nên tức giận, nổi giận",
+      "definition_en": "To become filled with anger.",
+      "example_en": "He tends to get angry very easily.",
+      "example_vi": "Anh ấy có xu hướng dễ nổi giận.",
+      "collocations_json": [
+        "get angry with",
+        "get angry about",
+        "get very angry"
+      ],
+      "synonyms_json": [
+        "become mad",
+        "lose temper",
+        "get upset"
+      ],
+      "antonyms_json": [
+        "calm down",
+        "relax"
+      ],
+      "mnemonic": "Khi 'get' (trở nên) 'angry' (tức giận) là bạn nổi giận.",
+      "frequency_rank": 780,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10375
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "be in a good mood",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/bi ɪn ə ɡʊd muːd/",
+      "ipa_us": "/bi ɪn ə ɡʊd muːd/",
+      "meaning_vi": "Có tâm trạng tốt, vui vẻ",
+      "definition_en": "To feel cheerful and happy.",
+      "example_en": "She's always in a good mood on Fridays.",
+      "example_vi": "Cô ấy luôn có tâm trạng tốt vào các ngày thứ Sáu.",
+      "collocations_json": [
+        "put in a good mood",
+        "wake up in a good mood"
+      ],
+      "synonyms_json": [
+        "be cheerful",
+        "be happy",
+        "be in high spirits"
+      ],
+      "antonyms_json": [
+        "be in a bad mood"
+      ],
+      "mnemonic": "Khi 'in a good mood' (trong tâm trạng tốt) thì bạn vui vẻ.",
+      "frequency_rank": 2150,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10376
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "be in a bad mood",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/bi ɪn ə bæd muːd/",
+      "ipa_us": "/bi ɪn ə bæd muːd/",
+      "meaning_vi": "Có tâm trạng xấu, cáu kỉnh",
+      "definition_en": "To feel unhappy or irritable.",
+      "example_en": "He's been in a bad mood all day.",
+      "example_vi": "Anh ấy đã có tâm trạng xấu cả ngày.",
+      "collocations_json": [
+        "put in a bad mood",
+        "wake up in a bad mood"
+      ],
+      "synonyms_json": [
+        "be grumpy",
+        "be irritable",
+        "be upset"
+      ],
+      "antonyms_json": [
+        "be in a good mood"
+      ],
+      "mnemonic": "Khi 'in a bad mood' (trong tâm trạng xấu) thì bạn cáu kỉnh.",
+      "frequency_rank": 2250,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10377
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "feel like (doing sth)",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/fiːl laɪk/",
+      "ipa_us": "/fiːl laɪk/",
+      "meaning_vi": "Cảm thấy muốn làm gì, có hứng thú",
+      "definition_en": "To want to do or have something.",
+      "example_en": "I feel like going for a walk in the park.",
+      "example_vi": "Tôi cảm thấy muốn đi dạo trong công viên.",
+      "collocations_json": [
+        "feel like eating",
+        "feel like sleeping"
+      ],
+      "synonyms_json": [
+        "want to",
+        "desire to",
+        "be inclined to"
+      ],
+      "antonyms_json": [
+        "don't feel like"
+      ],
+      "mnemonic": "Khi 'feel like' (cảm thấy thích) thì bạn có hứng thú làm gì đó.",
+      "frequency_rank": 680,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10378
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "break down (emotionally)",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/breɪk daʊn/",
+      "ipa_us": "/breɪk daʊn/",
+      "meaning_vi": "Suy sụp tinh thần, bật khóc",
+      "definition_en": "To lose control of your feelings and start crying.",
+      "example_en": "She broke down in tears after hearing the bad news.",
+      "example_vi": "Cô ấy bật khóc sau khi nghe tin xấu.",
+      "collocations_json": [
+        "break down crying",
+        "mentally break down"
+      ],
+      "synonyms_json": [
+        "collapse",
+        "lose composure",
+        "burst into tears"
+      ],
+      "antonyms_json": [
+        "compose oneself",
+        "calm down"
+      ],
+      "mnemonic": "Khi cảm xúc 'break' (vỡ) 'down' (xuống) thì bạn suy sụp.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10379
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "let down",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/let daʊn/",
+      "ipa_us": "/let daʊn/",
+      "meaning_vi": "Làm thất vọng, làm ai đó buồn",
+      "definition_en": "To disappoint someone by failing to do what you agreed or were expected to do.",
+      "example_en": "I feel like I've let my parents down by not getting into university.",
+      "example_vi": "Tôi cảm thấy mình đã làm cha mẹ thất vọng vì không đậu đại học.",
+      "collocations_json": [
+        "let someone down",
+        "feel let down"
+      ],
+      "synonyms_json": [
+        "disappoint",
+        "fail",
+        "betray"
+      ],
+      "antonyms_json": [
+        "support",
+        "uplift"
+      ],
+      "mnemonic": "Khi 'let' (để) ai đó 'down' (xuống) là làm họ thất vọng.",
+      "frequency_rank": 2950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10380
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "pick up (mood)",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/pɪk ʌp/",
+      "ipa_us": "/pɪk ʌp/",
+      "meaning_vi": "Cải thiện tâm trạng, vui lên",
+      "definition_en": "To improve or get better, especially regarding one's mood or health.",
+      "example_en": "Listening to music always helps to pick up my mood.",
+      "example_vi": "Nghe nhạc luôn giúp cải thiện tâm trạng của tôi.",
+      "collocations_json": [
+        "pick up spirits",
+        "mood picks up"
+      ],
+      "synonyms_json": [
+        "improve",
+        "brighten",
+        "cheer up"
+      ],
+      "antonyms_json": [
+        "worsen",
+        "depress"
+      ],
+      "mnemonic": "Khi 'pick up' (nhặt lên) tâm trạng thì sẽ vui lên.",
+      "frequency_rank": 3100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10381
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "overwhelmed",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌəʊvəˈwelmd/",
+      "ipa_us": "/ˌoʊvərˈwelmd/",
+      "meaning_vi": "Choáng ngợp, quá tải cảm xúc",
+      "definition_en": "Having too much to deal with.",
+      "example_en": "She felt overwhelmed by all the work she had to do.",
+      "example_vi": "Cô ấy cảm thấy choáng ngợp với tất cả công việc mình phải làm.",
+      "collocations_json": [
+        "feel overwhelmed",
+        "emotionally overwhelmed",
+        "overwhelmed with tasks"
+      ],
+      "synonyms_json": [
+        "swamped",
+        "stressed",
+        "burdened"
+      ],
+      "antonyms_json": [
+        "calm",
+        "underwhelmed"
+      ],
+      "mnemonic": "Khi bị 'over' (quá) 'whelm' (ngập lụt) thì bạn 'overwhelmed' (choáng ngợp).",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10382
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "content",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kənˈtent/",
+      "ipa_us": "/kənˈtent/",
+      "meaning_vi": "Hài lòng, mãn nguyện, thỏa mãn",
+      "definition_en": "In a state of peaceful happiness.",
+      "example_en": "He seemed very content with his simple life.",
+      "example_vi": "Anh ấy dường như rất hài lòng với cuộc sống giản dị của mình.",
+      "collocations_json": [
+        "feel content",
+        "perfectly content",
+        "content with"
+      ],
+      "synonyms_json": [
+        "satisfied",
+        "pleased",
+        "happy"
+      ],
+      "antonyms_json": [
+        "discontent",
+        "unhappy"
+      ],
+      "mnemonic": "Khi 'content' (nội dung) cuộc sống tốt thì bạn 'content' (hài lòng).",
+      "frequency_rank": 2750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10383
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "delighted",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/dɪˈlaɪtɪd/",
+      "ipa_us": "/dɪˈlaɪtɪd/",
+      "meaning_vi": "Vui mừng, rất hài lòng",
+      "definition_en": "Feeling or showing great pleasure.",
+      "example_en": "I was delighted to hear about your promotion.",
+      "example_vi": "Tôi rất vui mừng khi nghe tin về việc bạn được thăng chức.",
+      "collocations_json": [
+        "feel delighted",
+        "delighted to hear",
+        "absolutely delighted"
+      ],
+      "synonyms_json": [
+        "pleased",
+        "thrilled",
+        "overjoyed"
+      ],
+      "antonyms_json": [
+        "disappointed",
+        "upset"
+      ],
+      "mnemonic": "Khi 'delight' (niềm vui) lớn thì bạn 'delighted' (rất vui).",
+      "frequency_rank": 3300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10384
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "miserable",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈmɪzərəbl/",
+      "ipa_us": "/ˈmɪzərəbl/",
+      "meaning_vi": "Khổ sở, đau khổ, bất hạnh",
+      "definition_en": "Wretchedly unhappy or uncomfortable.",
+      "example_en": "She felt miserable after her pet died.",
+      "example_vi": "Cô ấy cảm thấy khổ sở sau khi thú cưng của mình qua đời.",
+      "collocations_json": [
+        "feel miserable",
+        "make miserable",
+        "utterly miserable"
+      ],
+      "synonyms_json": [
+        "unhappy",
+        "depressed",
+        "gloomy"
+      ],
+      "antonyms_json": [
+        "happy",
+        "joyful"
+      ],
+      "mnemonic": "Nhớ 'misery' (sự khốn khổ) để nhớ 'miserable' (khổ sở).",
+      "frequency_rank": 3400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10385
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "furious",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈfjʊəriəs/",
+      "ipa_us": "/ˈfjʊriəs/",
+      "meaning_vi": "Tức giận điên cuồng, giận dữ",
+      "definition_en": "Extremely angry.",
+      "example_en": "He was furious when he found out they had lied to him.",
+      "example_vi": "Anh ấy tức giận điên cuồng khi biết họ đã nói dối anh.",
+      "collocations_json": [
+        "furious with",
+        "furious about",
+        "absolutely furious"
+      ],
+      "synonyms_json": [
+        "angry",
+        "enraged",
+        "irate"
+      ],
+      "antonyms_json": [
+        "calm",
+        "pleased"
+      ],
+      "mnemonic": "Từ 'fury' (sự thịnh nộ) khiến bạn 'furious' (tức giận).",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10386
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "terrified",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈterɪfaɪd/",
+      "ipa_us": "/ˈterɪfaɪd/",
+      "meaning_vi": "Sợ hãi kinh hoàng, khiếp sợ",
+      "definition_en": "Feeling extreme fear.",
+      "example_en": "She was terrified of heights, so she couldn't look down.",
+      "example_vi": "Cô ấy sợ độ cao kinh hoàng, nên không thể nhìn xuống.",
+      "collocations_json": [
+        "terrified of",
+        "absolutely terrified",
+        "feel terrified"
+      ],
+      "synonyms_json": [
+        "frightened",
+        "scared",
+        "petrified"
+      ],
+      "antonyms_json": [
+        "brave",
+        "fearless"
+      ],
+      "mnemonic": "Khi 'terror' (khủng bố) thì bạn 'terrified' (sợ hãi kinh hoàng).",
+      "frequency_rank": 3600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10387
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "glad",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡlæd/",
+      "ipa_us": "/ɡlæd/",
+      "meaning_vi": "Vui mừng, hân hoan",
+      "definition_en": "Pleased and happy.",
+      "example_en": "I'm glad to hear that you're feeling better.",
+      "example_vi": "Tôi vui mừng khi nghe tin bạn cảm thấy khỏe hơn.",
+      "collocations_json": [
+        "glad to see",
+        "glad to hear",
+        "so glad"
+      ],
+      "synonyms_json": [
+        "happy",
+        "pleased",
+        "delighted"
+      ],
+      "antonyms_json": [
+        "sad",
+        "unhappy"
+      ],
+      "mnemonic": "Từ 'glad' ngắn gọn, giống như niềm vui bất chợt.",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10388
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "eager",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈiːɡə/",
+      "ipa_us": "/ˈiːɡər/",
+      "meaning_vi": "Háo hức, nhiệt tình, sốt sắng",
+      "definition_en": "Wanting to do or have something very much.",
+      "example_en": "The children were eager to open their presents.",
+      "example_vi": "Những đứa trẻ háo hức mở quà của chúng.",
+      "collocations_json": [
+        "eager to learn",
+        "eager for",
+        "eager beaver"
+      ],
+      "synonyms_json": [
+        "keen",
+        "enthusiastic",
+        "impatient"
+      ],
+      "antonyms_json": [
+        "reluctant",
+        "uninterested"
+      ],
+      "mnemonic": "Nhớ 'eager' (háo hức) giống 'eagle' (đại bàng) bay cao với niềm tin.",
+      "frequency_rank": 3700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10389
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "keen",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kiːn/",
+      "ipa_us": "/kiːn/",
+      "meaning_vi": "Thiết tha, say mê, nhiệt tình",
+      "definition_en": "Having or showing great enthusiasm or interest in something.",
+      "example_en": "He's very keen on playing football.",
+      "example_vi": "Anh ấy rất say mê chơi bóng đá.",
+      "collocations_json": [
+        "keen on",
+        "keen interest",
+        "keen eye"
+      ],
+      "synonyms_json": [
+        "eager",
+        "enthusiastic",
+        "avid"
+      ],
+      "antonyms_json": [
+        "indifferent",
+        "uninterested"
+      ],
+      "mnemonic": "Nhớ 'keen' (say mê) giống 'king' (vua) rất thích thú.",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10390
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "regret",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈɡret/",
+      "ipa_us": "/rɪˈɡret/",
+      "meaning_vi": "Hối tiếc, ân hận, tiếc nuối",
+      "definition_en": "Feel sad, repentant, or disappointed over something that has happened or been done.",
+      "example_en": "I regret not studying harder for the exam.",
+      "example_vi": "Tôi hối tiếc vì đã không học hành chăm chỉ hơn cho kỳ thi.",
+      "collocations_json": [
+        "deeply regret",
+        "regret doing",
+        "no regrets"
+      ],
+      "synonyms_json": [
+        "remorse",
+        "repent",
+        "lament"
+      ],
+      "antonyms_json": [
+        "satisfaction",
+        "pleasure"
+      ],
+      "mnemonic": "Khi 're-get' (lấy lại) không được thì 'regret' (hối tiếc).",
+      "frequency_rank": 3900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10391
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "guilt",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɡɪlt/",
+      "ipa_us": "/ɡɪlt/",
+      "meaning_vi": "Cảm giác tội lỗi, sự có lỗi",
+      "definition_en": "A feeling of having done wrong or committed an offense.",
+      "example_en": "She felt a pang of guilt for forgetting her friend's birthday.",
+      "example_vi": "Cô ấy cảm thấy một sự cắn rứt của cảm giác tội lỗi vì quên sinh nhật bạn mình.",
+      "collocations_json": [
+        "feel guilt",
+        "sense of guilt",
+        "guilt trip"
+      ],
+      "synonyms_json": [
+        "remorse",
+        "shame",
+        "culpability"
+      ],
+      "antonyms_json": [
+        "innocence",
+        "pride"
+      ],
+      "mnemonic": "Khi làm 'guilty' (có tội) thì sẽ có 'guilt' (cảm giác tội lỗi).",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10392
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "shame",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ʃeɪm/",
+      "ipa_us": "/ʃeɪm/",
+      "meaning_vi": "Sự xấu hổ, hổ thẹn",
+      "definition_en": "A painful feeling of humiliation or distress caused by the consciousness of wrong or foolish behavior.",
+      "example_en": "He felt great shame for his actions.",
+      "example_vi": "Anh ấy cảm thấy rất xấu hổ vì hành động của mình.",
+      "collocations_json": [
+        "feel shame",
+        "sense of shame",
+        "put to shame"
+      ],
+      "synonyms_json": [
+        "embarrassment",
+        "humiliation",
+        "disgrace"
+      ],
+      "antonyms_json": [
+        "pride",
+        "honor"
+      ],
+      "mnemonic": "Khi 'shame' (xấu hổ) thì muốn 'hide' (trốn).",
+      "frequency_rank": 4100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10393
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "sympathetic",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌsɪmpəˈθetɪk/",
+      "ipa_us": "/ˌsɪmpəˈθetɪk/",
+      "meaning_vi": "Đồng cảm, thông cảm",
+      "definition_en": "Feeling, showing, or expressing sympathy.",
+      "example_en": "He was very sympathetic towards her problems.",
+      "example_vi": "Anh ấy rất thông cảm với những vấn đề của cô ấy.",
+      "collocations_json": [
+        "be sympathetic",
+        "sympathetic ear",
+        "feel sympathetic"
+      ],
+      "synonyms_json": [
+        "compassionate",
+        "understanding",
+        "caring"
+      ],
+      "antonyms_json": [
+        "unsympathetic",
+        "indifferent"
+      ],
+      "mnemonic": "Khi có 'sympathy' (sự đồng cảm) thì bạn 'sympathetic' (đồng cảm).",
+      "frequency_rank": 4200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10394
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "resentful",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈzentfʊl/",
+      "ipa_us": "/rɪˈzentfəl/",
+      "meaning_vi": "Phẫn uất, oán giận",
+      "definition_en": "Feeling or expressing bitterness or indignation at having been treated unfairly.",
+      "example_en": "She felt resentful of her colleague's promotion.",
+      "example_vi": "Cô ấy cảm thấy phẫn uất vì đồng nghiệp của mình được thăng chức.",
+      "collocations_json": [
+        "feel resentful",
+        "resentful about",
+        "deeply resentful"
+      ],
+      "synonyms_json": [
+        "bitter",
+        "aggrieved",
+        "indignant"
+      ],
+      "antonyms_json": [
+        "forgiving",
+        "content"
+      ],
+      "mnemonic": "Khi 'resent' (phẫn nộ) thì bạn 'resentful' (phẫn uất).",
+      "frequency_rank": 4300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10395
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "enthusiastic",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɪnˌθjuːziˈæstɪk/",
+      "ipa_us": "/ɪnˌθuːziˈæstɪk/",
+      "meaning_vi": "Nhiệt tình, hăng hái, say mê",
+      "definition_en": "Having or showing intense and eager enjoyment, interest, or approval.",
+      "example_en": "He's very enthusiastic about his new hobby.",
+      "example_vi": "Anh ấy rất nhiệt tình với sở thích mới của mình.",
+      "collocations_json": [
+        "enthusiastic about",
+        "highly enthusiastic",
+        "enthusiastic response"
+      ],
+      "synonyms_json": [
+        "eager",
+        "keen",
+        "passionate"
+      ],
+      "antonyms_json": [
+        "unenthusiastic",
+        "indifferent"
+      ],
+      "mnemonic": "Từ 'enthusiasm' (sự nhiệt tình) khiến bạn 'enthusiastic' (nhiệt tình).",
+      "frequency_rank": 4400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10396
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "optimistic",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌɒptɪˈmɪstɪk/",
+      "ipa_us": "/ˌɑːptɪˈmɪstɪk/",
+      "meaning_vi": "Lạc quan, yêu đời",
+      "definition_en": "Hopeful and confident about the future.",
+      "example_en": "She's always optimistic, even in difficult situations.",
+      "example_vi": "Cô ấy luôn lạc quan, ngay cả trong những tình huống khó khăn.",
+      "collocations_json": [
+        "optimistic outlook",
+        "remain optimistic",
+        "cautiously optimistic"
+      ],
+      "synonyms_json": [
+        "hopeful",
+        "positive",
+        "upbeat"
+      ],
+      "antonyms_json": [
+        "pessimistic",
+        "negative"
+      ],
+      "mnemonic": "Nhớ 'opt' (chọn) điều tốt thì sẽ 'optimistic' (lạc quan).",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10397
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "pessimistic",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌpesɪˈmɪstɪk/",
+      "ipa_us": "/ˌpesɪˈmɪstɪk/",
+      "meaning_vi": "Bi quan, tiêu cực",
+      "definition_en": "Tending to see the worst aspect of things or believe that the worst will happen.",
+      "example_en": "He's very pessimistic about the future of the economy.",
+      "example_vi": "Anh ấy rất bi quan về tương lai của nền kinh tế.",
+      "collocations_json": [
+        "pessimistic view",
+        "become pessimistic",
+        "deeply pessimistic"
+      ],
+      "synonyms_json": [
+        "negative",
+        "gloomy",
+        "downbeat"
+      ],
+      "antonyms_json": [
+        "optimistic",
+        "positive"
+      ],
+      "mnemonic": "Nhớ 'pess' (thấp) thì sẽ 'pessimistic' (bi quan).",
+      "frequency_rank": 4600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10398
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "gratefulness",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɡreɪtfʊlnəs/",
+      "ipa_us": "/ˈɡreɪtfəlnəs/",
+      "meaning_vi": "Lòng biết ơn, sự cảm kích",
+      "definition_en": "The quality of being thankful; readiness to show appreciation for and to return kindness.",
+      "example_en": "She expressed her gratefulness for all their support.",
+      "example_vi": "Cô ấy bày tỏ lòng biết ơn của mình vì tất cả sự hỗ trợ của họ.",
+      "collocations_json": [
+        "show gratefulness",
+        "deep gratefulness",
+        "sense of gratefulness"
+      ],
+      "synonyms_json": [
+        "gratitude",
+        "thankfulness",
+        "appreciation"
+      ],
+      "antonyms_json": [
+        "ungratefulness"
+      ],
+      "mnemonic": "Từ 'grateful' (biết ơn) thêm '-ness' thành 'gratefulness' (lòng biết ơn).",
+      "frequency_rank": 4700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10399
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "irritated",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɪrɪteɪtɪd/",
+      "ipa_us": "/ˈɪrɪteɪtɪd/",
+      "meaning_vi": "Bị kích thích, khó chịu, bực bội",
+      "definition_en": "Feeling or showing slight anger; annoyed.",
+      "example_en": "He got irritated by the constant interruptions.",
+      "example_vi": "Anh ấy bị kích thích bởi những sự gián đoạn liên tục.",
+      "collocations_json": [
+        "feel irritated",
+        "easily irritated",
+        "irritated by"
+      ],
+      "synonyms_json": [
+        "annoyed",
+        "bothered",
+        "frustrated"
+      ],
+      "antonyms_json": [
+        "pleased",
+        "calm"
+      ],
+      "mnemonic": "Khi 'irritate' (làm khó chịu) thì bạn 'irritated' (bị kích thích).",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10400
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "joy",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/dʒɔɪ/",
+      "ipa_us": "/dʒɔɪ/",
+      "meaning_vi": "Niềm vui, sự vui sướng",
+      "definition_en": "A feeling of great pleasure and happiness.",
+      "example_en": "The birth of their child brought them immense joy.",
+      "example_vi": "Sự ra đời của con họ mang lại cho họ niềm vui vô bờ.",
+      "collocations_json": [
+        "feel joy",
+        "great joy",
+        "full of joy"
+      ],
+      "synonyms_json": [
+        "happiness",
+        "delight",
+        "pleasure"
+      ],
+      "antonyms_json": [
+        "sorrow",
+        "sadness"
+      ],
+      "mnemonic": "Từ 'joy' (niềm vui) nghe như 'choi' (chơi) rất vui.",
+      "frequency_rank": 980,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10401
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "relief",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈliːf/",
+      "ipa_us": "/rɪˈliːf/",
+      "meaning_vi": "Sự nhẹ nhõm, sự an ủi",
+      "definition_en": "A feeling of reassurance and relaxation following release from anxiety or distress.",
+      "example_en": "It was a great relief when the exams were over.",
+      "example_vi": "Thật là một sự nhẹ nhõm lớn khi kỳ thi kết thúc.",
+      "collocations_json": [
+        "feel relief",
+        "sense of relief",
+        "much relief"
+      ],
+      "synonyms_json": [
+        "comfort",
+        "ease",
+        "reassurance"
+      ],
+      "antonyms_json": [
+        "anxiety",
+        "stress"
+      ],
+      "mnemonic": "Khi có 'relief' (sự nhẹ nhõm) thì bạn cảm thấy 're-live' (sống lại).",
+      "frequency_rank": 4900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10402
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Emotions & Feelings",
+      "word": "compassionate",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kəmˈpæʃənət/",
+      "ipa_us": "/kəmˈpæʃənət/",
+      "meaning_vi": "Trắc ẩn, nhân ái, đầy lòng thương xót",
+      "definition_en": "Feeling or showing sympathy and concern for others.",
+      "example_en": "A truly compassionate person cares about others' suffering.",
+      "example_vi": "Một người thực sự trắc ẩn quan tâm đến nỗi đau của người khác.",
+      "collocations_json": [
+        "compassionate heart",
+        "be compassionate",
+        "compassionate act"
+      ],
+      "synonyms_json": [
+        "sympathetic",
+        "caring",
+        "empathetic"
+      ],
+      "antonyms_json": [
+        "indifferent",
+        "cruel"
+      ],
+      "mnemonic": "Nhớ 'passion' (đam mê) với lòng tốt thì sẽ 'compassionate' (trắc ẩn).",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10403
+  }
+]

@@ -1,0 +1,1904 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 4154,
+    "fields": {
+      "word": "allegation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌæləˈɡeɪʃən",
+      "ipa_us": "ˌæləˈɡeɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự cáo buộc, luận điệu",
+      "definition_en": "A statement, made without giving proof, that someone has done something wrong or illegal.",
+      "example_en": "Several people made allegations of corruption against the mayor.",
+      "example_vi": "Nhiều người đã đưa ra các cáo buộc tham nhũng đối với thị trưởng.",
+      "collocations_json": [
+        "make an allegation",
+        "deny an allegation",
+        "false allegation"
+      ],
+      "synonyms_json": [
+        "accusation",
+        "claim",
+        "charge"
+      ],
+      "antonyms_json": [
+        "denial",
+        "exculpation"
+      ],
+      "mnemonic": "An allegation is what you allege (claim) someone did.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4155,
+    "fields": {
+      "word": "allege",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈlɛʤ",
+      "ipa_us": "əˈlɛʤ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cho là, khẳng định",
+      "definition_en": "To say that someone has done something illegal or wrong without giving proof.",
+      "example_en": "The prosecution alleges that she was driving carelessly.",
+      "example_vi": "Bên công tố cáo buộc rằng cô ấy đã lái xe bất cẩn.",
+      "collocations_json": [
+        "allege that",
+        "be alleged to be",
+        "strongly allege"
+      ],
+      "synonyms_json": [
+        "claim",
+        "assert",
+        "maintain"
+      ],
+      "antonyms_json": [
+        "deny",
+        "refute"
+      ],
+      "mnemonic": "To say something is true before you have proof is to allege it.",
+      "frequency_rank": 6100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4156,
+    "fields": {
+      "word": "allegedly",
+      "part_of_speech": "adverb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈlɛʤədli",
+      "ipa_us": "əˈlɛʤədli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "được cho là",
+      "definition_en": "Used when something is said to be true but has not been proved.",
+      "example_en": "He was arrested for allegedly stealing a car.",
+      "example_vi": "Anh ta đã bị bắt vì bị cho là đã lấy trộm một chiếc xe hơi.",
+      "collocations_json": [
+        "allegedly committed",
+        "allegedly involved",
+        "allegedly stole"
+      ],
+      "synonyms_json": [
+        "supposedly",
+        "purportedly",
+        "reportedly"
+      ],
+      "antonyms_json": [
+        "certainly",
+        "definitely"
+      ],
+      "mnemonic": "Adverb form of allege; doing something based on an unproven claim.",
+      "frequency_rank": 5900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4157,
+    "fields": {
+      "word": "alliance",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "əˈlaɪəns",
+      "ipa_us": "əˈlaɪəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự liên minh, khối đồng minh",
+      "definition_en": "An agreement to work with someone else to try to achieve the same thing.",
+      "example_en": "The two countries formed a military alliance.",
+      "example_vi": "Hai quốc gia đã thành lập một liên minh quân sự.",
+      "collocations_json": [
+        "form an alliance",
+        "strategic alliance",
+        "military alliance"
+      ],
+      "synonyms_json": [
+        "partnership",
+        "coalition",
+        "association"
+      ],
+      "antonyms_json": [
+        "antagonism",
+        "hostility",
+        "rivalry"
+      ],
+      "mnemonic": "When allies join together, they form an alliance.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4158,
+    "fields": {
+      "word": "allocate",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈæləˌkeɪt",
+      "ipa_us": "ˈæləˌkeɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phân bổ, chỉ định",
+      "definition_en": "To give something to someone as their share of a total amount, to use in a particular way.",
+      "example_en": "The government is allocating £10 million for health education.",
+      "example_vi": "Chính phủ đang phân bổ 10 triệu bảng Anh cho giáo dục sức khỏe.",
+      "collocations_json": [
+        "allocate resources",
+        "allocate funds",
+        "allocate time"
+      ],
+      "synonyms_json": [
+        "assign",
+        "distribute",
+        "allot"
+      ],
+      "antonyms_json": [
+        "withhold",
+        "keep"
+      ],
+      "mnemonic": "To put something in a specific LOCATION for someone is to ALLOCATE it.",
+      "frequency_rank": 5400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4159,
+    "fields": {
+      "word": "allocation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌæləˈkeɪʃən",
+      "ipa_us": "ˌæləˈkeɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự phân bổ, phần được cấp",
+      "definition_en": "The act or process of giving a share of something; the share itself.",
+      "example_en": "The allocation of resources is a difficult task.",
+      "example_vi": "Việc phân bổ nguồn lực là một nhiệm vụ khó khăn.",
+      "collocations_json": [
+        "resource allocation",
+        "efficient allocation",
+        "budget allocation"
+      ],
+      "synonyms_json": [
+        "distribution",
+        "assignment",
+        "allotment"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of the verb allocate.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4160,
+    "fields": {
+      "word": "allowance",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "əˈlaʊəns",
+      "ipa_us": "əˈlaʊəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tiền trợ cấp, hạn mức",
+      "definition_en": "Money that you are given regularly, especially to pay for a particular thing.",
+      "example_en": "The baggage allowance is 20 kilos per passenger.",
+      "example_vi": "Hạn mức hành lý là 20 kg mỗi hành khách.",
+      "collocations_json": [
+        "baggage allowance",
+        "monthly allowance",
+        "make an allowance for"
+      ],
+      "synonyms_json": [
+        "grant",
+        "stipend",
+        "ration"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Something you are ALLOWED to have.",
+      "frequency_rank": 5600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4161,
+    "fields": {
+      "word": "ally",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈælaɪ",
+      "ipa_us": "ˈælaɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đồng minh",
+      "definition_en": "A country that has agreed officially to give help and support to another one, especially during a war; or someone who helps and supports someone else.",
+      "example_en": "He is generally considered to be the prime minister's closest political ally.",
+      "example_vi": "Ông thường được coi là đồng minh chính trị thân cận nhất của thủ tướng.",
+      "collocations_json": [
+        "close ally",
+        "political ally",
+        "powerful ally"
+      ],
+      "synonyms_json": [
+        "partner",
+        "supporter",
+        "friend"
+      ],
+      "antonyms_json": [
+        "enemy",
+        "adversary",
+        "opponent"
+      ],
+      "mnemonic": "An ALLY stands by you in the ALLEY when there's a fight.",
+      "frequency_rank": 5100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4162,
+    "fields": {
+      "word": "aluminium",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "əˈlumɪnəm",
+      "ipa_us": "ˌæljəˈmɪniəm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhôm",
+      "definition_en": "A chemical element that is a light, silver-coloured metal, used especially for making cooking equipment and aircraft parts.",
+      "example_en": "We recycle all our aluminium cans.",
+      "example_vi": "Chúng tôi tái chế tất cả các lon nhôm của mình.",
+      "collocations_json": [
+        "aluminium foil",
+        "aluminium cans",
+        "aluminium window"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "UK spelling of aluminum.",
+      "frequency_rank": 7800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4163,
+    "fields": {
+      "word": "amateur",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈæməˌtɜr",
+      "ipa_us": "ˈæmətʃər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nghiệp dư",
+      "definition_en": "Taking part in an activity for pleasure, not as a job.",
+      "example_en": "He was an amateur photographer until he started getting paid for his work.",
+      "example_vi": "Anh ấy là một nhiếp ảnh gia nghiệp dư cho đến khi anh ấy bắt đầu được trả tiền cho công việc của mình.",
+      "collocations_json": [
+        "amateur photographer",
+        "amateur dramatics",
+        "amateur status"
+      ],
+      "synonyms_json": [
+        "unprofessional",
+        "nonprofessional",
+        "layman"
+      ],
+      "antonyms_json": [
+        "professional",
+        "expert"
+      ],
+      "mnemonic": "Someone who does it for AMore (love), not money.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4164,
+    "fields": {
+      "word": "ambassador",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "æmˈbæsədər",
+      "ipa_us": "æmˈbæsədər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đại sứ",
+      "definition_en": "An important official who works in a foreign country representing his or her own country there, and who is officially accepted in this position by that country.",
+      "example_en": "She's a former US ambassador to the UN.",
+      "example_vi": "Bà là cựu đại sứ Hoa Kỳ tại Liên Hợp Quốc.",
+      "collocations_json": [
+        "brand ambassador",
+        "former ambassador",
+        "US ambassador"
+      ],
+      "synonyms_json": [
+        "diplomat",
+        "envoy",
+        "representative"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "An ambassador goes ABROAD to represent their country.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4165,
+    "fields": {
+      "word": "amend",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "əˈmɛnd",
+      "ipa_us": "əˈmɛnd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sửa đổi, tu chỉnh",
+      "definition_en": "To change the words of a text, especially a law or a legal document.",
+      "example_en": "Until the constitution is amended, the power to appoint ministers will remain with the president.",
+      "example_vi": "Cho đến khi hiến pháp được sửa đổi, quyền bổ nhiệm các bộ trưởng sẽ vẫn thuộc về tổng thống.",
+      "collocations_json": [
+        "amend the law",
+        "amend a document",
+        "amend the constitution"
+      ],
+      "synonyms_json": [
+        "revise",
+        "alter",
+        "modify"
+      ],
+      "antonyms_json": [
+        "worsen",
+        "maintain"
+      ],
+      "mnemonic": "To mend a text by making changes.",
+      "frequency_rank": 6400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4166,
+    "fields": {
+      "word": "amendment",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "əˈmɛndmənt",
+      "ipa_us": "əˈmɛndmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự sửa đổi, bổ sung",
+      "definition_en": "A change or changes made to the words of a text.",
+      "example_en": "He insisted that the book did not need amendment.",
+      "example_vi": "Ông ấy khăng khăng rằng cuốn sách không cần sửa đổi.",
+      "collocations_json": [
+        "constitutional amendment",
+        "make an amendment",
+        "propose an amendment"
+      ],
+      "synonyms_json": [
+        "revision",
+        "alteration",
+        "modification"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of amend.",
+      "frequency_rank": 6300,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4167,
+    "fields": {
+      "word": "amid",
+      "part_of_speech": "other",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈmɪd",
+      "ipa_us": "əˈmɪd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ở giữa, trong bối cảnh",
+      "definition_en": "In the middle of or surrounded by.",
+      "example_en": "On the floor, amid mounds of books, were two small envelopes.",
+      "example_vi": "Trên sàn nhà, giữa những đống sách, là hai chiếc phong bì nhỏ.",
+      "collocations_json": [
+        "amid fears",
+        "amid concerns",
+        "amid signs of"
+      ],
+      "synonyms_json": [
+        "among",
+        "midst",
+        "surrounded by"
+      ],
+      "antonyms_json": [
+        "outside",
+        "beyond"
+      ],
+      "mnemonic": "In the MIDdle of -> aMID.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4168,
+    "fields": {
+      "word": "analogy",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "əˈnæləʤi",
+      "ipa_us": "əˈnæləʤi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự tương tự, phép loại suy",
+      "definition_en": "A comparison between things that have similar features, often used to help explain a principle or idea.",
+      "example_en": "He drew an analogy between the brain and a vast computer.",
+      "example_vi": "Anh ấy đã rút ra một sự tương tự giữa bộ não và một chiếc máy tính khổng lồ.",
+      "collocations_json": [
+        "draw an analogy",
+        "by analogy",
+        "use an analogy"
+      ],
+      "synonyms_json": [
+        "comparison",
+        "parallel",
+        "similarity"
+      ],
+      "antonyms_json": [
+        "difference",
+        "dissimilarity"
+      ],
+      "mnemonic": "An ALOGY (logical) comparison.",
+      "frequency_rank": 6700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4169,
+    "fields": {
+      "word": "anchor",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "travel",
+      "ipa_uk": "ˈæŋkər",
+      "ipa_us": "ˈæŋkər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "mỏ neo, người/vật làm chỗ dựa",
+      "definition_en": "A heavy metal object, usually shaped like a cross with curved arms, on a strong rope or chain, that is dropped from a boat into the water to prevent the boat from moving away.",
+      "example_en": "We dropped anchor in a quiet bay.",
+      "example_vi": "Chúng tôi thả neo trong một vịnh yên tĩnh.",
+      "collocations_json": [
+        "drop anchor",
+        "weigh anchor",
+        "news anchor"
+      ],
+      "synonyms_json": [
+        "mainstay",
+        "support",
+        "fastener"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "An ANCHOR keeps you ANCHORED to a spot.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4170,
+    "fields": {
+      "word": "angel",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈeɪnʤəl",
+      "ipa_us": "ˈeɪnʤəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thiên thần",
+      "definition_en": "A spiritual being in some religions who is believed to be a messenger of God, usually represented as having a human form with wings.",
+      "example_en": "According to the story, an angel appeared to her in a dream.",
+      "example_vi": "Theo câu chuyện, một thiên thần đã hiện ra với cô trong một giấc mơ.",
+      "collocations_json": [
+        "guardian angel",
+        "like an angel",
+        "fallen angel"
+      ],
+      "synonyms_json": [
+        "spirit",
+        "messenger",
+        "cherub"
+      ],
+      "antonyms_json": [
+        "demon",
+        "devil",
+        "fiend"
+      ],
+      "mnemonic": "A divine messenger.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4171,
+    "fields": {
+      "word": "anonymous",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈnɑnəməs",
+      "ipa_us": "əˈnɑnəməs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vô danh, giấu tên",
+      "definition_en": "Made or done by someone whose name is not known or not made public.",
+      "example_en": "The money was donated by an anonymous benefactor.",
+      "example_vi": "Số tiền được quyên góp bởi một nhà hảo tâm giấu tên.",
+      "collocations_json": [
+        "remain anonymous",
+        "anonymous tip",
+        "anonymous donor"
+      ],
+      "synonyms_json": [
+        "unnamed",
+        "unidentified",
+        "incognito"
+      ],
+      "antonyms_json": [
+        "named",
+        "known",
+        "identified"
+      ],
+      "mnemonic": "A (without) + nym (name). Without a name.",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4172,
+    "fields": {
+      "word": "apparatus",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌæpəˈrætəs",
+      "ipa_us": "ˌæpəˈrætəs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thiết bị, máy móc",
+      "definition_en": "A set of equipment or tools or a machine that is used for a particular purpose.",
+      "example_en": "The divers checked their breathing apparatus.",
+      "example_vi": "Các thợ lặn đã kiểm tra thiết bị thở của họ.",
+      "collocations_json": [
+        "breathing apparatus",
+        "scientific apparatus",
+        "state apparatus"
+      ],
+      "synonyms_json": [
+        "equipment",
+        "machinery",
+        "device"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "An apparatus is an instrument or tool that appears to help you do something.",
+      "frequency_rank": 7500,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4173,
+    "fields": {
+      "word": "appealing",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "əˈpilɪŋ",
+      "ipa_us": "əˈpilɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hấp dẫn, lôi cuốn",
+      "definition_en": "Attractive or interesting.",
+      "example_en": "The idea of not having to get up early every morning is rather appealing.",
+      "example_vi": "Ý tưởng không phải dậy sớm mỗi sáng khá là hấp dẫn.",
+      "collocations_json": [
+        "highly appealing",
+        "visually appealing",
+        "appealing prospect"
+      ],
+      "synonyms_json": [
+        "attractive",
+        "alluring",
+        "charming"
+      ],
+      "antonyms_json": [
+        "unappealing",
+        "repulsive",
+        "disgusting"
+      ],
+      "mnemonic": "If something appeals to you, it is appealing.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4174,
+    "fields": {
+      "word": "appetite",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈæpəˌtaɪt",
+      "ipa_us": "ˈæpəˌtaɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự thèm ăn, lòng khao khát",
+      "definition_en": "The feeling that you want to eat food, or a strong desire or need.",
+      "example_en": "All that walking has given me an appetite.",
+      "example_vi": "Việc đi bộ nhiều như vậy đã khiến tôi có cảm giác thèm ăn.",
+      "collocations_json": [
+        "healthy appetite",
+        "loss of appetite",
+        "appetite for destruction"
+      ],
+      "synonyms_json": [
+        "hunger",
+        "craving",
+        "desire"
+      ],
+      "antonyms_json": [
+        "apathy",
+        "satiety",
+        "indifference"
+      ],
+      "mnemonic": "Appetizers are served before a meal to give you an appetite.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4175,
+    "fields": {
+      "word": "applaud",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈplɔd",
+      "ipa_us": "əˈplɔd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vỗ tay tán thưởng, ca ngợi",
+      "definition_en": "To show enjoyment or approval of something such as a performance or speech by clapping the hands repeatedly to make a noise.",
+      "example_en": "The audience warmly applauded the performance.",
+      "example_vi": "Khán giả đã nhiệt liệt vỗ tay tán thưởng màn trình diễn.",
+      "collocations_json": [
+        "applaud loudly",
+        "wildly applaud",
+        "applaud the decision"
+      ],
+      "synonyms_json": [
+        "clap",
+        "cheer",
+        "praise"
+      ],
+      "antonyms_json": [
+        "boo",
+        "hiss",
+        "criticize"
+      ],
+      "mnemonic": "When you applaud, you give applause.",
+      "frequency_rank": 6900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4176,
+    "fields": {
+      "word": "applicable",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈæpləkəbəl",
+      "ipa_us": "əˈplɪkəbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có thể áp dụng, thích hợp",
+      "definition_en": "Affecting or relating to a person or thing.",
+      "example_en": "This part of the law is only applicable to companies employing more than five people.",
+      "example_vi": "Phần luật này chỉ có thể áp dụng đối với các công ty sử dụng hơn năm người.",
+      "collocations_json": [
+        "applicable to",
+        "where applicable",
+        "mutually applicable"
+      ],
+      "synonyms_json": [
+        "relevant",
+        "appropriate",
+        "suitable"
+      ],
+      "antonyms_json": [
+        "inapplicable",
+        "irrelevant",
+        "unsuitable"
+      ],
+      "mnemonic": "Able to be applied.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4177,
+    "fields": {
+      "word": "appoint",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "əˈpɔɪnt",
+      "ipa_us": "əˈpɔɪnt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bổ nhiệm, chỉ định",
+      "definition_en": "To choose someone officially for a job or responsibility.",
+      "example_en": "He's just been appointed as director of the publishing division.",
+      "example_vi": "Anh ấy vừa được bổ nhiệm làm giám đốc bộ phận xuất bản.",
+      "collocations_json": [
+        "appoint someone to a post",
+        "be appointed as",
+        "newly appointed"
+      ],
+      "synonyms_json": [
+        "nominate",
+        "select",
+        "designate"
+      ],
+      "antonyms_json": [
+        "dismiss",
+        "fire",
+        "reject"
+      ],
+      "mnemonic": "To point at someone and say 'you have the job'.",
+      "frequency_rank": 5000,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4178,
+    "fields": {
+      "word": "appreciation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˌpriʃiˈeɪʃən",
+      "ipa_us": "əˌpriʃiˈeɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự đánh giá cao, sự biết ơn",
+      "definition_en": "The act of recognizing or understanding that something is valuable, important, or as described.",
+      "example_en": "I would like to express my appreciation for all your hard work.",
+      "example_vi": "Tôi muốn bày tỏ sự biết ơn đối với tất cả sự chăm chỉ của bạn.",
+      "collocations_json": [
+        "show appreciation",
+        "deep appreciation",
+        "token of appreciation"
+      ],
+      "synonyms_json": [
+        "gratitude",
+        "thankfulness",
+        "recognition"
+      ],
+      "antonyms_json": [
+        "ingratitude",
+        "disregard",
+        "criticism"
+      ],
+      "mnemonic": "Noun form of appreciate.",
+      "frequency_rank": 5600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4179,
+    "fields": {
+      "word": "arbitrary",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈɑrbəˌtrɛri",
+      "ipa_us": "ˈɑrbɪˌtrɛri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tùy tiện, ngẫu hứng",
+      "definition_en": "Based on chance rather than being planned or based on reason.",
+      "example_en": "The choice of players for the team seemed completely arbitrary.",
+      "example_vi": "Việc lựa chọn cầu thủ cho đội có vẻ hoàn toàn tùy tiện.",
+      "collocations_json": [
+        "arbitrary decision",
+        "arbitrary rule",
+        "seem arbitrary"
+      ],
+      "synonyms_json": [
+        "random",
+        "capricious",
+        "subjective"
+      ],
+      "antonyms_json": [
+        "logical",
+        "reasoned",
+        "systematic"
+      ],
+      "mnemonic": "An arbiter makes a decision, sometimes it feels arbitrary (random).",
+      "frequency_rank": 6900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4180,
+    "fields": {
+      "word": "architectural",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "art",
+      "ipa_uk": "ˌɑrkəˈtɛkʧərəl",
+      "ipa_us": "ˌɑrkəˈtɛkʧərəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về kiến trúc",
+      "definition_en": "Relating to architecture.",
+      "example_en": "The city is famous for its diverse architectural styles.",
+      "example_vi": "Thành phố nổi tiếng với các phong cách kiến trúc đa dạng.",
+      "collocations_json": [
+        "architectural style",
+        "architectural design",
+        "architectural features"
+      ],
+      "synonyms_json": [
+        "structural",
+        "building"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adjective form of architecture.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4181,
+    "fields": {
+      "word": "archive",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "ˈɑrˌkaɪv",
+      "ipa_us": "ˈɑrˌkaɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lưu trữ, kho lưu trữ",
+      "definition_en": "A collection of historical records relating to a place, organization, or family.",
+      "example_en": "These old photographs should go in the family archive.",
+      "example_vi": "Những bức ảnh cũ này nên được đưa vào kho lưu trữ của gia đình.",
+      "collocations_json": [
+        "historical archive",
+        "national archive",
+        "search the archive"
+      ],
+      "synonyms_json": [
+        "records",
+        "chronicles",
+        "annals"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Like a 'hive' for 'art' and old things -> archive.",
+      "frequency_rank": 6000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4182,
+    "fields": {
+      "word": "arena",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "əˈrinə",
+      "ipa_us": "əˈrinə",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đấu trường, vũ đài",
+      "definition_en": "A large, flat area surrounded by seats used for sports or entertainment.",
+      "example_en": "The rock band played to a packed arena.",
+      "example_vi": "Ban nhạc rock đã chơi cho một đấu trường chật cứng khán giả.",
+      "collocations_json": [
+        "sports arena",
+        "political arena",
+        "enter the arena"
+      ],
+      "synonyms_json": [
+        "stadium",
+        "amphitheater",
+        "stage"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "An area where events happen.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4183,
+    "fields": {
+      "word": "arguably",
+      "part_of_speech": "adverb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈɑrɡjuəbli",
+      "ipa_us": "ˈɑrɡjəbli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "được cho là, có thể nói là",
+      "definition_en": "Used when stating an opinion or belief that you think can be shown to be true.",
+      "example_en": "He is arguably the best player in the world.",
+      "example_vi": "Anh ấy có thể nói là cầu thủ giỏi nhất thế giới.",
+      "collocations_json": [
+        "arguably the best",
+        "arguably the most",
+        "arguably true"
+      ],
+      "synonyms_json": [
+        "possibly",
+        "conceivably",
+        "probably"
+      ],
+      "antonyms_json": [
+        "definitely",
+        "certainly"
+      ],
+      "mnemonic": "You can 'argue' that it is true.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4184,
+    "fields": {
+      "word": "arm",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɑrm",
+      "ipa_us": "ɑrm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trang bị vũ khí, trang bị",
+      "definition_en": "To provide yourself or others with a weapon or weapons.",
+      "example_en": "The police were armed with riot shields.",
+      "example_vi": "Cảnh sát đã được trang bị khiên chống bạo động.",
+      "collocations_json": [
+        "heavily armed",
+        "arm someone with",
+        "arm themselves"
+      ],
+      "synonyms_json": [
+        "equip",
+        "furnish",
+        "supply"
+      ],
+      "antonyms_json": [
+        "disarm"
+      ],
+      "mnemonic": "To put an 'arm' (weapon) in your hand.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4185,
+    "fields": {
+      "word": "array",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "əˈreɪ",
+      "ipa_us": "əˈreɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một dãy, một loạt",
+      "definition_en": "A large group of things or people, especially one that is attractive or causes admiration.",
+      "example_en": "They sat before an array of microphones and cameras.",
+      "example_vi": "Họ ngồi trước một loạt các micrô và máy ảnh.",
+      "collocations_json": [
+        "vast array",
+        "dazzling array",
+        "wide array"
+      ],
+      "synonyms_json": [
+        "collection",
+        "selection",
+        "assortment"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A ray of light has an array of colors.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4186,
+    "fields": {
+      "word": "articulate",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɑrˈtɪkjələt",
+      "ipa_us": "ɑrˈtɪkjəˌleɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "diễn đạt rõ ràng",
+      "definition_en": "To express in words.",
+      "example_en": "I found myself unable to articulate my feelings.",
+      "example_vi": "Tôi thấy mình không thể diễn đạt rõ ràng cảm xúc của mình.",
+      "collocations_json": [
+        "articulate a vision",
+        "clearly articulate",
+        "articulate your thoughts"
+      ],
+      "synonyms_json": [
+        "express",
+        "vocalize",
+        "state"
+      ],
+      "antonyms_json": [
+        "mumble",
+        "mutter",
+        "mispronounce"
+      ],
+      "mnemonic": "An article expresses things clearly. To articulate is to express clearly.",
+      "frequency_rank": 7200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4187,
+    "fields": {
+      "word": "ash",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "nature",
+      "ipa_uk": "æʃ",
+      "ipa_us": "æʃ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tro, tàn",
+      "definition_en": "The soft grey or black powder that is left after a dead body, coal, wood, etc. has burnt.",
+      "example_en": "The volcano spewed ash into the air.",
+      "example_vi": "Núi lửa phun tro vào không trung.",
+      "collocations_json": [
+        "volcanic ash",
+        "cigarette ash",
+        "turn to ash"
+      ],
+      "synonyms_json": [
+        "cinders",
+        "embers"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "What is left when you burn an object to a clash.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4188,
+    "fields": {
+      "word": "aspiration",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌæspəˈreɪʃən",
+      "ipa_us": "ˌæspəˈreɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khát vọng, nguyện vọng",
+      "definition_en": "Something that you hope to achieve.",
+      "example_en": "I've never had any political aspirations.",
+      "example_vi": "Tôi chưa bao giờ có bất kỳ khát vọng chính trị nào.",
+      "collocations_json": [
+        "career aspirations",
+        "high aspirations",
+        "fulfill an aspiration"
+      ],
+      "synonyms_json": [
+        "ambition",
+        "goal",
+        "desire"
+      ],
+      "antonyms_json": [
+        "apathy",
+        "indifference"
+      ],
+      "mnemonic": "You aspire (verb) to reach your aspiration (noun).",
+      "frequency_rank": 7100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4189,
+    "fields": {
+      "word": "aspire",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "əˈspaɪr",
+      "ipa_us": "əˈspaɪər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thiết tha mong mỏi, khao khát",
+      "definition_en": "To want something very much or hope to achieve something or be successful.",
+      "example_en": "Many young players aspire to play for the national team.",
+      "example_vi": "Nhiều cầu thủ trẻ khao khát được chơi cho đội tuyển quốc gia.",
+      "collocations_json": [
+        "aspire to greatness",
+        "aspire to become",
+        "aspire to lead"
+      ],
+      "synonyms_json": [
+        "desire",
+        "hope",
+        "yearn"
+      ],
+      "antonyms_json": [
+        "despise",
+        "dislike"
+      ],
+      "mnemonic": "Aiming high, stretching upwards like a spire.",
+      "frequency_rank": 8200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4190,
+    "fields": {
+      "word": "assassination",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˌsæsəˈneɪʃən",
+      "ipa_us": "əˌsæsəˈneɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vụ ám sát",
+      "definition_en": "The murder of someone famous or important.",
+      "example_en": "The assassination of the president shocked the nation.",
+      "example_vi": "Vụ ám sát tổng thống đã gây chấn động cả nước.",
+      "collocations_json": [
+        "attempted assassination",
+        "political assassination",
+        "assassination plot"
+      ],
+      "synonyms_json": [
+        "murder",
+        "killing",
+        "homicide"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Two 'ass'es (donkeys) committing a sin against a nation -> ass-ass-i-nation.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4191,
+    "fields": {
+      "word": "assault",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈsɔlt",
+      "ipa_us": "əˈsɔlt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự tấn công, hành hung",
+      "definition_en": "A violent attack.",
+      "example_en": "He was charged with sexual assault.",
+      "example_vi": "Anh ta bị buộc tội tấn công tình dục.",
+      "collocations_json": [
+        "sexual assault",
+        "physical assault",
+        "launch an assault"
+      ],
+      "synonyms_json": [
+        "attack",
+        "strike",
+        "battery"
+      ],
+      "antonyms_json": [
+        "defense",
+        "protection"
+      ],
+      "mnemonic": "Sounds like 'a salt'. You throw 'a salt' to attack someone's eyes.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4192,
+    "fields": {
+      "word": "assemble",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈsɛmbəl",
+      "ipa_us": "əˈsɛmbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tập hợp, lắp ráp",
+      "definition_en": "To come together in a single place or bring parts together in a single group.",
+      "example_en": "We assembled in the meeting room after lunch.",
+      "example_vi": "Chúng tôi đã tập hợp trong phòng họp sau bữa trưa.",
+      "collocations_json": [
+        "assemble a team",
+        "assemble furniture",
+        "quickly assemble"
+      ],
+      "synonyms_json": [
+        "gather",
+        "collect",
+        "put together"
+      ],
+      "antonyms_json": [
+        "disperse",
+        "dismantle",
+        "scatter"
+      ],
+      "mnemonic": "Avengers, ASSEMBLE!",
+      "frequency_rank": 5700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4193,
+    "fields": {
+      "word": "assembly",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈsɛmbli",
+      "ipa_us": "əˈsɛmbli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hội đồng, sự lắp ráp",
+      "definition_en": "A group of people, especially one that meets regularly for a particular purpose, such as government, or the process of putting together the parts of a machine.",
+      "example_en": "The UN General Assembly voted on the resolution.",
+      "example_vi": "Đại hội đồng Liên Hợp Quốc đã bỏ phiếu về nghị quyết.",
+      "collocations_json": [
+        "national assembly",
+        "assembly line",
+        "school assembly"
+      ],
+      "synonyms_json": [
+        "gathering",
+        "meeting",
+        "congress"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of assemble.",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4194,
+    "fields": {
+      "word": "assert",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "əˈsɜrt",
+      "ipa_us": "əˈsɜrt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khẳng định, quả quyết",
+      "definition_en": "To say that something is certainly true.",
+      "example_en": "He asserts that she stole money from him.",
+      "example_vi": "Anh ấy khẳng định rằng cô ta đã ăn cắp tiền của anh ấy.",
+      "collocations_json": [
+        "assert independence",
+        "assert authority",
+        "confidently assert"
+      ],
+      "synonyms_json": [
+        "declare",
+        "maintain",
+        "claim"
+      ],
+      "antonyms_json": [
+        "deny",
+        "refute"
+      ],
+      "mnemonic": "To put a 'cert' (certain) statement out there is to assert it.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4195,
+    "fields": {
+      "word": "assertion",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "əˈsɜrʃən",
+      "ipa_us": "əˈsɜrʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự khẳng định, tuyên bố",
+      "definition_en": "A statement that you strongly believe is true.",
+      "example_en": "I certainly don't agree with his assertion that men are better drivers than women.",
+      "example_vi": "Tôi chắc chắn không đồng ý với sự khẳng định của anh ấy rằng nam giới lái xe giỏi hơn nữ giới.",
+      "collocations_json": [
+        "make an assertion",
+        "support an assertion",
+        "bold assertion"
+      ],
+      "synonyms_json": [
+        "claim",
+        "statement",
+        "declaration"
+      ],
+      "antonyms_json": [
+        "denial",
+        "rejection"
+      ],
+      "mnemonic": "Noun form of assert.",
+      "frequency_rank": 7300,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4196,
+    "fields": {
+      "word": "assurance",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈʃʊrəns",
+      "ipa_us": "əˈʃʊrəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự đảm bảo, sự tự tin",
+      "definition_en": "A promise; or a feeling of confidence.",
+      "example_en": "She gave me her assurance that she would sign the contract immediately.",
+      "example_vi": "Cô ấy đã cho tôi sự đảm bảo rằng cô ấy sẽ ký hợp đồng ngay lập tức.",
+      "collocations_json": [
+        "give an assurance",
+        "quality assurance",
+        "receive assurances"
+      ],
+      "synonyms_json": [
+        "guarantee",
+        "promise",
+        "confidence"
+      ],
+      "antonyms_json": [
+        "doubt",
+        "uncertainty"
+      ],
+      "mnemonic": "To make sure -> assure -> assurance.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4197,
+    "fields": {
+      "word": "asylum",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈsaɪləm",
+      "ipa_us": "əˈsaɪləm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nơi tị nạn, nhà thương điên",
+      "definition_en": "Protection or safety, especially that given by a government to people who have been forced to leave their own countries for their safety or because of war.",
+      "example_en": "He applied for political asylum.",
+      "example_vi": "Ông ta đã nộp đơn xin tị nạn chính trị.",
+      "collocations_json": [
+        "seek asylum",
+        "political asylum",
+        "grant asylum"
+      ],
+      "synonyms_json": [
+        "refuge",
+        "sanctuary",
+        "shelter"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A place of safety where you seek refuge.",
+      "frequency_rank": 7200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4198,
+    "fields": {
+      "word": "atrocity",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈtrɑsəti",
+      "ipa_us": "əˈtrɑsəti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự tàn bạo, tội ác",
+      "definition_en": "An extremely cruel, violent, or shocking act.",
+      "example_en": "They are on trial for committing atrocities against the civilian population.",
+      "example_vi": "Họ đang bị xét xử vì phạm tội ác tàn bạo đối với dân thường.",
+      "collocations_json": [
+        "commit atrocities",
+        "terrible atrocity",
+        "wartime atrocity"
+      ],
+      "synonyms_json": [
+        "cruelty",
+        "horror",
+        "outrage"
+      ],
+      "antonyms_json": [
+        "kindness",
+        "benevolence"
+      ],
+      "mnemonic": "An ATROCIOUS city is full of ATROCITIES.",
+      "frequency_rank": 7700,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4199,
+    "fields": {
+      "word": "attain",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "əˈteɪn",
+      "ipa_us": "əˈteɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đạt được, giành được",
+      "definition_en": "To reach or succeed in getting something.",
+      "example_en": "He has attained the highest grade in his music exams.",
+      "example_vi": "Anh ấy đã đạt được điểm cao nhất trong các kỳ thi âm nhạc của mình.",
+      "collocations_json": [
+        "attain a goal",
+        "attain a level",
+        "difficult to attain"
+      ],
+      "synonyms_json": [
+        "achieve",
+        "accomplish",
+        "reach"
+      ],
+      "antonyms_json": [
+        "fail",
+        "lose",
+        "miss"
+      ],
+      "mnemonic": "At a train: you take a train to ATTAIN your destination.",
+      "frequency_rank": 6400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4200,
+    "fields": {
+      "word": "attendance",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "əˈtɛndəns",
+      "ipa_us": "əˈtɛndəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự tham dự, số người tham dự",
+      "definition_en": "The fact of going somewhere such as a church, school, etc. regularly; or the number of people present at an event.",
+      "example_en": "Attendance at lectures is compulsory.",
+      "example_vi": "Việc tham dự các bài giảng là bắt buộc.",
+      "collocations_json": [
+        "poor attendance",
+        "compulsory attendance",
+        "attendance record"
+      ],
+      "synonyms_json": [
+        "presence",
+        "turnout",
+        "participation"
+      ],
+      "antonyms_json": [
+        "absence"
+      ],
+      "mnemonic": "Noun form of attend.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4201,
+    "fields": {
+      "word": "attorney",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "əˈtɜrni",
+      "ipa_us": "əˈtɜrni",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "luật sư",
+      "definition_en": "A lawyer, especially one who can act for someone in court.",
+      "example_en": "He hired a defense attorney.",
+      "example_vi": "Anh ta đã thuê một luật sư bào chữa.",
+      "collocations_json": [
+        "defense attorney",
+        "prosecuting attorney",
+        "power of attorney"
+      ],
+      "synonyms_json": [
+        "lawyer",
+        "counsel",
+        "advocate"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "An attorney represents you at a tourney (court battle).",
+      "frequency_rank": 5000,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4202,
+    "fields": {
+      "word": "attribute",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈætrəˌbjut",
+      "ipa_us": "əˈtrɪbjut",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cho là do, quy cho",
+      "definition_en": "To say or think that something is the result of a particular thing.",
+      "example_en": "He attributed his success to hard work.",
+      "example_vi": "Anh ấy cho rằng thành công của mình là do làm việc chăm chỉ.",
+      "collocations_json": [
+        "attribute something to",
+        "attribute success to",
+        "largely attribute"
+      ],
+      "synonyms_json": [
+        "ascribe",
+        "credit",
+        "assign"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "To give TRIBUTE to the cause of something.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4203,
+    "fields": {
+      "word": "audit",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈɔdɪt",
+      "ipa_us": "ˈɔdɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự kiểm toán",
+      "definition_en": "An official examination of the accounts of a business.",
+      "example_en": "The company conducts an annual audit of its finances.",
+      "example_vi": "Công ty tiến hành kiểm toán tài chính hàng năm.",
+      "collocations_json": [
+        "annual audit",
+        "internal audit",
+        "financial audit"
+      ],
+      "synonyms_json": [
+        "inspection",
+        "review",
+        "examination"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "An auditor does the audit.",
+      "frequency_rank": 6600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

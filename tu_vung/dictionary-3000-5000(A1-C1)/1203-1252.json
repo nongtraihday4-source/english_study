@@ -1,0 +1,1779 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 1203,
+    "fields": {
+      "word": "death",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "dɛθ",
+      "ipa_us": "deθ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái chết, sự qua đời",
+      "definition_en": "The end of the life of a person or animal.",
+      "example_en": "The death of his grandfather made him very sad.",
+      "example_vi": "Sự ra đi của ông nội khiến anh ấy rất buồn.",
+      "collocations_json": [
+        "cause of death",
+        "after death",
+        "sudden death"
+      ],
+      "synonyms_json": [
+        "dying",
+        "passing"
+      ],
+      "antonyms_json": [
+        "birth",
+        "life"
+      ],
+      "mnemonic": "Death đọc giống 'Đét' - cuộc đời đét một cái là kết thúc.",
+      "frequency_rank": 782,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1204,
+    "fields": {
+      "word": "decision",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "dɪˈsɪʒən",
+      "ipa_us": "dɪˈsɪʒn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quyết định, sự lựa chọn",
+      "definition_en": "A choice that you make after thinking about several possibilities.",
+      "example_en": "I need to make a decision about my career.",
+      "example_vi": "Tôi cần đưa ra một quyết định về sự nghiệp của mình.",
+      "collocations_json": [
+        "make a decision",
+        "final decision",
+        "difficult decision"
+      ],
+      "synonyms_json": [
+        "choice",
+        "judgment"
+      ],
+      "antonyms_json": [
+        "hesitation"
+      ],
+      "mnemonic": "De-ci-sion: Để chị sơn, chị đã quyết định chọn màu sơn này.",
+      "frequency_rank": 645,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1205,
+    "fields": {
+      "word": "deep",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "nature",
+      "ipa_uk": "dip",
+      "ipa_us": "diːp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sâu, thâm sâu",
+      "definition_en": "Going a long way from the top or surface to the bottom.",
+      "example_en": "The water in the lake is very deep.",
+      "example_vi": "Nước trong hồ rất sâu.",
+      "collocations_json": [
+        "deep water",
+        "deep breath",
+        "deep sleep"
+      ],
+      "synonyms_json": [
+        "profound"
+      ],
+      "antonyms_json": [
+        "shallow"
+      ],
+      "mnemonic": "Deep đọc giống 'Đi-p' - đi bộ mãi mới tới đáy vì nó rất sâu.",
+      "frequency_rank": 820,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1206,
+    "fields": {
+      "word": "definitely",
+      "part_of_speech": "adverb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈdɛfənətli",
+      "ipa_us": "ˈdefɪnətli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chắc chắn, dứt khoát",
+      "definition_en": "Without any doubt; certainly.",
+      "example_en": "I will definitely come to your party.",
+      "example_vi": "Tôi chắc chắn sẽ đến bữa tiệc của bạn.",
+      "collocations_json": [
+        "definitely yes",
+        "definitely not"
+      ],
+      "synonyms_json": [
+        "certainly",
+        "surely"
+      ],
+      "antonyms_json": [
+        "possibly",
+        "maybe"
+      ],
+      "mnemonic": "Definitely: Đẻ-phí-nịt-lì - Chắc chắn là không thể lỳ lợm mãi được.",
+      "frequency_rank": 950,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1207,
+    "fields": {
+      "word": "degree",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "academic",
+      "ipa_uk": "dɪˈɡri",
+      "ipa_us": "dɪˈɡriː",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "mức độ, bằng cấp, độ",
+      "definition_en": "A unit for measuring temperature or angles, or a qualification given by a university.",
+      "example_en": "She has a master's degree in physics.",
+      "example_vi": "Cô ấy có bằng thạc sĩ vật lý.",
+      "collocations_json": [
+        "university degree",
+        "thirty degrees",
+        "high degree"
+      ],
+      "synonyms_json": [
+        "level",
+        "grade"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Degree: Đi-ghi - đi thi để được ghi danh nhận bằng cấp.",
+      "frequency_rank": 1050,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1208,
+    "fields": {
+      "word": "dentist",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "medical",
+      "ipa_uk": "ˈdɛntəst",
+      "ipa_us": "ˈdentɪst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nha sĩ",
+      "definition_en": "A person whose job is to treat people's teeth.",
+      "example_en": "I have to go to the dentist tomorrow.",
+      "example_vi": "Tôi phải đi khám nha sĩ vào ngày mai.",
+      "collocations_json": [
+        "see a dentist",
+        "dentist appointment",
+        "good dentist"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Dentist: Đèn-tít - nha sĩ soi đèn tít vào trong miệng.",
+      "frequency_rank": 2100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1209,
+    "fields": {
+      "word": "department",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "business",
+      "ipa_uk": "dɪˈpɑrtmənt",
+      "ipa_us": "dɪˈpɑːrtmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phòng ban, khoa, bộ",
+      "definition_en": "A part of an organization such as a school, business, or government.",
+      "example_en": "She works in the sales department.",
+      "example_vi": "Cô ấy làm việc ở bộ phận bán hàng.",
+      "collocations_json": [
+        "marketing department",
+        "police department",
+        "head of department"
+      ],
+      "synonyms_json": [
+        "section",
+        "division"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Department: Đề-pát-mình - mỗi phòng ban có một cái đề bài cho mình làm.",
+      "frequency_rank": 1150,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1210,
+    "fields": {
+      "word": "depend",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "dɪˈpɛnd",
+      "ipa_us": "dɪˈpend",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phụ thuộc, tùy thuộc",
+      "definition_en": "To be decided or strongly influenced by someone or something else.",
+      "example_en": "The price of the cake depends on its size.",
+      "example_vi": "Giá của chiếc bánh phụ thuộc vào kích thước của nó.",
+      "collocations_json": [
+        "depend on",
+        "heavily depend",
+        "it depends"
+      ],
+      "synonyms_json": [
+        "rely"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Depend: Đẻ-phèn - cuộc sống phụ thuộc vào việc đẻ ra nhiều phèn.",
+      "frequency_rank": 1300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1211,
+    "fields": {
+      "word": "desert",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "nature",
+      "ipa_uk": "ˈdɛzɜrt",
+      "ipa_us": "ˈdezərt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sa mạc",
+      "definition_en": "A large, hot, dry area of land with very few plants.",
+      "example_en": "The Sahara is the largest hot desert in the world.",
+      "example_vi": "Sahara là sa mạc nóng lớn nhất thế giới.",
+      "collocations_json": [
+        "hot desert",
+        "desert island",
+        "cross the desert"
+      ],
+      "synonyms_json": [
+        "wasteland"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Desert (sa mạc) có 1 chữ 's' vì ít cát, còn Dessert (tráng miệng) có 2 chữ 's' vì ta muốn ăn 2 lần.",
+      "frequency_rank": 1550,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1212,
+    "fields": {
+      "word": "designer",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "business",
+      "ipa_uk": "dɪˈzaɪnər",
+      "ipa_us": "dɪˈzaɪnər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhà thiết kế",
+      "definition_en": "A person who imagines how something could be made and draws plans for it.",
+      "example_en": "He is a famous fashion designer.",
+      "example_vi": "Anh ấy là một nhà thiết kế thời trang nổi tiếng.",
+      "collocations_json": [
+        "fashion designer",
+        "graphic designer",
+        "interior designer"
+      ],
+      "synonyms_json": [
+        "creator",
+        "architect"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Designer: Đi-dai-nờ - nhà thiết kế thường đi rất dai dẳng để tìm ý tưởng.",
+      "frequency_rank": 1800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1213,
+    "fields": {
+      "word": "destroy",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "dɪˈstrɔɪ",
+      "ipa_us": "dɪˈstrɔɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phá hủy, tiêu diệt",
+      "definition_en": "To damage something so badly that it cannot be used or no longer exists.",
+      "example_en": "The fire destroyed the whole building.",
+      "example_vi": "Ngọn lửa đã phá hủy toàn bộ tòa nhà.",
+      "collocations_json": [
+        "totally destroy",
+        "destroy the environment",
+        "destroy evidence"
+      ],
+      "synonyms_json": [
+        "ruin",
+        "demolish"
+      ],
+      "antonyms_json": [
+        "create",
+        "build"
+      ],
+      "mnemonic": "Destroy: Đi-trai - đi tìm trai để phá hủy cuộc đời họ (đùa vui).",
+      "frequency_rank": 1250,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1214,
+    "fields": {
+      "word": "detective",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "dɪˈtɛktɪv",
+      "ipa_us": "dɪˈtektɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thám tử, trinh sát",
+      "definition_en": "Someone whose job is to discover information about crimes and find out who is responsible.",
+      "example_en": "The detective is investigating the robbery.",
+      "example_vi": "Thám tử đang điều tra vụ cướp.",
+      "collocations_json": [
+        "private detective",
+        "detective story",
+        "detective novel"
+      ],
+      "synonyms_json": [
+        "investigator",
+        "sleuth"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Detective: Để-tếch-tiếp - thám tử để thông tin trôi đi tiếp rồi điều tra.",
+      "frequency_rank": 2300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1215,
+    "fields": {
+      "word": "develop",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "dɪˈvɛləp",
+      "ipa_us": "dɪˈveləp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phát triển, mở rộng",
+      "definition_en": "To grow or change into a more advanced or stronger form.",
+      "example_en": "The company wants to develop new software.",
+      "example_vi": "Công ty muốn phát triển phần mềm mới.",
+      "collocations_json": [
+        "develop a skill",
+        "develop a plan",
+        "economically develop"
+      ],
+      "synonyms_json": [
+        "evolve",
+        "grow"
+      ],
+      "antonyms_json": [
+        "decline"
+      ],
+      "mnemonic": "Develop: Đẻ-về-lớp - sinh viên đẻ kiến thức ngay về lớp để phát triển.",
+      "frequency_rank": 720,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1216,
+    "fields": {
+      "word": "device",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "technology",
+      "ipa_uk": "dɪˈvaɪs",
+      "ipa_us": "dɪˈvaɪs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thiết bị, dụng cụ",
+      "definition_en": "An object or machine that has been invented for a particular purpose.",
+      "example_en": "A smartphone is a useful mobile device.",
+      "example_vi": "Điện thoại thông minh là một thiết bị di động hữu ích.",
+      "collocations_json": [
+        "electronic device",
+        "smart device",
+        "tracking device"
+      ],
+      "synonyms_json": [
+        "gadget",
+        "tool"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Device: Đi-vài-xí - đi xem vài xí thiết bị mới.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1217,
+    "fields": {
+      "word": "diary",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈdaɪəri",
+      "ipa_us": "ˈdaɪəri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhật ký",
+      "definition_en": "A book in which you record your thoughts or feelings hằng ngày.",
+      "example_en": "She writes in her diary every night.",
+      "example_vi": "Cô ấy viết nhật ký mỗi tối.",
+      "collocations_json": [
+        "keep a diary",
+        "dear diary",
+        "read someone's diary"
+      ],
+      "synonyms_json": [
+        "journal"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Diary: Đai-ơ-ri - nhật ký ghi lại những lúc ta đai (chết) vì cười.",
+      "frequency_rank": 1900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1218,
+    "fields": {
+      "word": "differently",
+      "part_of_speech": "adverb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈdɪfrəntli",
+      "ipa_us": "ˈdɪfrəntli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khác biệt, khác nhau",
+      "definition_en": "In a way that is not the same as another.",
+      "example_en": "People think differently about this topic.",
+      "example_vi": "Mọi người nghĩ khác nhau về chủ đề này.",
+      "collocations_json": [
+        "act differently",
+        "see things differently",
+        "think differently"
+      ],
+      "synonyms_json": [
+        "variously",
+        "otherwise"
+      ],
+      "antonyms_json": [
+        "similarly"
+      ],
+      "mnemonic": "Different (khác) + ly (một cách) = Một cách khác biệt.",
+      "frequency_rank": 1600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1219,
+    "fields": {
+      "word": "digital",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "technology",
+      "ipa_uk": "ˈdɪʤətəl",
+      "ipa_us": "ˈdɪdʒɪtl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kỹ thuật số",
+      "definition_en": "Using or relating to computer technology and numbers.",
+      "example_en": "I prefer a digital watch to an analog one.",
+      "example_vi": "Tôi thích đồng hồ kỹ thuật số hơn là đồng hồ kim.",
+      "collocations_json": [
+        "digital camera",
+        "digital technology",
+        "digital skills"
+      ],
+      "synonyms_json": [
+        "electronic"
+      ],
+      "antonyms_json": [
+        "analog"
+      ],
+      "mnemonic": "Digital: Đi-gi-tô - đi kỹ thuật số thì phải nhanh như chạy tô.",
+      "frequency_rank": 1450,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1220,
+    "fields": {
+      "word": "direct",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "dəˈrɛkt",
+      "ipa_us": "dəˈrekt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trực tiếp, thẳng thắn",
+      "definition_en": "Going in a straight line or talking in an honest, clear way.",
+      "example_en": "Is there a direct flight to Tokyo?",
+      "example_vi": "Có chuyến bay trực tiếp nào đến Tokyo không?",
+      "collocations_json": [
+        "direct flight",
+        "direct contact",
+        "direct answer"
+      ],
+      "synonyms_json": [
+        "straight",
+        "frank"
+      ],
+      "antonyms_json": [
+        "indirect"
+      ],
+      "mnemonic": "Direct: Đi-rếch - đi thẳng không rẽ ngang.",
+      "frequency_rank": 980,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1221,
+    "fields": {
+      "word": "direction",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "dəˈrɛkʃən",
+      "ipa_us": "dəˈrekʃn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hướng, phương hướng",
+      "definition_en": "The way in which someone or something moves or faces.",
+      "example_en": "Which direction is the hospital?",
+      "example_vi": "Bệnh viện ở hướng nào?",
+      "collocations_json": [
+        "opposite direction",
+        "right direction",
+        "ask for directions"
+      ],
+      "synonyms_json": [
+        "way",
+        "course"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Direction: Đi-rếch-sần - hướng này đi thẳng là đến sân.",
+      "frequency_rank": 750,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1222,
+    "fields": {
+      "word": "director",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "business",
+      "ipa_uk": "dəˈrɛktər",
+      "ipa_us": "dəˈrektər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giám đốc, đạo diễn",
+      "definition_en": "A manager of an organization or someone who tells actors what to do in a film.",
+      "example_en": "She is the director of a large company.",
+      "example_vi": "Bà ấy là giám đốc của một công ty lớn.",
+      "collocations_json": [
+        "managing director",
+        "film director",
+        "board of directors"
+      ],
+      "synonyms_json": [
+        "manager",
+        "executive"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Director: Đì-rếch-tờ - người đi thẳng lên làm sếp của tờ giấy.",
+      "frequency_rank": 680,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1223,
+    "fields": {
+      "word": "disagree",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "dɪsəˈɡri",
+      "ipa_us": "ˌdɪsəˈɡriː",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "không đồng ý, bất đồng",
+      "definition_en": "To have a different opinion from someone else.",
+      "example_en": "I disagree with everything you said.",
+      "example_vi": "Tôi không đồng ý với mọi thứ bạn nói.",
+      "collocations_json": [
+        "disagree with",
+        "strongly disagree",
+        "completely disagree"
+      ],
+      "synonyms_json": [
+        "differ",
+        "dissent"
+      ],
+      "antonyms_json": [
+        "agree"
+      ],
+      "mnemonic": "Dis (không) + Agree (đồng ý).",
+      "frequency_rank": 2200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1224,
+    "fields": {
+      "word": "disappear",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˌdɪsəˈpɪr",
+      "ipa_us": "ˌdɪsəˈpɪr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "biến mất",
+      "definition_en": "To stop being visible or to stop existing.",
+      "example_en": "The sun disappeared behind the clouds.",
+      "example_vi": "Mặt trời biến mất sau những đám mây.",
+      "collocations_json": [
+        "disappear from",
+        "suddenly disappear",
+        "slowly disappear"
+      ],
+      "synonyms_json": [
+        "vanish"
+      ],
+      "antonyms_json": [
+        "appear"
+      ],
+      "mnemonic": "Dis (không) + Appear (xuất hiện) = Biến mất.",
+      "frequency_rank": 1600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1225,
+    "fields": {
+      "word": "disaster",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "nature",
+      "ipa_uk": "dɪˈzæstər",
+      "ipa_us": "dɪˈzæstər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thảm họa, thiên tai",
+      "definition_en": "An event that results in great harm, damage, or death.",
+      "example_en": "The earthquake was a terrible natural disaster.",
+      "example_vi": "Trận động đất là một thảm họa thiên nhiên tồi tệ.",
+      "collocations_json": [
+        "natural disaster",
+        "complete disaster",
+        "disaster zone"
+      ],
+      "synonyms_json": [
+        "catastrophe",
+        "tragedy"
+      ],
+      "antonyms_json": [
+        "success",
+        "blessing"
+      ],
+      "mnemonic": "Disaster: Đi-da-sợ - đi ra ngoài thấy thảm họa là sợ hãi.",
+      "frequency_rank": 1500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1226,
+    "fields": {
+      "word": "discover",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "academic",
+      "ipa_uk": "dɪˈskʌvər",
+      "ipa_us": "dɪˈskʌvər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khám phá, phát hiện",
+      "definition_en": "To find information, a place, or an object, especially for the first time.",
+      "example_en": "Columbus did not discover America.",
+      "example_vi": "Columbus không phải là người đầu tiên khám phá ra châu Mỹ.",
+      "collocations_json": [
+        "discover information",
+        "discover a way",
+        "newly discovered"
+      ],
+      "synonyms_json": [
+        "find",
+        "locate"
+      ],
+      "antonyms_json": [
+        "hide",
+        "lose"
+      ],
+      "mnemonic": "Discover: Đi-scơ-vờ - đi để thấy những thứ vơ vẩn hóa ra lại là khám phá mới.",
+      "frequency_rank": 1100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1227,
+    "fields": {
+      "word": "discovery",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "academic",
+      "ipa_uk": "dɪˈskʌvəri",
+      "ipa_us": "dɪˈskʌvəri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự khám phá, phát hiện",
+      "definition_en": "The process of finding something that was not known before.",
+      "example_en": "The discovery of DNA was a major breakthrough.",
+      "example_vi": "Sự khám phá ra DNA là một bước đột phá lớn.",
+      "collocations_json": [
+        "make a discovery",
+        "scientific discovery",
+        "recent discovery"
+      ],
+      "synonyms_json": [
+        "finding"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Discover (v) + y = Discovery (n).",
+      "frequency_rank": 1700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1228,
+    "fields": {
+      "word": "discussion",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "academic",
+      "ipa_uk": "dɪˈskʌʃən",
+      "ipa_us": "dɪˈskʌʃn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cuộc thảo luận, tranh luận",
+      "definition_en": "A conversation in which people share their ideas or opinions about something.",
+      "example_en": "We had a long discussion about the problem.",
+      "example_vi": "Chúng tôi đã có một cuộc thảo luận dài về vấn đề này.",
+      "collocations_json": [
+        "have a discussion",
+        "group discussion",
+        "under discussion"
+      ],
+      "synonyms_json": [
+        "debate",
+        "conversation"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Discussion: Đi-scát-sần - thảo luận là phải đi sát vào vấn đề.",
+      "frequency_rank": 850,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1229,
+    "fields": {
+      "word": "disease",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "medical",
+      "ipa_uk": "dɪˈziz",
+      "ipa_us": "dɪˈziːz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bệnh tật",
+      "definition_en": "An illness caused by infection or by a failure of health.",
+      "example_en": "Smoking can cause heart disease.",
+      "example_vi": "Hút thuốc có thể gây ra bệnh tim.",
+      "collocations_json": [
+        "infectious disease",
+        "fight disease",
+        "prevent disease"
+      ],
+      "synonyms_json": [
+        "illness",
+        "sickness"
+      ],
+      "antonyms_json": [
+        "health"
+      ],
+      "mnemonic": "Disease: Đi-dì - dì bị bệnh nên phải đi bác sĩ.",
+      "frequency_rank": 920,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1230,
+    "fields": {
+      "word": "distance",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈdɪstəns",
+      "ipa_us": "ˈdɪstəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khoảng cách",
+      "definition_en": "The amount of space between two places.",
+      "example_en": "What is the distance between the city and the airport?",
+      "example_vi": "Khoảng cách giữa thành phố và sân bay là bao nhiêu?",
+      "collocations_json": [
+        "long distance",
+        "short distance",
+        "walking distance"
+      ],
+      "synonyms_json": [
+        "gap",
+        "space"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Distance: Đi-sờ-tấn - đi sờ phải hàng tấn hàng vì khoảng cách quá xa.",
+      "frequency_rank": 1120,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1231,
+    "fields": {
+      "word": "divorced",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "dɪˈvɔrst",
+      "ipa_us": "dɪˈvɔːrst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đã ly hôn",
+      "definition_en": "No longer married to your husband or wife.",
+      "example_en": "My parents are divorced.",
+      "example_vi": "Bố mẹ tôi đã ly hôn.",
+      "collocations_json": [
+        "get divorced",
+        "divorced couple"
+      ],
+      "synonyms_json": [
+        "separated"
+      ],
+      "antonyms_json": [
+        "married"
+      ],
+      "mnemonic": "Divorced: Đi-vợ-rồi - đi mất vợ rồi nên đã ly hôn.",
+      "frequency_rank": 2500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1232,
+    "fields": {
+      "word": "document",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "business",
+      "ipa_uk": "ˈdɑkjəmɛnt",
+      "ipa_us": "ˈdɑːkjumənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tài liệu, văn kiện",
+      "definition_en": "A paper or computer file that provides information or evidence.",
+      "example_en": "Please sign this document.",
+      "example_vi": "Vui lòng ký vào tài liệu này.",
+      "collocations_json": [
+        "legal document",
+        "official document",
+        "confidential document"
+      ],
+      "synonyms_json": [
+        "paper",
+        "file"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Document: Đọc-kiểu-mới - tài liệu này phải đọc kiểu mới mới hiểu được.",
+      "frequency_rank": 1200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1233,
+    "fields": {
+      "word": "double",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈdʌbəl",
+      "ipa_us": "ˈdʌbl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "gấp đôi, hai lần",
+      "definition_en": "Twice as much or as many.",
+      "example_en": "I’d like a double espresso, please.",
+      "example_vi": "Cho tôi một ly espresso gấp đôi, làm ơn.",
+      "collocations_json": [
+        "double room",
+        "double check",
+        "double bed"
+      ],
+      "synonyms_json": [
+        "dual",
+        "twice"
+      ],
+      "antonyms_json": [
+        "single"
+      ],
+      "mnemonic": "Double: Đập-bầu - đập bầu được gấp đôi số tiền.",
+      "frequency_rank": 1100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1234,
+    "fields": {
+      "word": "download",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "technology",
+      "ipa_uk": "ˈdaʊnˌloʊd",
+      "ipa_us": "ˌdaʊnˈloʊd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tải xuống",
+      "definition_en": "To copy data or software from the internet onto your computer.",
+      "example_en": "You can download the app for free.",
+      "example_vi": "Bạn có thể tải ứng dụng này miễn phí.",
+      "collocations_json": [
+        "download a file",
+        "download music",
+        "free download"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "upload"
+      ],
+      "mnemonic": "Down (xuống) + Load (tải) = Tải xuống.",
+      "frequency_rank": 1650,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1235,
+    "fields": {
+      "word": "downstairs",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈdaʊnˈstɛrz",
+      "ipa_us": "ˌdaʊnˈsterz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tầng dưới, dưới lầu",
+      "definition_en": "On or to a lower floor of a building.",
+      "example_en": "The kitchen is downstairs.",
+      "example_vi": "Phòng bếp ở dưới lầu.",
+      "collocations_json": [
+        "go downstairs",
+        "downstairs room"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "upstairs"
+      ],
+      "mnemonic": "Down (xuống) + Stairs (cầu thang) = Dưới lầu.",
+      "frequency_rank": 2100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1236,
+    "fields": {
+      "word": "drama",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "art",
+      "ipa_uk": "ˈdrɑmə",
+      "ipa_us": "ˈdrɑːmə",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kịch, sự kịch tính",
+      "definition_en": "A play in a theatre or on television, or a situation having excitement.",
+      "example_en": "I love watching Korean TV dramas.",
+      "example_vi": "Tôi thích xem phim truyền hình Hàn Quốc.",
+      "collocations_json": [
+        "drama series",
+        "family drama",
+        "real-life drama"
+      ],
+      "synonyms_json": [
+        "play",
+        "theater"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Drama: Đọc như 'Đa-ma' - xem nhiều kịch thì sẽ gặp đa số ma.",
+      "frequency_rank": 1350,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1237,
+    "fields": {
+      "word": "drawing",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "art",
+      "ipa_uk": "ˈdrɔɪŋ",
+      "ipa_us": "ˈdrɔːɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bản vẽ, bức vẽ",
+      "definition_en": "A picture made with a pencil, pen, or crayon.",
+      "example_en": "She made a beautiful drawing of a cat.",
+      "example_vi": "Cô ấy đã vẽ một bức tranh con mèo rất đẹp.",
+      "collocations_json": [
+        "pencil drawing",
+        "detailed drawing",
+        "technical drawing"
+      ],
+      "synonyms_json": [
+        "sketch",
+        "picture"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Drawing: Đu-roi - cầm bút vẽ như đang đu cái roi trên giấy.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1238,
+    "fields": {
+      "word": "dream",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "drim",
+      "ipa_us": "driːm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giấc mơ, ước mơ",
+      "definition_en": "Pictures or events that happen in your mind while you are asleep.",
+      "example_en": "I had a strange dream last night.",
+      "example_vi": "Đêm qua tôi đã có một giấc mơ lạ.",
+      "collocations_json": [
+        "bad dream",
+        "dream come true",
+        "day dream"
+      ],
+      "synonyms_json": [
+        "vision",
+        "ambition"
+      ],
+      "antonyms_json": [
+        "reality"
+      ],
+      "mnemonic": "Dream: Đọc là 'Drim' - nhắm mắt lim dim là thấy giấc mơ.",
+      "frequency_rank": 800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1239,
+    "fields": {
+      "word": "drive",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "draɪv",
+      "ipa_us": "draɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chuyến đi (bằng xe), động lực",
+      "definition_en": "A journey in a car or another vehicle.",
+      "example_en": "It’s a long drive to the beach.",
+      "example_vi": "Đó là một chuyến lái xe dài đến bãi biển.",
+      "collocations_json": [
+        "go for a drive",
+        "long drive",
+        "sunday drive"
+      ],
+      "synonyms_json": [
+        "journey",
+        "trip"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Drive: Đọc là 'Đrai' - đi lái xe cho đời nó 'high'.",
+      "frequency_rank": 950,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1240,
+    "fields": {
+      "word": "driving",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "ˈdraɪvɪŋ",
+      "ipa_us": "ˈdraɪvɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "việc lái xe",
+      "definition_en": "The activity of controlling and operating a car or other vehicle.",
+      "example_en": "She enjoys driving on country roads.",
+      "example_vi": "Cô ấy thích lái xe trên những con đường nông thôn.",
+      "collocations_json": [
+        "driving license",
+        "driving test",
+        "careful driving"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Drive (lái) + ing = Việc lái xe.",
+      "frequency_rank": 1600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1241,
+    "fields": {
+      "word": "drop",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "drɑp",
+      "ipa_us": "drɑːp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "làm rơi, thả xuống",
+      "definition_en": "To let something fall by accident or on purpose.",
+      "example_en": "Be careful not to drop the glass.",
+      "example_vi": "Cẩn thận đừng làm rơi cái ly.",
+      "collocations_json": [
+        "drop out",
+        "drop off",
+        "let something drop"
+      ],
+      "synonyms_json": [
+        "fall",
+        "release"
+      ],
+      "antonyms_json": [
+        "catch",
+        "lift"
+      ],
+      "mnemonic": "Drop: Đọc như 'Đớp' - làm rơi đồ để cho chó đớp mất.",
+      "frequency_rank": 1050,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1242,
+    "fields": {
+      "word": "drug",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "medical",
+      "ipa_uk": "drʌɡ",
+      "ipa_us": "drʌɡ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuốc, dược phẩm, ma túy",
+      "definition_en": "A chemical substance used as a medicine or for illegal pleasure.",
+      "example_en": "The doctor prescribed a new drug for her cough.",
+      "example_vi": "Bác sĩ đã kê một loại thuốc mới cho cơn ho của cô ấy.",
+      "collocations_json": [
+        "illegal drug",
+        "prescription drug",
+        "anti-cancer drug"
+      ],
+      "synonyms_json": [
+        "medicine",
+        "narcotic"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Drug: Đọc như 'Rắc' - rắc thuốc vào để chữa bệnh.",
+      "frequency_rank": 1100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1243,
+    "fields": {
+      "word": "dry",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "nature",
+      "ipa_uk": "draɪ",
+      "ipa_us": "draɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khô, ráo",
+      "definition_en": "Something that has no water or moisture on it.",
+      "example_en": "Wait for the paint to get dry.",
+      "example_vi": "Đợi cho sơn khô đã.",
+      "collocations_json": [
+        "dry weather",
+        "dry cough",
+        "keep dry"
+      ],
+      "synonyms_json": [
+        "arid",
+        "parched"
+      ],
+      "antonyms_json": [
+        "wet",
+        "humid"
+      ],
+      "mnemonic": "Dry: Đọc là 'Đrai' - trời khô quá nên da 'đai' (die) mất thôi.",
+      "frequency_rank": 1200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1244,
+    "fields": {
+      "word": "earn",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "business",
+      "ipa_uk": "ɜrn",
+      "ipa_us": "ɜːrn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kiếm tiền, giành được",
+      "definition_en": "To get money by working, or to receive something that you deserve.",
+      "example_en": "How much does she earn per month?",
+      "example_vi": "Cô ấy kiếm được bao nhiêu tiền mỗi tháng?",
+      "collocations_json": [
+        "earn a living",
+        "earn money",
+        "earn respect"
+      ],
+      "synonyms_json": [
+        "gain",
+        "acquire"
+      ],
+      "antonyms_json": [
+        "spend",
+        "lose"
+      ],
+      "mnemonic": "Earn: Đọc như 'Ơn' - đi làm kiếm tiền trả ơn bố mẹ.",
+      "frequency_rank": 1300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1245,
+    "fields": {
+      "word": "earth",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "nature",
+      "ipa_uk": "ɜrθ",
+      "ipa_us": "ɜːrθ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "Trái Đất, đất đai",
+      "definition_en": "The planet on which we live, or the substance of the land surface.",
+      "example_en": "The moon moves around the Earth.",
+      "example_vi": "Mặt trăng quay quanh Trái đất.",
+      "collocations_json": [
+        "on earth",
+        "earth's surface",
+        "save the earth"
+      ],
+      "synonyms_json": [
+        "world",
+        "planet"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Earth: Đọc là 'Ơ-thờ' - Ôi trời, Trái Đất của chúng ta.",
+      "frequency_rank": 900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1246,
+    "fields": {
+      "word": "easily",
+      "part_of_speech": "adverb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈizəli",
+      "ipa_us": "ˈiːzəli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một cách dễ dàng",
+      "definition_en": "With little effort or difficulty.",
+      "example_en": "I can easily finish this work by 5 PM.",
+      "example_vi": "Tôi có thể dễ dàng hoàn thành công việc này trước 5 giờ chiều.",
+      "collocations_json": [
+        "easily understood",
+        "win easily",
+        "easily accessible"
+      ],
+      "synonyms_json": [
+        "effortlessly",
+        "simply"
+      ],
+      "antonyms_json": [
+        "hardly",
+        "difficultly"
+      ],
+      "mnemonic": "Easy (dễ) + ly (một cách) = Một cách dễ dàng.",
+      "frequency_rank": 850,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1247,
+    "fields": {
+      "word": "education",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "academic",
+      "ipa_uk": "ˌɛʤəˈkeɪʃən",
+      "ipa_us": "ˌedʒuˈkeɪʃn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giáo dục, sự học tập",
+      "definition_en": "The process of teaching and learning, usually in a school or college.",
+      "example_en": "Education is the key to success.",
+      "example_vi": "Giáo dục là chìa khóa dẫn đến thành công.",
+      "collocations_json": [
+        "higher education",
+        "primary education",
+        "receive an education"
+      ],
+      "synonyms_json": [
+        "schooling",
+        "instruction"
+      ],
+      "antonyms_json": [
+        "ignorance"
+      ],
+      "mnemonic": "Education: Ê-du-kê-sần - ê dù kê sần lên cũng phải đi học.",
+      "frequency_rank": 580,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1248,
+    "fields": {
+      "word": "effect",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ɪˈfɛkt",
+      "ipa_us": "ɪˈfekt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tác động, hiệu ứng, kết quả",
+      "definition_en": "A change that is produced by an action or a cause.",
+      "example_en": "The medicine had a positive effect on him.",
+      "example_vi": "Thuốc đã có tác động tích cực đối với anh ấy.",
+      "collocations_json": [
+        "cause and effect",
+        "side effect",
+        "take effect"
+      ],
+      "synonyms_json": [
+        "result",
+        "impact"
+      ],
+      "antonyms_json": [
+        "cause"
+      ],
+      "mnemonic": "Effect: Ê-phếch - hiệu ứng phết (rất hay).",
+      "frequency_rank": 640,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1249,
+    "fields": {
+      "word": "either",
+      "part_of_speech": "other",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈiðər",
+      "ipa_us": "ˈiːðər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hoặc (một trong hai), cũng không",
+      "definition_en": "Used to refer to one or the other of two people or things.",
+      "example_en": "You can have either tea or coffee.",
+      "example_vi": "Bạn có thể uống trà hoặc cà phê.",
+      "collocations_json": [
+        "either... or",
+        "not... either"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "neither"
+      ],
+      "mnemonic": "Either: Ai-dờ - ai giờ cũng phải chọn một trong hai.",
+      "frequency_rank": 520,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1250,
+    "fields": {
+      "word": "electric",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "technology",
+      "ipa_uk": "ɪˈlɛktrɪk",
+      "ipa_us": "ɪˈlektrɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chạy bằng điện, thuộc về điện",
+      "definition_en": "Using, producing, or powered by electricity.",
+      "example_en": "I want to buy an electric car.",
+      "example_vi": "Tôi muốn mua một chiếc ô tô điện.",
+      "collocations_json": [
+        "electric guitar",
+        "electric kettle",
+        "electric shock"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Electric: Ê-lếch-trích - điện lếch một cái là trích nổ luôn.",
+      "frequency_rank": 1380,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1251,
+    "fields": {
+      "word": "electrical",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "technology",
+      "ipa_uk": "ɪˈlɛktrɪkəl",
+      "ipa_us": "ɪˈlektrɪkl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "liên quan đến điện",
+      "definition_en": "Related to electricity in general (equipment, systems, engineers).",
+      "example_en": "He is an electrical engineer.",
+      "example_vi": "Anh ấy là một kỹ sư điện.",
+      "collocations_json": [
+        "electrical engineering",
+        "electrical equipment",
+        "electrical appliance"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Electrical có đuôi -al mang nghĩa rộng hơn 'electric' về mặt liên quan.",
+      "frequency_rank": 1900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1252,
+    "fields": {
+      "word": "electricity",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "technology",
+      "ipa_uk": "ɪˌlɛkˈtrɪsəti",
+      "ipa_us": "ɪˌlekˈtrɪsəti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "điện, điện năng",
+      "definition_en": "A form of energy that can be carried through wires and is used for heating and lighting.",
+      "example_en": "Turn off the lights to save electricity.",
+      "example_vi": "Tắt đèn để tiết kiệm điện.",
+      "collocations_json": [
+        "generate electricity",
+        "electricity bill",
+        "static electricity"
+      ],
+      "synonyms_json": [
+        "power"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Electric (điện) + ity (sự) = Năng lượng điện.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

@@ -1,0 +1,1890 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 4904,
+    "fields": {
+      "word": "nominate",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈnɑmənət",
+      "ipa_us": "ˈnɑməˌneɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đề cử",
+      "definition_en": "To officially suggest someone for an election, job, position, or honour.",
+      "example_en": "He was nominated for the Academy Award for Best Actor.",
+      "example_vi": "Ông ấy đã được đề cử cho giải Oscar Nam diễn viên chính xuất sắc nhất.",
+      "collocations_json": [
+        "nominate for",
+        "nominate someone as",
+        "officially nominate"
+      ],
+      "synonyms_json": [
+        "propose",
+        "recommend",
+        "select"
+      ],
+      "antonyms_json": [
+        "reject",
+        "withdraw"
+      ],
+      "mnemonic": "Nomi (name) + nate -> to name someone for a position.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4905,
+    "fields": {
+      "word": "nomination",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌnɑməˈneɪʃən",
+      "ipa_us": "ˌnɑməˈneɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự đề cử",
+      "definition_en": "The act of officially suggesting someone or something for a job, position, or prize.",
+      "example_en": "The film received five Oscar nominations.",
+      "example_vi": "Bộ phim nhận được năm đề cử Oscar.",
+      "collocations_json": [
+        "presidential nomination",
+        "receive a nomination",
+        "secure the nomination"
+      ],
+      "synonyms_json": [
+        "proposal",
+        "selection",
+        "recommendation"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of nominate.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4906,
+    "fields": {
+      "word": "nominee",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌnɑməˈni",
+      "ipa_us": "ˌnɑməˈni",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người được đề cử",
+      "definition_en": "Someone who has been nominated for something.",
+      "example_en": "She is the Democratic nominee for president.",
+      "example_vi": "Bà ấy là ứng cử viên được đề cử của đảng Dân chủ cho chức tổng thống.",
+      "collocations_json": [
+        "presidential nominee",
+        "official nominee",
+        "nominee for"
+      ],
+      "synonyms_json": [
+        "candidate",
+        "applicant"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Nomin(ate) + ee (person receiving the action). The person nominated.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4907,
+    "fields": {
+      "word": "nonetheless",
+      "part_of_speech": "adverb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌnʌnðəˈlɛs",
+      "ipa_us": "ˌnʌnðəˈlɛs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tuy nhiên, dù sao",
+      "definition_en": "Despite what has just been said or done.",
+      "example_en": "There are serious problems in our country. Nonetheless, we feel this is a good time to return.",
+      "example_vi": "Có những vấn đề nghiêm trọng ở đất nước chúng ta. Tuy nhiên, chúng tôi cảm thấy đây là thời điểm tốt để trở về.",
+      "collocations_json": [
+        "true nonetheless",
+        "important nonetheless"
+      ],
+      "synonyms_json": [
+        "nevertheless",
+        "however",
+        "yet"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "None the less -> Not any less true despite that.",
+      "frequency_rank": 5100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4908,
+    "fields": {
+      "word": "non-profit",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "nɑn-ˈprɑfət",
+      "ipa_us": "nɑn-ˈprɑfɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phi lợi nhuận",
+      "definition_en": "Not established for the purpose of making a profit.",
+      "example_en": "She works for a non-profit organization that helps the homeless.",
+      "example_vi": "Cô ấy làm việc cho một tổ chức phi lợi nhuận giúp đỡ người vô gia cư.",
+      "collocations_json": [
+        "non-profit organization",
+        "non-profit sector",
+        "non-profit charity"
+      ],
+      "synonyms_json": [
+        "charitable",
+        "not-for-profit"
+      ],
+      "antonyms_json": [
+        "commercial",
+        "for-profit"
+      ],
+      "mnemonic": "Non (not) + profit (make money).",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4909,
+    "fields": {
+      "word": "nonsense",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈnɑnsɛns",
+      "ipa_us": "ˈnɑnsɛns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "điều vô lý, lời nói nhảm nhí",
+      "definition_en": "An idea, something said or written, or behaviour that is silly or stupid.",
+      "example_en": "Don't talk nonsense!",
+      "example_vi": "Đừng nói nhảm nữa!",
+      "collocations_json": [
+        "talk nonsense",
+        "absolute nonsense",
+        "complete nonsense"
+      ],
+      "synonyms_json": [
+        "rubbish",
+        "foolishness",
+        "garbage"
+      ],
+      "antonyms_json": [
+        "sense",
+        "logic",
+        "truth"
+      ],
+      "mnemonic": "Non (no) + sense -> Makes no sense.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4910,
+    "fields": {
+      "word": "noon",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "nun",
+      "ipa_us": "nun",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "buổi trưa (12 giờ)",
+      "definition_en": "Twelve o'clock in the middle of the day.",
+      "example_en": "The meeting is scheduled for noon.",
+      "example_vi": "Cuộc họp được lên lịch vào buổi trưa.",
+      "collocations_json": [
+        "at noon",
+        "around noon",
+        "before noon"
+      ],
+      "synonyms_json": [
+        "midday",
+        "twelve o'clock"
+      ],
+      "antonyms_json": [
+        "midnight"
+      ],
+      "mnemonic": "High noon.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4911,
+    "fields": {
+      "word": "notable",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈnoʊtəbəl",
+      "ipa_us": "ˈnoʊtəbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đáng chú ý, có tiếng",
+      "definition_en": "Important and deserving attention, because of being very good or interesting.",
+      "example_en": "There was a notable difference between the two products.",
+      "example_vi": "Có một sự khác biệt đáng chú ý giữa hai sản phẩm.",
+      "collocations_json": [
+        "notable exception",
+        "notable achievement",
+        "highly notable"
+      ],
+      "synonyms_json": [
+        "remarkable",
+        "significant",
+        "prominent"
+      ],
+      "antonyms_json": [
+        "insignificant",
+        "ordinary",
+        "unremarkable"
+      ],
+      "mnemonic": "Able to be NOTED.",
+      "frequency_rank": 6500,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4912,
+    "fields": {
+      "word": "notably",
+      "part_of_speech": "adverb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈnoʊtəbli",
+      "ipa_us": "ˈnoʊtəbli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đáng chú ý, đặc biệt là",
+      "definition_en": "Especially or most importantly.",
+      "example_en": "The company is beginning to attract investors, most notably from Japan.",
+      "example_vi": "Công ty đang bắt đầu thu hút các nhà đầu tư, đặc biệt là từ Nhật Bản.",
+      "collocations_json": [
+        "most notably",
+        "notably absent",
+        "notably successful"
+      ],
+      "synonyms_json": [
+        "especially",
+        "particularly",
+        "significantly"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adverb form of notable.",
+      "frequency_rank": 6800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4913,
+    "fields": {
+      "word": "notify",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈnoʊtəˌfaɪ",
+      "ipa_us": "ˈnoʊtəˌfaɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thông báo, báo cho biết",
+      "definition_en": "To tell someone officially about something.",
+      "example_en": "We will notify you when your order is ready.",
+      "example_vi": "Chúng tôi sẽ thông báo cho bạn khi đơn hàng của bạn đã sẵn sàng.",
+      "collocations_json": [
+        "notify someone of",
+        "officially notify",
+        "fail to notify"
+      ],
+      "synonyms_json": [
+        "inform",
+        "advise",
+        "tell"
+      ],
+      "antonyms_json": [
+        "conceal",
+        "hide"
+      ],
+      "mnemonic": "To give someone a NOTICE.",
+      "frequency_rank": 5400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4914,
+    "fields": {
+      "word": "notorious",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "noʊˈtɔriəs",
+      "ipa_us": "noʊˈtɔriəs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khét tiếng, có tiếng xấu",
+      "definition_en": "Famous for something bad.",
+      "example_en": "The city is notorious for its traffic jams.",
+      "example_vi": "Thành phố này khét tiếng vì kẹt xe.",
+      "collocations_json": [
+        "notorious for",
+        "notorious criminal",
+        "notorious case"
+      ],
+      "synonyms_json": [
+        "infamous",
+        "scandalous",
+        "disreputable"
+      ],
+      "antonyms_json": [
+        "respectable",
+        "reputable",
+        "unknown"
+      ],
+      "mnemonic": "The NOTORIOUS B.I.G. (famous rapper). Notable but in a bad way.",
+      "frequency_rank": 7100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4915,
+    "fields": {
+      "word": "novel",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈnɑvəl",
+      "ipa_us": "ˈnɑvəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "mới lạ, khác thường",
+      "definition_en": "New and original, not like anything seen before.",
+      "example_en": "The scientist proposed a novel solution to the problem.",
+      "example_vi": "Nhà khoa học đã đề xuất một giải pháp mới lạ cho vấn đề.",
+      "collocations_json": [
+        "novel idea",
+        "novel approach",
+        "novel concept"
+      ],
+      "synonyms_json": [
+        "new",
+        "original",
+        "innovative"
+      ],
+      "antonyms_json": [
+        "traditional",
+        "conventional",
+        "old"
+      ],
+      "mnemonic": "Novels (books) contain new, original stories. Novel = new.",
+      "frequency_rank": 6300,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4916,
+    "fields": {
+      "word": "nursery",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈnɜrsəri",
+      "ipa_us": "ˈnɜrsəri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhà trẻ, vườn ươm",
+      "definition_en": "A place where young children and babies are taken care of while their parents are at work; or a place where plants and trees are grown.",
+      "example_en": "We bought these plants from a local nursery.",
+      "example_vi": "Chúng tôi đã mua những cái cây này từ một vườn ươm địa phương.",
+      "collocations_json": [
+        "day nursery",
+        "plant nursery",
+        "nursery school"
+      ],
+      "synonyms_json": [
+        "preschool",
+        "creche",
+        "greenhouse"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A place where nurses take care of babies or plants.",
+      "frequency_rank": 7400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4917,
+    "fields": {
+      "word": "objection",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əbˈʤɛkʃən",
+      "ipa_us": "əbˈdʒɛkʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự phản đối",
+      "definition_en": "The act of expressing or feeling opposition to or dislike of something or someone.",
+      "example_en": "I have no objection to him coming with us.",
+      "example_vi": "Tôi không có sự phản đối nào đối với việc anh ấy đi cùng chúng ta.",
+      "collocations_json": [
+        "raise an objection",
+        "no objection",
+        "strong objection"
+      ],
+      "synonyms_json": [
+        "opposition",
+        "disagreement",
+        "protest"
+      ],
+      "antonyms_json": [
+        "approval",
+        "agreement",
+        "consent"
+      ],
+      "mnemonic": "Noun form of object (to protest). 'Objection, Your Honor!'",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4918,
+    "fields": {
+      "word": "oblige",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈblaɪʤ",
+      "ipa_us": "əˈblaɪdʒ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bắt buộc, làm ơn",
+      "definition_en": "To force someone to do something, or to make it necessary for someone to do something; or to please or help someone.",
+      "example_en": "The law obliges employers to ensure a safe working environment.",
+      "example_vi": "Luật pháp bắt buộc người sử dụng lao động phải đảm bảo một môi trường làm việc an toàn.",
+      "collocations_json": [
+        "feel obliged",
+        "be obliged to",
+        "happy to oblige"
+      ],
+      "synonyms_json": [
+        "compel",
+        "force",
+        "require",
+        "accommodate"
+      ],
+      "antonyms_json": [
+        "free",
+        "let off"
+      ],
+      "mnemonic": "Similar to obligation. You are obliged to do your obligations.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4919,
+    "fields": {
+      "word": "obsess",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "əbˈsɛs",
+      "ipa_us": "əbˈsɛs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ám ảnh, bận tâm quá mức",
+      "definition_en": "If something or someone obsesses you, or if you obsess about something or someone, you think about it, him, or her all the time.",
+      "example_en": "She used to obsess about her weight.",
+      "example_vi": "Cô ấy từng ám ảnh về cân nặng của mình.",
+      "collocations_json": [
+        "obsess about",
+        "obsess over",
+        "be obsessed with"
+      ],
+      "synonyms_json": [
+        "preoccupy",
+        "consume",
+        "fixate"
+      ],
+      "antonyms_json": [
+        "ignore",
+        "forget"
+      ],
+      "mnemonic": "To be possessed by an idea is to be obsessed.",
+      "frequency_rank": 7800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4920,
+    "fields": {
+      "word": "obsession",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "əbˈsɛʃən",
+      "ipa_us": "əbˈsɛʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự ám ảnh",
+      "definition_en": "Something or someone that you think about all the time.",
+      "example_en": "His interest in cars has become an obsession.",
+      "example_vi": "Sự quan tâm của anh ấy đối với ô tô đã trở thành một nỗi ám ảnh.",
+      "collocations_json": [
+        "unhealthy obsession",
+        "become an obsession",
+        "magnificent obsession"
+      ],
+      "synonyms_json": [
+        "fixation",
+        "passion",
+        "fascination"
+      ],
+      "antonyms_json": [
+        "indifference",
+        "apathy"
+      ],
+      "mnemonic": "Noun form of obsess.",
+      "frequency_rank": 6600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4921,
+    "fields": {
+      "word": "occasional",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈkeɪʒənəl",
+      "ipa_us": "əˈkeɪʒənəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thỉnh thoảng, đôi khi",
+      "definition_en": "Not happening or done often or regularly.",
+      "example_en": "He makes occasional visits to London.",
+      "example_vi": "Anh ấy có những chuyến đi thăm London thỉnh thoảng.",
+      "collocations_json": [
+        "occasional use",
+        "occasional visitor",
+        "occasional basis"
+      ],
+      "synonyms_json": [
+        "infrequent",
+        "irregular",
+        "sporadic"
+      ],
+      "antonyms_json": [
+        "frequent",
+        "regular",
+        "constant"
+      ],
+      "mnemonic": "Happening on an OCCASION, not every day.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4922,
+    "fields": {
+      "word": "occurrence",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈkɜrəns",
+      "ipa_us": "əˈkɜrəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự việc xảy ra, sự kiện",
+      "definition_en": "Something that happens.",
+      "example_en": "Traffic jams are a daily occurrence in this city.",
+      "example_vi": "Kẹt xe là chuyện xảy ra hàng ngày ở thành phố này.",
+      "collocations_json": [
+        "common occurrence",
+        "everyday occurrence",
+        "rare occurrence"
+      ],
+      "synonyms_json": [
+        "event",
+        "incident",
+        "happening"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of occur.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4923,
+    "fields": {
+      "word": "odds",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɑdz",
+      "ipa_us": "ɑdz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tỉ lệ cược, khả năng xảy ra",
+      "definition_en": "The probability that a particular thing will or will not happen.",
+      "example_en": "The odds are in our favor.",
+      "example_vi": "Khả năng thành công đang nghiêng về phía chúng ta.",
+      "collocations_json": [
+        "against all odds",
+        "the odds are",
+        "odds and ends"
+      ],
+      "synonyms_json": [
+        "chances",
+        "probability",
+        "likelihood"
+      ],
+      "antonyms_json": [
+        "certainty"
+      ],
+      "mnemonic": "In betting, the odds are the chances.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4924,
+    "fields": {
+      "word": "offering",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈɔfərɪŋ",
+      "ipa_us": "ˈɔfərɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lễ vật, sản phẩm/dịch vụ cung cấp",
+      "definition_en": "Something that you give or offer to someone.",
+      "example_en": "The company has expanded its product offerings.",
+      "example_vi": "Công ty đã mở rộng các sản phẩm cung cấp của mình.",
+      "collocations_json": [
+        "product offering",
+        "sacrificial offering",
+        "latest offering"
+      ],
+      "synonyms_json": [
+        "contribution",
+        "donation",
+        "product"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Something that is offered.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4925,
+    "fields": {
+      "word": "offspring",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "nature",
+      "ipa_uk": "ˈɔfˌsprɪŋ",
+      "ipa_us": "ˈɔfˌsprɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "con cái, con non",
+      "definition_en": "The young of an animal, or a person's children.",
+      "example_en": "The disease can be transmitted from parent to offspring.",
+      "example_vi": "Căn bệnh có thể lây truyền từ cha mẹ sang con cái.",
+      "collocations_json": [
+        "produce offspring",
+        "female offspring",
+        "male offspring"
+      ],
+      "synonyms_json": [
+        "children",
+        "young",
+        "descendants"
+      ],
+      "antonyms_json": [
+        "parent",
+        "ancestor"
+      ],
+      "mnemonic": "What SPRINGS OFF from the parents.",
+      "frequency_rank": 7000,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4926,
+    "fields": {
+      "word": "operational",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌɑpəˈreɪʃənəl",
+      "ipa_us": "ˌɑpəˈreɪʃənəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về vận hành, đang hoạt động",
+      "definition_en": "Relating to the activities of an organization; or working and ready to be used.",
+      "example_en": "The new system will become fully operational next month.",
+      "example_vi": "Hệ thống mới sẽ đi vào hoạt động hoàn toàn vào tháng tới.",
+      "collocations_json": [
+        "fully operational",
+        "operational costs",
+        "operational efficiency"
+      ],
+      "synonyms_json": [
+        "working",
+        "functioning",
+        "running"
+      ],
+      "antonyms_json": [
+        "broken",
+        "inoperative"
+      ],
+      "mnemonic": "Adjective form of operation.",
+      "frequency_rank": 5300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4927,
+    "fields": {
+      "word": "opt",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɑpt",
+      "ipa_us": "ɑpt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lựa chọn",
+      "definition_en": "To make a choice, especially of one thing or possibility instead of others.",
+      "example_en": "Instead of a hotel, they opted for a small bed and breakfast.",
+      "example_vi": "Thay vì khách sạn, họ đã chọn một nhà nghỉ nhỏ phục vụ bữa sáng.",
+      "collocations_json": [
+        "opt for",
+        "opt out",
+        "opt to do something"
+      ],
+      "synonyms_json": [
+        "choose",
+        "select",
+        "decide"
+      ],
+      "antonyms_json": [
+        "reject"
+      ],
+      "mnemonic": "To pick an OPTion is to OPT.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4928,
+    "fields": {
+      "word": "optical",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "science",
+      "ipa_uk": "ˈɑptɪkəl",
+      "ipa_us": "ˈɑptɪkəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về thị giác, quang học",
+      "definition_en": "Relating to light or the ability to see.",
+      "example_en": "An optical illusion tricks your eyes.",
+      "example_vi": "Một ảo ảnh quang học đánh lừa đôi mắt của bạn.",
+      "collocations_json": [
+        "optical illusion",
+        "optical nerve",
+        "optical fiber"
+      ],
+      "synonyms_json": [
+        "visual",
+        "ocular"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Optic relates to the eye (optician).",
+      "frequency_rank": 7500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4929,
+    "fields": {
+      "word": "optimism",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈɑptəˌmɪzəm",
+      "ipa_us": "ˈɑptəˌmɪzəm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự lạc quan",
+      "definition_en": "The quality of being full of hope and emphasizing the good parts of a situation.",
+      "example_en": "There is a mood of cautious optimism about the economy.",
+      "example_vi": "Có một tâm trạng lạc quan thận trọng về nền kinh tế.",
+      "collocations_json": [
+        "cautious optimism",
+        "sense of optimism",
+        "unjustified optimism"
+      ],
+      "synonyms_json": [
+        "hopefulness",
+        "confidence",
+        "positivity"
+      ],
+      "antonyms_json": [
+        "pessimism",
+        "cynicism"
+      ],
+      "mnemonic": "Noun form of optimistic.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4930,
+    "fields": {
+      "word": "oral",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "medical",
+      "ipa_uk": "ˈɔrəl",
+      "ipa_us": "ˈɔrəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bằng miệng, qua miệng",
+      "definition_en": "Spoken and not written; or of, taken by, or done to the mouth.",
+      "example_en": "The medicine should be taken as an oral suspension.",
+      "example_vi": "Thuốc nên được dùng dưới dạng hỗn dịch uống.",
+      "collocations_json": [
+        "oral exam",
+        "oral hygiene",
+        "oral history"
+      ],
+      "synonyms_json": [
+        "spoken",
+        "verbal",
+        "unwritten"
+      ],
+      "antonyms_json": [
+        "written"
+      ],
+      "mnemonic": "Oral relates to the Orifice (mouth).",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4931,
+    "fields": {
+      "word": "organizational",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌɔrɡənəˈzeɪʃənəl",
+      "ipa_us": "ˌɔrɡənəˈzeɪʃənəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về tổ chức",
+      "definition_en": "Relating to the way in which the different parts of a whole are arranged; or relating to an organization.",
+      "example_en": "He lacks basic organizational skills.",
+      "example_vi": "Anh ấy thiếu các kỹ năng tổ chức cơ bản.",
+      "collocations_json": [
+        "organizational skills",
+        "organizational structure",
+        "organizational change"
+      ],
+      "synonyms_json": [
+        "administrative",
+        "structural",
+        "managerial"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adjective form of organization.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4932,
+    "fields": {
+      "word": "orientation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌɔriɛnˈteɪʃən",
+      "ipa_us": "ˌɔriɛnˈteɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự định hướng, buổi giới thiệu",
+      "definition_en": "The particular things that a person prefers, believes, thinks, or usually does; or training or preparation for a new job or activity.",
+      "example_en": "We have an orientation meeting for new employees tomorrow.",
+      "example_vi": "Chúng tôi có một buổi giới thiệu định hướng cho nhân viên mới vào ngày mai.",
+      "collocations_json": [
+        "sexual orientation",
+        "political orientation",
+        "orientation session"
+      ],
+      "synonyms_json": [
+        "direction",
+        "alignment",
+        "introduction"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Finding the Orient (East) to get your bearings.",
+      "frequency_rank": 6300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4933,
+    "fields": {
+      "word": "originate",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈrɪʤəˌneɪt",
+      "ipa_us": "əˈrɪdʒəˌneɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bắt nguồn, khởi phát",
+      "definition_en": "To come from a particular place, time, situation, etc.",
+      "example_en": "The game of chess is thought to have originated in India.",
+      "example_vi": "Trò chơi cờ vua được cho là bắt nguồn từ Ấn Độ.",
+      "collocations_json": [
+        "originate from",
+        "originate in",
+        "originate with"
+      ],
+      "synonyms_json": [
+        "arise",
+        "stem",
+        "derive"
+      ],
+      "antonyms_json": [
+        "end",
+        "terminate"
+      ],
+      "mnemonic": "To be the ORIGIN of something.",
+      "frequency_rank": 5900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4934,
+    "fields": {
+      "word": "outbreak",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈaʊtˌbreɪk",
+      "ipa_us": "ˈaʊtˌbreɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự bùng phát",
+      "definition_en": "A time when something suddenly begins, especially a disease or something else dangerous or unpleasant.",
+      "example_en": "There was an outbreak of cholera in the city.",
+      "example_vi": "Có một sự bùng phát dịch tả trong thành phố.",
+      "collocations_json": [
+        "disease outbreak",
+        "outbreak of war",
+        "prevent an outbreak"
+      ],
+      "synonyms_json": [
+        "eruption",
+        "explosion",
+        "rash"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "When a disease or war BREAKS OUT.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4935,
+    "fields": {
+      "word": "outing",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈaʊtɪŋ",
+      "ipa_us": "ˈaʊtɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cuộc đi chơi, chuyến dã ngoại",
+      "definition_en": "A short journey made by a group of people, usually for pleasure or education.",
+      "example_en": "Our company organized a day outing to the beach.",
+      "example_vi": "Công ty chúng tôi đã tổ chức một chuyến đi dã ngoại một ngày tới bãi biển.",
+      "collocations_json": [
+        "family outing",
+        "school outing",
+        "day outing"
+      ],
+      "synonyms_json": [
+        "trip",
+        "excursion",
+        "expedition"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Going OUT for a fun activity.",
+      "frequency_rank": 7400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4936,
+    "fields": {
+      "word": "outlet",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈaʊtˌlɛt",
+      "ipa_us": "ˈaʊtˌlɛt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cửa hàng tiêu thụ, lối ra",
+      "definition_en": "A shop that is one of many owned by a particular company and that sells the goods that the company has produced; or a way in which emotion or energy can be expressed.",
+      "example_en": "She needed an outlet for her creative energy.",
+      "example_vi": "Cô ấy cần một lối ra (nơi giải tỏa) cho năng lượng sáng tạo của mình.",
+      "collocations_json": [
+        "retail outlet",
+        "media outlet",
+        "emotional outlet"
+      ],
+      "synonyms_json": [
+        "store",
+        "channel",
+        "release"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A place that LETS things OUT (goods or emotions).",
+      "frequency_rank": 5700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4937,
+    "fields": {
+      "word": "outlook",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈaʊtˌlʊk",
+      "ipa_us": "ˈaʊtˌlʊk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quan điểm, triển vọng",
+      "definition_en": "The likely future situation; or a person's way of understanding and thinking about something.",
+      "example_en": "The economic outlook is gloomy.",
+      "example_vi": "Triển vọng kinh tế khá ảm đạm.",
+      "collocations_json": [
+        "positive outlook",
+        "gloomy outlook",
+        "outlook on life"
+      ],
+      "synonyms_json": [
+        "prospect",
+        "perspective",
+        "viewpoint"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "How you LOOK OUT on the world or the future.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4938,
+    "fields": {
+      "word": "outrage",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈaʊˌtreɪʤ",
+      "ipa_us": "ˈaʊtˌreɪdʒ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự phẫn nộ, sự xúc phạm",
+      "definition_en": "A feeling of anger and shock; or a shocking, morally unacceptable, and usually violent action.",
+      "example_en": "The scandal caused public outrage.",
+      "example_vi": "Vụ bê bối đã gây ra sự phẫn nộ trong công chúng.",
+      "collocations_json": [
+        "public outrage",
+        "spark outrage",
+        "express outrage"
+      ],
+      "synonyms_json": [
+        "anger",
+        "fury",
+        "indignation"
+      ],
+      "antonyms_json": [
+        "delight",
+        "pleasure"
+      ],
+      "mnemonic": "Out + rage (extreme anger).",
+      "frequency_rank": 6700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4939,
+    "fields": {
+      "word": "outsider",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "aʊtˈsaɪdər",
+      "ipa_us": "aʊtˈsaɪdər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người ngoài cuộc",
+      "definition_en": "A person who is not involved with a particular group of people or organization or who does not live in a particular place.",
+      "example_en": "As a newcomer, he felt like an outsider.",
+      "example_vi": "Là một người mới đến, anh ấy cảm thấy như một người ngoài cuộc.",
+      "collocations_json": [
+        "feel like an outsider",
+        "rank outsider",
+        "outsider's perspective"
+      ],
+      "synonyms_json": [
+        "stranger",
+        "alien",
+        "newcomer"
+      ],
+      "antonyms_json": [
+        "insider",
+        "member"
+      ],
+      "mnemonic": "Someone who is on the OUTSIDE.",
+      "frequency_rank": 7100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4940,
+    "fields": {
+      "word": "overlook",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈoʊvərˌlʊk",
+      "ipa_us": "ˌoʊvərˈlʊk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bỏ qua, bỏ sót, nhìn ra (phong cảnh)",
+      "definition_en": "To fail to notice or consider something or someone; or to provide a view of, especially from above.",
+      "example_en": "Our balcony overlooks the ocean.",
+      "example_vi": "Ban công của chúng tôi nhìn ra đại dương.",
+      "collocations_json": [
+        "overlook a detail",
+        "easily overlooked",
+        "room overlooks"
+      ],
+      "synonyms_json": [
+        "miss",
+        "ignore",
+        "neglect"
+      ],
+      "antonyms_json": [
+        "notice",
+        "observe",
+        "spot"
+      ],
+      "mnemonic": "To LOOK OVER something and miss it.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4941,
+    "fields": {
+      "word": "overly",
+      "part_of_speech": "adverb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈoʊvərli",
+      "ipa_us": "ˈoʊvərli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quá mức, thái quá",
+      "definition_en": "Too; very.",
+      "example_en": "She was overly anxious about the exam.",
+      "example_vi": "Cô ấy lo lắng thái quá về kỳ thi.",
+      "collocations_json": [
+        "overly complicated",
+        "overly sensitive",
+        "not overly"
+      ],
+      "synonyms_json": [
+        "excessively",
+        "unduly",
+        "too"
+      ],
+      "antonyms_json": [
+        "insufficiently",
+        "barely"
+      ],
+      "mnemonic": "Over + ly -> doing something too much.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4942,
+    "fields": {
+      "word": "oversee",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈoʊvərˌsi",
+      "ipa_us": "ˌoʊvərˈsi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giám sát, quản lý",
+      "definition_en": "To watch or organize a job or an activity to make certain that it is being done correctly.",
+      "example_en": "He was hired to oversee the new project.",
+      "example_vi": "Anh ấy được thuê để giám sát dự án mới.",
+      "collocations_json": [
+        "oversee a project",
+        "oversee operations",
+        "hired to oversee"
+      ],
+      "synonyms_json": [
+        "supervise",
+        "manage",
+        "direct"
+      ],
+      "antonyms_json": [
+        "ignore",
+        "neglect"
+      ],
+      "mnemonic": "To SEE OVER (watch over) the workers.",
+      "frequency_rank": 6000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4943,
+    "fields": {
+      "word": "overturn",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈoʊvərˌtɜrn",
+      "ipa_us": "ˌoʊvərˈtɜrn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lật đổ, đảo ngược (quyết định)",
+      "definition_en": "To (cause to) turn over; or to officially decide that a previous legal decision etc. is not correct and must be changed.",
+      "example_en": "The appeals court overturned the conviction.",
+      "example_vi": "Tòa phúc thẩm đã đảo ngược bản án.",
+      "collocations_json": [
+        "overturn a decision",
+        "overturn a conviction",
+        "car overturned"
+      ],
+      "synonyms_json": [
+        "reverse",
+        "invalidate",
+        "capsize"
+      ],
+      "antonyms_json": [
+        "uphold",
+        "maintain",
+        "support"
+      ],
+      "mnemonic": "To TURN something OVER completely.",
+      "frequency_rank": 7200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4944,
+    "fields": {
+      "word": "overwhelm",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌoʊvərˈwɛlm",
+      "ipa_us": "ˌoʊvərˈwɛlm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "áp đảo, tràn ngập",
+      "definition_en": "To defeat someone or something by using a lot of force; or to cause someone to feel sudden strong emotion.",
+      "example_en": "She was overwhelmed by the support she received.",
+      "example_vi": "Cô ấy vô cùng xúc động (bị choáng ngợp) bởi sự ủng hộ mà cô nhận được.",
+      "collocations_json": [
+        "feel overwhelmed",
+        "overwhelm the senses",
+        "completely overwhelm"
+      ],
+      "synonyms_json": [
+        "inundate",
+        "engulf",
+        "overpower"
+      ],
+      "antonyms_json": [
+        "underwhelm"
+      ],
+      "mnemonic": "Imagine a giant wave coming OVER your HELMet.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4945,
+    "fields": {
+      "word": "overwhelming",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌoʊvərˈwɛlmɪŋ",
+      "ipa_us": "ˌoʊvərˈwɛlmɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "áp đảo, quá mạnh mẽ",
+      "definition_en": "Difficult to fight against; very large or very great.",
+      "example_en": "An overwhelming majority of the members voted for the change.",
+      "example_vi": "Một đa số áp đảo các thành viên đã bỏ phiếu cho sự thay đổi.",
+      "collocations_json": [
+        "overwhelming majority",
+        "overwhelming evidence",
+        "overwhelming urge"
+      ],
+      "synonyms_json": [
+        "staggering",
+        "immense",
+        "irresistible"
+      ],
+      "antonyms_json": [
+        "insignificant",
+        "negligible"
+      ],
+      "mnemonic": "Adjective form of overwhelm.",
+      "frequency_rank": 5400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4946,
+    "fields": {
+      "word": "pad",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "pæd",
+      "ipa_us": "pæd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tấm lót, đệm, tập giấy",
+      "definition_en": "A piece of soft, thick cloth or rubber, used to protect a part of the body, give shape to something, or clean something; or a number of pieces of paper that have been fastened together along one side.",
+      "example_en": "He made a few notes on a writing pad.",
+      "example_vi": "Anh ấy ghi chú vài điều lên một tập giấy nháp.",
+      "collocations_json": [
+        "writing pad",
+        "knee pad",
+        "launch pad"
+      ],
+      "synonyms_json": [
+        "cushion",
+        "block",
+        "tablet"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Think of an iPad or a mousepad.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4947,
+    "fields": {
+      "word": "parameter",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "pəˈræmətər",
+      "ipa_us": "pəˈræmɪtər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thông số, giới hạn",
+      "definition_en": "A set of facts or a fixed limit that establishes or limits how something can or must happen or be done.",
+      "example_en": "The researchers must operate within strict parameters.",
+      "example_vi": "Các nhà nghiên cứu phải hoạt động trong những giới hạn nghiêm ngặt.",
+      "collocations_json": [
+        "set the parameters",
+        "within the parameters",
+        "strict parameters"
+      ],
+      "synonyms_json": [
+        "limit",
+        "boundary",
+        "framework"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Parameters act as perimeters (boundaries).",
+      "frequency_rank": 5200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4948,
+    "fields": {
+      "word": "parental",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "pəˈrɛntəl",
+      "ipa_us": "pəˈrɛntəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về cha mẹ",
+      "definition_en": "Relating to parents or to being a parent.",
+      "example_en": "The movie is rated PG for parental guidance.",
+      "example_vi": "Phim được xếp loại PG (cần sự hướng dẫn của cha mẹ).",
+      "collocations_json": [
+        "parental control",
+        "parental guidance",
+        "parental leave"
+      ],
+      "synonyms_json": [
+        "maternal",
+        "paternal"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adjective form of parent.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4949,
+    "fields": {
+      "word": "parish",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈpærɪʃ",
+      "ipa_us": "ˈpærɪʃ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giáo xứ, xã",
+      "definition_en": "In some Christian denominations, an area cared for by one priest with its own church.",
+      "example_en": "He is the priest of the local parish.",
+      "example_vi": "Ông ấy là linh mục của giáo xứ địa phương.",
+      "collocations_json": [
+        "local parish",
+        "parish church",
+        "parish council"
+      ],
+      "synonyms_json": [
+        "community",
+        "congregation"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A parish is where parishioners go to church.",
+      "frequency_rank": 7800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4950,
+    "fields": {
+      "word": "parliamentary",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌpɑrləˈmɛntəri",
+      "ipa_us": "ˌpɑrləˈmɛntɛri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc nghị viện, quốc hội",
+      "definition_en": "Of or relating to a parliament.",
+      "example_en": "The issue was settled through a parliamentary debate.",
+      "example_vi": "Vấn đề đã được giải quyết thông qua một cuộc tranh luận tại quốc hội.",
+      "collocations_json": [
+        "parliamentary election",
+        "parliamentary debate",
+        "parliamentary democracy"
+      ],
+      "synonyms_json": [
+        "legislative",
+        "governmental"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adjective form of parliament.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4951,
+    "fields": {
+      "word": "partial",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈpɑrʃəl",
+      "ipa_us": "ˈpɑrʃəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một phần, thiên vị",
+      "definition_en": "Not complete; or influenced by the fact that you personally prefer or approve of something, so that you do not judge fairly.",
+      "example_en": "The project was only a partial success.",
+      "example_vi": "Dự án chỉ thành công một phần.",
+      "collocations_json": [
+        "partial success",
+        "partial refund",
+        "be partial to"
+      ],
+      "synonyms_json": [
+        "incomplete",
+        "biased",
+        "prejudiced"
+      ],
+      "antonyms_json": [
+        "complete",
+        "total",
+        "impartial"
+      ],
+      "mnemonic": "Only a PART of the whole.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4952,
+    "fields": {
+      "word": "partially",
+      "part_of_speech": "adverb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈpɑrʃəli",
+      "ipa_us": "ˈpɑrʃəli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một phần",
+      "definition_en": "Not completely.",
+      "example_en": "The road was partially blocked by a fallen tree.",
+      "example_vi": "Con đường bị chặn một phần bởi một cái cây đổ.",
+      "collocations_json": [
+        "partially responsible",
+        "partially destroyed",
+        "only partially"
+      ],
+      "synonyms_json": [
+        "partly",
+        "somewhat",
+        "incompletely"
+      ],
+      "antonyms_json": [
+        "completely",
+        "totally",
+        "fully"
+      ],
+      "mnemonic": "Adverb form of partial.",
+      "frequency_rank": 6500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4953,
+    "fields": {
+      "word": "passing",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈpæsɪŋ",
+      "ipa_us": "ˈpæsɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự qua đời, sự trôi qua",
+      "definition_en": "Death; or the process of time going by.",
+      "example_en": "We were very sad to hear of his passing.",
+      "example_vi": "Chúng tôi rất buồn khi nghe tin ông ấy qua đời.",
+      "collocations_json": [
+        "passing of time",
+        "sad passing",
+        "in passing"
+      ],
+      "synonyms_json": [
+        "death",
+        "demise",
+        "passage"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A polite way to say someone passed away (died).",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

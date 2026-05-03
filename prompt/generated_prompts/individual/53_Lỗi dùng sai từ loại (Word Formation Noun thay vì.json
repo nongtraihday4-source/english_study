@@ -1,0 +1,472 @@
+[
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She is a beauty girl.",
+    "output": "✅ **Corrected Sentence:** She is a **beautiful** girl.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** Trong tiếng Anh, vị trí trước danh từ 'girl' cần một tính từ để miêu tả. 'Beauty' là danh từ (sắc đẹp), còn 'beautiful' là tính từ (xinh đẹp). Người Việt thường dịch 'cô gái đẹp' thành 'beauty girl' vì trong tiếng Việt không có sự phân biệt đuôi từ. Hãy nhớ: **beauty (n) → beautiful (adj)**. Rất dễ sửa phải không nào? 😊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He runs very quick.",
+    "output": "✅ **Corrected Sentence:** He runs very **quickly**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** Động từ 'runs' cần được bổ nghĩa bởi một trạng từ (adverb) để chỉ cách thức. 'Quick' là tính từ, cần thêm đuôi '-ly' để thành 'quickly'. Người Việt thường bỏ qua '-ly' vì tiếng Việt nói 'chạy nhanh' không phân biệt. Hãy nhớ quy tắc: **adj + ly = adverb**. Chạy nhanh là 'run quickly' nhé! 🏃‍♂️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is an interest book.",
+    "output": "✅ **Corrected Sentence:** This is an **interesting** book.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ/động từ gốc thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Interest' có thể là danh từ (sự thú vị) hoặc động từ (làm cho thú vị). Để miêu tả cuốn sách, ta cần tính từ 'interesting' (gây thú vị) hoặc 'interested' (cảm thấy thú vị). Người Việt hay nhầm vì nghĩ 'interest' là 'thú vị' luôn. Hãy nhớ: **The book is interesting (tính chất), I am interested (cảm xúc)**. 📖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He speaks English good.",
+    "output": "✅ **Corrected Sentence:** He speaks English **well**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Good' là tính từ, bổ nghĩa cho danh từ. Ở đây, 'speaks' là động từ nên cần trạng từ 'well'. Người Việt thường nói 'nói tiếng Anh tốt' và dịch trực tiếp 'good' vì không có phân biệt. Hãy nhớ: **good (adj) → well (adv)**. Ví dụ: 'She is a good speaker. She speaks well.' 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "I felt very happiness.",
+    "output": "✅ **Corrected Sentence:** I felt very **happy**.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** Sau động từ liên kết 'felt' (cảm thấy) cần một tính từ, không phải danh từ. 'Happiness' là danh từ (hạnh phúc), còn 'happy' là tính từ (vui vẻ/hạnh phúc). Người Việt dịch 'cảm thấy hạnh phúc' thành 'feel happiness' nhưng đúng ra phải là 'feel happy'. Hãy phân biệt: **I have happiness (n) - I am happy (adj)**. 😊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "The movie was bored.",
+    "output": "✅ **Corrected Sentence:** The movie was **boring**.\n\n🔍 **Error Identification:** Word Form Error (Nhầm lẫn giữa tính từ đuôi -ed và -ing)\n\n📖 **Vietnamese Explanation:** Tính từ đuôi '-ed' diễn tả cảm xúc của người, còn '-ing' diễn tả tính chất của sự vật. 'Bored' là chán (người cảm thấy), 'boring' là gây chán (vật). Người Việt hay dùng nhầm vì cả hai đều dịch là 'chán'. Hãy nhớ: **The movie is boring (tính chất), I am bored (cảm xúc)**. 🎬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She sings beautiful.",
+    "output": "✅ **Corrected Sentence:** She sings **beautifully**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** Động từ 'sings' cần trạng từ để bổ nghĩa. 'Beautiful' là tính từ, thêm '-ly' thành 'beautifully'. Người Việt thường bỏ qua đuôi '-ly' vì trong tiếng Việt không có. Hãy nhớ: **beautiful (adj) → beautifully (adv)**. Cô ấy hát hay: 'She sings beautifully.' 🎤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He is a carefully driver.",
+    "output": "✅ **Corrected Sentence:** He is a **careful** driver.\n\n🔍 **Error Identification:** Word Form Error (Dùng trạng từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** Trước danh từ 'driver' cần một tính từ để miêu tả. 'Carefully' là trạng từ, bỏ '-ly' thành 'careful' (tính từ). Người Việt hay thêm '-ly' quá đà. Hãy nhớ: **careful (adj) → carefully (adv)**. Ở đây dùng tính từ: 'a careful driver'. 🚗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "I am exciting about the trip.",
+    "output": "✅ **Corrected Sentence:** I am **excited** about the trip.\n\n🔍 **Error Identification:** Word Form Error (Nhầm -ing và -ed)\n\n📖 **Vietnamese Explanation:** 'Exciting' (gây hứng thú) dùng cho vật, 'excited' (cảm thấy hứng thú) dùng cho người. Người Việt hay nói 'I am exciting' vì dịch 'tôi hứng thú' nhưng đúng phải là 'excited'. Hãy nhớ: **The trip is exciting → I am excited**. ✈️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She looked at me angry.",
+    "output": "✅ **Corrected Sentence:** She looked at me **angrily**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** Động từ 'looked at' cần trạng từ để bổ nghĩa cách nhìn. 'Angry' là tính từ, cần thành 'angrily'. Tiếng Việt nói 'nhìn tôi giận dữ' không phân biệt. Hãy nhớ: **angry (adj) → angrily (adv)**. 😠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a difficultly question.",
+    "output": "✅ **Corrected Sentence:** This is a **difficult** question.\n\n🔍 **Error Identification:** Word Form Error (Dùng trạng từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** Trước danh từ 'question' cần tính từ. 'Difficultly' là trạng từ, bỏ '-ly' thành 'difficult'. Người Việt thêm '-ly' nhầm. Hãy nhớ: **difficult (adj) - difficulty (n) - difficultly (adv)**. Ở đây dùng adj. ❓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He drives very careful.",
+    "output": "✅ **Corrected Sentence:** He drives very **carefully**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Drives' là động từ, cần trạng từ. 'Careful' thành 'carefully'. Rất nhiều người Việt quên '-ly'. Hãy nhớ câu: 'He is a careful driver, so he drives carefully.' 🚘"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "The weather is sun today.",
+    "output": "✅ **Corrected Sentence:** The weather is **sunny** today.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** Sau 'is' cần tính từ. 'Sun' là danh từ (mặt trời), 'sunny' là tính từ (có nắng). Người Việt dịch 'trời nắng' thành 'sun' vì nghĩ 'nắng' là danh từ. Hãy nhớ: **sun (n) → sunny (adj)**. ☀️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "I was very interesting in the lecture.",
+    "output": "✅ **Corrected Sentence:** I was very **interested** in the lecture.\n\n🔍 **Error Identification:** Word Form Error (Nhầm -ing và -ed)\n\n📖 **Vietnamese Explanation:** Người cảm thấy hứng thú dùng 'interested'. 'Interesting' dùng cho sự vật gây hứng thú. Người Việt hay nhầm vì 'interesting' nghe quen hơn. Hãy nhớ: **The lecture is interesting → I am interested**. 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She works very lazy.",
+    "output": "✅ **Corrected Sentence:** She works very **lazily**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Works' cần trạng từ. 'Lazy' → 'lazily'. Người Việt thường giữ nguyên 'lazy'. Hãy nhớ: **lazy (adj) → lazily (adv)**. Cô ấy làm việc lười biếng: 'works lazily'. 😴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He is a friend person.",
+    "output": "✅ **Corrected Sentence:** He is a **friendly** person.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Friend' là danh từ (bạn bè), cần tính từ 'friendly' (thân thiện). Người Việt dịch 'người bạn' thành 'friend person' nhưng sai. Hãy nhớ: **friend (n) → friendly (adj)**. 👫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "Please speak slow.",
+    "output": "✅ **Corrected Sentence:** Please speak **slowly**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Speak' cần trạng từ. 'Slow' có thể là tính từ hoặc trạng từ trong một số trường hợp (informal), nhưng chuẩn là 'slowly'. Để an toàn, hãy dùng 'slowly'. Người Việt hay nói 'speak slow' theo kiểu informal. 🐢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a tradition dish of Vietnam.",
+    "output": "✅ **Corrected Sentence:** This is a **traditional** dish of Vietnam.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Tradition' là danh từ (truyền thống), cần tính từ 'traditional' (thuộc truyền thống). Người Việt dịch 'món ăn truyền thống' thành 'tradition dish' vì trong tiếng Việt không thay đổi từ. Hãy nhớ: **tradition (n) → traditional (adj)**. 🍜"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He looked at me sad.",
+    "output": "✅ **Corrected Sentence:** He looked at me **sadly**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Looked at' cần trạng từ. 'Sad' → 'sadly'. Người Việt nói 'nhìn tôi buồn' dịch trực tiếp 'sad'. Hãy nhớ thêm đuôi '-ly' cho động từ chỉ cách thức. 😢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "I am very boring with this game.",
+    "output": "✅ **Corrected Sentence:** I am very **bored** with this game.\n\n🔍 **Error Identification:** Word Form Error (Nhầm -ing và -ed)\n\n📖 **Vietnamese Explanation:** Người cảm thấy chán dùng 'bored', trò chơi gây chán là 'boring'. Người Việt hay dùng 'boring' cho cả hai. Hãy nhớ: **The game is boring → I am bored**. 🎮"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She dresses very fashion.",
+    "output": "✅ **Corrected Sentence:** She dresses very **fashionably**.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Fashion' là danh từ (thời trang), cần trạng từ 'fashionably' (một cách thời trang). Người Việt dịch 'ăn mặc thời trang' thành 'dress fashion' nhưng sai. Hãy nhớ: **fashion (n) → fashionable (adj) → fashionably (adv)**. 👗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He is a success businessman.",
+    "output": "✅ **Corrected Sentence:** He is a **successful** businessman.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Success' là danh từ (thành công), cần tính từ 'successful' để miêu tả doanh nhân. Người Việt dịch 'doanh nhân thành công' thành 'success businessman'. Hãy nhớ: **success (n) → successful (adj)**. 💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "I can't think difference.",
+    "output": "✅ **Corrected Sentence:** I can't think **differently**.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ/tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Think' cần trạng từ bổ nghĩa. 'Difference' là danh từ (sự khác biệt), 'different' là tính từ, 'differently' là trạng từ. Người Việt thường dùng 'different' hoặc 'difference' sai. Hãy nhớ: **think differently** (suy nghĩ khác đi). 🤔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This exercise is very easily.",
+    "output": "✅ **Corrected Sentence:** This exercise is very **easy**.\n\n🔍 **Error Identification:** Word Form Error (Dùng trạng từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** Sau 'is' cần tính từ. 'Easily' là trạng từ, bỏ '-ly' thành 'easy'. Người Việt hay thêm '-ly' vào tính từ. Hãy nhớ: **easy (adj) - easily (adv)**. Bài tập dễ: 'easy exercise'. 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She reacted very quick to the news.",
+    "output": "✅ **Corrected Sentence:** She reacted very **quickly** to the news.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Reacted' là động từ cần trạng từ. 'Quick' → 'quickly'. Người Việt thường bỏ '-ly'. Hãy tập thói quen thêm '-ly' cho trạng từ chỉ cách thức. ⚡"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He gave me a friend advice.",
+    "output": "✅ **Corrected Sentence:** He gave me a **friendly** advice.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Friend' là danh từ, cần tính từ 'friendly' (thân thiện) trước danh từ 'advice'. Người Việt nói 'lời khuyên thân thiện' dịch thành 'friend advice' sai. Hãy nhớ: **friendly advice**. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She always works hardly.",
+    "output": "✅ **Corrected Sentence:** She always works **hard**.\n\n🔍 **Error Identification:** Word Form Error (Dùng sai trạng từ - 'hardly' có nghĩa khác)\n\n📖 **Vietnamese Explanation:** 'Hard' vừa là tính từ vừa là trạng từ (chăm chỉ). 'Hardly' lại có nghĩa là 'hầu như không'. Người Việt thường thêm '-ly' để thành trạng từ nhưng đây là ngoại lệ. Hãy nhớ: **work hard** (làm việc chăm chỉ) ≠ **hardly work** (hầu như không làm việc). 💪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a danger road.",
+    "output": "✅ **Corrected Sentence:** This is a **dangerous** road.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Danger' là danh từ (nguy hiểm), cần tính từ 'dangerous'. Người Việt dịch 'con đường nguy hiểm' thành 'danger road'. Hãy nhớ: **danger (n) → dangerous (adj)**. ⚠️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He explained the problem clear.",
+    "output": "✅ **Corrected Sentence:** He explained the problem **clearly**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Explained' cần trạng từ. 'Clear' có thể là tính từ hoặc trạng từ trong một số ngữ cảnh, nhưng chuẩn là 'clearly'. Người Việt thường giữ nguyên 'clear'. Hãy dùng 'clearly' cho văn phong trang trọng. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "I felt very tiredness after work.",
+    "output": "✅ **Corrected Sentence:** I felt very **tired** after work.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** Sau 'felt' cần tính từ. 'Tiredness' là danh từ (sự mệt mỏi), 'tired' là tính từ. Người Việt nói 'cảm thấy mệt mỏi' dịch thành 'feel tiredness' nhưng sai. Hãy nhớ: **feel tired**. 😴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She is a beauty singer.",
+    "output": "✅ **Corrected Sentence:** She is a **beautiful** singer.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Beauty' là danh từ, cần 'beautiful' trước danh từ 'singer'. Người Việt dịch 'ca sĩ đẹp' thành 'beauty singer' rất phổ biến. Hãy sửa thành 'beautiful singer'. 🎤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "Please do your homework careful.",
+    "output": "✅ **Corrected Sentence:** Please do your homework **carefully**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** Động từ 'do' cần trạng từ bổ nghĩa. 'Careful' → 'carefully'. Hãy nhớ câu thần chú: **Làm bài tập cẩn thận = do homework carefully**. ✏️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "The lesson was very interested.",
+    "output": "✅ **Corrected Sentence:** The lesson was very **interesting**.\n\n🔍 **Error Identification:** Word Form Error (Nhầm -ed và -ing)\n\n📖 **Vietnamese Explanation:** Bài học là đối tượng gây hứng thú, dùng 'interesting'. 'Interested' dùng cho người. Người Việt hay nhầm. Hãy nhớ: **The lesson is interesting; I am interested**. 📖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He shouted angry at me.",
+    "output": "✅ **Corrected Sentence:** He shouted **angrily** at me.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Shouted' là động từ cần trạng từ. 'Angry' → 'angrily'. Người Việt nói 'hét giận dữ' dịch trực tiếp 'angry'. Hãy thêm '-ly'. 😤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a peace place.",
+    "output": "✅ **Corrected Sentence:** This is a **peaceful** place.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Peace' là danh từ (hòa bình), cần tính từ 'peaceful' (yên bình). Người Việt dịch 'nơi yên bình' thành 'peace place' – hãy sửa thành 'peaceful place'. 🕊️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "I can do this easy.",
+    "output": "✅ **Corrected Sentence:** I can do this **easily**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Do' cần trạng từ. 'Easy' → 'easily'. Người Việt thường nói 'do this easy' trong khẩu ngữ, nhưng viết chuẩn phải là 'easily'. ✅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She is a luck girl.",
+    "output": "✅ **Corrected Sentence:** She is a **lucky** girl.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Luck' là danh từ (may mắn), 'lucky' là tính từ. Người Việt nói 'cô gái may mắn' thành 'luck girl'. Hãy nhớ: **luck (n) → lucky (adj)**. 🍀"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He answered the question correct.",
+    "output": "✅ **Corrected Sentence:** He answered the question **correctly**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Answered' cần trạng từ. 'Correct' → 'correctly'. Người Việt hay giữ nguyên 'correct'. Hãy nhớ: **answer correctly**. ✔️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "The food smells deliciously.",
+    "output": "✅ **Corrected Sentence:** The food smells **delicious**.\n\n🔍 **Error Identification:** Word Form Error (Dùng trạng từ thay vì tính từ sau động từ liên kết)\n\n📖 **Vietnamese Explanation:** 'Smells' là động từ liên kết (linking verb), sau nó cần tính từ, không phải trạng từ. 'Deliciously' là trạng từ, 'delicious' là tính từ. Người Việt thấy 'smells' là động từ nên thêm '-ly'. Hãy nhớ: **The food smells delicious** (giống như 'is delicious'). 👃"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He looked happy at the party.",
+    "output": "✅ **Corrected Sentence:** He looked **happy** at the party. (Câu này đúng! 'Looked' là linking verb)\n\n🔍 **Error Identification:** Không có lỗi, nhưng nhiều người Việt nhầm tưởng cần 'happily'. Đây là bài học phân biệt.\n\n📖 **Vietnamese Explanation:** 'Look' có thể là hành động nhìn (action verb) thì dùng trạng từ: 'He looked happily at the painting' (anh ấy nhìn bức tranh một cách vui vẻ). Hoặc là động từ liên kết (có vẻ như) thì dùng tính từ: 'He looked happy' (anh ấy trông có vẻ vui). Bạn dùng đúng rồi! 😊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She spoke very soft.",
+    "output": "✅ **Corrected Sentence:** She spoke very **softly**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Spoke' cần trạng từ. 'Soft' → 'softly'. Người Việt nói 'nói nhẹ nhàng' thành 'speak soft'. Hãy thêm '-ly'. 🤫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a wonder place to visit.",
+    "output": "✅ **Corrected Sentence:** This is a **wonderful** place to visit.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Wonder' là danh từ (kỳ quan), cần tính từ 'wonderful' (tuyệt vời). Người Việt dịch 'nơi kỳ diệu' thành 'wonder place' – hãy sửa thành 'wonderful'. ✨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He behaved very bad.",
+    "output": "✅ **Corrected Sentence:** He behaved very **badly**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Behaved' cần trạng từ. 'Bad' → 'badly'. Tuy nhiên, trong khẩu ngữ 'bad' đôi khi được dùng như trạng từ, nhưng chuẩn là 'badly'. Hãy dùng 'badly' trong văn viết. 😈"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She is a very friend person.",
+    "output": "✅ **Corrected Sentence:** She is a very **friendly** person.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Friend' là danh từ, cần 'friendly'. Người Việt thường nói 'friend person' vì dịch 'người bạn'. Hãy nhớ: **friendly person**. 👩‍🦰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "I am extreme tired.",
+    "output": "✅ **Corrected Sentence:** I am **extremely** tired.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ để bổ nghĩa cho tính từ)\n\n📖 **Vietnamese Explanation:** 'Tired' là tính từ, cần trạng từ bổ nghĩa. 'Extreme' là tính từ → 'extremely' (trạng từ). Người Việt hay dùng 'extreme' trực tiếp. Hãy nhớ: **extremely tired** (cực kỳ mệt). 😩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He drives more slow than me.",
+    "output": "✅ **Corrected Sentence:** He drives more **slowly** than me.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ trong so sánh)\n\n📖 **Vietnamese Explanation:** 'Drives' cần trạng từ. 'Slow' → 'slowly'. So sánh hơn: 'more slowly'. Người Việt thường nói 'more slow' (sai). Hãy nhớ: **slowly → more slowly**. 🐌"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a use book.",
+    "output": "✅ **Corrected Sentence:** This is a **useful** book.\n\n🔍 **Error Identification:** Word Form Error (Dùng động từ/danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Use' có thể là động từ (sử dụng) hoặc danh từ (việc dùng). Cần tính từ 'useful' (hữu ích). Người Việt dịch 'sách hữu ích' thành 'use book' – hãy sửa. 📘"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She smiled happy when she saw me.",
+    "output": "✅ **Corrected Sentence:** She smiled **happily** when she saw me.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Smiled' là hành động, cần trạng từ 'happily'. Người Việt dịch 'cười hạnh phúc' thành 'smile happy'. Hãy nhớ: **smile happily**. 😊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He is a creativity person.",
+    "output": "✅ **Corrected Sentence:** He is a **creative** person.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Creativity' là danh từ (sự sáng tạo), cần tính từ 'creative' (sáng tạo). Người Việt nói 'người sáng tạo' thành 'creativity person' – sai. 🎨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "Please listen careful to what I say.",
+    "output": "✅ **Corrected Sentence:** Please listen **carefully** to what I say.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Listen' cần trạng từ. 'Careful' → 'carefully'. Người Việt hay quên '-ly'. Hãy tập trung nghe kỹ nhé: **listen carefully**. 👂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "The soup tastes salt.",
+    "output": "✅ **Corrected Sentence:** The soup tastes **salty**.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Salt' là danh từ (muối), sau động từ liên kết 'tastes' cần tính từ 'salty' (mặn). Người Việt nói 'canh có vị muối' thành 'tastes salt' – hãy sửa. 🥣"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She dances very grace.",
+    "output": "✅ **Corrected Sentence:** She dances very **gracefully**.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Grace' là danh từ (sự duyên dáng), cần trạng từ 'gracefully' (một cách duyên dáng). Người Việt dịch 'nhảy duyên dáng' thành 'dance grace'. Hãy nhớ: **grace (n) → graceful (adj) → gracefully (adv)**. 💃"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He is a power man.",
+    "output": "✅ **Corrected Sentence:** He is a **powerful** man.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Power' là danh từ (sức mạnh), cần tính từ 'powerful' (mạnh mẽ). Người Việt nói 'người đàn ông quyền lực' thành 'power man' – sai. 💪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "I can't breath easy.",
+    "output": "✅ **Corrected Sentence:** I can't breathe **easily**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ) + lỗi chính tả 'breathe'\n\n📖 **Vietnamese Explanation:** 'Breathe' là động từ, cần trạng từ 'easily'. 'Easy' là tính từ. Người Việt thường nói 'breathe easy' trong khẩu ngữ nhưng chuẩn là 'easily'. Hãy nhớ: **breathe easily**. 😮‍💨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a comfort chair.",
+    "output": "✅ **Corrected Sentence:** This is a **comfortable** chair.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ/động từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Comfort' là danh từ (sự thoải mái), cần tính từ 'comfortable'. Người Việt dịch 'ghế thoải mái' thành 'comfort chair'. Hãy sửa thành 'comfortable chair'. 🪑"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He finished the race quick.",
+    "output": "✅ **Corrected Sentence:** He finished the race **quickly**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Finished' cần trạng từ. 'Quick' → 'quickly'. Người Việt hay bỏ '-ly'. Hãy nhớ: **finish quickly**. 🏁"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She looks beauty in that dress.",
+    "output": "✅ **Corrected Sentence:** She looks **beautiful** in that dress.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ sau linking verb)\n\n📖 **Vietnamese Explanation:** 'Looks' ở đây là động từ liên kết (trông có vẻ), cần tính từ 'beautiful'. 'Beauty' là danh từ. Người Việt nói 'trông đẹp' thành 'look beauty' – sai. 👗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He always acts very child.",
+    "output": "✅ **Corrected Sentence:** He always acts very **childish**.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Child' là danh từ (trẻ con), cần tính từ 'childish' (trẻ con, ấu trĩ). Người Việt nói 'hành động trẻ con' thành 'act child'. Hãy nhớ: **childish behavior**. 🧒"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a nature product.",
+    "output": "✅ **Corrected Sentence:** This is a **natural** product.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Nature' là danh từ (tự nhiên), cần tính từ 'natural' (tự nhiên). Người Việt dịch 'sản phẩm tự nhiên' thành 'nature product' – hãy sửa. 🌿"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She cried bitter.",
+    "output": "✅ **Corrected Sentence:** She cried **bitterly**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Cried' cần trạng từ. 'Bitter' là tính từ (đắng, cay đắng) → 'bitterly' (một cách cay đắng). Người Việt nói 'khóc cay đắng' thành 'cry bitter' – sai. 😭"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He is a fame actor.",
+    "output": "✅ **Corrected Sentence:** He is a **famous** actor.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Fame' là danh từ (danh tiếng), cần tính từ 'famous' (nổi tiếng). Người Việt nói 'diễn viên nổi tiếng' thành 'fame actor'. Hãy nhớ: **famous actor**. 🌟"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "Please write this down separate.",
+    "output": "✅ **Corrected Sentence:** Please write this down **separately**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Write' cần trạng từ. 'Separate' (adj) → 'separately' (adv). Người Việt hay giữ nguyên 'separate'. Hãy nhớ: **write separately**. ✍️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "The music sounds noise.",
+    "output": "✅ **Corrected Sentence:** The music sounds **noisy**.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Noise' là danh từ (tiếng ồn), sau 'sounds' cần tính từ 'noisy' (ồn ào). Người Việt nói 'âm nhạc nghe ồn' thành 'sounds noise'. Hãy sửa. 🎵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He treats his employees fair.",
+    "output": "✅ **Corrected Sentence:** He treats his employees **fairly**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Treats' cần trạng từ. 'Fair' (adj) → 'fairly' (adv). Người Việt nói 'đối xử công bằng' thành 'treat fair' – hãy thêm '-ly'. ⚖️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a price gift.",
+    "output": "✅ **Corrected Sentence:** This is a **precious** gift.\n\n🔍 **Error Identification:** Word Form Error (Dùng sai từ loại – 'price' là danh từ, cần tính từ 'precious' hoặc 'valuable')\n\n📖 **Vietnamese Explanation:** 'Price' là danh từ (giá cả), không thể đứng trước 'gift' để miêu tả. Cần tính từ 'precious' (quý giá). Người Việt dịch 'món quà quý giá' thành 'price gift' – sai. 🎁"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She reacted immediate to the news.",
+    "output": "✅ **Corrected Sentence:** She reacted **immediately** to the news.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Reacted' cần trạng từ. 'Immediate' (adj) → 'immediately' (adv). Người Việt thường bỏ '-ly'. Hãy nhớ: **react immediately**. 🚨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He is a really talent musician.",
+    "output": "✅ **Corrected Sentence:** He is a really **talented** musician.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Talent' là danh từ (tài năng), cần tính từ 'talented' (tài năng). Người Việt nói 'nhạc sĩ tài năng' thành 'talent musician'. Hãy sửa. 🎵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "I can see clear now.",
+    "output": "✅ **Corrected Sentence:** I can see **clearly** now.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'See' cần trạng từ. 'Clear' → 'clearly'. Bài hát nổi tiếng 'I can see clearly now' – hãy nhớ nhé! ☀️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a danger situation.",
+    "output": "✅ **Corrected Sentence:** This is a **dangerous** situation.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Danger' → 'dangerous'. Người Việt dịch 'tình huống nguy hiểm' thành 'danger situation'. Hãy sửa. ⚡"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She whispered soft in my ear.",
+    "output": "✅ **Corrected Sentence:** She whispered **softly** in my ear.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Whispered' cần trạng từ. 'Soft' → 'softly'. Người Việt nói 'thì thầm nhẹ nhàng' thành 'whisper soft'. 🤫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He gave me a friend smile.",
+    "output": "✅ **Corrected Sentence:** He gave me a **friendly** smile.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Friend' → 'friendly'. 'A friendly smile' (nụ cười thân thiện). Người Việt nói 'nụ cười bạn bè' thành 'friend smile'. 😊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She dresses very simple.",
+    "output": "✅ **Corrected Sentence:** She dresses very **simply**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Dresses' cần trạng từ. 'Simple' → 'simply'. Tuy nhiên, 'simple' đôi khi được dùng không chính thức, nhưng chuẩn là 'simply'. Hãy nhớ: **dress simply**. 👗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a magic place.",
+    "output": "✅ **Corrected Sentence:** This is a **magical** place. (Hoặc 'magic' cũng có thể dùng như tính từ, nhưng 'magical' phổ biến hơn)\n\n🔍 **Error Identification:** Không sai hẳn, nhưng 'magical' tự nhiên hơn để chỉ nơi huyền diệu.\n\n📖 **Vietnamese Explanation:** 'Magic' có thể là tính từ (phép thuật) như 'magic trick', nhưng để miêu tả nơi chốn, 'magical' (kỳ diệu) thường được dùng. Người Việt hay dùng 'magic place' – vẫn hiểu được, nhưng 'magical place' hay hơn. ✨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He works very efficiency.",
+    "output": "✅ **Corrected Sentence:** He works very **efficiently**.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Efficiency' là danh từ (hiệu suất), cần trạng từ 'efficiently' (một cách hiệu quả). Người Việt nói 'làm việc hiệu quả' thành 'work efficiency' – sai. ⚙️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She is a help person.",
+    "output": "✅ **Corrected Sentence:** She is a **helpful** person.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ/động từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Help' có thể là động từ hoặc danh từ. Cần tính từ 'helpful' (hữu ích, hay giúp đỡ). Người Việt nói 'người hay giúp đỡ' thành 'help person'. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "Please handle this careful.",
+    "output": "✅ **Corrected Sentence:** Please handle this **carefully**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Handle' cần trạng từ. 'Careful' → 'carefully'. Hãy cẩn thận xử lý: 'handle carefully'. 📦"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "The coffee tastes bitterness.",
+    "output": "✅ **Corrected Sentence:** The coffee tastes **bitter**.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ sau linking verb)\n\n📖 **Vietnamese Explanation:** 'Bitterness' là danh từ (vị đắng), sau 'tastes' cần tính từ 'bitter' (đắng). Người Việt nói 'cà phê có vị đắng' thành 'tastes bitterness'. Hãy nhớ: **tastes bitter**. ☕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He answered me polite.",
+    "output": "✅ **Corrected Sentence:** He answered me **politely**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Answered' cần trạng từ. 'Polite' → 'politely'. Người Việt nói 'trả lời lịch sự' thành 'answer polite'. Hãy thêm '-ly'. 🎩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a season vegetable.",
+    "output": "✅ **Corrected Sentence:** This is a **seasonal** vegetable.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Season' là danh từ (mùa), cần tính từ 'seasonal' (theo mùa). Người Việt nói 'rau theo mùa' thành 'season vegetable' – sai. 🥬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She smiled sweet at the baby.",
+    "output": "✅ **Corrected Sentence:** She smiled **sweetly** at the baby.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Smiled' cần trạng từ. 'Sweet' → 'sweetly'. Người Việt nói 'cười ngọt ngào' thành 'smile sweet'. 🍬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He is a care driver.",
+    "output": "✅ **Corrected Sentence:** He is a **careful** driver.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ/động từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Care' có thể là danh từ (sự chăm sóc) hoặc động từ (quan tâm). Cần tính từ 'careful' (cẩn thận). Người Việt nói 'tài xế cẩn thận' thành 'care driver'. 🚗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "I can't hear you clear.",
+    "output": "✅ **Corrected Sentence:** I can't hear you **clearly**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Hear' cần trạng từ. 'Clear' → 'clearly'. Người Việt nói 'nghe rõ' thành 'hear clear'. Hãy sửa. 🦻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a peace solution.",
+    "output": "✅ **Corrected Sentence:** This is a **peaceful** solution.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Peace' → 'peaceful'. 'Giải pháp hòa bình' không phải 'peace solution' mà là 'peaceful solution'. 🕊️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She performed very impression.",
+    "output": "✅ **Corrected Sentence:** She performed very **impressively**.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Impression' là danh từ (ấn tượng), cần trạng từ 'impressively' (một cách ấn tượng). Người Việt nói 'biểu diễn ấn tượng' thành 'perform impression'. 🎭"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He is a sport person.",
+    "output": "✅ **Corrected Sentence:** He is a **sporty** person. (Hoặc 'sports person' nhưng 'sporty' phổ biến hơn)\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Sport' là danh từ, cần tính từ 'sporty' (ưa thể thao, năng động). Người Việt nói 'người thể thao' thành 'sport person' – hãy dùng 'sporty'. 🏃"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "Please drive slow in the rain.",
+    "output": "✅ **Corrected Sentence:** Please drive **slowly** in the rain.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Drive' cần trạng từ. 'Slow' → 'slowly'. Mặc dù 'slow' có thể dùng không chính thức, nhưng 'slowly' là chuẩn. Hãy lái xe chậm: 'drive slowly'. 🌧️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She is a reliance friend.",
+    "output": "✅ **Corrected Sentence:** She is a **reliable** friend.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Reliance' là danh từ (sự tin cậy), cần tính từ 'reliable' (đáng tin cậy). Người Việt nói 'bạn đáng tin cậy' thành 'reliance friend'. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He spoke very quiet.",
+    "output": "✅ **Corrected Sentence:** He spoke very **quietly**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Spoke' cần trạng từ. 'Quiet' → 'quietly'. Người Việt nói 'nói yên lặng' thành 'speak quiet' – thực tế 'quiet' có thể dùng như adv không chính thức, nhưng 'quietly' tốt hơn. 🤫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a wonder view.",
+    "output": "✅ **Corrected Sentence:** This is a **wonderful** view.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Wonder' → 'wonderful'. 'Khung cảnh tuyệt vời' là 'wonderful view', không phải 'wonder view'. 🌄"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "She accepted the job happy.",
+    "output": "✅ **Corrected Sentence:** She accepted the job **happily**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Accepted' cần trạng từ. 'Happy' → 'happily'. Người Việt nói 'chấp nhận vui vẻ' thành 'accept happy'. 😊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He is a success writer.",
+    "output": "✅ **Corrected Sentence:** He is a **successful** writer.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Success' → 'successful'. 'Nhà văn thành công' là 'successful writer'. ✍️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "The baby sleeps peace.",
+    "output": "✅ **Corrected Sentence:** The baby sleeps **peacefully**.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Peace' là danh từ, cần trạng từ 'peacefully' (yên bình). Người Việt nói 'ngủ yên bình' thành 'sleep peace'. 😴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "This is a practice example.",
+    "output": "✅ **Corrected Sentence:** This is a **practical** example.\n\n🔍 **Error Identification:** Word Form Error (Dùng danh từ thay vì tính từ)\n\n📖 **Vietnamese Explanation:** 'Practice' là danh từ (thực hành), cần tính từ 'practical' (thực tế, thiết thực). Người Việt nói 'ví dụ thực tế' thành 'practice example'. 📘"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp và từ vựng trong câu sau của học viên.",
+    "input": "He responded immediate.",
+    "output": "✅ **Corrected Sentence:** He responded **immediately**.\n\n🔍 **Error Identification:** Word Form Error (Dùng tính từ thay vì trạng từ)\n\n📖 **Vietnamese Explanation:** 'Responded' cần trạng từ. 'Immediate' → 'immediately'. Người Việt hay bỏ '-ly'. Hãy nhớ: **respond immediately**. 📞"
+  }
+]

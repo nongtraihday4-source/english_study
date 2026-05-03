@@ -1,0 +1,277 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the man who I spoke yesterday.",
+    "output": "✅ **Corrected Sentence:** This is the man to whom I spoke yesterday. (hoặc who I spoke to)\n🔍 **Error Identification:** Thiếu giới từ 'to' – 'speak to someone'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'nói chuyện với' quên giới từ 'to' khi dùng 'who'. Mẹo: Nhớ cụm động từ: speak to, talk to, listen to → cần giới từ.\n💡 **Ví dụ:** The friend whom I talked to is here. / The person to whom you wrote is my boss."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house that I live is very old.",
+    "output": "✅ **Corrected Sentence:** The house that I live in is very old. (hoặc where I live)\n🔍 **Error Identification:** Thiếu giới từ 'in' – 'live in a house'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'sống trong nhà' quên 'in'. Mẹo: Những động từ cần giới từ: live in, stay at, work at.\n💡 **Ví dụ:** The hotel that we stayed at was cheap. / The city where I live is crowded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The music which she is listening is classical.",
+    "output": "✅ **Corrected Sentence:** The music which she is listening to is classical. (hoặc to which she is listening)\n🔍 **Error Identification:** Thiếu giới từ 'to' – 'listen to music'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to' sau 'listen' trong mệnh đề quan hệ. Mẹo: 'Listen to' luôn có 'to'.\n💡 **Ví dụ:** The podcast that I listen to is interesting. / The song to which she danced is popular."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The school which I graduated is famous.",
+    "output": "✅ **Corrected Sentence:** The school which I graduated from is famous. (hoặc from which I graduated)\n🔍 **Error Identification:** Thiếu giới từ 'from' – 'graduate from school'.\n📘 **Vietnamese Explanation:** Người Việt quên 'from' sau 'graduate'. Mẹo: 'Graduate from' là cố định.\n💡 **Ví dụ:** The university that I graduated from is prestigious. / The program from which I graduated was challenging."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The person who I am waiting is my friend.",
+    "output": "✅ **Corrected Sentence:** The person who I am waiting for is my friend. (hoặc for whom I am waiting)\n🔍 **Error Identification:** Thiếu giới từ 'for' – 'wait for someone'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for' sau 'wait'. Mẹo: 'Wait for' luôn có 'for'.\n💡 **Ví dụ:** The bus that I'm waiting for is late. / The client for whom I'm waiting is here."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The job that I applied was perfect for me.",
+    "output": "✅ **Corrected Sentence:** The job that I applied for was perfect for me. (hoặc for which I applied)\n🔍 **Error Identification:** Thiếu giới từ 'for' – 'apply for a job'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for' sau 'apply'. Mẹo: 'Apply for' (nộp đơn xin).\n💡 **Ví dụ:** The position that she applied for is competitive. / The scholarship for which he applied was awarded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the book which I'm interested.",
+    "output": "✅ **Corrected Sentence:** This is the book which I'm interested in. (hoặc in which I'm interested)\n🔍 **Error Identification:** Thiếu giới từ 'in' – 'interested in something'.\n📘 **Vietnamese Explanation:** Người Việt quên 'in' sau 'interested'. Mẹo: 'Interested in' là cố định.\n💡 **Ví dụ:** The topic that I'm interested in is history. / The subject in which she is interested is art."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The friend who I went on vacation was Tom.",
+    "output": "✅ **Corrected Sentence:** The friend who I went on vacation with was Tom. (hoặc with whom I went)\n🔍 **Error Identification:** Thiếu giới từ 'with' – 'go with someone'.\n📘 **Vietnamese Explanation:** Người Việt quên 'with' sau 'go'. Mẹo: 'Go with' (đi cùng).\n💡 **Ví dụ:** The colleague that I work with is nice. / The person with whom I traveled is my cousin."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The bed which I slept was uncomfortable.",
+    "output": "✅ **Corrected Sentence:** The bed which I slept in was uncomfortable. (hoặc in which I slept)\n🔍 **Error Identification:** Thiếu giới từ 'in' – 'sleep in a bed'.\n📘 **Vietnamese Explanation:** Người Việt quên 'in' sau 'sleep'. Mẹo: 'Sleep in' (ngủ trong/trên).\n💡 **Ví dụ:** The room that I slept in was dark. / The bed in which she slept is soft."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The company which she works is very large.",
+    "output": "✅ **Corrected Sentence:** The company which she works for is very large. (hoặc for which she works)\n🔍 **Error Identification:** Thiếu giới từ 'for' – 'work for a company'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for' sau 'work'. Mẹo: 'Work for' (làm việc cho).\n💡 **Ví dụ:** The organization that he works for is non-profit. / The company for which she works is global."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man that she is married is a doctor.",
+    "output": "✅ **Corrected Sentence:** The man that she is married to is a doctor. (hoặc to whom she is married)\n🔍 **Error Identification:** Thiếu giới từ 'to' – 'married to someone'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to' sau 'married'. Mẹo: 'Married to' (kết hôn với).\n💡 **Ví dụ:** The woman that he is married to is kind. / The person to whom she is married is a lawyer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the issue which we are concerned.",
+    "output": "✅ **Corrected Sentence:** This is the issue which we are concerned about. (hoặc about which we are concerned)\n🔍 **Error Identification:** Thiếu giới từ 'about' – 'concerned about something'.\n📘 **Vietnamese Explanation:** Người Việt quên 'about' sau 'concerned'. Mẹo: 'Concerned about' (lo lắng về).\n💡 **Ví dụ:** The problem that I'm concerned about is serious. / The matter about which they are concerned is urgent."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house which I paid a lot is on the corner.",
+    "output": "✅ **Corrected Sentence:** The house which I paid a lot for is on the corner. (hoặc for which I paid a lot)\n🔍 **Error Identification:** Thiếu giới từ 'for' – 'pay for something'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for' sau 'pay'. Mẹo: 'Pay for' (trả tiền cho).\n💡 **Ví dụ:** The meal that I paid for was expensive. / The car for which he paid a lot is fast."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the chair that I sat.",
+    "output": "✅ **Corrected Sentence:** This is the chair that I sat on. (hoặc on which I sat)\n🔍 **Error Identification:** Thiếu giới từ 'on' – 'sit on a chair'.\n📘 **Vietnamese Explanation:** Người Việt quên 'on' sau 'sit'. Mẹo: 'Sit on' (ngồi trên).\n💡 **Ví dụ:** The bench that we sat on was comfortable. / The stool on which he sat is broken."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The topic which she is good is science.",
+    "output": "✅ **Corrected Sentence:** The topic which she is good at is science. (hoặc at which she is good)\n🔍 **Error Identification:** Thiếu giới từ 'at' – 'good at something'.\n📘 **Vietnamese Explanation:** Người Việt quên 'at' sau 'good'. Mẹo: 'Good at' (giỏi về).\n💡 **Ví dụ:** The subject that I'm good at is math. / The skill at which she excels is painting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The person who I borrowed the book is my teacher.",
+    "output": "✅ **Corrected Sentence:** The person who I borrowed the book from is my teacher. (hoặc from whom I borrowed)\n🔍 **Error Identification:** Thiếu giới từ 'from' – 'borrow from someone'.\n📘 **Vietnamese Explanation:** Người Việt quên 'from' sau 'borrow'. Mẹo: 'Borrow from' (mượn từ).\n💡 **Ví dụ:** The friend that I borrowed money from is generous. / The library from which I borrowed books is big."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The room which I study is quiet.",
+    "output": "✅ **Corrected Sentence:** The room which I study in is quiet. (hoặc where I study)\n🔍 **Error Identification:** Thiếu giới từ 'in' – 'study in a room'.\n📘 **Vietnamese Explanation:** Người Việt quên 'in' sau 'study'. Mẹo: 'Study in' (học trong).\n💡 **Ví dụ:** The library that I study in is open late. / The place where I study is comfortable."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the restaurant which we ate yesterday.",
+    "output": "✅ **Corrected Sentence:** This is the restaurant which we ate at yesterday. (hoặc where we ate)\n🔍 **Error Identification:** Thiếu giới từ 'at' – 'eat at a restaurant'.\n📘 **Vietnamese Explanation:** Người Việt quên 'at' sau 'eat'. Mẹo: 'Eat at' (ăn ở).\n💡 **Ví dụ:** The cafe that we ate at was cozy. / The place where we ate is popular."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The problem that we are dealing is complicated.",
+    "output": "✅ **Corrected Sentence:** The problem that we are dealing with is complicated. (hoặc with which we are dealing)\n🔍 **Error Identification:** Thiếu giới từ 'with' – 'deal with a problem'.\n📘 **Vietnamese Explanation:** Người Việt quên 'with' sau 'deal'. Mẹo: 'Deal with' (giải quyết).\n💡 **Ví dụ:** The issue that she is dealing with is serious. / The situation with which we are dealing is difficult."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man which I gave the present was my father.",
+    "output": "✅ **Corrected Sentence:** The man to whom I gave the present was my father. (hoặc who I gave the present to)\n🔍 **Error Identification:** Thiếu giới từ 'to' và dùng sai 'which' – 'give something to someone'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to' và dùng 'which' cho người. Mẹo: 'Give to' + người.\n💡 **Ví dụ:** The woman to whom I sent the letter is my aunt. / The friend who I gave the gift to is happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The school which I studied at is famous. (câu đúng) - Học viên viết \'The school which I studied is famous.\'",
+    "output": "✅ **Corrected Sentence:** The school which I studied at is famous.\n🔍 **Error Identification:** Thiếu giới từ 'at' – 'study at a school'.\n📘 **Vietnamese Explanation:** Người Việt quên 'at' sau 'study' khi nói về trường học. Mẹo: 'Study at' (học tại).\n💡 **Ví dụ:** The university that I studied at is old. / The college where I studied is small."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who I live is my brother.",
+    "output": "✅ **Corrected Sentence:** The man who I live with is my brother. (hoặc with whom I live)\n🔍 **Error Identification:** Thiếu giới từ 'with' – 'live with someone'.\n📘 **Vietnamese Explanation:** Người Việt quên 'with' sau 'live' khi nói về người. Mẹo: 'Live with' (sống cùng).\n💡 **Ví dụ:** The roommate that I live with is nice. / The person with whom she lives is her sister."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The party which we went was boring.",
+    "output": "✅ **Corrected Sentence:** The party which we went to was boring. (hoặc to which we went)\n🔍 **Error Identification:** Thiếu giới từ 'to' – 'go to a party'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to' sau 'go'. Mẹo: 'Go to' (đi đến).\n💡 **Ví dụ:** The concert that we went to was amazing. / The event to which she went was formal."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the computer which I work.",
+    "output": "✅ **Corrected Sentence:** This is the computer which I work on. (hoặc on which I work)\n🔍 **Error Identification:** Thiếu giới từ 'on' – 'work on a computer'.\n📘 **Vietnamese Explanation:** Người Việt quên 'on' sau 'work'. Mẹo: 'Work on' (làm việc trên).\n💡 **Ví dụ:** The laptop that I work on is fast. / The machine on which he works is noisy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The hotel which we stayed was expensive.",
+    "output": "✅ **Corrected Sentence:** The hotel which we stayed at was expensive. (hoặc where we stayed)\n🔍 **Error Identification:** Thiếu giới từ 'at' – 'stay at a hotel'.\n📘 **Vietnamese Explanation:** Người Việt quên 'at' sau 'stay'. Mẹo: 'Stay at' (ở tại).\n💡 **Ví dụ:** The inn that we stayed at was cozy. / The place where we stayed is near the beach."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The person which I talked was my boss.",
+    "output": "✅ **Corrected Sentence:** The person to whom I talked was my boss. (hoặc who I talked to)\n🔍 **Error Identification:** Thiếu giới từ 'to' và dùng sai 'which' – 'talk to someone'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to' và dùng 'which' cho người. Mẹo: 'Talk to' + người.\n💡 **Ví dụ:** The colleague that I talked to is helpful. / The manager to whom she talked is strict."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car that I paid a lot broke down.",
+    "output": "✅ **Corrected Sentence:** The car that I paid a lot for broke down. (hoặc for which I paid a lot)\n🔍 **Error Identification:** Thiếu giới từ 'for' – 'pay for a car'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for' sau 'pay'. Mẹo: 'Pay for' (trả tiền cho).\n💡 **Ví dụ:** The house that she paid a lot for is beautiful. / The item for which he paid is expensive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the place which I was born.",
+    "output": "✅ **Corrected Sentence:** This is the place where I was born. (hoặc in which I was born)\n🔍 **Error Identification:** Thiếu giới từ 'in' – 'born in a place'.\n📘 **Vietnamese Explanation:** Người Việt quên 'in' sau 'born'. Mẹo: 'Born in' (sinh ra ở).\n💡 **Ví dụ:** The city where I was born is small. / The village in which she was born is quiet."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The woman who I am looking is my mother.",
+    "output": "✅ **Corrected Sentence:** The woman who I am looking at is my mother. (hoặc at whom I am looking)\n🔍 **Error Identification:** Thiếu giới từ 'at' – 'look at someone'.\n📘 **Vietnamese Explanation:** Người Việt quên 'at' sau 'look'. Mẹo: 'Look at' (nhìn vào).\n💡 **Ví dụ:** The person that I'm looking at is my friend. / The picture at which she is looking is beautiful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie which we talked was interesting.",
+    "output": "✅ **Corrected Sentence:** The movie which we talked about was interesting. (hoặc about which we talked)\n🔍 **Error Identification:** Thiếu giới từ 'about' – 'talk about something'.\n📘 **Vietnamese Explanation:** Người Việt quên 'about' sau 'talk'. Mẹo: 'Talk about' (nói về).\n💡 **Ví dụ:** The book that we talked about is famous. / The topic about which they talked is serious."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house which I grew up is still there.",
+    "output": "✅ **Corrected Sentence:** The house which I grew up in is still there. (hoặc where I grew up)\n🔍 **Error Identification:** Thiếu giới từ 'in' – 'grow up in a house'.\n📘 **Vietnamese Explanation:** Người Việt quên 'in' sau 'grow up'. Mẹo: 'Grow up in' (lớn lên ở).\n💡 **Ví dụ:** The town that I grew up in is quiet. / The neighborhood where I grew up is friendly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The friend who I went to the cinema was John.",
+    "output": "✅ **Corrected Sentence:** The friend who I went to the cinema with was John. (hoặc with whom I went)\n🔍 **Error Identification:** Thiếu giới từ 'with' – 'go with someone'.\n📘 **Vietnamese Explanation:** Người Việt quên 'with' khi nói về người đi cùng. Mẹo: 'Go with' (đi cùng).\n💡 **Ví dụ:** The colleague that I went to the conference with is smart. / The person with whom she traveled is her sister."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the box which I put my jewelry.",
+    "output": "✅ **Corrected Sentence:** This is the box which I put my jewelry in. (hoặc in which I put my jewelry)\n🔍 **Error Identification:** Thiếu giới từ 'in' – 'put something in a box'.\n📘 **Vietnamese Explanation:** Người Việt quên 'in' sau 'put'. Mẹo: 'Put in' (đặt vào trong).\n💡 **Ví dụ:** The drawer that I put my clothes in is full. / The container in which she put the food is clean."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The doctor who I went was very kind.",
+    "output": "✅ **Corrected Sentence:** The doctor who I went to was very kind. (hoặc to whom I went)\n🔍 **Error Identification:** Thiếu giới từ 'to' – 'go to a doctor'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to' sau 'go'. Mẹo: 'Go to' (đi đến).\n💡 **Ví dụ:** The specialist that I went to is famous. / The clinic to which she went is nearby."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The song which she is listening is beautiful.",
+    "output": "✅ **Corrected Sentence:** The song which she is listening to is beautiful. (hoặc to which she is listening)\n🔍 **Error Identification:** Thiếu giới từ 'to' – 'listen to a song'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to' sau 'listen'. Mẹo: 'Listen to' (nghe).\n💡 **Ví dụ:** The podcast that I'm listening to is informative. / The music to which she is listening is classical."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The company which I applied is a tech firm.",
+    "output": "✅ **Corrected Sentence:** The company which I applied to is a tech firm. (hoặc to which I applied)\n🔍 **Error Identification:** Thiếu giới từ 'to' – 'apply to a company'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to' sau 'apply'. Mẹo: 'Apply to' (nộp đơn vào).\n💡 **Ví dụ:** The university that I applied to is prestigious. / The program to which she applied is competitive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The chair which I sat was broken.",
+    "output": "✅ **Corrected Sentence:** The chair which I sat on was broken. (hoặc on which I sat)\n🔍 **Error Identification:** Thiếu giới từ 'on' – 'sit on a chair'.\n📘 **Vietnamese Explanation:** Người Việt quên 'on' sau 'sit'. Mẹo: 'Sit on' (ngồi trên).\n💡 **Ví dụ:** The bench that I sat on was uncomfortable. / The stool on which he sat is wobbly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The person which I sent the email is my manager.",
+    "output": "✅ **Corrected Sentence:** The person to whom I sent the email is my manager. (hoặc who I sent the email to)\n🔍 **Error Identification:** Thiếu giới từ 'to' và dùng sai 'which' – 'send to someone'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to' và dùng 'which' cho người. Mẹo: 'Send to' + người.\n💡 **Ví dụ:** The client that I sent the proposal to is happy. / The colleague to whom she sent the message is helpful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The hotel that we stayed in was cheap. (câu đúng) - Học viên viết \'The hotel that we stayed was cheap.\'",
+    "output": "✅ **Corrected Sentence:** The hotel that we stayed in was cheap.\n🔍 **Error Identification:** Thiếu giới từ 'in' – 'stay in a hotel'.\n📘 **Vietnamese Explanation:** Người Việt quên 'in' sau 'stay'. Mẹo: 'Stay in' (ở trong).\n💡 **Ví dụ:** The room that we stayed in was small. / The house where we stayed is big."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who I received the letter is my uncle.",
+    "output": "✅ **Corrected Sentence:** The man from whom I received the letter is my uncle. (hoặc who I received the letter from)\n🔍 **Error Identification:** Thiếu giới từ 'from' – 'receive from someone'.\n📘 **Vietnamese Explanation:** Người Việt quên 'from' sau 'receive'. Mẹo: 'Receive from' (nhận từ).\n💡 **Ví dụ:** The friend that I received the gift from is generous. / The person from whom she got the news is reliable."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The school which I teach is international.",
+    "output": "✅ **Corrected Sentence:** The school which I teach at is international. (hoặc where I teach)\n🔍 **Error Identification:** Thiếu giới từ 'at' – 'teach at a school'.\n📘 **Vietnamese Explanation:** Người Việt quên 'at' sau 'teach'. Mẹo: 'Teach at' (dạy tại).\n💡 **Ví dụ:** The university that I teach at is large. / The college where she teaches is famous."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the box where I put my keys. (câu đúng) - Học viên viết \'This is the box I put my keys.\'",
+    "output": "✅ **Corrected Sentence:** This is the box where I put my keys. (hoặc that I put my keys in)\n🔍 **Error Identification:** Có thể lược bỏ đại từ quan hệ khi nó làm tân ngữ: 'the box (that) I put my keys in'.\n📘 **Vietnamese Explanation:** Người Việt có thể lược bỏ 'that/which' khi chúng làm tân ngữ. Mẹo: 'The box I put my keys in' là đúng và tự nhiên.\n💡 **Ví dụ:** The book I'm reading is good. / The house she lives in is old."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The music I'm listening is classical. (thiếu 'to')",
+    "output": "✅ **Corrected Sentence:** The music I'm listening to is classical.\n🔍 **Error Identification:** Thiếu giới từ 'to' – 'listen to music'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to' sau 'listen', ngay cả khi lược bỏ đại từ. Mẹo: 'Listening to' luôn có 'to'.\n💡 **Ví dụ:** The song she's listening to is catchy. / The podcast I listen to is informative."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The friend I went to the cinema is Tom. (thiếu 'with')",
+    "output": "✅ **Corrected Sentence:** The friend I went to the cinema with is Tom.\n🔍 **Error Identification:** Thiếu giới từ 'with' – 'go with someone'.\n📘 **Vietnamese Explanation:** Người Việt quên 'with' khi lược bỏ đại từ. Mẹo: 'Go with' (đi cùng).\n💡 **Ví dụ:** The colleague I work with is nice. / The person she lives with is her sister."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The company she works is Google. (thiếu 'for')",
+    "output": "✅ **Corrected Sentence:** The company she works for is Google.\n🔍 **Error Identification:** Thiếu giới từ 'for' – 'work for a company'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for' sau 'work'. Mẹo: 'Work for' (làm việc cho).\n💡 **Ví dụ:** The organization he works for is non-profit. / The firm she works for is large."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The hotel we stayed was expensive. (thiếu 'at')",
+    "output": "✅ **Corrected Sentence:** The hotel we stayed at was expensive.\n🔍 **Error Identification:** Thiếu giới từ 'at' – 'stay at a hotel'.\n📘 **Vietnamese Explanation:** Người Việt quên 'at' sau 'stay'. Mẹo: 'Stay at' (ở tại).\n💡 **Ví dụ:** The inn we stayed at was cozy. / The resort they stayed at is beautiful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The person I talked was my boss. (thiếu 'to')",
+    "output": "✅ **Corrected Sentence:** The person I talked to was my boss.\n🔍 **Error Identification:** Thiếu giới từ 'to' – 'talk to someone'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to' sau 'talk'. Mẹo: 'Talk to' (nói chuyện với).\n💡 **Ví dụ:** The colleague I talked to is helpful. / The manager she talked to is strict."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The university I graduated is Harvard. (thiếu 'from')",
+    "output": "✅ **Corrected Sentence:** The university I graduated from is Harvard.\n🔍 **Error Identification:** Thiếu giới từ 'from' – 'graduate from'.\n📘 **Vietnamese Explanation:** Người Việt quên 'from' sau 'graduate'. Mẹo: 'Graduate from' (tốt nghiệp từ).\n💡 **Ví dụ:** The school she graduated from is famous. / The program he graduated from is rigorous."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The bed I slept was uncomfortable. (thiếu 'in')",
+    "output": "✅ **Corrected Sentence:** The bed I slept in was uncomfortable.\n🔍 **Error Identification:** Thiếu giới từ 'in' – 'sleep in a bed'.\n📘 **Vietnamese Explanation:** Người Việt quên 'in' sau 'sleep'. Mẹo: 'Sleep in' (ngủ trong).\n💡 **Ví dụ:** The room she slept in was dark. / The bed he slept in is soft."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie we talked was boring. (thiếu 'about')",
+    "output": "✅ **Corrected Sentence:** The movie we talked about was boring.\n🔍 **Error Identification:** Thiếu giới từ 'about' – 'talk about'.\n📘 **Vietnamese Explanation:** Người Việt quên 'about' sau 'talk'. Mẹo: 'Talk about' (nói về).\n💡 **Ví dụ:** The book they talked about is famous. / The topic we talked about is serious."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house I grew up is still there. (thiếu 'in')",
+    "output": "✅ **Corrected Sentence:** The house I grew up in is still there.\n🔍 **Error Identification:** Thiếu giới từ 'in' – 'grow up in'.\n📘 **Vietnamese Explanation:** Người Việt quên 'in' sau 'grow up'. Mẹo: 'Grow up in' (lớn lên ở).\n💡 **Ví dụ:** The town she grew up in is quiet. / The city he grew up in is big."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The chair I sat was broken. (thiếu 'on')",
+    "output": "✅ **Corrected Sentence:** The chair I sat on was broken.\n🔍 **Error Identification:** Thiếu giới từ 'on' – 'sit on'.\n📘 **Vietnamese Explanation:** Người Việt quên 'on' sau 'sit'. Mẹo: 'Sit on' (ngồi trên).\n💡 **Ví dụ:** The bench she sat on was comfortable. / The stool he sat on is wobbly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the place I was born. (thiếu 'in')",
+    "output": "✅ **Corrected Sentence:** This is the place where I was born. (hoặc I was born in)\n🔍 **Error Identification:** Thiếu giới từ 'in' – 'born in a place'.\n📘 **Vietnamese Explanation:** Người Việt quên 'in' sau 'born'. Mẹo: 'Born in' (sinh ra ở).\n💡 **Ví dụ:** The city she was born in is small. / The village where he was born is quiet."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man I borrowed the money is my friend. (thiếu 'from')",
+    "output": "✅ **Corrected Sentence:** The man I borrowed the money from is my friend.\n🔍 **Error Identification:** Thiếu giới từ 'from' – 'borrow from'.\n📘 **Vietnamese Explanation:** Người Việt quên 'from' sau 'borrow'. Mẹo: 'Borrow from' (mượn từ).\n💡 **Ví dụ:** The friend she borrowed the book from is generous. / The bank he borrowed money from is reliable."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The doctor I went was very kind. (thiếu 'to')",
+    "output": "✅ **Corrected Sentence:** The doctor I went to was very kind.\n🔍 **Error Identification:** Thiếu giới từ 'to' – 'go to a doctor'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to' sau 'go'. Mẹo: 'Go to' (đi đến).\n💡 **Ví dụ:** The specialist she went to is famous. / The clinic he went to is nearby."
+  }
+]

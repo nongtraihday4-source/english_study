@@ -1,0 +1,1817 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 1803,
+    "fields": {
+      "word": "tourism",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "ˈtʊˌrɪzəm",
+      "ipa_us": "ˈtʊrɪzəm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ngành du lịch",
+      "definition_en": "The business of providing services such as transport, places to stay, or entertainment for people who are on holiday.",
+      "example_en": "Tourism is an important industry in Vietnam.",
+      "example_vi": "Du lịch là một ngành công nghiệp quan trọng ở Việt Nam.",
+      "collocations_json": [
+        "local tourism",
+        "tourism industry",
+        "promote tourism"
+      ],
+      "synonyms_json": [
+        "travel industry"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tour (chuyến du lịch) + ism (chủ nghĩa, ngành) -> Ngành du lịch.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1804,
+    "fields": {
+      "word": "towards",
+      "part_of_speech": "other",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "təˈwɔrdz",
+      "ipa_us": "tɔːrdz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "về phía, hướng tới",
+      "definition_en": "In the direction of, or closer to someone or something.",
+      "example_en": "He walked towards the door.",
+      "example_vi": "Anh ấy đã đi về phía cánh cửa.",
+      "collocations_json": [
+        "move towards",
+        "look towards",
+        "step towards"
+      ],
+      "synonyms_json": [
+        "toward"
+      ],
+      "antonyms_json": [
+        "away from"
+      ],
+      "mnemonic": "To (đến) + wards (hướng) -> Hướng tới một điểm nào đó.",
+      "frequency_rank": 500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1805,
+    "fields": {
+      "word": "towel",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈtaʊəl",
+      "ipa_us": "ˈtaʊəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khăn tắm, khăn lau",
+      "definition_en": "A piece of cloth or paper used for drying someone or something that is wet.",
+      "example_en": "Can I have a clean towel, please?",
+      "example_vi": "Cho tôi xin một chiếc khăn sạch được không?",
+      "collocations_json": [
+        "bath towel",
+        "paper towel",
+        "dry with a towel"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Towel: Tao-ờ. Tao ờ (sợ) ướt nên dùng khăn tắm lau khô.",
+      "frequency_rank": 3200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1806,
+    "fields": {
+      "word": "tower",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈtaʊər",
+      "ipa_us": "ˈtaʊər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tòa tháp, tháp",
+      "definition_en": "A tall, narrow building or part of a building that rises high above the ground.",
+      "example_en": "They visited the Eiffel Tower in Paris.",
+      "example_vi": "Họ đã đến thăm tháp Eiffel ở Paris.",
+      "collocations_json": [
+        "clock tower",
+        "water tower",
+        "Eiffel Tower"
+      ],
+      "synonyms_json": [
+        "pillar",
+        "column"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tower: Tao-ờ. Tao ờ (sợ) độ cao nên không dám leo lên tòa tháp.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1807,
+    "fields": {
+      "word": "toy",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "tɔɪ",
+      "ipa_us": "tɔɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đồ chơi",
+      "definition_en": "An object for children to play with.",
+      "example_en": "The child is playing with a toy car.",
+      "example_vi": "Đứa trẻ đang chơi với một chiếc ô tô đồ chơi.",
+      "collocations_json": [
+        "soft toy",
+        "toy shop",
+        "children's toy"
+      ],
+      "synonyms_json": [
+        "plaything"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Toy: Toi. Đứa bé làm hỏng đồ chơi thì 'toi' rồi.",
+      "frequency_rank": 2100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1808,
+    "fields": {
+      "word": "track",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "træk",
+      "ipa_us": "træk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đường ray, đường chạy, dấu vết",
+      "definition_en": "A path or rough road that is made of soil rather than having a surface covered with stone or other material. Also, a type of path or road, often in the shape of a ring, that has been specially designed and built for sports events, especially racing.",
+      "example_en": "The train goes on the track.",
+      "example_vi": "Đoàn tàu chạy trên đường ray.",
+      "collocations_json": [
+        "train track",
+        "keep track of",
+        "lose track of"
+      ],
+      "synonyms_json": [
+        "path",
+        "trail",
+        "route"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Track: Trách. Chạy sai đường chạy (track) bị huấn luyện viên trách mắng.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1809,
+    "fields": {
+      "word": "tradition",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "trəˈdɪʃən",
+      "ipa_us": "trəˈdɪʃn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "truyền thống",
+      "definition_en": "A belief, principle, or way of acting that people in a particular society or group have continued to follow for a long time.",
+      "example_en": "It is a tradition to eat turkey on Thanksgiving.",
+      "example_vi": "Ăn gà tây vào Lễ Tạ ơn là một truyền thống.",
+      "collocations_json": [
+        "long tradition",
+        "keep a tradition",
+        "break with tradition"
+      ],
+      "synonyms_json": [
+        "custom",
+        "practice",
+        "habit"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tra-di-tion: Cha đi sờn (tróc) cả dép để giữ gìn truyền thống gia đình.",
+      "frequency_rank": 1500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1810,
+    "fields": {
+      "word": "traditional",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "trəˈdɪʃənəl",
+      "ipa_us": "trəˈdɪʃənl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về truyền thống, theo truyền thống",
+      "definition_en": "Following or belonging to the customs or ways of behaving that have continued in a group of people or society for a long time without changing.",
+      "example_en": "Ao dai is the traditional dress of Vietnam.",
+      "example_vi": "Áo dài là trang phục truyền thống của Việt Nam.",
+      "collocations_json": [
+        "traditional food",
+        "traditional music",
+        "traditional culture"
+      ],
+      "synonyms_json": [
+        "conventional",
+        "customary"
+      ],
+      "antonyms_json": [
+        "modern",
+        "new"
+      ],
+      "mnemonic": "Tradition (truyền thống) + al (đuôi tính từ).",
+      "frequency_rank": 1100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1811,
+    "fields": {
+      "word": "train",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "treɪn",
+      "ipa_us": "treɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đào tạo, huấn luyện, tập luyện",
+      "definition_en": "To prepare someone or yourself for a job, activity, or sport, by learning skills and/or by mental or physical exercise.",
+      "example_en": "He is training to be a doctor.",
+      "example_vi": "Anh ấy đang được đào tạo để trở thành bác sĩ.",
+      "collocations_json": [
+        "train hard",
+        "train a dog",
+        "fully trained"
+      ],
+      "synonyms_json": [
+        "instruct",
+        "teach",
+        "coach"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Train ngoài nghĩa là tàu hỏa thì còn có nghĩa là huấn luyện (như một đoàn tàu rèn luyện tính kỷ luật).",
+      "frequency_rank": 700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1812,
+    "fields": {
+      "word": "trainer",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "ˈtreɪnər",
+      "ipa_us": "ˈtreɪnər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người huấn luyện, huấn luyện viên, giày thể thao",
+      "definition_en": "A person who teaches skills to people or animals and prepares them for a job, activity, or sport.",
+      "example_en": "He works as a personal trainer at the gym.",
+      "example_vi": "Anh ấy làm huấn luyện viên cá nhân tại phòng gym.",
+      "collocations_json": [
+        "personal trainer",
+        "fitness trainer",
+        "pair of trainers"
+      ],
+      "synonyms_json": [
+        "coach",
+        "instructor"
+      ],
+      "antonyms_json": ["trainee"],
+      "mnemonic": "Train (huấn luyện) + er (người) -> Người huấn luyện.",
+      "frequency_rank": 2500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1813,
+    "fields": {
+      "word": "training",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈtreɪnɪŋ",
+      "ipa_us": "ˈtreɪnɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự đào tạo, sự huấn luyện",
+      "definition_en": "The process of learning the skills you need to do a particular job or activity.",
+      "example_en": "The company provides training for new staff.",
+      "example_vi": "Công ty cung cấp khóa đào tạo cho nhân viên mới.",
+      "collocations_json": [
+        "training course",
+        "training session",
+        "vocational training"
+      ],
+      "synonyms_json": [
+        "education",
+        "instruction",
+        "preparation"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Train (huấn luyện) + ing -> Việc huấn luyện.",
+      "frequency_rank": 950,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1814,
+    "fields": {
+      "word": "transport",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "ˈtrænspɔrt",
+      "ipa_us": "ˈtrænspɔːrt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giao thông, vận tải, phương tiện đi lại",
+      "definition_en": "The movement of people or goods from one place to another.",
+      "example_en": "I usually travel by public transport.",
+      "example_vi": "Tôi thường đi lại bằng phương tiện giao thông công cộng.",
+      "collocations_json": [
+        "public transport",
+        "transport system",
+        "road transport"
+      ],
+      "synonyms_json": [
+        "transportation",
+        "transit"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Trans (qua) + port (cảng) -> Vận chuyển hàng hóa qua các cảng.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1815,
+    "fields": {
+      "word": "traveller",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "ˈtrævələr",
+      "ipa_us": "ˈtrævlər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "du khách, người đi lại",
+      "definition_en": "A person who is travelling or who often travels.",
+      "example_en": "The hotel is popular with business travellers.",
+      "example_vi": "Khách sạn này rất phổ biến với những người đi công tác.",
+      "collocations_json": [
+        "business traveller",
+        "tired traveller",
+        "frequent traveller"
+      ],
+      "synonyms_json": [
+        "tourist",
+        "passenger",
+        "voyager"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Travel (du lịch) + er (người) -> Người đi du lịch.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1816,
+    "fields": {
+      "word": "trouble",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈtrʌbəl",
+      "ipa_us": "ˈtrʌbl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "rắc rối, khó khăn",
+      "definition_en": "Problems or difficulties.",
+      "example_en": "He got into trouble with the police.",
+      "example_vi": "Anh ta đã gặp rắc rối với cảnh sát.",
+      "collocations_json": [
+        "in trouble",
+        "cause trouble",
+        "have trouble doing"
+      ],
+      "synonyms_json": [
+        "problem",
+        "difficulty",
+        "issue"
+      ],
+      "antonyms_json": ["peace", "ease"],
+      "mnemonic": "Trouble: Tráp-bồ (trap). Bị sập bẫy (trap) là gặp rắc rối rồi.",
+      "frequency_rank": 900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1817,
+    "fields": {
+      "word": "truck",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "trʌk",
+      "ipa_us": "trʌk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "xe tải",
+      "definition_en": "A large road vehicle that is used for transporting large amounts of goods.",
+      "example_en": "The truck was carrying a heavy load.",
+      "example_vi": "Chiếc xe tải đang chở một tải trọng nặng.",
+      "collocations_json": [
+        "drive a truck",
+        "truck driver",
+        "pickup truck"
+      ],
+      "synonyms_json": [
+        "lorry",
+        "van"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Truck: Trắc. Trắc trở như lái xe tải trên đường núi.",
+      "frequency_rank": 1600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1818,
+    "fields": {
+      "word": "twin",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "twɪn",
+      "ipa_us": "twɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sinh đôi, một trong hai người sinh đôi",
+      "definition_en": "Either of two children born to the same mother on the same occasion.",
+      "example_en": "She has a twin brother.",
+      "example_vi": "Cô ấy có một người anh trai sinh đôi.",
+      "collocations_json": [
+        "twin brother",
+        "twin sister",
+        "identical twins"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Twin: Tuynh. Hai người sinh đôi lúc nào cũng dính chặt lấy nhau như cặp tuynh.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1819,
+    "fields": {
+      "word": "typical",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈtɪpəkəl",
+      "ipa_us": "ˈtɪpɪkl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "điển hình, tiêu biểu",
+      "definition_en": "Showing all the characteristics that you would usually expect from a particular group of things.",
+      "example_en": "It was a typical summer day.",
+      "example_vi": "Đó là một ngày mùa hè điển hình.",
+      "collocations_json": [
+        "typical example",
+        "typical of",
+        "typical day"
+      ],
+      "synonyms_json": [
+        "normal",
+        "average",
+        "standard"
+      ],
+      "antonyms_json": [
+        "unusual",
+        "atypical",
+        "rare"
+      ],
+      "mnemonic": "Ty-pi-cal: Tí-pi-cồ. Tính cách điển hình của thằng Tí là thích ăn bánh cồ (to).",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1820,
+    "fields": {
+      "word": "underground",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "ˈʌndərˌɡraʊnd",
+      "ipa_us": "ˌʌndərˈɡraʊnd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "dưới mặt đất, ngầm",
+      "definition_en": "Below the surface of the earth; below ground.",
+      "example_en": "We parked in the underground car park.",
+      "example_vi": "Chúng tôi đã đỗ xe ở bãi đậu xe dưới tầng hầm.",
+      "collocations_json": [
+        "underground station",
+        "underground train",
+        "underground parking"
+      ],
+      "synonyms_json": [
+        "subterranean",
+        "buried"
+      ],
+      "antonyms_json": [
+        "aboveground",
+        "overground"
+      ],
+      "mnemonic": "Under (dưới) + ground (mặt đất) = Dưới mặt đất.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1821,
+    "fields": {
+      "word": "understanding",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "academic",
+      "ipa_uk": "ˌʌndərˈstændɪŋ",
+      "ipa_us": "ˌʌndərˈstændɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự hiểu biết, sự thấu hiểu",
+      "definition_en": "Knowledge about a subject, situation, etc. or about how something works.",
+      "example_en": "He has a good understanding of maths.",
+      "example_vi": "Anh ấy có một sự hiểu biết tốt về toán học.",
+      "collocations_json": [
+        "clear understanding",
+        "basic understanding",
+        "lack of understanding"
+      ],
+      "synonyms_json": [
+        "comprehension",
+        "knowledge",
+        "grasp"
+      ],
+      "antonyms_json": [
+        "misunderstanding",
+        "ignorance"
+      ],
+      "mnemonic": "Understand (hiểu) + ing = Sự hiểu biết.",
+      "frequency_rank": 1100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1822,
+    "fields": {
+      "word": "unfortunately",
+      "part_of_speech": "adverb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ənˈfɔrʧənətli",
+      "ipa_us": "ʌnˈfɔːrtʃənətli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thật không may, đáng tiếc là",
+      "definition_en": "Used to say that something is sad, disappointing, or has a bad effect.",
+      "example_en": "Unfortunately, I can't come to the party.",
+      "example_vi": "Thật đáng tiếc, tôi không thể đến bữa tiệc.",
+      "collocations_json": [
+        "but unfortunately"
+      ],
+      "synonyms_json": [
+        "unluckily",
+        "sadly",
+        "regrettably"
+      ],
+      "antonyms_json": [
+        "fortunately",
+        "luckily"
+      ],
+      "mnemonic": "Un (không) + fortunately (may mắn) = Không may.",
+      "frequency_rank": 1500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1823,
+    "fields": {
+      "word": "unhappy",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ənˈhæpi",
+      "ipa_us": "ʌnˈhæpi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "không hạnh phúc, buồn bã",
+      "definition_en": "Sad or not satisfied.",
+      "example_en": "He looks very unhappy.",
+      "example_vi": "Anh ấy trông có vẻ rất buồn.",
+      "collocations_json": [
+        "feel unhappy",
+        "look unhappy",
+        "make someone unhappy"
+      ],
+      "synonyms_json": [
+        "sad",
+        "miserable",
+        "depressed"
+      ],
+      "antonyms_json": [
+        "happy",
+        "joyful",
+        "cheerful"
+      ],
+      "mnemonic": "Un (không) + happy (hạnh phúc) = Không vui.",
+      "frequency_rank": 2400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1824,
+    "fields": {
+      "word": "uniform",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈjunəˌfɔrm",
+      "ipa_us": "ˈjuːnɪfɔːrm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đồng phục",
+      "definition_en": "A particular set of clothes that has to be worn by the members of the same organization or group of people.",
+      "example_en": "Nurses have to wear a uniform.",
+      "example_vi": "Y tá phải mặc đồng phục.",
+      "collocations_json": [
+        "school uniform",
+        "wear a uniform",
+        "in uniform"
+      ],
+      "synonyms_json": [
+        "outfit",
+        "attire"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Uni (một) + form (hình thức) -> Cùng một hình thức trang phục.",
+      "frequency_rank": 1900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1825,
+    "fields": {
+      "word": "unit",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "academic",
+      "ipa_uk": "ˈjunət",
+      "ipa_us": "ˈjuːnɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đơn vị, bài học",
+      "definition_en": "A single thing or a separate part of something larger.",
+      "example_en": "The metre is a unit of length.",
+      "example_vi": "Mét là một đơn vị đo chiều dài.",
+      "collocations_json": [
+        "unit of measurement",
+        "family unit",
+        "basic unit"
+      ],
+      "synonyms_json": [
+        "measure",
+        "section",
+        "component"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Unit: Niu-nít. Một đơn vị tí nít trong một tổng thể lớn.",
+      "frequency_rank": 800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1826,
+    "fields": {
+      "word": "united",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "juˈnaɪtəd",
+      "ipa_us": "juˈnaɪtɪd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "liên hiệp, đoàn kết",
+      "definition_en": "Joined together as a group.",
+      "example_en": "We must stand united.",
+      "example_vi": "Chúng ta phải đứng thành một khối đoàn kết.",
+      "collocations_json": [
+        "United States",
+        "United Kingdom",
+        "stand united"
+      ],
+      "synonyms_json": [
+        "combined",
+        "joined",
+        "allied"
+      ],
+      "antonyms_json": [
+        "divided",
+        "separated"
+      ],
+      "mnemonic": "Unit (đơn vị) -> United: Gộp các đơn vị lại thành một khối đoàn kết.",
+      "frequency_rank": 450,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1827,
+    "fields": {
+      "word": "unusual",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ənˈjuʒˌuəl",
+      "ipa_us": "ʌnˈjuːʒuəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bất thường, khác thường",
+      "definition_en": "Different from others of the same type in a way that is surprising, interesting, or attractive.",
+      "example_en": "It's unusual for him to be late.",
+      "example_vi": "Thật bất thường khi anh ấy đến muộn.",
+      "collocations_json": [
+        "highly unusual",
+        "unusual name",
+        "unusual shape"
+      ],
+      "synonyms_json": [
+        "uncommon",
+        "rare",
+        "extraordinary"
+      ],
+      "antonyms_json": [
+        "usual",
+        "common",
+        "ordinary"
+      ],
+      "mnemonic": "Un (không) + usual (thông thường) = Không thông thường.",
+      "frequency_rank": 1600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1828,
+    "fields": {
+      "word": "upstairs",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "əpˈstɛrz",
+      "ipa_us": "ˌʌpˈsterz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ở tầng trên, trên lầu",
+      "definition_en": "Towards or on the highest floor or floors of a building.",
+      "example_en": "The bathroom is upstairs.",
+      "example_vi": "Phòng tắm ở trên lầu.",
+      "collocations_json": [
+        "go upstairs",
+        "run upstairs",
+        "upstairs window"
+      ],
+      "synonyms_json": [
+        "above"
+      ],
+      "antonyms_json": [
+        "downstairs"
+      ],
+      "mnemonic": "Up (lên) + stairs (cầu thang) = Đi lên cầu thang là lên tầng trên.",
+      "frequency_rank": 2100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1829,
+    "fields": {
+      "word": "use",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "juz",
+      "ipa_us": "juːs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự sử dụng, công dụng",
+      "definition_en": "The act of using something, or a purpose for which something is used.",
+      "example_en": "The room is currently in use.",
+      "example_vi": "Căn phòng hiện đang được sử dụng.",
+      "collocations_json": [
+        "make use of",
+        "in use",
+        "out of use"
+      ],
+      "synonyms_json": [
+        "application",
+        "purpose",
+        "function"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Use (động từ: sử dụng) -> Danh từ: Sự sử dụng.",
+      "frequency_rank": 150,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1830,
+    "fields": {
+      "word": "used",
+      "part_of_speech": "other",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "juzd",
+      "ipa_us": "juːzd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đã qua sử dụng, quen với",
+      "definition_en": "That has already been used or owned by someone else; or familiar with a condition or activity.",
+      "example_en": "I bought a used car.",
+      "example_vi": "Tôi đã mua một chiếc ô tô cũ (đã qua sử dụng).",
+      "collocations_json": [
+        "used car",
+        "get used to",
+        "used to be"
+      ],
+      "synonyms_json": [
+        "second-hand",
+        "accustomed"
+      ],
+      "antonyms_json": [
+        "new",
+        "unused"
+      ],
+      "mnemonic": "Use (sử dụng) thêm -d (bị động) -> Đã bị sử dụng.",
+      "frequency_rank": 300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1831,
+    "fields": {
+      "word": "user",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "technology",
+      "ipa_uk": "ˈjuzər",
+      "ipa_us": "ˈjuːzər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người sử dụng, người dùng",
+      "definition_en": "Someone who uses a product, machine, or service.",
+      "example_en": "The software is easy for the user.",
+      "example_vi": "Phần mềm này rất dễ cho người dùng.",
+      "collocations_json": [
+        "computer user",
+        "end user",
+        "user manual"
+      ],
+      "synonyms_json": [
+        "consumer",
+        "customer"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Use (sử dụng) + r (người) = Người sử dụng.",
+      "frequency_rank": 800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1832,
+    "fields": {
+      "word": "usual",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "ˈjuʒəwəl",
+      "ipa_us": "ˈjuːʒuəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thường lệ, thông thường",
+      "definition_en": "Normal; happening, done, or used most often.",
+      "example_en": "I'll meet you at the usual time.",
+      "example_vi": "Tôi sẽ gặp bạn vào giờ thường lệ.",
+      "collocations_json": [
+        "as usual",
+        "usual place",
+        "usual time"
+      ],
+      "synonyms_json": [
+        "normal",
+        "customary",
+        "standard"
+      ],
+      "antonyms_json": [
+        "unusual",
+        "rare",
+        "exceptional"
+      ],
+      "mnemonic": "Usual: Du-dùa. Dù là ai thì cũng có những thói quen thông thường.",
+      "frequency_rank": 950,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1833,
+    "fields": {
+      "word": "valley",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "nature",
+      "ipa_uk": "ˈvæli",
+      "ipa_us": "ˈvæli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thung lũng",
+      "definition_en": "An area of low land between hills or mountains, often with a river running through it.",
+      "example_en": "The village is situated in a deep valley.",
+      "example_vi": "Ngôi làng nằm trong một thung lũng sâu.",
+      "collocations_json": [
+        "deep valley",
+        "green valley",
+        "river valley"
+      ],
+      "synonyms_json": [
+        "dale",
+        "glen"
+      ],
+      "antonyms_json": [
+        "mountain",
+        "hill"
+      ],
+      "mnemonic": "Valley: 'Va-li' - Kéo va-li đi du lịch dưới thung lũng.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1834,
+    "fields": {
+      "word": "van",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "væn",
+      "ipa_us": "væn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "xe tải nhỏ, xe chở hàng",
+      "definition_en": "A medium-sized road vehicle, used especially for carrying goods.",
+      "example_en": "He drives a delivery van.",
+      "example_vi": "Anh ấy lái một chiếc xe tải giao hàng.",
+      "collocations_json": [
+        "delivery van",
+        "white van",
+        "drive a van"
+      ],
+      "synonyms_json": [
+        "truck",
+        "wagon"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Van: 'Van' xin xe tải nhỏ dừng lại cho đi nhờ.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1835,
+    "fields": {
+      "word": "variety",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "vəˈraɪəti",
+      "ipa_us": "vəˈraɪəti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự đa dạng, nhiều loại",
+      "definition_en": "Many different types of things or people.",
+      "example_en": "The shop sells a wide variety of toys.",
+      "example_vi": "Cửa hàng bán rất nhiều loại đồ chơi khác nhau.",
+      "collocations_json": [
+        "wide variety",
+        "huge variety",
+        "great variety"
+      ],
+      "synonyms_json": [
+        "diversity",
+        "range",
+        "assortment"
+      ],
+      "antonyms_json": [
+        "uniformity",
+        "similarity"
+      ],
+      "mnemonic": "Va-ri-e-ty: Vợ (va) rủ (ri) em (e) ti (ty) đi siêu thị để mua đa dạng đồ dùng.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1836,
+    "fields": {
+      "word": "vehicle",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "ˈvihɪkəl",
+      "ipa_us": "ˈviːəkl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phương tiện giao thông",
+      "definition_en": "A machine, usually with wheels and an engine, used for transporting people or goods, especially on land.",
+      "example_en": "Are you the driver of this vehicle?",
+      "example_vi": "Bạn có phải là người lái phương tiện này không?",
+      "collocations_json": [
+        "motor vehicle",
+        "commercial vehicle",
+        "heavy vehicle"
+      ],
+      "synonyms_json": [
+        "conveyance",
+        "transport"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ve-hi-cle: Về (ve) hỉ (hi) cồ (cle) - Về cưỡi con xe cổ đi chơi.",
+      "frequency_rank": 1600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1837,
+    "fields": {
+      "word": "view",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "vju",
+      "ipa_us": "vjuː",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quang cảnh, quan điểm",
+      "definition_en": "What you can see from a particular place, or an opinion, belief, or idea.",
+      "example_en": "The hotel room has a beautiful sea view.",
+      "example_vi": "Phòng khách sạn có quang cảnh biển tuyệt đẹp.",
+      "collocations_json": [
+        "point of view",
+        "beautiful view",
+        "in my view"
+      ],
+      "synonyms_json": [
+        "sight",
+        "scenery",
+        "opinion"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "View: Viu - Cảnh đẹp làm tiếng gió thổi nghe vù viu.",
+      "frequency_rank": 500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1838,
+    "fields": {
+      "word": "virus",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "ˈvaɪrəs",
+      "ipa_us": "ˈvaɪrəs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vi-rút",
+      "definition_en": "An extremely small piece of organic material that causes disease in humans, animals, and plants.",
+      "example_en": "He caught a stomach virus.",
+      "example_vi": "Anh ấy đã bị nhiễm vi-rút dạ dày.",
+      "collocations_json": [
+        "computer virus",
+        "catch a virus",
+        "flu virus"
+      ],
+      "synonyms_json": [
+        "bug",
+        "germ"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Từ mượn trực tiếp (vi-rút).",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1839,
+    "fields": {
+      "word": "voice",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "vɔɪs",
+      "ipa_us": "vɔɪs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giọng nói",
+      "definition_en": "The sounds that are made when people speak or sing.",
+      "example_en": "She has a beautiful singing voice.",
+      "example_vi": "Cô ấy có một giọng hát tuyệt đẹp.",
+      "collocations_json": [
+        "loud voice",
+        "soft voice",
+        "lower your voice"
+      ],
+      "synonyms_json": [
+        "tone",
+        "sound"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Voice: Voi - Giọng nói của anh ấy to như con voi rống.",
+      "frequency_rank": 700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1840,
+    "fields": {
+      "word": "wait",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "weɪt",
+      "ipa_us": "weɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự chờ đợi",
+      "definition_en": "A period of time when you stay in one place until someone comes, or something happens.",
+      "example_en": "We had a long wait for the train.",
+      "example_vi": "Chúng tôi đã có một sự chờ đợi dài cho chuyến tàu.",
+      "collocations_json": [
+        "long wait",
+        "short wait",
+        "worth the wait"
+      ],
+      "synonyms_json": [
+        "delay",
+        "pause"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wait (động từ: chờ đợi) -> Danh từ: Sự chờ đợi.",
+      "frequency_rank": 350,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1841,
+    "fields": {
+      "word": "war",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "wɔr",
+      "ipa_us": "wɔːr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chiến tranh",
+      "definition_en": "Armed fighting between two or more countries or groups.",
+      "example_en": "Many people lost their lives in the war.",
+      "example_vi": "Nhiều người đã mất mạng trong chiến tranh.",
+      "collocations_json": [
+        "world war",
+        "civil war",
+        "declare war"
+      ],
+      "synonyms_json": [
+        "conflict",
+        "battle",
+        "combat"
+      ],
+      "antonyms_json": [
+        "peace",
+        "harmony"
+      ],
+      "mnemonic": "War: Oa - Khi có chiến tranh ai cũng khóc òa lên.",
+      "frequency_rank": 500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1842,
+    "fields": {
+      "word": "wash",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "wɑʃ",
+      "ipa_us": "wɑːʃ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự tắm rửa, việc giặt giũ",
+      "definition_en": "The action of cleaning something using water and usually soap.",
+      "example_en": "My car needs a wash.",
+      "example_vi": "Xe của tôi cần được rửa.",
+      "collocations_json": [
+        "have a wash",
+        "car wash",
+        "in the wash"
+      ],
+      "synonyms_json": [
+        "cleaning",
+        "bath"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wash (động từ: rửa) -> Danh từ: Sự tắm rửa, làm sạch.",
+      "frequency_rank": 1600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1843,
+    "fields": {
+      "word": "washing",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈwɑʃɪŋ",
+      "ipa_us": "ˈwɑːʃɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quần áo cần giặt, việc giặt giũ",
+      "definition_en": "Clothes, sheets, etc. that need to be washed or that have just been washed.",
+      "example_en": "I need to do the washing today.",
+      "example_vi": "Tôi cần phải giặt giũ hôm nay.",
+      "collocations_json": [
+        "do the washing",
+        "washing machine",
+        "washing powder"
+      ],
+      "synonyms_json": [
+        "laundry"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wash + ing -> Những thứ liên quan đến việc giặt giũ.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1844,
+    "fields": {
+      "word": "wave",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "nature",
+      "ipa_uk": "weɪv",
+      "ipa_us": "weɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sóng, cái vẫy tay",
+      "definition_en": "A raised line of water that moves across the surface of an area of water, especially the sea; or a movement of your hand to say hello or goodbye.",
+      "example_en": "The boat was tossed by huge waves.",
+      "example_vi": "Con thuyền bị quăng quật bởi những con sóng khổng lồ.",
+      "collocations_json": [
+        "big wave",
+        "heat wave",
+        "give a wave"
+      ],
+      "synonyms_json": [
+        "ripple",
+        "swell",
+        "gesture"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wave: Uây (way) -> Sóng vỗ mạnh kêu uây uây uây.",
+      "frequency_rank": 1650,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1845,
+    "fields": {
+      "word": "weak",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "wik",
+      "ipa_us": "wiːk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "yếu, yếu ớt",
+      "definition_en": "Not physically strong.",
+      "example_en": "He felt weak after the illness.",
+      "example_vi": "Anh ấy cảm thấy yếu sau trận ốm.",
+      "collocations_json": [
+        "weak point",
+        "feel weak",
+        "too weak"
+      ],
+      "synonyms_json": [
+        "feeble",
+        "fragile",
+        "frail"
+      ],
+      "antonyms_json": [
+        "strong",
+        "powerful"
+      ],
+      "mnemonic": "Weak: Uých. Huých một cái nhẹ mà đã ngã, đúng là yếu ớt.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1846,
+    "fields": {
+      "word": "web",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "technology",
+      "ipa_uk": "wɛb",
+      "ipa_us": "web",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "mạng (nhện, internet)",
+      "definition_en": "A net used to catch insects, made by a spider; or the system of connected documents on the internet.",
+      "example_en": "I found this information on the Web.",
+      "example_vi": "Tôi đã tìm thấy thông tin này trên mạng.",
+      "collocations_json": [
+        "spider's web",
+        "on the web",
+        "World Wide Web"
+      ],
+      "synonyms_json": [
+        "network",
+        "internet",
+        "net"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Web: Quép. Quét dọn mạng nhện (web).",
+      "frequency_rank": 1150,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1847,
+    "fields": {
+      "word": "wedding",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈwɛdɪŋ",
+      "ipa_us": "ˈwedɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đám cưới",
+      "definition_en": "A marriage ceremony and any celebrations such as a meal or a party that follow it.",
+      "example_en": "They invited us to their wedding.",
+      "example_vi": "Họ đã mời chúng tôi đến dự đám cưới của họ.",
+      "collocations_json": [
+        "wedding day",
+        "wedding dress",
+        "wedding ring"
+      ],
+      "synonyms_json": [
+        "marriage",
+        "nuptials"
+      ],
+      "antonyms_json": [
+        "divorce"
+      ],
+      "mnemonic": "Wed (kết hôn) + ding -> Lễ kết hôn (đám cưới).",
+      "frequency_rank": 1900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1848,
+    "fields": {
+      "word": "weight",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "weɪt",
+      "ipa_us": "weɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cân nặng, trọng lượng",
+      "definition_en": "How heavy someone or something is.",
+      "example_en": "I need to lose some weight.",
+      "example_vi": "Tôi cần phải giảm vài cân.",
+      "collocations_json": [
+        "lose weight",
+        "put on weight",
+        "carry weight"
+      ],
+      "synonyms_json": [
+        "heaviness",
+        "mass"
+      ],
+      "antonyms_json": [
+        "lightness"
+      ],
+      "mnemonic": "Weight: Uây-t. Uầy, nặng quá!",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1849,
+    "fields": {
+      "word": "welcome",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈwɛlkəm",
+      "ipa_us": "ˈwelkəm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự chào đón",
+      "definition_en": "A greeting that is given to somebody when they arrive, especially a friendly one.",
+      "example_en": "They gave us a warm welcome.",
+      "example_vi": "Họ đã dành cho chúng tôi một sự chào đón nồng nhiệt.",
+      "collocations_json": [
+        "warm welcome",
+        "friendly welcome",
+        "hero's welcome"
+      ],
+      "synonyms_json": [
+        "greeting",
+        "reception"
+      ],
+      "antonyms_json": [
+        "farewell",
+        "goodbye"
+      ],
+      "mnemonic": "Welcome: Quéo-cầm. Nhéo (oéo) má cái rồi cầm (câm) tay chào mừng.",
+      "frequency_rank": 820,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1850,
+    "fields": {
+      "word": "wet",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "wɛt",
+      "ipa_us": "wet",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ướt",
+      "definition_en": "Covered in water or another liquid.",
+      "example_en": "My hair is still wet.",
+      "example_vi": "Tóc tôi vẫn còn ướt.",
+      "collocations_json": [
+        "wet hair",
+        "soaking wet",
+        "wet weather"
+      ],
+      "synonyms_json": [
+        "damp",
+        "soaked",
+        "moist"
+      ],
+      "antonyms_json": [
+        "dry"
+      ],
+      "mnemonic": "Wet: Quét. Quét nhà mà sàn ướt thì dễ ngã.",
+      "frequency_rank": 1500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1851,
+    "fields": {
+      "word": "wheel",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "wil",
+      "ipa_us": "wiːl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bánh xe, vô lăng",
+      "definition_en": "A circular object connected at the centre to a bar, used for making vehicles or parts of machines move.",
+      "example_en": "My bike needs a new front wheel.",
+      "example_vi": "Xe đạp của tôi cần một bánh trước mới.",
+      "collocations_json": [
+        "steering wheel",
+        "front wheel",
+        "four wheels"
+      ],
+      "synonyms_json": ["tire", "circle"],
+      "antonyms_json": [],
+      "mnemonic": "Wheel: Uiu. Bánh xe quay vù vù (uiu).",
+      "frequency_rank": 1600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 1852,
+    "fields": {
+      "word": "while",
+      "part_of_speech": "other",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "waɪl",
+      "ipa_us": "waɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trong khi",
+      "definition_en": "During the time that, or at the same time as.",
+      "example_en": "I read a book while I was waiting.",
+      "example_vi": "Tôi đã đọc sách trong khi chờ đợi.",
+      "collocations_json": [
+        "for a while",
+        "once in a while",
+        "worth your while"
+      ],
+      "synonyms_json": [
+        "during",
+        "whilst"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "While: Quai (quái). Trông khi đi đường gặp chuyện kỳ quái.",
+      "frequency_rank": 150,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

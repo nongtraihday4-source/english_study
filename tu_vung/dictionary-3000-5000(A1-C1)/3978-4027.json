@@ -1,0 +1,1845 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 3978,
+    "fields": {
+      "word": "skull",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "medical",
+      "ipa_uk": "skʌl",
+      "ipa_us": "skʌl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hộp sọ",
+      "definition_en": "The bones of the head that surround the brain and give the head its shape.",
+      "example_en": "He fractured his skull in the accident.",
+      "example_vi": "Anh ấy bị nứt hộp sọ trong vụ tai nạn.",
+      "collocations_json": [
+        "human skull",
+        "fracture a skull",
+        "skull and crossbones"
+      ],
+      "synonyms_json": [
+        "cranium"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Phát âm giống 'sờ câu', hình ảnh cái đầu lâu thường thấy ở biển báo nguy hiểm.",
+      "frequency_rank": 4500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3979,
+    "fields": {
+      "word": "slogan",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈsloʊɡən",
+      "ipa_us": "ˈsloʊɡən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khẩu hiệu",
+      "definition_en": "A short, easily remembered phrase, especially one used to advertise an idea or a product.",
+      "example_en": "The company's new advertising slogan is very catchy.",
+      "example_vi": "Khẩu hiệu quảng cáo mới của công ty rất bắt tai.",
+      "collocations_json": [
+        "advertising slogan",
+        "campaign slogan",
+        "catchy slogan"
+      ],
+      "synonyms_json": [
+        "motto",
+        "catchphrase"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Từ 'slogan' trong tiếng Việt cũng được dùng phổ biến để chỉ câu khẩu hiệu ngắn gọn.",
+      "frequency_rank": 4800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3980,
+    "fields": {
+      "word": "so-called",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈsoʊˈkɔld",
+      "ipa_us": "ˈsoʊˈkɔld",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái gọi là",
+      "definition_en": "Used to introduce a new word or phrase that is not yet known by many people, or to show that you think a word used to describe someone or something is not suitable.",
+      "example_en": "These so-called experts know nothing about the real world.",
+      "example_vi": "Những kẻ tự xưng là chuyên gia này chẳng biết gì về thế giới thực.",
+      "collocations_json": [
+        "so-called experts",
+        "so-called friends"
+      ],
+      "synonyms_json": [
+        "supposed"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "So (được) + called (gọi là) -> Cái được gọi là (thường mang ý mỉa mai).",
+      "frequency_rank": 3200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3981,
+    "fields": {
+      "word": "somehow",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈsʌmˌhaʊ",
+      "ipa_us": "ˈsʌmˌhaʊ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bằng cách nào đó",
+      "definition_en": "In a way or by some means that is not known or not stated.",
+      "example_en": "We must somehow find a way to resolve this problem.",
+      "example_vi": "Chúng ta phải bằng cách nào đó tìm ra cách giải quyết vấn đề này.",
+      "collocations_json": [
+        "somehow manage to",
+        "somehow or other"
+      ],
+      "synonyms_json": [
+        "anyhow",
+        "anyway"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Some (vài/một số) + how (cách nào) -> Bằng một cách nào đó.",
+      "frequency_rank": 1800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3982,
+    "fields": {
+      "word": "sometime",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈsʌmˌtaɪm",
+      "ipa_us": "ˈsʌmˌtaɪm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một lúc nào đó",
+      "definition_en": "At a time in the future or the past that is not known or not stated.",
+      "example_en": "We should get together sometime soon.",
+      "example_vi": "Chúng ta nên gặp nhau vào một lúc nào đó sớm thôi.",
+      "collocations_json": [
+        "sometime soon",
+        "sometime later",
+        "sometime in the future"
+      ],
+      "synonyms_json": [
+        "someday",
+        "one day"
+      ],
+      "antonyms_json": [
+        "never"
+      ],
+      "mnemonic": "Some (một vài) + time (thời gian) -> Một thời điểm nào đó không xác định.",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3983,
+    "fields": {
+      "word": "sophisticated",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "səˈfɪstəˌkeɪtɪd",
+      "ipa_us": "səˈfɪstəˌkeɪtɪd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tinh vi, phức tạp, sành điệu",
+      "definition_en": "Having a good understanding of the way people behave and/or a good knowledge of culture and fashion; or (of a machine, system, etc.) clever and complicated.",
+      "example_en": "The museum uses highly sophisticated security cameras.",
+      "example_vi": "Bảo tàng sử dụng các camera an ninh cực kỳ tinh vi.",
+      "collocations_json": [
+        "highly sophisticated",
+        "sophisticated technology",
+        "sophisticated equipment"
+      ],
+      "synonyms_json": [
+        "advanced",
+        "complex",
+        "refined"
+      ],
+      "antonyms_json": [
+        "simple",
+        "naive",
+        "unsophisticated"
+      ],
+      "mnemonic": "Người sành sỏi (sophisticated) thì luôn biết cách xử lý những việc phức tạp.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3984,
+    "fields": {
+      "word": "spare",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "spɛr",
+      "ipa_us": "spɛr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "dư thừa, dự phòng",
+      "definition_en": "If something is spare, it is available to use because it is extra.",
+      "example_en": "Do you have a spare pen I could borrow?",
+      "example_vi": "Bạn có cây bút dự phòng nào cho tôi mượn không?",
+      "collocations_json": [
+        "spare time",
+        "spare parts",
+        "spare room"
+      ],
+      "synonyms_json": [
+        "extra",
+        "additional",
+        "reserve"
+      ],
+      "antonyms_json": [
+        "necessary",
+        "lacking"
+      ],
+      "mnemonic": "Phát âm giống 'sờ-pe', xe ô tô luôn có lốp sơ-cua (spare tire).",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3985,
+    "fields": {
+      "word": "specialize",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈspɛʃəˌlaɪz",
+      "ipa_us": "ˈspɛʃəˌlaɪz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chuyên môn hóa",
+      "definition_en": "To spend most of your time studying one particular subject or doing one type of business.",
+      "example_en": "The restaurant specializes in Italian cuisine.",
+      "example_vi": "Nhà hàng chuyên về ẩm thực Ý.",
+      "collocations_json": [
+        "specialize in something"
+      ],
+      "synonyms_json": [
+        "focus",
+        "concentrate"
+      ],
+      "antonyms_json": [
+        "generalize"
+      ],
+      "mnemonic": "Special (đặc biệt) + ize -> Làm cho trở nên đặc biệt, tức là chuyên sâu vào một lĩnh vực.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3986,
+    "fields": {
+      "word": "specify",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈspɛsəˌfaɪ",
+      "ipa_us": "ˈspɛsəˌfaɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chỉ rõ, định rõ",
+      "definition_en": "To explain or describe something clearly and exactly.",
+      "example_en": "Please specify your requirements in the email.",
+      "example_vi": "Vui lòng nêu rõ các yêu cầu của bạn trong email.",
+      "collocations_json": [
+        "specify the terms",
+        "specify exactly",
+        "clearly specify"
+      ],
+      "synonyms_json": [
+        "state",
+        "detail",
+        "define"
+      ],
+      "antonyms_json": [
+        "generalize"
+      ],
+      "mnemonic": "Specific (cụ thể) -> Specify là hành động làm cho điều gì đó trở nên cụ thể, rõ ràng.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3987,
+    "fields": {
+      "word": "spectacular",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "spɛkˈtækjələr",
+      "ipa_us": "spɛkˈtækjələr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ngoạn mục, hùng vĩ",
+      "definition_en": "Very exciting to look at.",
+      "example_en": "The view from the top of the mountain is spectacular.",
+      "example_vi": "Khung cảnh từ đỉnh núi rất ngoạn mục.",
+      "collocations_json": [
+        "spectacular view",
+        "spectacular scenery",
+        "spectacular success"
+      ],
+      "synonyms_json": [
+        "breathtaking",
+        "magnificent",
+        "stunning"
+      ],
+      "antonyms_json": [
+        "ordinary",
+        "unimpressive"
+      ],
+      "mnemonic": "Spectacle (kính/quang cảnh) + lar -> Một quang cảnh lớn đến mức làm người ta phải mở to mắt nhìn.",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3988,
+    "fields": {
+      "word": "spectator",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈspɛkteɪtər",
+      "ipa_us": "ˈspɛkˌteɪtər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khán giả (thể thao)",
+      "definition_en": "A person who watches an activity, especially a sports event, without taking part.",
+      "example_en": "The stadium was packed with excited spectators.",
+      "example_vi": "Sân vận động chật cứng những khán giả cuồng nhiệt.",
+      "collocations_json": [
+        "spectator sport",
+        "attract spectators",
+        "cheering spectators"
+      ],
+      "synonyms_json": [
+        "onlooker",
+        "viewer",
+        "watcher"
+      ],
+      "antonyms_json": [
+        "participant",
+        "player"
+      ],
+      "mnemonic": "Spectate (xem) + or (người) -> Người ngồi xem trận đấu (không giống audience là khán giả xem nhạc/kịch).",
+      "frequency_rank": 4200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3989,
+    "fields": {
+      "word": "speculate",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈspɛkjəˌleɪt",
+      "ipa_us": "ˈspɛkjəˌleɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "suy đoán, đầu cơ",
+      "definition_en": "To guess possible answers to a question when you do not have enough information to be certain.",
+      "example_en": "We can only speculate about what happened.",
+      "example_vi": "Chúng ta chỉ có thể suy đoán về những gì đã xảy ra.",
+      "collocations_json": [
+        "speculate on",
+        "speculate about",
+        "wildly speculate"
+      ],
+      "synonyms_json": [
+        "guess",
+        "conjecture",
+        "hypothesize"
+      ],
+      "antonyms_json": [
+        "know",
+        "prove"
+      ],
+      "mnemonic": "Spec (nhìn) -> Nhìn vào những thông tin ít ỏi để đưa ra dự đoán (speculate).",
+      "frequency_rank": 4300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3990,
+    "fields": {
+      "word": "speculation",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˌspɛkjəˈleɪʃən",
+      "ipa_us": "ˌspɛkjəˈleɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự suy đoán, sự đầu cơ",
+      "definition_en": "The activity of guessing possible answers to a question without having enough information to be certain.",
+      "example_en": "There is growing speculation that he will resign.",
+      "example_vi": "Ngày càng có nhiều suy đoán rằng ông ấy sẽ từ chức.",
+      "collocations_json": [
+        "fuel speculation",
+        "widespread speculation",
+        "pure speculation"
+      ],
+      "synonyms_json": [
+        "guesswork",
+        "theory",
+        "conjecture"
+      ],
+      "antonyms_json": [
+        "certainty",
+        "fact"
+      ],
+      "mnemonic": "Danh từ của speculate, chỉ hành động đưa ra những lời đồn đoán hoặc đầu cơ tài chính.",
+      "frequency_rank": 3900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3991,
+    "fields": {
+      "word": "spice",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "food",
+      "ipa_uk": "spaɪs",
+      "ipa_us": "spaɪs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "gia vị",
+      "definition_en": "A substance made from a plant, used to give a special flavor to food.",
+      "example_en": "Cinnamon and ginger are common spices.",
+      "example_vi": "Quế và gừng là những loại gia vị phổ biến.",
+      "collocations_json": [
+        "add spice",
+        "variety of spices",
+        "spice blend"
+      ],
+      "synonyms_json": [
+        "seasoning",
+        "flavoring"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Spicy là cay, vậy spice là các loại gia vị (thường có mùi thơm hoặc vị cay).",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3992,
+    "fields": {
+      "word": "spill",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "spɪl",
+      "ipa_us": "spɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "làm tràn, đổ ra",
+      "definition_en": "To (cause to) flow, move, fall, or spread over the edge or outside the limits of something.",
+      "example_en": "I accidentally spilled coffee on my shirt.",
+      "example_vi": "Tôi vô tình làm đổ cà phê lên áo sơ mi của mình.",
+      "collocations_json": [
+        "spill a drink",
+        "oil spill",
+        "spill the beans"
+      ],
+      "synonyms_json": [
+        "pour",
+        "overflow"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Phát âm giống 'sờ-pin' -> Con quay xoay tít làm cốc nước bị đổ (spill).",
+      "frequency_rank": 3700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3993,
+    "fields": {
+      "word": "spite",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "spaɪt",
+      "ipa_us": "spaɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự ác ý, bất chấp",
+      "definition_en": "A feeling of anger towards another person that makes someone want to annoy, upset, or hurt them, especially in a small way.",
+      "example_en": "He did it out of pure spite.",
+      "example_vi": "Anh ta làm điều đó hoàn toàn vì ác ý.",
+      "collocations_json": [
+        "in spite of",
+        "out of spite"
+      ],
+      "synonyms_json": [
+        "malice",
+        "bitterness"
+      ],
+      "antonyms_json": [
+        "kindness",
+        "goodwill"
+      ],
+      "mnemonic": "Thành ngữ 'in spite of' = despite (mặc dù). Mang nghĩa gốc là sự thù hằn, bất chấp.",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3994,
+    "fields": {
+      "word": "spoil",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "spɔɪl",
+      "ipa_us": "spɔɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "làm hỏng, chiều hư",
+      "definition_en": "To destroy or reduce the pleasure, interest, or beauty of something; to treat a child too well.",
+      "example_en": "Don't let him spoil your evening.",
+      "example_vi": "Đừng để anh ta làm hỏng buổi tối của bạn.",
+      "collocations_json": [
+        "spoil the fun",
+        "spoil a child",
+        "spoiled food"
+      ],
+      "synonyms_json": [
+        "ruin",
+        "pamper"
+      ],
+      "antonyms_json": [
+        "improve",
+        "discipline"
+      ],
+      "mnemonic": "Spoiler trong phim ảnh là hành động tiết lộ nội dung, làm hỏng (spoil) trải nghiệm của người xem.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3995,
+    "fields": {
+      "word": "spokesman",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈspoʊksmən",
+      "ipa_us": "ˈspoʊksmən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nam phát ngôn viên",
+      "definition_en": "A male speaker who represents a person or organization.",
+      "example_en": "A government spokesman declined to comment on the matter.",
+      "example_vi": "Một phát ngôn viên của chính phủ đã từ chối bình luận về vấn đề này.",
+      "collocations_json": [
+        "official spokesman",
+        "government spokesman",
+        "police spokesman"
+      ],
+      "synonyms_json": [
+        "representative",
+        "mouthpiece"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Spoke (đã nói) + man (người đàn ông) -> Người đàn ông được cử ra để nói (phát ngôn viên).",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3996,
+    "fields": {
+      "word": "spokesperson",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈspoʊkspərsən",
+      "ipa_us": "ˈspoʊkˌspɜrsən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người phát ngôn",
+      "definition_en": "A person who is chosen to speak officially for a group or organization.",
+      "example_en": "The company spokesperson issued an apology.",
+      "example_vi": "Người phát ngôn của công ty đã đưa ra một lời xin lỗi.",
+      "collocations_json": [
+        "company spokesperson",
+        "military spokesperson",
+        "acting spokesperson"
+      ],
+      "synonyms_json": [
+        "representative"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Giống spokesman nhưng dùng chung cho cả nam và nữ.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3997,
+    "fields": {
+      "word": "spokeswoman",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈspoʊkˌswʊmən",
+      "ipa_us": "ˈspoʊkˌswʊmən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nữ phát ngôn viên",
+      "definition_en": "A female speaker who represents a person or organization.",
+      "example_en": "A spokeswoman for the charity thanked the donors.",
+      "example_vi": "Một nữ phát ngôn viên của tổ chức từ thiện đã cảm ơn các nhà tài trợ.",
+      "collocations_json": [
+        "official spokeswoman",
+        "police spokeswoman"
+      ],
+      "synonyms_json": [
+        "representative"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Spoke + woman -> Người phụ nữ được cử ra đại diện phát ngôn.",
+      "frequency_rank": 4400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3998,
+    "fields": {
+      "word": "sponsorship",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈspɑnsərˌʃɪp",
+      "ipa_us": "ˈspɑnsərˌʃɪp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự tài trợ",
+      "definition_en": "Financial support given to a person, organization, or activity.",
+      "example_en": "The football team is looking for corporate sponsorship.",
+      "example_vi": "Đội bóng đang tìm kiếm sự tài trợ từ các doanh nghiệp.",
+      "collocations_json": [
+        "corporate sponsorship",
+        "secure sponsorship",
+        "sponsorship deal"
+      ],
+      "synonyms_json": [
+        "backing",
+        "funding",
+        "support"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sponsor là nhà tài trợ, thêm đuôi -ship tạo thành danh từ chỉ hoạt động, khoản tiền tài trợ.",
+      "frequency_rank": 4100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3999,
+    "fields": {
+      "word": "sporting",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈspɔrtɪŋ",
+      "ipa_us": "ˈspɔrtɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về thể thao, thượng võ",
+      "definition_en": "Relating to sports, or showing fairness and respect towards opponents.",
+      "example_en": "It was a great sporting event.",
+      "example_vi": "Đó là một sự kiện thể thao tuyệt vời.",
+      "collocations_json": [
+        "sporting event",
+        "sporting goods",
+        "sporting chance"
+      ],
+      "synonyms_json": [
+        "athletic",
+        "fair"
+      ],
+      "antonyms_json": [
+        "unsporting",
+        "unfair"
+      ],
+      "mnemonic": "Sport (thể thao) + ing -> Tính từ liên quan đến thể thao hoặc tinh thần thể thao (chơi đẹp).",
+      "frequency_rank": 4300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4000,
+    "fields": {
+      "word": "stall",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "stɔl",
+      "ipa_us": "stɔl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quầy hàng, làm chết máy",
+      "definition_en": "A large table or a small shop with an open front from which goods are sold in a public place; or to stop making progress.",
+      "example_en": "She bought some fresh fruit from a market stall.",
+      "example_vi": "Cô ấy mua một ít trái cây tươi từ một quầy hàng ở chợ.",
+      "collocations_json": [
+        "market stall",
+        "food stall",
+        "stall for time"
+      ],
+      "synonyms_json": [
+        "booth",
+        "stand",
+        "delay"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Âm thanh giống 'sờ-to' (store) -> Stall là một dạng cửa hàng nhỏ, quầy hàng ngoài chợ.",
+      "frequency_rank": 4600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4001,
+    "fields": {
+      "word": "stance",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "stæns",
+      "ipa_us": "stæns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lập trường, tư thế",
+      "definition_en": "A way of thinking about something, especially expressed in a publicly stated opinion.",
+      "example_en": "The politician changed his stance on taxes.",
+      "example_vi": "Chính trị gia đã thay đổi lập trường của mình về thuế.",
+      "collocations_json": [
+        "take a stance",
+        "tough stance",
+        "adopt a stance"
+      ],
+      "synonyms_json": [
+        "position",
+        "attitude",
+        "posture"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Stance gần giống stand (đứng) -> Cách bạn 'đứng' trước một vấn đề chính là lập trường của bạn.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4002,
+    "fields": {
+      "word": "starve",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "health",
+      "ipa_uk": "stɑrv",
+      "ipa_us": "stɑrv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chết đói, thiếu ăn",
+      "definition_en": "To (cause someone to) become very weak or die because there is not enough food to eat.",
+      "example_en": "Many animals starve to death during the harsh winter.",
+      "example_vi": "Nhiều loài động vật chết đói trong mùa đông khắc nghiệt.",
+      "collocations_json": [
+        "starve to death",
+        "starving children",
+        "starving hungry"
+      ],
+      "synonyms_json": [
+        "famish",
+        "perish"
+      ],
+      "antonyms_json": [
+        "feed",
+        "nourish"
+      ],
+      "mnemonic": "Star (ngôi sao) + ve (về) -> Đói đến mức nhìn thấy sao bay vòng vòng quanh đầu.",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4003,
+    "fields": {
+      "word": "steadily",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈstɛdəli",
+      "ipa_us": "ˈstɛdəli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đều đặn, vững chắc",
+      "definition_en": "Gradually and continually.",
+      "example_en": "House prices have been rising steadily this year.",
+      "example_vi": "Giá nhà đã và đang tăng đều đặn trong năm nay.",
+      "collocations_json": [
+        "rise steadily",
+        "increase steadily",
+        "decline steadily"
+      ],
+      "synonyms_json": [
+        "gradually",
+        "consistently"
+      ],
+      "antonyms_json": [
+        "erratically",
+        "suddenly"
+      ],
+      "mnemonic": "Steady (vững vàng) + ly -> Phát triển một cách vững chắc, không bị gián đoạn.",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4004,
+    "fields": {
+      "word": "steam",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "science",
+      "ipa_uk": "stim",
+      "ipa_us": "stim",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hơi nước",
+      "definition_en": "The hot gas that is produced when water boils.",
+      "example_en": "The steam from the kettle burned my hand.",
+      "example_vi": "Hơi nước từ ấm đun nước làm bỏng tay tôi.",
+      "collocations_json": [
+        "let off steam",
+        "steam engine",
+        "steam room"
+      ],
+      "synonyms_json": [
+        "vapor"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Team (đội) + S (sợ) -> Đội của chúng tôi sợ hơi nước nóng (steam) vì nó dễ gây bỏng.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4005,
+    "fields": {
+      "word": "stimulate",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈstɪmjəˌleɪt",
+      "ipa_us": "ˈstɪmjəˌleɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kích thích, khuyến khích",
+      "definition_en": "To encourage something to grow, develop, or become active.",
+      "example_en": "The government is trying to stimulate the economy.",
+      "example_vi": "Chính phủ đang cố gắng kích thích nền kinh tế.",
+      "collocations_json": [
+        "stimulate growth",
+        "stimulate demand",
+        "stimulate the economy"
+      ],
+      "synonyms_json": [
+        "encourage",
+        "motivate",
+        "provoke"
+      ],
+      "antonyms_json": [
+        "discourage",
+        "suppress"
+      ],
+      "mnemonic": "Stimulate -> Đưa ra các biện pháp để kích thích, tạo động lực.",
+      "frequency_rank": 3700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4006,
+    "fields": {
+      "word": "strengthen",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈstrɛŋθən",
+      "ipa_us": "ˈstrɛŋkθən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "củng cố, làm mạnh thêm",
+      "definition_en": "To make something stronger or more effective.",
+      "example_en": "Exercise helps to strengthen your muscles.",
+      "example_vi": "Tập thể dục giúp củng cố cơ bắp của bạn.",
+      "collocations_json": [
+        "strengthen the economy",
+        "strengthen ties",
+        "strengthen security"
+      ],
+      "synonyms_json": [
+        "reinforce",
+        "bolster",
+        "toughen"
+      ],
+      "antonyms_json": [
+        "weaken",
+        "undermine"
+      ],
+      "mnemonic": "Strength (sức mạnh) + en -> Động từ hóa: làm cho mạnh lên.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4007,
+    "fields": {
+      "word": "strictly",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈstrɪktli",
+      "ipa_us": "ˈstrɪktli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một cách nghiêm ngặt",
+      "definition_en": "In a way that would bring severe punishment if not obeyed; exactly or correctly.",
+      "example_en": "Smoking is strictly prohibited in this building.",
+      "example_vi": "Hút thuốc bị nghiêm cấm trong tòa nhà này.",
+      "collocations_json": [
+        "strictly prohibited",
+        "strictly confidential",
+        "strictly speaking"
+      ],
+      "synonyms_json": [
+        "rigorously",
+        "severely",
+        "precisely"
+      ],
+      "antonyms_json": [
+        "leniently",
+        "loosely"
+      ],
+      "mnemonic": "Strict (nghiêm khắc) + ly -> Trạng từ chỉ sự nghiêm ngặt, khắt khe.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4008,
+    "fields": {
+      "word": "stroke",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "medical",
+      "ipa_uk": "stroʊk",
+      "ipa_us": "stroʊk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đột quỵ, nét bút, cú đánh",
+      "definition_en": "A sudden change in the blood supply to a part of the brain, sometimes causing a loss of the ability to move particular parts of the body; or a hitting movement.",
+      "example_en": "He suffered a minor stroke last year.",
+      "example_vi": "Ông ấy bị một cơn đột quỵ nhẹ vào năm ngoái.",
+      "collocations_json": [
+        "suffer a stroke",
+        "brush stroke",
+        "stroke of luck"
+      ],
+      "synonyms_json": [
+        "blow",
+        "attack"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Stroke là một cú đập bất ngờ, trong y học nó nghĩa là chứng đột quỵ.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4009,
+    "fields": {
+      "word": "stunning",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈstʌnɪŋ",
+      "ipa_us": "ˈstʌnɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tuyệt đẹp, gây kinh ngạc",
+      "definition_en": "Extremely beautiful or attractive; or shocking and surprising.",
+      "example_en": "You look absolutely stunning in that dress.",
+      "example_vi": "Bạn trông hoàn toàn tuyệt đẹp trong bộ váy đó.",
+      "collocations_json": [
+        "stunning view",
+        "absolutely stunning",
+        "stunning victory"
+      ],
+      "synonyms_json": [
+        "gorgeous",
+        "breathtaking",
+        "striking"
+      ],
+      "antonyms_json": [
+        "ugly",
+        "unimpressive"
+      ],
+      "mnemonic": "Stun (làm choáng váng) + ning -> Đẹp đến mức làm người ta choáng váng.",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4010,
+    "fields": {
+      "word": "subsequent",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈsʌbsəkwənt",
+      "ipa_us": "ˈsʌbsəkwənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tiếp theo, sau đó",
+      "definition_en": "Happening after something else.",
+      "example_en": "The mistakes were corrected in a subsequent edition of the book.",
+      "example_vi": "Những sai sót đã được sửa chữa trong lần xuất bản tiếp theo của cuốn sách.",
+      "collocations_json": [
+        "subsequent events",
+        "subsequent generations",
+        "subsequent to"
+      ],
+      "synonyms_json": [
+        "following",
+        "successive",
+        "later"
+      ],
+      "antonyms_json": [
+        "previous",
+        "prior"
+      ],
+      "mnemonic": "Sub (dưới/sau) + sequent (chuỗi) -> Xảy ra sau trong một chuỗi sự kiện.",
+      "frequency_rank": 3200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4011,
+    "fields": {
+      "word": "subsequently",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈsʌbsəkwəntli",
+      "ipa_us": "ˈsʌbsəkwəntli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sau đó, tiếp đó",
+      "definition_en": "After something else.",
+      "example_en": "He was arrested and subsequently charged with theft.",
+      "example_vi": "Anh ta đã bị bắt và sau đó bị buộc tội trộm cắp.",
+      "collocations_json": [
+        "subsequently discovered",
+        "subsequently released"
+      ],
+      "synonyms_json": [
+        "afterward",
+        "later",
+        "consequently"
+      ],
+      "antonyms_json": [
+        "previously",
+        "beforehand"
+      ],
+      "mnemonic": "Trạng từ của subsequent.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4012,
+    "fields": {
+      "word": "suburb",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈsʌbərb",
+      "ipa_us": "ˈsʌbərb",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vùng ngoại ô",
+      "definition_en": "An area on the edge of a large town or city where people who work in the town or city often live.",
+      "example_en": "They live in a quiet suburb of London.",
+      "example_vi": "Họ sống ở một vùng ngoại ô yên tĩnh của London.",
+      "collocations_json": [
+        "leafy suburb",
+        "quiet suburb",
+        "in the suburbs"
+      ],
+      "synonyms_json": [
+        "outskirts"
+      ],
+      "antonyms_json": [
+        "center",
+        "downtown"
+      ],
+      "mnemonic": "Sub (phụ/dưới) + urb (thành thị) -> Vùng phụ cận của thành phố (ngoại ô).",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4013,
+    "fields": {
+      "word": "suffering",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈsʌfərɪŋ",
+      "ipa_us": "ˈsʌfərɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự đau khổ, sự chịu đựng",
+      "definition_en": "Physical or mental pain that a person or animal is feeling.",
+      "example_en": "The war caused terrible suffering to innocent people.",
+      "example_vi": "Chiến tranh đã gây ra sự đau khổ tồi tệ cho những người vô tội.",
+      "collocations_json": [
+        "cause suffering",
+        "human suffering",
+        "relieve suffering"
+      ],
+      "synonyms_json": [
+        "pain",
+        "hardship",
+        "misery"
+      ],
+      "antonyms_json": [
+        "comfort",
+        "joy"
+      ],
+      "mnemonic": "Động từ suffer là chịu đựng, danh từ suffering là nỗi đau, sự thống khổ.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4014,
+    "fields": {
+      "word": "sufficient",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "səˈfɪʃənt",
+      "ipa_us": "səˈfɪʃənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đủ",
+      "definition_en": "Enough for a particular purpose.",
+      "example_en": "We do not have sufficient evidence to convict him.",
+      "example_vi": "Chúng ta không có đủ bằng chứng để kết tội anh ta.",
+      "collocations_json": [
+        "sufficient time",
+        "sufficient evidence",
+        "sufficient resources"
+      ],
+      "synonyms_json": [
+        "enough",
+        "adequate"
+      ],
+      "antonyms_json": [
+        "insufficient",
+        "inadequate"
+      ],
+      "mnemonic": "Gần giống 'sắp phi' (sắp bay) -> Khi đã đủ (sufficient) nhiên liệu thì máy bay sắp phi lên trời.",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4015,
+    "fields": {
+      "word": "sufficiently",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "səˈfɪʃəntli",
+      "ipa_us": "səˈfɪʃəntli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một cách đầy đủ",
+      "definition_en": "Enough.",
+      "example_en": "The room was not sufficiently warm.",
+      "example_vi": "Căn phòng không đủ ấm.",
+      "collocations_json": [
+        "sufficiently clear",
+        "sufficiently detailed",
+        "sufficiently strong"
+      ],
+      "synonyms_json": [
+        "adequately",
+        "amply"
+      ],
+      "antonyms_json": [
+        "insufficiently",
+        "inadequately"
+      ],
+      "mnemonic": "Trạng từ của sufficient.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4016,
+    "fields": {
+      "word": "super",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈsupər",
+      "ipa_us": "ˈsupər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "siêu, rất tuyệt",
+      "definition_en": "Excellent, or very good.",
+      "example_en": "We had a super time at the party.",
+      "example_vi": "Chúng tôi đã có một khoảng thời gian cực tuyệt tại bữa tiệc.",
+      "collocations_json": [
+        "super cool",
+        "super fast",
+        "super excited"
+      ],
+      "synonyms_json": [
+        "great",
+        "fantastic",
+        "excellent"
+      ],
+      "antonyms_json": [
+        "terrible",
+        "awful"
+      ],
+      "mnemonic": "Superman là siêu nhân. Super dùng như một tính từ hoặc trạng từ nghĩa là rất đỉnh, rất giỏi.",
+      "frequency_rank": 2600,
+      "register": "informal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4017,
+    "fields": {
+      "word": "surgeon",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "medical",
+      "ipa_uk": "ˈsɜrʤən",
+      "ipa_us": "ˈsɜrʤən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bác sĩ phẫu thuật",
+      "definition_en": "A doctor who is specially trained to perform medical operations.",
+      "example_en": "The surgeon successfully removed the tumor.",
+      "example_vi": "Bác sĩ phẫu thuật đã cắt bỏ khối u thành công.",
+      "collocations_json": [
+        "top surgeon",
+        "plastic surgeon",
+        "consultant surgeon"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Surgery là ca phẫu thuật, surgeon là người thực hiện (bác sĩ phẫu thuật).",
+      "frequency_rank": 4300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4018,
+    "fields": {
+      "word": "survival",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "sərˈvaɪvəl",
+      "ipa_us": "sərˈvaɪvəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự sống sót, sinh tồn",
+      "definition_en": "The fact of a person, organization, etc. continuing to live or exist.",
+      "example_en": "His chances of survival are very low.",
+      "example_vi": "Cơ hội sống sót của anh ấy là rất thấp.",
+      "collocations_json": [
+        "survival rate",
+        "chance of survival",
+        "fight for survival"
+      ],
+      "synonyms_json": [
+        "existence",
+        "preservation"
+      ],
+      "antonyms_json": [
+        "death",
+        "extinction"
+      ],
+      "mnemonic": "Survive (sống sót) biến thành danh từ survival.",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4019,
+    "fields": {
+      "word": "survivor",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "sərˈvaɪvər",
+      "ipa_us": "sərˈvaɪvər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người sống sót",
+      "definition_en": "A person who continues to live, despite nearly dying.",
+      "example_en": "She was the sole survivor of the plane crash.",
+      "example_vi": "Cô ấy là người sống sót duy nhất sau vụ tai nạn máy bay.",
+      "collocations_json": [
+        "sole survivor",
+        "cancer survivor",
+        "holocaust survivor"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "victim",
+        "casualty"
+      ],
+      "mnemonic": "Survive (sống sót) + or (người) -> Người sống sót.",
+      "frequency_rank": 4100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4020,
+    "fields": {
+      "word": "suspend",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "səˈspɛnd",
+      "ipa_us": "səˈspɛnd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đình chỉ, treo lên",
+      "definition_en": "To stop something from being active, either temporarily or permanently; to hang.",
+      "example_en": "The referee decided to suspend the match due to rain.",
+      "example_vi": "Trọng tài quyết định đình chỉ trận đấu vì trời mưa.",
+      "collocations_json": [
+        "suspend operations",
+        "suspend a sentence",
+        "suspend from school"
+      ],
+      "synonyms_json": [
+        "delay",
+        "interrupt",
+        "hang"
+      ],
+      "antonyms_json": [
+        "resume",
+        "continue"
+      ],
+      "mnemonic": "Sus (dưới) + pend (treo) -> Treo lên để tạm dừng mọi thứ.",
+      "frequency_rank": 3900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4021,
+    "fields": {
+      "word": "sustainable",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "nature",
+      "ipa_uk": "səˈsteɪnəbəl",
+      "ipa_us": "səˈsteɪnəbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bền vững",
+      "definition_en": "Able to continue over a period of time; causing little or no damage to the environment.",
+      "example_en": "We need to find sustainable sources of energy.",
+      "example_vi": "Chúng ta cần tìm kiếm các nguồn năng lượng bền vững.",
+      "collocations_json": [
+        "sustainable development",
+        "sustainable energy",
+        "sustainable growth"
+      ],
+      "synonyms_json": [
+        "eco-friendly",
+        "viable",
+        "maintainable"
+      ],
+      "antonyms_json": [
+        "unsustainable"
+      ],
+      "mnemonic": "Sustain (duy trì) + able (có thể) -> Có thể duy trì lâu dài, tức là bền vững.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4022,
+    "fields": {
+      "word": "swallow",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈswɑloʊ",
+      "ipa_us": "ˈswɑloʊ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nuốt, chim én",
+      "definition_en": "To cause food, drink, pills, etc. to move from your mouth into your stomach.",
+      "example_en": "He swallowed the pill with a glass of water.",
+      "example_vi": "Anh ta nuốt viên thuốc với một cốc nước.",
+      "collocations_json": [
+        "swallow a pill",
+        "hard to swallow",
+        "swallow your pride"
+      ],
+      "synonyms_json": [
+        "gulp",
+        "consume"
+      ],
+      "antonyms_json": [
+        "spit out"
+      ],
+      "mnemonic": "Từ swallow có 2 nghĩa phổ biến: 1 là con chim én (mùa xuân), 2 là hành động nuốt thức ăn.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4023,
+    "fields": {
+      "word": "sympathetic",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˌsɪmpəˈθɛtɪk",
+      "ipa_us": "ˌsɪmpəˈθɛtɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thông cảm, đồng cảm",
+      "definition_en": "Showing that you understand and care about someone's problems.",
+      "example_en": "He was very sympathetic when my dog died.",
+      "example_vi": "Anh ấy rất thông cảm khi con chó của tôi chết.",
+      "collocations_json": [
+        "be sympathetic to",
+        "sympathetic ear",
+        "feel sympathetic"
+      ],
+      "synonyms_json": [
+        "compassionate",
+        "understanding"
+      ],
+      "antonyms_json": [
+        "unsympathetic",
+        "indifferent"
+      ],
+      "mnemonic": "Sympathy là sự thông cảm, chuyển sang tính từ là sympathetic (biết thông cảm).",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4024,
+    "fields": {
+      "word": "tackle",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtækəl",
+      "ipa_us": "ˈtækəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giải quyết, ngăn cản (thể thao)",
+      "definition_en": "To try to deal with something or someone.",
+      "example_en": "We need to find a way to tackle this problem.",
+      "example_vi": "Chúng ta cần tìm cách giải quyết vấn đề này.",
+      "collocations_json": [
+        "tackle a problem",
+        "tackle an issue",
+        "fishing tackle"
+      ],
+      "synonyms_json": [
+        "address",
+        "deal with",
+        "confront"
+      ],
+      "antonyms_json": [
+        "avoid",
+        "ignore"
+      ],
+      "mnemonic": "Trong bóng đá, 'tackle' bóng là hành động ngăn cản quyết liệt đối phương để lấy lại bóng, giải quyết nguy hiểm.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4025,
+    "fields": {
+      "word": "tag",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "tæɡ",
+      "ipa_us": "tæɡ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thẻ, nhãn, đánh dấu",
+      "definition_en": "A small piece of paper, cloth, or metal with information on it, tied or stuck onto something larger.",
+      "example_en": "Don't forget to look at the price tag.",
+      "example_vi": "Đừng quên nhìn vào thẻ giá.",
+      "collocations_json": [
+        "price tag",
+        "name tag",
+        "tag along"
+      ],
+      "synonyms_json": [
+        "label",
+        "ticket"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tag ai đó trên Facebook chính là gắn 'nhãn' tên họ vào bài viết.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4026,
+    "fields": {
+      "word": "tap",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "tæp",
+      "ipa_us": "tæp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vòi nước, gõ nhẹ",
+      "definition_en": "To hit something gently, and often repeatedly, especially making short, sharp noises; or a device that controls the flow of liquid.",
+      "example_en": "Someone tapped me on the shoulder.",
+      "example_vi": "Ai đó đã gõ nhẹ lên vai tôi.",
+      "collocations_json": [
+        "tap water",
+        "tap on the shoulder",
+        "on tap"
+      ],
+      "synonyms_json": [
+        "knock",
+        "faucet"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hành động 'tap' màn hình điện thoại là gõ nhẹ ngón tay vào màn hình.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4027,
+    "fields": {
+      "word": "technological",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "technology",
+      "ipa_uk": "ˌtɛknəˈlɑʤɪkəl",
+      "ipa_us": "ˌtɛknəˈlɑʤɪkəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về công nghệ",
+      "definition_en": "Relating to, or involving, technology.",
+      "example_en": "We live in an era of rapid technological change.",
+      "example_vi": "Chúng ta sống trong một kỷ nguyên thay đổi công nghệ nhanh chóng.",
+      "collocations_json": [
+        "technological advances",
+        "technological change",
+        "technological development"
+      ],
+      "synonyms_json": [
+        "technical"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tính từ của technology (công nghệ).",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

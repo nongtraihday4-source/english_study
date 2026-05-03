@@ -1,0 +1,1838 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 3928,
+    "fields": {
+      "word": "registration",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˌrɛʤɪˈstreɪʃən",
+      "ipa_us": "ˌrɛʤɪˈstreɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự đăng ký",
+      "definition_en": "The act of recording a name or information on an official list.",
+      "example_en": "Car registration is required by law.",
+      "example_vi": "Việc đăng ký xe hơi là bắt buộc theo luật.",
+      "collocations_json": [
+        "voter registration",
+        "car registration",
+        "registration form"
+      ],
+      "synonyms_json": [
+        "enrollment",
+        "recording"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Register là đăng ký, thêm -ation để thành danh từ chỉ sự đăng ký.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3929,
+    "fields": {
+      "word": "regulate",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈrɛɡjəˌleɪt",
+      "ipa_us": "ˈrɛɡjəˌleɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quy định, điều chỉnh",
+      "definition_en": "To control something, especially by making it work in a particular way.",
+      "example_en": "The government regulates the financial industry.",
+      "example_vi": "Chính phủ quy định chặt chẽ ngành tài chính.",
+      "collocations_json": [
+        "regulate the temperature",
+        "strictly regulated"
+      ],
+      "synonyms_json": [
+        "control",
+        "govern"
+      ],
+      "antonyms_json": [
+        "deregulate"
+      ],
+      "mnemonic": "Regular là đều đặn, regulate là điều chỉnh cho mọi thứ đều đặn, đi vào quy củ.",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3930,
+    "fields": {
+      "word": "reinforce",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˌriɪnˈfɔrs",
+      "ipa_us": "ˌriɪnˈfɔrs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "củng cố, tăng cường",
+      "definition_en": "To make something stronger.",
+      "example_en": "The building was reinforced with concrete.",
+      "example_vi": "Tòa nhà được gia cố thêm bằng bê tông.",
+      "collocations_json": [
+        "reinforce the message",
+        "reinforce a structure",
+        "positively reinforce"
+      ],
+      "synonyms_json": [
+        "strengthen",
+        "support"
+      ],
+      "antonyms_json": [
+        "weaken",
+        "undermine"
+      ],
+      "mnemonic": "Re (lại) + in (vào) + force (lực) -> Thêm lực vào để củng cố.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3931,
+    "fields": {
+      "word": "relieve",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "health",
+      "ipa_uk": "rɪˈliv",
+      "ipa_us": "rɪˈliv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "làm dịu, giảm bớt",
+      "definition_en": "To remove or reduce an unpleasant feeling or pain.",
+      "example_en": "This pill will help to relieve the pain.",
+      "example_vi": "Viên thuốc này sẽ giúp làm giảm cơn đau.",
+      "collocations_json": [
+        "relieve pain",
+        "relieve stress",
+        "relieve pressure"
+      ],
+      "synonyms_json": [
+        "ease",
+        "alleviate"
+      ],
+      "antonyms_json": [
+        "aggravate",
+        "worsen"
+      ],
+      "mnemonic": "Ta cảm thấy 'relief' (nhẹ nhõm) khi được relieve (giảm đau, giải tỏa tâm lý).",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3932,
+    "fields": {
+      "word": "relieved",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "rɪˈlivd",
+      "ipa_us": "rɪˈlivd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cảm thấy nhẹ nhõm",
+      "definition_en": "Happy that something unpleasant has not happened or has ended.",
+      "example_en": "I was relieved to hear that you arrived safely.",
+      "example_vi": "Tôi đã nhẹ nhõm khi nghe tin bạn đến nơi an toàn.",
+      "collocations_json": [
+        "feel relieved",
+        "greatly relieved",
+        "relieved sigh"
+      ],
+      "synonyms_json": [
+        "comforted",
+        "glad"
+      ],
+      "antonyms_json": [
+        "anxious",
+        "worried"
+      ],
+      "mnemonic": "Tính từ của relieve, miêu tả cảm giác trút bỏ được gánh nặng.",
+      "frequency_rank": 3700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3933,
+    "fields": {
+      "word": "remarkable",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "rɪˈmɑrkəbəl",
+      "ipa_us": "rɪˈmɑrkəbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đáng chú ý, xuất chúng",
+      "definition_en": "Unusual or special and therefore surprising and worth mentioning.",
+      "example_en": "She is a truly remarkable woman.",
+      "example_vi": "Cô ấy thực sự là một người phụ nữ xuất chúng.",
+      "collocations_json": [
+        "truly remarkable",
+        "quite remarkable",
+        "remarkable achievement"
+      ],
+      "synonyms_json": [
+        "extraordinary",
+        "outstanding"
+      ],
+      "antonyms_json": [
+        "ordinary",
+        "unremarkable"
+      ],
+      "mnemonic": "Remark (nhận xét/chú ý) + able (có thể) -> Rất tuyệt vời đến mức đáng chú ý.",
+      "frequency_rank": 3000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3934,
+    "fields": {
+      "word": "remarkably",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "rɪˈmɑrkəbli",
+      "ipa_us": "rɪˈmɑrkəbli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đáng ngạc nhiên",
+      "definition_en": "In a way that makes you feel surprised.",
+      "example_en": "He recovered remarkably quickly from the surgery.",
+      "example_vi": "Anh ấy hồi phục nhanh chóng một cách đáng ngạc nhiên sau phẫu thuật.",
+      "collocations_json": [
+        "remarkably similar",
+        "remarkably well",
+        "remarkably easy"
+      ],
+      "synonyms_json": [
+        "surprisingly",
+        "extraordinarily"
+      ],
+      "antonyms_json": [
+        "unremarkably"
+      ],
+      "mnemonic": "Trạng từ của remarkable, dùng để nhấn mạnh sự bất thường, phi thường.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3935,
+    "fields": {
+      "word": "reporting",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "rɪˈpɔrtɪŋ",
+      "ipa_us": "rɪˈpɔrtɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "việc báo cáo",
+      "definition_en": "The activity of gathering and presenting information.",
+      "example_en": "Investigative reporting is essential for a free society.",
+      "example_vi": "Báo chí điều tra là rất cần thiết cho một xã hội tự do.",
+      "collocations_json": [
+        "financial reporting",
+        "investigative reporting",
+        "news reporting"
+      ],
+      "synonyms_json": [
+        "broadcasting",
+        "journalism"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Report (báo cáo) thêm -ing thành danh động từ, chỉ công việc hoặc ngành báo cáo.",
+      "frequency_rank": 3200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3936,
+    "fields": {
+      "word": "resign",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "rɪˈzaɪn",
+      "ipa_us": "rɪˈzaɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "từ chức",
+      "definition_en": "To officially tell your employer that you are leaving your job.",
+      "example_en": "He decided to resign from his position as CEO.",
+      "example_vi": "Anh ấy đã quyết định từ chức vị trí CEO.",
+      "collocations_json": [
+        "resign from",
+        "forced to resign",
+        "resign immediately"
+      ],
+      "synonyms_json": [
+        "quit",
+        "leave",
+        "step down"
+      ],
+      "antonyms_json": [
+        "join",
+        "remain"
+      ],
+      "mnemonic": "Ký (sign) lại (re) giấy tờ lần cuối để nghỉ việc -> từ chức.",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3937,
+    "fields": {
+      "word": "resolution",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˌrɛzəˈluʃən",
+      "ipa_us": "ˌrɛzəˈluʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quyết tâm, độ phân giải",
+      "definition_en": "A firm decision to do or not to do something, or the quality of an image.",
+      "example_en": "She made a New Year's resolution to eat healthier.",
+      "example_vi": "Cô ấy đã đưa ra quyết tâm năm mới là ăn uống lành mạnh hơn.",
+      "collocations_json": [
+        "conflict resolution",
+        "New Year's resolution",
+        "high resolution"
+      ],
+      "synonyms_json": [
+        "decision",
+        "determination"
+      ],
+      "antonyms_json": [
+        "indecision"
+      ],
+      "mnemonic": "Resolve (giải quyết / quyết tâm) biến thành danh từ resolution.",
+      "frequency_rank": 3000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3938,
+    "fields": {
+      "word": "restore",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "rɪˈstɔr",
+      "ipa_us": "rɪˈstɔr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khôi phục, phục hồi",
+      "definition_en": "To return something or someone to an earlier good condition or position.",
+      "example_en": "They are trying to restore the old painting.",
+      "example_vi": "Họ đang cố gắng phục hồi bức tranh cũ.",
+      "collocations_json": [
+        "restore order",
+        "restore confidence",
+        "restore health"
+      ],
+      "synonyms_json": [
+        "recover",
+        "renew"
+      ],
+      "antonyms_json": [
+        "destroy",
+        "damage"
+      ],
+      "mnemonic": "Store (lưu trữ), re (lại) -> Lấy lại những gì đã lưu trữ, làm mới lại.",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3939,
+    "fields": {
+      "word": "restrict",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "riˈstrɪkt",
+      "ipa_us": "rɪˈstrɪkt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hạn chế, giới hạn",
+      "definition_en": "To limit the movements or actions of someone, or to limit something and reduce its size or prevent it from increasing.",
+      "example_en": "The government restricted the sale of alcohol.",
+      "example_vi": "Chính phủ đã hạn chế việc bán rượu.",
+      "collocations_json": [
+        "restrict access",
+        "severely restrict",
+        "restrict oneself to"
+      ],
+      "synonyms_json": [
+        "limit",
+        "constrain"
+      ],
+      "antonyms_json": [
+        "allow",
+        "expand"
+      ],
+      "mnemonic": "Strict (nghiêm ngặt) -> restrict là áp đặt quy định một cách nghiêm ngặt để hạn chế ai đó.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3940,
+    "fields": {
+      "word": "restriction",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "riˈstrɪkʃən",
+      "ipa_us": "rɪˈstrɪkʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự hạn chế",
+      "definition_en": "An official rule that limits what you can do or that limits the amount or size of something.",
+      "example_en": "There are speed restrictions on this road.",
+      "example_vi": "Có những quy định hạn chế tốc độ trên con đường này.",
+      "collocations_json": [
+        "impose a restriction",
+        "lift a restriction",
+        "travel restriction"
+      ],
+      "synonyms_json": [
+        "limitation",
+        "constraint"
+      ],
+      "antonyms_json": [
+        "freedom",
+        "allowance"
+      ],
+      "mnemonic": "Danh từ của restrict, tức là các quy định mang tính cấm cản, giới hạn.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3941,
+    "fields": {
+      "word": "retail",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈriˌteɪl",
+      "ipa_us": "ˈriˌteɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bán lẻ",
+      "definition_en": "The activity of selling goods to the public, usually in shops.",
+      "example_en": "She works in retail management.",
+      "example_vi": "Cô ấy làm việc trong lĩnh vực quản lý bán lẻ.",
+      "collocations_json": [
+        "retail price",
+        "retail sector",
+        "retail therapy"
+      ],
+      "synonyms_json": [
+        "merchandising"
+      ],
+      "antonyms_json": [
+        "wholesale"
+      ],
+      "mnemonic": "Retail (bán lẻ) ngược với wholesale (bán sỉ/bán buôn).",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3942,
+    "fields": {
+      "word": "retirement",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "rɪˈtaɪərmənt",
+      "ipa_us": "rɪˈtaɪərmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự nghỉ hưu",
+      "definition_en": "The point at which someone stops working, especially because of having reached a particular age.",
+      "example_en": "My father is approaching retirement.",
+      "example_vi": "Bố tôi đang đến gần tuổi nghỉ hưu.",
+      "collocations_json": [
+        "early retirement",
+        "retirement age",
+        "retirement plan"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Retire (nghỉ hưu) + ment -> thời kỳ hoặc trạng thái nghỉ hưu.",
+      "frequency_rank": 3200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3943,
+    "fields": {
+      "word": "revenue",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈrɛvəˌnu",
+      "ipa_us": "ˈrɛvəˌnu",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "doanh thu",
+      "definition_en": "The income that a government or company receives regularly.",
+      "example_en": "The company's revenue increased by 20% this year.",
+      "example_vi": "Doanh thu của công ty đã tăng 20% trong năm nay.",
+      "collocations_json": [
+        "tax revenue",
+        "generate revenue",
+        "annual revenue"
+      ],
+      "synonyms_json": [
+        "income",
+        "earnings"
+      ],
+      "antonyms_json": [
+        "expenditure",
+        "loss"
+      ],
+      "mnemonic": "Revenue là nguồn thu chính của công ty (doanh thu), phân biệt với profit (lợi nhuận).",
+      "frequency_rank": 2800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3944,
+    "fields": {
+      "word": "revision",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "riˈvɪʒən",
+      "ipa_us": "rɪˈvɪʒən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự ôn tập, sự xem lại",
+      "definition_en": "The process of changing or improving something, or studying again.",
+      "example_en": "She did a lot of revision for her exam.",
+      "example_vi": "Cô ấy đã ôn tập rất nhiều cho kỳ thi của mình.",
+      "collocations_json": [
+        "make a revision",
+        "major revision",
+        "exam revision"
+      ],
+      "synonyms_json": [
+        "review",
+        "alteration"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Re (lại) + vision (nhìn) -> Nhìn lại toàn bộ kiến thức để ôn tập.",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3945,
+    "fields": {
+      "word": "ridiculous",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "rɪˈdɪkjələs",
+      "ipa_us": "rɪˈdɪkjələs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nực cười, lố bịch",
+      "definition_en": "Stupid or unreasonable and deserving to be laughed at.",
+      "example_en": "That is a ridiculous idea.",
+      "example_vi": "Đó là một ý tưởng nực cười.",
+      "collocations_json": [
+        "look ridiculous",
+        "absolutely ridiculous",
+        "ridiculous amount"
+      ],
+      "synonyms_json": [
+        "absurd",
+        "silly",
+        "ludicrous"
+      ],
+      "antonyms_json": [
+        "sensible",
+        "reasonable"
+      ],
+      "mnemonic": "Trong Harry Potter có phép thuật 'Riddikulus' để biến nỗi sợ hãi thành thứ buồn cười, lố bịch.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3946,
+    "fields": {
+      "word": "risky",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈrɪski",
+      "ipa_us": "ˈrɪski",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đầy rủi ro",
+      "definition_en": "Involving the possibility of something bad happening.",
+      "example_en": "It is risky to invest all your money in one company.",
+      "example_vi": "Đầu tư tất cả tiền của bạn vào một công ty là đầy rủi ro.",
+      "collocations_json": [
+        "risky business",
+        "risky investment",
+        "highly risky"
+      ],
+      "synonyms_json": [
+        "dangerous",
+        "hazardous"
+      ],
+      "antonyms_json": [
+        "safe",
+        "secure"
+      ],
+      "mnemonic": "Risk (rủi ro) + y -> Tính từ mang nghĩa nguy hiểm, mạo hiểm.",
+      "frequency_rank": 3700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3947,
+    "fields": {
+      "word": "rival",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈraɪvəl",
+      "ipa_us": "ˈraɪvəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đối thủ, địch thủ",
+      "definition_en": "A person, group, etc. competing with others for the same thing or in the same area.",
+      "example_en": "He beat his closest rival by 20 points.",
+      "example_vi": "Anh ta đã đánh bại đối thủ bám sát nhất của mình với cách biệt 20 điểm.",
+      "collocations_json": [
+        "chief rival",
+        "rival company",
+        "bitter rival"
+      ],
+      "synonyms_json": [
+        "competitor",
+        "opponent"
+      ],
+      "antonyms_json": [
+        "ally",
+        "partner"
+      ],
+      "mnemonic": "Đọc giống 'Rai-vồ' -> Hai đối thủ vồ lấy nhau tranh giành giải thưởng.",
+      "frequency_rank": 3200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3948,
+    "fields": {
+      "word": "rob",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "rɑb",
+      "ipa_us": "rɑb",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cướp đoạt, trộm",
+      "definition_en": "To take money or property illegally from a place, organization, or person, often using violence.",
+      "example_en": "They threatened to rob the bank.",
+      "example_vi": "Họ đe dọa sẽ cướp ngân hàng.",
+      "collocations_json": [
+        "rob a bank",
+        "rob someone of something",
+        "armed rob"
+      ],
+      "synonyms_json": [
+        "steal",
+        "mug"
+      ],
+      "antonyms_json": [
+        "give",
+        "protect"
+      ],
+      "mnemonic": "Kẻ cướp là robber, hành động cướp là rob.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3949,
+    "fields": {
+      "word": "robbery",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈrɑbəri",
+      "ipa_us": "ˈrɑbəri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vụ cướp",
+      "definition_en": "The crime of stealing from somewhere or someone.",
+      "example_en": "He is in prison for armed robbery.",
+      "example_vi": "Anh ta đang ở tù vì tội cướp có vũ trang.",
+      "collocations_json": [
+        "armed robbery",
+        "bank robbery",
+        "commit a robbery"
+      ],
+      "synonyms_json": [
+        "theft",
+        "burglary"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Rob (cướp) + bery -> Sự việc ăn cướp, vụ cướp.",
+      "frequency_rank": 3900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3950,
+    "fields": {
+      "word": "rocket",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "technology",
+      "ipa_uk": "ˈrɑkət",
+      "ipa_us": "ˈrɑkət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tên lửa",
+      "definition_en": "A large cylinder-shaped object that moves very fast by forcing out burning gases, used for space travel or as a weapon.",
+      "example_en": "The rocket was launched into space.",
+      "example_vi": "Tên lửa đã được phóng vào không gian.",
+      "collocations_json": [
+        "launch a rocket",
+        "rocket ship",
+        "rocket science"
+      ],
+      "synonyms_json": [
+        "missile"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bạn còn nhớ Đội hỏa tiễn (Team Rocket) trong series Pokemon không?",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3951,
+    "fields": {
+      "word": "romance",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "roʊˈmæns",
+      "ipa_us": "roʊˈmæns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự lãng mạn, mối tình",
+      "definition_en": "A close, usually short relationship of love between two people, or a feeling of excitement and mystery associated with love.",
+      "example_en": "Their romance blossomed over the summer.",
+      "example_vi": "Mối tình lãng mạn của họ chớm nở trong suốt mùa hè.",
+      "collocations_json": [
+        "holiday romance",
+        "whirlwind romance",
+        "romance novel"
+      ],
+      "synonyms_json": [
+        "love affair",
+        "passion"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tính từ romantic (lãng mạn) rất quen thuộc, danh từ là romance.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3952,
+    "fields": {
+      "word": "rose",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "nature",
+      "ipa_uk": "roʊz",
+      "ipa_us": "roʊz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hoa hồng",
+      "definition_en": "A flower with a sweet smell that grows on a bush with thorns, or past tense of rise.",
+      "example_en": "He bought her a single red rose.",
+      "example_vi": "Anh ấy đã mua cho cô ấy một bông hồng đỏ duy nhất.",
+      "collocations_json": [
+        "red rose",
+        "rose bush",
+        "smell the roses"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Từ này vừa là 'hoa hồng', vừa là dạng quá khứ của từ 'rise' (tăng lên).",
+      "frequency_rank": 2500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3953,
+    "fields": {
+      "word": "roughly",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈrʌfli",
+      "ipa_us": "ˈrʌfli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khoảng, xấp xỉ",
+      "definition_en": "Approximately, or violently.",
+      "example_en": "There are roughly 200 people in the room.",
+      "example_vi": "Có khoảng 200 người trong phòng.",
+      "collocations_json": [
+        "roughly equal",
+        "roughly equivalent",
+        "translate roughly"
+      ],
+      "synonyms_json": [
+        "approximately",
+        "about",
+        "around"
+      ],
+      "antonyms_json": [
+        "exactly",
+        "precisely"
+      ],
+      "mnemonic": "Rough là gồ ghề, thô ráp. Tính toán một cách thô (roughly) nghĩa là chỉ đoán xấp xỉ.",
+      "frequency_rank": 2700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3954,
+    "fields": {
+      "word": "ruin",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈruən",
+      "ipa_us": "ˈruən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phá hỏng, hủy hoại",
+      "definition_en": "To spoil or destroy something completely.",
+      "example_en": "The bad weather ruined our trip.",
+      "example_vi": "Thời tiết xấu đã phá hỏng chuyến đi của chúng tôi.",
+      "collocations_json": [
+        "ruin someone's life",
+        "in ruins",
+        "completely ruined"
+      ],
+      "synonyms_json": [
+        "destroy",
+        "spoil",
+        "wreck"
+      ],
+      "antonyms_json": [
+        "save",
+        "build",
+        "preserve"
+      ],
+      "mnemonic": "Phát âm gần giống 'ru-in' (rút vào trong) vì mọi thứ bị sụp đổ, hủy hoại, không còn nguyên trạng.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3955,
+    "fields": {
+      "word": "satisfaction",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˌsætəˈsfækʃən",
+      "ipa_us": "ˌsætəsˈfækʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự hài lòng",
+      "definition_en": "A pleasant feeling that you get when you receive something you wanted, or when you have done something you wanted to do.",
+      "example_en": "She looked at the finished painting with satisfaction.",
+      "example_vi": "Cô ấy nhìn bức tranh đã hoàn thành với sự hài lòng.",
+      "collocations_json": [
+        "job satisfaction",
+        "customer satisfaction",
+        "express satisfaction"
+      ],
+      "synonyms_json": [
+        "contentment",
+        "pleasure"
+      ],
+      "antonyms_json": [
+        "dissatisfaction",
+        "disappointment"
+      ],
+      "mnemonic": "Satisfy (làm hài lòng) + faction -> Danh từ là sự hài lòng.",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3956,
+    "fields": {
+      "word": "scandal",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈskændəl",
+      "ipa_us": "ˈskændəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vụ bê bối",
+      "definition_en": "An action or event that is considered immoral, causing public outrage.",
+      "example_en": "The politician was involved in a financial scandal.",
+      "example_vi": "Chính trị gia có liên quan đến một vụ bê bối tài chính.",
+      "collocations_json": [
+        "financial scandal",
+        "political scandal",
+        "cause a scandal"
+      ],
+      "synonyms_json": [
+        "controversy",
+        "disgrace"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Xì-căng-đan là từ tiếng Việt mượn trực tiếp từ scandal tiếng Anh.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3957,
+    "fields": {
+      "word": "scare",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "skɛr",
+      "ipa_us": "skɛr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "làm sợ hãi",
+      "definition_en": "To (make a person or animal) feel frightened.",
+      "example_en": "Loud noises can scare the baby.",
+      "example_vi": "Tiếng ồn lớn có thể làm em bé sợ hãi.",
+      "collocations_json": [
+        "scare away",
+        "scare someone to death",
+        "bomb scare"
+      ],
+      "synonyms_json": [
+        "frighten",
+        "terrify"
+      ],
+      "antonyms_json": [
+        "comfort",
+        "reassure"
+      ],
+      "mnemonic": "Tính từ scary (đáng sợ) bắt nguồn từ động từ scare.",
+      "frequency_rank": 3700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3958,
+    "fields": {
+      "word": "scenario",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "sɪˈnɛrioʊ",
+      "ipa_us": "sɪˈnɛrioʊ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kịch bản, viễn cảnh",
+      "definition_en": "A description of possible actions or events in the future.",
+      "example_en": "Let's imagine a worst-case scenario.",
+      "example_vi": "Hãy tưởng tượng một viễn cảnh tồi tệ nhất.",
+      "collocations_json": [
+        "worst-case scenario",
+        "best-case scenario",
+        "likely scenario"
+      ],
+      "synonyms_json": [
+        "situation",
+        "plot"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bắt nguồn từ scene (cảnh), scenario là kịch bản hoặc viễn cảnh có thể xảy ra.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3959,
+    "fields": {
+      "word": "scholar",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈskɑlər",
+      "ipa_us": "ˈskɑlər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "học giả",
+      "definition_en": "A person who studies a subject in great detail, especially at a university.",
+      "example_en": "He is a renowned scholar of ancient history.",
+      "example_vi": "Ông ấy là một học giả nổi tiếng về lịch sử cổ đại.",
+      "collocations_json": [
+        "visiting scholar",
+        "leading scholar",
+        "biblical scholar"
+      ],
+      "synonyms_json": [
+        "academic",
+        "intellectual"
+      ],
+      "antonyms_json": [
+        "student",
+        "pupil"
+      ],
+      "mnemonic": "School là trường học -> Scholar là người dành cả đời nghiên cứu ở trường (học giả).",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3960,
+    "fields": {
+      "word": "scholarship",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈskɑlərˌʃɪp",
+      "ipa_us": "ˈskɑlərˌʃɪp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "học bổng",
+      "definition_en": "An amount of money given by a school, college, university, or other organization to pay for the studies of a person with great ability.",
+      "example_en": "She won a full scholarship to Harvard.",
+      "example_vi": "Cô ấy đã giành được học bổng toàn phần đến Harvard.",
+      "collocations_json": [
+        "win a scholarship",
+        "apply for a scholarship",
+        "full scholarship"
+      ],
+      "synonyms_json": [
+        "grant",
+        "fellowship"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tiền tài trợ giúp sinh viên trở thành scholar (học giả) -> scholarship (học bổng).",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3961,
+    "fields": {
+      "word": "scratch",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "skræʧ",
+      "ipa_us": "skræʧ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cào, vết xước",
+      "definition_en": "To cut or damage a surface or your skin slightly with or on something sharp or rough.",
+      "example_en": "The cat scratched my arm.",
+      "example_vi": "Con mèo đã cào vào cánh tay tôi.",
+      "collocations_json": [
+        "start from scratch",
+        "scratch the surface",
+        "scratch one's head"
+      ],
+      "synonyms_json": [
+        "scrape",
+        "rub"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "'Start from scratch' là thành ngữ rất phổ biến, nghĩa là bắt đầu lại từ vạch kẻ xước (từ con số không).",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3962,
+    "fields": {
+      "word": "screening",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "medical",
+      "ipa_uk": "ˈskrinɪŋ",
+      "ipa_us": "ˈskrinɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự sàng lọc, chiếu phim",
+      "definition_en": "A test or examination to discover if there is anything wrong with someone, or the showing of a film.",
+      "example_en": "Regular breast cancer screening can save lives.",
+      "example_vi": "Sàng lọc ung thư vú thường xuyên có thể cứu sống nhiều người.",
+      "collocations_json": [
+        "health screening",
+        "security screening",
+        "film screening"
+      ],
+      "synonyms_json": [
+        "testing",
+        "evaluation"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Screen (màn hình, tấm chắn) -> Việc đưa thông tin qua màn chắn để tìm ra những gì cần thiết gọi là sàng lọc.",
+      "frequency_rank": 3900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3963,
+    "fields": {
+      "word": "seeker",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈsikər",
+      "ipa_us": "ˈsikər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người tìm kiếm",
+      "definition_en": "A person who is looking for the thing mentioned.",
+      "example_en": "She is an asylum seeker looking for a safe country.",
+      "example_vi": "Cô ấy là một người tị nạn đang tìm kiếm một quốc gia an toàn.",
+      "collocations_json": [
+        "job seeker",
+        "asylum seeker",
+        "attention seeker"
+      ],
+      "synonyms_json": [
+        "searcher",
+        "hunter"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Seek (tìm kiếm) + er (người) -> Người luôn tìm kiếm điều gì đó.",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3964,
+    "fields": {
+      "word": "seminar",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈsɛməˌnɑr",
+      "ipa_us": "ˈsɛməˌnɑr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hội thảo",
+      "definition_en": "An occasion when a teacher or expert and a group of people meet to study and discuss something.",
+      "example_en": "I attended a seminar on digital marketing.",
+      "example_vi": "Tôi đã tham dự một hội thảo về tiếp thị kỹ thuật số.",
+      "collocations_json": [
+        "attend a seminar",
+        "hold a seminar",
+        "training seminar"
+      ],
+      "synonyms_json": [
+        "workshop",
+        "conference"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Trong tiếng Việt hay dùng luôn từ seminar để chỉ buổi thảo luận, thuyết trình chuyên đề.",
+      "frequency_rank": 3700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3965,
+    "fields": {
+      "word": "settler",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈsɛtələr",
+      "ipa_us": "ˈsɛtələr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người định cư",
+      "definition_en": "A person who arrives, especially from another country, in a new place in order to live there and use the land.",
+      "example_en": "European settlers arrived in America in the 17th century.",
+      "example_vi": "Những người định cư châu Âu đã đến Mỹ vào thế kỷ 17.",
+      "collocations_json": [
+        "early settler",
+        "European settler",
+        "white settler"
+      ],
+      "synonyms_json": [
+        "colonist",
+        "pioneer"
+      ],
+      "antonyms_json": [
+        "native",
+        "indigenous"
+      ],
+      "mnemonic": "Settle (ổn định, định cư) + er (người) -> Người định cư ở vùng đất mới.",
+      "frequency_rank": 4100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3966,
+    "fields": {
+      "word": "severely",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "səˈvɪrli",
+      "ipa_us": "səˈvɪrli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nghiêm trọng, khắt khe",
+      "definition_en": "Very seriously.",
+      "example_en": "The building was severely damaged in the fire.",
+      "example_vi": "Tòa nhà đã bị hư hỏng nghiêm trọng trong trận hỏa hoạn.",
+      "collocations_json": [
+        "severely damaged",
+        "severely injured",
+        "severely restrict"
+      ],
+      "synonyms_json": [
+        "seriously",
+        "badly",
+        "strictly"
+      ],
+      "antonyms_json": [
+        "mildly",
+        "slightly"
+      ],
+      "mnemonic": "Trạng từ của tính từ severe (nghiêm trọng).",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3967,
+    "fields": {
+      "word": "sexy",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈsɛksi",
+      "ipa_us": "ˈsɛksi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "gợi cảm, hấp dẫn",
+      "definition_en": "Sexually attractive or exciting.",
+      "example_en": "She wore a sexy red dress to the party.",
+      "example_vi": "Cô ấy mặc một chiếc váy đỏ gợi cảm đến bữa tiệc.",
+      "collocations_json": [
+        "look sexy",
+        "feel sexy",
+        "sexy voice"
+      ],
+      "synonyms_json": [
+        "attractive",
+        "appealing"
+      ],
+      "antonyms_json": [
+        "unattractive"
+      ],
+      "mnemonic": "Sex + y -> Tính từ mang nghĩa thu hút, hấp dẫn giới tính.",
+      "frequency_rank": 4200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3968,
+    "fields": {
+      "word": "shaped",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ʃeɪpt",
+      "ipa_us": "ʃeɪpt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có hình dạng",
+      "definition_en": "Having a particular shape.",
+      "example_en": "She has a heart-shaped face.",
+      "example_vi": "Cô ấy có một khuôn mặt hình trái tim.",
+      "collocations_json": [
+        "L-shaped",
+        "V-shaped",
+        "oddly shaped"
+      ],
+      "synonyms_json": [
+        "formed"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Shape (hình dạng), thêm đuôi -ed thường dùng sau danh từ để tạo tính từ miêu tả dạng hình khối.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3969,
+    "fields": {
+      "word": "shocking",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈʃɑkɪŋ",
+      "ipa_us": "ˈʃɑkɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "gây sốc, đáng kinh ngạc",
+      "definition_en": "Offending or upsetting someone very much.",
+      "example_en": "The news of his death was truly shocking.",
+      "example_vi": "Tin tức về cái chết của anh ấy thực sự gây sốc.",
+      "collocations_json": [
+        "shocking news",
+        "shocking discovery",
+        "truly shocking"
+      ],
+      "synonyms_json": [
+        "surprising",
+        "appalling"
+      ],
+      "antonyms_json": [
+        "expected",
+        "comforting"
+      ],
+      "mnemonic": "Shock + ing -> Gây ra cú sốc, khiến người ta kinh ngạc tột độ.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3970,
+    "fields": {
+      "word": "shore",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "nature",
+      "ipa_uk": "ʃɔr",
+      "ipa_us": "ʃɔr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bờ (biển, hồ)",
+      "definition_en": "The land along the edge of a sea, lake, or wide river.",
+      "example_en": "We walked along the shore gathering shells.",
+      "example_vi": "Chúng tôi đi dọc theo bờ biển để nhặt vỏ sò.",
+      "collocations_json": [
+        "on the shore",
+        "sandy shore",
+        "reach the shore"
+      ],
+      "synonyms_json": [
+        "coast",
+        "beach",
+        "bank"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Phát âm gần giống 'sure' (chắc chắn), đứng trên bờ (shore) thì chắc chắn và an toàn hơn bơi dưới nước.",
+      "frequency_rank": 3200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3971,
+    "fields": {
+      "word": "shortage",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈʃɔrtəʤ",
+      "ipa_us": "ˈʃɔrtəʤ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự thiếu hụt",
+      "definition_en": "A situation in which there is not enough of something.",
+      "example_en": "There is a severe shortage of food in the region.",
+      "example_vi": "Có một sự thiếu hụt lương thực nghiêm trọng trong khu vực.",
+      "collocations_json": [
+        "food shortage",
+        "water shortage",
+        "staff shortage"
+      ],
+      "synonyms_json": [
+        "scarcity",
+        "lack",
+        "deficiency"
+      ],
+      "antonyms_json": [
+        "abundance",
+        "surplus"
+      ],
+      "mnemonic": "Short (ngắn/thiếu) + age -> Tình trạng thiếu thốn, không đủ dùng.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3972,
+    "fields": {
+      "word": "shortly",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈʃɔrtli",
+      "ipa_us": "ˈʃɔrtli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chẳng mấy chốc, sớm",
+      "definition_en": "Soon.",
+      "example_en": "The meeting will begin shortly.",
+      "example_vi": "Cuộc họp sẽ bắt đầu trong chốc lát.",
+      "collocations_json": [
+        "shortly after",
+        "shortly before",
+        "arrive shortly"
+      ],
+      "synonyms_json": [
+        "soon",
+        "presently"
+      ],
+      "antonyms_json": [
+        "later"
+      ],
+      "mnemonic": "Short (ngắn), in a short time -> shortly nghĩa là sẽ xảy ra ngay tức khắc, rất sớm.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3973,
+    "fields": {
+      "word": "short-term",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ʃɔrt-tɜrm",
+      "ipa_us": "ʃɔrt-tɜrm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ngắn hạn",
+      "definition_en": "Lasting a short time; designed only for a short period of time in the future.",
+      "example_en": "His short-term memory is failing.",
+      "example_vi": "Trí nhớ ngắn hạn của ông ấy đang suy giảm.",
+      "collocations_json": [
+        "short-term memory",
+        "short-term loan",
+        "short-term plan"
+      ],
+      "synonyms_json": [
+        "temporary",
+        "brief"
+      ],
+      "antonyms_json": [
+        "long-term"
+      ],
+      "mnemonic": "Short (ngắn) + term (kỳ hạn) -> Kéo dài trong khoảng thời gian ngắn.",
+      "frequency_rank": 3000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3974,
+    "fields": {
+      "word": "sibling",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈsɪblɪŋ",
+      "ipa_us": "ˈsɪblɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "anh chị em ruột",
+      "definition_en": "A brother or sister.",
+      "example_en": "I have three siblings: two brothers and one sister.",
+      "example_vi": "Tôi có ba anh chị em: hai anh trai và một chị gái.",
+      "collocations_json": [
+        "older sibling",
+        "younger sibling",
+        "sibling rivalry"
+      ],
+      "synonyms_json": [
+        "brother",
+        "sister"
+      ],
+      "antonyms_json": [
+        "only child"
+      ],
+      "mnemonic": "Sibling là từ gọi chung chung cho anh chị em trong nhà.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3975,
+    "fields": {
+      "word": "signature",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈsɪɡnəʧər",
+      "ipa_us": "ˈsɪɡnəʧər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chữ ký, dấu ấn",
+      "definition_en": "Your name written by yourself, always in the same way, usually to show that something has been written or agreed by you.",
+      "example_en": "I need your signature on this document.",
+      "example_vi": "Tôi cần chữ ký của bạn trên tài liệu này.",
+      "collocations_json": [
+        "digital signature",
+        "put your signature",
+        "signature dish"
+      ],
+      "synonyms_json": [
+        "autograph"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Động từ sign (ký tên) -> danh từ là signature.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3976,
+    "fields": {
+      "word": "significance",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "səɡˈnɪfɪkəns",
+      "ipa_us": "sɪɡˈnɪfɪkəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ý nghĩa, tầm quan trọng",
+      "definition_en": "Importance.",
+      "example_en": "We should not underestimate the significance of this discovery.",
+      "example_vi": "Chúng ta không nên đánh giá thấp tầm quan trọng của khám phá này.",
+      "collocations_json": [
+        "great significance",
+        "historical significance",
+        "grasp the significance"
+      ],
+      "synonyms_json": [
+        "importance",
+        "meaning"
+      ],
+      "antonyms_json": [
+        "insignificance",
+        "unimportance"
+      ],
+      "mnemonic": "Tính từ significant (quan trọng) biến thành danh từ significance (tầm quan trọng).",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3977,
+    "fields": {
+      "word": "skilled",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "skɪld",
+      "ipa_us": "skɪld",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có kỹ năng, lành nghề",
+      "definition_en": "Having the abilities needed to do an activity or job well.",
+      "example_en": "We need more skilled workers in this factory.",
+      "example_vi": "Chúng tôi cần nhiều công nhân lành nghề hơn trong nhà máy này.",
+      "collocations_json": [
+        "highly skilled",
+        "skilled worker",
+        "skilled labor"
+      ],
+      "synonyms_json": [
+        "experienced",
+        "expert",
+        "proficient"
+      ],
+      "antonyms_json": [
+        "unskilled",
+        "inexperienced"
+      ],
+      "mnemonic": "Skill (kỹ năng) + ed -> Được trang bị đầy đủ kỹ năng, rất rành rọt.",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

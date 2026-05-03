@@ -1,0 +1,362 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know what does he want.",
+    "output": "✅ **Corrected Sentence:** I don't know what he wants.\n🔍 **Error Identification:** Trong mệnh đề danh ngữ (what he wants), không đảo ngữ – dùng trật tự chủ ngữ + động từ.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên cấu trúc câu hỏi sau 'what'. Mẹo: Mệnh đề danh ngữ có trật tự như câu trần thuật (S + V).\n💡 **Ví dụ:** I know where she lives. / Tell me what you need."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wonder whether is he coming.",
+    "output": "✅ **Corrected Sentence:** I wonder whether he is coming.\n🔍 **Error Identification:** Mệnh đề danh ngữ sau 'whether' giữ nguyên trật tự S + V, không đảo ngữ.\n📘 **Vietnamese Explanation:** Người Việt đảo trợ động từ lên trước chủ ngữ như câu hỏi. Mẹo: 'Whether' + S + V (trật tự bình thường).\n💡 **Ví dụ:** I don't know whether she likes it. / He asked whether I was ready."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What you said is true. (câu đúng) - Học viên viết \'What did you say is true.\'",
+    "output": "✅ **Corrected Sentence:** What you said is true.\n🔍 **Error Identification:** Mệnh đề danh ngữ 'what you said' làm chủ ngữ, không được đảo ngữ như câu hỏi.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên cấu trúc câu hỏi trong mệnh đề danh ngữ. Mẹo: 'What + S + V' (trật tự trần thuật).\n💡 **Ví dụ:** What she did surprised me. / What you need is rest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know if does he love me.",
+    "output": "✅ **Corrected Sentence:** I don't know if he loves me.\n🔍 **Error Identification:** Sau 'if' (whether) trong mệnh đề danh ngữ, dùng trật tự S + V, không đảo ngữ.\n📘 **Vietnamese Explanation:** Người Việt dùng cấu trúc câu hỏi sau 'if'. Mẹo: 'If/Whether' + S + V.\n💡 **Ví dụ:** I wonder if she is home. / Tell me if you need help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That she passed the exam is surprising.",
+    "output": "✅ **Corrected Sentence:** That she passed the exam is surprising. (câu đúng)\n🔍 **Error Identification:** Mệnh đề danh ngữ bắt đầu bằng 'that' làm chủ ngữ – câu đúng.\n📘 **Vietnamese Explanation:** Người Việt thường quên 'that' trong mệnh đề danh ngữ. Mẹo: 'That + S + V' có thể làm chủ ngữ hoặc tân ngữ.\n💡 **Ví dụ:** That he lied is obvious. / I believe that you are right."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't care what does he think.",
+    "output": "✅ **Corrected Sentence:** I don't care what he thinks.\n🔍 **Error Identification:** Mệnh đề danh ngữ 'what he thinks' giữ trật tự S + V.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên cấu trúc câu hỏi. Mẹo: What/where/when + S + V (không đảo).\n💡 **Ví dụ:** I don't know where she lives. / Tell me when you arrive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Whether will she come is uncertain.",
+    "output": "✅ **Corrected Sentence:** Whether she will come is uncertain. (hoặc Whether she comes)\n🔍 **Error Identification:** Mệnh đề danh ngữ làm chủ ngữ: 'Whether + S + V', không đảo ngữ.\n📘 **Vietnamese Explanation:** Người Việt đảo trợ động từ lên trước chủ ngữ. Mẹo: Whether + S + V (trật tự bình thường).\n💡 **Ví dụ:** Whether he accepts is up to him. / Whether we go depends on the weather."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I asked him what was his name.",
+    "output": "✅ **Corrected Sentence:** I asked him what his name was.\n🔍 **Error Identification:** Mệnh đề danh ngữ 'what his name was' giữ trật tự S + V (không đảo).\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên cấu trúc câu hỏi trực tiếp. Mẹo: Câu hỏi gián tiếp: S + asked + what + S + V.\n💡 **Ví dụ:** He asked where I lived. / She wondered what time it was."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know why did he leave.",
+    "output": "✅ **Corrected Sentence:** I don't know why he left.\n🔍 **Error Identification:** Mệnh đề danh ngữ 'why he left' – không đảo ngữ.\n📘 **Vietnamese Explanation:** Người Việt dùng cấu trúc câu hỏi trực tiếp. Mẹo: Why + S + V (trong mệnh đề danh ngữ).\n💡 **Ví dụ:** Tell me why you are sad. / I understand why she cried."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That she is kind is known to everyone.",
+    "output": "✅ **Corrected Sentence:** That she is kind is known to everyone. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'that' làm chủ ngữ – câu đúng.\n📘 **Vietnamese Explanation:** Người Việt thường bỏ 'that' trong mệnh đề danh ngữ. Mẹo: 'That' ở đầu câu làm chủ ngữ không thể bỏ.\n💡 **Ví dụ:** That he succeeded was a surprise. / That they lost is disappointing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't remember what did she say.",
+    "output": "✅ **Corrected Sentence:** I don't remember what she said.\n🔍 **Error Identification:** Mệnh đề danh ngữ 'what she said' – trật tự S + V.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên cấu trúc câu hỏi. Mẹo: What + S + V (trong mệnh đề danh ngữ).\n💡 **Ví dụ:** I remember what you told me. / Do you know what he wants?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wonder if is he at home.",
+    "output": "✅ **Corrected Sentence:** I wonder if he is at home.\n🔍 **Error Identification:** 'If' + S + V, không đảo ngữ.\n📘 **Vietnamese Explanation:** Người Việt đảo 'is' lên trước 'he'. Mẹo: If/Whether + S + V (trật tự bình thường).\n💡 **Ví dụ:** I don't know if she is ready. / He asked if I was tired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What he said was interesting. (câu đúng) - Học viên viết \'What did he say was interesting.\'",
+    "output": "✅ **Corrected Sentence:** What he said was interesting.\n🔍 **Error Identification:** Mệnh đề danh ngữ 'what he said' làm chủ ngữ – không đảo ngữ.\n📘 **Vietnamese Explanation:** Người Việt dùng câu hỏi làm chủ ngữ. Mẹo: What + S + V + V(chính).\n💡 **Ví dụ:** What you did was wrong. / What she needs is support."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know whether should I go or stay.",
+    "output": "✅ **Corrected Sentence:** I don't know whether I should go or stay.\n🔍 **Error Identification:** 'Whether' + S + should + V, không đảo ngữ.\n📘 **Vietnamese Explanation:** Người Việt đảo 'should' lên trước 'I'. Mẹo: Whether + S + V (không đảo trợ động từ).\n💡 **Ví dụ:** I don't know whether she will come. / He wondered whether he should call."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That she loves him is obvious.",
+    "output": "✅ **Corrected Sentence:** That she loves him is obvious. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'that' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'It' + be + adj + that... để tránh chủ ngữ dài.\n💡 **Ví dụ:** It is obvious that she loves him. / It is clear that he is wrong."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't care what does she want.",
+    "output": "✅ **Corrected Sentence:** I don't care what she wants.\n🔍 **Error Identification:** 'What she wants' – trật tự S + V.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên câu hỏi. Mẹo: What + S + V (không trợ động từ đảo).\n💡 **Ví dụ:** I don't care what he thinks. / Tell me what you see."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He asked me where was I going.",
+    "output": "✅ **Corrected Sentence:** He asked me where I was going.\n🔍 **Error Identification:** Câu hỏi gián tiếp: 'where I was going' – S + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên cấu trúc câu hỏi trực tiếp. Mẹo: S + asked + where + S + V.\n💡 **Ví dụ:** She asked when I would return. / He wondered why she was crying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know how does it work.",
+    "output": "✅ **Corrected Sentence:** I don't know how it works.\n🔍 **Error Identification:** 'How it works' – trật tự S + V.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc câu hỏi. Mẹo: How + S + V (trong mệnh đề danh ngữ).\n💡 **Ví dụ:** I know how she feels. / Tell me how you did it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Whether he will come or not is not important.",
+    "output": "✅ **Corrected Sentence:** Whether he will come or not is not important. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'whether' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'whether...or not' hoặc 'whether or not'.\n💡 **Ví dụ:** Whether she likes it or not doesn't matter. / Whether we win or lose, we'll try."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I asked him what time is it.",
+    "output": "✅ **Corrected Sentence:** I asked him what time it was.\n🔍 **Error Identification:** Câu hỏi gián tiếp: 'what time it was' – S + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên cấu trúc 'what time is it'. Mẹo: Lùi thì và giữ trật tự S + V.\n💡 **Ví dụ:** She asked what day it was. / He wondered what the problem was."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know what is his name.",
+    "output": "✅ **Corrected Sentence:** I don't know what his name is.\n🔍 **Error Identification:** 'What his name is' – S + V ở cuối.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên cấu trúc 'what is his name'. Mẹo: What + S + V (V ở cuối).\n💡 **Ví dụ:** Tell me what your name is. / I know what the answer is."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That he didn't show up was strange.",
+    "output": "✅ **Corrected Sentence:** That he didn't show up was strange. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'that' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể viết lại: 'It was strange that he didn't show up'.\n💡 **Ví dụ:** That she forgot my birthday upset me. / That they lost is disappointing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wonder why is she crying.",
+    "output": "✅ **Corrected Sentence:** I wonder why she is crying.\n🔍 **Error Identification:** 'Why she is crying' – S + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt đảo 'is' lên trước 'she'. Mẹo: Why + S + V (trật tự bình thường).\n💡 **Ví dụ:** I don't know why he is angry. / Tell me why you are sad."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What you need is some rest. (câu đúng) - Học viên viết \'What do you need is some rest.\'",
+    "output": "✅ **Corrected Sentence:** What you need is some rest.\n🔍 **Error Identification:** Mệnh đề danh ngữ 'what you need' làm chủ ngữ – không đảo ngữ.\n📘 **Vietnamese Explanation:** Người Việt dùng cấu trúc câu hỏi. Mẹo: What + S + V (chủ ngữ của câu).\n💡 **Ví dụ:** What she wants is a break. / What I need is love."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't remember where did I put my keys.",
+    "output": "✅ **Corrected Sentence:** I don't remember where I put my keys.\n🔍 **Error Identification:** 'Where I put my keys' – S + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'where did I put'. Mẹo: Where + S + V (trong mệnh đề danh ngữ).\n💡 **Ví dụ:** I forgot where I parked. / Tell me where you live."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Whether or not he will come is up to him.",
+    "output": "✅ **Corrected Sentence:** Whether or not he will come is up to him. (câu đúng)\n🔍 **Error Identification:** 'Whether or not' + S + V làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể đảo 'whether or not' lên đầu câu.\n💡 **Ví dụ:** Whether or not she agrees doesn't matter. / Whether we go or stay is your decision."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know if will she come.",
+    "output": "✅ **Corrected Sentence:** I don't know if she will come.\n🔍 **Error Identification:** 'If she will come' – S + will + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt đảo 'will' lên trước 'she'. Mẹo: If + S + will + V.\n💡 **Ví dụ:** I wonder if he will call. / Tell me if you will attend."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That the earth is round is a fact.",
+    "output": "✅ **Corrected Sentence:** That the earth is round is a fact. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'that' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'It is a fact that the earth is round' để tự nhiên hơn.\n💡 **Ví dụ:** That he is honest is clear. / That water boils at 100°C is known."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I asked her what was she doing.",
+    "output": "✅ **Corrected Sentence:** I asked her what she was doing.\n🔍 **Error Identification:** 'What she was doing' – S + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc câu hỏi trực tiếp. Mẹo: What + S + V (trong câu gián tiếp).\n💡 **Ví dụ:** He asked what I was reading. / She wondered what he was thinking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know where is the station.",
+    "output": "✅ **Corrected Sentence:** I don't know where the station is.\n🔍 **Error Identification:** 'Where the station is' – S + V ở cuối.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'where is the station'. Mẹo: Where + S + V (V ở cuối).\n💡 **Ví dụ:** Tell me where the bathroom is. / I know where the keys are."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What she said made me cry.",
+    "output": "✅ **Corrected Sentence:** What she said made me cry. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'what' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'what + S + V' có thể đứng đầu câu làm chủ ngữ.\n💡 **Ví dụ:** What he did shocked everyone. / What you think doesn't matter."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know whether should I call him.",
+    "output": "✅ **Corrected Sentence:** I don't know whether I should call him.\n🔍 **Error Identification:** 'Whether I should call him' – S + should + V.\n📘 **Vietnamese Explanation:** Người Việt đảo 'should' lên trước 'I'. Mẹo: Whether + S + should + V.\n💡 **Ví dụ:** I wonder whether she should go. / He asked whether I could help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That he is innocent is believed by everyone.",
+    "output": "✅ **Corrected Sentence:** That he is innocent is believed by everyone. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'that' làm chủ ngữ trong câu bị động – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể viết lại: 'It is believed by everyone that he is innocent'.\n💡 **Ví dụ:** That she is talented is known to all. / That he lied is obvious."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know how many people are there.",
+    "output": "✅ **Corrected Sentence:** I don't know how many people there are.\n🔍 **Error Identification:** 'How many people there are' – trật tự S + V (there are).\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'how many people are there'. Mẹo: How many + N + there + V.\n💡 **Ví dụ:** Tell me how many students there are. / I know how many books there are."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wonder if does she know the truth.",
+    "output": "✅ **Corrected Sentence:** I wonder if she knows the truth.\n🔍 **Error Identification:** 'If she knows the truth' – S + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt dùng 'does' trong mệnh đề danh ngữ. Mẹo: If + S + V (không trợ động từ).\n💡 **Ví dụ:** I don't know if he likes it. / She asked if I needed help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What you did was wrong. (câu đúng) - Học viên viết \'What did you do was wrong.\'",
+    "output": "✅ **Corrected Sentence:** What you did was wrong.\n🔍 **Error Identification:** Mệnh đề danh ngữ 'what you did' – không đảo ngữ.\n📘 **Vietnamese Explanation:** Người Việt dùng cấu trúc câu hỏi. Mẹo: What + S + V (chủ ngữ).\n💡 **Ví dụ:** What she said hurt me. / What I need is peace."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't care whether does he come or not.",
+    "output": "✅ **Corrected Sentence:** I don't care whether he comes or not.\n🔍 **Error Identification:** 'Whether he comes or not' – S + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt dùng 'does' trong mệnh đề danh ngữ. Mẹo: Whether + S + V (không trợ động từ).\n💡 **Ví dụ:** I don't care whether she likes it. / He doesn't know whether they will come."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That she passed the exam made her parents happy.",
+    "output": "✅ **Corrected Sentence:** That she passed the exam made her parents happy. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'that' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'It made her parents happy that she passed'.\n💡 **Ví dụ:** That he won the prize surprised us. / That they arrived late caused problems."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know what time is it.",
+    "output": "✅ **Corrected Sentence:** I don't know what time it is.\n🔍 **Error Identification:** 'What time it is' – S + V ở cuối.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'what time is it'. Mẹo: What time + S + V.\n💡 **Ví dụ:** Tell me what time it is. / I know what time the show starts."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wonder how much does it cost.",
+    "output": "✅ **Corrected Sentence:** I wonder how much it costs.\n🔍 **Error Identification:** 'How much it costs' – S + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt dùng 'does' trong mệnh đề danh ngữ. Mẹo: How much + S + V.\n💡 **Ví dụ:** I don't know how much it is. / Tell me how much you paid."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What he needs is a new car.",
+    "output": "✅ **Corrected Sentence:** What he needs is a new car. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'what' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt: 'What he needs' = điều anh ấy cần (mệnh đề danh ngữ).\n💡 **Ví dụ:** What she wants is a vacation. / What I like is coffee."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't remember what was the question.",
+    "output": "✅ **Corrected Sentence:** I don't remember what the question was.\n🔍 **Error Identification:** 'What the question was' – S + V ở cuối.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'what was the question'. Mẹo: What + S + V (V ở cuối).\n💡 **Ví dụ:** I forgot what the answer was. / Tell me what the problem is."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Whether she will accept is still unknown.",
+    "output": "✅ **Corrected Sentence:** Whether she will accept is still unknown. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'whether' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'It is still unknown whether she will accept'.\n💡 **Ví dụ:** Whether he will come is uncertain. / Whether they win doesn't matter."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I asked him where does he live.",
+    "output": "✅ **Corrected Sentence:** I asked him where he lives.\n🔍 **Error Identification:** 'Where he lives' – S + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt dùng 'does' trong câu gián tiếp. Mẹo: Where + S + V.\n💡 **Ví dụ:** He asked where she works. / She wondered where I was."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That the sun rises in the east is true.",
+    "output": "✅ **Corrected Sentence:** That the sun rises in the east is true. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'that' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể nói 'It is true that the sun rises in the east'.\n💡 **Ví dụ:** That water freezes at 0°C is a fact. / That he is kind is obvious."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know who is she.",
+    "output": "✅ **Corrected Sentence:** I don't know who she is.\n🔍 **Error Identification:** 'Who she is' – S + V ở cuối.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'who is she'. Mẹo: Who + S + V (V ở cuối).\n💡 **Ví dụ:** Tell me who he is. / I know who you are."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What you said is not true. (câu đúng) - Học viên viết \'What did you say is not true.\'",
+    "output": "✅ **Corrected Sentence:** What you said is not true.\n🔍 **Error Identification:** Mệnh đề danh ngữ 'what you said' – không đảo ngữ.\n📘 **Vietnamese Explanation:** Người Việt dùng cấu trúc câu hỏi. Mẹo: What + S + V (chủ ngữ).\n💡 **Ví dụ:** What she did was unacceptable. / What I heard is shocking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wonder if she is coming or not.",
+    "output": "✅ **Corrected Sentence:** I wonder if she is coming or not. (câu đúng)\n🔍 **Error Identification:** 'If she is coming or not' – đúng, nhưng 'whether' trang trọng hơn.\n📘 **Vietnamese Explanation:** Người Việt nên dùng 'whether' trong văn viết, 'if' trong văn nói.\n💡 **Ví dụ:** I don't know if he will come. / She asked whether I was ready."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know what is the problem.",
+    "output": "✅ **Corrected Sentence:** I don't know what the problem is.\n🔍 **Error Identification:** 'What the problem is' – S + V ở cuối.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'what is the problem'. Mẹo: What + S + V (V ở cuối).\n💡 **Ví dụ:** Tell me what the issue is. / I know what the solution is."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That he failed the exam surprised no one.",
+    "output": "✅ **Corrected Sentence:** That he failed the exam surprised no one. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'that' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể viết lại: 'It surprised no one that he failed'.\n💡 **Ví dụ:** That she left early worried me. / That they won was expected."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I asked him why was he late.",
+    "output": "✅ **Corrected Sentence:** I asked him why he was late.\n🔍 **Error Identification:** 'Why he was late' – S + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'why was he late'. Mẹo: Why + S + V.\n💡 **Ví dụ:** She asked why I was crying. / He wondered why she left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What you think is not important.",
+    "output": "✅ **Corrected Sentence:** What you think is not important. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'what' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'what + S + V' là một danh ngữ.\n💡 **Ví dụ:** What she believes is her business. / What I feel matters."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't care whether will he come or not.",
+    "output": "✅ **Corrected Sentence:** I don't care whether he will come or not.\n🔍 **Error Identification:** 'Whether he will come or not' – S + will + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt đảo 'will' lên trước 'he'. Mẹo: Whether + S + will + V.\n💡 **Ví dụ:** I don't know whether she will accept. / He asked whether I would help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That she is the best candidate is clear.",
+    "output": "✅ **Corrected Sentence:** That she is the best candidate is clear. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'that' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'It is clear that she is the best candidate'.\n💡 **Ví dụ:** That he is guilty is obvious. / That we need to act is urgent."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know where is the bathroom.",
+    "output": "✅ **Corrected Sentence:** I don't know where the bathroom is.\n🔍 **Error Identification:** 'Where the bathroom is' – S + V ở cuối.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'where is the bathroom'. Mẹo: Where + S + V.\n💡 **Ví dụ:** Tell me where the exit is. / I know where the store is."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What he wants is a new job.",
+    "output": "✅ **Corrected Sentence:** What he wants is a new job. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'what' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt 'what' (điều mà) và 'which' (cái nào).\n💡 **Ví dụ:** What I need is time. / What she likes is music."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wonder how long does it take.",
+    "output": "✅ **Corrected Sentence:** I wonder how long it takes.\n🔍 **Error Identification:** 'How long it takes' – S + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt dùng 'does' trong mệnh đề danh ngữ. Mẹo: How long + S + V.\n💡 **Ví dụ:** I don't know how long it will last. / Tell me how long you stayed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That she didn't call me upset me.",
+    "output": "✅ **Corrected Sentence:** That she didn't call me upset me. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'that' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể viết lại: 'It upset me that she didn't call me'.\n💡 **Ví dụ:** That he forgot my birthday hurt me. / That they lost the game disappointed us."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know what does this word mean.",
+    "output": "✅ **Corrected Sentence:** I don't know what this word means.\n🔍 **Error Identification:** 'What this word means' – S + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt dùng 'does' trong mệnh đề danh ngữ. Mẹo: What + S + V.\n💡 **Ví dụ:** Tell me what this sentence means. / I know what that symbol means."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Whether we go or stay is your decision.",
+    "output": "✅ **Corrected Sentence:** Whether we go or stay is your decision. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'whether' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'It is your decision whether we go or stay'.\n💡 **Ví dụ:** Whether she accepts or rejects doesn't matter. / Whether they win or lose, we'll support them."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I asked her what time does she wake up.",
+    "output": "✅ **Corrected Sentence:** I asked her what time she wakes up.\n🔍 **Error Identification:** 'What time she wakes up' – S + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt dùng 'does' trong câu gián tiếp. Mẹo: What time + S + V.\n💡 **Ví dụ:** He asked what time the store opens. / She wondered what time I arrived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What you need is some love.",
+    "output": "✅ **Corrected Sentence:** What you need is some love. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'what' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'All you need is love' (cấu trúc khác).\n💡 **Ví dụ:** What she needs is a friend. / What I want is peace."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know how many people are coming.",
+    "output": "✅ **Corrected Sentence:** I don't know how many people are coming. (câu đúng)\n🔍 **Error Identification:** 'How many people are coming' – đúng vì 'are coming' là động từ.\n📘 **Vietnamese Explanation:** Trong câu này, 'how many people' là chủ ngữ, 'are coming' là động từ – không có vấn đề đảo ngữ.\n💡 **Ví dụ:** I know how many students are absent. / Tell me how many guests will arrive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That he is a genius is undeniable.",
+    "output": "✅ **Corrected Sentence:** That he is a genius is undeniable. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'that' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'It is undeniable that he is a genius'.\n💡 **Ví dụ:** That she is beautiful is obvious. / That they are honest is clear."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wonder if will she be on time.",
+    "output": "✅ **Corrected Sentence:** I wonder if she will be on time.\n🔍 **Error Identification:** 'If she will be on time' – S + will + V, không đảo.\n📘 **Vietnamese Explanation:** Người Việt đảo 'will' lên trước 'she'. Mẹo: If + S + will + V.\n💡 **Ví dụ:** I don't know if he will arrive. / She asked if I would help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What she told me was a secret.",
+    "output": "✅ **Corrected Sentence:** What she told me was a secret. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'what' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'It was a secret what she told me'.\n💡 **Ví dụ:** What he said made me angry. / What you did was amazing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know where is she.",
+    "output": "✅ **Corrected Sentence:** I don't know where she is.\n🔍 **Error Identification:** 'Where she is' – S + V ở cuối.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'where is she'. Mẹo: Where + S + V.\n💡 **Ví dụ:** Tell me where he is. / I know where the children are."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Whether he likes it or not doesn't matter.",
+    "output": "✅ **Corrected Sentence:** Whether he likes it or not doesn't matter. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'whether' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'It doesn't matter whether he likes it or not'.\n💡 **Ví dụ:** Whether she agrees or not is irrelevant. / Whether they come or not is up to them."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I asked him what was his favorite movie.",
+    "output": "✅ **Corrected Sentence:** I asked him what his favorite movie was.\n🔍 **Error Identification:** 'What his favorite movie was' – S + V ở cuối.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'what was his favorite movie'. Mẹo: What + S + V.\n💡 **Ví dụ:** She asked what my job was. / He wondered what her name was."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That we need to leave early is clear.",
+    "output": "✅ **Corrected Sentence:** That we need to leave early is clear. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'that' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể nói 'It is clear that we need to leave early'.\n💡 **Ví dụ:** That she is tired is obvious. / That they are late is unacceptable."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't know how far is it.",
+    "output": "✅ **Corrected Sentence:** I don't know how far it is.\n🔍 **Error Identification:** 'How far it is' – S + V ở cuối.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'how far is it'. Mẹo: How far + S + V.\n💡 **Ví dụ:** Tell me how far the station is. / I know how far it is."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What she does is none of my business.",
+    "output": "✅ **Corrected Sentence:** What she does is none of my business. (câu đúng)\n🔍 **Error Identification:** Mệnh đề 'what' làm chủ ngữ – đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ cấu trúc 'what + S + V' là một danh ngữ.\n💡 **Ví dụ:** What he thinks doesn't concern me. / What you do is your choice."
+  }
+]

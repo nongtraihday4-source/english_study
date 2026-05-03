@@ -1,0 +1,1940 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 4704,
+    "fields": {
+      "word": "imminent",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈɪmənənt",
+      "ipa_us": "ˈɪmənənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sắp xảy ra, cấp bách",
+      "definition_en": "Coming or likely to happen very soon.",
+      "example_en": "They were in imminent danger of being swept away.",
+      "example_vi": "Họ đang trong tình trạng nguy hiểm cấp bách là bị cuốn trôi.",
+      "collocations_json": [
+        "imminent danger",
+        "imminent threat",
+        "in imminent"
+      ],
+      "synonyms_json": [
+        "impending",
+        "approaching",
+        "near"
+      ],
+      "antonyms_json": [
+        "distant",
+        "remote"
+      ],
+      "mnemonic": "Im (in) + minent (projecting). Projecting over you, ready to fall.",
+      "frequency_rank": 6400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4705,
+    "fields": {
+      "word": "implementation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌɪmpləmɛnˈteɪʃən",
+      "ipa_us": "ˌɪmpləmɛnˈteɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự thực hiện, sự thi hành",
+      "definition_en": "The act of starting to use a plan or system.",
+      "example_en": "The implementation of the new system took several months.",
+      "example_vi": "Việc thực hiện hệ thống mới mất vài tháng.",
+      "collocations_json": [
+        "successful implementation",
+        "full implementation",
+        "implementation phase"
+      ],
+      "synonyms_json": [
+        "execution",
+        "application",
+        "enforcement"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of implement.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4706,
+    "fields": {
+      "word": "imprison",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪmˈprɪzən",
+      "ipa_us": "ɪmˈprɪzən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giam cầm, tống giam",
+      "definition_en": "To put someone in prison.",
+      "example_en": "He was imprisoned for 10 years for armed robbery.",
+      "example_vi": "Anh ta bị tống giam 10 năm vì tội cướp có vũ trang.",
+      "collocations_json": [
+        "be imprisoned",
+        "wrongly imprisoned",
+        "imprisoned for life"
+      ],
+      "synonyms_json": [
+        "jail",
+        "incarcerate",
+        "confine"
+      ],
+      "antonyms_json": [
+        "free",
+        "release",
+        "liberate"
+      ],
+      "mnemonic": "Im (in) + prison -> To put in prison.",
+      "frequency_rank": 6700,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4707,
+    "fields": {
+      "word": "imprisonment",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪmˈprɪzənmənt",
+      "ipa_us": "ɪmˈprɪzənmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự giam cầm, hình phạt tù",
+      "definition_en": "The act of putting someone in prison or the condition of being kept in prison.",
+      "example_en": "He faced life imprisonment for his crimes.",
+      "example_vi": "Anh ta phải đối mặt với hình phạt tù chung thân cho những tội ác của mình.",
+      "collocations_json": [
+        "life imprisonment",
+        "term of imprisonment",
+        "wrongful imprisonment"
+      ],
+      "synonyms_json": [
+        "incarceration",
+        "confinement",
+        "detention"
+      ],
+      "antonyms_json": [
+        "freedom",
+        "liberty"
+      ],
+      "mnemonic": "Noun form of imprison.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4708,
+    "fields": {
+      "word": "inability",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌɪnəˈbɪlɪti",
+      "ipa_us": "ˌɪnəˈbɪlɪti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự bất lực, không có khả năng",
+      "definition_en": "Lack of ability to do something.",
+      "example_en": "His inability to accept criticism is his biggest flaw.",
+      "example_vi": "Sự bất lực trong việc chấp nhận lời chỉ trích là khuyết điểm lớn nhất của anh ta.",
+      "collocations_json": [
+        "inability to cope",
+        "inability to pay",
+        "total inability"
+      ],
+      "synonyms_json": [
+        "incapacity",
+        "powerlessness",
+        "failure"
+      ],
+      "antonyms_json": [
+        "ability",
+        "capability"
+      ],
+      "mnemonic": "In- (not) + ability. Not having the ability.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4709,
+    "fields": {
+      "word": "inadequate",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪˈnædəkwət",
+      "ipa_us": "ɪˈnædəkwət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "không đầy đủ, không đủ khả năng",
+      "definition_en": "Not good enough or too low in quality; or not confident enough to deal with a situation.",
+      "example_en": "The school's facilities are completely inadequate.",
+      "example_vi": "Cơ sở vật chất của trường hoàn toàn không đầy đủ.",
+      "collocations_json": [
+        "totally inadequate",
+        "feel inadequate",
+        "inadequate resources"
+      ],
+      "synonyms_json": [
+        "insufficient",
+        "deficient",
+        "poor"
+      ],
+      "antonyms_json": [
+        "adequate",
+        "sufficient",
+        "enough"
+      ],
+      "mnemonic": "In- (not) + adequate (enough). Not enough.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4710,
+    "fields": {
+      "word": "inappropriate",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌɪnəˈproʊpriɪt",
+      "ipa_us": "ˌɪnəˈproʊpriɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "không phù hợp, không thích hợp",
+      "definition_en": "Unsuitable.",
+      "example_en": "His comments were completely inappropriate for the occasion.",
+      "example_vi": "Những bình luận của anh ấy hoàn toàn không phù hợp với hoàn cảnh.",
+      "collocations_json": [
+        "highly inappropriate",
+        "inappropriate behavior",
+        "deem inappropriate"
+      ],
+      "synonyms_json": [
+        "unsuitable",
+        "improper",
+        "unfitting"
+      ],
+      "antonyms_json": [
+        "appropriate",
+        "suitable",
+        "proper"
+      ],
+      "mnemonic": "In- (not) + appropriate (suitable).",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4711,
+    "fields": {
+      "word": "incidence",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈɪnsədəns",
+      "ipa_us": "ˈɪnsɪdəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tỷ lệ mắc phải, mức độ xảy ra",
+      "definition_en": "An event, or the rate at which something happens.",
+      "example_en": "There is a high incidence of malaria in this region.",
+      "example_vi": "Có một tỷ lệ mắc bệnh sốt rét cao ở khu vực này.",
+      "collocations_json": [
+        "high incidence",
+        "reduce the incidence",
+        "incidence of disease"
+      ],
+      "synonyms_json": [
+        "occurrence",
+        "rate",
+        "frequency"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "How often incidents happen.",
+      "frequency_rank": 6800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4712,
+    "fields": {
+      "word": "inclined",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈklaɪnd",
+      "ipa_us": "ɪnˈklaɪnd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có khuynh hướng, muốn",
+      "definition_en": "Likely or wanting to do something.",
+      "example_en": "I am inclined to agree with you.",
+      "example_vi": "Tôi có khuynh hướng đồng ý với bạn.",
+      "collocations_json": [
+        "be inclined to",
+        "feel inclined",
+        "mechanically inclined"
+      ],
+      "synonyms_json": [
+        "disposed",
+        "willing",
+        "prone"
+      ],
+      "antonyms_json": [
+        "unwilling",
+        "reluctant"
+      ],
+      "mnemonic": "An INCLINE is a slope; if you are inclined, you lean towards an idea.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4713,
+    "fields": {
+      "word": "inclusion",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈkluʒən",
+      "ipa_us": "ɪnˈkluʒən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự bao gồm, sự hòa nhập",
+      "definition_en": "The act of including someone or something as part of a group, list, etc., or a person or thing that is included.",
+      "example_en": "The school promotes the inclusion of children with special needs.",
+      "example_vi": "Trường học thúc đẩy sự hòa nhập của những trẻ em có nhu cầu đặc biệt.",
+      "collocations_json": [
+        "social inclusion",
+        "inclusion in",
+        "for inclusion"
+      ],
+      "synonyms_json": [
+        "incorporation",
+        "involvement",
+        "addition"
+      ],
+      "antonyms_json": [
+        "exclusion",
+        "omission"
+      ],
+      "mnemonic": "Noun form of include.",
+      "frequency_rank": 6000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4714,
+    "fields": {
+      "word": "incur",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ɪnˈkɜr",
+      "ipa_us": "ɪnˈkɜr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "gánh chịu, gánh lấy (chi phí, rủi ro)",
+      "definition_en": "To experience something, usually something unpleasant, as a result of actions you have taken.",
+      "example_en": "The company incurred huge losses last year.",
+      "example_vi": "Công ty đã gánh chịu những khoản lỗ khổng lồ vào năm ngoái.",
+      "collocations_json": [
+        "incur costs",
+        "incur a penalty",
+        "incur wrath"
+      ],
+      "synonyms_json": [
+        "suffer",
+        "sustain",
+        "bear"
+      ],
+      "antonyms_json": [
+        "avoid",
+        "escape"
+      ],
+      "mnemonic": "In- (into) + cur (run). To run into trouble or debt.",
+      "frequency_rank": 7200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4715,
+    "fields": {
+      "word": "indicator",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈɪndəˌkeɪtər",
+      "ipa_us": "ˈɪndɪˌkeɪtər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chỉ số, dấu hiệu",
+      "definition_en": "Something that shows what a situation is like.",
+      "example_en": "Economic indicators suggest that a recession is likely.",
+      "example_vi": "Các chỉ số kinh tế cho thấy một cuộc suy thoái có khả năng xảy ra.",
+      "collocations_json": [
+        "economic indicator",
+        "key indicator",
+        "reliable indicator"
+      ],
+      "synonyms_json": [
+        "sign",
+        "signal",
+        "mark"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Something that INDICATES.",
+      "frequency_rank": 5500,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4716,
+    "fields": {
+      "word": "indictment",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ɪnˈdaɪtmənt",
+      "ipa_us": "ɪnˈdaɪtmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bản cáo trạng, sự buộc tội",
+      "definition_en": "A formal statement of accusing someone.",
+      "example_en": "The high crime rate is a damning indictment of our society.",
+      "example_vi": "Tỷ lệ tội phạm cao là một bản cáo trạng đanh thép đối với xã hội chúng ta.",
+      "collocations_json": [
+        "damning indictment",
+        "hand down an indictment",
+        "indictment against"
+      ],
+      "synonyms_json": [
+        "accusation",
+        "charge",
+        "allegation"
+      ],
+      "antonyms_json": [
+        "acquittal",
+        "exoneration"
+      ],
+      "mnemonic": "In-DITE-ment. To dictate someone's crimes officially.",
+      "frequency_rank": 7800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4717,
+    "fields": {
+      "word": "indigenous",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɪnˈdɪʤənəs",
+      "ipa_us": "ɪnˈdɪdʒənəs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bản địa",
+      "definition_en": "Naturally existing in a place or country rather than arriving from another place.",
+      "example_en": "Kangaroos are indigenous to Africa.",
+      "example_vi": "Kangaroo là loài bản địa của Úc.",
+      "collocations_json": [
+        "indigenous people",
+        "indigenous population",
+        "indigenous to"
+      ],
+      "synonyms_json": [
+        "native",
+        "aboriginal",
+        "local"
+      ],
+      "antonyms_json": [
+        "foreign",
+        "alien",
+        "exotic"
+      ],
+      "mnemonic": "In (inside) + digen (born). Born inside the land.",
+      "frequency_rank": 6000,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4718,
+    "fields": {
+      "word": "induce",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɪnˈdus",
+      "ipa_us": "ɪnˈdus",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "gây ra, xúi giục",
+      "definition_en": "To persuade someone to do something, or to cause something to happen.",
+      "example_en": "Nothing could induce me to jump out of an airplane.",
+      "example_vi": "Không điều gì có thể xúi giục tôi nhảy ra khỏi một chiếc máy bay.",
+      "collocations_json": [
+        "induce sleep",
+        "induce vomiting",
+        "medically induced"
+      ],
+      "synonyms_json": [
+        "cause",
+        "persuade",
+        "prompt"
+      ],
+      "antonyms_json": [
+        "prevent",
+        "discourage",
+        "deter"
+      ],
+      "mnemonic": "In (in) + duce (lead). To lead someone into doing something.",
+      "frequency_rank": 6500,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4719,
+    "fields": {
+      "word": "indulge",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ɪnˈdʌlʤ",
+      "ipa_us": "ɪnˈdʌldʒ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nuông chiều, tự thỏa mãn",
+      "definition_en": "To allow yourself or another person to have something enjoyable, especially more than is good for you.",
+      "example_en": "I love to indulge in a hot bath after a long day.",
+      "example_vi": "Tôi thích đắm mình (tự thỏa mãn) trong một bồn tắm nước nóng sau một ngày dài.",
+      "collocations_json": [
+        "indulge in",
+        "overly indulge",
+        "indulge a child"
+      ],
+      "synonyms_json": [
+        "spoil",
+        "pamper",
+        "treat"
+      ],
+      "antonyms_json": [
+        "deny",
+        "deprive",
+        "abstain"
+      ],
+      "mnemonic": "INdulge IN sweets.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4720,
+    "fields": {
+      "word": "inequality",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌɪnɪˈkwɑləti",
+      "ipa_us": "ˌɪnɪˈkwɑləti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự bất bình đẳng",
+      "definition_en": "The unfair situation in society when some people have more opportunities, money, etc. than other people.",
+      "example_en": "The government is trying to reduce income inequality.",
+      "example_vi": "Chính phủ đang cố gắng giảm bất bình đẳng thu nhập.",
+      "collocations_json": [
+        "social inequality",
+        "income inequality",
+        "tackle inequality"
+      ],
+      "synonyms_json": [
+        "imbalance",
+        "disparity",
+        "discrimination"
+      ],
+      "antonyms_json": [
+        "equality",
+        "fairness"
+      ],
+      "mnemonic": "In- (not) + equality.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4721,
+    "fields": {
+      "word": "infamous",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈɪnfəməs",
+      "ipa_us": "ˈɪnfəməs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khét tiếng, tai tiếng",
+      "definition_en": "Famous for something considered bad.",
+      "example_en": "He is an infamous criminal.",
+      "example_vi": "Hắn ta là một tên tội phạm khét tiếng.",
+      "collocations_json": [
+        "infamous for",
+        "infamous dictator",
+        "infamous prison"
+      ],
+      "synonyms_json": [
+        "notorious",
+        "disreputable",
+        "scandalous"
+      ],
+      "antonyms_json": [
+        "illustrious",
+        "respected",
+        "esteemed"
+      ],
+      "mnemonic": "In- (bad) + famous -> famously bad.",
+      "frequency_rank": 7200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4722,
+    "fields": {
+      "word": "infant",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈɪnfənt",
+      "ipa_us": "ˈɪnfənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trẻ sơ sinh, trẻ nhỏ",
+      "definition_en": "A baby or a very young child.",
+      "example_en": "The infant mortality rate has decreased significantly.",
+      "example_vi": "Tỷ lệ tử vong ở trẻ sơ sinh đã giảm đáng kể.",
+      "collocations_json": [
+        "infant mortality",
+        "newborn infant",
+        "premature infant"
+      ],
+      "synonyms_json": [
+        "baby",
+        "toddler",
+        "child"
+      ],
+      "antonyms_json": [
+        "adult"
+      ],
+      "mnemonic": "An infant is in its infancy (the beginning of life).",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4723,
+    "fields": {
+      "word": "infect",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "medical",
+      "ipa_uk": "ɪnˈfɛkt",
+      "ipa_us": "ɪnˈfɛkt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lây nhiễm, truyền bệnh",
+      "definition_en": "To pass a disease to a person, animal, or plant.",
+      "example_en": "The virus can easily infect people with weak immune systems.",
+      "example_vi": "Virus có thể dễ dàng lây nhiễm cho những người có hệ miễn dịch yếu.",
+      "collocations_json": [
+        "infect with a virus",
+        "highly infected",
+        "wound became infected"
+      ],
+      "synonyms_json": [
+        "contaminate",
+        "pollute",
+        "taint"
+      ],
+      "antonyms_json": [
+        "disinfect",
+        "purify",
+        "clean"
+      ],
+      "mnemonic": "In- (in) + fect (make). To make something inside someone (disease).",
+      "frequency_rank": 5600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4724,
+    "fields": {
+      "word": "inflict",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɪnˈflɪkt",
+      "ipa_us": "ɪnˈflɪkt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "gây ra (tổn thương, đau khổ)",
+      "definition_en": "To force someone to experience something very unpleasant.",
+      "example_en": "These new bullets are capable of inflicting massive injuries.",
+      "example_vi": "Những viên đạn mới này có khả năng gây ra những vết thương lớn.",
+      "collocations_json": [
+        "inflict pain",
+        "inflict damage",
+        "inflict suffering"
+      ],
+      "synonyms_json": [
+        "impose",
+        "wreak",
+        "cause"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "In- (in) + flict (strike). To strike someone with pain.",
+      "frequency_rank": 6400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4725,
+    "fields": {
+      "word": "influential",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌɪnfluˈɛnʧəl",
+      "ipa_us": "ˌɪnfluˈɛnʃəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có ảnh hưởng, có thế lực",
+      "definition_en": "Having a lot of influence on someone or something.",
+      "example_en": "She is one of the most influential figures in local politics.",
+      "example_vi": "Bà ấy là một trong những nhân vật có ảnh hưởng nhất trong chính trị địa phương.",
+      "collocations_json": [
+        "highly influential",
+        "influential figure",
+        "influential role"
+      ],
+      "synonyms_json": [
+        "powerful",
+        "important",
+        "prominent"
+      ],
+      "antonyms_json": [
+        "unimportant",
+        "insignificant"
+      ],
+      "mnemonic": "Adjective form of influence.",
+      "frequency_rank": 5100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4726,
+    "fields": {
+      "word": "inherent",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɪnˈhɪrənt",
+      "ipa_us": "ɪnˈhɪrənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vốn có, cố hữu",
+      "definition_en": "Existing as a natural or basic part of something.",
+      "example_en": "There are dangers/risks inherent in almost every sport.",
+      "example_vi": "Có những nguy hiểm/rủi ro vốn có trong hầu hết các môn thể thao.",
+      "collocations_json": [
+        "inherent in",
+        "inherent risk",
+        "inherent weakness"
+      ],
+      "synonyms_json": [
+        "intrinsic",
+        "innate",
+        "inbuilt"
+      ],
+      "antonyms_json": [
+        "acquired",
+        "extrinsic",
+        "alien"
+      ],
+      "mnemonic": "In- (in) + here (stick). Sticking in naturally.",
+      "frequency_rank": 6100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4727,
+    "fields": {
+      "word": "inhibit",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɪnˈhɪbət",
+      "ipa_us": "ɪnˈhɪbɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ngăn chặn, ức chế",
+      "definition_en": "To prevent someone from doing something by making them feel nervous or embarrassed; or to slow down a process or the growth of something.",
+      "example_en": "Some workers were inhibited from speaking by the presence of their managers.",
+      "example_vi": "Một số công nhân đã bị ức chế không dám lên tiếng vì sự có mặt của các quản lý của họ.",
+      "collocations_json": [
+        "inhibit growth",
+        "inhibit the development",
+        "feel inhibited"
+      ],
+      "synonyms_json": [
+        "hinder",
+        "restrain",
+        "prevent"
+      ],
+      "antonyms_json": [
+        "encourage",
+        "facilitate",
+        "allow"
+      ],
+      "mnemonic": "In (in) + hibit (hold). To hold something in.",
+      "frequency_rank": 6800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4728,
+    "fields": {
+      "word": "initiate",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɪˈnɪʃiɪt",
+      "ipa_us": "ɪˈnɪʃiˌeɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khởi xướng, bắt đầu",
+      "definition_en": "To cause something to begin.",
+      "example_en": "The government has initiated a programme of economic reform.",
+      "example_vi": "Chính phủ đã khởi xướng một chương trình cải cách kinh tế.",
+      "collocations_json": [
+        "initiate a project",
+        "initiate proceedings",
+        "formally initiate"
+      ],
+      "synonyms_json": [
+        "start",
+        "begin",
+        "launch"
+      ],
+      "antonyms_json": [
+        "stop",
+        "end",
+        "conclude"
+      ],
+      "mnemonic": "To take the INITIAL step.",
+      "frequency_rank": 5600,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4729,
+    "fields": {
+      "word": "inject",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "medical",
+      "ipa_uk": "ɪnˈʤɛkt",
+      "ipa_us": "ɪnˈdʒɛkt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tiêm, bơm (thuốc/vốn)",
+      "definition_en": "To use a needle and syringe to put a liquid such as medicine into a person's body.",
+      "example_en": "The doctor had to inject him with a painkiller.",
+      "example_vi": "Bác sĩ đã phải tiêm cho anh ta một loại thuốc giảm đau.",
+      "collocations_json": [
+        "inject a drug",
+        "inject cash",
+        "inject life into"
+      ],
+      "synonyms_json": [
+        "insert",
+        "infuse",
+        "administer"
+      ],
+      "antonyms_json": [
+        "extract"
+      ],
+      "mnemonic": "In (in) + ject (throw). To throw something in.",
+      "frequency_rank": 6600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4730,
+    "fields": {
+      "word": "injection",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "medical",
+      "ipa_uk": "ɪnˈʤɛkʃən",
+      "ipa_us": "ɪnˈdʒɛkʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự tiêm, mũi tiêm",
+      "definition_en": "The act of putting a liquid, especially a drug, into a person's body using a needle and a syringe.",
+      "example_en": "He needs a daily injection of insulin.",
+      "example_vi": "Anh ấy cần một mũi tiêm insulin hàng ngày.",
+      "collocations_json": [
+        "lethal injection",
+        "give an injection",
+        "cash injection"
+      ],
+      "synonyms_json": [
+        "shot",
+        "vaccination",
+        "infusion"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of inject.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4731,
+    "fields": {
+      "word": "injustice",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈʤʌstɪs",
+      "ipa_us": "ɪnˈdʒʌstɪs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự bất công",
+      "definition_en": "(An example of) a situation in which there is no fairness and justice.",
+      "example_en": "They are fighting against social injustice.",
+      "example_vi": "Họ đang đấu tranh chống lại sự bất công xã hội.",
+      "collocations_json": [
+        "social injustice",
+        "sense of injustice",
+        "suffer an injustice"
+      ],
+      "synonyms_json": [
+        "unfairness",
+        "inequity",
+        "wrong"
+      ],
+      "antonyms_json": [
+        "justice",
+        "fairness",
+        "equity"
+      ],
+      "mnemonic": "In- (not) + justice.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4732,
+    "fields": {
+      "word": "inmate",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈɪnˌmeɪt",
+      "ipa_us": "ˈɪnˌmeɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tù nhân, người ở chung (viện/tù)",
+      "definition_en": "A person who is kept in a prison or a hospital for people who are mentally ill.",
+      "example_en": "Two inmates managed to escape from the prison.",
+      "example_vi": "Hai tù nhân đã xoay sở trốn thoát khỏi nhà tù.",
+      "collocations_json": [
+        "prison inmate",
+        "fellow inmate",
+        "death row inmate"
+      ],
+      "synonyms_json": [
+        "prisoner",
+        "convict",
+        "patient"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A MATE who is IN an institution.",
+      "frequency_rank": 7400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4733,
+    "fields": {
+      "word": "insertion",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈsɜrʃən",
+      "ipa_us": "ɪnˈsɜrʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự chèn vào, sự lồng vào",
+      "definition_en": "The act of putting something inside something else, or adding something, especially words to a document.",
+      "example_en": "The manual insertion of data is a slow process.",
+      "example_vi": "Việc chèn dữ liệu thủ công là một quá trình chậm chạp.",
+      "collocations_json": [
+        "coin insertion",
+        "manual insertion",
+        "insertion point"
+      ],
+      "synonyms_json": [
+        "addition",
+        "inclusion",
+        "introduction"
+      ],
+      "antonyms_json": [
+        "removal",
+        "extraction",
+        "deletion"
+      ],
+      "mnemonic": "Noun form of insert.",
+      "frequency_rank": 7800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4734,
+    "fields": {
+      "word": "insider",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ɪnˈsaɪdər",
+      "ipa_us": "ɪnˈsaɪdər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người trong cuộc",
+      "definition_en": "Someone who is an accepted member of a group and who therefore has special or secret knowledge or influence.",
+      "example_en": "According to insiders, the company is preparing to lay off 100 workers.",
+      "example_vi": "Theo những người trong cuộc, công ty đang chuẩn bị sa thải 100 công nhân.",
+      "collocations_json": [
+        "insider trading",
+        "insider knowledge",
+        "industry insider"
+      ],
+      "synonyms_json": [
+        "member",
+        "associate"
+      ],
+      "antonyms_json": [
+        "outsider",
+        "stranger"
+      ],
+      "mnemonic": "Someone on the INSIDE of an organization.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4735,
+    "fields": {
+      "word": "inspect",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈspɛkt",
+      "ipa_us": "ɪnˈspɛkt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kiểm tra, thanh tra",
+      "definition_en": "To look at something or someone carefully in order to discover information, especially about their quality or condition.",
+      "example_en": "The teacher walked around inspecting their work.",
+      "example_vi": "Giáo viên đi vòng quanh kiểm tra bài làm của họ.",
+      "collocations_json": [
+        "closely inspect",
+        "inspect the premises",
+        "officially inspect"
+      ],
+      "synonyms_json": [
+        "examine",
+        "check",
+        "scrutinize"
+      ],
+      "antonyms_json": [
+        "ignore",
+        "overlook"
+      ],
+      "mnemonic": "In- (into) + spect (look). To look into something closely.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4736,
+    "fields": {
+      "word": "inspection",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈspɛkʃən",
+      "ipa_us": "ɪnˈspɛkʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự kiểm tra, sự thanh tra",
+      "definition_en": "The act of looking at something carefully, or an official visit to a building or organization to check that everything is correct and legal.",
+      "example_en": "Her passport seemed legitimate on closer inspection.",
+      "example_vi": "Hộ chiếu của cô ấy có vẻ hợp pháp khi kiểm tra kỹ hơn.",
+      "collocations_json": [
+        "close inspection",
+        "routine inspection",
+        "pass an inspection"
+      ],
+      "synonyms_json": [
+        "examination",
+        "check",
+        "review"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of inspect.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4737,
+    "fields": {
+      "word": "inspiration",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "art",
+      "ipa_uk": "ˌɪnspəˈreɪʃən",
+      "ipa_us": "ˌɪnspəˈreɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nguồn cảm hứng",
+      "definition_en": "Someone or something that gives you ideas for doing something.",
+      "example_en": "The artist drew her inspiration from nature.",
+      "example_vi": "Nữ nghệ sĩ đã lấy nguồn cảm hứng từ thiên nhiên.",
+      "collocations_json": [
+        "draw inspiration from",
+        "source of inspiration",
+        "provide inspiration"
+      ],
+      "synonyms_json": [
+        "motivation",
+        "encouragement",
+        "idea"
+      ],
+      "antonyms_json": [
+        "discouragement"
+      ],
+      "mnemonic": "Noun form of inspire.",
+      "frequency_rank": 5000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4738,
+    "fields": {
+      "word": "instinct",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "animals",
+      "ipa_uk": "ˈɪnstɪŋkt",
+      "ipa_us": "ˈɪnstɪŋkt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bản năng",
+      "definition_en": "The way people or animals naturally react or behave, without having to think or learn about it.",
+      "example_en": "All creatures have a survival instinct.",
+      "example_vi": "Mọi sinh vật đều có bản năng sinh tồn.",
+      "collocations_json": [
+        "survival instinct",
+        "maternal instinct",
+        "trust your instinct"
+      ],
+      "synonyms_json": [
+        "intuition",
+        "nature",
+        "impulse"
+      ],
+      "antonyms_json": [
+        "reason",
+        "logic"
+      ],
+      "mnemonic": "Instinct is inside your thought from birth.",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4739,
+    "fields": {
+      "word": "institutional",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌɪnstɪˈtuʃənəl",
+      "ipa_us": "ˌɪnstəˈtuʃənəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về thể chế, tổ chức",
+      "definition_en": "Relating to a large and important organization, such as a government, university, or bank.",
+      "example_en": "We need to address the problem of institutional racism.",
+      "example_vi": "Chúng ta cần giải quyết vấn đề phân biệt chủng tộc mang tính hệ thống (thể chế).",
+      "collocations_json": [
+        "institutional racism",
+        "institutional investor",
+        "institutional framework"
+      ],
+      "synonyms_json": [
+        "organizational",
+        "established",
+        "systemic"
+      ],
+      "antonyms_json": [
+        "individual",
+        "personal"
+      ],
+      "mnemonic": "Adjective form of institution.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4740,
+    "fields": {
+      "word": "instruct",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɪnˈstrʌkt",
+      "ipa_us": "ɪnˈstrʌkt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hướng dẫn, chỉ thị",
+      "definition_en": "To order or tell someone to do something, especially in a formal way; or to teach someone how to do something.",
+      "example_en": "The police have been instructed to patrol the building and surrounding area.",
+      "example_vi": "Cảnh sát đã được chỉ thị tuần tra tòa nhà và khu vực xung quanh.",
+      "collocations_json": [
+        "instruct someone to do",
+        "specifically instruct",
+        "instruct a lawyer"
+      ],
+      "synonyms_json": [
+        "order",
+        "direct",
+        "teach"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "An instructor instructs.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4741,
+    "fields": {
+      "word": "instrumental",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌɪnstrəˈmɛntəl",
+      "ipa_us": "ˌɪnstrəˈmɛntəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có vai trò quan trọng, thuộc về nhạc cụ",
+      "definition_en": "If someone or something is instrumental in a process, plan, or system, that person or thing is one of the most important influences in causing it to happen.",
+      "example_en": "She was instrumental in bringing about the peace treaty.",
+      "example_vi": "Bà ấy có vai trò quan trọng trong việc mang lại hiệp ước hòa bình.",
+      "collocations_json": [
+        "highly instrumental",
+        "instrumental role",
+        "instrumental music"
+      ],
+      "synonyms_json": [
+        "crucial",
+        "influential",
+        "vital"
+      ],
+      "antonyms_json": [
+        "insignificant",
+        "unimportant"
+      ],
+      "mnemonic": "Like an instrument, it is a tool used to make something happen.",
+      "frequency_rank": 6900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4742,
+    "fields": {
+      "word": "insufficient",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnsəˈfɪʃənt",
+      "ipa_us": "ˌɪnsəˈfɪʃənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "không đủ, thiếu",
+      "definition_en": "Not enough.",
+      "example_en": "There was insufficient evidence to convict him.",
+      "example_vi": "Không có đủ bằng chứng để kết tội anh ta.",
+      "collocations_json": [
+        "insufficient evidence",
+        "insufficient funds",
+        "insufficient time"
+      ],
+      "synonyms_json": [
+        "inadequate",
+        "lacking",
+        "deficient"
+      ],
+      "antonyms_json": [
+        "sufficient",
+        "adequate",
+        "enough"
+      ],
+      "mnemonic": "In- (not) + sufficient (enough).",
+      "frequency_rank": 6400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4743,
+    "fields": {
+      "word": "insult",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈɪnˌsʌlt",
+      "ipa_us": "ˈɪnˌsʌlt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lời lăng mạ, sự sỉ nhục",
+      "definition_en": "An offensive remark or action.",
+      "example_en": "The way he spoke to her was a terrible insult.",
+      "example_vi": "Cách anh ta nói chuyện với cô ấy là một sự sỉ nhục khủng khiếp.",
+      "collocations_json": [
+        "take as an insult",
+        "shout insults",
+        "add insult to injury"
+      ],
+      "synonyms_json": [
+        "slur",
+        "affront",
+        "offense"
+      ],
+      "antonyms_json": [
+        "compliment",
+        "praise"
+      ],
+      "mnemonic": "In-sult. Sounds like in-salt. Rubbing salt in a wound is an insult.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4744,
+    "fields": {
+      "word": "intact",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈtækt",
+      "ipa_us": "ɪnˈtækt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "còn nguyên vẹn",
+      "definition_en": "Complete and in the original state; not damaged.",
+      "example_en": "The church was destroyed in the bombing but the altar survived intact.",
+      "example_vi": "Nhà thờ đã bị phá hủy trong trận ném bom nhưng bàn thờ vẫn còn nguyên vẹn.",
+      "collocations_json": [
+        "remain intact",
+        "survive intact",
+        "keep intact"
+      ],
+      "synonyms_json": [
+        "unbroken",
+        "undamaged",
+        "whole"
+      ],
+      "antonyms_json": [
+        "broken",
+        "damaged",
+        "destroyed"
+      ],
+      "mnemonic": "In- (not) + tact (touch). Not touched, so still whole.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4745,
+    "fields": {
+      "word": "intake",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "health",
+      "ipa_uk": "ˈɪnˌteɪk",
+      "ipa_us": "ˈɪnˌteɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lượng tiêu thụ, sự lấy vào",
+      "definition_en": "The amount of a particular substance that is eaten or drunk during a particular time; or an act of taking in something, especially breath.",
+      "example_en": "You should reduce your daily intake of sugar.",
+      "example_vi": "Bạn nên giảm lượng đường tiêu thụ hàng ngày.",
+      "collocations_json": [
+        "daily intake",
+        "water intake",
+        "high intake"
+      ],
+      "synonyms_json": [
+        "consumption",
+        "absorption",
+        "input"
+      ],
+      "antonyms_json": [
+        "output"
+      ],
+      "mnemonic": "What you TAKE IN.",
+      "frequency_rank": 6600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4746,
+    "fields": {
+      "word": "integral",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈɪntəɡrəl",
+      "ipa_us": "ˈɪntəɡrəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thiết yếu, không thể thiếu",
+      "definition_en": "Necessary and important as a part of a whole.",
+      "example_en": "He's an integral part of the team and we can't do without him.",
+      "example_vi": "Anh ấy là một phần không thể thiếu của đội và chúng tôi không thể thiếu anh ấy.",
+      "collocations_json": [
+        "integral part",
+        "integral to",
+        "play an integral role"
+      ],
+      "synonyms_json": [
+        "essential",
+        "fundamental",
+        "indispensable"
+      ],
+      "antonyms_json": [
+        "unnecessary",
+        "peripheral",
+        "optional"
+      ],
+      "mnemonic": "An integer is a whole number. Something integral makes the thing whole.",
+      "frequency_rank": 5500,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4747,
+    "fields": {
+      "word": "integrated",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈɪntəˌɡreɪtəd",
+      "ipa_us": "ˈɪntəˌɡreɪtɪd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "được tích hợp, kết hợp",
+      "definition_en": "With two or more things combined in order to become more effective.",
+      "example_en": "The town's modern transport system is highly integrated.",
+      "example_vi": "Hệ thống giao thông hiện đại của thị trấn được tích hợp rất cao.",
+      "collocations_json": [
+        "fully integrated",
+        "integrated system",
+        "integrated approach"
+      ],
+      "synonyms_json": [
+        "combined",
+        "unified",
+        "incorporated"
+      ],
+      "antonyms_json": [
+        "separated",
+        "segregated",
+        "fragmented"
+      ],
+      "mnemonic": "Adjective form of integrate.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4748,
+    "fields": {
+      "word": "integration",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌɪntəˈɡreɪʃən",
+      "ipa_us": "ˌɪntəˈɡreɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự hội nhập, sự tích hợp",
+      "definition_en": "The action or process of successfully joining or mixing with a different group of people; or combining two or more things in order to become more effective.",
+      "example_en": "He seems to find it difficult to achieve social integration.",
+      "example_vi": "Anh ấy dường như thấy khó khăn để đạt được sự hòa nhập xã hội.",
+      "collocations_json": [
+        "social integration",
+        "economic integration",
+        "seamless integration"
+      ],
+      "synonyms_json": [
+        "assimilation",
+        "incorporation",
+        "unification"
+      ],
+      "antonyms_json": [
+        "segregation",
+        "separation"
+      ],
+      "mnemonic": "Noun form of integrate.",
+      "frequency_rank": 5400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4749,
+    "fields": {
+      "word": "integrity",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈtɛɡrəti",
+      "ipa_us": "ɪnˈtɛɡrəti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tính chính trực, sự toàn vẹn",
+      "definition_en": "The quality of being honest and having strong moral principles that you refuse to change.",
+      "example_en": "No one doubted that the president was a man of the highest integrity.",
+      "example_vi": "Không ai nghi ngờ rằng tổng thống là một người có tính chính trực cao nhất.",
+      "collocations_json": [
+        "personal integrity",
+        "professional integrity",
+        "maintain integrity"
+      ],
+      "synonyms_json": [
+        "honesty",
+        "probity",
+        "uprightness"
+      ],
+      "antonyms_json": [
+        "dishonesty",
+        "corruption",
+        "deceit"
+      ],
+      "mnemonic": "Having INTEGRITY means your morals are INTEGRATED and whole.",
+      "frequency_rank": 4900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4750,
+    "fields": {
+      "word": "intellectual",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌɪntəˈlɛkʧuəl",
+      "ipa_us": "ˌɪntəˈlɛkʧuəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người tri thức, học giả",
+      "definition_en": "A very educated person whose interests are studying and other activities that involve careful thinking.",
+      "example_en": "She was known as a leading intellectual of her time.",
+      "example_vi": "Bà được biết đến như một nhà trí thức hàng đầu trong thời đại của mình.",
+      "collocations_json": [
+        "leading intellectual",
+        "public intellectual",
+        "pseudo intellectual"
+      ],
+      "synonyms_json": [
+        "thinker",
+        "scholar",
+        "academic"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Someone who uses their INTELLECT.",
+      "frequency_rank": 5300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4751,
+    "fields": {
+      "word": "intensify",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈtɛnsəˌfaɪ",
+      "ipa_us": "ɪnˈtɛnsəˌfaɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "làm tăng cường, làm dữ dội",
+      "definition_en": "To become greater, more serious, or more extreme, or to make something do this.",
+      "example_en": "Fighting around the capital has intensified in the last few hours.",
+      "example_vi": "Giao tranh quanh thủ đô đã trở nên dữ dội hơn trong vài giờ qua.",
+      "collocations_json": [
+        "intensify efforts",
+        "conflict intensifies",
+        "pressure intensifies"
+      ],
+      "synonyms_json": [
+        "escalate",
+        "increase",
+        "heighten"
+      ],
+      "antonyms_json": [
+        "lessen",
+        "diminish",
+        "abate"
+      ],
+      "mnemonic": "To make more INTENSE.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4752,
+    "fields": {
+      "word": "intensity",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈtɛnsəti",
+      "ipa_us": "ɪnˈtɛnsəti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cường độ, sự mãnh liệt",
+      "definition_en": "The quality of being felt strongly or having a very strong effect.",
+      "example_en": "The explosion was of such intensity that it was heard five miles away.",
+      "example_vi": "Vụ nổ có cường độ mạnh đến mức có thể nghe thấy cách đó năm dặm.",
+      "collocations_json": [
+        "high intensity",
+        "low intensity",
+        "intensity of feeling"
+      ],
+      "synonyms_json": [
+        "strength",
+        "power",
+        "force"
+      ],
+      "antonyms_json": [
+        "weakness",
+        "mildness"
+      ],
+      "mnemonic": "Noun form of intense.",
+      "frequency_rank": 5600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4753,
+    "fields": {
+      "word": "intensive",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɪnˈtɛnsɪv",
+      "ipa_us": "ɪnˈtɛnsɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chuyên sâu, cường độ cao",
+      "definition_en": "Involving a lot of effort or activity in a short period of time.",
+      "example_en": "She did an intensive course in Spanish before her trip.",
+      "example_vi": "Cô ấy đã tham gia một khóa học tiếng Tây Ban Nha chuyên sâu trước chuyến đi của mình.",
+      "collocations_json": [
+        "intensive care",
+        "intensive course",
+        "labor intensive"
+      ],
+      "synonyms_json": [
+        "concentrated",
+        "thorough",
+        "in-depth"
+      ],
+      "antonyms_json": [
+        "superficial",
+        "light",
+        "casual"
+      ],
+      "mnemonic": "Intense but applied to a process or study.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

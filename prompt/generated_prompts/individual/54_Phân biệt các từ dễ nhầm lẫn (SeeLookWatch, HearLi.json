@@ -1,0 +1,532 @@
+[
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I want to watch a movie at the cinema.",
+    "output": "✅ **Corrected Sentence:** I want to **see** a movie at the cinema.\n\n🔍 **Error Identification:** Confusing Words (See vs Watch)\n\n📖 **Vietnamese Explanation:** Cả 'see' và 'watch' đều liên quan đến thị giác, nhưng 'see' dùng khi bạn đến rạp chiếu phim để thưởng thức một bộ phim (nhấn mạnh trải nghiệm tổng thể). 'Watch' thường dùng cho việc theo dõi một thứ gì đó di chuyển hoặc thay đổi (watch TV, watch a football match). Người Việt hay dịch 'xem phim' thành 'watch movie' – thực ra cả hai đều được chấp nhận, nhưng 'see a movie' phổ biến hơn trong tiếng Anh-Mỹ khi nói đến rạp chiếu. Mẹo: **see** = thưởng thức (trải nghiệm), **watch** = chú ý theo dõi (thường ở nhà). 🎬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Can you look the board?",
+    "output": "✅ **Corrected Sentence:** Can you **look at** the board?\n\n🔍 **Error Identification:** Confusing Words (Look vs See vs Watch) - Thiếu giới từ\n\n📖 **Vietnamese Explanation:** 'Look' là động từ hướng sự chú ý, nhưng bắt buộc phải có giới từ 'at' khi đi kèm tân ngữ (look at something). 'See' là nhìn thấy một cách tự nhiên, không chủ đích. Người Việt thường nói 'look the board' vì dịch 'nhìn cái bảng' mà quên 'at'. Hãy nhớ: **look at** (chủ động hướng mắt), **see** (thụ động). 👀"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I listened to music but I didn't hear anything special.",
+    "output": "✅ **Corrected Sentence:** I listened to music but I didn't hear anything special. (Câu này đúng!)\n\n🔍 **Error Identification:** Không có lỗi. Đây là cách phân biệt 'listen' (chủ động nghe) và 'hear' (thụ động nghe thấy).\n\n📖 **Vietnamese Explanation:** Tuyệt vời! Bạn đã dùng đúng: 'listen to' là cố ý chú ý lắng nghe, còn 'hear' là tình cờ nghe thấy. Người Việt thường nhầm khi nói 'I heard to music' (sai). Hãy nhớ: **listen + to** (chủ động), **hear** (không chủ động). 👂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please hear me when I'm talking.",
+    "output": "✅ **Corrected Sentence:** Please **listen to** me when I'm talking.\n\n🔍 **Error Identification:** Confusing Words (Hear vs Listen)\n\n📖 **Vietnamese Explanation:** 'Hear' là nghe thấy (vô tình), 'listen to' là lắng nghe (có chủ ý). Khi bạn yêu cầu ai đó chú ý đến lời nói của mình, phải dùng 'listen to'. Người Việt thường nói 'hear me' vì dịch 'nghe tôi' nhưng nghĩa là 'có nghe thấy giọng tôi không?'. Hãy nhớ: **listen to** = chú ý, **hear** = chỉ âm thanh lọt vào tai. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "She said me a secret.",
+    "output": "✅ **Corrected Sentence:** She **told** me a secret.\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell)\n\n📖 **Vietnamese Explanation:** 'Say' thường đi kèm với nội dung lời nói (say something) và không có tân ngữ chỉ người ngay sau. 'Tell' bắt buộc phải có tân ngữ chỉ người (tell someone something). Người Việt hay nói 'say me' vì dịch 'nói tôi'. Hãy nhớ: **tell + người**, **say + nội dung** (hoặc say to someone). 🤫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Can you borrow me your pen?",
+    "output": "✅ **Corrected Sentence:** Can you **lend** me your pen? (Hoặc: Can I borrow your pen?)\n\n🔍 **Error Identification:** Confusing Words (Borrow vs Lend)\n\n📖 **Vietnamese Explanation:** 'Borrow' là mượn (nhận về), 'lend' là cho mượn (đưa ra). Người Việt hay nói 'borrow me' vì nghĩ 'mượn tôi' nhưng sai. Hãy nhớ: **You borrow from someone; you lend to someone.** Mẹo: 'lend' có chữ 'l' giống 'loan' (cho vay). ✏️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We need to discuss about the plan.",
+    "output": "✅ **Corrected Sentence:** We need to discuss the plan. (Không có 'about')\n\n🔍 **Error Identification:** Confusing Words (Discuss vs Talk about)\n\n📖 **Vietnamese Explanation:** 'Discuss' là động từ ngoại (transitive), không cần giới từ. 'Talk about' lại cần 'about'. Người Việt thường thêm 'about' sau 'discuss' vì dịch 'thảo luận về'. Hãy nhớ: **discuss something** (không about), **talk about something**. 🗂️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I want to speak you about something.",
+    "output": "✅ **Corrected Sentence:** I want to **talk to** you about something. (Hoặc 'speak to you')\n\n🔍 **Error Identification:** Confusing Words (Speak vs Talk) - Thiếu giới từ\n\n📖 **Vietnamese Explanation:** 'Speak' và 'talk' đều cần giới từ khi có tân ngữ là người: speak **to/with** someone, talk **to/with** someone. Người Việt thường bỏ giới từ vì nghĩ 'nói bạn'. Hãy nhớ: **speak to/with, talk to/with**. 🗨️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I saw a bird flying, then I looked at it carefully.",
+    "output": "✅ **Corrected Sentence:** I saw a bird flying, then I looked at it carefully. (Câu đúng)\n\n🔍 **Error Identification:** Không lỗi. Bạn phân biệt rất tốt 'see' (nhìn thấy tự nhiên) và 'look at' (chủ động).\n\n📖 **Vietnamese Explanation:** Tuyệt vời! Đây chính là cách dùng chuẩn. 'See' là thứ đến với mắt bạn một cách thụ động, 'look at' là bạn chủ động hướng mắt. Bạn đã làm rất đúng. 🦅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please say me the truth.",
+    "output": "✅ **Corrected Sentence:** Please **tell** me the truth.\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell)\n\n📖 **Vietnamese Explanation:** 'Tell someone the truth' là cụm cố định. 'Say me' là sai. Hãy nhớ cấu trúc: **tell + người + điều gì**. 'Say' không thể đứng trước tân ngữ chỉ người. 💯"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I usually watch the stars at night.",
+    "output": "✅ **Corrected Sentence:** I usually **look at** the stars at night. (Hoặc 'watch the stars' cũng được, nhưng 'look at' tự nhiên hơn)\n\n🔍 **Error Identification:** Confusing Words (Watch vs Look at)\n\n📖 **Vietnamese Explanation:** 'Watch' thường dùng cho vật chuyển động hoặc thay đổi (watch TV, watch a game). Sao trên trời hầu như đứng yên, nên 'look at the stars' (ngắm) phổ biến hơn. Người Việt hay dùng 'watch' cho mọi thứ. Mẹo: **watch** = theo dõi diễn biến, **look at** = hướng mắt ngắm nhìn. ⭐"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Can you hear me? I'm playing the guitar.",
+    "output": "✅ **Corrected Sentence:** Can you hear me? I'm playing the guitar. (Đúng)\n\n🔍 **Error Identification:** Không lỗi. 'Hear' dùng đúng cho âm thanh tự nhiên.\n\n📖 **Vietnamese Explanation:** Chính xác! Bạn dùng 'hear' để hỏi xem người kia có nghe thấy tiếng đàn guitar không. Nếu muốn họ chú ý lắng nghe, bạn sẽ nói 'Listen to me'. 🎸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "He talked that he would be late.",
+    "output": "✅ **Corrected Sentence:** He **said** that he would be late.\n\n🔍 **Error Identification:** Confusing Words (Talk vs Say)\n\n📖 **Vietnamese Explanation:** 'Talk' thường không dùng với mệnh đề 'that'. 'Say' mới dùng để dẫn lời nói gián tiếp. Người Việt hay dùng 'talk' vì nghĩ 'nói rằng'. Hãy nhớ: **say that**, **tell someone that**, nhưng **talk about something**. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "She saw the television for 3 hours.",
+    "output": "✅ **Corrected Sentence:** She **watched** television for 3 hours.\n\n🔍 **Error Identification:** Confusing Words (See vs Watch)\n\n📖 **Vietnamese Explanation:** 'See TV' là sai. Khi bạn dành thời gian theo dõi chương trình, phải dùng 'watch TV'. 'See' chỉ hành động nhìn thấy trong chốc lát. Hãy nhớ: **watch TV, see a movie (at cinema)**. 📺"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I need to take my book from the library, can you bring it to me?",
+    "output": "✅ **Corrected Sentence:** I need to **borrow** my book from the library, can you **bring** it to me? (Câu này cơ bản đúng, nhưng 'take' vs 'bring' cần phân biệt)\n\n🔍 **Error Identification:** Confusing Words (Bring vs Take)\n\n📖 **Vietnamese Explanation:** 'Bring' là mang đến vị trí của người nói, 'take' là mang đi xa khỏi vị trí người nói. Trong câu của bạn, 'bring it to me' là đúng. Nếu bạn nói 'take it to me' là sai. Người Việt hay nhầm vì cả hai đều dịch là 'mang'. Hãy nhớ: **bring** = đến đây, **take** = đi khỏi đây. 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I want to look a movie tonight.",
+    "output": "✅ **Corrected Sentence:** I want to **see/watch** a movie tonight.\n\n🔍 **Error Identification:** Confusing Words (Look vs See/Watch)\n\n📖 **Vietnamese Explanation:** 'Look' không thể đi trực tiếp với 'movie' mà phải có 'at' (look at a movie là ngắm cái phim, không phải xem). 'See a movie' hoặc 'watch a movie' mới đúng. Người Việt hay dùng 'look' vì nghĩ 'nhìn'. Hãy sửa nhé! 🎥"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I listened a strange noise last night.",
+    "output": "✅ **Corrected Sentence:** I **heard** a strange noise last night.\n\n🔍 **Error Identification:** Confusing Words (Listen vs Hear)\n\n📖 **Vietnamese Explanation:** 'Listen' cần có 'to' (listen to) và mang nghĩa chủ động. Với tiếng động bất ngờ, bạn không cố ý lắng nghe, mà tình cờ nghe thấy → dùng 'hear'. Người Việt thường nói 'listen a noise' vì dịch 'nghe tiếng động'. Hãy nhớ: **hear a noise** (thụ động), **listen to music** (chủ động). 🔊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please tell me about your day. Say something!",
+    "output": "✅ **Corrected Sentence:** Please tell me about your day. Say something! (Câu đúng)\n\n🔍 **Error Identification:** Không lỗi. Bạn đã dùng 'tell me' (kể cho tôi) và 'say something' (nói gì đó) rất chuẩn.\n\n📖 **Vietnamese Explanation:** Hoàn hảo! 'Tell' đi với tân ngữ 'me', 'say' đi với 'something'. Bạn đã nắm rõ sự khác biệt. 👏"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "She borrowed me her car for the weekend.",
+    "output": "✅ **Corrected Sentence:** She **lent** me her car for the weekend. (Hoặc: I borrowed her car)\n\n🔍 **Error Identification:** Confusing Words (Borrow vs Lend)\n\n📖 **Vietnamese Explanation:** 'Borrow' là mượn, 'lend' là cho mượn. Ở đây, cô ấy cho bạn mượn xe → phải dùng 'lent' (quá khứ của lend). Người Việt nói 'borrow me' là sai phổ biến. Hãy nhớ: **Borrow from, lend to**. 🚗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We watched the beautiful sunset from the beach.",
+    "output": "✅ **Corrected Sentence:** We watched the beautiful sunset from the beach. (Đúng, nhưng 'watched' có thể thay bằng 'looked at' hoặc 'saw' tùy ngữ cảnh)\n\n🔍 **Error Identification:** Không sai, nhưng cần phân biệt sắc thái.\n\n📖 **Vietnamese Explanation:** 'Watch sunset' là chấp nhận được vì mặt trời lặn có sự di chuyển. Tuy nhiên, nhiều người dùng 'see the sunset' hoặc 'look at the sunset'. Bạn dùng 'watched' cũng ổn. Ghi nhớ: nếu có sự thay đổi theo thời gian → 'watch' được. 🌅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I can't say the difference between these two words.",
+    "output": "✅ **Corrected Sentence:** I can't **tell** the difference between these two words.\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell) – Cụm cố định\n\n📖 **Vietnamese Explanation:** 'Tell the difference' là cụm cố định, không dùng 'say'. 'Tell' ở đây có nghĩa là 'phân biệt, nhận ra'. Người Việt hay nói 'say the difference' vì dịch 'nói sự khác biệt'. Hãy nhớ: **tell the difference, tell a lie, tell the truth**. 🔍"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please bring this book to the library when you go.",
+    "output": "✅ **Corrected Sentence:** Please **take** this book to the library when you go.\n\n🔍 **Error Identification:** Confusing Words (Bring vs Take)\n\n📖 **Vietnamese Explanation:** Khi bạn rời khỏi vị trí hiện tại để đến thư viện, hành động mang sách đi xa → dùng 'take'. 'Bring' là mang đến chỗ người nói. Người Việt hay dùng 'bring' cho mọi trường hợp. Hãy nhớ: **take** = đi xa, **bring** = đến gần. 📖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "He speaks three languages: English, French, and Vietnamese.",
+    "output": "✅ **Corrected Sentence:** He speaks three languages... (Câu đúng)\n\n🔍 **Error Identification:** Không lỗi. 'Speak' dùng cho khả năng ngôn ngữ là chuẩn.\n\n📖 **Vietnamese Explanation:** Chính xác! 'Speak + language' là cách dùng đúng. 'Talk' không dùng cho ngôn ngữ theo cách này. Bạn rất giỏi! 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I need to say my teacher about the problem.",
+    "output": "✅ **Corrected Sentence:** I need to **tell** my teacher about the problem.\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell)\n\n📖 **Vietnamese Explanation:** 'Say' không đi trực tiếp với 'my teacher' mà phải có 'to' (say to my teacher). Nhưng tự nhiên nhất vẫn là 'tell my teacher'. Người Việt thường nói 'say my teacher' (bỏ 'to'). Hãy dùng **tell someone** khi muốn kể/ thông báo cho ai đó. 👩‍🏫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Can you look at my new watch? I just bought it.",
+    "output": "✅ **Corrected Sentence:** Can you look at my new watch? (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** Tuyệt vời! 'Look at' dùng khi bạn muốn ai đó hướng mắt ngắm nhìn chiếc đồng hồ. Bạn cũng có thể nói 'see my watch' (nhìn thấy) nhưng 'look at' nhấn mạnh sự chủ động. ⌚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We talked about the weather for hours.",
+    "output": "✅ **Corrected Sentence:** We talked about the weather for hours. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Talk about' là chuẩn. Bạn có thể dùng 'discuss the weather' (không about) nhưng 'talk about' rất tự nhiên. Bạn làm tốt! ☁️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please don't speak me when I'm studying.",
+    "output": "✅ **Corrected Sentence:** Please don't **talk to** me when I'm studying. (Hoặc 'speak to me')\n\n🔍 **Error Identification:** Confusing Words (Speak vs Talk) - Thiếu giới từ\n\n📖 **Vietnamese Explanation:** 'Speak' và 'talk' đều cần giới từ 'to' khi có tân ngữ là người. 'Speak me' là sai. Hãy nhớ: **speak to someone, talk to someone**. 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I heard to the radio all morning.",
+    "output": "✅ **Corrected Sentence:** I **listened to** the radio all morning.\n\n🔍 **Error Identification:** Confusing Words (Hear vs Listen) - 'Hear' không dùng với 'to'\n\n📖 **Vietnamese Explanation:** 'Hear' không bao giờ đi với 'to'. 'Hear to' là sai hoàn toàn. Khi bạn chủ động nghe đài, dùng 'listen to the radio'. Người Việt hay thêm 'to' sau 'hear' vì nghĩ giống 'listen'. Hãy nhớ: **listen to** (chủ động), **hear** (thụ động, không to). 📻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "She told that she was tired.",
+    "output": "✅ **Corrected Sentence:** She **said** that she was tired. (Hoặc 'She told me that...')\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell) - 'Tell' cần tân ngữ chỉ người\n\n📖 **Vietnamese Explanation:** 'Tell' bắt buộc phải có tân ngữ chỉ người (tell someone). Nếu không có 'me/her/him', phải dùng 'say that'. Người Việt thường nói 'tell that' vì dịch 'kể rằng'. Hãy nhớ: **say that** (không cần người), **tell someone that**. 😴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I want to see the football match on TV.",
+    "output": "✅ **Corrected Sentence:** I want to **watch** the football match on TV.\n\n🔍 **Error Identification:** Confusing Words (See vs Watch)\n\n📖 **Vietnamese Explanation:** Trên TV, các sự kiện có chuyển động, bạn theo dõi diễn biến → dùng 'watch'. 'See a match' thường dùng khi bạn đến sân vận động. Người Việt hay dùng 'see' cho mọi thứ. Hãy nhớ: **watch TV, watch a game**. ⚽"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Can you lend me 100 dollars? I'll pay you back.",
+    "output": "✅ **Corrected Sentence:** Can you lend me 100 dollars? (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** Chính xác! 'Lend me' là cho tôi mượn. Bạn đã phân biệt rất tốt với 'borrow'. Giỏi lắm! 💵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We need to bring our lunch to school tomorrow.",
+    "output": "✅ **Corrected Sentence:** We need to **take** our lunch to school tomorrow.\n\n🔍 **Error Identification:** Confusing Words (Bring vs Take)\n\n📖 **Vietnamese Explanation:** Bạn đang ở nhà, ngày mai bạn sẽ mang đồ ăn từ nhà đến trường (đi xa khỏi vị trí hiện tại) → dùng 'take'. 'Bring' là mang đến chỗ người nói. Nếu bạn nói với mẹ ở nhà: 'I'll take my lunch' là đúng. Nếu bạn nói với bạn ở trường: 'Bring your lunch' (mang đến trường). 🍱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I looked out the window and saw a beautiful garden.",
+    "output": "✅ **Corrected Sentence:** I looked out the window and saw a beautiful garden. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** Bạn dùng 'looked out' (nhìn ra ngoài) và 'saw' (nhìn thấy) rất chuẩn. Phân biệt tốt! 🌸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "She spoke me very politely.",
+    "output": "✅ **Corrected Sentence:** She **spoke to** me very politely.\n\n🔍 **Error Identification:** Confusing Words (Speak vs Talk) - Thiếu giới từ\n\n📖 **Vietnamese Explanation:** 'Speak' cần 'to' khi có tân ngữ. 'Spoke me' là sai. Hãy sửa thành 'spoke to me'. Tương tự: 'talk to me'. 🗨️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I can't listen you because it's too noisy.",
+    "output": "✅ **Corrected Sentence:** I can't **hear** you because it's too noisy. (Hoặc 'listen to you')\n\n🔍 **Error Identification:** Confusing Words (Hear vs Listen) - Thiếu 'to' và dùng sai nghĩa\n\n📖 **Vietnamese Explanation:** Nếu bạn muốn nói không thể nghe thấy giọng nói do ồn, dùng 'can't hear you'. Nếu bạn muốn nói không thể chú ý lắng nghe, dùng 'can't listen to you'. Người Việt thường nói 'listen you' (thiếu to). Hãy nhớ: **hear = nghe thấy, listen to = lắng nghe**. 🔊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "He said to me that he loved me.",
+    "output": "✅ **Corrected Sentence:** He said to me that he loved me. (Đúng, nhưng 'told me' phổ biến hơn)\n\n🔍 **Error Identification:** Không sai, nhưng cấu trúc 'say to someone' ít dùng.\n\n📖 **Vietnamese Explanation:** 'Say to me' là đúng ngữ pháp, nhưng tự nhiên hơn là 'tell me'. Người Việt có thể dùng 'say to me' mà không sai. Tuy nhiên, để nói chuyện tự nhiên, hãy dùng 'tell me'. ❤️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Let's watch the stars tonight.",
+    "output": "✅ **Corrected Sentence:** Let's **look at** the stars tonight. (Hoặc 'watch' cũng chấp nhận được nhưng ít tự nhiên)\n\n🔍 **Error Identification:** Confusing Words (Watch vs Look at)\n\n📖 **Vietnamese Explanation:** Sao trên trời di chuyển rất chậm, thường không được coi là 'watch' (theo dõi). 'Look at the stars' (ngắm sao) là chuẩn. Tuy nhiên, nếu bạn dùng kính thiên văn để theo dõi chuyển động của sao, có thể dùng 'watch'. Nhưng nhìn chung, 'look at' an toàn hơn. ✨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I want to tell something important.",
+    "output": "✅ **Corrected Sentence:** I want to **say** something important. (Hoặc 'tell you something')\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell) - 'Tell' cần tân ngữ chỉ người\n\n📖 **Vietnamese Explanation:** 'Tell' không thể đứng một mình mà không có người nhận. 'Tell something' là sai. Phải là 'say something' (nói điều gì) hoặc 'tell someone something'. Người Việt hay nói 'tell something' vì dịch 'kể điều gì'. Hãy nhớ: **say something, tell someone**. ⚠️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please borrow me your eraser.",
+    "output": "✅ **Corrected Sentence:** Please **lend** me your eraser. (Hoặc: Can I borrow your eraser?)\n\n🔍 **Error Identification:** Confusing Words (Borrow vs Lend)\n\n📖 **Vietnamese Explanation:** Lỗi kinh điển. 'Borrow me' là sai. Hãy nhớ: **Borrow from, Lend to**. Bạn muốn mượn cục tẩy → 'Can I borrow your eraser?' hoặc 'Lend me your eraser.' ✏️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We need to discuss the problem carefully.",
+    "output": "✅ **Corrected Sentence:** We need to discuss the problem carefully. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** Tuyệt vời! 'Discuss' không cần 'about'. Bạn đã dùng đúng. Hãy tiếp tục phát huy. 💬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I saw him running, then I watched him until he disappeared.",
+    "output": "✅ **Corrected Sentence:** I saw him running, then I watched him until he disappeared. (Đúng)\n\n🔍 **Error Identification:** Không lỗi, phân biệt 'saw' (nhìn thấy khoảnh khắc) và 'watched' (theo dõi diễn biến) rất hay.\n\n📖 **Vietnamese Explanation:** Bạn đã dùng rất tinh tế! 'Saw' là nhìn thấy chạy, 'watched' là theo dõi cho đến khi khuất. Đây là trình độ nâng cao. 👏🏃"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "She can talk three languages.",
+    "output": "✅ **Corrected Sentence:** She can **speak** three languages.\n\n🔍 **Error Identification:** Confusing Words (Talk vs Speak)\n\n📖 **Vietnamese Explanation:** Với ngôn ngữ, chỉ dùng 'speak'. 'Talk' không đi với tên ngôn ngữ. Người Việt đôi khi nói 'talk English' – sai. Hãy nhớ: **speak English, speak Vietnamese**. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I heard a great song on the radio. I listened to it three times.",
+    "output": "✅ **Corrected Sentence:** I heard a great song on the radio. I listened to it three times. (Đúng)\n\n🔍 **Error Identification:** Không lỗi. Phân biệt hoàn hảo.\n\n📖 **Vietnamese Explanation:** Xuất sắc! Lần đầu bạn tình cờ nghe thấy (heard), sau đó chủ động nghe lại (listened to). Đây là cách dùng chuẩn mực. 🎶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please bring your homework to me tomorrow.",
+    "output": "✅ **Corrected Sentence:** Please bring your homework to me tomorrow. (Đúng, nếu bạn là người nói và muốn họ mang đến chỗ bạn)\n\n🔍 **Error Identification:** Không lỗi trong ngữ cảnh này.\n\n📖 **Vietnamese Explanation:** Nếu bạn đang nói với học sinh và muốn chúng mang bài tập đến chỗ bạn, 'bring' là đúng. Nếu bạn bảo chúng mang bài tập lên bàn giáo viên khi bạn không ở đó, dùng 'take'. Bạn dùng đúng ngữ cảnh rồi! 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "They said us to wait outside.",
+    "output": "✅ **Corrected Sentence:** They **told** us to wait outside.\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell)\n\n📖 **Vietnamese Explanation:** 'Say us' là sai. 'Tell someone to do something' là cấu trúc đúng. Người Việt hay dùng 'say someone' vì dịch 'nói ai đó'. Hãy nhớ: **tell + người + to V**. 🚪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I want to look the painting carefully.",
+    "output": "✅ **Corrected Sentence:** I want to **look at** the painting carefully.\n\n🔍 **Error Identification:** Confusing Words (Look vs See) - Thiếu giới từ\n\n📖 **Vietnamese Explanation:** 'Look' luôn cần 'at' khi có tân ngữ. 'Look the painting' là sai. Hãy nhớ: **look at something**. Bạn cũng có thể nói 'see the painting' (nhìn thấy) nhưng 'look at' nhấn mạnh sự chú ý. 🖼️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I can't say the time because I don't have a watch.",
+    "output": "✅ **Corrected Sentence:** I can't **tell** the time because I don't have a watch.\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell) – Cụm cố định 'tell the time'\n\n📖 **Vietnamese Explanation:** 'Tell the time' là cụm cố định (xem giờ). Không dùng 'say the time'. Người Việt thường dịch 'nói giờ' thành 'say the time'. Hãy nhớ: **tell the time, tell a story, tell a lie**. ⏰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We need to take this bag to the airport.",
+    "output": "✅ **Corrected Sentence:** We need to take this bag to the airport. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** Bạn dùng 'take' rất đúng khi mang túi từ vị trí hiện tại đến sân bay (xa khỏi người nói). Giỏi! 🧳"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I like to watch the clouds in the sky.",
+    "output": "✅ **Corrected Sentence:** I like to **watch** the clouds in the sky. (Đúng, vì mây di chuyển)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Watch the clouds' rất tự nhiên vì mây trôi. Bạn cũng có thể nói 'look at the clouds'. Cả hai đều được. Bạn làm tốt! ☁️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "She heard to his advice carefully.",
+    "output": "✅ **Corrected Sentence:** She **listened to** his advice carefully.\n\n🔍 **Error Identification:** Confusing Words (Hear vs Listen) - 'Hear to' sai\n\n📖 **Vietnamese Explanation:** 'Hear to' không tồn tại. Khi bạn muốn nói lắng nghe lời khuyên một cách cẩn thận, dùng 'listen to'. Người Việt hay thêm 'to' sau 'hear' do ảnh hưởng của 'listen'. Hãy nhớ: **listen to advice, hear a sound**. 👂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Can you say me how to get to the station?",
+    "output": "✅ **Corrected Sentence:** Can you **tell** me how to get to the station?\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell)\n\n📖 **Vietnamese Explanation:** 'Say me' là sai. Dùng 'tell me' khi yêu cầu ai đó chỉ đường hoặc giải thích. Hãy nhớ: **tell someone + câu hỏi gián tiếp**. 🗺️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I borrowed my friend's book, but I lost it.",
+    "output": "✅ **Corrected Sentence:** I borrowed my friend's book... (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** Bạn dùng 'borrowed' đúng: mượn từ bạn. Nếu nói 'my friend lent me a book' cũng được. Bạn nắm vững rồi! 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We need to discuss about the budget before the meeting.",
+    "output": "✅ **Corrected Sentence:** We need to discuss the budget before the meeting.\n\n🔍 **Error Identification:** Confusing Words (Discuss vs Talk about) - Thừa 'about'\n\n📖 **Vietnamese Explanation:** 'Discuss' là transitive verb, không cần giới từ. 'Discuss about' là lỗi phổ biến của người Việt. Hãy nhớ: **discuss something** (không about), nhưng **talk about something**. 💰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I saw the movie Titanic three times.",
+    "output": "✅ **Corrected Sentence:** I saw the movie Titanic three times. (Đúng)\n\n🔍 **Error Identification:** Không lỗi. 'See a movie' dùng cho rạp chiếu hoặc trải nghiệm.\n\n📖 **Vietnamese Explanation:** Bạn dùng 'saw' rất chuẩn cho việc thưởng thức phim. Có thể dùng 'watched' nhưng 'saw' phổ biến hơn trong ngữ cảnh này. 🎬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "He talked that he would come late.",
+    "output": "✅ **Corrected Sentence:** He **said** that he would come late.\n\n🔍 **Error Identification:** Confusing Words (Talk vs Say) - 'Talk that' sai\n\n📖 **Vietnamese Explanation:** 'Talk' không bao giờ đi với mệnh đề 'that'. Dùng 'say that' hoặc 'tell someone that'. Người Việt hay nói 'talk that' vì dịch 'nói rằng'. Hãy sửa. ⏰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please look at this picture. What do you see?",
+    "output": "✅ **Corrected Sentence:** Please look at this picture. What do you see? (Đúng)\n\n🔍 **Error Identification:** Không lỗi. Kết hợp 'look at' và 'see' rất tự nhiên.\n\n📖 **Vietnamese Explanation:** Bạn đã dùng 'look at' để yêu cầu chú ý và 'see' để hỏi về những gì nhìn thấy. Hoàn hảo! 🖼️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I can't speak Japanese, but I can talk a little.",
+    "output": "✅ **Corrected Sentence:** I can't speak Japanese, but I can **speak** a little. (Hoặc 'talk a little' cũng được, nhưng 'speak' nhất quán hơn)\n\n🔍 **Error Identification:** Không sai rõ, nhưng nên dùng 'speak' cho khả năng ngôn ngữ.\n\n📖 **Vietnamese Explanation:** 'Talk a little' có thể hiểu là 'nói chuyện một chút' (không chỉ ngôn ngữ). Nếu muốn nói 'nói được một chút tiếng Nhật', hãy dùng 'speak a little Japanese'. Bạn gần đúng rồi. 🇯🇵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "She borrowed him some money for a week.",
+    "output": "✅ **Corrected Sentence:** She **lent** him some money for a week.\n\n🔍 **Error Identification:** Confusing Words (Borrow vs Lend)\n\n📖 **Vietnamese Explanation:** 'Borrow him' là sai. Cô ấy cho anh ta mượn tiền → 'lent him'. Hãy nhớ: **borrow from, lend to**. 💸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I need to watch the doctor about my headache.",
+    "output": "✅ **Corrected Sentence:** I need to **see** the doctor about my headache.\n\n🔍 **Error Identification:** Confusing Words (See vs Watch) - 'See a doctor' là cụm cố định\n\n📖 **Vietnamese Explanation:** 'See a doctor' (khám bác sĩ) là cụm cố định, không dùng 'watch'. Người Việt đôi khi nói 'watch a doctor' vì nghĩ 'xem bác sĩ'. Hãy nhớ: **see a doctor, see a patient**. 👨‍⚕️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We talked on the phone for an hour.",
+    "output": "✅ **Corrected Sentence:** We talked on the phone for an hour. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Talk on the phone' là chuẩn. Bạn có thể dùng 'speak on the phone' cũng được. Bạn làm tốt! 📞"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please hear me carefully. This is important.",
+    "output": "✅ **Corrected Sentence:** Please **listen to** me carefully. This is important.\n\n🔍 **Error Identification:** Confusing Words (Hear vs Listen)\n\n📖 **Vietnamese Explanation:** Bạn muốn người kia chú ý lắng nghe, không phải chỉ nghe thấy. Dùng 'listen to me'. 'Hear me' có nghĩa là 'có nghe thấy giọng tôi không?'. Hãy phân biệt rõ. 🔔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I want to tell you about my trip to Da Lat.",
+    "output": "✅ **Corrected Sentence:** I want to tell you about my trip to Da Lat. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Tell you about' là cấu trúc hoàn hảo. Bạn đã dùng đúng 'tell + người + about'. Tuyệt vời! 🏞️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Can you borrow me your pen for a moment?",
+    "output": "✅ **Corrected Sentence:** Can you **lend** me your pen for a moment?\n\n🔍 **Error Identification:** Confusing Words (Borrow vs Lend)\n\n📖 **Vietnamese Explanation:** Lỗi phổ biến nhất. Hãy nhớ câu thần chú: **Borrow = take (mượn về), Lend = give (cho mượn)**. Bạn muốn họ đưa bút cho bạn → 'lend me'. ✒️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We saw the children play in the park.",
+    "output": "✅ **Corrected Sentence:** We saw the children play in the park. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'See someone do something' là cấu trúc đúng. Bạn có thể dùng 'watch' nếu theo dõi lâu hơn. Nhưng 'saw' ở đây ổn. 👧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "She said me, 'I love you.'",
+    "output": "✅ **Corrected Sentence:** She **told** me, 'I love you.' (Hoặc 'She said to me')\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell)\n\n📖 **Vietnamese Explanation:** 'Say me' sai. Có thể sửa thành 'said to me' hoặc 'told me'. 'Told me' tự nhiên hơn trong văn nói. 💕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I looked at the menu and then I ordered.",
+    "output": "✅ **Corrected Sentence:** I looked at the menu and then I ordered. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Looked at the menu' là chuẩn. Bạn không thể 'watch the menu' vì menu không chuyển động. Giỏi! 📋"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I can't listen the teacher because the class is noisy.",
+    "output": "✅ **Corrected Sentence:** I can't **listen to** the teacher because the class is noisy.\n\n🔍 **Error Identification:** Confusing Words (Listen vs Hear) - Thiếu 'to'\n\n📖 **Vietnamese Explanation:** 'Listen' luôn cần 'to' khi có tân ngữ. 'Listen the teacher' là sai. Sửa thành 'listen to the teacher'. Nếu bạn muốn nói 'không thể nghe thấy', dùng 'can't hear the teacher'. 👩‍🏫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please bring me a glass of water when you come.",
+    "output": "✅ **Corrected Sentence:** Please bring me a glass of water when you come. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** Bạn dùng 'bring' đúng vì yêu cầu người khác mang nước đến chỗ bạn. Nếu bạn bảo họ mang đi xa, dùng 'take'. 💧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "He told that he was sick, so he didn't come.",
+    "output": "✅ **Corrected Sentence:** He **said** that he was sick, so he didn't come. (Hoặc 'He told me that')\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell) - 'Tell that' thiếu tân ngữ\n\n📖 **Vietnamese Explanation:** 'Tell that' là sai vì 'tell' cần người nhận. Dùng 'say that' (không cần người). Hoặc thêm tân ngữ: 'He told me that...'. 🤒"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I want to watch the sunset from the hill.",
+    "output": "✅ **Corrected Sentence:** I want to watch the sunset from the hill. (Đúng, vì mặt trời lặn có chuyển động)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Watch the sunset' được chấp nhận. Một số người dùng 'see the sunset' nhưng 'watch' cũng ổn. Bạn làm tốt! 🌄"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We need to speak about the new project.",
+    "output": "✅ **Corrected Sentence:** We need to **talk** about the new project. (Hoặc 'speak about' cũng được, nhưng 'talk about' phổ biến hơn)\n\n🔍 **Error Identification:** Không sai, 'speak about' có nghĩa tương tự 'talk about'.\n\n📖 **Vietnamese Explanation:** 'Speak about' và 'talk about' đều đúng. 'Speak about' hơi trang trọng hơn. Bạn có thể dùng cả hai. 🗂️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I heard a strange noise, so I looked around.",
+    "output": "✅ **Corrected Sentence:** I heard a strange noise, so I looked around. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Heard' (nghe thấy) và 'looked around' (nhìn quanh) – bạn dùng rất chính xác. 👀"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Can you say me your phone number?",
+    "output": "✅ **Corrected Sentence:** Can you **tell** me your phone number?\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell)\n\n📖 **Vietnamese Explanation:** 'Say me' sai. Dùng 'tell me' khi yêu cầu ai đó cung cấp thông tin. Hãy nhớ: **tell me your name, tell me the answer**. 📱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I need to take a photo of the Eiffel Tower.",
+    "output": "✅ **Corrected Sentence:** I need to take a photo of the Eiffel Tower. (Đúng, nhưng lưu ý 'take a photo' là cụm cố định)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Take a photo' là chuẩn. Không dùng 'make a photo' hay 'do a photo'. Bạn dùng đúng rồi! 📷"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We discussed about the problem for hours.",
+    "output": "✅ **Corrected Sentence:** We discussed the problem for hours.\n\n🔍 **Error Identification:** Confusing Words (Discuss vs Talk about) - Thừa 'about'\n\n📖 **Vietnamese Explanation:** 'Discuss about' là lỗi. 'Discuss' đã bao hàm ý 'về', nên không cần 'about'. Hãy nhớ: **discuss something**. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "She speaks very fast, I can't hear her.",
+    "output": "✅ **Corrected Sentence:** She speaks very fast, I can't **understand** her. (Hoặc 'can't hear her' nếu ồn, nhưng thường là 'can't follow')\n\n🔍 **Error Identification:** Không sai về từ vựng, nhưng sắc thái khác.\n\n📖 **Vietnamese Explanation:** 'Can't hear her' là không nghe thấy do âm lượng. Nếu cô ấy nói nhanh và bạn không hiểu, nên dùng 'can't understand her' hoặc 'can't catch what she says'. Tuy nhiên, câu của bạn vẫn đúng về mặt từ vựng. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I want to borrow your car for the weekend.",
+    "output": "✅ **Corrected Sentence:** I want to borrow your car for the weekend. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** Bạn dùng 'borrow' đúng: mượn xe của ai đó. Nếu nói 'Can you lend me your car?' cũng được. Bạn nắm vững rồi! 🚘"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please look the blackboard, not your phone.",
+    "output": "✅ **Corrected Sentence:** Please **look at** the blackboard, not your phone.\n\n🔍 **Error Identification:** Confusing Words (Look vs See) - Thiếu 'at'\n\n📖 **Vietnamese Explanation:** 'Look the blackboard' thiếu 'at'. Hãy nhớ: **look at something**. 'See the blackboard' có nghĩa là nhìn thấy cái bảng (không chủ động). Bạn muốn học sinh chú ý → 'look at'. 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "He said to me that he was going to Hanoi.",
+    "output": "✅ **Corrected Sentence:** He said to me that he was going to Hanoi. (Đúng, nhưng 'told me' tự nhiên hơn)\n\n🔍 **Error Identification:** Không sai.\n\n📖 **Vietnamese Explanation:** 'Said to me' là ngữ pháp đúng, nhưng ít dùng. Trong văn nói hàng ngày, người ta thường nói 'told me'. Bạn vẫn ổn. 🏙️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I like to listen music while I run.",
+    "output": "✅ **Corrected Sentence:** I like to **listen to** music while I run.\n\n🔍 **Error Identification:** Confusing Words (Listen vs Hear) - Thiếu 'to'\n\n📖 **Vietnamese Explanation:** 'Listen' bắt buộc phải có 'to' trước tân ngữ. 'Listen music' là sai. Sửa thành 'listen to music'. 🎧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Can you tell me the way to the nearest bank?",
+    "output": "✅ **Corrected Sentence:** Can you tell me the way to the nearest bank? (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Tell me the way' là cấu trúc chuẩn để hỏi đường. Bạn dùng rất tốt! 🏦"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We watched the news on TV every evening.",
+    "output": "✅ **Corrected Sentence:** We watch the news on TV every evening. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Watch the news' là chuẩn. Tin tức có hình ảnh chuyển động → dùng 'watch'. Bạn đúng. 📺"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "She borrowed me her dress for the party.",
+    "output": "✅ **Corrected Sentence:** She **lent** me her dress for the party.\n\n🔍 **Error Identification:** Confusing Words (Borrow vs Lend)\n\n📖 **Vietnamese Explanation:** 'Borrow me' sai. Cô ấy cho bạn mượn váy → 'lent me'. Hãy nhớ: **lend to someone**. 👗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I can't see the difference between these two colors.",
+    "output": "✅ **Corrected Sentence:** I can't **tell** the difference between these two colors.\n\n🔍 **Error Identification:** Confusing Words (See vs Tell) - Cụm 'tell the difference'\n\n📖 **Vietnamese Explanation:** 'See the difference' cũng có thể chấp nhận, nhưng 'tell the difference' (phân biệt) là cụm phổ biến hơn. Người Việt thường nói 'see the difference' (nhìn thấy sự khác biệt) – không sai, nhưng 'tell' tự nhiên hơn. 🎨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please talk me your story.",
+    "output": "✅ **Corrected Sentence:** Please **tell** me your story.\n\n🔍 **Error Identification:** Confusing Words (Talk vs Tell) - 'Talk me' sai\n\n📖 **Vietnamese Explanation:** 'Talk' không thể dùng với tân ngữ trực tiếp là người. 'Talk me' sai. Phải là 'tell me' (kể cho tôi). Hoặc 'talk to me about your story'. 📖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I heard the news this morning.",
+    "output": "✅ **Corrected Sentence:** I heard the news this morning. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Hear the news' là chuẩn (nghe tin tức). Bạn cũng có thể nói 'listen to the news' nếu chủ động. Nhưng 'heard' là ổn. 📰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "He looked at me and said, 'Hello.'",
+    "output": "✅ **Corrected Sentence:** He looked at me and said, 'Hello.' (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** Kết hợp 'looked at' và 'said' rất tự nhiên. Bạn dùng đúng. 👋"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I want to watch the doctor because I have a fever.",
+    "output": "✅ **Corrected Sentence:** I want to **see** the doctor because I have a fever.\n\n🔍 **Error Identification:** Confusing Words (Watch vs See) - 'See a doctor'\n\n📖 **Vietnamese Explanation:** 'Watch a doctor' có nghĩa là theo dõi bác sĩ làm việc, không phải khám bệnh. Để nói đi khám, dùng 'see a doctor'. 🤒"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We talked about the movie after watching it.",
+    "output": "✅ **Corrected Sentence:** We talked about the movie after watching it. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Talked about' và 'watching it' – bạn dùng rất chuẩn. 🍿"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Can you borrow me your textbook?",
+    "output": "✅ **Corrected Sentence:** Can you **lend** me your textbook?\n\n🔍 **Error Identification:** Confusing Words (Borrow vs Lend)\n\n📖 **Vietnamese Explanation:** Lỗi kinh điển. Hãy nhớ: **borrow from, lend to**. Bạn muốn mượn sách → 'Can I borrow your textbook?' hoặc 'Can you lend me your textbook?' 📘"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I need to speak with the manager.",
+    "output": "✅ **Corrected Sentence:** I need to speak with the manager. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Speak with' và 'speak to' đều đúng. 'Speak with' nhấn mạnh sự trao đổi hai chiều. Bạn dùng tốt. 👨‍💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "She saw her friend in the crowd and waved.",
+    "output": "✅ **Corrected Sentence:** She saw her friend in the crowd and waved. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Saw' (nhìn thấy) rồi vẫy tay – hợp lý. Bạn dùng đúng. 👋"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I can't say the truth because it will hurt her.",
+    "output": "✅ **Corrected Sentence:** I can't **tell** the truth because it will hurt her.\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell) - 'Tell the truth' là cụm cố định\n\n📖 **Vietnamese Explanation:** 'Tell the truth' (nói sự thật) là cụm không thể thay 'tell' bằng 'say'. Hãy nhớ: **tell a lie, tell the truth, tell a story**. 🤐"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We need to take this document to the office.",
+    "output": "✅ **Corrected Sentence:** We need to take this document to the office. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Take to the office' (mang đi xa) là đúng. Nếu bạn đang ở văn phòng và bảo ai đó mang đến, dùng 'bring'. Bạn dùng chuẩn. 📄"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please listen the teacher when she explains.",
+    "output": "✅ **Corrected Sentence:** Please **listen to** the teacher when she explains.\n\n🔍 **Error Identification:** Confusing Words (Listen vs Hear) - Thiếu 'to'\n\n📖 **Vietnamese Explanation:** 'Listen the teacher' sai. Luôn có 'to' sau 'listen' khi có tân ngữ. Sửa thành 'listen to the teacher'. 👩‍🏫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "He said that he would call later.",
+    "output": "✅ **Corrected Sentence:** He said that he would call later. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Say that' là chuẩn. Bạn dùng đúng. 📞"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I want to look at the photos from your vacation.",
+    "output": "✅ **Corrected Sentence:** I want to look at the photos from your vacation. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Look at photos' là chuẩn. Bạn có thể nói 'see the photos' cũng được. Bạn dùng tốt. 📸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "She borrowed me her notes for the exam.",
+    "output": "✅ **Corrected Sentence:** She **lent** me her notes for the exam.\n\n🔍 **Error Identification:** Confusing Words (Borrow vs Lend)\n\n📖 **Vietnamese Explanation:** 'Borrow me' sai. Sửa thành 'lent me'. Hãy nhớ: **lend = cho mượn**. 📓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I can't hear the speaker because the microphone is off.",
+    "output": "✅ **Corrected Sentence:** I can't hear the speaker because the microphone is off. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Hear the speaker' (nghe thấy) là đúng. Nếu bạn muốn lắng nghe chủ động, dùng 'listen to'. 🎤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Please say me your address.",
+    "output": "✅ **Corrected Sentence:** Please **tell** me your address.\n\n🔍 **Error Identification:** Confusing Words (Say vs Tell)\n\n📖 **Vietnamese Explanation:** 'Say me' sai. 'Tell me your address' mới đúng. Hãy nhớ: **tell someone something**. 🏠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "We watched the fish swimming in the aquarium.",
+    "output": "✅ **Corrected Sentence:** We watched the fish swimming in the aquarium. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Watch the fish swimming' rất tự nhiên vì cá di chuyển. Bạn dùng đúng. 🐠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "He talked to his friend on the phone for an hour.",
+    "output": "✅ **Corrected Sentence:** He talked to his friend on the phone for an hour. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Talk to someone on the phone' là chuẩn. Bạn làm tốt. 📞"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I need to discuss about my grade with the teacher.",
+    "output": "✅ **Corrected Sentence:** I need to discuss my grade with the teacher.\n\n🔍 **Error Identification:** Confusing Words (Discuss vs Talk about) - Thừa 'about'\n\n📖 **Vietnamese Explanation:** Bỏ 'about' sau 'discuss'. 'Discuss my grade' là đủ. Hãy nhớ quy tắc này. 🧑‍🏫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I saw the accident happen right in front of me.",
+    "output": "✅ **Corrected Sentence:** I saw the accident happen right in front of me. (Đúng)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'See something happen' là cấu trúc đúng. Bạn dùng rất chuẩn. 🚗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "Can you speak me the answer?",
+    "output": "✅ **Corrected Sentence:** Can you **tell** me the answer? (Hoặc 'say the answer to me')\n\n🔍 **Error Identification:** Confusing Words (Speak vs Tell) - 'Speak me' sai\n\n📖 **Vietnamese Explanation:** 'Speak' không thể có tân ngữ chỉ người trực tiếp. 'Speak me' sai. Dùng 'tell me'. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng trong câu sau của học viên.",
+    "input": "I like to see the stars at night.",
+    "output": "✅ **Corrected Sentence:** I like to see the stars at night. (Đúng, nhưng 'look at' cũng phổ biến)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'See the stars' (nhìn thấy sao) là được. Bạn có thể dùng 'look at' để nhấn mạnh sự chủ động. Cả hai đều ổn. 🌌"
+  }
+]

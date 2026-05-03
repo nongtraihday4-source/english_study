@@ -1,0 +1,1796 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 151,
+    "fields": {
+      "word": "back",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "bæk",
+      "ipa_us": "bæk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái lưng, phía sau",
+      "definition_en": "The rear surface of the human body from the shoulders to the hips, or the rear part of something.",
+      "example_en": "My back hurts after sitting all day.",
+      "example_vi": "Lưng tôi bị đau sau khi ngồi cả ngày.",
+      "collocations_json": [
+        "back door",
+        "go back",
+        "back pain"
+      ],
+      "synonyms_json": [
+        "rear",
+        "behind"
+      ],
+      "antonyms_json": [
+        "front"
+      ],
+      "mnemonic": "Back (bác): Bác ấy đang vác bao gạo nặng trên lưng.",
+      "frequency_rank": 110,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 152,
+    "fields": {
+      "word": "bad",
+      "part_of_speech": "adjective",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "bæd",
+      "ipa_us": "bæd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "xấu, tồi tệ",
+      "definition_en": "Of poor quality or a low standard.",
+      "example_en": "The weather is really bad today.",
+      "example_vi": "Thời tiết hôm nay thực sự rất tệ.",
+      "collocations_json": [
+        "bad news",
+        "bad habit",
+        "bad weather"
+      ],
+      "synonyms_json": [
+        "terrible",
+        "awful"
+      ],
+      "antonyms_json": [
+        "good",
+        "excellent"
+      ],
+      "mnemonic": "Bad (bét): Điểm thi bét bảng thật là tồi tệ.",
+      "frequency_rank": 210,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 153,
+    "fields": {
+      "word": "bag",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "bæɡ",
+      "ipa_us": "bæɡ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái túi, giỏ xách",
+      "definition_en": "A container made of flexible material with an opening at the top, used for carrying things.",
+      "example_en": "She put her books in her bag.",
+      "example_vi": "Cô ấy đặt những cuốn sách vào trong túi của mình.",
+      "collocations_json": [
+        "plastic bag",
+        "school bag",
+        "shopping bag"
+      ],
+      "synonyms_json": [
+        "sack",
+        "pack"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bag (bác): Bác tôi xách một cái túi đi chợ.",
+      "frequency_rank": 480,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 154,
+    "fields": {
+      "word": "ball",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "bɔl",
+      "ipa_us": "bɔl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quả bóng, trái banh",
+      "definition_en": "A round object used in games and sports.",
+      "example_en": "The boys are playing with a ball.",
+      "example_vi": "Những cậu bé đang chơi với một quả bóng.",
+      "collocations_json": [
+        "play ball",
+        "catch a ball",
+        "tennis ball"
+      ],
+      "synonyms_json": [
+        "sphere",
+        "globe"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ball (bo): Quả bóng tròn bo lặn lóc trên sân.",
+      "frequency_rank": 620,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 155,
+    "fields": {
+      "word": "banana",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "vegetables",
+      "ipa_uk": "bəˈnænə",
+      "ipa_us": "bəˈnænə",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quả chuối",
+      "definition_en": "A long curved fruit with a yellow skin and soft, sweet, white flesh inside.",
+      "example_en": "Monkeys love to eat bananas.",
+      "example_vi": "Những con khỉ rất thích ăn chuối.",
+      "collocations_json": [
+        "eat a banana",
+        "yellow banana",
+        "bunch of bananas"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Ba na (bà na): Bà Na ra chợ bán quả chuối.",
+      "frequency_rank": 1450,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 156,
+    "fields": {
+      "word": "band",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "art",
+      "ipa_uk": "bænd",
+      "ipa_us": "bænd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ban nhạc",
+      "definition_en": "A group of musicians who play modern music together.",
+      "example_en": "My brother plays guitar in a rock band.",
+      "example_vi": "Anh trai tôi chơi guitar trong một ban nhạc rock.",
+      "collocations_json": [
+        "rock band",
+        "join a band",
+        "live band"
+      ],
+      "synonyms_json": [
+        "group",
+        "orchestra"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Band (ben): Ban nhạc Ben số 1 thế giới.",
+      "frequency_rank": 850,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 157,
+    "fields": {
+      "word": "bank",
+      "part_of_speech": "other",
+      "cefr_level": "A1",
+      "domain": "business",
+      "ipa_uk": "bæŋk",
+      "ipa_us": "bæŋk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ngân hàng, bờ sông",
+      "definition_en": "An organization where people and businesses can invest or borrow money.",
+      "example_en": "I need to go to the bank to get some money.",
+      "example_vi": "Tôi cần đến ngân hàng để rút một ít tiền.",
+      "collocations_json": [
+        "bank account",
+        "rob a bank",
+        "river bank"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Bank (beng): Tiếng chuông báo động kêu beng beng ở ngân hàng.",
+      "frequency_rank": 340,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 158,
+    "fields": {
+      "word": "bath",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "bæθ",
+      "ipa_us": "bæθ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự tắm rửa, bồn tắm",
+      "definition_en": "The process of washing the body by sitting in a tub of water.",
+      "example_en": "I take a hot bath every evening.",
+      "example_vi": "Tôi tắm nước nóng mỗi buổi tối.",
+      "collocations_json": [
+        "take a bath",
+        "bubble bath",
+        "hot bath"
+      ],
+      "synonyms_json": [
+        "wash",
+        "tub"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bath (bát): Tắm bằng cái bát to đựng đầy nước.",
+      "frequency_rank": 1100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 159,
+    "fields": {
+      "word": "bathroom",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "ˈbæˌθrum",
+      "ipa_us": "ˈbæˌθrum",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phòng tắm, nhà vệ sinh",
+      "definition_en": "A room containing a toilet and a bath or shower.",
+      "example_en": "Where is the bathroom?",
+      "example_vi": "Phòng tắm ở đâu?",
+      "collocations_json": [
+        "go to the bathroom",
+        "clean the bathroom",
+        "bathroom mirror"
+      ],
+      "synonyms_json": [
+        "restroom",
+        "washroom",
+        "toilet"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bathroom = Bath (tắm) + room (phòng) -> Phòng tắm.",
+      "frequency_rank": 800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 160,
+    "fields": {
+      "word": "be",
+      "part_of_speech": "verb",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "bi",
+      "ipa_us": "bi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thì, là, ở",
+      "definition_en": "Used to describe someone or something, or to show that someone or something exists.",
+      "example_en": "I want to be a teacher.",
+      "example_vi": "Tôi muốn trở thành một giáo viên.",
+      "collocations_json": [
+        "be happy",
+        "be careful",
+        "be quiet"
+      ],
+      "synonyms_json": [
+        "exist",
+        "live"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Be (bi): Chơi bi thì phải vui.",
+      "frequency_rank": 1,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 161,
+    "fields": {
+      "word": "beach",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "nature",
+      "ipa_uk": "biʧ",
+      "ipa_us": "biʧ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bãi biển",
+      "definition_en": "An area of sand or small stones near the sea or another area of water.",
+      "example_en": "We walked along the beach.",
+      "example_vi": "Chúng tôi đã đi dạo dọc theo bãi biển.",
+      "collocations_json": [
+        "go to the beach",
+        "sandy beach",
+        "beach towel"
+      ],
+      "synonyms_json": [
+        "coast",
+        "shore"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Beach (bích): Ngọc Bích thích đi dạo trên bãi biển.",
+      "frequency_rank": 750,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 162,
+    "fields": {
+      "word": "beautiful",
+      "part_of_speech": "adjective",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "ˈbjutəfəl",
+      "ipa_us": "ˈbjutəfəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "xinh đẹp, tuyệt vời",
+      "definition_en": "Very attractive to look at.",
+      "example_en": "She is a beautiful woman.",
+      "example_vi": "Cô ấy là một người phụ nữ xinh đẹp.",
+      "collocations_json": [
+        "beautiful weather",
+        "beautiful smile",
+        "beautiful day"
+      ],
+      "synonyms_json": [
+        "pretty",
+        "lovely",
+        "gorgeous"
+      ],
+      "antonyms_json": [
+        "ugly",
+        "unattractive"
+      ],
+      "mnemonic": "Beautiful (biu-ti-phun): Bắn pháo bông tung tóe (phun) thật là xinh đẹp.",
+      "frequency_rank": 320,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 163,
+    "fields": {
+      "word": "because",
+      "part_of_speech": "other",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "bɪˈkɔz",
+      "ipa_us": "bɪˈkɔz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bởi vì",
+      "definition_en": "For the reason that.",
+      "example_en": "I stayed home because it was raining.",
+      "example_vi": "Tôi đã ở nhà bởi vì trời mưa.",
+      "collocations_json": [
+        "because of",
+        "just because",
+        "because I said so"
+      ],
+      "synonyms_json": [
+        "since",
+        "as"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Because (bi-co): Bị co rúm lại bởi vì quá lạnh.",
+      "frequency_rank": 70,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 164,
+    "fields": {
+      "word": "become",
+      "part_of_speech": "verb",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "bɪˈkʌm",
+      "ipa_us": "bɪˈkʌm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trở nên, trở thành",
+      "definition_en": "To begin to be something.",
+      "example_en": "He wants to become a doctor.",
+      "example_vi": "Anh ấy muốn trở thành một bác sĩ.",
+      "collocations_json": [
+        "become friends",
+        "become clear",
+        "become successful"
+      ],
+      "synonyms_json": [
+        "turn into",
+        "grow to be"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Become (bi-căm): Bị cắn một cái liền trở thành ma cà rồng.",
+      "frequency_rank": 200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 165,
+    "fields": {
+      "word": "bed",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "bɛd",
+      "ipa_us": "bɛd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái giường",
+      "definition_en": "A large, rectangular piece of furniture, often with four legs, used for sleeping on.",
+      "example_en": "I am so tired, I want to go to bed.",
+      "example_vi": "Tôi mệt quá, tôi muốn đi ngủ (lên giường).",
+      "collocations_json": [
+        "go to bed",
+        "make the bed",
+        "stay in bed"
+      ],
+      "synonyms_json": [
+        "cot",
+        "bunk"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bed (bét): Mệt bét nhè rồi, leo lên giường thôi.",
+      "frequency_rank": 330,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 166,
+    "fields": {
+      "word": "bedroom",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "ˈbɛˌdrum",
+      "ipa_us": "ˈbɛˌdrum",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phòng ngủ",
+      "definition_en": "A room used for sleeping in.",
+      "example_en": "Her bedroom is very clean.",
+      "example_vi": "Phòng ngủ của cô ấy rất sạch sẽ.",
+      "collocations_json": [
+        "master bedroom",
+        "clean the bedroom",
+        "bedroom window"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Bedroom = Bed (giường) + room (phòng) -> Phòng có giường để ngủ.",
+      "frequency_rank": 900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 167,
+    "fields": {
+      "word": "beer",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "food",
+      "ipa_uk": "bɪr",
+      "ipa_us": "bɪr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bia",
+      "definition_en": "An alcoholic drink made from grain.",
+      "example_en": "He ordered a glass of cold beer.",
+      "example_vi": "Anh ấy đã gọi một ly bia lạnh.",
+      "collocations_json": [
+        "drink beer",
+        "glass of beer",
+        "cold beer"
+      ],
+      "synonyms_json": [
+        "ale",
+        "brew"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Beer (bia): Uống bia giải khát mùa hè.",
+      "frequency_rank": 1500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 168,
+    "fields": {
+      "word": "before",
+      "part_of_speech": "other",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "bɪˈfɔr",
+      "ipa_us": "bɪˈfɔr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trước, trước khi",
+      "definition_en": "At or during a time earlier than.",
+      "example_en": "Wash your hands before dinner.",
+      "example_vi": "Hãy rửa tay trước bữa tối.",
+      "collocations_json": [
+        "before dinner",
+        "day before",
+        "long before"
+      ],
+      "synonyms_json": [
+        "prior to",
+        "earlier"
+      ],
+      "antonyms_json": [
+        "after"
+      ],
+      "mnemonic": "Before (bi-pho): Bị phò tá trước khi lên ngôi vua.",
+      "frequency_rank": 100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 169,
+    "fields": {
+      "word": "begin",
+      "part_of_speech": "verb",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "bɪˈɡɪn",
+      "ipa_us": "bɪˈɡɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bắt đầu, khởi đầu",
+      "definition_en": "To start to happen or exist.",
+      "example_en": "The movie will begin in ten minutes.",
+      "example_vi": "Bộ phim sẽ bắt đầu trong mười phút nữa.",
+      "collocations_json": [
+        "begin to cry",
+        "begin a project",
+        "let's begin"
+      ],
+      "synonyms_json": [
+        "start",
+        "commence"
+      ],
+      "antonyms_json": [
+        "end",
+        "finish"
+      ],
+      "mnemonic": "Begin (bi-ghin): Bị ghìm chặt nên không thể bắt đầu chạy được.",
+      "frequency_rank": 180,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 170,
+    "fields": {
+      "word": "beginning",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "bɪˈɡɪnɪŋ",
+      "ipa_us": "bɪˈɡɪnɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự bắt đầu, phần đầu",
+      "definition_en": "The first part of something or the start of something.",
+      "example_en": "I missed the beginning of the story.",
+      "example_vi": "Tôi đã bỏ lỡ phần đầu của câu chuyện.",
+      "collocations_json": [
+        "at the beginning",
+        "new beginning",
+        "from the beginning"
+      ],
+      "synonyms_json": [
+        "start",
+        "origin"
+      ],
+      "antonyms_json": [
+        "end",
+        "conclusion"
+      ],
+      "mnemonic": "Beginning là danh từ của chữ Begin (bắt đầu).",
+      "frequency_rank": 640,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 171,
+    "fields": {
+      "word": "behind",
+      "part_of_speech": "other",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "bɪˈhaɪnd",
+      "ipa_us": "bɪˈhaɪnd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phía sau, đằng sau",
+      "definition_en": "At or to the back of someone or something.",
+      "example_en": "The cat is hiding behind the sofa.",
+      "example_vi": "Con mèo đang trốn phía sau ghế sofa.",
+      "collocations_json": [
+        "behind the door",
+        "leave behind",
+        "look behind"
+      ],
+      "synonyms_json": [
+        "at the back",
+        "rear"
+      ],
+      "antonyms_json": [
+        "in front of"
+      ],
+      "mnemonic": "Behind (bi-hai): Bị hại từ phía sau lưng.",
+      "frequency_rank": 310,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 172,
+    "fields": {
+      "word": "believe",
+      "part_of_speech": "verb",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "bɪˈliv",
+      "ipa_us": "bɪˈliv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tin tưởng, cho rằng",
+      "definition_en": "To think that something is true, correct, or real.",
+      "example_en": "I believe you can do it.",
+      "example_vi": "Tôi tin rằng bạn có thể làm được.",
+      "collocations_json": [
+        "believe in",
+        "hard to believe",
+        "believe it or not"
+      ],
+      "synonyms_json": [
+        "trust",
+        "think"
+      ],
+      "antonyms_json": [
+        "doubt",
+        "disbelieve"
+      ],
+      "mnemonic": "Believe (bi-líp): Bí kíp (líp) này giúp tôi tin tưởng vào bản thân.",
+      "frequency_rank": 190,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 173,
+    "fields": {
+      "word": "below",
+      "part_of_speech": "adverb",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "bɪˈloʊ",
+      "ipa_us": "bɪˈloʊ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ở dưới, phía dưới",
+      "definition_en": "In a lower position than someone or something else.",
+      "example_en": "Please read the text below.",
+      "example_vi": "Vui lòng đọc văn bản ở phía dưới.",
+      "collocations_json": [
+        "below average",
+        "see below",
+        "temperatures below freezing"
+      ],
+      "synonyms_json": [
+        "under",
+        "beneath"
+      ],
+      "antonyms_json": [
+        "above",
+        "over"
+      ],
+      "mnemonic": "Below (bi-lâu): Bị chôn vùi dưới đất bao lâu nay.",
+      "frequency_rank": 400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 174,
+    "fields": {
+      "word": "best",
+      "part_of_speech": "adjective",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "bɛst",
+      "ipa_us": "bɛst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tốt nhất, hay nhất",
+      "definition_en": "Of the highest quality, or being the most suitable, pleasing, or effective type of thing or person.",
+      "example_en": "You are my best friend.",
+      "example_vi": "Bạn là người bạn tốt nhất của tôi.",
+      "collocations_json": [
+        "do your best",
+        "best friend",
+        "best wishes"
+      ],
+      "synonyms_json": [
+        "finest",
+        "top",
+        "greatest"
+      ],
+      "antonyms_json": [
+        "worst"
+      ],
+      "mnemonic": "Best (bét): Ngược lại với tiếng Việt từ bét là tệ nhất, Best tiếng Anh là tuyệt nhất.",
+      "frequency_rank": 100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 175,
+    "fields": {
+      "word": "better",
+      "part_of_speech": "adjective",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "ˈbɛtər",
+      "ipa_us": "ˈbɛtər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tốt hơn",
+      "definition_en": "Of a higher standard, or more suitable, pleasing, or effective than other things or people.",
+      "example_en": "This book is better than that one.",
+      "example_vi": "Cuốn sách này tốt hơn cuốn kia.",
+      "collocations_json": [
+        "feel better",
+        "get better",
+        "much better"
+      ],
+      "synonyms_json": [
+        "superior",
+        "improved"
+      ],
+      "antonyms_json": [
+        "worse"
+      ],
+      "mnemonic": "Better (bét-tờ): Mới bôi kem chống nắng mà bết tờ lờ nhưng dù sao cũng tốt hơn là đen da.",
+      "frequency_rank": 150,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 176,
+    "fields": {
+      "word": "between",
+      "part_of_speech": "other",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "bɪˈtwin",
+      "ipa_us": "bɪˈtwin",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ở giữa",
+      "definition_en": "In or into the space that separates two places, people, or objects.",
+      "example_en": "I sat between my mother and father.",
+      "example_vi": "Tôi đã ngồi giữa mẹ và bố tôi.",
+      "collocations_json": [
+        "between you and me",
+        "in between",
+        "choose between"
+      ],
+      "synonyms_json": [
+        "among"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Between (bi-tuyn): Bị tuyn (tuyên) bố là người đứng giữa làm hòa.",
+      "frequency_rank": 160,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 177,
+    "fields": {
+      "word": "bicycle",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "travel",
+      "ipa_uk": "ˈbaɪsɪkəl",
+      "ipa_us": "ˈbaɪsɪkəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "xe đạp",
+      "definition_en": "A two-wheeled vehicle that you sit on and move by turning the two pedals.",
+      "example_en": "He rides his bicycle to school every day.",
+      "example_vi": "Cậu ấy đạp xe đạp đến trường mỗi ngày.",
+      "collocations_json": [
+        "ride a bicycle",
+        "bicycle path",
+        "electric bicycle"
+      ],
+      "synonyms_json": [
+        "bike"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bicycle (bai-xi-cồ): Mua hai (bi) cái xe cộ (cycle) đạp cho khoẻ.",
+      "frequency_rank": 1900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 178,
+    "fields": {
+      "word": "big",
+      "part_of_speech": "adjective",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "bɪɡ",
+      "ipa_us": "bɪɡ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "to, lớn",
+      "definition_en": "Large in size or amount.",
+      "example_en": "They live in a very big house.",
+      "example_vi": "Họ sống trong một ngôi nhà rất lớn.",
+      "collocations_json": [
+        "big city",
+        "big mistake",
+        "big deal"
+      ],
+      "synonyms_json": [
+        "large",
+        "huge",
+        "enormous"
+      ],
+      "antonyms_json": [
+        "small",
+        "tiny",
+        "little"
+      ],
+      "mnemonic": "Big (bích): Cục gạch bích rất to và nặng.",
+      "frequency_rank": 130,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 179,
+    "fields": {
+      "word": "bike",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "travel",
+      "ipa_uk": "baɪk",
+      "ipa_us": "baɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "xe đạp, xe máy",
+      "definition_en": "A bicycle or a motorcycle.",
+      "example_en": "I bought a new bike yesterday.",
+      "example_vi": "Tôi đã mua một chiếc xe đạp mới ngày hôm qua.",
+      "collocations_json": [
+        "ride a bike",
+        "mountain bike",
+        "bike ride"
+      ],
+      "synonyms_json": [
+        "bicycle",
+        "motorcycle"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bike (bai): Bái bai bạn, mình đạp xe đi học đây.",
+      "frequency_rank": 1050,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 180,
+    "fields": {
+      "word": "bill",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "business",
+      "ipa_uk": "bɪl",
+      "ipa_us": "bɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hóa đơn",
+      "definition_en": "A piece of paper that shows how much money you must pay for a meal, service, etc.",
+      "example_en": "Could we have the bill, please?",
+      "example_vi": "Cho chúng tôi xin hóa đơn thanh toán được không?",
+      "collocations_json": [
+        "pay the bill",
+        "electricity bill",
+        "dollar bill"
+      ],
+      "synonyms_json": [
+        "invoice",
+        "check",
+        "statement"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bill (biu): Xin tờ hóa đơn (biu) để tính tiền mua đồ.",
+      "frequency_rank": 600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 181,
+    "fields": {
+      "word": "bird",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "animals",
+      "ipa_uk": "bɜrd",
+      "ipa_us": "bɜrd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "con chim",
+      "definition_en": "A creature with feathers and wings, usually able to fly.",
+      "example_en": "I saw a beautiful bird in the garden.",
+      "example_vi": "Tôi đã nhìn thấy một con chim đẹp trong khu vườn.",
+      "collocations_json": [
+        "singing bird",
+        "fly like a bird",
+        "bird cage"
+      ],
+      "synonyms_json": [
+        "fowl"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bird (bớt): Bớt bắn chim lại để bảo vệ động vật.",
+      "frequency_rank": 800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 182,
+    "fields": {
+      "word": "birthday",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "ˈbɜrθˌdeɪ",
+      "ipa_us": "ˈbɜrθˌdeɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ngày sinh nhật",
+      "definition_en": "The day that is exactly a year or number of years after a person was born.",
+      "example_en": "Happy birthday to you!",
+      "example_vi": "Chúc mừng sinh nhật bạn!",
+      "collocations_json": [
+        "happy birthday",
+        "birthday party",
+        "birthday cake"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Birthday = Birth (sinh ra) + day (ngày) -> Ngày sinh nhật.",
+      "frequency_rank": 1000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 183,
+    "fields": {
+      "word": "black",
+      "part_of_speech": "adjective",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "blæk",
+      "ipa_us": "blæk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "màu đen",
+      "definition_en": "Having the darkest color there is, like the color of coal or of a very dark night.",
+      "example_en": "She is wearing a black dress.",
+      "example_vi": "Cô ấy đang mặc một chiếc váy màu đen.",
+      "collocations_json": [
+        "black hair",
+        "black coffee",
+        "black and white"
+      ],
+      "synonyms_json": [
+        "dark"
+      ],
+      "antonyms_json": [
+        "white",
+        "bright"
+      ],
+      "mnemonic": "Black (bờ-lắc): Uống ly cà phê đen bờ lắc cho tỉnh táo.",
+      "frequency_rank": 350,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 184,
+    "fields": {
+      "word": "blog",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "technology",
+      "ipa_uk": "blɔɡ",
+      "ipa_us": "blɑɡ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trang blog cá nhân",
+      "definition_en": "A regular record of your thoughts, opinions, or experiences that you put on the internet for other people to read.",
+      "example_en": "He writes a blog about his travels.",
+      "example_vi": "Anh ấy viết một blog về các chuyến du lịch của mình.",
+      "collocations_json": [
+        "write a blog",
+        "travel blog",
+        "blog post"
+      ],
+      "synonyms_json": [
+        "weblog",
+        "journal"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Blog (bờ-lốc): Bị khóa lốc (lock) ních nên không viết trang blog được.",
+      "frequency_rank": 1600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 185,
+    "fields": {
+      "word": "blonde",
+      "part_of_speech": "adjective",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "blɑnd",
+      "ipa_us": "blɑnd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vàng hoe (tóc)",
+      "definition_en": "With pale yellow or gold hair.",
+      "example_en": "She has beautiful blonde hair.",
+      "example_vi": "Cô ấy có mái tóc vàng hoe xinh đẹp.",
+      "collocations_json": [
+        "blonde hair",
+        "tall blonde",
+        "natural blonde"
+      ],
+      "synonyms_json": [
+        "fair-haired"
+      ],
+      "antonyms_json": [
+        "dark",
+        "brunette"
+      ],
+      "mnemonic": "Blonde (bờ-lon): Tóc màu vàng rực như cái vỏ lon bia.",
+      "frequency_rank": 1900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 186,
+    "fields": {
+      "word": "blue",
+      "part_of_speech": "adjective",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "blu",
+      "ipa_us": "blu",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "màu xanh dương",
+      "definition_en": "Of the color of the sky without clouds on a bright day.",
+      "example_en": "The sky is very blue today.",
+      "example_vi": "Bầu trời hôm nay rất xanh.",
+      "collocations_json": [
+        "blue sky",
+        "blue eyes",
+        "dark blue"
+      ],
+      "synonyms_json": [
+        "azure",
+        "navy"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Blue (bờ-lu): Bác sĩ mặc áo bờ-lu (blouse) màu xanh dương.",
+      "frequency_rank": 380,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 187,
+    "fields": {
+      "word": "boat",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "travel",
+      "ipa_uk": "boʊt",
+      "ipa_us": "boʊt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái thuyền, tàu nhỏ",
+      "definition_en": "A small vehicle for traveling on water.",
+      "example_en": "We rented a boat for the afternoon.",
+      "example_vi": "Chúng tôi đã thuê một chiếc thuyền vào buổi chiều.",
+      "collocations_json": [
+        "row a boat",
+        "boat trip",
+        "fishing boat"
+      ],
+      "synonyms_json": [
+        "ship",
+        "vessel"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Boat (bốt): Mang đôi giày bốt đi lên thuyền cho khỏi ướt chân.",
+      "frequency_rank": 850,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 188,
+    "fields": {
+      "word": "body",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "health",
+      "ipa_uk": "ˈbɑdi",
+      "ipa_us": "ˈbɑdi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cơ thể, thân thể",
+      "definition_en": "The whole physical structure that forms a person or animal.",
+      "example_en": "Exercise is good for your body.",
+      "example_vi": "Tập thể dục rất tốt cho cơ thể của bạn.",
+      "collocations_json": [
+        "human body",
+        "body language",
+        "whole body"
+      ],
+      "synonyms_json": [
+        "figure",
+        "form"
+      ],
+      "antonyms_json": [
+        "mind",
+        "soul"
+      ],
+      "mnemonic": "Body (bo-đì): Tập gym để có một bo-đì (body) săn chắc.",
+      "frequency_rank": 360,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 189,
+    "fields": {
+      "word": "book",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "bʊk",
+      "ipa_us": "bʊk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quyển sách",
+      "definition_en": "A set of pages that have been fastened together inside a cover to be read or written in.",
+      "example_en": "I am reading a very good book.",
+      "example_vi": "Tôi đang đọc một cuốn sách rất hay.",
+      "collocations_json": [
+        "read a book",
+        "good book",
+        "textbook"
+      ],
+      "synonyms_json": [
+        "volume",
+        "novel"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Book (búc): Búc vé (đặt chỗ) rồi cầm cuốn sách ngồi đọc đợi xe.",
+      "frequency_rank": 190,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 190,
+    "fields": {
+      "word": "boot",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "but",
+      "ipa_us": "but",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đôi ủng, giày bốt",
+      "definition_en": "A type of shoe that covers the whole foot and the lower part of the leg.",
+      "example_en": "He put on his black boots.",
+      "example_vi": "Anh ấy đã mang đôi ủng đen của mình vào.",
+      "collocations_json": [
+        "pair of boots",
+        "winter boots",
+        "cowboy boot"
+      ],
+      "synonyms_json": [
+        "footwear"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Boot (bút): Đôi giày bốt này có họa tiết cây bút rất đẹp.",
+      "frequency_rank": 1500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 191,
+    "fields": {
+      "word": "bored",
+      "part_of_speech": "adjective",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "bɔrd",
+      "ipa_us": "bɔrd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "buồn chán",
+      "definition_en": "Feeling unhappy because something is not interesting or because you have nothing to do.",
+      "example_en": "I am bored with this game.",
+      "example_vi": "Tôi cảm thấy buồn chán với trò chơi này.",
+      "collocations_json": [
+        "feel bored",
+        "get bored",
+        "bored to death"
+      ],
+      "synonyms_json": [
+        "uninterested",
+        "tired"
+      ],
+      "antonyms_json": [
+        "interested",
+        "excited"
+      ],
+      "mnemonic": "Bored (bo): Cảm thấy bo (bò) ra bàn vì buồn chán.",
+      "frequency_rank": 1700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 192,
+    "fields": {
+      "word": "boring",
+      "part_of_speech": "adjective",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "ˈbɔrɪŋ",
+      "ipa_us": "ˈbɔrɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhàm chán, tẻ nhạt",
+      "definition_en": "Not interesting or exciting.",
+      "example_en": "That was a very boring movie.",
+      "example_vi": "Đó là một bộ phim rất nhàm chán.",
+      "collocations_json": [
+        "boring movie",
+        "boring class",
+        "really boring"
+      ],
+      "synonyms_json": [
+        "dull",
+        "uninteresting"
+      ],
+      "antonyms_json": [
+        "exciting",
+        "interesting"
+      ],
+      "mnemonic": "Boring (bo-ring): Bộ phim nhàm chán đến mức nghe tiếng chuông (ring) cũng không tỉnh.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 193,
+    "fields": {
+      "word": "born",
+      "part_of_speech": "verb",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "bɔrn",
+      "ipa_us": "bɔrn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "được sinh ra",
+      "definition_en": "Existing as a result of birth.",
+      "example_en": "I was born in New York.",
+      "example_vi": "Tôi được sinh ra ở New York.",
+      "collocations_json": [
+        "be born",
+        "newly born",
+        "born in 1990"
+      ],
+      "synonyms_json": [
+        "created"
+      ],
+      "antonyms_json": [
+        "died"
+      ],
+      "mnemonic": "Born (bon): Bon bon trên đường từ khi mới sinh ra.",
+      "frequency_rank": 400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 194,
+    "fields": {
+      "word": "both",
+      "part_of_speech": "other",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "boʊθ",
+      "ipa_us": "boʊθ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cả hai",
+      "definition_en": "Two people or things together.",
+      "example_en": "Both of my sisters are teachers.",
+      "example_vi": "Cả hai chị em gái của tôi đều là giáo viên.",
+      "collocations_json": [
+        "both of us",
+        "both sides",
+        "we both"
+      ],
+      "synonyms_json": [
+        "the two"
+      ],
+      "antonyms_json": [
+        "neither",
+        "none"
+      ],
+      "mnemonic": "Both (bâu): Bâu xâu vào nhau cả hai đứa cùng bị phạt.",
+      "frequency_rank": 210,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 195,
+    "fields": {
+      "word": "bottle",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "ˈbɑtəl",
+      "ipa_us": "ˈbɑtəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái chai, bình",
+      "definition_en": "A container for liquids, usually made of glass or plastic, with a narrow neck.",
+      "example_en": "Can I have a bottle of water?",
+      "example_vi": "Cho tôi một chai nước được không?",
+      "collocations_json": [
+        "bottle of water",
+        "glass bottle",
+        "plastic bottle"
+      ],
+      "synonyms_json": [
+        "container",
+        "flask"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bottle (bo-tồ): Uống nước trong bình bo-tồ bằng nhựa rất tiện lợi.",
+      "frequency_rank": 820,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 196,
+    "fields": {
+      "word": "box",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "bɑks",
+      "ipa_us": "bɑks",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái hộp, thùng",
+      "definition_en": "A square or rectangular container with stiff sides and sometimes a lid.",
+      "example_en": "There is a gift in the box.",
+      "example_vi": "Có một món quà trong chiếc hộp.",
+      "collocations_json": [
+        "cardboard box",
+        "gift box",
+        "in the box"
+      ],
+      "synonyms_json": [
+        "carton",
+        "case"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Box (bóc): Bóc vỏ cái hộp để xem bên trong có gì.",
+      "frequency_rank": 610,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 197,
+    "fields": {
+      "word": "boy",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "bɔɪ",
+      "ipa_us": "bɔɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cậu bé, con trai",
+      "definition_en": "A male child or young man.",
+      "example_en": "The little boy is playing in the park.",
+      "example_vi": "Cậu bé đang chơi trong công viên.",
+      "collocations_json": [
+        "little boy",
+        "good boy",
+        "teenage boy"
+      ],
+      "synonyms_json": [
+        "lad",
+        "guy"
+      ],
+      "antonyms_json": [
+        "girl",
+        "woman"
+      ],
+      "mnemonic": "Boy (boi): Thằng con trai thích đi bơi (boi).",
+      "frequency_rank": 260,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 198,
+    "fields": {
+      "word": "boyfriend",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "everyday",
+      "ipa_uk": "ˈbɔɪˌfrɛnd",
+      "ipa_us": "ˈbɔɪˌfrɛnd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bạn trai",
+      "definition_en": "A man or boy that a person is having a romantic or sexual relationship with.",
+      "example_en": "She went to the movies with her boyfriend.",
+      "example_vi": "Cô ấy đã đi xem phim với bạn trai của mình.",
+      "collocations_json": [
+        "ex-boyfriend",
+        "new boyfriend",
+        "my boyfriend"
+      ],
+      "synonyms_json": [
+        "partner",
+        "lover"
+      ],
+      "antonyms_json": [
+        "girlfriend"
+      ],
+      "mnemonic": "Boyfriend = Boy (con trai) + friend (bạn) -> Bạn trai.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 199,
+    "fields": {
+      "word": "bread",
+      "part_of_speech": "noun",
+      "cefr_level": "A1",
+      "domain": "vegetables",
+      "ipa_uk": "brɛd",
+      "ipa_us": "brɛd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bánh mì",
+      "definition_en": "A food made from flour, water, and usually yeast, mixed together and baked.",
+      "example_en": "I like to eat bread with butter.",
+      "example_vi": "Tôi thích ăn bánh mì với bơ.",
+      "collocations_json": [
+        "slice of bread",
+        "bake bread",
+        "white bread"
+      ],
+      "synonyms_json": [
+        "loaf"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bread (bờ-rét): Bánh mì mới ra lò ăn cho đỡ rét.",
+      "frequency_rank": 950,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 200,
+    "fields": {
+      "word": "break",
+      "part_of_speech": "verb",
+      "cefr_level": "A1",
+      "domain": "general",
+      "ipa_uk": "breɪk",
+      "ipa_us": "breɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "làm vỡ, đập vỡ",
+      "definition_en": "To separate into two or more pieces, or to make something do this.",
+      "example_en": "Don't drop the glass, it will break.",
+      "example_vi": "Đừng làm rơi cái ly, nó sẽ bị vỡ.",
+      "collocations_json": [
+        "break a window",
+        "take a break",
+        "break the rules"
+      ],
+      "synonyms_json": [
+        "smash",
+        "shatter"
+      ],
+      "antonyms_json": [
+        "fix",
+        "repair"
+      ],
+      "mnemonic": "Break (bờ-rếch): Vấp một cái là rơi đồ vỡ tan tành.",
+      "frequency_rank": 310,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": true,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

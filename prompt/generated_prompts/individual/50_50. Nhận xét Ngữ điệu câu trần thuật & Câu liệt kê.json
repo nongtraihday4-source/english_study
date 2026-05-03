@@ -1,0 +1,267 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I like coffee, tea, and juice.\' Văn bản Whisper nhận được: \'I like coffee, tea, and juice.\' (đọc xuống giọng ở mỗi từ: coffee, tea, juice)",
+    "output": "✅ **Corrected Intonation:** I like ↗coffee, ↗tea, and ↘juice.\n🔍 **Error Identification:** Trong câu liệt kê, cần lên giọng ở các từ trước 'and' (coffee, tea) và xuống giọng ở từ cuối cùng (juice). Học viên đọc xuống giọng ở tất cả các từ.\n📘 **Vietnamese Explanation:** Người Việt thường có xu hướng đọc xuống giọng ở cuối mỗi từ khi liệt kê vì ảnh hưởng từ tiếng Việt. Mẹo: Hãy tưởng tượng bạn đang leo cầu thang – lên giọng ở các bậc trước, xuống giọng ở bậc cuối.\n💡 **Luyện tập:** \'I bought ↗apples, ↗bananas, and ↘oranges.\' / \'She likes ↗singing, ↗dancing, and ↘reading.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is tall, dark, and handsome.\' Văn bản Whisper nhận được: \'He is tall, dark, and handsome.\' (đọc bằng phẳng, không lên xuống)",
+    "output": "✅ **Corrected Intonation:** He is ↗tall, ↗dark, and ↘handsome.\n🔍 **Error Identification:** Không có sự thay đổi ngữ điệu giữa các thành phần liệt kê – đọc đều như nhau.\n📘 **Vietnamese Explanation:** Tiếng Anh cần sự lên xuống để tạo nhịp điệu và nhấn mạnh. Mẹo: Lên giọng ở các tính từ đầu, xuống giọng ở tính từ cuối cùng sau 'and'.\n💡 **Luyện tập:** \'The car is ↗fast, ↗reliable, and ↘affordable.\' / \'She is ↗kind, ↗intelligent, and ↘beautiful.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I went to the store, bought some milk, and came home.\' Văn bản Whisper nhận được: \'I went to the store, bought some milk, and came home.\' (lên giọng ở cuối mỗi cụm từ)",
+    "output": "✅ **Corrected Intonation:** I went to the ↗store, ↗bought some milk, and ↘came home.\n🔍 **Error Identification:** Lên giọng ở cụm 'came home' là sai – phải xuống giọng ở cụm cuối cùng.\n📘 **Vietnamese Explanation:** Trong câu liệt kê hành động, hành động cuối cùng báo hiệu kết thúc câu, do đó cần xuống giọng. Mẹo: Hãy nghĩ 'and' như một cái cầu nối – những gì trước 'and' lên giọng, sau 'and' xuống giọng.\n💡 **Luyện tập:** \'She ↗woke up, ↗got dressed, and ↘left for work.\' / \'We ↗ate dinner, ↗watched a movie, and ↘went to bed.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The colors are red, blue, and green.\' Văn bản Whisper nhận được: \'The colors are red, blue, and green.\' (xuống giọng ở 'red', lên giọng ở 'blue', xuống giọng ở 'green')",
+    "output": "✅ **Corrected Intonation:** The colors are ↗red, ↗blue, and ↘green.\n🔍 **Error Identification:** Đọc lên giọng ở 'blue' (sai vị trí) – chỉ được lên giờng ở các từ trước 'and', trừ từ cuối.\n📘 **Vietnamese Explanation:** Quy tắc: tất cả các từ/cụm trước 'and' đều lên giọng, từ/cụm sau 'and' cuối cùng xuống giọng. Mẹo: 'red' lên, 'blue' lên, 'green' xuống.\n💡 **Luyện tập:** \'The fruits are ↗apples, ↗pears, and ↘grapes.\' / \'His hobbies are ↗reading, ↗writing, and ↘painting.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She can swim, run, and jump.\' Văn bản Whisper nhận được: \'She can swim, run, and jump.\' (đọc tất cả với giọng trầm, đều)",
+    "output": "✅ **Corrected Intonation:** She can ↗swim, ↗run, and ↘jump.\n🔍 **Error Identification:** Thiếu sự lên giọng ở các động từ đầu, đọc đều như nhau.\n📘 **Vietnamese Explanation:** Người Việt thường ngại lên giọng vì sợ sai. Mẹo: Luyện tập lên giọng một cách tự nhiên ở các từ đầu, xuống giọng ở từ cuối.\n💡 **Luyện tập:** \'He can ↗speak, ↗listen, and ↘understand.\' / \'We can ↗work, ↗play, and ↘rest.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I need to buy bread, butter, and cheese.\' Văn bản Whisper nhận được: \'I need to buy bread, butter, and cheese.\' (lên giọng ở cả ba từ)",
+    "output": "✅ **Corrected Intonation:** I need to buy ↗bread, ↗butter, and ↘cheese.\n🔍 **Error Identification:** Lên giọng ở từ cuối 'cheese' là sai.\n📘 **Vietnamese Explanation:** Kết thúc câu liệt kê cần xuống giọng để báo hiệu câu đã kết thúc. Mẹo: Tưởng tượng dấu chấm cuối câu là nơi bạn xuống giọng.\n💡 **Luyện tập:** \'She bought ↗flowers, ↗candles, and ↘gifts.\' / \'They visited ↗museums, ↗parks, and ↘restaurants.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The movie was exciting, funny, and touching.\' Văn bản Whisper nhận được: \'The movie was exciting, funny, and touching.\' (đọc xuống giọng ở 'exciting', lên giọng ở 'funny', xuống giọng ở 'touching')",
+    "output": "✅ **Corrected Intonation:** The movie was ↗exciting, ↗funny, and ↘touching.\n🔍 **Error Identification:** Lên giọng ở 'funny' là đúng nhưng 'exciting' lẽ ra phải lên giọng, không phải xuống. Học viên đọc không nhất quán.\n📘 **Vietnamese Explanation:** Hãy giữ nguyên tắc: lên giọng ở tất cả trừ từ cuối. Luyện tập từ đầu đến cuối.\n💡 **Luyện tập:** \'The play was ↗intense, ↗emotional, and ↘powerful.\' / \'The food was ↗spicy, ↗savory, and ↘delicious.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I like to read, write, and draw.\' Văn bản Whisper nhận được: \'I like to read, write, and draw.\' (đọc với ngữ điệu câu hỏi lên giọng cuối câu)",
+    "output": "✅ **Corrected Intonation:** I like to ↗read, ↗write, and ↘draw.\n🔍 **Error Identification:** Câu trần thuật phải xuống giọng cuối câu, nhưng học viên lại lên giọng như câu hỏi.\n📘 **Vietnamese Explanation:** Nhầm lẫn ngữ điệu giữa câu trần thuật và câu hỏi. Mẹo: Câu liệt kê kể cả có 'and' vẫn là câu trần thuật → xuống giọng cuối.\n💡 **Luyện tập:** \'I want to ↗travel, ↗learn, and ↘grow.\' / \'She hopes to ↗sing, ↗dance, and ↘act.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is honest, hardworking, and reliable.\' Văn bản Whisper nhận được: \'He is honest, hardworking, and reliable.\' (đọc nhanh, dồn, không rõ ngữ điệu)",
+    "output": "✅ **Corrected Intonation:** He is ↗honest, ↗hardworking, and ↘reliable.\n🔍 **Error Identification:** Phát âm quá nhanh, không có khoảng dừng và lên xuống giọng.\n📘 **Vietnamese Explanation:** Cần có nhịp điệu. Mẹo: Hãy đọc chậm lại, nhấn giọng ở mỗi từ trước 'and', và hạ giọng ở từ cuối.\n💡 **Luyện tập:** \'She is ↗smart, ↗creative, and ↘funny.\' / \'They are ↗friendly, ↗helpful, and ↘kind.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I have a dog, a cat, and a bird.\' Văn bản Whisper nhận được: \'I have a dog, a cat, and a bird.\' (lên giọng ở 'cat', xuống giọng ở 'bird' nhưng 'dog' lại xuống)",
+    "output": "✅ **Corrected Intonation:** I have a ↗dog, a ↗cat, and a ↘bird.\n🔍 **Error Identification:** 'dog' phải lên giọng, nhưng học viên lại xuống.\n📘 **Vietnamese Explanation:** Hãy nhớ: tất cả các vật phẩm trước 'and' đều lên giọng, không có ngoại lệ. Mẹo: Đặt ngón tay lên cổ họng – khi lên giọng bạn sẽ cảm thấy căng cơ.\n💡 **Luyện tập:** \'I see a ↗tree, a ↗flower, and a ↘bench.\' / \'He owns a ↗car, a ↗boat, and a ↘bike.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The room was messy, dirty, and smelly.\' Văn bản Whisper nhận được: \'The room was messy, dirty, and smelly.\' (đọc giọng đều, không lên xuống)",
+    "output": "✅ **Corrected Intonation:** The room was ↗messy, ↗dirty, and ↘smelly.\n🔍 **Error Identification:** Thiếu lên giọng ở 'messy' và 'dirty'.\n📘 **Vietnamese Explanation:** Ngữ điệu làm cho câu nói sinh động hơn. Mẹo: Hãy tưởng tượng bạn đang liệt kê để ai đó hình dung rõ từng đặc điểm.\n💡 **Luyện tập:** \'The weather was ↗cold, ↗windy, and ↘wet.\' / \'His attitude was ↗rude, ↗arrogant, and ↘unpleasant.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She packed her bags, locked the door, and left.\' Văn bản Whisper nhận được: \'She packed her bags, locked the door, and left.\' (lên giọng ở 'bags', 'door', và 'left')",
+    "output": "✅ **Corrected Intonation:** She packed her ↗bags, ↗locked the door, and ↘left.\n🔍 **Error Identification:** Lên giọng ở 'left' là sai.\n📘 **Vietnamese Explanation:** Hành động cuối cùng bao giờ cũng xuống giọng. Mẹo: Hãy nghĩ 'left' là kết thúc câu chuyện, do đó giọng hạ xuống.\n💡 **Luyện tập:** \'He ↗opened the window, ↗took a deep breath, and ↘jumped.\' / \'We ↗planned the trip, ↗booked the hotel, and ↘enjoyed our vacation.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The kids were laughing, shouting, and playing.\' Văn bản Whisper nhận được: \'The kids were laughing, shouting, and playing.\' (đọc ngắt quãng, mỗi từ một nhịp, không nối)",
+    "output": "✅ **Corrected Intonation:** The kids were ↗laughing, ↗shouting, and ↘playing.\n🔍 **Error Identification:** Ngắt quãng giữa các từ làm mất tính liên tục của câu.\n📘 **Vietnamese Explanation:** Cần nối các từ bằng ngữ điệu lên xuống chứ không ngắt hẳn. Mẹo: Lên giọng ở 'laughing', giữ nguyên độ cao rồi lên tiếp ở 'shouting', sau đó xuống giọng ở 'playing'.\n💡 **Luyện tập:** \'The birds were ↗singing, ↗flying, and ↘nesting.\' / \'The workers were ↗digging, ↗carrying, and ↘building.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'My hobbies include swimming, hiking, and cooking.\' Văn bản Whisper nhận được: \'My hobbies include swimming, hiking, and cooking.\' (xuống giọng ở 'swimming', lên giọng ở 'hiking', xuống giọng ở 'cooking')",
+    "output": "✅ **Corrected Intonation:** My hobbies include ↗swimming, ↗hiking, and ↘cooking.\n🔍 **Error Identification:** 'swimming' phải lên giọng, không phải xuống.\n📘 **Vietnamese Explanation:** Mọi thành phần trước 'and' đều lên giọng. Hãy bắt đầu bằng giọng cao ở 'swimming'.\n💡 **Luyện tập:** \'His talents include ↗drawing, ↗sculpting, and ↘photography.\' / \'Her skills include ↗writing, ↗editing, and ↘proofreading.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'We visited Paris, Rome, and London.\' Văn bản Whisper nhận được: \'We visited Paris, Rome, and London.\' (đọc lên giọng ở 'Paris', xuống giọng ở 'Rome', lên giọng ở 'London')",
+    "output": "✅ **Corrected Intonation:** We visited ↗Paris, ↗Rome, and ↘London.\n🔍 **Error Identification:** 'Rome' lẽ ra phải lên giọng, 'London' phải xuống giọng – học viên làm ngược lại.\n📘 **Vietnamese Explanation:** Quy tắc rất đơn giản: lên, lên, xuống. Hãy tập đọc theo đúng thứ tự.\n💡 **Luyện tập:** \'They explored ↗Berlin, ↗Vienna, and ↘Prague.\' / \'We saw ↗Tokyo, ↗Kyoto, and ↘Osaka.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The book is interesting, informative, and well-written.\' Văn bản Whisper nhận được: \'The book is interesting, informative, and well-written.\' (đọc giọng đều, phẳng lặng)",
+    "output": "✅ **Corrected Intonation:** The book is ↗interesting, ↗informative, and ↘well-written.\n🔍 **Error Identification:** Không có sự lên xuống giọng.\n📘 **Vietnamese Explanation:** Giọng đều làm câu nói nhàm chán. Mẹo: Hãy tạo sự tương phản: cao – cao – thấp.\n💡 **Luyện tập:** \'The speech was ↗powerful, ↗moving, and ↘memorable.\' / \'The design is ↗simple, ↗elegant, and ↘functional.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I need eggs, milk, and bread.\' Văn bản Whisper nhận được: \'I need eggs, milk, and bread.\' (lên giọng ở 'eggs' và 'bread', xuống giọng ở 'milk')",
+    "output": "✅ **Corrected Intonation:** I need ↗eggs, ↗milk, and ↘bread.\n🔍 **Error Identification:** Lên giọng ở 'bread' (sai) và xuống giọng ở 'milk' (sai).\n📘 **Vietnamese Explanation:** Hãy nhớ thứ tự: 'eggs' (lên), 'milk' (lên), 'bread' (xuống). Luyện từng bước.\n💡 **Luyện tập:** \'She bought ↗flour, ↗sugar, and ↘butter.\' / \'He grabbed ↗a pen, ↗a notebook, and ↘a backpack.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The students were noisy, disruptive, and rude.\' Văn bản Whisper nhận được: \'The students were noisy, disruptive, and rude.\' (đọc từng từ rời rạc, không liền mạch)",
+    "output": "✅ **Corrected Intonation:** The students were ↗noisy, ↗disruptive, and ↘rude.\n🔍 **Error Identification:** Các từ bị tách rời quá mức, không có sự nối kết ngữ điệu.\n📘 **Vietnamese Explanation:** Ngữ điệu không chỉ là lên xuống mà còn là sự liên tục. Mẹo: Đọc liền mạch, chỉ dừng nhẹ ở dấu phẩy.\n💡 **Luyện tập:** \'The workers were ↗tired, ↗hungry, and ↘thirsty.\' / \'The team was ↗determined, ↗focused, and ↘victorious.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The restaurant serves pizza, pasta, and salad.\' Văn bản Whisper nhận được: \'The restaurant serves pizza, pasta, and salad.\' (lên giọng ở 'pizza', xuống giọng ở 'pasta', lên giọng ở 'salad')",
+    "output": "✅ **Corrected Intonation:** The restaurant serves ↗pizza, ↗pasta, and ↘salad.\n🔍 **Error Identification:** 'pasta' phải lên, 'salad' phải xuống – học viên làm sai.\n📘 **Vietnamese Explanation:** Lỗi này rất phổ biến. Hãy tập trung vào quy tắc 'lên – lên – xuống'.\n💡 **Luyện tập:** \'The cafe offers ↗coffee, ↗tea, and ↘cake.\' / \'The store sells ↗shirts, ↗pants, and ↘shoes.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm learning to speak, listen, and write in English.\' Văn bản Whisper nhận được: \'I'm learning to speak, listen, and write in English.\' (đọc xuống giọng ở cả ba động từ)",
+    "output": "✅ **Corrected Intonation:** I'm learning to ↗speak, ↗listen, and ↘write in English.\n🔍 **Error Identification:** Không lên giọng ở 'speak' và 'listen'.\n📘 **Vietnamese Explanation:** Khi liệt kê các kỹ năng, hãy nhấn mạnh từng kỹ năng bằng cách lên giọng, trừ kỹ năng cuối.\n💡 **Luyện tập:** \'He needs to ↗study, ↗practice, and ↘improve.\' / \'She wants to ↗travel, ↗explore, and ↘discover.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The movie had great acting, a good plot, and amazing effects.\' Văn bản Whisper nhận được: \'The movie had great acting, a good plot, and amazing effects.\' (lên giọng ở 'acting', xuống giọng ở 'plot', lên giọng ở 'effects')",
+    "output": "✅ **Corrected Intonation:** The movie had ↗great acting, ↗a good plot, and ↘amazing effects.\n🔍 **Error Identification:** 'plot' phải lên giọng, 'effects' phải xuống giọng – sai thứ tự.\n📘 **Vietnamese Explanation:** Dù cụm từ dài hay ngắn, nguyên tắc vẫn giữ nguyên: các cụm trước 'and' lên giọng, cụm cuối xuống giọng.\n💡 **Luyện tập:** \'The play had ↗strong characters, ↗a clever script, and ↘beautiful sets.\' / \'The song has ↗a catchy melody, ↗meaningful lyrics, and ↘great vocals.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is friendly, kind, and generous.\' Văn bản Whisper nhận được: \'She is friendly, kind, and generous.\' (lên giọng ở 'friendly', 'kind', 'generous' – tất cả đều lên)",
+    "output": "✅ **Corrected Intonation:** She is ↗friendly, ↗kind, and ↘generous.\n🔍 **Error Identification:** 'generous' cuối cùng phải xuống giọng.\n📘 **Vietnamese Explanation:** Câu trần thuật không thể kết thúc bằng giọng lên (trừ câu hỏi). Mẹo: Kết thúc câu bằng giọng xuống tạo cảm giác dứt khoát.\n💡 **Luyện tập:** \'He is ↗smart, ↗funny, and ↘handsome.\' / \'They are ↗brave, ↗loyal, and ↘honest.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I called my mom, dad, and sister.\' Văn bản Whisper nhận được: \'I called my mom, dad, and sister.\' (đọc đều giọng, không nhấn)",
+    "output": "✅ **Corrected Intonation:** I called my ↗mom, ↗dad, and ↘sister.\n🔍 **Error Identification:** Thiếu sự nhấn nhá, không phân biệt được đâu là thành phần liệt kê.\n📘 **Vietnamese Explanation:** Ngữ điệu giúp người nghe hiểu bạn đang liệt kê. Mẹo: Hãy lên giọng rõ ràng ở các thành phần trước, hạ giọng ở thành phần cuối.\n💡 **Luyện tập:** \'He invited ↗Tom, ↗Jerry, and ↘Spike.\' / \'She thanked ↗her teacher, ↗her parents, and ↘her friends.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The house has three bedrooms, two bathrooms, and a large garden.\' Văn bản Whisper nhận được: \'The house has three bedrooms, two bathrooms, and a large garden.\' (lên giọng ở 'bedrooms', xuống giọng ở 'bathrooms', lên giọng ở 'garden')",
+    "output": "✅ **Corrected Intonation:** The house has ↗three bedrooms, ↗two bathrooms, and ↘a large garden.\n🔍 **Error Identification:** 'bathrooms' phải lên, 'garden' phải xuống.\n📘 **Vietnamese Explanation:** Không quan trọng số lượng từ trong cụm, chỉ cần lên giọng ở toàn bộ cụm trước 'and'.\n💡 **Luyện tập:** \'The apartment has ↗a living room, ↗a kitchen, and ↘a balcony.\' / \'The office has ↗a desk, ↗a chair, and ↘a computer.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He can play the guitar, the piano, and the drums.\' Văn bản Whisper nhận được: \'He can play the guitar, the piano, and the drums.\' (đọc nhanh, không rõ ngữ điệu, cuối câu lên giọng)",
+    "output": "✅ **Corrected Intonation:** He can play ↗the guitar, ↗the piano, and ↘the drums.\n🔍 **Error Identification:** Cuối câu lên giọng thay vì xuống giọng.\n📘 **Vietnamese Explanation:** Đây là câu trần thuật, không phải câu hỏi. Hãy chắc chắn rằng bạn xuống giọng ở từ cuối cùng.\n💡 **Luyện tập:** \'She can play ↗violin, ↗cello, and ↘flute.\' / \'They can play ↗soccer, ↗basketball, and ↘tennis.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The meal was delicious, nutritious, and cheap.\' Văn bản Whisper nhận được: \'The meal was delicious, nutritious, and cheap.\' (lên giọng ở 'delicious', xuống giọng ở 'nutritious', xuống giọng ở 'cheap')",
+    "output": "✅ **Corrected Intonation:** The meal was ↗delicious, ↗nutritious, and ↘cheap.\n🔍 **Error Identification:** 'nutritious' phải lên giọng, không phải xuống.\n📘 **Vietnamese Explanation:** Đừng bỏ cuộc giữa chừng. Hãy duy trì giọng lên đến hết các thành phần trước 'and'.\n💡 **Luyện tập:** \'The coffee was ↗hot, ↗strong, and ↘bitter.\' / \'The service was ↗fast, ↗friendly, and ↘efficient.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I need to finish this report, send it to my boss, and go home.\' Văn bản Whisper nhận được: \'I need to finish this report, send it to my boss, and go home.\' (đọc bằng giọng trầm, không lên giọng ở đâu)",
+    "output": "✅ **Corrected Intonation:** I need to ↗finish this report, ↗send it to my boss, and ↘go home.\n🔍 **Error Identification:** Không có lên giọng, câu nói rất đơn điệu.\n📘 **Vietnamese Explanation:** Lên giọng tạo sự hứng khởi và giúp người nghe theo dõi từng bước. Mẹo: Hãy nghĩ bạn đang đếm: một (lên), hai (lên), ba (xuống).\n💡 **Luyện tập:** \'She needs to ↗buy groceries, ↗cook dinner, and ↘set the table.\' / \'He wants to ↗save money, ↗book a flight, and ↘travel abroad.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a doctor, a wife, and a mother.\' Văn bản Whisper nhận được: \'She is a doctor, a wife, and a mother.\' (lên giọng ở 'doctor', lên giọng ở 'wife', lên giọng ở 'mother')",
+    "output": "✅ **Corrected Intonation:** She is a ↗doctor, a ↗wife, and a ↘mother.\n🔍 **Error Identification:** Lên giọng ở 'mother' là sai.\n📘 **Vietnamese Explanation:** 'mother' là từ cuối, phải xuống giọng. Mẹo: Hãy tập nói 'doctor' (cao), 'wife' (cao hơn một chút), 'mother' (thấp).\n💡 **Luyện tập:** \'He is a ↗teacher, a ↗coach, and a ↘father.\' / \'She is a ↗singer, a ↗dancer, and ↘an actress.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The team worked hard, stayed focused, and won the championship.\' Văn bản Whisper nhận được: \'The team worked hard, stayed focused, and won the championship.\' (lên giọng ở 'hard', xuống giọng ở 'focused', lên giọng ở 'championship')",
+    "output": "✅ **Corrected Intonation:** The team ↗worked hard, ↗stayed focused, and ↘won the championship.\n🔍 **Error Identification:** 'focused' phải lên, 'championship' phải xuống.\n📘 **Vietnamese Explanation:** Hãy giữ giọng lên đến hết 'focused', sau đó xuống ở 'championship'.\n💡 **Luyện tập:** \'The students ↗studied hard, ↗took the exam, and ↘passed.\' / \'The chef ↗prepared the ingredients, ↗cooked the meal, and ↘served it.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I like summer, autumn, and winter.\' Văn bản Whisper nhận được: \'I like summer, autumn, and winter.\' (đọc ngắt sau mỗi từ, cuối câu xuống giọng nhưng các từ trước cũng xuống)",
+    "output": "✅ **Corrected Intonation:** I like ↗summer, ↗autumn, and ↘winter.\n🔍 **Error Identification:** 'summer' và 'autumn' phải lên giọng, nhưng học viên lại xuống.\n📘 **Vietnamese Explanation:** Lên giọng ở các mùa đầu tiên để tạo sự mong chờ, sau đó hạ giọng ở mùa cuối. Mẹo: Hãy tưởng tượng bạn đang giới thiệu các mùa yêu thích.\n💡 **Luyện tập:** \'He likes ↗spring, ↗fall, and ↘winter.\' / \'She dislikes ↗rain, ↗wind, and ↘snow.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is tall, dark, and handsome.\' Văn bản Whisper nhận được: \'He is tall, dark, and handsome.\' (đọc tất cả đều với giọng trầm, không lên xuống)",
+    "output": "✅ **Corrected Intonation:** He is ↗tall, ↗dark, and ↘handsome.\n🔍 **Error Identification:** Không có sự thay đổi ngữ điệu.\n📘 **Vietnamese Explanation:** Đây là một trong những câu liệt kê kinh điển. Hãy tập đúng ngữ điệu để tạo ấn tượng.\n💡 **Luyện tập:** \'She is ↗smart, ↗funny, and ↘charming.\' / \'The car is ↗fast, ↗sleek, and ↘expensive.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The children were playing, laughing, and shouting.\' Văn bản Whisper nhận được: \'The children were playing, laughing, and shouting.\' (lên giọng ở 'playing', xuống giọng ở 'laughing', xuống giọng ở 'shouting')",
+    "output": "✅ **Corrected Intonation:** The children were ↗playing, ↗laughing, and ↘shouting.\n🔍 **Error Identification:** 'laughing' phải lên giọng, 'shouting' xuống giọng.\n📘 **Vietnamese Explanation:** Chỉ có từ cuối cùng xuống giọng, tất cả các từ trước đều lên. Hãy nhớ: 'playing' (lên), 'laughing' (lên), 'shouting' (xuống).\n💡 **Luyện tập:** \'The adults were ↗talking, ↗eating, and ↘drinking.\' / \'The dogs were ↗barking, ↗running, and ↘jumping.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I visited Hanoi, Ho Chi Minh City, and Da Nang.\' Văn bản Whisper nhận được: \'I visited Hanoi, Ho Chi Minh City, and Da Nang.\' (đọc với giọng như nhau, không nhấn)",
+    "output": "✅ **Corrected Intonation:** I visited ↗Hanoi, ↗Ho Chi Minh City, and ↘Da Nang.\n🔍 **Error Identification:** Thiếu lên giọng ở 'Hanoi' và 'Ho Chi Minh City'.\n📘 **Vietnamese Explanation:** Ngay cả với tên địa danh dài, vẫn phải lên giọng. Mẹo: Tập trung vào âm tiết cuối của mỗi tên để lên giọng.\n💡 **Luyện tập:** \'She traveled to ↗New York, ↗Los Angeles, and ↘Chicago.\' / \'They flew to ↗London, ↗Paris, and ↘Berlin.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I need to study, work, and rest.\' Văn bản Whisper nhận được: \'I need to study, work, and rest.\' (lên giọng ở 'study', xuống giọng ở 'work', lên giọng ở 'rest')",
+    "output": "✅ **Corrected Intonation:** I need to ↗study, ↗work, and ↘rest.\n🔍 **Error Identification:** 'work' phải lên, 'rest' phải xuống.\n📘 **Vietnamese Explanation:** Hãy tưởng tượng bạn đang đọc một bản danh sách: mục 1 (lên), mục 2 (lên), mục cuối (xuống).\n💡 **Luyện tập:** \'She wants to ↗eat, ↗sleep, and ↘repeat.\' / \'He plans to ↗save, ↗invest, and ↘retire.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The bag is red, blue, and green.\' Văn bản Whisper nhận được: \'The bag is red, blue, and green.\' (đọc giọng đều, không lên xuống, cuối câu lên giọng)",
+    "output": "✅ **Corrected Intonation:** The bag is ↗red, ↗blue, and ↘green.\n🔍 **Error Identification:** Cuối câu lên giọng thay vì xuống giọng.\n📘 **Vietnamese Explanation:** Đây là câu trần thuật, không phải câu hỏi. Hãy tập trung vào việc hạ giọng ở 'green'.\n💡 **Luyện tập:** \'The shirt is ↗white, ↗black, and ↘gray.\' / \'The car is ↗silver, ↗gold, and ↘bronze.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She enjoys swimming, hiking, and biking.\' Văn bản Whisper nhận được: \'She enjoys swimming, hiking, and biking.\' (lên giọng ở 'swimming', xuống giọng ở 'hiking', xuống giọng ở 'biking')",
+    "output": "✅ **Corrected Intonation:** She enjoys ↗swimming, ↗hiking, and ↘biking.\n🔍 **Error Identification:** 'hiking' phải lên giọng.\n📘 **Vietnamese Explanation:** Lên giọng ở 'hiking' giúp người nghe biết vẫn còn hoạt động tiếp theo. Xuống giọng ở 'biking' báo hiệu kết thúc.\n💡 **Luyện tập:** \'He loves ↗reading, ↗writing, and ↘drawing.\' / \'They like ↗cooking, ↗baking, and ↘eating.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The company needs to innovate, adapt, and grow.\' Văn bản Whisper nhận được: \'The company needs to innovate, adapt, and grow.\' (đọc ngắt quãng, không rõ ngữ điệu)",
+    "output": "✅ **Corrected Intonation:** The company needs to ↗innovate, ↗adapt, and ↘grow.\n🔍 **Error Identification:** Các từ bị tách rời, không có sự kết nối ngữ điệu.\n📘 **Vietnamese Explanation:** Hãy đọc liền mạch, lên giọng nhẹ ở 'innovate', giữ độ cao rồi lên tiếp ở 'adapt', sau đó xuống giọng ở 'grow'.\n💡 **Luyện tập:** \'The team must ↗collaborate, ↗communicate, and ↘succeed.\' / \'He needs to ↗learn, ↗practice, and ↘master.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The flowers are roses, tulips, and daisies.\' Văn bản Whisper nhận được: \'The flowers are roses, tulips, and daisies.\' (lên giọng ở 'roses', lên giọng ở 'tulips', lên giọng ở 'daisies')",
+    "output": "✅ **Corrected Intonation:** The flowers are ↗roses, ↗tulips, and ↘daisies.\n🔍 **Error Identification:** 'daisies' phải xuống giọng, không phải lên.\n📘 **Vietnamese Explanation:** Kết thúc danh sách bằng giọng xuống giúp câu nói dứt khoát. Mẹo: Hãy tưởng tượng bạn đặt dấu chấm cuối câu.\n💡 **Luyện tập:** \'The trees are ↗oaks, ↗pines, and ↘maples.\' / \'The fruits are ↗apples, ↗pears, and ↘plums.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The book is long, boring, and difficult.\' Văn bản Whisper nhận được: \'The book is long, boring, and difficult.\' (đọc với giọng trầm, không nhấn, cuối câu xuống giọng nhưng các từ trước cũng xuống)",
+    "output": "✅ **Corrected Intonation:** The book is ↗long, ↗boring, and ↘difficult.\n🔍 **Error Identification:** 'long' và 'boring' phải lên giọng, không phải xuống.\n📘 **Vietnamese Explanation:** Lên giọng ở các tính từ đầu để nhấn mạnh cảm xúc, sau đó xuống giọng ở tính từ cuối để kết thúc.\n💡 **Luyện tập:** \'The movie was ↗slow, ↗confusing, and ↘disappointing.\' / \'The test was ↗hard, ↗long, and ↘tiring.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I have a meeting at 9, a lunch at 12, and a presentation at 3.\' Văn bản Whisper nhận được: \'I have a meeting at 9, a lunch at 12, and a presentation at 3.\' (lên giọng ở '9', xuống giọng ở '12', lên giọng ở '3')",
+    "output": "✅ **Corrected Intonation:** I have a meeting at ↗9, a lunch at ↗12, and a presentation at ↘3.\n🔍 **Error Identification:** '12' phải lên, '3' phải xuống.\n📘 **Vietnamese Explanation:** Thời gian cũng tuân theo quy tắc liệt kê. Hãy lên giọng ở giờ đầu và giữa, xuống giọng ở giờ cuối.\n💡 **Luyện tập:** \'She has a ↗flight at 8, ↗a layover at 10, and ↘a landing at 12.\' / \'He has a ↗call at 2, ↗a meeting at 3, and ↘a deadline at 5.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The students are young, energetic, and eager to learn.\' Văn bản Whisper nhận được: \'The students are young, energetic, and eager to learn.\' (đọc đều, không lên xuống, cuối câu xuống giọng nhưng các từ trước cũng xuống)",
+    "output": "✅ **Corrected Intonation:** The students are ↗young, ↗energetic, and ↘eager to learn.\n🔍 **Error Identification:** 'young' và 'energetic' phải lên giọng.\n📘 **Vietnamese Explanation:** Đừng sợ lên giọng, nó làm câu nói thêm phần sinh động. Mẹo: Hãy đọc to và rõ ràng.\n💡 **Luyện tập:** \'The workers are ↗skilled, ↗hardworking, and ↘dedicated.\' / \'The athletes are ↗strong, ↗fast, and ↘determined.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is responsible, reliable, and hardworking.\' Văn bản Whisper nhận được: \'He is responsible, reliable, and hardworking.\' (lên giọng ở 'responsible', xuống giọng ở 'reliable', lên giọng ở 'hardworking')",
+    "output": "✅ **Corrected Intonation:** He is ↗responsible, ↗reliable, and ↘hardworking.\n🔍 **Error Identification:** 'reliable' phải lên, 'hardworking' phải xuống.\n📘 **Vietnamese Explanation:** Hãy tập đọc theo nhịp: lên – lên – xuống. Luyện nhiều lần sẽ thành thói quen.\n💡 **Luyện tập:** \'She is ↗honest, ↗kind, and ↘generous.\' / \'They are ↗brave, ↗loyal, and ↘wise.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I love my family, my friends, and my country.\' Văn bản Whisper nhận được: \'I love my family, my friends, and my country.\' (đọc giọng đều, không nhấn)",
+    "output": "✅ **Corrected Intonation:** I love ↗my family, ↗my friends, and ↘my country.\n🔍 **Error Identification:** Thiếu lên giọng ở 'family' và 'friends'.\n📘 **Vietnamese Explanation:** Hãy thể hiện tình cảm qua ngữ điệu. Lên giọng ở hai đối tượng đầu, hạ giọng ở đối tượng cuối để nhấn mạnh.\n💡 **Luyện tập:** \'She loves ↗her cat, ↗her dog, and ↘her bird.\' / \'He cares about ↗his job, ↗his health, and ↘his happiness.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The soup is hot, spicy, and delicious.\' Văn bản Whisper nhận được: \'The soup is hot, spicy, and delicious.\' (lên giọng ở 'hot', xuống giọng ở 'spicy', xuống giọng ở 'delicious')",
+    "output": "✅ **Corrected Intonation:** The soup is ↗hot, ↗spicy, and ↘delicious.\n🔍 **Error Identification:** 'spicy' phải lên giọng.\n📘 **Vietnamese Explanation:** Đừng để giọng của bạn bị chùng xuống quá sớm. Hãy giữ độ cao đến hết 'spicy' rồi mới xuống ở 'delicious'.\n💡 **Luyện tập:** \'The coffee is ↗strong, ↗aromatic, and ↘smooth.\' / \'The cake is ↗sweet, ↗moist, and ↘tasty.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The hotel has a pool, a gym, and a spa.\' Văn bản Whisper nhận được: \'The hotel has a pool, a gym, and a spa.\' (đọc nhanh, không ngắt, cuối câu lên giọng)",
+    "output": "✅ **Corrected Intonation:** The hotel has a ↗pool, a ↗gym, and a ↘spa.\n🔍 **Error Identification:** Cuối câu lên giọng thay vì xuống giọng.\n📘 **Vietnamese Explanation:** Hãy nhớ: đây là câu khẳng định, không phải câu hỏi. Kết thúc bằng giọng xuống.\n💡 **Luyện tập:** \'The resort has a ↗beach, a ↗restaurant, and ↘a bar.\' / \'The office has a ↗kitchen, a ↗lounge, and ↘a conference room.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I like to watch movies, play games, and read books.\' Văn bản Whisper nhận được: \'I like to watch movies, play games, and read books.\' (lên giọng ở 'movies', lên giọng ở 'games', lên giọng ở 'books')",
+    "output": "✅ **Corrected Intonation:** I like to ↗watch movies, ↗play games, and ↘read books.\n🔍 **Error Identification:** 'books' phải xuống giọng.\n📘 **Vietnamese Explanation:** Khi kết thúc một danh sách các hoạt động, hãy xuống giọng ở hoạt động cuối cùng để báo hiệu kết thúc ý.\n💡 **Luyện tập:** \'He likes to ↗swim, ↗run, and ↘cycle.\' / \'She loves to ↗sing, ↗dance, and ↘act.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The phone is small, lightweight, and affordable.\' Văn bản Whisper nhận được: \'The phone is small, lightweight, and affordable.\' (đọc giọng đều, không lên xuống)",
+    "output": "✅ **Corrected Intonation:** The phone is ↗small, ↗lightweight, and ↘affordable.\n🔍 **Error Identification:** Thiếu lên giọng ở 'small' và 'lightweight'.\n📘 **Vietnamese Explanation:** Hãy tập đọc với sự hào hứng. Lên giọng ở những đặc điểm tích cực đầu tiên, sau đó xuống giọng ở đặc điểm cuối để khẳng định.\n💡 **Luyện tập:** \'The laptop is ↗fast, ↗reliable, and ↘cheap.\' / \'The watch is ↗elegant, ↗durable, and ↘classy.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He went to the store, bought some milk, and came back home.\' Văn bản Whisper nhận được: \'He went to the store, bought some milk, and came back home.\' (lên giọng ở 'store', xuống giọng ở 'milk', lên giọng ở 'home')",
+    "output": "✅ **Corrected Intonation:** He went to the ↗store, ↗bought some milk, and ↘came back home.\n🔍 **Error Identification:** 'milk' phải lên, 'home' phải xuống.\n📘 **Vietnamese Explanation:** Hành động cuối cùng luôn là kết thúc câu chuyện, do đó xuống giọng.\n💡 **Luyện tập:** \'She ↗woke up, ↗ate breakfast, and ↘left for work.\' / \'They ↗drove to the beach, ↗swam in the ocean, and ↘watched the sunset.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The room is clean, tidy, and spacious.\' Văn bản Whisper nhận được: \'The room is clean, tidy, and spacious.\' (đọc với giọng trầm, không nhấn, cuối câu xuống giọng nhưng các từ trước cũng xuống)",
+    "output": "✅ **Corrected Intonation:** The room is ↗clean, ↗tidy, and ↘spacious.\n🔍 **Error Identification:** 'clean' và 'tidy' phải lên giọng.\n📘 **Vietnamese Explanation:** Lên giọng giúp nhấn mạnh từng đặc điểm. Hãy thử đọc to và rõ ràng hơn.\n💡 **Luyện tập:** \'The house is ↗bright, ↗airy, and ↘comfortable.\' / \'The garden is ↗green, ↗peaceful, and ↘beautiful.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She bought a dress, a pair of shoes, and a handbag.\' Văn bản Whisper nhận được: \'She bought a dress, a pair of shoes, and a handbag.\' (lên giọng ở 'dress', xuống giọng ở 'shoes', lên giọng ở 'handbag')",
+    "output": "✅ **Corrected Intonation:** She bought a ↗dress, a pair of ↗shoes, and a ↘handbag.\n🔍 **Error Identification:** 'shoes' phải lên, 'handbag' phải xuống.\n📘 **Vietnamese Explanation:** Cụm 'a pair of shoes' dài, nhưng hãy lên giọng ở từ cuối của cụm đó ('shoes').\n💡 **Luyện tập:** \'He bought a ↗shirt, a pair of ↗jeans, and a ↘jacket.\' / \'She got a ↗necklace, a pair of ↗earrings, and a ↘ring.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The team includes John, Mary, and Peter.\' Văn bản Whisper nhận được: \'The team includes John, Mary, and Peter.\' (đọc đều, không ngắt, cuối câu lên giọng)",
+    "output": "✅ **Corrected Intonation:** The team includes ↗John, ↗Mary, and ↘Peter.\n🔍 **Error Identification:** Cuối câu lên giọng thay vì xuống giọng.\n📘 **Vietnamese Explanation:** Tên riêng cũng tuân theo quy tắc liệt kê. Hãy lên giọng ở 'John' và 'Mary', xuống giọng ở 'Peter'.\n💡 **Luyện tập:** \'The group has ↗Anna, ↗Ben, and ↘Clara.\' / \'The committee includes ↗Dr. Smith, ↗Prof. Lee, and ↘Dr. Brown.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I need to finish this task, submit the report, and attend the meeting.\' Văn bản Whisper nhận được: \'I need to finish this task, submit the report, and attend the meeting.\' (lên giọng ở 'task', lên giọng ở 'report', lên giọng ở 'meeting')",
+    "output": "✅ **Corrected Intonation:** I need to ↗finish this task, ↗submit the report, and ↘attend the meeting.\n🔍 **Error Identification:** 'meeting' phải xuống giọng.\n📘 **Vietnamese Explanation:** Hãy tưởng tượng bạn đang đọc danh sách việc cần làm, việc cuối cùng là kết thúc.\n💡 **Luyện tập:** \'She needs to ↗call her mom, ↗pick up the kids, and ↘cook dinner.\' / \'He needs to ↗buy groceries, ↗pay the bills, and ↘fix the car.\'"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi ngữ điệu câu trần thuật & câu liệt kê và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The restaurant serves pizza, pasta, and salad.\' Văn bản Whisper nhận được: \'The restaurant serves pizza, pasta, and salad.\' (đọc giọng đều, không lên xuống, cuối câu xuống giọng nhưng các từ trước cũng xuống)",
+    "output": "✅ **Corrected Intonation:** The restaurant serves ↗pizza, ↗pasta, and ↘salad.\n🔍 **Error Identification:** 'pizza' và 'pasta' phải lên giọng.\n📘 **Vietnamese Explanation:** Đừng ngại lên giọng. Hãy luyện với câu này nhiều lần: pizza (lên), pasta (lên), salad (xuống).\n💡 **Luyện tập:** \'The cafe offers ↗sandwiches, ↗soups, and ↘salads.\' / \'The bar serves ↗beer, ↗wine, and ↘cocktails.\'"
+  }
+]

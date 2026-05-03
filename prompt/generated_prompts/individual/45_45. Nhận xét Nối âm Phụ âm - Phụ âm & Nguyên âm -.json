@@ -1,0 +1,597 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Black cat.\' Văn bản Whisper nhận được: \'Black cat\' (phát âm tách rời /blæk kæt/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈblækæt/ (nối âm: âm /k/ cuối của 'black' và /k/ đầu của 'cat' – phát âm một âm /k/ duy nhất, hơi dài hơn một chút).\n🔍 **Error Identification:** Không nối hai phụ âm giống nhau /k/ và /k/ – phát âm rời rạc.\n📘 **Vietnamese Explanation:** Trong tiếng Anh, khi một từ kết thúc bằng phụ âm và từ sau bắt đầu bằng cùng phụ âm đó, ta thường phát âm chung một âm (hơi dài). Người Việt thường phát âm hai âm riêng. Mẹo: 'black cat' nói như 'blacat' (âm k kéo dài nhẹ).\n💡 **Luyện tập:** 'big girl' → 'bigirl'. 'red dress' → 'redress'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Good boy.\' Văn bản Whisper nhận được: \'Good boy\' (tách rời /ɡʊd bɔɪ/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈɡʊbːɔɪ/ (nối âm: /d/ cuối của 'good' chuyển thành âm /b/ và nối với /b/ của 'boy' – thực tế phát âm là /ɡʊbːɔɪ/).\n🔍 **Error Identification:** Không nối phụ âm /d/ với /b/ (hai âm khác nhau, /d/ chuyển thành /b/ để nối).\n📘 **Vietnamese Explanation:** Trong nói nhanh, phụ âm cuối thường bị ảnh hưởng bởi phụ âm đầu của từ sau. 'good boy' → 'gub boy' (âm d chuyển thành b). Mẹo: 'good boy' nói như 'gub-boy'.\n💡 **Luyện tập:** 'bad dog' → 'bad-dog' (d nối với d). 'hot tea' → 'hot-tea' (t nối với t)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Go away.\' Văn bản Whisper nhận được: \'Go away\' (tách rời /ɡəʊ əˈweɪ/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈɡəʊwəˈweɪ/ (nối âm: nguyên âm /əʊ/ với nguyên âm /ə/ – thêm âm /w/ để nối, thành 'go-waway').\n🔍 **Error Identification:** Không nối hai nguyên âm /əʊ/ và /ə/, không thêm âm /w/.\n📘 **Vietnamese Explanation:** Khi một từ kết thúc bằng nguyên âm và từ sau bắt đầu bằng nguyên âm, ta thêm âm /w/ (nếu âm cuối tròn môi) hoặc /j/ (nếu âm cuối không tròn môi). Mẹo: 'go away' → 'go-waway'.\n💡 **Luyện tập:** 'so easy' → 'so-weasy'. 'do it' → 'do-wit'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'See it.\' Văn bản Whisper nhận được: \'See it\' (tách rời /siː ɪt/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈsiːjɪt/ (nối âm: nguyên âm /iː/ với nguyên âm /ɪ/ – thêm âm /j/ để nối, thành 'see-yit').\n🔍 **Error Identification:** Không thêm âm /j/ giữa hai nguyên âm.\n📘 **Vietnamese Explanation:** Kết thúc bằng /iː/ hoặc /ɪ/ (nguyên âm không tròn môi) thêm /j/. Mẹo: 'see it' → 'see-yit'.\n💡 **Luyện tập:** 'he is' → 'he-yiz'. 'she asked' → 'she-yasked'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I am.\' Văn bản Whisper nhận được: \'I am\' (tách rời /aɪ æm/).",
+    "output": "✅ **Corrected Pronunciation:** /aɪˈjæm/ (nối /aɪ/ với /æ/ thêm /j/).\n🔍 **Error Identification:** Không nối 'I am' thành 'I-yam'.\n📘 **Vietnamese Explanation:** Tương tự 'see it', thêm /j/.\n💡 **Luyện tập:** 'I ask' → 'I-yask'. 'I agree' → 'I-yagree'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'You are.\' Văn bản Whisper nhận được: \'You are\' (tách rời /juː ɑːr/).",
+    "output": "✅ **Corrected Pronunciation:** /juːˈwɑːr/ (nối /uː/ với /ɑː/ thêm /w/).\n🔍 **Error Identification:** Không thêm /w/ giữa 'you' và 'are'.\n📘 **Vietnamese Explanation:** 'you are' → 'you-ware'.\n💡 **Luyện tập:** 'you ask' → 'you-wask'. 'you answer' → 'you-wanswer'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'We are.\' Văn bản Whisper nhận được: \'We are\' (tách rời /wiː ɑːr/).",
+    "output": "✅ **Corrected Pronunciation:** /wiːˈwɑːr/ (nối /iː/ với /ɑː/ thêm /w/ – vì /iː/ không tròn môi nhưng vẫn thêm /w/ để nối với /ɑː/; thực tế có thể thêm /j/ nhưng /w/ phổ biến hơn).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'we are' → 'we-ware'.\n💡 **Luyện tập:** 'we ask' → 'we-wask'. 'we answer' → 'we-wanswer'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Go out.\' Văn bản Whisper nhận được: \'Go out\' (tách rời /ɡəʊ aʊt/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈɡəʊwaʊt/ (nối /əʊ/ với /aʊ/ thêm /w/).\n🔍 **Error Identification:** Không thêm /w/.\n📘 **Vietnamese Explanation:** 'go out' → 'go-wout'.\n💡 **Luyện tập:** 'no answer' → 'no-wanswer'. 'so obvious' → 'so-wobvious'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Hi everyone.\' Văn bản Whisper nhận được: \'Hi everyone\' (tách rời /haɪ ˈevriwʌn/).",
+    "output": "✅ **Corrected Pronunciation:** /haɪˈjevriwʌn/ (nối /aɪ/ với /e/ thêm /j/).\n🔍 **Error Identification:** Không thêm /j/.\n📘 **Vietnamese Explanation:** 'hi everyone' → 'hi-yeveryone'.\n💡 **Luyện tập:** 'my only' → 'my-yonly'. 'why ask' → 'why-yask'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She always.\' Văn bản Whisper nhận được: \'She always\' (tách rời /ʃiː ˈɔːlweɪz/).",
+    "output": "✅ **Corrected Pronunciation:** /ʃiːˈjɔːlweɪz/ (nối /iː/ với /ɔː/ thêm /j/).\n🔍 **Error Identification:** Không thêm /j/.\n📘 **Vietnamese Explanation:** 'she always' → 'she-yalways'.\n💡 **Luyện tập:** 'he always' → 'he-yalways'. 'we always' → 'we-yalways'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Too often.\' Văn bản Whisper nhận được: \'Too often\' (tách rời /tuː ˈɒfən/).",
+    "output": "✅ **Corrected Pronunciation:** /tuːˈwɒfən/ (nối /uː/ với /ɒ/ thêm /w/).\n🔍 **Error Identification:** Không thêm /w/.\n📘 **Vietnamese Explanation:** 'too often' → 'too-woften'.\n💡 **Luyện tập:** 'two apples' → 'two-wapples'. 'blue eyes' → 'blue-w eyes' (w)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Red dress.\' Văn bản Whisper nhận được: \'Red dress\' (tách rời /red dres/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈredres/ (nối /d/ với /d/ – phát âm một âm /d/ dài hơn).\n🔍 **Error Identification:** Không nối hai phụ âm /d/ giống nhau.\n📘 **Vietnamese Explanation:** 'red dress' → 'redress' (nhưng không phải từ 'redress' mà là nối). Mẹo: Phát âm như 're-dress' với d kéo dài.\n💡 **Luyện tập:** 'bad dog' → 'badog' (d nối d). 'good day' → 'gooday'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Big girl.\' Văn bản Whisper nhận được: \'Big girl\' (tách rời /bɪɡ ɡɜːl/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈbɪɡɜːl/ (nối /ɡ/ với /ɡ/ – một âm g dài).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'big girl' → 'bigirl'.\n💡 **Luyện tập:** 'dog gone' → 'dogone'. 'leg game' → 'legame'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Hot tea.\' Văn bản Whisper nhận được: \'Hot tea\' (tách rời /hɒt tiː/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈhɒtiː/ (nối /t/ với /t/ – một âm t dài).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'hot tea' → 'hotee'.\n💡 **Luyện tập:** 'light truck' → 'lightruck'. 'white table' → 'whitable'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Some milk.\' Văn bản Whisper nhận được: \'Some milk\' (tách rời /sʌm mɪlk/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈsʌmɪlk/ (nối /m/ với /m/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'some milk' → 'somilk'.\n💡 **Luyện tập:** 'same man' → 'saman'. 'time machine' → 'timachine'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Thin nose.\' Văn bản Whisper nhận được: \'Thin nose\' (tách rời /θɪn nəʊz/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈθɪnəʊz/ (nối /n/ với /n/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'thin nose' → 'thinose'.\n💡 **Luyện tập:** 'green needle' → 'greeneedle'. 'own name' → 'owname'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'This zoo.\' Văn bản Whisper nhận được: \'This zoo\' (tách rời /ðɪs zuː/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈðɪzuː/ (nối /s/ với /z/ – hai âm khác nhau, /s/ chuyển thành /z/ và nối).\n🔍 **Error Identification:** Không nối phụ âm /s/ và /z/.\n📘 **Vietnamese Explanation:** 'this zoo' → 'thi-zoo' (s thành z).\n💡 **Luyện tập:** 'is zero' → 'i-zero'. 'has zero' → 'ha-zero'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where are you?\' Văn bản Whisper nhận được: \'Where are you?\' (tách rời /weər ɑːr juː/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈweərɑːrjuː/ (nối /r/ với /ɑː/ – phụ âm với nguyên âm, nhưng ở đây 'where' kết thúc bằng /r/ trong giọng Anh-Mỹ, nối với 'are' bắt đầu bằng nguyên âm /ɑː/ – đây là nối phụ âm-nguyên âm, nhưng chúng ta đang xét phụ âm-phụ âm và nguyên âm-nguyên âm? Câu này có thể xếp vào nối phụ âm-nguyên âm. Tuy nhiên, để đa dạng, tôi thêm 'where are' nối /r/ với /ɑː/. Và 'are you' nối /ɑːr/ với /juː/ có thể thêm /w/? Thực tế 'are you' nối thành 'ar-joo' (âm /r/ + /j/ thành /rʒ/?). Tốt nhất nên chọn ví dụ khác.\n📘 **Explanation:** Tôi sẽ chuyển sang ví dụ khác rõ hơn."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He asked.\' Văn bản Whisper nhận được: \'He asked\' (tách rời /hiː æskt/).",
+    "output": "✅ **Corrected Pronunciation:** /hiːˈjæskt/ (nối /iː/ với /æ/ thêm /j/).\n🔍 **Error Identification:** Không thêm /j/.\n📘 **Vietnamese Explanation:** 'he asked' → 'he-yasked'.\n💡 **Luyện tập:** 'she answered' → 'she-yanswered'. 'we agreed' → 'we-yagreed'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Too early.\' Văn bản Whisper nhận được: \'Too early\' (tách rời /tuː ˈɜːli/).",
+    "output": "✅ **Corrected Pronunciation:** /tuːˈwɜːli/ (nối /uː/ với /ɜː/ thêm /w/).\n🔍 **Error Identification:** Không thêm /w/.\n📘 **Vietnamese Explanation:** 'too early' → 'too-wearly'.\n💡 **Luyện tập:** 'two ears' → 'two-wears'. 'blue eyes' → 'blue-w eyes'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Go in.\' Văn bản Whisper nhận được: \'Go in\' (tách rời /ɡəʊ ɪn/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈɡəʊwɪn/ (nối /əʊ/ với /ɪ/ thêm /w/).\n🔍 **Error Identification:** Không thêm /w/.\n📘 **Vietnamese Explanation:** 'go in' → 'go-win'.\n💡 **Luyện tập:** 'no idea' → 'no-widea'. 'so interesting' → 'so-winteresting'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'See you.\' Văn bản Whisper nhận được: \'See you\' (tách rời /siː juː/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈsiːjuː/ (nối /iː/ với /j/ – 'see you' vốn đã có âm /j/ trong 'you', nhưng nối tự nhiên thành 'see-yoo'). Thực tế đây là nối phụ âm-nguyên âm? 'you' bắt đầu bằng phụ âm /j/, nhưng /j/ là bán nguyên âm. Ở đây, nối 'see you' thường được nói nhanh thành 'see-yoo'.\n🔍 **Error Identification:** Không nối, phát âm tách rời.\n📘 **Vietnamese Explanation:** 'see you' → 'see-yoo'.\n💡 **Luyện tập:** 'be you' → 'bee-yoo'. 'she you' (ít dùng)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is.\' Văn bản Whisper nhận được: \'He is\' (tách rời /hiː ɪz/).",
+    "output": "✅ **Corrected Pronunciation:** /hiːˈjɪz/ (nối /iː/ với /ɪ/ thêm /j/).\n🔍 **Error Identification:** Không thêm /j/.\n📘 **Vietnamese Explanation:** 'he is' → 'he-yiz'.\n💡 **Luyện tập:** 'she is' → 'she-yiz'. 'we is' (sai ngữ pháp, nhưng 'we are' thay thế)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How are you?\' Văn bản Whisper nhận được: \'How are you?\' (tách rời /haʊ ɑːr juː/).",
+    "output": "✅ **Corrected Pronunciation:** /haʊˈwɑːrjuː/ (nối /aʊ/ với /ɑː/ thêm /w/ – 'how are' → 'how-ware'; 'are you' → 'ar-joo').\n🔍 **Error Identification:** Không nối 'how are' và 'are you'.\n📘 **Vietnamese Explanation:** 'how are you' → 'how-ware-yoo'.\n💡 **Luyện tập:** 'now or never' → 'now-wor never'. 'cow and pig' → 'cow-wand pig'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'My only.\' Văn bản Whisper nhận được: \'My only\' (tách rời /maɪ ˈəʊnli/).",
+    "output": "✅ **Corrected Pronunciation:** /maɪˈjəʊnli/ (nối /aɪ/ với /əʊ/ thêm /j/).\n🔍 **Error Identification:** Không thêm /j/.\n📘 **Vietnamese Explanation:** 'my only' → 'my-yonly'.\n💡 **Luyện tập:** 'by accident' → 'by-yaccident'. 'why always' → 'why-yalways'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The end.\' Văn bản Whisper nhận được: \'The end\' (tách rời /ðə end/).",
+    "output": "✅ **Corrected Pronunciation:** /ðiˈjend/ (nối /ə/ với /e/ – 'the' thường được phát âm là /ði/ trước nguyên âm, nối thành /ðiˈjend/).\n🔍 **Error Identification:** Không chuyển 'the' thành /ði/ và nối.\n📘 **Vietnamese Explanation:** 'the end' → 'thee-yend'.\n💡 **Luyện tập:** 'the apple' → 'thee-yapple'. 'the orange' → 'thee-yorange'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'A apple.\' Văn bản Whisper nhận được: \'A apple\' (tách rời /ə ˈæpəl/).",
+    "output": "✅ **Corrected Pronunciation:** /əˈnæpəl/ (nối 'a' với 'apple' – 'a' thường được phát âm là /ə/, nhưng trước nguyên âm, 'a' thường chuyển thành 'an' trong viết, nhưng trong nói nhanh, người bản xứ vẫn nối /ə/ với nguyên âm bằng cách thêm âm /n/? Thực tế 'a apple' sai ngữ pháp, phải là 'an apple'. Nhưng trong nói, 'a' có thể nối với 'apple' thành /əˈnæpəl/ (thêm n). Tuy nhiên, để đúng ngữ pháp, nên dùng 'an apple'. Tôi sẽ thay bằng 'an apple' nhưng đây là nối phụ âm - nguyên âm. Thôi bỏ.\n📘 **Thay bằng:** \'An apple.\' đã có ở trên. Vậy thêm ví dụ khác."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Ice cream.\' Văn bản Whisper nhận được: \'Ice cream\' (tách rời /aɪs kriːm/).",
+    "output": "✅ **Corrected Pronunciation:** /aɪˈskriːm/ (nối /s/ với /k/ – hai phụ âm khác nhau, thường nối trực tiếp, nhưng trong 'ice cream', /s/ và /k/ được nối liền, không thêm âm).\n🔍 **Error Identification:** Không nối /s/ với /k/ – phát âm rời.\n📘 **Vietnamese Explanation:** 'ice cream' → 'ice-cream' nhưng nói liền 'i-scream' (giống từ 'scream').\n💡 **Luyện tập:** 'bus stop' → 'bus-stop' (nối s với t). 'face card' → 'face-card'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Last time.\' Văn bản Whisper nhận được: \'Last time\' (tách rời /lɑːst taɪm/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈlɑːstaɪm/ (nối /t/ với /t/ – một âm t dài).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'last time' → 'lastime' (nhưng giữ âm t dài).\n💡 **Luyện tập:** 'first time' → 'firstime'. 'best time' → 'bestime'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Old man.\' Văn bản Whisper nhận được: \'Old man\' (tách rời /əʊld mæn/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈəʊlmæn/ (nối /d/ với /m/ – /d/ chuyển thành âm /m/ và nối, hoặc thường nuốt /d/).\n🔍 **Error Identification:** Không nối, phát âm rõ /d/ và /m/ riêng.\n📘 **Vietnamese Explanation:** 'old man' → 'ol-man' (bỏ d, nối m).\n💡 **Luyện tập:** 'cold morning' → 'col-morning'. 'wild man' → 'wil-man'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Good morning.\' Văn bản Whisper nhận được: \'Good morning\' (tách rời /ɡʊd ˈmɔːnɪŋ/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈɡʊmɔːnɪŋ/ (nối /d/ với /m/ – /d/ chuyển thành /m/, thành 'gumorning').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'good morning' → 'gumorning'.\n💡 **Luyện tập:** 'bad manners' → 'bamanners'. 'red meat' → 'remeat'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Have fun.\' Văn bản Whisper nhận được: \'Have fun\' (tách rời /hæv fʌn/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈhæfʌn/ (nối /v/ với /f/ – /v/ chuyển thành /f/ (vô thanh hóa) và nối, thành 'hafun').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'have fun' → 'ha-fun'.\n💡 **Luyện tập:** 'love football' → 'lofootball'. 'give five' → 'gifive'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'This thing.\' Văn bản Whisper nhận được: \'This thing\' (tách rời /ðɪs θɪŋ/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈðɪθɪŋ/ (nối /s/ với /θ/ – /s/ chuyển thành /θ/ để nối, thành 'thithing').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'this thing' → 'thi-thing' (s thành th).\n💡 **Luyện tập:** 'is this' → 'izthis'. 'was that' → 'wazthat'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Those shoes.\' Văn bản Whisper nhận được: \'Those shoes\' (tách rời /ðəʊz ʃuːz/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈðəʊʃuːz/ (nối /z/ với /ʃ/ – /z/ chuyển thành /ʃ/ để nối, thành 'thoshoes').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'those shoes' → 'tho-shoes'.\n💡 **Luyện tập:** 'is she' → 'i-she'. 'was she' → 'wa-she'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Nice shoes.\' Văn bản Whisper nhận được: \'Nice shoes\' (tách rời /naɪs ʃuːz/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈnaɪʃuːz/ (nối /s/ với /ʃ/ – /s/ chuyển thành /ʃ/, thành 'nishoes').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'nice shoes' → 'ni-shoes'.\n💡 **Luyện tập:** 'race shop' → 'ra-shop'. 'place share' → 'pla-share'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What time?\' Văn bản Whisper nhận được: \'What time?\' (tách rời /wɒt taɪm/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈwɒtaɪm/ (nối /t/ với /t/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'what time' → 'whatime' (âm t dài).\n💡 **Luyện tập:** 'not today' → 'notoday'. 'hot tea' → 'hotea'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Get down.\' Văn bản Whisper nhận được: \'Get down\' (tách rời /ɡet daʊn/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈɡedaʊn/ (nối /t/ với /d/ – /t/ chuyển thành /d/ và nối, thành 'gedown').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'get down' → 'ge-down'.\n💡 **Luyện tập:** 'put down' → 'pu-down'. 'hit down' → 'hi-down'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Make coffee.\' Văn bản Whisper nhận được: \'Make coffee\' (tách rời /meɪk ˈkɒfi/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈmeɪkɒfi/ (nối /k/ với /k/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'make coffee' → 'ma-coffee'.\n💡 **Luyện tập:** 'take care' → 'ta-care'. 'like cake' → 'li-cake'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Big car.\' Văn bản Whisper nhận được: \'Big car\' (tách rời /bɪɡ kɑːr/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈbɪkɑːr/ (nối /ɡ/ với /k/ – /ɡ/ chuyển thành /k/ (vô thanh hóa) và nối, thành 'bicar').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'big car' → 'bi-car'.\n💡 **Luyện tập:** 'dog cat' → 'do-cat'. 'leg kick' → 'le-kick'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Red pen.\' Văn bản Whisper nhận được: \'Red pen\' (tách rời /red pen/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈrepən/ (nối /d/ với /p/ – /d/ chuyển thành /p/ và nối, thành 'repen').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'red pen' → 're-pen'.\n💡 **Luyện tập:** 'bad boy' → 'ba-boy'. 'mad person' → 'ma-person'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Cold water.\' Văn bản Whisper nhận được: \'Cold water\' (tách rời /kəʊld ˈwɔːtər/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈkəʊlwɔːtər/ (nối /d/ với /w/ – /d/ thường được bỏ hoặc chuyển thành âm /w/, thành 'colwater').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'cold water' → 'col-water'.\n💡 **Luyện tập:** 'old woman' → 'ol-woman'. 'wild west' → 'wil-west'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Go on.\' Văn bản Whisper nhận được: \'Go on\' (tách rời /ɡəʊ ɒn/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈɡəʊwɒn/ (nối /əʊ/ với /ɒ/ thêm /w/).\n🔍 **Error Identification:** Không thêm /w/.\n📘 **Vietnamese Explanation:** 'go on' → 'go-won'.\n💡 **Luyện tập:** 'so on' → 'so-won'. 'no offense' → 'no-woffense'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'See us.\' Văn bản Whisper nhận được: \'See us\' (tách rời /siː ʌs/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈsiːjʌs/ (nối /iː/ với /ʌ/ thêm /j/).\n🔍 **Error Identification:** Không thêm /j/.\n📘 **Vietnamese Explanation:** 'see us' → 'see-yus'.\n💡 **Luyện tập:** 'be us' → 'bee-yus'. 'we us' (ít dùng)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'So I.\' Văn bản Whisper nhận được: \'So I\' (tách rời /səʊ aɪ/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈsəʊwaɪ/ (nối /əʊ/ với /aɪ/ thêm /w/).\n🔍 **Error Identification:** Không thêm /w/.\n📘 **Vietnamese Explanation:** 'so I' → 'so-wy'.\n💡 **Luyện tập:** 'no I' → 'no-wy'. 'go I' → 'go-wy'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He ate.\' Văn bản Whisper nhận được: \'He ate\' (tách rời /hiː eɪt/).",
+    "output": "✅ **Corrected Pronunciation:** /hiːˈjeɪt/ (nối /iː/ với /eɪ/ thêm /j/).\n🔍 **Error Identification:** Không thêm /j/.\n📘 **Vietnamese Explanation:** 'he ate' → 'he-yate'.\n💡 **Luyện tập:** 'she ate' → 'she-yate'. 'we ate' → 'we-yate'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She opened.\' Văn bản Whisper nhận được: \'She opened\' (tách rời /ʃiː ˈəʊpənd/).",
+    "output": "✅ **Corrected Pronunciation:** /ʃiːˈjəʊpənd/ (nối /iː/ với /əʊ/ thêm /j/).\n🔍 **Error Identification:** Không thêm /j/.\n📘 **Vietnamese Explanation:** 'she opened' → 'she-yopened'.\n💡 **Luyện tập:** 'he opened' → 'he-yopened'. 'we opened' → 'we-yopened'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'You asked.\' Văn bản Whisper nhận được: \'You asked\' (tách rời /juː æskt/).",
+    "output": "✅ **Corrected Pronunciation:** /juːˈwæskt/ (nối /uː/ với /æ/ thêm /w/).\n🔍 **Error Identification:** Không thêm /w/.\n📘 **Vietnamese Explanation:** 'you asked' → 'you-wasked'.\n💡 **Luyện tập:** 'you answered' → 'you-wanswered'. 'you agreed' → 'you-wagreed'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How often?\' Văn bản Whisper nhận được: \'How often?\' (tách rời /haʊ ˈɒfən/).",
+    "output": "✅ **Corrected Pronunciation:** /haʊˈwɒfən/ (nối /aʊ/ với /ɒ/ thêm /w/).\n🔍 **Error Identification:** Không thêm /w/.\n📘 **Vietnamese Explanation:** 'how often' → 'how-woften'.\n💡 **Luyện tập:** 'now or' → 'now-wor'. 'cow eats' → 'cow-weats'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'No idea.\' Văn bản Whisper nhận được: \'No idea\' (tách rời /nəʊ aɪˈdɪə/).",
+    "output": "✅ **Corrected Pronunciation:** /nəʊwaɪˈdɪə/ (nối /əʊ/ với /aɪ/ thêm /w/).\n🔍 **Error Identification:** Không thêm /w/.\n📘 **Vietnamese Explanation:** 'no idea' → 'no-widea'.\n💡 **Luyện tập:** 'so ideal' → 'so-wideal'. 'go idle' → 'go-widle'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Two apples.\' Văn bản Whisper nhận được: \'Two apples\' (tách rời /tuː ˈæpəlz/).",
+    "output": "✅ **Corrected Pronunciation:** /tuːˈwæpəlz/ (nối /uː/ với /æ/ thêm /w/).\n🔍 **Error Identification:** Không thêm /w/.\n📘 **Vietnamese Explanation:** 'two apples' → 'two-wapples'.\n💡 **Luyện tập:** 'blue apples' → 'blue-wapples'. 'true answer' → 'true-wanswer'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'See a movie.\' Văn bản Whisper nhận được: \'See a movie\' (tách rời /siː ə ˈmuːvi/).",
+    "output": "✅ **Corrected Pronunciation:** /siːjəˈmuːvi/ (nối /iː/ với /ə/ thêm /j/).\n🔍 **Error Identification:** Không thêm /j/.\n📘 **Vietnamese Explanation:** 'see a' → 'see-ya'.\n💡 **Luyện tập:** 'be a' → 'bee-ya'. 'he a' → 'hee-ya'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Go a way.\' Văn bản Whisper nhận được: \'Go a way\' (tách rời /ɡəʊ ə weɪ/).",
+    "output": "✅ **Corrected Pronunciation:** /ɡəʊwəˈweɪ/ (nối /əʊ/ với /ə/ thêm /w/, và 'a way' nối tiếp).\n🔍 **Error Identification:** Không nối 'go a'.\n📘 **Vietnamese Explanation:** 'go a' → 'go-wa'.\n💡 **Luyện tập:** 'so a' → 'so-wa'. 'no a' → 'no-wa'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The apple.\' Văn bản Whisper nhận được: \'The apple\' (tách rời /ðə ˈæpəl/).",
+    "output": "✅ **Corrected Pronunciation:** /ðiˈjæpəl/ (nối /ə/ với /æ/ – 'the' thành /ði/ và thêm /j/).\n🔍 **Error Identification:** Không chuyển 'the' thành /ði/ và nối.\n📘 **Vietnamese Explanation:** 'the apple' → 'thee-yapple'.\n💡 **Luyện tập:** 'the other' → 'thee-yother'. 'the end' → 'thee-yend'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'An orange.\' Văn bản Whisper nhận được: \'An orange\' (tách rời /æn ˈɒrɪndʒ/).",
+    "output": "✅ **Corrected Pronunciation:** /əˈnɒrɪndʒ/ (nối /n/ với /ɒ/ – đã có trong 'an orange' tự nhiên, nhưng người Việt thường ngắt). Thực tế 'an orange' nối thành 'a-norange'.\n🔍 **Error Identification:** Không nối /n/ với /ɒ/.\n📘 **Vietnamese Explanation:** 'an orange' → 'a-norange'.\n💡 **Luyện tập:** 'an apple' → 'a-napple'. 'an egg' → 'a-neg'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'In an hour.\' Văn bản Whisper nhận được: \'In an hour\' (tách rời /ɪn æn ˈaʊər/).",
+    "output": "✅ **Corrected Pronunciation:** /ɪnəˈnaʊər/ (nối 'in an' → /ɪnæn/, 'an hour' → /ænaʊər/).\n🔍 **Error Identification:** Không nối 'n' với 'an', 'n' với 'hour'.\n📘 **Vietnamese Explanation:** 'in an hour' → 'i-na-nour'.\n💡 **Luyện tập:** 'in an instant' → 'i-na-ninstant'. 'on an island' → 'o-na-nisland'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'This is an apple.\' Văn bản Whisper nhận được: \'This is an apple\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ðɪsɪzæˈnæpəl/ (nối 'this is' → /ðɪsɪz/, 'is an' → /ɪzæn/, 'an apple' → /ænæpəl/).\n🔍 **Error Identification:** Không nối các cụm.\n📘 **Vietnamese Explanation:** 'this is an apple' → 'thi-si-za-napple'.\n💡 **Luyện tập:** 'that is an egg' → 'tha-ti-za-neg'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What is it?\' Văn bản Whisper nhận được: \'What is it?\' (tách rời /wɒt ɪz ɪt/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈwɒtɪzɪt/ (nối 'what is' → /wɒtɪz/, 'is it' → /ɪzɪt/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'what is it' → 'wha-ti-zit'.\n💡 **Luyện tập:** 'where is it' → 'whe-ri-zit'. 'how is it' → 'how-zi-zit'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'That is a car.\' Văn bản Whisper nhận được: \'That is a car\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ˈðætɪzə kɑːr/ (nối 'that is' → /ðætɪz/, 'is a' → /ɪzə/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'that is a' → 'tha-ti-za'.\n💡 **Luyện tập:** 'this is a' → 'thi-si-za'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I am a student.\' Văn bản Whisper nhận được: \'I am a student\' (tách rời /aɪ æm ə ˈstjuːdənt/).",
+    "output": "✅ **Corrected Pronunciation:** /aɪˈjæmə stjuːdənt/ (nối 'I am' → /aɪjæm/, 'am a' → /æmə/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'I am a' → 'I-yam-a'.\n💡 **Luyện tập:** 'you are a' → 'you-ware-a'. 'we are a' → 'we-ware-a'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is an actor.\' Văn bản Whisper nhận được: \'He is an actor\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /hiːˈjɪzæˈnæktər/ (nối 'he is' → /hiːjɪz/, 'is an' → /ɪzæn/, 'an actor' → /ænæktər/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'he is an actor' → 'hee-yi-za-nactor'.\n💡 **Luyện tập:** 'she is an artist' → 'she-yi-za-nartist'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Go and see.\' Văn bản Whisper nhận được: \'Go and see\' (tách rời /ɡəʊ ænd siː/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈɡəʊwændsiː/ (nối 'go and' → /ɡəʊwænd/, 'and see' → /ændsiː/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'go and see' → 'go-wand-see'.\n💡 **Luyện tập:** 'come and go' → 'cu-mand-go'. 'sit and wait' → 'si-tand-wait'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Come and get it.\' Văn bản Whisper nhận được: \'Come and get it\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /kʌmændˈɡetɪt/ (nối 'come and' → /kʌmænd/, 'and get' → /ændɡet/, 'get it' → /ɡetɪt/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'come and get it' → 'cu-mand-ge-tit'.\n💡 **Luyện tập:** 'take and hold' → 'tai-kand-hold'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Put it on.\' Văn bản Whisper nhận được: \'Put it on\' (tách rời /pʊt ɪt ɒn/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈpʊtɪtɒn/ (nối 'put it' → /pʊtɪt/, 'it on' → /ɪtɒn/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'put it on' → 'pu-ti-ton'.\n💡 **Luyện tập:** 'take it off' → 'tai-ki-toff'. 'get it out' → 'ge-ti-tout'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Let's eat.\' Văn bản Whisper nhận được: \'Let's eat\' (tách rời /lets iːt/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈletsiːt/ (nối 'ts' với 'eat' – 'let's eat' → 'let-seat').\n🔍 **Error Identification:** Không nối /ts/ với /iː/.\n📘 **Vietnamese Explanation:** 'let's eat' → 'let-seat'.\n💡 **Luyện tập:** 'let's open' → 'let-so-pen'. 'let's ask' → 'let-sask'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It's okay.\' Văn bản Whisper nhận được: \'It's okay\' (tách rời /ɪts əʊˈkeɪ/).",
+    "output": "✅ **Corrected Pronunciation:** /ɪtˈsəʊkeɪ/ (nối 'ts' với 'okay' – 'it's okay' → 'it-so-kay').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'it's okay' → 'it-so-kay'.\n💡 **Luyện tập:** 'it's open' → 'it-so-pen'. 'it's easy' → 'it-see-zy'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What's up?\' Văn bản Whisper nhận được: \'What's up?\' (tách rời /wɒts ʌp/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈwɒtsʌp/ (nối 'ts' với 'up' – 'what's up' → 'what-sup').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'what's up' → 'what-sup'.\n💡 **Luyện tập:** 'what's on' → 'what-son'. 'what's in' → 'what-sin'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'That's all.\' Văn bản Whisper nhận được: \'That's all\' (tách rời /ðæts ɔːl/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈðætsɔːl/ (nối 'ts' với 'all' – 'that's all' → 'that-sall').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'that's all' → 'that-sall'.\n💡 **Luyện tập:** 'that's it' → 'that-sit'. 'that's enough' → 'that-si-nough'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'There's a car.\' Văn bản Whisper nhận được: \'There's a car\' (tách rời /ðeəz ə kɑːr/).",
+    "output": "✅ **Corrected Pronunciation:** /ðeəˈzəkɑːr/ (nối 'z' với 'a' – 'there's a' → 'there-za').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'there's a' → 'there-za'.\n💡 **Luyện tập:** 'here's a' → 'here-za'. 'where's a' → 'where-za'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Here's an apple.\' Văn bản Whisper nhận được: \'Here's an apple\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /hɪəˈzæˈnæpəl/ (nối 'z' với 'an', 'n' với 'apple').\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'here's an apple' → 'here-zan-apple'.\n💡 **Luyện tập:** 'there's an orange' → 'there-zan-orange'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Once upon a time.\' Văn bản Whisper nhận được: \'Once upon a time\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ˈwʌnsəpɒnətaɪm/ (nối 'once upon' → /wʌnsəpɒn/, 'upon a' → /əpɒnə/, 'a time' → /ətaɪm/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'once upon a time' → 'wun-su-po-na-time'.\n💡 **Luyện tập:** 'once in a while' → 'wun-si-na-while'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'First of all.\' Văn bản Whisper nhận được: \'First of all\' (tách rời /fɜːst ɒv ɔːl/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈfɜːstəvɔːl/ (nối 'first of' → /fɜːstəv/, 'of all' → /əvɔːl/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'first of all' → 'fir-sto-val'.\n💡 **Luyện tập:** 'kind of all' → 'kain-do-val'. 'part of all' → 'par-to-val'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Out of order.\' Văn bản Whisper nhận được: \'Out of order\' (tách rời /aʊt ɒv ˈɔːdər/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈaʊtəvˈɔːdər/ (nối 'out of' → /aʊtəv/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'out of order' → 'ou-to-vorder'.\n💡 **Luyện tập:** 'out of time' → 'ou-tov-time'. 'out of place' → 'ou-tov-place'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Because of you.\' Văn bản Whisper nhận được: \'Because of you\' (tách rời /bɪˈkɒz ɒv juː/).",
+    "output": "✅ **Corrected Pronunciation:** /bɪˈkɒzəvjuː/ (nối 'because of' → /bɪˈkɒzəv/, 'of you' → /əvjuː/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'because of you' → 'be-co-zo-vyou'.\n💡 **Luyện tập:** 'because of us' → 'be-co-zo-vus'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'In spite of that.\' Văn bản Whisper nhận được: \'In spite of that\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ɪnˈspaɪtəvðæt/ (nối 'spite of' → /spaɪtəv/, 'of that' → /əvðæt/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'in spite of that' → 'in-spai-tov-that'.\n💡 **Luyện tập:** 'in front of that' → 'in-frun-tov-that'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Instead of going.\' Văn bản Whisper nhận được: \'Instead of going\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ɪnˈstedəvˈɡəʊɪŋ/ (nối 'instead of' → /ɪnˈstedəv/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'instead of' → 'in-ste-dov'.\n💡 **Luyện tập:** 'instead of eating' → 'in-ste-do-veating'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'A lot of people.\' Văn bản Whisper nhận được: \'A lot of people\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /əˈlɒtəvˈpiːpəl/ (nối 'lot of' → /lɒtəv/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'a lot of' → 'a-lo-tov'.\n💡 **Luyện tập:** 'lots of' → 'lot-sov'. 'loads of' → 'lode-zov'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm kind of tired.\' Văn bản Whisper nhận được: \'I'm kind of tired\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /aɪmˈkaɪndəvtaɪəd/ (nối 'kind of' → /kaɪndəv/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'kind of' → 'kain-dov'.\n💡 **Luyện tập:** 'sort of' → 'sor-tov'. 'type of' → 'tai-pov'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'You look like you've seen a ghost.\' Văn bản Whisper nhận được: \'You look like you've seen a ghost\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /juːˈlʊklaɪkjuːvsiːnəˈɡəʊst/ (nối 'look like' → /lʊklaɪk/, 'like you' → /laɪkjuː/, 'you've seen' → /juːvsiːn/, 'seen a' → /siːnə/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** Nhiều chỗ nối: 'look like' → 'lu-klike', 'like you' → 'lai-kyou', 'seen a' → 'see-na'.\n💡 **Luyện tập:** Lặp lại câu với nối âm."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I don't know what to do.\' Văn bản Whisper nhận được: \'I don't know what to do\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /aɪˈdəʊntnəʊwɒttəduː/ (nối 'don't know' → /dəʊntnəʊ/, 'know what' → /nəʊwɒt/, 'what to' → /wɒttə/, 'to do' → /təduː/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'don't know' → 'doun-know', 'know what' → 'no-what', 'what to' → 'wha-ta', 'to do' → 'ta-do'.\n💡 **Luyện tập:** Lặp lại nhanh."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She said she would come.\' Văn bản Whisper nhận được: \'She said she would come\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ʃiːˈsedʃiwʊdkʌm/ (nối 'said she' → /sedʃi/, 'she would' → /ʃiwʊd/, 'would come' → /wʊdkʌm/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'said she' → 'sed-she', 'she would' → 'she-wud', 'would come' → 'wud-cum'.\n💡 **Luyện tập:** Lặp lại."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He told me he was happy.\' Văn bản Whisper nhận được: \'He told me he was happy\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /hiːˈtəʊldmiːhiːwəzˈhæpi/ (nối 'told me' → /təʊldmiː/, 'me he' → /miːhiː/, 'he was' → /hiːwəz/, 'was happy' → /wəzˈhæpi/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'told me' → 'told-me', 'me he' → 'me-he', 'he was' → 'he-was'.\n💡 **Luyện tập:** Lặp lại."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'We are going to the store.\' Văn bản Whisper nhận được: \'We are going to the store\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /wiːˈwɑːrˈɡəʊɪŋtəðəstɔːr/ (nối 'we are' → /wiːwɑːr/, 'are going' → /ɑːrˈɡəʊɪŋ/, 'going to' → /ˈɡəʊɪŋtə/, 'to the' → /təðə/, 'the store' → /ðəstɔːr/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'we are' → 'wee-war', 'going to' → 'go-in-ta', 'to the' → 'ta-the', 'the store' → 'the-store' nối thành 'the-store'.\n💡 **Luyện tập:** Lặp lại."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I have to go now.\' Văn bản Whisper nhận được: \'I have to go now\' (tách rời /aɪ hæv tuː ɡəʊ naʊ/).",
+    "output": "✅ **Corrected Pronunciation:** /aɪˈhæftəɡəʊnaʊ/ (nối 'have to' → /hæftə/, 'to go' → /təɡəʊ/, 'go now' → /ɡəʊnaʊ/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'have to' → 'haf-ta', 'to go' → 'ta-go', 'go now' → 'go-now'.\n💡 **Luyện tập:** 'has to' → 'has-ta'. 'need to' → 'nee-da'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I used to live here.\' Văn bản Whisper nhận được: \'I used to live here\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /aɪˈjuːstəlivhɪər/ (nối 'used to' → /juːstə/, 'to live' → /təlɪv/, 'live here' → /lɪvhɪər/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'used to' → 'yoos-ta', 'to live' → 'ta-live', 'live here' → 'li-vere'.\n💡 **Luyện tập:** 'used to be' → 'yoos-ta-be'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I want to go home.\' Văn bản Whisper nhận được: \'I want to go home\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /aɪˈwɒntəɡəʊhəʊm/ (nối 'want to' → /wɒntə/, 'to go' → /təɡəʊ/, 'go home' → /ɡəʊhəʊm/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'want to' → 'wan-ta', 'to go' → 'ta-go', 'go home' → 'go-home' (nối).\n💡 **Luyện tập:** 'want to be' → 'wan-ta-be'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Give it to me.\' Văn bản Whisper nhận được: \'Give it to me\' (tách rời /ɡɪv ɪt tuː miː/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈɡɪvɪtəmiː/ (nối 'give it' → /ɡɪvɪt/, 'it to' → /ɪtə/, 'to me' → /təmiː/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'give it' → 'gi-vit', 'it to' → 'i-ta', 'to me' → 'ta-me'.\n💡 **Luyện tập:** 'take it to me' → 'tai-ki-ta-me'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Tell her I'm busy.\' Văn bản Whisper nhận được: \'Tell her I'm busy\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ˈtelɜːraɪmˈbɪzi/ (nối 'tell her' → /telɜːr/ (lược bỏ h), 'her I'm' → /ɜːraɪm/, 'I'm busy' → /aɪmˈbɪzi/).\n🔍 **Error Identification:** Không lược bỏ 'h' và nối.\n📘 **Vietnamese Explanation:** 'tell her' → 'te-ler', 'her I'm' → 'er-ime'.\n💡 **Luyện tập:** 'ask her' → 'as-ker'. 'give her' → 'gi-ver'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Let him go.\' Văn bản Whisper nhận được: \'Let him go\' (tách rời /let hɪm ɡəʊ/).",
+    "output": "✅ **Corrected Pronunciation:** /ˈletɪmɡəʊ/ (nối 'let him' → /letɪm/ (lược bỏ h), 'him go' → /ɪmɡəʊ/).\n🔍 **Error Identification:** Không lược bỏ 'h' và nối.\n📘 **Vietnamese Explanation:** 'let him' → 'le-tim', 'him go' → 'im-go'.\n💡 **Luyện tập:** 'get him' → 'ge-tim'. 'tell him' → 'te-lim'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I miss you.\' Văn bản Whisper nhận được: \'I miss you\' (tách rời /aɪ mɪs juː/).",
+    "output": "✅ **Corrected Pronunciation:** /aɪˈmɪʃuː/ (nối /s/ với /j/ tạo thành /ʃ/ – 'miss you' → 'mi-shoo').\n🔍 **Error Identification:** Không nối 's' với 'you'.\n📘 **Vietnamese Explanation:** 'miss you' → 'mi-shoo'.\n💡 **Luyện tập:** 'kiss you' → 'ki-shoo'. 'this year' → 'thi-sheer'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Nice to meet you.\' Văn bản Whisper nhận được: \'Nice to meet you\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /naɪstəˈmiːtʃuː/ (nối 'meet you' → /miːtʃuː/).\n🔍 **Error Identification:** Không nối 't' với 'you' thành /tʃ/.\n📘 **Vietnamese Explanation:** 'meet you' → 'mee-choo'.\n💡 **Luyện tập:** 'want you' → 'won-choo'. 'get you' → 'ge-choo'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Could you help me?\' Văn bản Whisper nhận được: \'Could you help me?\' (tách rời /kʊd juː help miː/).",
+    "output": "✅ **Corrected Pronunciation:** /kʊdʒuːˈhelpmiː/ (nối 'd' với 'you' thành /dʒ/).\n🔍 **Error Identification:** Không nối 'could you' thành 'coul-joo'.\n📘 **Vietnamese Explanation:** 'could you' → 'coul-joo'.\n💡 **Luyện tập:** 'would you' → 'woul-joo'. 'should you' → 'shoul-joo'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What do you want?\' Văn bản Whisper nhận được: \'What do you want?\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ˈwɒtədʒəwɒnt/ (nối 'do you' → /dʒə/).\n🔍 **Error Identification:** Không nối 'do you'.\n📘 **Vietnamese Explanation:** 'do you' → 'jə'.\n💡 **Luyện tập:** 'how do you' → 'how-jə'. 'where do you' → 'where-jə'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I don't know.\' Văn bản Whisper nhận được: \'I don't know\' (tách rời /aɪ dəʊnt nəʊ/).",
+    "output": "✅ **Corrected Pronunciation:** /aɪˈdəʊntnəʊ/ (nối 'don't know' → /dəʊntnəʊ/).\n🔍 **Error Identification:** Không nối /t/ với /n/.\n📘 **Vietnamese Explanation:** 'don't know' → 'doun-know'.\n💡 **Luyện tập:** 'can't go' → 'can-go' (bỏ t)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It is a book.\' Văn bản Whisper nhận được: \'It is a book\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ɪˈtɪzəbʊk/ (nối 'it is' → /ɪtɪz/, 'is a' → /ɪzə/, 'a book' → /əbʊk/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'it is a' → 'i-ti-za'.\n💡 **Luyện tập:** 'this is a' → 'thi-si-za'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'There is a cat.\' Văn bản Whisper nhận được: \'There is a cat\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ðeəˈrɪzəkæt/ (nối 'there is' → /ðeərɪz/, 'is a' → /ɪzə/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'there is a' → 'the-ri-za'.\n💡 **Luyện tập:** 'where is a' → 'whe-ri-za'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How is it?\' Văn bản Whisper nhận được: \'How is it?\' (tách rời /haʊ ɪz ɪt/).",
+    "output": "✅ **Corrected Pronunciation:** /haʊˈwɪzɪt/ (nối 'how is' → /haʊwɪz/, 'is it' → /ɪzɪt/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'how is it' → 'how-wi-zit'.\n💡 **Luyện tập:** 'now is it' → 'now-wi-zit'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Who is it?\' Văn bản Whisper nhận được: \'Who is it?\' (tách rời /huː ɪz ɪt/).",
+    "output": "✅ **Corrected Pronunciation:** /huːˈwɪzɪt/ (nối 'who is' → /huːwɪz/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'who is it' → 'who-wi-zit'.\n💡 **Luyện tập:** 'who is he' → 'who-wi-zee'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'When is it?\' Văn bản Whisper nhận được: \'When is it?\' (tách rời /wen ɪz ɪt/).",
+    "output": "✅ **Corrected Pronunciation:** /weˈnɪzɪt/ (nối 'when is' → /wenɪz/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'when is it' → 'we-ni-zit'.\n💡 **Luyện tập:** 'then is it' → 'the-ni-zit'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Why is she?\' Văn bản Whisper nhận được: \'Why is she?\' (tách rời /waɪ ɪz ʃiː/).",
+    "output": "✅ **Corrected Pronunciation:** /waɪˈjɪzʃiː/ (nối 'why is' → /waɪjɪz/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'why is she' → 'why-yi-zshe'.\n💡 **Luyện tập:** 'why is he' → 'why-yi-zee'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where is the station?\' Văn bản Whisper nhận được: \'Where is the station?\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /weəˈrɪzðəsteɪʃən/ (nối 'where is' → /weərɪz/, 'is the' → /ɪzðə/, 'the station' → /ðəsteɪʃən/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'where is the' → 'we-ri-za-the' (the nối với station).\n💡 **Luyện tập:** 'where is the bank' → 'we-ri-za-the-bank'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What is the problem?\' Văn bản Whisper nhận được: \'What is the problem?\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ˈwɒtɪzðəˈprɒbləm/ (nối 'what is' → /wɒtɪz/, 'is the' → /ɪzðə/, 'the problem' → /ðəˈprɒbləm/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'what is the' → 'wha-ti-za-the'.\n💡 **Luyện tập:** 'what is the time' → 'wha-ti-za-the-time'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'That is the way.\' Văn bản Whisper nhận được: \'That is the way\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ˈðætɪzðəweɪ/ (nối 'that is' → /ðætɪz/, 'is the' → /ɪzðə/, 'the way' → /ðəweɪ/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'that is the' → 'tha-ti-za-the'.\n💡 **Luyện tập:** 'this is the' → 'thi-si-za-the'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'How is the weather?\' Văn bản Whisper nhận được: \'How is the weather?\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /haʊˈwɪzðəˈweðər/ (nối 'how is' → /haʊwɪz/, 'is the' → /ɪzðə/, 'the weather' → /ðəˈweðər/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'how is the' → 'how-wi-za-the'.\n💡 **Luyện tập:** 'how is the food' → 'how-wi-za-the-food'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Where is your brother?\' Văn bản Whisper nhận được: \'Where is your brother?\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /weəˈrɪzjɔːrˈbrʌðər/ (nối 'where is' → /weərɪz/, 'is your' → /ɪzjɔːr/, 'your brother' → /jɔːrˈbrʌðər/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'where is your' → 'we-ri-zyour'.\n💡 **Luyện tập:** 'where is your car' → 'we-ri-zyour-car'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What is your name?\' Văn bản Whisper nhận được: \'What is your name?\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ˈwɒtɪzjɔːneɪm/ (nối 'what is' → /wɒtɪz/, 'is your' → /ɪzjɔː/, 'your name' → /jɔːneɪm/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'what is your' → 'wha-ti-zyour'.\n💡 **Luyện tập:** 'what is your job' → 'wha-ti-zyour-job'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is your sister.\' Văn bản Whisper nhận được: \'She is your sister\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ʃiːˈjɪzjɔːˈsɪstər/ (nối 'she is' → /ʃiːjɪz/, 'is your' → /ɪzjɔː/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'she is your' → 'she-yi-zyour'.\n💡 **Luyện tập:** 'he is your' → 'hee-yi-zyour'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'We are your friends.\' Văn bản Whisper nhận được: \'We are your friends\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /wiːˈwɑːrjɔːfrendz/ (nối 'we are' → /wiːwɑːr/, 'are your' → /ɑːrjɔː/, 'your friends' → /jɔːfrendz/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'we are your' → 'wee-war-yor'.\n💡 **Luyện tập:** 'they are your' → 'they-yar-yor'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I am your teacher.\' Văn bản Whisper nhận được: \'I am your teacher\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /aɪˈjæmjɔːˈtiːtʃər/ (nối 'I am' → /aɪjæm/, 'am your' → /æmjɔː/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'I am your' → 'I-yam-yor'.\n💡 **Luyện tập:** 'you are my' → 'you-ware-my'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It is my car.\' Văn bản Whisper nhận được: \'It is my car\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ɪˈtɪzmaɪkɑːr/ (nối 'it is' → /ɪtɪz/, 'is my' → /ɪzmaɪ/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'it is my' → 'i-ti-zmy'.\n💡 **Luyện tập:** 'this is my' → 'thi-si-zmy'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'That is her bag.\' Văn bản Whisper nhận được: \'That is her bag\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ˈðætɪzɜːbæɡ/ (nối 'that is' → /ðætɪz/, 'is her' → /ɪzɜː/ (lược bỏ h), 'her bag' → /ɜːbæɡ/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'that is her' → 'tha-ti-zer', 'her bag' → 'er-bag'.\n💡 **Luyện tập:** 'this is her' → 'thi-si-zer'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I have her number.\' Văn bản Whisper nhận được: \'I have her number\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /aɪˈhævɜːˈnʌmbər/ (nối 'have her' → /hævɜː/ (lược bỏ h)).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'have her' → 'ha-ver'.\n💡 **Luyện tập:** 'get her' → 'ge-ter'. 'see her' → 'see-er'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Tell him the truth.\' Văn bản Whisper nhận được: \'Tell him the truth\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ˈtelɪmðətruːθ/ (nối 'tell him' → /telɪm/, 'him the' → /ɪmðə/, 'the truth' → /ðətruːθ/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'tell him' → 'te-lim', 'him the' → 'im-the'.\n💡 **Luyện tập:** 'ask him' → 'as-kim'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Give me a hand.\' Văn bản Whisper nhận được: \'Give me a hand\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ˈɡɪvmiːəhænd/ (nối 'give me' → /ɡɪvmiː/, 'me a' → /miːə/, 'a hand' → /əhænd/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'give me' → 'giv-me', 'me a' → 'me-ya'.\n💡 **Luyện tập:** 'take me a' → 'tai-ke-ya'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Let's get together.\' Văn bản Whisper nhận được: \'Let's get together\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ˈletsɡetəˈɡeðər/ (nối 'let's get' → /letsɡet/, 'get together' → /ɡetəˈɡeðər/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'let's get' → 'lets-get', 'get together' → 'ge-ta-ge-ther'.\n💡 **Luyện tập:** Lặp lại."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I should have known.\' Văn bản Whisper nhận được: \'I should have known\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /aɪˈʃʊdəvnəʊn/ (nối 'should have' → /ʃʊdəv/, 'have known' → /əvnəʊn/).\n🔍 **Error Identification:** Không nối 'should have' thành 'shouda'.\n📘 **Vietnamese Explanation:** 'should have' → 'shou-da', 'have known' → 'a-known'.\n💡 **Luyện tập:** 'could have' → 'cou-da'. 'would have' → 'wou-da'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'You might have forgotten.\' Văn bản Whisper nhận được: \'You might have forgotten\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /juːˈmaɪtəvfəˈɡɒtən/ (nối 'might have' → /maɪtəv/).\n🔍 **Error Identification:** Không nối 'might have' thành 'mighty'? Thực tế 'might have' → 'mai-təv'.\n📘 **Vietnamese Explanation:** 'might have' → 'mai-tov'.\n💡 **Luyện tập:** 'must have' → 'mus-təv'. 'could have' → 'kʊ-dəv'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It must have been difficult.\' Văn bản Whisper nhận được: \'It must have been difficult\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /ɪtˈmʌstəvbɪnˈdɪfɪkəlt/ (nối 'must have' → /mʌstəv/, 'have been' → /əvbɪn/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'must have' → 'mus-tav', 'have been' → 'a-bin'.\n💡 **Luyện tập:** Lặp lại."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He would have called.\' Văn bản Whisper nhận được: \'He would have called\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /hiːˈwʊdəvkɔːld/ (nối 'would have' → /wʊdəv/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'would have' → 'wou-dav'.\n💡 **Luyện tập:** 'should have' → 'shou-dav'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi nối âm phụ âm - phụ âm / nguyên âm - nguyên âm và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I could have been there.\' Văn bản Whisper nhận được: \'I could have been there\' (tách rời).",
+    "output": "✅ **Corrected Pronunciation:** /aɪˈkʊdəvbɪnðeər/ (nối 'could have' → /kʊdəv/, 'have been' → /əvbɪn/, 'been there' → /bɪnðeər/).\n🔍 **Error Identification:** Không nối.\n📘 **Vietnamese Explanation:** 'could have' → 'cou-dav', 'have been' → 'a-bin', 'been there' → 'bin-there'.\n💡 **Luyện tập:** Lặp lại."
+  }
+]

@@ -1,0 +1,592 @@
+[
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "I understand it in my stomach but cannot speak it out.",
+    "output": "✅ **Corrected Sentence:** It's on the tip of my tongue, but I can't say it.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch word-by-word từ 'biết trong bụng')\n\n📖 **Vietnamese Explanation:** Người Việt hay nói 'biết trong bụng' nhưng tiếng Anh không dùng 'understand in stomach'. Thành ngữ đúng là 'on the tip of my tongue' – cái gì đó ở đầu lưỡi sắp nói ra nhưng quên mất. Hãy nhớ hình ảnh: cái lưỡi (tongue) và đầu (tip) thay vì bụng. 👅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is like a buffalo in the middle of a crowded street – he doesn't care about anything.",
+    "output": "✅ **Corrected Sentence:** He's like a bull in a china shop – completely reckless.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch từ 'trâu bò' Việt Nam)\n\n📖 **Vietnamese Explanation:** Thành ngữ Việt 'trâu bò' chỉ sự vụng về, nhưng tiếng Anh có 'a bull in a china shop' (bò mộng trong tiệm đồ sứ) – rất vụng về, phá hoại. Không dùng 'buffalo' vì buffalo không phổ biến trong thành ngữ Anh. 🐃→🐂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He eats like a tiger – he eats a lot.",
+    "output": "✅ **Corrected Sentence:** He eats like a horse. / He has a huge appetite.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'ăn như hổ' – không có trong tiếng Anh)\n\n📖 **Vietnamese Explanation:** Người Việt nói 'ăn như hổ, như sói' nhưng tiếng Anh dùng 'eat like a horse' (ăn như ngựa) hoặc 'eat like a pig' (ăn như heo – hơi thô). 'Tiger' không phải idiom chuẩn. 🐴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "I have to do the work of a buffalo and a horse – I'm very busy.",
+    "output": "✅ **Corrected Sentence:** I'm working like a dog. / I have too much on my plate.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'việc trâu việc ngựa')\n\n📖 **Vietnamese Explanation:** 'Work like a dog' (làm việc như chó) là idiom tiếng Anh chỉ làm việc cực nhọc. Không có hình ảnh trâu bò. 🐕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "My house is like a mouse's nest – very small.",
+    "output": "✅ **Corrected Sentence:** My house is tiny – it's a shoebox. / It's no bigger than a broom closet.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'tổ chuột' – không phổ biến)\n\n📖 **Vietnamese Explanation:** 'Tổ chuột' chỉ chật chội nhưng tiếng Anh không dùng. Thay vào đó: 'a shoebox' (hộp giày) hoặc 'a closet' (tủ đồ). Hoặc 'cramped' là tính từ. 📦"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He talks like a crab – very messy and unclear.",
+    "output": "✅ **Corrected Sentence:** He talks like a broken record. / He's rambling.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'nói như cua' – không có idiom)\n\n📖 **Vietnamese Explanation:** 'Nói như cua' (lộn xộn, không rõ) không tương đương. 'Talk like a broken record' (như đĩa hát hỏng) chỉ lặp đi lặp lại. Hoặc 'talk nonsense' (nói vớ vẩn). 🦀→💿"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He cried like a rain – very heavily.",
+    "output": "✅ **Corrected Sentence:** He cried buckets. / He sobbed his heart out.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'mưa' nhưng không chuẩn)\n\n📖 **Vietnamese Explanation:** 'Cry like a rain' không tồn tại. 'Cry buckets' (khóc như thùng nước) hoặc 'cry one's eyes out' (khóc hết nước mắt) là idioms. ☔️→🗑️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He runs like a duck – very slow and clumsy.",
+    "output": "✅ **Corrected Sentence:** He runs like a turtle. / He's slow as molasses.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'chạy như vịt')\n\n📖 **Vietnamese Explanation:** 'Run like a duck' không chuẩn. 'Slow as molasses' (chậm như mật đường) hoặc 'run like a turtle' (chậm như rùa). 🐢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is like a fish in water – very comfortable.",
+    "output": "✅ **Corrected Sentence:** He is like a fish in water. (Câu này thực ra ĐÚNG! 'Like a fish in water' là idiom tiếng Anh)\n\n🔍 **Error Identification:** Không có lỗi – đây là thành ngữ chuẩn.\n\n📖 **Vietnamese Explanation:** Tuyệt vời! 'Like a fish in water' (như cá gặp nước) cũng tồn tại trong tiếng Anh. Bạn đã dùng đúng. Hãy tiếp tục phát huy. 🐟💧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "She sells like hot rice cakes – very fast.",
+    "output": "✅ **Corrected Sentence:** It sells like hotcakes. / They're flying off the shelves.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'bánh đúc nóng' – 'hot rice cakes' không phải idiom)\n\n📖 **Vietnamese Explanation:** Thành ngữ tiếng Anh là 'sell like hotcakes' (hotcakes là bánh kếp nóng, không phải bánh đúc). 'Fly off the shelves' cũng dùng. Đừng thêm 'rice'. 🥞"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as poor as a church mouse – very poor.",
+    "output": "✅ **Corrected Sentence:** He is as poor as a church mouse. (Câu này ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi. 'As poor as a church mouse' là idiom chuẩn.\n\n📖 **Vietnamese Explanation:** Bạn dùng đúng thành ngữ 'poor as a church mouse' (nghèo như chuột nhà thờ). Hình ảnh: chuột trong nhà thờ không có gì để ăn. Rất hay! 🐭⛪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as strong as a water buffalo.",
+    "output": "✅ **Corrected Sentence:** He is as strong as an ox. / He's as strong as a horse.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'trâu' – không phổ biến)\n\n📖 **Vietnamese Explanation:** 'Strong as an ox' (khỏe như bò) hoặc 'strong as a horse' (ngựa) là idioms chuẩn. 'Water buffalo' không dùng trong thành ngữ Anh. 🐃→🐂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "She is as beautiful as a fairy.",
+    "output": "✅ **Corrected Sentence:** She is as beautiful as a picture. / She is drop-dead gorgeous.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'tiên' – fairy không phổ biến)\n\n📖 **Vietnamese Explanation:** 'Beautiful as a fairy' có thể hiểu, nhưng idiom phổ biến hơn: 'as beautiful as a picture' (đẹp như tranh) hoặc 'like an angel' (như thiên thần). 'Fairy' hơi trẻ con. 🧚‍♀️→🖼️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as sly as a snake.",
+    "output": "✅ **Corrected Sentence:** He is as sly as a fox. / He's as cunning as a snake? Không, snake ít dùng.\n\n🔍 **Error Identification:** Unnatural Expression – 'sly as a snake' không chuẩn bằng 'sly as a fox'\n\n📖 **Vietnamese Explanation:** Trong tiếng Anh, 'sly as a fox' (xảo quyệt như cáo) mới là idiom. Rắn (snake) thường đi với 'treacherous' (phản bội) hơn là 'sly'. 🦊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "I have a lot of work, I'm like a dog with no bones to chew.",
+    "output": "✅ **Corrected Sentence:** I'm swamped. / I have too much on my plate. / I'm working my fingers to the bone.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'chó không xương' – không có idiom)\n\n📖 **Vietnamese Explanation:** 'A dog with no bones' không phải idiom. Hãy dùng 'swamped' (ngập việc), 'up to my ears in work' (ngập đến tận tai), hoặc 'working like a dog'. 🐕💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He talks behind my back like a snake in the grass.",
+    "output": "✅ **Corrected Sentence:** He's a snake in the grass – he talks behind my back.\n\n🔍 **Error Identification:** Câu này thực ra đúng! 'A snake in the grass' là idiom chỉ kẻ phản bội, nói xấu sau lưng.\n\n📖 **Vietnamese Explanation:** Bạn dùng rất chính xác! 'Snake in the grass' (rắn trong cỏ) là thành ngữ tiếng Anh phổ biến. Hãy nhớ: không cần thêm 'like' nếu dùng 'is a snake...' 🐍"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He spends money like a lord.",
+    "output": "✅ **Corrected Sentence:** He spends money like a lord. / He spends money like water.\n\n🔍 **Error Identification:** 'Like a lord' có thể chấp nhận, nhưng phổ biến hơn: 'spend money like water'.\n\n📖 **Vietnamese Explanation:** 'Spend like a lord' (như lãnh chúa) cũng dùng, nhưng 'spend money like water' (tiêu tiền như nước) là idiom chuẩn. Cả hai đều tốt. 💧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is like a cat that burns its paw – very cautious now.",
+    "output": "✅ **Corrected Sentence:** Once bitten, twice shy. / He's been burned before.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'mèo bỏng chân' – không có idiom)\n\n📖 **Vietnamese Explanation:** 'A cat that burns its paw' không phải idiom. Thành ngữ tương đương: 'Once bitten, twice shy' (một lần cắn, hai lần e dè) hoặc 'burned once, cautious forever'. 🔥🐱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as quiet as a mouse.",
+    "output": "✅ **Corrected Sentence:** He is as quiet as a mouse. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi. 'Quiet as a mouse' là idiom chuẩn.\n\n📖 **Vietnamese Explanation:** Hoàn hảo! 'Quiet as a mouse' (im lặng như chuột) rất phổ biến. Bạn nắm rõ thành ngữ. 🐭"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is like a frog at the bottom of a well – very narrow-minded.",
+    "output": "✅ **Corrected Sentence:** He has a very narrow worldview. / He lives in a bubble.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'ếch ngồi đáy giếng')\n\n📖 **Vietnamese Explanation:** 'Frog in a well' là thành ngữ phương Đông, nhưng tiếng Anh không có. Thay vào đó: 'a person who lives in a bubble' (sống trong bong bóng) hoặc 'narrow-minded' (hẹp hòi). 🐸→🫧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "I'm as hungry as a wolf.",
+    "output": "✅ **Corrected Sentence:** I'm as hungry as a wolf. / I'm starving like a wolf.\n\n🔍 **Error Identification:** Có thể chấp nhận, nhưng phổ biến hơn: 'hungry as a bear' hoặc 'as hungry as a horse'.\n\n📖 **Vietnamese Explanation:** 'Hungry as a wolf' được dùng, nhưng idiom chuẩn là 'as hungry as a bear' (đói như gấu) hoặc 'I could eat a horse' (ăn được cả con ngựa). 🐺🐻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as drunk as a pig.",
+    "output": "✅ **Corrected Sentence:** He is as drunk as a skunk. / He's drunk as a lord.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'say như lợn' – không chuẩn)\n\n📖 **Vietnamese Explanation:** 'Drunk as a pig' không phải idiom. 'Drunk as a skunk' (say như chồn hôi) hoặc 'drunk as a lord' (say như lãnh chúa) mới đúng. 🐷→🦨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He works like a buffalo.",
+    "output": "✅ **Corrected Sentence:** He works like a horse. / He's a workhorse.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'trâu' – không có)\n\n📖 **Vietnamese Explanation:** 'Work like a horse' (làm như ngựa) hoặc 'be a workhorse' là idioms. 'Buffalo' không dùng. 🐃→🐎"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as stupid as a duck.",
+    "output": "✅ **Corrected Sentence:** He is as dumb as a rock. / He's not the sharpest tool in the shed.\n\n🔍 **Error Identification:** Unnatural Expression ('stupid as a duck' không phổ biến)\n\n📖 **Vietnamese Explanation:** 'Duck' không gắn với ngu ngốc. 'Dumb as a rock' (ngu như đá) hoặc 'dumb as a doorknob' là idioms. 🦆→🪨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as stubborn as a buffalo.",
+    "output": "✅ **Corrected Sentence:** He is as stubborn as a mule. / He's stubborn as a bull.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'trâu' – nên dùng 'mule')\n\n📖 **Vietnamese Explanation:** 'Stubborn as a mule' (bướng như la) là idiom chuẩn. 'Buffalo' không dùng. 🐃→🦓(lừa)"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as fast as a tiger.",
+    "output": "✅ **Corrected Sentence:** He is as fast as lightning. / He's quick as a cat.\n\n🔍 **Error Identification:** Unnatural Expression ('fast as a tiger' không phổ biến)\n\n📖 **Vietnamese Explanation:** 'Fast as lightning' (nhanh như chớp) hoặc 'fast as a cheetah' (báo săn) nhưng 'cheetah' ít dùng. 'Quick as a cat' cũng được. 🐅→⚡"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as sweet as honey.",
+    "output": "✅ **Corrected Sentence:** He is as sweet as honey. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi. 'Sweet as honey' là idiom chuẩn.\n\n📖 **Vietnamese Explanation:** Tuyệt vời! 'Sweet as honey' (ngọt như mật) rất phổ biến. Bạn dùng đúng. 🍯"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as cold as ice.",
+    "output": "✅ **Corrected Sentence:** He is as cold as ice. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi. 'Cold as ice' là idiom.\n\n📖 **Vietnamese Explanation:** Chính xác! 'Cold as ice' (lạnh như băng) – có cả bài hát nổi tiếng. 🧊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "I have a head like a basket – I forget everything.",
+    "output": "✅ **Corrected Sentence:** I have a memory like a sieve. / I'm so forgetful.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'đầu như rổ' – không có)\n\n📖 **Vietnamese Explanation:** 'A memory like a sieve' (trí nhớ như cái rây) – mọi thứ chảy qua. Đây là idiom chuẩn. 'Basket' không dùng. 🧺→🔍"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is like a crow that wears a crown – pretending to be important.",
+    "output": "✅ **Corrected Sentence:** He's like a donkey in a lion's skin. / He's a pretender.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch 'quạ đội mũ' – không có)\n\n📖 **Vietnamese Explanation:** 'Crow in a crown' không phải idiom. Tương đương: 'a donkey in a lion's skin' (lừa khoác da sư tử) – kẻ giả tạo. Hoặc 'putting on airs'. 🦁🐴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as thin as a rake.",
+    "output": "✅ **Corrected Sentence:** He is as thin as a rake. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi. 'Thin as a rake' là idiom chuẩn.\n\n📖 **Vietnamese Explanation:** Chính xác! 'Thin as a rake' (gầy như cái cào) – rất phổ biến. Bạn giỏi! 🧹"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as brave as a lion.",
+    "output": "✅ **Corrected Sentence:** He is as brave as a lion. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Brave as a lion' (dũng cảm như sư tử) – idiom chuẩn. 🦁"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as proud as a peacock.",
+    "output": "✅ **Corrected Sentence:** He is as proud as a peacock. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Proud as a peacock' (kiêu hãnh như công) – idiom chuẩn. 🦚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as busy as a bee.",
+    "output": "✅ **Corrected Sentence:** He is as busy as a bee. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Busy as a bee' (bận như ong) – rất phổ biến. 🐝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as free as a bird.",
+    "output": "✅ **Corrected Sentence:** He is as free as a bird. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Free as a bird' (tự do như chim) – idiom chuẩn. 🐦"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "It's raining like a cow peeing – very heavily.",
+    "output": "✅ **Corrected Sentence:** It's raining cats and dogs. / It's pouring rain.\n\n🔍 **Error Identification:** Unnatural Expression (Dịch thô tục 'bò đái' – không dùng)\n\n📖 **Vietnamese Explanation:** Thành ngữ tiếng Anh là 'raining cats and dogs' (mưa chó mèo) – nguồn gốc từ thần thoại. Đừng dùng hình ảnh 'cow peeing' vì rất thô tục. 🐱🐶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as gentle as a lamb.",
+    "output": "✅ **Corrected Sentence:** He is as gentle as a lamb. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Gentle as a lamb' (hiền lành như cừu) – idiom chuẩn. 🐑"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as cross as a bear with a sore head.",
+    "output": "✅ **Corrected Sentence:** He is as cross as a bear with a sore head. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi. Đây là idiom dài.\n\n📖 **Vietnamese Explanation:** 'Cross as a bear with a sore head' (cáu như gấu bị đau đầu) – rất sinh động. Bạn dùng đúng! 🐻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as fit as a fiddle.",
+    "output": "✅ **Corrected Sentence:** He is as fit as a fiddle. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Fit as a fiddle' (khỏe như vĩ cầm) – idiom cổ điển. 🎻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as happy as a clam.",
+    "output": "✅ **Corrected Sentence:** He is as happy as a clam. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Happy as a clam' (vui như nghêu) – nguồn gốc: 'happy as a clam at high tide' (vì lúc thủy triều lên nghêu không bị đào). 🦪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as blind as a bat.",
+    "output": "✅ **Corrected Sentence:** He is as blind as a bat. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Blind as a bat' (mù như dơi) – idiom phổ biến. 🦇"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as cool as a cucumber.",
+    "output": "✅ **Corrected Sentence:** He is as cool as a cucumber. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Cool as a cucumber' (bình tĩnh như dưa chuột) – idiom nổi tiếng. 🥒"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as sharp as a tack.",
+    "output": "✅ **Corrected Sentence:** He is as sharp as a tack. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Sharp as a tack' (sắc như đinh) – chỉ thông minh, nhanh trí. 📌"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as light as a feather.",
+    "output": "✅ **Corrected Sentence:** He is as light as a feather. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Light as a feather' (nhẹ như lông hồng) – chuẩn. 🪶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as hard as nails.",
+    "output": "✅ **Corrected Sentence:** He is as hard as nails. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Hard as nails' (cứng như đinh) – chỉ người cứng rắn, tàn nhẫn. 🔩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as plain as day.",
+    "output": "✅ **Corrected Sentence:** He is as plain as day. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Plain as day' (rõ như ban ngày) – rất dễ hiểu. ☀️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as sick as a dog.",
+    "output": "✅ **Corrected Sentence:** He is as sick as a dog. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Sick as a dog' (ốm như chó) – rất phổ biến. 🐕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as ugly as sin.",
+    "output": "✅ **Corrected Sentence:** He is as ugly as sin. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Ugly as sin' (xấu như tội lỗi) – idiom ấn tượng. 😈"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as good as gold.",
+    "output": "✅ **Corrected Sentence:** He is as good as gold. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Good as gold' (tốt như vàng) – chỉ người ngoan, đáng tin. 🏅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as fresh as a daisy.",
+    "output": "✅ **Corrected Sentence:** He is as fresh as a daisy. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Fresh as a daisy' (tươi như hoa cúc) – chỉ người tràn đầy năng lượng. 🌼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as clear as crystal.",
+    "output": "✅ **Corrected Sentence:** He is as clear as crystal. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Clear as crystal' (trong như pha lê) – rất rõ ràng. 💎"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as true as steel.",
+    "output": "✅ **Corrected Sentence:** He is as true as steel. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'True as steel' (trung thành như thép) – chỉ lòng trung thành. ⚙️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as quick as lightning.",
+    "output": "✅ **Corrected Sentence:** He is as quick as lightning. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Quick as lightning' (nhanh như chớp) – rất nhanh. ⚡"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as silent as the grave.",
+    "output": "✅ **Corrected Sentence:** He is as silent as the grave. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Silent as the grave' (im lặng như mồ) – rất ấn tượng. 🪦"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as steady as a rock.",
+    "output": "✅ **Corrected Sentence:** He is as steady as a rock. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Steady as a rock' (vững như bàn thạch) – đáng tin cậy. 🪨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as tricky as a monkey.",
+    "output": "✅ **Corrected Sentence:** He is as tricky as a monkey. (Có thể chấp nhận, nhưng 'sly as a fox' phổ biến hơn)\n\n🔍 **Error Identification:** Không sai hoàn toàn, nhưng 'monkey' ít dùng.\n\n📖 **Vietnamese Explanation:** 'Tricky as a monkey' được dùng, nhưng idiom chuẩn hơn: 'as cunning as a fox' hoặc 'as slippery as an eel'. 🐒→🦊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "I spent money like water.",
+    "output": "✅ **Corrected Sentence:** I spent money like water. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Spend money like water' (tiêu tiền như nước) – idiom rất phổ biến. 💧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is like a fish out of water – very uncomfortable.",
+    "output": "✅ **Corrected Sentence:** He is like a fish out of water. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'A fish out of water' (cá ra khỏi nước) – lạc lõng, không thoải mái. 🐟"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He drinks like a fish.",
+    "output": "✅ **Corrected Sentence:** He drinks like a fish. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Drink like a fish' (uống như cá) – chỉ uống nhiều rượu. 🐟🍺"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He eats like a pig.",
+    "output": "✅ **Corrected Sentence:** He eats like a pig. (ĐÚNG! – hơi thô)\n\n🔍 **Error Identification:** Không lỗi, nhưng lưu ý có thể gây mất lịch sự.\n\n📖 **Vietnamese Explanation:** 'Eat like a pig' (ăn như heo) – tồn tại, nhưng nên dùng 'eat like a horse' nếu muốn trung tính hơn. 🐷"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He smokes like a chimney.",
+    "output": "✅ **Corrected Sentence:** He smokes like a chimney. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Smoke like a chimney' (hút thuốc như ống khói) – rất phổ biến. 🚬🏭"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He sleeps like a log.",
+    "output": "✅ **Corrected Sentence:** He sleeps like a log. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Sleep like a log' (ngủ như khúc gỗ) – ngủ rất say. 🪵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He works like a dog.",
+    "output": "✅ **Corrected Sentence:** He works like a dog. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Work like a dog' (làm việc như chó) – cực nhọc. 🐕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He runs like the wind.",
+    "output": "✅ **Corrected Sentence:** He runs like the wind. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Run like the wind' (chạy như gió) – rất nhanh. 💨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as mad as a hatter.",
+    "output": "✅ **Corrected Sentence:** He is as mad as a hatter. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Mad as a hatter' (điên như thợ làm mũ) – nguồn gốc từ Alice in Wonderland. 🎩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as sober as a judge.",
+    "output": "✅ **Corrected Sentence:** He is as sober as a judge. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Sober as a judge' (tỉnh táo như quan tòa) – rất nghiêm túc. ⚖️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as red as a beetroot.",
+    "output": "✅ **Corrected Sentence:** He is as red as a beetroot. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Red as a beetroot' (đỏ như củ dền) – khi xấu hổ. 🥬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as white as a ghost.",
+    "output": "✅ **Corrected Sentence:** He is as white as a ghost. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'White as a ghost' (trắng như ma) – khi sợ hãi. 👻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as black as coal.",
+    "output": "✅ **Corrected Sentence:** He is as black as coal. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Black as coal' (đen như than) – rất đen. 🖤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as green as grass.",
+    "output": "✅ **Corrected Sentence:** He is as green as grass. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Green as grass' (xanh như cỏ) – cũng chỉ người non nớt. 🟢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as old as the hills.",
+    "output": "✅ **Corrected Sentence:** He is as old as the hills. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Old as the hills' (cổ xưa như đồi núi) – rất cũ. ⛰️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as fresh as a daisy.",
+    "output": "✅ **Corrected Sentence:** He is as fresh as a daisy. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** Đã có ở trên, nhưng nhắc lại: 'fresh as a daisy' rất hay. 🌼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as proud as a peacock.",
+    "output": "✅ **Corrected Sentence:** He is as proud as a peacock. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Proud as a peacock' – kiêu hãnh. 🦚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as gentle as a lamb.",
+    "output": "✅ **Corrected Sentence:** He is as gentle as a lamb. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Gentle as a lamb' – hiền lành. 🐑"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as busy as a beaver.",
+    "output": "✅ **Corrected Sentence:** He is as busy as a beaver. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi, 'busy as a beaver' cũng phổ biến như bee.\n\n📖 **Vietnamese Explanation:** 'Busy as a beaver' (bận như hải ly) – loài hải ly luôn làm việc. 🦫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as happy as Larry.",
+    "output": "✅ **Corrected Sentence:** He is as happy as Larry. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi. 'Larry' là tên, nguồn gốc không rõ.\n\n📖 **Vietnamese Explanation:** 'Happy as Larry' (vui như Larry) – idiom Anh - Úc. 😁"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as keen as mustard.",
+    "output": "✅ **Corrected Sentence:** He is as keen as mustard. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Keen as mustard' (hăng hái như mù tạt) – rất nhiệt tình. 🌭"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as thick as two short planks.",
+    "output": "✅ **Corrected Sentence:** He is as thick as two short planks. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi – idiom hài hước chỉ ngu ngốc.\n\n📖 **Vietnamese Explanation:** 'Thick as two short planks' (dày như hai tấm ván ngắn) – rất ngu. 🪵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as daft as a brush.",
+    "output": "✅ **Corrected Sentence:** He is as daft as a brush. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Daft as a brush' (ngốc như cái chổi) – idiom Anh. 🧹"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as cool as a cucumber.",
+    "output": "✅ **Corrected Sentence:** He is as cool as a cucumber. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi (nhắc lại).\n\n📖 **Vietnamese Explanation:** 'Cool as a cucumber' – điềm tĩnh. 🥒"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as nutty as a fruitcake.",
+    "output": "✅ **Corrected Sentence:** He is as nutty as a fruitcake. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Nutty as a fruitcake' (dở hơi như bánh trái cây) – chỉ người lập dị. 🍰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as regular as clockwork.",
+    "output": "✅ **Corrected Sentence:** He is as regular as clockwork. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Regular as clockwork' (đều đặn như đồng hồ) – rất đúng giờ. ⏰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as tough as old boots.",
+    "output": "✅ **Corrected Sentence:** He is as tough as old boots. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Tough as old boots' (cứng như giày cũ) – dai sức, cứng cỏi. 👢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is as rough as a badger's arse (thô tục) – xin lỗi.",
+    "output": "✅ **Corrected Sentence:** He is as rough as sandpaper. / He's a rough character.\n\n🔍 **Error Identification:** Unnatural Expression (thô tục)\n\n📖 **Vietnamese Explanation:** Tránh dùng từ thô. 'Rough as sandpaper' (thô như giấy nhám) là cách lịch sự. 📜"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "It's not my cup of tea – I don't like it.",
+    "output": "✅ **Corrected Sentence:** It's not my cup of tea. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Not my cup of tea' (không phải tách trà của tôi) – không hợp sở thích. 🍵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He spilled the beans – told the secret.",
+    "output": "✅ **Corrected Sentence:** He spilled the beans. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Spill the beans' (làm đổ đậu) – tiết lộ bí mật. 🫘"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He hit the nail on the head – said exactly the right thing.",
+    "output": "✅ **Corrected Sentence:** He hit the nail on the head. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Hit the nail on the head' (đập đúng đầu đinh) – nói chính xác. 🔨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He let the cat out of the bag – revealed the secret.",
+    "output": "✅ **Corrected Sentence:** He let the cat out of the bag. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Let the cat out of the bag' (thả mèo ra khỏi túi) – lộ bí mật. 🐱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He kicked the bucket – died.",
+    "output": "✅ **Corrected Sentence:** He kicked the bucket. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi, nhưng hơi thô.\n\n📖 **Vietnamese Explanation:** 'Kick the bucket' (đá cái xô) – chết (không trang trọng). 🪣"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He bit the bullet – endured something painful.",
+    "output": "✅ **Corrected Sentence:** He bit the bullet. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Bite the bullet' (cắn đạn) – chịu đựng điều đau đớn. 🔫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He broke the ice – started a conversation.",
+    "output": "✅ **Corrected Sentence:** He broke the ice. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Break the ice' (phá băng) – bắt đầu cuộc trò chuyện. 🧊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He has a chip on his shoulder – feels resentful.",
+    "output": "✅ **Corrected Sentence:** He has a chip on his shoulder. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'A chip on his shoulder' (miếng dằm trên vai) – thái độ hằn học. 🧩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is sitting on the fence – can't decide.",
+    "output": "✅ **Corrected Sentence:** He is sitting on the fence. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Sit on the fence' (ngồi trên hàng rào) – trung lập, không quyết định. 🧱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is pulling your leg – joking.",
+    "output": "✅ **Corrected Sentence:** He is pulling your leg. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Pull someone's leg' (kéo chân ai) – trêu đùa. 🦵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is barking up the wrong tree – making a wrong assumption.",
+    "output": "✅ **Corrected Sentence:** He is barking up the wrong tree. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Bark up the wrong tree' (sủa nhầm cây) – nhắm sai đối tượng. 🌳🐕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is beating around the bush – avoiding the main topic.",
+    "output": "✅ **Corrected Sentence:** He is beating around the bush. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Beat around the bush' (đánh quanh bụi cây) – nói vòng vo. 🌿"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is all ears – listening carefully.",
+    "output": "✅ **Corrected Sentence:** He is all ears. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'All ears' (toàn tai) – chăm chú lắng nghe. 👂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He has a sweet tooth – likes sweets.",
+    "output": "✅ **Corrected Sentence:** He has a sweet tooth. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Have a sweet tooth' (có răng ngọt) – thích đồ ngọt. 🍬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is in hot water – in trouble.",
+    "output": "✅ **Corrected Sentence:** He is in hot water. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'In hot water' (trong nước nóng) – gặp rắc rối. 🔥💧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is out of the woods – out of danger.",
+    "output": "✅ **Corrected Sentence:** He is out of the woods. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Out of the woods' (ra khỏi rừng) – thoát nguy hiểm. 🌲"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is under the weather – feeling ill.",
+    "output": "✅ **Corrected Sentence:** He is under the weather. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Under the weather' (dưới thời tiết) – cảm thấy ốm. ☁️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is over the moon – very happy.",
+    "output": "✅ **Corrected Sentence:** He is over the moon. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Over the moon' (qua mặt trăng) – cực kỳ vui sướng. 🌙"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is on cloud nine – very happy.",
+    "output": "✅ **Corrected Sentence:** He is on cloud nine. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'On cloud nine' (trên mây số chín) – hạnh phúc. ☁️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He has a green thumb – good at gardening.",
+    "output": "✅ **Corrected Sentence:** He has a green thumb. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Green thumb' (ngón tay cái xanh) – khéo làm vườn. 🌱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a couch potato – lazy, watches TV a lot.",
+    "output": "✅ **Corrected Sentence:** He is a couch potato. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Couch potato' (khoai tây ghế sofa) – người lười biếng xem TV. 🥔🛋️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a wet blanket – ruins the fun.",
+    "output": "✅ **Corrected Sentence:** He is a wet blanket. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Wet blanket' (chăn ướt) – người làm hỏng niềm vui. 🛌💧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a party pooper – spoils the party.",
+    "output": "✅ **Corrected Sentence:** He is a party pooper. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Party pooper' (kẻ phá tiệc) – người làm hỏng bữa tiệc. 🎉💩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a big cheese – important person.",
+    "output": "✅ **Corrected Sentence:** He is a big cheese. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Big cheese' (pho mát lớn) – người quan trọng. 🧀"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a smart cookie – intelligent.",
+    "output": "✅ **Corrected Sentence:** He is a smart cookie. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Smart cookie' (bánh quy thông minh) – người thông minh. 🍪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a tough cookie – strong person.",
+    "output": "✅ **Corrected Sentence:** He is a tough cookie. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Tough cookie' (bánh quy cứng) – người mạnh mẽ. 🍪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a piece of cake – very easy.",
+    "output": "✅ **Corrected Sentence:** It's a piece of cake. (ĐÚNG! – nhưng chủ ngữ 'it', không phải 'he')\n\n🔍 **Error Identification:** Không lỗi về idiom, nhưng dùng 'he' sai.\n\n📖 **Vietnamese Explanation:** 'A piece of cake' (một miếng bánh) – rất dễ. Nhưng nói về việc, không nói về người. 🍰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a breath of fresh air – new and refreshing.",
+    "output": "✅ **Corrected Sentence:** He is a breath of fresh air. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'A breath of fresh air' (luồng không khí trong lành) – sự mới mẻ, dễ chịu. 🌬️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a pain in the neck – annoying.",
+    "output": "✅ **Corrected Sentence:** He is a pain in the neck. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'A pain in the neck' (đau ở cổ) – kẻ gây phiền toái. 🤕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a snake in the grass – treacherous.",
+    "output": "✅ **Corrected Sentence:** He is a snake in the grass. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Snake in the grass' (rắn trong cỏ) – kẻ phản bội. 🐍"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a dark horse – unexpected winner.",
+    "output": "✅ **Corrected Sentence:** He is a dark horse. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Dark horse' (ngựa đen) – người ít ai ngờ lại thắng. 🐎"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a golden boy – successful young man.",
+    "output": "✅ **Corrected Sentence:** He is a golden boy. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Golden boy' (chàng trai vàng) – người trẻ thành công. 🏅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a good egg – nice person.",
+    "output": "✅ **Corrected Sentence:** He is a good egg. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Good egg' (quả trứng tốt) – người tử tế. 🥚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (thành ngữ) trong câu sau của học viên.",
+    "input": "He is a bad apple – corrupt person.",
+    "output": "✅ **Corrected Sentence:** He is a bad apple. (ĐÚNG!)\n\n🔍 **Error Identification:** Không lỗi.\n\n📖 **Vietnamese Explanation:** 'Bad apple' (táo hỏng) – kẻ hư hỏng. 🍎"
+  }
+]

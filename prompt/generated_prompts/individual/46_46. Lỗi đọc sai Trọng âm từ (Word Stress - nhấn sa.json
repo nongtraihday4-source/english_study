@@ -1,0 +1,532 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I need to record the record.\' Văn bản Whisper nhận được: \'I need to REcord the REcord.\' (nhấn cả hai như nhau hoặc sai)",
+    "output": "✅ **Corrected Pronunciation:** I need to reCORD the REcord.\n🔍 **Error Identification:** Sai trọng âm của từ 'record' – động từ 'record' (ghi lại) nhấn âm tiết thứ hai /rɪˈkɔːd/; danh từ 'record' (bản ghi) nhấn âm tiết thứ nhất /ˈrekɔːd/.\n📘 **Vietnamese Explanation:** Trong tiếng Việt không có trọng âm từ, nên người Việt thường nhấn đều hoặc nhấn sai. Mẹo: Nhiều cặp động từ-danh từ có trọng âm khác nhau: động từ nhấn sau, danh từ nhấn trước.\n💡 **Luyện tập:** preSENT (động từ) – PREsent (danh từ); obJECT – OBject; conDUCT – CONduct."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a beautiful girl.\' Văn bản Whisper nhận được: \'She is a BEAUtiFUL girl.\' (nhấn sai âm tiết)",
+    "output": "✅ **Corrected Pronunciation:** She is a BEAUtiFUL girl. (thực tế đúng là beauTIful? Không, 'beautiful' trọng âm rơi vào âm tiết đầu /ˈbjuːtɪfəl/, nhưng nhiều người Việt nhấn vào 'ti' hoặc 'ful'. Ở đây cần sửa: 'beautiful' trọng âm đầu /ˈbjuː.tɪ.fəl/).\n🔍 **Error Identification:** Sai trọng âm từ 'beautiful' – đúng là /ˈbjuːtɪfəl/ (nhấn âm tiết đầu), học viên nhấn sai thành /bjuːˈtɪfəl/.\n📘 **Vietnamese Explanation:** Tính từ dài 3-4 âm tiết thường có trọng âm rơi vào âm tiết thứ nhất hoặc thứ hai tùy theo quy tắc. 'Beautiful' kết thúc bằng -ful, trọng âm thường rơi vào chính từ gốc 'beauty' (âm đầu). Mẹo: Các từ kết thúc bằng -ful, -less, -ness, -ly thường giữ trọng âm của từ gốc.\n💡 **Luyện tập:** 'wonderful' /ˈwʌn.də.fəl/, 'careless' /ˈkeə.ləs/, 'happiness' /ˈhæp.i.nəs/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'We stayed at a hotel.\' Văn bản Whisper nhận được: \'We stayed at a HOtel.\' (nhấn âm đầu)",
+    "output": "✅ **Corrected Pronunciation:** We stayed at a hoTEL.\n🔍 **Error Identification:** 'Hotel' trọng âm rơi vào âm tiết thứ hai /həʊˈtel/, học viên nhấn âm đầu /ˈhəʊtel/.\n📘 **Vietnamese Explanation:** Người Việt thường nhấn âm đầu của từ mượn tiếng Pháp. Mẹo: Nhiều từ kết thúc bằng -el, -al, -ic, -tion, -sion có trọng âm rơi vào âm tiết ngay trước đuôi đó.\n💡 **Luyện tập:** aLONE, aGAIN, beGIN, comPLETE."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is an excellent student.\' Văn bản Whisper nhận được: \'She is an exCELlent student.\' (nhấn âm tiết thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** She is an EXcellent student.\n🔍 **Error Identification:** 'Excellent' trọng âm rơi vào âm tiết đầu /ˈeksələnt/, học viên nhấn sai thành /ɪkˈselənt/.\n📘 **Vietnamese Explanation:** Từ bắt đầu bằng 'ex-' thường có trọng âm rơi vào âm tiết thứ hai? Không, 'excellent' là ngoại lệ. Mẹo: Các tính từ kết thúc bằng -ent, -ant thường có trọng âm rơi vào âm tiết đầu nếu từ có 3 âm tiết trở lên? Có quy tắc: trọng âm thường rơi vào âm tiết thứ ba từ cuối lên (ante-penultimate) đối với từ có đuôi -ent, -ant. 'Excellent' có 3 âm tiết: âm thứ ba từ cuối là âm đầu /ˈek/.\n💡 **Luyện tập:** 'confident' /ˈkɒn.fɪ.dənt/, 'important' /ɪmˈpɔː.tənt/ (trọng âm rơi vào âm thứ hai – vì 'im' là tiền tố)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I love photography.\' Văn bản Whisper nhận được: \'I love phoTOgraphy.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** I love phoTOgraphy. (câu này đúng – 'photography' trọng âm rơi vào âm tiết thứ hai /fəˈtɒɡ.rə.fi/). Học viên có thể nhấn sai thành 'PHOtography' /ˈfəʊ.tə.ɡræ.fi/ – tôi sẽ sửa lại giả định.\n🔍 **Error Identification:** Học viên đọc 'photography' thành 'PHOtography' (nhấn âm đầu).\n📘 **Vietnamese Explanation:** Các từ kết thúc bằng -graphy có trọng âm rơi vào âm tiết trước -graphy, tức là âm thứ hai từ cuối lên (ante-penultimate). 'Photography' có 4 âm tiết, trọng âm rơi vào âm tiết thứ ba /fəˈtɒɡ.rə.fi/. Mẹo: -graphy, -logy, -metry thường có trọng âm rơi vào âm tiết trước đuôi.\n💡 **Luyện tập:** geOGraphy, biOLogy, geoMETry."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is an engineer.\' Văn bản Whisper nhận được: \'He is an ENgineer.\' (nhấn âm đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is an engiNEER.\n🔍 **Error Identification:** 'Engineer' trọng âm rơi vào âm tiết cuối /ˌen.dʒɪˈnɪər/, học viên nhấn âm đầu /ˈen.dʒɪ.nɪər/.\n📘 **Vietnamese Explanation:** Các từ kết thúc bằng -eer, -ese, -ique thường có trọng âm rơi vào chính đuôi đó (âm cuối). Mẹo: 'engineer', 'pioneer', 'volunteer', 'Chinese', 'Japanese', 'unique'.\n💡 **Luyện tập:** volunTEER, ChiNESE, uNIQUE."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'This information is correct.\' Văn bản Whisper nhận được: \'This inFORmation is correct.\' (nhấn sai)",
+    "output": "✅ **Corrected Pronunciation:** This inforMAtion is correct.\n🔍 **Error Identification:** 'Information' trọng âm rơi vào âm tiết thứ ba từ cuối (ante-penultimate) /ˌɪn.fəˈmeɪ.ʃən/, cụ thể là âm 'ma' /meɪ/. Học viên nhấn vào 'for' là sai.\n📘 **Vietnamese Explanation:** Các từ kết thúc bằng -tion, -sion, -cian có trọng âm rơi vào âm tiết ngay trước đuôi (penultimate). 'Information' có đuôi -tion, trọng âm rơi vào âm 'ma' (âm tiết thứ ba từ cuối? Thực tế: in-for-MA-tion – trọng âm rơi vào 'MA' là âm tiết thứ hai? Không, đếm: in(1)-for(2)-ma(3)-tion(4). Trọng âm rơi vào âm tiết thứ ba từ cuối lên? Đuôi -tion, trọng âm rơi vào âm ngay trước nó, tức là 'ma' (âm thứ 3). Quy tắc: -tion, -ic, -ical, -ity, -graphy, -logy đều có trọng âm rơi vào âm tiết trước đuôi.\n💡 **Luyện tập:** eduCAtion, compeTItion, teleVIsion."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She studies economics.\' Văn bản Whisper nhận được: \'She studies ecoNOMics.\' (nhấn sai)",
+    "output": "✅ **Corrected Pronunciation:** She studies ecoNOMics. (đúng rồi? 'economics' trọng âm rơi vào âm tiết thứ ba /ˌiː.kəˈnɒm.ɪks/ – 'nom'. Học viên có thể nhấn 'eco' hoặc 'mics'. Sửa: She studies ecoNOMics (nhấn 'nom').\n🔍 **Error Identification:** Học viên nhấn âm đầu 'Eco' thay vì 'noMICS'? Thực tế 'economics' trọng âm rơi vào 'nom' (âm tiết thứ ba).\n📘 **Vietnamese Explanation:** Các từ kết thúc bằng -ics (như mathematics, physics) thường có trọng âm rơi vào âm tiết thứ hai từ cuối? 'Economics' có 4 âm tiết: e-co-no-mics, trọng âm rơi vào 'no' (âm thứ ba từ đầu). Mẹo: Học thuộc các từ có trọng âm đặc biệt.\n💡 **Luyện tập:** maTHEmatics, phySics, poLItics."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She bought a present for me.\' Văn bản Whisper nhận được: \'She bought a preSENT for me.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** She bought a PREsent for me.\n🔍 **Error Identification:** 'Present' (danh từ – món quà) trọng âm rơi vào âm tiết đầu /ˈprez.ənt/, học viên nhấn âm thứ hai /prɪˈzent/ (động từ – trình bày).\n📘 **Vietnamese Explanation:** Lỗi do nhầm lẫn giữa danh từ và động từ có cùng cách viết. Mẹo: Danh từ thường nhấn âm đầu, động từ nhấn âm sau.\n💡 **Luyện tập:** REcord (n) – reCORD (v); CONduct (n) – conDUCT (v); PROduce (n) – proDUCE (v)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is very intelligent.\' Văn bản Whisper nhận được: \'He is very inTELLigent.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** He is very inTELLigent. (đúng – 'intelligent' trọng âm rơi vào 'tel' /ɪnˈtel.ɪ.dʒənt/). Học viên có thể nhấn 'in' hoặc 'gent'.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'IN' thay vì 'tel'.\n📘 **Vietnamese Explanation:** Các từ có đuôi -ent, -ant thường có trọng âm rơi vào âm tiết thứ hai từ cuối lên? 'Intelligent' có 4 âm tiết, trọng âm rơi vào âm tiết thứ hai /ɪnˈtel.ɪ.dʒənt/.\n💡 **Luyện tập:** conFIdent, sigNIficant, imPORtant."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'We need to develop a plan.\' Văn bản Whisper nhận được: \'We need to DEvelop a plan.\' (nhấn âm đầu)",
+    "output": "✅ **Corrected Pronunciation:** We need to deVElop a plan.\n🔍 **Error Identification:** 'Develop' trọng âm rơi vào âm tiết thứ hai /dɪˈvel.əp/, học viên nhấn âm đầu /ˈdev.ə.ləp/.\n📘 **Vietnamese Explanation:** Nhiều động từ có tiền tố 'de-', 're-', 'pre-' thường có trọng âm rơi vào âm tiết thứ hai. Mẹo: deVElop, reCEIVE, prePARE.\n💡 **Luyện tập:** reLAX, preVENT, deCIDE."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a successful businesswoman.\' Văn bản Whisper nhận được: \'She is a SUccessful businesswoman.\' (nhấn âm đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a sucCESSful businesswoman.\n🔍 **Error Identification:** 'Successful' trọng âm rơi vào âm tiết thứ hai /səkˈses.fəl/, học viên nhấn âm đầu /ˈsʌk.ses.fəl/.\n📘 **Vietnamese Explanation:** Từ có tiền tố 'su-' không nhấn, trọng âm rơi vào âm tiết gốc 'cess'. Mẹo: sucCESS, sucCESSful.\n💡 **Luyện tập:** comPLETE, comPLETely, deCIDE, deCIsion."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm interested in history.\' Văn bản Whisper nhận được: \'I'm INterested in history.\' (nhấn âm đầu)",
+    "output": "✅ **Corrected Pronunciation:** I'm inTERested in history.\n🔍 **Error Identification:** 'Interested' trọng âm rơi vào âm tiết thứ hai /ˈɪn.trə.stɪd/ – thực tế là âm đầu? 'Interested' có trọng âm rơi vào 'in' /ˈɪn.trə.stɪd/. Ở đây học viên nhấn đúng 'in'? Tôi sửa: 'Interested' trọng âm đầu /ˈɪn.trɪ.stɪd/, học viên nhấn 'ter' là sai. Vậy: 'interested' đúng là /ˈɪn.trə.stɪd/ (nhấn 'in'). Nếu học viên nhấn 'ter' thì sai.\n📘 **Vietnamese Explanation:** 'Interested' có trọng âm rơi vào âm tiết đầu vì hậu tố -ed không ảnh hưởng. Mẹo: Các tính từ đuôi -ed, -ing giữ trọng âm của động từ gốc 'interest' /ˈɪn.trəst/.\n💡 **Luyện tập:** 'excited' /ɪkˈsaɪ.tɪd/ (trọng âm 'cite'), 'bored' /bɔːd/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He works in a laboratory.\' Văn bản Whisper nhận được: \'He works in a laBOratory.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** He works in a laBOratory. (đúng – 'laboratory' trọng âm rơi vào 'bor' /ləˈbɒr.ə.tər.i/ trong Anh-Anh; trong Anh-Mỹ là /ˈlæb.rə.tɔː.ri/ nhấn âm đầu). Tùy giọng. Ở đây giả sử học viên nhấn âm đầu 'LAB' thay vì 'bor'.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'LAB' theo giọng Mỹ nhưng lại sai vì ngữ cảnh? Tôi sẽ chọn từ khác.\nThay bằng: \'He is a photographer.\' Văn bản Whisper: \'He is a phoTOgrapher.\' (đúng) – sửa thành \'He is a PHOtographer.\' (sai).\n📘 **Explanation:** 'Photographer' trọng âm rơi vào 'tog' /fəˈtɒɡ.rə.fər/, không phải 'pho'.\n💡 **Luyện tập:** geOGrapher, biOLogist."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a photographer.\' Văn bản Whisper nhận được: \'He is a PHOtographer.\' (nhấn âm đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a phoTOgrapher.\n🔍 **Error Identification:** 'Photographer' trọng âm rơi vào 'tog' /fəˈtɒɡ.rə.fər/, học viên nhấn 'pho' /ˈfəʊ.tə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** Từ có đuôi -er, -or, -ist thường giữ trọng âm của từ gốc. 'Photography' có trọng âm 'tog', 'photographer' cũng vậy. Mẹo: 'phoTOgraphy', 'phoTOgrapher', 'photoGRAPHic' (trọng âm 'graph').\n💡 **Luyện tập:** geOGraphy, geOGrapher, geoGRAPHic."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It's a difficult question.\' Văn bản Whisper nhận được: \'It's a diffiCULT question.\' (nhấn âm cuối)",
+    "output": "✅ **Corrected Pronunciation:** It's a DIfficult question.\n🔍 **Error Identification:** 'Difficult' trọng âm rơi vào âm tiết đầu /ˈdɪf.ɪ.kəlt/, học viên nhấn 'cult' /dɪˈfɪk.əlt/.\n📘 **Vietnamese Explanation:** Tính từ 3 âm tiết kết thúc bằng -ult, -ent, -ant thường có trọng âm rơi vào âm tiết đầu. Mẹo: 'difficult', 'excellent', 'confident' (nhấn đầu).\n💡 **Luyện tập:** 'beautiful' /ˈbjuː.tɪ.fəl/, 'wonderful' /ˈwʌn.də.fəl/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a university student.\' Văn bản Whisper nhận được: \'She is a uniVERSity student.\' (nhấn âm thứ ba)",
+    "output": "✅ **Corrected Pronunciation:** She is a uniVERsity student. (đúng – 'university' trọng âm rơi vào 'ver' /ˌjuː.nɪˈvɜː.sə.ti/). Học viên nhấn 'uni' hoặc 'si'.\n🔍 **Error Identification:** Học viên nhấn 'U' /ˈjuː.nɪ.vɜː.sə.ti/ (sai).\n📘 **Vietnamese Explanation:** Từ kết thúc bằng -ity có trọng âm rơi vào âm tiết ngay trước -ity. 'University' có 'ver' trước 'si'? Thực tế 'university' có 5 âm tiết, trọng âm rơi vào âm thứ ba 'ver' /ˌjuː.nɪˈvɜː.sə.ti/. Mẹo: -ity, -ety, -osity thường có trọng âm rơi vào âm tiết thứ hai từ cuối lên (penultimate).\n💡 **Luyện tập:** posSIbility, curiOSity, eTERnity."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He has a great personality.\' Văn bản Whisper nhận được: \'He has a great perSONality.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** He has a great persoNALity.\n🔍 **Error Identification:** 'Personality' trọng âm rơi vào 'nal' /ˌpɜː.səˈnæl.ə.ti/, học viên nhấn 'son' /ˈpɜː.sə.næl.ə.ti/.\n📘 **Vietnamese Explanation:** Từ đuôi -ity, trọng âm rơi vào âm tiết trước -ity. 'Personality' có 'nal' trước 'ity' (âm 'nal' là âm thứ ba từ cuối lên).\n💡 **Luyện tập:** eQUALity, reALity, naTIONality."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is an expert in economics.\' Văn bản Whisper nhận được: \'She is an EXPert in economics.\' (nhấn âm đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is an exPERT in economics.\n🔍 **Error Identification:** 'Expert' trọng âm rơi vào âm tiết thứ hai /ˈek.spɜːt/ hay /ɪkˈspɜːt/? Thực tế 'expert' có hai cách: Anh-Mỹ /ˈek.spɜːrt/ (nhấn đầu), Anh-Anh /ɪkˈspɜːt/ (nhấn sau). Tôi chọn quy tắc: danh từ 'expert' thường nhấn đầu, nhưng nhiều sách nói nhấn thứ hai. Để tránh tranh cãi, chọn từ 'record' đã có. Tôi thay bằng 'export'.\n📘 **Thay bằng:** \'The country exports oil.\' Văn bản Whisper: \'The country EXports oil.\' (nhấn đầu) – sai.\n✅ **Corrected:** The country exPORTS oil.\n🔍 **Error Identification:** 'Export' (động từ) trọng âm rơi vào âm tiết thứ hai /ɪkˈspɔːt/, học viên nhấn âm đầu /ˈek.spɔːt/ (danh từ).\n💡 **Luyện tập:** imPORT, exPORT, reCORD."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The country exports oil.\' Văn bản Whisper nhận được: \'The country EXports oil.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** The country exPORTS oil.\n🔍 **Error Identification:** Động từ 'export' nhấn âm thứ hai /ɪkˈspɔːt/, học viên nhấn âm đầu /ˈek.spɔːt/.\n📘 **Vietnamese Explanation:** Nhiều cặp động từ-danh từ: động từ nhấn sau, danh từ nhấn trước. Mẹo: 'exPORT', 'imPORT', 'transPORT'.\n💡 **Luyện tập:** 'import' (v) /ɪmˈpɔːt/, (n) /ˈɪm.pɔːt/; 'produce' (v) /prəˈdjuːs/, (n) /ˈprɒ.djuːs/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She bought a new computer.\' Văn bản Whisper nhận được: \'She bought a new comPUter.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** She bought a new comPUter. (đúng – 'computer' trọng âm rơi vào 'pu' /kəmˈpjuː.tər/). Học viên nhấn 'com' /ˈkɒm.pjuː.tər/.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'COM' thay vì 'PU'.\n📘 **Vietnamese Explanation:** Các từ có đuôi -er, -or thường giữ trọng âm của từ gốc. 'Compute' có trọng âm 'pu' /kəmˈpjuːt/, nên 'computer' cũng vậy.\n💡 **Luyện tập:** comPUter, calCUlator, inTERpreter."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a professional athlete.\' Văn bản Whisper nhận được: \'He is a PROfessional athlete.\' (nhấn âm đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a proFESsional athlete.\n🔍 **Error Identification:** 'Professional' trọng âm rơi vào 'fes' /prəˈfeʃ.ən.əl/, học viên nhấn 'pro' /ˈprəʊ.feʃ.ən.əl/.\n📘 **Vietnamese Explanation:** Từ có đuôi -ion, -ian, -ial thường có trọng âm rơi vào âm tiết trước đuôi. 'Professional' có 'fess' trước 'ion'? Thực tế 'profession' có trọng âm 'fes' /prəˈfeʃ.ən/, nên 'professional' cũng vậy.\n💡 **Luyện tập:** ofFICial, muSIcian, poLItician."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She loves chocolate.\' Văn bản Whisper nhận được: \'She loves choCOlate.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** She loves CHOcolate.\n🔍 **Error Identification:** 'Chocolate' trọng âm rơi vào âm tiết đầu /ˈtʃɒk.lət/, học viên nhấn 'co' /tʃɒˈkɒ.lət/.\n📘 **Vietnamese Explanation:** Từ 3 âm tiết, nhiều từ có trọng âm rơi vào âm đầu. Mẹo: 'chocolate', 'desperate', 'conference' (nhấn đầu).\n💡 **Luyện tập:** 'family' /ˈfæm.əl.i/, 'interesting' /ˈɪn.trə.stɪŋ/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a vegetarian.\' Văn bản Whisper nhận được: \'He is a vegeTArian.\' (nhấn âm thứ ba)",
+    "output": "✅ **Corrected Pronunciation:** He is a vegeTArian. (đúng – 'vegetarian' trọng âm rơi vào 'ta' /ˌvedʒ.ɪˈteə.ri.ən/). Học viên nhấn 'veg' /ˈvedʒ.ɪ.teə.ri.ən/.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'VEG' thay vì 'TA'.\n📘 **Vietnamese Explanation:** Từ đuôi -ian có trọng âm rơi vào âm tiết trước -ian. 'Vegetarian' có 'tar' trước 'ian'? 'tar' là âm thứ ba 'ta' /teə/.\n💡 **Luyện tập:** huMANitarian, liBRARian, comEDIan."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'We need to focus on education.\' Văn bản Whisper nhận được: \'We need to focus on eduCAtion.\' (nhấn âm thứ ba)",
+    "output": "✅ **Corrected Pronunciation:** We need to focus on eduCAtion. (đúng – 'education' trọng âm rơi vào 'ca' /ˌedʒ.ʊˈkeɪ.ʃən/). Học viên nhấn 'edu' /ˈed.ʒʊ.keɪ.ʃən/.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'ED' thay vì 'CA'.\n📘 **Vietnamese Explanation:** Từ đuôi -tion có trọng âm rơi vào âm tiết ngay trước -tion. 'Education' có 'ca' trước 'tion'.\n💡 **Luyện tập:** appliCAtion, compeTItion, comMUication."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a scientist.\' Văn bản Whisper nhận được: \'She is a SCIentist.\' (nhấn âm đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a SCIentist. (đúng – 'scientist' trọng âm rơi vào 'sci' /ˈsaɪ.ən.tɪst/). Nếu học viên nhấn 'entist' là sai.\n🔍 **Error Identification:** Học viên nhấn 'tist' /saɪˈen.tɪst/.\n📘 **Vietnamese Explanation:** Từ đuôi -ist thường giữ trọng âm của từ gốc. 'Science' /ˈsaɪ.əns/ nhấn đầu, nên 'scientist' cũng nhấn đầu.\n💡 **Luyện tập:** 'artist' /ˈɑː.tɪst/, 'journalist' /ˈdʒɜː.nə.lɪst/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is optimistic about the future.\' Văn bản Whisper nhận được: \'He is opTImitic about the future.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** He is opTImitic about the future. (đúng – 'optimistic' trọng âm rơi vào 'ti' /ˌɒp.tɪˈmɪs.tɪk/). Học viên nhấn 'op' /ˈɒp.tɪ.mɪs.tɪk/.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'OP' thay vì 'TI'.\n📘 **Vietnamese Explanation:** Từ đuôi -ic có trọng âm rơi vào âm tiết ngay trước -ic. 'Optimistic' có 'mis' trước 'tic'? 'mis' là âm thứ ba, nhưng trọng âm rơi vào 'ti'? Thực tế 'optimistic' /ˌɒp.tɪˈmɪs.tɪk/ – trọng âm rơi vào 'mis'? /mɪs/ là âm thứ ba? Đếm: op-ti-mis-tic (4 âm), trọng âm rơi vào 'mis' (âm thứ ba). Nhưng phiên âm /ˌɒp.tɪˈmɪs.tɪk/ cho thấy trọng âm chính ở 'mis'? Dấu phụ /ˈ/ đặt trước 'mɪs', vậy trọng âm chính rơi vào 'mis', phụ vào 'op'. Học viên nhấn 'op' là sai.\n💡 **Luyện tập:** pesSIMistic, aCADemic, ecoNOMic."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a receptionist.\' Văn bản Whisper nhận được: \'She is a reCEPtionist.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** She is a reCEPtionist. (đúng – 'receptionist' trọng âm rơi vào 'cep' /rɪˈsep.ʃən.ɪst/). Học viên nhấn 're' /ˈriː.sep.ʃən.ɪst/.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'RE' thay vì 'CEP'.\n📘 **Vietnamese Explanation:** Từ gốc 'reception' có trọng âm 'cep', thêm -ist giữ nguyên trọng âm.\n💡 **Luyện tập:** 'composition' /ˌkɒm.pəˈzɪʃ.ən/ (trọng âm 'zi'), 'position' /pəˈzɪʃ.ən/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I need to make a decision.\' Văn bản Whisper nhận được: \'I need to make a deCIsion.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** I need to make a deCIsion. (đúng – 'decision' trọng âm rơi vào 'ci' /dɪˈsɪʒ.ən/). Học viên nhấn 'de' /ˈdiː.sɪʒ.ən/.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'DE' thay vì 'CI'.\n📘 **Vietnamese Explanation:** Từ đuôi -sion có trọng âm rơi vào âm tiết trước -sion. 'Decision' có 'ci' trước 'sion'.\n💡 **Luyện tập:** 'television' /ˈtel.ɪ.vɪʒ.ən/ (trọng âm đầu 'tel'), 'division' /dɪˈvɪʒ.ən/ (trọng âm 'vi')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a volunteer.\' Văn bản Whisper nhận được: \'She is a volunTEER.\' (đúng) – học viên nhấn 'VOL' /ˈvɒl.ən.tɪər/.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'VOL' thay vì 'TEER'.\n📘 **Vietnamese Explanation:** Từ đuôi -eer nhấn vào chính đuôi đó.\n💡 **Luyện tập:** 'pioneer', 'engineer', 'mountaineer'.",
+    "output": "✅ **Corrected Pronunciation:** She is a volunTEER.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'VOL' thay vì 'TEER'.\n📘 **Vietnamese Explanation:** Từ đuôi -eer nhấn vào chính đuôi đó.\n💡 **Luyện tập:** 'pioneer', 'engineer', 'mountaineer'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a Japanese student.\' Văn bản Whisper nhận được: \'She is a JApanese student.\' (nhấn âm đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a JapaNESE student.\n🔍 **Error Identification:** 'Japanese' trọng âm rơi vào âm tiết cuối /ˌdʒæp.əˈniːz/, học viên nhấn đầu /ˈdʒæp.ə.niːz/.\n📘 **Vietnamese Explanation:** Các từ chỉ quốc tịch kết thúc bằng -ese có trọng âm rơi vào chính -ese. Mẹo: 'Chinese', 'Vietnamese', 'Portuguese'.\n💡 **Luyện tập:** 'Chinese' /ˌtʃaɪˈniːz/, 'Vietnamese' /ˌvjet.nəˈmiːz/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is an employee.\' Văn bản Whisper nhận được: \'He is an EMployee.\' (nhấn âm đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is an emPLOYee.\n🔍 **Error Identification:** 'Employee' trọng âm rơi vào 'ploy' /ɪmˈplɔɪ.iː/, học viên nhấn 'em' /ˈem.plɔɪ.iː/.\n📘 **Vietnamese Explanation:** Từ có tiền tố 'em-' không nhấn, trọng âm rơi vào âm tiết gốc 'ploy'.\n💡 **Luyện tập:** 'employer' /ɪmˈplɔɪ.ər/, 'interview' /ˈɪn.tə.vjuː/ (nhấn đầu)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a biologist.\' Văn bản Whisper nhận được: \'She is a BIOlogist.\' (nhấn âm đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a biOLogist.\n🔍 **Error Identification:** 'Biologist' trọng âm rơi vào 'ol' /baɪˈɒl.ə.dʒɪst/, học viên nhấn 'bi' /ˈbaɪ.ə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** Từ đuôi -logist có trọng âm giống -logy. 'Biology' trọng âm 'ol', nên 'biologist' cũng vậy.\n💡 **Luyện tập:** 'geologist', 'psychologist', 'zoologist'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a politician.\' Văn bản Whisper nhận được: \'He is a poLItician.\' (đúng) – học viên nhấn 'POL' /ˈpɒl.ɪ.tɪʃ.ən/.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'POL' thay vì 'LI'.\n📘 **Vietnamese Explanation:** Từ đuôi -ician có trọng âm rơi vào âm tiết trước -ician. 'Politician' có 'li' trước 'cian'.\n💡 **Luyện tập:** 'musician', 'physician', 'mathematician'.",
+    "output": "✅ **Corrected Pronunciation:** He is a poLItician.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'POL' thay vì 'LI'.\n📘 **Vietnamese Explanation:** Từ đuôi -ician có trọng âm rơi vào âm tiết trước -ician. 'Politician' có 'li' trước 'cian'.\n💡 **Luyện tập:** 'musician', 'physician', 'mathematician'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a vegetarian.\' Văn bản Whisper nhận được: \'She is a VEgetarian.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a vegeTArian.\n🔍 **Error Identification:** Như trên, nhấn 'TA'.\n📘 **Vietnamese Explanation:** Nhắc lại quy tắc -ian.\n💡 **Luyện tập:** 'humanitarian', 'librarian'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'We need to communicate.\' Văn bản Whisper nhận được: \'We need to comMUnicate.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** We need to comMUnicate. (đúng – 'communicate' trọng âm rơi vào 'mu' /kəˈmjuː.nɪ.keɪt/). Học viên nhấn 'com' /ˈkɒ.mjuː.nɪ.keɪt/.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'COM' thay vì 'MU'.\n📘 **Vietnamese Explanation:** Động từ dài thường có trọng âm rơi vào âm tiết thứ hai hoặc thứ ba. 'Communicate' có 'mu' là âm thứ hai.\n💡 **Luyện tập:** 'appreciate', 'participate', 'investigate'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a receptionist.\' (lặp lại nhưng với lỗi khác)",
+    "output": "✅ **Corrected Pronunciation:** She is a reCEPtionist.\n🔍 **Error Identification:** Học viên nhấn 're' là sai.\n📘 **Vietnamese Explanation:** Từ gốc 'reception' nhấn 'cep'.\n💡 **Luyện tập:** 'participation', 'anticipation'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a mathematician.\' Văn bản Whisper nhận được: \'He is a mathEMatician.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** He is a mathEMatician. (đúng – 'mathematician' trọng âm rơi vào 'ma'? /ˌmæθ.ə.məˈtɪʃ.ən/ – trọng âm rơi vào 'ti'? Phiên âm: /ˌmæθ.ə.məˈtɪʃ.ən/ có dấu nhấn chính ở 'ti' /tɪʃ/. Học viên nhấn 'ma' /ˈmæθ.ə.mə.tɪʃ.ən/.\n🔍 **Error Identification:** Học viên nhấn âm đầu 'MATH' thay vì 'TI'.\n📘 **Vietnamese Explanation:** Từ đuôi -ician có trọng âm rơi vào âm tiết trước -ician. 'Mathematician' có 'ti' trước 'cian'.\n💡 **Luyện tập:** 'statistician', 'politician', 'musician'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a psychologist.\' Văn bản Whisper nhận được: \'She is a psyCHOlogist.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** She is a psyCHOlologist? 'Psychologist' trọng âm rơi vào 'chol' /saɪˈkɒl.ə.dʒɪst/. Học viên nhấn 'psy' /ˈsaɪ.kɒl.ə.dʒɪst/.\n🔍 **Error Identification:** Học viên nhấn 'PSY' thay vì 'CHOL'.\n📘 **Vietnamese Explanation:** Giống 'biologist', trọng âm rơi vào âm tiết thứ hai.\n💡 **Luyện tập:** 'psychology', 'biological'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is an economist.\' Văn bản Whisper nhận được: \'He is an EConomist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is an eCONomist.\n🔍 **Error Identification:** 'Economist' trọng âm rơi vào 'con' /ɪˈkɒn.ə.mɪst/, học viên nhấn 'e' /ˈiː.kɒn.ə.mɪst/.\n📘 **Vietnamese Explanation:** Từ gốc 'economy' /ɪˈkɒn.ə.mi/ nhấn 'con', nên 'economist' cũng vậy.\n💡 **Luyện tập:** 'economy', 'economic', 'economical'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a photographer.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** She is a phoTOgrapher.\n🔍 **Error Identification:** Học viên nhấn 'pho'.\n📘 **Vietnamese Explanation:** Nhấn âm 'tog'.\n💡 **Luyện tập:** 'photography', 'photographic'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a geographer.\' Văn bản Whisper nhận được: \'He is a GEOgrapher.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a geOGrapher.\n🔍 **Error Identification:** 'Geographer' trọng âm rơi vào 'og' /dʒiˈɒɡ.rə.fər/, học viên nhấn 'ge' /ˈdʒiː.ə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** Tương tự 'photographer'.\n💡 **Luyện tập:** 'geography', 'geographic'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a journalist.\' Văn bản Whisper nhận được: \'She is a jourNAList.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** She is a JOURnalist. (trọng âm đầu /ˈdʒɜː.nə.lɪst/). Học viên nhấn 'nal' /dʒɜːˈnæ.lɪst/.\n🔍 **Error Identification:** 'Journalist' trọng âm đầu, học viên nhấn âm thứ hai.\n📘 **Vietnamese Explanation:** Từ gốc 'journal' nhấn đầu, thêm -ist giữ nguyên.\n💡 **Luyện tập:** 'journal', 'journey'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is an architect.\' Văn bản Whisper nhận được: \'He is an arCHItect.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** He is an ARchitect. (trọng âm đầu /ˈɑː.kɪ.tekt/). Học viên nhấn 'chi' /ɑːˈkɪ.tekt/.\n🔍 **Error Identification:** 'Architect' trọng âm đầu, học viên nhấn âm thứ hai.\n📘 **Vietnamese Explanation:** Các từ kết thúc bằng -ect thường có trọng âm rơi vào âm tiết đầu? 'Architect' nhấn đầu, 'perfect' nhấn đầu, 'project' (danh từ) nhấn đầu.\n💡 **Luyện tập:** 'architect', 'architecture' /ˈɑː.kɪ.tek.tʃər/ (nhấn đầu)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a pianist.\' Văn bản Whisper nhận được: \'She is a PIanist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a piANist. (trọng âm rơi vào 'an' /piˈæ.nɪst/). Học viên nhấn 'pi' /ˈpiː.ə.nɪst/.\n🔍 **Error Identification:** 'Pianist' trọng âm thứ hai, học viên nhấn đầu.\n📘 **Vietnamese Explanation:** 'Piano' /piˈæ.nəʊ/ nhấn 'an', nên 'pianist' cũng vậy.\n💡 **Luyện tập:** 'piano', 'violinist' /ˌvaɪ.əˈlɪn.ɪst/ (nhấn 'lin')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a magician.\' Văn bản Whisper nhận được: \'He is a MAgician.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a maGIcian.\n🔍 **Error Identification:** 'Magician' trọng âm rơi vào 'gi' /məˈdʒɪʃ.ən/, học viên nhấn 'ma' /ˈmæ.dʒɪʃ.ən/.\n📘 **Vietnamese Explanation:** Từ đuôi -ician nhấn trước -ician.\n💡 **Luyện tập:** 'magic' /ˈmædʒ.ɪk/ (nhấn đầu), 'magician' (chuyển trọng âm)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a technician.\' Văn bản Whisper nhận được: \'She is a TECHnician.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a techNIcian.\n🔍 **Error Identification:** 'Technician' trọng âm rơi vào 'ni' /tekˈnɪʃ.ən/, học viên nhấn 'tech' /ˈtek.nɪʃ.ən/.\n📘 **Vietnamese Explanation:** -ician rule.\n💡 **Luyện tập:** 'technique' /tekˈniːk/ (nhấn 'nique'), 'technical' /ˈtek.nɪ.kəl/ (nhấn đầu)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a statistician.\' Văn bản Whisper nhận được: \'He is a staTIStician.\' (nhấn âm thứ hai)",
+    "output": "✅ **Corrected Pronunciation:** He is a statisTIcian.\n🔍 **Error Identification:** 'Statistician' trọng âm rơi vào 'ti' /ˌstæt.ɪˈstɪʃ.ən/, học viên nhấn 'tis' /stəˈtɪs.tɪʃ.ən/.\n📘 **Vietnamese Explanation:** -ician rule.\n💡 **Luyện tập:** 'statistics' /stəˈtɪs.tɪks/ (nhấn 'tis'), 'statistical' /stəˈtɪs.tɪ.kəl/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a beautician.\' Văn bản Whisper nhận được: \'She is a BEAUtician.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a beauTIcian.\n🔍 **Error Identification:** 'Beautician' trọng âm rơi vào 'ti' /bjuːˈtɪʃ.ən/, học viên nhấn 'beau' /ˈbjuː.tɪʃ.ən/.\n📘 **Vietnamese Explanation:** -ician rule.\n💡 **Luyện tập:** 'beauty' /ˈbjuː.ti/ (nhấn đầu), 'beautiful' /ˈbjuː.tɪ.fəl/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a politician.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** He is a poliTIcian.\n🔍 **Error Identification:** Nhấn 'TI'.\n💡 **Luyện tập:** 'politics' /ˈpɒl.ə.tɪks/ (nhấn đầu), 'political' /pəˈlɪt.ɪ.kəl/ (nhấn 'lit')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a musician.\' Văn bản Whisper nhận được: \'She is a MUician.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a muSIcian.\n🔍 **Error Identification:** 'Musician' trọng âm rơi vào 'si' /mjuːˈzɪʃ.ən/, học viên nhấn 'mu' /ˈmjuː.zɪʃ.ən/.\n📘 **Vietnamese Explanation:** -ician rule.\n💡 **Luyện tập:** 'music' /ˈmjuː.zɪk/ (nhấn đầu), 'musical' /ˈmjuː.zɪ.kəl/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a physician.\' Văn bản Whisper nhận được: \'He is a PHYsician.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a phySIcian.\n🔍 **Error Identification:** 'Physician' trọng âm rơi vào 'si' /fɪˈzɪʃ.ən/, học viên nhấn 'phy' /ˈfɪ.zɪʃ.ən/.\n📘 **Vietnamese Explanation:** -ician rule.\n💡 **Luyện tập:** 'physics' /ˈfɪz.ɪks/ (nhấn đầu), 'physical' /ˈfɪz.ɪ.kəl/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a pediatrician.\' Văn bản Whisper nhận được: \'She is a PEDIatrician.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a pediaTRician.\n🔍 **Error Identification:** 'Pediatrician' trọng âm rơi vào 'tri' /ˌpiː.di.əˈtrɪʃ.ən/, học viên nhấn 'pe' /ˈpiː.di.ə.trɪʃ.ən/.\n📘 **Vietnamese Explanation:** -ician rule.\n💡 **Luyện tập:** 'pediatrics' /ˌpiː.diˈæt.rɪks/ (nhấn 'at')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a librarian.\' Văn bản Whisper nhận được: \'He is a LIbrarian.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a liBRARian.\n🔍 **Error Identification:** 'Librarian' trọng âm rơi vào 'brar' /laɪˈbreə.ri.ən/, học viên nhấn 'li' /ˈlaɪ.breə.ri.ən/.\n📘 **Vietnamese Explanation:** -ian rule.\n💡 **Luyện tập:** 'library' /ˈlaɪ.brər.i/ (nhấn đầu), 'librarian' chuyển trọng âm."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a veterinarian.\' Văn bản Whisper nhận được: \'She is a VETerinarian.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a veteriNARian.\n🔍 **Error Identification:** 'Veterinarian' trọng âm rơi vào 'nar' /ˌvet.ər.ɪˈneə.ri.ən/, học viên nhấn 'vet' /ˈvet.ər.ɪ.neə.ri.ən/.\n📘 **Vietnamese Explanation:** -ian rule.\n💡 **Luyện tập:** 'veterinary' /ˈvet.ər.ɪ.nər.i/ (nhấn đầu)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a humanitarian.\' Văn bản Whisper nhận được: \'He is a HUmanitarian.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a humaniTArian.\n🔍 **Error Identification:** 'Humanitarian' trọng âm rơi vào 'tar' /hjuːˌmæn.ɪˈteə.ri.ən/, học viên nhấn 'hu' /ˈhjuː.mæn.ɪ.teə.ri.ən/.\n📘 **Vietnamese Explanation:** -ian rule.\n💡 **Luyện tập:** 'human' /ˈhjuː.mən/ (nhấn đầu)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a vegetarian.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** She is a vegeTArian.\n💡 **Luyện tập:** 'vegetable' /ˈvedʒ.tə.bəl/ (nhấn đầu)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a grammarian.\' Văn bản Whisper nhận được: \'He is a GRAMmarian.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a gramMArian.\n🔍 **Error Identification:** 'Grammarian' trọng âm rơi vào 'mar' /ɡrəˈmeə.ri.ən/, học viên nhấn 'gram' /ˈɡræm.ə.ri.ən/.\n📘 **Vietnamese Explanation:** -ian rule.\n💡 **Luyện tập:** 'grammar' /ˈɡræm.ər/ (nhấn đầu)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a historian.\' Văn bản Whisper nhận được: \'She is a HIStorian.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a hisTOrian.\n🔍 **Error Identification:** 'Historian' trọng âm rơi vào 'to' /hɪˈstɔː.ri.ən/, học viên nhấn 'his' /ˈhɪ.stɔː.ri.ən/.\n📘 **Vietnamese Explanation:** -ian rule.\n💡 **Luyện tập:** 'history' /ˈhɪs.tər.i/ (nhấn đầu)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a mathematician.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** He is a mathemaTIcian.\n💡 **Luyện tập:** 'mathematics' /ˌmæθ.əˈmæt.ɪks/ (nhấn 'mat')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a statistician.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** She is a statisTIcian.\n💡 **Luyện tập:** 'statistics' /stəˈtɪs.tɪks/ (nhấn 'tis')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is an economist.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** He is an eCONomist.\n💡 **Luyện tập:** 'economy' /ɪˈkɒn.ə.mi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a biologist.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** She is a biOLogist.\n💡 **Luyện tập:** 'biology' /baɪˈɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a geologist.\' Văn bản Whisper nhận được: \'He is a GEOlogist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a geOLogist.\n🔍 **Error Identification:** 'Geologist' trọng âm rơi vào 'ol' /dʒiˈɒl.ə.dʒɪst/, học viên nhấn 'ge' /ˈdʒiː.ə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'geology' /dʒiˈɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a psychologist.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** She is a psyCHOlologist? 'Psychologist' /saɪˈkɒl.ə.dʒɪst/ nhấn 'chol'.\n💡 **Luyện tập:** 'psychology' /saɪˈkɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a sociologist.\' Văn bản Whisper nhận được: \'He is a SOciologist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a soCIologist.\n🔍 **Error Identification:** 'Sociologist' trọng âm rơi vào 'ci' /ˌsəʊ.siˈɒl.ə.dʒɪst/ (hoặc /səʊʃiˈɒl.ə.dʒɪst/), học viên nhấn 'so' /ˈsəʊ.si.ə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'sociology' /ˌsəʊ.siˈɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is an anthropologist.\' Văn bản Whisper nhận được: \'She is an ANthropologist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is an anthroPOlogist.\n🔍 **Error Identification:** 'Anthropologist' trọng âm rơi vào 'po' /ˌæn.θrəˈpɒl.ə.dʒɪst/, học viên nhấn 'an' /ˈæn.θrə.pə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'anthropology' /ˌæn.θrəˈpɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a zoologist.\' Văn bản Whisper nhận được: \'He is a ZOologist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a zoOLogist.\n🔍 **Error Identification:** 'Zoologist' trọng âm rơi vào 'ol' /zuːˈɒl.ə.dʒɪst/ (hoặc /zəʊˈɒl.ə.dʒɪst/), học viên nhấn 'zo' /ˈzuː.ə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'zoology' /zuːˈɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a meteorologist.\' Văn bản Whisper nhận được: \'She is a METEorologist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a meteoROlogist.\n🔍 **Error Identification:** 'Meteorologist' trọng âm rơi vào 'ro' /ˌmiː.ti.əˈrɒl.ə.dʒɪst/, học viên nhấn 'me' /ˈmiː.ti.ə.rə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'meteorology' /ˌmiː.ti.əˈrɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a climatologist.\' Văn bản Whisper nhận được: \'He is a CLImatologist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a climaTOlogist.\n🔍 **Error Identification:** 'Climatologist' trọng âm rơi vào 'to' /ˌklaɪ.məˈtɒl.ə.dʒɪst/, học viên nhấn 'cli' /ˈklaɪ.mə.tə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'climatology' /ˌklaɪ.məˈtɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is an archaeologist.\' Văn bản Whisper nhận được: \'She is an ARchaeologist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is an archaeOLogist.\n🔍 **Error Identification:** 'Archaeologist' trọng âm rơi vào 'ol' /ˌɑː.kiˈɒl.ə.dʒɪst/, học viên nhấn 'ar' /ˈɑː.ki.ə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'archaeology' /ˌɑː.kiˈɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a biologist.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** He is a biOLogist.\n💡 **Luyện tập:** 'biology' /baɪˈɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a geographer.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** She is a geOGrapher.\n💡 **Luyện tập:** 'geography' /dʒiˈɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a photographer.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** He is a phoTOgrapher.\n💡 **Luyện tập:** 'photography' /fəˈtɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a choreographer.\' Văn bản Whisper nhận được: \'She is a CHOreographer.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a choreOGrapher.\n🔍 **Error Identification:** 'Choreographer' trọng âm rơi vào 'og' /ˌkɒr.iˈɒɡ.rə.fər/, học viên nhấn 'cho' /ˈkɒr.i.ə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** -grapher rule.\n💡 **Luyện tập:** 'choreography' /ˌkɒr.iˈɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a stenographer.\' Văn bản Whisper nhận được: \'He is a STENographer.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a steNOgrapher.\n🔍 **Error Identification:** 'Stenographer' trọng âm rơi vào 'nog' /stəˈnɒɡ.rə.fər/, học viên nhấn 'sten' /ˈsten.ə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** -grapher rule.\n💡 **Luyện tập:** 'stenography' /stəˈnɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a radiographer.\' Văn bản Whisper nhận được: \'She is a RADiographer.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a raDIographer.\n🔍 **Error Identification:** 'Radiographer' trọng âm rơi vào 'di' /ˌreɪ.diˈɒɡ.rə.fər/, học viên nhấn 'ra' /ˈreɪ.di.ə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** -grapher rule.\n💡 **Luyện tập:** 'radiography' /ˌreɪ.diˈɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a biographer.\' Văn bản Whisper nhận được: \'He is a BIOgrapher.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a biOGrapher.\n🔍 **Error Identification:** 'Biographer' trọng âm rơi vào 'og' /baɪˈɒɡ.rə.fər/, học viên nhấn 'bi' /ˈbaɪ.ə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** -grapher rule.\n💡 **Luyện tập:** 'biography' /baɪˈɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a lexicographer.\' Văn bản Whisper nhận được: \'She is a LEXicographer.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a lexiCOgrapher.\n🔍 **Error Identification:** 'Lexicographer' trọng âm rơi vào 'cog' /ˌlek.sɪˈkɒɡ.rə.fər/, học viên nhấn 'lex' /ˈlek.sɪ.kə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** -grapher rule.\n💡 **Luyện tập:** 'lexicography' /ˌlek.sɪˈkɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a cartographer.\' Văn bản Whisper nhận được: \'He is a CARtographer.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a carTOgrapher.\n🔍 **Error Identification:** 'Cartographer' trọng âm rơi vào 'tog' /kɑːˈtɒɡ.rə.fər/, học viên nhấn 'car' /ˈkɑː.tə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** -grapher rule.\n💡 **Luyện tập:** 'cartography' /kɑːˈtɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a demographer.\' Văn bản Whisper nhận được: \'She is a DEMographer.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a deMOgrapher.\n🔍 **Error Identification:** 'Demographer' trọng âm rơi vào 'mo' /dɪˈmɒɡ.rə.fər/, học viên nhấn 'de' /ˈdiː.mə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** -grapher rule.\n💡 **Luyện tập:** 'demography' /dɪˈmɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a ethnographer.\' Văn bản Whisper nhận được: \'He is a ETHnographer.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a ethNOgrapher.\n🔍 **Error Identification:** 'Ethnographer' trọng âm rơi vào 'nog' /eθˈnɒɡ.rə.fər/, học viên nhấn 'eth' /ˈeθ.nə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** -grapher rule.\n💡 **Luyện tập:** 'ethnography' /eθˈnɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a oceanographer.\' Văn bản Whisper nhận được: \'She is a OCEanographer.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a oceaNOgrapher.\n🔍 **Error Identification:** 'Oceanographer' trọng âm rơi vào 'nog' /ˌəʊ.ʃəˈnɒɡ.rə.fər/, học viên nhấn 'o' /ˈəʊ.ʃə.nə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** -grapher rule.\n💡 **Luyện tập:** 'oceanography' /ˌəʊ.ʃəˈnɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a seismographer.\' Văn bản Whisper nhận được: \'He is a SEISmographer.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a seisMOgrapher.\n🔍 **Error Identification:** 'Seismographer' trọng âm rơi vào 'mo' /saɪzˈmɒɡ.rə.fər/, học viên nhấn 'seis' /ˈsaɪz.mə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** -grapher rule.\n💡 **Luyện tập:** 'seismography' /saɪzˈmɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a choreographer.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** She is a choreOGrapher.\n💡 **Luyện tập:** 'choreography' /ˌkɒr.iˈɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a calligrapher.\' Văn bản Whisper nhận được: \'He is a CALligrapher.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a calLIgrapher.\n🔍 **Error Identification:** 'Calligrapher' trọng âm rơi vào 'li' /kəˈlɪɡ.rə.fər/, học viên nhấn 'cal' /ˈkæ.lɪ.ɡræ.fər/.\n📘 **Vietnamese Explanation:** -grapher rule.\n💡 **Luyện tập:** 'calligraphy' /kəˈlɪɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a typographer.\' Văn bản Whisper nhận được: \'She is a TYpographer.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a tyPOgrapher.\n🔍 **Error Identification:** 'Typographer' trọng âm rơi vào 'po' /taɪˈpɒɡ.rə.fər/, học viên nhấn 'ty' /ˈtaɪ.pə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** -grapher rule.\n💡 **Luyện tập:** 'typography' /taɪˈpɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a cinematographer.\' Văn bản Whisper nhận được: \'He is a CINematographer.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a cinemaTOgrapher.\n🔍 **Error Identification:** 'Cinematographer' trọng âm rơi vào 'tog' /ˌsɪn.ɪ.məˈtɒɡ.rə.fər/, học viên nhấn 'cin' /ˈsɪn.ɪ.mə.tə.ɡræ.fər/.\n📘 **Vietnamese Explanation:** -grapher rule.\n💡 **Luyện tập:** 'cinematography' /ˌsɪn.ɪ.məˈtɒɡ.rə.fi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a radiologist.\' Văn bản Whisper nhận được: \'She is a RADiologist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a raDIologist.\n🔍 **Error Identification:** 'Radiologist' trọng âm rơi vào 'di' /ˌreɪ.diˈɒl.ə.dʒɪst/, học viên nhấn 'ra' /ˈreɪ.di.ə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'radiology' /ˌreɪ.diˈɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a cardiologist.\' Văn bản Whisper nhận được: \'He is a CARdiologist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a carDIologist.\n🔍 **Error Identification:** 'Cardiologist' trọng âm rơi vào 'di' /ˌkɑː.diˈɒl.ə.dʒɪst/, học viên nhấn 'car' /ˈkɑː.di.ə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'cardiology' /ˌkɑː.diˈɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a neurologist.\' Văn bản Whisper nhận được: \'She is a NEUrologist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a neuROlogist.\n🔍 **Error Identification:** 'Neurologist' trọng âm rơi vào 'ro' /ˌnjʊəˈrɒl.ə.dʒɪst/, học viên nhấn 'neu' /ˈnjʊə.rə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'neurology' /ˌnjʊəˈrɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a dermatologist.\' Văn bản Whisper nhận được: \'He is a DERmatologist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a dermaTOlogist.\n🔍 **Error Identification:** 'Dermatologist' trọng âm rơi vào 'to' /ˌdɜː.məˈtɒl.ə.dʒɪst/, học viên nhấn 'der' /ˈdɜː.mə.tə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'dermatology' /ˌdɜː.məˈtɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a gynecologist.\' Văn bản Whisper nhận được: \'She is a GYnecologist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a gyneCOlogist.\n🔍 **Error Identification:** 'Gynecologist' trọng âm rơi vào 'col' /ˌɡaɪ.nɪˈkɒl.ə.dʒɪst/ (hoặc /ˌdʒaɪ.nɪˈkɒl.ə.dʒɪst/), học viên nhấn 'gyn' /ˈɡaɪ.nɪ.kə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'gynecology' /ˌɡaɪ.nɪˈkɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a pediatrician.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** He is a pediaTRician.\n💡 **Luyện tập:** 'pediatrics' /ˌpiː.diˈæt.rɪks/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a psychiatrist.\' Văn bản Whisper nhận được: \'She is a PSYchiatrist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a psyCHIatrist.\n🔍 **Error Identification:** 'Psychiatrist' trọng âm rơi vào 'chi' /saɪˈkaɪ.ə.trɪst/, học viên nhấn 'psy' /ˈsaɪ.kaɪ.ə.trɪst/.\n📘 **Vietnamese Explanation:** Từ đuôi -iatrist thường có trọng âm rơi vào 'i' thứ hai? 'Psychiatrist' /saɪˈkaɪ.ə.trɪst/ nhấn 'kai'.\n💡 **Luyện tập:** 'psychiatry' /saɪˈkaɪ.ə.tri/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a podiatrist.\' Văn bản Whisper nhận được: \'He is a PODiatrist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a poDIatrist.\n🔍 **Error Identification:** 'Podiatrist' trọng âm rơi vào 'di' /pəˈdaɪ.ə.trɪst/, học viên nhấn 'pod' /ˈpɒ.daɪ.ə.trɪst/.\n📘 **Vietnamese Explanation:** -iatrist rule.\n💡 **Luyện tập:** 'podiatry' /pəˈdaɪ.ə.tri/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a geriatrician.\' Văn bản Whisper nhận được: \'She is a GERiatrician.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a geriATRician.\n🔍 **Error Identification:** 'Geriatrician' trọng âm rơi vào 'tri' /ˌdʒer.i.əˈtrɪʃ.ən/, học viên nhấn 'ger' /ˈdʒer.i.ə.trɪʃ.ən/.\n📘 **Vietnamese Explanation:** -ician rule.\n💡 **Luyện tập:** 'geriatrics' /ˌdʒer.iˈæt.rɪks/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a pediatrician.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** He is a pediaTRician.\n💡 **Luyện tập:** 'pediatrics' /ˌpiː.diˈæt.rɪks/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is an obstetrician.\' Văn bản Whisper nhận được: \'She is an OBstetrician.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is an obsteTRician.\n🔍 **Error Identification:** 'Obstetrician' trọng âm rơi vào 'tri' /ˌɒb.stəˈtrɪʃ.ən/, học viên nhấn 'ob' /ˈɒb.stə.trɪʃ.ən/.\n📘 **Vietnamese Explanation:** -ician rule.\n💡 **Luyện tập:** 'obstetrics' /əbˈstet.rɪks/ (nhấn 'tet')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a cardiologist.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** He is a carDIologist.\n💡 **Luyện tập:** 'cardiology' /ˌkɑː.diˈɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a neurologist.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** She is a neuROlogist.\n💡 **Luyện tập:** 'neurology' /ˌnjʊəˈrɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a dermatologist.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** He is a dermaTOlogist.\n💡 **Luyện tập:** 'dermatology' /ˌdɜː.məˈtɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a radiologist.\' (lặp lại)",
+    "output": "✅ **Corrected Pronunciation:** She is a raDIologist.\n💡 **Luyện tập:** 'radiology' /ˌreɪ.diˈɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a urologist.\' Văn bản Whisper nhận được: \'He is a UROlogist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a uROlogist.\n🔍 **Error Identification:** 'Urologist' trọng âm rơi vào 'ro' /jʊəˈrɒl.ə.dʒɪst/, học viên nhấn 'ur' /ˈjʊə.rə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'urology' /jʊəˈrɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a pulmonologist.\' Văn bản Whisper nhận được: \'She is a PULmonologist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** She is a pulmoNOLogist.\n🔍 **Error Identification:** 'Pulmonologist' trọng âm rơi vào 'nol' /ˌpʌl.məˈnɒl.ə.dʒɪst/, học viên nhấn 'pul' /ˈpʌl.mə.nə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'pulmonology' /ˌpʌl.məˈnɒl.ə.dʒi/."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi trọng âm từ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a gastroenterologist.\' Văn bản Whisper nhận được: \'He is a GASTroenterologist.\' (nhấn đầu)",
+    "output": "✅ **Corrected Pronunciation:** He is a gastroenteroLOGist.\n🔍 **Error Identification:** 'Gastroenterologist' trọng âm rơi vào 'log' /ˌɡæs.trəʊˌen.təˈrɒl.ə.dʒɪst/, học viên nhấn 'gas' /ˈɡæs.trəʊ.en.tə.rə.lə.dʒɪst/.\n📘 **Vietnamese Explanation:** -logist rule.\n💡 **Luyện tập:** 'gastroenterology' /ˌɡæs.trəʊˌen.təˈrɒl.ə.dʒi/."
+  }
+]

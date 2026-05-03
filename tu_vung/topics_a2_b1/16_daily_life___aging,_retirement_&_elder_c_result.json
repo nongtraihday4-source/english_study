@@ -1,0 +1,2083 @@
+[
+
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "retire",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈtaɪə(r)/",
+      "ipa_us": "/rɪˈtaɪər/",
+      "meaning_vi": "nghỉ hưu, ngừng làm việc",
+      "definition_en": "To stop working because you have reached a particular age.",
+      "example_en": "My parents plan to retire next year and travel more.",
+      "example_vi": "Bố mẹ tôi dự định nghỉ hưu vào năm tới và đi du lịch nhiều hơn.",
+      "collocations_json": [
+        "retire early",
+        "retire from work",
+        "retire at 65"
+      ],
+      "synonyms_json": [
+        "stop working",
+        "step down"
+      ],
+      "antonyms_json": [
+        "work",
+        "be employed"
+      ],
+      "mnemonic": "Re-tire: Tưởng tượng bạn 'thay lốp' (tire) cũ để nghỉ ngơi, không chạy nữa.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11046
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "pension",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpenʃn/",
+      "ipa_us": "/ˈpenʃən/",
+      "meaning_vi": "lương hưu, tiền trợ cấp",
+      "definition_en": "An amount of money paid regularly by the government or a company to a person who has retired.",
+      "example_en": "Many people rely on their pension to cover living costs after retirement.",
+      "example_vi": "Nhiều người dựa vào lương hưu để trang trải chi phí sinh hoạt sau khi nghỉ hưu.",
+      "collocations_json": [
+        "state pension",
+        "private pension",
+        "draw a pension"
+      ],
+      "synonyms_json": [
+        "retirement fund",
+        "annuity"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Pension: Tiền 'pen' (bút) viết di chúc để lại 'tion' (tiền) cho người về hưu.",
+      "frequency_rank": 4200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11047
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "elderly",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "/ˈeldəli/",
+      "ipa_us": "/ˈeldərli/",
+      "meaning_vi": "người lớn tuổi, cao tuổi",
+      "definition_en": "Used to describe people who are old.",
+      "example_en": "The elderly often need more support with daily tasks.",
+      "example_vi": "Người lớn tuổi thường cần hỗ trợ nhiều hơn với các công việc hàng ngày.",
+      "collocations_json": [
+        "elderly people",
+        "elderly care",
+        "the elderly"
+      ],
+      "synonyms_json": [
+        "aged",
+        "senior",
+        "old"
+      ],
+      "antonyms_json": [
+        "young",
+        "youthful"
+      ],
+      "mnemonic": "Elderly: 'Elder' là người lớn hơn, 'ly' là tính từ. Người lớn tuổi.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11048
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "senior citizen",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˌsiːniə ˈsɪtɪzn/",
+      "ipa_us": "/ˌsiːniər ˈsɪtɪzn/",
+      "meaning_vi": "công dân cao tuổi",
+      "definition_en": "An older person, especially one who has retired from work.",
+      "example_en": "Many shops offer discounts for senior citizens.",
+      "example_vi": "Nhiều cửa hàng giảm giá cho công dân cao tuổi.",
+      "collocations_json": [
+        "senior citizen discount",
+        "senior citizen card"
+      ],
+      "synonyms_json": [
+        "elderly person",
+        "retiree"
+      ],
+      "antonyms_json": [
+        "young person"
+      ],
+      "mnemonic": "Senior Citizen: 'Senior' là cấp cao, 'citizen' là công dân. Công dân cấp cao tuổi.",
+      "frequency_rank": 3100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11049
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "caregiver",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈkeəɡɪvə(r)/",
+      "ipa_us": "/ˈkerɡɪvər/",
+      "meaning_vi": "người chăm sóc",
+      "definition_en": "A person who provides care for someone who is sick, elderly, or disabled.",
+      "example_en": "Being a caregiver for a loved one can be very demanding.",
+      "example_vi": "Trở thành người chăm sóc cho người thân có thể rất vất vả.",
+      "collocations_json": [
+        "family caregiver",
+        "professional caregiver",
+        "primary caregiver"
+      ],
+      "synonyms_json": [
+        "carer",
+        "attendant"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Care-giver: Người 'cho' (giver) sự 'chăm sóc' (care).",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11050
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "nursing home",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "medical",
+      "ipa_uk": "/ˈnɜːsɪŋ həʊm/",
+      "ipa_us": "/ˈnɜːrsɪŋ hoʊm/",
+      "meaning_vi": "viện dưỡng lão",
+      "definition_en": "A place where old people or people who are ill can live and be cared for.",
+      "example_en": "Some families choose a nursing home for their elderly relatives.",
+      "example_vi": "Một số gia đình chọn viện dưỡng lão cho người thân lớn tuổi của họ.",
+      "collocations_json": [
+        "live in a nursing home",
+        "nursing home staff"
+      ],
+      "synonyms_json": [
+        "care home",
+        "retirement home"
+      ],
+      "antonyms_json": [
+        "private residence"
+      ],
+      "mnemonic": "Nursing Home: 'Y tá' (nursing) chăm sóc tại 'nhà' (home) đặc biệt.",
+      "frequency_rank": 5100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11051
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "assisted living",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "medical",
+      "ipa_uk": "/əˌsɪstɪd ˈlɪvɪŋ/",
+      "ipa_us": "/əˌsɪstɪd ˈlɪvɪŋ/",
+      "meaning_vi": "cơ sở hỗ trợ sinh hoạt",
+      "definition_en": "Housing for elderly or disabled people who need some help with daily activities but want to live independently.",
+      "example_en": "Assisted living facilities offer a balance between independence and care.",
+      "example_vi": "Các cơ sở hỗ trợ sinh hoạt cung cấp sự cân bằng giữa độc lập và chăm sóc.",
+      "collocations_json": [
+        "assisted living facility",
+        "assisted living community"
+      ],
+      "synonyms_json": [
+        "supported living"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Assisted Living: Cuộc sống được 'hỗ trợ' (assisted) một phần.",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11052
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "medical check-up",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "/ˌmedɪkl ˈtʃek ʌp/",
+      "ipa_us": "/ˌmedɪkl ˈtʃek ʌp/",
+      "meaning_vi": "kiểm tra sức khỏe định kỳ",
+      "definition_en": "A general medical examination to see if you are healthy.",
+      "example_en": "It's important for older adults to have regular medical check-ups.",
+      "example_vi": "Điều quan trọng là người lớn tuổi phải kiểm tra sức khỏe định kỳ.",
+      "collocations_json": [
+        "annual medical check-up",
+        "full medical check-up"
+      ],
+      "synonyms_json": [
+        "health check",
+        "physical exam"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Medical Check-up: Bác sĩ 'kiểm tra' (check-up) về 'y tế' (medical).",
+      "frequency_rank": 3300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11053
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "take care of",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/teɪk keər əv/",
+      "ipa_us": "/teɪk ker əv/",
+      "meaning_vi": "chăm sóc, trông nom",
+      "definition_en": "To be responsible for someone or something.",
+      "example_en": "She takes care of her grandchildren every weekend.",
+      "example_vi": "Cô ấy chăm sóc các cháu của mình mỗi cuối tuần.",
+      "collocations_json": [
+        "take care of yourself",
+        "take care of business"
+      ],
+      "synonyms_json": [
+        "look after",
+        "care for",
+        "mind"
+      ],
+      "antonyms_json": [
+        "neglect"
+      ],
+      "mnemonic": "Take care of: 'Lấy' (take) sự 'chăm sóc' (care) cho ai đó.",
+      "frequency_rank": 2100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11054
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "daily activities",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˌdeɪli ækˈtɪvɪtiz/",
+      "ipa_us": "/ˌdeɪli ækˈtɪvətiz/",
+      "meaning_vi": "hoạt động hàng ngày",
+      "definition_en": "The things that a person does regularly as part of their daily life, such as eating, washing, and dressing.",
+      "example_en": "Some elderly people need help with their daily activities.",
+      "example_vi": "Một số người lớn tuổi cần giúp đỡ với các hoạt động hàng ngày của họ.",
+      "collocations_json": [
+        "perform daily activities",
+        "struggle with daily activities"
+      ],
+      "synonyms_json": [
+        "daily routines",
+        "everyday tasks"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Daily Activities: Các 'hoạt động' (activities) làm 'hàng ngày' (daily).",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11055
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "mobility",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/məʊˈbɪləti/",
+      "ipa_us": "/moʊˈbɪləti/",
+      "meaning_vi": "khả năng di chuyển",
+      "definition_en": "The ability to move or be moved freely and easily.",
+      "example_en": "Regular exercise can help maintain good mobility in old age.",
+      "example_vi": "Tập thể dục thường xuyên có thể giúp duy trì khả năng di chuyển tốt khi về già.",
+      "collocations_json": [
+        "limited mobility",
+        "improve mobility",
+        "loss of mobility"
+      ],
+      "synonyms_json": [
+        "movement",
+        "flexibility"
+      ],
+      "antonyms_json": [
+        "immobility"
+      ],
+      "mnemonic": "Mobility: 'Mobile' là di động, 'ity' là danh từ. Khả năng di chuyển.",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11056
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "doctor's visit",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "/ˈdɒktəz ˌvɪzɪt/",
+      "ipa_us": "/ˈdɑːktərz ˌvɪzɪt/",
+      "meaning_vi": "lần khám bác sĩ",
+      "definition_en": "An appointment to see a doctor for medical advice or treatment.",
+      "example_en": "My grandmother has a doctor's visit scheduled for next week.",
+      "example_vi": "Bà tôi có một cuộc hẹn khám bác sĩ vào tuần tới.",
+      "collocations_json": [
+        "regular doctor's visit",
+        "urgent doctor's visit"
+      ],
+      "synonyms_json": [
+        "doctor's appointment",
+        "consultation"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Doctor's Visit: Một 'lần ghé thăm' (visit) 'bác sĩ' (doctor).",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11057
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "medication",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "medical",
+      "ipa_uk": "/ˌmedɪˈkeɪʃn/",
+      "ipa_us": "/ˌmedɪˈkeɪʃn/",
+      "meaning_vi": "thuốc men, dược phẩm",
+      "definition_en": "A medicine or a set of medicines used to treat a disease or illness.",
+      "example_en": "It's important to take your medication exactly as prescribed.",
+      "example_vi": "Điều quan trọng là phải uống thuốc đúng theo chỉ định.",
+      "collocations_json": [
+        "take medication",
+        "prescribed medication",
+        "daily medication"
+      ],
+      "synonyms_json": [
+        "medicine",
+        "drugs",
+        "pharmaceuticals"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Medication: 'Medi' (y tế) + 'cation' (hành động). Hành động dùng thuốc.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11058
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "independence",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "general",
+      "ipa_uk": "/ˌɪndɪˈpendəns/",
+      "ipa_us": "/ˌɪndɪˈpendəns/",
+      "meaning_vi": "sự độc lập, tự chủ",
+      "definition_en": "The state of being free from the control or influence of others.",
+      "example_en": "Maintaining independence is very important for many older people.",
+      "example_vi": "Duy trì sự độc lập rất quan trọng đối với nhiều người lớn tuổi.",
+      "collocations_json": [
+        "financial independence",
+        "personal independence",
+        "loss of independence"
+      ],
+      "synonyms_json": [
+        "autonomy",
+        "self-reliance"
+      ],
+      "antonyms_json": [
+        "dependence"
+      ],
+      "mnemonic": "Independence: Không 'depend' (phụ thuộc) vào ai nữa.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11059
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "companionship",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "general",
+      "ipa_uk": "/kəmˈpænjənʃɪp/",
+      "ipa_us": "/kəmˈpænjənʃɪp/",
+      "meaning_vi": "tình bạn, sự bầu bạn",
+      "definition_en": "The good feeling that comes from being with someone else.",
+      "example_en": "Many elderly people seek companionship to avoid loneliness.",
+      "example_vi": "Nhiều người lớn tuổi tìm kiếm sự bầu bạn để tránh cô đơn.",
+      "collocations_json": [
+        "seek companionship",
+        "enjoy companionship",
+        "human companionship"
+      ],
+      "synonyms_json": [
+        "fellowship",
+        "friendship"
+      ],
+      "antonyms_json": [
+        "loneliness",
+        "solitude"
+      ],
+      "mnemonic": "Companionship: 'Companion' là bạn đồng hành, 'ship' là trạng thái.",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11060
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "social activities",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˌsəʊʃl ækˈtɪvɪtiz/",
+      "ipa_us": "/ˌsoʊʃl ækˈtɪvətiz/",
+      "meaning_vi": "hoạt động xã hội",
+      "definition_en": "Activities that involve meeting and spending time with other people.",
+      "example_en": "Joining social activities can help older adults stay connected.",
+      "example_vi": "Tham gia các hoạt động xã hội có thể giúp người lớn tuổi duy trì kết nối.",
+      "collocations_json": [
+        "participate in social activities",
+        "engage in social activities"
+      ],
+      "synonyms_json": [
+        "group events",
+        "community events"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Social Activities: Các 'hoạt động' (activities) mang tính 'xã hội' (social).",
+      "frequency_rank": 3400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11061
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "family support",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "/ˈfæməli səˈpɔːt/",
+      "ipa_us": "/ˈfæməli səˈpɔːrt/",
+      "meaning_vi": "sự hỗ trợ gia đình",
+      "definition_en": "Help and encouragement provided by family members.",
+      "example_en": "Family support is crucial for the well-being of elderly parents.",
+      "example_vi": "Sự hỗ trợ của gia đình rất quan trọng đối với sức khỏe của cha mẹ già.",
+      "collocations_json": [
+        "receive family support",
+        "strong family support"
+      ],
+      "synonyms_json": [
+        "family assistance",
+        "family help"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Family Support: 'Gia đình' (family) 'hỗ trợ' (support).",
+      "frequency_rank": 3900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11062
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "wheelchair",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "medical",
+      "ipa_uk": "/ˈwiːltʃeə(r)/",
+      "ipa_us": "/ˈwiːltʃer/",
+      "meaning_vi": "xe lăn",
+      "definition_en": "A chair with wheels, used by people who cannot walk because of illness or injury.",
+      "example_en": "After her surgery, she used a wheelchair for a few weeks.",
+      "example_vi": "Sau ca phẫu thuật, bà ấy đã dùng xe lăn vài tuần.",
+      "collocations_json": [
+        "use a wheelchair",
+        "be in a wheelchair",
+        "motorized wheelchair"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Wheel-chair: Cái 'ghế' (chair) có 'bánh xe' (wheel).",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11063
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "walker",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "medical",
+      "ipa_uk": "/ˈwɔːkə(r)/",
+      "ipa_us": "/ˈwɔːkər/",
+      "meaning_vi": "khung tập đi",
+      "definition_en": "A frame that a person uses to help them walk, for example, if they are old or have an injury.",
+      "example_en": "He relies on a walker to move around his house safely.",
+      "example_vi": "Ông ấy dựa vào khung tập đi để di chuyển an toàn trong nhà.",
+      "collocations_json": [
+        "use a walker",
+        "rollator walker"
+      ],
+      "synonyms_json": [
+        "walking frame"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Walker: Giúp người 'đi bộ' (walk) dễ hơn.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11064
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "hearing aid",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "medical",
+      "ipa_uk": "/ˈhɪərɪŋ eɪd/",
+      "ipa_us": "/ˈhɪrɪŋ eɪd/",
+      "meaning_vi": "máy trợ thính",
+      "definition_en": "A small device worn in or behind the ear by people who cannot hear well.",
+      "example_en": "My grandfather uses a hearing aid to hear conversations clearly.",
+      "example_vi": "Ông tôi dùng máy trợ thính để nghe rõ các cuộc trò chuyện.",
+      "collocations_json": [
+        "wear a hearing aid",
+        "digital hearing aid"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Hearing Aid: 'Hỗ trợ' (aid) cho việc 'nghe' (hearing).",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11065
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "glasses",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɡlɑːsɪz/",
+      "ipa_us": "/ˈɡlæsɪz/",
+      "meaning_vi": "kính mắt",
+      "definition_en": "Two lenses in a frame, worn in front of the eyes to help you see better.",
+      "example_en": "She needs new glasses to read small print more easily.",
+      "example_vi": "Cô ấy cần một cặp kính mới để đọc chữ nhỏ dễ dàng hơn.",
+      "collocations_json": [
+        "wear glasses",
+        "reading glasses",
+        "prescription glasses"
+      ],
+      "synonyms_json": [
+        "spectacles",
+        "eyewear"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Glasses: Được làm từ 'kính' (glass) để đeo vào mắt.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11066
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "health insurance",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈhelθ ɪnʃʊərəns/",
+      "ipa_us": "/ˈhelθ ɪnʃɜːrəns/",
+      "meaning_vi": "bảo hiểm y tế",
+      "definition_en": "An arrangement with a company to pay for medical care in exchange for regular payments.",
+      "example_en": "Having good health insurance is essential, especially for older people.",
+      "example_vi": "Có bảo hiểm y tế tốt là điều cần thiết, đặc biệt đối với người lớn tuổi.",
+      "collocations_json": [
+        "buy health insurance",
+        "private health insurance"
+      ],
+      "synonyms_json": [
+        "medical insurance"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Health Insurance: 'Bảo hiểm' (insurance) cho 'sức khỏe' (health).",
+      "frequency_rank": 4700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11067
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "senior center",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsiːniə ˈsentə(r)/",
+      "ipa_us": "/ˈsiːniər ˈsentər/",
+      "meaning_vi": "trung tâm người cao tuổi",
+      "definition_en": "A place where older people can meet, socialize, and participate in activities.",
+      "example_en": "The senior center offers various classes and events for retirees.",
+      "example_vi": "Trung tâm người cao tuổi cung cấp nhiều lớp học và sự kiện cho người về hưu.",
+      "collocations_json": [
+        "local senior center",
+        "attend a senior center"
+      ],
+      "synonyms_json": [
+        "elderly club",
+        "community center for seniors"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Senior Center: 'Trung tâm' (center) dành cho 'người cao tuổi' (senior).",
+      "frequency_rank": 5300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11068
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "volunteer",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "/ˌvɒlənˈtɪə(r)/",
+      "ipa_us": "/ˌvɑːlənˈtɪr/",
+      "meaning_vi": "tình nguyện, xung phong",
+      "definition_en": "To offer to do something without being forced or paid to do it.",
+      "example_en": "Many retirees choose to volunteer their time to help others.",
+      "example_vi": "Nhiều người nghỉ hưu chọn tình nguyện dành thời gian giúp đỡ người khác.",
+      "collocations_json": [
+        "volunteer for a charity",
+        "volunteer work",
+        "volunteer your time"
+      ],
+      "synonyms_json": [
+        "offer",
+        "propose"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Volunteer: 'Volun' (muốn) 'teer' (tự nguyện).",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11069
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "community",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "/kəˈmjuːnəti/",
+      "ipa_us": "/kəˈmjuːnəti/",
+      "meaning_vi": "cộng đồng, xã hội",
+      "definition_en": "All the people who live in a particular area or place.",
+      "example_en": "Being part of a strong community can improve well-being in later life.",
+      "example_vi": "Trở thành một phần của cộng đồng vững mạnh có thể cải thiện sức khỏe khi về già.",
+      "collocations_json": [
+        "local community",
+        "sense of community",
+        "community spirit"
+      ],
+      "synonyms_json": [
+        "neighborhood",
+        "society"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Community: 'Com' (cùng nhau) 'unity' (thống nhất).",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11070
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "well-being",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˌwel ˈbiːɪŋ/",
+      "ipa_us": "/ˌwel ˈbiːɪŋ/",
+      "meaning_vi": "sức khỏe, hạnh phúc",
+      "definition_en": "The state of being healthy, happy, and comfortable.",
+      "example_en": "Good nutrition is vital for overall well-being, especially for the elderly.",
+      "example_vi": "Dinh dưỡng tốt rất quan trọng đối với sức khỏe tổng thể, đặc biệt là người lớn tuổi.",
+      "collocations_json": [
+        "emotional well-being",
+        "physical well-being",
+        "sense of well-being"
+      ],
+      "synonyms_json": [
+        "welfare",
+        "health",
+        "happiness"
+      ],
+      "antonyms_json": [
+        "illness",
+        "distress"
+      ],
+      "mnemonic": "Well-being: 'Tốt' (well) khi 'tồn tại' (being).",
+      "frequency_rank": 5200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11071
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "quality of life",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "general",
+      "ipa_uk": "/ˌkwɒləti əv ˈlaɪf/",
+      "ipa_us": "/ˌkwɑːləti əv ˈlaɪf/",
+      "meaning_vi": "chất lượng cuộc sống",
+      "definition_en": "The standard of health, comfort, and happiness experienced by an individual or group.",
+      "example_en": "Access to good healthcare improves the quality of life for seniors.",
+      "example_vi": "Tiếp cận dịch vụ chăm sóc sức khỏe tốt cải thiện chất lượng cuộc sống cho người cao tuổi.",
+      "collocations_json": [
+        "improve quality of life",
+        "good quality of life",
+        "poor quality of life"
+      ],
+      "synonyms_json": [
+        "living standards"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Quality of Life: 'Chất lượng' (quality) của 'cuộc sống' (life).",
+      "frequency_rank": 4900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11072
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "live alone",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/lɪv əˈləʊn/",
+      "ipa_us": "/lɪv əˈloʊn/",
+      "meaning_vi": "sống một mình",
+      "definition_en": "To reside without other people in the same household.",
+      "example_en": "After her husband passed away, she chose to live alone in their house.",
+      "example_vi": "Sau khi chồng mất, bà ấy chọn sống một mình trong ngôi nhà của họ.",
+      "collocations_json": [
+        "prefer to live alone",
+        "struggle to live alone"
+      ],
+      "synonyms_json": [
+        "reside solo"
+      ],
+      "antonyms_json": [
+        "live with family"
+      ],
+      "mnemonic": "Live Alone: 'Sống' (live) 'một mình' (alone).",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11073
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "stay active",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "/steɪ ˈæktɪv/",
+      "ipa_us": "/steɪ ˈæktɪv/",
+      "meaning_vi": "duy trì hoạt động",
+      "definition_en": "To remain physically or mentally engaged and busy.",
+      "example_en": "Doctors recommend that older adults stay active to maintain health.",
+      "example_vi": "Các bác sĩ khuyên người lớn tuổi nên duy trì hoạt động để giữ gìn sức khỏe.",
+      "collocations_json": [
+        "stay physically active",
+        "stay mentally active"
+      ],
+      "synonyms_json": [
+        "keep active",
+        "remain engaged"
+      ],
+      "antonyms_json": [
+        "be inactive",
+        "be sedentary"
+      ],
+      "mnemonic": "Stay Active: 'Giữ' (stay) cho mình 'năng động' (active).",
+      "frequency_rank": 2700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11074
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "gentle exercise",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˌdʒentl ˈeksəsaɪz/",
+      "ipa_us": "/ˌdʒentl ˈeksərsaɪz/",
+      "meaning_vi": "bài tập nhẹ nhàng",
+      "definition_en": "Physical activities that are not strenuous or demanding, suitable for all ages.",
+      "example_en": "Yoga and walking are examples of gentle exercise for seniors.",
+      "example_vi": "Yoga và đi bộ là những ví dụ về bài tập nhẹ nhàng cho người cao tuổi.",
+      "collocations_json": [
+        "do gentle exercise",
+        "daily gentle exercise"
+      ],
+      "synonyms_json": [
+        "light exercise",
+        "low-impact exercise"
+      ],
+      "antonyms_json": [
+        "strenuous exercise",
+        "heavy exercise"
+      ],
+      "mnemonic": "Gentle Exercise: 'Tập thể dục' (exercise) một cách 'nhẹ nhàng' (gentle).",
+      "frequency_rank": 6200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11075
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "regular meals",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˌreɡjələ ˈmiːlz/",
+      "ipa_us": "/ˌreɡjələr ˈmiːlz/",
+      "meaning_vi": "bữa ăn đều đặn",
+      "definition_en": "Meals eaten at consistent times throughout the day.",
+      "example_en": "Eating regular meals is important for maintaining energy levels.",
+      "example_vi": "Ăn các bữa ăn đều đặn rất quan trọng để duy trì mức năng lượng.",
+      "collocations_json": [
+        "have regular meals",
+        "skip regular meals"
+      ],
+      "synonyms_json": [
+        "consistent meals"
+      ],
+      "antonyms_json": [
+        "irregular meals"
+      ],
+      "mnemonic": "Regular Meals: Các 'bữa ăn' (meals) 'đều đặn' (regular).",
+      "frequency_rank": 3600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11076
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "sleep well",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "/sliːp wel/",
+      "ipa_us": "/sliːp wel/",
+      "meaning_vi": "ngủ ngon, ngủ đủ giấc",
+      "definition_en": "To get enough good quality sleep.",
+      "example_en": "Getting enough sleep well is crucial for both physical and mental health.",
+      "example_vi": "Ngủ ngon là rất quan trọng cho cả sức khỏe thể chất và tinh thần.",
+      "collocations_json": [
+        "hope you sleep well",
+        "struggle to sleep well"
+      ],
+      "synonyms_json": [
+        "rest well",
+        "get good sleep"
+      ],
+      "antonyms_json": [
+        "sleep poorly"
+      ],
+      "mnemonic": "Sleep Well: 'Ngủ' (sleep) 'tốt' (well).",
+      "frequency_rank": 2300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11077
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "mental health",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˌmentl ˈhelθ/",
+      "ipa_us": "/ˌmentl ˈhelθ/",
+      "meaning_vi": "sức khỏe tinh thần",
+      "definition_en": "A person's condition with regard to their psychological and emotional well-being.",
+      "example_en": "Maintaining good mental health is as important as physical health.",
+      "example_vi": "Duy trì sức khỏe tinh thần tốt cũng quan trọng như sức khỏe thể chất.",
+      "collocations_json": [
+        "good mental health",
+        "poor mental health",
+        "mental health issues"
+      ],
+      "synonyms_json": [
+        "emotional well-being",
+        "psychological health"
+      ],
+      "antonyms_json": [
+        "mental illness"
+      ],
+      "mnemonic": "Mental Health: 'Sức khỏe' (health) của 'tinh thần' (mental).",
+      "frequency_rank": 4300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11078
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "aging process",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "general",
+      "ipa_uk": "/ˈeɪdʒɪŋ ˌprəʊses/",
+      "ipa_us": "/ˈeɪdʒɪŋ ˌprɑːses/",
+      "meaning_vi": "quá trình lão hóa",
+      "definition_en": "The gradual physical and mental changes that occur in an organism over time, leading to old age.",
+      "example_en": "Scientists are studying ways to slow down the aging process.",
+      "example_vi": "Các nhà khoa học đang nghiên cứu cách làm chậm quá trình lão hóa.",
+      "collocations_json": [
+        "natural aging process",
+        "reverse the aging process"
+      ],
+      "synonyms_json": [
+        "senescence"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Aging Process: 'Quá trình' (process) 'lão hóa' (aging).",
+      "frequency_rank": 6500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11079
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "grow older",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "/ɡrəʊ ˈəʊldə(r)/",
+      "ipa_us": "/ɡroʊ ˈoʊldər/",
+      "meaning_vi": "trở nên già đi",
+      "definition_en": "To become older with the passage of time.",
+      "example_en": "As we grow older, our bodies change and sometimes need more care.",
+      "example_vi": "Khi chúng ta già đi, cơ thể thay đổi và đôi khi cần được chăm sóc nhiều hơn.",
+      "collocations_json": [
+        "grow older gracefully",
+        "fear growing older"
+      ],
+      "synonyms_json": [
+        "age",
+        "get older"
+      ],
+      "antonyms_json": [
+        "grow younger"
+      ],
+      "mnemonic": "Grow Older: 'Lớn lên' (grow) 'già hơn' (older).",
+      "frequency_rank": 2400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11080
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "wrinkles",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "/ˈrɪŋklz/",
+      "ipa_us": "/ˈrɪŋklz/",
+      "meaning_vi": "nếp nhăn",
+      "definition_en": "Lines or folds in the skin, especially on the face, that appear with age.",
+      "example_en": "She embraced her wrinkles as a sign of a life well-lived.",
+      "example_vi": "Bà ấy chấp nhận những nếp nhăn của mình như một dấu hiệu của cuộc đời đã sống trọn vẹn.",
+      "collocations_json": [
+        "fine wrinkles",
+        "deep wrinkles",
+        "anti-wrinkle cream"
+      ],
+      "synonyms_json": [
+        "creases",
+        "lines"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wrinkles: Nhớ đến 'ring' (nhẫn) tạo thành 'nếp' (wrinkle) trên da khi đeo lâu.",
+      "frequency_rank": 3700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11081
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "grey hair",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "/ɡreɪ heə(r)/",
+      "ipa_us": "/ɡreɪ her/",
+      "meaning_vi": "tóc bạc",
+      "definition_en": "Hair that has lost its natural color due to aging.",
+      "example_en": "He started getting grey hair in his late thirties.",
+      "example_vi": "Anh ấy bắt đầu có tóc bạc ở tuổi gần 40.",
+      "collocations_json": [
+        "full head of grey hair",
+        "premature grey hair"
+      ],
+      "synonyms_json": [
+        "white hair",
+        "silver hair"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Grey Hair: 'Tóc' (hair) màu 'xám' (grey).",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11082
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "health issues",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "/ˈhelθ ˌɪʃuːz/",
+      "ipa_us": "/ˈhelθ ˌɪʃuːz/",
+      "meaning_vi": "vấn đề sức khỏe",
+      "definition_en": "Problems or conditions related to a person's physical or mental health.",
+      "example_en": "Many older adults face various health issues as they age.",
+      "example_vi": "Nhiều người lớn tuổi đối mặt với các vấn đề sức khỏe khác nhau khi họ già đi.",
+      "collocations_json": [
+        "serious health issues",
+        "minor health issues"
+      ],
+      "synonyms_json": [
+        "health problems",
+        "medical conditions"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Health Issues: Các 'vấn đề' (issues) về 'sức khỏe' (health).",
+      "frequency_rank": 4100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11083
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "memory loss",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈmeməri lɒs/",
+      "ipa_us": "/ˈmeməri lɔːs/",
+      "meaning_vi": "suy giảm trí nhớ",
+      "definition_en": "The condition of being unable to remember things, or a reduction in the ability to remember.",
+      "example_en": "Mild memory loss can be a normal part of aging.",
+      "example_vi": "Suy giảm trí nhớ nhẹ có thể là một phần bình thường của quá trình lão hóa.",
+      "collocations_json": [
+        "short-term memory loss",
+        "severe memory loss"
+      ],
+      "synonyms_json": [
+        "amnesia",
+        "forgetfulness"
+      ],
+      "antonyms_json": [
+        "memory retention"
+      ],
+      "mnemonic": "Memory Loss: 'Mất' (loss) 'trí nhớ' (memory).",
+      "frequency_rank": 5400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11084
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "frail",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/freɪl/",
+      "ipa_us": "/freɪl/",
+      "meaning_vi": "yếu ớt, mỏng manh",
+      "definition_en": "Weak and easily damaged or broken.",
+      "example_en": "The elderly woman was frail but still had a strong spirit.",
+      "example_vi": "Người phụ nữ lớn tuổi yếu ớt nhưng vẫn có tinh thần mạnh mẽ.",
+      "collocations_json": [
+        "frail health",
+        "frail old man",
+        "become frail"
+      ],
+      "synonyms_json": [
+        "weak",
+        "delicate",
+        "fragile"
+      ],
+      "antonyms_json": [
+        "strong",
+        "robust"
+      ],
+      "mnemonic": "Frail: Nghe giống 'fail' (thất bại), khi yếu ớt dễ 'thất bại' trong việc giữ sức khỏe.",
+      "frequency_rank": 6100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11085
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "longevity",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "general",
+      "ipa_uk": "/lɒnˈdʒevəti/",
+      "ipa_us": "/lɑːnˈdʒevəti/",
+      "meaning_vi": "tuổi thọ",
+      "definition_en": "Long existence or service.",
+      "example_en": "Eating a healthy diet is often linked to increased longevity.",
+      "example_vi": "Ăn uống lành mạnh thường liên quan đến việc tăng tuổi thọ.",
+      "collocations_json": [
+        "human longevity",
+        "promote longevity",
+        "secret to longevity"
+      ],
+      "synonyms_json": [
+        "long life",
+        "durability"
+      ],
+      "antonyms_json": [
+        "short life",
+        "ephemerality"
+      ],
+      "mnemonic": "Longevity: 'Long' (dài) + 'evity' (tính chất). Tính chất sống lâu.",
+      "frequency_rank": 7000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11086
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "save money",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/seɪv ˈmʌni/",
+      "ipa_us": "/seɪv ˈmʌni/",
+      "meaning_vi": "tiết kiệm tiền",
+      "definition_en": "To keep money for future use rather than spending it.",
+      "example_en": "It's wise to save money for retirement from a young age.",
+      "example_vi": "Thật khôn ngoan khi tiết kiệm tiền cho tuổi nghỉ hưu từ khi còn trẻ.",
+      "collocations_json": [
+        "save money for retirement",
+        "save money on groceries"
+      ],
+      "synonyms_json": [
+        "put aside money",
+        "accumulate savings"
+      ],
+      "antonyms_json": [
+        "spend money",
+        "waste money"
+      ],
+      "mnemonic": "Save Money: 'Cất giữ' (save) 'tiền' (money).",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11087
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "financial planning",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/faɪˈnænʃl ˈplænɪŋ/",
+      "ipa_us": "/faɪˈnænʃl ˈplænɪŋ/",
+      "meaning_vi": "lập kế hoạch tài chính",
+      "definition_en": "The process of managing your money to achieve your financial goals.",
+      "example_en": "Good financial planning is essential for a comfortable retirement.",
+      "example_vi": "Lập kế hoạch tài chính tốt là điều cần thiết để có một tuổi nghỉ hưu thoải mái.",
+      "collocations_json": [
+        "retirement financial planning",
+        "personal financial planning"
+      ],
+      "synonyms_json": [
+        "money management",
+        "wealth management"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Financial Planning: 'Lập kế hoạch' (planning) về 'tài chính' (financial).",
+      "frequency_rank": 5900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11088
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "leisure time",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈleʒə taɪm/",
+      "ipa_us": "/ˈliːʒər taɪm/",
+      "meaning_vi": "thời gian rảnh rỗi",
+      "definition_en": "Time when you are not working or doing other duties.",
+      "example_en": "Many retirees enjoy having more leisure time for their hobbies.",
+      "example_vi": "Nhiều người nghỉ hưu thích có nhiều thời gian rảnh rỗi hơn cho sở thích của họ.",
+      "collocations_json": [
+        "spend leisure time",
+        "free leisure time"
+      ],
+      "synonyms_json": [
+        "free time",
+        "spare time"
+      ],
+      "antonyms_json": [
+        "work time"
+      ],
+      "mnemonic": "Leisure Time: 'Thời gian' (time) 'thư giãn' (leisure).",
+      "frequency_rank": 2200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11089
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "hobbies",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhɒbiz/",
+      "ipa_us": "/ˈhɑːbiz/",
+      "meaning_vi": "sở thích, thú vui",
+      "definition_en": "Activities that you do for pleasure when you are not working.",
+      "example_en": "Gardening and painting are popular hobbies among older people.",
+      "example_vi": "Làm vườn và vẽ tranh là những sở thích phổ biến của người lớn tuổi.",
+      "collocations_json": [
+        "take up hobbies",
+        "enjoy hobbies",
+        "favorite hobbies"
+      ],
+      "synonyms_json": [
+        "pastimes",
+        "interests"
+      ],
+      "antonyms_json": [
+        "chores",
+        "work"
+      ],
+      "mnemonic": "Hobbies: Nhớ đến 'hobbit' thích làm những việc vui vẻ trong thời gian rảnh.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11090
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "active lifestyle",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˌæktɪv ˈlaɪfstaɪl/",
+      "ipa_us": "/ˌæktɪv ˈlaɪfstaɪl/",
+      "meaning_vi": "lối sống năng động",
+      "definition_en": "A way of living that involves regular physical activity and engagement.",
+      "example_en": "An active lifestyle can prevent many age-related health problems.",
+      "example_vi": "Lối sống năng động có thể ngăn ngừa nhiều vấn đề sức khỏe liên quan đến tuổi tác.",
+      "collocations_json": [
+        "maintain an active lifestyle",
+        "promote an active lifestyle"
+      ],
+      "synonyms_json": [
+        "healthy lifestyle",
+        "dynamic lifestyle"
+      ],
+      "antonyms_json": [
+        "sedentary lifestyle"
+      ],
+      "mnemonic": "Active Lifestyle: 'Lối sống' (lifestyle) 'năng động' (active).",
+      "frequency_rank": 5600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11091
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "part-time job",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˌpɑːt taɪm ˈdʒɒb/",
+      "ipa_us": "/ˌpɑːrt taɪm ˈdʒɑːb/",
+      "meaning_vi": "công việc bán thời gian",
+      "definition_en": "A job that requires working fewer hours than a full-time job.",
+      "example_en": "Some retirees take a part-time job to supplement their pension.",
+      "example_vi": "Một số người nghỉ hưu làm công việc bán thời gian để bổ sung lương hưu của họ.",
+      "collocations_json": [
+        "find a part-time job",
+        "work a part-time job"
+      ],
+      "synonyms_json": [
+        "casual work",
+        "flexible job"
+      ],
+      "antonyms_json": [
+        "full-time job"
+      ],
+      "mnemonic": "Part-time Job: 'Công việc' (job) làm một 'phần thời gian' (part-time).",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11092
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "early retirement",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌɜːli rɪˈtaɪəmənt/",
+      "ipa_us": "/ˌɜːrli rɪˈtaɪərmənt/",
+      "meaning_vi": "nghỉ hưu sớm",
+      "definition_en": "The act of retiring from work before the official or usual age.",
+      "example_en": "He took early retirement to spend more time with his family.",
+      "example_vi": "Ông ấy nghỉ hưu sớm để dành nhiều thời gian hơn cho gia đình.",
+      "collocations_json": [
+        "take early retirement",
+        "opt for early retirement"
+      ],
+      "synonyms_json": [
+        "premature retirement"
+      ],
+      "antonyms_json": [
+        "late retirement"
+      ],
+      "mnemonic": "Early Retirement: 'Nghỉ hưu' (retirement) 'sớm' (early).",
+      "frequency_rank": 6300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11093
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "home care",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "medical",
+      "ipa_uk": "/ˈhəʊm keə(r)/",
+      "ipa_us": "/ˈhoʊm ker/",
+      "meaning_vi": "chăm sóc tại nhà",
+      "definition_en": "Care provided to individuals in their own homes, rather than in a hospital or institution.",
+      "example_en": "Many families prefer home care services for their aging relatives.",
+      "example_vi": "Nhiều gia đình thích dịch vụ chăm sóc tại nhà cho người thân lớn tuổi của họ.",
+      "collocations_json": [
+        "provide home care",
+        "senior home care"
+      ],
+      "synonyms_json": [
+        "in-home care",
+        "domiciliary care"
+      ],
+      "antonyms_json": [
+        "institutional care"
+      ],
+      "mnemonic": "Home Care: 'Chăm sóc' (care) 'tại nhà' (home).",
+      "frequency_rank": 5700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11094
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "support system",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "general",
+      "ipa_uk": "/səˈpɔːt ˌsɪstəm/",
+      "ipa_us": "/səˈpɔːrt ˌsɪstəm/",
+      "meaning_vi": "hệ thống hỗ trợ",
+      "definition_en": "A network of people or resources that provides help and comfort to someone.",
+      "example_en": "A strong support system is vital for coping with life's challenges.",
+      "example_vi": "Một hệ thống hỗ trợ vững chắc là rất quan trọng để đối phó với những thách thức của cuộc sống.",
+      "collocations_json": [
+        "family support system",
+        "social support system"
+      ],
+      "synonyms_json": [
+        "support network",
+        "help system"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Support System: Một 'hệ thống' (system) 'hỗ trợ' (support).",
+      "frequency_rank": 6400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11095
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "age gracefully",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "general",
+      "ipa_uk": "/eɪdʒ ˈɡreɪsfəli/",
+      "ipa_us": "/eɪdʒ ˈɡreɪsfəli/",
+      "meaning_vi": "già đi một cách duyên dáng",
+      "definition_en": "To grow older in a dignified and attractive way, accepting the changes that come with age.",
+      "example_en": "She always tried to age gracefully, embracing her natural beauty.",
+      "example_vi": "Cô ấy luôn cố gắng già đi một cách duyên dáng, chấp nhận vẻ đẹp tự nhiên của mình.",
+      "collocations_json": [],
+      "synonyms_json": [
+        "grow old beautifully",
+        "embrace aging"
+      ],
+      "antonyms_json": [
+        "fight aging"
+      ],
+      "mnemonic": "Age Gracefully: 'Già đi' (age) một cách 'duyên dáng' (gracefully).",
+      "frequency_rank": 7500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11096
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "long-term care",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "medical",
+      "ipa_uk": "/ˌlɒŋ tɜːm ˈkeə(r)/",
+      "ipa_us": "/ˌlɔːŋ tɜːrm ˈker/",
+      "meaning_vi": "chăm sóc dài hạn",
+      "definition_en": "A variety of services which help meet both the medical and non-medical needs of people with a chronic illness or disability who cannot care for themselves for long periods.",
+      "example_en": "Planning for long-term care is an important aspect of retirement planning.",
+      "example_vi": "Lập kế hoạch chăm sóc dài hạn là một khía cạnh quan trọng của việc lập kế hoạch nghỉ hưu.",
+      "collocations_json": [
+        "long-term care insurance",
+        "need long-term care"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "short-term care"
+      ],
+      "mnemonic": "Long-term Care: 'Chăm sóc' (care) trong 'thời gian dài' (long-term).",
+      "frequency_rank": 7200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11097
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "health benefits",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈhelθ ˌbenɪfɪts/",
+      "ipa_us": "/ˈhelθ ˌbenɪfɪts/",
+      "meaning_vi": "lợi ích sức khỏe",
+      "definition_en": "Advantages or improvements in health that result from an action or condition.",
+      "example_en": "Eating vegetables offers numerous health benefits for all ages.",
+      "example_vi": "Ăn rau mang lại nhiều lợi ích sức khỏe cho mọi lứa tuổi.",
+      "collocations_json": [
+        "receive health benefits",
+        "enjoy health benefits"
+      ],
+      "synonyms_json": [
+        "health advantages",
+        "wellness perks"
+      ],
+      "antonyms_json": [
+        "health risks"
+      ],
+      "mnemonic": "Health Benefits: Các 'lợi ích' (benefits) cho 'sức khỏe' (health).",
+      "frequency_rank": 4600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11098
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "physical therapy",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "medical",
+      "ipa_uk": "/ˌfɪzɪkl ˈθerəpi/",
+      "ipa_us": "/ˌfɪzɪkl ˈθerəpi/",
+      "meaning_vi": "vật lý trị liệu",
+      "definition_en": "The treatment of disease, injury, or deformity by physical methods such as massage, heat treatment, and exercise.",
+      "example_en": "After her fall, she needed physical therapy to regain strength in her leg.",
+      "example_vi": "Sau khi ngã, bà ấy cần vật lý trị liệu để lấy lại sức mạnh ở chân.",
+      "collocations_json": [
+        "undergo physical therapy",
+        "attend physical therapy"
+      ],
+      "synonyms_json": [
+        "physiotherapy"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Physical Therapy: 'Trị liệu' (therapy) bằng phương pháp 'vật lý' (physical).",
+      "frequency_rank": 7800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11099
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "cognitive decline",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˌkɒɡnətɪv dɪˈklaɪn/",
+      "ipa_us": "/ˌkɑːɡnətɪv dɪˈklaɪn/",
+      "meaning_vi": "suy giảm nhận thức",
+      "definition_en": "A reduction in mental abilities, such as memory and thinking skills.",
+      "example_en": "Early signs of cognitive decline can sometimes be managed with lifestyle changes.",
+      "example_vi": "Các dấu hiệu ban đầu của suy giảm nhận thức đôi khi có thể được kiểm soát bằng cách thay đổi lối sống.",
+      "collocations_json": [
+        "mild cognitive decline",
+        "prevent cognitive decline"
+      ],
+      "synonyms_json": [
+        "mental deterioration",
+        "memory impairment"
+      ],
+      "antonyms_json": [
+        "cognitive enhancement"
+      ],
+      "mnemonic": "Cognitive Decline: 'Suy giảm' (decline) 'nhận thức' (cognitive).",
+      "frequency_rank": 8500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11100
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "end-of-life care",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "medical",
+      "ipa_uk": "/ˌend əv laɪf ˈkeə(r)/",
+      "ipa_us": "/ˌend əv laɪf ˈker/",
+      "meaning_vi": "chăm sóc cuối đời",
+      "definition_en": "Support and medical care for people in the last months or years of their life.",
+      "example_en": "Hospices provide compassionate end-of-life care for patients.",
+      "example_vi": "Các nhà tế bần cung cấp dịch vụ chăm sóc cuối đời đầy lòng trắc ẩn cho bệnh nhân.",
+      "collocations_json": [
+        "palliative end-of-life care",
+        "discuss end-of-life care"
+      ],
+      "synonyms_json": [
+        "palliative care",
+        "hospice care"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "End-of-life Care: 'Chăm sóc' (care) khi 'cuộc đời kết thúc' (end-of-life).",
+      "frequency_rank": 9000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11101
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "retirement planning",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈtaɪəmənt ˈplænɪŋ/",
+      "ipa_us": "/rɪˈtaɪərmənt ˈplænɪŋ/",
+      "meaning_vi": "kế hoạch nghỉ hưu",
+      "definition_en": "The process of setting financial goals for retirement and developing a strategy to achieve them.",
+      "example_en": "Starting retirement planning early can ensure financial security.",
+      "example_vi": "Bắt đầu kế hoạch nghỉ hưu sớm có thể đảm bảo an ninh tài chính.",
+      "collocations_json": [
+        "effective retirement planning",
+        "start retirement planning"
+      ],
+      "synonyms_json": [
+        "pension planning"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Retirement Planning: 'Lập kế hoạch' (planning) cho tuổi 'nghỉ hưu' (retirement).",
+      "frequency_rank": 6800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11102
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "social security",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌsəʊʃl sɪˈkjʊərəti/",
+      "ipa_us": "/ˌsoʊʃl sɪˈkjʊrəti/",
+      "meaning_vi": "an sinh xã hội",
+      "definition_en": "A government system that provides financial assistance to people with an inadequate or no income.",
+      "example_en": "Many people rely on social security benefits in their retirement.",
+      "example_vi": "Nhiều người dựa vào các khoản trợ cấp an sinh xã hội khi nghỉ hưu.",
+      "collocations_json": [
+        "social security benefits",
+        "social security number"
+      ],
+      "synonyms_json": [
+        "welfare",
+        "public assistance"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Social Security: 'An ninh' (security) của 'xã hội' (social).",
+      "frequency_rank": 4400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11103
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "dementia",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "medical",
+      "ipa_uk": "/dɪˈmenʃə/",
+      "ipa_us": "/dɪˈmenʃə/",
+      "meaning_vi": "chứng mất trí nhớ",
+      "definition_en": "A general term for a decline in mental ability severe enough to interfere with daily life.",
+      "example_en": "Alzheimer's disease is the most common cause of dementia.",
+      "example_vi": "Bệnh Alzheimer là nguyên nhân phổ biến nhất gây ra chứng mất trí nhớ.",
+      "collocations_json": [
+        "suffer from dementia",
+        "early onset dementia"
+      ],
+      "synonyms_json": [
+        "cognitive impairment"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dementia: 'De-' (mất đi) 'mentia' (tinh thần).",
+      "frequency_rank": 8000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11104
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "frailty",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈfreɪlti/",
+      "ipa_us": "/ˈfreɪlti/",
+      "meaning_vi": "sự yếu ớt, mỏng manh",
+      "definition_en": "The condition of being weak and delicate.",
+      "example_en": "Increased frailty in old age can lead to a higher risk of falls.",
+      "example_vi": "Sự yếu ớt tăng lên khi về già có thể dẫn đến nguy cơ té ngã cao hơn.",
+      "collocations_json": [
+        "physical frailty",
+        "signs of frailty"
+      ],
+      "synonyms_json": [
+        "weakness",
+        "delicacy"
+      ],
+      "antonyms_json": [
+        "strength",
+        "robustness"
+      ],
+      "mnemonic": "Frailty: Từ 'frail' (yếu ớt) thêm 'ty' thành danh từ.",
+      "frequency_rank": 8200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11105
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "quality care",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "medical",
+      "ipa_uk": "/ˌkwɒləti ˈkeə(r)/",
+      "ipa_us": "/ˌkwɑːləti ˈker/",
+      "meaning_vi": "chăm sóc chất lượng",
+      "definition_en": "Care that is effective, safe, and patient-centered.",
+      "example_en": "Every elderly person deserves access to quality care.",
+      "example_vi": "Mọi người lớn tuổi đều xứng đáng được tiếp cận dịch vụ chăm sóc chất lượng.",
+      "collocations_json": [
+        "provide quality care",
+        "receive quality care"
+      ],
+      "synonyms_json": [
+        "excellent care",
+        "high-standard care"
+      ],
+      "antonyms_json": [
+        "poor care"
+      ],
+      "mnemonic": "Quality Care: 'Chăm sóc' (care) có 'chất lượng' (quality).",
+      "frequency_rank": 6900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11106
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "independent living",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌɪndɪˌpendənt ˈlɪvɪŋ/",
+      "ipa_us": "/ˌɪndɪˌpendənt ˈlɪvɪŋ/",
+      "meaning_vi": "sống tự lập",
+      "definition_en": "Living independently without needing much help from others, often in specialized housing for seniors.",
+      "example_en": "Many elderly people prefer independent living as long as they are able.",
+      "example_vi": "Nhiều người lớn tuổi thích sống tự lập miễn là họ có thể.",
+      "collocations_json": [
+        "promote independent living",
+        "facilities for independent living"
+      ],
+      "synonyms_json": [
+        "self-sufficient living"
+      ],
+      "antonyms_json": [
+        "dependent living"
+      ],
+      "mnemonic": "Independent Living: 'Sống' (living) một cách 'độc lập' (independent).",
+      "frequency_rank": 7100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11107
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "social isolation",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "general",
+      "ipa_uk": "/ˌsəʊʃl aɪsəˈleɪʃn/",
+      "ipa_us": "/ˌsoʊʃl aɪsəˈleɪʃn/",
+      "meaning_vi": "cô lập xã hội",
+      "definition_en": "A state of complete or near-complete lack of contact between an individual and society.",
+      "example_en": "Social isolation can have negative effects on mental and physical health.",
+      "example_vi": "Cô lập xã hội có thể có tác động tiêu cực đến sức khỏe tinh thần và thể chất.",
+      "collocations_json": [
+        "experience social isolation",
+        "reduce social isolation"
+      ],
+      "synonyms_json": [
+        "loneliness",
+        "social exclusion"
+      ],
+      "antonyms_json": [
+        "social connection",
+        "community engagement"
+      ],
+      "mnemonic": "Social Isolation: 'Sự cô lập' (isolation) về mặt 'xã hội' (social).",
+      "frequency_rank": 8800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11108
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "life expectancy",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈlaɪf ɪkspektənsi/",
+      "ipa_us": "/ˈlaɪf ɪkspektənsi/",
+      "meaning_vi": "tuổi thọ trung bình",
+      "definition_en": "The average period that a person may expect to live.",
+      "example_en": "Life expectancy has increased significantly in many countries.",
+      "example_vi": "Tuổi thọ trung bình đã tăng đáng kể ở nhiều quốc gia.",
+      "collocations_json": [
+        "increase life expectancy",
+        "average life expectancy"
+      ],
+      "synonyms_json": [
+        "longevity"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Life Expectancy: 'Sự mong đợi' (expectancy) về 'tuổi thọ' (life).",
+      "frequency_rank": 7300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11109
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "falls prevention",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/fɔːlz prɪˈvenʃn/",
+      "ipa_us": "/fɔːlz prɪˈvenʃn/",
+      "meaning_vi": "phòng ngừa té ngã",
+      "definition_en": "Measures taken to reduce the risk of falling, especially in older adults.",
+      "example_en": "Falls prevention programs are crucial for maintaining senior independence.",
+      "example_vi": "Các chương trình phòng ngừa té ngã rất quan trọng để duy trì sự độc lập của người cao tuổi.",
+      "collocations_json": [
+        "effective falls prevention",
+        "falls prevention strategies"
+      ],
+      "synonyms_json": [
+        "fall avoidance"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Falls Prevention: 'Phòng ngừa' (prevention) 'té ngã' (falls).",
+      "frequency_rank": 8700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11110
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "memory exercises",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈmeməri ˌeksəsaɪzɪz/",
+      "ipa_us": "/ˈmeməri ˌeksərsaɪzɪz/",
+      "meaning_vi": "bài tập trí nhớ",
+      "definition_en": "Activities or games designed to stimulate and improve cognitive function, especially memory.",
+      "example_en": "Doing puzzles and reading are good memory exercises for older adults.",
+      "example_vi": "Giải đố và đọc sách là những bài tập trí nhớ tốt cho người lớn tuổi.",
+      "collocations_json": [
+        "do memory exercises",
+        "brain training memory exercises"
+      ],
+      "synonyms_json": [
+        "brain games",
+        "cognitive exercises"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Memory Exercises: Các 'bài tập' (exercises) cho 'trí nhớ' (memory).",
+      "frequency_rank": 7900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11111
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "respite care",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "medical",
+      "ipa_uk": "/ˈrespɪt keə(r)/",
+      "ipa_us": "/ˈrespɪt ker/",
+      "meaning_vi": "chăm sóc tạm thời",
+      "definition_en": "Temporary institutional care of a sick, elderly, or disabled person, providing relief for their usual caregiver.",
+      "example_en": "Respite care gives family caregivers a much-needed break.",
+      "example_vi": "Chăm sóc tạm thời mang lại cho những người chăm sóc gia đình một kỳ nghỉ rất cần thiết.",
+      "collocations_json": [
+        "provide respite care",
+        "short-term respite care"
+      ],
+      "synonyms_json": [
+        "temporary care"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Respite Care: 'Chăm sóc' (care) để có 'thời gian nghỉ' (respite).",
+      "frequency_rank": 9500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11112
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "age discrimination",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "general",
+      "ipa_uk": "/ˈeɪdʒ dɪskrɪmɪˈneɪʃn/",
+      "ipa_us": "/ˈeɪdʒ dɪskrɪmɪˈneɪʃn/",
+      "meaning_vi": "phân biệt tuổi tác",
+      "definition_en": "Unfair treatment of a person based on their age.",
+      "example_en": "Age discrimination in the workplace is illegal in many countries.",
+      "example_vi": "Phân biệt tuổi tác ở nơi làm việc là bất hợp pháp ở nhiều quốc gia.",
+      "collocations_json": [
+        "suffer age discrimination",
+        "combat age discrimination"
+      ],
+      "synonyms_json": [
+        "ageism"
+      ],
+      "antonyms_json": [
+        "age equality"
+      ],
+      "mnemonic": "Age Discrimination: 'Phân biệt đối xử' (discrimination) dựa trên 'tuổi tác' (age).",
+      "frequency_rank": 8900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11113
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Aging, Retirement & Elder Care",
+      "word": "legacy",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "general",
+      "ipa_uk": "/ˈleɡəsi/",
+      "ipa_us": "/ˈleɡəsi/",
+      "meaning_vi": "di sản, gia tài",
+      "definition_en": "Something that is left or handed down by a predecessor.",
+      "example_en": "He hoped to leave a positive legacy for his grandchildren.",
+      "example_vi": "Ông ấy hy vọng sẽ để lại một di sản tích cực cho các cháu của mình.",
+      "collocations_json": [
+        "leave a legacy",
+        "family legacy",
+        "cultural legacy"
+      ],
+      "synonyms_json": [
+        "inheritance",
+        "heritage"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Legacy: Nghe giống 'legal' (hợp pháp), di sản được để lại hợp pháp.",
+      "frequency_rank": 7400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11114
+  }
+]

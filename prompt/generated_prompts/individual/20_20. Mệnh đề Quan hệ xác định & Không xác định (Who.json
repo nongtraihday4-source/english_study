@@ -1,0 +1,432 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man which works here is my uncle.",
+    "output": "✅ **Corrected Sentence:** The man who works here is my uncle.\n🔍 **Error Identification:** Dùng 'which' cho người – 'which' chỉ dùng cho vật, 'who' cho người.\n📘 **Vietnamese Explanation:** Người Việt dịch 'mà' thành 'which' cho mọi trường hợp. Mẹo: Who/whom cho người, which cho vật, that cho cả người và vật (trong mệnh đề xác định).\n💡 **Ví dụ:** The woman who called me is my aunt. / The car which is red is mine."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book who I read was interesting.",
+    "output": "✅ **Corrected Sentence:** The book that I read was interesting. (hoặc which I read)\n🔍 **Error Identification:** Dùng 'who' cho vật – 'who' chỉ dùng cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who' cho mọi chủ ngữ. Mẹo: Who cho người, which/that cho vật.\n💡 **Ví dụ:** The movie which I saw was good. / The pen that is on the table is mine."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the man who I gave the money to.",
+    "output": "✅ **Corrected Sentence:** This is the man to whom I gave the money. (hoặc who I gave the money to – chấp nhận trong văn nói)\n🔍 **Error Identification:** 'Whom' là tân ngữ, dùng khi đại từ quan hệ làm tân ngữ cho giới từ.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'who' cho mọi trường hợp. Mẹo: 'Who' = chủ ngữ, 'whom' = tân ngữ (đứng sau giới từ).\n💡 **Ví dụ:** The person whom you met is my boss. / The student to whom I spoke is smart."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My brother, that lives in Hanoi, is a doctor.",
+    "output": "✅ **Corrected Sentence:** My brother, who lives in Hanoi, is a doctor.\n🔍 **Error Identification:** Trong mệnh đề quan hệ không xác định (có dấu phẩy), không dùng 'that' – dùng 'who' cho người, 'which' cho vật.\n📘 **Vietnamese Explanation:** Người Việt dùng 'that' trong mọi mệnh đề. Mẹo: Mệnh đề không xác định (có dấu phẩy) → không dùng 'that'.\n💡 **Ví dụ:** My car, which is old, still runs well. / Ms. Jones, who is my teacher, is nice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house which windows are broken is empty.",
+    "output": "✅ **Corrected Sentence:** The house whose windows are broken is empty.\n🔍 **Error Identification:** 'Whose' chỉ sở hữu cho cả người và vật, không dùng 'which' để chỉ sở hữu.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' + danh từ để chỉ sở hữu. Mẹo: 'Whose' = của ai / của cái gì.\n💡 **Ví dụ:** The man whose car was stolen called the police. / The book whose cover is red is mine."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The woman which I met yesterday is a singer.",
+    "output": "✅ **Corrected Sentence:** The woman whom I met yesterday is a singer. (hoặc who/that)\n🔍 **Error Identification:** Dùng 'which' cho người – sai. Dùng 'whom' (tân ngữ) hoặc 'who/that' (thân mật).\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi trường hợp. Mẹo: Who/whom cho người, which cho vật.\n💡 **Ví dụ:** The girl whom you saw is my sister. / The artist who painted this is famous."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the place where I was born. (câu đúng) - Học viên viết \'This is the place which I was born.\'",
+    "output": "✅ **Corrected Sentence:** This is the place where I was born.\n🔍 **Error Identification:** Dùng 'which' thay vì 'where' cho địa điểm – 'where' thay thế cho giới từ + which (in which).\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi trường hợp. Mẹo: 'Where' cho địa điểm, 'when' cho thời gian, 'why' cho lý do.\n💡 **Ví dụ:** The house where I live is small. / The day when we met was sunny."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The reason which he left is unknown.",
+    "output": "✅ **Corrected Sentence:** The reason why he left is unknown. (hoặc for which, that)\n🔍 **Error Identification:** Dùng 'which' thay vì 'why' cho lý do.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi trường hợp. Mẹo: 'The reason why' (lý do tại sao).\n💡 **Ví dụ:** The reason why I'm late is traffic. / Do you know the reason why she cried?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The people which live next door are very noisy.",
+    "output": "✅ **Corrected Sentence:** The people who live next door are very noisy. (hoặc that)\n🔍 **Error Identification:** Dùng 'which' cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho cả người và vật. Mẹo: Who/that cho người, which cho vật.\n💡 **Ví dụ:** The students who study hard will pass. / The man that called you is my dad."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake, that she baked, was delicious.",
+    "output": "✅ **Corrected Sentence:** The cake, which she baked, was delicious.\n🔍 **Error Identification:** Trong mệnh đề không xác định (có dấu phẩy), không dùng 'that' – dùng 'which' cho vật.\n📘 **Vietnamese Explanation:** Người Việt dùng 'that' trong mọi mệnh đề. Mẹo: Mệnh đề không xác định (có dấu phẩy) → không dùng 'that'.\n💡 **Ví dụ:** My car, which is blue, is fast. / Her phone, which she bought yesterday, is expensive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The teacher whom teaches math is very kind.",
+    "output": "✅ **Corrected Sentence:** The teacher who teaches math is very kind.\n🔍 **Error Identification:** Dùng 'whom' (tân ngữ) thay vì 'who' (chủ ngữ) cho động từ 'teaches'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'whom' cho mọi trường hợp vì nghĩ nó 'trang trọng'. Mẹo: 'Who' + động từ (chủ ngữ), 'whom' + chủ ngữ khác (tân ngữ).\n💡 **Ví dụ:** The doctor who treated me is excellent. / The person whom I met was nice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie which we saw it was boring.",
+    "output": "✅ **Corrected Sentence:** The movie which we saw was boring. (bỏ 'it')\n🔍 **Error Identification:** Đại từ quan hệ 'which' đã thay thế cho tân ngữ 'it' – không được lặp lại 'it'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'bộ phim mà chúng tôi xem nó' – lặp 'nó'. Mẹo: Không lặp đại từ sau đại từ quan hệ.\n💡 **Ví dụ:** The book that I read was good. (không 'it') / The man who I saw was tall. (không 'him')"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The students who they cheated were punished.",
+    "output": "✅ **Corrected Sentence:** The students who cheated were punished.\n🔍 **Error Identification:** Lặp đại từ 'they' sau 'who' – 'who' đã thay thế cho 'students'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'những học sinh mà họ gian lận'. Mẹo: Không dùng đại từ nhân xưng sau đại từ quan hệ.\n💡 **Ví dụ:** The woman who called is my aunt. (không 'she') / The car that broke down is old."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That is the school which I studied.",
+    "output": "✅ **Corrected Sentence:** That is the school where I studied. (hoặc at which I studied)\n🔍 **Error Identification:** Dùng 'which' thay vì 'where' – cần giới từ 'at' nếu dùng 'which'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'ngôi trường mà tôi học' quên giới từ. Mẹo: 'Where' = at/in/on which.\n💡 **Ví dụ:** The hotel where we stayed was cheap. / The office where I work is big."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The woman which I talked to is my neighbor.",
+    "output": "✅ **Corrected Sentence:** The woman to whom I talked is my neighbor. (hoặc who I talked to)\n🔍 **Error Identification:** Dùng 'which' cho người – sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi đối tượng. Mẹo: Who/whom cho người, which cho vật.\n💡 **Ví dụ:** The man who I met is friendly. / The person to whom you spoke is the manager."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the book that I was looking for. (câu đúng) - Học viên viết \'This is the book for that I was looking.\'",
+    "output": "✅ **Corrected Sentence:** This is the book that I was looking for. (hoặc for which I was looking)\n🔍 **Error Identification:** Không đặt giới từ trước 'that' – 'for that' là sai.\n📘 **Vietnamese Explanation:** Người Việt đặt giới từ trước 'that' như 'which'. Mẹo: Không dùng giới từ trước 'that'.\n💡 **Ví dụ:** The house that I live in is small. / The chair that I sat on was broken."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My sister, which is a nurse, works at the hospital.",
+    "output": "✅ **Corrected Sentence:** My sister, who is a nurse, works at the hospital.\n🔍 **Error Identification:** Dùng 'which' cho người trong mệnh đề không xác định.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi trường hợp. Mẹo: Who cho người (kể cả mệnh đề không xác định).\n💡 **Ví dụ:** My father, who is 60, still works. / My best friend, who lives in Paris, is visiting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car that is parked outside is mine. (câu đúng) - Học viên viết \'The car which is parked outside is mine.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** The car that is parked outside is mine. (hoặc which)\n🔍 **Error Identification:** Cả 'that' và 'which' đều đúng trong mệnh đề xác định (không dấu phẩy).\n📘 **Vietnamese Explanation:** Người Việt chỉ nên nhớ: mệnh đề không dấu phẩy → dùng that/which/who. Mẹo: 'That' thân mật hơn trong văn nói.\n💡 **Ví dụ:** The dog that barked is loud. / The house which we bought is old."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The person which helped me was very kind.",
+    "output": "✅ **Corrected Sentence:** The person who helped me was very kind.\n🔍 **Error Identification:** Dùng 'which' cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi chủ ngữ. Mẹo: Who/that cho người.\n💡 **Ví dụ:** The teacher who inspires me is great. / The friend that called me is coming."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't like people whom are rude.",
+    "output": "✅ **Corrected Sentence:** I don't like people who are rude.\n🔍 **Error Identification:** Dùng 'whom' (tân ngữ) thay vì 'who' (chủ ngữ) cho động từ 'are'.\n📘 **Vietnamese Explanation:** Người Việt nghĩ 'whom' là 'mà' và dùng cho mọi trường hợp. Mẹo: 'Who' + V (chủ ngữ), 'whom' + S + V (tân ngữ).\n💡 **Ví dụ:** People who smoke are unhealthy. / The man whom I saw was tall."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The day which we met was rainy.",
+    "output": "✅ **Corrected Sentence:** The day when we met was rainy. (hoặc on which)\n🔍 **Error Identification:** Dùng 'which' thay vì 'when' cho thời gian.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi trường hợp. Mẹo: 'When' cho thời gian, 'where' cho địa điểm.\n💡 **Ví dụ:** The year when I was born was 1990. / The moment when she arrived was perfect."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man that I saw him is my teacher.",
+    "output": "✅ **Corrected Sentence:** The man that I saw is my teacher. (bỏ 'him')\n🔍 **Error Identification:** Lặp đại từ 'him' sau 'that'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'người đàn ông mà tôi thấy anh ấy'. Mẹo: Không lặp đại từ sau đại từ quan hệ.\n💡 **Ví dụ:** The book that I read it → The book that I read. / The girl who I called her → The girl who I called."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the house which I lived in it.",
+    "output": "✅ **Corrected Sentence:** This is the house which I lived in. (bỏ 'it')\n🔍 **Error Identification:** Lặp đại từ 'it' sau 'which'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'ngôi nhà mà tôi sống trong nó'. Mẹo: 'Which' thay thế cho 'it', không lặp.\n💡 **Ví dụ:** The school which I studied at is famous. / The restaurant that we ate at was cheap."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The people, that live next door, are friendly.",
+    "output": "✅ **Corrected Sentence:** The people who live next door are friendly. (bỏ dấu phẩy, hoặc dùng who)\n🔍 **Error Identification:** Mệnh đề không xác định không dùng 'that' và cần dấu phẩy.\n📘 **Vietnamese Explanation:** Người Việt dùng 'that' và dấu phẩy cùng lúc. Mẹo: Mệnh đề xác định (không dấu phẩy) → có thể dùng 'that'. Mệnh đề không xác định (có dấu phẩy) → không dùng 'that'.\n💡 **Ví dụ:** My neighbors, who are friendly, helped me. / Paris, which is beautiful, is my dream city."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The boy whom is standing there is my son.",
+    "output": "✅ **Corrected Sentence:** The boy who is standing there is my son.\n🔍 **Error Identification:** Dùng 'whom' (tân ngữ) làm chủ ngữ của 'is standing'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'whom' cho mọi trường hợp. Mẹo: 'Whom' không thể làm chủ ngữ.\n💡 **Ví dụ:** The girl who sings well is my friend. / The man who called is my uncle."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake which she made it was delicious.",
+    "output": "✅ **Corrected Sentence:** The cake which she made was delicious.\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau động từ. Mẹo: Đại từ quan hệ đã thay thế, không lặp.\n💡 **Ví dụ:** The song that he sang was beautiful. / The letter which she wrote was long."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the reason which I came late.",
+    "output": "✅ **Corrected Sentence:** This is the reason why I came late. (hoặc for which)\n🔍 **Error Identification:** Dùng 'which' thay vì 'why' cho lý do.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi trường hợp. Mẹo: 'The reason why' (lý do).\n💡 **Ví dụ:** The reason why I'm tired is lack of sleep. / Tell me the reason why you left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The woman which I work with is very supportive.",
+    "output": "✅ **Corrected Sentence:** The woman who I work with is very supportive. (hoặc whom)\n🔍 **Error Identification:** Dùng 'which' cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi đối tượng. Mẹo: Who/whom cho người.\n💡 **Ví dụ:** The man who I live with is my brother. / The colleague whom I respect is leaving."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My phone, that I bought last week, is already broken.",
+    "output": "✅ **Corrected Sentence:** My phone, which I bought last week, is already broken.\n🔍 **Error Identification:** Mệnh đề không xác định (có dấu phẩy) không dùng 'that'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'that' trong mọi mệnh đề. Mẹo: Mệnh đề không xác định → which (vật), who (người).\n💡 **Ví dụ:** My laptop, which is new, is fast. / My mother, who loves cooking, is in the kitchen."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book which I borrowed it from the library is due today.",
+    "output": "✅ **Corrected Sentence:** The book which I borrowed from the library is due today. (bỏ 'it')\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau 'borrowed'. Mẹo: 'Which' = 'it', không lặp.\n💡 **Ví dụ:** The pen that I lost is blue. / The movie which we watched was boring."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That is the hospital where I was born. (câu đúng) - Học viên viết \'That is the hospital which I was born.\'",
+    "output": "✅ **Corrected Sentence:** That is the hospital where I was born.\n🔍 **Error Identification:** Thiếu giới từ 'at' nếu dùng 'which' (at which I was born).\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' mà quên giới từ. Mẹo: 'Where' = at/in which.\n💡 **Ví dụ:** The school where I studied is big. / The city where I live is crowded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The people which house was damaged got help.",
+    "output": "✅ **Corrected Sentence:** The people whose house was damaged got help.\n🔍 **Error Identification:** Dùng 'which' thay vì 'whose' để chỉ sở hữu.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' + danh từ để chỉ sở hữu. Mẹo: 'Whose' = của ai.\n💡 **Ví dụ:** The man whose car was stolen called the police. / The student whose phone rang was embarrassed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The singer which sang at the concert was amazing.",
+    "output": "✅ **Corrected Sentence:** The singer who sang at the concert was amazing.\n🔍 **Error Identification:** Dùng 'which' cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi chủ ngữ. Mẹo: Who cho người (chủ ngữ).\n💡 **Ví dụ:** The actor who played the lead role is famous. / The chef who cooked the meal is talented."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house which I grew up is still there.",
+    "output": "✅ **Corrected Sentence:** The house where I grew up is still there. (hoặc in which I grew up)\n🔍 **Error Identification:** Thiếu giới từ 'in' trước 'which'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'ngôi nhà mà tôi lớn lên' quên giới từ. Mẹo: 'Where' = in/at which.\n💡 **Ví dụ:** The village where I was born is small. / The room where I sleep is cozy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The person which I spoke on the phone is my boss.",
+    "output": "✅ **Corrected Sentence:** The person to whom I spoke on the phone is my boss. (hoặc who I spoke to)\n🔍 **Error Identification:** Dùng 'which' cho người và thiếu giới từ 'to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi trường hợp. Mẹo: Who/whom cho người, cần giới từ.\n💡 **Ví dụ:** The friend who I talked to is here. / The man to whom you wrote is my uncle."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The party which we went was boring.",
+    "output": "✅ **Corrected Sentence:** The party which we went to was boring. (hoặc that we went to)\n🔍 **Error Identification:** Thiếu giới từ 'to' sau 'went'.\n📘 **Vietnamese Explanation:** Người Việt quên giới từ khi dùng 'which' thay cho địa điểm. Mẹo: 'Go to a party' → 'the party which we went to'.\n💡 **Ví dụ:** The school which I go to is near my house. / The hotel which we stayed at was cheap."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My grandmother, that is 80 years old, still works.",
+    "output": "✅ **Corrected Sentence:** My grandmother, who is 80 years old, still works.\n🔍 **Error Identification:** Mệnh đề không xác định (có dấu phẩy) không dùng 'that'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'that' trong mọi mệnh đề. Mẹo: Mệnh đề không xác định → who (người), which (vật).\n💡 **Ví dụ:** My sister, who lives in London, is a doctor. / My car, which is old, still runs well."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who he called me is my uncle.",
+    "output": "✅ **Corrected Sentence:** The man who called me is my uncle. (bỏ 'he')\n🔍 **Error Identification:** Lặp đại từ 'he' sau 'who'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'người đàn ông mà anh ấy gọi tôi'. Mẹo: 'Who' đã thay thế cho 'he'.\n💡 **Ví dụ:** The woman who helped me is kind. / The boy who broke the window is sorry."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the place that I was born.",
+    "output": "✅ **Corrected Sentence:** This is the place where I was born. (hoặc that I was born in)\n🔍 **Error Identification:** Thiếu giới từ 'in' nếu dùng 'that'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'that' mà quên giới từ. Mẹo: 'Where' = in which / in that.\n💡 **Ví dụ:** The restaurant that we ate at was good. / The city where I live is busy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The person which you should talk to is Mr. Smith.",
+    "output": "✅ **Corrected Sentence:** The person whom you should talk to is Mr. Smith. (hoặc who/that)\n🔍 **Error Identification:** Dùng 'which' cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi đối tượng. Mẹo: Who/whom cho người.\n💡 **Ví dụ:** The student who you met is my friend. / The man whom you saw is the boss."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie, that I saw last night, was scary.",
+    "output": "✅ **Corrected Sentence:** The movie, which I saw last night, was scary.\n🔍 **Error Identification:** Mệnh đề không xác định không dùng 'that'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'that' với dấu phẩy. Mẹo: Mệnh đề không xác định → which (vật).\n💡 **Ví dụ:** The book, which I borrowed from you, is great. / The phone, which I bought yesterday, is expensive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man which he is my neighbor helped me.",
+    "output": "✅ **Corrected Sentence:** The man who is my neighbor helped me. (bỏ 'which he')\n🔍 **Error Identification:** Lỗi kép: dùng 'which' cho người và lặp 'he'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'người đàn ông mà anh ấy'. Mẹo: 'Who' thay thế cho 'he'.\n💡 **Ví dụ:** The woman who lives next door is friendly. / The boy who is crying needs help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The year which I graduated was 2020.",
+    "output": "✅ **Corrected Sentence:** The year when I graduated was 2020. (hoặc in which)\n🔍 **Error Identification:** Dùng 'which' thay vì 'when' cho thời gian.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi trường hợp. Mẹo: 'When' cho thời gian.\n💡 **Ví dụ:** The month when I started my job is April. / The day when we met was special."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The teacher which taught me English is retired.",
+    "output": "✅ **Corrected Sentence:** The teacher who taught me English is retired.\n🔍 **Error Identification:** Dùng 'which' cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi chủ ngữ. Mẹo: Who cho người (chủ ngữ).\n💡 **Ví dụ:** The coach who trained me is excellent. / The professor who gave the lecture is famous."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book which I'm reading it is very interesting.",
+    "output": "✅ **Corrected Sentence:** The book which I'm reading is very interesting. (bỏ 'it')\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau 'reading'. Mẹo: 'Which' = 'it', không lặp.\n💡 **Ví dụ:** The song that I'm listening to is catchy. / The movie which we're watching is long."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "That is the restaurant which we ate yesterday.",
+    "output": "✅ **Corrected Sentence:** That is the restaurant where we ate yesterday. (hoặc which we ate at)\n🔍 **Error Identification:** Thiếu giới từ 'at' sau 'ate'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' mà quên giới từ. Mẹo: 'Where' = at which.\n💡 **Ví dụ:** The cafe where we met is nice. / The park which we walked in is beautiful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The woman which car is red is my aunt.",
+    "output": "✅ **Corrected Sentence:** The woman whose car is red is my aunt.\n🔍 **Error Identification:** Dùng 'which' thay vì 'whose' cho sở hữu.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' + danh từ. Mẹo: 'Whose' = của ai.\n💡 **Ví dụ:** The man whose house is big is rich. / The student whose phone rang was embarrassed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The dog which barked all night is annoying.",
+    "output": "✅ **Corrected Sentence:** The dog that barked all night is annoying. (hoặc which)\n🔍 **Error Identification:** Câu này đúng nếu dùng 'which' cho vật. Không sai.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'which' cho vật là đúng. Mẹo: Which cho vật, who cho người.\n💡 **Ví dụ:** The cat which sleeps all day is lazy. / The bird which sings is beautiful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The people whom lives next door are noisy.",
+    "output": "✅ **Corrected Sentence:** The people who live next door are noisy.\n🔍 **Error Identification:** Dùng 'whom' (tân ngữ) làm chủ ngữ của 'live'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'whom' cho mọi trường hợp. Mẹo: 'Whom' không thể làm chủ ngữ.\n💡 **Ví dụ:** The students who study hard succeed. / The workers who are on strike demand a raise."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The reason which I was late is traffic.",
+    "output": "✅ **Corrected Sentence:** The reason why I was late is traffic. (hoặc that)\n🔍 **Error Identification:** Dùng 'which' thay vì 'why'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho lý do. Mẹo: 'The reason why' là cấu trúc cố định.\n💡 **Ví dụ:** The reason why she cried is unknown. / Tell me the reason why you left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house which I live in it is old.",
+    "output": "✅ **Corrected Sentence:** The house which I live in is old. (bỏ 'it')\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau 'in'. Mẹo: 'Which' = 'it', không lặp.\n💡 **Ví dụ:** The school which I study at is famous. / The room which I sleep in is small."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My brother, who is a doctor, works a lot. (câu đúng) - Học viên viết \'My brother, which is a doctor, works a lot.\'",
+    "output": "✅ **Corrected Sentence:** My brother, who is a doctor, works a lot.\n🔍 **Error Identification:** Dùng 'which' cho người trong mệnh đề không xác định.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi trường hợp. Mẹo: Who cho người (kể cả mệnh đề không xác định).\n💡 **Ví dụ:** My sister, who lives in Paris, is a chef. / My dad, who is 60, still works."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car which I bought it is new.",
+    "output": "✅ **Corrected Sentence:** The car which I bought is new. (bỏ 'it')\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau 'bought'. Mẹo: 'Which' = 'it', không lặp.\n💡 **Ví dụ:** The bike that I got is blue. / The phone which she used is old."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The people that I met them were friendly.",
+    "output": "✅ **Corrected Sentence:** The people that I met were friendly. (bỏ 'them')\n🔍 **Error Identification:** Lặp 'them'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'họ' sau 'met'. Mẹo: 'That' = 'them', không lặp.\n💡 **Ví dụ:** The students that I taught are smart. / The friends that I visited were happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the school where I studied at.",
+    "output": "✅ **Corrected Sentence:** This is the school where I studied. (bỏ 'at')\n🔍 **Error Identification:** Dùng 'where' và 'at' cùng lúc – 'where' đã bao gồm 'at'.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'where' và giới từ. Mẹo: 'Where' = at/in which, không thêm giới từ.\n💡 **Ví dụ:** The house where I live is big. (không 'in') / The office where I work is small."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who he is my teacher is kind.",
+    "output": "✅ **Corrected Sentence:** The man who is my teacher is kind. (bỏ 'he')\n🔍 **Error Identification:** Lặp 'he'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'anh ấy' sau 'who'. Mẹo: 'Who' thay thế cho 'he'.\n💡 **Ví dụ:** The woman who is my boss is strict. / The boy who is crying needs comfort."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The time which we arrived was late.",
+    "output": "✅ **Corrected Sentence:** The time when we arrived was late. (hoặc at which)\n🔍 **Error Identification:** Dùng 'which' thay vì 'when'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho thời gian. Mẹo: 'When' cho thời gian.\n💡 **Ví dụ:** The moment when she smiled was beautiful. / The hour when we met was 5 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book that I borrowed it from the library is due.",
+    "output": "✅ **Corrected Sentence:** The book that I borrowed from the library is due. (bỏ 'it')\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau 'borrowed'. Mẹo: 'That' = 'it', không lặp.\n💡 **Ví dụ:** The laptop that I used is slow. / The pen that I lost is expensive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The woman which I work for is very nice.",
+    "output": "✅ **Corrected Sentence:** The woman whom I work for is very nice. (hoặc who/that)\n🔍 **Error Identification:** Dùng 'which' cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi đối tượng. Mẹo: Who/whom cho người.\n💡 **Ví dụ:** The boss who I work with is fair. / The client whom I serve is happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My phone, which I dropped it, is broken.",
+    "output": "✅ **Corrected Sentence:** My phone, which I dropped, is broken. (bỏ 'it')\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau 'dropped'. Mẹo: 'Which' = 'it', không lặp.\n💡 **Ví dụ:** My laptop, which I bought yesterday, is fast. / My bag, which I lost, was expensive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the house where I was born in.",
+    "output": "✅ **Corrected Sentence:** This is the house where I was born. (bỏ 'in')\n🔍 **Error Identification:** 'Where' không đi với giới từ.\n📘 **Vietnamese Explanation:** Người Việt thêm giới từ sau 'where'. Mẹo: 'Where' = in/at which, không thêm giới từ.\n💡 **Ví dụ:** The city where I live is crowded. / The room where I sleep is dark."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The person which I admire the most is my mother.",
+    "output": "✅ **Corrected Sentence:** The person whom I admire the most is my mother. (hoặc who/that)\n🔍 **Error Identification:** Dùng 'which' cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi trường hợp. Mẹo: Whom/who cho người.\n💡 **Ví dụ:** The singer whom I love is famous. / The teacher who I respect is kind."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake which she made it was eaten quickly.",
+    "output": "✅ **Corrected Sentence:** The cake which she made was eaten quickly. (bỏ 'it')\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau 'made'. Mẹo: 'Which' = 'it', không lặp.\n💡 **Ví dụ:** The meal which she cooked was delicious. / The dress which she wore was beautiful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The day that we met was special. (câu đúng) - Học viên viết \'The day which we met was special.\'",
+    "output": "✅ **Corrected Sentence:** The day when we met was special. (hoặc that we met / on which we met)\n🔍 **Error Identification:** Dùng 'which' thay vì 'when' cho thời gian.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho thời gian. Mẹo: 'When' cho thời gian.\n💡 **Ví dụ:** The month when I started was January. / The year when he was born is 1990."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who I met him yesterday is my cousin.",
+    "output": "✅ **Corrected Sentence:** The man who I met yesterday is my cousin. (bỏ 'him')\n🔍 **Error Identification:** Lặp 'him'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'anh ấy' sau 'met'. Mẹo: 'Who' = 'him', không lặp.\n💡 **Ví dụ:** The girl who I called is my sister. / The boy who I saw is my neighbor."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house which I live in is very old. (câu đúng) - Học viên viết \'The house where I live in is very old.\'",
+    "output": "✅ **Corrected Sentence:** The house where I live is very old. (bỏ 'in')\n🔍 **Error Identification:** 'Where' không đi với giới từ 'in'.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'where' và 'in'. Mẹo: 'Where' thay thế cho 'in which'.\n💡 **Ví dụ:** The park where I run is large. / The city where she works is busy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The reason that he left is unknown. (câu đúng) - Học viên viết \'The reason which he left is unknown.\'",
+    "output": "✅ **Corrected Sentence:** The reason why he left is unknown. (hoặc that)\n🔍 **Error Identification:** Dùng 'which' thay vì 'why'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho lý do. Mẹo: 'The reason why' là phổ biến nhất.\n💡 **Ví dụ:** The reason why I'm sad is personal. / Tell me the reason why you called."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The student who he cheated was punished.",
+    "output": "✅ **Corrected Sentence:** The student who cheated was punished. (bỏ 'he')\n🔍 **Error Identification:** Lặp 'he'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'anh ấy' sau 'who'. Mẹo: 'Who' = 'he', không lặp.\n💡 **Ví dụ:** The driver who caused the accident was fined. / The singer who performed was amazing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The computer which I use it is slow.",
+    "output": "✅ **Corrected Sentence:** The computer which I use is slow. (bỏ 'it')\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau 'use'. Mẹo: 'Which' = 'it', không lặp.\n💡 **Ví dụ:** The phone which I have is new. / The bike which I ride is fast."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the restaurant where we ate last night.",
+    "output": "✅ **Corrected Sentence:** This is the restaurant where we ate last night. (câu đúng)\n🔍 **Error Identification:** Câu này đúng. 'Where' = at which.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'Where' cho địa điểm, không cần giới từ.\n💡 **Ví dụ:** The cafe where we met is cozy. / The park where we walked is beautiful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man which gave me directions was kind.",
+    "output": "✅ **Corrected Sentence:** The man who gave me directions was kind.\n🔍 **Error Identification:** Dùng 'which' cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho người. Mẹo: Who cho người (chủ ngữ).\n💡 **Ví dụ:** The woman who helped me was generous. / The boy who found my wallet was honest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book that I'm reading is great. (câu đúng) - Học viên viết \'The book which I'm reading it is great.\'",
+    "output": "✅ **Corrected Sentence:** The book which I'm reading is great.\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau 'reading'. Mẹo: Đại từ quan hệ thay thế, không lặp.\n💡 **Ví dụ:** The movie that we're watching is boring. / The song which I'm listening to is catchy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The year when I was born is 1995. (câu đúng) - Học viên viết \'The year which I was born is 1995.\'",
+    "output": "✅ **Corrected Sentence:** The year when I was born is 1995.\n🔍 **Error Identification:** Dùng 'which' thay vì 'when'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho năm. Mẹo: 'When' cho năm, tháng, ngày.\n💡 **Ví dụ:** The month when she arrived was May. / The day when we met was Monday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The people whom they met were friendly.",
+    "output": "✅ **Corrected Sentence:** The people whom they met were friendly. (câu này đúng, không lặp vì 'they' là chủ ngữ khác)\n🔍 **Error Identification:** Câu này đúng! 'Whom' là tân ngữ, 'they' là chủ ngữ của mệnh đề quan hệ.\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt: 'Whom' + chủ ngữ khác (they) là đúng.\n💡 **Ví dụ:** The man whom I saw was tall. / The woman whom you met is my aunt."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car which it is red is mine.",
+    "output": "✅ **Corrected Sentence:** The car which is red is mine. (bỏ 'it')\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau 'which'. Mẹo: 'Which' = 'it', không lặp.\n💡 **Ví dụ:** The bike which is blue is his. / The phone which is old is hers."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house where my parents live is big. (câu đúng) - Học viên viết \'The house where my parents live in is big.\'",
+    "output": "✅ **Corrected Sentence:** The house where my parents live is big. (bỏ 'in')\n🔍 **Error Identification:** 'Where' không đi với giới từ.\n📘 **Vietnamese Explanation:** Người Việt thêm giới từ sau 'where'. Mẹo: 'Where' = in which, không cần 'in'.\n💡 **Ví dụ:** The office where I work is small. / The school where she studies is far."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The person which I respect the most is my father.",
+    "output": "✅ **Corrected Sentence:** The person whom I respect the most is my father. (hoặc who/that)\n🔍 **Error Identification:** Dùng 'which' cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho mọi trường hợp. Mẹo: Whom/who cho người.\n💡 **Ví dụ:** The teacher whom I admire is kind. / The friend who I trust is loyal."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie which I saw it last night was scary.",
+    "output": "✅ **Corrected Sentence:** The movie which I saw last night was scary. (bỏ 'it')\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau 'saw'. Mẹo: 'Which' = 'it', không lặp.\n💡 **Ví dụ:** The show which I watched was entertaining. / The film which I enjoyed was long."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The day which we left was rainy.",
+    "output": "✅ **Corrected Sentence:** The day when we left was rainy. (hoặc that we left / on which we left)\n🔍 **Error Identification:** Dùng 'which' thay vì 'when'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho ngày tháng. Mẹo: 'When' cho thời gian.\n💡 **Ví dụ:** The moment when she arrived was perfect. / The hour when we met was 6 PM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man which car is parked outside is my boss.",
+    "output": "✅ **Corrected Sentence:** The man whose car is parked outside is my boss.\n🔍 **Error Identification:** Dùng 'which' thay vì 'whose' cho sở hữu.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' + danh từ. Mẹo: 'Whose' = của ai.\n💡 **Ví dụ:** The woman whose bag was stolen is upset. / The student whose phone rang was embarrassed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house which I grew up in is still there.",
+    "output": "✅ **Corrected Sentence:** The house where I grew up is still there. (hoặc which I grew up in)\n🔍 **Error Identification:** Câu này đúng nếu giữ nguyên. 'Which I grew up in' là chấp nhận được.\n📘 **Vietnamese Explanation:** Cả 'where' và 'which + giới từ' đều đúng. Mẹo: 'Where' ngắn gọn hơn.\n💡 **Ví dụ:** The school which I studied at is famous. / The city where I live is crowded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The person which called me was my mother.",
+    "output": "✅ **Corrected Sentence:** The person who called me was my mother.\n🔍 **Error Identification:** Dùng 'which' cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho người. Mẹo: Who cho người (chủ ngữ).\n💡 **Ví dụ:** The doctor who treated me is kind. / The driver who took me was friendly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake which I made it was delicious.",
+    "output": "✅ **Corrected Sentence:** The cake which I made was delicious. (bỏ 'it')\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau 'made'. Mẹo: 'Which' = 'it', không lặp.\n💡 **Ví dụ:** The cookies which she baked were tasty. / The pie which he prepared was sweet."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The reason which I'm late is traffic.",
+    "output": "✅ **Corrected Sentence:** The reason why I'm late is traffic. (hoặc that)\n🔍 **Error Identification:** Dùng 'which' thay vì 'why'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho lý do. Mẹo: 'The reason why' là cố định.\n💡 **Ví dụ:** The reason why she's upset is personal. / The reason why we left is clear."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The people which I work with are nice.",
+    "output": "✅ **Corrected Sentence:** The people who I work with are nice. (hoặc whom)\n🔍 **Error Identification:** Dùng 'which' cho người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which' cho người. Mẹo: Who/whom cho người.\n💡 **Ví dụ:** The colleagues whom I respect are hardworking. / The friends who I play with are fun."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The phone that I bought it is expensive.",
+    "output": "✅ **Corrected Sentence:** The phone that I bought is expensive. (bỏ 'it')\n🔍 **Error Identification:** Lặp 'it'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'nó' sau 'bought'. Mẹo: 'That' = 'it', không lặp.\n💡 **Ví dụ:** The laptop that I used is slow. / The tablet that she got is nice."
+  }
+]

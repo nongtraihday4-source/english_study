@@ -1,0 +1,1910 @@
+[
+
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "post office",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpəʊst ˌɒfɪs/",
+      "ipa_us": "/ˈpoʊst ˌɔːfɪs/",
+      "meaning_vi": "bưu điện, nơi gửi/nhận thư",
+      "definition_en": "A public department or building where mail services are provided.",
+      "example_en": "I need to go to the post office to send this letter.",
+      "example_vi": "Tôi cần đến bưu điện để gửi lá thư này.",
+      "collocations_json": [
+        "go to the post office",
+        "local post office"
+      ],
+      "synonyms_json": [
+        "mail office"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Post office là nơi để post (gửi) thư.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10898
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "letter",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈletə/",
+      "ipa_us": "/ˈletər/",
+      "meaning_vi": "lá thư, thư tín",
+      "definition_en": "A written or printed message addressed to a person or organization, usually sent by mail.",
+      "example_en": "She wrote a long letter to her friend.",
+      "example_vi": "Cô ấy đã viết một lá thư dài cho bạn mình.",
+      "collocations_json": [
+        "write a letter",
+        "send a letter",
+        "open a letter"
+      ],
+      "synonyms_json": [
+        "correspondence"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Letter là lá thư, viết letter để gửi bạn bè.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10899
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "stamp",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/stæmp/",
+      "ipa_us": "/stæmp/",
+      "meaning_vi": "tem thư, con tem",
+      "definition_en": "A small adhesive piece of paper fixed to an envelope or package, indicating that postage has been paid.",
+      "example_en": "You need a stamp to mail this postcard.",
+      "example_vi": "Bạn cần một con tem để gửi bưu thiếp này.",
+      "collocations_json": [
+        "buy a stamp",
+        "postage stamp",
+        "collect stamps"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Stamp như tem, dán stamp lên thư để gửi.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10900
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "envelope",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈenvələʊp/",
+      "ipa_us": "/ˈenvəloʊp/",
+      "meaning_vi": "phong bì, bao thư",
+      "definition_en": "A flat paper container, especially for a letter.",
+      "example_en": "Please put the letter in an envelope.",
+      "example_vi": "Xin hãy cho lá thư vào một phong bì.",
+      "collocations_json": [
+        "open an envelope",
+        "sealed envelope",
+        "empty envelope"
+      ],
+      "synonyms_json": [
+        "cover"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Envelope giống cái vỏ bọc, bọc thư lại.",
+      "frequency_rank": 5200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10901
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "postcard",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpəʊstkɑːd/",
+      "ipa_us": "/ˈpoʊstkɑːrd/",
+      "meaning_vi": "bưu thiếp",
+      "definition_en": "A card for sending a message by mail without an envelope, typically having a picture on one side.",
+      "example_en": "I sent my family a postcard from Paris.",
+      "example_vi": "Tôi đã gửi cho gia đình một bưu thiếp từ Paris.",
+      "collocations_json": [
+        "send a postcard",
+        "picture postcard"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Postcard là card để post (gửi), thường có hình ảnh.",
+      "frequency_rank": 6100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10902
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "package",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpækɪdʒ/",
+      "ipa_us": "/ˈpækɪdʒ/",
+      "meaning_vi": "bưu kiện, gói hàng",
+      "definition_en": "An object or set of objects wrapped or packed in a box or bag.",
+      "example_en": "I received a package from my aunt today.",
+      "example_vi": "Hôm nay tôi nhận được một gói hàng từ dì tôi.",
+      "collocations_json": [
+        "send a package",
+        "receive a package",
+        "deliver a package"
+      ],
+      "synonyms_json": [
+        "parcel",
+        "bundle"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Package là gói hàng, pack (đóng gói) lại rồi gửi.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10903
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "parcel",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpɑːsl/",
+      "ipa_us": "/ˈpɑːrsl/",
+      "meaning_vi": "bưu kiện, gói hàng",
+      "definition_en": "An object or collection of objects wrapped in paper in order to be carried or sent by mail.",
+      "example_en": "The postman delivered a large parcel this morning.",
+      "example_vi": "Người đưa thư đã giao một bưu kiện lớn sáng nay.",
+      "collocations_json": [
+        "send a parcel",
+        "collect a parcel",
+        "delivery parcel"
+      ],
+      "synonyms_json": [
+        "package",
+        "bundle"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Parcel giống package, là gói hàng to.",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10904
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "mailbox",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈmeɪlbɒks/",
+      "ipa_us": "/ˈmeɪlbɑːks/",
+      "meaning_vi": "hộp thư, hòm thư",
+      "definition_en": "A public box in which letters and packages are placed for collection by the post office, or a private box for receiving mail.",
+      "example_en": "I checked my mailbox, but there was no mail today.",
+      "example_vi": "Tôi đã kiểm tra hộp thư của mình nhưng hôm nay không có thư.",
+      "collocations_json": [
+        "check the mailbox",
+        "empty the mailbox",
+        "full mailbox"
+      ],
+      "synonyms_json": [
+        "postbox",
+        "letterbox"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Mailbox là cái box (hộp) chứa mail (thư).",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10905
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "postman / mailman",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpəʊstmən/",
+      "ipa_us": "/ˈmeɪlmæn/",
+      "meaning_vi": "người đưa thư, nhân viên bưu điện",
+      "definition_en": "A person whose job is to deliver and collect mail.",
+      "example_en": "The postman usually comes in the morning.",
+      "example_vi": "Người đưa thư thường đến vào buổi sáng.",
+      "collocations_json": [
+        "friendly postman",
+        "the local postman"
+      ],
+      "synonyms_json": [
+        "mail carrier"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Postman là người đàn ông (man) mang thư (post).",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10906
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "delivery",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/dɪˈlɪvəri/",
+      "ipa_us": "/dɪˈlɪvəri/",
+      "meaning_vi": "sự giao hàng, việc phân phát",
+      "definition_en": "The act of taking letters, packages, or goods to people's houses or workplaces.",
+      "example_en": "We are waiting for a package delivery today.",
+      "example_vi": "Chúng tôi đang chờ giao một gói hàng hôm nay.",
+      "collocations_json": [
+        "mail delivery",
+        "home delivery",
+        "on delivery"
+      ],
+      "synonyms_json": [
+        "shipment",
+        "dispatch"
+      ],
+      "antonyms_json": [
+        "collection"
+      ],
+      "mnemonic": "Delivery là việc deliver (giao) hàng.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10907
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "address",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/əˈdres/",
+      "ipa_us": "/ˈædres/",
+      "meaning_vi": "địa chỉ",
+      "definition_en": "The number of the house, name of the road, and name of the town that you write on a letter or package.",
+      "example_en": "Please write your full address on the envelope.",
+      "example_vi": "Vui lòng viết đầy đủ địa chỉ của bạn lên phong bì.",
+      "collocations_json": [
+        "home address",
+        "email address",
+        "delivery address"
+      ],
+      "synonyms_json": [
+        "location"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Address là địa chỉ nhà bạn.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10908
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "postcode / zip code",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpəʊstkəʊd/",
+      "ipa_us": "/ˈzɪp ˌkoʊd/",
+      "meaning_vi": "mã bưu chính",
+      "definition_en": "A series of letters and numbers used as part of an address to aid the sorting of mail.",
+      "example_en": "What's the postcode for your area?",
+      "example_vi": "Mã bưu chính cho khu vực của bạn là gì?",
+      "collocations_json": [
+        "enter the postcode",
+        "correct zip code"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Postcode là mã (code) của bưu điện (post).",
+      "frequency_rank": 7000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10909
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "sender",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsendə/",
+      "ipa_us": "/ˈsendər/",
+      "meaning_vi": "người gửi",
+      "definition_en": "The person who sends something, such as a letter or package.",
+      "example_en": "The sender's address was missing from the envelope.",
+      "example_vi": "Địa chỉ người gửi bị thiếu trên phong bì.",
+      "collocations_json": [
+        "return to sender",
+        "sender's address"
+      ],
+      "synonyms_json": [
+        "dispatcher"
+      ],
+      "antonyms_json": [
+        "recipient"
+      ],
+      "mnemonic": "Sender là người send (gửi) hàng.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10910
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "recipient",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈsɪpiənt/",
+      "ipa_us": "/rɪˈsɪpiənt/",
+      "meaning_vi": "người nhận",
+      "definition_en": "A person who receives something.",
+      "example_en": "The package was delivered to the wrong recipient.",
+      "example_vi": "Gói hàng đã được giao nhầm người nhận.",
+      "collocations_json": [
+        "intended recipient",
+        "email recipient"
+      ],
+      "synonyms_json": [
+        "receiver"
+      ],
+      "antonyms_json": [
+        "sender"
+      ],
+      "mnemonic": "Recipient là người receive (nhận) đồ.",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10911
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "counter",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkaʊntə/",
+      "ipa_us": "/ˈkaʊntər/",
+      "meaning_vi": "quầy hàng, quầy giao dịch",
+      "definition_en": "A long flat surface over which goods are sold or business is transacted in a shop or bank.",
+      "example_en": "Please go to the counter to buy your stamps.",
+      "example_vi": "Vui lòng đến quầy để mua tem.",
+      "collocations_json": [
+        "post office counter",
+        "service counter"
+      ],
+      "synonyms_json": [
+        "desk",
+        "stand"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Counter là quầy để tính tiền (count).",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10912
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "queue",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kjuː/",
+      "ipa_us": "/kjuː/",
+      "meaning_vi": "hàng đợi, xếp hàng",
+      "definition_en": "A line of people or vehicles waiting for something.",
+      "example_en": "There was a long queue at the post office.",
+      "example_vi": "Có một hàng dài ở bưu điện.",
+      "collocations_json": [
+        "join the queue",
+        "stand in a queue",
+        "long queue"
+      ],
+      "synonyms_json": [
+        "line"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Queue là hàng người xếp hàng, giống như 'Q' dài.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10913
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "scale",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/skeɪl/",
+      "ipa_us": "/skeɪl/",
+      "meaning_vi": "cân, cái cân",
+      "definition_en": "An instrument for weighing.",
+      "example_en": "They used a scale to weigh the package.",
+      "example_vi": "Họ đã dùng cân để cân gói hàng.",
+      "collocations_json": [
+        "weighing scale",
+        "bathroom scale"
+      ],
+      "synonyms_json": [
+        "balance"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Scale là cái cân, để xem trọng lượng.",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10914
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "form",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/fɔːm/",
+      "ipa_us": "/fɔːrm/",
+      "meaning_vi": "mẫu đơn, biểu mẫu",
+      "definition_en": "A document with blank spaces for information to be inserted.",
+      "example_en": "Please fill out this form to send your parcel.",
+      "example_vi": "Vui lòng điền vào mẫu đơn này để gửi bưu kiện của bạn.",
+      "collocations_json": [
+        "fill out a form",
+        "application form",
+        "registration form"
+      ],
+      "synonyms_json": [
+        "document",
+        "paperwork"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Form là cái form (biểu mẫu) cần điền.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10915
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "special delivery",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈspeʃl dɪˈlɪvəri/",
+      "ipa_us": "/ˈspeʃl dɪˈlɪvəri/",
+      "meaning_vi": "chuyển phát đặc biệt",
+      "definition_en": "A postal service that ensures a letter or package is delivered more quickly than standard mail.",
+      "example_en": "I sent the important documents by special delivery.",
+      "example_vi": "Tôi đã gửi các tài liệu quan trọng bằng chuyển phát đặc biệt.",
+      "collocations_json": [
+        "send by special delivery"
+      ],
+      "synonyms_json": [
+        "express delivery"
+      ],
+      "antonyms_json": [
+        "standard delivery"
+      ],
+      "mnemonic": "Special delivery là giao hàng đặc biệt, nhanh hơn.",
+      "frequency_rank": 9000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10916
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "registered mail",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈredʒɪstəd meɪl/",
+      "ipa_us": "/ˈredʒɪstərd meɪl/",
+      "meaning_vi": "thư bảo đảm, thư bảo đảm có ghi số",
+      "definition_en": "A postal service that provides proof of mailing and delivery for important items.",
+      "example_en": "You should send valuable items by registered mail.",
+      "example_vi": "Bạn nên gửi các vật phẩm có giá trị bằng thư bảo đảm.",
+      "collocations_json": [
+        "send by registered mail"
+      ],
+      "synonyms_json": [
+        "certified mail"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Registered mail là thư đã được register (đăng ký) để đảm bảo.",
+      "frequency_rank": 10000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10917
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "airmail",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈeəmeɪl/",
+      "ipa_us": "/ˈermeɪl/",
+      "meaning_vi": "thư gửi bằng đường hàng không",
+      "definition_en": "Mail transported by aircraft, typically for international destinations.",
+      "example_en": "It's quicker to send letters by airmail to another country.",
+      "example_vi": "Gửi thư bằng đường hàng không đến quốc gia khác sẽ nhanh hơn.",
+      "collocations_json": [
+        "send by airmail",
+        "airmail sticker"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "surface mail"
+      ],
+      "mnemonic": "Airmail là mail (thư) gửi bằng air (đường hàng không).",
+      "frequency_rank": 8500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10918
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "tracking number",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈtrækɪŋ ˌnʌmbə/",
+      "ipa_us": "/ˈtrækɪŋ ˌnʌmbər/",
+      "meaning_vi": "mã số theo dõi",
+      "definition_en": "A unique number assigned to a package that allows customers to monitor its delivery status.",
+      "example_en": "You can use this tracking number to check your package online.",
+      "example_vi": "Bạn có thể sử dụng mã số theo dõi này để kiểm tra gói hàng trực tuyến.",
+      "collocations_json": [
+        "enter tracking number",
+        "get a tracking number"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Tracking number là số để track (theo dõi) gói hàng.",
+      "frequency_rank": 7500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10919
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "PO box",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌpiː ˈəʊ bɒks/",
+      "ipa_us": "/ˌpiː ˈoʊ bɑːks/",
+      "meaning_vi": "hộp thư bưu điện",
+      "definition_en": "A numbered box at a post office where mail can be received and collected.",
+      "example_en": "My company has a PO box for all its mail.",
+      "example_vi": "Công ty tôi có một hộp thư bưu điện cho tất cả thư từ.",
+      "collocations_json": [
+        "rent a PO box",
+        "PO box address"
+      ],
+      "synonyms_json": [
+        "post office box"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "PO box là viết tắt của Post Office box.",
+      "frequency_rank": 11000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10920
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "postage",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpəʊstɪdʒ/",
+      "ipa_us": "/ˈpoʊstɪdʒ/",
+      "meaning_vi": "cước phí bưu điện",
+      "definition_en": "The amount of money that you pay for sending letters and packages by mail.",
+      "example_en": "How much is the postage for this international letter?",
+      "example_vi": "Cước phí bưu điện cho lá thư quốc tế này là bao nhiêu?",
+      "collocations_json": [
+        "pay postage",
+        "postage costs",
+        "insufficient postage"
+      ],
+      "synonyms_json": [
+        "shipping fee"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Postage là tiền trả cho việc post (gửi) thư.",
+      "frequency_rank": 7800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10921
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "receipt",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈsiːt/",
+      "ipa_us": "/rɪˈsiːt/",
+      "meaning_vi": "biên lai, hóa đơn",
+      "definition_en": "A piece of paper that shows that you have paid for something.",
+      "example_en": "Please keep your receipt as proof of postage.",
+      "example_vi": "Vui lòng giữ biên lai làm bằng chứng đã gửi.",
+      "collocations_json": [
+        "get a receipt",
+        "sales receipt",
+        "keep the receipt"
+      ],
+      "synonyms_json": [
+        "proof of purchase"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Receipt là giấy chứng nhận đã receive (nhận/thanh toán).",
+      "frequency_rank": 2300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10922
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "return address",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈtɜːn əˈdres/",
+      "ipa_us": "/rɪˈtɜːrn ˈædres/",
+      "meaning_vi": "địa chỉ người gửi (để trả lại)",
+      "definition_en": "The address of the sender written on a letter or package, used if the mail cannot be delivered.",
+      "example_en": "Always put a return address on your mail.",
+      "example_vi": "Luôn ghi địa chỉ người gửi trên thư của bạn.",
+      "collocations_json": [
+        "write a return address"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Return address là địa chỉ để thư return (quay lại) nếu không giao được.",
+      "frequency_rank": 9500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10923
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "weight",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/weɪt/",
+      "ipa_us": "/weɪt/",
+      "meaning_vi": "trọng lượng, cân nặng",
+      "definition_en": "The measure of how heavy something is.",
+      "example_en": "What is the maximum weight for this package?",
+      "example_vi": "Trọng lượng tối đa cho gói hàng này là bao nhiêu?",
+      "collocations_json": [
+        "check the weight",
+        "body weight",
+        "dead weight"
+      ],
+      "synonyms_json": [
+        "mass",
+        "heaviness"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Weight là cân nặng, bạn cần weigh (cân) để biết weight.",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10924
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "dimensions",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/daɪˈmenʃnz/",
+      "ipa_us": "/daɪˈmenʃnz/",
+      "meaning_vi": "kích thước, chiều dài/rộng/cao",
+      "definition_en": "Measurements of length, width, and height.",
+      "example_en": "You need to provide the dimensions of the box.",
+      "example_vi": "Bạn cần cung cấp kích thước của hộp.",
+      "collocations_json": [
+        "measure dimensions",
+        "exact dimensions"
+      ],
+      "synonyms_json": [
+        "size",
+        "measurements"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dimensions là kích thước, bao gồm 3 'di' (chiều).",
+      "frequency_rank": 6500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10925
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "fragile",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈfrædʒaɪl/",
+      "ipa_us": "/ˈfrædʒl/",
+      "meaning_vi": "dễ vỡ, mong manh",
+      "definition_en": "Easily broken or damaged.",
+      "example_en": "Please mark this box as fragile, it contains glass.",
+      "example_vi": "Vui lòng đánh dấu hộp này là dễ vỡ, nó chứa thủy tinh.",
+      "collocations_json": [
+        "fragile items",
+        "fragile package"
+      ],
+      "synonyms_json": [
+        "delicate",
+        "breakable"
+      ],
+      "antonyms_json": [
+        "durable",
+        "sturdy"
+      ],
+      "mnemonic": "Fragile là dễ vỡ, giống như 'fra' của 'frail' (yếu).",
+      "frequency_rank": 8000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10926
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "priority mail",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/praɪˈɒrəti meɪl/",
+      "ipa_us": "/praɪˈɔːrəti meɪl/",
+      "meaning_vi": "thư ưu tiên",
+      "definition_en": "A postal service for faster delivery of mail and packages.",
+      "example_en": "I sent the documents by priority mail to ensure quick delivery.",
+      "example_vi": "Tôi đã gửi tài liệu bằng thư ưu tiên để đảm bảo giao hàng nhanh chóng.",
+      "collocations_json": [
+        "send via priority mail"
+      ],
+      "synonyms_json": [
+        "expedited mail"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Priority mail là thư có priority (ưu tiên) cao.",
+      "frequency_rank": 11500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10927
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "express mail",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɪkˈspres meɪl/",
+      "ipa_us": "/ɪkˈspres meɪl/",
+      "meaning_vi": "chuyển phát nhanh",
+      "definition_en": "An expedited mail service for fast delivery, often overnight.",
+      "example_en": "For urgent letters, you should use express mail.",
+      "example_vi": "Đối với thư khẩn cấp, bạn nên sử dụng chuyển phát nhanh.",
+      "collocations_json": [
+        "send by express mail"
+      ],
+      "synonyms_json": [
+        "expedited shipping"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Express mail là gửi nhanh, rất express.",
+      "frequency_rank": 10500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10928
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "courier",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkʊriə/",
+      "ipa_us": "/ˈkʊriər/",
+      "meaning_vi": "người chuyển phát, người đưa thư nhanh",
+      "definition_en": "A company or person that transports commercial packages and documents.",
+      "example_en": "The courier delivered the important documents this morning.",
+      "example_vi": "Người chuyển phát đã giao các tài liệu quan trọng sáng nay.",
+      "collocations_json": [
+        "delivery courier",
+        "send by courier"
+      ],
+      "synonyms_json": [
+        "messenger",
+        "carrier"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Courier là người chạy (run) để giao hàng nhanh.",
+      "frequency_rank": 7000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10929
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "mail slot",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/meɪl slɒt/",
+      "ipa_us": "/meɪl slɑːt/",
+      "meaning_vi": "khe nhét thư, khe cửa thư",
+      "definition_en": "A narrow opening in a door or wall through which mail is delivered.",
+      "example_en": "The postman pushed the letters through the mail slot.",
+      "example_vi": "Người đưa thư đã nhét thư qua khe nhét thư.",
+      "collocations_json": [
+        "door mail slot"
+      ],
+      "synonyms_json": [
+        "letterbox (US)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Mail slot là cái slot (khe) để nhét mail (thư).",
+      "frequency_rank": 9800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10930
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "postbox",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpəʊstbɒks/",
+      "ipa_us": "/ˈpoʊstbɑːks/",
+      "meaning_vi": "hộp thư công cộng",
+      "definition_en": "A public box for posting letters and packages.",
+      "example_en": "You can drop your letter in the red postbox on the corner.",
+      "example_vi": "Bạn có thể bỏ thư vào hộp thư màu đỏ ở góc phố.",
+      "collocations_json": [
+        "red postbox",
+        "empty a postbox"
+      ],
+      "synonyms_json": [
+        "mailbox (US)",
+        "pillar box"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Postbox là cái box (hộp) để post (gửi) thư.",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10931
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "send",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/send/",
+      "ipa_us": "/send/",
+      "meaning_vi": "gửi, phái đi",
+      "definition_en": "To cause something to go or be taken to a destination.",
+      "example_en": "I need to send this email to my boss.",
+      "example_vi": "Tôi cần gửi email này cho sếp của mình.",
+      "collocations_json": [
+        "send a letter",
+        "send an email",
+        "send a message"
+      ],
+      "synonyms_json": [
+        "dispatch",
+        "transmit"
+      ],
+      "antonyms_json": [
+        "receive"
+      ],
+      "mnemonic": "Send là gửi, dễ nhớ.",
+      "frequency_rank": 500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10932
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "receive",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈsiːv/",
+      "ipa_us": "/rɪˈsiːv/",
+      "meaning_vi": "nhận, tiếp nhận",
+      "definition_en": "To be given, presented with, or paid something.",
+      "example_en": "Did you receive my letter?",
+      "example_vi": "Bạn đã nhận được thư của tôi chưa?",
+      "collocations_json": [
+        "receive a package",
+        "receive a gift",
+        "receive news"
+      ],
+      "synonyms_json": [
+        "get",
+        "obtain"
+      ],
+      "antonyms_json": [
+        "send",
+        "give"
+      ],
+      "mnemonic": "Receive là nhận, như 're' (lặp lại) 'ceive' (bắt).",
+      "frequency_rank": 700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10933
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "mail",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/meɪl/",
+      "ipa_us": "/meɪl/",
+      "meaning_vi": "gửi thư, gửi bưu kiện",
+      "definition_en": "To send a letter or package by post.",
+      "example_en": "I need to mail this bill today.",
+      "example_vi": "Tôi cần gửi hóa đơn này hôm nay.",
+      "collocations_json": [
+        "mail a letter",
+        "mail a package"
+      ],
+      "synonyms_json": [
+        "post",
+        "send"
+      ],
+      "antonyms_json": [
+        "receive"
+      ],
+      "mnemonic": "Mail là gửi mail (thư).",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10934
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "post",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/pəʊst/",
+      "ipa_us": "/poʊst/",
+      "meaning_vi": "gửi thư, đăng bài",
+      "definition_en": "To send a letter or parcel by post.",
+      "example_en": "Don't forget to post the letters.",
+      "example_vi": "Đừng quên gửi những lá thư.",
+      "collocations_json": [
+        "post a letter",
+        "post a package",
+        "post a comment"
+      ],
+      "synonyms_json": [
+        "mail",
+        "send"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Post là gửi bài, gửi thư.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10935
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "deliver",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/dɪˈlɪvə/",
+      "ipa_us": "/dɪˈlɪvər/",
+      "meaning_vi": "giao hàng, phân phát",
+      "definition_en": "To take goods, letters, or packages to people's houses or places of work.",
+      "example_en": "The pizza was delivered in 30 minutes.",
+      "example_vi": "Pizza đã được giao trong 30 phút.",
+      "collocations_json": [
+        "deliver a package",
+        "deliver mail",
+        "deliver a speech"
+      ],
+      "synonyms_json": [
+        "bring",
+        "transport"
+      ],
+      "antonyms_json": [
+        "collect"
+      ],
+      "mnemonic": "Deliver là giao hàng, giống như delivery.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10936
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "collect",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kəˈlekt/",
+      "ipa_us": "/kəˈlekt/",
+      "meaning_vi": "lấy, thu thập, gom",
+      "definition_en": "To go and get something or someone.",
+      "example_en": "I need to collect a package from the post office.",
+      "example_vi": "Tôi cần đến bưu điện để lấy một gói hàng.",
+      "collocations_json": [
+        "collect mail",
+        "collect stamps",
+        "collect money"
+      ],
+      "synonyms_json": [
+        "gather",
+        "pick up"
+      ],
+      "antonyms_json": [
+        "distribute",
+        "deliver"
+      ],
+      "mnemonic": "Collect là thu thập, collect đồ mình thích.",
+      "frequency_rank": 1100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10937
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "weigh",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/weɪ/",
+      "ipa_us": "/weɪ/",
+      "meaning_vi": "cân, đo trọng lượng",
+      "definition_en": "To measure how heavy someone or something is.",
+      "example_en": "They need to weigh your package before you can send it.",
+      "example_vi": "Họ cần cân gói hàng của bạn trước khi bạn có thể gửi.",
+      "collocations_json": [
+        "weigh oneself",
+        "weigh a package"
+      ],
+      "synonyms_json": [
+        "measure"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Weigh là động từ của weight (trọng lượng).",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10938
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "address",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/əˈdres/",
+      "ipa_us": "/əˈdres/",
+      "meaning_vi": "ghi địa chỉ",
+      "definition_en": "To write an address on an envelope or package.",
+      "example_en": "Remember to address the envelope clearly.",
+      "example_vi": "Hãy nhớ ghi địa chỉ phong bì rõ ràng.",
+      "collocations_json": [
+        "address an envelope",
+        "address a package"
+      ],
+      "synonyms_json": [
+        "label"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Address (v) là ghi address (n).",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10939
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "stamp",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/stæmp/",
+      "ipa_us": "/stæmp/",
+      "meaning_vi": "dán tem",
+      "definition_en": "To stick a stamp on a letter or package.",
+      "example_en": "You need to stamp this letter before you mail it.",
+      "example_vi": "Bạn cần dán tem lá thư này trước khi gửi.",
+      "collocations_json": [
+        "stamp a letter",
+        "stamp a document"
+      ],
+      "synonyms_json": [
+        "affix a stamp"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Stamp (v) là dán stamp (n).",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10940
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "sign",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/saɪn/",
+      "ipa_us": "/saɪn/",
+      "meaning_vi": "ký tên, ký nhận",
+      "definition_en": "To write your name on a document or letter to show that you wrote it, agree with it, or have received it.",
+      "example_en": "Please sign here to confirm receipt of the package.",
+      "example_vi": "Vui lòng ký vào đây để xác nhận đã nhận gói hàng.",
+      "collocations_json": [
+        "sign a document",
+        "sign a contract",
+        "sign for a package"
+      ],
+      "synonyms_json": [
+        "autograph"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sign là ký tên, để lại dấu hiệu (sign).",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10941
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "track",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/træk/",
+      "ipa_us": "/træk/",
+      "meaning_vi": "theo dõi, truy tìm",
+      "definition_en": "To follow the progress or movement of something.",
+      "example_en": "You can track your order online using the tracking number.",
+      "example_vi": "Bạn có thể theo dõi đơn hàng trực tuyến bằng mã số theo dõi.",
+      "collocations_json": [
+        "track a package",
+        "track progress",
+        "track expenses"
+      ],
+      "synonyms_json": [
+        "monitor",
+        "follow"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Track là theo dõi, giống như đường ray (track).",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10942
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "pick up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/pɪk ʌp/",
+      "ipa_us": "/pɪk ʌp/",
+      "meaning_vi": "lấy, đón, nhặt",
+      "definition_en": "To collect something or someone.",
+      "example_en": "I need to pick up my parcel from the post office.",
+      "example_vi": "Tôi cần đến bưu điện lấy gói hàng của mình.",
+      "collocations_json": [
+        "pick up a package",
+        "pick up a friend",
+        "pick up skills"
+      ],
+      "synonyms_json": [
+        "collect",
+        "retrieve"
+      ],
+      "antonyms_json": [
+        "drop off"
+      ],
+      "mnemonic": "Pick up là nhặt lên, lấy đồ.",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10943
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "drop off",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/drɒp ɒf/",
+      "ipa_us": "/drɑːp ɑːf/",
+      "meaning_vi": "gửi, thả xuống, bỏ lại",
+      "definition_en": "To take something or someone to a place and leave them there.",
+      "example_en": "Can you drop off this letter at the post office for me?",
+      "example_vi": "Bạn có thể bỏ lá thư này ở bưu điện giúp tôi được không?",
+      "collocations_json": [
+        "drop off a package",
+        "drop off children"
+      ],
+      "synonyms_json": [
+        "leave",
+        "deliver"
+      ],
+      "antonyms_json": [
+        "pick up"
+      ],
+      "mnemonic": "Drop off là bỏ xuống, để lại.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10944
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "fill out",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/fɪl aʊt/",
+      "ipa_us": "/fɪl aʊt/",
+      "meaning_vi": "điền vào (mẫu đơn)",
+      "definition_en": "To complete a form or document by writing information in the blank spaces.",
+      "example_en": "Please fill out this form completely.",
+      "example_vi": "Vui lòng điền đầy đủ vào mẫu đơn này.",
+      "collocations_json": [
+        "fill out a form",
+        "fill out an application"
+      ],
+      "synonyms_json": [
+        "complete",
+        "fill in"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Fill out là điền đầy (fill) ra ngoài (out) các ô trống.",
+      "frequency_rank": 2200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10945
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "wait in line / queue",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/weɪt ɪn laɪn / kjuː/",
+      "ipa_us": "/weɪt ɪn laɪn / kjuː/",
+      "meaning_vi": "xếp hàng đợi",
+      "definition_en": "To stand in a row with other people while waiting for something.",
+      "example_en": "We had to wait in a long line at the post office.",
+      "example_vi": "Chúng tôi phải xếp hàng dài ở bưu điện.",
+      "collocations_json": [
+        "wait in a long line",
+        "wait in the queue"
+      ],
+      "synonyms_json": [
+        "stand in line"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wait in line là chờ (wait) trong hàng (line).",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10946
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "out for delivery",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/aʊt fɔː dɪˈlɪvəri/",
+      "ipa_us": "/aʊt fɔːr dɪˈlɪvəri/",
+      "meaning_vi": "đang trên đường giao hàng",
+      "definition_en": "A status indicating that a package has left the shipping facility and is on its way to the recipient.",
+      "example_en": "My package status changed to 'out for delivery' this morning.",
+      "example_vi": "Tình trạng gói hàng của tôi đã thay đổi thành 'đang trên đường giao hàng' sáng nay.",
+      "collocations_json": [
+        "package out for delivery"
+      ],
+      "synonyms_json": [
+        "en route for delivery"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Out for delivery là ra ngoài (out) để giao hàng (delivery).",
+      "frequency_rank": 8500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10947
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "return to sender",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈtɜːn tə ˈsendə/",
+      "ipa_us": "/rɪˈtɜːrn tə ˈsendər/",
+      "meaning_vi": "trả lại người gửi",
+      "definition_en": "A direction to send mail back to the original sender if it cannot be delivered to the recipient.",
+      "example_en": "The letter was marked 'return to sender' because the address was wrong.",
+      "example_vi": "Lá thư được đánh dấu 'trả lại người gửi' vì địa chỉ sai.",
+      "collocations_json": [
+        "marked return to sender"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Return to sender là trả (return) lại cho người gửi (sender).",
+      "frequency_rank": 12000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10948
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "customs declaration",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkʌstəmz ˌdekləˈreɪʃn/",
+      "ipa_us": "/ˈkʌstəmz ˌdekləˈreɪʃn/",
+      "meaning_vi": "tờ khai hải quan",
+      "definition_en": "A document listing goods imported or exported, for customs purposes.",
+      "example_en": "You need to fill out a customs declaration for international packages.",
+      "example_vi": "Bạn cần điền tờ khai hải quan cho các gói hàng quốc tế.",
+      "collocations_json": [
+        "fill out a customs declaration"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Customs declaration là khai báo (declaration) hải quan (customs).",
+      "frequency_rank": 13000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10949
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "surface mail",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsɜːfɪs meɪl/",
+      "ipa_us": "/ˈsɜːrfɪs meɪl/",
+      "meaning_vi": "thư gửi bằng đường bộ/biển",
+      "definition_en": "Mail transported by land or sea, typically slower than airmail.",
+      "example_en": "Surface mail is cheaper but takes longer to arrive.",
+      "example_vi": "Thư gửi bằng đường bộ/biển rẻ hơn nhưng mất nhiều thời gian hơn để đến nơi.",
+      "collocations_json": [
+        "send by surface mail"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "airmail"
+      ],
+      "mnemonic": "Surface mail là mail (thư) gửi trên surface (bề mặt đất/biển).",
+      "frequency_rank": 14000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10950
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "mailbag",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈmeɪlbæɡ/",
+      "ipa_us": "/ˈmeɪlbæɡ/",
+      "meaning_vi": "túi đựng thư",
+      "definition_en": "A bag used by a postman to carry letters and parcels.",
+      "example_en": "The postman carried a heavy mailbag.",
+      "example_vi": "Người đưa thư mang một túi đựng thư nặng.",
+      "collocations_json": [
+        "full mailbag"
+      ],
+      "synonyms_json": [
+        "postbag"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Mailbag là cái bag (túi) đựng mail (thư).",
+      "frequency_rank": 15000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10951
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "stamp duty",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈstæmp ˌdjuːti/",
+      "ipa_us": "/ˈstæmp ˌduːti/",
+      "meaning_vi": "thuế tem",
+      "definition_en": "A tax on legal documents or certain financial transactions.",
+      "example_en": "There is a stamp duty to pay on buying a property.",
+      "example_vi": "Có một khoản thuế tem phải trả khi mua tài sản.",
+      "collocations_json": [
+        "pay stamp duty"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Stamp duty là thuế (duty) phải dán tem (stamp).",
+      "frequency_rank": 13500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10952
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "parcel locker",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpɑːsl ˌlɒkə/",
+      "ipa_us": "/ˈpɑːrsl ˌlɑːkər/",
+      "meaning_vi": "tủ khóa bưu kiện",
+      "definition_en": "A secure locker where recipients can collect their packages at any time.",
+      "example_en": "I collected my online order from a parcel locker.",
+      "example_vi": "Tôi đã lấy đơn hàng trực tuyến của mình từ một tủ khóa bưu kiện.",
+      "collocations_json": [
+        "collect from a parcel locker"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Parcel locker là tủ (locker) đựng parcel (bưu kiện).",
+      "frequency_rank": 14500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10953
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "collecting box",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kəˈlektɪŋ bɒks/",
+      "ipa_us": "/kəˈlektɪŋ bɑːks/",
+      "meaning_vi": "hộp thu gom",
+      "definition_en": "A box into which letters are put to be collected and sent.",
+      "example_en": "There's a letter collecting box outside the shop.",
+      "example_vi": "Có một hộp thu gom thư bên ngoài cửa hàng.",
+      "collocations_json": [
+        "letter collecting box"
+      ],
+      "synonyms_json": [
+        "postbox",
+        "mailbox"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Collecting box là cái box (hộp) để collect (thu gom) thư.",
+      "frequency_rank": 10000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10954
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "postmark",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpəʊstmɑːk/",
+      "ipa_us": "/ˈpoʊstmɑːrk/",
+      "meaning_vi": "dấu bưu điện, dấu gửi thư",
+      "definition_en": "An official mark stamped on a letter or package, typically giving the place and date of posting.",
+      "example_en": "The postmark shows when the letter was sent.",
+      "example_vi": "Dấu bưu điện cho biết khi nào lá thư được gửi.",
+      "collocations_json": [
+        "clear postmark"
+      ],
+      "synonyms_json": [
+        "cancellation mark"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Postmark là cái dấu (mark) của bưu điện (post).",
+      "frequency_rank": 11000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10955
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "undeliverable",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌʌndɪˈlɪvərəbl/",
+      "ipa_us": "/ˌʌndɪˈlɪvərəbl/",
+      "meaning_vi": "không thể giao được",
+      "definition_en": "Unable to be delivered.",
+      "example_en": "The package was marked as undeliverable due to an incorrect address.",
+      "example_vi": "Gói hàng bị đánh dấu là không thể giao được do địa chỉ sai.",
+      "collocations_json": [
+        "undeliverable mail"
+      ],
+      "synonyms_json": [
+        "unsendable"
+      ],
+      "antonyms_json": [
+        "deliverable"
+      ],
+      "mnemonic": "Undeliverable là không (un) deliver (giao) được.",
+      "frequency_rank": 12500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10956
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "postal worker",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpəʊstl ˌwɜːkə/",
+      "ipa_us": "/ˈpoʊstl ˌwɜːrkər/",
+      "meaning_vi": "nhân viên bưu điện",
+      "definition_en": "A person who works for a postal service, such as a postman or a clerk.",
+      "example_en": "A postal worker helped me with my international package.",
+      "example_vi": "Một nhân viên bưu điện đã giúp tôi với gói hàng quốc tế của tôi.",
+      "collocations_json": [
+        "friendly postal worker"
+      ],
+      "synonyms_json": [
+        "post office employee"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Postal worker là người làm việc (worker) trong ngành bưu chính (postal).",
+      "frequency_rank": 6500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10957
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "general delivery",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdʒenərəl dɪˈlɪvəri/",
+      "ipa_us": "/ˈdʒenərəl dɪˈlɪvəri/",
+      "meaning_vi": "giao thư lưu",
+      "definition_en": "A postal service for people without a permanent address, allowing them to collect mail from a post office.",
+      "example_en": "Travelers can use general delivery to receive mail.",
+      "example_vi": "Du khách có thể sử dụng dịch vụ giao thư lưu để nhận thư.",
+      "collocations_json": [
+        "receive by general delivery"
+      ],
+      "synonyms_json": [
+        "poste restante"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "General delivery là giao hàng chung (general) cho người không có địa chỉ cố định.",
+      "frequency_rank": 13800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10958
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "money order",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈmʌni ˌɔːdə/",
+      "ipa_us": "/ˈmʌni ˌɔːrdər/",
+      "meaning_vi": "phiếu chuyển tiền",
+      "definition_en": "An order for the payment of a specified sum of money, issued by a post office or bank.",
+      "example_en": "I sent money to my family using a postal money order.",
+      "example_vi": "Tôi đã gửi tiền cho gia đình bằng phiếu chuyển tiền bưu điện.",
+      "collocations_json": [
+        "buy a money order",
+        "postal money order"
+      ],
+      "synonyms_json": [
+        "bank draft"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Money order là lệnh (order) chuyển money (tiền).",
+      "frequency_rank": 14200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10959
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "redelivery",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌriːdɪˈlɪvəri/",
+      "ipa_us": "/ˌriːdɪˈlɪvəri/",
+      "meaning_vi": "giao lại, gửi lại",
+      "definition_en": "The act of delivering something again, often after a failed first attempt.",
+      "example_en": "I missed the first delivery, so I scheduled a redelivery.",
+      "example_vi": "Tôi đã bỏ lỡ lần giao hàng đầu tiên, vì vậy tôi đã lên lịch giao lại.",
+      "collocations_json": [
+        "schedule a redelivery"
+      ],
+      "synonyms_json": [
+        "re-delivery"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Redelivery là giao hàng lại (re-delivery).",
+      "frequency_rank": 11800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10960
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "customs duty",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkʌstəmz ˌdjuːti/",
+      "ipa_us": "/ˈkʌstəmz ˌduːti/",
+      "meaning_vi": "thuế hải quan",
+      "definition_en": "A tax levied on imported or exported goods.",
+      "example_en": "You may have to pay customs duty on items bought from abroad.",
+      "example_vi": "Bạn có thể phải trả thuế hải quan đối với các mặt hàng mua từ nước ngoài.",
+      "collocations_json": [
+        "pay customs duty"
+      ],
+      "synonyms_json": [
+        "import tax"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Customs duty là thuế (duty) của hải quan (customs).",
+      "frequency_rank": 12800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10961
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "postal order",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpəʊstl ˌɔːdə/",
+      "ipa_us": "/ˈpoʊstl ˌɔːrdər/",
+      "meaning_vi": "hối phiếu bưu điện",
+      "definition_en": "A method of sending money through the post office, similar to a money order.",
+      "example_en": "She paid for the magazine subscription with a postal order.",
+      "example_vi": "Cô ấy đã thanh toán phí đăng ký tạp chí bằng hối phiếu bưu điện.",
+      "collocations_json": [
+        "buy a postal order"
+      ],
+      "synonyms_json": [
+        "money order"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Postal order là lệnh (order) của bưu điện (postal) để gửi tiền.",
+      "frequency_rank": 15500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10962
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "missed delivery",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/mɪst dɪˈlɪvəri/",
+      "ipa_us": "/mɪst dɪˈlɪvəri/",
+      "meaning_vi": "giao hàng không thành công",
+      "definition_en": "A situation where a delivery attempt was made but the recipient was not available to receive the package.",
+      "example_en": "I got a notification about a missed delivery today.",
+      "example_vi": "Tôi nhận được thông báo về một lần giao hàng không thành công hôm nay.",
+      "collocations_json": [
+        "notification of missed delivery"
+      ],
+      "synonyms_json": [
+        "failed delivery"
+      ],
+      "antonyms_json": [
+        "successful delivery"
+      ],
+      "mnemonic": "Missed delivery là giao hàng bị miss (bỏ lỡ).",
+      "frequency_rank": 10500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10963
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Post Office & Mail Delivery",
+      "word": "postage meter",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpəʊstɪdʒ ˌmiːtə/",
+      "ipa_us": "/ˈpoʊstɪdʒ ˌmiːtər/",
+      "meaning_vi": "máy đóng dấu bưu phí",
+      "definition_en": "A machine used by businesses to print postage directly onto envelopes or labels.",
+      "example_en": "Our office uses a postage meter for all outgoing mail.",
+      "example_vi": "Văn phòng chúng tôi sử dụng máy đóng dấu bưu phí cho tất cả thư gửi đi.",
+      "collocations_json": [
+        "office postage meter"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Postage meter là máy đo (meter) bưu phí (postage).",
+      "frequency_rank": 16000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10964
+  }
+]

@@ -1,0 +1,1914 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 4104,
+    "fields": {
+      "word": "abolish",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈbɑlɪʃ",
+      "ipa_us": "əˈbɑlɪʃ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bãi bỏ, hủy bỏ",
+      "definition_en": "To officially end a law, system, or custom.",
+      "example_en": "The government is planning to abolish the tax on books.",
+      "example_vi": "Chính phủ đang có kế hoạch bãi bỏ thuế đối với sách.",
+      "collocations_json": [
+        "abolish a law",
+        "abolish slavery",
+        "abolish the death penalty"
+      ],
+      "synonyms_json": [
+        "eliminate",
+        "eradicate",
+        "annul"
+      ],
+      "antonyms_json": [
+        "establish",
+        "create",
+        "retain"
+      ],
+      "mnemonic": "Imagine an 'A' and a 'BOY' saying 'LISH' (listen), let's officially end this bad law.",
+      "frequency_rank": 6500,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4105,
+    "fields": {
+      "word": "abortion",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "medical",
+      "ipa_uk": "əˈbɔrʃən",
+      "ipa_us": "əˈbɔrʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự phá thai",
+      "definition_en": "The intentional ending of a pregnancy.",
+      "example_en": "The debate over abortion rights remains highly controversial.",
+      "example_vi": "Cuộc tranh luận về quyền phá thai vẫn còn rất nhiều tranh cãi.",
+      "collocations_json": [
+        "have an abortion",
+        "legal abortion",
+        "abortion clinic"
+      ],
+      "synonyms_json": [
+        "termination"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Derived from the verb 'abort', meaning to prematurely end a process.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4106,
+    "fields": {
+      "word": "absence",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈæbsəns",
+      "ipa_us": "ˈæbsəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự vắng mặt",
+      "definition_en": "The state of not being somewhere, or the period of time when someone is not there.",
+      "example_en": "Her absence from the meeting was noted by everyone.",
+      "example_vi": "Sự vắng mặt của cô ấy tại cuộc họp đã được mọi người chú ý.",
+      "collocations_json": [
+        "in the absence of",
+        "prolonged absence",
+        "leave of absence"
+      ],
+      "synonyms_json": [
+        "nonattendance",
+        "lack"
+      ],
+      "antonyms_json": [
+        "presence",
+        "attendance"
+      ],
+      "mnemonic": "Noun form of 'absent'. You sense their lack of presence.",
+      "frequency_rank": 5100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4107,
+    "fields": {
+      "word": "absent",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈæbsənt",
+      "ipa_us": "ˈæbsənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vắng mặt",
+      "definition_en": "Not in the place where you are expected to be, especially at school or work.",
+      "example_en": "He was absent from school due to illness.",
+      "example_vi": "Cậu ấy đã vắng mặt ở trường do bị ốm.",
+      "collocations_json": [
+        "absent from work",
+        "absent father",
+        "mark absent"
+      ],
+      "synonyms_json": [
+        "missing",
+        "away"
+      ],
+      "antonyms_json": [
+        "present",
+        "attending"
+      ],
+      "mnemonic": "If you are 'absent', you have been 'sent' away or are not present.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4108,
+    "fields": {
+      "word": "absurd",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əbˈsɜrd",
+      "ipa_us": "əbˈsɜrd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vô lý, lố bịch",
+      "definition_en": "Stupid and unreasonable, or silly in a humorous way.",
+      "example_en": "It is absurd to suggest that the earth is flat.",
+      "example_vi": "Thật vô lý khi cho rằng trái đất phẳng.",
+      "collocations_json": [
+        "absurd idea",
+        "absurd situation",
+        "totally absurd"
+      ],
+      "synonyms_json": [
+        "ridiculous",
+        "ludicrous",
+        "illogical"
+      ],
+      "antonyms_json": [
+        "logical",
+        "sensible",
+        "reasonable"
+      ],
+      "mnemonic": "AB (away from) + SURD (deaf/unreasonable). It's so unreasonable it makes you deaf to logic.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4109,
+    "fields": {
+      "word": "abundance",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "əˈbʌndəns",
+      "ipa_us": "əˈbʌndəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự dồi dào, phong phú",
+      "definition_en": "The situation in which there is more than enough of something.",
+      "example_en": "The region is known for its abundance of natural resources.",
+      "example_vi": "Khu vực này được biết đến với sự dồi dào tài nguyên thiên nhiên.",
+      "collocations_json": [
+        "in abundance",
+        "abundance of evidence",
+        "great abundance"
+      ],
+      "synonyms_json": [
+        "plenty",
+        "wealth",
+        "profusion"
+      ],
+      "antonyms_json": [
+        "scarcity",
+        "shortage",
+        "lack"
+      ],
+      "mnemonic": "A bun dance! Imagine lots of buns dancing – there's an abundance of them.",
+      "frequency_rank": 7200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4110,
+    "fields": {
+      "word": "abuse",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈbjus",
+      "ipa_us": "əˈbjus",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự lạm dụng, bạo hành",
+      "definition_en": "The use of something in a way that is harmful or morally wrong, or cruel treatment of someone.",
+      "example_en": "Child abuse is a terrible crime.",
+      "example_vi": "Bạo hành trẻ em là một tội ác tồi tệ.",
+      "collocations_json": [
+        "drug abuse",
+        "child abuse",
+        "verbal abuse"
+      ],
+      "synonyms_json": [
+        "misuse",
+        "mistreatment",
+        "harm"
+      ],
+      "antonyms_json": [
+        "care",
+        "respect",
+        "protection"
+      ],
+      "mnemonic": "Ab (abnormal/bad) + use -> bad use of something or someone.",
+      "frequency_rank": 5400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4111,
+    "fields": {
+      "word": "academy",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "əˈkædəmi",
+      "ipa_us": "əˈkædəmi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "học viện",
+      "definition_en": "An organization intended to protect and develop an art, science, language, etc., or a school that teaches a particular subject.",
+      "example_en": "He graduated from the military academy.",
+      "example_vi": "Anh ấy đã tốt nghiệp học viện quân sự.",
+      "collocations_json": [
+        "military academy",
+        "police academy",
+        "art academy"
+      ],
+      "synonyms_json": [
+        "institute",
+        "school",
+        "college"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Think of a place of academia.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4112,
+    "fields": {
+      "word": "accelerate",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ækˈsɛləˌreɪt",
+      "ipa_us": "ækˈsɛləˌreɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tăng tốc, thúc đẩy",
+      "definition_en": "To happen or make something happen sooner or faster.",
+      "example_en": "Inflation is likely to accelerate this year.",
+      "example_vi": "Lạm phát có khả năng tăng tốc trong năm nay.",
+      "collocations_json": [
+        "accelerate growth",
+        "accelerate the process",
+        "rapidly accelerate"
+      ],
+      "synonyms_json": [
+        "speed up",
+        "hasten",
+        "expedite"
+      ],
+      "antonyms_json": [
+        "decelerate",
+        "slow down",
+        "delay"
+      ],
+      "mnemonic": "Press the accelerator pedal in a car to make it go faster.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4113,
+    "fields": {
+      "word": "acceptance",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ækˈsɛptəns",
+      "ipa_us": "ækˈsɛptəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự chấp nhận",
+      "definition_en": "General agreement that something is satisfactory or right, or the act of agreeing to an offer or plan.",
+      "example_en": "The new policy gained widespread acceptance.",
+      "example_vi": "Chính sách mới đã đạt được sự chấp nhận rộng rãi.",
+      "collocations_json": [
+        "gain acceptance",
+        "widespread acceptance",
+        "letter of acceptance"
+      ],
+      "synonyms_json": [
+        "approval",
+        "agreement",
+        "recognition"
+      ],
+      "antonyms_json": [
+        "rejection",
+        "refusal",
+        "denial"
+      ],
+      "mnemonic": "Noun form of the verb 'accept'.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4114,
+    "fields": {
+      "word": "accessible",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ækˈsɛsəbəl",
+      "ipa_us": "ækˈsɛsəbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có thể tiếp cận, dễ hiểu",
+      "definition_en": "Able to be reached or easily got; easy to understand.",
+      "example_en": "The museum is completely accessible to wheelchair users.",
+      "example_vi": "Bảo tàng hoàn toàn có thể tiếp cận đối với người sử dụng xe lăn.",
+      "collocations_json": [
+        "easily accessible",
+        "publicly accessible",
+        "accessible to someone"
+      ],
+      "synonyms_json": [
+        "reachable",
+        "available",
+        "approachable"
+      ],
+      "antonyms_json": [
+        "inaccessible",
+        "unreachable",
+        "restricted"
+      ],
+      "mnemonic": "Able to be accessed.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4115,
+    "fields": {
+      "word": "accomplishment",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈkɑmplɪʃmənt",
+      "ipa_us": "əˈkɑmplɪʃmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thành tựu, sự hoàn thành",
+      "definition_en": "Something that is successful, or that is achieved after a lot of work or effort.",
+      "example_en": "Graduating with honors is a great accomplishment.",
+      "example_vi": "Tốt nghiệp với bằng danh dự là một thành tựu lớn.",
+      "collocations_json": [
+        "great accomplishment",
+        "sense of accomplishment",
+        "significant accomplishment"
+      ],
+      "synonyms_json": [
+        "achievement",
+        "success",
+        "attainment"
+      ],
+      "antonyms_json": [
+        "failure",
+        "defeat"
+      ],
+      "mnemonic": "Noun form of 'accomplish'. When you complete a mission, you feel a sense of accomplishment.",
+      "frequency_rank": 6700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4116,
+    "fields": {
+      "word": "accordance",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "əˈkɔrdəns",
+      "ipa_us": "əˈkɔrdəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự phù hợp, theo như",
+      "definition_en": "Following or obeying a rule, law, wish, etc.",
+      "example_en": "The work was done in accordance with your instructions.",
+      "example_vi": "Công việc đã được thực hiện theo đúng hướng dẫn của bạn.",
+      "collocations_json": [
+        "in accordance with",
+        "strict accordance",
+        "act in accordance"
+      ],
+      "synonyms_json": [
+        "agreement",
+        "conformity",
+        "compliance"
+      ],
+      "antonyms_json": [
+        "disagreement",
+        "violation"
+      ],
+      "mnemonic": "Think of 'according to' - acting in accordance means acting according to the rules.",
+      "frequency_rank": 7500,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4117,
+    "fields": {
+      "word": "accordingly",
+      "part_of_speech": "adverb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈkɔrdɪŋli",
+      "ipa_us": "əˈkɔrdɪŋli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một cách tương ứng, do đó",
+      "definition_en": "In a way that is suitable or right for the situation.",
+      "example_en": "She knew the rules and acted accordingly.",
+      "example_vi": "Cô ấy biết các quy tắc và hành động một cách tương ứng.",
+      "collocations_json": [
+        "act accordingly",
+        "behave accordingly",
+        "adjust accordingly"
+      ],
+      "synonyms_json": [
+        "appropriately",
+        "correspondingly",
+        "consequently"
+      ],
+      "antonyms_json": [
+        "inappropriately"
+      ],
+      "mnemonic": "Adverb form meaning to act 'according' to what is required.",
+      "frequency_rank": 6900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4118,
+    "fields": {
+      "word": "accountability",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "əˈkaʊntəbɪlɪti",
+      "ipa_us": "əˈkaʊntəbɪlɪti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trách nhiệm giải trình",
+      "definition_en": "The fact of being responsible for what you do and able to give a satisfactory reason for it.",
+      "example_en": "There needs to be more transparency and accountability in government.",
+      "example_vi": "Cần có nhiều sự minh bạch và trách nhiệm giải trình hơn trong chính phủ.",
+      "collocations_json": [
+        "demand accountability",
+        "lack of accountability",
+        "public accountability"
+      ],
+      "synonyms_json": [
+        "responsibility",
+        "liability",
+        "answerability"
+      ],
+      "antonyms_json": [
+        "irresponsibility",
+        "unaccountability"
+      ],
+      "mnemonic": "Ability to be held to an 'account' (to explain your actions).",
+      "frequency_rank": 7000,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4119,
+    "fields": {
+      "word": "accountable",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "əˈkaʊntəbəl",
+      "ipa_us": "əˈkaʊntəbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chịu trách nhiệm",
+      "definition_en": "Someone who is accountable is completely responsible for what they do and must be able to give a satisfactory reason for it.",
+      "example_en": "Managers must be held accountable for their decisions.",
+      "example_vi": "Các nhà quản lý phải chịu trách nhiệm về các quyết định của mình.",
+      "collocations_json": [
+        "hold someone accountable",
+        "be accountable for",
+        "accountable to someone"
+      ],
+      "synonyms_json": [
+        "responsible",
+        "liable",
+        "answerable"
+      ],
+      "antonyms_json": [
+        "unaccountable",
+        "irresponsible"
+      ],
+      "mnemonic": "Able to give an account of what you have done.",
+      "frequency_rank": 7100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4120,
+    "fields": {
+      "word": "accumulate",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "əˈkjumjəˌleɪt",
+      "ipa_us": "əˈkjumjəˌleɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tích lũy, gom tụ",
+      "definition_en": "To collect a large number of things over a long period of time.",
+      "example_en": "We have accumulated a lot of junk over the years.",
+      "example_vi": "Chúng tôi đã tích lũy rất nhiều đồ phế thải qua nhiều năm.",
+      "collocations_json": [
+        "accumulate wealth",
+        "accumulate evidence",
+        "accumulate gradually"
+      ],
+      "synonyms_json": [
+        "amass",
+        "gather",
+        "collect"
+      ],
+      "antonyms_json": [
+        "disperse",
+        "dissipate",
+        "scatter"
+      ],
+      "mnemonic": "Think of AC-CUMULATE like a cumulus cloud, slowly gathering and growing bigger.",
+      "frequency_rank": 6600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4121,
+    "fields": {
+      "word": "accumulation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "əˌkjumjəˈleɪʃən",
+      "ipa_us": "əˌkjumjəˈleɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự tích lũy",
+      "definition_en": "An amount of something that has been collected.",
+      "example_en": "The gradual accumulation of toxic substances in the body can be dangerous.",
+      "example_vi": "Sự tích lũy dần dần các chất độc hại trong cơ thể có thể gây nguy hiểm.",
+      "collocations_json": [
+        "capital accumulation",
+        "gradual accumulation",
+        "accumulation of wealth"
+      ],
+      "synonyms_json": [
+        "buildup",
+        "collection",
+        "mass"
+      ],
+      "antonyms_json": [
+        "dispersal",
+        "reduction"
+      ],
+      "mnemonic": "Noun form of 'accumulate'.",
+      "frequency_rank": 7800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4122,
+    "fields": {
+      "word": "accusation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌækjəˈzeɪʃən",
+      "ipa_us": "ˌækjəˈzeɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự buộc tội",
+      "definition_en": "A statement saying that someone has done something morally wrong, illegal, or unkind.",
+      "example_en": "She strongly denied the accusation.",
+      "example_vi": "Cô ấy kịch liệt phủ nhận sự buộc tội đó.",
+      "collocations_json": [
+        "make an accusation",
+        "deny an accusation",
+        "false accusation"
+      ],
+      "synonyms_json": [
+        "charge",
+        "allegation",
+        "claim"
+      ],
+      "antonyms_json": [
+        "defense",
+        "vindication"
+      ],
+      "mnemonic": "Noun form of the verb 'accuse'.",
+      "frequency_rank": 6500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4123,
+    "fields": {
+      "word": "accused",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "əˈkjuzd",
+      "ipa_us": "əˈkjuzd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bị cáo, người bị buộc tội",
+      "definition_en": "The person who is on trial in a law court.",
+      "example_en": "The accused was found not guilty.",
+      "example_vi": "Bị cáo được tuyên bố là không có tội.",
+      "collocations_json": [
+        "the accused",
+        "stand accused of",
+        "represent the accused"
+      ],
+      "synonyms_json": [
+        "defendant"
+      ],
+      "antonyms_json": [
+        "accuser",
+        "prosecutor"
+      ],
+      "mnemonic": "The person who has been 'accused' is the accused.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4124,
+    "fields": {
+      "word": "acid",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "science",
+      "ipa_uk": "ˈæsəd",
+      "ipa_us": "ˈæsɪd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có tính axit, chua chát",
+      "definition_en": "Containing acid, or having similar qualities (such as a sour taste or biting tone).",
+      "example_en": "Lemon juice is very acid.",
+      "example_vi": "Nước cốt chanh có tính axit rất cao.",
+      "collocations_json": [
+        "acid rain",
+        "acid test",
+        "acid taste"
+      ],
+      "synonyms_json": [
+        "sour",
+        "tart",
+        "acerbic"
+      ],
+      "antonyms_json": [
+        "alkaline",
+        "sweet",
+        "mild"
+      ],
+      "mnemonic": "An adjective describing something that acts like acid (sour, corrosive).",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4125,
+    "fields": {
+      "word": "acquisition",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌækwəˈzɪʃən",
+      "ipa_us": "ˌækwəˈzɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự mua lại, sự giành được",
+      "definition_en": "The process of getting something; or something that is bought by a company.",
+      "example_en": "The museum's latest acquisition is a Picasso painting.",
+      "example_vi": "Món đồ mới nhất mà bảo tàng mua được là một bức tranh của Picasso.",
+      "collocations_json": [
+        "mergers and acquisitions",
+        "language acquisition",
+        "recent acquisition"
+      ],
+      "synonyms_json": [
+        "purchase",
+        "procurement",
+        "addition"
+      ],
+      "antonyms_json": [
+        "loss",
+        "surrender",
+        "sale"
+      ],
+      "mnemonic": "Noun form of 'acquire'. The act of acquiring.",
+      "frequency_rank": 5500,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4126,
+    "fields": {
+      "word": "acre",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "nature",
+      "ipa_uk": "ˈeɪkər",
+      "ipa_us": "ˈeɪkər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "mẫu Anh (đơn vị đo diện tích)",
+      "definition_en": "A unit for measuring area, equal to 4,047 square metres or 4,840 square yards.",
+      "example_en": "They own a farm of about 200 acres.",
+      "example_vi": "Họ sở hữu một trang trại rộng khoảng 200 mẫu Anh.",
+      "collocations_json": [
+        "acres of land",
+        "per acre",
+        "square acres"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Think of Winnie the Pooh's 'Hundred Acre Wood'.",
+      "frequency_rank": 6000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4127,
+    "fields": {
+      "word": "activation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "ˌæktəˈveɪʃən",
+      "ipa_us": "ˌæktəˈveɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự kích hoạt",
+      "definition_en": "The act of making something start or making it start working.",
+      "example_en": "The alarm requires manual activation.",
+      "example_vi": "Hệ thống báo động cần được kích hoạt thủ công.",
+      "collocations_json": [
+        "account activation",
+        "voice activation",
+        "activation code"
+      ],
+      "synonyms_json": [
+        "stimulation",
+        "initiation",
+        "triggering"
+      ],
+      "antonyms_json": [
+        "deactivation"
+      ],
+      "mnemonic": "Making something ACTIVE is ACTIVATION.",
+      "frequency_rank": 7300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4128,
+    "fields": {
+      "word": "activist",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈæktəvəst",
+      "ipa_us": "ˈæktəvɪst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhà hoạt động",
+      "definition_en": "A person who believes strongly in political or social change and takes part in activities such as public protests to try to make this happen.",
+      "example_en": "He is a well-known environmental activist.",
+      "example_vi": "Anh ấy là một nhà hoạt động môi trường nổi tiếng.",
+      "collocations_json": [
+        "political activist",
+        "human rights activist",
+        "animal rights activist"
+      ],
+      "synonyms_json": [
+        "campaigner",
+        "advocate",
+        "demonstrator"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "An ACTIVE person who advocates for an -ISM is an ACTIVIST.",
+      "frequency_rank": 5400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4129,
+    "fields": {
+      "word": "acute",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "medical",
+      "ipa_uk": "əˈkjut",
+      "ipa_us": "əˈkjut",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cấp tính, nhạy bén, nghiêm trọng",
+      "definition_en": "If a bad situation is acute, it causes severe problems or damage; or (of an illness) starting suddenly and lasting for a short time.",
+      "example_en": "There is an acute shortage of water in the area.",
+      "example_vi": "Khu vực này đang thiếu nước nghiêm trọng.",
+      "collocations_json": [
+        "acute pain",
+        "acute shortage",
+        "acute condition"
+      ],
+      "synonyms_json": [
+        "severe",
+        "critical",
+        "sharp"
+      ],
+      "antonyms_json": [
+        "chronic",
+        "mild",
+        "dull"
+      ],
+      "mnemonic": "An ACUTE angle is sharp. An acute problem is sharp and severe.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4130,
+    "fields": {
+      "word": "adaptation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌædəpˈteɪʃən",
+      "ipa_us": "ˌædæpˈteɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự thích nghi, bản chuyển thể",
+      "definition_en": "The process of changing to suit different conditions; or a film, book, or play that has been made from another film, book, or play.",
+      "example_en": "The movie is an adaptation of a famous novel.",
+      "example_vi": "Bộ phim là bản chuyển thể từ một cuốn tiểu thuyết nổi tiếng.",
+      "collocations_json": [
+        "successful adaptation",
+        "film adaptation",
+        "process of adaptation"
+      ],
+      "synonyms_json": [
+        "adjustment",
+        "modification",
+        "version"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of adapt. Adapting to something requires adaptation.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4131,
+    "fields": {
+      "word": "adhere",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ədˈhɪr",
+      "ipa_us": "ədˈhɪr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tuân thủ, dính chặt",
+      "definition_en": "To stick firmly; or to continue to obey a rule or have a belief.",
+      "example_en": "All employees must adhere to the company's dress code.",
+      "example_vi": "Tất cả nhân viên phải tuân thủ quy định về trang phục của công ty.",
+      "collocations_json": [
+        "adhere to rules",
+        "adhere to principles",
+        "strictly adhere"
+      ],
+      "synonyms_json": [
+        "stick",
+        "comply",
+        "cling"
+      ],
+      "antonyms_json": [
+        "disobey",
+        "ignore",
+        "separate"
+      ],
+      "mnemonic": "Adhesive tape makes things ADHERE (stick) together.",
+      "frequency_rank": 7400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4132,
+    "fields": {
+      "word": "adjacent",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈʤeɪsənt",
+      "ipa_us": "əˈʤeɪsənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kế bên, liền kề",
+      "definition_en": "Very near, next to, or touching.",
+      "example_en": "They live in a house adjacent to the railway.",
+      "example_vi": "Họ sống trong một ngôi nhà liền kề với đường sắt.",
+      "collocations_json": [
+        "adjacent to",
+        "adjacent room",
+        "adjacent properties"
+      ],
+      "synonyms_json": [
+        "neighboring",
+        "adjoining",
+        "next"
+      ],
+      "antonyms_json": [
+        "distant",
+        "remote",
+        "separate"
+      ],
+      "mnemonic": "ADJACENT means ADJoining and next to something.",
+      "frequency_rank": 7000,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4133,
+    "fields": {
+      "word": "adjustment",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈʤʌstmənt",
+      "ipa_us": "əˈʤʌstmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự điều chỉnh",
+      "definition_en": "A slight change made to something to make it fit, work better, or be more suitable.",
+      "example_en": "We need to make a few minor adjustments to the plan.",
+      "example_vi": "Chúng ta cần thực hiện một vài điều chỉnh nhỏ đối với kế hoạch.",
+      "collocations_json": [
+        "make an adjustment",
+        "minor adjustment",
+        "period of adjustment"
+      ],
+      "synonyms_json": [
+        "alteration",
+        "modification",
+        "adaptation"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of 'adjust'.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4134,
+    "fields": {
+      "word": "administer",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ədˈmɪnəstər",
+      "ipa_us": "ədˈmɪnəstər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quản lý, điều hành, cấp (thuốc)",
+      "definition_en": "To control the operation or arrangement of something; to give a treatment to someone.",
+      "example_en": "The fund is administered by an independent board.",
+      "example_vi": "Quỹ được quản lý bởi một ban kiểm soát độc lập.",
+      "collocations_json": [
+        "administer a program",
+        "administer medicine",
+        "administer justice"
+      ],
+      "synonyms_json": [
+        "manage",
+        "direct",
+        "dispense"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "An ADMIN administers.",
+      "frequency_rank": 6400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4135,
+    "fields": {
+      "word": "administrative",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ədˈmɪnəˌstreɪtɪv",
+      "ipa_us": "ədˈmɪnɪˌstreɪtɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về hành chính, quản lý",
+      "definition_en": "Relating to the arrangements and work that is needed to control the operation of a plan or organization.",
+      "example_en": "She works in an administrative role.",
+      "example_vi": "Cô ấy làm việc trong vai trò hành chính.",
+      "collocations_json": [
+        "administrative tasks",
+        "administrative assistant",
+        "administrative duties"
+      ],
+      "synonyms_json": [
+        "managerial",
+        "organizational",
+        "bureaucratic"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adjective form relating to administration.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4136,
+    "fields": {
+      "word": "administrator",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ədˈmɪnəˌstreɪtər",
+      "ipa_us": "ədˈmɪnɪˌstreɪtər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quản trị viên, người quản lý",
+      "definition_en": "Someone whose job is to control the operation of a business, organization, or plan.",
+      "example_en": "He is the system administrator for the university.",
+      "example_vi": "Anh ấy là quản trị viên hệ thống của trường đại học.",
+      "collocations_json": [
+        "system administrator",
+        "school administrator",
+        "network administrator"
+      ],
+      "synonyms_json": [
+        "manager",
+        "director",
+        "executive"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "The person who does the administration.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4137,
+    "fields": {
+      "word": "admission",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ædˈmɪʃən",
+      "ipa_us": "ædˈmɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự nhận vào, sự thú nhận",
+      "definition_en": "The act of agreeing that something is true; or permission to enter a place.",
+      "example_en": "His silence was taken as an admission of guilt.",
+      "example_vi": "Sự im lặng của anh ta được coi như một sự thú nhận tội lỗi.",
+      "collocations_json": [
+        "gain admission",
+        "admission fee",
+        "admission of guilt"
+      ],
+      "synonyms_json": [
+        "entry",
+        "confession",
+        "acceptance"
+      ],
+      "antonyms_json": [
+        "rejection",
+        "denial",
+        "exclusion"
+      ],
+      "mnemonic": "Noun form of admit. To admit you did it, or be admitted inside.",
+      "frequency_rank": 5300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4138,
+    "fields": {
+      "word": "adolescent",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌædəˈlɛsənt",
+      "ipa_us": "ˌædəˈlɛsənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thanh thiếu niên",
+      "definition_en": "A young person who is developing into an adult.",
+      "example_en": "Many adolescents experience emotional turmoil.",
+      "example_vi": "Nhiều thanh thiếu niên trải qua sự hỗn loạn về cảm xúc.",
+      "collocations_json": [
+        "adolescent behavior",
+        "young adolescent",
+        "adolescent boys/girls"
+      ],
+      "synonyms_json": [
+        "teenager",
+        "youth",
+        "minor"
+      ],
+      "antonyms_json": [
+        "adult",
+        "child"
+      ],
+      "mnemonic": "Adolescents are kids adding on 'scent' (puberty).",
+      "frequency_rank": 6700,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4139,
+    "fields": {
+      "word": "adoption",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "əˈdɑpʃən",
+      "ipa_us": "əˈdɑpʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự nhận nuôi, sự chấp thuận áp dụng",
+      "definition_en": "The act of legally taking a child to be taken care of as your own; or accepting or starting to use something new.",
+      "example_en": "The adoption of new technologies has improved efficiency.",
+      "example_vi": "Việc áp dụng các công nghệ mới đã cải thiện hiệu quả.",
+      "collocations_json": [
+        "put up for adoption",
+        "widespread adoption",
+        "adoption agency"
+      ],
+      "synonyms_json": [
+        "acceptance",
+        "embracing",
+        "fostering"
+      ],
+      "antonyms_json": [
+        "rejection"
+      ],
+      "mnemonic": "Noun form of 'adopt'.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4140,
+    "fields": {
+      "word": "adverse",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ædˈvɜrs",
+      "ipa_us": "ædˈvɜrs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bất lợi, có hại",
+      "definition_en": "Having a negative or harmful effect on something.",
+      "example_en": "The drug has some adverse side effects.",
+      "example_vi": "Loại thuốc này có một số tác dụng phụ có hại.",
+      "collocations_json": [
+        "adverse effect",
+        "adverse weather",
+        "adverse reaction"
+      ],
+      "synonyms_json": [
+        "negative",
+        "harmful",
+        "unfavorable"
+      ],
+      "antonyms_json": [
+        "favorable",
+        "positive",
+        "beneficial"
+      ],
+      "mnemonic": "Adverse events add to a worse (ad-verse) situation.",
+      "frequency_rank": 6600,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4141,
+    "fields": {
+      "word": "advocate",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈædvəkət",
+      "ipa_us": "ˈædvəkət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người ủng hộ, luật sư bào chữa",
+      "definition_en": "Someone who publicly supports something; or a lawyer who defends someone in a law court.",
+      "example_en": "He is a strong advocate of free speech.",
+      "example_vi": "Anh ấy là một người ủng hộ mạnh mẽ cho quyền tự do ngôn luận.",
+      "collocations_json": [
+        "strong advocate",
+        "devil's advocate",
+        "advocate for"
+      ],
+      "synonyms_json": [
+        "supporter",
+        "defender",
+        "champion"
+      ],
+      "antonyms_json": [
+        "opponent",
+        "critic"
+      ],
+      "mnemonic": "Ad (to) + vocate (voice) -> to add your voice to a cause.",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4142,
+    "fields": {
+      "word": "aesthetic",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "art",
+      "ipa_uk": "ɛˈsθɛtɪk",
+      "ipa_us": "ɛsˈθɛtɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về thẩm mỹ",
+      "definition_en": "Relating to the enjoyment or study of beauty.",
+      "example_en": "The new building has little aesthetic appeal.",
+      "example_vi": "Tòa nhà mới có rất ít sức hấp dẫn về mặt thẩm mỹ.",
+      "collocations_json": [
+        "aesthetic appeal",
+        "aesthetic sense",
+        "purely aesthetic"
+      ],
+      "synonyms_json": [
+        "artistic",
+        "beautiful",
+        "pleasing"
+      ],
+      "antonyms_json": [
+        "unattractive",
+        "ugly"
+      ],
+      "mnemonic": "Aesthetics is the study of what is aesthetically pleasing.",
+      "frequency_rank": 7200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4143,
+    "fields": {
+      "word": "affection",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "əˈfɛkʃən",
+      "ipa_us": "əˈfɛkʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tình cảm, sự yêu mến",
+      "definition_en": "A feeling of liking for a person or place.",
+      "example_en": "She felt a deep affection for her grandmother.",
+      "example_vi": "Cô cảm thấy một tình cảm sâu sắc đối với bà ngoại của mình.",
+      "collocations_json": [
+        "deep affection",
+        "show affection",
+        "hold in affection"
+      ],
+      "synonyms_json": [
+        "fondness",
+        "love",
+        "attachment"
+      ],
+      "antonyms_json": [
+        "hatred",
+        "dislike",
+        "antipathy"
+      ],
+      "mnemonic": "Being 'affected' by someone in a good way brings 'affection'.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4144,
+    "fields": {
+      "word": "aftermath",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈæftərˌmæθ",
+      "ipa_us": "ˈæftərˌmæθ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hậu quả (thường là sau thảm họa)",
+      "definition_en": "The period that follows an unpleasant event or accident, and the effects that it causes.",
+      "example_en": "Many people were left homeless in the aftermath of the earthquake.",
+      "example_vi": "Nhiều người rơi vào cảnh vô gia cư sau hậu quả của trận động đất.",
+      "collocations_json": [
+        "in the aftermath of",
+        "immediate aftermath"
+      ],
+      "synonyms_json": [
+        "consequences",
+        "effects",
+        "wake"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "AFTER doing MATH, you deal with the aftermath of your grades.",
+      "frequency_rank": 7500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4145,
+    "fields": {
+      "word": "aggression",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈɡrɛʃən",
+      "ipa_us": "əˈɡrɛʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự hung hăng, sự gây hấn",
+      "definition_en": "Spoken or physical behaviour that is threatening or involves harm to someone or something.",
+      "example_en": "Some dogs show aggression towards strangers.",
+      "example_vi": "Một số con chó tỏ ra hung hăng với người lạ.",
+      "collocations_json": [
+        "act of aggression",
+        "show aggression",
+        "unprovoked aggression"
+      ],
+      "synonyms_json": [
+        "hostility",
+        "violence",
+        "belligerence"
+      ],
+      "antonyms_json": [
+        "peacefulness",
+        "gentleness"
+      ],
+      "mnemonic": "An aggressive person shows aggression.",
+      "frequency_rank": 6900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4146,
+    "fields": {
+      "word": "agricultural",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌæɡrəˈkʌlʧərəl",
+      "ipa_us": "ˌæɡrɪˈkʌlʧərəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về nông nghiệp",
+      "definition_en": "Used for farming or relating to farming.",
+      "example_en": "The country relies heavily on its agricultural sector.",
+      "example_vi": "Đất nước phụ thuộc nhiều vào lĩnh vực nông nghiệp của mình.",
+      "collocations_json": [
+        "agricultural products",
+        "agricultural sector",
+        "agricultural land"
+      ],
+      "synonyms_json": [
+        "farming",
+        "agrarian"
+      ],
+      "antonyms_json": [
+        "industrial",
+        "urban"
+      ],
+      "mnemonic": "Adjective form of agriculture.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4147,
+    "fields": {
+      "word": "aide",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "eɪd",
+      "ipa_us": "eɪd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trợ lý (đặc biệt trong chính trị)",
+      "definition_en": "A person whose job is to help someone important, such as a member of a government or a military officer of high rank.",
+      "example_en": "He serves as a senior aide to the President.",
+      "example_vi": "Ông ấy phục vụ như một trợ lý cấp cao cho Tổng thống.",
+      "collocations_json": [
+        "senior aide",
+        "presidential aide",
+        "trusted aide"
+      ],
+      "synonyms_json": [
+        "assistant",
+        "helper",
+        "adviser"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "An aide provides aid (help).",
+      "frequency_rank": 7600,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4148,
+    "fields": {
+      "word": "albeit",
+      "part_of_speech": "other",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɔlˈbiɪt",
+      "ipa_us": "ɔlˈbiɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "mặc dù",
+      "definition_en": "Although.",
+      "example_en": "The evening was very pleasant, albeit a little quiet.",
+      "example_vi": "Buổi tối rất dễ chịu, mặc dù hơi yên tĩnh một chút.",
+      "collocations_json": [
+        "albeit briefly",
+        "albeit slowly"
+      ],
+      "synonyms_json": [
+        "although",
+        "even though",
+        "notwithstanding"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Al-be-it translates directly to 'although it be'.",
+      "frequency_rank": 6800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4149,
+    "fields": {
+      "word": "alert",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈlɜrt",
+      "ipa_us": "əˈlɜrt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "báo động, cảnh giác",
+      "definition_en": "To warn someone of a possibly dangerous situation.",
+      "example_en": "Neighbors alerted the police when they heard gunshots.",
+      "example_vi": "Hàng xóm đã báo động cho cảnh sát khi họ nghe thấy tiếng súng.",
+      "collocations_json": [
+        "alert someone to something",
+        "stay alert",
+        "high alert"
+      ],
+      "synonyms_json": [
+        "warn",
+        "notify",
+        "alarm"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A-lert! A loud noise to warn you.",
+      "frequency_rank": 5300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4150,
+    "fields": {
+      "word": "alien",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈeɪliən",
+      "ipa_us": "ˈeɪliən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "xa lạ, khác biệt",
+      "definition_en": "Strange and not familiar.",
+      "example_en": "When I first went to New York, it all felt very alien to me.",
+      "example_vi": "Khi tôi mới đến New York, mọi thứ đều cảm thấy rất xa lạ với tôi.",
+      "collocations_json": [
+        "alien concept",
+        "alien to someone",
+        "completely alien"
+      ],
+      "synonyms_json": [
+        "foreign",
+        "unfamiliar",
+        "strange"
+      ],
+      "antonyms_json": [
+        "familiar",
+        "native",
+        "customary"
+      ],
+      "mnemonic": "Aliens from space are foreign and strange.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4151,
+    "fields": {
+      "word": "align",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "əˈlaɪn",
+      "ipa_us": "əˈlaɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sắp xếp thẳng hàng, đồng nhất",
+      "definition_en": "To put two or more things into a straight line, or to form a straight line; to agree with a person or organization.",
+      "example_en": "We need to align our strategies to achieve the common goal.",
+      "example_vi": "Chúng ta cần đồng nhất các chiến lược của mình để đạt được mục tiêu chung.",
+      "collocations_json": [
+        "align with",
+        "align perfectly",
+        "align interests"
+      ],
+      "synonyms_json": [
+        "line up",
+        "coordinate",
+        "associate"
+      ],
+      "antonyms_json": [
+        "misalign",
+        "disagree"
+      ],
+      "mnemonic": "A-LINE. To put things in A LINE.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4152,
+    "fields": {
+      "word": "alignment",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "əˈlaɪnmənt",
+      "ipa_us": "əˈlaɪnmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự sắp thẳng hàng, sự liên kết",
+      "definition_en": "An arrangement in which two or more things are positioned in a straight line or parallel to each other; agreement between people.",
+      "example_en": "The problem is caused by bad wheel alignment.",
+      "example_vi": "Vấn đề này là do sự lệch góc đặt bánh xe.",
+      "collocations_json": [
+        "in alignment",
+        "out of alignment",
+        "strategic alignment"
+      ],
+      "synonyms_json": [
+        "arrangement",
+        "coordination",
+        "alliance"
+      ],
+      "antonyms_json": [
+        "misalignment",
+        "disagreement"
+      ],
+      "mnemonic": "Noun form of 'align'.",
+      "frequency_rank": 7200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4153,
+    "fields": {
+      "word": "alike",
+      "part_of_speech": "adverb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈlaɪk",
+      "ipa_us": "əˈlaɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giống nhau, như nhau",
+      "definition_en": "In a similar way.",
+      "example_en": "Friends and family alike were shocked by the news.",
+      "example_vi": "Bạn bè cũng như gia đình đều bị sốc trước tin này.",
+      "collocations_json": [
+        "share alike",
+        "treat alike",
+        "young and old alike"
+      ],
+      "synonyms_json": [
+        "similarly",
+        "equally",
+        "identically"
+      ],
+      "antonyms_json": [
+        "differently",
+        "unequally"
+      ],
+      "mnemonic": "A-like. They act LIKE each other.",
+      "frequency_rank": 6000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

@@ -1,0 +1,357 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ (Flap T, Held T, Silent T) và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I need a bottle of water.\' Văn bản Whisper nhận được: \'I need a boTtle of waTer.\' (phát âm chữ 't' cứng, rõ ràng)",
+    "output": "✅ **Corrected Pronunciation (American English):** I need a 'boddle' of 'wadder'.\n🔍 **Error Identification:** Phát âm 't' ở giữa từ 'bottle' và 'water' thành âm /t/ bật hơi mạnh, thay vì biến thành âm Flap T (giống âm /d/ nhẹ, lưỡi chạm nướu nhanh).\n📘 **Vietnamese Explanation:** Trong tiếng Việt, chữ 't' luôn được phát âm là âm t bật hơi mạnh (như 'táo'). Trong tiếng Anh-Mỹ, khi âm /t/ đứng giữa hai nguyên âm (và không phải đầu từ có trọng âm), nó được biến thành Flap T – một âm /d/ rất nhẹ, lưỡi chỉ chạm nướu trên rồi bật ra nhanh. Mẹo: 'bottle' nói như 'boddle', 'water' nói như 'wadder'.\n💡 **Luyện tập:** 'little' → 'liddle', 'city' → 'cidy', 'better' → 'bedder'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He lives in a big city.\' Văn bản Whisper nhận được: \'He lives in a big ciTy.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** He lives in a big 'cidy'.\n🔍 **Error Identification:** 'City' có 't' giữa hai nguyên âm /ɪ/ và /i/ → Flap T, không phải /t/ bật hơi.\n📘 **Vietnamese Explanation:** Tương tự 'water', 'city' đọc thành 'cidy'. Mẹo: Hãy tưởng tượng chữ 'd' nhẹ, lưỡi chạm nướu trên rồi thả nhanh.\n💡 **Luyện tập:** 'pretty' → 'preddy', 'party' → 'pardy', 'dirty' → 'dirdy'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What is that?\' Văn bản Whisper nhận được: \'WhaT is thaT?\' (phát âm 't' cuối từ rất rõ, bật hơi mạnh)",
+    "output": "✅ **Corrected Pronunciation:** 'Wha' is 'tha'? (Held T – gần như câm, chỉ giữ vị trí lưỡi mà không bật hơi)\n🔍 **Error Identification:** Trong tiếng Anh-Mỹ, âm /t/ ở cuối từ hoặc trước phụ âm thường được phát âm là Held T – không bật hơi, lưỡi chạm nướu trên và giữ yên, không thả ra. Người Việt thường bật hơi mạnh thành âm /t/ giống tiếng Việt.\n📘 **Vietnamese Explanation:** Hãy thử phát âm 'what' như 'wha' nhưng dừng lưỡi ở vị trí chữ 't' mà không bật hơi. 'that' cũng tương tự. Mẹo: Đặt lưỡi chạm nướu trên, giữ hơi, không thả.\n💡 **Luyện tập:** 'it' → giữ lưỡi, 'not' → giữ, 'cat' → giữ."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I don't know what to do.\' Văn bản Whisper nhận được: \'I don't know whaT to do.\' (phát âm 't' cuối 'what' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** I don't know 'wha' to do. (Held T ở 'what')\n🔍 **Error Identification:** 'what' đứng trước phụ âm /t/ của 'to' – 't' cuối 'what' là Held T, không bật hơi, và 't' đầu 'to' cũng có thể bị ảnh hưởng.\n📘 **Vietnamese Explanation:** Chuỗi 'what to' có hai âm /t/ liền nhau, thường chỉ phát âm một lần giữ lưỡi. Mẹo: 'wha to' (không bật 't' ở 'what').\n💡 **Luyện tập:** 'want to' → 'wan to', 'get to' → 'ge to'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She often listens to music.\' Văn bản Whisper nhận được: \'She ofTen listens to music.\' (phát âm chữ 't' trong 'often')",
+    "output": "✅ **Corrected Pronunciation:** She 'offen' listens to music. (Silent T)\n🔍 **Error Identification:** Trong 'often', chữ 't' thường được phát âm là câm (silent T) trong tiếng Anh-Mỹ chuẩn, mặc dù một số người vẫn phát âm. Người Việt thường phát âm chữ 't' rất rõ.\n📘 **Vietnamese Explanation:** Một số từ có tổ hợp 'sten', 'ften', 'stle', 'tle' có chữ 't' câm. Mẹo: 'often' = 'offen', 'soften' = 'soffen', 'castle' = 'cassle'.\n💡 **Luyện tập:** 'listen' = 'lissen', 'whistle' = 'whissle', 'thistle' = 'thissle'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I have to go.\' Văn bản Whisper nhận được: \'I have to go.\' (phát âm 't' trong 'to' rất rõ)",
+    "output": "✅ **Corrected Pronunciation:** I 'hafta' go. (Flap T hoặc âm /t/ chuyển thành /d/ trong 'have to' → 'hafta')\n🔍 **Error Identification:** Trong tiếng Anh nói nhanh, 'have to' thường được nối âm và biến đổi thành 'hafta', trong đó 't' không phải là /t/ cứng mà là /d/ hoặc /t/ nhẹ. Nhưng lỗi chính là không nối âm và phát âm 'to' tách rời.\n📘 **Vietnamese Explanation:** 'have to' → 'haf-ta' (âm 't' vẫn là /t/ nhưng nhẹ hơn). Thực tế, biến âm chính là 'v' chuyển thành 'f' và 't' không bật hơi mạnh. Tuy nhiên, ở đây ta tập trung vào 't' trong 'to' khi đứng sau phụ âm vô thanh.\n💡 **Luyện tập:** 'has to' → 'hasta', 'needs to' → 'needs ta'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It is a good idea.\' Văn bản Whisper nhận được: \'iT is a good idea.\' (phát âm 't' cuối 'it' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** 'I' is a good idea. (Held T)\n🔍 **Error Identification:** 'it' đứng cuối câu hoặc trước phụ âm /ɪ/ của 'is'? Thực tế 'it is' nối âm: 'it is' → 'i-tis' với 't' chuyển thành Flap T? Không, 'it' đứng trước nguyên âm, 't' sẽ nối thành Flap T? Trong 'it is', /t/ đứng trước nguyên âm /ɪ/, nhưng 't' ở cuối từ 'it' thường được nối và biến thành Flap T (giống /d/ nhẹ) trong tiếng Anh-Mỹ. Học viên phát âm 't' cứng là sai.\n📘 **Vietnamese Explanation:** 'it is' nói nhanh thành 'i-diz' (Flap T). Mẹo: Lưỡi chạm nướu nhanh, giống âm 'd'.\n💡 **Luyện tập:** 'at all' → 'a-dall', 'get it' → 'ge-dit'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a little bit tired.\' Văn bản Whisper nhận được: \'She is a liTTle biT tired.\' (phát âm 't' cứng trong 'little' và 'bit')",
+    "output": "✅ **Corrected Pronunciation:** She is a 'liddle' 'bid' tired.\n🔍 **Error Identification:** 'little' có hai 't' giữa nguyên âm → Flap T (liddle). 'bit' đứng trước phụ âm /t/ của 'tired'? 'bit tired' có hai 't' liền nhau, 't' cuối 'bit' là Held T (không bật), 't' đầu 'tired' vẫn là /t/ bật hơi (vì đầu âm tiết có trọng âm).\n📘 **Vietnamese Explanation:** 'little' → 'liddle', 'bit tired' → 'bid tired' với 't' trong 'bit' thành Flap T trước phụ âm? Không, Flap T chỉ xảy ra giữa hai nguyên âm. Ở đây 'bit tired' có 't' cuối 'bit' đứng trước phụ âm /t/, nó là Held T (câm). Nhưng 'bit' đọc như 'bid' nếu nối với 'tired'? Thực tế 'bit tired' nói nhanh thành 'bi-dtired' với 't' đầu 'tired' vẫn bật. Phức tạp, nhưng học viên chỉ cần nhớ 'little' thành 'liddle' và 'bit' có thể đọc là 'bid' nhẹ.\n💡 **Luyện tập:** 'a little bit' → 'a liddle bid'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I met him at the airport.\' Văn bản Whisper nhận được: \'I meT him aT the airport.\' (phát âm 't' cuối 'met' và 'at' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** I 'med' him 'ad' the airport. (Flap T)\n🔍 **Error Identification:** 'met him' – 't' đứng giữa nguyên âm /e/ và /h/? Thực tế 't' trong 'met' trước 'him' (phụ âm /h/) không phải nguyên âm, nên không phải Flap T. 'met him' thường được nối là 'me-dim' với 't' chuyển thành Flap T? Không, vì 'him' bắt đầu bằng /h/, /h/ thường được lược bỏ, nên 't' đứng trước nguyên âm /ɪ/ của 'im' → Flap T. Vậy 'met him' → 'me-dim'. 'at the' – 't' trước phụ âm /ð/ (có răng) thường là Held T, không bật. Học viên phát âm 't' cứng là sai.\n📘 **Vietnamese Explanation:** 'met him' → 'me-dim', 'at the' → 'a-the' (giữ lưỡi).\n💡 **Luyện tập:** 'get him' → 'ge-dim', 'put it' → 'pu-dit'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is interested in computer science.\' Văn bản Whisper nhận được: \'He is inTeresTed in computer science.\' (phát âm 't' trong 'interested' cứng)",
+    "output": "✅ **Corrected Pronunciation:** He is 'innerested' in computer science. (Flap T)\n🔍 **Error Identification:** 'interested' có hai âm /t/: một ở 'in' + 'ter'? Thực tế 'interested' /ˈɪn.trə.stɪd/ có 't' đứng sau 'n' và trước 'r'? 't' trong 'inter' là /t/ bật hơi? Không, vì 'inter' có trọng âm rơi vào 'in'? 'interested' có trọng âm đầu /ˈɪn/, 't' đứng giữa 'n' và 'r'? Không phải Flap T vì không nằm giữa hai nguyên âm. Tuy nhiên, trong nói nhanh, 't' có thể được phát âm nhẹ hoặc thậm chí thành Flap T nếu nối với nguyên âm? 'interested' thường được phát âm với 't' rõ. Để tránh phức tạp, tôi sẽ chọn từ 'computer' thay vì 'interested'. Sửa câu: \'He works on a computer.\'\n📘 **Thay bằng:** Câu yêu cầu đọc: \'He works on a computer.\' Văn bản Whisper: \'He works on a compuTer.\' (phát âm 't' cứng).\n✅ **Corrected:** He works on a compu'der'.\n🔍 **Error Identification:** 'computer' có 't' giữa 'pu' và 'er' – Flap T.\n💡 **Luyện tập:** 'computer' → 'compuder', 'daughter' → 'dodder'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He works on a computer.\' Văn bản Whisper nhận được: \'He works on a compuTer.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** He works on a compu'der'.\n🔍 **Error Identification:** 'computer' có 't' giữa hai nguyên âm /uː/ và /ə/ → Flap T.\n📘 **Vietnamese Explanation:** Tương tự 'water'.\n💡 **Luyện tập:** 'sister' → 'sisder', 'brother' → 'brother' (không có t), 'later' → 'lader'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She bought a new dress.\' Văn bản Whisper nhận được: \'She boughT a new dress.\' (phát âm 't' cuối 'bought' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** She 'bough' a new dress. (Held T)\n🔍 **Error Identification:** 'bought' kết thúc bằng /t/, đứng trước nguyên âm /ə/ của 'a'? Thực tế 'bought a' nối âm, 't' trước nguyên âm sẽ chuyển thành Flap T? Không, 'bought' kết thúc bằng /t/ là âm vô thanh, đứng trước nguyên âm, trong tiếng Anh-Mỹ, nó có thể được phát âm là Flap T? Thực tế 'bought a' nói nhanh thành 'baw-da' (Flap T). Nhưng nhiều người giữ nguyên /t/ nhẹ. Học viên phát âm /t/ bật hơi mạnh là sai. Nên dùng Held T hoặc Flap T.\n📘 **Vietnamese Explanation:** 'bought a' → 'baw-da' (Flap T).\n💡 **Luyện tập:** 'caught a' → 'caw-da', 'thought a' → 'thaw-da'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I ate a hot dog.\' Văn bản Whisper nhận được: \'I aTe a hoT dog.\' (phát âm 't' cuối 'ate' và 'hot' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** I 'ade' a 'hod' dog. (Flap T cho 'ate a', Held T cho 'hot' trước 'dog')\n🔍 **Error Identification:** 'ate a' – 't' giữa nguyên âm /eɪ/ và /ə/ → Flap T. 'hot dog' – 't' trước phụ âm /d/ → Held T (không bật).\n📘 **Vietnamese Explanation:** 'ate a' → 'a-da', 'hot dog' → 'hod dog' (t thành d nhẹ? 'hot dog' thường đọc là 'hod dog' với 't' thành Flap T? Không, 't' trước 'd' thường thành Held T, nhưng nhiều người Mỹ biến thành Flap T nếu nói nhanh. Có thể coi là Flap T. Học viên chỉ cần nhớ không bật hơi mạnh.\n💡 **Luyện tập:** 'got a' → 'ga-da', 'lot of' → 'la-dov'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I can't believe it.\' Văn bản Whisper nhận được: \'I can'T believe iT.\' (phát âm 't' cuối 'can't' và 'it' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** I 'can' believe 'i'. (Held T)\n🔍 **Error Identification:** 'can't' đứng trước phụ âm /b/ của 'believe' – 't' là Held T, không bật. 'it' đứng cuối câu – Held T.\n📘 **Vietnamese Explanation:** Giữ lưỡi ở vị trí chữ 't' mà không thả hơi.\n💡 **Luyện tập:** 'don't go' → 'don go', 'isn't it' → 'isn i'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Let's meet at eight.\' Văn bản Whisper nhận được: \'Let's meeT aT eighT.\' (phát âm 't' cuối 'meet', 'at', 'eight' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** Let's 'mee' a' 'eigh'. (Held T)\n🔍 **Error Identification:** 'meet at' – 't' trước nguyên âm /æ/ sẽ thành Flap T? 'meet at' → 'mee-dat'. 'at eight' – 't' trước nguyên âm /eɪ/ → 'a-deight'. Nhưng ở cuối câu 'eight' đứng cuối → Held T.\n📘 **Vietnamese Explanation:** 'meet at' → 'mee-dat', 'at eight' → 'a-deight', 'eight' → 'eigh' (giữ lưỡi).\n💡 **Luyện tập:** 'get up' → 'ge-dap', 'put on' → 'pu-don'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a great writer.\' Văn bản Whisper nhận được: \'He is a greaT wriTer.\' (phát âm 't' trong 'great' và 'writer' cứng)",
+    "output": "✅ **Corrected Pronunciation:** He is a 'gread' 'writer'? 'writer' có 't' giữa hai nguyên âm → 'writer' → 'writer' với Flap T (giống 'rider'). 'great' đứng trước 'writer'? 'great writer' – 't' cuối 'great' trước phụ âm /w/ → Held T. Vậy 'great' thành 'grea' (giữ lưỡi).\n🔍 **Error Identification:** 'writer' cần Flap T, 'great' cần Held T.\n📘 **Vietnamese Explanation:** 'great writer' → 'grea rider' (với 'rider' đọc như 'writer' nhưng 't' thành 'd').\n💡 **Luyện tập:** 'better writer' → 'bedder rider'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I need to get better.\' Văn bản Whisper nhận được: \'I need to geT beTTer.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** I need to 'ge' 'bedder'.\n🔍 **Error Identification:** 'get' trước 'better' có 't' đứng trước phụ âm /b/ → Held T (không bật). 'better' có 'tt' giữa nguyên âm → Flap T ('bedder').\n📘 **Vietnamese Explanation:** 'get better' → 'ge bedder'.\n💡 **Luyện tập:** 'set the table' → 'se the table' (Held T cho 'set') và 'table' có 't' giữa? 'table' có 't' đứng sau âm /eɪ/ và trước /b/ là Held T? 'table' /ˈteɪ.bəl/ – 't' đầu có trọng âm nên là /t/ bật hơi, không biến. 'table' không có Flap T ở giữa."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It's a pity you can't come.\' Văn bản Whisper nhận được: \'It's a piTy you can'T come.\' (phát âm 't' trong 'pity' và 'can't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** It's a 'piddy' you 'can' come.\n🔍 **Error Identification:** 'pity' có 't' giữa hai nguyên âm → 'piddy'. 'can't' trước phụ âm /k/ của 'come' → Held T ('can').\n📘 **Vietnamese Explanation:** 'pity' → 'piddy', 'can't come' → 'can come' (giữ lưỡi).\n💡 **Luyện tập:** 'city' → 'cidy', 'don't go' → 'don go'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a pretty girl.\' Văn bản Whisper nhận được: \'She is a preTTy girl.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** She is a 'preddy' girl.\n🔍 **Error Identification:** 'pretty' có 'tt' giữa nguyên âm → Flap T.\n📘 **Vietnamese Explanation:** 'pretty' → 'preddy'.\n💡 **Luyện tập:** 'nasty' → 'nasty'? 'nasty' có 't' sau 's'? 'nasty' /ˈnæs.ti/ – 't' không phải giữa nguyên âm (vì 's' là phụ âm), nên không phải Flap T. 't' phát âm bình thường. 'dirty' → 'dirdy' (vì 't' giữa 'r' và 'y'? 'r' là phụ âm, nhưng 't' vẫn có thể thành Flap T trong một số giọng? Thường 'dirty' đọc là 'dirdy' với Flap T. Đúng."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I want to be a doctor.\' Văn bản Whisper nhận được: \'I wanT to be a doctor.\' (phát âm 't' cuối 'want' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** I 'wan' to be a doctor. (Held T)\n🔍 **Error Identification:** 'want' đứng trước phụ âm /t/ của 'to' → Held T. 'to' có 't' đầu từ, phát âm bình thường nhưng nhẹ.\n📘 **Vietnamese Explanation:** 'want to' → 'wan to' (giữ lưỡi).\n💡 **Luyện tập:** 'need to' → 'nee to', 'like to' → 'like to' (không có t)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is an artist.\' Văn bản Whisper nhận được: \'He is an arTist.\' (phát âm 't' trong 'artist' cứng)",
+    "output": "✅ **Corrected Pronunciation:** He is an 'ardist'. (Flap T)\n🔍 **Error Identification:** 'artist' có 't' đứng giữa 'r' (phụ âm) và 'i' (nguyên âm)? Không phải giữa hai nguyên âm, nhưng trong tiếng Anh-Mỹ, 't' sau 'r' và trước nguyên âm vẫn có thể thành Flap T? Ví dụ 'party' → 'pardy', 'artist' → 'ardist'. Đúng, vì 'r' là âm vòm, 't' bị ảnh hưởng. Nhiều người Mỹ phát âm 'artist' như 'ardist'.\n📘 **Vietnamese Explanation:** 'artist' → 'ardist' (giống 'd').\n💡 **Luyện tập:** 'doctor' → 'docdor'? 'doctor' có 't'? Không, 'doctor' có 'c' và 't'? 'doctor' /ˈdɒk.tər/ có 't' giữa 'k' và 'ə' – 't' sau phụ âm /k/ và trước nguyên âm /ə/ có thể thành Flap T? 'doctor' đọc thành 'docder' trong một số giọng. Thực tế 'doctor' thường có 't' rõ. Tốt nhất lấy 'party'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'We had a party last night.\' Văn bản Whisper nhận được: \'We had a parTy last night.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** We had a 'pardy' last night.\n🔍 **Error Identification:** 'party' có 't' sau 'r' và trước 'y' (nguyên âm) → Flap T.\n📘 **Vietnamese Explanation:** 'party' → 'pardy'.\n💡 **Luyện tập:** 'dirty' → 'dirdy', 'thirty' → 'thirdy'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a secretary.\' Văn bản Whisper nhận được: \'She is a secreTary.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** She is a 'secredary'. (Flap T)\n🔍 **Error Identification:** 'secretary' có 't' giữa 'e' và 'a'? 'secretary' /ˈsek.rə.ter.i/ có 't' đứng giữa 'rə' và 'er'? Phức tạp, nhưng 't' thường được phát âm là Flap T (giống 'd') trong tiếng Anh-Mỹ. 'secretary' → 'secre-dairy'.\n📘 **Vietnamese Explanation:** 'secretary' → 'secredary'.\n💡 **Luyện tập:** 'necessary' → 'necessady' (t thành d)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I often go to the cinema.\' Văn bản Whisper nhận được: \'I ofTen go to the cinema.\' (phát âm 't' trong 'often')",
+    "output": "✅ **Corrected Pronunciation:** I 'offen' go to the cinema. (Silent T)\n🔍 **Error Identification:** 'often' có 't' câm trong tiếng Anh-Mỹ chuẩn.\n📘 **Vietnamese Explanation:** 'often' = 'offen'.\n💡 **Luyện tập:** 'soften' = 'soffen', 'listen' = 'lissen'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He lives in a castle.\' Văn bản Whisper nhận được: \'He lives in a casTle.\' (phát âm 't' trong 'castle')",
+    "output": "✅ **Corrected Pronunciation:** He lives in a 'cassle'. (Silent T)\n🔍 **Error Identification:** 'castle' có 't' câm, đọc là 'cassle'.\n📘 **Vietnamese Explanation:** 'castle' = 'cassle'.\n💡 **Luyện tập:** 'whistle' = 'whissle', 'thistle' = 'thissle'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Listen to me carefully.\' Văn bản Whisper nhận được: \'LisTen to me carefully.\' (phát âm 't' trong 'listen')",
+    "output": "✅ **Corrected Pronunciation:** 'Lissen' to me carefully. (Silent T)\n🔍 **Error Identification:** 'listen' có 't' câm.\n📘 **Vietnamese Explanation:** 'listen' = 'lissen'.\n💡 **Luyện tập:** 'glisten' = 'glissen', 'hasten' = 'hassen'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She often whistles a tune.\' Văn bản Whisper nhận được: \'She ofTen whisTles a tune.\' (phát âm 't' trong 'often' và 'whistles')",
+    "output": "✅ **Corrected Pronunciation:** She 'offen' 'whissles' a tune.\n🔍 **Error Identification:** 'often' silent T, 'whistles' silent T (whissles).\n📘 **Vietnamese Explanation:** 'whistles' = 'whissles'.\n💡 **Luyện tập:** 'nestle' = 'nessle', 'wrestle' = 'ressle'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'We need to fasten our seatbelts.\' Văn bản Whisper nhận được: \'We need to fasTen our seatbelts.\' (phát âm 't' trong 'fasten')",
+    "output": "✅ **Corrected Pronunciation:** We need to 'fassen' our seatbelts.\n🔍 **Error Identification:** 'fasten' có 't' câm.\n📘 **Vietnamese Explanation:** 'fasten' = 'fassen'.\n💡 **Luyện tập:** 'moisten' = 'moissen', 'christen' = 'chrissen'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a Christian.\' Văn bản Whisper nhận được: \'He is a ChrisTian.\' (phát âm 't' trong 'Christian')",
+    "output": "✅ **Corrected Pronunciation:** He is a 'Chrischan'? Thực tế 'Christian' có 't' phát âm như /tʃ/ (ch) chứ không phải silent T. 'Christian' /ˈkrɪs.tʃən/ – 't' chuyển thành /tʃ/ (giống 'ch') do ảnh hưởng của 'i'. Đây không phải silent T. Tôi sẽ chọn từ 'Christmas'.\n📘 **Thay bằng:** \'Merry Christmas.\' Văn bản Whisper: \'Merry ChrisTmas.\' (phát âm 't' trong 'Christmas')"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He hurt his knee.\' Văn bản Whisper nhận được: \'He hurT his knee.\' (phát âm 't' cuối 'hurt' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** He 'hur' his knee. (Held T)\n🔍 **Error Identification:** 'hurt' đứng trước phụ âm /h/ của 'his' – 't' là Held T.\n📘 **Vietnamese Explanation:** 'hurt his' → 'hur his' (giữ lưỡi).\n💡 **Luyện tập:** 'start his' → 'star his', 'part his' → 'par his'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She sent me a letter.\' Văn bản Whisper nhận được: \'She senT me a leTTer.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** She 'sen' me a 'ledder'.\n🔍 **Error Identification:** 'sent' trước 'me' – 't' trước phụ âm /m/ là Held T. 'letter' có 'tt' giữa nguyên âm → Flap T ('ledder').\n📘 **Vietnamese Explanation:** 'sent me' → 'sen me', 'letter' → 'ledder'.\n💡 **Luyện tập:** 'wanted me' → 'waned me' (t thành d? 'wanted' có 't' trước 'm' là Held T, nhưng 'wanted' còn 'ed' /ɪd/ nên phức tạp)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I don't know what you mean.\' Văn bản Whisper nhận được: \'I don'T know whaT you mean.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** I 'don' know 'wha' you mean. (Held T)\n🔍 **Error Identification:** 'don't' trước 'know' – Held T; 'what' trước 'you' – 't' trước /j/ có thể biến thành /tʃ/ (what you → 'watcha') nhưng cũng có thể Held T. Ở đây tập trung vào Held T.\n📘 **Vietnamese Explanation:** 'don't know' → 'don know', 'what you' → 'wha you' (giữ lưỡi).\n💡 **Luyện tập:** 'can't go' → 'can go', 'isn't it' → 'isn i'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a good writer.\' Văn bản Whisper nhận được: \'He is a good wriTer.\' (phát âm 't' trong 'writer' cứng)",
+    "output": "✅ **Corrected Pronunciation:** He is a good 'writer'? 'writer' có Flap T thành 'rider'. Vậy 'good writer' → 'good rider'.\n🔍 **Error Identification:** 'writer' cần Flap T.\n📘 **Vietnamese Explanation:** 'writer' = 'rider'.\n💡 **Luyện tập:** 'rider' và 'writer' phát âm giống nhau trong tiếng Anh-Mỹ."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I bought a new coat.\' Văn bản Whisper nhận được: \'I boughT a new coaT.\' (phát âm 't' cuối 'bought' và 'coat' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** I 'bough' a new 'coa'. (Held T)\n🔍 **Error Identification:** 'bought a' – 't' trước nguyên âm /ə/ nên thành Flap T ('bough-da'). 'coat' cuối câu → Held T ('coa').\n📘 **Vietnamese Explanation:** 'bought a' → 'bough-da', 'coat' → 'coa' (giữ lưỡi).\n💡 **Luyện tập:** 'caught a' → 'caw-da', 'boat' → 'boa'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a great friend.\' Văn bản Whisper nhận được: \'He is a greaT friend.\' (phát âm 't' cuối 'great' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** He is a 'grea' friend. (Held T)\n🔍 **Error Identification:** 'great' trước phụ âm /f/ → Held T.\n📘 **Vietnamese Explanation:** 'great friend' → 'grea friend'.\n💡 **Luyện tập:** 'fast car' → 'fas car', 'best friend' → 'bes friend'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I want a cup of hot tea.\' Văn bản Whisper nhận được: \'I wanT a cup of hoT tea.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** I 'wan' a cup of 'ho' tea. (Held T cho 'want' và 'hot')\n🔍 **Error Identification:** 'want a' – 't' trước nguyên âm /ə/ nên thành Flap T ('wan-da'). 'hot tea' – 't' trước phụ âm /t/ là Held T ('ho tea').\n📘 **Vietnamese Explanation:** 'want a' → 'wan-da', 'hot tea' → 'ho tea'.\n💡 **Luyện tập:** 'got a' → 'ga-da', 'not now' → 'no now'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm going to visit my aunt.\' Văn bản Whisper nhận được: \'I'm going to visiT my aunt.\' (phát âm 't' cuối 'visit' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** I'm going to 'visi' my aunt. (Held T)\n🔍 **Error Identification:** 'visit' đứng trước phụ âm /m/ của 'my' – 't' là Held T.\n📘 **Vietnamese Explanation:** 'visit my' → 'visi my'.\n💡 **Luyện tập:** 'limit my' → 'limi my', 'credit my' → 'credi my'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a talented artist.\' Văn bản Whisper nhận được: \'She is a talenTed arTist.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** She is a 'talen'ed'? 'talented' có 'ed' /ɪd/, 't' trong 'ted'? 'talented' /ˈtæl.ən.tɪd/ có 't' đầu tiên sau 'l'? Không, 'talented' có hai 't': một ở 'talent' /ˈtæl.ənt/ và 'ed'. 't' trong 'talent' là /t/ bật hơi vì đứng đầu âm tiết có trọng âm? 'talent' nhấn âm đầu 'tal', 't' là /t/ bình thường. 't' thứ hai trong 'ted' là /t/ trong /tɪd/ – thường được phát âm rõ. Không có Flap T ở đây. 'artist' có Flap T ('ardist'). Vậy 'talented artist' → 'talent ed ardist'. Học viên phát âm 't' cứng là đúng? Không, 'artist' cần Flap T.\n📘 **Kết luận:** 'artist' → 'ardist'.\n💡 **Luyện tập:** 'smart artist' → 'smar ardist'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I need to go to the bathroom.\' Văn bản Whisper nhận được: \'I need to go to the baThroom.\' (phát âm 't' trong 'bathroom'? 'bathroom' có 'th' không phải 't')",
+    "output": "✅ **Corrected Pronunciation:** I 'nee' to go to the 'bathroom' (không có lỗi). Thay bằng từ 'butter'.\n📘 **Thay bằng:** \'I need some butter.\' Văn bản Whisper: \'I need some buTTer.\' (phát âm 't' cứng)"    
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a little bit late.\' Văn bản Whisper nhận được: \'She is a liTTle biT late.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** She is a 'liddle' 'bid' late.\n🔍 **Error Identification:** 'little' → Flap T, 'bit' trước 'late' (phụ âm /l/) → Held T.\n📘 **Vietnamese Explanation:** 'little' = 'liddle', 'bit late' = 'bid late'? 'bit' đọc là 'bid' (Flap T) vì 't' đứng trước phụ âm /l/? Không, 't' trước /l/ không phải giữa hai nguyên âm, nên không phải Flap T. 'bit' nên là Held T ('bi'). 'bit late' → 'bi late'. Tuy nhiên, nhiều người nói 'bid late' với Flap T nếu nói nhanh. Ở đây, để đơn giản, coi 'bit' thành 'bid' (Flap T) là phổ biến trong văn nói.\n💡 **Luyện tập:** 'it looks' → 'id looks' (Flap T) hoặc 'i looks' (Held T)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'What is the capital of France?\' Văn bản Whisper nhận được: \'WhaT is the capiTal of France?\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** 'Wha' is the 'capidal' of France?\n🔍 **Error Identification:** 'what' trước 'is' – 't' trước nguyên âm /ɪ/ thành Flap T ('wha-diz'). 'capital' có 't' giữa 'i' và 'a'? 'capital' /ˈkæp.ɪ.təl/ có 't' sau 'i' và trước 'ə' → Flap T ('capidal').\n📘 **Vietnamese Explanation:** 'what is' → 'wha-diz', 'capital' → 'capidal'.\n💡 **Luyện tập:** 'hospital' → 'hospidal', 'mental' → 'mendal'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I have a lot of work.\' Văn bản Whisper nhận được: \'I have a loT of work.\' (phát âm 't' cuối 'lot' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** I have a 'la' of work. (Held T)\n🔍 **Error Identification:** 'lot' trước 'of' – 't' trước nguyên âm /ɒ/ của 'of' sẽ thành Flap T ('la-dov'). 'lot of' → 'la-dov'. Nhưng nếu nói chậm, 't' có thể là Held T. Học viên bật hơi là sai.\n📘 **Vietnamese Explanation:** 'lot of' → 'la-dov' (Flap T).\n💡 **Luyện tập:** 'lot of' → 'la-dov', 'not only' → 'no-donly'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It is very hot outside.\' Văn bản Whisper nhận được: \'iT is very hoT outside.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** 'I' is very 'ho' outside. (Held T)\n🔍 **Error Identification:** 'it' trước 'is' – Flap T ('i-diz'), 'hot' cuối câu? 'hot' đứng trước 'outside' (phụ âm /aʊ/) – 'hot outside' có 't' trước nguyên âm /aʊ/? 'outside' bắt đầu bằng nguyên âm /aʊ/, nên 't' trong 'hot' sẽ thành Flap T ('ho-doutside'). Nhưng ở cuối câu, 'hot' có thể là Held T. Học viên bật hơi mạnh là sai.\n📘 **Vietnamese Explanation:** 'it is' → 'i-diz', 'hot outside' → 'ho-doutside' (Flap T).\n💡 **Luyện tập:** 'get up' → 'ge-dap', 'put on' → 'pu-don'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a computer expert.\' Văn bản Whisper nhận được: \'He is a compuTer expert.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** He is a compu'der' expert.\n🔍 **Error Identification:** 'computer' có Flap T ('compuder'). 'expert' có 't' cuối? 'expert' /ˈek.spɜːt/ có 't' cuối là Held T.\n📘 **Vietnamese Explanation:** 'computer' → 'compuder', 'expert' → 'exper' (giữ lưỡi).\n💡 **Luyện tập:** 'doctor' → 'docder'? 'doctor' có 't' không? 'doctor' /ˈdɒk.tər/ – 't' có thể thành Flap T thành 'docder' trong một số giọng."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She has a pretty face.\' Văn bản Whisper nhận được: \'She has a preTTy face.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** She has a 'preddy' face.\n🔍 **Error Identification:** 'pretty' → 'preddy'.\n📘 **Vietnamese Explanation:** Flap T.\n💡 **Luyện tập:** 'nasty' không phải, 'dirty' → 'dirdy'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'We need to get a better result.\' Văn bản Whisper nhận được: \'We need to geT a beTTer result.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** We need to 'ge' a 'bedder' result.\n🔍 **Error Identification:** 'get a' → 'ge-da' (Flap T), 'better' → 'bedder'.\n📘 **Vietnamese Explanation:** 'get a' → 'ge-da', 'better' → 'bedder'.\n💡 **Luyện tập:** 'set a' → 'se-da', 'letter' → 'ledder'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I met her at the station.\' Văn bản Whisper nhận được: \'I meT her aT the station.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** I 'med' her 'ad' the station.\n🔍 **Error Identification:** 'met her' – 't' trước 'h' (bị lược bỏ) thành Flap T ('med-er'), 'at the' – 't' trước phụ âm /ð/ là Held T ('a the').\n📘 **Vietnamese Explanation:** 'met her' → 'med-der', 'at the' → 'a the'.\n💡 **Luyện tập:** 'get her' → 'ged-der', 'put the' → 'pu the'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It is not my fault.\' Văn bản Whisper nhận được: \'iT is noT my fault.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** 'I' is 'no' my fault.\n🔍 **Error Identification:** 'it is' → Flap T ('i-diz'), 'not' trước 'my' (phụ âm /m/) → Held T ('no').\n📘 **Vietnamese Explanation:** 'it is' → 'i-diz', 'not my' → 'no my'.\n💡 **Luyện tập:** 'that is' → 'tha-diz', 'what not' → 'wha not'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a famous actor.\' Văn bản Whisper nhận được: \'He is a famous acTor.\' (phát âm 't' trong 'actor' cứng)",
+    "output": "✅ **Corrected Pronunciation:** He is a famous 'acder'.\n🔍 **Error Identification:** 'actor' có 't' giữa 'c' và 'o'? 'actor' /ˈæk.tər/ – 't' đứng sau /k/ (phụ âm) và trước /ə/ (nguyên âm) – có thể thành Flap T, thành 'acder'.\n📘 **Vietnamese Explanation:** 'actor' → 'acder'.\n💡 **Luyện tập:** 'doctor' → 'docder', 'sector' → 'secder'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a great singer.\' Văn bản Whisper nhận được: \'She is a greaT singer.\' (phát âm 't' cuối 'great' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** She is a 'grea' singer.\n🔍 **Error Identification:** 'great' trước phụ âm /s/ của 'singer' → Held T.\n📘 **Vietnamese Explanation:** 'great singer' → 'grea singer'.\n💡 **Luyện tập:** 'fast runner' → 'fas runner', 'best player' → 'bes player'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I can't wait to see you.\' Văn bản Whisper nhận được: \'I can'T waiT to see you.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** I 'can' 'wai' to see you.\n🔍 **Error Identification:** 'can't' trước 'wait' – 't' trước phụ âm /w/ là Held T ('can'), 'wait' trước 'to' – 't' trước phụ âm /t/ là Held T ('wai').\n📘 **Vietnamese Explanation:** 'can't wait' → 'can wait', 'wait to' → 'wai to'.\n💡 **Luyện tập:** 'don't talk' → 'don talk', 'might take' → 'migh take'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a great student.\' Văn bản Whisper nhận được: \'He is a greaT student.\' (phát âm 't' cuối 'great' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** He is a 'grea' student.\n🔍 **Error Identification:** Held T trước phụ âm /s/.\n📘 **Vietnamese Explanation:** Tương tự.\n💡 **Luyện tập:** 'light switch' → 'ligh switch', 'right side' → 'righ side'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a talented musician.\' Văn bản Whisper nhận được: \'She is a talenTed musician.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** She is a 'talen'ed'? 'talented' có 't' trong 'ted' là /t/ rõ. 'musician' có 't'? 'musician' /mjuːˈzɪʃ.ən/ không có 't'. Câu này không có lỗi. Thay bằng 'artist'.\n📘 **Thay bằng:** \'She is a talented artist.\' đã có ở trên."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'We need to wait a minute.\' Văn bản Whisper nhận được: \'We need to waiT a minute.\' (phát âm 't' cuối 'wait' bật hơi)",
+    "output": "✅ **Corrected Pronunciation:** We need to 'wai' a minute.\n🔍 **Error Identification:** 'wait a' – 't' trước nguyên âm /ə/ thành Flap T ('wai-da'). Học viên phát âm 't' cứng là sai.\n📘 **Vietnamese Explanation:** 'wait a' → 'wai-da'.\n💡 **Luyện tập:** 'get a' → 'ge-da', 'put a' → 'pu-da'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I bought a new hat.\' Văn bản Whisper nhận được: \'I boughT a new haT.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** I 'bough' a new 'ha'.\n🔍 **Error Identification:** 'bought a' → 'bough-da' (Flap T), 'hat' cuối câu → Held T ('ha').\n📘 **Vietnamese Explanation:** 'bought a' → 'bough-da', 'hat' → 'ha'.\n💡 **Luyện tập:** 'caught a' → 'caw-da', 'cat' → 'ca'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a good listener.\' Văn bản Whisper nhận được: \'He is a good lisTener.\' (phát âm 't' trong 'listener')",
+    "output": "✅ **Corrected Pronunciation:** He is a good 'lissener'.\n🔍 **Error Identification:** 'listener' có 't' câm (listen + er) – 'listen' đã có 't' câm, nên 'listener' cũng câm. Đọc là 'lissener'.\n📘 **Vietnamese Explanation:** 'listener' = 'lissener'.\n💡 **Luyện tập:** 'fastener' = 'fassener', 'moistener' = 'moissener'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She often plays the piano.\' Văn bản Whisper nhận được: \'She ofTen plays the piano.\' (phát âm 't' trong 'often')",
+    "output": "✅ **Corrected Pronunciation:** She 'offen' plays the piano.\n🔍 **Error Identification:** Silent T.\n📘 **Vietnamese Explanation:** 'often' = 'offen'.\n💡 **Luyện tập:** 'soften' = 'soffen'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I can't find my keys.\' Văn bản Whisper nhận được: \'I can'T find my keys.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** I 'can' find my keys.\n🔍 **Error Identification:** 'can't' trước phụ âm /f/ của 'find' → Held T.\n📘 **Vietnamese Explanation:** 'can't find' → 'can find'.\n💡 **Luyện tập:** 'won't forget' → 'won forget', 'don't know' → 'don know'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a famous writer.\' Văn bản Whisper nhận được: \'He is a famous wriTer.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** He is a famous 'rider'.\n🔍 **Error Identification:** 'writer' → Flap T ('rider').\n📘 **Vietnamese Explanation:** 'writer' = 'rider'.\n💡 **Luyện tập:** 'rider' và 'writer' đồng âm."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I need a glass of water.\' Văn bản Whisper nhận được: \'I need a glass of waTer.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** I need a glass of 'wadder'.\n🔍 **Error Identification:** 'water' → Flap T.\n📘 **Vietnamese Explanation:** 'water' = 'wadder'.\n💡 **Luyện tập:** 'daughter' = 'dodder', 'laughter'? 'laughter' có 't'? 'laughter' /ˈlæf.tər/ có 't' sau 'f', không phải Flap T."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a little tired.\' Văn bản Whisper nhận được: \'She is a liTTle tired.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** She is a 'liddle' tired.\n🔍 **Error Identification:** 'little' → 'liddle'.\n📘 **Vietnamese Explanation:** Flap T.\n💡 **Luyện tập:** 'battle' = 'baddle', 'cattle' = 'caddle'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I want to eat something.\' Văn bản Whisper nhận được: \'I wanT to eat something.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** I 'wan' to eat something.\n🔍 **Error Identification:** 'want' trước 'to' – 't' trước phụ âm /t/ là Held T ('wan').\n📘 **Vietnamese Explanation:** 'want to' → 'wan to'.\n💡 **Luyện tập:** 'need to' → 'nee to', 'like to' → 'like to'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a great leader.\' Văn bản Whisper nhận được: \'He is a greaT leader.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** He is a 'grea' leader.\n🔍 **Error Identification:** 'great' trước 'leader' (phụ âm /l/) → Held T.\n📘 **Vietnamese Explanation:** 'great leader' → 'grea leader'.\n💡 **Luyện tập:** 'right lane' → 'righ lane', 'light blue' → 'ligh blue'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I have a meeting at eight.\' Văn bản Whisper nhận được: \'I have a meeting aT eighT.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** I have a meeting 'a' 'eigh'.\n🔍 **Error Identification:** 'at' trước 'eight' – 't' trước nguyên âm /eɪ/ thành Flap T ('a-deight'), 'eight' cuối câu → Held T ('eigh').\n📘 **Vietnamese Explanation:** 'at eight' → 'a-deight', 'eight' → 'eigh'.\n💡 **Luyện tập:** 'at eleven' → 'a-deleven', 'at eight' → 'a-deight'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a good friend.\' Văn bản Whisper nhận được: \'She is a good frieT?\' không có 't'. Thay bằng 'great friend' đã có.",
+    "output": "✅ **Corrected Pronunciation:** I have a meeting 'a' 'eigh'.\n🔍 **Error Identification:** 'at' trước 'eight' – 't' trước nguyên âm /eɪ/ thành Flap T ('a-deight'), 'eight' cuối câu → Held T ('eigh').\n📘 **Vietnamese Explanation:** 'at eight' → 'a-deight', 'eight' → 'eigh'.\n💡 **Luyện tập:** 'at eleven' → 'a-deleven', 'at eight' → 'a-deigh t'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It is a pity.\' Văn bản Whisper nhận được: \'iT is a piTy.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** 'I' is a 'piddy'.\n🔍 **Error Identification:** 'it is' → 'i-diz', 'pity' → 'piddy'.\n📘 **Vietnamese Explanation:** Flap T.\n💡 **Luyện tập:** 'city' → 'cidy', 'pretty' → 'preddy'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a little boy.\' Văn bản Whisper nhận được: \'He is a liTTle boy.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** He is a 'liddle' boy.\n🔍 **Error Identification:** 'little' → 'liddle'.\n📘 **Vietnamese Explanation:** Flap T.\n💡 **Luyện tập:** 'bottle' → 'boddle'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I want a cup of coffee.\' Văn bản Whisper nhận được: \'I wanT a cup of coffee.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** I 'wan' a cup of coffee. (Held T) hoặc 'wanda' (Flap T). 'want a' → 'wan-da'.\n🔍 **Error Identification:** 'want a' nên là Flap T.\n📘 **Vietnamese Explanation:** 'want a' → 'wan-da'.\n💡 **Luyện tập:** 'get a' → 'ge-da'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He is a computer programmer.\' Văn bản Whisper nhận được: \'He is a compuTer programmer.\' (phát âm 't' cứng)",
+    "output": "✅ **Corrected Pronunciation:** He is a compu'der' programmer.\n🔍 **Error Identification:** 'computer' → Flap T.\n📘 **Vietnamese Explanation:** 'computer' = 'compuder'.\n💡 **Luyện tập:** 'programmer' không có 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She is a beautiful singer.\' Văn bản Whisper nhận được: \'She is a beauTiful singer.\' (phát âm 't' trong 'beautiful')",
+    "output": "✅ **Corrected Pronunciation:** 'Beautiful' có 't'? 'beautiful' /ˈbjuː.tɪ.fəl/ có 't' được phát âm là /t/ bình thường (không biến). 't' đứng sau /uː/ và trước /ɪ/ – không phải Flap T. 'beautiful' không có biến âm đặc biệt. Học viên phát âm 't' cứng là đúng. Vậy câu này không có lỗi. Thay bằng 'water' đã có.\n📘 **Kết luận:** Không sử dụng 'beautiful'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi biến âm của âm /t/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I have to go now.\' Văn bản Whisper nhận được: \'I have to go now.\' (phát âm 't' trong 'to' bình thường)",
+    "output": "✅ **Corrected Pronunciation:** 'have to' → 'hafta' (v chuyển thành f, t vẫn là /t/ nhẹ). Đây không phải lỗi biến âm của 't' mà là nối âm. Vậy bỏ qua."
+  }
+]

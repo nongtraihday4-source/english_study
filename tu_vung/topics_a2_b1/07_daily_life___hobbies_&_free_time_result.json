@@ -1,0 +1,2015 @@
+[
+
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "hobby",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhɒbi/",
+      "ipa_us": "/ˈhɑːbi/",
+      "meaning_vi": "Sở thích, thú vui lúc rảnh rỗi",
+      "definition_en": "An activity done regularly in one's leisure time for pleasure.",
+      "example_en": "My main hobby is collecting vintage postcards.",
+      "example_vi": "Sở thích chính của tôi là sưu tập bưu thiếp cổ điển.",
+      "collocations_json": [
+        "main hobby",
+        "have a hobby",
+        "take up a hobby"
+      ],
+      "synonyms_json": [
+        "pastime",
+        "interest",
+        "leisure activity"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hobby nghe giống 'hâm mộ bi' (bóng đá). Khi bạn hâm mộ cái gì đó thì đó có thể là sở thích của bạn.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10404
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "free time",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˌfriː ˈtaɪm/",
+      "ipa_us": "/ˌfriː ˈtaɪm/",
+      "meaning_vi": "Thời gian rảnh rỗi, thời gian tự do",
+      "definition_en": "Time when you are not working or studying and can do what you like.",
+      "example_en": "I usually read books in my free time.",
+      "example_vi": "Tôi thường đọc sách vào thời gian rảnh.",
+      "collocations_json": [
+        "have free time",
+        "in your free time",
+        "spend free time"
+      ],
+      "synonyms_json": [
+        "leisure time",
+        "spare time"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Free là 'tự do', time là 'thời gian'. Ghép lại thành 'thời gian tự do' hay 'thời gian rảnh'.",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10405
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "leisure activity",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈleʒər ækˈtɪvəti/",
+      "ipa_us": "/ˈliːʒər ækˈtɪvəti/",
+      "meaning_vi": "Hoạt động giải trí, tiêu khiển",
+      "definition_en": "An activity that you do for pleasure when you are not working.",
+      "example_en": "Playing chess is a popular leisure activity for many people.",
+      "example_vi": "Chơi cờ vua là một hoạt động giải trí phổ biến của nhiều người.",
+      "collocations_json": [
+        "enjoy leisure activities",
+        "popular leisure activity"
+      ],
+      "synonyms_json": [
+        "hobby",
+        "pastime",
+        "recreational activity"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Leisure (thư giãn) + activity (hoạt động) = hoạt động thư giãn, giải trí.",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10406
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "spend time",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/spend taɪm/",
+      "ipa_us": "/spend taɪm/",
+      "meaning_vi": "Dành thời gian",
+      "definition_en": "To use time doing something or being somewhere.",
+      "example_en": "I like to spend time with my family on weekends.",
+      "example_vi": "Tôi thích dành thời gian cho gia đình vào cuối tuần.",
+      "collocations_json": [
+        "spend time doing something",
+        "spend time with someone"
+      ],
+      "synonyms_json": [
+        "pass time"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Spend là 'tiêu, dùng'. Spend time là 'tiêu dùng thời gian' hay 'dành thời gian'.",
+      "frequency_rank": 750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10407
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "enjoy",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɪnˈdʒɔɪ/",
+      "ipa_us": "/ɪnˈdʒɔɪ/",
+      "meaning_vi": "Thưởng thức, thích thú",
+      "definition_en": "To get pleasure from something.",
+      "example_en": "Do you enjoy playing sports?",
+      "example_vi": "Bạn có thích chơi thể thao không?",
+      "collocations_json": [
+        "enjoy doing something",
+        "enjoy yourself"
+      ],
+      "synonyms_json": [
+        "like",
+        "love",
+        "be fond of"
+      ],
+      "antonyms_json": [
+        "dislike",
+        "hate"
+      ],
+      "mnemonic": "Enjoy giống 'in joy' (trong niềm vui). Khi bạn vui vẻ thì bạn đang thưởng thức nó.",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10408
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "relax",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈlæks/",
+      "ipa_us": "/rɪˈlæks/",
+      "meaning_vi": "Thư giãn, nghỉ ngơi",
+      "definition_en": "To rest and enjoy yourself, especially after working.",
+      "example_en": "After a long day, I just want to relax on the sofa.",
+      "example_vi": "Sau một ngày dài, tôi chỉ muốn thư giãn trên ghế sofa.",
+      "collocations_json": [
+        "relax at home",
+        "relax with friends"
+      ],
+      "synonyms_json": [
+        "unwind",
+        "rest",
+        "chill out"
+      ],
+      "antonyms_json": [
+        "stress",
+        "work"
+      ],
+      "mnemonic": "Relax giống 're-lắc', như 'lắc' đi mọi mệt mỏi để thư giãn.",
+      "frequency_rank": 1100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10409
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "read",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/riːd/",
+      "ipa_us": "/riːd/",
+      "meaning_vi": "Đọc (sách, báo)",
+      "definition_en": "To look at written words and understand what they mean.",
+      "example_en": "She loves to read novels in her spare time.",
+      "example_vi": "Cô ấy thích đọc tiểu thuyết vào thời gian rảnh.",
+      "collocations_json": [
+        "read a book",
+        "read a newspaper",
+        "read aloud"
+      ],
+      "synonyms_json": [
+        "peruse"
+      ],
+      "antonyms_json": [
+        "write"
+      ],
+      "mnemonic": "Read như 'rì rà' đọc sách.",
+      "frequency_rank": 350,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10410
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "watch TV",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/wɒtʃ tiːˈviː/",
+      "ipa_us": "/wɑːtʃ tiːˈviː/",
+      "meaning_vi": "Xem TV, xem truyền hình",
+      "definition_en": "To look at television programmes.",
+      "example_en": "We often watch TV together in the evenings.",
+      "example_vi": "Chúng tôi thường xem TV cùng nhau vào các buổi tối.",
+      "collocations_json": [
+        "watch a TV show",
+        "watch the news on TV"
+      ],
+      "synonyms_json": [
+        "view television"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Watch là 'xem', TV là 'truyền hình'. Xem truyền hình.",
+      "frequency_rank": 600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10411
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "listen to music",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlɪsn tə ˈmjuːzɪk/",
+      "ipa_us": "/ˈlɪsn tə ˈmjuːzɪk/",
+      "meaning_vi": "Nghe nhạc",
+      "definition_en": "To hear and pay attention to sounds produced by musical instruments or voices.",
+      "example_en": "I like to listen to music while I'm working out.",
+      "example_vi": "Tôi thích nghe nhạc khi tập thể dục.",
+      "collocations_json": [
+        "listen to classical music",
+        "listen to pop music"
+      ],
+      "synonyms_json": [
+        "hear music"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Listen là 'nghe', music là 'nhạc'. Nghe nhạc.",
+      "frequency_rank": 700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10412
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "play computer games",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/pleɪ kəmˈpjuːtə ɡeɪmz/",
+      "ipa_us": "/pleɪ kəmˈpjuːtər ɡeɪmz/",
+      "meaning_vi": "Chơi game máy tính",
+      "definition_en": "To use a computer or console to play electronic games.",
+      "example_en": "My brother loves to play computer games for hours.",
+      "example_vi": "Anh trai tôi thích chơi game máy tính hàng giờ liền.",
+      "collocations_json": [
+        "play online games",
+        "play video games"
+      ],
+      "synonyms_json": [
+        "game",
+        "play video games"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Play là 'chơi', computer games là 'trò chơi máy tính'.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10413
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "go for a walk",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡəʊ fər ə wɔːk/",
+      "ipa_us": "/ɡoʊ fər ə wɔːk/",
+      "meaning_vi": "Đi dạo, đi bộ",
+      "definition_en": "To take a short journey on foot for pleasure or exercise.",
+      "example_en": "Let's go for a walk in the park.",
+      "example_vi": "Chúng ta hãy đi dạo trong công viên.",
+      "collocations_json": [
+        "go for a long walk",
+        "go for a quick walk"
+      ],
+      "synonyms_json": [
+        "take a stroll",
+        "stroll"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Go for a walk như 'đi bộ một vòng'.",
+      "frequency_rank": 1300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10414
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "do exercise",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/duː ˈeksəsaɪz/",
+      "ipa_us": "/duː ˈeksərsaɪz/",
+      "meaning_vi": "Tập thể dục",
+      "definition_en": "To perform physical activity to improve one's health and fitness.",
+      "example_en": "It's important to do exercise regularly.",
+      "example_vi": "Điều quan trọng là phải tập thể dục thường xuyên.",
+      "collocations_json": [
+        "do daily exercise",
+        "do light exercise"
+      ],
+      "synonyms_json": [
+        "work out",
+        "exercise"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Do là 'làm', exercise là 'bài tập'. Làm bài tập thể dục.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10415
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "cook",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kʊk/",
+      "ipa_us": "/kʊk/",
+      "meaning_vi": "Nấu ăn",
+      "definition_en": "To prepare food by heating it.",
+      "example_en": "My mother loves to cook for the whole family.",
+      "example_vi": "Mẹ tôi thích nấu ăn cho cả gia đình.",
+      "collocations_json": [
+        "cook a meal",
+        "cook dinner",
+        "cook for someone"
+      ],
+      "synonyms_json": [
+        "prepare food"
+      ],
+      "antonyms_json": [
+        "eat out"
+      ],
+      "mnemonic": "Cook như 'cúc', khi nấu ăn thường có tiếng 'cúc cúc' của nồi cơm.",
+      "frequency_rank": 400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10416
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "draw",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/drɔː/",
+      "ipa_us": "/drɔː/",
+      "meaning_vi": "Vẽ (bằng bút chì, mực)",
+      "definition_en": "To make a picture with a pencil or pen rather than paint.",
+      "example_en": "She likes to draw cartoons in her notebook.",
+      "example_vi": "Cô ấy thích vẽ phim hoạt hình vào sổ tay của mình.",
+      "collocations_json": [
+        "draw a picture",
+        "draw a line"
+      ],
+      "synonyms_json": [
+        "sketch",
+        "illustrate"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Draw như 'trò', vẽ tranh là một trò chơi thú vị.",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10417
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "paint",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/peɪnt/",
+      "ipa_us": "/peɪnt/",
+      "meaning_vi": "Vẽ, sơn (bằng màu)",
+      "definition_en": "To make a picture or apply paint to a surface.",
+      "example_en": "He enjoys painting landscapes in his art class.",
+      "example_vi": "Anh ấy thích vẽ phong cảnh trong lớp học mỹ thuật của mình.",
+      "collocations_json": [
+        "paint a picture",
+        "paint a wall"
+      ],
+      "synonyms_json": [
+        "color",
+        "decorate"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Paint như 'pen', dùng bút màu (pen) để vẽ (paint).",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10418
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "take photos",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/teɪk ˈfəʊtəʊz/",
+      "ipa_us": "/teɪk ˈfoʊtoʊz/",
+      "meaning_vi": "Chụp ảnh",
+      "definition_en": "To use a camera to create pictures.",
+      "example_en": "We love to take photos when we go on holiday.",
+      "example_vi": "Chúng tôi thích chụp ảnh khi đi nghỉ mát.",
+      "collocations_json": [
+        "take good photos",
+        "take many photos"
+      ],
+      "synonyms_json": [
+        "photograph",
+        "snap pictures"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Take là 'chụp', photos là 'ảnh'. Chụp ảnh.",
+      "frequency_rank": 1900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10419
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "collect",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kəˈlekt/",
+      "ipa_us": "/kəˈlekt/",
+      "meaning_vi": "Sưu tầm, thu thập",
+      "definition_en": "To gather things together, often as a hobby.",
+      "example_en": "He started to collect stamps when he was a child.",
+      "example_vi": "Anh ấy bắt đầu sưu tập tem khi còn nhỏ.",
+      "collocations_json": [
+        "collect stamps",
+        "collect coins",
+        "collect data"
+      ],
+      "synonyms_json": [
+        "gather",
+        "accumulate"
+      ],
+      "antonyms_json": [
+        "distribute",
+        "scatter"
+      ],
+      "mnemonic": "Collect như 'coi lượm', coi xem có gì để lượm về sưu tầm không.",
+      "frequency_rank": 2100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10420
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "travel",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈtrævl/",
+      "ipa_us": "/ˈtrævl/",
+      "meaning_vi": "Du lịch, đi lại",
+      "definition_en": "To go from one place to another, typically over a distance.",
+      "example_en": "They love to travel to different countries.",
+      "example_vi": "Họ thích đi du lịch đến các quốc gia khác nhau.",
+      "collocations_json": [
+        "travel abroad",
+        "travel by car",
+        "travel light"
+      ],
+      "synonyms_json": [
+        "journey",
+        "tour",
+        "explore"
+      ],
+      "antonyms_json": [
+        "stay"
+      ],
+      "mnemonic": "Travel như 'trao vé', để đi du lịch thì phải trao vé.",
+      "frequency_rank": 550,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10421
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "meet friends",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/miːt frendz/",
+      "ipa_us": "/miːt frendz/",
+      "meaning_vi": "Gặp gỡ bạn bè",
+      "definition_en": "To see and talk to friends, often socially.",
+      "example_en": "I often meet friends for coffee on Saturdays.",
+      "example_vi": "Tôi thường gặp bạn bè uống cà phê vào các ngày thứ Bảy.",
+      "collocations_json": [
+        "meet up with friends",
+        "meet new friends"
+      ],
+      "synonyms_json": [
+        "hang out with friends",
+        "socialize"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Meet là 'gặp', friends là 'bạn bè'. Gặp gỡ bạn bè.",
+      "frequency_rank": 850,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10422
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "go out",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡəʊ aʊt/",
+      "ipa_us": "/ɡoʊ aʊt/",
+      "meaning_vi": "Đi chơi, ra ngoài",
+      "definition_en": "To leave your home to go to a social event or a public place.",
+      "example_en": "Let's go out for dinner tonight.",
+      "example_vi": "Tối nay chúng ta hãy ra ngoài ăn tối.",
+      "collocations_json": [
+        "go out with friends",
+        "go out for a meal"
+      ],
+      "synonyms_json": [
+        "socialize",
+        "leave home"
+      ],
+      "antonyms_json": [
+        "stay in",
+        "stay at home"
+      ],
+      "mnemonic": "Go là 'đi', out là 'ra ngoài'. Đi ra ngoài chơi.",
+      "frequency_rank": 950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10423
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "stay at home",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/steɪ ət həʊm/",
+      "ipa_us": "/steɪ ət hoʊm/",
+      "meaning_vi": "Ở nhà",
+      "definition_en": "To remain in one's house rather than going out.",
+      "example_en": "Sometimes it's nice to just stay at home and relax.",
+      "example_vi": "Đôi khi thật tuyệt khi chỉ ở nhà và thư giãn.",
+      "collocations_json": [
+        "prefer to stay at home",
+        "stay at home all day"
+      ],
+      "synonyms_json": [
+        "stay in"
+      ],
+      "antonyms_json": [
+        "go out"
+      ],
+      "mnemonic": "Stay là 'ở lại', at home là 'ở nhà'. Ở lại nhà.",
+      "frequency_rank": 1150,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10424
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "keen on",
+      "part_of_speech": "adjective phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kiːn ɒn/",
+      "ipa_us": "/kiːn ɑːn/",
+      "meaning_vi": "Rất thích, say mê",
+      "definition_en": "Very interested in something or eager to do something.",
+      "example_en": "My brother is very keen on playing football.",
+      "example_vi": "Anh trai tôi rất say mê chơi bóng đá.",
+      "collocations_json": [
+        "be keen on",
+        "not keen on"
+      ],
+      "synonyms_json": [
+        "fond of",
+        "interested in",
+        "enthusiastic about"
+      ],
+      "antonyms_json": [
+        "disinterested in",
+        "averse to"
+      ],
+      "mnemonic": "Keen on như 'khiên', dùng khiên bảo vệ sở thích mình rất 'say mê'.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10425
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "fond of",
+      "part_of_speech": "adjective phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/fɒnd ɒv/",
+      "ipa_us": "/fɑːnd ɑːv/",
+      "meaning_vi": "Thích, yêu thích",
+      "definition_en": "Having a liking or affection for someone or something.",
+      "example_en": "She's very fond of classical music.",
+      "example_vi": "Cô ấy rất thích nhạc cổ điển.",
+      "collocations_json": [
+        "be fond of",
+        "grow fond of"
+      ],
+      "synonyms_json": [
+        "keen on",
+        "like",
+        "love"
+      ],
+      "antonyms_json": [
+        "dislike",
+        "hate"
+      ],
+      "mnemonic": "Fond of nghe như 'phòng ốp', phòng được ốp đẹp thì ai cũng 'yêu thích'.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10426
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "interested in",
+      "part_of_speech": "adjective phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɪntrəstɪd ɪn/",
+      "ipa_us": "/ˈɪntrəstɪd ɪn/",
+      "meaning_vi": "Quan tâm, hứng thú với",
+      "definition_en": "Giving your attention to something because you enjoy finding out about it or doing it.",
+      "example_en": "Are you interested in learning a new language?",
+      "example_vi": "Bạn có hứng thú học một ngôn ngữ mới không?",
+      "collocations_json": [
+        "be interested in",
+        "get interested in"
+      ],
+      "synonyms_json": [
+        "keen on",
+        "curious about"
+      ],
+      "antonyms_json": [
+        "bored with",
+        "uninterested in"
+      ],
+      "mnemonic": "Interested là 'quan tâm'. Bạn quan tâm 'in' cái gì đó.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10427
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "boring",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbɔːrɪŋ/",
+      "ipa_us": "/ˈbɔːrɪŋ/",
+      "meaning_vi": "Nhàm chán, tẻ nhạt",
+      "definition_en": "Not interesting or exciting.",
+      "example_en": "The movie was so boring that I fell asleep.",
+      "example_vi": "Bộ phim quá nhàm chán đến nỗi tôi ngủ gật.",
+      "collocations_json": [
+        "very boring",
+        "find something boring"
+      ],
+      "synonyms_json": [
+        "dull",
+        "uninteresting",
+        "tedious"
+      ],
+      "antonyms_json": [
+        "interesting",
+        "exciting"
+      ],
+      "mnemonic": "Boring như 'bò rừng', công việc chăn bò rừng rất 'nhàm chán'.",
+      "frequency_rank": 1400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10428
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "exciting",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɪkˈsaɪtɪŋ/",
+      "ipa_us": "/ɪkˈsaɪtɪŋ/",
+      "meaning_vi": "Thú vị, hấp dẫn, hào hứng",
+      "definition_en": "Causing great enthusiasm and eagerness.",
+      "example_en": "Learning a new language can be very exciting.",
+      "example_vi": "Học một ngôn ngữ mới có thể rất thú vị.",
+      "collocations_json": [
+        "very exciting",
+        "an exciting experience"
+      ],
+      "synonyms_json": [
+        "thrilling",
+        "stimulating",
+        "interesting"
+      ],
+      "antonyms_json": [
+        "boring",
+        "dull"
+      ],
+      "mnemonic": "Exciting như 'ích sai tinh', khi làm điều gì đó 'thú vị' thì ích lợi không sai tinh thần.",
+      "frequency_rank": 1350,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10429
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "fun",
+      "part_of_speech": "noun/adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/fʌn/",
+      "ipa_us": "/fʌn/",
+      "meaning_vi": "Niềm vui, sự vui vẻ",
+      "definition_en": "Enjoyment, amusement, or lighthearted pleasure.",
+      "example_en": "We had so much fun at the party last night.",
+      "example_vi": "Tối qua chúng tôi đã có rất nhiều niềm vui ở bữa tiệc.",
+      "collocations_json": [
+        "have fun",
+        "full of fun",
+        "a lot of fun"
+      ],
+      "synonyms_json": [
+        "enjoyment",
+        "amusement",
+        "entertainment"
+      ],
+      "antonyms_json": [
+        "boredom",
+        "misery"
+      ],
+      "mnemonic": "Fun như 'phăn', phăn phăn vui vẻ.",
+      "frequency_rank": 500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10430
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "relaxing",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈlæksɪŋ/",
+      "ipa_us": "/rɪˈlæksɪŋ/",
+      "meaning_vi": "Thư giãn, thoải mái",
+      "definition_en": "Helping you to rest and feel less anxious.",
+      "example_en": "Reading a book is a very relaxing activity for me.",
+      "example_vi": "Đọc sách là một hoạt động rất thư giãn đối với tôi.",
+      "collocations_json": [
+        "a relaxing bath",
+        "a relaxing holiday"
+      ],
+      "synonyms_json": [
+        "calming",
+        "soothing",
+        "stress-free"
+      ],
+      "antonyms_json": [
+        "stressful",
+        "tiring"
+      ],
+      "mnemonic": "Relaxing là tính từ của relax (thư giãn), nghĩa là 'mang tính thư giãn'.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10431
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "creative",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kriˈeɪtɪv/",
+      "ipa_us": "/kriˈeɪtɪv/",
+      "meaning_vi": "Sáng tạo",
+      "definition_en": "Relating to or involving the imagination or original ideas to create something.",
+      "example_en": "She enjoys creative activities like painting and writing.",
+      "example_vi": "Cô ấy thích các hoạt động sáng tạo như vẽ tranh và viết lách.",
+      "collocations_json": [
+        "creative thinking",
+        "creative arts",
+        "creative writing"
+      ],
+      "synonyms_json": [
+        "inventive",
+        "imaginative",
+        "artistic"
+      ],
+      "antonyms_json": [
+        "unimaginative",
+        "uncreative"
+      ],
+      "mnemonic": "Creative như 'cứu rỗi', sự sáng tạo đôi khi cứu rỗi tâm hồn.",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10432
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "active",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈæktɪv/",
+      "ipa_us": "/ˈæktɪv/",
+      "meaning_vi": "Năng động, tích cực",
+      "definition_en": "Engaged in action; busy or involved.",
+      "example_en": "He leads a very active lifestyle, playing sports every day.",
+      "example_vi": "Anh ấy có lối sống rất năng động, chơi thể thao mỗi ngày.",
+      "collocations_json": [
+        "active lifestyle",
+        "active member",
+        "stay active"
+      ],
+      "synonyms_json": [
+        "energetic",
+        "lively",
+        "dynamic"
+      ],
+      "antonyms_json": [
+        "inactive",
+        "passive"
+      ],
+      "mnemonic": "Active như 'ắc ti vi', khi ti vi 'năng động' thì nhiều chương trình hay.",
+      "frequency_rank": 1050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10433
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "unwind",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ʌnˈwaɪnd/",
+      "ipa_us": "/ʌnˈwaɪnd/",
+      "meaning_vi": "Thư giãn, xả hơi",
+      "definition_en": "To relax after a period of work or tension.",
+      "example_en": "A hot bath helps me to unwind after a stressful day.",
+      "example_vi": "Một bồn tắm nước nóng giúp tôi thư giãn sau một ngày căng thẳng.",
+      "collocations_json": [
+        "unwind with a book",
+        "unwind after work"
+      ],
+      "synonyms_json": [
+        "relax",
+        "de-stress",
+        "chill out"
+      ],
+      "antonyms_json": [
+        "stress",
+        "tense"
+      ],
+      "mnemonic": "Unwind như 'ăn hoài', ăn hoài để xả stress, 'thư giãn'.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10434
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "chill out",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/tʃɪl aʊt/",
+      "ipa_us": "/tʃɪl aʊt/",
+      "meaning_vi": "Thư giãn, nghỉ ngơi (thân mật)",
+      "definition_en": "To relax completely.",
+      "example_en": "I just want to chill out at home this weekend.",
+      "example_vi": "Cuối tuần này tôi chỉ muốn thư giãn ở nhà.",
+      "collocations_json": [
+        "just chill out",
+        "chill out with friends"
+      ],
+      "synonyms_json": [
+        "relax",
+        "unwind",
+        "take it easy"
+      ],
+      "antonyms_json": [
+        "stress out",
+        "work hard"
+      ],
+      "mnemonic": "Chill là 'lạnh', out là 'ra ngoài'. 'Lạnh ra ngoài' tức là không còn căng thẳng, 'thư giãn' đi.",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10435
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "take up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/teɪk ʌp/",
+      "ipa_us": "/teɪk ʌp/",
+      "meaning_vi": "Bắt đầu một sở thích/hoạt động",
+      "definition_en": "To start a hobby, sport, or activity.",
+      "example_en": "She decided to take up yoga to improve her flexibility.",
+      "example_vi": "Cô ấy quyết định bắt đầu tập yoga để cải thiện sự dẻo dai.",
+      "collocations_json": [
+        "take up a hobby",
+        "take up a sport",
+        "take up a challenge"
+      ],
+      "synonyms_json": [
+        "start",
+        "begin",
+        "embark on"
+      ],
+      "antonyms_json": [
+        "give up",
+        "quit"
+      ],
+      "mnemonic": "Take up như 'tách ấp', tách ra khỏi công việc cũ để 'bắt đầu' một sở thích mới.",
+      "frequency_rank": 2700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10436
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "give up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɡɪv ʌp/",
+      "ipa_us": "/ɡɪv ʌp/",
+      "meaning_vi": "Từ bỏ, bỏ cuộc",
+      "definition_en": "To stop trying to do something, or to stop doing something regularly.",
+      "example_en": "He decided to give up smoking for his health.",
+      "example_vi": "Anh ấy quyết định từ bỏ hút thuốc vì sức khỏe.",
+      "collocations_json": [
+        "give up smoking",
+        "give up a habit",
+        "never give up"
+      ],
+      "synonyms_json": [
+        "quit",
+        "abandon",
+        "stop"
+      ],
+      "antonyms_json": [
+        "start",
+        "continue",
+        "take up"
+      ],
+      "mnemonic": "Give là 'cho', up là 'lên'. Cho lên tức là 'từ bỏ', không giữ nữa.",
+      "frequency_rank": 1650,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10437
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "join a club",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/dʒɔɪn ə klʌb/",
+      "ipa_us": "/dʒɔɪn ə klʌb/",
+      "meaning_vi": "Tham gia một câu lạc bộ",
+      "definition_en": "To become a member of an organization for a particular activity or interest.",
+      "example_en": "I want to join a book club to meet new people.",
+      "example_vi": "Tôi muốn tham gia một câu lạc bộ sách để gặp gỡ những người mới.",
+      "collocations_json": [
+        "join a sports club",
+        "join a social club"
+      ],
+      "synonyms_json": [
+        "become a member",
+        "enroll in a club"
+      ],
+      "antonyms_json": [
+        "leave a club"
+      ],
+      "mnemonic": "Join là 'tham gia', club là 'câu lạc bộ'.",
+      "frequency_rank": 2200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10438
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "learn a new skill",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/lɜːn ə njuː skɪl/",
+      "ipa_us": "/lɜːrn ə nuː skɪl/",
+      "meaning_vi": "Học một kỹ năng mới",
+      "definition_en": "To acquire knowledge or ability in a new area.",
+      "example_en": "Learning a new skill like coding can open up many opportunities.",
+      "example_vi": "Học một kỹ năng mới như lập trình có thể mở ra nhiều cơ hội.",
+      "collocations_json": [
+        "learn a practical skill",
+        "learn a valuable skill"
+      ],
+      "synonyms_json": [
+        "acquire a skill",
+        "master a skill"
+      ],
+      "antonyms_json": [
+        "forget a skill"
+      ],
+      "mnemonic": "Learn là 'học', new skill là 'kỹ năng mới'.",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10439
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "do yoga",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "/duː ˈjəʊɡə/",
+      "ipa_us": "/duː ˈjoʊɡə/",
+      "meaning_vi": "Tập yoga",
+      "definition_en": "To practice a system of physical and mental exercises for health and relaxation.",
+      "example_en": "Many people do yoga to reduce stress.",
+      "example_vi": "Nhiều người tập yoga để giảm căng thẳng.",
+      "collocations_json": [
+        "practice yoga",
+        "take yoga classes"
+      ],
+      "synonyms_json": [
+        "practice yoga"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Do là 'làm, tập'. Yoga là 'yoga'.",
+      "frequency_rank": 2300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10440
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "go jogging",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "/ɡəʊ ˈdʒɒɡɪŋ/",
+      "ipa_us": "/ɡoʊ ˈdʒɑːɡɪŋ/",
+      "meaning_vi": "Đi bộ/chạy bộ",
+      "definition_en": "To run at a slow, steady pace as a form of exercise.",
+      "example_en": "I like to go jogging in the mornings.",
+      "example_vi": "Tôi thích đi chạy bộ vào buổi sáng.",
+      "collocations_json": [
+        "go jogging in the park",
+        "go for a jog"
+      ],
+      "synonyms_json": [
+        "run",
+        "jog"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Go là 'đi', jogging là 'chạy bộ'.",
+      "frequency_rank": 2400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10441
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "cycling",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsaɪklɪŋ/",
+      "ipa_us": "/ˈsaɪklɪŋ/",
+      "meaning_vi": "Đi xe đạp, đạp xe",
+      "definition_en": "The activity of riding a bicycle.",
+      "example_en": "Cycling is a great way to stay fit and see the city.",
+      "example_vi": "Đạp xe là một cách tuyệt vời để giữ dáng và ngắm thành phố.",
+      "collocations_json": [
+        "go cycling",
+        "enjoy cycling"
+      ],
+      "synonyms_json": [
+        "biking",
+        "bike riding"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Cycling như 'sai cờ lì', đạp xe nhưng cứ sai cờ lì.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10442
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "gardening",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɡɑːdnɪŋ/",
+      "ipa_us": "/ˈɡɑːrdnɪŋ/",
+      "meaning_vi": "Làm vườn",
+      "definition_en": "The activity of working in a garden, tending to plants.",
+      "example_en": "My grandmother finds gardening very relaxing.",
+      "example_vi": "Bà tôi thấy việc làm vườn rất thư giãn.",
+      "collocations_json": [
+        "enjoy gardening",
+        "do gardening"
+      ],
+      "synonyms_json": [
+        "horticulture"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Gardening là 'làm vườn'. Garden là 'khu vườn'.",
+      "frequency_rank": 3100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10443
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "baking",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/ˈbeɪkɪŋ/",
+      "ipa_us": "/ˈbeɪkɪŋ/",
+      "meaning_vi": "Nướng bánh",
+      "definition_en": "The activity of cooking food, especially bread, cakes, and pastry, in an oven.",
+      "example_en": "She loves baking cakes for her friends.",
+      "example_vi": "Cô ấy thích nướng bánh ngọt cho bạn bè.",
+      "collocations_json": [
+        "enjoy baking",
+        "home baking"
+      ],
+      "synonyms_json": [
+        "cookery",
+        "confectionery"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Baking như 'bày kinh', bày ra đủ thứ để nướng bánh kinh khủng ngon.",
+      "frequency_rank": 3300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10444
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "DIY (Do It Yourself)",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌdiː aɪ ˈwaɪ/",
+      "ipa_us": "/ˌdiː aɪ ˈwaɪ/",
+      "meaning_vi": "Tự làm, tự sửa chữa",
+      "definition_en": "The activity of building, modifying, or repairing things by oneself without the direct aid of experts or professionals.",
+      "example_en": "He spends his weekends doing DIY projects around the house.",
+      "example_vi": "Anh ấy dành những ngày cuối tuần để làm các dự án DIY quanh nhà.",
+      "collocations_json": [
+        "DIY project",
+        "DIY store"
+      ],
+      "synonyms_json": [
+        "home improvement",
+        "crafts"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "DIY là viết tắt của 'Do It Yourself' - 'Tự làm lấy'.",
+      "frequency_rank": 3900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10445
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "board games",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/bɔːd ɡeɪmz/",
+      "ipa_us": "/bɔːrd ɡeɪmz/",
+      "meaning_vi": "Trò chơi cờ bàn",
+      "definition_en": "Games that are played on a board, such as chess or Monopoly.",
+      "example_en": "Our family enjoys playing board games together on rainy days.",
+      "example_vi": "Gia đình chúng tôi thích chơi trò chơi cờ bàn cùng nhau vào những ngày mưa.",
+      "collocations_json": [
+        "play board games",
+        "classic board games"
+      ],
+      "synonyms_json": [
+        "tabletop games",
+        "card games"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Board là 'bảng, bàn', games là 'trò chơi'. Trò chơi trên bàn.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10446
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "puzzles",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpʌzlz/",
+      "ipa_us": "/ˈpʌzlz/",
+      "meaning_vi": "Trò chơi xếp hình, câu đố",
+      "definition_en": "Games, toys, or problems that test your ingenuity.",
+      "example_en": "Doing jigsaw puzzles is a great way to relax and challenge your mind.",
+      "example_vi": "Chơi trò xếp hình là một cách tuyệt vời để thư giãn và thử thách trí óc của bạn.",
+      "collocations_json": [
+        "jigsaw puzzles",
+        "solve puzzles"
+      ],
+      "synonyms_json": [
+        "riddles",
+        "brainteasers"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Puzzles như 'pút zồ', khi giải đố thì pút zồ ra các đáp án.",
+      "frequency_rank": 4100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10447
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "surfing the internet",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "technology",
+      "ipa_uk": "/ˈsɜːfɪŋ ði ˈɪntənet/",
+      "ipa_us": "/ˈsɜːrfɪŋ ði ˈɪntərnet/",
+      "meaning_vi": "Lướt mạng internet",
+      "definition_en": "The activity of moving from one website or page to another on the internet.",
+      "example_en": "I spend too much time surfing the internet in my free time.",
+      "example_vi": "Tôi dành quá nhiều thời gian lướt mạng internet vào thời gian rảnh.",
+      "collocations_json": [
+        "surf the web",
+        "browse the internet"
+      ],
+      "synonyms_json": [
+        "browsing the internet",
+        "web surfing"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Surf là 'lướt', internet là 'mạng'. Lướt mạng.",
+      "frequency_rank": 3600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10448
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "browse social media",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "technology",
+      "ipa_uk": "/braʊz ˈsəʊʃl ˈmiːdiə/",
+      "ipa_us": "/braʊz ˈsoʊʃl ˈmiːdiə/",
+      "meaning_vi": "Lướt mạng xã hội",
+      "definition_en": "To look through social networking sites, typically without a specific purpose.",
+      "example_en": "She often browses social media before going to bed.",
+      "example_vi": "Cô ấy thường lướt mạng xã hội trước khi đi ngủ.",
+      "collocations_json": [
+        "browse Facebook",
+        "browse Instagram"
+      ],
+      "synonyms_json": [
+        "scroll social media",
+        "check social media"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Browse là 'duyệt, lướt', social media là 'mạng xã hội'. Lướt mạng xã hội.",
+      "frequency_rank": 4200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10449
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "volunteer",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌvɒlənˈtɪə(r)/",
+      "ipa_us": "/ˌvɑːlənˈtɪr/",
+      "meaning_vi": "Tình nguyện, làm tình nguyện viên",
+      "definition_en": "To offer to do something without being forced or paid to do it.",
+      "example_en": "He decided to volunteer at a local animal shelter.",
+      "example_vi": "Anh ấy quyết định làm tình nguyện viên tại một trại cứu hộ động vật địa phương.",
+      "collocations_json": [
+        "volunteer time",
+        "volunteer for a cause"
+      ],
+      "synonyms_json": [
+        "offer help",
+        "assist"
+      ],
+      "antonyms_json": [
+        "force",
+        "demand"
+      ],
+      "mnemonic": "Volunteer như 'vô lên tia', vô làm tình nguyện thì được lên tia sáng của lòng tốt.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10450
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "explore",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ɪkˈsplɔː(r)/",
+      "ipa_us": "/ɪkˈsplɔːr/",
+      "meaning_vi": "Khám phá, thám hiểm",
+      "definition_en": "To travel through an unfamiliar area in order to learn about it.",
+      "example_en": "We love to explore new places when we go on holiday.",
+      "example_vi": "Chúng tôi thích khám phá những địa điểm mới khi đi nghỉ mát.",
+      "collocations_json": [
+        "explore a city",
+        "explore possibilities",
+        "explore nature"
+      ],
+      "synonyms_json": [
+        "discover",
+        "investigate",
+        "travel"
+      ],
+      "antonyms_json": [
+        "ignore",
+        "overlook"
+      ],
+      "mnemonic": "Explore như 'ích plò', khám phá ra những điều có 'ích' thì sẽ 'lò' ra nhiều kiến thức.",
+      "frequency_rank": 3400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10451
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "day trip",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈdeɪ trɪp/",
+      "ipa_us": "/ˈdeɪ trɪp/",
+      "meaning_vi": "Chuyến đi trong ngày",
+      "definition_en": "A journey to a place and back again on the same day.",
+      "example_en": "We went on a day trip to the beach last Sunday.",
+      "example_vi": "Chúng tôi đã có một chuyến đi trong ngày đến bãi biển vào Chủ nhật tuần trước.",
+      "collocations_json": [
+        "go on a day trip",
+        "a short day trip"
+      ],
+      "synonyms_json": [
+        "excursion",
+        "outing"
+      ],
+      "antonyms_json": [
+        "long journey"
+      ],
+      "mnemonic": "Day là 'ngày', trip là 'chuyến đi'. Chuyến đi trong ngày.",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10452
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "weekend getaway",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈwiːkend ˈɡetəweɪ/",
+      "ipa_us": "/ˈwiːkend ˈɡetəweɪ/",
+      "meaning_vi": "Chuyến đi cuối tuần ngắn ngày",
+      "definition_en": "A short holiday taken over a weekend.",
+      "example_en": "We're planning a weekend getaway to the mountains.",
+      "example_vi": "Chúng tôi đang lên kế hoạch cho một chuyến đi ngắn ngày cuối tuần đến vùng núi.",
+      "collocations_json": [
+        "romantic getaway",
+        "short getaway"
+      ],
+      "synonyms_json": [
+        "short break",
+        "weekend trip"
+      ],
+      "antonyms_json": [
+        "long vacation"
+      ],
+      "mnemonic": "Weekend là 'cuối tuần', getaway là 'đi trốn'. Đi trốn vào cuối tuần.",
+      "frequency_rank": 4900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10453
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "socialize",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsəʊʃəlaɪz/",
+      "ipa_us": "/ˈsoʊʃəlaɪz/",
+      "meaning_vi": "Giao lưu, hòa nhập xã hội",
+      "definition_en": "To take part in social activities; to spend time with other people in a friendly way.",
+      "example_en": "I like to socialize with my colleagues after work.",
+      "example_vi": "Tôi thích giao lưu với đồng nghiệp sau giờ làm.",
+      "collocations_json": [
+        "socialize with friends",
+        "learn to socialize"
+      ],
+      "synonyms_json": [
+        "mingle",
+        "interact",
+        "hang out"
+      ],
+      "antonyms_json": [
+        "isolate",
+        "withdraw"
+      ],
+      "mnemonic": "Socialize như 'số sờ lai', giao lưu để số lượng người 'sờ lai' bạn tăng lên.",
+      "frequency_rank": 3700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10454
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "hang out",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/hæŋ aʊt/",
+      "ipa_us": "/hæŋ aʊt/",
+      "meaning_vi": "Đi chơi, dành thời gian (thân mật)",
+      "definition_en": "To spend time relaxing or doing nothing in particular.",
+      "example_en": "We often hang out at the coffee shop on weekends.",
+      "example_vi": "Chúng tôi thường đi chơi ở quán cà phê vào cuối tuần.",
+      "collocations_json": [
+        "hang out with friends",
+        "hang out at home"
+      ],
+      "synonyms_json": [
+        "chill out",
+        "spend time"
+      ],
+      "antonyms_json": [
+        "work",
+        "study"
+      ],
+      "mnemonic": "Hang là 'treo', out là 'ra ngoài'. Treo mình ra ngoài để đi chơi.",
+      "frequency_rank": 2950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10455
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "go camping",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ɡəʊ ˈkæmpɪŋ/",
+      "ipa_us": "/ɡoʊ ˈkæmpɪŋ/",
+      "meaning_vi": "Đi cắm trại",
+      "definition_en": "To stay outside in a tent or camp.",
+      "example_en": "Our family loves to go camping in the mountains during summer.",
+      "example_vi": "Gia đình chúng tôi thích đi cắm trại trên núi vào mùa hè.",
+      "collocations_json": [
+        "go camping with friends",
+        "go wild camping"
+      ],
+      "synonyms_json": [
+        "camp"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Go là 'đi', camping là 'cắm trại'.",
+      "frequency_rank": 4300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10456
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "go fishing",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɡəʊ ˈfɪʃɪŋ/",
+      "ipa_us": "/ɡoʊ ˈfɪʃɪŋ/",
+      "meaning_vi": "Đi câu cá",
+      "definition_en": "To try to catch fish, typically as a hobby.",
+      "example_en": "My dad often goes fishing on Sunday mornings.",
+      "example_vi": "Bố tôi thường đi câu cá vào sáng Chủ nhật.",
+      "collocations_json": [
+        "go deep-sea fishing",
+        "go fly fishing"
+      ],
+      "synonyms_json": [
+        "fish"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Go là 'đi', fishing là 'câu cá'.",
+      "frequency_rank": 4400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10457
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "play an instrument",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/pleɪ ən ˈɪnstrəmənt/",
+      "ipa_us": "/pleɪ ən ˈɪnstrəmənt/",
+      "meaning_vi": "Chơi nhạc cụ",
+      "definition_en": "To perform music on a musical device.",
+      "example_en": "She learned to play an instrument, the piano, when she was seven.",
+      "example_vi": "Cô ấy học chơi một nhạc cụ, đàn piano, khi cô ấy bảy tuổi.",
+      "collocations_json": [
+        "play the guitar",
+        "play the violin"
+      ],
+      "synonyms_json": [
+        "make music",
+        "perform music"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Play là 'chơi', instrument là 'nhạc cụ'.",
+      "frequency_rank": 2050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10458
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "do puzzles",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/duː ˈpʌzlz/",
+      "ipa_us": "/duː ˈpʌzlz/",
+      "meaning_vi": "Chơi trò đố, giải đố",
+      "definition_en": "To engage in games or problems that test one's ingenuity.",
+      "example_en": "My grandmother enjoys doing crossword puzzles every morning.",
+      "example_vi": "Bà tôi thích giải ô chữ mỗi sáng.",
+      "collocations_json": [
+        "do crossword puzzles",
+        "do jigsaw puzzles"
+      ],
+      "synonyms_json": [
+        "solve puzzles"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Do là 'làm, chơi', puzzles là 'câu đố, trò chơi xếp hình'.",
+      "frequency_rank": 4150,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10459
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "go dancing",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡəʊ ˈdɑːnsɪŋ/",
+      "ipa_us": "/ɡoʊ ˈdænsɪŋ/",
+      "meaning_vi": "Đi nhảy, đi khiêu vũ",
+      "definition_en": "To go to a place where you can dance, typically for pleasure.",
+      "example_en": "They often go dancing at the club on weekends.",
+      "example_vi": "Họ thường đi nhảy ở câu lạc bộ vào cuối tuần.",
+      "collocations_json": [
+        "go ballroom dancing",
+        "go club dancing"
+      ],
+      "synonyms_json": [
+        "dance"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Go là 'đi', dancing là 'nhảy'.",
+      "frequency_rank": 2550,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10460
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "attend a workshop",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/əˈtend ə ˈwɜːkʃɒp/",
+      "ipa_us": "/əˈtend ə ˈwɜːrkʃɑːp/",
+      "meaning_vi": "Tham gia một buổi hội thảo",
+      "definition_en": "To be present at a meeting or series of meetings where people are taught practical skills.",
+      "example_en": "I'm going to attend a workshop on creative writing next month.",
+      "example_vi": "Tôi sẽ tham gia một buổi hội thảo về viết sáng tạo vào tháng tới.",
+      "collocations_json": [
+        "attend a cooking workshop",
+        "attend a photography workshop"
+      ],
+      "synonyms_json": [
+        "join a workshop",
+        "participate in a workshop"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Attend là 'tham dự', workshop là 'buổi hội thảo'.",
+      "frequency_rank": 4600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10461
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "have a picnic",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/hæv ə ˈpɪknɪk/",
+      "ipa_us": "/hæv ə ˈpɪknɪk/",
+      "meaning_vi": "Đi dã ngoại, ăn ngoài trời",
+      "definition_en": "To eat a meal outdoors, often during a trip to a park or countryside.",
+      "example_en": "Let's have a picnic in the park if the weather is good.",
+      "example_vi": "Chúng ta hãy đi dã ngoại trong công viên nếu thời tiết đẹp.",
+      "collocations_json": [
+        "pack a picnic",
+        "go for a picnic"
+      ],
+      "synonyms_json": [
+        "go picnicking",
+        "eat outdoors"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Have là 'có, ăn', picnic là 'buổi dã ngoại'.",
+      "frequency_rank": 4700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10462
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "go sightseeing",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ɡəʊ ˈsaɪtsiːɪŋ/",
+      "ipa_us": "/ɡoʊ ˈsaɪtsiːɪŋ/",
+      "meaning_vi": "Đi tham quan, ngắm cảnh",
+      "definition_en": "To visit interesting places, especially as a tourist.",
+      "example_en": "When I travel, I love to go sightseeing and explore local culture.",
+      "example_vi": "Khi đi du lịch, tôi thích đi tham quan và khám phá văn hóa địa phương.",
+      "collocations_json": [
+        "go sightseeing in a city",
+        "do some sightseeing"
+      ],
+      "synonyms_json": [
+        "tour",
+        "visit attractions"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sightseeing là 'ngắm cảnh'. Go sightseeing là 'đi ngắm cảnh'.",
+      "frequency_rank": 3050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10463
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "binge-watch (a series)",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbɪndʒ wɒtʃ/",
+      "ipa_us": "/ˈbɪndʒ wɑːtʃ/",
+      "meaning_vi": "Cày phim, xem liên tục",
+      "definition_en": "To watch multiple episodes of a television program in rapid succession.",
+      "example_en": "On weekends, I sometimes binge-watch my favorite TV series.",
+      "example_vi": "Vào cuối tuần, đôi khi tôi cày phim bộ yêu thích của mình.",
+      "collocations_json": [
+        "binge-watch Netflix",
+        "binge-watch a show"
+      ],
+      "synonyms_json": [
+        "marathon watch",
+        "watch continuously"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Binge là 'say sưa', watch là 'xem'. Say sưa xem liên tục.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10464
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "play board games",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/pleɪ bɔːd ɡeɪmz/",
+      "ipa_us": "/pleɪ bɔːrd ɡeɪmz/",
+      "meaning_vi": "Chơi cờ bàn",
+      "definition_en": "To engage in games played on a board, often with pieces or cards.",
+      "example_en": "We love to play board games like Monopoly on family nights.",
+      "example_vi": "Chúng tôi thích chơi các trò chơi cờ bàn như Monopoly vào những đêm gia đình.",
+      "collocations_json": [
+        "play card games",
+        "play strategy games"
+      ],
+      "synonyms_json": [
+        "game",
+        "have a game"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Play là 'chơi', board games là 'trò chơi cờ bàn'.",
+      "frequency_rank": 4050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10465
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "go hiking",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ɡəʊ ˈhaɪkɪŋ/",
+      "ipa_us": "/ɡoʊ ˈhaɪkɪŋ/",
+      "meaning_vi": "Đi bộ đường dài",
+      "definition_en": "To go for a long walk in the countryside or mountains.",
+      "example_en": "We're planning to go hiking in the national park next month.",
+      "example_vi": "Chúng tôi đang lên kế hoạch đi bộ đường dài trong công viên quốc gia vào tháng tới.",
+      "collocations_json": [
+        "go mountain hiking",
+        "go on a hike"
+      ],
+      "synonyms_json": [
+        "trekking",
+        "bushwalking"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Go là 'đi', hiking là 'đi bộ đường dài'.",
+      "frequency_rank": 3450,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10466
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "take a class",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/teɪk ə klɑːs/",
+      "ipa_us": "/teɪk ə klæs/",
+      "meaning_vi": "Tham gia một lớp học",
+      "definition_en": "To enroll in and attend a course of instruction.",
+      "example_en": "I want to take a cooking class to learn new recipes.",
+      "example_vi": "Tôi muốn tham gia một lớp học nấu ăn để học các công thức mới.",
+      "collocations_json": [
+        "take an art class",
+        "take a dance class"
+      ],
+      "synonyms_json": [
+        "enroll in a class",
+        "attend a course"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Take là 'tham gia', class là 'lớp học'.",
+      "frequency_rank": 2150,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10467
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "do arts and crafts",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "art",
+      "ipa_uk": "/duː ɑːts ənd krɑːfts/",
+      "ipa_us": "/duː ɑːrts ənd kræfts/",
+      "meaning_vi": "Làm đồ thủ công mỹ nghệ",
+      "definition_en": "To engage in activities involving skill in making things by hand.",
+      "example_en": "My children love to do arts and crafts on rainy afternoons.",
+      "example_vi": "Các con tôi thích làm đồ thủ công mỹ nghệ vào những buổi chiều mưa.",
+      "collocations_json": [
+        "arts and crafts fair",
+        "kids' arts and crafts"
+      ],
+      "synonyms_json": [
+        "crafting",
+        "making handmade items"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Arts là 'nghệ thuật', crafts là 'thủ công'. Làm nghệ thuật và thủ công.",
+      "frequency_rank": 4250,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10468
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Hobbies & Free Time",
+      "word": "listen to podcasts",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlɪsn tə ˈpɒdkɑːsts/",
+      "ipa_us": "/ˈlɪsn tə ˈpɑːdkæsts/",
+      "meaning_vi": "Nghe podcast",
+      "definition_en": "To listen to digital audio files available on the internet, typically as a series.",
+      "example_en": "I often listen to podcasts while commuting to work.",
+      "example_vi": "Tôi thường nghe podcast khi đi làm.",
+      "collocations_json": [
+        "subscribe to podcasts",
+        "educational podcasts"
+      ],
+      "synonyms_json": [
+        "hear podcasts"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Listen là 'nghe', podcast là 'chương trình âm thanh số'.",
+      "frequency_rank": 4550,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10469
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must be tired after working all day. (câu đúng - suy luận hiện tại)",
+    "output": "✅ **Corrected Sentence:** He must be tired after working all day.\n🔍 **Error Identification:** 'Must be' dùng cho suy luận ở hiện tại (chắc hẳn là).\n📘 **Vietnamese Explanation:** Người Việt hay dùng 'must be' cho quá khứ. Mẹo: must be + adj (hiện tại), must have + V3 (quá khứ).\n💡 **Ví dụ:** She must be at home. / They must be happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She must have forgot her keys.",
+    "output": "✅ **Corrected Sentence:** She must have forgotten her keys.\n🔍 **Error Identification:** Sau 'must have' cần V3 (forgotten), không dùng V2 (forgot).\n📘 **Vietnamese Explanation:** Người Việt nhầm V2 và V3. Mẹo: forget – forgot – forgotten.\n💡 **Ví dụ:** He must have eaten already. / They must have left early."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He can't be at home because I saw him at the office. (câu đúng - suy luận phủ định hiện tại)",
+    "output": "✅ **Corrected Sentence:** He can't be at home because I saw him at the office.\n🔍 **Error Identification:** 'Can't be' dùng cho suy luận phủ định ở hiện tại (không thể là).\n📘 **Vietnamese Explanation:** Người Việt hay dùng 'mustn't' thay vì 'can't' cho suy luận phủ định. Mẹo: can't be (không thể), must be (chắc hẳn).\n💡 **Ví dụ:** It can't be true. / She can't be serious."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They must have been waiting for hours. (câu đúng - suy luận quá khứ tiếp diễn)",
+    "output": "✅ **Corrected Sentence:** They must have been waiting for hours.\n🔍 **Error Identification:** 'Must have been + V-ing' dùng cho hành động kéo dài trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'must have waited'. Mẹo: must have been + V-ing cho hành động tiếp diễn.\n💡 **Ví dụ:** She must have been crying. / He must have been working all night."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He can't have seen me because he was looking the other way. (câu đúng - suy luận phủ định quá khứ)",
+    "output": "✅ **Corrected Sentence:** He can't have seen me because he was looking the other way.\n🔍 **Error Identification:** 'Can't have + V3' dùng cho suy luận phủ định ở quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'couldn't have' hoặc 'mustn't have' thay vì 'can't have'. Mẹo: can't have V3 = không thể đã làm.\n💡 **Ví dụ:** She can't have forgotten our anniversary. / They can't have missed the flight."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She must be sleeping right now. (câu đúng - suy luận hiện tại tiếp diễn)",
+    "output": "✅ **Corrected Sentence:** She must be sleeping right now.\n🔍 **Error Identification:** 'Must be + V-ing' dùng cho suy luận về hành động đang diễn ra.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must sleep' cho hiện tại. Mẹo: must be + V-ing = chắc hẳn đang làm.\n💡 **Ví dụ:** He must be working late. / They must be having dinner."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must have went to the store.",
+    "output": "✅ **Corrected Sentence:** He must have gone to the store.\n🔍 **Error Identification:** 'Went' là V2, cần V3 'gone' sau 'must have'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'went' và 'gone'. Mẹo: go – went – gone.\n💡 **Ví dụ:** She must have done it. / They must have seen the movie."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It can't be true. (câu đúng) - Học viên viết \'It mustn't be true.\'",
+    "output": "✅ **Corrected Sentence:** It can't be true.\n🔍 **Error Identification:** 'Mustn't be' có nghĩa là 'không được phép', không dùng cho suy luận phủ định.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't' để nói 'chắc chắn không'. Mẹo: can't be = không thể, mustn't = không được phép.\n💡 **Ví dụ:** He can't be the killer. / She can't be lying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She must have been very tired after the marathon. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** She must have been very tired after the marathon.\n🔍 **Error Identification:** 'Must have been + adj' dùng cho trạng thái trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must be' cho quá khứ. Mẹo: must have been + adj (đã từng).\n💡 **Ví dụ:** He must have been angry. / They must have been disappointed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They can't have finished the project already. (câu đúng) - Học viên viết \'They mustn't have finished the project already.\'",
+    "output": "✅ **Corrected Sentence:** They can't have finished the project already.\n🔍 **Error Identification:** 'Mustn't have V3' ít dùng, 'can't have V3' là chuẩn cho suy luận phủ định quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have' cho quá khứ. Mẹo: can't have V3 = không thể đã.\n💡 **Ví dụ:** She can't have left already. / He can't have known the answer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must be a doctor. (câu đúng - suy luận hiện tại) - Học viên viết \'He must have been a doctor.\' (nếu không đúng)",
+    "output": "✅ **Corrected Sentence:** He must be a doctor. (nếu nói về hiện tại) / He must have been a doctor (nếu nói về quá khứ)\n🔍 **Error Identification:** Phân biệt 'must be' (hiện tại) và 'must have been' (quá khứ).\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have been' cho mọi thì. Mẹo: must be (hiện tại), must have been (quá khứ).\n💡 **Ví dụ:** She must be rich (bây giờ). / She must have been rich (trước đây)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must have been driving too fast. (câu đúng - suy luận quá khứ tiếp diễn)",
+    "output": "✅ **Corrected Sentence:** He must have been driving too fast.\n🔍 **Error Identification:** 'Must have been + V-ing' cho hành động kéo dài trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have driven'. Mẹo: must have been V-ing = chắc hẳn đã đang làm.\n💡 **Ví dụ:** She must have been crying. / They must have been arguing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You can't be serious! (câu đúng) - Học viên viết \'You mustn't be serious!\'",
+    "output": "✅ **Corrected Sentence:** You can't be serious!\n🔍 **Error Identification:** 'Can't be' diễn tả sự không tin, 'mustn't be' là cấm đoán.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't' cho mọi phủ định. Mẹo: can't be = impossible, mustn't = prohibited.\n💡 **Ví dụ:** He can't be joking. / She can't be telling the truth."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They must have arrived by now. (câu đúng - suy luận quá khứ gần)",
+    "output": "✅ **Corrected Sentence:** They must have arrived by now.\n🔍 **Error Identification:** 'Must have + V3' cho suy luận về việc đã xảy ra.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must arrive' cho tương lai. Mẹo: must have V3 = chắc hẳn đã.\n💡 **Ví dụ:** She must have finished work. / He must have gone home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She can't have seen us because she was looking away. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** She can't have seen us because she was looking away.\n🔍 **Error Identification:** 'Can't have + V3' cho suy luận phủ định quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'couldn't have seen' cũng đúng. Mẹo: can't have = couldn't have.\n💡 **Ví dụ:** He can't have heard the news. / They can't have known about the party."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must have left his wallet at home.",
+    "output": "✅ **Corrected Sentence:** He must have left his wallet at home.\n🔍 **Error Identification:** Câu đúng – 'must have left' diễn tả suy luận về hành động trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: must have + V3 cho quá khứ.\n💡 **Ví dụ:** She must have forgotten the meeting. / They must have taken the wrong bus."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It can't be raining because the sun is shining. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** It can't be raining because the sun is shining.\n🔍 **Error Identification:** 'Can't be + V-ing' cho suy luận phủ định về hành động đang diễn ra.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't be raining'. Mẹo: can't be V-ing = không thể đang.\n💡 **Ví dụ:** He can't be sleeping; his light is on. / She can't be working; it's a holiday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must have been a good student. (câu đúng - suy luận về quá khứ)",
+    "output": "✅ **Corrected Sentence:** He must have been a good student.\n🔍 **Error Identification:** 'Must have been + N/adj' cho suy luận về trạng thái trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must be' cho quá khứ. Mẹo: must have been = chắc hẳn đã từng.\n💡 **Ví dụ:** She must have been beautiful when young. / They must have been friends."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They can't have been waiting long because they just called. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** They can't have been waiting long because they just called.\n🔍 **Error Identification:** 'Can't have been + V-ing' cho suy luận phủ định về hành động kéo dài.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have been waiting'. Mẹo: can't have been V-ing = không thể đã đang.\n💡 **Ví dụ:** She can't have been sleeping when I called. / He can't have been driving that fast."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must be joking! (câu đúng) - Học viên viết \'He must have joked!\'",
+    "output": "✅ **Corrected Sentence:** He must be joking!\n🔍 **Error Identification:** 'Must be joking' cho suy luận về hành động đang diễn ra, không phải 'must have joked'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have V3' cho mọi thì. Mẹo: must be V-ing (đang), must have V3 (đã).\n💡 **Ví dụ:** She must be kidding. / They must be waiting for us."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She must have forgot to lock the door.",
+    "output": "✅ **Corrected Sentence:** She must have forgotten to lock the door.\n🔍 **Error Identification:** 'Forgot' là V2, cần V3 'forgotten'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'forgot' và 'forgotten'. Mẹo: forget – forgot – forgotten.\n💡 **Ví dụ:** He must have written the letter. / They must have spoken to her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It can't have been easy for you. (câu đúng) - Học viên viết \'It mustn't have been easy for you.\'",
+    "output": "✅ **Corrected Sentence:** It can't have been easy for you.\n🔍 **Error Identification:** 'Mustn't have been' ít dùng, 'can't have been' là chuẩn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have been'. Mẹo: can't have been = không thể đã.\n💡 **Ví dụ:** She can't have been happy about it. / He can't have been serious."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They must be having a great time. (câu đúng - suy luận hiện tại tiếp diễn)",
+    "output": "✅ **Corrected Sentence:** They must be having a great time.\n🔍 **Error Identification:** 'Must be + V-ing' cho suy luận về hành động đang xảy ra.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have' cho hiện tại. Mẹo: must be V-ing (đang), must have V3 (đã).\n💡 **Ví dụ:** She must be studying. / He must be cooking dinner."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He can't have stolen the money because he was with me. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** He can't have stolen the money because he was with me.\n🔍 **Error Identification:** 'Can't have + V3' cho suy luận phủ định quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have stolen'. Mẹo: can't have V3 = không thể đã làm.\n💡 **Ví dụ:** She can't have taken the book. / They can't have broken the vase."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She must have been very young when she got married. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** She must have been very young when she got married.\n🔍 **Error Identification:** 'Must have been + adj' cho trạng thái trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must be' cho quá khứ. Mẹo: must have been = chắc hẳn đã từng.\n💡 **Ví dụ:** He must have been poor. / They must have been in love."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It can't be that expensive. (câu đúng) - Học viên viết \'It mustn't be that expensive.\'",
+    "output": "✅ **Corrected Sentence:** It can't be that expensive.\n🔍 **Error Identification:** 'Mustn't be' là cấm đoán, 'can't be' là suy luận.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't' cho mọi phủ định. Mẹo: can't be = không thể, mustn't = không được.\n💡 **Ví dụ:** He can't be that stupid. / She can't be that old."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They must have been working all day. (câu đúng - suy luận quá khứ tiếp diễn)",
+    "output": "✅ **Corrected Sentence:** They must have been working all day.\n🔍 **Error Identification:** 'Must have been + V-ing' cho hành động kéo dài trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have worked'. Mẹo: must have been V-ing = chắc hẳn đã đang làm.\n💡 **Ví dụ:** She must have been running. / He must have been studying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must have knew the answer.",
+    "output": "✅ **Corrected Sentence:** He must have known the answer.\n🔍 **Error Identification:** 'Knew' là V2, cần V3 'known'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'knew' và 'known'. Mẹo: know – knew – known.\n💡 **Ví dụ:** She must have chosen the wrong one. / They must have driven carefully."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She can't be at home; I saw her leave. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** She can't be at home; I saw her leave.\n🔍 **Error Identification:** 'Can't be' cho suy luận phủ định hiện tại.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't be'. Mẹo: can't be = impossible.\n💡 **Ví dụ:** He can't be in his office. / They can't be on vacation."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They must have been waiting for a long time. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** They must have been waiting for a long time.\n🔍 **Error Identification:** 'Must have been + V-ing' cho hành động kéo dài trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have waited'. Mẹo: must have been V-ing nhấn mạnh quá trình.\n💡 **Ví dụ:** She must have been crying. / He must have been exercising."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You must be exhausted after the trip. (câu đúng) - Học viên viết \'You must have been exhausted after the trip.\'",
+    "output": "✅ **Corrected Sentence:** You must be exhausted after the trip. (nếu nói về hiện tại) / You must have been exhausted (nếu nói về sau chuyến đi đã qua)\n🔍 **Error Identification:** Phân biệt 'must be' (hiện tại) và 'must have been' (quá khứ).\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have been' cho mọi thì. Mẹo: Nhìn vào thời gian để chọn.\n💡 **Ví dụ:** She must be tired now. / She must have been tired yesterday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He can't have done it because he wasn't there. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** He can't have done it because he wasn't there.\n🔍 **Error Identification:** 'Can't have + V3' cho suy luận phủ định quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have done'. Mẹo: can't have V3 = impossible that he did.\n💡 **Ví dụ:** She can't have said that. / They can't have arrived yet."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It must be raining outside; the ground is wet. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** It must be raining outside; the ground is wet.\n🔍 **Error Identification:** 'Must be + V-ing' cho suy luận về hành động đang diễn ra dựa trên bằng chứng.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must rain' cho hiện tại. Mẹo: must be V-ing = chắc hẳn đang.\n💡 **Ví dụ:** He must be sleeping; the lights are off. / She must be cooking; I smell food."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They must have took the wrong train.",
+    "output": "✅ **Corrected Sentence:** They must have taken the wrong train.\n🔍 **Error Identification:** 'Took' là V2, cần V3 'taken'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'took' và 'taken'. Mẹo: take – took – taken.\n💡 **Ví dụ:** She must have given him the money. / He must have spoken to her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She can't be lying; she's an honest person. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** She can't be lying; she's an honest person.\n🔍 **Error Identification:** 'Can't be + V-ing' cho suy luận phủ định về hành động đang diễn ra.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't be lying'. Mẹo: can't be V-ing = không thể đang.\n💡 **Ví dụ:** He can't be joking; he looks serious. / They can't be cheating; they're good students."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must have been working late last night. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** He must have been working late last night.\n🔍 **Error Identification:** 'Must have been + V-ing' cho hành động kéo dài trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have worked'. Mẹo: must have been V-ing = chắc hẳn đã đang.\n💡 **Ví dụ:** She must have been studying all night. / They must have been traveling."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It can't have been her; she was out of town. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** It can't have been her; she was out of town.\n🔍 **Error Identification:** 'Can't have been' cho suy luận phủ định về danh tính trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have been'. Mẹo: can't have been = không thể là.\n💡 **Ví dụ:** He can't have been the thief. / They can't have been the ones."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You must be hungry. (câu đúng) - Học viên viết \'You must have been hungry.\'",
+    "output": "✅ **Corrected Sentence:** You must be hungry. (nếu nói về bây giờ) / You must have been hungry (nếu nói về sau bữa ăn đã qua)\n🔍 **Error Identification:** Phân biệt hiện tại và quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have been' cho mọi trường hợp. Mẹo: Nhìn ngữ cảnh.\n💡 **Ví dụ:** He must be tired now. / He must have been tired after the race."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She must have been very beautiful when she was young. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** She must have been very beautiful when she was young.\n🔍 **Error Identification:** 'Must have been + adj' cho trạng thái trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must be' cho quá khứ. Mẹo: must have been = chắc hẳn đã từng.\n💡 **Ví dụ:** He must have been rich. / They must have been happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He can't have forgotten our anniversary; it's only two days away. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** He can't have forgotten our anniversary; it's only two days away.\n🔍 **Error Identification:** 'Can't have + V3' cho suy luận phủ định quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have forgotten'. Mẹo: can't have V3 = impossible.\n💡 **Ví dụ:** She can't have missed the bus. / They can't have lost the keys."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They must be having a meeting right now. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** They must be having a meeting right now.\n🔍 **Error Identification:** 'Must be + V-ing' cho suy luận về hành động đang diễn ra.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have' cho hiện tại. Mẹo: must be V-ing = chắc hẳn đang.\n💡 **Ví dụ:** She must be taking a shower. / He must be driving home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It must have been very cold last night. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** It must have been very cold last night.\n🔍 **Error Identification:** 'Must have been + adj' cho suy luận về thời tiết trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must be' cho quá khứ. Mẹo: must have been = chắc hẳn đã.\n💡 **Ví dụ:** It must have been windy. / It must have been a great party."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She can't have been driving that fast; the speed limit is low. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** She can't have been driving that fast; the speed limit is low.\n🔍 **Error Identification:** 'Can't have been + V-ing' cho suy luận phủ định về hành động kéo dài.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have been driving'. Mẹo: can't have been V-ing = không thể đã đang.\n💡 **Ví dụ:** He can't have been sleeping when I called. / They can't have been arguing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must have been a great athlete in his youth. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** He must have been a great athlete in his youth.\n🔍 **Error Identification:** 'Must have been + N' cho suy luận về nghề nghiệp/tính cách trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must be' cho quá khứ. Mẹo: must have been = chắc hẳn đã từng là.\n💡 **Ví dụ:** She must have been a teacher. / They must have been soldiers."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You can't be serious about quitting your job. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** You can't be serious about quitting your job.\n🔍 **Error Identification:** 'Can't be + adj' cho suy luận phủ định về trạng thái hiện tại.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't be serious'. Mẹo: can't be = impossible.\n💡 **Ví dụ:** He can't be happy with that result. / She can't be okay with it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They must have been living in Hanoi for years. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** They must have been living in Hanoi for years.\n🔍 **Error Identification:** 'Must have been + V-ing' cho hành động kéo dài đến hiện tại.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have lived'. Mẹo: must have been living = chắc hẳn đã sống (và còn tiếp diễn).\n💡 **Ví dụ:** She must have been working here for a decade. / He must have been studying English since childhood."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It can't have been Tom who called; he's traveling. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** It can't have been Tom who called; he's traveling.\n🔍 **Error Identification:** 'Can't have been + N' cho suy luận phủ định về danh tính.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have been'. Mẹo: can't have been = không thể là.\n💡 **Ví dụ:** It can't have been Mary at the door. / It can't have been your brother."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must be feeling better after taking the medicine. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** He must be feeling better after taking the medicine.\n🔍 **Error Identification:** 'Must be + V-ing' cho suy luận về cảm giác đang diễn ra.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must feel'. Mẹo: must be V-ing = chắc hẳn đang cảm thấy.\n💡 **Ví dụ:** She must be feeling tired. / They must be feeling happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She must have took the wrong bus.",
+    "output": "✅ **Corrected Sentence:** She must have taken the wrong bus.\n🔍 **Error Identification:** 'Took' là V2, cần V3 'taken'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'took' và 'taken'. Mẹo: take – took – taken.\n💡 **Ví dụ:** He must have written the report. / They must have eaten already."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They can't have arrived yet; the flight was delayed. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** They can't have arrived yet; the flight was delayed.\n🔍 **Error Identification:** 'Can't have + V3' cho suy luận phủ định quá khứ với 'yet'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have arrived'. Mẹo: can't have V3 = impossible.\n💡 **Ví dụ:** She can't have finished already. / He can't have left so soon."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You must be joking! (câu đúng) - Học viên viết \'You must have joked!\'",
+    "output": "✅ **Corrected Sentence:** You must be joking!\n🔍 **Error Identification:** 'Must be joking' cho suy luận về hành động đang diễn ra.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have joked' cho hiện tại. Mẹo: must be V-ing = đang, must have V3 = đã.\n💡 **Ví dụ:** He must be kidding. / She must be lying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It must be difficult to learn Chinese. (câu đúng - suy luận hiện tại)",
+    "output": "✅ **Corrected Sentence:** It must be difficult to learn Chinese.\n🔍 **Error Identification:** 'Must be + adj' cho suy luận về tính chất.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have been' cho mọi thì. Mẹo: must be (hiện tại), must have been (quá khứ).\n💡 **Ví dụ:** It must be expensive to live there. / It must be nice to be rich."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She can't have been the one who told him. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** She can't have been the one who told him.\n🔍 **Error Identification:** 'Can't have been + N' cho suy luận phủ định về danh tính.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have been'. Mẹo: can't have been = impossible that she was.\n💡 **Ví dụ:** He can't have been the driver. / They can't have been the witnesses."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They must have been enjoying themselves at the party. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** They must have been enjoying themselves at the party.\n🔍 **Error Identification:** 'Must have been + V-ing' cho hành động kéo dài trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have enjoyed'. Mẹo: must have been V-ing = chắc hẳn đã đang.\n💡 **Ví dụ:** She must have been having fun. / He must have been working hard."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It can't be true. (câu đúng) - Học viên viết \'It mustn't be true.\'",
+    "output": "✅ **Corrected Sentence:** It can't be true.\n🔍 **Error Identification:** 'Mustn't be' là cấm đoán.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't' cho mọi phủ định. Mẹo: can't be = impossible, mustn't = prohibited.\n💡 **Ví dụ:** That can't be right. / This can't be happening."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must have been waiting for you for an hour. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** He must have been waiting for you for an hour.\n🔍 **Error Identification:** 'Must have been + V-ing + for' cho hành động kéo dài.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have waited'. Mẹo: must have been V-ing = chắc hẳn đã đang.\n💡 **Ví dụ:** She must have been studying for hours. / They must have been driving all night."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She can't have been feeling well; she left early. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** She can't have been feeling well; she left early.\n🔍 **Error Identification:** 'Can't have been + V-ing' cho suy luận phủ định về cảm giác.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have been feeling'. Mẹo: can't have been V-ing = không thể đã đang.\n💡 **Ví dụ:** He can't have been sleeping when I called. / They can't have been expecting us."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You must be relieved that it's over. (câu đúng) - Học viên viết \'You must have been relieved that it's over.\'",
+    "output": "✅ **Corrected Sentence:** You must be relieved that it's over.\n🔍 **Error Identification:** 'Must be relieved' cho cảm giác hiện tại.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have been' cho mọi thì. Mẹo: must be (bây giờ), must have been (lúc đó).\n💡 **Ví dụ:** He must be happy now. / She must have been happy then."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They must have been a lot of people at the concert. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** There must have been a lot of people at the concert.\n🔍 **Error Identification:** Thiếu 'there' – cấu trúc 'there must have been'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'they must have been' thay vì 'there'. Mẹo: There must have been + N (chỉ sự tồn tại).\n💡 **Ví dụ:** There must have been a mistake. / There must have been an accident."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It can't have been easy for her to say goodbye. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** It can't have been easy for her to say goodbye.\n🔍 **Error Identification:** 'Can't have been + adj' cho suy luận phủ định về trạng thái quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have been'. Mẹo: can't have been = không thể đã.\n💡 **Ví dụ:** It can't have been cheap. / It can't have been fun."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must have been waiting outside for hours. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** He must have been waiting outside for hours.\n🔍 **Error Identification:** 'Must have been + V-ing' cho hành động kéo dài.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must have waited'. Mẹo: must have been V-ing = chắc hẳn đã đang.\n💡 **Ví dụ:** She must have been looking for you. / They must have been talking about us."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You can't be too careful with strangers. (câu đúng - thành ngữ)",
+    "output": "✅ **Corrected Sentence:** You can't be too careful with strangers.\n🔍 **Error Identification:** Thành ngữ 'can't be too careful' = càng cẩn thận càng tốt.\n📘 **Vietnamese Explanation:** Người Việt dịch word-by-word sẽ hiểu sai. Mẹo: can't be too + adj = không thể quá.\n💡 **Ví dụ:** You can't be too rich. / You can't be too prepared."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She must have been very upset when she heard the news. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** She must have been very upset when she heard the news.\n🔍 **Error Identification:** 'Must have been + adj' cho suy luận về cảm xúc trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'must be' cho quá khứ. Mẹo: must have been = chắc hẳn đã.\n💡 **Ví dụ:** He must have been angry. / They must have been surprised."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They can't have been lying; they had no reason to. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** They can't have been lying; they had no reason to.\n🔍 **Error Identification:** 'Can't have been + V-ing' cho suy luận phủ định về hành động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have been lying'. Mẹo: can't have been V-ing = không thể đã đang.\n💡 **Ví dụ:** She can't have been cheating. / He can't have been stealing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There must have been a misunderstanding. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** There must have been a misunderstanding.\n🔍 **Error Identification:** 'There must have been' cho sự tồn tại trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'it must have been'. Mẹo: There must have been + N.\n💡 **Ví dụ:** There must have been a problem. / There must have been a reason."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He can't have seen me because he was looking the other way. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** He can't have seen me because he was looking the other way.\n🔍 **Error Identification:** 'Can't have + V3' cho suy luận phủ định quá khứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mustn't have seen'. Mẹo: can't have V3 = impossible.\n💡 **Ví dụ:** She can't have heard us. / They can't have noticed."
+  }
+]

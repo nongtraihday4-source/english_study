@@ -1,0 +1,1951 @@
+[
+
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "do chores",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/duː tʃɔːrz/",
+      "ipa_us": "/duː tʃɔːrz/",
+      "meaning_vi": "làm việc nhà, làm việc vặt",
+      "definition_en": "To perform routine tasks around the house.",
+      "example_en": "I need to do my chores before I can go out and play.",
+      "example_vi": "Tôi cần làm việc nhà trước khi có thể ra ngoài chơi.",
+      "collocations_json": [
+        "daily chores",
+        "household chores"
+      ],
+      "synonyms_json": [
+        "do housework",
+        "perform tasks"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Do chores - 'Do' là làm, 'chores' nghe như 'cho re' (cho ra) các việc phải làm.",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10137
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "tidy up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈtaɪdi ʌp/",
+      "ipa_us": "/ˈtaɪdi ʌp/",
+      "meaning_vi": "dọn dẹp, sắp xếp gọn gàng",
+      "definition_en": "To make a place neat and orderly by putting things away.",
+      "example_en": "Please tidy up your room before your friends arrive.",
+      "example_vi": "Làm ơn dọn dẹp phòng của bạn trước khi bạn bè đến.",
+      "collocations_json": [
+        "tidy up the room",
+        "tidy up the house"
+      ],
+      "synonyms_json": [
+        "clean up",
+        "put away",
+        "organize"
+      ],
+      "antonyms_json": [
+        "mess up"
+      ],
+      "mnemonic": "Tidy up - 'Tidy' là gọn gàng, 'up' là làm cho nó gọn gàng lên.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10138
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "clean",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kliːn/",
+      "ipa_us": "/kliːn/",
+      "meaning_vi": "lau chùi, làm sạch",
+      "definition_en": "To remove dirt, dust, or stains from something.",
+      "example_en": "I need to clean the kitchen after cooking dinner.",
+      "example_vi": "Tôi cần lau dọn nhà bếp sau khi nấu bữa tối.",
+      "collocations_json": [
+        "clean the house",
+        "clean up a mess"
+      ],
+      "synonyms_json": [
+        "wash",
+        "wipe",
+        "scrub"
+      ],
+      "antonyms_json": [
+        "dirty"
+      ],
+      "mnemonic": "Clean - Đọc như 'kờ-lin', nhớ đến 'kỳ cọ' cho sạch 'lìn' (sạch bong).",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10139
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "dust",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/dʌst/",
+      "ipa_us": "/dʌst/",
+      "meaning_vi": "lau bụi, phủi bụi",
+      "definition_en": "To remove dust from a surface.",
+      "example_en": "Don't forget to dust the shelves every week.",
+      "example_vi": "Đừng quên lau bụi kệ sách mỗi tuần.",
+      "collocations_json": [
+        "dust the furniture",
+        "dust the surfaces"
+      ],
+      "synonyms_json": [
+        "wipe",
+        "brush off"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dust - 'Dust' nghe như 'đất', mình phải lau 'đất' bụi đi.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10140
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "vacuum",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈvækjʊəm/",
+      "ipa_us": "/ˈvækjum/",
+      "meaning_vi": "hút bụi",
+      "definition_en": "To clean with a vacuum cleaner.",
+      "example_en": "I need to vacuum the carpets before the guests arrive.",
+      "example_vi": "Tôi cần hút bụi thảm trước khi khách đến.",
+      "collocations_json": [
+        "vacuum the floor",
+        "vacuum the rug"
+      ],
+      "synonyms_json": [
+        "hoover"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Vacuum - 'Va-kyum' nghe như 'vác khum' cái máy hút bụi đi làm.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10141
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "sweep",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/swiːp/",
+      "ipa_us": "/swiːp/",
+      "meaning_vi": "quét nhà",
+      "definition_en": "To clean a floor or surface with a broom.",
+      "example_en": "Can you sweep the kitchen floor, please?",
+      "example_vi": "Bạn có thể quét sàn nhà bếp được không?",
+      "collocations_json": [
+        "sweep the floor",
+        "sweep up dirt"
+      ],
+      "synonyms_json": [
+        "brush"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sweep - 'Sweep' nghe như 'sờ-wíp', nhớ đến động tác 'sờ' chổi và 'quét' rác.",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10142
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "mop",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/mɒp/",
+      "ipa_us": "/mɑːp/",
+      "meaning_vi": "lau nhà bằng cây lau",
+      "definition_en": "To clean a floor with a mop and water.",
+      "example_en": "After sweeping, I usually mop the floors.",
+      "example_vi": "Sau khi quét, tôi thường lau sàn nhà.",
+      "collocations_json": [
+        "mop the floor",
+        "mop up a spill"
+      ],
+      "synonyms_json": [
+        "wash"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Mop - 'Mop' nghe như 'móp' (móp méo), nhớ đến cây lau nhà bị 'móp' do dùng nhiều.",
+      "frequency_rank": 4200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10143
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "wash",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/wɒʃ/",
+      "ipa_us": "/wɑːʃ/",
+      "meaning_vi": "giặt, rửa, tắm rửa",
+      "definition_en": "To clean with water and usually soap.",
+      "example_en": "I need to wash the dishes after dinner.",
+      "example_vi": "Tôi cần rửa bát đĩa sau bữa tối.",
+      "collocations_json": [
+        "wash clothes",
+        "wash your hands"
+      ],
+      "synonyms_json": [
+        "clean",
+        "rinse"
+      ],
+      "antonyms_json": [
+        "dirty"
+      ],
+      "mnemonic": "Wash - 'Wash' nghe như 'quát', mẹ hay 'quát' khi chưa 'rửa' tay.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10144
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "wipe",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/waɪp/",
+      "ipa_us": "/waɪp/",
+      "meaning_vi": "lau chùi, chùi",
+      "definition_en": "To clean or dry something by rubbing its surface with a cloth or paper.",
+      "example_en": "Please wipe the table after you finish eating.",
+      "example_vi": "Làm ơn lau bàn sau khi bạn ăn xong.",
+      "collocations_json": [
+        "wipe the counter",
+        "wipe up a spill"
+      ],
+      "synonyms_json": [
+        "clean",
+        "rub"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wipe - 'Wipe' nghe như 'quái', cái khăn 'quái' gì mà lau sạch thế.",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10145
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "scrub",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/skrʌb/",
+      "ipa_us": "/skrʌb/",
+      "meaning_vi": "cọ rửa mạnh",
+      "definition_en": "To rub something hard in order to clean it, especially with a brush and soap.",
+      "example_en": "I had to scrub the bathtub to remove the dirt.",
+      "example_vi": "Tôi phải cọ bồn tắm thật mạnh để loại bỏ vết bẩn.",
+      "collocations_json": [
+        "scrub the floor",
+        "scrub the pan"
+      ],
+      "synonyms_json": [
+        "scour",
+        "brush"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Scrub - 'Scrub' nghe như 'sờ cọ', nhớ đến động tác 'sờ' và 'cọ' mạnh.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10146
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "broom",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/bruːm/",
+      "ipa_us": "/bruːm/",
+      "meaning_vi": "cây chổi",
+      "definition_en": "A brush with a long handle, used for sweeping floors.",
+      "example_en": "Please get the broom from the closet to sweep the floor.",
+      "example_vi": "Làm ơn lấy cây chổi trong tủ để quét nhà.",
+      "collocations_json": [
+        "sweep with a broom",
+        "dustpan and broom"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Broom - 'Broom' nghe như 'bùm', nhớ đến tiếng chổi 'bùm bùm' khi quét.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10147
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "mop (noun)",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/mɒp/",
+      "ipa_us": "/mɑːp/",
+      "meaning_vi": "cây lau nhà",
+      "definition_en": "A tool with a sponge or cloth on a stick, used for washing floors.",
+      "example_en": "I need a new mop because the old one is broken.",
+      "example_vi": "Tôi cần một cây lau nhà mới vì cái cũ đã hỏng rồi.",
+      "collocations_json": [
+        "bucket and mop",
+        "wet mop"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Mop - 'Mop' là cây lau nhà, giống như 'móp' (móp méo) khi dùng nhiều.",
+      "frequency_rank": 4300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10148
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "vacuum cleaner",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈvækjʊəm ˈkliːnə/",
+      "ipa_us": "/ˈvækjum ˈkliːnər/",
+      "meaning_vi": "máy hút bụi",
+      "definition_en": "An electrical machine that cleans floors and other surfaces by sucking up dust and dirt.",
+      "example_en": "The vacuum cleaner is very noisy, but it works well.",
+      "example_vi": "Máy hút bụi rất ồn ào nhưng nó hoạt động tốt.",
+      "collocations_json": [
+        "use a vacuum cleaner",
+        "cordless vacuum cleaner"
+      ],
+      "synonyms_json": [
+        "hoover"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Vacuum cleaner - 'Vacuum' hút bụi, 'cleaner' làm sạch.",
+      "frequency_rank": 3900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10149
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "cleaning cloth",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkliːnɪŋ klɒθ/",
+      "ipa_us": "/ˈkliːnɪŋ klɔːθ/",
+      "meaning_vi": "khăn lau, giẻ lau",
+      "definition_en": "A piece of fabric used for cleaning surfaces.",
+      "example_en": "I always keep a cleaning cloth handy in the kitchen.",
+      "example_vi": "Tôi luôn giữ một chiếc khăn lau tiện dụng trong bếp.",
+      "collocations_json": [
+        "microfiber cleaning cloth",
+        "damp cleaning cloth"
+      ],
+      "synonyms_json": [
+        "rag",
+        "dishcloth"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Cleaning cloth - 'Cleaning' là làm sạch, 'cloth' là vải.",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10150
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "sponge",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/spʌndʒ/",
+      "ipa_us": "/spʌndʒ/",
+      "meaning_vi": "miếng bọt biển, mút rửa bát",
+      "definition_en": "A soft, porous material used for washing or cleaning.",
+      "example_en": "Use a sponge to wash the dishes carefully.",
+      "example_vi": "Sử dụng miếng bọt biển để rửa bát cẩn thận.",
+      "collocations_json": [
+        "kitchen sponge",
+        "wash with a sponge"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Sponge - 'Sponge' nghe như 'sờ pông', nhớ đến miếng mút mềm 'sờ' vào thấy 'phồng' lên.",
+      "frequency_rank": 4600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10151
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "detergent",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/dɪˈtɜːdʒənt/",
+      "ipa_us": "/dɪˈtɜːrdʒənt/",
+      "meaning_vi": "chất tẩy rửa",
+      "definition_en": "A chemical substance used for cleaning, especially clothes or dishes.",
+      "example_en": "We ran out of laundry detergent, so I can't wash clothes.",
+      "example_vi": "Chúng tôi hết bột giặt rồi nên tôi không thể giặt quần áo được.",
+      "collocations_json": [
+        "laundry detergent",
+        "dish detergent"
+      ],
+      "synonyms_json": [
+        "soap",
+        "cleaner"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Detergent - 'De-tơ-jờnt' nghe như 'để tớ giặt' đồ bằng chất tẩy rửa.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10152
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "soap",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/səʊp/",
+      "ipa_us": "/soʊp/",
+      "meaning_vi": "xà phòng",
+      "definition_en": "A substance used with water for washing and cleaning.",
+      "example_en": "Please use soap to wash your hands thoroughly.",
+      "example_vi": "Làm ơn dùng xà phòng để rửa tay thật kỹ.",
+      "collocations_json": [
+        "bar of soap",
+        "liquid soap"
+      ],
+      "synonyms_json": [
+        "cleanser"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Soap - 'Soap' nghe như 'sâu', rửa tay bằng 'xà phòng' diệt 'sâu' bệnh.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10153
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "do the dishes",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/duː ðə ˈdɪʃɪz/",
+      "ipa_us": "/duː ðə ˈdɪʃɪz/",
+      "meaning_vi": "rửa bát đĩa",
+      "definition_en": "To wash all the plates, cups, and cooking utensils after a meal.",
+      "example_en": "It's your turn to do the dishes tonight.",
+      "example_vi": "Tối nay đến lượt bạn rửa bát đĩa.",
+      "collocations_json": [
+        "wash the dishes",
+        "help do the dishes"
+      ],
+      "synonyms_json": [
+        "wash up"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Do the dishes - 'Do' là làm, 'dishes' là bát đĩa.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10154
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "make the bed",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/meɪk ðə bɛd/",
+      "ipa_us": "/meɪk ðə bɛd/",
+      "meaning_vi": "dọn giường, gấp chăn màn",
+      "definition_en": "To arrange the sheets, blankets, and pillows neatly on a bed.",
+      "example_en": "I always make the bed as soon as I wake up.",
+      "example_vi": "Tôi luôn dọn giường ngay sau khi thức dậy.",
+      "collocations_json": [
+        "make your bed",
+        "make the bed neatly"
+      ],
+      "synonyms_json": [
+        "tidy the bed"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Make the bed - 'Make' là làm, 'bed' là giường, làm cho giường gọn gàng.",
+      "frequency_rank": 3300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10155
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "do laundry",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/duː ˈlɔːndri/",
+      "ipa_us": "/duː ˈlɑːndri/",
+      "meaning_vi": "giặt giũ",
+      "definition_en": "To wash clothes, towels, and other fabrics.",
+      "example_en": "I need to do laundry this weekend; my basket is full.",
+      "example_vi": "Cuối tuần này tôi cần giặt giũ; giỏ đồ của tôi đầy rồi.",
+      "collocations_json": [
+        "wash laundry",
+        "do the weekly laundry"
+      ],
+      "synonyms_json": [
+        "wash clothes"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Do laundry - 'Do' là làm, 'laundry' nghe như 'lon đi', giặt đồ cho 'lon' (sạch) rồi 'đi' phơi.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10156
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "wash clothes",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/wɒʃ kləʊðz/",
+      "ipa_us": "/wɑːʃ kloʊðz/",
+      "meaning_vi": "giặt quần áo",
+      "definition_en": "To clean garments using water and detergent.",
+      "example_en": "My mother taught me how to wash clothes properly.",
+      "example_vi": "Mẹ tôi đã dạy tôi cách giặt quần áo đúng cách.",
+      "collocations_json": [
+        "hand wash clothes",
+        "machine wash clothes"
+      ],
+      "synonyms_json": [
+        "do laundry"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wash clothes - 'Wash' là giặt, 'clothes' là quần áo.",
+      "frequency_rank": 3400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10157
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "hang out the laundry",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/hæŋ aʊt ðə ˈlɔːndri/",
+      "ipa_us": "/hæŋ aʊt ðə ˈlɑːndri/",
+      "meaning_vi": "phơi quần áo",
+      "definition_en": "To put wet clothes outside to dry.",
+      "example_en": "It's sunny today, perfect for hanging out the laundry.",
+      "example_vi": "Hôm nay trời nắng, rất thích hợp để phơi quần áo.",
+      "collocations_json": [
+        "hang out the washing",
+        "hang clothes to dry"
+      ],
+      "synonyms_json": [
+        "dry clothes (outside)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hang out the laundry - 'Hang out' là treo ra ngoài, 'laundry' là đồ giặt.",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10158
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "fold clothes",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/fəʊld kləʊðz/",
+      "ipa_us": "/foʊld kloʊðz/",
+      "meaning_vi": "gấp quần áo",
+      "definition_en": "To bend or lay clothes over on themselves, making them compact.",
+      "example_en": "After the clothes are dry, I need to fold them.",
+      "example_vi": "Sau khi quần áo khô, tôi cần gấp chúng lại.",
+      "collocations_json": [
+        "fold laundry",
+        "fold shirts"
+      ],
+      "synonyms_json": [
+        "put away clothes"
+      ],
+      "antonyms_json": [
+        "unfold clothes"
+      ],
+      "mnemonic": "Fold clothes - 'Fold' là gấp, 'clothes' là quần áo.",
+      "frequency_rank": 3600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10159
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "iron clothes",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈaɪən kləʊðz/",
+      "ipa_us": "/ˈaɪərn kloʊðz/",
+      "meaning_vi": "là/ủi quần áo",
+      "definition_en": "To smooth clothes using a heated iron.",
+      "example_en": "I always iron my work shirts the night before.",
+      "example_vi": "Tôi luôn là áo sơ mi đi làm vào tối hôm trước.",
+      "collocations_json": [
+        "iron a shirt",
+        "iron laundry"
+      ],
+      "synonyms_json": [
+        "press clothes"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Iron clothes - 'Iron' là bàn là, 'clothes' là quần áo.",
+      "frequency_rank": 4700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10160
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "load the dishwasher",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ləʊd ðə ˈdɪʃˌwɒʃə/",
+      "ipa_us": "/loʊd ðə ˈdɪʃˌwɑːʃər/",
+      "meaning_vi": "cho bát đĩa vào máy rửa bát",
+      "definition_en": "To put dirty dishes into a dishwasher to be cleaned.",
+      "example_en": "Could you please load the dishwasher after dinner?",
+      "example_vi": "Bạn có thể vui lòng cho bát đĩa vào máy rửa bát sau bữa tối không?",
+      "collocations_json": [
+        "load the machine",
+        "properly load the dishwasher"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "unload the dishwasher"
+      ],
+      "mnemonic": "Load the dishwasher - 'Load' là nạp, 'dishwasher' là máy rửa bát.",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10161
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "unload the dishwasher",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ʌnˈləʊd ðə ˈdɪʃˌwɒʃə/",
+      "ipa_us": "/ʌnˈloʊd ðə ˈdɪʃˌwɑːʃər/",
+      "meaning_vi": "lấy bát đĩa ra khỏi máy rửa bát",
+      "definition_en": "To remove clean dishes from a dishwasher and put them away.",
+      "example_en": "It's your turn to unload the dishwasher today.",
+      "example_vi": "Hôm nay đến lượt bạn lấy bát đĩa ra khỏi máy rửa bát.",
+      "collocations_json": [
+        "unload the machine",
+        "unload the clean dishes"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "load the dishwasher"
+      ],
+      "mnemonic": "Unload the dishwasher - 'Unload' là dỡ ra, 'dishwasher' là máy rửa bát.",
+      "frequency_rank": 5900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10162
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "take out the trash",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/teɪk aʊt ðə træʃ/",
+      "ipa_us": "/teɪk aʊt ðə træʃ/",
+      "meaning_vi": "đổ rác",
+      "definition_en": "To remove garbage from the house and put it in an outside bin.",
+      "example_en": "Don't forget to take out the trash before you leave.",
+      "example_vi": "Đừng quên đổ rác trước khi bạn rời đi.",
+      "collocations_json": [
+        "take out the garbage",
+        "take out the rubbish"
+      ],
+      "synonyms_json": [
+        "empty the bin"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Take out the trash - 'Take out' là mang ra ngoài, 'trash' là rác.",
+      "frequency_rank": 3100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10163
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "recycle",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌriːˈsaɪkl/",
+      "ipa_us": "/ˌriːˈsaɪkl/",
+      "meaning_vi": "tái chế",
+      "definition_en": "To convert waste into reusable material.",
+      "example_en": "We should always try to recycle plastic bottles and paper.",
+      "example_vi": "Chúng ta nên luôn cố gắng tái chế chai nhựa và giấy.",
+      "collocations_json": [
+        "recycle plastic",
+        "recycle paper"
+      ],
+      "synonyms_json": [
+        "reuse"
+      ],
+      "antonyms_json": [
+        "discard"
+      ],
+      "mnemonic": "Recycle - 'Re' là lại, 'cycle' là chu trình, tức là đưa vào chu trình sử dụng lại.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10164
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "put away",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/pʊt əˈweɪ/",
+      "ipa_us": "/pʊt əˈweɪ/",
+      "meaning_vi": "cất đi, đặt vào chỗ cũ",
+      "definition_en": "To return something to its proper place.",
+      "example_en": "Please put away your toys after you finish playing.",
+      "example_vi": "Làm ơn cất đồ chơi của bạn sau khi chơi xong.",
+      "collocations_json": [
+        "put away clothes",
+        "put away groceries"
+      ],
+      "synonyms_json": [
+        "store",
+        "organize"
+      ],
+      "antonyms_json": [
+        "take out"
+      ],
+      "mnemonic": "Put away - 'Put' là đặt, 'away' là đi xa, tức là đặt nó đi chỗ khác, cất đi.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10165
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "organize",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɔːɡənaɪz/",
+      "ipa_us": "/ˈɔːrɡənaɪz/",
+      "meaning_vi": "sắp xếp, tổ chức",
+      "definition_en": "To arrange things in a structured and orderly way.",
+      "example_en": "I need to organize my closet this weekend.",
+      "example_vi": "Cuối tuần này tôi cần sắp xếp lại tủ quần áo của mình.",
+      "collocations_json": [
+        "organize your desk",
+        "organize your thoughts"
+      ],
+      "synonyms_json": [
+        "arrange",
+        "sort",
+        "tidy"
+      ],
+      "antonyms_json": [
+        "disorganize"
+      ],
+      "mnemonic": "Organize - 'Organize' nghe như 'o-gan-nai', nhớ đến việc sắp xếp 'ngăn nắp' mọi thứ.",
+      "frequency_rank": 3700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10166
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "declutter",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/diːˈklʌtə/",
+      "ipa_us": "/diːˈklʌtər/",
+      "meaning_vi": "dọn dẹp bớt đồ đạc",
+      "definition_en": "To remove unnecessary items from a messy place.",
+      "example_en": "I decided to declutter my apartment before moving.",
+      "example_vi": "Tôi quyết định dọn dẹp bớt đồ đạc trong căn hộ trước khi chuyển đi.",
+      "collocations_json": [
+        "declutter your home",
+        "declutter your mind"
+      ],
+      "synonyms_json": [
+        "clear out",
+        "downsize"
+      ],
+      "antonyms_json": [
+        "clutter"
+      ],
+      "mnemonic": "Declutter - 'De' là loại bỏ, 'clutter' là lộn xộn, tức là loại bỏ sự lộn xộn.",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10167
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "polish",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpɒlɪʃ/",
+      "ipa_us": "/ˈpɑːlɪʃ/",
+      "meaning_vi": "đánh bóng",
+      "definition_en": "To rub something with a soft cloth or a special liquid to make it shine.",
+      "example_en": "I need to polish my shoes before the interview.",
+      "example_vi": "Tôi cần đánh bóng giày trước buổi phỏng vấn.",
+      "collocations_json": [
+        "polish furniture",
+        "polish silver"
+      ],
+      "synonyms_json": [
+        "shine",
+        "buff"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Polish - 'Polish' nghe như 'pô-lít', nhớ đến việc 'đánh bóng' để đồ vật 'lít' (lấp lánh).",
+      "frequency_rank": 5200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10168
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "chores list",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/tʃɔːrz lɪst/",
+      "ipa_us": "/tʃɔːrz lɪst/",
+      "meaning_vi": "danh sách việc nhà",
+      "definition_en": "A written record of household tasks that need to be done.",
+      "example_en": "My mom always makes a chores list for the weekend.",
+      "example_vi": "Mẹ tôi luôn lập một danh sách việc nhà cho cuối tuần.",
+      "collocations_json": [
+        "daily chores list",
+        "weekly chores list"
+      ],
+      "synonyms_json": [
+        "to-do list"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Chores list - 'Chores' là việc nhà, 'list' là danh sách.",
+      "frequency_rank": 6500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10169
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "household tasks",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhaʊshəʊld tɑːsks/",
+      "ipa_us": "/ˈhaʊshoʊld tæsks/",
+      "meaning_vi": "các công việc gia đình",
+      "definition_en": "Duties or jobs that need to be completed within a home.",
+      "example_en": "We share the household tasks to make sure everything gets done.",
+      "example_vi": "Chúng tôi chia sẻ các công việc gia đình để đảm bảo mọi thứ được hoàn thành.",
+      "collocations_json": [
+        "daily household tasks",
+        "manage household tasks"
+      ],
+      "synonyms_json": [
+        "household chores",
+        "domestic duties"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Household tasks - 'Household' là gia đình, 'tasks' là nhiệm vụ.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10170
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "dirty",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdɜːti/",
+      "ipa_us": "/ˈdɜːrti/",
+      "meaning_vi": "bẩn, dơ bẩn",
+      "definition_en": "Not clean; covered or marked with an unclean substance.",
+      "example_en": "My shoes are very dirty after walking in the mud.",
+      "example_vi": "Giày của tôi rất bẩn sau khi đi bộ trong bùn.",
+      "collocations_json": [
+        "dirty clothes",
+        "dirty hands"
+      ],
+      "synonyms_json": [
+        "unclean",
+        "soiled"
+      ],
+      "antonyms_json": [
+        "clean"
+      ],
+      "mnemonic": "Dirty - 'Dirty' nghe như 'đơ-ti', nhớ đến đồ vật 'đơ' ra vì quá 'bẩn'.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10171
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "clean (adjective)",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kliːn/",
+      "ipa_us": "/kliːn/",
+      "meaning_vi": "sạch sẽ",
+      "definition_en": "Free from dirt, marks, or stains.",
+      "example_en": "I love the smell of clean laundry.",
+      "example_vi": "Tôi thích mùi quần áo sạch sẽ.",
+      "collocations_json": [
+        "clean room",
+        "clean water"
+      ],
+      "synonyms_json": [
+        "spotless",
+        "neat"
+      ],
+      "antonyms_json": [
+        "dirty",
+        "messy"
+      ],
+      "mnemonic": "Clean - 'Clean' là sạch, trái ngược với 'dirty' (bẩn).",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10172
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "messy",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈmesi/",
+      "ipa_us": "/ˈmesi/",
+      "meaning_vi": "bừa bộn, lộn xộn",
+      "definition_en": "Untidy or dirty.",
+      "example_en": "His room is always messy, full of clothes and books.",
+      "example_vi": "Phòng của anh ấy luôn bừa bộn, đầy quần áo và sách vở.",
+      "collocations_json": [
+        "messy room",
+        "messy hair"
+      ],
+      "synonyms_json": [
+        "untidy",
+        "disorderly"
+      ],
+      "antonyms_json": [
+        "neat",
+        "tidy"
+      ],
+      "mnemonic": "Messy - 'Messy' nghe như 'mét-xi', nhớ đến đồ đạc 'mét' (mất) trật tự, 'xi'êu vẹo.",
+      "frequency_rank": 2700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10173
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "neat",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/niːt/",
+      "ipa_us": "/niːt/",
+      "meaning_vi": "gọn gàng, ngăn nắp",
+      "definition_en": "Arranged in an orderly, tidy way.",
+      "example_en": "She always keeps her desk very neat and organized.",
+      "example_vi": "Cô ấy luôn giữ bàn làm việc của mình rất gọn gàng và ngăn nắp.",
+      "collocations_json": [
+        "neat handwriting",
+        "neat and tidy"
+      ],
+      "synonyms_json": [
+        "tidy",
+        "orderly"
+      ],
+      "antonyms_json": [
+        "messy",
+        "untidy"
+      ],
+      "mnemonic": "Neat - 'Neat' nghe như 'níp', nhớ đến việc 'níp' (nén) đồ cho gọn gàng.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10174
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "spotless",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈspɒtləs/",
+      "ipa_us": "/ˈspɑːtləs/",
+      "meaning_vi": "sạch bóng, không tì vết",
+      "definition_en": "Absolutely clean.",
+      "example_en": "After hours of cleaning, the kitchen was spotless.",
+      "example_vi": "Sau nhiều giờ dọn dẹp, nhà bếp sạch bóng.",
+      "collocations_json": [
+        "spotless clean",
+        "keep spotless"
+      ],
+      "synonyms_json": [
+        "immaculate",
+        "pristine"
+      ],
+      "antonyms_json": [
+        "dirty",
+        "stained"
+      ],
+      "mnemonic": "Spotless - 'Spot' là vết bẩn, 'less' là không có, tức là không có vết bẩn.",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10175
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "disinfect",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌdɪsɪnˈfɛkt/",
+      "ipa_us": "/ˌdɪsɪnˈfɛkt/",
+      "meaning_vi": "khử trùng, diệt khuẩn",
+      "definition_en": "To clean something with a chemical to destroy bacteria.",
+      "example_en": "It's important to disinfect surfaces regularly, especially during flu season.",
+      "example_vi": "Điều quan trọng là phải khử trùng các bề mặt thường xuyên, đặc biệt là trong mùa cúm.",
+      "collocations_json": [
+        "disinfect surfaces",
+        "disinfect wounds"
+      ],
+      "synonyms_json": [
+        "sanitize",
+        "sterilize"
+      ],
+      "antonyms_json": [
+        "contaminate"
+      ],
+      "mnemonic": "Disinfect - 'Dis' là loại bỏ, 'infect' là nhiễm trùng, tức là loại bỏ nhiễm trùng.",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10176
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "rinse",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rɪns/",
+      "ipa_us": "/rɪns/",
+      "meaning_vi": "rửa tráng, xả",
+      "definition_en": "To wash something with clean water to remove soap or dirt.",
+      "example_en": "After washing your hair, make sure to rinse it thoroughly.",
+      "example_vi": "Sau khi gội đầu, hãy đảm bảo xả sạch tóc.",
+      "collocations_json": [
+        "rinse off soap",
+        "rinse the vegetables"
+      ],
+      "synonyms_json": [
+        "wash",
+        "flush"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Rinse - 'Rinse' nghe như 'rín', nhớ đến việc 'rín' (rửa) sạch bọt xà phòng.",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10177
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "scrub brush",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/skrʌb brʌʃ/",
+      "ipa_us": "/skrʌb brʌʃ/",
+      "meaning_vi": "bàn chải cọ rửa",
+      "definition_en": "A stiff brush used for scrubbing surfaces.",
+      "example_en": "You'll need a scrub brush to clean the grout in the bathroom.",
+      "example_vi": "Bạn sẽ cần một bàn chải cọ rửa để làm sạch vữa trong phòng tắm.",
+      "collocations_json": [
+        "kitchen scrub brush",
+        "heavy-duty scrub brush"
+      ],
+      "synonyms_json": [
+        "cleaning brush"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Scrub brush - 'Scrub' là cọ rửa, 'brush' là bàn chải.",
+      "frequency_rank": 6200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10178
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "rubber gloves",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈrʌbə ɡlʌvz/",
+      "ipa_us": "/ˈrʌbər ɡlʌvz/",
+      "meaning_vi": "găng tay cao su",
+      "definition_en": "Gloves made of rubber, used for protection when cleaning.",
+      "example_en": "Always wear rubber gloves when you're cleaning with harsh chemicals.",
+      "example_vi": "Luôn đeo găng tay cao su khi bạn dọn dẹp bằng hóa chất mạnh.",
+      "collocations_json": [
+        "washing-up gloves",
+        "protective rubber gloves"
+      ],
+      "synonyms_json": [
+        "washing-up gloves"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Rubber gloves - 'Rubber' là cao su, 'gloves' là găng tay.",
+      "frequency_rank": 5400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10179
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "laundry basket",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlɔːndri ˈbɑːskɪt/",
+      "ipa_us": "/ˈlɑːndri ˈbæskɪt/",
+      "meaning_vi": "giỏ đựng đồ giặt",
+      "definition_en": "A container for holding dirty clothes before they are washed.",
+      "example_en": "Please put your dirty clothes in the laundry basket.",
+      "example_vi": "Làm ơn bỏ quần áo bẩn của bạn vào giỏ đựng đồ giặt.",
+      "collocations_json": [
+        "full laundry basket",
+        "empty laundry basket"
+      ],
+      "synonyms_json": [
+        "hamper"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Laundry basket - 'Laundry' là đồ giặt, 'basket' là giỏ.",
+      "frequency_rank": 4100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10180
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "drying rack",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdraɪɪŋ ræk/",
+      "ipa_us": "/ˈdraɪɪŋ ræk/",
+      "meaning_vi": "giá phơi quần áo",
+      "definition_en": "A frame for hanging wet clothes to dry indoors.",
+      "example_en": "I use a drying rack to air dry my delicate clothes.",
+      "example_vi": "Tôi dùng giá phơi để phơi khô quần áo mỏng manh của mình.",
+      "collocations_json": [
+        "clothes drying rack",
+        "collapsible drying rack"
+      ],
+      "synonyms_json": [
+        "clothes horse"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Drying rack - 'Drying' là làm khô, 'rack' là giá đỡ.",
+      "frequency_rank": 6300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10181
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "stain",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/steɪn/",
+      "ipa_us": "/steɪn/",
+      "meaning_vi": "vết bẩn, vết ố",
+      "definition_en": "A dirty mark on something that is difficult to remove.",
+      "example_en": "I accidentally spilled coffee and left a stain on my shirt.",
+      "example_vi": "Tôi vô tình làm đổ cà phê và để lại vết ố trên áo sơ mi của mình.",
+      "collocations_json": [
+        "coffee stain",
+        "remove a stain"
+      ],
+      "synonyms_json": [
+        "mark",
+        "spot"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Stain - 'Stain' nghe như 'stên', nhớ đến vết 'tên' (tên lửa) bắn vào làm bẩn áo.",
+      "frequency_rank": 4900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10182
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "bleach",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/bliːtʃ/",
+      "ipa_us": "/bliːtʃ/",
+      "meaning_vi": "thuốc tẩy",
+      "definition_en": "A strong chemical used for cleaning or for making things white.",
+      "example_en": "Be careful when using bleach; it can damage colored clothes.",
+      "example_vi": "Hãy cẩn thận khi sử dụng thuốc tẩy; nó có thể làm hỏng quần áo màu.",
+      "collocations_json": [
+        "chlorine bleach",
+        "bleach solution"
+      ],
+      "synonyms_json": [
+        "whitener"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bleach - 'Bleach' nghe như 'blít', nhớ đến việc 'bịt' mũi khi dùng 'thuốc tẩy'.",
+      "frequency_rank": 5700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10183
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "all-purpose cleaner",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɔːl ˈpɜːpəs ˈkliːnə/",
+      "ipa_us": "/ɔːl ˈpɜːrpəs ˈkliːnər/",
+      "meaning_vi": "nước tẩy rửa đa năng",
+      "definition_en": "A cleaning product that can be used on many different surfaces.",
+      "example_en": "I prefer using an all-purpose cleaner for most of my household cleaning.",
+      "example_vi": "Tôi thích sử dụng nước tẩy rửa đa năng cho hầu hết các công việc dọn dẹp nhà cửa của mình.",
+      "collocations_json": [
+        "natural all-purpose cleaner",
+        "spray all-purpose cleaner"
+      ],
+      "synonyms_json": [
+        "multi-surface cleaner"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "All-purpose cleaner - 'All-purpose' là đa năng, 'cleaner' là chất tẩy rửa.",
+      "frequency_rank": 6800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10184
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "spring cleaning",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/sprɪŋ ˈkliːnɪŋ/",
+      "ipa_us": "/sprɪŋ ˈkliːnɪŋ/",
+      "meaning_vi": "tổng vệ sinh (thường vào mùa xuân)",
+      "definition_en": "A thorough cleaning of a house or room, typically done in spring.",
+      "example_en": "We usually do a big spring cleaning every year before Tet.",
+      "example_vi": "Chúng tôi thường tổng vệ sinh lớn mỗi năm trước Tết.",
+      "collocations_json": [
+        "deep spring cleaning",
+        "annual spring cleaning"
+      ],
+      "synonyms_json": [
+        "deep clean"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Spring cleaning - 'Spring' là mùa xuân, 'cleaning' là dọn dẹp, dọn dẹp lớn vào mùa xuân.",
+      "frequency_rank": 6500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10185
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "litter box",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlɪtə bɒks/",
+      "ipa_us": "/ˈlɪtər bɑːks/",
+      "meaning_vi": "khay vệ sinh mèo",
+      "definition_en": "A tray filled with absorbent material for a cat to urinate and defecate in.",
+      "example_en": "Remember to clean the litter box daily to keep it fresh.",
+      "example_vi": "Hãy nhớ dọn dẹp khay vệ sinh mèo hàng ngày để giữ nó sạch sẽ.",
+      "collocations_json": [
+        "cat litter box",
+        "empty the litter box"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Litter box - 'Litter' là rác (ở đây là chất thải), 'box' là hộp.",
+      "frequency_rank": 7000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10186
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "scrub the toilet",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/skrʌb ðə ˈtɔɪlɪt/",
+      "ipa_us": "/skrʌb ðə ˈtɔɪlɪt/",
+      "meaning_vi": "cọ rửa bồn cầu",
+      "definition_en": "To clean the toilet bowl thoroughly, usually with a brush and cleaner.",
+      "example_en": "It's important to scrub the toilet regularly for hygiene.",
+      "example_vi": "Việc cọ rửa bồn cầu thường xuyên là rất quan trọng để đảm bảo vệ sinh.",
+      "collocations_json": [
+        "clean the toilet",
+        "toilet brush"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Scrub the toilet - 'Scrub' là cọ rửa, 'toilet' là bồn cầu.",
+      "frequency_rank": 6800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10187
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "dustpan and brush",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdʌstpæn ənd brʌʃ/",
+      "ipa_us": "/ˈdʌstpæn ənd brʌʃ/",
+      "meaning_vi": "xẻng hót rác và chổi",
+      "definition_en": "A set of tools used to collect swept-up dirt and debris.",
+      "example_en": "After sweeping, use the dustpan and brush to pick up the dirt.",
+      "example_vi": "Sau khi quét, hãy dùng xẻng hót rác và chổi để hót bụi bẩn.",
+      "collocations_json": [
+        "small dustpan and brush",
+        "plastic dustpan"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Dustpan and brush - 'Dustpan' là xẻng hót bụi, 'brush' là chổi.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10188
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "dish soap",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/dɪʃ səʊp/",
+      "ipa_us": "/dɪʃ soʊp/",
+      "meaning_vi": "nước rửa bát",
+      "definition_en": "A liquid soap used for washing dishes.",
+      "example_en": "We're almost out of dish soap; please add it to the shopping list.",
+      "example_vi": "Chúng ta gần hết nước rửa bát rồi; làm ơn thêm nó vào danh sách mua sắm.",
+      "collocations_json": [
+        "liquid dish soap",
+        "antibacterial dish soap"
+      ],
+      "synonyms_json": [
+        "dishwashing liquid"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dish soap - 'Dish' là bát đĩa, 'soap' là xà phòng.",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10189
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "clean out",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kliːn aʊt/",
+      "ipa_us": "/kliːn aʊt/",
+      "meaning_vi": "dọn sạch bên trong",
+      "definition_en": "To empty and clean the inside of something thoroughly.",
+      "example_en": "I need to clean out the refrigerator before grocery shopping.",
+      "example_vi": "Tôi cần dọn sạch tủ lạnh trước khi đi mua sắm thực phẩm.",
+      "collocations_json": [
+        "clean out the garage",
+        "clean out your closet"
+      ],
+      "synonyms_json": [
+        "clear out",
+        "empty"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Clean out - 'Clean' là sạch, 'out' là bên trong, làm sạch bên trong.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10190
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "dust bunny",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/dʌst ˈbʌni/",
+      "ipa_us": "/dʌst ˈbʌni/",
+      "meaning_vi": "cục bụi bẩn (như bông)",
+      "definition_en": "A ball of dust and fibers that forms in places that are not often cleaned.",
+      "example_en": "There are a lot of dust bunnies under the bed.",
+      "example_vi": "Có rất nhiều cục bụi bẩn dưới gầm giường.",
+      "collocations_json": [
+        "large dust bunny",
+        "under the bed dust bunny"
+      ],
+      "synonyms_json": [
+        "dust ball"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dust bunny - 'Dust' là bụi, 'bunny' là thỏ, cục bụi to như con thỏ nhỏ.",
+      "frequency_rank": 7500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10191
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "kitchen counter",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkɪtʃɪn ˈkaʊntə/",
+      "ipa_us": "/ˈkɪtʃɪn ˈkaʊntər/",
+      "meaning_vi": "bàn bếp, mặt bếp",
+      "definition_en": "A flat surface in a kitchen for preparing food or placing items.",
+      "example_en": "Please wipe down the kitchen counter after cooking.",
+      "example_vi": "Làm ơn lau sạch bàn bếp sau khi nấu ăn.",
+      "collocations_json": [
+        "wipe the kitchen counter",
+        "granite kitchen counter"
+      ],
+      "synonyms_json": [
+        "worktop"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Kitchen counter - 'Kitchen' là bếp, 'counter' là mặt bàn.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10192
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "bathroom tiles",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbɑːθruːm taɪlz/",
+      "ipa_us": "/ˈbæθruːm taɪlz/",
+      "meaning_vi": "gạch lát phòng tắm",
+      "definition_en": "Ceramic or other material squares used to cover the walls or floor of a bathroom.",
+      "example_en": "The bathroom tiles need a good scrub to remove mildew.",
+      "example_vi": "Gạch lát phòng tắm cần được cọ rửa kỹ để loại bỏ nấm mốc.",
+      "collocations_json": [
+        "clean bathroom tiles",
+        "grout between tiles"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Bathroom tiles - 'Bathroom' là phòng tắm, 'tiles' là gạch.",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10193
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "window cleaner",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈwɪndəʊ ˈkliːnə/",
+      "ipa_us": "/ˈwɪndoʊ ˈkliːnər/",
+      "meaning_vi": "nước lau kính",
+      "definition_en": "A liquid product used to clean glass surfaces, especially windows.",
+      "example_en": "I need some window cleaner to make the glass sparkle.",
+      "example_vi": "Tôi cần một ít nước lau kính để làm kính sáng bóng.",
+      "collocations_json": [
+        "spray window cleaner",
+        "streak-free window cleaner"
+      ],
+      "synonyms_json": [
+        "glass cleaner"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Window cleaner - 'Window' là cửa sổ, 'cleaner' là chất làm sạch.",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10194
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "laundry detergent",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlɔːndri dɪˈtɜːdʒənt/",
+      "ipa_us": "/ˈlɑːndri dɪˈtɜːrdʒənt/",
+      "meaning_vi": "bột giặt, nước giặt",
+      "definition_en": "A cleaning agent specifically designed for washing clothes.",
+      "example_en": "Make sure to use the right amount of laundry detergent for each load.",
+      "example_vi": "Hãy đảm bảo sử dụng đúng lượng bột giặt cho mỗi lần giặt.",
+      "collocations_json": [
+        "liquid laundry detergent",
+        "powder laundry detergent"
+      ],
+      "synonyms_json": [
+        "washing powder"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Laundry detergent - 'Laundry' là đồ giặt, 'detergent' là chất tẩy rửa.",
+      "frequency_rank": 5200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10195
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "fabric softener",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈfæbrɪk ˈsɒfnə/",
+      "ipa_us": "/ˈfæbrɪk ˈsɑːfnər/",
+      "meaning_vi": "nước xả vải",
+      "definition_en": "A liquid added to laundry to make clothes feel softer and reduce static.",
+      "example_en": "I always use fabric softener to make my towels fluffy.",
+      "example_vi": "Tôi luôn dùng nước xả vải để làm khăn tắm của mình mềm mại.",
+      "collocations_json": [
+        "liquid fabric softener",
+        "scented fabric softener"
+      ],
+      "synonyms_json": [
+        "conditioner (for clothes)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Fabric softener - 'Fabric' là vải, 'softener' là chất làm mềm.",
+      "frequency_rank": 6500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10196
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "bin liner",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/bɪn ˈlaɪnə/",
+      "ipa_us": "/bɪn ˈlaɪnər/",
+      "meaning_vi": "túi rác",
+      "definition_en": "A plastic bag used to line the inside of a rubbish bin.",
+      "example_en": "Don't forget to put a new bin liner in the kitchen bin.",
+      "example_vi": "Đừng quên đặt một túi rác mới vào thùng rác nhà bếp.",
+      "collocations_json": [
+        "rubbish bin liner",
+        "drawstring bin liner"
+      ],
+      "synonyms_json": [
+        "garbage bag",
+        "trash bag"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bin liner - 'Bin' là thùng rác, 'liner' là lớp lót.",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10197
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "toilet brush",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈtɔɪlɪt brʌʃ/",
+      "ipa_us": "/ˈtɔɪlɪt brʌʃ/",
+      "meaning_vi": "bàn chải bồn cầu",
+      "definition_en": "A brush used for cleaning the inside of a toilet bowl.",
+      "example_en": "The toilet brush should be cleaned regularly too.",
+      "example_vi": "Bàn chải bồn cầu cũng nên được làm sạch thường xuyên.",
+      "collocations_json": [
+        "toilet brush holder",
+        "disposable toilet brush"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Toilet brush - 'Toilet' là bồn cầu, 'brush' là bàn chải.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10198
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "damp cloth",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/dæmp klɒθ/",
+      "ipa_us": "/dæmp klɔːθ/",
+      "meaning_vi": "khăn ẩm",
+      "definition_en": "A cloth that is slightly wet, used for cleaning.",
+      "example_en": "Wipe the surface with a damp cloth to remove any residue.",
+      "example_vi": "Lau bề mặt bằng khăn ẩm để loại bỏ bất kỳ cặn bẩn nào.",
+      "collocations_json": [
+        "clean with a damp cloth",
+        "moist damp cloth"
+      ],
+      "synonyms_json": [
+        "wet cloth"
+      ],
+      "antonyms_json": [
+        "dry cloth"
+      ],
+      "mnemonic": "Damp cloth - 'Damp' là ẩm, 'cloth' là vải.",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10199
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "dusting spray",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdʌstɪŋ spreɪ/",
+      "ipa_us": "/ˈdʌstɪŋ spreɪ/",
+      "meaning_vi": "bình xịt lau bụi",
+      "definition_en": "A cleaning product in a spray can used to attract and remove dust.",
+      "example_en": "Use dusting spray on wooden furniture for a shiny finish.",
+      "example_vi": "Sử dụng bình xịt lau bụi trên đồ nội thất gỗ để có một bề mặt sáng bóng.",
+      "collocations_json": [
+        "furniture dusting spray",
+        "anti-static dusting spray"
+      ],
+      "synonyms_json": [
+        "furniture polish"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dusting spray - 'Dusting' là lau bụi, 'spray' là bình xịt.",
+      "frequency_rank": 7000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10200
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "stain remover",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/steɪn rɪˈmuːvə/",
+      "ipa_us": "/steɪn rɪˈmuːvər/",
+      "meaning_vi": "chất tẩy vết bẩn",
+      "definition_en": "A chemical product designed to remove stains from fabrics or surfaces.",
+      "example_en": "I used a stain remover to get the red wine out of the carpet.",
+      "example_vi": "Tôi đã dùng chất tẩy vết bẩn để loại bỏ vết rượu vang đỏ trên thảm.",
+      "collocations_json": [
+        "laundry stain remover",
+        "carpet stain remover"
+      ],
+      "synonyms_json": [
+        "spot cleaner"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Stain remover - 'Stain' là vết bẩn, 'remover' là chất loại bỏ.",
+      "frequency_rank": 6200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10201
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "litter (for pets)",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlɪtə/",
+      "ipa_us": "/ˈlɪtər/",
+      "meaning_vi": "cát vệ sinh (cho mèo)",
+      "definition_en": "Absorbent material, typically clay or silica gel, used in a litter box for pets.",
+      "example_en": "We need to buy more cat litter for the litter box.",
+      "example_vi": "Chúng ta cần mua thêm cát vệ sinh cho khay vệ sinh mèo.",
+      "collocations_json": [
+        "cat litter",
+        "clumping litter"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Litter - 'Litter' nghe như 'li-tơ', nhớ đến 'lít' (một lượng) cát đổ vào khay.",
+      "frequency_rank": 7000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10202
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "sort laundry",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/sɔːt ˈlɔːndri/",
+      "ipa_us": "/sɔːrt ˈlɑːndri/",
+      "meaning_vi": "phân loại đồ giặt",
+      "definition_en": "To separate clothes by color or fabric type before washing.",
+      "example_en": "Always sort laundry into whites and colors to prevent bleeding.",
+      "example_vi": "Luôn phân loại đồ giặt thành đồ trắng và đồ màu để tránh lem màu.",
+      "collocations_json": [
+        "sort clothes",
+        "sort by color"
+      ],
+      "synonyms_json": [
+        "separate laundry"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sort laundry - 'Sort' là phân loại, 'laundry' là đồ giặt.",
+      "frequency_rank": 6500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10203
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Household Chores & Cleaning",
+      "word": "air out",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɛər aʊt/",
+      "ipa_us": "/ɛr aʊt/",
+      "meaning_vi": "làm thoáng khí, phơi gió",
+      "definition_en": "To expose something to fresh air to remove odors or moisture.",
+      "example_en": "You should air out the room after painting.",
+      "example_vi": "Bạn nên làm thoáng khí căn phòng sau khi sơn.",
+      "collocations_json": [
+        "air out the house",
+        "air out clothes"
+      ],
+      "synonyms_json": [
+        "ventilate",
+        "freshen"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Air out - 'Air' là không khí, 'out' là ra ngoài, tức là cho không khí ra ngoài.",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10204
+  }
+]

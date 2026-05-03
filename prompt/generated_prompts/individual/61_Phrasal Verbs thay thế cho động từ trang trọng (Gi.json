@@ -1,0 +1,567 @@
+[
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please extinguish your cigarette before entering the building.",
+    "output": "✅ **Corrected Sentence:** Please put out your cigarette before entering the building.\n\n🔍 **Error Identification:** Unnatural Word Choice (Formal/Informal Register) – 'extinguish' quá trang trọng\n\n📖 **Vietnamese Explanation:** Trong giao tiếp hàng ngày, người bản xứ rất chuộng dùng Phrasal Verbs thay vì động từ Latinh trang trọng. 'Extinguish' thường xuất hiện trong văn bản pháp lý hoặc hướng dẫn an toàn, còn trong đời sống, họ nói 'put out'. Hãy nhớ: **put out a cigarette** chứ không phải 'extinguish'. 🚬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I cannot tolerate this noise anymore.",
+    "output": "✅ **Corrected Sentence:** I can't put up with this noise anymore.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'tolerate' quá học thuật\n\n📖 **Vietnamese Explanation:** 'Tolerate' là từ Latinh, nghe rất cứng nhắc. Trong văn nói, người bản xứ dùng 'put up with' (chịu đựng). Ví dụ: 'I can't put up with his attitude.' Hãy tập dùng phrasal verb để nói chuyện tự nhiên hơn. 🔊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "We need to investigate this problem carefully.",
+    "output": "✅ **Corrected Sentence:** We need to look into this problem carefully.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'investigate' quá formal\n\n📖 **Vietnamese Explanation:** 'Investigate' thường dùng trong báo cáo cảnh sát hoặc nghiên cứu. Trong công việc hàng ngày, người ta nói 'look into' (xem xét, tìm hiểu). Ví dụ: 'I'll look into the issue and get back to you.' 🔍"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She finally encountered her ex-boyfriend at the mall.",
+    "output": "✅ **Corrected Sentence:** She finally ran into her ex-boyfriend at the mall.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'encounter' quá formal\n\n📖 **Vietnamese Explanation:** 'Encounter' nghe như trong sách giáo khoa. Người bản xứ nói 'run into' (tình cờ gặp). Ví dụ: 'Guess who I ran into today!' Hãy dùng phrasal verb để kể chuyện tự nhiên. 👫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He continued his speech after the interruption.",
+    "output": "✅ **Corrected Sentence:** He went on with his speech after the interruption.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'continued' có thể thay bằng 'went on'\n\n📖 **Vietnamese Explanation:** 'Continue' không sai, nhưng trong văn nói, 'go on' hoặc 'carry on' tự nhiên hơn. Ví dụ: 'Please go on, I'm listening.' 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I will return your book tomorrow.",
+    "output": "✅ **Corrected Sentence:** I will give back your book tomorrow. / I'll bring back your book tomorrow.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'return' có thể thay bằng 'give back'\n\n📖 **Vietnamese Explanation:** 'Return' hơi formal. Trong đời sống, người ta nói 'give back', 'take back', 'bring back'. Ví dụ: 'Can you give me back my pen?' 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please remove your shoes before entering.",
+    "output": "✅ **Corrected Sentence:** Please take off your shoes before entering.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'remove' quá formal\n\n📖 **Vietnamese Explanation:** 'Remove' thường dùng trong văn bản hành chính. Nói 'take off' là tự nhiên nhất. Ví dụ: 'Take off your jacket, it's warm inside.' 👟"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She submitted her resignation yesterday.",
+    "output": "✅ **Corrected Sentence:** She turned in her resignation yesterday. / She handed in her resignation.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'submitted' quá formal\n\n📖 **Vietnamese Explanation:** Trong môi trường công sở, người ta thường nói 'turn in' hoặc 'hand in' thay vì 'submit' khi nói chuyện hàng ngày. Ví dụ: 'Don't forget to turn in your report.' 📄"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He finally discovered the truth about his family.",
+    "output": "✅ **Corrected Sentence:** He finally found out the truth about his family.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'discovered' thay bằng 'found out'\n\n📖 **Vietnamese Explanation:** 'Discover' có thể dùng, nhưng 'find out' là phrasal verb phổ biến hơn trong văn nói. Ví dụ: 'I just found out that she's moving to London.' 🕵️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "We need to cancel the meeting.",
+    "output": "✅ **Corrected Sentence:** We need to call off the meeting.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'cancel' có thể thay bằng 'call off'\n\n📖 **Vietnamese Explanation:** 'Call off' là phrasal verb rất phổ biến trong giao tiếp hàng ngày. Ví dụ: 'They called off the wedding at the last minute.' 📅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please wait for me. I will arrive soon.",
+    "output": "✅ **Corrected Sentence:** Please wait for me. I'll show up soon. / I'll turn up soon.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'arrive' thay bằng 'show up'\n\n📖 **Vietnamese Explanation:** 'Show up' hoặc 'turn up' thân mật hơn 'arrive'. Ví dụ: 'What time did he show up?' ⏰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He raised three children by himself.",
+    "output": "✅ **Corrected Sentence:** He brought up three children by himself.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'raised' thay bằng 'brought up'\n\n📖 **Vietnamese Explanation:** 'Bring up' là phrasal verb phổ biến hơn 'raise' trong văn nói về nuôi dạy con cái. Ví dụ: 'She was brought up in a small town.' 👶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I need to rest for a few minutes.",
+    "output": "✅ **Corrected Sentence:** I need to lie down for a few minutes. / I need to take a break.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'rest' có thể thay bằng 'lie down' hoặc 'take a rest' nhưng 'lie down' tự nhiên hơn\n\n📖 **Vietnamese Explanation:** 'Rest' không sai, nhưng 'lie down' (nằm nghỉ) cụ thể hơn. Hoặc 'kick back' (thư giãn). 😴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She refused his invitation to the party.",
+    "output": "✅ **Corrected Sentence:** She turned down his invitation to the party.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'refused' thay bằng 'turned down'\n\n📖 **Vietnamese Explanation:** 'Turn down' là phrasal verb rất thông dụng cho việc từ chối lời đề nghị. Ví dụ: 'He asked her to marry him, but she turned him down.' 💔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "The firemen extinguished the fire quickly.",
+    "output": "✅ **Corrected Sentence:** The firemen put out the fire quickly.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'extinguished' thay bằng 'put out'\n\n📖 **Vietnamese Explanation:** 'Put out' là phrasal verb chuẩn cho dập lửa. 'Extinguish' quá trang trọng. Ví dụ: 'Please put out your cigarette.' 🔥"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I cannot understand this math problem.",
+    "output": "✅ **Corrected Sentence:** I can't figure out this math problem.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'understand' thay bằng 'figure out'\n\n📖 **Vietnamese Explanation:** 'Figure out' nhấn mạnh sự giải mã, tìm ra lời giải. Rất tự nhiên trong văn nói. Ví dụ: 'Can you figure out what this means?' 🧮"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He mentioned that he would be late.",
+    "output": "✅ **Corrected Sentence:** He brought up that he would be late. / He pointed out that he would be late.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'mentioned' thay bằng 'brought up'\n\n📖 **Vietnamese Explanation:** 'Bring up' nghĩa là đề cập đến một chủ đề. Ví dụ: 'Don't bring up that topic again.' 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I need to postpone the appointment.",
+    "output": "✅ **Corrected Sentence:** I need to put off the appointment.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'postpone' thay bằng 'put off'\n\n📖 **Vietnamese Explanation:** 'Put off' là phrasal verb phổ biến cho hoãn lại. Ví dụ: 'Don't put off until tomorrow what you can do today.' 📅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She resembles her mother very much.",
+    "output": "✅ **Corrected Sentence:** She takes after her mother very much.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'resembles' thay bằng 'takes after'\n\n📖 **Vietnamese Explanation:** 'Take after' có nghĩa là giống ai đó về ngoại hình hoặc tính cách. Ví dụ: 'He takes after his father in many ways.' 👩‍👧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please complete this form.",
+    "output": "✅ **Corrected Sentence:** Please fill out this form. / Please fill in this form.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'complete' thay bằng 'fill out'\n\n📖 **Vietnamese Explanation:** 'Fill out' hoặc 'fill in' là phrasal verb chuẩn cho điền biểu mẫu. 'Complete' cũng được nhưng hơi formal. 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He exploded when he heard the news.",
+    "output": "✅ **Corrected Sentence:** He blew up when he heard the news.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'exploded' thay bằng 'blew up'\n\n📖 **Vietnamese Explanation:** 'Blow up' nghĩa là nổi khùng, rất thông dụng. Ví dụ: 'My dad blew up when he saw the mess.' 😤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "We need to conserve energy.",
+    "output": "✅ **Corrected Sentence:** We need to cut down on energy. / We need to save energy.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'conserve' thay bằng 'cut down on' hoặc 'save'\n\n📖 **Vietnamese Explanation:** 'Cut down on' là phrasal verb chỉ giảm bớt. Ví dụ: 'I'm trying to cut down on sugar.' ⚡"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She eliminated sugar from her diet.",
+    "output": "✅ **Corrected Sentence:** She cut out sugar from her diet.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'eliminated' thay bằng 'cut out'\n\n📖 **Vietnamese Explanation:** 'Cut out' nghĩa là loại bỏ hoàn toàn. Ví dụ: 'I've cut out coffee.' 🍬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I will tolerate your behavior this once.",
+    "output": "✅ **Corrected Sentence:** I will put up with your behavior this once.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'tolerate' thay bằng 'put up with'\n\n📖 **Vietnamese Explanation:** Lặp lại nhưng nhấn mạnh: 'put up with' là cách nói tự nhiên cho 'chịu đựng'. 😤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please distribute the documents to everyone.",
+    "output": "✅ **Corrected Sentence:** Please hand out the documents to everyone. / Please give out the documents.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'distribute' thay bằng 'hand out'\n\n📖 **Vietnamese Explanation:** 'Hand out' là phrasal verb phổ biến cho việc phát tài liệu. 📄"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She omitted the last paragraph.",
+    "output": "✅ **Corrected Sentence:** She left out the last paragraph.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'omitted' thay bằng 'left out'\n\n📖 **Vietnamese Explanation:** 'Leave out' nghĩa là bỏ sót hoặc cố ý bỏ qua. Ví dụ: 'You left out my name from the list.' 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I need to recover from the flu.",
+    "output": "✅ **Corrected Sentence:** I need to get over the flu.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'recover' thay bằng 'get over'\n\n📖 **Vietnamese Explanation:** 'Get over' nghĩa là hồi phục sau bệnh hoặc cú sốc. Ví dụ: 'It took me weeks to get over the cold.' 🤧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He escaped from the prison.",
+    "output": "✅ **Corrected Sentence:** He got away from the prison. / He broke out of prison.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'escaped' thay bằng 'got away' hoặc 'broke out'\n\n📖 **Vietnamese Explanation:** 'Get away' là trốn thoát, 'break out' là vượt ngục. Rất tự nhiên. 🏃‍♂️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She obtained a scholarship.",
+    "output": "✅ **Corrected Sentence:** She got a scholarship. / She landed a scholarship.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'obtained' thay bằng 'got'\n\n📖 **Vietnamese Explanation:** 'Get' là từ đơn giản nhất, nhưng 'land' cũng hay dùng. Người bản xứ ít dùng 'obtain' trong văn nói. 🎓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He requested a day off.",
+    "output": "✅ **Corrected Sentence:** He asked for a day off.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'requested' thay bằng 'asked for'\n\n📖 **Vietnamese Explanation:** 'Ask for' là phrasal verb rất phổ biến. Ví dụ: 'She asked for a raise.' 💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please assemble at the entrance.",
+    "output": "✅ **Corrected Sentence:** Please gather at the entrance. / Please meet up at the entrance.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'assemble' thay bằng 'gather' hoặc 'meet up'\n\n📖 **Vietnamese Explanation:** 'Meet up' là phrasal verb thân mật cho gặp mặt. 'Assemble' quá formal. 👥"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I will commence the presentation now.",
+    "output": "✅ **Corrected Sentence:** I will start the presentation now. / I'll kick off the presentation.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'commence' thay bằng 'start' hoặc 'kick off'\n\n📖 **Vietnamese Explanation:** 'Kick off' thường dùng cho sự kiện, cuộc họp. 'Commence' rất formal. 🎤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She verified the information.",
+    "output": "✅ **Corrected Sentence:** She checked out the information. / She double-checked the information.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'verified' thay bằng 'checked out'\n\n📖 **Vietnamese Explanation:** 'Check out' hoặc 'check up on' là cách nói tự nhiên. ✅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He departed at 6 AM.",
+    "output": "✅ **Corrected Sentence:** He left at 6 AM. / He took off at 6 AM.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'departed' thay bằng 'left' hoặc 'took off'\n\n📖 **Vietnamese Explanation:** 'Take off' cho máy bay, còn 'leave' cho mọi trường hợp. 'Depart' quá formal. ✈️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I need to purchase some groceries.",
+    "output": "✅ **Corrected Sentence:** I need to buy some groceries. / I need to pick up some groceries.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'purchase' thay bằng 'buy' hoặc 'pick up'\n\n📖 **Vietnamese Explanation:** 'Purchase' là từ Latinh, thường dùng trong kinh doanh. 'Buy' hoặc 'pick up' (mua nhanh) tự nhiên hơn. 🛒"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He constructed a birdhouse.",
+    "output": "✅ **Corrected Sentence:** He built a birdhouse. / He put together a birdhouse.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'constructed' thay bằng 'built' hoặc 'put together'\n\n📖 **Vietnamese Explanation:** 'Put together' nghĩa là lắp ráp. 'Construct' quá formal. 🐦"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She perused the menu.",
+    "output": "✅ **Corrected Sentence:** She looked through the menu. / She browsed the menu.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'perused' thay bằng 'looked through'\n\n📖 **Vietnamese Explanation:** 'Peruse' là từ hiếm dùng. 'Look through' hoặc 'browse' tự nhiên hơn. 📖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please maintain silence.",
+    "output": "✅ **Corrected Sentence:** Please keep quiet. / Please keep it down.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'maintain silence' thay bằng 'keep quiet'\n\n📖 **Vietnamese Explanation:** 'Keep quiet' hoặc 'keep it down' là cách nói hàng ngày. 'Maintain silence' nghe như trong thư viện. 🤫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He attempted to solve the puzzle.",
+    "output": "✅ **Corrected Sentence:** He tried to solve the puzzle. / He had a go at the puzzle.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'attempted' thay bằng 'tried'\n\n📖 **Vietnamese Explanation:** 'Try' là từ đơn giản nhất. 'Have a go' thân mật. 'Attempt' formal. 🧩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She demonstrated the new software.",
+    "output": "✅ **Corrected Sentence:** She showed off the new software. / She showed how the software works.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'demonstrated' thay bằng 'showed off'\n\n📖 **Vietnamese Explanation:** 'Show off' có thể hơi khoe khoang, nhưng trong ngữ cảnh trình diễn, 'show' là đủ. 💻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "We must reduce expenses.",
+    "output": "✅ **Corrected Sentence:** We must cut back on expenses. / We need to cut down on spending.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'reduce' thay bằng 'cut back on'\n\n📖 **Vietnamese Explanation:** 'Cut back on' là phrasal verb phổ biến cho giảm chi tiêu. 💰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He replied to my email quickly.",
+    "output": "✅ **Corrected Sentence:** He got back to me quickly. / He wrote back quickly.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'replied' thay bằng 'got back to'\n\n📖 **Vietnamese Explanation:** 'Get back to someone' là cách nói rất tự nhiên cho hồi đáp. 📧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please ascend to the second floor.",
+    "output": "✅ **Corrected Sentence:** Please go up to the second floor.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'ascend' thay bằng 'go up'\n\n📖 **Vietnamese Explanation:** 'Ascend' và 'descend' rất formal. 'Go up' và 'go down' là chuẩn. 🏢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She is capable of solving complex issues.",
+    "output": "✅ **Corrected Sentence:** She is able to solve complex issues. / She can handle complex issues.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'capable of' thay bằng 'able to' hoặc 'can'\n\n📖 **Vietnamese Explanation:** 'Can' là đơn giản nhất. 'Capable of' hơi formal. 💪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He inquired about the price.",
+    "output": "✅ **Corrected Sentence:** He asked about the price. / He checked on the price.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'inquired' thay bằng 'asked about'\n\n📖 **Vietnamese Explanation:** 'Inquire' formal, 'ask' là tự nhiên. 💲"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please illuminate the room.",
+    "output": "✅ **Corrected Sentence:** Please light up the room. / Please turn on the lights.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'illuminate' thay bằng 'light up'\n\n📖 **Vietnamese Explanation:** 'Light up' hoặc 'turn on the lights' là cách nói hàng ngày. 💡"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She fabricated the whole story.",
+    "output": "✅ **Corrected Sentence:** She made up the whole story.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'fabricated' thay bằng 'made up'\n\n📖 **Vietnamese Explanation:** 'Make up' nghĩa là bịa đặt. Rất phổ biến. 📖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I need to organize my desk.",
+    "output": "✅ **Corrected Sentence:** I need to tidy up my desk. / I need to sort out my desk.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'organize' thay bằng 'tidy up' hoặc 'sort out'\n\n📖 **Vietnamese Explanation:** 'Tidy up' (dọn dẹp) và 'sort out' (sắp xếp) rất tự nhiên. 🗄️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He was elected as class president.",
+    "output": "✅ **Corrected Sentence:** He was chosen as class president. / He was voted in.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'elected' thay bằng 'voted in'\n\n📖 **Vietnamese Explanation:** 'Vote in' là phrasal verb cho bầu cử. 🗳️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She surrendered her passport.",
+    "output": "✅ **Corrected Sentence:** She handed over her passport. / She gave up her passport.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'surrendered' thay bằng 'handed over'\n\n📖 **Vietnamese Explanation:** 'Hand over' là giao nộp. 'Give up' cũng được. 🛂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He compensated me for the damage.",
+    "output": "✅ **Corrected Sentence:** He paid me back for the damage. / He made up for the damage.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'compensated' thay bằng 'paid back'\n\n📖 **Vietnamese Explanation:** 'Pay back' là trả lại tiền. 'Make up for' là bù đắp. 💸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please accompany me to the station.",
+    "output": "✅ **Corrected Sentence:** Please come with me to the station. / Please go with me.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'accompany' thay bằng 'come with' hoặc 'go with'\n\n📖 **Vietnamese Explanation:** 'Accompany' formal, 'come with' tự nhiên. 🚶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He apologized for his mistake.",
+    "output": "✅ **Corrected Sentence:** He said sorry for his mistake. / He owned up to his mistake.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'apologized' thay bằng 'said sorry' hoặc 'owned up'\n\n📖 **Vietnamese Explanation:** 'Say sorry' rất thông dụng. 'Own up' là nhận lỗi. 😔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I encountered a lot of difficulties.",
+    "output": "✅ **Corrected Sentence:** I came across a lot of difficulties. / I ran into a lot of problems.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'encountered' thay bằng 'came across' hoặc 'ran into'\n\n📖 **Vietnamese Explanation:** 'Come across' hoặc 'run into' đều là tình cờ gặp phải. 😣"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She inherited the house from her grandmother.",
+    "output": "✅ **Corrected Sentence:** She came into the house from her grandmother. / She got the house from her grandmother.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'inherited' thay bằng 'came into'\n\n📖 **Vietnamese Explanation:** 'Come into' là phrasal verb cho thừa kế. 🏠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "We need to emphasize the main points.",
+    "output": "✅ **Corrected Sentence:** We need to stress the main points. / We need to point out the main points.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'emphasize' thay bằng 'stress' hoặc 'point out'\n\n📖 **Vietnamese Explanation:** 'Point out' là chỉ ra, nhấn mạnh. 📍"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He neglected his duties.",
+    "output": "✅ **Corrected Sentence:** He slacked off on his duties. / He messed up his duties.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'neglected' thay bằng 'slacked off'\n\n📖 **Vietnamese Explanation:** 'Slack off' là lười biếng, bỏ bê. 📋"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She tolerated the pain bravely.",
+    "output": "✅ **Corrected Sentence:** She put up with the pain bravely. / She bore the pain.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'tolerated' thay bằng 'put up with'\n\n📖 **Vietnamese Explanation:** 'Put up with' là chịu đựng. 🤕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please terminate the call.",
+    "output": "✅ **Corrected Sentence:** Please hang up. / Please end the call.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'terminate' thay bằng 'hang up'\n\n📖 **Vietnamese Explanation:** 'Hang up' là phrasal verb chuẩn cho cúp điện thoại. 📞"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He will accompany us to the theater.",
+    "output": "✅ **Corrected Sentence:** He will come along with us to the theater. / He'll go with us.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'accompany' thay bằng 'come along with'\n\n📖 **Vietnamese Explanation:** 'Come along' là đi cùng. 🎭"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She obtained a degree in economics.",
+    "output": "✅ **Corrected Sentence:** She got a degree in economics. / She earned a degree.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'obtained' thay bằng 'got'\n\n📖 **Vietnamese Explanation:** 'Get' là từ đơn giản nhất. 🎓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I need to locate my keys.",
+    "output": "✅ **Corrected Sentence:** I need to find my keys. / I need to track down my keys.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'locate' thay bằng 'find' hoặc 'track down'\n\n📖 **Vietnamese Explanation:** 'Track down' là tìm kiếm kỹ lưỡng. 🔑"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He demonstrated his skills to the boss.",
+    "output": "✅ **Corrected Sentence:** He showed off his skills to the boss. / He showed his skills.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'demonstrated' thay bằng 'showed off'\n\n📖 **Vietnamese Explanation:** 'Show off' có thể hơi khoe, nhưng trong ngữ cảnh này ổn. 💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "We must conserve water.",
+    "output": "✅ **Corrected Sentence:** We must save water. / We need to cut down on water.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'conserve' thay bằng 'save'\n\n📖 **Vietnamese Explanation:** 'Save' là từ đơn giản nhất. 💧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She eradicated the weeds from the garden.",
+    "output": "✅ **Corrected Sentence:** She got rid of the weeds from the garden. / She wiped out the weeds.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'eradicated' thay bằng 'got rid of'\n\n📖 **Vietnamese Explanation:** 'Get rid of' là loại bỏ. 🌿"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He contemplated moving abroad.",
+    "output": "✅ **Corrected Sentence:** He thought about moving abroad. / He considered moving abroad.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'contemplated' thay bằng 'thought about'\n\n📖 **Vietnamese Explanation:** 'Think about' là suy nghĩ, cân nhắc. 🤔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please recite the poem.",
+    "output": "✅ **Corrected Sentence:** Please read out the poem. / Please say the poem.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'recite' thay bằng 'read out'\n\n📖 **Vietnamese Explanation:** 'Read out' là đọc to. 📜"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He relinquished his claim to the property.",
+    "output": "✅ **Corrected Sentence:** He gave up his claim to the property.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'relinquished' thay bằng 'gave up'\n\n📖 **Vietnamese Explanation:** 'Give up' là từ bỏ. 🏘️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She modified the recipe slightly.",
+    "output": "✅ **Corrected Sentence:** She tweaked the recipe slightly. / She changed the recipe.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'modified' thay bằng 'tweaked' hoặc 'changed'\n\n📖 **Vietnamese Explanation:** 'Tweak' là điều chỉnh nhỏ, rất thông dụng. 🍳"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "We need to expedite the process.",
+    "output": "✅ **Corrected Sentence:** We need to speed up the process.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'expedite' thay bằng 'speed up'\n\n📖 **Vietnamese Explanation:** 'Speed up' là tăng tốc. ⏩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He fabricated the evidence.",
+    "output": "✅ **Corrected Sentence:** He made up the evidence. / He faked the evidence.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'fabricated' thay bằng 'made up'\n\n📖 **Vietnamese Explanation:** 'Make up' bịa đặt. 🕵️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She perished in the accident.",
+    "output": "✅ **Corrected Sentence:** She died in the accident. / She passed away.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'perished' thay bằng 'died' hoặc 'passed away'\n\n📖 **Vietnamese Explanation:** 'Pass away' là cách nói nhẹ nhàng hơn. 😢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He resides in New York.",
+    "output": "✅ **Corrected Sentence:** He lives in New York. / He stays in New York.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'resides' thay bằng 'lives'\n\n📖 **Vietnamese Explanation:** 'Reside' formal, 'live' là tự nhiên. 🗽"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please consume all the food.",
+    "output": "✅ **Corrected Sentence:** Please eat all the food. / Please finish up the food.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'consume' thay bằng 'eat' hoặc 'finish up'\n\n📖 **Vietnamese Explanation:** 'Consume' nghe như robot. 'Finish up' là ăn hết. 🍽️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He will inform you about the results.",
+    "output": "✅ **Corrected Sentence:** He will let you know about the results. / He'll fill you in.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'inform' thay bằng 'let know' hoặc 'fill in'\n\n📖 **Vietnamese Explanation:** 'Let someone know' rất phổ biến. 'Fill in' là cập nhật thông tin. 📢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She donated her old clothes.",
+    "output": "✅ **Corrected Sentence:** She gave away her old clothes. / She handed in her old clothes.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'donated' thay bằng 'gave away'\n\n📖 **Vietnamese Explanation:** 'Give away' là cho tặng. 👕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I cannot comprehend the instructions.",
+    "output": "✅ **Corrected Sentence:** I can't figure out the instructions. / I don't get the instructions.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'comprehend' thay bằng 'figure out' hoặc 'get'\n\n📖 **Vietnamese Explanation:** 'Get' là hiểu trong văn nói. 🧠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "We need to establish a new system.",
+    "output": "✅ **Corrected Sentence:** We need to set up a new system.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'establish' thay bằng 'set up'\n\n📖 **Vietnamese Explanation:** 'Set up' là thiết lập, rất thông dụng. ⚙️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He omitted my name from the list.",
+    "output": "✅ **Corrected Sentence:** He left out my name from the list.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'omitted' thay bằng 'left out'\n\n📖 **Vietnamese Explanation:** 'Leave out' là bỏ sót. 📋"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She admitted her mistake.",
+    "output": "✅ **Corrected Sentence:** She owned up to her mistake. / She confessed.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'admitted' thay bằng 'owned up to'\n\n📖 **Vietnamese Explanation:** 'Own up to' là thừa nhận, nhận lỗi. 🙋"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I will retrieve the document from the printer.",
+    "output": "✅ **Corrected Sentence:** I will pick up the document from the printer. / I'll get the document.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'retrieve' thay bằng 'pick up' hoặc 'get'\n\n📖 **Vietnamese Explanation:** 'Pick up' là lấy, nhặt. 🖨️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He detected a strange smell.",
+    "output": "✅ **Corrected Sentence:** He picked up a strange smell. / He noticed a strange smell.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'detected' thay bằng 'picked up'\n\n📖 **Vietnamese Explanation:** 'Pick up' còn có nghĩa là ngửi thấy, cảm nhận. 👃"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please escort the guest to the door.",
+    "output": "✅ **Corrected Sentence:** Please see the guest to the door. / Please walk the guest to the door.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'escort' thay bằng 'see' hoặc 'walk'\n\n📖 **Vietnamese Explanation:** 'See someone out' là tiễn ra cửa. 🚪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She succeeded in passing the exam.",
+    "output": "✅ **Corrected Sentence:** She pulled off passing the exam. / She made it through the exam.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'succeeded in' thay bằng 'pulled off' hoặc 'made it'\n\n📖 **Vietnamese Explanation:** 'Pull off' là thành công trong việc khó. 🎉"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "We need to resolve this issue.",
+    "output": "✅ **Corrected Sentence:** We need to sort out this issue. / We need to work out this issue.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'resolve' thay bằng 'sort out' hoặc 'work out'\n\n📖 **Vietnamese Explanation:** 'Sort out' là giải quyết rất phổ biến. 🔧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He encountered his old friend at the airport.",
+    "output": "✅ **Corrected Sentence:** He ran into his old friend at the airport.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'encountered' thay bằng 'ran into'\n\n📖 **Vietnamese Explanation:** 'Run into' là tình cờ gặp. ✈️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She contributed a lot to the project.",
+    "output": "✅ **Corrected Sentence:** She chipped in a lot to the project. / She pitched in.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'contributed' thay bằng 'chipped in'\n\n📖 **Vietnamese Explanation:** 'Chip in' là đóng góp (tiền hoặc công sức). 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I will contact you later.",
+    "output": "✅ **Corrected Sentence:** I will get in touch with you later. / I'll reach out to you.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'contact' thay bằng 'get in touch with'\n\n📖 **Vietnamese Explanation:** 'Get in touch' là liên lạc. 📞"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He derived a lot of pleasure from music.",
+    "output": "✅ **Corrected Sentence:** He got a lot of pleasure from music. / He got a kick out of music.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'derived' thay bằng 'got' hoặc 'got a kick out of'\n\n📖 **Vietnamese Explanation:** 'Get a kick out of' là thích thú. 🎵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please prepare the documents.",
+    "output": "✅ **Corrected Sentence:** Please get the documents ready. / Please draw up the documents.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'prepare' thay bằng 'get ready' hoặc 'draw up'\n\n📖 **Vietnamese Explanation:** 'Draw up' là soạn thảo văn bản. 📄"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She accumulated a lot of wealth.",
+    "output": "✅ **Corrected Sentence:** She built up a lot of wealth. / She amassed (vẫn formal) -> She piled up money.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'accumulated' thay bằng 'built up'\n\n📖 **Vietnamese Explanation:** 'Build up' là tích lũy dần. 💰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He intends to leave early.",
+    "output": "✅ **Corrected Sentence:** He plans to leave early. / He means to leave early.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'intends' thay bằng 'plans' hoặc 'means to'\n\n📖 **Vietnamese Explanation:** 'Mean to' là có ý định. 🎯"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "We must abide by the rules.",
+    "output": "✅ **Corrected Sentence:** We must stick to the rules. / We have to follow the rules.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'abide by' thay bằng 'stick to' hoặc 'follow'\n\n📖 **Vietnamese Explanation:** 'Stick to' là tuân thủ. 📏"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He intervened in the argument.",
+    "output": "✅ **Corrected Sentence:** He stepped in the argument. / He cut in.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'intervened' thay bằng 'stepped in'\n\n📖 **Vietnamese Explanation:** 'Step in' là can thiệp. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She rotated the tires on her car.",
+    "output": "✅ **Corrected Sentence:** She swapped around the tires on her car. / She changed the tires around.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'rotated' thay bằng 'swapped around'\n\n📖 **Vietnamese Explanation:** 'Swap around' là đổi chỗ. 🚗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I need to converse with him.",
+    "output": "✅ **Corrected Sentence:** I need to talk with him. / I need to have a chat with him.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'converse' thay bằng 'talk' hoặc 'have a chat'\n\n📖 **Vietnamese Explanation:** 'Converse' formal, 'talk' tự nhiên. 💬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He fractured his arm.",
+    "output": "✅ **Corrected Sentence:** He broke his arm.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'fractured' thay bằng 'broke'\n\n📖 **Vietnamese Explanation:** 'Fracture' là từ y khoa, 'break' dùng hàng ngày. 🦴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She repaired the watch.",
+    "output": "✅ **Corrected Sentence:** She fixed the watch.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'repaired' thay bằng 'fixed'\n\n📖 **Vietnamese Explanation:** 'Fix' là sửa chữa, rất phổ biến. ⌚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He observed the bird for hours.",
+    "output": "✅ **Corrected Sentence:** He watched the bird for hours. / He looked at the bird.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'observed' thay bằng 'watched'\n\n📖 **Vietnamese Explanation:** 'Observe' có thể dùng, nhưng 'watch' tự nhiên hơn. 🦜"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "We need to collaborate on this project.",
+    "output": "✅ **Corrected Sentence:** We need to team up on this project. / We need to work together.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'collaborate' thay bằng 'team up'\n\n📖 **Vietnamese Explanation:** 'Team up' là hợp tác. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She vanished without a trace.",
+    "output": "✅ **Corrected Sentence:** She disappeared without a trace. / She vanished – không sai nhưng 'disappear' phổ biến hơn. Thực tế 'vanish' cũng dùng được.\n\n🔍 **Error Identification:** Không sai lắm, nhưng 'disappear' thân mật hơn một chút.\n\n📖 **Vietnamese Explanation:** 'Vanish' vẫn dùng được, nhưng để tự nhiên, 'disappear' là lựa chọn an toàn. 👻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He persuaded me to join the club.",
+    "output": "✅ **Corrected Sentence:** He talked me into joining the club. / He convinced me.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'persuaded' thay bằng 'talked into'\n\n📖 **Vietnamese Explanation:** 'Talk someone into' là thuyết phục ai đó làm gì. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I need to confirm the reservation.",
+    "output": "✅ **Corrected Sentence:** I need to check the reservation. / I need to make sure about the reservation.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'confirm' thay bằng 'check' hoặc 'double-check'\n\n📖 **Vietnamese Explanation:** 'Double-check' là kiểm tra lại. ✅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She selected the red dress.",
+    "output": "✅ **Corrected Sentence:** She picked out the red dress. / She chose the red dress.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'selected' thay bằng 'picked out'\n\n📖 **Vietnamese Explanation:** 'Pick out' là chọn lựa. 👗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He accompanied his sister to the party.",
+    "output": "✅ **Corrected Sentence:** He went with his sister to the party. / He tagged along.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'accompanied' thay bằng 'went with' hoặc 'tagged along'\n\n📖 **Vietnamese Explanation:** 'Tag along' là đi theo. 🎉"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "We need to allocate resources wisely.",
+    "output": "✅ **Corrected Sentence:** We need to divide up resources wisely. / We need to set aside resources.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'allocate' thay bằng 'divide up' hoặc 'set aside'\n\n📖 **Vietnamese Explanation:** 'Set aside' là dành riêng. 📊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He is a person of great integrity.",
+    "output": "✅ **Corrected Sentence:** He is a person who has great integrity. / He is trustworthy. (Không có phrasal verb trực tiếp, nhưng có thể nói 'He stands by his word')\n\n🔍 **Error Identification:** Không có phrasal verb thay thế trực tiếp, nhưng 'integrity' formal.\n\n📖 **Vietnamese Explanation:** Trong văn nói, thay vì 'integrity', người ta nói 'He's honest' hoặc 'He keeps his word.' 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She terminated the contract.",
+    "output": "✅ **Corrected Sentence:** She ended the contract. / She called off the contract.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'terminated' thay bằng 'ended' hoặc 'called off'\n\n📖 **Vietnamese Explanation:** 'Call off' là hủy bỏ. 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "I will compensate for the loss.",
+    "output": "✅ **Corrected Sentence:** I will make up for the loss.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'compensate for' thay bằng 'make up for'\n\n📖 **Vietnamese Explanation:** 'Make up for' là bù đắp. 💸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He confronted the bully.",
+    "output": "✅ **Corrected Sentence:** He faced up to the bully. / He stood up to the bully.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'confronted' thay bằng 'stood up to'\n\n📖 **Vietnamese Explanation:** 'Stand up to' là đối đầu dũng cảm. 👊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "Please remain seated.",
+    "output": "✅ **Corrected Sentence:** Please stay seated. / Please keep sitting.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'remain' thay bằng 'stay'\n\n📖 **Vietnamese Explanation:** 'Stay' thay cho 'remain' trong mọi ngữ cảnh. 🪑"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "She utilized all available resources.",
+    "output": "✅ **Corrected Sentence:** She used all available resources. / She made use of all resources.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'utilized' thay bằng 'used'\n\n📖 **Vietnamese Explanation:** 'Utilize' là từ thừa, 'use' luôn tốt hơn. 🛠️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ vựng (dùng từ quá trang trọng) trong câu sau của học viên.",
+    "input": "He is unable to attend the meeting.",
+    "output": "✅ **Corrected Sentence:** He can't make it to the meeting. / He won't be able to come.\n\n🔍 **Error Identification:** Unnatural Word Choice – 'unable to attend' thay bằng 'can't make it'\n\n📖 **Vietnamese Explanation:** 'Make it' là đến được, rất thông dụng. 📅"
+  }
+]

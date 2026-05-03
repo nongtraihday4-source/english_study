@@ -1,0 +1,1901 @@
+[
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "flight",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/flaɪt/",
+      "ipa_us": "/flaɪt/",
+      "meaning_vi": "chuyến bay, sự bay",
+      "definition_en": "A journey made by flying, especially in an aircraft.",
+      "example_en": "Our flight to Paris was delayed by an hour.",
+      "example_vi": "Chuyến bay của chúng tôi đến Paris bị hoãn một tiếng.",
+      "collocations_json": [
+        "take a flight",
+        "catch a flight",
+        "domestic flight"
+      ],
+      "synonyms_json": ["journey", "trip"],
+      "antonyms_json": [],
+      "mnemonic": "Flight nghe giống 'light' (nhẹ), liên tưởng máy bay bay nhẹ nhàng.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11182
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "book",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/bʊk/",
+      "ipa_us": "/bʊk/",
+      "meaning_vi": "đặt chỗ, đặt vé",
+      "definition_en": "To arrange to have a seat, room, or ticket in advance.",
+      "example_en": "I need to book a hotel room for my vacation next month.",
+      "example_vi": "Tôi cần đặt một phòng khách sạn cho kỳ nghỉ tháng tới.",
+      "collocations_json": ["book a flight", "book a room", "book a table"],
+      "synonyms_json": ["reserve", "make a reservation"],
+      "antonyms_json": ["cancel"],
+      "mnemonic": "Book (sách) cũng là nơi bạn ghi lại thông tin đặt chỗ.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11183
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "ticket",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈtɪkɪt/",
+      "ipa_us": "/ˈtɪkɪt/",
+      "meaning_vi": "vé (máy bay, tàu, sự kiện)",
+      "definition_en": "A piece of paper or electronic document that shows you have paid for a journey or event.",
+      "example_en": "Don't forget your train ticket when you leave.",
+      "example_vi": "Đừng quên vé tàu của bạn khi bạn rời đi.",
+      "collocations_json": ["buy a ticket", "plane ticket", "concert ticket"],
+      "synonyms_json": ["pass", "voucher"],
+      "antonyms_json": [],
+      "mnemonic": "Ticket nghe giống 'tick' (đánh dấu), bạn đánh dấu đã mua vé.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11184
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "airline",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈeəlaɪn/",
+      "ipa_us": "/ˈerlaɪn/",
+      "meaning_vi": "hãng hàng không",
+      "definition_en": "A company that provides regular flights to carry passengers and goods.",
+      "example_en": "Which airline are you flying with to New York?",
+      "example_vi": "Bạn bay hãng hàng không nào đến New York?",
+      "collocations_json": [
+        "major airline",
+        "low-cost airline",
+        "national airline"
+      ],
+      "synonyms_json": ["carrier"],
+      "antonyms_json": [],
+      "mnemonic": "Airline là 'air' (không khí) + 'line' (đường), đường bay trên không.",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11185
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "departure",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/dɪˈpɑːtʃə/",
+      "ipa_us": "/dɪˈpɑːrtʃər/",
+      "meaning_vi": "sự khởi hành, chuyến đi",
+      "definition_en": "The act of leaving a place, especially to start a journey.",
+      "example_en": "Please check the departure time for your flight.",
+      "example_vi": "Vui lòng kiểm tra giờ khởi hành của chuyến bay của bạn.",
+      "collocations_json": [
+        "departure lounge",
+        "departure gate",
+        "time of departure"
+      ],
+      "synonyms_json": ["leaving", "setting off"],
+      "antonyms_json": ["arrival"],
+      "mnemonic": "Departure nghe giống 'part' (phần), bạn rời đi một phần của chuyến đi.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11186
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "arrival",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/əˈraɪvəl/",
+      "ipa_us": "/əˈraɪvəl/",
+      "meaning_vi": "sự đến nơi, điểm đến",
+      "definition_en": "The act of reaching a place.",
+      "example_en": "We will inform you about our arrival time.",
+      "example_vi": "Chúng tôi sẽ thông báo cho bạn về thời gian đến của chúng tôi.",
+      "collocations_json": ["arrival time", "expected arrival", "arrival gate"],
+      "synonyms_json": ["coming", "reaching"],
+      "antonyms_json": ["departure"],
+      "mnemonic": "Arrival là 'arrive' (đến) + 'al' (danh từ), sự đến nơi.",
+      "frequency_rank": 2100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11187
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "airport",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈeəpɔːt/",
+      "ipa_us": "/ˈerpɔːrt/",
+      "meaning_vi": "sân bay",
+      "definition_en": "A place where aircraft regularly take off and land, with facilities for passengers.",
+      "example_en": "I'll meet you at the airport at 7 AM.",
+      "example_vi": "Tôi sẽ gặp bạn ở sân bay lúc 7 giờ sáng.",
+      "collocations_json": [
+        "international airport",
+        "airport terminal",
+        "arrive at the airport"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Airport là 'air' (không khí) + 'port' (cảng), cảng trên không.",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11188
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "check-in",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈtʃek ɪn/",
+      "ipa_us": "/ˈtʃek ɪn/",
+      "meaning_vi": "thủ tục đăng ký, nhận phòng",
+      "definition_en": "The act of reporting one's arrival at a hotel or airport.",
+      "example_en": "Online check-in is available 24 hours before your flight.",
+      "example_vi": "Làm thủ tục trực tuyến có sẵn 24 giờ trước chuyến bay của bạn.",
+      "collocations_json": [
+        "online check-in",
+        "check-in desk",
+        "check-in time"
+      ],
+      "synonyms_json": ["registration"],
+      "antonyms_json": ["check-out"],
+      "mnemonic": "Check-in là 'kiểm tra' rồi 'vào', nghĩa là làm thủ tục để vào.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11189
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "boarding pass",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈbɔːdɪŋ pɑːs/",
+      "ipa_us": "/ˈbɔːrdɪŋ pæs/",
+      "meaning_vi": "thẻ lên máy bay",
+      "definition_en": "A pass for boarding an aircraft, given to passengers at check-in.",
+      "example_en": "You need your boarding pass to enter the gate.",
+      "example_vi": "Bạn cần thẻ lên máy bay để vào cổng.",
+      "collocations_json": [
+        "print boarding pass",
+        "mobile boarding pass",
+        "electronic boarding pass"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Boarding pass là 'pass' (vé) để 'board' (lên) máy bay.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11190
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "gate",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ɡeɪt/",
+      "ipa_us": "/ɡeɪt/",
+      "meaning_vi": "cổng (sân bay)",
+      "definition_en": "A place in an airport where passengers go to get on a particular flight.",
+      "example_en": "Our flight is departing from Gate 20.",
+      "example_vi": "Chuyến bay của chúng tôi khởi hành từ Cổng 20.",
+      "collocations_json": [
+        "departure gate",
+        "boarding gate",
+        "find your gate"
+      ],
+      "synonyms_json": ["doorway", "entrance"],
+      "antonyms_json": [],
+      "mnemonic": "Gate giống như 'cổng' bạn đi qua để lên máy bay.",
+      "frequency_rank": 1900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11191
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "luggage",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈlʌɡɪdʒ/",
+      "ipa_us": "/ˈlʌɡɪdʒ/",
+      "meaning_vi": "hành lý (không đếm được)",
+      "definition_en": "The bags, cases, etc. that contain your possessions and that you take with you when you are travelling.",
+      "example_en": "How much luggage can I take on the plane?",
+      "example_vi": "Tôi có thể mang bao nhiêu hành lý lên máy bay?",
+      "collocations_json": ["heavy luggage", "lost luggage", "check luggage"],
+      "synonyms_json": ["baggage"],
+      "antonyms_json": [],
+      "mnemonic": "Luggage là từ chung cho tất cả 'hành lý' bạn mang theo.",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11192
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "carry-on bag",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈkæri ɒn bæɡ/",
+      "ipa_us": "/ˈkæri ɑːn bæɡ/",
+      "meaning_vi": "hành lý xách tay",
+      "definition_en": "A small bag or case that you are allowed to take onto an aircraft with you.",
+      "example_en": "You can only bring one carry-on bag.",
+      "example_vi": "Bạn chỉ có thể mang một túi xách tay.",
+      "collocations_json": [
+        "small carry-on bag",
+        "personal carry-on",
+        "overhead bin"
+      ],
+      "synonyms_json": ["hand luggage"],
+      "antonyms_json": ["checked luggage"],
+      "mnemonic": "Carry-on bag là túi bạn 'carry' (mang) 'on' (lên) máy bay.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11193
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "economy class",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ɪˈkɒnəmi klɑːs/",
+      "ipa_us": "/ɪˈkɑːnəmi klæs/",
+      "meaning_vi": "hạng phổ thông",
+      "definition_en": "The cheapest class of seats on a plane or train.",
+      "example_en": "I usually fly economy class to save money.",
+      "example_vi": "Tôi thường bay hạng phổ thông để tiết kiệm tiền.",
+      "collocations_json": [
+        "economy class ticket",
+        "travel in economy class",
+        "economy seat"
+      ],
+      "synonyms_json": ["coach class"],
+      "antonyms_json": ["first class", "business class"],
+      "mnemonic": "Economy nghĩa là 'kinh tế', hạng phổ thông là hạng tiết kiệm.",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11194
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "round trip",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˌraʊnd ˈtrɪp/",
+      "ipa_us": "/ˌraʊnd ˈtrɪp/",
+      "meaning_vi": "chuyến đi khứ hồi",
+      "definition_en": "A journey to a place and back again.",
+      "example_en": "I booked a round trip ticket to Rome.",
+      "example_vi": "Tôi đã đặt vé khứ hồi đến Rome.",
+      "collocations_json": [
+        "round trip ticket",
+        "cost of a round trip",
+        "make a round trip"
+      ],
+      "synonyms_json": ["return trip"],
+      "antonyms_json": ["one-way"],
+      "mnemonic": "Round trip là chuyến đi 'tròn' (khứ hồi), đi rồi về.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11195
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "one-way",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˌwʌn ˈweɪ/",
+      "ipa_us": "/ˌwʌn ˈweɪ/",
+      "meaning_vi": "một chiều (vé)",
+      "definition_en": "A journey or ticket that allows travel to a destination but not back again.",
+      "example_en": "I bought a one-way ticket to Bangkok because I plan to stay there.",
+      "example_vi": "Tôi mua vé một chiều đến Bangkok vì tôi dự định ở lại đó.",
+      "collocations_json": [
+        "one-way ticket",
+        "one-way street",
+        "one-way journey"
+      ],
+      "synonyms_json": ["single ticket"],
+      "antonyms_json": ["round trip"],
+      "mnemonic": "One-way là 'một' (one) 'chiều' (way) đi thẳng đến nơi.",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11196
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "direct flight",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/dəˌrekt ˈflaɪt/",
+      "ipa_us": "/dəˌrekt ˈflaɪt/",
+      "meaning_vi": "chuyến bay thẳng",
+      "definition_en": "A flight that goes straight to its destination without stopping.",
+      "example_en": "I prefer a direct flight to avoid layovers.",
+      "example_vi": "Tôi thích chuyến bay thẳng để tránh quá cảnh.",
+      "collocations_json": [
+        "find a direct flight",
+        "book a direct flight",
+        "non-stop flight"
+      ],
+      "synonyms_json": ["non-stop flight"],
+      "antonyms_json": ["connecting flight"],
+      "mnemonic": "Direct nghĩa là 'trực tiếp', bay thẳng không dừng.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11197
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "connecting flight",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/kəˌnektɪŋ ˈflaɪt/",
+      "ipa_us": "/kəˌnektɪŋ ˈflaɪt/",
+      "meaning_vi": "chuyến bay nối chuyến",
+      "definition_en": "A flight that requires you to change planes at an intermediate airport.",
+      "example_en": "Our connecting flight is in two hours.",
+      "example_vi": "Chuyến bay nối chuyến của chúng tôi là trong hai giờ nữa.",
+      "collocations_json": [
+        "miss a connecting flight",
+        "long connecting flight",
+        "take a connecting flight"
+      ],
+      "synonyms_json": ["transfer flight"],
+      "antonyms_json": ["direct flight"],
+      "mnemonic": "Connecting nghĩa là 'kết nối', chuyến bay kết nối giữa hai chặng.",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11198
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "layover",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈleɪəʊvə/",
+      "ipa_us": "/ˈleɪoʊvər/",
+      "meaning_vi": "thời gian quá cảnh, dừng chân",
+      "definition_en": "A period of waiting between two flights or journeys.",
+      "example_en": "We have a long layover in Dubai.",
+      "example_vi": "Chúng tôi có một thời gian quá cảnh dài ở Dubai.",
+      "collocations_json": ["long layover", "short layover", "have a layover"],
+      "synonyms_json": ["stopover", "stop"],
+      "antonyms_json": [],
+      "mnemonic": "Layover là 'nằm lại' (lay over) ở đâu đó một thời gian.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11199
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "seat",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/siːt/",
+      "ipa_us": "/siːt/",
+      "meaning_vi": "chỗ ngồi, ghế",
+      "definition_en": "A thing made or used for sitting on.",
+      "example_en": "Do you prefer a window seat or an aisle seat?",
+      "example_vi": "Bạn thích ghế cạnh cửa sổ hay ghế cạnh lối đi?",
+      "collocations_json": ["take a seat", "empty seat", "reserve a seat"],
+      "synonyms_json": ["chair", "spot"],
+      "antonyms_json": [],
+      "mnemonic": "Seat là 'ghế', nơi bạn 'sít' (ngồi) xuống.",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11200
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "window seat",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈwɪndəʊ siːt/",
+      "ipa_us": "/ˈwɪndoʊ siːt/",
+      "meaning_vi": "ghế cạnh cửa sổ",
+      "definition_en": "A seat next to a window, especially on a plane or train.",
+      "example_en": "I always ask for a window seat to enjoy the view.",
+      "example_vi": "Tôi luôn yêu cầu ghế cạnh cửa sổ để ngắm cảnh.",
+      "collocations_json": [
+        "request a window seat",
+        "prefer a window seat",
+        "get a window seat"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": ["aisle seat"],
+      "mnemonic": "Window seat là 'ghế' (seat) cạnh 'cửa sổ' (window).",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11201
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "aisle seat",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈaɪl siːt/",
+      "ipa_us": "/ˈaɪl siːt/",
+      "meaning_vi": "ghế cạnh lối đi",
+      "definition_en": "A seat next to the passage between rows of seats on a plane or train.",
+      "example_en": "She chose an aisle seat so she could easily get up.",
+      "example_vi": "Cô ấy chọn ghế cạnh lối đi để có thể dễ dàng đứng dậy.",
+      "collocations_json": [
+        "prefer an aisle seat",
+        "get an aisle seat",
+        "aisle seat reservation"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": ["window seat"],
+      "mnemonic": "Aisle (lối đi) + seat (ghế), ghế cạnh lối đi.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11202
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "delay",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/dɪˈleɪ/",
+      "ipa_us": "/dɪˈleɪ/",
+      "meaning_vi": "sự chậm trễ, hoãn",
+      "definition_en": "A situation in which something happens later than it should.",
+      "example_en": "There was a delay of two hours due to bad weather.",
+      "example_vi": "Có một sự chậm trễ hai giờ do thời tiết xấu.",
+      "collocations_json": ["flight delay", "cause a delay", "without delay"],
+      "synonyms_json": ["postponement", "hold-up"],
+      "antonyms_json": [],
+      "mnemonic": "Delay nghe giống 'di-lay', làm 'di-lay' công việc.",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11203
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "cancel",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈkænsəl/",
+      "ipa_us": "/ˈkænsəl/",
+      "meaning_vi": "hủy bỏ",
+      "definition_en": "To decide that something that has been arranged will not happen.",
+      "example_en": "The airline decided to cancel the flight.",
+      "example_vi": "Hãng hàng không quyết định hủy chuyến bay.",
+      "collocations_json": [
+        "cancel a flight",
+        "cancel a reservation",
+        "cancel an appointment"
+      ],
+      "synonyms_json": ["call off", "revoke"],
+      "antonyms_json": ["confirm", "book"],
+      "mnemonic": "Cancel nghe giống 'can-xê', hủy bỏ những gì đã 'xê' (sắp xếp).",
+      "frequency_rank": 1400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11204
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "online booking",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˌɒnlaɪn ˈbʊkɪŋ/",
+      "ipa_us": "/ˌɑːnlaɪn ˈbʊkɪŋ/",
+      "meaning_vi": "đặt chỗ trực tuyến",
+      "definition_en": "The process of reserving tickets, rooms, or services through the internet.",
+      "example_en": "Online booking is very convenient for busy travelers.",
+      "example_vi": "Đặt chỗ trực tuyến rất tiện lợi cho những người đi du lịch bận rộn.",
+      "collocations_json": [
+        "make an online booking",
+        "online booking system",
+        "easy online booking"
+      ],
+      "synonyms_json": ["internet reservation"],
+      "antonyms_json": [],
+      "mnemonic": "Online booking là 'đặt chỗ' (booking) 'trực tuyến' (online).",
+      "frequency_rank": 4200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11205
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "hotel",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/həʊˈtel/",
+      "ipa_us": "/hoʊˈtel/",
+      "meaning_vi": "khách sạn",
+      "definition_en": "A building where travelers can pay for a room and meals.",
+      "example_en": "We stayed at a luxury hotel near the beach.",
+      "example_vi": "Chúng tôi đã ở một khách sạn sang trọng gần bãi biển.",
+      "collocations_json": [
+        "stay at a hotel",
+        "hotel room",
+        "hotel reservation"
+      ],
+      "synonyms_json": ["inn", "motel"],
+      "antonyms_json": [],
+      "mnemonic": "Hotel là nơi bạn có thể 'hố' (ở) và 'teo' (ngủ).",
+      "frequency_rank": 700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11206
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "room",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ruːm/",
+      "ipa_us": "/ruːm/",
+      "meaning_vi": "phòng (khách sạn)",
+      "definition_en": "A space within a building enclosed by walls, a floor, and a ceiling.",
+      "example_en": "Our room has a beautiful view of the ocean.",
+      "example_vi": "Phòng của chúng tôi có view biển rất đẹp.",
+      "collocations_json": ["hotel room", "single room", "double room"],
+      "synonyms_json": ["chamber", "space"],
+      "antonyms_json": [],
+      "mnemonic": "Room (phòng) là nơi bạn có 'room' (không gian) để ở.",
+      "frequency_rank": 600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11207
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "single room",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈsɪŋɡl ruːm/",
+      "ipa_us": "/ˈsɪŋɡl ruːm/",
+      "meaning_vi": "phòng đơn",
+      "definition_en": "A room in a hotel with a bed for one person.",
+      "example_en": "I booked a single room for myself for three nights.",
+      "example_vi": "Tôi đã đặt một phòng đơn cho mình trong ba đêm.",
+      "collocations_json": [
+        "book a single room",
+        "single room rate",
+        "small single room"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": ["double room"],
+      "mnemonic": "Single (đơn) + room (phòng), phòng cho một người.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11208
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "double room",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈdʌbl ruːm/",
+      "ipa_us": "/ˈdʌbl ruːm/",
+      "meaning_vi": "phòng đôi",
+      "definition_en": "A room in a hotel with a bed for two people, usually a double bed.",
+      "example_en": "We reserved a double room for our stay.",
+      "example_vi": "Chúng tôi đã đặt một phòng đôi cho chuyến đi của mình.",
+      "collocations_json": [
+        "book a double room",
+        "double room with a view",
+        "standard double room"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": ["single room"],
+      "mnemonic": "Double (đôi) + room (phòng), phòng cho hai người.",
+      "frequency_rank": 3100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11209
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "reservation",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˌrezəˈveɪʃn/",
+      "ipa_us": "/ˌrezərˈveɪʃn/",
+      "meaning_vi": "sự đặt chỗ, đặt trước",
+      "definition_en": "An arrangement to have a hotel room, a table in a restaurant, etc., held for you.",
+      "example_en": "Do you have a reservation under the name Smith?",
+      "example_vi": "Bạn có đặt chỗ dưới tên Smith không?",
+      "collocations_json": [
+        "make a reservation",
+        "confirm a reservation",
+        "cancel a reservation"
+      ],
+      "synonyms_json": ["booking", "appointment"],
+      "antonyms_json": [],
+      "mnemonic": "Reservation là 'dự trữ' (reserve), đặt trước để giữ chỗ.",
+      "frequency_rank": 2300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11210
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "check out",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/tʃek aʊt/",
+      "ipa_us": "/tʃek aʊt/",
+      "meaning_vi": "trả phòng (khách sạn)",
+      "definition_en": "To leave a hotel after paying your bill.",
+      "example_en": "We need to check out by 11 AM.",
+      "example_vi": "Chúng tôi cần trả phòng trước 11 giờ sáng.",
+      "collocations_json": [
+        "check out time",
+        "late check out",
+        "check out of a hotel"
+      ],
+      "synonyms_json": ["depart"],
+      "antonyms_json": ["check in"],
+      "mnemonic": "Check out là 'kiểm tra' rồi 'ra' (out), nghĩa là trả phòng.",
+      "frequency_rank": 1900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11211
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "reception",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/rɪˈsepʃn/",
+      "ipa_us": "/rɪˈsepʃn/",
+      "meaning_vi": "quầy lễ tân",
+      "definition_en": "The area in a hotel or office where guests or visitors are greeted.",
+      "example_en": "Please ask at reception for your keys.",
+      "example_vi": "Vui lòng hỏi chìa khóa của bạn tại quầy lễ tân.",
+      "collocations_json": [
+        "hotel reception",
+        "reception desk",
+        "ask at reception"
+      ],
+      "synonyms_json": ["front desk"],
+      "antonyms_json": [],
+      "mnemonic": "Reception là nơi bạn 'tiếp nhận' (receive) thông tin, chìa khóa.",
+      "frequency_rank": 2200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11212
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "lobby",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈlɒbi/",
+      "ipa_us": "/ˈlɑːbi/",
+      "meaning_vi": "sảnh chờ, hành lang lớn",
+      "definition_en": "A large hall or waiting room at the entrance to a hotel or public building.",
+      "example_en": "Let's meet in the hotel lobby at 8 AM.",
+      "example_vi": "Chúng ta hãy gặp nhau ở sảnh khách sạn lúc 8 giờ sáng.",
+      "collocations_json": ["hotel lobby", "main lobby", "wait in the lobby"],
+      "synonyms_json": ["foyer", "entrance hall"],
+      "antonyms_json": [],
+      "mnemonic": "Lobby là nơi bạn có thể 'lò dò' đi lại chờ đợi.",
+      "frequency_rank": 3300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11213
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "vacancy",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈveɪkənsi/",
+      "ipa_us": "/ˈveɪkənsi/",
+      "meaning_vi": "phòng trống, vị trí trống",
+      "definition_en": "An available room in a hotel or job position.",
+      "example_en": "Do you have any vacancies for tonight?",
+      "example_vi": "Bạn có phòng trống nào cho tối nay không?",
+      "collocations_json": ["no vacancy", "room vacancy", "job vacancy"],
+      "synonyms_json": ["availability", "opening"],
+      "antonyms_json": [],
+      "mnemonic": "Vacancy là 'trống' (vacant), còn chỗ trống.",
+      "frequency_rank": 3900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11214
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "full board",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˌfʊl ˈbɔːd/",
+      "ipa_us": "/ˌfʊl ˈbɔːrd/",
+      "meaning_vi": "trọn gói ăn ở (3 bữa)",
+      "definition_en": "A hotel rate that includes all three meals (breakfast, lunch, and dinner).",
+      "example_en": "Our package includes full board for seven days.",
+      "example_vi": "Gói của chúng tôi bao gồm trọn gói ăn ở trong bảy ngày.",
+      "collocations_json": [
+        "book full board",
+        "full board accommodation",
+        "full board basis"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": ["half board", "bed and breakfast"],
+      "mnemonic": "Full board là 'đầy đủ' (full) 'bữa ăn' (board), ba bữa một ngày.",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11215
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "half board",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˌhɑːf ˈbɔːd/",
+      "ipa_us": "/ˌhæf ˈbɔːrd/",
+      "meaning_vi": "nửa gói ăn ở (2 bữa)",
+      "definition_en": "A hotel rate that typically includes breakfast and one main meal, usually dinner.",
+      "example_en": "We chose half board as we prefer to eat out for lunch.",
+      "example_vi": "Chúng tôi chọn nửa gói ăn ở vì chúng tôi thích ăn trưa bên ngoài.",
+      "collocations_json": [
+        "book half board",
+        "half board option",
+        "half board hotel"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": ["full board"],
+      "mnemonic": "Half board là 'một nửa' (half) 'bữa ăn' (board), thường là hai bữa.",
+      "frequency_rank": 5600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11216
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "breakfast included",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈbrekfəst ɪnˈkluːdɪd/",
+      "ipa_us": "/ˈbrekfəst ɪnˈkluːdɪd/",
+      "meaning_vi": "bao gồm bữa sáng",
+      "definition_en": "Referring to a hotel stay where the morning meal is provided without extra cost.",
+      "example_en": "Does your room rate have breakfast included?",
+      "example_vi": "Giá phòng của bạn có bao gồm bữa sáng không?",
+      "collocations_json": [
+        "continental breakfast included",
+        "free breakfast included",
+        "buffet breakfast included"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Breakfast included là 'bữa sáng' (breakfast) được 'bao gồm' (included).",
+      "frequency_rank": 2700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11217
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "amenities",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/əˈmiːnətiz/",
+      "ipa_us": "/əˈmenətiz/",
+      "meaning_vi": "tiện nghi, dịch vụ",
+      "definition_en": "Features that make a place pleasant, comfortable or easy to use.",
+      "example_en": "The hotel offers excellent amenities, including a gym and a pool.",
+      "example_vi": "Khách sạn cung cấp các tiện nghi tuyệt vời, bao gồm phòng gym và hồ bơi.",
+      "collocations_json": [
+        "hotel amenities",
+        "modern amenities",
+        "basic amenities"
+      ],
+      "synonyms_json": ["facilities", "features"],
+      "antonyms_json": [],
+      "mnemonic": "Amenities nghe giống 'a-men', tiện nghi làm cuộc sống dễ chịu như 'amen'.",
+      "frequency_rank": 4300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11218
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "deposit",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/dɪˈpɒzɪt/",
+      "ipa_us": "/dɪˈpɑːzɪt/",
+      "meaning_vi": "tiền đặt cọc",
+      "definition_en": "A sum of money that you pay when you rent something, which is returned when you return the item.",
+      "example_en": "We had to pay a deposit for the hotel room.",
+      "example_vi": "Chúng tôi phải trả tiền đặt cọc cho phòng khách sạn.",
+      "collocations_json": [
+        "pay a deposit",
+        "security deposit",
+        "refundable deposit"
+      ],
+      "synonyms_json": ["down payment", "advance"],
+      "antonyms_json": ["refund"],
+      "mnemonic": "Deposit là tiền bạn 'đặt' (deposit) xuống để 'giữ chỗ'.",
+      "frequency_rank": 3600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11219
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "confirm",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/kənˈfɜːm/",
+      "ipa_us": "/kənˈfɜːrm/",
+      "meaning_vi": "xác nhận",
+      "definition_en": "To state or show that something is true or correct.",
+      "example_en": "Please confirm your flight details by email.",
+      "example_vi": "Vui lòng xác nhận chi tiết chuyến bay của bạn qua email.",
+      "collocations_json": [
+        "confirm a booking",
+        "confirm a reservation",
+        "confirm details"
+      ],
+      "synonyms_json": ["verify", "validate"],
+      "antonyms_json": ["cancel", "deny"],
+      "mnemonic": "Confirm là 'xác nhận', để 'con' (con người) 'firm' (chắc chắn).",
+      "frequency_rank": 1300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11220
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "cancellation policy",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˌkænsəˈleɪʃn ˈpɒləsi/",
+      "ipa_us": "/ˌkænsəˈleɪʃn ˈpɑːləsi/",
+      "meaning_vi": "chính sách hủy",
+      "definition_en": "The rules and conditions for canceling a reservation or booking.",
+      "example_en": "Read the cancellation policy carefully before booking.",
+      "example_vi": "Hãy đọc kỹ chính sách hủy trước khi đặt chỗ.",
+      "collocations_json": [
+        "strict cancellation policy",
+        "flexible cancellation policy",
+        "understand the cancellation policy"
+      ],
+      "synonyms_json": ["refund policy"],
+      "antonyms_json": [],
+      "mnemonic": "Cancellation policy là 'chính sách' (policy) khi bạn 'hủy bỏ' (cancellation).",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11221
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "price",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/praɪs/",
+      "ipa_us": "/praɪs/",
+      "meaning_vi": "giá cả, mức giá",
+      "definition_en": "The amount of money that you have to pay for something.",
+      "example_en": "What is the price of a double room per night?",
+      "example_vi": "Giá một phòng đôi mỗi đêm là bao nhiêu?",
+      "collocations_json": ["high price", "low price", "fair price"],
+      "synonyms_json": ["cost", "rate", "charge"],
+      "antonyms_json": [],
+      "mnemonic": "Price là 'giá', bạn phải 'trả giá' để mua.",
+      "frequency_rank": 500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11222
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "discount",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈdɪskaʊnt/",
+      "ipa_us": "/ˈdɪskaʊnt/",
+      "meaning_vi": "giảm giá, chiết khấu",
+      "definition_en": "A reduction in the usual price of something.",
+      "example_en": "We got a 10% discount on our hotel booking.",
+      "example_vi": "Chúng tôi được giảm giá 10% cho việc đặt phòng khách sạn.",
+      "collocations_json": [
+        "get a discount",
+        "offer a discount",
+        "student discount"
+      ],
+      "synonyms_json": ["reduction", "sale"],
+      "antonyms_json": ["increase"],
+      "mnemonic": "Discount là 'giảm' (dis) 'số lượng' (count) tiền phải trả.",
+      "frequency_rank": 2400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11223
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "star rating",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈstɑː ræɪtɪŋ/",
+      "ipa_us": "/ˈstɑːr reɪtɪŋ/",
+      "meaning_vi": "xếp hạng sao",
+      "definition_en": "A system of classifying hotels, restaurants, etc., according to their quality, usually from one to five stars.",
+      "example_en": "We are looking for a hotel with a four-star rating.",
+      "example_vi": "Chúng tôi đang tìm một khách sạn có xếp hạng bốn sao.",
+      "collocations_json": [
+        "five-star rating",
+        "high star rating",
+        "hotel star rating"
+      ],
+      "synonyms_json": ["quality rating"],
+      "antonyms_json": [],
+      "mnemonic": "Star rating là 'đánh giá' (rating) bằng 'sao' (star).",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11224
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "view",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/vjuː/",
+      "ipa_us": "/vjuː/",
+      "meaning_vi": "tầm nhìn, quang cảnh",
+      "definition_en": "What you can see from a particular place.",
+      "example_en": "Our hotel room has a stunning view of the mountains.",
+      "example_vi": "Phòng khách sạn của chúng tôi có tầm nhìn tuyệt đẹp ra núi.",
+      "collocations_json": ["sea view", "city view", "mountain view"],
+      "synonyms_json": ["scenery", "outlook"],
+      "antonyms_json": [],
+      "mnemonic": "View là 'nhìn', bạn có thể 'view' cảnh đẹp.",
+      "frequency_rank": 1100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11225
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "available",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/əˈveɪləbl/",
+      "ipa_us": "/əˈveɪləbl/",
+      "meaning_vi": "có sẵn, có thể dùng được",
+      "definition_en": "Able to be used or obtained; at someone's disposal.",
+      "example_en": "Are there any rooms available for this weekend?",
+      "example_vi": "Có phòng nào có sẵn cho cuối tuần này không?",
+      "collocations_json": [
+        "available room",
+        "available flights",
+        "available online"
+      ],
+      "synonyms_json": ["free", "obtainable"],
+      "antonyms_json": ["unavailable", "occupied"],
+      "mnemonic": "Available là 'có sẵn', bạn có thể 'vây' (lấy) được.",
+      "frequency_rank": 950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11226
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "stay",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/steɪ/",
+      "ipa_us": "/steɪ/",
+      "meaning_vi": "ở lại, lưu trú",
+      "definition_en": "To live in a place for a short period of time as a visitor or guest.",
+      "example_en": "How long are you planning to stay in London?",
+      "example_vi": "Bạn dự định ở lại London bao lâu?",
+      "collocations_json": ["stay at a hotel", "short stay", "long stay"],
+      "synonyms_json": ["reside", "lodge"],
+      "antonyms_json": ["leave", "depart"],
+      "mnemonic": "Stay là 'ở lại', bạn 'sờ-tay' lên bàn để không rời đi.",
+      "frequency_rank": 750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11227
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "passport",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈpɑːspɔːt/",
+      "ipa_us": "/ˈpæspɔːrt/",
+      "meaning_vi": "hộ chiếu",
+      "definition_en": "An official document issued by a government, identifying an individual's nationality and allowing them to travel abroad.",
+      "example_en": "Don't forget to bring your passport for international travel.",
+      "example_vi": "Đừng quên mang theo hộ chiếu của bạn khi đi du lịch quốc tế.",
+      "collocations_json": [
+        "valid passport",
+        "renew a passport",
+        "passport control"
+      ],
+      "synonyms_json": ["travel document"],
+      "antonyms_json": [],
+      "mnemonic": "Passport là 'pass' (vượt qua) 'port' (cảng), để đi qua biên giới.",
+      "frequency_rank": 1050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11228
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "visa",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈviːzə/",
+      "ipa_us": "/ˈviːzə/",
+      "meaning_vi": "thị thực, visa",
+      "definition_en": "An endorsement on a passport indicating that the holder is allowed to enter, leave, or stay for a specified period in a country.",
+      "example_en": "You need a visa to enter that country.",
+      "example_vi": "Bạn cần thị thực để nhập cảnh vào quốc gia đó.",
+      "collocations_json": ["apply for a visa", "tourist visa", "get a visa"],
+      "synonyms_json": ["permit"],
+      "antonyms_json": [],
+      "mnemonic": "Visa là 'giấy phép' để 'vi-sa' (vào ra).",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11229
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "currency",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈkʌrənsi/",
+      "ipa_us": "/ˈkɜːrənsi/",
+      "meaning_vi": "tiền tệ",
+      "definition_en": "A system of money in general use in a particular country.",
+      "example_en": "What is the local currency in Japan?",
+      "example_vi": "Đơn vị tiền tệ địa phương ở Nhật Bản là gì?",
+      "collocations_json": [
+        "foreign currency",
+        "exchange currency",
+        "local currency"
+      ],
+      "synonyms_json": ["money", "cash"],
+      "antonyms_json": [],
+      "mnemonic": "Currency là 'tiền tệ', để 'cứ ren-si' (chi tiêu).",
+      "frequency_rank": 3400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11230
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "travel agent",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈtrævl ˌeɪdʒənt/",
+      "ipa_us": "/ˈtrævl ˌeɪdʒənt/",
+      "meaning_vi": "đại lý du lịch",
+      "definition_en": "A person or company that helps people to plan and book holidays.",
+      "example_en": "I asked a travel agent to help me plan my trip.",
+      "example_vi": "Tôi đã nhờ một đại lý du lịch giúp tôi lên kế hoạch cho chuyến đi của mình.",
+      "collocations_json": [
+        "local travel agent",
+        "online travel agent",
+        "independent travel agent"
+      ],
+      "synonyms_json": ["tour operator"],
+      "antonyms_json": [],
+      "mnemonic": "Travel agent là 'đại lý' (agent) giúp bạn 'du lịch' (travel).",
+      "frequency_rank": 4700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11231
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "accommodation",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/əˌkɒməˈdeɪʃn/",
+      "ipa_us": "/əˌkɑːməˈdeɪʃn/",
+      "meaning_vi": "chỗ ở, nơi lưu trú",
+      "definition_en": "A place to live, work, or stay in.",
+      "example_en": "We are looking for affordable accommodation for our family.",
+      "example_vi": "Chúng tôi đang tìm chỗ ở giá cả phải chăng cho gia đình mình.",
+      "collocations_json": [
+        "find accommodation",
+        "hotel accommodation",
+        "self-catering accommodation"
+      ],
+      "synonyms_json": ["lodging", "housing"],
+      "antonyms_json": [],
+      "mnemonic": "Accommodation là 'chỗ ở', nơi bạn 'a-công-mô-đây' (thoải mái).",
+      "frequency_rank": 2700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11232
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "budget",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈbʌdʒɪt/",
+      "ipa_us": "/ˈbʌdʒɪt/",
+      "meaning_vi": "ngân sách, chi phí",
+      "definition_en": "An estimate of income and expenditure for a set period of time.",
+      "example_en": "We need to plan our trip according to our budget.",
+      "example_vi": "Chúng tôi cần lên kế hoạch chuyến đi theo ngân sách của mình.",
+      "collocations_json": [
+        "travel budget",
+        "stick to a budget",
+        "on a budget"
+      ],
+      "synonyms_json": ["funds", "finances"],
+      "antonyms_json": [],
+      "mnemonic": "Budget là 'ngân sách', bạn phải 'bớt' (bớt tiền) để 'đặt' (đặt vé).",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11233
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "destination",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˌdestɪˈneɪʃn/",
+      "ipa_us": "/ˌdestɪˈneɪʃn/",
+      "meaning_vi": "điểm đến",
+      "definition_en": "The place to which someone or something is going or being sent.",
+      "example_en": "Our final destination is Rome.",
+      "example_vi": "Điểm đến cuối cùng của chúng tôi là Rome.",
+      "collocations_json": [
+        "popular destination",
+        "travel destination",
+        "reach your destination"
+      ],
+      "synonyms_json": ["goal", "target"],
+      "antonyms_json": ["origin", "departure point"],
+      "mnemonic": "Destination là 'điểm đến', nơi bạn 'đến-tinh' (kết thúc chuyến đi).",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11234
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "itinerary",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/aɪˈtɪnərəri/",
+      "ipa_us": "/aɪˈtɪnəreri/",
+      "meaning_vi": "lịch trình chuyến đi",
+      "definition_en": "A planned route or journey.",
+      "example_en": "We received a detailed itinerary for our tour.",
+      "example_vi": "Chúng tôi đã nhận được lịch trình chi tiết cho chuyến đi của mình.",
+      "collocations_json": [
+        "travel itinerary",
+        "daily itinerary",
+        "plan an itinerary"
+      ],
+      "synonyms_json": ["schedule", "route"],
+      "antonyms_json": [],
+      "mnemonic": "Itinerary là 'lịch trình', giúp bạn 'i-tiếp-nơi-này' (đi tiếp chỗ này).",
+      "frequency_rank": 6200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11235
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "vacation",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/veɪˈkeɪʃn/",
+      "ipa_us": "/veɪˈkeɪʃn/",
+      "meaning_vi": "kỳ nghỉ, chuyến nghỉ mát",
+      "definition_en": "An extended period of leisure and recreation, especially one spent away from home or in traveling.",
+      "example_en": "We are planning a summer vacation to the beach.",
+      "example_vi": "Chúng tôi đang lên kế hoạch kỳ nghỉ hè ở bãi biển.",
+      "collocations_json": [
+        "summer vacation",
+        "go on vacation",
+        "family vacation"
+      ],
+      "synonyms_json": ["holiday", "break"],
+      "antonyms_json": ["work", "labor"],
+      "mnemonic": "Vacation là 'kỳ nghỉ', bạn 'vui-cây-sơn' (vui vẻ sơn nhà) trong kỳ nghỉ.",
+      "frequency_rank": 850,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11236
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "passport control",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈpɑːspɔːt kənˈtrəʊl/",
+      "ipa_us": "/ˈpæspɔːrt kənˈtroʊl/",
+      "meaning_vi": "kiểm soát hộ chiếu",
+      "definition_en": "The place at an airport, port, or border where officials check your passport.",
+      "example_en": "You need to show your passport at passport control.",
+      "example_vi": "Bạn cần xuất trình hộ chiếu tại quầy kiểm soát hộ chiếu.",
+      "collocations_json": [
+        "go through passport control",
+        "queue at passport control",
+        "fast track passport control"
+      ],
+      "synonyms_json": ["immigration"],
+      "antonyms_json": [],
+      "mnemonic": "Passport control là nơi 'kiểm soát' (control) 'hộ chiếu' (passport).",
+      "frequency_rank": 4900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11237
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "boarding time",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈbɔːdɪŋ taɪm/",
+      "ipa_us": "/ˈbɔːrdɪŋ taɪm/",
+      "meaning_vi": "giờ lên máy bay",
+      "definition_en": "The specific time when passengers are allowed to get on a plane or ship.",
+      "example_en": "Please check your boarding pass for the correct boarding time.",
+      "example_vi": "Vui lòng kiểm tra thẻ lên máy bay của bạn để biết giờ lên máy bay chính xác.",
+      "collocations_json": [
+        "final boarding time",
+        "early boarding time",
+        "late boarding time"
+      ],
+      "synonyms_json": ["embarkation time"],
+      "antonyms_json": ["departure time"],
+      "mnemonic": "Boarding time là 'thời gian' (time) để 'lên' (board) máy bay.",
+      "frequency_rank": 3700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11238
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "shuttle bus",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈʃʌtl bʌs/",
+      "ipa_us": "/ˈʃʌtl bʌs/",
+      "meaning_vi": "xe buýt đưa đón",
+      "definition_en": "A bus that travels regularly between two places, especially an airport and a hotel.",
+      "example_en": "The hotel offers a free shuttle bus service to the airport.",
+      "example_vi": "Khách sạn cung cấp dịch vụ xe buýt đưa đón miễn phí đến sân bay.",
+      "collocations_json": [
+        "airport shuttle bus",
+        "hotel shuttle bus",
+        "free shuttle bus"
+      ],
+      "synonyms_json": ["courtesy bus"],
+      "antonyms_json": [],
+      "mnemonic": "Shuttle bus là xe buýt 'đưa đón' (shuttle) qua lại.",
+      "frequency_rank": 5200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11239
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "currency exchange",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈkʌrənsi ɪksˈtʃeɪndʒ/",
+      "ipa_us": "/ˈkɜːrənsi ɪksˈtʃeɪndʒ/",
+      "meaning_vi": "đổi tiền tệ",
+      "definition_en": "The service of exchanging one country's money for another's.",
+      "example_en": "You can find currency exchange services at the airport.",
+      "example_vi": "Bạn có thể tìm thấy dịch vụ đổi tiền tệ tại sân bay.",
+      "collocations_json": [
+        "best currency exchange rates",
+        "foreign currency exchange",
+        "airport currency exchange"
+      ],
+      "synonyms_json": ["money exchange"],
+      "antonyms_json": [],
+      "mnemonic": "Currency exchange là 'đổi' (exchange) 'tiền tệ' (currency).",
+      "frequency_rank": 6500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11240
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "travel insurance",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈtrævl ɪnˌʃʊərəns/",
+      "ipa_us": "/ˈtrævl ɪnˌʃʊrəns/",
+      "meaning_vi": "bảo hiểm du lịch",
+      "definition_en": "Insurance that covers losses and risks while traveling.",
+      "example_en": "It's wise to buy travel insurance for international trips.",
+      "example_vi": "Mua bảo hiểm du lịch cho các chuyến đi quốc tế là khôn ngoan.",
+      "collocations_json": [
+        "buy travel insurance",
+        "comprehensive travel insurance",
+        "medical travel insurance"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Travel insurance là 'bảo hiểm' (insurance) cho 'du lịch' (travel).",
+      "frequency_rank": 6800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11241
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "e-ticket",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈiː tɪkɪt/",
+      "ipa_us": "/ˈiː tɪkɪt/",
+      "meaning_vi": "vé điện tử",
+      "definition_en": "An electronic ticket, typically for air travel, that exists only as a record in a computer database.",
+      "example_en": "I received my e-ticket by email after booking.",
+      "example_vi": "Tôi đã nhận được vé điện tử qua email sau khi đặt chỗ.",
+      "collocations_json": [
+        "print e-ticket",
+        "receive e-ticket",
+        "e-ticket confirmation"
+      ],
+      "synonyms_json": ["electronic ticket"],
+      "antonyms_json": ["paper ticket"],
+      "mnemonic": "E-ticket là 'vé' (ticket) 'điện tử' (e-).",
+      "frequency_rank": 4100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11242
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "baggage claim",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈbæɡɪdʒ kleɪm/",
+      "ipa_us": "/ˈbæɡɪdʒ kleɪm/",
+      "meaning_vi": "khu vực nhận hành lý",
+      "definition_en": "The area in an airport where arriving passengers collect their checked luggage.",
+      "example_en": "After landing, we went to baggage claim to pick up our suitcases.",
+      "example_vi": "Sau khi hạ cánh, chúng tôi đến khu vực nhận hành lý để lấy vali.",
+      "collocations_json": [
+        "go to baggage claim",
+        "baggage claim area",
+        "baggage claim carousel"
+      ],
+      "synonyms_json": ["luggage claim"],
+      "antonyms_json": ["check-in desk"],
+      "mnemonic": "Baggage claim là nơi bạn 'yêu cầu' (claim) 'hành lý' (baggage).",
+      "frequency_rank": 5100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11243
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "customs",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈkʌstəmz/",
+      "ipa_us": "/ˈkʌstəmz/",
+      "meaning_vi": "hải quan",
+      "definition_en": "The official department that collects duties on imported goods and controls the flow of goods and people at borders.",
+      "example_en": "We had to declare some items at customs.",
+      "example_vi": "Chúng tôi phải khai báo một số mặt hàng tại hải quan.",
+      "collocations_json": [
+        "go through customs",
+        "customs declaration",
+        "customs officer"
+      ],
+      "synonyms_json": ["border control"],
+      "antonyms_json": [],
+      "mnemonic": "Customs là nơi 'tùy chỉnh' (custom) hàng hóa khi nhập cảnh.",
+      "frequency_rank": 4600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11244
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "shuttle service",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈʃʌtl ˌsɜːvɪs/",
+      "ipa_us": "/ˈʃʌtl ˌsɜːrvɪs/",
+      "meaning_vi": "dịch vụ đưa đón",
+      "definition_en": "A service that provides transport between two points, often an airport and a hotel, at regular intervals.",
+      "example_en": "The hotel offers a complimentary shuttle service to downtown.",
+      "example_vi": "Khách sạn cung cấp dịch vụ đưa đón miễn phí đến trung tâm thành phố.",
+      "collocations_json": [
+        "free shuttle service",
+        "airport shuttle service",
+        "hourly shuttle service"
+      ],
+      "synonyms_json": ["transfer service"],
+      "antonyms_json": [],
+      "mnemonic": "Shuttle service là 'dịch vụ' (service) 'đưa đón' (shuttle).",
+      "frequency_rank": 5300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11245
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "room service",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈruːm sɜːvɪs/",
+      "ipa_us": "/ˈruːm sɜːrvɪs/",
+      "meaning_vi": "dịch vụ phòng",
+      "definition_en": "The service of providing food and drinks to guests in their hotel rooms.",
+      "example_en": "We ordered breakfast through room service.",
+      "example_vi": "Chúng tôi đã gọi bữa sáng qua dịch vụ phòng.",
+      "collocations_json": [
+        "order room service",
+        "24-hour room service",
+        "excellent room service"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Room service là 'dịch vụ' (service) tại 'phòng' (room).",
+      "frequency_rank": 5400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11246
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "tourist",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˈtʊərɪst/",
+      "ipa_us": "/ˈtʊrɪst/",
+      "meaning_vi": "khách du lịch",
+      "definition_en": "A person who is traveling or visiting a place for pleasure.",
+      "example_en": "The city is full of tourists during the summer.",
+      "example_vi": "Thành phố này đầy khách du lịch vào mùa hè.",
+      "collocations_json": [
+        "foreign tourist",
+        "local tourist",
+        "attract tourists"
+      ],
+      "synonyms_json": ["traveler", "visitor"],
+      "antonyms_json": ["local", "resident"],
+      "mnemonic": "Tourist là 'khách du lịch', người đi 'tour'.",
+      "frequency_rank": 1150,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11247
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "brochure",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈbrəʊʃə/",
+      "ipa_us": "/broʊˈʃʊr/",
+      "meaning_vi": "tập quảng cáo, sách nhỏ",
+      "definition_en": "A small book or magazine containing pictures and information about a product or service.",
+      "example_en": "I picked up a travel brochure at the agency.",
+      "example_vi": "Tôi đã lấy một tập quảng cáo du lịch tại đại lý.",
+      "collocations_json": [
+        "travel brochure",
+        "information brochure",
+        "colorful brochure"
+      ],
+      "synonyms_json": ["pamphlet", "leaflet"],
+      "antonyms_json": [],
+      "mnemonic": "Brochure là 'sách nhỏ', bạn 'bô-rô-chu' (bỏ túi) mang đi.",
+      "frequency_rank": 6300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11248
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "all-inclusive",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˌɔːl ɪnˈkluːsɪv/",
+      "ipa_us": "/ˌɔːl ɪnˈkluːsɪv/",
+      "meaning_vi": "bao gồm tất cả (dịch vụ)",
+      "definition_en": "Including everything, especially all services, meals, and drinks in the price of a holiday.",
+      "example_en": "We booked an all-inclusive resort for our honeymoon.",
+      "example_vi": "Chúng tôi đã đặt một khu nghỉ dưỡng trọn gói cho tuần trăng mật.",
+      "collocations_json": [
+        "all-inclusive resort",
+        "all-inclusive package",
+        "all-inclusive holiday"
+      ],
+      "synonyms_json": ["full package"],
+      "antonyms_json": [],
+      "mnemonic": "All-inclusive là 'tất cả' (all) được 'bao gồm' (inclusive).",
+      "frequency_rank": 6700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11249
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "front desk",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/ˌfrʌnt ˈdesk/",
+      "ipa_us": "/ˌfrʌnt ˈdesk/",
+      "meaning_vi": "quầy lễ tân",
+      "definition_en": "The place in a hotel or office where guests or visitors are greeted and where they can get information or assistance.",
+      "example_en": "Please report any issues to the front desk.",
+      "example_vi": "Vui lòng báo cáo bất kỳ vấn đề nào cho quầy lễ tân.",
+      "collocations_json": [
+        "hotel front desk",
+        "ask at the front desk",
+        "contact the front desk"
+      ],
+      "synonyms_json": ["reception", "concierge"],
+      "antonyms_json": [],
+      "mnemonic": "Front desk là 'bàn' (desk) ở 'phía trước' (front) để đón khách.",
+      "frequency_rank": 2150,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11250
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "suite",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/swiːt/",
+      "ipa_us": "/swiːt/",
+      "meaning_vi": "phòng suite, dãy phòng",
+      "definition_en": "A set of connected rooms, especially in a hotel.",
+      "example_en": "They booked a luxurious suite with a separate living area.",
+      "example_vi": "Họ đã đặt một phòng suite sang trọng với khu vực sinh hoạt riêng.",
+      "collocations_json": ["hotel suite", "executive suite", "junior suite"],
+      "synonyms_json": ["apartment", "flat"],
+      "antonyms_json": [],
+      "mnemonic": "Suite nghe giống 'sweet' (ngọt ngào), phòng suite rất ngọt ngào và thoải mái.",
+      "frequency_rank": 5700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11251
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "porter",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/ˈpɔːtə/",
+      "ipa_us": "/ˈpɔːrtər/",
+      "meaning_vi": "người khuân vác hành lý",
+      "definition_en": "A person employed to carry luggage and other loads, especially at a railway station, airport, or hotel.",
+      "example_en": "The porter helped us with our bags to the room.",
+      "example_vi": "Người khuân vác đã giúp chúng tôi mang túi lên phòng.",
+      "collocations_json": ["hotel porter", "airport porter", "hire a porter"],
+      "synonyms_json": ["bellhop", "carrier"],
+      "antonyms_json": [],
+      "mnemonic": "Porter là người 'port' (mang) đồ đạc cho bạn.",
+      "frequency_rank": 6100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11252
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "tour",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "travel",
+      "ipa_uk": "/tʊə/",
+      "ipa_us": "/tʊr/",
+      "meaning_vi": "chuyến tham quan, du lịch",
+      "definition_en": "A journey for pleasure in which several different places are visited.",
+      "example_en": "We went on a guided tour of the city.",
+      "example_vi": "Chúng tôi đã đi một chuyến tham quan có hướng dẫn viên quanh thành phố.",
+      "collocations_json": ["guided tour", "city tour", "bus tour"],
+      "synonyms_json": ["trip", "excursion"],
+      "antonyms_json": [],
+      "mnemonic": "Tour là 'chuyến đi', bạn 'tua' qua nhiều địa điểm.",
+      "frequency_rank": 980,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11253
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Travel - Booking Flights & Hotels",
+      "word": "resort",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "travel",
+      "ipa_uk": "/rɪˈzɔːt/",
+      "ipa_us": "/rɪˈzɔːrt/",
+      "meaning_vi": "khu nghỉ dưỡng",
+      "definition_en": "A place where people go on holiday or for a particular purpose.",
+      "example_en": "We stayed at a beautiful beach resort for our anniversary.",
+      "example_vi": "Chúng tôi đã ở một khu nghỉ dưỡng bãi biển tuyệt đẹp nhân kỷ niệm ngày cưới.",
+      "collocations_json": ["beach resort", "ski resort", "luxury resort"],
+      "synonyms_json": ["holiday complex"],
+      "antonyms_json": [],
+      "mnemonic": "Resort là nơi bạn 'resort' (quay lại) để nghỉ ngơi.",
+      "frequency_rank": 2950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11254
+  }
+]

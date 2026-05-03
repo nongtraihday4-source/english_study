@@ -1,0 +1,1877 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 4854,
+    "fields": {
+      "word": "melody",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "art",
+      "ipa_uk": "ˈmɛlədi",
+      "ipa_us": "ˈmɛlədi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giai điệu",
+      "definition_en": "A tune, often forming part of a larger piece of music.",
+      "example_en": "The song has a very catchy melody.",
+      "example_vi": "Bài hát có một giai điệu rất bắt tai.",
+      "collocations_json": [
+        "catchy melody",
+        "beautiful melody",
+        "haunting melody"
+      ],
+      "synonyms_json": [
+        "tune",
+        "song",
+        "theme"
+      ],
+      "antonyms_json": [
+        "harmony",
+        "rhythm"
+      ],
+      "mnemonic": "Melody makes music sweet.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4855,
+    "fields": {
+      "word": "memo",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈmɛˌmoʊ",
+      "ipa_us": "ˈmɛˌmoʊ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bản ghi nhớ",
+      "definition_en": "A message or other information in writing sent by one person or department to another in the same business organization.",
+      "example_en": "Did you get my memo about the meeting?",
+      "example_vi": "Bạn có nhận được bản ghi nhớ của tôi về cuộc họp không?",
+      "collocations_json": [
+        "send a memo",
+        "internal memo",
+        "write a memo"
+      ],
+      "synonyms_json": [
+        "memorandum",
+        "note",
+        "message"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Short for memorandum.",
+      "frequency_rank": 7200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4856,
+    "fields": {
+      "word": "memoir",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "art",
+      "ipa_uk": "ˈmɛmˌwɑr",
+      "ipa_us": "ˈmɛmˌwɑr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hồi ký",
+      "definition_en": "A book or other piece of writing based on the writer's personal knowledge of famous people, places, or events.",
+      "example_en": "She has written a memoir of her time in politics.",
+      "example_vi": "Cô ấy đã viết một cuốn hồi ký về thời gian tham gia chính trị của mình.",
+      "collocations_json": [
+        "publish a memoir",
+        "write a memoir",
+        "political memoir"
+      ],
+      "synonyms_json": [
+        "autobiography",
+        "account",
+        "recollections"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Memoir contains memories.",
+      "frequency_rank": 7800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4857,
+    "fields": {
+      "word": "memorial",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "məˈmɔriəl",
+      "ipa_us": "məˈmɔriəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đài tưởng niệm, kỷ niệm",
+      "definition_en": "An object, often large and made of stone, that has been built to honour a famous person or event.",
+      "example_en": "A memorial was erected to those who died in the war.",
+      "example_vi": "Một đài tưởng niệm đã được dựng lên cho những người đã hy sinh trong chiến tranh.",
+      "collocations_json": [
+        "war memorial",
+        "memorial service",
+        "national memorial"
+      ],
+      "synonyms_json": [
+        "monument",
+        "tribute",
+        "shrine"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A memorial keeps the memory alive.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4858,
+    "fields": {
+      "word": "mentor",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈmɛnˌtɔr",
+      "ipa_us": "ˈmɛntər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người cố vấn",
+      "definition_en": "A person who gives a younger or less experienced person help and advice over a period of time, especially at work or school.",
+      "example_en": "He acted as a mentor to many young actors.",
+      "example_vi": "Ông ấy đóng vai trò là người cố vấn cho nhiều diễn viên trẻ.",
+      "collocations_json": [
+        "act as a mentor",
+        "find a mentor",
+        "trusted mentor"
+      ],
+      "synonyms_json": [
+        "guide",
+        "adviser",
+        "tutor"
+      ],
+      "antonyms_json": [
+        "mentee",
+        "student"
+      ],
+      "mnemonic": "A mentor gives mental guidance.",
+      "frequency_rank": 6500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4859,
+    "fields": {
+      "word": "merchant",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈmɜrʧənt",
+      "ipa_us": "ˈmɜrtʃənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thương gia",
+      "definition_en": "A person whose job is to buy and sell products in large amounts, especially by trading with other countries.",
+      "example_en": "Venice was once a city of rich merchants.",
+      "example_vi": "Venice từng là một thành phố của những thương gia giàu có.",
+      "collocations_json": [
+        "wealthy merchant",
+        "local merchant",
+        "merchant ship"
+      ],
+      "synonyms_json": [
+        "trader",
+        "dealer",
+        "vendor"
+      ],
+      "antonyms_json": [
+        "customer",
+        "buyer"
+      ],
+      "mnemonic": "Merchants trade merchandise.",
+      "frequency_rank": 7000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4860,
+    "fields": {
+      "word": "mercy",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈmɜrsi",
+      "ipa_us": "ˈmɜrsi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lòng thương xót, sự khoan dung",
+      "definition_en": "Kindness that makes you forgive someone, usually someone that you have authority over.",
+      "example_en": "The prisoners pleaded for mercy.",
+      "example_vi": "Các tù nhân đã cầu xin sự khoan dung.",
+      "collocations_json": [
+        "beg for mercy",
+        "show mercy",
+        "at the mercy of"
+      ],
+      "synonyms_json": [
+        "compassion",
+        "clemency",
+        "pity"
+      ],
+      "antonyms_json": [
+        "cruelty",
+        "ruthlessness"
+      ],
+      "mnemonic": "Have mercy on me!",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4861,
+    "fields": {
+      "word": "mere",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "mɪr",
+      "ipa_us": "mɪr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chỉ là, đơn thuần",
+      "definition_en": "Used to emphasize that something is not large or important.",
+      "example_en": "It cost a mere 20 dollars.",
+      "example_vi": "Nó chỉ có giá 20 đô la.",
+      "collocations_json": [
+        "a mere fraction",
+        "the mere thought",
+        "a mere child"
+      ],
+      "synonyms_json": [
+        "only",
+        "simple",
+        "bare"
+      ],
+      "antonyms_json": [
+        "enormous",
+        "substantial"
+      ],
+      "mnemonic": "It's merely a mere scratch.",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4862,
+    "fields": {
+      "word": "merely",
+      "part_of_speech": "adverb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈmɪrli",
+      "ipa_us": "ˈmɪrli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chỉ, đơn thuần",
+      "definition_en": "Used to emphasize that you mean exactly what you are saying and nothing more.",
+      "example_en": "I wasn't complaining, I merely suggested that we leave earlier.",
+      "example_vi": "Tôi không phàn nàn, tôi chỉ đề nghị rằng chúng ta nên rời đi sớm hơn.",
+      "collocations_json": [
+        "merely a suggestion",
+        "not merely",
+        "merely an illusion"
+      ],
+      "synonyms_json": [
+        "only",
+        "simply",
+        "just"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adverb form of mere.",
+      "frequency_rank": 5100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4863,
+    "fields": {
+      "word": "merge",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "mɜrʤ",
+      "ipa_us": "mɜrdʒ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sáp nhập, hợp nhất",
+      "definition_en": "To combine or join together, or to cause things to do this.",
+      "example_en": "They decided to merge the two companies into one.",
+      "example_vi": "Họ quyết định sáp nhập hai công ty thành một.",
+      "collocations_json": [
+        "merge with",
+        "merge into",
+        "decide to merge"
+      ],
+      "synonyms_json": [
+        "combine",
+        "unite",
+        "join"
+      ],
+      "antonyms_json": [
+        "separate",
+        "divide",
+        "split"
+      ],
+      "mnemonic": "When two roads merge, they become one.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4864,
+    "fields": {
+      "word": "merger",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈmɜrʤər",
+      "ipa_us": "ˈmɜrdʒər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự sáp nhập",
+      "definition_en": "An occasion when two or more companies or organizations join together to make one larger company.",
+      "example_en": "The merger between the two banks was successful.",
+      "example_vi": "Sự sáp nhập giữa hai ngân hàng đã thành công.",
+      "collocations_json": [
+        "proposed merger",
+        "merger agreement",
+        "mergers and acquisitions"
+      ],
+      "synonyms_json": [
+        "amalgamation",
+        "consolidation",
+        "union"
+      ],
+      "antonyms_json": [
+        "separation",
+        "split"
+      ],
+      "mnemonic": "Noun form of merge.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4865,
+    "fields": {
+      "word": "merit",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈmɛrət",
+      "ipa_us": "ˈmɛrɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giá trị, công trạng",
+      "definition_en": "The quality of being good and deserving praise.",
+      "example_en": "We should judge each case on its own merits.",
+      "example_vi": "Chúng ta nên đánh giá từng trường hợp dựa trên giá trị riêng của nó.",
+      "collocations_json": [
+        "on its merits",
+        "artistic merit",
+        "judge on merit"
+      ],
+      "synonyms_json": [
+        "worth",
+        "value",
+        "excellence"
+      ],
+      "antonyms_json": [
+        "fault",
+        "flaw",
+        "demerit"
+      ],
+      "mnemonic": "If you have merit, you deserve a merit badge.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4866,
+    "fields": {
+      "word": "methodology",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌmɛθəˈdɑləʤi",
+      "ipa_us": "ˌmɛθəˈdɑlədʒi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phương pháp luận",
+      "definition_en": "A system of ways of doing, teaching, or studying something.",
+      "example_en": "The research methodology is clearly explained in the report.",
+      "example_vi": "Phương pháp luận nghiên cứu được giải thích rõ ràng trong báo cáo.",
+      "collocations_json": [
+        "research methodology",
+        "teaching methodology",
+        "develop a methodology"
+      ],
+      "synonyms_json": [
+        "method",
+        "procedure",
+        "technique"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Method + ology (study of) -> The study of methods.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4867,
+    "fields": {
+      "word": "midst",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "mɪdst",
+      "ipa_us": "mɪdst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ở giữa",
+      "definition_en": "The middle of a group of people or things.",
+      "example_en": "She suddenly felt totally alone in the midst of the crowd.",
+      "example_vi": "Cô đột nhiên cảm thấy hoàn toàn cô đơn giữa đám đông.",
+      "collocations_json": [
+        "in the midst of",
+        "right in the midst"
+      ],
+      "synonyms_json": [
+        "middle",
+        "center",
+        "heart"
+      ],
+      "antonyms_json": [
+        "edge",
+        "periphery"
+      ],
+      "mnemonic": "Midst is in the middle of.",
+      "frequency_rank": 6900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4868,
+    "fields": {
+      "word": "migration",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "maɪˈɡreɪʃən",
+      "ipa_us": "maɪˈɡreɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự di cư",
+      "definition_en": "The process of animals travelling to a different place, usually when the season changes; or the process of people travelling to a new place to live.",
+      "example_en": "The migration of birds is a fascinating phenomenon.",
+      "example_vi": "Sự di cư của các loài chim là một hiện tượng hấp dẫn.",
+      "collocations_json": [
+        "mass migration",
+        "bird migration",
+        "pattern of migration"
+      ],
+      "synonyms_json": [
+        "movement",
+        "relocation",
+        "emigration"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of migrate.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4869,
+    "fields": {
+      "word": "militant",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈmɪlətənt",
+      "ipa_us": "ˈmɪlətənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người hiếu chiến, người tranh đấu",
+      "definition_en": "Active, determined, and often willing to use force.",
+      "example_en": "Militants attacked the government building.",
+      "example_vi": "Những phần tử hiếu chiến đã tấn công tòa nhà chính phủ.",
+      "collocations_json": [
+        "militant group",
+        "armed militant",
+        "political militant"
+      ],
+      "synonyms_json": [
+        "activist",
+        "radical",
+        "extremist"
+      ],
+      "antonyms_json": [
+        "pacifist",
+        "moderate"
+      ],
+      "mnemonic": "Related to military; acting aggressively.",
+      "frequency_rank": 7500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4870,
+    "fields": {
+      "word": "militia",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "məˈlɪʃə",
+      "ipa_us": "məˈlɪʃə",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "dân quân",
+      "definition_en": "A military force whose members are trained soldiers but who often have other jobs.",
+      "example_en": "The local militia was called in to help during the emergency.",
+      "example_vi": "Dân quân địa phương đã được gọi đến để giúp đỡ trong tình huống khẩn cấp.",
+      "collocations_json": [
+        "local militia",
+        "armed militia",
+        "join the militia"
+      ],
+      "synonyms_json": [
+        "paramilitary",
+        "reserves"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Military + civilian -> militia.",
+      "frequency_rank": 8200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4871,
+    "fields": {
+      "word": "mill",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "mɪl",
+      "ipa_us": "mɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cối xay, nhà máy",
+      "definition_en": "A building where grain is crushed into flour; or a factory where a particular substance is produced.",
+      "example_en": "They used a traditional water mill to grind the corn.",
+      "example_vi": "Họ đã sử dụng một cối xay nước truyền thống để nghiền ngô.",
+      "collocations_json": [
+        "cotton mill",
+        "steel mill",
+        "paper mill"
+      ],
+      "synonyms_json": [
+        "factory",
+        "plant",
+        "works"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A windmill mills wheat into flour.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4872,
+    "fields": {
+      "word": "minimal",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈmɪnəməl",
+      "ipa_us": "ˈmɪnəməl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tối thiểu, rất nhỏ",
+      "definition_en": "Very small in amount.",
+      "example_en": "The storm caused minimal damage.",
+      "example_vi": "Cơn bão đã gây ra thiệt hại ở mức tối thiểu.",
+      "collocations_json": [
+        "minimal effort",
+        "minimal impact",
+        "keep to a minimal"
+      ],
+      "synonyms_json": [
+        "slight",
+        "least",
+        "negligible"
+      ],
+      "antonyms_json": [
+        "maximum",
+        "significant",
+        "large"
+      ],
+      "mnemonic": "Related to minimum.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4873,
+    "fields": {
+      "word": "minimize",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈmɪnəˌmaɪz",
+      "ipa_us": "ˈmɪnəˌmaɪz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giảm thiểu, đánh giá thấp",
+      "definition_en": "To reduce something to the least possible level or amount.",
+      "example_en": "We must minimize the risk of infection.",
+      "example_vi": "Chúng ta phải giảm thiểu nguy cơ lây nhiễm.",
+      "collocations_json": [
+        "minimize the risk",
+        "minimize the impact",
+        "minimize costs"
+      ],
+      "synonyms_json": [
+        "reduce",
+        "decrease",
+        "downplay"
+      ],
+      "antonyms_json": [
+        "maximize",
+        "increase",
+        "exaggerate"
+      ],
+      "mnemonic": "To make something MINIMUM.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4874,
+    "fields": {
+      "word": "mining",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈmaɪnɪŋ",
+      "ipa_us": "ˈmaɪnɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khai thác mỏ",
+      "definition_en": "The industry or activity of removing substances such as coal or metal from the ground by digging.",
+      "example_en": "Mining is a major industry in this region.",
+      "example_vi": "Khai thác mỏ là một ngành công nghiệp chính ở khu vực này.",
+      "collocations_json": [
+        "coal mining",
+        "data mining",
+        "mining company"
+      ],
+      "synonyms_json": [
+        "excavation",
+        "extraction"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "The process of digging in a MINE.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4875,
+    "fields": {
+      "word": "ministry",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈmɪnəstri",
+      "ipa_us": "ˈmɪnɪstri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bộ (trong chính phủ)",
+      "definition_en": "In Britain and some other countries, a department of the government led by a minister.",
+      "example_en": "She works for the Ministry of Education.",
+      "example_vi": "Cô ấy làm việc cho Bộ Giáo dục.",
+      "collocations_json": [
+        "Ministry of Defence",
+        "Health Ministry",
+        "government ministry"
+      ],
+      "synonyms_json": [
+        "department",
+        "bureau",
+        "agency"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A minister works in a ministry.",
+      "frequency_rank": 4900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4876,
+    "fields": {
+      "word": "miracle",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈmɪrəkəl",
+      "ipa_us": "ˈmɪrəkəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phép màu",
+      "definition_en": "An unusual and mysterious event that is thought to have been caused by a god.",
+      "example_en": "It's a miracle that he survived the crash.",
+      "example_vi": "Thật là một phép màu khi anh ấy sống sót sau vụ tai nạn.",
+      "collocations_json": [
+        "medical miracle",
+        "perform a miracle",
+        "minor miracle"
+      ],
+      "synonyms_json": [
+        "marvel",
+        "wonder",
+        "phenomenon"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Something amazing that you can't explain.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4877,
+    "fields": {
+      "word": "misery",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈmɪzəri",
+      "ipa_us": "ˈmɪzəri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự khốn khổ, sự bất hạnh",
+      "definition_en": "Great unhappiness.",
+      "example_en": "The war brought misery to millions of people.",
+      "example_vi": "Chiến tranh đã mang lại sự khốn khổ cho hàng triệu người.",
+      "collocations_json": [
+        "human misery",
+        "cause misery",
+        "utter misery"
+      ],
+      "synonyms_json": [
+        "suffering",
+        "distress",
+        "unhappiness"
+      ],
+      "antonyms_json": [
+        "joy",
+        "happiness",
+        "comfort"
+      ],
+      "mnemonic": "Miserable people experience misery.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4878,
+    "fields": {
+      "word": "misleading",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "mɪsˈlidɪŋ",
+      "ipa_us": "mɪsˈlidɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "gây hiểu lầm",
+      "definition_en": "Causing someone to believe something that is not true.",
+      "example_en": "The article was highly misleading.",
+      "example_vi": "Bài báo gây hiểu lầm nghiêm trọng.",
+      "collocations_json": [
+        "highly misleading",
+        "misleading information",
+        "deliberately misleading"
+      ],
+      "synonyms_json": [
+        "deceptive",
+        "confusing",
+        "false"
+      ],
+      "antonyms_json": [
+        "clear",
+        "accurate",
+        "truthful"
+      ],
+      "mnemonic": "Mis- (wrong) + leading -> leading you the wrong way.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4879,
+    "fields": {
+      "word": "missile",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈmɪsəl",
+      "ipa_us": "ˈmɪsəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tên lửa",
+      "definition_en": "A flying weapon that has its own engine so that it can travel a long distance before exploding at the place that it has been aimed at.",
+      "example_en": "The military launched a missile attack.",
+      "example_vi": "Quân đội đã phát động một cuộc tấn công bằng tên lửa.",
+      "collocations_json": [
+        "nuclear missile",
+        "missile attack",
+        "launch a missile"
+      ],
+      "synonyms_json": [
+        "rocket",
+        "projectile",
+        "weapon"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A weapon that misses a lot but destroys when it hits.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4880,
+    "fields": {
+      "word": "mob",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "mɑb",
+      "ipa_us": "mɑb",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đám đông hỗn loạn, băng đảng",
+      "definition_en": "A large, angry crowd, especially one that could easily become violent.",
+      "example_en": "The angry mob burned down the building.",
+      "example_vi": "Đám đông tức giận đã thiêu rụi tòa nhà.",
+      "collocations_json": [
+        "angry mob",
+        "mob violence",
+        "mob rule"
+      ],
+      "synonyms_json": [
+        "crowd",
+        "gang",
+        "riot"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Flash mob (đám đông nhảy múa). Mob là đám đông (thường vô trật tự).",
+      "frequency_rank": 7200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4881,
+    "fields": {
+      "word": "mobility",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "moʊˈbɪləti",
+      "ipa_us": "moʊˈbɪləti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự di động, tính cơ động",
+      "definition_en": "The ability to move freely or be easily moved.",
+      "example_en": "Electric wheelchairs provide greater mobility for disabled people.",
+      "example_vi": "Xe lăn điện cung cấp khả năng di chuyển lớn hơn cho người khuyết tật.",
+      "collocations_json": [
+        "social mobility",
+        "upward mobility",
+        "reduce mobility"
+      ],
+      "synonyms_json": [
+        "movement",
+        "flexibility",
+        "portability"
+      ],
+      "antonyms_json": [
+        "immobility",
+        "stiffness"
+      ],
+      "mnemonic": "Noun form of mobile.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4882,
+    "fields": {
+      "word": "mobilize",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈmoʊbəˌlaɪz",
+      "ipa_us": "ˈmoʊbəˌlaɪz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "huy động, động viên",
+      "definition_en": "To organize or prepare something, such as a group of people, for a purpose.",
+      "example_en": "The government is trying to mobilize public support for the war.",
+      "example_vi": "Chính phủ đang cố gắng huy động sự ủng hộ của công chúng cho cuộc chiến.",
+      "collocations_json": [
+        "mobilize troops",
+        "mobilize resources",
+        "mobilize support"
+      ],
+      "synonyms_json": [
+        "rally",
+        "marshal",
+        "organize"
+      ],
+      "antonyms_json": [
+        "demobilize",
+        "disperse"
+      ],
+      "mnemonic": "To make mobile (ready to move/act).",
+      "frequency_rank": 6900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4883,
+    "fields": {
+      "word": "moderate",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈmɑdərət",
+      "ipa_us": "ˈmɑdərət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vừa phải, có mức độ",
+      "definition_en": "Neither small nor large in size, amount, degree, or strength.",
+      "example_en": "He is a moderate drinker.",
+      "example_vi": "Anh ấy là một người uống rượu vừa phải.",
+      "collocations_json": [
+        "moderate exercise",
+        "moderate amount",
+        "moderate views"
+      ],
+      "synonyms_json": [
+        "medium",
+        "average",
+        "reasonable"
+      ],
+      "antonyms_json": [
+        "extreme",
+        "excessive"
+      ],
+      "mnemonic": "Modern people are often moderate.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4884,
+    "fields": {
+      "word": "modification",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌmɑdəfəˈkeɪʃən",
+      "ipa_us": "ˌmɑdəfɪˈkeɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự sửa đổi",
+      "definition_en": "A change to something, usually to improve it.",
+      "example_en": "The design requires some minor modifications.",
+      "example_vi": "Thiết kế cần một vài sự sửa đổi nhỏ.",
+      "collocations_json": [
+        "make a modification",
+        "minor modification",
+        "genetic modification"
+      ],
+      "synonyms_json": [
+        "change",
+        "alteration",
+        "adjustment"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of modify.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4885,
+    "fields": {
+      "word": "momentum",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "moʊˈmɛntəm",
+      "ipa_us": "moʊˈmɛntəm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "động lượng, đà",
+      "definition_en": "The force that keeps an object moving or keeps an event developing after it has started.",
+      "example_en": "The campaign has been gaining momentum in recent weeks.",
+      "example_vi": "Chiến dịch đã và đang đạt được đà tiến trong những tuần gần đây.",
+      "collocations_json": [
+        "gain momentum",
+        "lose momentum",
+        "gather momentum"
+      ],
+      "synonyms_json": [
+        "impetus",
+        "drive",
+        "energy"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Momentum makes things move in the moment.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4886,
+    "fields": {
+      "word": "monk",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "mʌŋk",
+      "ipa_us": "mʌŋk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tu sĩ, thầy tu",
+      "definition_en": "A member of a group of religious men who do not marry and usually live together in a monastery.",
+      "example_en": "Buddhist monks pray in the temple.",
+      "example_vi": "Các nhà sư Phật giáo cầu nguyện trong đền thờ.",
+      "collocations_json": [
+        "Buddhist monk",
+        "monk's habit"
+      ],
+      "synonyms_json": [
+        "friar",
+        "brother"
+      ],
+      "antonyms_json": [
+        "nun"
+      ],
+      "mnemonic": "Monkey without ey.",
+      "frequency_rank": 7800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4887,
+    "fields": {
+      "word": "monopoly",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "məˈnɑpəli",
+      "ipa_us": "məˈnɑpəli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự độc quyền",
+      "definition_en": "Complete control of something, especially an area of business, so that others have no share.",
+      "example_en": "The government is trying to prevent the company from holding a monopoly.",
+      "example_vi": "Chính phủ đang cố gắng ngăn chặn công ty nắm giữ vị thế độc quyền.",
+      "collocations_json": [
+        "have a monopoly",
+        "state monopoly",
+        "monopoly on"
+      ],
+      "synonyms_json": [
+        "domination",
+        "control"
+      ],
+      "antonyms_json": [
+        "competition",
+        "sharing"
+      ],
+      "mnemonic": "Mono (one) + poly (sell) -> Only one seller.",
+      "frequency_rank": 6600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4888,
+    "fields": {
+      "word": "morality",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "məˈræləti",
+      "ipa_us": "məˈræləti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đạo đức",
+      "definition_en": "A set of personal or social standards for good or bad behaviour and character.",
+      "example_en": "They debated the morality of cloning.",
+      "example_vi": "Họ đã tranh luận về tính đạo đức của việc nhân bản vô tính.",
+      "collocations_json": [
+        "sense of morality",
+        "public morality",
+        "decline in morality"
+      ],
+      "synonyms_json": [
+        "ethics",
+        "virtue",
+        "goodness"
+      ],
+      "antonyms_json": [
+        "immorality",
+        "wickedness"
+      ],
+      "mnemonic": "Noun form of moral.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4889,
+    "fields": {
+      "word": "motive",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈmoʊtɪv",
+      "ipa_us": "ˈmoʊtɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "động cơ (hành động)",
+      "definition_en": "A reason for doing something.",
+      "example_en": "The police are still looking for a motive for the murder.",
+      "example_vi": "Cảnh sát vẫn đang tìm kiếm động cơ cho vụ giết người.",
+      "collocations_json": [
+        "ulterior motive",
+        "hidden motive",
+        "motive for"
+      ],
+      "synonyms_json": [
+        "reason",
+        "purpose",
+        "intention"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "What moves you to act is your motive.",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4890,
+    "fields": {
+      "word": "motorist",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈmoʊtərɪst",
+      "ipa_us": "ˈmoʊtərɪst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người lái xe ô tô",
+      "definition_en": "A person who drives a car.",
+      "example_en": "A passing motorist stopped to help.",
+      "example_vi": "Một người lái xe ô tô đi ngang qua đã dừng lại để giúp đỡ.",
+      "collocations_json": [
+        "passing motorist",
+        "careless motorist"
+      ],
+      "synonyms_json": [
+        "driver"
+      ],
+      "antonyms_json": [
+        "pedestrian"
+      ],
+      "mnemonic": "Someone who drives a motor (car).",
+      "frequency_rank": 7300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4891,
+    "fields": {
+      "word": "municipal",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "mjuˈnɪsəpəl",
+      "ipa_us": "mjuˈnɪsəpəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về đô thị, thành phố",
+      "definition_en": "Of or belonging to a town or city.",
+      "example_en": "The municipal library is open every day.",
+      "example_vi": "Thư viện thành phố mở cửa mỗi ngày.",
+      "collocations_json": [
+        "municipal government",
+        "municipal elections",
+        "municipal council"
+      ],
+      "synonyms_json": [
+        "civic",
+        "urban",
+        "city"
+      ],
+      "antonyms_json": [
+        "rural",
+        "national"
+      ],
+      "mnemonic": "A municipality is a city.",
+      "frequency_rank": 6400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4892,
+    "fields": {
+      "word": "mutual",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈmjuʧuəl",
+      "ipa_us": "ˈmjuʧuəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lẫn nhau, chung",
+      "definition_en": "Feeling the same emotion, or doing the same thing to or for each other.",
+      "example_en": "They share a mutual respect for each other.",
+      "example_vi": "Họ dành sự tôn trọng lẫn nhau cho nhau.",
+      "collocations_json": [
+        "mutual respect",
+        "mutual agreement",
+        "mutual friend"
+      ],
+      "synonyms_json": [
+        "reciprocal",
+        "shared",
+        "common"
+      ],
+      "antonyms_json": [
+        "one-sided",
+        "exclusive"
+      ],
+      "mnemonic": "Mutual feelings are felt by M E and YOU.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4893,
+    "fields": {
+      "word": "namely",
+      "part_of_speech": "adverb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈneɪmli",
+      "ipa_us": "ˈneɪmli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cụ thể là, đó là",
+      "definition_en": "Used when you want to give more detail or be more exact about something you have just said.",
+      "example_en": "I learned an important lesson, namely that hard work pays off.",
+      "example_vi": "Tôi đã học được một bài học quan trọng, cụ thể là làm việc chăm chỉ sẽ được đền đáp.",
+      "collocations_json": [
+        "namely that"
+      ],
+      "synonyms_json": [
+        "specifically",
+        "viz",
+        "that is to say"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "To NAME exactly what you mean.",
+      "frequency_rank": 6100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4894,
+    "fields": {
+      "word": "nationwide",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈneɪʃənˈwaɪd",
+      "ipa_us": "ˈneɪʃənˈwaɪd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "toàn quốc",
+      "definition_en": "Existing or happening in all parts of a particular country.",
+      "example_en": "There was a nationwide search for the missing child.",
+      "example_vi": "Đã có một cuộc tìm kiếm toàn quốc đối với đứa trẻ mất tích.",
+      "collocations_json": [
+        "nationwide search",
+        "nationwide campaign",
+        "nationwide broadcast"
+      ],
+      "synonyms_json": [
+        "national",
+        "countrywide"
+      ],
+      "antonyms_json": [
+        "local",
+        "regional"
+      ],
+      "mnemonic": "Nation (quốc gia) + wide (rộng) -> Rộng khắp quốc gia.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4895,
+    "fields": {
+      "word": "naval",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈneɪvəl",
+      "ipa_us": "ˈneɪvəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về hải quân",
+      "definition_en": "Belonging to a country's navy, or relating to military ships.",
+      "example_en": "He is a naval officer.",
+      "example_vi": "Anh ấy là một sĩ quan hải quân.",
+      "collocations_json": [
+        "naval base",
+        "naval officer",
+        "naval fleet"
+      ],
+      "synonyms_json": [
+        "nautical",
+        "marine",
+        "maritime"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adjective form of navy.",
+      "frequency_rank": 7600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4896,
+    "fields": {
+      "word": "neglect",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "nəˈɡlɛkt",
+      "ipa_us": "nɪˈɡlɛkt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sao nhãng, bỏ bê",
+      "definition_en": "To not give enough care or attention to people or things that are your responsibility.",
+      "example_en": "He neglected his studies and failed the exams.",
+      "example_vi": "Anh ấy đã sao nhãng việc học và trượt các kỳ thi.",
+      "collocations_json": [
+        "neglect your duties",
+        "child neglect",
+        "suffer from neglect"
+      ],
+      "synonyms_json": [
+        "ignore",
+        "disregard",
+        "overlook"
+      ],
+      "antonyms_json": [
+        "care for",
+        "attend to",
+        "nurture"
+      ],
+      "mnemonic": "Ne (not) + glect (gather) -> Not gathering attention to something.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4897,
+    "fields": {
+      "word": "neighbouring",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "neighbouring",
+      "ipa_us": "ˈneɪbərɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "láng giềng, kế bên",
+      "definition_en": "Places that are neighbouring are next to or near each other.",
+      "example_en": "We visited several neighbouring towns.",
+      "example_vi": "Chúng tôi đã đến thăm một số thị trấn láng giềng.",
+      "collocations_json": [
+        "neighbouring countries",
+        "neighbouring towns"
+      ],
+      "synonyms_json": [
+        "adjacent",
+        "nearby",
+        "bordering"
+      ],
+      "antonyms_json": [
+        "distant",
+        "remote"
+      ],
+      "mnemonic": "Adjective form of neighbour.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4898,
+    "fields": {
+      "word": "nest",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "animals",
+      "ipa_uk": "nɛst",
+      "ipa_us": "nɛst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tổ (chim), hang ổ",
+      "definition_en": "A structure built by birds or insects to leave their eggs in to develop.",
+      "example_en": "The bird built a nest in the tree.",
+      "example_vi": "Con chim đã xây một cái tổ trên cây.",
+      "collocations_json": [
+        "bird's nest",
+        "build a nest",
+        "empty nest"
+      ],
+      "synonyms_json": [
+        "den",
+        "roost"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Birds rest in a nest.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4899,
+    "fields": {
+      "word": "net",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "nɛt",
+      "ipa_us": "nɛt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thực (thu nhập), mạng lưới",
+      "definition_en": "Left when there is nothing else to be subtracted.",
+      "example_en": "What is your net income after tax?",
+      "example_vi": "Thu nhập thực của bạn sau thuế là bao nhiêu?",
+      "collocations_json": [
+        "net profit",
+        "net income",
+        "net weight"
+      ],
+      "synonyms_json": [
+        "final",
+        "clear"
+      ],
+      "antonyms_json": [
+        "gross"
+      ],
+      "mnemonic": "A net catches what is left over.",
+      "frequency_rank": 5000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4900,
+    "fields": {
+      "word": "newsletter",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈnuˌzlɛtər",
+      "ipa_us": "ˈnuzˌlɛtər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bản tin (thường gửi qua email)",
+      "definition_en": "A printed or electronic document containing information about the recent activities of an organization, sent regularly to its members.",
+      "example_en": "I subscribe to a weekly newsletter about technology.",
+      "example_vi": "Tôi đăng ký nhận một bản tin hàng tuần về công nghệ.",
+      "collocations_json": [
+        "subscribe to a newsletter",
+        "monthly newsletter",
+        "email newsletter"
+      ],
+      "synonyms_json": [
+        "bulletin",
+        "dispatch"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A letter containing news.",
+      "frequency_rank": 7200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4901,
+    "fields": {
+      "word": "niche",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "nɪʧ",
+      "ipa_us": "niʃ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thị trường ngách, chỗ thích hợp",
+      "definition_en": "A job or position that is very suitable for someone; or an area or position that is exactly suitable for a small group of the same type.",
+      "example_en": "He eventually found his niche in sports journalism.",
+      "example_vi": "Cuối cùng anh ấy đã tìm thấy vị trí thích hợp của mình trong lĩnh vực báo chí thể thao.",
+      "collocations_json": [
+        "find a niche",
+        "niche market",
+        "carve out a niche"
+      ],
+      "synonyms_json": [
+        "calling",
+        "specialty",
+        "corner"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Rhymes with rich. Find your niche to get rich.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4902,
+    "fields": {
+      "word": "noble",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈnoʊbəl",
+      "ipa_us": "ˈnoʊbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cao quý, quý tộc",
+      "definition_en": "Moral in an honest, brave, and kind way; or belonging to a high social rank in a society.",
+      "example_en": "It was a noble effort, even if it failed.",
+      "example_vi": "Đó là một nỗ lực cao quý, ngay cả khi nó thất bại.",
+      "collocations_json": [
+        "noble cause",
+        "noble birth",
+        "noble gesture"
+      ],
+      "synonyms_json": [
+        "honorable",
+        "aristocratic",
+        "magnificent"
+      ],
+      "antonyms_json": [
+        "ignoble",
+        "base",
+        "common"
+      ],
+      "mnemonic": "Nobles are noble (aristocratic).",
+      "frequency_rank": 5900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4903,
+    "fields": {
+      "word": "nod",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "nɑd",
+      "ipa_us": "nɑd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "gật đầu",
+      "definition_en": "To move your head down and then up, sometimes several times, especially to show agreement, approval, or greeting.",
+      "example_en": "She nodded in agreement.",
+      "example_vi": "Cô ấy gật đầu đồng ý.",
+      "collocations_json": [
+        "nod your head",
+        "nod in agreement",
+        "nod off"
+      ],
+      "synonyms_json": [
+        "bow",
+        "signal",
+        "acknowledge"
+      ],
+      "antonyms_json": [
+        "shake (head)"
+      ],
+      "mnemonic": "Nod to say yes.",
+      "frequency_rank": 4700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

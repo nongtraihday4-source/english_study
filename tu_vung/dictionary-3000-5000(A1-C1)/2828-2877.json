@@ -1,0 +1,1950 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 2828,
+    "fields": {
+      "word": "crisis",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈkraɪsəs",
+      "ipa_us": "ˈkraɪsɪs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khủng hoảng",
+      "definition_en": "A time of great disagreement, confusion, or suffering.",
+      "example_en": "The country's leadership is in crisis.",
+      "example_vi": "Sự lãnh đạo của đất nước đang trong tình trạng khủng hoảng.",
+      "collocations_json": [
+        "financial crisis",
+        "economic crisis",
+        "in a state of crisis"
+      ],
+      "synonyms_json": [
+        "emergency",
+        "disaster",
+        "catastrophe"
+      ],
+      "antonyms_json": [
+        "peace",
+        "calm",
+        "stability"
+      ],
+      "mnemonic": "Khi khóc rải (cri) xít (sis) khắp nơi là lúc bạn đang gặp khủng hoảng (crisis) tồi tệ.",
+      "frequency_rank": 1500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2829,
+    "fields": {
+      "word": "criterion",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "kraɪˈtɪriən",
+      "ipa_us": "kraɪˈtɪriən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tiêu chí, chuẩn mực",
+      "definition_en": "A standard by which you judge, decide about, or deal with something.",
+      "example_en": "The Health Service should not be judged by financial criteria alone.",
+      "example_vi": "Dịch vụ Y tế không nên chỉ được đánh giá bằng các tiêu chí tài chính.",
+      "collocations_json": [
+        "meet the criteria",
+        "main criterion",
+        "strict criteria"
+      ],
+      "synonyms_json": [
+        "standard",
+        "measure",
+        "benchmark"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Krai (Cry) ty (ti) ri ơn (on) -> Khóc tí ri ơn vì không đạt tiêu chí (criterion).",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2830,
+    "fields": {
+      "word": "critic",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "art",
+      "ipa_uk": "ˈkrɪtɪk",
+      "ipa_us": "ˈkrɪtɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhà phê bình, người chỉ trích",
+      "definition_en": "Someone who says that they do not approve of someone or something; someone whose job is to give their opinion about something, especially films, books, music, etc.",
+      "example_en": "She's a film critic for a national newspaper.",
+      "example_vi": "Cô ấy là nhà phê bình phim cho một tờ báo quốc gia.",
+      "collocations_json": [
+        "film critic",
+        "fierce critic",
+        "music critic"
+      ],
+      "synonyms_json": [
+        "reviewer",
+        "commentator",
+        "judge"
+      ],
+      "antonyms_json": [
+        "supporter",
+        "fan"
+      ],
+      "mnemonic": "Từ này có nghĩa là nhà phê bình. Tính từ của nó là critical.",
+      "frequency_rank": 3200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2831,
+    "fields": {
+      "word": "critical",
+      "part_of_speech": "adjective",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈkrɪtɪkəl",
+      "ipa_us": "ˈkrɪtɪkl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phê phán, rất quan trọng",
+      "definition_en": "Saying that someone or something is bad or wrong; of the greatest importance to the way things might happen.",
+      "example_en": "The report is highly critical of safety standards at the factory.",
+      "example_vi": "Báo cáo này chỉ trích mạnh mẽ các tiêu chuẩn an toàn tại nhà máy.",
+      "collocations_json": [
+        "critical thinking",
+        "highly critical",
+        "critical condition"
+      ],
+      "synonyms_json": [
+        "crucial",
+        "vital",
+        "disapproving"
+      ],
+      "antonyms_json": [
+        "unimportant",
+        "complimentary"
+      ],
+      "mnemonic": "Tính từ của critic (nhà phê bình). Critical thinking là tư duy phản biện.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2832,
+    "fields": {
+      "word": "criticism",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈkrɪtɪˌsɪzəm",
+      "ipa_us": "ˈkrɪtɪsɪzəm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự phê bình, sự chỉ trích",
+      "definition_en": "The act of saying that something or someone is bad.",
+      "example_en": "I have a few criticisms to make about your speech.",
+      "example_vi": "Tôi có một vài lời phê bình về bài phát biểu của bạn.",
+      "collocations_json": [
+        "constructive criticism",
+        "harsh criticism",
+        "face criticism"
+      ],
+      "synonyms_json": [
+        "disapproval",
+        "condemnation",
+        "censure"
+      ],
+      "antonyms_json": [
+        "praise",
+        "approval",
+        "compliment"
+      ],
+      "mnemonic": "Đuôi -ism thường chỉ một học thuyết, tư tưởng, hoặc hành động. Criticism là sự phê phán.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2833,
+    "fields": {
+      "word": "criticize",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈkrɪtɪˌsaɪz",
+      "ipa_us": "ˈkrɪtɪsaɪz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chỉ trích, phê bình",
+      "definition_en": "To express disapproval of someone or something.",
+      "example_en": "The government is being widely criticized in the media.",
+      "example_vi": "Chính phủ đang bị truyền thông chỉ trích rộng rãi.",
+      "collocations_json": [
+        "heavily criticize",
+        "openly criticize",
+        "criticize someone for"
+      ],
+      "synonyms_json": [
+        "blame",
+        "condemn",
+        "attack"
+      ],
+      "antonyms_json": [
+        "praise",
+        "commend",
+        "approve"
+      ],
+      "mnemonic": "Động từ của critic (nhà phê bình). Criticize: thực hiện hành động phê bình.",
+      "frequency_rank": 2700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2834,
+    "fields": {
+      "word": "crop",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "vegetables",
+      "ipa_uk": "krɑp",
+      "ipa_us": "krɑːp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vụ mùa, cây trồng",
+      "definition_en": "A plant such as a grain, fruit, or vegetable grown in large amounts.",
+      "example_en": "The main crops grown in this area are wheat and barley.",
+      "example_vi": "Các loại cây trồng chính được trồng ở khu vực này là lúa mì và lúa mạch.",
+      "collocations_json": [
+        "cash crop",
+        "crop failure",
+        "bumper crop"
+      ],
+      "synonyms_json": [
+        "harvest",
+        "yield",
+        "produce"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Crop (cắt ngắn) trong Photoshop giống như thu hoạch vụ mùa (crop).",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2835,
+    "fields": {
+      "word": "crucial",
+      "part_of_speech": "adjective",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈkruʃəl",
+      "ipa_us": "ˈkruːʃl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chủ yếu, cốt yếu",
+      "definition_en": "Extremely important or necessary.",
+      "example_en": "Her work has been crucial to the project's success.",
+      "example_vi": "Công việc của cô ấy có ý nghĩa cốt yếu đối với sự thành công của dự án.",
+      "collocations_json": [
+        "crucial role",
+        "crucial factor",
+        "absolutely crucial"
+      ],
+      "synonyms_json": [
+        "vital",
+        "essential",
+        "critical"
+      ],
+      "antonyms_json": [
+        "unimportant",
+        "trivial",
+        "insignificant"
+      ],
+      "mnemonic": "Crucial có âm giống 'cứu'. Những lúc nguy cấp thì sự cứu giúp là vô cùng quan trọng (crucial).",
+      "frequency_rank": 1800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2836,
+    "fields": {
+      "word": "cry",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "kraɪ",
+      "ipa_us": "kraɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tiếng kêu, tiếng khóc",
+      "definition_en": "A loud, high sound that expresses an emotion; a shout.",
+      "example_en": "I heard a cry for help from the river.",
+      "example_vi": "Tôi nghe thấy tiếng kêu cứu từ dưới sông.",
+      "collocations_json": [
+        "have a good cry",
+        "cry for help",
+        "far cry"
+      ],
+      "synonyms_json": [
+        "shout",
+        "scream",
+        "yell"
+      ],
+      "antonyms_json": [
+        "whisper",
+        "laugh"
+      ],
+      "mnemonic": "Cry dùng như danh từ mang nghĩa tiếng kêu lớn hoặc tiếng khóc.",
+      "frequency_rank": 2000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2837,
+    "fields": {
+      "word": "cure",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "medical",
+      "ipa_uk": "kjʊr",
+      "ipa_us": "kjʊr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chữa trị",
+      "definition_en": "To make someone with an illness healthy again.",
+      "example_en": "At present there is no known way to cure the disease.",
+      "example_vi": "Hiện tại không có cách nào được biết đến để chữa khỏi căn bệnh này.",
+      "collocations_json": [
+        "cure a disease",
+        "cure someone of",
+        "miracle cure"
+      ],
+      "synonyms_json": [
+        "heal",
+        "treat",
+        "remedy"
+      ],
+      "antonyms_json": [
+        "infect",
+        "worsen"
+      ],
+      "mnemonic": "Cure nghe như 'cứu rỗi'. Chữa trị cho bệnh nhân là đang cứu rỗi (cure) họ.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2838,
+    "fields": {
+      "word": "current",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "nature",
+      "ipa_uk": "ˈkɜrənt",
+      "ipa_us": "ˈkɜːrənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "dòng chảy, dòng điện",
+      "definition_en": "A movement of water, air, or electricity in a particular direction.",
+      "example_en": "He was swept out to sea by the strong current.",
+      "example_vi": "Anh ấy bị cuốn ra biển bởi dòng chảy mạnh.",
+      "collocations_json": [
+        "strong current",
+        "ocean current",
+        "electric current"
+      ],
+      "synonyms_json": [
+        "flow",
+        "stream",
+        "tide"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Current ngoài nghĩa là 'hiện tại' còn có nghĩa là 'dòng chảy' (nước, không khí, điện).",
+      "frequency_rank": 2100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2839,
+    "fields": {
+      "word": "curve",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "kɜrv",
+      "ipa_us": "kɜːrv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đường cong, đường vòng",
+      "definition_en": "A line that bends continuously and has no straight parts.",
+      "example_en": "The road has a sharp curve in it.",
+      "example_vi": "Con đường có một khúc cua gắt.",
+      "collocations_json": [
+        "sharp curve",
+        "learning curve",
+        "gentle curve"
+      ],
+      "synonyms_json": [
+        "bend",
+        "arc",
+        "turn"
+      ],
+      "antonyms_json": [
+        "straight line"
+      ],
+      "mnemonic": "Curve (cơ - vờ) -> đường cong uốn lượn.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2840,
+    "fields": {
+      "word": "curved",
+      "part_of_speech": "adjective",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "kɜrvd",
+      "ipa_us": "kɜːrvd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bị uốn cong",
+      "definition_en": "Having the shape of a curve.",
+      "example_en": "The building has a beautifully curved roof.",
+      "example_vi": "Tòa nhà có mái vòm uốn cong rất đẹp.",
+      "collocations_json": [
+        "curved line",
+        "curved surface",
+        "curved shape"
+      ],
+      "synonyms_json": [
+        "bent",
+        "arched",
+        "rounded"
+      ],
+      "antonyms_json": [
+        "straight",
+        "flat"
+      ],
+      "mnemonic": "Tính từ của curve (uốn cong).",
+      "frequency_rank": 4500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2841,
+    "fields": {
+      "word": "date",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "deɪt",
+      "ipa_us": "deɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hẹn hò",
+      "definition_en": "To regularly spend time with someone you have a romantic relationship with.",
+      "example_en": "They've been dating for a long time.",
+      "example_vi": "Họ đã hẹn hò được một thời gian dài.",
+      "collocations_json": [
+        "start dating",
+        "be dating someone"
+      ],
+      "synonyms_json": [
+        "go out with",
+        "see"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Date là ngày tháng. Dành một ngày (date) để đi chơi với ai đó là hẹn hò (date).",
+      "frequency_rank": 1500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2842,
+    "fields": {
+      "word": "debate",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dəˈbeɪt",
+      "ipa_us": "dɪˈbeɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cuộc tranh luận",
+      "definition_en": "Serious discussion of a subject in which many people take part.",
+      "example_en": "There is a heated debate about the new law.",
+      "example_vi": "Đang có một cuộc tranh luận sôi nổi về luật mới.",
+      "collocations_json": [
+        "heated debate",
+        "public debate",
+        "open to debate"
+      ],
+      "synonyms_json": [
+        "discussion",
+        "argument",
+        "dispute"
+      ],
+      "antonyms_json": [
+        "agreement",
+        "consensus"
+      ],
+      "mnemonic": "Để (de) bé (ba) tự (te) do phát biểu trong cuộc tranh luận (debate).",
+      "frequency_rank": 1900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2843,
+    "fields": {
+      "word": "debt",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "dɛt",
+      "ipa_us": "det",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khoản nợ",
+      "definition_en": "Something, especially money, that is owed to someone else.",
+      "example_en": "He managed to pay off his debts in two years.",
+      "example_vi": "Anh ấy đã xoay sở để trả hết các khoản nợ của mình trong vòng hai năm.",
+      "collocations_json": [
+        "pay off a debt",
+        "in debt",
+        "national debt"
+      ],
+      "synonyms_json": [
+        "liability",
+        "obligation",
+        "arrears"
+      ],
+      "antonyms_json": [
+        "asset",
+        "credit"
+      ],
+      "mnemonic": "Chữ 'b' bị câm. Vay tiền thì phải trả nợ (debt).",
+      "frequency_rank": 2400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2844,
+    "fields": {
+      "word": "decent",
+      "part_of_speech": "adjective",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈdisənt",
+      "ipa_us": "ˈdiːsnt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tử tế, đứng đắn",
+      "definition_en": "Socially acceptable or good.",
+      "example_en": "Everyone should be entitled to a decent wage.",
+      "example_vi": "Mọi người đều có quyền được hưởng một mức lương xứng đáng.",
+      "collocations_json": [
+        "decent job",
+        "decent person",
+        "decent amount"
+      ],
+      "synonyms_json": [
+        "respectable",
+        "proper",
+        "fair"
+      ],
+      "antonyms_json": [
+        "indecent",
+        "inappropriate",
+        "poor"
+      ],
+      "mnemonic": "Đi sần (decent) sật ngoài đường nhưng tâm hồn rất tử tế (decent).",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2845,
+    "fields": {
+      "word": "declare",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɪˈklɛr",
+      "ipa_us": "dɪˈkler",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tuyên bố, công bố",
+      "definition_en": "To announce something clearly, firmly, publicly, or officially.",
+      "example_en": "They declared their support for the proposal.",
+      "example_vi": "Họ tuyên bố ủng hộ đề xuất này.",
+      "collocations_json": [
+        "declare war",
+        "declare independence",
+        "publicly declare"
+      ],
+      "synonyms_json": [
+        "announce",
+        "state",
+        "proclaim"
+      ],
+      "antonyms_json": [
+        "conceal",
+        "hide",
+        "deny"
+      ],
+      "mnemonic": "Đề (de) cờ le (clare) bay phấp phới khi tuyên bố (declare) chiến thắng.",
+      "frequency_rank": 2100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2846,
+    "fields": {
+      "word": "decline",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "dɪˈklaɪn",
+      "ipa_us": "dɪˈklaɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "suy giảm, từ chối",
+      "definition_en": "To gradually become less, worse, or lower; to refuse.",
+      "example_en": "His interest in the project declined after his wife died.",
+      "example_vi": "Sự quan tâm của ông ấy đối với dự án đã giảm sút sau khi vợ ông qua đời.",
+      "collocations_json": [
+        "decline an offer",
+        "sharply decline",
+        "decline in popularity"
+      ],
+      "synonyms_json": [
+        "decrease",
+        "diminish",
+        "refuse"
+      ],
+      "antonyms_json": [
+        "increase",
+        "accept",
+        "rise"
+      ],
+      "mnemonic": "Đi (de) cline (cờ lai) -> Lên đường đi xa khiến sức khỏe suy giảm (decline).",
+      "frequency_rank": 2300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2847,
+    "fields": {
+      "word": "decoration",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˌdɛkəˈreɪʃən",
+      "ipa_us": "ˌdekəˈreɪʃn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự trang trí, đồ trang trí",
+      "definition_en": "The activity of making something look more attractive by putting things on it, or something that you put on something to make it look attractive.",
+      "example_en": "They put up Christmas decorations in the office.",
+      "example_vi": "Họ treo đồ trang trí Giáng sinh trong văn phòng.",
+      "collocations_json": [
+        "Christmas decoration",
+        "interior decoration",
+        "floral decoration"
+      ],
+      "synonyms_json": [
+        "ornament",
+        "adornment",
+        "embellishment"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Động từ decorate (trang trí) -> Decoration (sự trang trí).",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2848,
+    "fields": {
+      "word": "decrease",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈdiˌkris",
+      "ipa_us": "dɪˈkriːs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "làm giảm, giảm bớt",
+      "definition_en": "To become less, or to make something become less.",
+      "example_en": "Our share of the market has decreased sharply this year.",
+      "example_vi": "Thị phần của chúng ta đã giảm mạnh trong năm nay.",
+      "collocations_json": [
+        "decrease steadily",
+        "decrease significantly",
+        "decrease the risk"
+      ],
+      "synonyms_json": [
+        "reduce",
+        "lessen",
+        "drop"
+      ],
+      "antonyms_json": [
+        "increase",
+        "grow",
+        "expand"
+      ],
+      "mnemonic": "In-crease là tăng, De-crease là giảm.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2849,
+    "fields": {
+      "word": "deeply",
+      "part_of_speech": "adverb",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈdipli",
+      "ipa_us": "ˈdiːpli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sâu sắc, hết sức",
+      "definition_en": "Extremely or strongly.",
+      "example_en": "I am deeply grateful for your help.",
+      "example_vi": "Tôi hết sức biết ơn sự giúp đỡ của bạn.",
+      "collocations_json": [
+        "deeply care",
+        "deeply regret",
+        "breathe deeply"
+      ],
+      "synonyms_json": [
+        "profoundly",
+        "intensely",
+        "greatly"
+      ],
+      "antonyms_json": [
+        "slightly",
+        "superficially"
+      ],
+      "mnemonic": "Trạng từ của deep (sâu). Dùng để nhấn mạnh mức độ tình cảm, cảm xúc.",
+      "frequency_rank": 2200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2850,
+    "fields": {
+      "word": "defeat",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɪˈfit",
+      "ipa_us": "dɪˈfiːt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đánh bại, sự thất bại",
+      "definition_en": "To win against someone in a fight, war, or competition.",
+      "example_en": "They defeated the Italian team and reached the final.",
+      "example_vi": "Họ đã đánh bại đội tuyển Ý và lọt vào trận chung kết.",
+      "collocations_json": [
+        "narrowly defeat",
+        "comprehensively defeat",
+        "admit defeat"
+      ],
+      "synonyms_json": [
+        "beat",
+        "conquer",
+        "overcome"
+      ],
+      "antonyms_json": [
+        "lose",
+        "surrender"
+      ],
+      "mnemonic": "Đi (de) phít (feat) đối thủ nên đối thủ đã bị đánh bại (defeat).",
+      "frequency_rank": 2500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2851,
+    "fields": {
+      "word": "defence",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɪˈfɛns",
+      "ipa_us": "dɪˈfens",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự phòng thủ, biện hộ",
+      "definition_en": "Protection or support against attack, criticism, or infection.",
+      "example_en": "The immune system is our body's main defence against infection.",
+      "example_vi": "Hệ thống miễn dịch là hàng rào phòng thủ chính của cơ thể chúng ta chống lại sự nhiễm trùng.",
+      "collocations_json": [
+        "national defence",
+        "in defence of",
+        "strong defence"
+      ],
+      "synonyms_json": [
+        "protection",
+        "guard",
+        "shield"
+      ],
+      "antonyms_json": [
+        "attack",
+        "offense"
+      ],
+      "mnemonic": "Danh từ của defend (phòng thủ). (Anh-Mỹ viết là defense).",
+      "frequency_rank": 1900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2852,
+    "fields": {
+      "word": "defend",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɪˈfɛnd",
+      "ipa_us": "dɪˈfend",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bảo vệ, phòng thủ",
+      "definition_en": "To protect someone or something against attack or criticism.",
+      "example_en": "She stood up to defend her friend.",
+      "example_vi": "Cô ấy đứng lên để bảo vệ bạn mình.",
+      "collocations_json": [
+        "defend against",
+        "defend a title",
+        "successfully defend"
+      ],
+      "synonyms_json": [
+        "protect",
+        "guard",
+        "shield"
+      ],
+      "antonyms_json": [
+        "attack",
+        "assault",
+        "abandon"
+      ],
+      "mnemonic": "Defender (hậu vệ) là người bảo vệ khung thành trong bóng đá.",
+      "frequency_rank": 2200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2853,
+    "fields": {
+      "word": "delay",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "dɪˈleɪ",
+      "ipa_us": "dɪˈleɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trì hoãn, làm chậm trễ",
+      "definition_en": "To make something happen at a later time than originally planned or expected.",
+      "example_en": "My flight was delayed by two hours.",
+      "example_vi": "Chuyến bay của tôi đã bị hoãn lại hai giờ.",
+      "collocations_json": [
+        "delay a decision",
+        "apologize for the delay",
+        "slight delay"
+      ],
+      "synonyms_json": [
+        "postpone",
+        "put off",
+        "hold up"
+      ],
+      "antonyms_json": [
+        "advance",
+        "hurry",
+        "expedite"
+      ],
+      "mnemonic": "Đi (de) lây (lay) bệnh thì sẽ bị trì hoãn công việc.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2854,
+    "fields": {
+      "word": "deliberate",
+      "part_of_speech": "adjective",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɪˈlɪbərət",
+      "ipa_us": "dɪˈlɪbərət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cố ý, có chủ tâm",
+      "definition_en": "Done consciously and intentionally.",
+      "example_en": "It was a deliberate attempt to provoke him.",
+      "example_vi": "Đó là một nỗ lực cố ý nhằm chọc giận anh ta.",
+      "collocations_json": [
+        "deliberate attempt",
+        "deliberate choice",
+        "deliberate action"
+      ],
+      "synonyms_json": [
+        "intentional",
+        "calculated",
+        "planned"
+      ],
+      "antonyms_json": [
+        "accidental",
+        "unintentional",
+        "chance"
+      ],
+      "mnemonic": "Để (de) ly (li) bia (be) rớt (rate) là cố ý chứ không phải vô tình.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2855,
+    "fields": {
+      "word": "deliberately",
+      "part_of_speech": "adverb",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɪˈlɪbərətli",
+      "ipa_us": "dɪˈlɪbərətli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một cách cố ý",
+      "definition_en": "Intentionally or planned.",
+      "example_en": "I'm sure he says these things deliberately to annoy me.",
+      "example_vi": "Tôi chắc chắn anh ta nói những điều này một cách cố ý để làm tôi bực mình.",
+      "collocations_json": [
+        "deliberately ignore",
+        "act deliberately",
+        "deliberately vague"
+      ],
+      "synonyms_json": [
+        "intentionally",
+        "on purpose",
+        "knowingly"
+      ],
+      "antonyms_json": [
+        "accidentally",
+        "unintentionally",
+        "by chance"
+      ],
+      "mnemonic": "Trạng từ của deliberate (cố ý).",
+      "frequency_rank": 3000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2856,
+    "fields": {
+      "word": "delight",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "dɪˈlaɪt",
+      "ipa_us": "dɪˈlaɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "làm vui thích, sự vui thích",
+      "definition_en": "To give someone great pleasure or satisfaction.",
+      "example_en": "The new comedy show delighted the audience.",
+      "example_vi": "Chương trình hài kịch mới đã làm vui thích khán giả.",
+      "collocations_json": [
+        "take delight in",
+        "great delight",
+        "to my delight"
+      ],
+      "synonyms_json": [
+        "please",
+        "charm",
+        "thrill"
+      ],
+      "antonyms_json": [
+        "disappoint",
+        "dismay",
+        "displease"
+      ],
+      "mnemonic": "Đi (de) lại (light) rất nhiều lần vì quá vui thích với nơi này.",
+      "frequency_rank": 3200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2857,
+    "fields": {
+      "word": "delighted",
+      "part_of_speech": "adjective",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "dɪˈlaɪtəd",
+      "ipa_us": "dɪˈlaɪtɪd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "rất vui mừng",
+      "definition_en": "Very pleased.",
+      "example_en": "I'm delighted to hear that you got the job.",
+      "example_vi": "Tôi rất vui mừng khi biết bạn đã nhận được công việc.",
+      "collocations_json": [
+        "absolutely delighted",
+        "delighted with",
+        "delighted to meet"
+      ],
+      "synonyms_json": [
+        "glad",
+        "thrilled",
+        "overjoyed"
+      ],
+      "antonyms_json": [
+        "disappointed",
+        "sad",
+        "unhappy"
+      ],
+      "mnemonic": "Tính từ (cảm xúc) của delight (làm vui thích).",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2858,
+    "fields": {
+      "word": "delivery",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "dɪˈlɪvəri",
+      "ipa_us": "dɪˈlɪvəri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự giao hàng",
+      "definition_en": "The act of taking goods, letters, parcels, etc. to people's houses or places of work.",
+      "example_en": "We offer free delivery on orders over $50.",
+      "example_vi": "Chúng tôi cung cấp dịch vụ giao hàng miễn phí cho các đơn hàng trên 50 đô la.",
+      "collocations_json": [
+        "free delivery",
+        "next-day delivery",
+        "take delivery of"
+      ],
+      "synonyms_json": [
+        "distribution",
+        "transfer",
+        "handover"
+      ],
+      "antonyms_json": [
+        "collection",
+        "pickup"
+      ],
+      "mnemonic": "Danh từ của deliver (giao hàng).",
+      "frequency_rank": 2100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2859,
+    "fields": {
+      "word": "demand",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "dɪˈmænd",
+      "ipa_us": "dɪˈmænd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhu cầu, yêu cầu",
+      "definition_en": "A strong request; a need for something to be sold or supplied.",
+      "example_en": "There is a high demand for skilled workers.",
+      "example_vi": "Có một nhu cầu lớn về công nhân lành nghề.",
+      "collocations_json": [
+        "high demand",
+        "supply and demand",
+        "meet the demand"
+      ],
+      "synonyms_json": [
+        "requirement",
+        "request",
+        "need"
+      ],
+      "antonyms_json": [
+        "supply"
+      ],
+      "mnemonic": "Đi (de) men (man) theo nhu cầu (demand) của khách hàng.",
+      "frequency_rank": 1400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2860,
+    "fields": {
+      "word": "demonstrate",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈdɛmənˌstreɪt",
+      "ipa_us": "ˈdemənstreɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chứng minh, giải thích",
+      "definition_en": "To show or make make something clear; to make a public expression that you are not satisfied about something.",
+      "example_en": "The study demonstrates that there is a link between diet and health.",
+      "example_vi": "Nghiên cứu chứng minh rằng có một mối liên hệ giữa chế độ ăn uống và sức khỏe.",
+      "collocations_json": [
+        "clearly demonstrate",
+        "demonstrate an ability",
+        "demonstrate against"
+      ],
+      "synonyms_json": [
+        "show",
+        "prove",
+        "illustrate"
+      ],
+      "antonyms_json": [
+        "conceal",
+        "hide",
+        "disprove"
+      ],
+      "mnemonic": "Demo (bản thử nghiệm) -> demonstrate là trình diễn/chứng minh cho người ta xem.",
+      "frequency_rank": 1700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2861,
+    "fields": {
+      "word": "deny",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɪˈnaɪ",
+      "ipa_us": "dɪˈnaɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phủ nhận, từ chối",
+      "definition_en": "To say that something is not true.",
+      "example_en": "He completely denied all the allegations.",
+      "example_vi": "Anh ta hoàn toàn phủ nhận tất cả các cáo buộc.",
+      "collocations_json": [
+        "strongly deny",
+        "categorically deny",
+        "deny access"
+      ],
+      "synonyms_json": [
+        "reject",
+        "contradict",
+        "refuse"
+      ],
+      "antonyms_json": [
+        "admit",
+        "accept",
+        "acknowledge"
+      ],
+      "mnemonic": "Đi (de) nai (ny) tơ để phủ nhận mọi tội lỗi.",
+      "frequency_rank": 2000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2862,
+    "fields": {
+      "word": "depressed",
+      "part_of_speech": "adjective",
+      "cefr_level": "B2",
+      "domain": "health",
+      "ipa_uk": "dɪˈprɛst",
+      "ipa_us": "dɪˈprest",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trầm cảm, chán nản",
+      "definition_en": "Unhappy and without hope.",
+      "example_en": "He became severely depressed after losing his job.",
+      "example_vi": "Anh ấy trở nên trầm cảm nặng sau khi mất việc.",
+      "collocations_json": [
+        "feel depressed",
+        "severely depressed",
+        "clinically depressed"
+      ],
+      "synonyms_json": [
+        "sad",
+        "miserable",
+        "down"
+      ],
+      "antonyms_json": [
+        "cheerful",
+        "happy",
+        "joyful"
+      ],
+      "mnemonic": "Bị đì (de) ép (press) quá nên sinh ra chán nản, trầm cảm.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2863,
+    "fields": {
+      "word": "depressing",
+      "part_of_speech": "adjective",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɪˈprɛsɪŋ",
+      "ipa_us": "dɪˈpresɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đáng buồn, gây chán nản",
+      "definition_en": "Making you feel unhappy and without hope for the future.",
+      "example_en": "It was a very depressing movie.",
+      "example_vi": "Đó là một bộ phim rất đáng buồn.",
+      "collocations_json": [
+        "deeply depressing",
+        "find it depressing",
+        "depressing thought"
+      ],
+      "synonyms_json": [
+        "dismal",
+        "gloomy",
+        "bleak"
+      ],
+      "antonyms_json": [
+        "cheerful",
+        "uplifting",
+        "encouraging"
+      ],
+      "mnemonic": "Tính từ (-ing) mang nghĩa là một thứ gì đó GÂY RA sự chán nản.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2864,
+    "fields": {
+      "word": "depth",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɛpθ",
+      "ipa_us": "depθ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "độ sâu, chiều sâu",
+      "definition_en": "The distance down either from the top of something to the bottom, or to a distance below the top surface of something.",
+      "example_en": "The submarine dove to a depth of 500 meters.",
+      "example_vi": "Tàu ngầm lặn xuống độ sâu 500 mét.",
+      "collocations_json": [
+        "in depth",
+        "hidden depths",
+        "great depth"
+      ],
+      "synonyms_json": [
+        "deepness",
+        "profundity"
+      ],
+      "antonyms_json": [
+        "shallowness",
+        "surface"
+      ],
+      "mnemonic": "Danh từ của tính từ deep (sâu).",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2865,
+    "fields": {
+      "word": "desert",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈdɛzɜrt",
+      "ipa_us": "dɪˈzɜːrt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "rời bỏ, đào ngũ",
+      "definition_en": "To leave someone without help or in a difficult situation and not come back.",
+      "example_en": "He denied that he had deserted his wife and children.",
+      "example_vi": "Anh ta phủ nhận việc mình đã rời bỏ vợ và các con.",
+      "collocations_json": [
+        "desert the army",
+        "desert one's post",
+        "feel deserted"
+      ],
+      "synonyms_json": [
+        "abandon",
+        "leave",
+        "forsake"
+      ],
+      "antonyms_json": [
+        "stay",
+        "support",
+        "remain"
+      ],
+      "mnemonic": "Chú ý trọng âm rơi vào âm thứ 2. Đi (de) sợt (sert) trên đường vì bị bỏ rơi.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2866,
+    "fields": {
+      "word": "deserve",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɪˈzɜrv",
+      "ipa_us": "dɪˈzɜːrv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "xứng đáng",
+      "definition_en": "To have earned or to be given something because of the way you have behaved or the qualities you have.",
+      "example_en": "They truly deserve to win the game.",
+      "example_vi": "Họ thực sự xứng đáng giành chiến thắng trong trận đấu.",
+      "collocations_json": [
+        "deserve better",
+        "deserve praise",
+        "well deserved"
+      ],
+      "synonyms_json": [
+        "merit",
+        "earn",
+        "warrant"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Đi (de) phục vụ (serve) mọi người thì sẽ xứng đáng (deserve) nhận được tiền boa.",
+      "frequency_rank": 2100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2867,
+    "fields": {
+      "word": "desire",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɪˈzaɪər",
+      "ipa_us": "dɪˈzaɪər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự khao khát, ước muốn",
+      "definition_en": "A strong feeling that you want something.",
+      "example_en": "He has a strong desire to succeed in life.",
+      "example_vi": "Anh ấy có một khao khát mãnh liệt là thành công trong cuộc sống.",
+      "collocations_json": [
+        "strong desire",
+        "express a desire",
+        "burning desire"
+      ],
+      "synonyms_json": [
+        "wish",
+        "want",
+        "longing"
+      ],
+      "antonyms_json": [
+        "apathy",
+        "disgust"
+      ],
+      "mnemonic": "Để (de) dài (sire) mái tóc là mong muốn của cô ấy.",
+      "frequency_rank": 1900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2868,
+    "fields": {
+      "word": "desperate",
+      "part_of_speech": "adjective",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈdɛsprɪt",
+      "ipa_us": "ˈdespərət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tuyệt vọng, liều lĩnh",
+      "definition_en": "Feeling that you have no hope and are ready to do anything to change the bad situation you are in.",
+      "example_en": "The missing climbers are in a desperate situation.",
+      "example_vi": "Những người leo núi mất tích đang trong một tình huống tuyệt vọng.",
+      "collocations_json": [
+        "desperate attempt",
+        "in a desperate situation",
+        "desperate for"
+      ],
+      "synonyms_json": [
+        "hopeless",
+        "frantic",
+        "reckless"
+      ],
+      "antonyms_json": [
+        "hopeful",
+        "calm",
+        "confident"
+      ],
+      "mnemonic": "Đét (des) pơ rệt (perate) -> Đét mông vì quá tuyệt vọng không biết dạy dỗ con thế nào.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2869,
+    "fields": {
+      "word": "detail",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɪˈteɪl",
+      "ipa_us": "dɪˈteɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trình bày chi tiết",
+      "definition_en": "To describe something completely, giving all the facts.",
+      "example_en": "The brochure details all the hotels in the area.",
+      "example_vi": "Tập tài liệu trình bày chi tiết tất cả các khách sạn trong khu vực.",
+      "collocations_json": [
+        "go into detail",
+        "detail exactly",
+        "fully detail"
+      ],
+      "synonyms_json": [
+        "explain",
+        "describe",
+        "list"
+      ],
+      "antonyms_json": [
+        "summarize"
+      ],
+      "mnemonic": "Danh từ là chi tiết -> Động từ là trình bày một cách chi tiết.",
+      "frequency_rank": 1000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2870,
+    "fields": {
+      "word": "detailed",
+      "part_of_speech": "adjective",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɪˈteɪld",
+      "ipa_us": "ˈdiːteɪld",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chi tiết, cặn kẽ",
+      "definition_en": "Giving a lot of information with many details.",
+      "example_en": "She gave a detailed account of the accident.",
+      "example_vi": "Cô ấy đã đưa ra một lời kể cặn kẽ về vụ tai nạn.",
+      "collocations_json": [
+        "detailed report",
+        "detailed description",
+        "highly detailed"
+      ],
+      "synonyms_json": [
+        "thorough",
+        "comprehensive",
+        "exact"
+      ],
+      "antonyms_json": [
+        "brief",
+        "vague",
+        "general"
+      ],
+      "mnemonic": "Phân từ hai của động từ detail, được dùng như tính từ.",
+      "frequency_rank": 2000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2871,
+    "fields": {
+      "word": "detect",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "science",
+      "ipa_uk": "dɪˈtɛkt",
+      "ipa_us": "dɪˈtekt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phát hiện, tìm ra",
+      "definition_en": "To notice something that is partly hidden or not clear, or to discover something, especially using a special method.",
+      "example_en": "The machine can detect small amounts of radiation.",
+      "example_vi": "Chiếc máy này có thể phát hiện một lượng nhỏ phóng xạ.",
+      "collocations_json": [
+        "early detection",
+        "detect a change",
+        "fail to detect"
+      ],
+      "synonyms_json": [
+        "discover",
+        "notice",
+        "spot"
+      ],
+      "antonyms_json": [
+        "miss",
+        "overlook",
+        "ignore"
+      ],
+      "mnemonic": "Thám tử (Detective) là người chuyên phát hiện (detect) manh mối.",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2872,
+    "fields": {
+      "word": "dig",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "nature",
+      "ipa_uk": "dɪɡ",
+      "ipa_us": "dɪɡ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đào, bới",
+      "definition_en": "To break up and move soil using a tool, a machine, or your hands.",
+      "example_en": "The dog was digging a hole in the garden.",
+      "example_vi": "Con chó đang đào một cái hố trong khu vườn.",
+      "collocations_json": [
+        "dig a hole",
+        "dig deep",
+        "dig up"
+      ],
+      "synonyms_json": [
+        "excavate",
+        "burrow",
+        "unearth"
+      ],
+      "antonyms_json": [
+        "bury",
+        "fill"
+      ],
+      "mnemonic": "Dùng cuốc cắm (đích) xuống đất để đào.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2873,
+    "fields": {
+      "word": "disc",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "technology",
+      "ipa_uk": "dɪsk",
+      "ipa_us": "dɪsk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đĩa (CD, DVD)",
+      "definition_en": "A flat, circular device that is used for storing information.",
+      "example_en": "Please insert the disc into the computer.",
+      "example_vi": "Vui lòng cho đĩa vào máy tính.",
+      "collocations_json": [
+        "compact disc",
+        "hard disc",
+        "slipped disc"
+      ],
+      "synonyms_json": [
+        "record",
+        "plate"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Compact disc là đĩa CD.",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2874,
+    "fields": {
+      "word": "discipline",
+      "part_of_speech": "noun",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈdɪsəplən",
+      "ipa_us": "ˈdɪsəplɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kỷ luật, sự rèn luyện",
+      "definition_en": "Training that makes people more willing to obey or more able to control themselves, often in the form of rules.",
+      "example_en": "Maintaining a healthy diet requires a lot of discipline.",
+      "example_vi": "Duy trì một chế độ ăn uống lành mạnh đòi hỏi rất nhiều kỷ luật.",
+      "collocations_json": [
+        "strict discipline",
+        "lack of discipline",
+        "maintain discipline"
+      ],
+      "synonyms_json": [
+        "control",
+        "regulation",
+        "training"
+      ],
+      "antonyms_json": [
+        "chaos",
+        "disorder",
+        "anarchy"
+      ],
+      "mnemonic": "Đi (di) xếp (sci) hàng ở p-lin (pline) để rèn luyện kỷ luật.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2875,
+    "fields": {
+      "word": "discount",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "dɪˈskaʊnt",
+      "ipa_us": "dɪsˈkaʊnt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giảm giá, không xem trọng",
+      "definition_en": "To deduct an amount from the usual price; to decide that something or someone is not worth considering or giving attention.",
+      "example_en": "You shouldn't completely discount his advice.",
+      "example_vi": "Bạn không nên hoàn toàn bỏ qua lời khuyên của anh ấy.",
+      "collocations_json": [
+        "discount the possibility",
+        "heavily discounted",
+        "discount entirely"
+      ],
+      "synonyms_json": [
+        "reduce",
+        "dismiss",
+        "ignore"
+      ],
+      "antonyms_json": [
+        "increase",
+        "believe",
+        "value"
+      ],
+      "mnemonic": "Dis- (giảm đi) + count (đếm) -> đếm bớt đi (giảm giá) hoặc bỏ qua không tính tới.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2876,
+    "fields": {
+      "word": "dishonest",
+      "part_of_speech": "adjective",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "dɪˈsɑnəst",
+      "ipa_us": "dɪsˈɑːnɪst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "không trung thực",
+      "definition_en": "Not honest.",
+      "example_en": "It was dishonest of him to hide the truth.",
+      "example_vi": "Thật không trung thực khi anh ta giấu diếm sự thật.",
+      "collocations_json": [
+        "dishonest behavior",
+        "dishonest politician",
+        "completely dishonest"
+      ],
+      "synonyms_json": [
+        "deceitful",
+        "untruthful",
+        "corrupt"
+      ],
+      "antonyms_json": [
+        "honest",
+        "truthful",
+        "sincere"
+      ],
+      "mnemonic": "Tiền tố dis- (không) + honest (trung thực) -> không trung thực.",
+      "frequency_rank": 4800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 2877,
+    "fields": {
+      "word": "dismiss",
+      "part_of_speech": "verb",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "dɪˈsmɪs",
+      "ipa_us": "dɪsˈmɪs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sa thải, gạt bỏ",
+      "definition_en": "To decide that something or someone is not important and not worth considering; to remove someone from their job.",
+      "example_en": "He was dismissed from his job for arriving late.",
+      "example_vi": "Anh ta đã bị sa thải khỏi công việc vì đến muộn.",
+      "collocations_json": [
+        "dismiss an idea",
+        "unfairly dismiss",
+        "dismiss a case"
+      ],
+      "synonyms_json": [
+        "fire",
+        "sack",
+        "reject"
+      ],
+      "antonyms_json": [
+        "hire",
+        "employ",
+        "accept"
+      ],
+      "mnemonic": "Đi (di) sờ (s) mít (miss) người khác nên bị sa thải ngay lập tức.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

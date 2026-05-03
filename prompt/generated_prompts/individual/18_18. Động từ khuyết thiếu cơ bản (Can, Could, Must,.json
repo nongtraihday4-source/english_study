@@ -1,0 +1,417 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She can speaks English very well.",
+    "output": "✅ **Corrected Sentence:** She can speak English very well.\n🔍 **Error Identification:** Sau động từ khuyết thiếu 'can' dùng động từ nguyên thể (speak), không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt chia động từ theo chủ ngữ 'she' quên mất 'can' đã đảm nhận việc đó. Mẹo: Can/could/must/should + V(nguyên thể).\n💡 **Ví dụ:** He can swim. / They must go."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can to swim.",
+    "output": "✅ **Corrected Sentence:** I can swim.\n🔍 **Error Identification:** Sau 'can' không dùng 'to', dùng động từ nguyên thể không 'to'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'có thể để bơi' thành 'can to swim'. Mẹo: Can + V (không to).\n💡 **Ví dụ:** She can dance. / We can help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must to go to school.",
+    "output": "✅ **Corrected Sentence:** He must go to school.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must' như 'have to'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must study. / She must leave now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We should to listen to the teacher.",
+    "output": "✅ **Corrected Sentence:** We should listen to the teacher.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should eat healthy. / They should arrive soon."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't to come to the party.",
+    "output": "✅ **Corrected Sentence:** I can't come to the party.\n🔍 **Error Identification:** 'Can't' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can't'. Mẹo: Can't + V (không to).\n💡 **Ví dụ:** She can't swim. / He can't drive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You must not smoking here.",
+    "output": "✅ **Corrected Sentence:** You must not smoke here.\n🔍 **Error Identification:** Sau 'must not' dùng động từ nguyên thể (smoke), không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'smoking' như danh động từ. Mẹo: Must not + V (nguyên thể).\n💡 **Ví dụ:** You must not park here. / He must not be late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She can sings very well.",
+    "output": "✅ **Corrected Sentence:** She can sing very well.\n🔍 **Error Identification:** Sau 'can' dùng 'sing', không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt chia 'sings' theo chủ ngữ 'she'. Mẹo: Động từ khuyết thiếu không bao giờ đi với V(s/es).\n💡 **Ví dụ:** He can run fast. / It can fly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should to see a doctor.",
+    "output": "✅ **Corrected Sentence:** You should see a doctor.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should rest. / They should call."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We must to finish the report today.",
+    "output": "✅ **Corrected Sentence:** We must finish the report today.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must go. / She must study."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I could to help you.",
+    "output": "✅ **Corrected Sentence:** I could help you.\n🔍 **Error Identification:** 'Could' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'could'. Mẹo: Could + V (không to).\n💡 **Ví dụ:** She could swim. / They could come."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He cans play football.",
+    "output": "✅ **Corrected Sentence:** He can play football.\n🔍 **Error Identification:** 'Can' không thay đổi theo chủ ngữ, không có 'cans'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'can' như động từ thường. Mẹo: Động từ khuyết thiếu không thêm 's/es'.\n💡 **Ví dụ:** She can cook. / It can work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should not to be late.",
+    "output": "✅ **Corrected Sentence:** You should not be late.\n🔍 **Error Identification:** 'Should not' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should not'. Mẹo: Should not + V (không to).\n💡 **Ví dụ:** You should not smoke. / He should not worry."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She must works hard.",
+    "output": "✅ **Corrected Sentence:** She must work hard.\n🔍 **Error Identification:** Sau 'must' dùng 'work', không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt chia 'works' theo 'she'. Mẹo: Must + V (nguyên thể, không chia).\n💡 **Ví dụ:** He must study. / They must leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't can swim.",
+    "output": "✅ **Corrected Sentence:** I can't swim. (hoặc I cannot swim)\n🔍 **Error Identification:** 'Don't can' là sai – 'can' là động từ khuyết thiếu, phủ định là 'can't' hoặc 'cannot'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'don't' + 'can' như động từ thường. Mẹo: Phủ định của can là can't/cannot, không dùng don't.\n💡 **Ví dụ:** She can't drive. / He cannot speak."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You must to finish your homework.",
+    "output": "✅ **Corrected Sentence:** You must finish your homework.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** We must hurry. / She must call."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He should studies more.",
+    "output": "✅ **Corrected Sentence:** He should study more.\n🔍 **Error Identification:** Sau 'should' dùng 'study', không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt chia 'studies' theo 'he'. Mẹo: Should + V (nguyên thể).\n💡 **Ví dụ:** You should eat. / They should rest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't to find my keys.",
+    "output": "✅ **Corrected Sentence:** I can't find my keys.\n🔍 **Error Identification:** 'Can't' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can't'. Mẹo: Can't + V (không to).\n💡 **Ví dụ:** She can't hear. / He can't see."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We could to stay longer, but we were busy.",
+    "output": "✅ **Corrected Sentence:** We could stay longer, but we were busy.\n🔍 **Error Identification:** 'Could' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'could'. Mẹo: Could + V (không to).\n💡 **Ví dụ:** She could sing. / They could help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You must not to talk during the test.",
+    "output": "✅ **Corrected Sentence:** You must not talk during the test.\n🔍 **Error Identification:** 'Must not' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must not'. Mẹo: Must not + V (không to).\n💡 **Ví dụ:** You must not cheat. / He must not lie."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She cans to cook.",
+    "output": "✅ **Corrected Sentence:** She can cook.\n🔍 **Error Identification:** 'Cans' là sai, 'to' là thừa.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' và 'to' vào 'can'. Mẹo: Can + V (không to, không s).\n💡 **Ví dụ:** He can drive. / They can play."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I must go to the meeting. (câu đúng) - Học viên viết \'I must to go to the meeting.\'",
+    "output": "✅ **Corrected Sentence:** I must go to the meeting.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must stop. / She must leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should to take a break.",
+    "output": "✅ **Corrected Sentence:** You should take a break.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should relax. / They should wait."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He can't to swim because he's scared.",
+    "output": "✅ **Corrected Sentence:** He can't swim because he's scared.\n🔍 **Error Identification:** 'Can't' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can't'. Mẹo: Can't + V (không to).\n💡 **Ví dụ:** She can't dance. / He can't sing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We must to be on time.",
+    "output": "✅ **Corrected Sentence:** We must be on time.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** They must arrive early. / She must study."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should not to eat too much sugar.",
+    "output": "✅ **Corrected Sentence:** You should not eat too much sugar.\n🔍 **Error Identification:** 'Should not' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should not'. Mẹo: Should not + V (không to).\n💡 **Ví dụ:** You should not smoke. / He should not drive fast."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can to help you if you want.",
+    "output": "✅ **Corrected Sentence:** I can help you if you want.\n🔍 **Error Identification:** 'Can' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can'. Mẹo: Can + V (không to).\n💡 **Ví dụ:** She can come. / We can wait."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must works every day.",
+    "output": "✅ **Corrected Sentence:** He must work every day.\n🔍 **Error Identification:** Sau 'must' dùng 'work', không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt chia 'works' theo 'he'. Mẹo: Must + V (nguyên thể).\n💡 **Ví dụ:** She must sleep early. / They must practice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She could to be a doctor if she studied.",
+    "output": "✅ **Corrected Sentence:** She could be a doctor if she studied.\n🔍 **Error Identification:** 'Could' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'could'. Mẹo: Could + V (không to).\n💡 **Ví dụ:** He could win. / They could help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You must not to be rude.",
+    "output": "✅ **Corrected Sentence:** You must not be rude.\n🔍 **Error Identification:** 'Must not' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must not'. Mẹo: Must not + V (không to).\n💡 **Ví dụ:** You must not lie. / He must not cheat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't to believe it.",
+    "output": "✅ **Corrected Sentence:** I can't believe it.\n🔍 **Error Identification:** 'Can't' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can't'. Mẹo: Can't + V (không to).\n💡 **Ví dụ:** She can't understand. / He can't imagine."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should to call your mom.",
+    "output": "✅ **Corrected Sentence:** You should call your mom.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should apologize. / They should listen."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He can plays the guitar.",
+    "output": "✅ **Corrected Sentence:** He can play the guitar.\n🔍 **Error Identification:** Sau 'can' dùng 'play', không thêm 's'.\n📘 **Vietnamese Explanation:** Người Việt chia 'plays' theo 'he'. Mẹo: Can + V (nguyên thể).\n💡 **Ví dụ:** She can draw. / It can run."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We must to leave now.",
+    "output": "✅ **Corrected Sentence:** We must leave now.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must go. / They must come."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I could to run faster when I was young.",
+    "output": "✅ **Corrected Sentence:** I could run faster when I was young.\n🔍 **Error Identification:** 'Could' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'could'. Mẹo: Could + V (không to).\n💡 **Ví dụ:** She could read at age 3. / He could swim."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You must not to park here.",
+    "output": "✅ **Corrected Sentence:** You must not park here.\n🔍 **Error Identification:** 'Must not' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must not'. Mẹo: Must not + V (không to).\n💡 **Ví dụ:** You must not smoke. / He must not run."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She cans dance very well.",
+    "output": "✅ **Corrected Sentence:** She can dance very well.\n🔍 **Error Identification:** 'Can' không có dạng 'cans'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'can' như động từ thường. Mẹo: Động từ khuyết thiếu không thay đổi hình thức.\n💡 **Ví dụ:** He can sing. / They can jump."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I should to study harder.",
+    "output": "✅ **Corrected Sentence:** I should study harder.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should exercise. / They should sleep."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He can't to drive because he's tired.",
+    "output": "✅ **Corrected Sentence:** He can't drive because he's tired.\n🔍 **Error Identification:** 'Can't' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can't'. Mẹo: Can't + V (không to).\n💡 **Ví dụ:** She can't focus. / He can't sleep."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We must to respect our parents.",
+    "output": "✅ **Corrected Sentence:** We must respect our parents.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must listen. / They must obey."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should not to worry too much.",
+    "output": "✅ **Corrected Sentence:** You should not worry too much.\n🔍 **Error Identification:** 'Should not' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should not'. Mẹo: Should not + V (không to).\n💡 **Ví dụ:** You should not stress. / He should not panic."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She could to win the race.",
+    "output": "✅ **Corrected Sentence:** She could win the race.\n🔍 **Error Identification:** 'Could' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'could'. Mẹo: Could + V (không to).\n💡 **Ví dụ:** He could succeed. / They could finish."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I must to call my mother.",
+    "output": "✅ **Corrected Sentence:** I must call my mother.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must go home. / She must finish."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You can to speak English.",
+    "output": "✅ **Corrected Sentence:** You can speak English.\n🔍 **Error Identification:** 'Can' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can'. Mẹo: Can + V (không to).\n💡 **Ví dụ:** She can write. / They can read."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He should to eat more vegetables.",
+    "output": "✅ **Corrected Sentence:** He should eat more vegetables.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should drink water. / They should rest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't to remember his name.",
+    "output": "✅ **Corrected Sentence:** I can't remember his name.\n🔍 **Error Identification:** 'Can't' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can't'. Mẹo: Can't + V (không to).\n💡 **Ví dụ:** She can't forget. / He can't decide."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We must to work hard.",
+    "output": "✅ **Corrected Sentence:** We must work hard.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must study. / They must practice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should to get some rest.",
+    "output": "✅ **Corrected Sentence:** You should get some rest.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should relax. / They should sleep."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She could to play piano when she was five.",
+    "output": "✅ **Corrected Sentence:** She could play piano when she was five.\n🔍 **Error Identification:** 'Could' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'could'. Mẹo: Could + V (không to).\n💡 **Ví dụ:** He could run. / They could jump."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must not to be late again.",
+    "output": "✅ **Corrected Sentence:** He must not be late again.\n🔍 **Error Identification:** 'Must not' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must not'. Mẹo: Must not + V (không to).\n💡 **Ví dụ:** You must not cheat. / She must not lie."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can to help you with that.",
+    "output": "✅ **Corrected Sentence:** I can help you with that.\n🔍 **Error Identification:** 'Can' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can'. Mẹo: Can + V (không to).\n💡 **Ví dụ:** She can assist. / We can support."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should to wear a helmet.",
+    "output": "✅ **Corrected Sentence:** You should wear a helmet.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should be careful. / They should leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She can't to come to the meeting.",
+    "output": "✅ **Corrected Sentence:** She can't come to the meeting.\n🔍 **Error Identification:** 'Can't' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can't'. Mẹo: Can't + V (không to).\n💡 **Ví dụ:** He can't attend. / They can't participate."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We must to finish the project on time.",
+    "output": "✅ **Corrected Sentence:** We must finish the project on time.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must submit. / They must complete."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should to be quiet in the library.",
+    "output": "✅ **Corrected Sentence:** You should be quiet in the library.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should listen. / They should respect."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He could to speak three languages.",
+    "output": "✅ **Corrected Sentence:** He could speak three languages.\n🔍 **Error Identification:** 'Could' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'could'. Mẹo: Could + V (không to).\n💡 **Ví dụ:** She could sing. / They could dance."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I must to go now.",
+    "output": "✅ **Corrected Sentence:** I must go now.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must leave. / She must hurry."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You can to do it if you try.",
+    "output": "✅ **Corrected Sentence:** You can do it if you try.\n🔍 **Error Identification:** 'Can' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can'. Mẹo: Can + V (không to).\n💡 **Ví dụ:** She can succeed. / They can achieve."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He should to see a dentist.",
+    "output": "✅ **Corrected Sentence:** He should see a dentist.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should check. / They should visit."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't to find my phone.",
+    "output": "✅ **Corrected Sentence:** I can't find my phone.\n🔍 **Error Identification:** 'Can't' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can't'. Mẹo: Can't + V (không to).\n💡 **Ví dụ:** She can't locate. / He can't see."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We must to be careful.",
+    "output": "✅ **Corrected Sentence:** We must be careful.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must focus. / They must concentrate."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should to apologize.",
+    "output": "✅ **Corrected Sentence:** You should apologize.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should admit. / They should confess."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She could to become a teacher.",
+    "output": "✅ **Corrected Sentence:** She could become a teacher.\n🔍 **Error Identification:** 'Could' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'could'. Mẹo: Could + V (không to).\n💡 **Ví dụ:** He could be. / They could become."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must not to smoke here.",
+    "output": "✅ **Corrected Sentence:** He must not smoke here.\n🔍 **Error Identification:** 'Must not' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must not'. Mẹo: Must not + V (không to).\n💡 **Ví dụ:** You must not drink. / She must not drive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can to swim across the river.",
+    "output": "✅ **Corrected Sentence:** I can swim across the river.\n🔍 **Error Identification:** 'Can' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can'. Mẹo: Can + V (không to).\n💡 **Ví dụ:** She can cross. / They can jump."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should to eat breakfast every day.",
+    "output": "✅ **Corrected Sentence:** You should eat breakfast every day.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should start. / They should continue."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She can't to finish on time.",
+    "output": "✅ **Corrected Sentence:** She can't finish on time.\n🔍 **Error Identification:** 'Can't' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can't'. Mẹo: Can't + V (không to).\n💡 **Ví dụ:** He can't complete. / They can't meet."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We must to arrive early.",
+    "output": "✅ **Corrected Sentence:** We must arrive early.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must prepare. / They must plan."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should to try again.",
+    "output": "✅ **Corrected Sentence:** You should try again.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should attempt. / They should persevere."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He could to be a great artist.",
+    "output": "✅ **Corrected Sentence:** He could be a great artist.\n🔍 **Error Identification:** 'Could' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'could'. Mẹo: Could + V (không to).\n💡 **Ví dụ:** She could become. / They could achieve."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I must to finish my homework.",
+    "output": "✅ **Corrected Sentence:** I must finish my homework.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must complete. / She must submit."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You can to learn quickly.",
+    "output": "✅ **Corrected Sentence:** You can learn quickly.\n🔍 **Error Identification:** 'Can' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can'. Mẹo: Can + V (không to).\n💡 **Ví dụ:** She can understand. / They can adapt."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He should to sleep early.",
+    "output": "✅ **Corrected Sentence:** He should sleep early.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should rest. / They should recharge."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't to believe you said that.",
+    "output": "✅ **Corrected Sentence:** I can't believe you said that.\n🔍 **Error Identification:** 'Can't' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can't'. Mẹo: Can't + V (không to).\n💡 **Ví dụ:** She can't accept. / He can't forgive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We must to respect the rules.",
+    "output": "✅ **Corrected Sentence:** We must respect the rules.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must follow. / They must obey."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should to drink more water.",
+    "output": "✅ **Corrected Sentence:** You should drink more water.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should hydrate. / They should eat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She could to solve the problem.",
+    "output": "✅ **Corrected Sentence:** She could solve the problem.\n🔍 **Error Identification:** 'Could' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'could'. Mẹo: Could + V (không to).\n💡 **Ví dụ:** He could fix. / They could resolve."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He must not to waste time.",
+    "output": "✅ **Corrected Sentence:** He must not waste time.\n🔍 **Error Identification:** 'Must not' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must not'. Mẹo: Must not + V (không to).\n💡 **Ví dụ:** You must not procrastinate. / She must not delay."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can to do it myself.",
+    "output": "✅ **Corrected Sentence:** I can do it myself.\n🔍 **Error Identification:** 'Can' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can'. Mẹo: Can + V (không to).\n💡 **Ví dụ:** She can manage. / They can handle."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should to save money.",
+    "output": "✅ **Corrected Sentence:** You should save money.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should invest. / They should budget."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She can't to speak French.",
+    "output": "✅ **Corrected Sentence:** She can't speak French.\n🔍 **Error Identification:** 'Can't' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'can't'. Mẹo: Can't + V (không to).\n💡 **Ví dụ:** He can't communicate. / They can't understand."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We must to tell the truth.",
+    "output": "✅ **Corrected Sentence:** We must tell the truth.\n🔍 **Error Identification:** 'Must' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'must'. Mẹo: Must + V (không to).\n💡 **Ví dụ:** You must be honest. / They must confess."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "You should to exercise regularly.",
+    "output": "✅ **Corrected Sentence:** You should exercise regularly.\n🔍 **Error Identification:** 'Should' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'should'. Mẹo: Should + V (không to).\n💡 **Ví dụ:** You should move. / They should train."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He could to win the competition.",
+    "output": "✅ **Corrected Sentence:** He could win the competition.\n🔍 **Error Identification:** 'Could' + V(nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'could'. Mẹo: Could + V (không to).\n💡 **Ví dụ:** She could succeed. / They could triumph."
+  }
+]

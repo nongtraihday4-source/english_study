@@ -1,0 +1,262 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although he is rich, but he is not happy.",
+    "output": "✅ **Corrected Sentence:** Although he is rich, he is not happy. (hoặc He is rich, but he is not happy.)\n🔍 **Error Identification:** Dùng 'although' và 'but' trong cùng một câu – không được dùng cả hai.\n📘 **Vietnamese Explanation:** Người Việt dịch 'mặc dù... nhưng' thành 'although... but'. Mẹo: Chọn một: although hoặc but, không dùng cả hai.\n💡 **Ví dụ:** Although it rained, we went out. / It rained, but we went out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite of the rain, we went out.",
+    "output": "✅ **Corrected Sentence:** Despite the rain, we went out. (hoặc In spite of the rain)\n🔍 **Error Identification:** 'Despite' không đi với 'of' – 'despite of' là sai.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' vào 'despite' vì nghĩ giống 'in spite of'. Mẹo: Despite + N (không of), In spite of + N (có of).\n💡 **Ví dụ:** Despite the cold, we went swimming. / In spite of the cold, we went swimming."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of he was tired, he kept working.",
+    "output": "✅ **Corrected Sentence:** Although he was tired, he kept working. (hoặc In spite of his tiredness)\n🔍 **Error Identification:** 'In spite of' + danh từ / V-ing, không dùng mệnh đề.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in spite of' với mệnh đề. Mẹo: In spite of + N/V-ing, although + S + V.\n💡 **Ví dụ:** In spite of the rain, we went out. / Although it rained, we went out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite he was late, he got the job.",
+    "output": "✅ **Corrected Sentence:** Although he was late, he got the job. (hoặc Despite being late)\n🔍 **Error Identification:** 'Despite' + danh từ / V-ing, không dùng mệnh đề.\n📘 **Vietnamese Explanation:** Người Việt dùng 'despite' với mệnh đề. Mẹo: Despite + N/V-ing, although + S + V.\n💡 **Ví dụ:** Despite his lateness, he got the job. / Although he was late, he got the job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although the rain, we enjoyed the trip.",
+    "output": "✅ **Corrected Sentence:** Although it rained, we enjoyed the trip. (hoặc Despite the rain)\n🔍 **Error Identification:** 'Although' + mệnh đề (có chủ ngữ và động từ), không dùng danh từ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'although' với danh từ. Mẹo: Although + S + V, despite/in spite of + N.\n💡 **Ví dụ:** Although it was cold, we went out. / Despite the cold, we went out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of the heavy rain, but we went to school.",
+    "output": "✅ **Corrected Sentence:** In spite of the heavy rain, we went to school. (hoặc The rain was heavy, but we went to school.)\n🔍 **Error Identification:** Dùng 'in spite of' và 'but' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dịch 'mặc dù... nhưng' thành 'in spite of... but'. Mẹo: Chọn một.\n💡 **Ví dụ:** In spite of the fog, we drove. / There was fog, but we drove."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although he worked hard, but he failed.",
+    "output": "✅ **Corrected Sentence:** Although he worked hard, he failed. (hoặc He worked hard, but he failed.)\n🔍 **Error Identification:** Dùng 'although' và 'but' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dịch 'mặc dù... nhưng'. Mẹo: Although + S + V, S + V. (không but).\n💡 **Ví dụ:** Although she studied, she didn't pass. / She studied, but she didn't pass."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite of being tired, I finished my work.",
+    "output": "✅ **Corrected Sentence:** Despite being tired, I finished my work. (hoặc In spite of being tired)\n🔍 **Error Identification:** 'Despite of' là sai – 'despite' không đi với 'of'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' vào 'despite'. Mẹo: Despite + V-ing, In spite of + V-ing.\n💡 **Ví dụ:** Despite feeling sick, she went to work. / In spite of feeling sick, she went to work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although his age, he is very active.",
+    "output": "✅ **Corrected Sentence:** Although he is old, he is very active. (hoặc Despite his age)\n🔍 **Error Identification:** 'Although' + mệnh đề, không dùng danh từ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'although' với danh từ. Mẹo: Although + S + V, despite + N.\n💡 **Ví dụ:** Although he is young, he is wise. / Despite his youth, he is wise."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of he is rich, he is not happy.",
+    "output": "✅ **Corrected Sentence:** Although he is rich, he is not happy. (hoặc In spite of his wealth)\n🔍 **Error Identification:** 'In spite of' + danh từ / V-ing, không dùng mệnh đề.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in spite of' với mệnh đề. Mẹo: In spite of + N, although + S + V.\n💡 **Ví dụ:** In spite of his wealth, he is unhappy. / Although he is wealthy, he is unhappy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite of the rain, we had a good time.",
+    "output": "✅ **Corrected Sentence:** Despite the rain, we had a good time.\n🔍 **Error Identification:** 'Despite of' là sai.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' vào 'despite'. Mẹo: Despite (không of) + N.\n💡 **Ví dụ:** Despite the heat, we enjoyed the trip. / In spite of the heat, we enjoyed the trip."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although the weather was bad, but we went swimming.",
+    "output": "✅ **Corrected Sentence:** Although the weather was bad, we went swimming. (hoặc The weather was bad, but we went swimming.)\n🔍 **Error Identification:** Dùng 'although' và 'but' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dịch 'mặc dù... nhưng'. Mẹo: Chọn một.\n💡 **Ví dụ:** Although it was cold, we went out. / It was cold, but we went out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of his hard work, he failed.",
+    "output": "✅ **Corrected Sentence:** In spite of his hard work, he failed. (câu đúng)\n🔍 **Error Identification:** 'In spite of' + danh từ – câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt 'in spite of' (có of) và 'despite' (không of).\n💡 **Ví dụ:** In spite of her intelligence, she didn't get the job. / Despite her intelligence, she didn't get the job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although he is small, he is strong.",
+    "output": "✅ **Corrected Sentence:** Although he is small, he is strong. (câu đúng)\n🔍 **Error Identification:** Câu đúng – 'although' + mệnh đề.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'although' đi với mệnh đề (có S + V).\n💡 **Ví dụ:** Although she is young, she is very mature. / Although it's expensive, I'll buy it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite of being late, he still got a seat.",
+    "output": "✅ **Corrected Sentence:** Despite being late, he still got a seat. (hoặc In spite of being late)\n🔍 **Error Identification:** 'Despite of' là sai.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' vào 'despite'. Mẹo: Despite + V-ing, In spite of + V-ing.\n💡 **Ví dụ:** Despite arriving late, she was accepted. / In spite of arriving late, she was accepted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although the traffic was heavy, we arrived on time.",
+    "output": "✅ **Corrected Sentence:** Although the traffic was heavy, we arrived on time. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt thường quên không dùng 'but' sau 'although'.\n💡 **Ví dụ:** Although it was raining, we went for a walk. / Although he was tired, he continued working."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of the fact that he is rich, he is not happy.",
+    "output": "✅ **Corrected Sentence:** Although he is rich, he is not happy. (hoặc In spite of his wealth)\n🔍 **Error Identification:** 'In spite of the fact that' dài dòng, nên dùng 'although'.\n📘 **Vietnamese Explanation:** Người Việt thường dùng cấu trúc này do dịch word-by-word. Mẹo: Dùng 'although' ngắn gọn hơn.\n💡 **Ví dụ:** Although he is rich, he is lonely. / Despite his wealth, he is lonely."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite the rain, but we continued the game.",
+    "output": "✅ **Corrected Sentence:** Despite the rain, we continued the game.\n🔍 **Error Identification:** Dùng 'despite' và 'but' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dịch 'mặc dù... nhưng'. Mẹo: Despite + N, S + V (không but).\n💡 **Ví dụ:** Despite the cold, we went swimming. / The weather was cold, but we went swimming."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although he tried his best, he didn't succeed.",
+    "output": "✅ **Corrected Sentence:** Although he tried his best, he didn't succeed. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'although' + mệnh đề, không cần 'but'.\n💡 **Ví dụ:** Although she practiced a lot, she lost the match. / Although it was difficult, they finished."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of his illness, he went to work.",
+    "output": "✅ **Corrected Sentence:** In spite of his illness, he went to work. (câu đúng)\n🔍 **Error Identification:** 'In spite of' + danh từ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'despite' thay thế.\n💡 **Ví dụ:** In spite of the rain, we went out. / Despite the rain, we went out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite of his age, he is very energetic.",
+    "output": "✅ **Corrected Sentence:** Despite his age, he is very energetic.\n🔍 **Error Identification:** 'Despite of' là sai.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' vào 'despite'. Mẹo: Despite + N.\n💡 **Ví dụ:** Despite his age, he runs fast. / In spite of his age, he runs fast."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although it rained, but we enjoyed the picnic.",
+    "output": "✅ **Corrected Sentence:** Although it rained, we enjoyed the picnic. (hoặc It rained, but we enjoyed the picnic.)\n🔍 **Error Identification:** Dùng 'although' và 'but' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dịch 'mặc dù... nhưng'. Mẹo: Không dùng 'but' với 'although'.\n💡 **Ví dụ:** Although she was sick, she went to school. / She was sick, but she went to school."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite he studied hard, he failed the exam.",
+    "output": "✅ **Corrected Sentence:** Although he studied hard, he failed the exam. (hoặc Despite studying hard)\n🔍 **Error Identification:** 'Despite' + mệnh đề là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'despite' với mệnh đề. Mẹo: Despite + V-ing / N.\n💡 **Ví dụ:** Despite studying hard, he failed. / Although he studied hard, he failed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of the heavy snow, they went hiking.",
+    "output": "✅ **Corrected Sentence:** In spite of the heavy snow, they went hiking. (câu đúng)\n🔍 **Error Identification:** 'In spite of' + danh từ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'despite' để thay thế.\n💡 **Ví dụ:** In spite of the danger, they continued. / Despite the danger, they continued."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although the price is high, but many people buy it.",
+    "output": "✅ **Corrected Sentence:** Although the price is high, many people buy it.\n🔍 **Error Identification:** Dùng 'although' và 'but' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dịch 'mặc dù... nhưng'. Mẹo: Bỏ 'but' khi đã có 'although'.\n💡 **Ví dụ:** Although it's expensive, I'll buy it. / It's expensive, but I'll buy it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite of the difficulties, we finished the project.",
+    "output": "✅ **Corrected Sentence:** Despite the difficulties, we finished the project.\n🔍 **Error Identification:** 'Despite of' là sai.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' vào 'despite'. Mẹo: Despite + N.\n💡 **Ví dụ:** Despite the challenges, they succeeded. / In spite of the challenges, they succeeded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although he is very busy, he always helps me.",
+    "output": "✅ **Corrected Sentence:** Although he is very busy, he always helps me. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ cấu trúc 'although + S + V, S + V'.\n💡 **Ví dụ:** Although she is tired, she keeps working. / Although it's late, I'm not sleepy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of he is poor, he is happy.",
+    "output": "✅ **Corrected Sentence:** Although he is poor, he is happy. (hoặc In spite of his poverty)\n🔍 **Error Identification:** 'In spite of' + mệnh đề là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in spite of' với mệnh đề. Mẹo: In spite of + N.\n💡 **Ví dụ:** In spite of his poverty, he is happy. / Although he is poor, he is happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite the rain, we still went out.",
+    "output": "✅ **Corrected Sentence:** Despite the rain, we still went out. (câu đúng)\n🔍 **Error Identification:** 'Despite' + danh từ – đúng.\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt 'despite' (không of) và 'in spite of' (có of).\n💡 **Ví dụ:** Despite the fog, the plane landed safely. / In spite of the fog, the plane landed safely."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although the car is old, but it runs well.",
+    "output": "✅ **Corrected Sentence:** Although the car is old, it runs well. (hoặc The car is old, but it runs well.)\n🔍 **Error Identification:** Dùng 'although' và 'but' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dịch 'mặc dù... nhưng'. Mẹo: Bỏ 'but'.\n💡 **Ví dụ:** Although the phone is cheap, it works well. / The phone is cheap, but it works well."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of being inexperienced, she got the job.",
+    "output": "✅ **Corrected Sentence:** In spite of being inexperienced, she got the job. (câu đúng)\n🔍 **Error Identification:** 'In spite of' + V-ing – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'despite' thay 'in spite of'.\n💡 **Ví dụ:** In spite of being late, he was accepted. / Despite being late, he was accepted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite of the fact that he was tired, he kept working.",
+    "output": "✅ **Corrected Sentence:** Although he was tired, he kept working. (hoặc Despite his tiredness)\n🔍 **Error Identification:** 'Despite of' là sai, và 'the fact that' dài dòng.\n📘 **Vietnamese Explanation:** Người Việt thường dùng cấu trúc này. Mẹo: Dùng 'although' ngắn gọn.\n💡 **Ví dụ:** Although he was tired, he continued. / Despite his tiredness, he continued."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although the hotel was expensive, but we stayed there.",
+    "output": "✅ **Corrected Sentence:** Although the hotel was expensive, we stayed there.\n🔍 **Error Identification:** Dùng 'although' và 'but' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dịch 'mặc dù... nhưng'. Mẹo: Chỉ dùng 'although'.\n💡 **Ví dụ:** Although the restaurant was crowded, we found a table. / The restaurant was crowded, but we found a table."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of the fact that she is young, she is very talented.",
+    "output": "✅ **Corrected Sentence:** Although she is young, she is very talented. (hoặc In spite of her youth)\n🔍 **Error Identification:** 'In spite of the fact that' dài dòng.\n📘 **Vietnamese Explanation:** Người Việt thường dịch word-by-word. Mẹo: Dùng 'although' hoặc 'despite + N'.\n💡 **Ví dụ:** Although she is young, she is talented. / Despite her youth, she is talented."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite of the noise, I could sleep.",
+    "output": "✅ **Corrected Sentence:** Despite the noise, I could sleep.\n🔍 **Error Identification:** 'Despite of' là sai.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' vào 'despite'. Mẹo: Despite + N.\n💡 **Ví dụ:** Despite the loud music, he slept well. / In spite of the loud music, he slept well."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although he is rich, he lives simply.",
+    "output": "✅ **Corrected Sentence:** Although he is rich, he lives simply. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: không dùng 'but' với 'although'.\n💡 **Ví dụ:** Although she is famous, she is humble. / Although it's cold, I don't wear a coat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of his hard work, but he failed.",
+    "output": "✅ **Corrected Sentence:** In spite of his hard work, he failed. (hoặc He worked hard, but he failed.)\n🔍 **Error Identification:** Dùng 'in spite of' và 'but' cùng lúc.\n📘 **Vietnamese Explanation:** Người Việt dịch 'mặc dù... nhưng'. Mẹo: Bỏ 'but'.\n💡 **Ví dụ:** In spite of the rain, we went out. / It rained, but we went out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite of the long wait, we enjoyed the concert.",
+    "output": "✅ **Corrected Sentence:** Despite the long wait, we enjoyed the concert.\n🔍 **Error Identification:** 'Despite of' là sai.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' vào 'despite'. Mẹo: Despite + N, In spite of + N.\n💡 **Ví dụ:** Despite the delay, the show was great. / In spite of the delay, the show was great."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although the exam was difficult, he passed.",
+    "output": "✅ **Corrected Sentence:** Although the exam was difficult, he passed. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'though' thay 'although' trong văn nói.\n💡 **Ví dụ:** Though it was hard, they succeeded. / Although it was expensive, she bought it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of he was late, he caught the train.",
+    "output": "✅ **Corrected Sentence:** Although he was late, he caught the train. (hoặc In spite of being late)\n🔍 **Error Identification:** 'In spite of' + mệnh đề là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in spite of' với mệnh đề. Mẹo: In spite of + V-ing/N.\n💡 **Ví dụ:** In spite of being late, he caught the train. / Although he was late, he caught the train."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite of the cold weather, we went swimming.",
+    "output": "✅ **Corrected Sentence:** Despite the cold weather, we went swimming.\n🔍 **Error Identification:** 'Despite of' là sai.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' vào 'despite'. Mẹo: Despite + N.\n💡 **Ví dụ:** Despite the cold, we went out. / In spite of the cold, we went out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although he has a car, he prefers walking.",
+    "output": "✅ **Corrected Sentence:** Although he has a car, he prefers walking. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'although' có thể đứng đầu câu hoặc giữa câu.\n💡 **Ví dụ:** Although she has money, she is frugal. / He is kind, although he is strict."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of the heavy traffic, we got there on time.",
+    "output": "✅ **Corrected Sentence:** In spite of the heavy traffic, we got there on time. (câu đúng)\n🔍 **Error Identification:** 'In spite of' + danh từ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'despite' thay thế.\n💡 **Ví dụ:** In spite of the rain, we arrived. / Despite the rain, we arrived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite of his intelligence, he didn't pass the test.",
+    "output": "✅ **Corrected Sentence:** Despite his intelligence, he didn't pass the test.\n🔍 **Error Identification:** 'Despite of' là sai.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' vào 'despite'. Mẹo: Despite + N.\n💡 **Ví dụ:** Despite his qualifications, he wasn't hired. / In spite of his qualifications, he wasn't hired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although the journey was long, they enjoyed it.",
+    "output": "✅ **Corrected Sentence:** Although the journey was long, they enjoyed it. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'even though' để nhấn mạnh.\n💡 **Ví dụ:** Even though it was hard, they didn't give up. / Although it was dangerous, he went in."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of the fact that the weather was bad, we went out.",
+    "output": "✅ **Corrected Sentence:** Although the weather was bad, we went out. (hoặc In spite of the bad weather)\n🔍 **Error Identification:** 'In spite of the fact that' dài dòng.\n📘 **Vietnamese Explanation:** Người Việt thường dùng cấu trúc này. Mẹo: Dùng 'although' ngắn gọn.\n💡 **Ví dụ:** Although it was raining, we went out. / Despite the rain, we went out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite of the high cost, we decided to buy it.",
+    "output": "✅ **Corrected Sentence:** Despite the high cost, we decided to buy it.\n🔍 **Error Identification:** 'Despite of' là sai.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' vào 'despite'. Mẹo: Despite + N.\n💡 **Ví dụ:** Despite the price, we bought it. / In spite of the price, we bought it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although the room was small, it was comfortable.",
+    "output": "✅ **Corrected Sentence:** Although the room was small, it was comfortable. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'although' có thể đứng đầu câu hoặc giữa câu.\n💡 **Ví dụ:** Although the hotel was cheap, it was clean. / The food was good, although it was expensive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of his age, he runs very fast.",
+    "output": "✅ **Corrected Sentence:** In spite of his age, he runs very fast. (câu đúng)\n🔍 **Error Identification:** 'In spite of' + danh từ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'despite' thay thế.\n💡 **Ví dụ:** In spite of his disability, he swims well. / Despite his disability, he swims well."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Despite of the warning, he went into the forest.",
+    "output": "✅ **Corrected Sentence:** Despite the warning, he went into the forest.\n🔍 **Error Identification:** 'Despite of' là sai.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' vào 'despite'. Mẹo: Despite + N.\n💡 **Ví dụ:** Despite the danger, he went. / In spite of the danger, he went."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Although he is young, he is very responsible.",
+    "output": "✅ **Corrected Sentence:** Although he is young, he is very responsible. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'though' thay 'although' trong văn nói.\n💡 **Ví dụ:** Though she is small, she is strong. / Although it's late, I'm not tired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In spite of being tired, she finished the race.",
+    "output": "✅ **Corrected Sentence:** In spite of being tired, she finished the race. (câu đúng)\n🔍 **Error Identification:** 'In spite of' + V-ing – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'despite' thay thế.\n💡 **Ví dụ:** Despite being exhausted, he continued. / In spite of being exhausted, he continued."
+  }
+]

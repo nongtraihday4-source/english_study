@@ -1,0 +1,1915 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 4504,
+    "fields": {
+      "word": "divert",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "daɪˈvɜrt",
+      "ipa_us": "dɪˈvɜrt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đổi hướng, làm chuyển hướng",
+      "definition_en": "To cause something or someone to change direction.",
+      "example_en": "Traffic was diverted due to the accident.",
+      "example_vi": "Giao thông đã bị đổi hướng do vụ tai nạn.",
+      "collocations_json": [
+        "divert attention",
+        "divert resources",
+        "divert traffic"
+      ],
+      "synonyms_json": [
+        "redirect",
+        "deflect",
+        "sidetrack"
+      ],
+      "antonyms_json": [
+        "maintain",
+        "focus"
+      ],
+      "mnemonic": "Di (apart) + vert (turn) -> Turn apart or away from the original path.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4505,
+    "fields": {
+      "word": "divine",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "dɪˈvaɪn",
+      "ipa_us": "dɪˈvaɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thần thánh, tuyệt vời",
+      "definition_en": "Connected with a god, or like a god; or extremely good, pleasant, or enjoyable.",
+      "example_en": "Some people believe that kings have a divine right to rule.",
+      "example_vi": "Một số người tin rằng các vị vua có quyền cai trị thần thánh.",
+      "collocations_json": [
+        "divine intervention",
+        "divine right",
+        "divine comedy"
+      ],
+      "synonyms_json": [
+        "godly",
+        "heavenly",
+        "sacred"
+      ],
+      "antonyms_json": [
+        "mortal",
+        "earthly"
+      ],
+      "mnemonic": "Like a deity; heavenly.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4506,
+    "fields": {
+      "word": "doctrine",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈdɑktrən",
+      "ipa_us": "ˈdɑktrɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "học thuyết, giáo lý",
+      "definition_en": "A belief or set of beliefs, especially political or religious ones, that are taught and accepted by a particular group.",
+      "example_en": "The president announced a new military doctrine.",
+      "example_vi": "Tổng thống đã công bố một học thuyết quân sự mới.",
+      "collocations_json": [
+        "religious doctrine",
+        "military doctrine",
+        "Truman doctrine"
+      ],
+      "synonyms_json": [
+        "dogma",
+        "creed",
+        "principle"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Like a doctor teaching a specific philosophy.",
+      "frequency_rank": 6500,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4507,
+    "fields": {
+      "word": "documentation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌdɑkjəmɛnˈteɪʃən",
+      "ipa_us": "ˌdɑkjəmɛnˈteɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tài liệu, hồ sơ",
+      "definition_en": "Official or legal documents that are needed in order to prove something.",
+      "example_en": "Passengers must provide proper documentation at the airport.",
+      "example_vi": "Hành khách phải cung cấp tài liệu thích hợp tại sân bay.",
+      "collocations_json": [
+        "provide documentation",
+        "require documentation",
+        "supporting documentation"
+      ],
+      "synonyms_json": [
+        "records",
+        "papers",
+        "evidence"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "The process of creating or collecting documents.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4508,
+    "fields": {
+      "word": "domain",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "doʊˈmeɪn",
+      "ipa_us": "doʊˈmeɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lĩnh vực, tên miền",
+      "definition_en": "An area of interest or an area over which a person has control; or a set of websites on the internet.",
+      "example_en": "She is a leading expert in the domain of neuroscience.",
+      "example_vi": "Cô là một chuyên gia hàng đầu trong lĩnh vực khoa học thần kinh.",
+      "collocations_json": [
+        "public domain",
+        "domain name",
+        "specific domain"
+      ],
+      "synonyms_json": [
+        "field",
+        "realm",
+        "area"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A DOMAIN is your MAIN area of expertise or land.",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4509,
+    "fields": {
+      "word": "dominance",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈdɑmənəns",
+      "ipa_us": "ˈdɑmənəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự thống trị, ưu thế",
+      "definition_en": "The quality of being more important, strong, or successful than anything else of the same type.",
+      "example_en": "The company's continued dominance in the market is impressive.",
+      "example_vi": "Sự thống trị liên tục của công ty trên thị trường thật ấn tượng.",
+      "collocations_json": [
+        "market dominance",
+        "establish dominance",
+        "global dominance"
+      ],
+      "synonyms_json": [
+        "supremacy",
+        "control",
+        "superiority"
+      ],
+      "antonyms_json": [
+        "weakness",
+        "subordination"
+      ],
+      "mnemonic": "Noun form of dominate.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4510,
+    "fields": {
+      "word": "donor",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "medical",
+      "ipa_uk": "ˈdoʊnər",
+      "ipa_us": "ˈdoʊnər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người hiến tặng, nhà tài trợ",
+      "definition_en": "A person who gives some of their blood or a part of their body to help someone who is ill; or someone who gives money or goods to an organization.",
+      "example_en": "He is a registered organ donor.",
+      "example_vi": "Anh ấy là một người hiến tạng đã đăng ký.",
+      "collocations_json": [
+        "blood donor",
+        "organ donor",
+        "major donor"
+      ],
+      "synonyms_json": [
+        "benefactor",
+        "giver",
+        "contributor"
+      ],
+      "antonyms_json": [
+        "recipient",
+        "beneficiary"
+      ],
+      "mnemonic": "A person who DONATES.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4511,
+    "fields": {
+      "word": "dose",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "medical",
+      "ipa_uk": "doʊs",
+      "ipa_us": "doʊs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "liều lượng (thuốc)",
+      "definition_en": "A measured amount of something such as medicine.",
+      "example_en": "The label says to take one dose three times a day.",
+      "example_vi": "Nhãn ghi là dùng một liều ba lần một ngày.",
+      "collocations_json": [
+        "high dose",
+        "lethal dose",
+        "daily dose"
+      ],
+      "synonyms_json": [
+        "amount",
+        "portion",
+        "measure"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A dose of medicine.",
+      "frequency_rank": 5600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4512,
+    "fields": {
+      "word": "drain",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "dreɪn",
+      "ipa_us": "dreɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "rút cạn, làm thoát nước",
+      "definition_en": "To allow liquid to flow away from something.",
+      "example_en": "Drain the pasta and add it to the sauce.",
+      "example_vi": "Rút cạn nước mì ống và thêm vào nước sốt.",
+      "collocations_json": [
+        "drain the water",
+        "drain completely",
+        "brain drain"
+      ],
+      "synonyms_json": [
+        "empty",
+        "deplete",
+        "exhaust"
+      ],
+      "antonyms_json": [
+        "fill",
+        "flood"
+      ],
+      "mnemonic": "Water goes down the DRAIN.",
+      "frequency_rank": 5400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4513,
+    "fields": {
+      "word": "drift",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "nature",
+      "ipa_uk": "drɪft",
+      "ipa_us": "drɪft",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trôi dạt, trôi đi",
+      "definition_en": "To move slowly, especially as a result of outside forces, with no control over direction.",
+      "example_en": "The boat started to drift out to sea.",
+      "example_vi": "Con thuyền bắt đầu trôi dạt ra biển.",
+      "collocations_json": [
+        "drift apart",
+        "drift off to sleep",
+        "snow drift"
+      ],
+      "synonyms_json": [
+        "float",
+        "wander",
+        "stray"
+      ],
+      "antonyms_json": [
+        "stay",
+        "anchor"
+      ],
+      "mnemonic": "Tokyo Drift (cars sliding out of control).",
+      "frequency_rank": 6000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4514,
+    "fields": {
+      "word": "driving",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈdraɪvɪŋ",
+      "ipa_us": "ˈdraɪvɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có sức thúc đẩy, động lực chính",
+      "definition_en": "Having a strong influence and making something happen.",
+      "example_en": "She was the driving force behind the project.",
+      "example_vi": "Cô ấy là động lực chính đằng sau dự án.",
+      "collocations_json": [
+        "driving force",
+        "driving rain",
+        "driving ambition"
+      ],
+      "synonyms_json": [
+        "motivating",
+        "compelling",
+        "forceful"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Something that DRIVES a project forward.",
+      "frequency_rank": 5100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4515,
+    "fields": {
+      "word": "drown",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "draʊn",
+      "ipa_us": "draʊn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chết đuối, làm chết đuối",
+      "definition_en": "To (cause to) die by being unable to breathe underwater.",
+      "example_en": "He almost drowned when he fell into the river.",
+      "example_vi": "Anh ta suýt chết đuối khi rơi xuống sông.",
+      "collocations_json": [
+        "drown in",
+        "drown out",
+        "nearly drown"
+      ],
+      "synonyms_json": [
+        "submerge",
+        "sink",
+        "overwhelm"
+      ],
+      "antonyms_json": [
+        "float",
+        "save"
+      ],
+      "mnemonic": "Going DOWN into the water and you DROWN.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4516,
+    "fields": {
+      "word": "dual",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈduəl",
+      "ipa_us": "ˈduəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kép, đôi",
+      "definition_en": "With two parts, or having two of something.",
+      "example_en": "The car has dual controls.",
+      "example_vi": "Xe có bộ điều khiển kép.",
+      "collocations_json": [
+        "dual nationality",
+        "dual purpose",
+        "dual citizenship"
+      ],
+      "synonyms_json": [
+        "double",
+        "twofold",
+        "twin"
+      ],
+      "antonyms_json": [
+        "single",
+        "sole"
+      ],
+      "mnemonic": "Dual sounds like Duo (two).",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4517,
+    "fields": {
+      "word": "dub",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "art",
+      "ipa_uk": "dʌb",
+      "ipa_us": "dʌb",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lồng tiếng, đặt biệt danh",
+      "definition_en": "To give something or someone a particular name, especially describing what you think of them; or to change the sounds and speech on a film or television programme.",
+      "example_en": "She was dubbed by the newspapers as 'the poisoner'.",
+      "example_vi": "Cô ta bị báo chí đặt biệt danh là 'kẻ đầu độc'.",
+      "collocations_json": [
+        "dubbed the king of",
+        "dub a film"
+      ],
+      "synonyms_json": [
+        "name",
+        "call",
+        "nickname"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "When you watch an anime, you can watch the SUB or the DUB.",
+      "frequency_rank": 7100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4518,
+    "fields": {
+      "word": "dumb",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "dʌm",
+      "ipa_us": "dʌm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ngu ngốc, câm",
+      "definition_en": "Stupid; or permanently unable to speak.",
+      "example_en": "That was a really dumb thing to do.",
+      "example_vi": "Đó thực sự là một việc làm ngu ngốc.",
+      "collocations_json": [
+        "dumb question",
+        "dumb mistake",
+        "play dumb"
+      ],
+      "synonyms_json": [
+        "stupid",
+        "foolish",
+        "mute"
+      ],
+      "antonyms_json": [
+        "smart",
+        "intelligent",
+        "clever"
+      ],
+      "mnemonic": "Dumb and Dumber is a comedy movie about two stupid guys.",
+      "frequency_rank": 5200,
+      "register": "informal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4519,
+    "fields": {
+      "word": "duo",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "art",
+      "ipa_uk": "ˈduoʊ",
+      "ipa_us": "ˈduoʊ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bộ đôi",
+      "definition_en": "A pair of people, especially in music or entertainment.",
+      "example_en": "The comedy duo performed a hilarious sketch.",
+      "example_vi": "Bộ đôi hài kịch đã biểu diễn một tiểu phẩm rất hài hước.",
+      "collocations_json": [
+        "dynamic duo",
+        "comedy duo",
+        "famous duo"
+      ],
+      "synonyms_json": [
+        "pair",
+        "couple",
+        "twosome"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Duo means two.",
+      "frequency_rank": 7400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4520,
+    "fields": {
+      "word": "dynamic",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "daɪˈnæmɪk",
+      "ipa_us": "daɪˈnæmɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "động lực, động lực học",
+      "definition_en": "A force that produces change, action, or effects.",
+      "example_en": "The dynamic of the team changed when the new manager arrived.",
+      "example_vi": "Động lực của nhóm đã thay đổi khi người quản lý mới đến.",
+      "collocations_json": [
+        "group dynamic",
+        "power dynamic",
+        "changing dynamic"
+      ],
+      "synonyms_json": [
+        "force",
+        "energy",
+        "momentum"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Something dynamic (adjective) possesses a certain dynamic (noun).",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4521,
+    "fields": {
+      "word": "eager",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈiɡər",
+      "ipa_us": "ˈiɡər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "háo hức, thiết tha",
+      "definition_en": "Wanting very much to do or have something, especially something interesting or enjoyable.",
+      "example_en": "The children were eager to open their presents.",
+      "example_vi": "Lũ trẻ rất háo hức mở những món quà của chúng.",
+      "collocations_json": [
+        "eager to please",
+        "eager beaver",
+        "overly eager"
+      ],
+      "synonyms_json": [
+        "anxious",
+        "keen",
+        "enthusiastic"
+      ],
+      "antonyms_json": [
+        "reluctant",
+        "unwilling",
+        "apathetic"
+      ],
+      "mnemonic": "An eager beaver is very keen to work.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4522,
+    "fields": {
+      "word": "earnings",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈɜrnɪŋz",
+      "ipa_us": "ˈɜrnɪŋz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thu nhập, tiền kiếm được",
+      "definition_en": "The amount of money that someone is paid for working.",
+      "example_en": "Average weekly earnings have increased.",
+      "example_vi": "Thu nhập trung bình hàng tuần đã tăng lên.",
+      "collocations_json": [
+        "average earnings",
+        "export earnings",
+        "earnings report"
+      ],
+      "synonyms_json": [
+        "income",
+        "wages",
+        "salary"
+      ],
+      "antonyms_json": [
+        "expenses",
+        "losses"
+      ],
+      "mnemonic": "The money you EARN are your EARNINGS.",
+      "frequency_rank": 5300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4523,
+    "fields": {
+      "word": "ease",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "iz",
+      "ipa_us": "iz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự dễ dàng, sự thanh thản",
+      "definition_en": "The state of experiencing no difficulty, effort, pain, etc.",
+      "example_en": "He passed the exam with ease.",
+      "example_vi": "Anh ấy đã vượt qua kỳ thi một cách dễ dàng.",
+      "collocations_json": [
+        "with ease",
+        "at ease",
+        "put someone at ease"
+      ],
+      "synonyms_json": [
+        "simplicity",
+        "comfort",
+        "effortlessness"
+      ],
+      "antonyms_json": [
+        "difficulty",
+        "hardship",
+        "trouble"
+      ],
+      "mnemonic": "When something is EASY, you do it with EASE.",
+      "frequency_rank": 5600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4524,
+    "fields": {
+      "word": "echo",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈɛkoʊ",
+      "ipa_us": "ˈɛkoʊ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vang vọng, lặp lại",
+      "definition_en": "If a sound echoes, it is reflected off a wall, the side of a mountain, etc., so that you can hear it again; or to repeat details that are similar to, and make you think of, something else.",
+      "example_en": "His footsteps echoed in the empty hall.",
+      "example_vi": "Tiếng bước chân của anh ấy vang vọng trong sảnh trống.",
+      "collocations_json": [
+        "echo throughout",
+        "echo sentiments",
+        "echo chamber"
+      ],
+      "synonyms_json": [
+        "reverberate",
+        "resound",
+        "repeat"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Like an echo sounding back to you.",
+      "frequency_rank": 6700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4525,
+    "fields": {
+      "word": "ecological",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "nature",
+      "ipa_uk": "ikəˈlɑʤɪkəl",
+      "ipa_us": "ˌikəˈlɑʤɪkəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về sinh thái",
+      "definition_en": "Relating to ecology or the environment.",
+      "example_en": "The oil spill caused a major ecological disaster.",
+      "example_vi": "Sự cố tràn dầu đã gây ra một thảm họa sinh thái lớn.",
+      "collocations_json": [
+        "ecological balance",
+        "ecological disaster",
+        "ecological impact"
+      ],
+      "synonyms_json": [
+        "environmental",
+        "green"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adjective relating to ecology.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4526,
+    "fields": {
+      "word": "educator",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈɛʤəˌkeɪtər",
+      "ipa_us": "ˈɛdʒəˌkeɪtər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhà giáo dục",
+      "definition_en": "A person who teaches people.",
+      "example_en": "She is a respected writer and educator.",
+      "example_vi": "Cô ấy là một nhà văn và nhà giáo dục được kính trọng.",
+      "collocations_json": [
+        "leading educator",
+        "health educator",
+        "early childhood educator"
+      ],
+      "synonyms_json": [
+        "teacher",
+        "instructor",
+        "tutor"
+      ],
+      "antonyms_json": [
+        "student",
+        "pupil"
+      ],
+      "mnemonic": "Someone who educates is an educator.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4527,
+    "fields": {
+      "word": "effectiveness",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ɪˈfɛktɪvnəs",
+      "ipa_us": "ɪˈfɛktɪvnəs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tính hiệu quả",
+      "definition_en": "The ability to be successful and produce the intended results.",
+      "example_en": "The effectiveness of the new drug has been proven in clinical trials.",
+      "example_vi": "Tính hiệu quả của loại thuốc mới đã được chứng minh trong các thử nghiệm lâm sàng.",
+      "collocations_json": [
+        "prove the effectiveness",
+        "overall effectiveness",
+        "cost effectiveness"
+      ],
+      "synonyms_json": [
+        "success",
+        "efficacy",
+        "usefulness"
+      ],
+      "antonyms_json": [
+        "ineffectiveness",
+        "uselessness"
+      ],
+      "mnemonic": "Noun form of effective.",
+      "frequency_rank": 5100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4528,
+    "fields": {
+      "word": "efficiency",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ɪˈfɪʃənsi",
+      "ipa_us": "ɪˈfɪʃənsi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hiệu suất, năng suất",
+      "definition_en": "The good use of time and energy in a way that does not waste any.",
+      "example_en": "The new machine operates with greater efficiency.",
+      "example_vi": "Máy mới hoạt động với năng suất cao hơn.",
+      "collocations_json": [
+        "improve efficiency",
+        "fuel efficiency",
+        "energy efficiency"
+      ],
+      "synonyms_json": [
+        "productivity",
+        "effectiveness",
+        "organization"
+      ],
+      "antonyms_json": [
+        "inefficiency",
+        "wastefulness"
+      ],
+      "mnemonic": "Noun form of efficient.",
+      "frequency_rank": 5400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4529,
+    "fields": {
+      "word": "ego",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈiɡoʊ",
+      "ipa_us": "ˈiɡoʊ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái tôi, lòng tự trọng",
+      "definition_en": "Your idea or opinion of yourself, especially your feeling of your own importance and ability.",
+      "example_en": "That man has such a massive ego.",
+      "example_vi": "Người đàn ông đó có cái tôi quá lớn.",
+      "collocations_json": [
+        "massive ego",
+        "boost someone's ego",
+        "fragile ego"
+      ],
+      "synonyms_json": [
+        "self-esteem",
+        "pride",
+        "self-worth"
+      ],
+      "antonyms_json": [
+        "humility",
+        "modesty"
+      ],
+      "mnemonic": "Egocentric people have a big ego.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4530,
+    "fields": {
+      "word": "elaborate",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪˈlæbrət",
+      "ipa_us": "ɪˈlæbərət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tỉ mỉ, phức tạp",
+      "definition_en": "Containing a lot of careful detail or many detailed parts.",
+      "example_en": "They made elaborate preparations for the wedding.",
+      "example_vi": "Họ đã chuẩn bị rất tỉ mỉ cho đám cưới.",
+      "collocations_json": [
+        "elaborate plan",
+        "elaborate design",
+        "highly elaborate"
+      ],
+      "synonyms_json": [
+        "detailed",
+        "intricate",
+        "complex"
+      ],
+      "antonyms_json": [
+        "simple",
+        "plain",
+        "basic"
+      ],
+      "mnemonic": "E (out) + labor (work). Worked out with great detail.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4531,
+    "fields": {
+      "word": "electoral",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪˈlɛktərəl",
+      "ipa_us": "ɪˈlɛktərəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về bầu cử",
+      "definition_en": "Relating to an election.",
+      "example_en": "The country is undergoing major electoral reforms.",
+      "example_vi": "Đất nước đang trải qua những cải cách bầu cử lớn.",
+      "collocations_json": [
+        "electoral system",
+        "electoral college",
+        "electoral fraud"
+      ],
+      "synonyms_json": [
+        "voting",
+        "political"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adjective form of elect/election.",
+      "frequency_rank": 5900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4532,
+    "fields": {
+      "word": "elevate",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈɛləˌveɪt",
+      "ipa_us": "ˈɛləˌveɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nâng lên, đưa lên",
+      "definition_en": "To raise something or lift something up.",
+      "example_en": "The doctor advised him to elevate his injured leg.",
+      "example_vi": "Bác sĩ khuyên anh nên kê cao cái chân bị thương của mình.",
+      "collocations_json": [
+        "elevate status",
+        "elevate to a position",
+        "elevate your heart rate"
+      ],
+      "synonyms_json": [
+        "raise",
+        "lift",
+        "promote"
+      ],
+      "antonyms_json": [
+        "lower",
+        "drop",
+        "demote"
+      ],
+      "mnemonic": "An elevator elevates you to a higher floor.",
+      "frequency_rank": 6600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4533,
+    "fields": {
+      "word": "eligible",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈɛləʤəbəl",
+      "ipa_us": "ˈɛlədʒəbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đủ tư cách, đủ điều kiện",
+      "definition_en": "Having the necessary qualities or satisfying the necessary conditions.",
+      "example_en": "You might be eligible for a grant.",
+      "example_vi": "Bạn có thể đủ điều kiện nhận được một khoản trợ cấp.",
+      "collocations_json": [
+        "eligible for",
+        "eligible to vote",
+        "become eligible"
+      ],
+      "synonyms_json": [
+        "qualified",
+        "entitled",
+        "suitable"
+      ],
+      "antonyms_json": [
+        "ineligible",
+        "unqualified"
+      ],
+      "mnemonic": "Eligible bachelors are qualified to be married.",
+      "frequency_rank": 5500,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4534,
+    "fields": {
+      "word": "elite",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪˈlit",
+      "ipa_us": "ɪˈlit",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tầng lớp ưu tú",
+      "definition_en": "The richest, most powerful, best-educated, or best-trained group in a society.",
+      "example_en": "The country is ruled by a small political elite.",
+      "example_vi": "Đất nước được cai trị bởi một tầng lớp tinh hoa chính trị nhỏ.",
+      "collocations_json": [
+        "political elite",
+        "ruling elite",
+        "elite group"
+      ],
+      "synonyms_json": [
+        "upper class",
+        "aristocracy",
+        "best"
+      ],
+      "antonyms_json": [
+        "masses",
+        "commoners"
+      ],
+      "mnemonic": "Elite troops are the best of the best.",
+      "frequency_rank": 6300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4535,
+    "fields": {
+      "word": "embark",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "travel",
+      "ipa_uk": "ɛmˈbɑrk",
+      "ipa_us": "ɛmˈbɑrk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lên tàu, bắt đầu",
+      "definition_en": "To go onto a ship; or to start something new or important.",
+      "example_en": "We embarked on a new project.",
+      "example_vi": "Chúng tôi đã bắt đầu một dự án mới.",
+      "collocations_json": [
+        "embark on a journey",
+        "embark on a career",
+        "embark on a project"
+      ],
+      "synonyms_json": [
+        "start",
+        "begin",
+        "commence"
+      ],
+      "antonyms_json": [
+        "disembark",
+        "finish",
+        "end"
+      ],
+      "mnemonic": "To get on a BARK (old word for boat) -> em-bark.",
+      "frequency_rank": 7000,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4536,
+    "fields": {
+      "word": "embarrassment",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ɪmˈbɛrəsmənt",
+      "ipa_us": "ɪmˈbɛrəsmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự bối rối, sự xấu hổ",
+      "definition_en": "The feeling of being embarrassed, or something that makes you feel embarrassed.",
+      "example_en": "She went red with embarrassment.",
+      "example_vi": "Cô ấy đỏ mặt vì xấu hổ.",
+      "collocations_json": [
+        "save someone from embarrassment",
+        "cause embarrassment",
+        "flush with embarrassment"
+      ],
+      "synonyms_json": [
+        "shame",
+        "humiliation",
+        "awkwardness"
+      ],
+      "antonyms_json": [
+        "pride",
+        "confidence"
+      ],
+      "mnemonic": "Noun form of embarrass.",
+      "frequency_rank": 5700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4537,
+    "fields": {
+      "word": "embassy",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "travel",
+      "ipa_uk": "ˈɛmbəsi",
+      "ipa_us": "ˈɛmbəsi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đại sứ quán",
+      "definition_en": "The group of people who represent their country in a foreign country, or the building they work in.",
+      "example_en": "We need to go to the American embassy to get our visas.",
+      "example_vi": "Chúng ta cần đến đại sứ quán Mỹ để lấy visa.",
+      "collocations_json": [
+        "US embassy",
+        "foreign embassy",
+        "embassy official"
+      ],
+      "synonyms_json": [
+        "consulate",
+        "legation",
+        "diplomatic mission"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Where the ambassador works.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4538,
+    "fields": {
+      "word": "embed",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "ɪmˈbɛd",
+      "ipa_us": "ɪmˈbɛd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "gắn vào, nhúng",
+      "definition_en": "To fix something firmly into a substance.",
+      "example_en": "You can embed a video directly into your web page.",
+      "example_vi": "Bạn có thể nhúng trực tiếp một video vào trang web của mình.",
+      "collocations_json": [
+        "embed a video",
+        "deeply embedded",
+        "firmly embed"
+      ],
+      "synonyms_json": [
+        "insert",
+        "implant",
+        "fix"
+      ],
+      "antonyms_json": [
+        "extract",
+        "remove"
+      ],
+      "mnemonic": "Put into a BED.",
+      "frequency_rank": 7500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4539,
+    "fields": {
+      "word": "embody",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɪmˈbɑdi",
+      "ipa_us": "ɪmˈbɑdi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hiện thân của, bao gồm",
+      "definition_en": "To represent a quality or an idea exactly.",
+      "example_en": "He embodies all the qualities of a great leader.",
+      "example_vi": "Ông ấy là hiện thân của tất cả các phẩm chất của một nhà lãnh đạo vĩ đại.",
+      "collocations_json": [
+        "embody the spirit",
+        "embody a concept",
+        "perfectly embody"
+      ],
+      "synonyms_json": [
+        "personify",
+        "represent",
+        "symbolize"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "To put an idea into a physical BODY.",
+      "frequency_rank": 6800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4540,
+    "fields": {
+      "word": "emergence",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɪˈmɜrʤəns",
+      "ipa_us": "ɪˈmɜrʤəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự xuất hiện, sự nổi lên",
+      "definition_en": "The fact of something becoming known or starting to exist.",
+      "example_en": "The emergence of new technologies has changed the industry.",
+      "example_vi": "Sự xuất hiện của các công nghệ mới đã thay đổi ngành công nghiệp.",
+      "collocations_json": [
+        "sudden emergence",
+        "gradual emergence",
+        "emergence of a pattern"
+      ],
+      "synonyms_json": [
+        "appearance",
+        "arrival",
+        "rise"
+      ],
+      "antonyms_json": [
+        "disappearance",
+        "fading"
+      ],
+      "mnemonic": "Noun form of emerge.",
+      "frequency_rank": 5600,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4541,
+    "fields": {
+      "word": "empirical",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌɛmˈpɪrɪkəl",
+      "ipa_us": "ɛmˈpɪrɪkəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "theo kinh nghiệm, thực nghiệm",
+      "definition_en": "Based on what is experienced or seen rather than on theory.",
+      "example_en": "This theory needs to be backed up with solid empirical evidence.",
+      "example_vi": "Lý thuyết này cần được củng cố bằng những bằng chứng thực nghiệm vững chắc.",
+      "collocations_json": [
+        "empirical evidence",
+        "empirical research",
+        "empirical study"
+      ],
+      "synonyms_json": [
+        "practical",
+        "experiential",
+        "observed"
+      ],
+      "antonyms_json": [
+        "theoretical",
+        "hypothetical"
+      ],
+      "mnemonic": "EMPIREs are built on EMPIRICAL facts, not dreams.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4542,
+    "fields": {
+      "word": "empower",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ɪmˈpaʊər",
+      "ipa_us": "ɪmˈpaʊər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trao quyền, làm cho có khả năng",
+      "definition_en": "To give someone official authority or the freedom to do something.",
+      "example_en": "The movement aims to empower women in the workplace.",
+      "example_vi": "Phong trào nhằm trao quyền cho phụ nữ tại nơi làm việc.",
+      "collocations_json": [
+        "empower someone to do",
+        "feel empowered",
+        "empower employees"
+      ],
+      "synonyms_json": [
+        "authorize",
+        "enable",
+        "entitle"
+      ],
+      "antonyms_json": [
+        "disempower",
+        "restrict"
+      ],
+      "mnemonic": "To put POWER into someone.",
+      "frequency_rank": 6900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4543,
+    "fields": {
+      "word": "enact",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪˈnækt",
+      "ipa_us": "ɪˈnækt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ban hành (đạo luật), diễn kịch",
+      "definition_en": "To put something into action, especially to make something law.",
+      "example_en": "The government is going to enact a new strict law.",
+      "example_vi": "Chính phủ chuẩn bị ban hành một đạo luật mới nghiêm ngặt.",
+      "collocations_json": [
+        "enact a law",
+        "enact legislation",
+        "enact a change"
+      ],
+      "synonyms_json": [
+        "pass",
+        "legislate",
+        "ratify"
+      ],
+      "antonyms_json": [
+        "repeal",
+        "revoke"
+      ],
+      "mnemonic": "To make an ACT (law) become real.",
+      "frequency_rank": 7200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4544,
+    "fields": {
+      "word": "encompass",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɛnˈkʌmpəs",
+      "ipa_us": "ɪnˈkʌmpəs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bao gồm, bao trọn",
+      "definition_en": "To include different types of things.",
+      "example_en": "The festival is to encompass everything from music to theatre.",
+      "example_vi": "Lễ hội sẽ bao gồm mọi thứ từ âm nhạc đến sân khấu.",
+      "collocations_json": [
+        "encompass a wide range",
+        "broadly encompass",
+        "encompass all aspects"
+      ],
+      "synonyms_json": [
+        "include",
+        "cover",
+        "embrace"
+      ],
+      "antonyms_json": [
+        "exclude",
+        "omit"
+      ],
+      "mnemonic": "A COMPASS makes a circle that encloses things.",
+      "frequency_rank": 6400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4545,
+    "fields": {
+      "word": "encouragement",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɛnˈkɜrɪʤmənt",
+      "ipa_us": "ɪnˈkɜrɪdʒmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự động viên, khuyến khích",
+      "definition_en": "Words or behaviour that give someone confidence to do something.",
+      "example_en": "Children need a lot of encouragement.",
+      "example_vi": "Trẻ em cần rất nhiều sự động viên.",
+      "collocations_json": [
+        "words of encouragement",
+        "give encouragement",
+        "great encouragement"
+      ],
+      "synonyms_json": [
+        "support",
+        "inspiration",
+        "motivation"
+      ],
+      "antonyms_json": [
+        "discouragement",
+        "hindrance"
+      ],
+      "mnemonic": "Noun form of encourage.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4546,
+    "fields": {
+      "word": "encouraging",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɛnˈkɜrɪʤɪŋ",
+      "ipa_us": "ɪnˈkɜrɪdʒɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đáng khích lệ, đầy hứa hẹn",
+      "definition_en": "Making you feel more confidence or hope.",
+      "example_en": "There was an encouraging response to the new proposal.",
+      "example_vi": "Đã có một phản hồi đáng khích lệ đối với đề xuất mới.",
+      "collocations_json": [
+        "highly encouraging",
+        "encouraging signs",
+        "encouraging news"
+      ],
+      "synonyms_json": [
+        "promising",
+        "hopeful",
+        "positive"
+      ],
+      "antonyms_json": [
+        "discouraging",
+        "disheartening",
+        "bleak"
+      ],
+      "mnemonic": "Adjective form of encourage.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4547,
+    "fields": {
+      "word": "endeavour",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ɪnˈdɛvər",
+      "ipa_us": "ɪnˈdɛvər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự nỗ lực, cố gắng",
+      "definition_en": "An attempt to do something.",
+      "example_en": "Crossing the North Pole on foot was an amazing feat of human endeavour.",
+      "example_vi": "Băng qua Bắc Cực bằng đường bộ là một kỳ tích đáng kinh ngạc của nỗ lực con người.",
+      "collocations_json": [
+        "human endeavour",
+        "make every endeavour",
+        "scientific endeavour"
+      ],
+      "synonyms_json": [
+        "attempt",
+        "effort",
+        "venture"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "If you END the EVER-lasting task, you've made a great endeavour.",
+      "frequency_rank": 6500,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4548,
+    "fields": {
+      "word": "endless",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈɛndləs",
+      "ipa_us": "ˈɛndləs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vô tận, bất tận",
+      "definition_en": "Never finishing, or seeming never to finish.",
+      "example_en": "We used to have endless arguments about politics.",
+      "example_vi": "Chúng tôi từng có những cuộc tranh luận bất tận về chính trị.",
+      "collocations_json": [
+        "endless supply",
+        "endless possibilities",
+        "seem endless"
+      ],
+      "synonyms_json": [
+        "limitless",
+        "infinite",
+        "unending"
+      ],
+      "antonyms_json": [
+        "limited",
+        "finite",
+        "brief"
+      ],
+      "mnemonic": "End + less -> Without end.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4549,
+    "fields": {
+      "word": "endorse",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ɛnˈdɔrs",
+      "ipa_us": "ɪnˈdɔrs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tán thành, chứng thực",
+      "definition_en": "To make a public statement of your approval or support for something or someone.",
+      "example_en": "The prime minister endorsed the new proposal.",
+      "example_vi": "Thủ tướng đã tán thành đề xuất mới.",
+      "collocations_json": [
+        "fully endorse",
+        "publicly endorse",
+        "endorse a product"
+      ],
+      "synonyms_json": [
+        "support",
+        "approve",
+        "back"
+      ],
+      "antonyms_json": [
+        "oppose",
+        "reject",
+        "disapprove"
+      ],
+      "mnemonic": "When you sign the back of a check (dorsum=back), you endorse it.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4550,
+    "fields": {
+      "word": "endorsement",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ɛnˈdɔrsmənt",
+      "ipa_us": "ɪnˈdɔrsmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự tán thành, lời chứng thực",
+      "definition_en": "The act of saying that you approve of or support something or someone.",
+      "example_en": "The campaign received official endorsement from several celebrities.",
+      "example_vi": "Chiến dịch đã nhận được sự chứng thực chính thức từ một số người nổi tiếng.",
+      "collocations_json": [
+        "official endorsement",
+        "celebrity endorsement",
+        "give endorsement"
+      ],
+      "synonyms_json": [
+        "approval",
+        "support",
+        "backing"
+      ],
+      "antonyms_json": [
+        "opposition",
+        "rejection"
+      ],
+      "mnemonic": "Noun form of endorse.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4551,
+    "fields": {
+      "word": "endure",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɛnˈdjʊr",
+      "ipa_us": "ɪnˈdʊr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chịu đựng, kéo dài",
+      "definition_en": "To suffer something difficult, unpleasant, or painful; or to continue to exist for a long time.",
+      "example_en": "We had to endure a nine-hour delay at the airport.",
+      "example_vi": "Chúng tôi đã phải chịu đựng việc bị chậm trễ chín tiếng tại sân bay.",
+      "collocations_json": [
+        "endure hardship",
+        "endure pain",
+        "long endure"
+      ],
+      "synonyms_json": [
+        "suffer",
+        "tolerate",
+        "withstand"
+      ],
+      "antonyms_json": [
+        "quit",
+        "give up",
+        "fade"
+      ],
+      "mnemonic": "If something is DURABLE, it can ENDURE.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4552,
+    "fields": {
+      "word": "enforce",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɛnˈfɔrs",
+      "ipa_us": "ɪnˈfɔrs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thi hành, bắt buộc",
+      "definition_en": "To make people obey a law, or to make a particular situation happen or be accepted.",
+      "example_en": "The new parking restrictions will be strictly enforced.",
+      "example_vi": "Các quy định đỗ xe mới sẽ được thi hành nghiêm ngặt.",
+      "collocations_json": [
+        "enforce the law",
+        "strictly enforce",
+        "enforce rules"
+      ],
+      "synonyms_json": [
+        "implement",
+        "impose",
+        "compel"
+      ],
+      "antonyms_json": [
+        "ignore",
+        "abandon",
+        "waive"
+      ],
+      "mnemonic": "To put FORCE behind a rule.",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4553,
+    "fields": {
+      "word": "enforcement",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɛnˈfɔrsmənt",
+      "ipa_us": "ɪnˈfɔrsmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự thi hành, sự bắt buộc",
+      "definition_en": "The process of making people obey a law or rule.",
+      "example_en": "Law enforcement officers are investigating the crime.",
+      "example_vi": "Các nhân viên thi hành luật đang điều tra vụ án.",
+      "collocations_json": [
+        "law enforcement",
+        "strict enforcement",
+        "code enforcement"
+      ],
+      "synonyms_json": [
+        "implementation",
+        "imposition",
+        "application"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of enforce.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

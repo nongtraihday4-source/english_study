@@ -1,0 +1,527 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I walked to school yesterday.\' Văn bản Whisper nhận được: \'I walk to school yesterday.\'",
+    "output": "✅ **Corrected Sentence:** I walked to school yesterday.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'walked' đọc thành 'walk' (thiếu âm /t/).\n📘 **Vietnamese Explanation:** 'Walked' kết thúc bằng /k/ (vô thanh) → 'ed' phát âm là /t/. Người Việt thường bỏ âm cuối vì tiếng Việt không có. Mẹo: Sau âm vô thanh (p, k, f, s, ʃ, tʃ, θ) → 'ed' = /t/.\n💡 **Luyện tập:** walked (wɔːkt) – bật hơi nhẹ âm 't' ở cuối."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She played the piano last night.\' Văn bản Whisper nhận được: \'She play the piano last night.\'",
+    "output": "✅ **Corrected Sentence:** She played the piano last night.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'played' đọc thành 'play' (thiếu âm /d/).\n📘 **Vietnamese Explanation:** 'Played' kết thúc bằng /eɪ/ (nguyên âm) → 'ed' phát âm là /d/. Người Việt bỏ âm /d/ cuối. Mẹo: Sau nguyên âm và phụ âm hữu thanh (b, g, v, ð, z, ʒ, m, n, ŋ, l, r) → 'ed' = /d/.\n💡 **Luyện tập:** played (pleɪd) – kéo dài nhẹ âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She wanted to go home.\' Văn bản Whisper nhận được: \'She want to go home.\'",
+    "output": "✅ **Corrected Sentence:** She wanted to go home.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'wanted' đọc thành 'want' (thiếu âm /ɪd/).\n📘 **Vietnamese Explanation:** 'Wanted' kết thúc bằng /t/ → 'ed' phát âm là /ɪd/ (thêm một âm tiết). Người Việt thường bỏ cả âm tiết. Mẹo: Sau /t/ hoặc /d/ → 'ed' = /ɪd/ (thêm âm tiết 'id').\n💡 **Luyện tập:** wanted (ˈwɒntɪd) – 2 âm tiết: want-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He stopped the car.\' Văn bản Whisper nhận được: \'He stop the car.\'",
+    "output": "✅ **Corrected Sentence:** He stopped the car.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'stopped' đọc thành 'stop' (thiếu âm /t/).\n📘 **Vietnamese Explanation:** 'Stopped' kết thúc bằng /p/ (vô thanh) → /t/. Mẹo: Gấp đôi 'p' rồi thêm 'ed', phát âm /t/.\n💡 **Luyện tập:** stopped (stɒpt) – âm 't' nhẹ."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I loved that movie.\' Văn bản Whisper nhận được: \'I love that movie.\'",
+    "output": "✅ **Corrected Sentence:** I loved that movie.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'loved' đọc thành 'love' (thiếu âm /d/).\n📘 **Vietnamese Explanation:** 'Loved' kết thúc bằng /v/ (hữu thanh) → /d/. Mẹo: Cảm nhận rung thanh quản khi phát âm /d/.\n💡 **Luyện tập:** loved (lʌvd) – kéo dài âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She visited her grandmother.\' Văn bản Whisper nhận được: \'She visit her grandmother.\'",
+    "output": "✅ **Corrected Sentence:** She visited her grandmother.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'visited' đọc thành 'visit' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Visited' kết thúc bằng /t/ → /ɪd/ (thêm âm tiết).\n💡 **Luyện tập:** visited (ˈvɪzɪtɪd) – 3 âm tiết: vis-it-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He worked hard all day.\' Văn bản Whisper nhận được: \'He work hard all day.\'",
+    "output": "✅ **Corrected Sentence:** He worked hard all day.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'worked' đọc thành 'work' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Worked' kết thúc bằng /k/ (vô thanh) → /t/.\n💡 **Luyện tập:** worked (wɜːkt) – âm 't' nhẹ."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'They laughed at the joke.\' Văn bản Whisper nhận được: \'They laugh at the joke.\'",
+    "output": "✅ **Corrected Sentence:** They laughed at the joke.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'laughed' đọc thành 'laugh' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Laughed' kết thúc bằng /f/ (vô thanh) → /t/.\n💡 **Luyện tập:** laughed (lɑːft) – âm 't' sau 'f'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She cried when she heard the news.\' Văn bản Whisper nhận được: \'She cry when she hear the news.\'",
+    "output": "✅ **Corrected Sentence:** She cried when she heard the news.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'cried' đọc thành 'cry' (thiếu /d/), 'heard' đọc thành 'hear' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Cried' kết thúc bằng /aɪ/ (nguyên âm) → /d/. 'Heard' là bất quy tắc (hear – heard).\n💡 **Luyện tập:** cried (kraɪd). heard (hɜːd)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He pushed the door open.\' Văn bản Whisper nhận được: \'He push the door open.\'",
+    "output": "✅ **Corrected Sentence:** He pushed the door open.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'pushed' đọc thành 'push' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Pushed' kết thúc bằng /ʃ/ (vô thanh) → /t/.\n💡 **Luyện tập:** pushed (pʊʃt) – âm 't' nhẹ."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I needed a break.\' Văn bản Whisper nhận được: \'I need a break.\'",
+    "output": "✅ **Corrected Sentence:** I needed a break.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'needed' đọc thành 'need' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Needed' kết thúc bằng /d/ → /ɪd/ (thêm âm tiết).\n💡 **Luyện tập:** needed (ˈniːdɪd) – 2 âm tiết: need-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She finished her homework.\' Văn bản Whisper nhận được: \'She finish her homework.\'",
+    "output": "✅ **Corrected Sentence:** She finished her homework.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'finished' đọc thành 'finish' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Finished' kết thúc bằng /ʃ/ → /t/.\n💡 **Luyện tập:** finished (ˈfɪnɪʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He watched TV all evening.\' Văn bản Whisper nhận được: \'He watch TV all evening.\'",
+    "output": "✅ **Corrected Sentence:** He watched TV all evening.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'watched' đọc thành 'watch' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Watched' kết thúc bằng /tʃ/ (vô thanh) → /t/.\n💡 **Luyện tập:** watched (wɒtʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'They danced all night.\' Văn bản Whisper nhận được: \'They dance all night.\'",
+    "output": "✅ **Corrected Sentence:** They danced all night.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'danced' đọc thành 'dance' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Danced' kết thúc bằng /s/ (vô thanh) → /t/.\n💡 **Luyện tập:** danced (dɑːnst) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She relaxed on the sofa.\' Văn bản Whisper nhận được: \'She relax on the sofa.\'",
+    "output": "✅ **Corrected Sentence:** She relaxed on the sofa.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'relaxed' đọc thành 'relax' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Relaxed' kết thúc bằng /ks/ (vô thanh) → /t/.\n💡 **Luyện tập:** relaxed (rɪˈlækst) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I helped my mother.\' Văn bản Whisper nhận được: \'I help my mother.\'",
+    "output": "✅ **Corrected Sentence:** I helped my mother.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'helped' đọc thành 'help' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Helped' kết thúc bằng /p/ (vô thanh) → /t/.\n💡 **Luyện tập:** helped (helpt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He called me yesterday.\' Văn bản Whisper nhận được: \'He call me yesterday.\'",
+    "output": "✅ **Corrected Sentence:** He called me yesterday.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'called' đọc thành 'call' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Called' kết thúc bằng /l/ (hữu thanh) → /d/.\n💡 **Luyện tập:** called (kɔːld) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She offered to help.\' Văn bản Whisper nhận được: \'She offer to help.\'",
+    "output": "✅ **Corrected Sentence:** She offered to help.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'offered' đọc thành 'offer' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Offered' kết thúc bằng /ə/ (nguyên âm) → /d/.\n💡 **Luyện tập:** offered (ˈɒfəd) – âm 'd' nhẹ."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'They waited for an hour.\' Văn bản Whisper nhận được: \'They wait for an hour.\'",
+    "output": "✅ **Corrected Sentence:** They waited for an hour.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'waited' đọc thành 'wait' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Waited' kết thúc bằng /t/ → /ɪd/ (thêm âm tiết).\n💡 **Luyện tập:** waited (ˈweɪtɪd) – 2 âm tiết: wait-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He fixed the computer.\' Văn bản Whisper nhận được: \'He fix the computer.\'",
+    "output": "✅ **Corrected Sentence:** He fixed the computer.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'fixed' đọc thành 'fix' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Fixed' kết thúc bằng /ks/ → /t/.\n💡 **Luyện tập:** fixed (fɪkst) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She kissed her baby.\' Văn bản Whisper nhận được: \'She kiss her baby.\'",
+    "output": "✅ **Corrected Sentence:** She kissed her baby.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'kissed' đọc thành 'kiss' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Kissed' kết thúc bằng /s/ → /t/.\n💡 **Luyện tập:** kissed (kɪst) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I missed the bus.\' Văn bản Whisper nhận được: \'I miss the bus.\'",
+    "output": "✅ **Corrected Sentence:** I missed the bus.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'missed' đọc thành 'miss' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Missed' kết thúc bằng /s/ → /t/.\n💡 **Luyện tập:** missed (mɪst) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He passed the exam.\' Văn bản Whisper nhận được: \'He pass the exam.\'",
+    "output": "✅ **Corrected Sentence:** He passed the exam.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'passed' đọc thành 'pass' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Passed' kết thúc bằng /s/ → /t/.\n💡 **Luyện tập:** passed (pɑːst) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She washed the dishes.\' Văn bản Whisper nhận được: \'She wash the dishes.\'",
+    "output": "✅ **Corrected Sentence:** She washed the dishes.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'washed' đọc thành 'wash' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Washed' kết thúc bằng /ʃ/ → /t/.\n💡 **Luyện tập:** washed (wɒʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He wished me luck.\' Văn bản Whisper nhận được: \'He wish me luck.\'",
+    "output": "✅ **Corrected Sentence:** He wished me luck.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'wished' đọc thành 'wish' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Wished' kết thúc bằng /ʃ/ → /t/.\n💡 **Luyện tập:** wished (wɪʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I finished my work.\' Văn bản Whisper nhận được: \'I finish my work.\'",
+    "output": "✅ **Corrected Sentence:** I finished my work.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'finished' đọc thành 'finish' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Finished' kết thúc bằng /ʃ/ → /t/.\n💡 **Luyện tập:** finished (ˈfɪnɪʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He established a company.\' Văn bản Whisper nhận được: \'He establish a company.\'",
+    "output": "✅ **Corrected Sentence:** He established a company.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'established' đọc thành 'establish' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Established' kết thúc bằng /ʃ/ → /t/.\n💡 **Luyện tập:** established (ɪˈstæblɪʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She published a book.\' Văn bản Whisper nhận được: \'She publish a book.\'",
+    "output": "✅ **Corrected Sentence:** She published a book.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'published' đọc thành 'publish' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Published' kết thúc bằng /ʃ/ → /t/.\n💡 **Luyện tập:** published (ˈpʌblɪʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He punished the child.\' Văn bản Whisper nhận được: \'He punish the child.\'",
+    "output": "✅ **Corrected Sentence:** He punished the child.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'punished' đọc thành 'punish' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Punished' kết thúc bằng /ʃ/ → /t/.\n💡 **Luyện tập:** punished (ˈpʌnɪʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She pushed the button.\' Văn bản Whisper nhận được: \'She push the button.\'",
+    "output": "✅ **Corrected Sentence:** She pushed the button.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'pushed' đọc thành 'push' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Pushed' kết thúc bằng /ʃ/ → /t/.\n💡 **Luyện tập:** pushed (pʊʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He crashed his car.\' Văn bản Whisper nhận được: \'He crash his car.\'",
+    "output": "✅ **Corrected Sentence:** He crashed his car.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'crashed' đọc thành 'crash' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Crashed' kết thúc bằng /ʃ/ → /t/.\n💡 **Luyện tập:** crashed (kræʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She brushed her hair.\' Văn bản Whisper nhận được: \'She brush her hair.\'",
+    "output": "✅ **Corrected Sentence:** She brushed her hair.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'brushed' đọc thành 'brush' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Brushed' kết thúc bằng /ʃ/ → /t/.\n💡 **Luyện tập:** brushed (brʌʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He marched forward.\' Văn bản Whisper nhận được: \'He march forward.\'",
+    "output": "✅ **Corrected Sentence:** He marched forward.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'marched' đọc thành 'march' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Marched' kết thúc bằng /tʃ/ → /t/.\n💡 **Luyện tập:** marched (mɑːtʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She searched for her keys.\' Văn bản Whisper nhận được: \'She search for her keys.\'",
+    "output": "✅ **Corrected Sentence:** She searched for her keys.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'searched' đọc thành 'search' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Searched' kết thúc bằng /tʃ/ → /t/.\n💡 **Luyện tập:** searched (sɜːtʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He reached the top.\' Văn bản Whisper nhận được: \'He reach the top.\'",
+    "output": "✅ **Corrected Sentence:** He reached the top.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'reached' đọc thành 'reach' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Reached' kết thúc bằng /tʃ/ → /t/.\n💡 **Luyện tập:** reached (riːtʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She touched my shoulder.\' Văn bản Whisper nhận được: \'She touch my shoulder.\'",
+    "output": "✅ **Corrected Sentence:** She touched my shoulder.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'touched' đọc thành 'touch' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Touched' kết thúc bằng /tʃ/ → /t/.\n💡 **Luyện tập:** touched (tʌtʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He watched the game.\' Văn bản Whisper nhận được: \'He watch the game.\'",
+    "output": "✅ **Corrected Sentence:** He watched the game.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'watched' đọc thành 'watch' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Watched' kết thúc bằng /tʃ/ → /t/.\n💡 **Luyện tập:** watched (wɒtʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She fetched water.\' Văn bản Whisper nhận được: \'She fetch water.\'",
+    "output": "✅ **Corrected Sentence:** She fetched water.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'fetched' đọc thành 'fetch' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Fetched' kết thúc bằng /tʃ/ → /t/.\n💡 **Luyện tập:** fetched (fetʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He pitched the idea.\' Văn bản Whisper nhận được: \'He pitch the idea.\'",
+    "output": "✅ **Corrected Sentence:** He pitched the idea.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'pitched' đọc thành 'pitch' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Pitched' kết thúc bằng /tʃ/ → /t/.\n💡 **Luyện tập:** pitched (pɪtʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She launched a new product.\' Văn bản Whisper nhận được: \'She launch a new product.\'",
+    "output": "✅ **Corrected Sentence:** She launched a new product.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'launched' đọc thành 'launch' (thiếu /t/).\n📘 **Vietnamese Explanation:** 'Launched' kết thúc bằng /tʃ/ → /t/.\n💡 **Luyện tập:** launched (lɔːntʃt) – âm 't'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I begged him to stay.\' Văn bản Whisper nhận được: \'I beg him to stay.\'",
+    "output": "✅ **Corrected Sentence:** I begged him to stay.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'begged' đọc thành 'beg' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Begged' kết thúc bằng /g/ (hữu thanh) → /d/.\n💡 **Luyện tập:** begged (beɡd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He hugged his mother.\' Văn bản Whisper nhận được: \'He hug his mother.\'",
+    "output": "✅ **Corrected Sentence:** He hugged his mother.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'hugged' đọc thành 'hug' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Hugged' kết thúc bằng /g/ → /d/.\n💡 **Luyện tập:** hugged (hʌɡd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She dragged the suitcase.\' Văn bản Whisper nhận được: \'She drag the suitcase.\'",
+    "output": "✅ **Corrected Sentence:** She dragged the suitcase.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'dragged' đọc thành 'drag' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Dragged' kết thúc bằng /g/ → /d/.\n💡 **Luyện tập:** dragged (dræɡd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He tagged me in the photo.\' Văn bản Whisper nhận được: \'He tag me in the photo.\'",
+    "output": "✅ **Corrected Sentence:** He tagged me in the photo.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'tagged' đọc thành 'tag' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Tagged' kết thúc bằng /g/ → /d/.\n💡 **Luyện tập:** tagged (tæɡd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She bagged the groceries.\' Văn bản Whisper nhận được: \'She bag the groceries.\'",
+    "output": "✅ **Corrected Sentence:** She bagged the groceries.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'bagged' đọc thành 'bag' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Bagged' kết thúc bằng /g/ → /d/.\n💡 **Luyện tập:** bagged (bæɡd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He logged into his account.\' Văn bản Whisper nhận được: \'He log into his account.\'",
+    "output": "✅ **Corrected Sentence:** He logged into his account.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'logged' đọc thành 'log' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Logged' kết thúc bằng /g/ → /d/.\n💡 **Luyện tập:** logged (lɒɡd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I loved the surprise.\' Văn bản Whisper nhận được: \'I love the surprise.\'",
+    "output": "✅ **Corrected Sentence:** I loved the surprise.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'loved' đọc thành 'love' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Loved' kết thúc bằng /v/ (hữu thanh) → /d/.\n💡 **Luyện tập:** loved (lʌvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He lived in Paris for 5 years.\' Văn bản Whisper nhận được: \'He live in Paris for 5 years.\'",
+    "output": "✅ **Corrected Sentence:** He lived in Paris for 5 years.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'lived' đọc thành 'live' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Lived' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** lived (lɪvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She believed in him.\' Văn bản Whisper nhận được: \'She believe in him.\'",
+    "output": "✅ **Corrected Sentence:** She believed in him.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'believed' đọc thành 'believe' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Believed' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** believed (bɪˈliːvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He received a gift.\' Văn bản Whisper nhận được: \'He receive a gift.\'",
+    "output": "✅ **Corrected Sentence:** He received a gift.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'received' đọc thành 'receive' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Received' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** received (rɪˈsiːvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She saved money.\' Văn bản Whisper nhận được: \'She save money.\'",
+    "output": "✅ **Corrected Sentence:** She saved money.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'saved' đọc thành 'save' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Saved' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** saved (seɪvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He moved to a new house.\' Văn bản Whisper nhận được: \'He move to a new house.\'",
+    "output": "✅ **Corrected Sentence:** He moved to a new house.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'moved' đọc thành 'move' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Moved' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** moved (muːvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She improved her skills.\' Văn bản Whisper nhận được: \'She improve her skills.\'",
+    "output": "✅ **Corrected Sentence:** She improved her skills.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'improved' đọc thành 'improve' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Improved' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** improved (ɪmˈpruːvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He proved his point.\' Văn bản Whisper nhận được: \'He prove his point.\'",
+    "output": "✅ **Corrected Sentence:** He proved his point.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'proved' đọc thành 'prove' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Proved' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** proved (pruːvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She approved the plan.\' Văn bản Whisper nhận được: \'She approve the plan.\'",
+    "output": "✅ **Corrected Sentence:** She approved the plan.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'approved' đọc thành 'approve' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Approved' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** approved (əˈpruːvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I arrived late.\' Văn bản Whisper nhận được: \'I arrive late.\'",
+    "output": "✅ **Corrected Sentence:** I arrived late.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'arrived' đọc thành 'arrive' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Arrived' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** arrived (əˈraɪvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He survived the accident.\' Văn bản Whisper nhận được: \'He survive the accident.\'",
+    "output": "✅ **Corrected Sentence:** He survived the accident.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'survived' đọc thành 'survive' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Survived' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** survived (səˈvaɪvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She observed the stars.\' Văn bản Whisper nhận được: \'She observe the stars.\'",
+    "output": "✅ **Corrected Sentence:** She observed the stars.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'observed' đọc thành 'observe' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Observed' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** observed (əbˈzɜːvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He reserved a table.\' Văn bản Whisper nhận được: \'He reserve a table.\'",
+    "output": "✅ **Corrected Sentence:** He reserved a table.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'reserved' đọc thành 'reserve' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Reserved' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** reserved (rɪˈzɜːvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I deserved a break.\' Văn bản Whisper nhận được: \'I deserve a break.\'",
+    "output": "✅ **Corrected Sentence:** I deserved a break.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'deserved' đọc thành 'deserve' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Deserved' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** deserved (dɪˈzɜːvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She served the food.\' Văn bản Whisper nhận được: \'She serve the food.\'",
+    "output": "✅ **Corrected Sentence:** She served the food.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'served' đọc thành 'serve' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Served' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** served (sɜːvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He carved the pumpkin.\' Văn bản Whisper nhận được: \'He carve the pumpkin.\'",
+    "output": "✅ **Corrected Sentence:** He carved the pumpkin.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'carved' đọc thành 'carve' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Carved' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** carved (kɑːvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She waved goodbye.\' Văn bản Whisper nhận được: \'She wave goodbye.\'",
+    "output": "✅ **Corrected Sentence:** She waved goodbye.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'waved' đọc thành 'wave' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Waved' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** waved (weɪvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He craved chocolate.\' Văn bản Whisper nhận được: \'He crave chocolate.\'",
+    "output": "✅ **Corrected Sentence:** He craved chocolate.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'craved' đọc thành 'crave' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Craved' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** craved (kreɪvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She solved the problem.\' Văn bản Whisper nhận được: \'She solve the problem.\'",
+    "output": "✅ **Corrected Sentence:** She solved the problem.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'solved' đọc thành 'solve' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Solved' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** solved (sɒlvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He involved everyone.\' Văn bản Whisper nhận được: \'He involve everyone.\'",
+    "output": "✅ **Corrected Sentence:** He involved everyone.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'involved' đọc thành 'involve' (thiếu /d/).\n📘 **Vietnamese Explanation:** 'Involved' kết thúc bằng /v/ → /d/.\n💡 **Luyện tập:** involved (ɪnˈvɒlvd) – âm 'd'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I needed a rest.\' Văn bản Whisper nhận được: \'I need a rest.\'",
+    "output": "✅ **Corrected Sentence:** I needed a rest.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'needed' đọc thành 'need' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Needed' kết thúc bằng /d/ → /ɪd/.\n💡 **Luyện tập:** needed (ˈniːdɪd) – need-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She wanted a new phone.\' Văn bản Whisper nhận được: \'She want a new phone.\'",
+    "output": "✅ **Corrected Sentence:** She wanted a new phone.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'wanted' đọc thành 'want' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Wanted' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** wanted (ˈwɒntɪd) – want-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He hated being late.\' Văn bản Whisper nhận được: \'He hate being late.\'",
+    "output": "✅ **Corrected Sentence:** He hated being late.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'hated' đọc thành 'hate' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Hated' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** hated (ˈheɪtɪd) – hate-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She visited her friend.\' Văn bản Whisper nhận được: \'She visit her friend.\'",
+    "output": "✅ **Corrected Sentence:** She visited her friend.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'visited' đọc thành 'visit' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Visited' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** visited (ˈvɪzɪtɪd) – vis-it-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He created a masterpiece.\' Văn bản Whisper nhận được: \'He create a masterpiece.\'",
+    "output": "✅ **Corrected Sentence:** He created a masterpiece.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'created' đọc thành 'create' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Created' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** created (kriˈeɪtɪd) – crea-ted (2 âm tiết)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She celebrated her birthday.\' Văn bản Whisper nhận được: \'She celebrate her birthday.\'",
+    "output": "✅ **Corrected Sentence:** She celebrated her birthday.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'celebrated' đọc thành 'celebrate' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Celebrated' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** celebrated (ˈselɪbreɪtɪd) – celeb-rate-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He participated in the event.\' Văn bản Whisper nhận được: \'He participate in the event.\'",
+    "output": "✅ **Corrected Sentence:** He participated in the event.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'participated' đọc thành 'participate' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Participated' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** participated (pɑːˈtɪsɪpeɪtɪd) – par-tic-i-pa-ted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She graduated from university.\' Văn bản Whisper nhận được: \'She graduate from university.\'",
+    "output": "✅ **Corrected Sentence:** She graduated from university.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'graduated' đọc thành 'graduate' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Graduated' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** graduated (ˈɡrædʒueɪtɪd) – grad-u-a-ted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I appreciated your help.\' Văn bản Whisper nhận được: \'I appreciate your help.\'",
+    "output": "✅ **Corrected Sentence:** I appreciated your help.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'appreciated' đọc thành 'appreciate' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Appreciated' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** appreciated (əˈpriːʃieɪtɪd) – ap-pre-ci-a-ted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He hesitated for a moment.\' Văn bản Whisper nhận được: \'He hesitate for a moment.\'",
+    "output": "✅ **Corrected Sentence:** He hesitated for a moment.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'hesitated' đọc thành 'hesitate' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Hesitated' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** hesitated (ˈhezɪteɪtɪd) – hes-i-ta-ted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She started the engine.\' Văn bản Whisper nhận được: \'She start the engine.\'",
+    "output": "✅ **Corrected Sentence:** She started the engine.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'started' đọc thành 'start' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Started' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** started (ˈstɑːtɪd) – start-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He ended the conversation.\' Văn bản Whisper nhận được: \'He end the conversation.\'",
+    "output": "✅ **Corrected Sentence:** He ended the conversation.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'ended' đọc thành 'end' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Ended' kết thúc bằng /d/ → /ɪd/.\n💡 **Luyện tập:** ended (ˈendɪd) – end-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She added sugar to the tea.\' Văn bản Whisper nhận được: \'She add sugar to the tea.\'",
+    "output": "✅ **Corrected Sentence:** She added sugar to the tea.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'added' đọc thành 'add' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Added' kết thúc bằng /d/ → /ɪd/.\n💡 **Luyện tập:** added (ˈædɪd) – add-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He divided the cake.\' Văn bản Whisper nhận được: \'He divide the cake.\'",
+    "output": "✅ **Corrected Sentence:** He divided the cake.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'divided' đọc thành 'divide' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Divided' kết thúc bằng /d/ → /ɪd/.\n💡 **Luyện tập:** divided (dɪˈvaɪdɪd) – di-vi-ded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She provided the answers.\' Văn bản Whisper nhận được: \'She provide the answers.\'",
+    "output": "✅ **Corrected Sentence:** She provided the answers.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'provided' đọc thành 'provide' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Provided' kết thúc bằng /d/ → /ɪd/.\n💡 **Luyện tập:** provided (prəˈvaɪdɪd) – pro-vi-ded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I decided to leave early.\' Văn bản Whisper nhận được: \'I decide to leave early.\'",
+    "output": "✅ **Corrected Sentence:** I decided to leave early.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'decided' đọc thành 'decide' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Decided' kết thúc bằng /d/ → /ɪd/.\n💡 **Luyện tập:** decided (dɪˈsaɪdɪd) – de-ci-ded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He included everyone in the plan.\' Văn bản Whisper nhận được: \'He include everyone in the plan.\'",
+    "output": "✅ **Corrected Sentence:** He included everyone in the plan.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'included' đọc thành 'include' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Included' kết thúc bằng /d/ → /ɪd/.\n💡 **Luyện tập:** included (ɪnˈkluːdɪd) – in-klu-ded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She succeeded in her career.\' Văn bản Whisper nhận được: \'She succeed in her career.\'",
+    "output": "✅ **Corrected Sentence:** She succeeded in her career.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'succeeded' đọc thành 'succeed' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Succeeded' kết thúc bằng /d/ → /ɪd/.\n💡 **Luyện tập:** succeeded (səkˈsiːdɪd) – suc-cee-ded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He recommended the restaurant.\' Văn bản Whisper nhận được: \'He recommend the restaurant.\'",
+    "output": "✅ **Corrected Sentence:** He recommended the restaurant.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'recommended' đọc thành 'recommend' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Recommended' kết thúc bằng /d/ → /ɪd/.\n💡 **Luyện tập:** recommended (ˌrekəˈmendɪd) – re-com-men-ded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I expected a different outcome.\' Văn bản Whisper nhận được: \'I expect a different outcome.\'",
+    "output": "✅ **Corrected Sentence:** I expected a different outcome.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'expected' đọc thành 'expect' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Expected' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** expected (ɪkˈspektɪd) – ex-pec-ted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He accepted the offer.\' Văn bản Whisper nhận được: \'He accept the offer.\'",
+    "output": "✅ **Corrected Sentence:** He accepted the offer.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'accepted' đọc thành 'accept' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Accepted' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** accepted (əkˈseptɪd) – ac-cep-ted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She repeated the question.\' Văn bản Whisper nhận được: \'She repeat the question.\'",
+    "output": "✅ **Corrected Sentence:** She repeated the question.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'repeated' đọc thành 'repeat' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Repeated' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** repeated (rɪˈpiːtɪd) – re-pea-ted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He treated me kindly.\' Văn bản Whisper nhận được: \'He treat me kindly.\'",
+    "output": "✅ **Corrected Sentence:** He treated me kindly.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'treated' đọc thành 'treat' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Treated' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** treated (ˈtriːtɪd) – treat-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I noted his words.\' Văn bản Whisper nhận được: \'I note his words.\'",
+    "output": "✅ **Corrected Sentence:** I noted his words.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'noted' đọc thành 'note' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Noted' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** noted (ˈnəʊtɪd) – note-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She voted for him.\' Văn bản Whisper nhận được: \'She vote for him.\'",
+    "output": "✅ **Corrected Sentence:** She voted for him.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'voted' đọc thành 'vote' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Voted' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** voted (ˈvəʊtɪd) – vote-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He invited me to the party.\' Văn bản Whisper nhận được: \'He invite me to the party.\'",
+    "output": "✅ **Corrected Sentence:** He invited me to the party.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'invited' đọc thành 'invite' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Invited' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** invited (ɪnˈvaɪtɪd) – in-vi-ted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She painted the wall.\' Văn bản Whisper nhận được: \'She paint the wall.\'",
+    "output": "✅ **Corrected Sentence:** She painted the wall.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'painted' đọc thành 'paint' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Painted' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** painted (ˈpeɪntɪd) – paint-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I printed the document.\' Văn bản Whisper nhận được: \'I print the document.\'",
+    "output": "✅ **Corrected Sentence:** I printed the document.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'printed' đọc thành 'print' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Printed' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** printed (ˈprɪntɪd) – print-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He waited for an hour.\' Văn bản Whisper nhận được: \'He wait for an hour.\'",
+    "output": "✅ **Corrected Sentence:** He waited for an hour.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'waited' đọc thành 'wait' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Waited' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** waited (ˈweɪtɪd) – wait-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She planted a tree.\' Văn bản Whisper nhận được: \'She plant a tree.\'",
+    "output": "✅ **Corrected Sentence:** She planted a tree.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'planted' đọc thành 'plant' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Planted' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** planted (ˈplɑːntɪd) – plant-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He rented a car.\' Văn bản Whisper nhận được: \'He rent a car.\'",
+    "output": "✅ **Corrected Sentence:** He rented a car.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'rented' đọc thành 'rent' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Rented' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** rented (ˈrentɪd) – rent-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She prevented the accident.\' Văn bản Whisper nhận được: \'She prevent the accident.\'",
+    "output": "✅ **Corrected Sentence:** She prevented the accident.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'prevented' đọc thành 'prevent' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Prevented' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** prevented (prɪˈventɪd) – pre-ven-ted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I suggested a new idea.\' Văn bản Whisper nhận được: \'I suggest a new idea.\'",
+    "output": "✅ **Corrected Sentence:** I suggested a new idea.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'suggested' đọc thành 'suggest' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Suggested' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** suggested (səˈdʒestɪd) – sug-ges-ted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He tested the product.\' Văn bản Whisper nhận được: \'He test the product.\'",
+    "output": "✅ **Corrected Sentence:** He tested the product.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'tested' đọc thành 'test' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Tested' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** tested (ˈtestɪd) – test-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She rested for a while.\' Văn bản Whisper nhận được: \'She rest for a while.\'",
+    "output": "✅ **Corrected Sentence:** She rested for a while.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'rested' đọc thành 'rest' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Rested' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** rested (ˈrestɪd) – rest-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He lasted for two hours.\' Văn bản Whisper nhận được: \'He last for two hours.\'",
+    "output": "✅ **Corrected Sentence:** He lasted for two hours.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'lasted' đọc thành 'last' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Lasted' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** lasted (ˈlɑːstɪd) – last-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I posted the letter.\' Văn bản Whisper nhận được: \'I post the letter.\'",
+    "output": "✅ **Corrected Sentence:** I posted the letter.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'posted' đọc thành 'post' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Posted' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** posted (ˈpəʊstɪd) – post-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He coasted downhill.\' Văn bản Whisper nhận được: \'He coast downhill.\'",
+    "output": "✅ **Corrected Sentence:** He coasted downhill.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'coasted' đọc thành 'coast' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Coasted' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** coasted (ˈkəʊstɪd) – coast-id."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 'ed' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She hosted the event.\' Văn bản Whisper nhận được: \'She host the event.\'",
+    "output": "✅ **Corrected Sentence:** She hosted the event.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'ed' – 'hosted' đọc thành 'host' (thiếu /ɪd/).\n📘 **Vietnamese Explanation:** 'Hosted' kết thúc bằng /t/ → /ɪd/.\n💡 **Luyện tập:** hosted (ˈhəʊstɪd) – host-id."
+  }
+]

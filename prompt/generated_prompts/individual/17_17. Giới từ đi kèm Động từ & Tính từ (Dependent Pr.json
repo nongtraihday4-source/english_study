@@ -1,0 +1,522 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is interested on learning English.",
+    "output": "✅ **Corrected Sentence:** She is interested in learning English.\n🔍 **Error Identification:** Dùng sai giới từ 'on' – 'interested' đi với giới từ 'in'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'quan tâm về' thành 'interested on'. Mẹo: Học thuộc: interested in (quan tâm đến).\n💡 **Ví dụ:** He is interested in music. / She is interested in art."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am good on playing guitar.",
+    "output": "✅ **Corrected Sentence:** I am good at playing guitar.\n🔍 **Error Identification:** 'Good' đi với 'at', không phải 'on'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'giỏi về' thành 'good on'. Mẹo: good at (giỏi về).\n💡 **Ví dụ:** She is good at math. / He is good at cooking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is afraid from dogs.",
+    "output": "✅ **Corrected Sentence:** She is afraid of dogs.\n🔍 **Error Identification:** 'Afraid' đi với 'of', không phải 'from'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'sợ từ con chó' thành 'afraid from'. Mẹo: afraid of (sợ).\n💡 **Ví dụ:** He is afraid of spiders. / I am afraid of heights."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am waiting you.",
+    "output": "✅ **Corrected Sentence:** I am waiting for you.\n🔍 **Error Identification:** 'Wait' cần giới từ 'for' trước tân ngữ.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi đợi bạn' quên 'for'. Mẹo: wait for someone/something.\n💡 **Ví dụ:** I am waiting for the bus. / She is waiting for her friend."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She apologized her mistake.",
+    "output": "✅ **Corrected Sentence:** She apologized for her mistake.\n🔍 **Error Identification:** 'Apologize' cần 'for' + lỗi / hành động.\n📘 **Vietnamese Explanation:** Người Việt dịch 'xin lỗi lỗi của cô ấy' quên 'for'. Mẹo: apologize to someone for something.\n💡 **Ví dụ:** He apologized for being late. / She apologized to me for the error."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to concentrate in my work.",
+    "output": "✅ **Corrected Sentence:** I need to concentrate on my work.\n🔍 **Error Identification:** 'Concentrate' đi với 'on', không phải 'in'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tập trung trong' thành 'concentrate in'. Mẹo: concentrate on (tập trung vào).\n💡 **Ví dụ:** Concentrate on your study. / He concentrated on the task."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She depends to her parents.",
+    "output": "✅ **Corrected Sentence:** She depends on her parents.\n🔍 **Error Identification:** 'Depend' đi với 'on', không phải 'to'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'phụ thuộc vào' thành 'depend to'. Mẹo: depend on (phụ thuộc vào).\n💡 **Ví dụ:** Children depend on their parents. / It depends on the weather."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am looking forward to meet you.",
+    "output": "✅ **Corrected Sentence:** I am looking forward to meeting you.\n🔍 **Error Identification:** 'Look forward to' + V-ing (gerund), không dùng động từ nguyên thể.\n📘 **Vietnamese Explanation:** Người Việt quên 'to' ở đây là giới từ, không phải động từ chỉ mục đích. Mẹo: look forward to + V-ing.\n💡 **Ví dụ:** I look forward to hearing from you. / She looks forward to traveling."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is married with a doctor.",
+    "output": "✅ **Corrected Sentence:** She is married to a doctor.\n🔍 **Error Identification:** 'Married' đi với 'to', không phải 'with'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'kết hôn với' thành 'married with'. Mẹo: married to (kết hôn với).\n💡 **Ví dụ:** He is married to my sister. / She got married to a lawyer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I agree with your proposal. (câu đúng) - Học viên viết \'I agree to your proposal.\'",
+    "output": "✅ **Corrected Sentence:** I agree with your proposal. (agree with + người / ý kiến) / I agree to your proposal (đồng ý với đề xuất – cũng đúng nhưng ít phổ biến)\n🔍 **Error Identification:** 'Agree with' dùng cho người / quan điểm; 'Agree to' dùng cho kế hoạch / đề xuất.\n📘 **Vietnamese Explanation:** Người Việt dùng 'agree to' cho mọi trường hợp. Mẹo: Agree with someone, agree to something.\n💡 **Ví dụ:** I agree with you. / She agreed to the terms."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She insisted to go alone.",
+    "output": "✅ **Corrected Sentence:** She insisted on going alone.\n🔍 **Error Identification:** 'Insist' đi với 'on' + V-ing, không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'khăng khăng làm gì' thành 'insist to do'. Mẹo: insist on + V-ing.\n💡 **Ví dụ:** He insisted on paying. / She insisted on coming."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am proud for my son.",
+    "output": "✅ **Corrected Sentence:** I am proud of my son.\n🔍 **Error Identification:** 'Proud' đi với 'of', không phải 'for'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tự hào về' thành 'proud for'. Mẹo: proud of (tự hào về).\n💡 **Ví dụ:** She is proud of her achievements. / He is proud of his country."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am tired of doing the same thing. (câu đúng) - Học viên viết \'I am tired from doing the same thing.\'",
+    "output": "✅ **Corrected Sentence:** I am tired of doing the same thing.\n🔍 **Error Identification:** 'Tired of' = chán, 'tired from' = mệt vì.\n📘 **Vietnamese Explanation:** Người Việt dùng 'tired from' cho chán. Mẹo: tired of (chán ngấy), tired from (mệt vì).\n💡 **Ví dụ:** I am tired of waiting. / I am tired from working all day."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is responsible for the project. (câu đúng) - Học viên viết \'She is responsible about the project.\'",
+    "output": "✅ **Corrected Sentence:** She is responsible for the project.\n🔍 **Error Identification:** 'Responsible' đi với 'for', không phải 'about'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'chịu trách nhiệm về' thành 'responsible about'. Mẹo: responsible for (chịu trách nhiệm).\n💡 **Ví dụ:** He is responsible for the team. / Who is responsible for this mess?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am looking for my keys. (câu đúng) - Học viên viết \'I am looking my keys.\'",
+    "output": "✅ **Corrected Sentence:** I am looking for my keys.\n🔍 **Error Identification:** 'Look' cần 'for' khi có nghĩa 'tìm kiếm'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tìm chìa khóa' quên 'for'. Mẹo: look for = tìm kiếm, look at = nhìn.\n💡 **Ví dụ:** I am looking for a job. / She is looking for her phone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is worried about her exam. (câu đúng) - Học viên viết \'She is worried for her exam.\'",
+    "output": "✅ **Corrected Sentence:** She is worried about her exam.\n🔍 **Error Identification:** 'Worried' đi với 'about', không phải 'for'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'lo lắng cho' thành 'worried for'. Mẹo: worried about (lo lắng về).\n💡 **Ví dụ:** I am worried about the test. / He is worried about his health."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am familiar with this software. (câu đúng) - Học viên viết \'I am familiar to this software.\'",
+    "output": "✅ **Corrected Sentence:** I am familiar with this software.\n🔍 **Error Identification:** 'Familiar' đi với 'with', không phải 'to'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'quen với' thành 'familiar to'. Mẹo: familiar with (quen với).\n💡 **Ví dụ:** She is familiar with the area. / He is familiar with the rules."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is similar to his father. (câu đúng) - Học viên viết \'He is similar with his father.\'",
+    "output": "✅ **Corrected Sentence:** He is similar to his father.\n🔍 **Error Identification:** 'Similar' đi với 'to', không phải 'with'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'giống với' thành 'similar with'. Mẹo: similar to (giống với).\n💡 **Ví dụ:** Your idea is similar to mine. / This phone is similar to that one."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am bored of this movie.",
+    "output": "✅ **Corrected Sentence:** I am bored with this movie. (hoặc bored by)\n🔍 **Error Identification:** 'Bored' đi với 'with' hoặc 'by', không phải 'of'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'bored of' (ảnh hưởng từ 'tired of'). Mẹo: bored with (chán).\n💡 **Ví dụ:** I am bored with the same routine. / She is bored by the lecture."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She succeeded to pass the exam.",
+    "output": "✅ **Corrected Sentence:** She succeeded in passing the exam.\n🔍 **Error Identification:** 'Succeed' đi với 'in' + V-ing, không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'thành công làm gì' thành 'succeed to do'. Mẹo: succeed in + V-ing.\n💡 **Ví dụ:** He succeeded in finding a job. / She succeeded in finishing the project."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am used to work early.",
+    "output": "✅ **Corrected Sentence:** I am used to working early.\n🔍 **Error Identification:** 'Used to' (quen với) + V-ing, không dùng động từ nguyên thể.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'used to' (đã từng) và 'be used to' (quen với). Mẹo: be used to + V-ing, used to + V (nguyên thể).\n💡 **Ví dụ:** I am used to getting up early. / I used to smoke."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is capable to do the job.",
+    "output": "✅ **Corrected Sentence:** She is capable of doing the job.\n🔍 **Error Identification:** 'Capable' đi với 'of', không phải 'to'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'có khả năng làm' thành 'capable to do'. Mẹo: capable of + V-ing.\n💡 **Ví dụ:** He is capable of solving problems. / She is capable of handling the task."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am keen on playing football. (câu đúng) - Học viên viết \'I am keen to play football.\'",
+    "output": "✅ **Corrected Sentence:** I am keen on playing football.\n🔍 **Error Identification:** 'Keen' đi với 'on' + V-ing, không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'ham thích làm gì' thành 'keen to do'. Mẹo: keen on + V-ing.\n💡 **Ví dụ:** She is keen on learning French. / He is keen on photography."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is famous of her voice.",
+    "output": "✅ **Corrected Sentence:** She is famous for her voice.\n🔍 **Error Identification:** 'Famous' đi với 'for', không phải 'of'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'nổi tiếng về' thành 'famous of'. Mẹo: famous for (nổi tiếng vì).\n💡 **Ví dụ:** He is famous for his acting. / The city is famous for its food."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am listening to music. (câu đúng) - Học viên viết \'I am listening music.\'",
+    "output": "✅ **Corrected Sentence:** I am listening to music.\n🔍 **Error Identification:** 'Listen' cần 'to' trước tân ngữ.\n📘 **Vietnamese Explanation:** Người Việt dịch 'nghe nhạc' quên 'to'. Mẹo: listen to someone/something.\n💡 **Ví dụ:** Listen to me. / She listens to podcasts."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is complaining about the service. (câu đúng) - Học viên viết \'She is complaining for the service.\'",
+    "output": "✅ **Corrected Sentence:** She is complaining about the service.\n🔍 **Error Identification:** 'Complain' đi với 'about', không phải 'for'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'phàn nàn về' thành 'complain for'. Mẹo: complain about (phàn nàn về).\n💡 **Ví dụ:** He complained about the noise. / They complained about the food."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am dreaming of becoming a pilot. (câu đúng) - Học viên viết \'I am dreaming to become a pilot.\'",
+    "output": "✅ **Corrected Sentence:** I am dreaming of becoming a pilot.\n🔍 **Error Identification:** 'Dream' đi với 'of' + V-ing, không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'mơ ước trở thành' thành 'dream to become'. Mẹo: dream of + V-ing.\n💡 **Ví dụ:** She dreams of traveling the world. / He dreams of owning a house."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is thinking of moving abroad. (câu đúng) - Học viên viết \'She is thinking to move abroad.\'",
+    "output": "✅ **Corrected Sentence:** She is thinking of moving abroad.\n🔍 **Error Identification:** 'Think of' = cân nhắc; 'think about' = nghĩ về.\n📘 **Vietnamese Explanation:** Người Việt dùng 'think to do' (sai). Mẹo: think of/about + V-ing.\n💡 **Ví dụ:** I am thinking of changing my job. / What do you think about?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am looking forward to seeing you. (câu đúng) - Học viên viết \'I am looking forward to see you.\'",
+    "output": "✅ **Corrected Sentence:** I am looking forward to seeing you.\n🔍 **Error Identification:** 'To' ở đây là giới từ, không phải động từ chỉ mục đích.\n📘 **Vietnamese Explanation:** Người Việt thấy 'to' tưởng là 'to + V'. Mẹo: look forward to + V-ing.\n💡 **Ví dụ:** I look forward to hearing from you. / She looks forward to meeting you."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is angry about the situation. (câu đúng) - Học viên viết \'She is angry on the situation.\'",
+    "output": "✅ **Corrected Sentence:** She is angry about the situation.\n🔍 **Error Identification:** 'Angry' đi với 'about' + sự việc, 'with' + người.\n📘 **Vietnamese Explanation:** Người Việt dùng 'angry on' (sai). Mẹo: angry about something, angry with someone.\n💡 **Ví dụ:** I am angry about the delay. / He is angry with me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am happy for you. (câu đúng) - Học viên viết \'I am happy with you.\' (tùy nghĩa)",
+    "output": "✅ **Corrected Sentence:** I am happy for you. (vui cho bạn) / I am happy with you. (hài lòng về bạn)\n🔍 **Error Identification:** 'Happy for' = vui cho ai, 'happy with' = hài lòng về ai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'happy with' cho mọi trường hợp. Mẹo: happy for someone (vui cho người khác).\n💡 **Ví dụ:** I am happy for your success. / I am happy with your work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is different with her sister.",
+    "output": "✅ **Corrected Sentence:** She is different from her sister.\n🔍 **Error Identification:** 'Different' đi với 'from', không phải 'with'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'khác với' thành 'different with'. Mẹo: different from (khác với).\n💡 **Ví dụ:** My opinion is different from yours. / This book is different from that one."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am interested in reading. (câu đúng) - Học viên viết \'I am interesting in reading.\'",
+    "output": "✅ **Corrected Sentence:** I am interested in reading.\n🔍 **Error Identification:** 'Interesting' (gây thú vị) và 'interested' (cảm thấy thú vị).\n📘 **Vietnamese Explanation:** Người Việt nhầm 'interesting' và 'interested'. Mẹo: interested in (cảm thấy thích).\n💡 **Ví dụ:** I am interested in art. / The book is interesting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is responsible to the manager.",
+    "output": "✅ **Corrected Sentence:** He is responsible to the manager. (chịu trách nhiệm trước ai) / responsible for (chịu trách nhiệm về việc gì)\n🔍 **Error Identification:** 'Responsible to' = chịu trách nhiệm trước ai; 'responsible for' = chịu trách nhiệm về việc gì.\n📘 **Vietnamese Explanation:** Người Việt chỉ biết 'responsible for'. Mẹo: responsible to someone, responsible for something.\n💡 **Ví dụ:** I am responsible to my boss. / He is responsible for the project."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is tired from working all day. (câu đúng) - Học viên viết \'She is tired of working all day.\'",
+    "output": "✅ **Corrected Sentence:** She is tired from working all day. (mệt vì) / tired of (chán)\n🔍 **Error Identification:** 'Tired from' = mệt vì làm gì, 'tired of' = chán làm gì.\n📘 **Vietnamese Explanation:** Người Việt dùng 'tired of' cho mệt mỏi. Mẹo: tired from + nguyên nhân thể chất, tired of + nguyên nhân tinh thần.\n💡 **Ví dụ:** I am tired from running. / I am tired of waiting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am sorry for being late. (câu đúng) - Học viên viết \'I am sorry about being late.\'",
+    "output": "✅ **Corrected Sentence:** I am sorry for being late.\n🔍 **Error Identification:** 'Sorry for' = xin lỗi vì, 'sorry about' = tiếc về.\n📘 **Vietnamese Explanation:** Người Việt dùng 'sorry about' cho xin lỗi. Mẹo: sorry for + hành động của mình, sorry about + tin buồn.\n💡 **Ví dụ:** I am sorry for breaking your vase. / I am sorry about the accident."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is good in English.",
+    "output": "✅ **Corrected Sentence:** She is good at English.\n🔍 **Error Identification:** 'Good at' + môn học/kỹ năng, không phải 'good in'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'giỏi trong' thành 'good in'. Mẹo: good at.\n💡 **Ví dụ:** He is good at math. / She is good at singing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am worried for my health.",
+    "output": "✅ **Corrected Sentence:** I am worried about my health.\n🔍 **Error Identification:** 'Worried' đi với 'about', không phải 'for'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'lo lắng cho' thành 'worried for'. Mẹo: worried about.\n💡 **Ví dụ:** She is worried about the test. / He is worried about his job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is keen to learn new things.",
+    "output": "✅ **Corrected Sentence:** He is keen on learning new things.\n🔍 **Error Identification:** 'Keen on' + V-ing, không dùng 'keen to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'keen to do'. Mẹo: keen on + V-ing.\n💡 **Ví dụ:** She is keen on dancing. / He is keen on photography."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am interested to learn English.",
+    "output": "✅ **Corrected Sentence:** I am interested in learning English.\n🔍 **Error Identification:** 'Interested in' + V-ing, không dùng 'interested to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'interested to do'. Mẹo: interested in + V-ing.\n💡 **Ví dụ:** She is interested in learning French. / He is interested in playing chess."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is afraid of the dark. (câu đúng) - Học viên viết \'She is afraid of the dark.\' (đúng rồi)",
+    "output": "✅ **Corrected Sentence:** She is afraid of the dark.\n🔍 **Error Identification:** Câu đúng. 'Afraid of' là cấu trúc chuẩn.\n📘 **Vietnamese Explanation:** Người Việt hay nhầm thành 'afraid from'. Mẹo: afraid of (sợ).\n💡 **Ví dụ:** I am afraid of spiders. / He is afraid of heights."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am waiting for the bus. (câu đúng) - Học viên viết \'I am waiting the bus.\'",
+    "output": "✅ **Corrected Sentence:** I am waiting for the bus.\n🔍 **Error Identification:** 'Wait' cần 'for'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for'. Mẹo: wait for someone/something.\n💡 **Ví dụ:** She is waiting for her friend. / They are waiting for the train."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She apologized to me for her mistake. (câu đúng) - Học viên viết \'She apologized me for her mistake.\'",
+    "output": "✅ **Corrected Sentence:** She apologized to me for her mistake.\n🔍 **Error Identification:** 'Apologize to someone' – cần 'to' trước người.\n📘 **Vietnamese Explanation:** Người Việt quên 'to'. Mẹo: apologize to someone for something.\n💡 **Ví dụ:** He apologized to her for being late. / I apologized to my teacher."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am looking for my phone. (câu đúng) - Học viên viết \'I am looking my phone.\'",
+    "output": "✅ **Corrected Sentence:** I am looking for my phone.\n🔍 **Error Identification:** 'Look for' = tìm kiếm, không thể bỏ 'for'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for'. Mẹo: look for = tìm kiếm.\n💡 **Ví dụ:** She is looking for a job. / They are looking for the keys."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is famous for his acting. (câu đúng) - Học viên viết \'He is famous of his acting.\'",
+    "output": "✅ **Corrected Sentence:** He is famous for his acting.\n🔍 **Error Identification:** 'Famous for' + lý do, không phải 'famous of'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'famous of'. Mẹo: famous for.\n💡 **Ví dụ:** She is famous for her singing. / The city is famous for its food."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am responsible for the project. (câu đúng) - Học viên viết \'I am responsible about the project.\'",
+    "output": "✅ **Corrected Sentence:** I am responsible for the project.\n🔍 **Error Identification:** 'Responsible for', không phải 'responsible about'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'responsible about'. Mẹo: responsible for.\n💡 **Ví dụ:** She is responsible for the team. / Who is responsible for this?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is different from her sister. (câu đúng) - Học viên viết \'She is different than her sister.\' (cũng được chấp nhận trong Anh-Mỹ)",
+    "output": "✅ **Corrected Sentence:** She is different from her sister. (hoặc different than – Anh-Mỹ)\n🔍 **Error Identification:** 'Different from' là chuẩn Anh-Anh, 'different than' dùng trong Anh-Mỹ.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'different with' – sai. Mẹo: different from (Anh-Anh).\n💡 **Ví dụ:** My bike is different from yours. / This is different than I expected."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am thinking about you. (câu đúng) - Học viên viết \'I am thinking on you.\'",
+    "output": "✅ **Corrected Sentence:** I am thinking about you.\n🔍 **Error Identification:** 'Think about' = nghĩ về, 'think of' = nghĩ đến, 'think on' không có nghĩa đó.\n📘 **Vietnamese Explanation:** Người Việt dùng 'think on'. Mẹo: think about/of.\n💡 **Ví dụ:** I am thinking about the problem. / What do you think of her?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is worried about the test. (câu đúng) - Học viên viết \'She is worried of the test.\'",
+    "output": "✅ **Corrected Sentence:** She is worried about the test.\n🔍 **Error Identification:** 'Worried about', không phải 'worried of'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'worried of'. Mẹo: worried about.\n💡 **Ví dụ:** I am worried about my health. / He is worried about his job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am proud of my son. (câu đúng) - Học viên viết \'I am proud for my son.\'",
+    "output": "✅ **Corrected Sentence:** I am proud of my son.\n🔍 **Error Identification:** 'Proud of', không phải 'proud for'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'proud for'. Mẹo: proud of.\n💡 **Ví dụ:** She is proud of her achievements. / He is proud of his country."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is similar to his brother. (câu đúng) - Học viên viết \'He is similar with his brother.\'",
+    "output": "✅ **Corrected Sentence:** He is similar to his brother.\n🔍 **Error Identification:** 'Similar to', không phải 'similar with'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'similar with'. Mẹo: similar to.\n💡 **Ví dụ:** This phone is similar to that one. / Your idea is similar to mine."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am familiar with this place. (câu đúng) - Học viên viết \'I am familiar to this place.\'",
+    "output": "✅ **Corrected Sentence:** I am familiar with this place.\n🔍 **Error Identification:** 'Familiar with', không phải 'familiar to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'familiar to'. Mẹo: familiar with.\n💡 **Ví dụ:** She is familiar with the rules. / He is familiar with the software."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She succeeded in passing the exam. (câu đúng) - Học viên viết \'She succeeded to pass the exam.\'",
+    "output": "✅ **Corrected Sentence:** She succeeded in passing the exam.\n🔍 **Error Identification:** 'Succeed in + V-ing', không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'succeed to do'. Mẹo: succeed in + V-ing.\n💡 **Ví dụ:** He succeeded in finding a job. / She succeeded in finishing the race."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am used to living in a big city. (câu đúng) - Học viên viết \'I am used to live in a big city.\'",
+    "output": "✅ **Corrected Sentence:** I am used to living in a big city.\n🔍 **Error Identification:** 'Be used to' + V-ing (quen với), 'used to' + V (đã từng).\n📘 **Vietnamese Explanation:** Người Việt nhầm 'used to' và 'be used to'. Mẹo: be used to + V-ing, used to + V.\n💡 **Ví dụ:** I am used to waking up early. / I used to smoke."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is capable of doing the job. (câu đúng) - Học viên viết \'She is capable to do the job.\'",
+    "output": "✅ **Corrected Sentence:** She is capable of doing the job.\n🔍 **Error Identification:** 'Capable of + V-ing', không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'capable to do'. Mẹo: capable of + V-ing.\n💡 **Ví dụ:** He is capable of solving problems. / She is capable of handling stress."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am keen on photography. (câu đúng) - Học viên viết \'I am keen to photography.\'",
+    "output": "✅ **Corrected Sentence:** I am keen on photography.\n🔍 **Error Identification:** 'Keen on', không phải 'keen to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'keen to'. Mẹo: keen on.\n💡 **Ví dụ:** She is keen on music. / He is keen on sports."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is afraid of the dark. (câu đúng) - Học viên viết \'She is afraid from the dark.\'",
+    "output": "✅ **Corrected Sentence:** She is afraid of the dark.\n🔍 **Error Identification:** 'Afraid of', không phải 'afraid from'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'afraid from'. Mẹo: afraid of.\n💡 **Ví dụ:** I am afraid of spiders. / He is afraid of heights."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am waiting for you. (câu đúng) - Học viên viết \'I am waiting you.\'",
+    "output": "✅ **Corrected Sentence:** I am waiting for you.\n🔍 **Error Identification:** 'Wait for', không thể bỏ 'for'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for'. Mẹo: wait for.\n💡 **Ví dụ:** She is waiting for the bus. / They are waiting for the results."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She apologized for being late. (câu đúng) - Học viên viết \'She apologized being late.\'",
+    "output": "✅ **Corrected Sentence:** She apologized for being late.\n🔍 **Error Identification:** 'Apologize for', không thể bỏ 'for'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for'. Mẹo: apologize for something.\n💡 **Ví dụ:** He apologized for his mistake. / I apologized for the delay."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am looking forward to your reply. (câu đúng) - Học viên viết \'I am looking forward your reply.\'",
+    "output": "✅ **Corrected Sentence:** I am looking forward to your reply.\n🔍 **Error Identification:** 'Look forward to', không thể bỏ 'to'.\n📘 **Vietnamese Explanation:** Người Việt quên 'to'. Mẹo: look forward to + noun/V-ing.\n💡 **Ví dụ:** I look forward to meeting you. / She looks forward to the party."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is good at cooking. (câu đúng) - Học viên viết \'She is good in cooking.\'",
+    "output": "✅ **Corrected Sentence:** She is good at cooking.\n🔍 **Error Identification:** 'Good at', không phải 'good in'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'good in'. Mẹo: good at.\n💡 **Ví dụ:** He is good at math. / She is good at singing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am interested in history. (câu đúng) - Học viên viết \'I am interested on history.\'",
+    "output": "✅ **Corrected Sentence:** I am interested in history.\n🔍 **Error Identification:** 'Interested in', không phải 'interested on'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'interested on'. Mẹo: interested in.\n💡 **Ví dụ:** She is interested in art. / He is interested in science."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is married to a doctor. (câu đúng) - Học viên viết \'He is married with a doctor.\'",
+    "output": "✅ **Corrected Sentence:** He is married to a doctor.\n🔍 **Error Identification:** 'Married to', không phải 'married with'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'married with'. Mẹo: married to.\n💡 **Ví dụ:** She is married to a lawyer. / They are married to each other."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I agree with you. (câu đúng) - Học viên viết \'I agree to you.\'",
+    "output": "✅ **Corrected Sentence:** I agree with you.\n🔍 **Error Identification:** 'Agree with' + người, 'agree to' + kế hoạch.\n📘 **Vietnamese Explanation:** Người Việt dùng 'agree to' cho người. Mẹo: agree with someone, agree to something.\n💡 **Ví dụ:** I agree with your opinion. / She agreed to the proposal."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is tired of doing the same thing. (câu đúng) - Học viên viết \'She is tired from doing the same thing.\'",
+    "output": "✅ **Corrected Sentence:** She is tired of doing the same thing. (chán) / tired from (mệt vì)\n🔍 **Error Identification:** 'Tired of' = chán, 'tired from' = mệt.\n📘 **Vietnamese Explanation:** Người Việt dùng 'tired from' cho chán. Mẹo: tired of = fed up.\n💡 **Ví dụ:** I am tired of waiting. / I am tired from working."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is responsible for the team. (câu đúng) - Học viên viết \'He is responsible to the team.\' (cũng đúng nếu là chịu trách nhiệm trước đội)",
+    "output": "✅ **Corrected Sentence:** He is responsible for the team. (chịu trách nhiệm về đội) / responsible to (chịu trách nhiệm trước ai)\n🔍 **Error Identification:** 'Responsible for' = chịu trách nhiệm về việc gì, 'responsible to' = chịu trách nhiệm trước ai.\n📘 **Vietnamese Explanation:** Người Việt chỉ biết 'responsible for'. Mẹo: for + thing, to + person.\n💡 **Ví dụ:** I am responsible for the project. / I am responsible to my boss."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am worried about you. (câu đúng) - Học viên viết \'I am worried for you.\'",
+    "output": "✅ **Corrected Sentence:** I am worried about you.\n🔍 **Error Identification:** 'Worried about', không phải 'worried for'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'worried for'. Mẹo: worried about.\n💡 **Ví dụ:** She is worried about her son. / He is worried about the exam."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is proud of her son. (câu đúng) - Học viên viết \'She is proud for her son.\'",
+    "output": "✅ **Corrected Sentence:** She is proud of her son.\n🔍 **Error Identification:** 'Proud of', không phải 'proud for'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'proud for'. Mẹo: proud of.\n💡 **Ví dụ:** I am proud of you. / He is proud of his achievements."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am keen on football. (câu đúng) - Học viên viết \'I am keen to football.\'",
+    "output": "✅ **Corrected Sentence:** I am keen on football.\n🔍 **Error Identification:** 'Keen on', không phải 'keen to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'keen to'. Mẹo: keen on.\n💡 **Ví dụ:** She is keen on reading. / He is keen on hiking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is different from me. (câu đúng) - Học viên viết \'He is different with me.\'",
+    "output": "✅ **Corrected Sentence:** He is different from me.\n🔍 **Error Identification:** 'Different from', không phải 'different with'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'different with'. Mẹo: different from.\n💡 **Ví dụ:** My house is different from yours. / This is different from that."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am familiar with the area. (câu đúng) - Học viên viết \'I am familiar to the area.\'",
+    "output": "✅ **Corrected Sentence:** I am familiar with the area.\n🔍 **Error Identification:** 'Familiar with', không phải 'familiar to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'familiar to'. Mẹo: familiar with.\n💡 **Ví dụ:** She is familiar with the software. / He is familiar with the city."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is similar to her mother. (câu đúng) - Học viên viết \'She is similar with her mother.\'",
+    "output": "✅ **Corrected Sentence:** She is similar to her mother.\n🔍 **Error Identification:** 'Similar to', không phải 'similar with'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'similar with'. Mẹo: similar to.\n💡 **Ví dụ:** This phone is similar to mine. / Your idea is similar to his."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am capable of handling this. (câu đúng) - Học viên viết \'I am capable to handle this.\'",
+    "output": "✅ **Corrected Sentence:** I am capable of handling this.\n🔍 **Error Identification:** 'Capable of', không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'capable to'. Mẹo: capable of + V-ing.\n💡 **Ví dụ:** He is capable of running the company. / She is capable of solving problems."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She succeeded in her career. (câu đúng) - Học viên viết \'She succeeded to her career.\'",
+    "output": "✅ **Corrected Sentence:** She succeeded in her career.\n🔍 **Error Identification:** 'Succeed in', không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'succeed to'. Mẹo: succeed in.\n💡 **Ví dụ:** He succeeded in business. / They succeeded in their mission."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am used to the noise. (câu đúng) - Học viên viết \'I am used with the noise.\'",
+    "output": "✅ **Corrected Sentence:** I am used to the noise.\n🔍 **Error Identification:** 'Used to' (quen với) đi với 'to', không phải 'with'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'used with'. Mẹo: be used to (quen với).\n💡 **Ví dụ:** I am used to the heat. / She is used to the pressure."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am looking for my keys. (câu đúng) - Học viên viết \'I am looking my keys.\'",
+    "output": "✅ **Corrected Sentence:** I am looking for my keys.\n🔍 **Error Identification:** 'Look for', không thể bỏ 'for'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for'. Mẹo: look for = search for.\n💡 **Ví dụ:** She is looking for a job. / They are looking for a solution."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is famous for her voice. (câu đúng) - Học viên viết \'She is famous of her voice.\'",
+    "output": "✅ **Corrected Sentence:** She is famous for her voice.\n🔍 **Error Identification:** 'Famous for', không phải 'famous of'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'famous of'. Mẹo: famous for.\n💡 **Ví dụ:** He is famous for his acting. / The city is famous for its food."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am tired of this job. (câu đúng) - Học viên viết \'I am tired from this job.\'",
+    "output": "✅ **Corrected Sentence:** I am tired of this job. (chán) / tired from (mệt vì)\n🔍 **Error Identification:** 'Tired of' = chán, 'tired from' = mệt.\n📘 **Vietnamese Explanation:** Người Việt dùng 'tired from' cho chán. Mẹo: tired of = fed up with.\n💡 **Ví dụ:** I am tired of waiting. / I am tired from working."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is responsible to his boss. (câu đúng) - Học viên viết \'He is responsible for his boss.\' (cũng đúng nhưng khác nghĩa)",
+    "output": "✅ **Corrected Sentence:** He is responsible to his boss. (chịu trách nhiệm trước sếp) / for (chịu trách nhiệm về)\n🔍 **Error Identification:** 'Responsible to' = trước ai, 'responsible for' = về việc gì.\n📘 **Vietnamese Explanation:** Người Việt dùng 'responsible for' cho mọi trường hợp. Mẹo: to + person, for + thing.\n💡 **Ví dụ:** I am responsible to my manager. / I am responsible for the report."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am interested in the proposal. (câu đúng) - Học viên viết \'I am interested for the proposal.\'",
+    "output": "✅ **Corrected Sentence:** I am interested in the proposal.\n🔍 **Error Identification:** 'Interested in', không phải 'interested for'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'interested for'. Mẹo: interested in.\n💡 **Ví dụ:** She is interested in the job. / He is interested in the offer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is afraid of snakes. (câu đúng) - Học viên viết \'She is afraid from snakes.\'",
+    "output": "✅ **Corrected Sentence:** She is afraid of snakes.\n🔍 **Error Identification:** 'Afraid of', không phải 'afraid from'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'afraid from'. Mẹo: afraid of.\n💡 **Ví dụ:** I am afraid of heights. / He is afraid of failure."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am waiting for the results. (câu đúng) - Học viên viết \'I am waiting the results.\'",
+    "output": "✅ **Corrected Sentence:** I am waiting for the results.\n🔍 **Error Identification:** 'Wait for', không thể bỏ 'for'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for'. Mẹo: wait for.\n💡 **Ví dụ:** She is waiting for her friend. / They are waiting for the bus."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is good at drawing. (câu đúng) - Học viên viết \'He is good in drawing.\'",
+    "output": "✅ **Corrected Sentence:** He is good at drawing.\n🔍 **Error Identification:** 'Good at', không phải 'good in'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'good in'. Mẹo: good at.\n💡 **Ví dụ:** She is good at painting. / He is good at sports."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am keen on learning new things. (câu đúng) - Học viên viết \'I am keen to learn new things.\'",
+    "output": "✅ **Corrected Sentence:** I am keen on learning new things.\n🔍 **Error Identification:** 'Keen on + V-ing', không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'keen to do'. Mẹo: keen on + V-ing.\n💡 **Ví dụ:** She is keen on traveling. / He is keen on cooking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is married to a famous singer. (câu đúng) - Học viên viết \'She is married with a famous singer.\'",
+    "output": "✅ **Corrected Sentence:** She is married to a famous singer.\n🔍 **Error Identification:** 'Married to', không phải 'married with'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'married with'. Mẹo: married to.\n💡 **Ví dụ:** He is married to my cousin. / They got married to each other."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am different from my brother. (câu đúng) - Học viên viết \'I am different with my brother.\'",
+    "output": "✅ **Corrected Sentence:** I am different from my brother.\n🔍 **Error Identification:** 'Different from', không phải 'different with'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'different with'. Mẹo: different from.\n💡 **Ví dụ:** My opinion is different from yours. / This is different from that."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am proud of my country. (câu đúng) - Học viên viết \'I am proud for my country.\'",
+    "output": "✅ **Corrected Sentence:** I am proud of my country.\n🔍 **Error Identification:** 'Proud of', không phải 'proud for'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'proud for'. Mẹo: proud of.\n💡 **Ví dụ:** She is proud of her daughter. / He is proud of his work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am worried about the future. (câu đúng) - Học viên viết \'I am worried for the future.\'",
+    "output": "✅ **Corrected Sentence:** I am worried about the future.\n🔍 **Error Identification:** 'Worried about', không phải 'worried for'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'worried for'. Mẹo: worried about.\n💡 **Ví dụ:** She is worried about her health. / He is worried about the test."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am familiar with this topic. (câu đúng) - Học viên viết \'I am familiar to this topic.\'",
+    "output": "✅ **Corrected Sentence:** I am familiar with this topic.\n🔍 **Error Identification:** 'Familiar with', không phải 'familiar to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'familiar to'. Mẹo: familiar with.\n💡 **Ví dụ:** She is familiar with the rules. / He is familiar with the software."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am similar to my sister. (câu đúng) - Học viên viết \'I am similar with my sister.\'",
+    "output": "✅ **Corrected Sentence:** I am similar to my sister.\n🔍 **Error Identification:** 'Similar to', không phải 'similar with'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'similar with'. Mẹo: similar to.\n💡 **Ví dụ:** My car is similar to yours. / This painting is similar to that one."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am capable of doing it. (câu đúng) - Học viên viết \'I am capable to do it.\'",
+    "output": "✅ **Corrected Sentence:** I am capable of doing it.\n🔍 **Error Identification:** 'Capable of', không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'capable to'. Mẹo: capable of + V-ing.\n💡 **Ví dụ:** He is capable of leading the team. / She is capable of handling stress."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am looking forward to seeing you. (câu đúng) - Học viên viết \'I am looking forward to see you.\'",
+    "output": "✅ **Corrected Sentence:** I am looking forward to seeing you.\n🔍 **Error Identification:** 'To' là giới từ, không phải động từ chỉ mục đích.\n📘 **Vietnamese Explanation:** Người Việt thấy 'to' tưởng là 'to + V'. Mẹo: look forward to + V-ing.\n💡 **Ví dụ:** I look forward to meeting you. / She looks forward to traveling."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am interested in learning Spanish. (câu đúng) - Học viên viết \'I am interested to learn Spanish.\'",
+    "output": "✅ **Corrected Sentence:** I am interested in learning Spanish.\n🔍 **Error Identification:** 'Interested in + V-ing', không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'interested to do'. Mẹo: interested in + V-ing.\n💡 **Ví dụ:** She is interested in reading. / He is interested in playing chess."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am good at playing piano. (câu đúng) - Học viên viết \'I am good in playing piano.\'",
+    "output": "✅ **Corrected Sentence:** I am good at playing piano.\n🔍 **Error Identification:** 'Good at', không phải 'good in'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'good in'. Mẹo: good at.\n💡 **Ví dụ:** He is good at solving puzzles. / She is good at making decisions."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am afraid of losing my job. (câu đúng) - Học viên viết \'I am afraid from losing my job.\'",
+    "output": "✅ **Corrected Sentence:** I am afraid of losing my job.\n🔍 **Error Identification:** 'Afraid of', không phải 'afraid from'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'afraid from'. Mẹo: afraid of.\n💡 **Ví dụ:** She is afraid of making mistakes. / He is afraid of being alone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am waiting for my friend. (câu đúng) - Học viên viết \'I am waiting my friend.\'",
+    "output": "✅ **Corrected Sentence:** I am waiting for my friend.\n🔍 **Error Identification:** 'Wait for', không thể bỏ 'for'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for'. Mẹo: wait for.\n💡 **Ví dụ:** She is waiting for the train. / They are waiting for the signal."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She apologized for her mistake. (câu đúng) - Học viên viết \'She apologized her mistake.\'",
+    "output": "✅ **Corrected Sentence:** She apologized for her mistake.\n🔍 **Error Identification:** 'Apologize for', không thể bỏ 'for'.\n📘 **Vietnamese Explanation:** Người Việt quên 'for'. Mẹo: apologize for something.\n💡 **Ví dụ:** He apologized for the delay. / I apologized for my behavior."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am keen on music. (câu đúng) - Học viên viết \'I am keen to music.\'",
+    "output": "✅ **Corrected Sentence:** I am keen on music.\n🔍 **Error Identification:** 'Keen on', không phải 'keen to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'keen to'. Mẹo: keen on.\n💡 **Ví dụ:** She is keen on dancing. / He is keen on photography."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am proud of my team. (câu đúng) - Học viên viết \'I am proud for my team.\'",
+    "output": "✅ **Corrected Sentence:** I am proud of my team.\n🔍 **Error Identification:** 'Proud of', không phải 'proud for'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'proud for'. Mẹo: proud of.\n💡 **Ví dụ:** She is proud of her students. / He is proud of his family."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am worried about my grades. (câu đúng) - Học viên viết \'I am worried for my grades.\'",
+    "output": "✅ **Corrected Sentence:** I am worried about my grades.\n🔍 **Error Identification:** 'Worried about', không phải 'worried for'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'worried for'. Mẹo: worried about.\n💡 **Ví dụ:** She is worried about the interview. / He is worried about his health."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am different from everyone else. (câu đúng) - Học viên viết \'I am different with everyone else.\'",
+    "output": "✅ **Corrected Sentence:** I am different from everyone else.\n🔍 **Error Identification:** 'Different from', không phải 'different with'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'different with'. Mẹo: different from.\n💡 **Ví dụ:** My style is different from yours. / This approach is different from that."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am similar to my dad. (câu đúng) - Học viên viết \'I am similar with my dad.\'",
+    "output": "✅ **Corrected Sentence:** I am similar to my dad.\n🔍 **Error Identification:** 'Similar to', không phải 'similar with'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'similar with'. Mẹo: similar to.\n💡 **Ví dụ:** My personality is similar to my mother's. / This car is similar to that one."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am capable of finishing the task. (câu đúng) - Học viên viết \'I am capable to finish the task.\'",
+    "output": "✅ **Corrected Sentence:** I am capable of finishing the task.\n🔍 **Error Identification:** 'Capable of', không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'capable to'. Mẹo: capable of + V-ing.\n💡 **Ví dụ:** He is capable of achieving his goals. / She is capable of managing the team."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am used to working late. (câu đúng) - Học viên viết \'I am used to work late.\'",
+    "output": "✅ **Corrected Sentence:** I am used to working late.\n🔍 **Error Identification:** 'Be used to' + V-ing, không dùng 'to + V'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'used to' và 'be used to'. Mẹo: be used to + V-ing.\n💡 **Ví dụ:** I am used to waking up early. / She is used to living alone."
+  }
+]

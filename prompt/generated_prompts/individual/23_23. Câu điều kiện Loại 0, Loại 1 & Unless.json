@@ -1,0 +1,437 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If it will rain, I will stay home.",
+    "output": "✅ **Corrected Sentence:** If it rains, I will stay home.\n🔍 **Error Identification:** Trong mệnh đề 'if' của câu điều kiện loại 1, không dùng 'will' – dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dịch 'nếu trời sẽ mưa' thành 'if it will rain'. Mẹo: If + hiện tại đơn, mệnh đề chính + will.\n💡 **Ví dụ:** If she studies, she will pass. / If you run, you will catch the bus."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will heat ice, it melts.",
+    "output": "✅ **Corrected Sentence:** If you heat ice, it melts.\n🔍 **Error Identification:** Câu điều kiện loại 0 (sự thật hiển nhiên) – cả hai mệnh đề đều dùng hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'if' vì nghĩ tương lai. Mẹo: Sự thật hiển nhiên: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If water boils, it turns into steam. / If you mix red and blue, you get purple."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will call you if I will have time.",
+    "output": "✅ **Corrected Sentence:** I will call you if I have time.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong cả hai vế. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** She will help you if you ask. / They will come if they are free."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you don't study, you will fail. (câu đúng) - Học viên viết \'If you won't study, you will fail.\'",
+    "output": "✅ **Corrected Sentence:** If you don't study, you will fail.\n🔍 **Error Identification:** Mệnh đề 'if' không dùng 'will' ngay cả ở dạng phủ định.\n📘 **Vietnamese Explanation:** Người Việt dùng 'won't study' trong mệnh đề 'if'. Mẹo: 'If' + hiện tại đơn (kể cả phủ định).\n💡 **Ví dụ:** If she doesn't hurry, she will be late. / If they don't leave now, they will miss the train."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you study, you won't pass the exam. (câu đúng) - Học viên viết \'Unless you don't study, you won't pass.\'",
+    "output": "✅ **Corrected Sentence:** Unless you study, you won't pass the exam.\n🔍 **Error Identification:** 'Unless' đã mang nghĩa phủ định (nếu không), không dùng thêm 'don't'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless' + phủ định (unless don't) = 'nếu không không'. Mẹo: Unless = if not, không thêm 'not' nữa.\n💡 **Ví dụ:** Unless you apologize, I won't forgive you. / Unless it rains, we will go."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you heat ice, it will melt. (câu điều kiện loại 0 nên dùng 'melts' thay vì 'will melt')",
+    "output": "✅ **Corrected Sentence:** If you heat ice, it melts.\n🔍 **Error Identification:** Câu điều kiện loại 0 (sự thật khoa học) dùng hiện tại đơn ở cả hai vế, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho sự thật hiển nhiên. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you drop a glass, it breaks. / If you freeze water, it becomes solid."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I will see her, I will tell her.",
+    "output": "✅ **Corrected Sentence:** If I see her, I will tell her.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'if'. Mẹo: If + hiện tại đơn, S + will + V1.\n💡 **Ví dụ:** If he calls, I will answer. / If they invite us, we will go."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't hurry, you will miss the bus.",
+    "output": "✅ **Corrected Sentence:** Unless you hurry, you will miss the bus.\n🔍 **Error Identification:** 'Unless' đã mang nghĩa phủ định, không dùng 'don't'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'trừ khi bạn không vội' thành 'unless you don't hurry'. Mẹo: Unless = if not, không thêm not.\n💡 **Ví dụ:** Unless she apologizes, I won't speak to her. / Unless you study, you will fail."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will go to bed late, you will be tired.",
+    "output": "✅ **Corrected Sentence:** If you go to bed late, you will be tired.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If you eat too much, you will gain weight. / If she practices, she will improve."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will touch the fire, you get burned.",
+    "output": "✅ **Corrected Sentence:** If you touch the fire, you get burned. (loại 0)\n🔍 **Error Identification:** Sự thật hiển nhiên dùng hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong loại 0. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you don't eat, you get hungry. / If you don't sleep, you feel tired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If it rains tomorrow, we will cancel the picnic. (câu đúng) - Học viên viết \'If it will rain tomorrow, we cancel the picnic.\'",
+    "output": "✅ **Corrected Sentence:** If it rains tomorrow, we will cancel the picnic.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn, mệnh đề chính dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' trong mệnh đề 'if' và dùng hiện tại đơn trong mệnh đề chính. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she comes, I will be happy. / If they win, we will celebrate."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you will study, you will fail.",
+    "output": "✅ **Corrected Sentence:** Unless you study, you will fail.\n🔍 **Error Identification:** Sau 'unless' dùng hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' sau 'unless'. Mẹo: Unless + hiện tại đơn, will + V1.\n💡 **Ví dụ:** Unless she hurries, she will be late. / Unless it stops raining, we will stay home."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will help me, I will finish faster.",
+    "output": "✅ **Corrected Sentence:** If you help me, I will finish faster.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào mệnh đề 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If you drive carefully, you will avoid accidents. / If she saves money, she will buy a car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If water reaches 100 degrees, it will boil. (nên dùng loại 0: boils)",
+    "output": "✅ **Corrected Sentence:** If water reaches 100 degrees, it boils.\n🔍 **Error Identification:** Sự thật khoa học dùng loại 0 (hiện tại đơn cả hai vế).\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho sự thật hiển nhiên. Mẹo: Loại 0 cho sự thật luôn đúng.\n💡 **Ví dụ:** If you heat metal, it expands. / If you mix oil and water, they separate."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will go to the party if I will be free.",
+    "output": "✅ **Corrected Sentence:** I will go to the party if I am free.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong mệnh đề 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** She will buy a gift if she has money. / They will travel if they have time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless she doesn't call, I will wait.",
+    "output": "✅ **Corrected Sentence:** Unless she calls, I will wait.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless she doesn't call' (nếu cô ấy không không gọi). Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless it snows, we will go out. / Unless he apologizes, I won't forgive him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you don't water plants, they die. (câu đúng loại 0) - Học viên viết \'If you won't water plants, they will die.\'",
+    "output": "✅ **Corrected Sentence:** If you don't water plants, they die.\n🔍 **Error Identification:** Loại 0 dùng hiện tại đơn cả hai vế.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho sự thật hiển nhiên. Mẹo: Loại 0 cho quy luật tự nhiên, thói quen.\n💡 **Ví dụ:** If you don't sleep, you get tired. / If you don't eat, you become hungry."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I am late, my boss will be angry. (câu đúng) - Học viên viết \'If I will be late, my boss is angry.\'",
+    "output": "✅ **Corrected Sentence:** If I am late, my boss will be angry.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn, mệnh đề chính dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong 'if' và hiện tại đơn trong mệnh đề chính. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If he works hard, he will succeed. / If they practice, they will win."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you will leave now, you will miss the train.",
+    "output": "✅ **Corrected Sentence:** Unless you leave now, you will miss the train.\n🔍 **Error Identification:** 'Unless' + hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' sau 'unless'. Mẹo: Unless + hiện tại đơn, will + V1.\n💡 **Ví dụ:** Unless she wears a coat, she will catch a cold. / Unless we hurry, we will be late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you heat ice, it turns into water. (câu đúng loại 0) - Học viên viết \'If you will heat ice, it will turn into water.\'",
+    "output": "✅ **Corrected Sentence:** If you heat ice, it turns into water.\n🔍 **Error Identification:** Loại 0 dùng hiện tại đơn, không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho sự thật khoa học. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you freeze water, it becomes ice. / If you boil water, it evaporates."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she will come, I will be happy.",
+    "output": "✅ **Corrected Sentence:** If she comes, I will be happy.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If it rains, we will stay home. / If he calls, I will answer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't try, you will never succeed.",
+    "output": "✅ **Corrected Sentence:** Unless you try, you will never succeed.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't try' (nếu bạn không không cố gắng). Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you practice, you won't improve. / Unless you ask, you won't know."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you don't hurry, you will miss the bus. (câu đúng) - Học viên viết \'If you won't hurry, you miss the bus.\'",
+    "output": "✅ **Corrected Sentence:** If you don't hurry, you will miss the bus.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn phủ định (don't hurry), mệnh đề chính dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'won't hurry' trong 'if' và hiện tại đơn trong mệnh đề chính. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she doesn't study, she will fail. / If they don't leave, they will be late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I am the president, I will reduce taxes. (câu đúng) - Học viên viết \'If I will be the president, I reduce taxes.\'",
+    "output": "✅ **Corrected Sentence:** If I am the president, I will reduce taxes.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn, mệnh đề chính dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong 'if' và hiện tại đơn trong mệnh đề chính. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she wins, she will celebrate. / If he gets the job, he will move."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless it rains, we will go to the beach. (câu đúng) - Học viên viết \'Unless it doesn't rain, we will go to the beach.\'",
+    "output": "✅ **Corrected Sentence:** Unless it rains, we will go to the beach.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless it doesn't rain' (nếu trời không không mưa). Mẹo: Unless = if not, không thêm not.\n💡 **Ví dụ:** Unless it snows, we will drive. / Unless she calls, I will go to bed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you drop a glass, it will break. (nên dùng loại 0: breaks)",
+    "output": "✅ **Corrected Sentence:** If you drop a glass, it breaks.\n🔍 **Error Identification:** Sự thật hiển nhiên dùng loại 0 (hiện tại đơn).\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho quy luật vật lý. Mẹo: Loại 0 cho sự thật luôn đúng.\n💡 **Ví dụ:** If you press this button, the machine starts. / If you add salt, the water boils faster."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she will pass the exam, she will go to university.",
+    "output": "✅ **Corrected Sentence:** If she passes the exam, she will go to university.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If they arrive early, they will get good seats. / If he saves enough, he will buy a house."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't study, you will fail.",
+    "output": "✅ **Corrected Sentence:** Unless you study, you will fail.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't study' (nếu bạn không không học). Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you practice, you won't get better. / Unless you ask, you won't receive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If it will snow tomorrow, school will close.",
+    "output": "✅ **Corrected Sentence:** If it snows tomorrow, school will close.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If the temperature drops, the water will freeze. / If the wind blows, the leaves will fall."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you mix yellow and blue, you will get green. (nên dùng loại 0: get)",
+    "output": "✅ **Corrected Sentence:** If you mix yellow and blue, you get green.\n🔍 **Error Identification:** Sự thật khoa học dùng loại 0.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho sự thật. Mẹo: Loại 0 cho quy tắc, sự thật hiển nhiên.\n💡 **Ví dụ:** If you multiply 5 by 5, you get 25. / If you divide 10 by 2, you get 5."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I will be free tomorrow, I will visit you.",
+    "output": "✅ **Corrected Sentence:** If I am free tomorrow, I will visit you.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she is tired, she will rest. / If they are hungry, they will eat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't wear a coat, you will catch a cold.",
+    "output": "✅ **Corrected Sentence:** Unless you wear a coat, you will catch a cold.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't wear'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you wear sunscreen, you will get burned. / Unless you eat breakfast, you will be hungry."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will eat too much, you will get sick.",
+    "output": "✅ **Corrected Sentence:** If you eat too much, you will get sick.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If you exercise regularly, you will stay healthy. / If you save money, you will be rich."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you heat water to 100 degrees, it boils. (câu đúng) - Học viên viết \'If you will heat water to 100 degrees, it will boil.\'",
+    "output": "✅ **Corrected Sentence:** If you heat water to 100 degrees, it boils.\n🔍 **Error Identification:** Loại 0 dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho sự thật khoa học. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you put ice in the sun, it melts. / If you touch a flame, you burn yourself."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she will not come, I will be sad.",
+    "output": "✅ **Corrected Sentence:** If she doesn't come, I will be sad.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn phủ định (doesn't come), không dùng 'will not'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will not come' trong mệnh đề 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If he doesn't call, I will worry. / If they don't arrive, we will leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't study hard, you won't pass.",
+    "output": "✅ **Corrected Sentence:** Unless you study hard, you won't pass.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't study'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you work hard, you won't succeed. / Unless you save money, you won't travel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will help me, I will appreciate it.",
+    "output": "✅ **Corrected Sentence:** If you help me, I will appreciate it.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If you lend me money, I will pay you back. / If you support me, I will succeed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you drop an egg, it will break. (nên dùng loại 0: breaks)",
+    "output": "✅ **Corrected Sentence:** If you drop an egg, it breaks.\n🔍 **Error Identification:** Sự thật hiển nhiên dùng loại 0.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho quy luật tự nhiên. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you kick a ball, it moves. / If you pull a rope, it stretches."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I will see him, I will tell him the news.",
+    "output": "✅ **Corrected Sentence:** If I see him, I will tell him the news.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she finds the keys, she will open the door. / If he hears the news, he will be shocked."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't rest, you will get sick.",
+    "output": "✅ **Corrected Sentence:** Unless you rest, you will get sick.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't rest'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you sleep early, you will be tired. / Unless you drink water, you will be thirsty."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will not study, you will fail.",
+    "output": "✅ **Corrected Sentence:** If you don't study, you will fail.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn phủ định.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will not study' trong 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she doesn't practice, she won't improve. / If they don't listen, they won't understand."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you freeze water, it becomes ice. (câu đúng loại 0) - Học viên viết \'If you will freeze water, it will become ice.\'",
+    "output": "✅ **Corrected Sentence:** If you freeze water, it becomes ice.\n🔍 **Error Identification:** Loại 0 dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho sự thật. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you cool water, it becomes cold. / If you heat ice, it melts."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If it will be sunny tomorrow, we will go swimming.",
+    "output": "✅ **Corrected Sentence:** If it is sunny tomorrow, we will go swimming.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If it is cold, we will wear jackets. / If it is hot, we will turn on the AC."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't apologize, I won't forgive you.",
+    "output": "✅ **Corrected Sentence:** Unless you apologize, I won't forgive you.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't apologize'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you tell the truth, I won't believe you. / Unless you pay, you won't get the product."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will press this button, the machine stops.",
+    "output": "✅ **Corrected Sentence:** If you press this button, the machine stops. (loại 0)\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn, mệnh đề chính hiện tại đơn (loại 0).\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you turn the key, the engine starts. / If you click the link, the page opens."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she will be late, we will start without her.",
+    "output": "✅ **Corrected Sentence:** If she is late, we will start without her.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If he is busy, we will meet another time. / If they are ready, we will leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't leave now, you will miss the plane.",
+    "output": "✅ **Corrected Sentence:** Unless you leave now, you will miss the plane.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't leave'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you hurry, you will miss the flight. / Unless you pay, you won't get the ticket."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will go outside without a coat, you will catch a cold.",
+    "output": "✅ **Corrected Sentence:** If you go outside without a coat, you will catch a cold.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If you walk in the rain, you will get wet. / If you stand in the sun, you will get hot."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you mix red and white, you get pink. (câu đúng loại 0) - Học viên viết \'If you will mix red and white, you will get pink.\'",
+    "output": "✅ **Corrected Sentence:** If you mix red and white, you get pink.\n🔍 **Error Identification:** Loại 0 dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho sự thật. Mẹo: Loại 0 cho sự thật hiển nhiên.\n💡 **Ví dụ:** If you mix black and white, you get gray. / If you mix blue and yellow, you get green."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I will have time, I will help you.",
+    "output": "✅ **Corrected Sentence:** If I have time, I will help you.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will have' trong 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she has money, she will buy a gift. / If they have a car, they will drive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't eat, you will be hungry.",
+    "output": "✅ **Corrected Sentence:** Unless you eat, you will be hungry.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't eat'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you sleep, you will be tired. / Unless you drink, you will be thirsty."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will call me, I will answer.",
+    "output": "✅ **Corrected Sentence:** If you call me, I will answer.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she texts me, I will reply. / If he emails me, I will respond."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you don't water flowers, they die. (câu đúng loại 0) - Học viên viết \'If you won't water flowers, they will die.\'",
+    "output": "✅ **Corrected Sentence:** If you don't water flowers, they die.\n🔍 **Error Identification:** Loại 0 dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho quy luật tự nhiên. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you don't feed a cat, it gets hungry. / If you don't exercise, you get weak."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If it will rain, I will take an umbrella.",
+    "output": "✅ **Corrected Sentence:** If it rains, I will take an umbrella.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If it snows, I will wear boots. / If it is cold, I will wear a jacket."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't study, you won't pass the exam.",
+    "output": "✅ **Corrected Sentence:** Unless you study, you won't pass the exam.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't study'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you practice, you won't improve. / Unless you ask, you won't know."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will study hard, you will get good grades.",
+    "output": "✅ **Corrected Sentence:** If you study hard, you will get good grades.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she works hard, she will get promoted. / If they train hard, they will win."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you press this button, the light turns on. (câu đúng loại 0) - Học viên viết \'If you will press this button, the light will turn on.\'",
+    "output": "✅ **Corrected Sentence:** If you press this button, the light turns on.\n🔍 **Error Identification:** Loại 0 dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho hoạt động của máy móc. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you open the door, the alarm sounds. / If you close the switch, the fan starts."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I will be late, please wait for me.",
+    "output": "✅ **Corrected Sentence:** If I am late, please wait for me.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong 'if'. Mẹo: If + hiện tại đơn, mệnh đề chính có thể là mệnh lệnh.\n💡 **Ví dụ:** If you see her, tell her I said hi. / If he calls, ask him to wait."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't practice, you won't get better.",
+    "output": "✅ **Corrected Sentence:** Unless you practice, you won't get better.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't practice'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you try, you won't succeed. / Unless you believe, you won't achieve."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will cook dinner, I will wash the dishes.",
+    "output": "✅ **Corrected Sentence:** If you cook dinner, I will wash the dishes.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she cleans the room, I will vacuum. / If he mows the lawn, I will water the plants."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you heat ice, it will melt. (nên dùng loại 0: melts)",
+    "output": "✅ **Corrected Sentence:** If you heat ice, it melts.\n🔍 **Error Identification:** Sự thật hiển nhiên dùng loại 0.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho quy luật vật lý. Mẹo: Loại 0 cho sự thật luôn đúng.\n💡 **Ví dụ:** If you cool steam, it condenses. / If you compress air, it heats up."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I will be in town, I will visit you.",
+    "output": "✅ **Corrected Sentence:** If I am in town, I will visit you.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she is at home, I will call her. / If they are in the office, I will meet them."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't wear a helmet, you will get injured.",
+    "output": "✅ **Corrected Sentence:** Unless you wear a helmet, you will get injured.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't wear'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you drive carefully, you will crash. / Unless you listen, you won't understand."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will go to bed early, you will feel rested.",
+    "output": "✅ **Corrected Sentence:** If you go to bed early, you will feel rested.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she sleeps early, she will wake up early. / If he rests, he will recover."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you leave ice in the sun, it melts. (câu đúng loại 0) - Học viên viết \'If you will leave ice in the sun, it will melt.\'",
+    "output": "✅ **Corrected Sentence:** If you leave ice in the sun, it melts.\n🔍 **Error Identification:** Loại 0 dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho sự thật. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you leave butter in the sun, it softens. / If you leave chocolate in the sun, it melts."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If it will be nice tomorrow, we will have a picnic.",
+    "output": "✅ **Corrected Sentence:** If it is nice tomorrow, we will have a picnic.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If it is warm, we will swim. / If it is windy, we will fly kites."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't rest, you will be exhausted.",
+    "output": "✅ **Corrected Sentence:** Unless you rest, you will be exhausted.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't rest'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you take a break, you will burn out. / Unless you relax, you will stress out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will water the plants, they will grow.",
+    "output": "✅ **Corrected Sentence:** If you water the plants, they will grow.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If you feed the dog, it will be happy. / If you clean the cage, the bird will be healthy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you heat metal, it expands. (câu đúng loại 0) - Học viên viết \'If you will heat metal, it will expand.\'",
+    "output": "✅ **Corrected Sentence:** If you heat metal, it expands.\n🔍 **Error Identification:** Loại 0 dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho tính chất vật lý. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you cool metal, it contracts. / If you bend metal, it weakens."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I will wake up late, I will miss the bus.",
+    "output": "✅ **Corrected Sentence:** If I wake up late, I will miss the bus.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will wake up' trong 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she oversleeps, she will be late. / If he misses the train, he will drive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't save money, you won't buy a house.",
+    "output": "✅ **Corrected Sentence:** Unless you save money, you won't buy a house.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't save'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you work, you won't earn money. / Unless you invest, you won't grow wealth."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will study regularly, you will improve.",
+    "output": "✅ **Corrected Sentence:** If you study regularly, you will improve.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she practices daily, she will become better. / If he reads often, he will learn more."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you drop a fragile object, it breaks. (câu đúng loại 0) - Học viên viết \'If you will drop a fragile object, it will break.\'",
+    "output": "✅ **Corrected Sentence:** If you drop a fragile object, it breaks.\n🔍 **Error Identification:** Loại 0 dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho quy luật. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you hit a glass, it shatters. / If you scratch a mirror, it scratches."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If it will be cold tomorrow, I will wear a coat.",
+    "output": "✅ **Corrected Sentence:** If it is cold tomorrow, I will wear a coat.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If it is windy, I will wear a jacket. / If it is rainy, I will take an umbrella."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't ask, you won't receive.",
+    "output": "✅ **Corrected Sentence:** Unless you ask, you won't receive.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't ask'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you seek, you won't find. / Unless you knock, the door won't open."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will eat healthy food, you will feel better.",
+    "output": "✅ **Corrected Sentence:** If you eat healthy food, you will feel better.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she drinks water, she will stay hydrated. / If he exercises, he will be fit."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you put water in the freezer, it becomes ice. (câu đúng loại 0) - Học viên viết \'If you will put water in the freezer, it will become ice.\'",
+    "output": "✅ **Corrected Sentence:** If you put water in the freezer, it becomes ice.\n🔍 **Error Identification:** Loại 0 dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho sự thật. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you put milk in the fridge, it stays fresh. / If you put food in the oven, it cooks."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I will see a sale, I will buy something.",
+    "output": "✅ **Corrected Sentence:** If I see a sale, I will buy something.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will see' trong 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she finds a discount, she will shop. / If he sees a deal, he will purchase."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't practice, you won't succeed.",
+    "output": "✅ **Corrected Sentence:** Unless you practice, you won't succeed.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't practice'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you prepare, you won't perform well. / Unless you plan, you won't achieve."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will arrive early, you will get a good seat.",
+    "output": "✅ **Corrected Sentence:** If you arrive early, you will get a good seat.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she comes early, she will get a discount. / If he arrives first, he will choose first."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you leave milk out, it spoils. (câu đúng loại 0) - Học viên viết \'If you will leave milk out, it will spoil.\'",
+    "output": "✅ **Corrected Sentence:** If you leave milk out, it spoils.\n🔍 **Error Identification:** Loại 0 dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho quy luật. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you leave food out, it goes bad. / If you leave butter out, it softens."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I will have enough money, I will travel.",
+    "output": "✅ **Corrected Sentence:** If I have enough money, I will travel.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will have' trong 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she saves enough, she will buy a car. / If he earns more, he will invest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Unless you don't try, you won't know.",
+    "output": "✅ **Corrected Sentence:** Unless you try, you won't know.\n🔍 **Error Identification:** 'Unless' + phủ định là sai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'unless you don't try'. Mẹo: Unless = if not, không thêm 'not'.\n💡 **Ví dụ:** Unless you attempt, you won't learn. / Unless you experiment, you won't discover."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you will wear a seatbelt, you will be safe.",
+    "output": "✅ **Corrected Sentence:** If you wear a seatbelt, you will be safe.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'will' vào 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she wears sunscreen, she will avoid sunburn. / If he wears a helmet, he will be protected."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you don't study, you won't pass. (câu đúng) - Học viên viết \'If you will not study, you won't pass.\'",
+    "output": "✅ **Corrected Sentence:** If you don't study, you won't pass.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn phủ định.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will not study' trong 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If she doesn't work, she won't earn. / If he doesn't practice, he won't improve."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If you press this switch, the fan turns on. (câu đúng loại 0) - Học viên viết \'If you will press this switch, the fan will turn on.\'",
+    "output": "✅ **Corrected Sentence:** If you press this switch, the fan turns on.\n🔍 **Error Identification:** Loại 0 dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho thiết bị. Mẹo: Loại 0: If + hiện tại đơn, hiện tại đơn.\n💡 **Ví dụ:** If you turn the knob, the water flows. / If you push the button, the bell rings."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If it will be foggy tomorrow, I will drive slowly.",
+    "output": "✅ **Corrected Sentence:** If it is foggy tomorrow, I will drive slowly.\n🔍 **Error Identification:** Mệnh đề 'if' dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will be' trong 'if'. Mẹo: If + hiện tại đơn, will + V1.\n💡 **Ví dụ:** If it is icy, I will walk carefully. / If it is stormy, I will stay home."
+  }
+]

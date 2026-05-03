@@ -1,0 +1,247 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "More you study, more you know.",
+    "output": "✅ **Corrected Sentence:** The more you study, the more you know.\n🔍 **Error Identification:** Thiếu 'the' ở đầu cả hai vế của cấu trúc so sánh kép.\n📘 **Vietnamese Explanation:** Người Việt dịch 'càng...càng' quên mất 'the'. Mẹo: The + so sánh hơn + S + V, the + so sánh hơn + S + V.\n💡 **Ví dụ:** The faster you run, the sooner you arrive. / The more you practice, the better you get."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more expensive the hotel, the better the service. (câu đúng) - Học viên viết \'More expensive the hotel, better the service.\'",
+    "output": "✅ **Corrected Sentence:** The more expensive the hotel, the better the service.\n🔍 **Error Identification:** Thiếu 'the' ở đầu mỗi vế.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'the' vì nghĩ 'càng' đã đủ. Mẹo: Luôn có 'the' ở cả hai vế.\n💡 **Ví dụ:** The bigger the car, the more fuel it uses. / The older you get, the wiser you become."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you eat, you will get fatter.",
+    "output": "✅ **Corrected Sentence:** The more you eat, the fatter you will get.\n🔍 **Error Identification:** Vế sau phải có 'the + so sánh hơn', không dùng 'you will get' trực tiếp.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên cấu trúc câu thường. Mẹo: Vế sau: the + adj-er / more + adj + S + V.\n💡 **Ví dụ:** The harder you work, the more successful you become. / The more you sleep, the lazier you feel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you practice, the more fluent you speak.",
+    "output": "✅ **Corrected Sentence:** The more you practice, the more fluently you speak.\n🔍 **Error Identification:** Vế sau cần trạng từ 'fluently' để bổ nghĩa cho động từ 'speak', không dùng tính từ 'fluent'.\n📘 **Vietnamese Explanation:** Người Việt dùng tính từ thay trạng từ trong so sánh kép. Mẹo: So sánh hành động → dùng trạng từ.\n💡 **Ví dụ:** The faster you run, the sooner you finish. / The more carefully you drive, the safer you are."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you have, the more you want. (câu đúng) - Học viên viết \'More you have, more you want.\'",
+    "output": "✅ **Corrected Sentence:** The more you have, the more you want.\n🔍 **Error Identification:** Thiếu 'the' ở cả hai vế.\n📘 **Vietnamese Explanation:** Người Việt quên mạo từ 'the'. Mẹo: The + more + S + V, the + more + S + V.\n💡 **Ví dụ:** The more you give, the more you receive. / The more you learn, the more you realize you don't know."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The hotter the weather, the more I feel tired.",
+    "output": "✅ **Corrected Sentence:** The hotter the weather, the more tired I feel.\n🔍 **Error Identification:** 'The more I feel tired' là sai – đúng là 'the more tired I feel' (tính từ đứng sau 'the more').\n📘 **Vietnamese Explanation:** Người Việt đặt 'tired' sai vị trí. Mẹo: The + more + adj + S + V.\n💡 **Ví dụ:** The more expensive the product, the better the quality. / The more difficult the exam, the lower the scores."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more time you spend, the better results you get.",
+    "output": "✅ **Corrected Sentence:** The more time you spend, the better the results you get. (hoặc the better results you get)\n🔍 **Error Identification:** Có thể chấp nhận 'the better results', nhưng 'the better the results' cũng đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể bỏ 'the' trước danh từ. Mẹo: The + so sánh hơn + (danh từ) + S + V.\n💡 **Ví dụ:** The more money you earn, the more things you can buy. / The more experience you have, the higher your salary."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you talk, the less you listen.",
+    "output": "✅ **Corrected Sentence:** The more you talk, the less you listen. (câu đúng)\n🔍 **Error Identification:** Câu đúng – 'less' là so sánh hơn của 'little'.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: less (ít hơn), more (nhiều hơn).\n💡 **Ví dụ:** The more you argue, the less people agree with you. / The more you complain, the less sympathy you get."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more he ran, he became more tired.",
+    "output": "✅ **Corrected Sentence:** The more he ran, the more tired he became.\n🔍 **Error Identification:** Vế sau phải bắt đầu bằng 'the more tired', không dùng 'he became more tired'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên trật tự câu thường. Mẹo: The + so sánh hơn + S + V, the + so sánh hơn + S + V.\n💡 **Ví dụ:** The more she studied, the more confident she felt. / The more they argued, the more frustrated they became."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The younger you are, the easier to learn new things.",
+    "output": "✅ **Corrected Sentence:** The younger you are, the easier it is to learn new things.\n🔍 **Error Identification:** Thiếu chủ ngữ 'it' trong vế sau.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'it is' vì nghĩ câu đã đủ. Mẹo: Vế sau cần có chủ ngữ và động từ.\n💡 **Ví dụ:** The older you get, the harder it is to change habits. / The richer you are, the easier it is to travel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you know, you will be more confident.",
+    "output": "✅ **Corrected Sentence:** The more you know, the more confident you will be.\n🔍 **Error Identification:** Vế sau cần 'the more confident', không dùng 'you will be more confident'.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'will be' trực tiếp. Mẹo: The + so sánh hơn + S + will + V.\n💡 **Ví dụ:** The more you practice, the better you will become. / The more you save, the richer you will be."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The higher the altitude, the colder it gets. (câu đúng) - Học viên viết \'Higher the altitude, colder it gets.\'",
+    "output": "✅ **Corrected Sentence:** The higher the altitude, the colder it gets.\n🔍 **Error Identification:** Thiếu 'the' ở đầu mỗi vế.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'the'. Mẹo: 'The' đứng đầu cả hai vế là bắt buộc.\n💡 **Ví dụ:** The deeper the water, the darker it becomes. / The faster the car, the more dangerous it is."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you eat junk food, the unhealthier you become.",
+    "output": "✅ **Corrected Sentence:** The more junk food you eat, the unhealthier you become.\n🔍 **Error Identification:** 'The more you eat junk food' nên là 'The more junk food you eat' (danh từ đi sau 'more').\n📘 **Vietnamese Explanation:** Người Việt đặt 'junk food' sau động từ. Mẹo: The more + danh từ + S + V.\n💡 **Ví dụ:** The more books you read, the more knowledge you gain. / The more exercise you do, the fitter you become."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more I thought about it, I became more confused.",
+    "output": "✅ **Corrected Sentence:** The more I thought about it, the more confused I became.\n🔍 **Error Identification:** Vế sau cần 'the more confused I became'.\n📘 **Vietnamese Explanation:** Người Việt giữ cấu trúc 'I became more confused'. Mẹo: The + so sánh hơn + S + V (đảo 'the' lên đầu).\n💡 **Ví dụ:** The more she explained, the more confused I got. / The more he tried, the more frustrated he felt."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The sooner we leave, the earlier we will arrive. (câu đúng) - Học viên viết \'Sooner we leave, earlier we will arrive.\'",
+    "output": "✅ **Corrected Sentence:** The sooner we leave, the earlier we will arrive.\n🔍 **Error Identification:** Thiếu 'the' ở cả hai vế.\n📘 **Vietnamese Explanation:** Người Việt quên 'the'. Mẹo: Luôn có 'the' trước so sánh hơn trong cấu trúc này.\n💡 **Ví dụ:** The later you start, the later you finish. / The harder you try, the more likely you are to succeed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more beautiful she is, the more she is admired.",
+    "output": "✅ **Corrected Sentence:** The more beautiful she is, the more she is admired. (câu đúng)\n🔍 **Error Identification:** Câu đúng – 'the more beautiful' là so sánh hơn của tính từ dài.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: tính từ dài dùng 'more + adj' trong so sánh kép.\n💡 **Ví dụ:** The more expensive the hotel, the better the service. / The more intelligent he is, the more humble he becomes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The older he gets, the wiser he becomes. (câu đúng) - Học viên viết \'Older he gets, wiser he becomes.\'",
+    "output": "✅ **Corrected Sentence:** The older he gets, the wiser he becomes.\n🔍 **Error Identification:** Thiếu 'the' ở cả hai vế.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'the' vì nghĩ 'càng' không cần 'the'. Mẹo: 'The' là bắt buộc.\n💡 **Ví dụ:** The richer you are, the more friends you have. / The darker the night, the brighter the stars."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you have, the more you worry.",
+    "output": "✅ **Corrected Sentence:** The more you have, the more you worry. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ cấu trúc này rất phổ biến.\n💡 **Ví dụ:** The more you know, the more you realize you don't know. / The more you love, the more you hurt."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more he spent money, the more debt he had.",
+    "output": "✅ **Corrected Sentence:** The more money he spent, the more debt he had.\n🔍 **Error Identification:** 'The more he spent money' nên là 'The more money he spent' (danh từ đi sau 'more').\n📘 **Vietnamese Explanation:** Người Việt đặt 'money' sau động từ 'spent'. Mẹo: The more + danh từ + S + V.\n💡 **Ví dụ:** The more time you waste, the less you achieve. / The more effort you put in, the more you get out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The faster you drive, the more dangerous it is.",
+    "output": "✅ **Corrected Sentence:** The faster you drive, the more dangerous it is. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: trạng từ 'fast' → 'faster' trong so sánh kép.\n💡 **Ví dụ:** The slower you speak, the easier it is to understand. / The more quietly you walk, the less noise you make."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you work, the more you are tired.",
+    "output": "✅ **Corrected Sentence:** The more you work, the more tired you are.\n🔍 **Error Identification:** 'The more you are tired' là sai – đúng là 'the more tired you are'.\n📘 **Vietnamese Explanation:** Người Việt đặt 'tired' sau 'are'. Mẹo: The + more + adj + S + V.\n💡 **Ví dụ:** The more you study, the more prepared you are. / The more you practice, the more skilled you become."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The higher you climb, the harder you fall.",
+    "output": "✅ **Corrected Sentence:** The higher you climb, the harder you fall. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ đây là thành ngữ phổ biến.\n💡 **Ví dụ:** The deeper you dive, the harder it is to come up. / The further you go, the more you see."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you talk, the less people listen to you.",
+    "output": "✅ **Corrected Sentence:** The more you talk, the less people listen to you. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'less' là so sánh hơn của 'little'.\n💡 **Ví dụ:** The more you complain, the less sympathy you get. / The more you spend, the less you save."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more popular he becomes, the more he changes.",
+    "output": "✅ **Corrected Sentence:** The more popular he becomes, the more he changes. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: tính từ dài dùng 'more + adj'.\n💡 **Ví dụ:** The more famous she gets, the more private she becomes. / The more successful he is, the more humble he stays."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more difficult the test, the lower the scores.",
+    "output": "✅ **Corrected Sentence:** The more difficult the test, the lower the scores. (câu đúng)\n🔍 **Error Identification:** Câu đúng – dạng rút gọn (bỏ động từ 'is').\n📘 **Vietnamese Explanation:** Người Việt có thể bỏ động từ 'to be' trong vế có cấu trúc 'the + adj + N'.\n💡 **Ví dụ:** The bigger the house, the higher the rent. / The faster the car, the greater the risk."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you sleep, the lazier you will feel.",
+    "output": "✅ **Corrected Sentence:** The more you sleep, the lazier you will feel. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ cấu trúc này có thể dùng với 'will'.\n💡 **Ví dụ:** The more you exercise, the healthier you will be. / The more you save, the richer you will become."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more careful you are, the fewer mistakes you make.",
+    "output": "✅ **Corrected Sentence:** The more careful you are, the fewer mistakes you make. (câu đúng)\n🔍 **Error Identification:** Câu đúng – 'fewer' dùng cho danh từ đếm được.\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt 'fewer' (đếm được) và 'less' (không đếm được).\n💡 **Ví dụ:** The more time you spend, the fewer errors you have. / The more you practice, the fewer problems you face."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you travel, the more experience you gain.",
+    "output": "✅ **Corrected Sentence:** The more you travel, the more experience you gain. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'experience' có thể là không đếm được.\n💡 **Ví dụ:** The more you read, the more knowledge you acquire. / The more you listen, the more understanding you develop."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you laugh, the longer you live.",
+    "output": "✅ **Corrected Sentence:** The more you laugh, the longer you live. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ đây là cấu trúc rất phổ biến.\n💡 **Ví dụ:** The more you smile, the happier you feel. / The more you love, the more you live."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you worry, the less you sleep.",
+    "output": "✅ **Corrected Sentence:** The more you worry, the less you sleep. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'less' đi với động từ 'sleep'.\n💡 **Ví dụ:** The more you stress, the less you relax. / The more you think, the less you act."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The higher the price, the better the quality.",
+    "output": "✅ **Corrected Sentence:** The higher the price, the better the quality. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ dạng rút gọn này rất phổ biến.\n💡 **Ví dụ:** The lower the cost, the higher the demand. / The shorter the distance, the faster the delivery."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more interesting the book, the more I want to read it.",
+    "output": "✅ **Corrected Sentence:** The more interesting the book, the more I want to read it. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ tính từ dài dùng 'the more + adj'.\n💡 **Ví dụ:** The more exciting the movie, the more people watch it. / The more challenging the task, the more motivated I am."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you earn, the more you spend.",
+    "output": "✅ **Corrected Sentence:** The more you earn, the more you spend. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ đây là cấu trúc cơ bản.\n💡 **Ví dụ:** The more you have, the more you want. / The more you give, the more you receive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you explain, the more confused I get.",
+    "output": "✅ **Corrected Sentence:** The more you explain, the more confused I get. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'confused' là tính từ, đứng sau 'the more'.\n💡 **Ví dụ:** The more he talks, the more annoyed I become. / The more she smiles, the more relaxed I feel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more careful you drive, the safer you are.",
+    "output": "✅ **Corrected Sentence:** The more carefully you drive, the safer you are.\n🔍 **Error Identification:** 'Careful' là tính từ, cần trạng từ 'carefully' để bổ nghĩa cho động từ 'drive'.\n📘 **Vietnamese Explanation:** Người Việt dùng tính từ thay trạng từ. Mẹo: So sánh hành động → dùng trạng từ.\n💡 **Ví dụ:** The more slowly you speak, the more clearly you communicate. / The more efficiently you work, the more productive you are."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you practice, the more fluent you become.",
+    "output": "✅ **Corrected Sentence:** The more you practice, the more fluent you become. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'fluent' là tính từ, đứng sau 'the more'.\n💡 **Ví dụ:** The more you read, the more knowledgeable you become. / The more you listen, the more attentive you become."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The older I get, the less I care about what people think.",
+    "output": "✅ **Corrected Sentence:** The older I get, the less I care about what people think. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'less' đi với động từ 'care'.\n💡 **Ví dụ:** The more mature you become, the more you understand. / The wiser you get, the less you judge."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more money you make, the more tax you pay.",
+    "output": "✅ **Corrected Sentence:** The more money you make, the more tax you pay. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'the more + danh từ + S + V'.\n💡 **Ví dụ:** The more products you sell, the more profit you earn. / The more hours you work, the more overtime you get."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more time you have, the more you can relax.",
+    "output": "✅ **Corrected Sentence:** The more time you have, the more you can relax. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: có thể dùng 'can' trong vế sau.\n💡 **Ví dụ:** The more energy you have, the more you can accomplish. / The more support you get, the more you can achieve."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you focus, the less distracted you become.",
+    "output": "✅ **Corrected Sentence:** The more you focus, the less distracted you become. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'less' đi với tính từ 'distracted'.\n💡 **Ví dụ:** The more you concentrate, the less forgetful you are. / The more you organize, the less chaotic things become."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you hurry, the more mistakes you make.",
+    "output": "✅ **Corrected Sentence:** The more you hurry, the more mistakes you make. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ đây là cấu trúc rất thực tế.\n💡 **Ví dụ:** The more you rush, the more accidents happen. / The more you procrastinate, the more stress you feel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you exercise, the more energetic you feel.",
+    "output": "✅ **Corrected Sentence:** The more you exercise, the more energetic you feel. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'energetic' là tính từ, đứng sau 'the more'.\n💡 **Ví dụ:** The more you sleep, the more refreshed you feel. / The more you eat healthy, the more vibrant you become."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you know, the less you fear.",
+    "output": "✅ **Corrected Sentence:** The more you know, the less you fear. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ đây là câu nói nổi tiếng.\n💡 **Ví dụ:** The more you understand, the less you judge. / The more you learn, the less you worry."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you share, the more you receive.",
+    "output": "✅ **Corrected Sentence:** The more you share, the more you receive. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ đây là cấu trúc phổ biến.\n💡 **Ví dụ:** The more you give, the more you get back. / The more you help, the more you are helped."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you criticize, the less people listen.",
+    "output": "✅ **Corrected Sentence:** The more you criticize, the less people listen. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'less' đi với động từ 'listen'.\n💡 **Ví dụ:** The more you complain, the less sympathy you get. / The more you demand, the less willing people are to help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you travel, the more open-minded you become.",
+    "output": "✅ **Corrected Sentence:** The more you travel, the more open-minded you become. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'open-minded' là tính từ ghép.\n💡 **Ví dụ:** The more you meet people, the more understanding you become. / The more you experience, the more tolerant you grow."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you practice, the easier it becomes.",
+    "output": "✅ **Corrected Sentence:** The more you practice, the easier it becomes. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'easier' là so sánh hơn của 'easy'.\n💡 **Ví dụ:** The more you try, the simpler it gets. / The more you repeat, the more natural it feels."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you save, the more financially secure you are.",
+    "output": "✅ **Corrected Sentence:** The more you save, the more financially secure you are. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: 'financially secure' là cụm tính từ.\n💡 **Ví dụ:** The more you invest, the more wealthy you become. / The more you budget, the more controlled your spending is."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The more you learn, the more you earn.",
+    "output": "✅ **Corrected Sentence:** The more you learn, the more you earn. (câu đúng)\n🔍 **Error Identification:** Câu đúng.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ đây là câu nói nổi tiếng.\n💡 **Ví dụ:** The more you study, the more opportunities you get. / The more you improve, the more rewards you receive."
+  }
+]

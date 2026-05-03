@@ -1,0 +1,372 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I am rich.",
+    "output": "✅ **Corrected Sentence:** I wish I were rich.\n🔍 **Error Identification:** 'Wish' ở hiện tại (ước trái với thực tế) dùng quá khứ đơn (were), không dùng hiện tại đơn (am).\n📘 **Vietnamese Explanation:** Người Việt dịch 'ước tôi giàu' thành 'I wish I am rich'. Mẹo: Wish ở hiện tại → lùi thì: hiện tại → quá khứ.\n💡 **Ví dụ:** I wish I had a car. / She wishes she were taller."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I didn't say that.",
+    "output": "✅ **Corrected Sentence:** I wish I hadn't said that.\n🔍 **Error Identification:** 'Wish' về quá khứ (ước điều đã không xảy ra) dùng quá khứ hoàn thành (hadn't said).\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn (didn't say) cho ước về quá khứ. Mẹo: Wish về quá khứ → had + V3.\n💡 **Ví dụ:** I wish I had studied harder. / She wishes she hadn't lied."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only I am taller.",
+    "output": "✅ **Corrected Sentence:** If only I were taller.\n🔍 **Error Identification:** 'If only' + quá khứ đơn (were) cho ước ở hiện tại.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'if only'. Mẹo: 'If only' = wish, dùng quá khứ đơn cho hiện tại.\n💡 **Ví dụ:** If only she were here. / If only I knew the answer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only I didn't forget my keys yesterday.",
+    "output": "✅ **Corrected Sentence:** If only I hadn't forgotten my keys yesterday.\n🔍 **Error Identification:** 'If only' về quá khứ dùng quá khứ hoàn thành (hadn't forgotten).\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho ước về quá khứ. Mẹo: If only + had + V3.\n💡 **Ví dụ:** If only she had listened. / If only they had arrived on time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I can fly.",
+    "output": "✅ **Corrected Sentence:** I wish I could fly.\n🔍 **Error Identification:** 'Can' ở hiện tại → 'could' trong câu ước.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'can' trong câu ước. Mẹo: can → could, will → would, may → might.\n💡 **Ví dụ:** I wish I could speak French. / She wishes she could sing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I will have more time.",
+    "output": "✅ **Corrected Sentence:** I wish I had more time. (hoặc I wish I would have more time – ít dùng)\n🔍 **Error Identification:** 'Will' không dùng trong mệnh đề sau 'wish' – dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho tương lai trong câu ước. Mẹo: Wish + quá khứ đơn (hiện tại).\n💡 **Ví dụ:** I wish it were summer. / He wishes he lived in Paris."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather you don't smoke.",
+    "output": "✅ **Corrected Sentence:** I would rather you didn't smoke.\n🔍 **Error Identification:** 'Would rather + S + V' (người khác làm gì) dùng quá khứ đơn cho hiện tại.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'would rather'. Mẹo: Would rather + S + quá khứ đơn (hiện tại/tương lai).\n💡 **Ví dụ:** I would rather you stayed. / She would rather he didn't go."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather to stay at home.",
+    "output": "✅ **Corrected Sentence:** I would rather stay at home.\n🔍 **Error Identification:** 'Would rather' + V (nguyên thể), không dùng 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' sau 'would rather' như 'want to'. Mẹo: Would rather + V (không to).\n💡 **Ví dụ:** I would rather go out. / She would rather eat alone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's high time we go.",
+    "output": "✅ **Corrected Sentence:** It's high time we went.\n🔍 **Error Identification:** 'It's high time' + S + quá khứ đơn (giả định).\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'it's high time'. Mẹo: It's high time + quá khứ đơn.\n💡 **Ví dụ:** It's high time you started working. / It's high time they left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's time for us to leave. (câu đúng) - Học viên viết \'It's time we leave.\'",
+    "output": "✅ **Corrected Sentence:** It's time we left. (hoặc It's time for us to leave)\n🔍 **Error Identification:** 'It's time + S + V' dùng quá khứ đơn (left), không dùng hiện tại đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'it's time'. Mẹo: It's time + S + quá khứ đơn.\n💡 **Ví dụ:** It's time you went to bed. / It's time she made a decision."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I was a millionaire. (có thể chấp nhận trong văn nói) - Học viên viết \'I wish I am a millionaire.\'",
+    "output": "✅ **Corrected Sentence:** I wish I were a millionaire. (hoặc was – ít trang trọng)\n🔍 **Error Identification:** 'Were' là chuẩn cho tất cả các ngôi trong câu ước.\n📘 **Vietnamese Explanation:** Người Việt dùng 'was' cho 'I' trong câu ước. Mẹo: Dùng 'were' cho mọi ngôi để trang trọng.\n💡 **Ví dụ:** I wish she were here. / He wishes it were true."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only I have more money.",
+    "output": "✅ **Corrected Sentence:** If only I had more money.\n🔍 **Error Identification:** 'If only' + quá khứ đơn cho ước ở hiện tại.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn sau 'if only'. Mẹo: If only = wish + quá khứ đơn.\n💡 **Ví dụ:** If only she knew the truth. / If only they understood."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather you not smoke.",
+    "output": "✅ **Corrected Sentence:** I would rather you didn't smoke.\n🔍 **Error Identification:** 'Would rather + S + V' dùng quá khứ đơn (didn't smoke).\n📘 **Vietnamese Explanation:** Người Việt dùng 'not smoke' (nguyên thể) sau 'you'. Mẹo: Would rather + S + quá khứ đơn.\n💡 **Ví dụ:** I would rather she didn't come. / He would rather they weren't late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's high time we have a break.",
+    "output": "✅ **Corrected Sentence:** It's high time we had a break.\n🔍 **Error Identification:** 'It's high time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's high time = đã đến lúc (dùng quá khứ).\n💡 **Ví dụ:** It's high time we bought a new car. / It's high time he found a job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish you will be here tomorrow.",
+    "output": "✅ **Corrected Sentence:** I wish you would be here tomorrow. (hoặc I hope you will be here)\n🔍 **Error Identification:** 'Wish' + would (cho tương lai, thể hiện mong muốn người khác thay đổi).\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' sau 'wish'. Mẹo: Wish + would (mong ai đó làm gì).\n💡 **Ví dụ:** I wish it would stop raining. / She wishes he would call."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather to go alone.",
+    "output": "✅ **Corrected Sentence:** I would rather go alone.\n🔍 **Error Identification:** 'Would rather' + V (nguyên thể), không 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to' như 'want to'. Mẹo: Would rather = prefer to (nhưng không to).\n💡 **Ví dụ:** I would rather stay home. / She would rather walk."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only I didn't fail the exam.",
+    "output": "✅ **Corrected Sentence:** If only I hadn't failed the exam.\n🔍 **Error Identification:** 'If only' về quá khứ dùng quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho ước về quá khứ. Mẹo: If only + had + V3.\n💡 **Ví dụ:** If only she hadn't quit. / If only they hadn't lied."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's time the children go to bed.",
+    "output": "✅ **Corrected Sentence:** It's time the children went to bed.\n🔍 **Error Identification:** 'It's time' + S + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's time + quá khứ đơn.\n💡 **Ví dụ:** It's time you went to school. / It's time she started working."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I can swim.",
+    "output": "✅ **Corrected Sentence:** I wish I could swim.\n🔍 **Error Identification:** 'Can' → 'could' trong câu ước.\n📘 **Vietnamese Explanation:** Người Việt giữ 'can'. Mẹo: can → could, will → would.\n💡 **Ví dụ:** I wish I could drive. / She wishes she could cook."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather you don't tell anyone.",
+    "output": "✅ **Corrected Sentence:** I would rather you didn't tell anyone.\n🔍 **Error Identification:** 'Would rather + S + V' dùng quá khứ đơn (didn't tell).\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: Would rather + S + quá khứ đơn.\n💡 **Ví dụ:** I would rather she kept it secret. / He would rather they didn't know."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's high time we start studying.",
+    "output": "✅ **Corrected Sentence:** It's high time we started studying.\n🔍 **Error Identification:** 'It's high time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's high time = đã đến lúc (dùng quá khứ).\n💡 **Ví dụ:** It's high time we left. / It's high time she apologized."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I have a bigger house.",
+    "output": "✅ **Corrected Sentence:** I wish I had a bigger house.\n🔍 **Error Identification:** 'Wish' ở hiện tại dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: Wish + quá khứ đơn (hiện tại).\n💡 **Ví dụ:** I wish I had more friends. / She wishes she had a better job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only I can be there.",
+    "output": "✅ **Corrected Sentence:** If only I could be there.\n🔍 **Error Identification:** 'If only' + quá khứ đơn / could.\n📘 **Vietnamese Explanation:** Người Việt dùng 'can'. Mẹo: If only = wish, dùng could cho khả năng.\n💡 **Ví dụ:** If only she could come. / If only they could help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather you not be late.",
+    "output": "✅ **Corrected Sentence:** I would rather you weren't late.\n🔍 **Error Identification:** 'Would rather + S + V' dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'not be' (nguyên thể). Mẹo: Would rather + S + quá khứ đơn.\n💡 **Ví dụ:** I would rather she weren't so shy. / He would rather they didn't argue."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's time we change our plan.",
+    "output": "✅ **Corrected Sentence:** It's time we changed our plan.\n🔍 **Error Identification:** 'It's time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's time + quá khứ đơn.\n💡 **Ví dụ:** It's time we made a decision. / It's time they moved out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I know the answer.",
+    "output": "✅ **Corrected Sentence:** I wish I knew the answer.\n🔍 **Error Identification:** 'Wish' ở hiện tại dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: Wish + quá khứ đơn (hiện tại).\n💡 **Ví dụ:** I wish I understood. / She wishes she spoke French."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only she didn't leave so early.",
+    "output": "✅ **Corrected Sentence:** If only she hadn't left so early.\n🔍 **Error Identification:** 'If only' về quá khứ dùng quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn. Mẹo: If only + had + V3.\n💡 **Ví dụ:** If only I had listened. / If only they had warned me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather to eat at home.",
+    "output": "✅ **Corrected Sentence:** I would rather eat at home.\n🔍 **Error Identification:** 'Would rather' + V (nguyên thể).\n📘 **Vietnamese Explanation:** Người Việt thêm 'to'. Mẹo: Would rather + V (không to).\n💡 **Ví dụ:** I would rather sleep. / She would rather read."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's high time we buy a new house.",
+    "output": "✅ **Corrected Sentence:** It's high time we bought a new house.\n🔍 **Error Identification:** 'It's high time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's high time = đã đến lúc (dùng quá khứ).\n💡 **Ví dụ:** It's high time he got a job. / It's high time she learned to drive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish the weather is better.",
+    "output": "✅ **Corrected Sentence:** I wish the weather were better.\n🔍 **Error Identification:** 'Wish' ở hiện tại dùng quá khứ đơn (were).\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: Wish + quá khứ đơn (were cho mọi ngôi).\n💡 **Ví dụ:** I wish it weren't so hot. / She wishes the sun were out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only he will call me.",
+    "output": "✅ **Corrected Sentence:** If only he would call me.\n🔍 **Error Identification:** 'If only' + would cho mong muốn trong tương lai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will'. Mẹo: If only + would (mong ai đó làm gì).\n💡 **Ví dụ:** If only she would listen. / If only they would help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather you don't go.",
+    "output": "✅ **Corrected Sentence:** I would rather you didn't go.\n🔍 **Error Identification:** 'Would rather + S + V' dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: Would rather + S + quá khứ đơn.\n💡 **Ví dụ:** I would rather she stayed. / He would rather they left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's time we start the meeting.",
+    "output": "✅ **Corrected Sentence:** It's time we started the meeting.\n🔍 **Error Identification:** 'It's time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's time + quá khứ đơn.\n💡 **Ví dụ:** It's time we began. / It's time she apologized."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I am taller.",
+    "output": "✅ **Corrected Sentence:** I wish I were taller.\n🔍 **Error Identification:** 'Wish' ở hiện tại dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: Wish + quá khứ đơn.\n💡 **Ví dụ:** I wish I were stronger. / She wishes she were prettier."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only I didn't eat so much.",
+    "output": "✅ **Corrected Sentence:** If only I hadn't eaten so much.\n🔍 **Error Identification:** 'If only' về quá khứ dùng quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn. Mẹo: If only + had + V3.\n💡 **Ví dụ:** If only I hadn't said that. / If only she hadn't gone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather to walk than drive.",
+    "output": "✅ **Corrected Sentence:** I would rather walk than drive.\n🔍 **Error Identification:** 'Would rather' + V (nguyên thể), không 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to'. Mẹo: Would rather + V1 + than + V1.\n💡 **Ví dụ:** I would rather read than watch TV. / She would rather cook than order."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's high time we are leaving.",
+    "output": "✅ **Corrected Sentence:** It's high time we left.\n🔍 **Error Identification:** 'It's high time' + quá khứ đơn, không dùng 'are leaving'.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại tiếp diễn. Mẹo: It's high time + quá khứ đơn.\n💡 **Ví dụ:** It's high time we went. / It's high time she finished."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I can speak English fluently.",
+    "output": "✅ **Corrected Sentence:** I wish I could speak English fluently.\n🔍 **Error Identification:** 'Can' → 'could'.\n📘 **Vietnamese Explanation:** Người Việt giữ 'can'. Mẹo: Wish + could (khả năng).\n💡 **Ví dụ:** I wish I could sing. / She wishes she could dance."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only the weather is nice.",
+    "output": "✅ **Corrected Sentence:** If only the weather were nice.\n🔍 **Error Identification:** 'If only' + quá khứ đơn (were).\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: If only + quá khứ đơn.\n💡 **Ví dụ:** If only it were summer. / If only she were here."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather you be quiet.",
+    "output": "✅ **Corrected Sentence:** I would rather you were quiet.\n🔍 **Error Identification:** 'Would rather + S + V' dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'be' (nguyên thể). Mẹo: Would rather + S + quá khứ đơn.\n💡 **Ví dụ:** I would rather he were honest. / She would rather they were here."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's time the government take action.",
+    "output": "✅ **Corrected Sentence:** It's time the government took action.\n🔍 **Error Identification:** 'It's time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's time + quá khứ đơn.\n💡 **Ví dụ:** It's time they did something. / It's time she made a move."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I have a better memory.",
+    "output": "✅ **Corrected Sentence:** I wish I had a better memory.\n🔍 **Error Identification:** 'Wish' ở hiện tại dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: Wish + quá khứ đơn.\n💡 **Ví dụ:** I wish I had more patience. / She wishes she had more time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only I didn't miss the bus.",
+    "output": "✅ **Corrected Sentence:** If only I hadn't missed the bus.\n🔍 **Error Identification:** 'If only' về quá khứ dùng quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn. Mẹo: If only + had + V3.\n💡 **Ví dụ:** If only I hadn't overslept. / If only she hadn't forgotten."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather to stay home than go out.",
+    "output": "✅ **Corrected Sentence:** I would rather stay home than go out.\n🔍 **Error Identification:** 'Would rather' + V (nguyên thể), không 'to'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'to'. Mẹo: Would rather + V1 + than + V1.\n💡 **Ví dụ:** I would rather die than surrender. / She would rather fail than cheat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's high time we finish this project.",
+    "output": "✅ **Corrected Sentence:** It's high time we finished this project.\n🔍 **Error Identification:** 'It's high time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's high time + quá khứ đơn.\n💡 **Ví dụ:** It's high time we submitted the report. / It's high time she took a break."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I am on vacation.",
+    "output": "✅ **Corrected Sentence:** I wish I were on vacation.\n🔍 **Error Identification:** 'Wish' ở hiện tại dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: Wish + quá khứ đơn.\n💡 **Ví dụ:** I wish I were at the beach. / She wishes she were traveling."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only he doesn't smoke.",
+    "output": "✅ **Corrected Sentence:** If only he didn't smoke. (hiện tại) / If only he wouldn't smoke (tương lai)\n🔍 **Error Identification:** 'If only' + quá khứ đơn cho hiện tại.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: If only + quá khứ đơn.\n💡 **Ví dụ:** If only she weren't so lazy. / If only they didn't argue."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather you not be so rude.",
+    "output": "✅ **Corrected Sentence:** I would rather you weren't so rude.\n🔍 **Error Identification:** 'Would rather + S + V' dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'not be' (nguyên thể). Mẹo: Would rather + S + quá khứ đơn.\n💡 **Ví dụ:** I would rather she weren't so loud. / He would rather they weren't so late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's time we make a decision.",
+    "output": "✅ **Corrected Sentence:** It's time we made a decision.\n🔍 **Error Identification:** 'It's time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's time + quá khứ đơn.\n💡 **Ví dụ:** It's time we chose a leader. / It's time she picked a major."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I will be famous one day.",
+    "output": "✅ **Corrected Sentence:** I wish I would be famous one day. (hoặc I hope I will be famous)\n🔍 **Error Identification:** 'Wish' + would cho ước về tương lai (mong điều gì đó xảy ra).\n📘 **Vietnamese Explanation:** Người Việt dùng 'will'. Mẹo: Wish + would (tương lai).\n💡 **Ví dụ:** I wish it would stop raining. / She wishes he would notice her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only I can turn back time.",
+    "output": "✅ **Corrected Sentence:** If only I could turn back time.\n🔍 **Error Identification:** 'If only' + could cho khả năng.\n📘 **Vietnamese Explanation:** Người Việt dùng 'can'. Mẹo: If only + could.\n💡 **Ví dụ:** If only she could understand. / If only they could forgive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather to work from home.",
+    "output": "✅ **Corrected Sentence:** I would rather work from home.\n🔍 **Error Identification:** 'Would rather' + V (nguyên thể).\n📘 **Vietnamese Explanation:** Người Việt thêm 'to'. Mẹo: Would rather + V1.\n💡 **Ví dụ:** I would rather study online. / She would rather travel alone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's high time we change our strategy.",
+    "output": "✅ **Corrected Sentence:** It's high time we changed our strategy.\n🔍 **Error Identification:** 'It's high time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's high time + quá khứ đơn.\n💡 **Ví dụ:** It's high time we updated our system. / It's high time she found a new job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I am more confident.",
+    "output": "✅ **Corrected Sentence:** I wish I were more confident.\n🔍 **Error Identification:** 'Wish' ở hiện tại dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: Wish + quá khứ đơn.\n💡 **Ví dụ:** I wish I were braver. / She wishes she were more outgoing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only she will come to the party.",
+    "output": "✅ **Corrected Sentence:** If only she would come to the party.\n🔍 **Error Identification:** 'If only' + would cho mong muốn trong tương lai.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will'. Mẹo: If only + would.\n💡 **Ví dụ:** If only he would call. / If only they would help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather you be here with me.",
+    "output": "✅ **Corrected Sentence:** I would rather you were here with me.\n🔍 **Error Identification:** 'Would rather + S + V' dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'be' (nguyên thể). Mẹo: Would rather + S + quá khứ đơn.\n💡 **Ví dụ:** I would rather she were here. / He would rather they were present."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's time we start preparing.",
+    "output": "✅ **Corrected Sentence:** It's time we started preparing.\n🔍 **Error Identification:** 'It's time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's time + quá khứ đơn.\n💡 **Ví dụ:** It's time we began. / It's time she packed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I have more free time.",
+    "output": "✅ **Corrected Sentence:** I wish I had more free time.\n🔍 **Error Identification:** 'Wish' ở hiện tại dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: Wish + quá khứ đơn.\n💡 **Ví dụ:** I wish I had more energy. / She wishes she had more money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only I didn't say that to her.",
+    "output": "✅ **Corrected Sentence:** If only I hadn't said that to her.\n🔍 **Error Identification:** 'If only' về quá khứ dùng quá khứ hoàn thành.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn. Mẹo: If only + had + V3.\n💡 **Ví dụ:** If only I hadn't yelled. / If only she hadn't lied."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather to go by train.",
+    "output": "✅ **Corrected Sentence:** I would rather go by train.\n🔍 **Error Identification:** 'Would rather' + V (nguyên thể).\n📘 **Vietnamese Explanation:** Người Việt thêm 'to'. Mẹo: Would rather + V1.\n💡 **Ví dụ:** I would rather take the bus. / She would rather fly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's high time we do something about it.",
+    "output": "✅ **Corrected Sentence:** It's high time we did something about it.\n🔍 **Error Identification:** 'It's high time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's high time + quá khứ đơn.\n💡 **Ví dụ:** It's high time we solved this. / It's high time she decided."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I can play the piano.",
+    "output": "✅ **Corrected Sentence:** I wish I could play the piano.\n🔍 **Error Identification:** 'Can' → 'could'.\n📘 **Vietnamese Explanation:** Người Việt giữ 'can'. Mẹo: Wish + could.\n💡 **Ví dụ:** I wish I could paint. / She wishes she could draw."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only the phone would stop ringing.",
+    "output": "✅ **Corrected Sentence:** If only the phone would stop ringing. (câu đúng)\n🔍 **Error Identification:** Câu đúng – 'would stop' diễn tả mong muốn.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ cấu trúc này.\n💡 **Ví dụ:** If only the rain would stop. / If only the baby would sleep."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather you not tell anyone.",
+    "output": "✅ **Corrected Sentence:** I would rather you didn't tell anyone.\n🔍 **Error Identification:** 'Would rather + S + V' dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'not tell' (nguyên thể). Mẹo: Would rather + S + quá khứ đơn.\n💡 **Ví dụ:** I would rather she didn't know. / He would rather they didn't find out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's time we go home.",
+    "output": "✅ **Corrected Sentence:** It's time we went home.\n🔍 **Error Identification:** 'It's time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's time + quá khứ đơn.\n💡 **Ví dụ:** It's time we left. / It's time she returned."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I am not so shy.",
+    "output": "✅ **Corrected Sentence:** I wish I weren't so shy.\n🔍 **Error Identification:** 'Wish' ở hiện tại dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: Wish + quá khứ đơn.\n💡 **Ví dụ:** I wish I weren't so nervous. / She wishes she weren't so clumsy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only I can forget the past.",
+    "output": "✅ **Corrected Sentence:** If only I could forget the past.\n🔍 **Error Identification:** 'If only' + could.\n📘 **Vietnamese Explanation:** Người Việt dùng 'can'. Mẹo: If only + could.\n💡 **Ví dụ:** If only she could move on. / If only they could forgive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather to eat out than cook.",
+    "output": "✅ **Corrected Sentence:** I would rather eat out than cook.\n🔍 **Error Identification:** 'Would rather' + V (nguyên thể).\n📘 **Vietnamese Explanation:** Người Việt thêm 'to'. Mẹo: Would rather + V1 + than + V1.\n💡 **Ví dụ:** I would rather order than cook. / She would rather sleep than work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's high time we take a break.",
+    "output": "✅ **Corrected Sentence:** It's high time we took a break.\n🔍 **Error Identification:** 'It's high time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's high time + quá khứ đơn.\n💡 **Ví dụ:** It's high time we rested. / It's high time she relaxed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I have a car.",
+    "output": "✅ **Corrected Sentence:** I wish I had a car.\n🔍 **Error Identification:** 'Wish' ở hiện tại dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: Wish + quá khứ đơn.\n💡 **Ví dụ:** I wish I had a house. / She wishes she had a bike."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If only she will change her mind.",
+    "output": "✅ **Corrected Sentence:** If only she would change her mind.\n🔍 **Error Identification:** 'If only' + would.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will'. Mẹo: If only + would.\n💡 **Ví dụ:** If only he would apologize. / If only they would understand."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I would rather you be on time.",
+    "output": "✅ **Corrected Sentence:** I would rather you were on time.\n🔍 **Error Identification:** 'Would rather + S + V' dùng quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'be' (nguyên thể). Mẹo: Would rather + S + quá khứ đơn.\n💡 **Ví dụ:** I would rather she were punctual. / He would rather they were early."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's time we accept the truth.",
+    "output": "✅ **Corrected Sentence:** It's time we accepted the truth.\n🔍 **Error Identification:** 'It's time' + quá khứ đơn.\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn. Mẹo: It's time + quá khứ đơn.\n💡 **Ví dụ:** It's time we faced reality. / It's time she admitted the mistake."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wish I can travel more.",
+    "output": "✅ **Corrected Sentence:** I wish I could travel more.\n🔍 **Error Identification:** 'Can' → 'could'.\n📘 **Vietnamese Explanation:** Người Việt giữ 'can'. Mẹo: Wish + could.\n💡 **Ví dụ:** I wish I could see the world. / She wishes she could visit Paris."
+  }
+]

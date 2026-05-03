@@ -1,0 +1,232 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Never I have seen such a beautiful sunset.",
+    "output": "✅ **Corrected Sentence:** Never have I seen such a beautiful sunset.\n🔍 **Error Identification:** Đảo ngữ với 'Never' – đảo trợ động từ 'have' lên trước chủ ngữ 'I'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên trật tự câu thường (Never + S + V). Mẹo: Never + trợ động từ + S + V3.\n💡 **Ví dụ:** Never have I met such a kind person. / Never has she been so happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Hardly I had arrived when the phone rang.",
+    "output": "✅ **Corrected Sentence:** Hardly had I arrived when the phone rang.\n🔍 **Error Identification:** Đảo ngữ với 'Hardly' – đảo 'had' lên trước chủ ngữ 'I'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'Hardly I had'. Mẹo: Hardly + had + S + V3 + when + S + V2/ed.\n💡 **Ví dụ:** Hardly had she sat down when the doorbell rang. / Hardly had we started when it began to rain."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "No sooner I had closed my eyes than I fell asleep.",
+    "output": "✅ **Corrected Sentence:** No sooner had I closed my eyes than I fell asleep.\n🔍 **Error Identification:** Đảo ngữ với 'No sooner' – đảo 'had' lên trước chủ ngữ.\n📘 **Vietnamese Explanation:** Người Việt giữ 'No sooner I had'. Mẹo: No sooner + had + S + V3 + than + S + V2/ed.\n💡 **Ví dụ:** No sooner had he arrived than she left. / No sooner had we eaten than the guests came."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Not only he is intelligent, but he is also hardworking.",
+    "output": "✅ **Corrected Sentence:** Not only is he intelligent, but he is also hardworking.\n🔍 **Error Identification:** Đảo ngữ với 'Not only' – đảo trợ động từ 'is' lên trước chủ ngữ 'he'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'Not only he is'. Mẹo: Not only + trợ động từ + S + V, but...also.\n💡 **Ví dụ:** Not only does she sing well, but she also dances beautifully. / Not only did he fail, but he also lost his money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Rarely she goes out at night.",
+    "output": "✅ **Corrected Sentence:** Rarely does she go out at night.\n🔍 **Error Identification:** Đảo ngữ với 'Rarely' – đảo trợ động từ 'does' lên trước chủ ngữ 'she'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'Rarely she goes'. Mẹo: Rarely + trợ động từ + S + V.\n💡 **Ví dụ:** Rarely do they eat out. / Rarely has he been so angry."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Only after I read the book did I understand the story. (câu đúng) - Học viên viết \'Only after I read the book I understood the story.\'",
+    "output": "✅ **Corrected Sentence:** Only after I read the book did I understand the story.\n🔍 **Error Identification:** Đảo ngữ với 'Only after' – đảo trợ động từ 'did' lên trước chủ ngữ.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự câu thường sau 'only after'. Mẹo: Only after + S + V + trợ động từ + S + V.\n💡 **Ví dụ:** Only when she called did I realize my mistake. / Only then did he understand."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Little he knew about the surprise.",
+    "output": "✅ **Corrected Sentence:** Little did he know about the surprise.\n🔍 **Error Identification:** Đảo ngữ với 'Little' (mang nghĩa phủ định) – đảo 'did' lên trước chủ ngữ.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'Little he knew'. Mẹo: Little + trợ động từ + S + V.\n💡 **Ví dụ:** Little did she realize the danger. / Little did they expect to see him there."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Nowhere I could find my keys.",
+    "output": "✅ **Corrected Sentence:** Nowhere could I find my keys.\n🔍 **Error Identification:** Đảo ngữ với 'Nowhere' – đảo 'could' lên trước chủ ngữ 'I'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'Nowhere I could'. Mẹo: Nowhere + trợ động từ + S + V.\n💡 **Ví dụ:** Nowhere have I seen such a mess. / Nowhere could they find a place to stay."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Had I known, I would have told you. (câu đúng - đảo ngữ câu điều kiện loại 3)",
+    "output": "✅ **Corrected Sentence:** Had I known, I would have told you.\n🔍 **Error Identification:** Đảo ngữ câu điều kiện loại 3 – bỏ 'if' và đảo 'had' lên trước chủ ngữ.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'If I had known'. Mẹo: Had + S + V3, S + would have + V3.\n💡 **Ví dụ:** Had she studied, she would have passed. / Had they left earlier, they wouldn't have missed the train."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Were I rich, I would buy a yacht. (câu đúng - đảo ngữ câu điều kiện loại 2 với were)",
+    "output": "✅ **Corrected Sentence:** Were I rich, I would buy a yacht.\n🔍 **Error Identification:** Đảo ngữ câu điều kiện loại 2 – bỏ 'if' và đảo 'were' lên trước chủ ngữ.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'If I were rich'. Mẹo: Were + S + (to V), S + would + V1.\n💡 **Ví dụ:** Were she here, she would help us. / Were he to try, he would succeed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Should you need any help, call me. (câu đúng - đảo ngữ câu điều kiện loại 1)",
+    "output": "✅ **Corrected Sentence:** Should you need any help, call me.\n🔍 **Error Identification:** Đảo ngữ câu điều kiện loại 1 – bỏ 'if' và đảo 'should' lên trước chủ ngữ.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'If you need any help'. Mẹo: Should + S + V1, S + will/can/may + V1.\n💡 **Ví dụ:** Should she call, tell her I'm busy. / Should it rain, the match will be cancelled."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Under no circumstances you should give up.",
+    "output": "✅ **Corrected Sentence:** Under no circumstances should you give up.\n🔍 **Error Identification:** Đảo ngữ với 'Under no circumstances' – đảo trợ động từ 'should' lên trước chủ ngữ 'you'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'you should'. Mẹo: Under no circumstances + trợ động từ + S + V.\n💡 **Ví dụ:** Under no circumstances will I lie. / Under no circumstances are we to leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Not until I met you did I know true love. (câu đúng) - Học viên viết \'Not until I met you I knew true love.\'",
+    "output": "✅ **Corrected Sentence:** Not until I met you did I know true love.\n🔍 **Error Identification:** Đảo ngữ với 'Not until' – đảo trợ động từ 'did' lên trước chủ ngữ.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự câu thường sau 'not until'. Mẹo: Not until + S + V + trợ động từ + S + V.\n💡 **Ví dụ:** Not until she apologized did I forgive her. / Not until it was too late did he realize."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Only by working hard can you succeed. (câu đúng) - Học viên viết \'Only by working hard you can succeed.\'",
+    "output": "✅ **Corrected Sentence:** Only by working hard can you succeed.\n🔍 **Error Identification:** Đảo ngữ với 'Only by' – đảo trợ động từ 'can' lên trước chủ ngữ 'you'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'you can'. Mẹo: Only by + V-ing + trợ động từ + S + V.\n💡 **Ví dụ:** Only by practicing daily will you improve. / Only by asking can you get answers."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In no way he is responsible for the accident.",
+    "output": "✅ **Corrected Sentence:** In no way is he responsible for the accident.\n🔍 **Error Identification:** Đảo ngữ với 'In no way' – đảo trợ động từ 'is' lên trước chủ ngữ 'he'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'he is'. Mẹo: In no way + trợ động từ + S + V.\n💡 **Ví dụ:** In no way does this prove your point. / In no way are they similar."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Never in my life have I been so embarrassed. (câu đúng) - Học viên viết \'Never in my life I have been so embarrassed.\'",
+    "output": "✅ **Corrected Sentence:** Never in my life have I been so embarrassed.\n🔍 **Error Identification:** Đảo ngữ với 'Never in my life' – đảo 'have' lên trước chủ ngữ 'I'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'I have'. Mẹo: Never + trợ động từ + S + V3.\n💡 **Ví dụ:** Never in my life have I seen such a thing. / Never in my life will I forget this day."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Not only did she fail the exam, but she also lost her scholarship. (câu đúng) - Học viên viết \'Not only she failed the exam, but she also lost her scholarship.\'",
+    "output": "✅ **Corrected Sentence:** Not only did she fail the exam, but she also lost her scholarship.\n🔍 **Error Identification:** Đảo ngữ với 'Not only' – đảo 'did' lên trước chủ ngữ 'she'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'she failed'. Mẹo: Not only + trợ động từ + S + V, but...also.\n💡 **Ví dụ:** Not only does he speak English, but he also speaks French. / Not only was she late, but she also forgot her homework."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Hardly had we left when it started to snow. (câu đúng) - Học viên viết \'Hardly we had left when it started to snow.\'",
+    "output": "✅ **Corrected Sentence:** Hardly had we left when it started to snow.\n🔍 **Error Identification:** Đảo ngữ với 'Hardly' – đảo 'had' lên trước chủ ngữ 'we'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'we had'. Mẹo: Hardly + had + S + V3 + when + S + V2/ed.\n💡 **Ví dụ:** Hardly had the game started when it began to rain. / Hardly had I said it when I regretted it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Only when you apologize will I forgive you. (câu đúng) - Học viên viết \'Only when you apologize I will forgive you.\'",
+    "output": "✅ **Corrected Sentence:** Only when you apologize will I forgive you.\n🔍 **Error Identification:** Đảo ngữ với 'Only when' – đảo 'will' lên trước chủ ngữ 'I'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'I will'. Mẹo: Only when + S + V + trợ động từ + S + V.\n💡 **Ví dụ:** Only when you grow up will you understand. / Only when she called did I remember."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "So beautiful was the view that we couldn't leave. (câu đúng - đảo ngữ với so)",
+    "output": "✅ **Corrected Sentence:** So beautiful was the view that we couldn't leave.\n🔍 **Error Identification:** Đảo ngữ với 'So + adj' – đảo 'was' lên trước chủ ngữ 'the view'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'the view was'. Mẹo: So + adj + trợ động từ + S + that + S + V.\n💡 **Ví dụ:** So tired was she that she fell asleep instantly. / So loud was the music that I couldn't hear anything."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Such was his anger that he couldn't speak. (câu đúng - đảo ngữ với such)",
+    "output": "✅ **Corrected Sentence:** Such was his anger that he couldn't speak.\n🔍 **Error Identification:** Đảo ngữ với 'Such' – đảo 'was' lên trước chủ ngữ 'his anger'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'his anger was'. Mẹo: Such + be + N + that + S + V.\n💡 **Ví dụ:** Such was his strength that he lifted the car. / Such was her beauty that everyone admired her."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Had I not seen it, I wouldn't have believed it. (câu đúng) - Học viên viết \'If I had not seen it, I wouldn't have believed it.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** Had I not seen it, I wouldn't have believed it.\n🔍 **Error Identification:** Đảo ngữ câu điều kiện loại 3 phủ định – bỏ 'if', đảo 'had' lên trước, 'not' theo sau.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'If I had not'. Mẹo: Had + S + not + V3, S + would have + V3.\n💡 **Ví dụ:** Had she not helped me, I would have failed. / Had they not been late, they would have seen the show."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Were he not so shy, he would have more friends. (câu đúng - đảo ngữ loại 2 với were)",
+    "output": "✅ **Corrected Sentence:** Were he not so shy, he would have more friends.\n🔍 **Error Identification:** Đảo ngữ câu điều kiện loại 2 phủ định – bỏ 'if', đảo 'were' lên trước, 'not' theo sau.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'If he were not'. Mẹo: Were + S + not + adj/N, S + would + V1.\n💡 **Ví dụ:** Were it not for your help, I would be lost. / Were she not so busy, she would join us."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Not once did he apologize for his mistake. (câu đúng) - Học viên viết \'Not once he apologized for his mistake.\'",
+    "output": "✅ **Corrected Sentence:** Not once did he apologize for his mistake.\n🔍 **Error Identification:** Đảo ngữ với 'Not once' – đảo 'did' lên trước chủ ngữ 'he'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'he apologized'. Mẹo: Not once + trợ động từ + S + V.\n💡 **Ví dụ:** Not once did she complain. / Not once have I seen him smile."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Only then I realized how much I loved her.",
+    "output": "✅ **Corrected Sentence:** Only then did I realize how much I loved her.\n🔍 **Error Identification:** Đảo ngữ với 'Only then' – đảo 'did' lên trước chủ ngữ 'I'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'I realized'. Mẹo: Only then + trợ động từ + S + V.\n💡 **Ví dụ:** Only then did she understand. / Only then will you know the truth."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "No sooner had I arrived than the meeting started. (câu đúng) - Học viên viết \'No sooner I had arrived than the meeting started.\'",
+    "output": "✅ **Corrected Sentence:** No sooner had I arrived than the meeting started.\n🔍 **Error Identification:** Đảo ngữ với 'No sooner' – đảo 'had' lên trước chủ ngữ 'I'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'I had'. Mẹo: No sooner + had + S + V3 + than + S + V2/ed.\n💡 **Ví dụ:** No sooner had she finished than he started talking. / No sooner had we left than it began to snow."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Should you change your mind, let me know. (câu đúng) - Học viên viết \'If you should change your mind, let me know.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** Should you change your mind, let me know.\n🔍 **Error Identification:** Đảo ngữ câu điều kiện loại 1 – bỏ 'if', đảo 'should' lên trước chủ ngữ.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'If you should'. Mẹo: Should + S + V1, S + will/can/may + V1.\n💡 **Ví dụ:** Should you need assistance, call this number. / Should it be necessary, we will postpone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Never have I felt so happy. (câu đúng) - Học viên viết \'Never I have felt so happy.\'",
+    "output": "✅ **Corrected Sentence:** Never have I felt so happy.\n🔍 **Error Identification:** Đảo ngữ với 'Never' – đảo 'have' lên trước chủ ngữ 'I'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'I have'. Mẹo: Never + have/has + S + V3.\n💡 **Ví dụ:** Never has she been so kind. / Never have they been so generous."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Not only he is a good teacher, but he is also a great friend.",
+    "output": "✅ **Corrected Sentence:** Not only is he a good teacher, but he is also a great friend.\n🔍 **Error Identification:** Đảo ngữ với 'Not only' – đảo 'is' lên trước chủ ngữ 'he'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'he is'. Mẹo: Not only + trợ động từ + S + V, but...also.\n💡 **Ví dụ:** Not only does she play the piano, but she also composes music. / Not only was he late, but he also forgot his lines."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Only after finishing my homework did I go out. (câu đúng) - Học viên viết \'Only after finishing my homework I went out.\'",
+    "output": "✅ **Corrected Sentence:** Only after finishing my homework did I go out.\n🔍 **Error Identification:** Đảo ngữ với 'Only after' – đảo 'did' lên trước chủ ngữ 'I'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'I went'. Mẹo: Only after + V-ing / S + V + trợ động từ + S + V.\n💡 **Ví dụ:** Only after eating did he speak. / Only after she left did I realize."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "In no way should you blame yourself for what happened.",
+    "output": "✅ **Corrected Sentence:** In no way should you blame yourself for what happened. (câu đúng)\n🔍 **Error Identification:** Đã có đảo ngữ đúng – 'should' đứng trước 'you'.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ cấu trúc này.\n💡 **Ví dụ:** In no way is this acceptable. / In no way does this excuse his behavior."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Hardly ever does she arrive on time. (câu đúng) - Học viên viết \'Hardly ever she arrives on time.\'",
+    "output": "✅ **Corrected Sentence:** Hardly ever does she arrive on time.\n🔍 **Error Identification:** Đảo ngữ với 'Hardly ever' – đảo 'does' lên trước chủ ngữ 'she'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'she arrives'. Mẹo: Hardly ever + trợ động từ + S + V.\n💡 **Ví dụ:** Hardly ever do they eat out. / Hardly ever has he been so rude."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Only by chance did I find the lost ring. (câu đúng) - Học viên viết \'Only by chance I found the lost ring.\'",
+    "output": "✅ **Corrected Sentence:** Only by chance did I find the lost ring.\n🔍 **Error Identification:** Đảo ngữ với 'Only by' – đảo 'did' lên trước chủ ngữ 'I'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'I found'. Mẹo: Only by + N/V-ing + trợ động từ + S + V.\n💡 **Ví dụ:** Only by luck did he survive. / Only by asking will you know."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Seldom do we see such kindness nowadays. (câu đúng) - Học viên viết \'Seldom we see such kindness nowadays.\'",
+    "output": "✅ **Corrected Sentence:** Seldom do we see such kindness nowadays.\n🔍 **Error Identification:** Đảo ngữ với 'Seldom' – đảo 'do' lên trước chủ ngữ 'we'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'we see'. Mẹo: Seldom + trợ động từ + S + V.\n💡 **Ví dụ:** Seldom does he complain. / Seldom have I seen such beauty."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Were it not for your support, I would have given up. (câu đúng - đảo ngữ với were it not for)",
+    "output": "✅ **Corrected Sentence:** Were it not for your support, I would have given up.\n🔍 **Error Identification:** Đảo ngữ 'Were it not for' = If it were not for (nếu không nhờ vào).\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'If it were not for'. Mẹo: Were it not for + N, S + would have + V3.\n💡 **Ví dụ:** Were it not for her help, I would have failed. / Were it not for the rain, we would have gone out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Had it not been for the traffic, we would have been on time. (câu đúng - đảo ngữ với had it not been for)",
+    "output": "✅ **Corrected Sentence:** Had it not been for the traffic, we would have been on time.\n🔍 **Error Identification:** Đảo ngữ 'Had it not been for' = If it had not been for (nếu không vì).\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'If it had not been for'. Mẹo: Had it not been for + N, S + would have + V3.\n💡 **Ví dụ:** Had it not been for your advice, I would have made a mistake. / Had it not been for the storm, they would have arrived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "So fast did he run that nobody could catch him. (câu đúng) - Học viên viết \'So fast he ran that nobody could catch him.\'",
+    "output": "✅ **Corrected Sentence:** So fast did he run that nobody could catch him.\n🔍 **Error Identification:** Đảo ngữ với 'So + adv' – đảo 'did' lên trước chủ ngữ 'he'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'he ran'. Mẹo: So + adv + trợ động từ + S + V + that + S + V.\n💡 **Ví dụ:** So loudly did he shout that everyone heard. / So quickly did she finish that she won the race."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Such was the force of the explosion that windows shattered. (câu đúng) - Học viên viết \'Such the force of the explosion was that windows shattered.\'",
+    "output": "✅ **Corrected Sentence:** Such was the force of the explosion that windows shattered.\n🔍 **Error Identification:** Đảo ngữ với 'Such' – đảo 'was' lên trước chủ ngữ.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'the force was'. Mẹo: Such + be + N + that + S + V.\n💡 **Ví dụ:** Such was his talent that he became famous. / Such was her determination that she never gave up."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Only if you study hard will you pass the exam. (câu đúng) - Học viên viết \'Only if you study hard you will pass the exam.\'",
+    "output": "✅ **Corrected Sentence:** Only if you study hard will you pass the exam.\n🔍 **Error Identification:** Đảo ngữ với 'Only if' – đảo 'will' lên trước chủ ngữ 'you'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'you will'. Mẹo: Only if + S + V + trợ động từ + S + V.\n💡 **Ví dụ:** Only if you apologize will I forgive you. / Only if it stops raining can we go out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Not a single word did he say during the meeting. (câu đúng) - Học viên viết \'Not a single word he said during the meeting.\'",
+    "output": "✅ **Corrected Sentence:** Not a single word did he say during the meeting.\n🔍 **Error Identification:** Đảo ngữ với 'Not a single word' – đảo 'did' lên trước chủ ngữ 'he'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'he said'. Mẹo: Not a + N + trợ động từ + S + V.\n💡 **Ví dụ:** Not a word did she utter. / Not a sound could he hear."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Under no circumstances are we to open this door. (câu đúng) - Học viên viết \'Under no circumstances we are to open this door.\'",
+    "output": "✅ **Corrected Sentence:** Under no circumstances are we to open this door.\n🔍 **Error Identification:** Đảo ngữ với 'Under no circumstances' – đảo 'are' lên trước chủ ngữ 'we'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'we are'. Mẹo: Under no circumstances + trợ động từ + S + V.\n💡 **Ví dụ:** Under no circumstances should you lie. / Under no circumstances will I surrender."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Never before have I seen such a magnificent building. (câu đúng) - Học viên viết \'Never before I have seen such a magnificent building.\'",
+    "output": "✅ **Corrected Sentence:** Never before have I seen such a magnificent building.\n🔍 **Error Identification:** Đảo ngữ với 'Never before' – đảo 'have' lên trước chủ ngữ 'I'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'I have'. Mẹo: Never before + have/has + S + V3.\n💡 **Ví dụ:** Never before has she been so happy. / Never before have they faced such a challenge."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Only when he spoke did I recognize him. (câu đúng) - Học viên viết \'Only when he spoke I recognized him.\'",
+    "output": "✅ **Corrected Sentence:** Only when he spoke did I recognize him.\n🔍 **Error Identification:** Đảo ngữ với 'Only when' – đảo 'did' lên trước chủ ngữ 'I'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'I recognized'. Mẹo: Only when + S + V + trợ động từ + S + V.\n💡 **Ví dụ:** Only when she smiled did I feel at ease. / Only when it got dark did we leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Were I to choose, I would pick the blue one. (câu đúng - đảo ngữ loại 2 với were to)",
+    "output": "✅ **Corrected Sentence:** Were I to choose, I would pick the blue one.\n🔍 **Error Identification:** Đảo ngữ 'Were + S + to V' = If S + were to V (giả định không có thật).\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'If I were to choose'. Mẹo: Were + S + to V, S + would + V1.\n💡 **Ví dụ:** Were she to ask, I would help. / Were they to arrive early, we would be surprised."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Not for a moment did I doubt his honesty. (câu đúng) - Học viên viết \'Not for a moment I doubted his honesty.\'",
+    "output": "✅ **Corrected Sentence:** Not for a moment did I doubt his honesty.\n🔍 **Error Identification:** Đảo ngữ với 'Not for a moment' – đảo 'did' lên trước chủ ngữ 'I'.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'I doubted'. Mẹo: Not for a moment + trợ động từ + S + V.\n💡 **Ví dụ:** Not for a second did she hesitate. / Not for a moment will I forget this day."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "So noisy was the classroom that the teacher couldn't teach. (câu đúng) - Học viên viết \'So noisy the classroom was that the teacher couldn't teach.\'",
+    "output": "✅ **Corrected Sentence:** So noisy was the classroom that the teacher couldn't teach.\n🔍 **Error Identification:** Đảo ngữ với 'So + adj' – đảo 'was' lên trước chủ ngữ.\n📘 **Vietnamese Explanation:** Người Việt giữ trật tự 'the classroom was'. Mẹo: So + adj + trợ động từ + S + that + S + V.\n💡 **Ví dụ:** So cold was the weather that we stayed inside. / So expensive was the car that he couldn't afford it."
+  }
+]

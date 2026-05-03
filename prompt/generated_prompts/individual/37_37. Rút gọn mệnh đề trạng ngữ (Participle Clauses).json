@@ -1,0 +1,287 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Walking home, the rain started.",
+    "output": "✅ **Corrected Sentence:** Walking home, I got caught in the rain. (hoặc When I was walking home, the rain started)\n🔍 **Error Identification:** Lỗi 'dangling participle' – chủ ngữ của mệnh đề chính (the rain) không phải là người thực hiện hành động 'walking'.\n📘 **Vietnamese Explanation:** Người Việt dùng rút gọn nhưng quên đảm bảo chủ ngữ phù hợp. Mẹo: Chủ ngữ của mệnh đề chính phải là người/vật thực hiện hành động ở mệnh đề rút gọn.\n💡 **Ví dụ:** Walking home, I saw an accident. / Driving to work, he listened to music."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Seen from above, the city looks beautiful. (câu đúng) - Học viên viết \'Seeing from above, the city looks beautiful.\'",
+    "output": "✅ **Corrected Sentence:** Seen from above, the city looks beautiful.\n🔍 **Error Identification:** Dùng 'Seeing' (chủ động) thay vì 'Seen' (bị động) – thành phố được nhìn, không tự nhìn.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing cho mọi rút gọn. Mẹo: Nếu chủ ngữ chịu tác động → dùng V-ed/PP.\n💡 **Ví dụ:** Written in pencil, the letter was hard to read. / Exhausted by the trip, they went to bed early."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Having finished homework, I went to bed. (câu đúng) - Học viên viết \'Finished homework, I went to bed.\'",
+    "output": "✅ **Corrected Sentence:** Having finished homework, I went to bed.\n🔍 **Error Identification:** Dùng 'Finished' (bị động) thay vì 'Having finished' (chủ động hoàn thành).\n📘 **Vietnamese Explanation:** Người Việt dùng V-ed cho mọi rút gọn. Mẹo: Hành động chủ động xảy ra trước → Having + V3.\n💡 **Ví dụ:** Having eaten dinner, she washed the dishes. / Having lost his keys, he couldn't get in."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Being tired, I went to sleep. (câu đúng) - Học viên viết \'Tired, I went to sleep.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** Tired, I went to sleep. (hoặc Being tired)\n🔍 **Error Identification:** Cả hai đều đúng – tính từ 'tired' có thể đứng đầu câu mà không cần 'being'.\n📘 **Vietnamese Explanation:** Người Việt thường thêm 'being' không cần thiết. Mẹo: Có thể bỏ 'being' khi dùng tính từ.\n💡 **Ví dụ:** Hungry, he ate a sandwich. / Angry, she slammed the door."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After finished work, he went home.",
+    "output": "✅ **Corrected Sentence:** After finishing work, he went home. (hoặc Having finished work)\n🔍 **Error Identification:** Sau giới từ 'after' dùng V-ing, không dùng V-ed.\n📘 **Vietnamese Explanation:** Người Việt dùng 'after finished' (sai). Mẹo: After + V-ing.\n💡 **Ví dụ:** After eating breakfast, she left. / After hearing the news, he cried."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Walking in the park, a bird landed on my shoulder.",
+    "output": "✅ **Corrected Sentence:** While I was walking in the park, a bird landed on my shoulder. (hoặc When a bird landed...)\n🔍 **Error Identification:** 'Walking' (người đi) không phù hợp với chủ ngữ 'a bird'.\n📘 **Vietnamese Explanation:** Người Việt để chủ ngữ mệnh đề chính không phù hợp. Mẹo: Đảm bảo chủ ngữ của mệnh đề chính thực hiện hành động rút gọn.\n💡 **Ví dụ:** Walking in the park, I saw a bird. / Running late, she took a taxi."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Not knowing the answer, he remained silent. (câu đúng) - Học viên viết \'Not known the answer, he remained silent.\'",
+    "output": "✅ **Corrected Sentence:** Not knowing the answer, he remained silent.\n🔍 **Error Identification:** 'Not known' là bị động, nhưng 'he' là người không biết (chủ động).\n📘 **Vietnamese Explanation:** Người Việt dùng V-ed cho phủ định. Mẹo: 'Not knowing' = không biết (chủ động).\n💡 **Ví dụ:** Not understanding the question, she asked for help. / Not having money, he couldn't buy it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The girl sitting next to me is my classmate. (câu đúng) - Học viên viết \'The girl sat next to me is my classmate.\'",
+    "output": "✅ **Corrected Sentence:** The girl sitting next to me is my classmate.\n🔍 **Error Identification:** 'Sat' là quá khứ đơn, 'sitting' mới đúng cho rút gọn mệnh đề quan hệ chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ed cho rút gọn chủ động. Mẹo: Chủ động → V-ing, bị động → V-ed.\n💡 **Ví dụ:** The boy standing there is my brother. / The car parked outside is mine."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Being a teacher, he knows how to explain things. (câu đúng) - Học viên viết \'Is a teacher, he knows how to explain things.\'",
+    "output": "✅ **Corrected Sentence:** Being a teacher, he knows how to explain things. (hoặc As a teacher)\n🔍 **Error Identification:** 'Is a teacher' không thể đứng đầu câu – cần 'Being' hoặc 'As'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên động từ 'is'. Mẹo: Rút gọn mệnh đề lý do: Being + N/adj.\n💡 **Ví dụ:** Being the boss, she makes the final decision. / Being tired, I went to bed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Having been told many times, he still forgot. (câu đúng) - Học viên viết \'Having told many times, he still forgot.\'",
+    "output": "✅ **Corrected Sentence:** Having been told many times, he still forgot.\n🔍 **Error Identification:** 'Having told' là chủ động (anh ấy đã nói), nhưng thực tế anh ấy được nói (bị động).\n📘 **Vietnamese Explanation:** Người Việt quên 'been' trong bị động hoàn thành. Mẹo: Having been + V3 = sau khi bị làm gì.\n💡 **Ví dụ:** Having been warned, they stayed home. / Having been fired, he looked for a new job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Read the book, I understood the topic.",
+    "output": "✅ **Corrected Sentence:** Having read the book, I understood the topic. (hoặc After reading the book)\n🔍 **Error Identification:** 'Read' là V1/V2, cần 'Having read' để diễn tả hành động hoàn tất trước.\n📘 **Vietnamese Explanation:** Người Việt dùng 'read' (quá khứ đơn) cho rút gọn. Mẹo: Hành động xảy ra trước → Having + V3.\n💡 **Ví dụ:** Having finished work, he went home. / Having studied hard, she passed the exam."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "While walking to school, I met my friend. (câu đúng) - Học viên viết \'While walked to school, I met my friend.\'",
+    "output": "✅ **Corrected Sentence:** While walking to school, I met my friend.\n🔍 **Error Identification:** 'While walked' là sai – sau 'while' dùng V-ing khi rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ed sau 'while'. Mẹo: While + V-ing (chủ động).\n💡 **Ví dụ:** While cooking dinner, she listened to music. / While waiting for the bus, I read a book."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Seen the movie, I can discuss it with you.",
+    "output": "✅ **Corrected Sentence:** Having seen the movie, I can discuss it with you. (hoặc Since I have seen the movie)\n🔍 **Error Identification:** 'Seen' là bị động, cần 'Having seen' cho chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ed cho mọi rút gọn. Mẹo: Chủ động hoàn thành → Having + V3.\n💡 **Ví dụ:** Having visited Paris, I know the city well. / Having read the book, I can answer your questions."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Exhausted after the race, he collapsed. (câu đúng) - Học viên viết \'Exhausting after the race, he collapsed.\'",
+    "output": "✅ **Corrected Sentence:** Exhausted after the race, he collapsed.\n🔍 **Error Identification:** 'Exhausting' (gây kiệt sức) dùng cho vật, 'exhausted' (cảm thấy kiệt sức) dùng cho người.\n📘 **Vietnamese Explanation:** Người Việt nhầm -ed và -ing. Mẹo: Người + -ed, vật + -ing.\n💡 **Ví dụ:** Excited about the trip, she packed her bags. / Bored with the movie, he fell asleep."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The bridge connecting the two cities was built in 1990. (câu đúng) - Học viên viết \'The bridge connected the two cities was built in 1990.\'",
+    "output": "✅ **Corrected Sentence:** The bridge connecting the two cities was built in 1990.\n🔍 **Error Identification:** 'Connected' là bị động (được kết nối), nhưng cầu tự kết nối (chủ động).\n📘 **Vietnamese Explanation:** Người Việt dùng V-ed cho rút gọn chủ động. Mẹo: V-ing cho chủ động, V-ed cho bị động.\n💡 **Ví dụ:** The road leading to the beach is narrow. / The man wearing a hat is my dad."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Born in Hanoi, she knows the city well. (câu đúng) - Học viên viết \'Bearing in Hanoi, she knows the city well.\'",
+    "output": "✅ **Corrected Sentence:** Born in Hanoi, she knows the city well.\n🔍 **Error Identification:** 'Bearing' là chủ động (sinh ra), nhưng cô ấy được sinh ra (bị động).\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing cho bị động. Mẹo: Bị động → V-ed/PP.\n💡 **Ví dụ:** Raised in the countryside, he loves nature. / Educated in England, she speaks perfect English."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Not having enough time, we skipped breakfast. (câu đúng) - Học viên viết \'Not have enough time, we skipped breakfast.\'",
+    "output": "✅ **Corrected Sentence:** Not having enough time, we skipped breakfast.\n🔍 **Error Identification:** 'Not have' là sai – phải là 'Not having' (dạng phủ định của V-ing).\n📘 **Vietnamese Explanation:** Người Việt dùng 'not have' (nguyên thể). Mẹo: Not + V-ing.\n💡 **Ví dụ:** Not knowing the way, she got lost. / Not wanting to be late, he left early."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Finished the report, he submitted it to his boss.",
+    "output": "✅ **Corrected Sentence:** Having finished the report, he submitted it to his boss.\n🔍 **Error Identification:** 'Finished' là bị động, cần 'Having finished' cho chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ed cho chủ động. Mẹo: Chủ động hoàn thành → Having + V3.\n💡 **Ví dụ:** Having done his homework, he watched TV. / Having prepared dinner, she called the family."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter sending yesterday has arrived.",
+    "output": "✅ **Corrected Sentence:** The letter sent yesterday has arrived.\n🔍 **Error Identification:** 'Sending' là chủ động (bức thư tự gửi), phải là 'sent' (bị động).\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing cho bị động. Mẹo: Bị động → V-ed/PP.\n💡 **Ví dụ:** The package delivered this morning is for you. / The car repaired yesterday broke down again."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Walking in the rain, his shoes got wet.",
+    "output": "✅ **Corrected Sentence:** Walking in the rain, he got his shoes wet. (hoặc His shoes got wet when he walked in the rain)\n🔍 **Error Identification:** 'Walking' không phù hợp với chủ ngữ 'his shoes'.\n📘 **Vietnamese Explanation:** Người Việt để chủ ngữ mệnh đề chính không phải người thực hiện hành động. Mẹo: Chủ ngữ mệnh đề chính phải là người/vật thực hiện hành động rút gọn.\n💡 **Ví dụ:** Running late, she forgot her keys. / Cooking dinner, he burned his hand."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Being a student, he doesn't have much money. (câu đúng) - Học viên viết \'Is a student, he doesn't have much money.\'",
+    "output": "✅ **Corrected Sentence:** Being a student, he doesn't have much money.\n🔍 **Error Identification:** 'Is a student' không thể đứng đầu câu.\n📘 **Vietnamese Explanation:** Người Việt dùng 'is' như trong câu gốc. Mẹo: Being + N/adj để rút gọn mệnh đề lý do.\n💡 **Ví dụ:** Being the manager, she has many responsibilities. / Being late, he apologized."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man worked in the bank is my father.",
+    "output": "✅ **Corrected Sentence:** The man working in the bank is my father.\n🔍 **Error Identification:** 'Worked' là quá khứ đơn, cần 'working' cho rút gọn mệnh đề quan hệ chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ed cho chủ động. Mẹo: V-ing cho chủ động.\n💡 **Ví dụ:** The woman teaching English is my aunt. / The boy playing soccer is my son."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Having seen the movie before, I didn't watch it again. (câu đúng) - Học viên viết \'Seen the movie before, I didn't watch it again.\'",
+    "output": "✅ **Corrected Sentence:** Having seen the movie before, I didn't watch it again.\n🔍 **Error Identification:** 'Seen' là bị động, cần 'Having seen' cho chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ed cho chủ động hoàn thành. Mẹo: Having + V3 cho hành động chủ động xảy ra trước.\n💡 **Ví dụ:** Having visited the museum, we went home. / Having eaten lunch, they continued working."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "While driving to work, a deer crossed the road.",
+    "output": "✅ **Corrected Sentence:** While I was driving to work, a deer crossed the road. (hoặc While driving to work, I saw a deer)\n🔍 **Error Identification:** 'Driving' không phù hợp với chủ ngữ 'a deer'.\n📘 **Vietnamese Explanation:** Người Việt để chủ ngữ mệnh đề chính không phải người lái xe. Mẹo: Đảm bảo chủ ngữ phù hợp.\n💡 **Ví dụ:** While driving to work, I saw a deer. / While walking home, she found a wallet."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Taken by surprise, he couldn't say a word. (câu đúng) - Học viên viết \'Taking by surprise, he couldn't say a word.\'",
+    "output": "✅ **Corrected Sentence:** Taken by surprise, he couldn't say a word.\n🔍 **Error Identification:** 'Taking' là chủ động (anh ấy làm ngạc nhiên), phải là 'Taken' (bị làm ngạc nhiên).\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing cho bị động. Mẹo: Bị động → V-ed/PP.\n💡 **Ví dụ:** Shocked by the news, she fainted. / Frightened by the noise, the cat ran away."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book read by millions is a bestseller. (câu đúng) - Học viên viết \'The book reading by millions is a bestseller.\'",
+    "output": "✅ **Corrected Sentence:** The book read by millions is a bestseller.\n🔍 **Error Identification:** 'Reading' là chủ động (sách tự đọc), phải là 'read' (bị động).\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing cho bị động. Mẹo: 'By' thường đi với V-ed/PP.\n💡 **Ví dụ:** The song sung by her is famous. / The house built by my father is old."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "After being told the news, she started crying. (câu đúng) - Học viên viết \'After telling the news, she started crying.\'",
+    "output": "✅ **Corrected Sentence:** After being told the news, she started crying.\n🔍 **Error Identification:** 'After telling' là chủ động (cô ấy kể), nhưng thực tế cô ấy được kể (bị động).\n📘 **Vietnamese Explanation:** Người Việt quên 'being' trong bị động sau giới từ. Mẹo: After + being + V3.\n💡 **Ví dụ:** After being fired, he was depressed. / After being scolded, the child apologized."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Looking out the window, the sunset was beautiful.",
+    "output": "✅ **Corrected Sentence:** Looking out the window, I saw a beautiful sunset. (hoặc The sunset was beautiful when I looked out)\n🔍 **Error Identification:** 'Looking' không phù hợp với chủ ngữ 'the sunset'.\n📘 **Vietnamese Explanation:** Người Việt để chủ ngữ mệnh đề chính không phải người nhìn. Mẹo: Chủ ngữ mệnh đề chính phải là người thực hiện hành động rút gọn.\n💡 **Ví dụ:** Looking out the window, I saw a bird. / Standing on the hill, he could see the whole city."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Not knowing what to do, she called for help. (câu đúng) - Học viên viết \'Not known what to do, she called for help.\'",
+    "output": "✅ **Corrected Sentence:** Not knowing what to do, she called for help.\n🔍 **Error Identification:** 'Not known' là bị động, nhưng cô ấy là người không biết (chủ động).\n📘 **Vietnamese Explanation:** Người Việt dùng V-ed cho phủ định chủ động. Mẹo: Not + V-ing cho chủ động.\n💡 **Ví dụ:** Not feeling well, he went home. / Not understanding the lesson, she asked the teacher."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The students punished by the teacher were crying. (câu đúng) - Học viên viết \'The students punishing by the teacher were crying.\'",
+    "output": "✅ **Corrected Sentence:** The students punished by the teacher were crying.\n🔍 **Error Identification:** 'Punishing' là chủ động (học sinh tự phạt), phải là 'punished' (bị phạt).\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing cho bị động. Mẹo: Bị động → V-ed/PP.\n💡 **Ví dụ:** The employees fired by the company were angry. / The car damaged in the accident was towed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Having finished the work, we went home. (câu đúng) - Học viên viết \'Finished the work, we went home.\'",
+    "output": "✅ **Corrected Sentence:** Having finished the work, we went home.\n🔍 **Error Identification:** 'Finished' là bị động, cần 'Having finished' cho chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ed cho chủ động hoàn thành. Mẹo: Having + V3.\n💡 **Ví dụ:** Having completed the course, she got a certificate. / Having saved enough money, he bought a car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The girl who is standing there is my sister. (có thể rút gọn) - Học viên viết \'The girl is standing there is my sister.\'",
+    "output": "✅ **Corrected Sentence:** The girl standing there is my sister.\n🔍 **Error Identification:** 'The girl is standing' có hai động từ 'is' – bỏ 'who is' và dùng 'standing'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'is' và quên rút gọn. Mẹo: Bỏ đại từ và to be, giữ V-ing.\n💡 **Ví dụ:** The man talking on the phone is my boss. / The car parked outside is mine."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Having been waiting for an hour, she was getting impatient. (câu đúng) - Học viên viết \'Having waited for an hour, she was getting impatient.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** Having waited for an hour, she was getting impatient. (hoặc Having been waiting)\n🔍 **Error Identification:** Cả hai đều đúng, 'Having been waiting' nhấn mạnh quá trình kéo dài.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'Having waited' để đơn giản hơn.\n💡 **Ví dụ:** Having worked all day, he was exhausted. / Having been running for an hour, he was out of breath."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Used to living alone, he doesn't mind being single. (câu đúng) - Học viên viết \'Used to live alone, he doesn't mind being single.\'",
+    "output": "✅ **Corrected Sentence:** Used to living alone, he doesn't mind being single.\n🔍 **Error Identification:** 'Used to live' là 'đã từng', 'used to living' là 'quen với'. Ở đây cần 'used to living' (quen với).\n📘 **Vietnamese Explanation:** Người Việt nhầm 'used to' (đã từng) và 'be used to' (quen với). Mẹo: Be used to + V-ing.\n💡 **Ví dụ:** Accustomed to working hard, he succeeded. / Used to getting up early, she never oversleeps."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter was sent yesterday has arrived.",
+    "output": "✅ **Corrected Sentence:** The letter sent yesterday has arrived. (bỏ 'was')\n🔍 **Error Identification:** 'The letter was sent' có hai động từ 'was' và 'has' – cần bỏ 'was'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'was' trong rút gọn. Mẹo: Bỏ 'was', giữ V-ed/PP.\n💡 **Ví dụ:** The car was repaired yesterday broke down again → The car repaired yesterday broke down again."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Sitting on the bench, the birds were singing.",
+    "output": "✅ **Corrected Sentence:** Sitting on the bench, I heard the birds singing. (hoặc The birds were singing while I was sitting on the bench)\n🔍 **Error Identification:** 'Sitting' không phù hợp với chủ ngữ 'the birds'.\n📘 **Vietnamese Explanation:** Người Việt để chủ ngữ không phù hợp. Mẹo: Chủ ngữ mệnh đề chính phải thực hiện hành động rút gọn.\n💡 **Ví dụ:** Sitting on the bench, I watched the birds. / Standing by the window, he saw the sunset."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man is sitting next to me is my brother.",
+    "output": "✅ **Corrected Sentence:** The man sitting next to me is my brother.\n🔍 **Error Identification:** 'The man is sitting' có hai động từ 'is' – bỏ 'is'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'is' trong mệnh đề quan hệ. Mẹo: Bỏ đại từ và to be.\n💡 **Ví dụ:** The woman is cooking in the kitchen is my mom → The woman cooking in the kitchen is my mom."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Having been abandoned by his friends, he felt lonely. (câu đúng) - Học viên viết \'Having abandoned by his friends, he felt lonely.\'",
+    "output": "✅ **Corrected Sentence:** Having been abandoned by his friends, he felt lonely.\n🔍 **Error Identification:** 'Having abandoned' là chủ động (anh ấy đã bỏ rơi), phải là 'Having been abandoned' (bị bỏ rơi).\n📘 **Vietnamese Explanation:** Người Việt quên 'been' trong bị động hoàn thành. Mẹo: Having been + V3.\n💡 **Ví dụ:** Having been rejected, he felt sad. / Having been promoted, she was happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The building stands on the corner is a bank.",
+    "output": "✅ **Corrected Sentence:** The building standing on the corner is a bank. (hoặc The building that stands on the corner is a bank)\n🔍 **Error Identification:** 'Stands' là động từ chính, cần 'standing' cho rút gọn.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên động từ chia. Mẹo: Bỏ 'that' và đổi động từ thành V-ing.\n💡 **Ví dụ:** The river flows through the city is polluted → The river flowing through the city is polluted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Not having been invited, he didn't come to the party. (câu đúng) - Học viên viết \'Not having invited, he didn't come to the party.\'",
+    "output": "✅ **Corrected Sentence:** Not having been invited, he didn't come to the party.\n🔍 **Error Identification:** 'Not having invited' là chủ động (anh ấy đã mời), phải là 'Not having been invited' (bị mời).\n📘 **Vietnamese Explanation:** Người Việt quên 'been' trong bị động phủ định. Mẹo: Not having been + V3.\n💡 **Ví dụ:** Not having been told, she was confused. / Not having been warned, they went anyway."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "While walking in the forest, a bear appeared.",
+    "output": "✅ **Corrected Sentence:** While I was walking in the forest, a bear appeared. (hoặc While walking, I saw a bear)\n🔍 **Error Identification:** 'Walking' không phù hợp với chủ ngữ 'a bear'.\n📘 **Vietnamese Explanation:** Người Việt để chủ ngữ không phù hợp. Mẹo: Đảm bảo chủ ngữ của mệnh đề chính thực hiện hành động rút gọn.\n💡 **Ví dụ:** While walking in the forest, I saw a bear. / While jogging, he twisted his ankle."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man punished by the teacher is my friend. (câu đúng) - Học viên viết \'The man punishing by the teacher is my friend.\'",
+    "output": "✅ **Corrected Sentence:** The man punished by the teacher is my friend.\n🔍 **Error Identification:** 'Punishing' là chủ động, nhưng anh ấy bị phạt (bị động).\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing cho bị động. Mẹo: 'By' + V-ed/PP.\n💡 **Ví dụ:** The girl scolded by her mother is crying. / The dog bitten by the snake is in pain."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Being a careful driver, he has never had an accident. (câu đúng) - Học viên viết \'Is a careful driver, he has never had an accident.\'",
+    "output": "✅ **Corrected Sentence:** Being a careful driver, he has never had an accident.\n🔍 **Error Identification:** 'Is a careful driver' không thể đứng đầu câu.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên động từ 'is'. Mẹo: Being + N/adj.\n💡 **Ví dụ:** Being a good student, she always does her homework. / Being honest, he told the truth."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Having finished his speech, the audience applauded.",
+    "output": "✅ **Corrected Sentence:** Having finished his speech, he received applause from the audience. (hoặc After he finished his speech, the audience applauded)\n🔍 **Error Identification:** 'Having finished' không phù hợp với chủ ngữ 'the audience'.\n📘 **Vietnamese Explanation:** Người Việt để chủ ngữ mệnh đề chính không phải người thực hiện hành động. Mẹo: Chủ ngữ phải là người hoàn thành hành động.\n💡 **Ví dụ:** Having finished his speech, he sat down. / Having cooked dinner, she called her family."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car parking outside is mine.",
+    "output": "✅ **Corrected Sentence:** The car parked outside is mine. (hoặc The car parking outside – nếu xe đang đỗ)\n🔍 **Error Identification:** 'Parking' (đang đỗ) có thể dùng, nhưng 'parked' (được đỗ) phổ biến hơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'parking' cho trạng thái tĩnh. Mẹo: V-ed cho trạng thái bị động.\n💡 **Ví dụ:** The car parked in the driveway is mine. / The house built in 1990 is old."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Tired from work, he went straight to bed. (câu đúng) - Học viên viết \'Being tired from work, he went straight to bed.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** Tired from work, he went straight to bed.\n🔍 **Error Identification:** Có thể bỏ 'being' khi dùng tính từ.\n📘 **Vietnamese Explanation:** Người Việt thường thêm 'being' không cần thiết. Mẹo: Tính từ có thể đứng đầu câu mà không cần 'being'.\n💡 **Ví dụ:** Angry at the delay, he complained. / Happy with the result, she smiled."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter sending to you was from my boss.",
+    "output": "✅ **Corrected Sentence:** The letter sent to you was from my boss.\n🔍 **Error Identification:** 'Sending' là chủ động (bức thư tự gửi), phải là 'sent' (bị động).\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing cho bị động. Mẹo: Bị động → V-ed/PP.\n💡 **Ví dụ:** The email sent to her was important. / The package delivered to us was heavy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Looking at the sky, the stars were bright.",
+    "output": "✅ **Corrected Sentence:** Looking at the sky, I saw bright stars. (hoặc The stars were bright when I looked at the sky)\n🔍 **Error Identification:** 'Looking' không phù hợp với chủ ngữ 'the stars'.\n📘 **Vietnamese Explanation:** Người Việt để chủ ngữ không phù hợp. Mẹo: Chủ ngữ mệnh đề chính phải là người nhìn.\n💡 **Ví dụ:** Looking at the sky, I saw a shooting star. / Looking out the window, he noticed a car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Having been worked hard, he deserved a break.",
+    "output": "✅ **Corrected Sentence:** Having worked hard, he deserved a break. (hoặc Having been worked – sai)\n🔍 **Error Identification:** 'Having been worked' là bị động (được làm việc), nhưng anh ấy tự làm (chủ động).\n📘 **Vietnamese Explanation:** Người Việt thêm 'been' không cần thiết. Mẹo: Chủ động → Having + V3.\n💡 **Ví dụ:** Having studied all night, she was tired. / Having run a marathon, he needed rest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The woman who is wearing a red dress is my aunt. (rút gọn) - Học viên viết \'The woman is wearing a red dress is my aunt.\'",
+    "output": "✅ **Corrected Sentence:** The woman wearing a red dress is my aunt.\n🔍 **Error Identification:** 'The woman is wearing' có hai động từ 'is'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'is'. Mẹo: Bỏ 'who is', giữ V-ing.\n💡 **Ví dụ:** The man who is talking to her is her boss → The man talking to her is her boss."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Having finished the race, he collapsed from exhaustion. (câu đúng) - Học viên viết \'Finished the race, he collapsed from exhaustion.\'",
+    "output": "✅ **Corrected Sentence:** Having finished the race, he collapsed from exhaustion.\n🔍 **Error Identification:** 'Finished' là bị động, cần 'Having finished'.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ed cho chủ động hoàn thành. Mẹo: Having + V3.\n💡 **Ví dụ:** Having won the lottery, she quit her job. / Having lost his phone, he couldn't call anyone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house building by the river is beautiful.",
+    "output": "✅ **Corrected Sentence:** The house built by the river is beautiful.\n🔍 **Error Identification:** 'Building' là chủ động (ngôi nhà tự xây), phải là 'built' (bị động).\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing cho bị động. Mẹo: 'By' + V-ed/PP.\n💡 **Ví dụ:** The bridge building by workers is long → The bridge built by workers is long."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Walking home, a dog bit me.",
+    "output": "✅ **Corrected Sentence:** Walking home, I was bitten by a dog. (hoặc While I was walking home, a dog bit me)\n🔍 **Error Identification:** 'Walking' không phù hợp với chủ ngữ 'a dog'.\n📘 **Vietnamese Explanation:** Người Việt để chủ ngữ không phù hợp. Mẹo: Chủ ngữ mệnh đề chính phải là người đi bộ.\n💡 **Ví dụ:** Walking home, I was attacked by a dog. / Running to catch the bus, he fell."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter was written in pencil is hard to read.",
+    "output": "✅ **Corrected Sentence:** The letter written in pencil is hard to read. (bỏ 'was')\n🔍 **Error Identification:** 'The letter was written' có hai động từ 'was' và 'is'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'was'. Mẹo: Bỏ 'was', giữ V-ed/PP.\n💡 **Ví dụ:** The cake was made by my mom is delicious → The cake made by my mom is delicious."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Being a student, I don't have much money. (câu đúng) - Học viên viết \'Am a student, I don't have much money.\'",
+    "output": "✅ **Corrected Sentence:** Being a student, I don't have much money.\n🔍 **Error Identification:** 'Am a student' không thể đứng đầu câu.\n📘 **Vietnamese Explanation:** Người Việt dùng 'am' như trong câu gốc. Mẹo: Being + N/adj.\n💡 **Ví dụ:** Being the youngest, he gets special treatment. / Being rich, she can afford anything."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The movie was based on a true story is very moving.",
+    "output": "✅ **Corrected Sentence:** The movie based on a true story is very moving. (bỏ 'was')\n🔍 **Error Identification:** 'The movie was based' có hai động từ 'was' và 'is'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'was'. Mẹo: Bỏ 'was', giữ V-ed/PP.\n💡 **Ví dụ:** The song was sung by her is beautiful → The song sung by her is beautiful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Having seen the accident, she called the police. (câu đúng) - Học viên viết \'Seeing the accident, she called the police.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** Seeing the accident, she called the police. (hoặc Having seen)\n🔍 **Error Identification:** Cả hai đều đúng, 'Seeing' nhấn mạnh sự đồng thời, 'Having seen' nhấn mạnh hoàn tất trước.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'seeing' để đơn giản hơn.\n💡 **Ví dụ:** Hearing the news, she cried. / Having heard the news, she decided to leave."
+  }
+]

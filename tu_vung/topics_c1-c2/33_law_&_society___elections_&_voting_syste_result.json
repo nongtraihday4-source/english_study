@@ -1,0 +1,1425 @@
+[
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "gerrymander",
+      "part_of_speech": "verb",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈdʒer.i.mæn.dər/",
+      "ipa_us": "/ˈdʒer.i.mæn.dɚ/",
+      "meaning_vi": "thao túng phân chia khu vực bầu cử",
+      "definition_en": "To manipulate the boundaries of an electoral constituency so as to favor one party or class.",
+      "example_en": "The ruling party was accused of trying to gerrymander the districts to ensure a majority in the next election.",
+      "example_vi": "Đảng cầm quyền bị cáo buộc cố tình thao túng phân chia khu vực để đảm bảo chiếm đa số trong cuộc bầu cử tới.",
+      "collocations_json": [
+        "gerrymandered districts",
+        "political gerrymandering"
+      ],
+      "synonyms_json": [
+        "manipulate",
+        "falsify",
+        "rig"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Gerry (tên người) + Mander (con kỳ giông - salamander). Chia bản đồ loằng ngoằng như con kỳ giông để thắng.",
+      "frequency_rank": 8500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "disenfranchise",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˌdɪs.ɪnˈfræn.tʃaɪz/",
+      "ipa_us": "/ˌdɪs.ɪnˈfræn.tʃaɪz/",
+      "meaning_vi": "tước quyền bầu cử",
+      "definition_en": "To deprive someone of the right to vote or other rights of citizenship.",
+      "example_en": "Strict voter ID laws can effectively disenfranchise marginalized communities.",
+      "example_vi": "Luật căn cước cử tri nghiêm ngặt có thể tước quyền bầu cử của các cộng đồng bị gạt ra lề xã hội một cách hiệu quả.",
+      "collocations_json": [
+        "disenfranchised voters",
+        "systemic disenfranchisement"
+      ],
+      "synonyms_json": [
+        "deprive",
+        "marginalize"
+      ],
+      "antonyms_json": [
+        "enfranchise",
+        "empower"
+      ],
+      "mnemonic": "Dis (không) + Franchise (quyền/đặc quyền). Cắt đứt quyền lợi.",
+      "frequency_rank": 7200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "incumbent",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ɪnˈkʌm.bənt/",
+      "ipa_us": "/ɪnˈkʌm.bənt/",
+      "meaning_vi": "người đương nhiệm",
+      "definition_en": "The person currently holding a particular office or position.",
+      "example_en": "The incumbent president is seeking a second term despite falling approval ratings.",
+      "example_vi": "Tổng thống đương nhiệm đang nỗ lực tìm kiếm nhiệm kỳ thứ hai mặc dù tỷ lệ ủng hộ đang sụt giảm.",
+      "collocations_json": [
+        "incumbent candidate",
+        "defeat the incumbent"
+      ],
+      "synonyms_json": [
+        "officeholder",
+        "current holder"
+      ],
+      "antonyms_json": [
+        "challenger",
+        "successor"
+      ],
+      "mnemonic": "In (trong) + cumb (nằm). Người đang 'nằm' sẵn trong vị trí đó rồi.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "suffrage",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈsʌf.rɪdʒ/",
+      "ipa_us": "/ˈsʌf.rɪdʒ/",
+      "meaning_vi": "quyền bầu cử",
+      "definition_en": "The right to vote in political elections.",
+      "example_en": "The women's suffrage movement fought for decades to secure the vote.",
+      "example_vi": "Phong trào đòi quyền bầu cử của phụ nữ đã đấu tranh trong nhiều thập kỷ để giành lấy lá phiếu.",
+      "collocations_json": [
+        "universal suffrage",
+        "suffrage movement"
+      ],
+      "synonyms_json": [
+        "franchise",
+        "voting rights"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Nghe giống 'suffer' (chịu đựng). Phải chịu đựng đấu tranh mới có quyền bầu cử.",
+      "frequency_rank": 9800,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "plebiscite",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈpleb.ɪ.saɪt/",
+      "ipa_us": "/ˈpleb.ə.saɪt/",
+      "meaning_vi": "cuộc trưng cầu dân ý",
+      "definition_en": "A direct vote of all the members of an electorate on an important public question.",
+      "example_en": "The government decided to hold a plebiscite on the issue of constitutional reform.",
+      "example_vi": "Chính phủ quyết định tổ chức một cuộc trưng cầu dân ý về vấn đề cải cách hiến pháp.",
+      "collocations_json": [
+        "national plebiscite",
+        "hold a plebiscite"
+      ],
+      "synonyms_json": [
+        "referendum",
+        "popular vote"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Pleb (dân thường - plebeian) + scite (quyết định). Quyết định của dân thường.",
+      "frequency_rank": 15000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "canvass",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "/ˈkæn.vəs/",
+      "ipa_us": "/ˈkæn.vəs/",
+      "meaning_vi": "vận động tranh cử, lấy ý kiến cử tri",
+      "definition_en": "To solicit votes from electors in a constituency.",
+      "example_en": "Candidates and their volunteers will canvass the neighborhood this weekend.",
+      "example_vi": "Các ứng cử viên và tình nguyện viên của họ sẽ đi vận động cử tri trong khu vực vào cuối tuần này.",
+      "collocations_json": [
+        "canvass for votes",
+        "canvass opinion"
+      ],
+      "synonyms_json": [
+        "campaign",
+        "solicit",
+        "lobby"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Can (có thể) + Vass (vắt kiệt). Vắt kiệt sức để hỏi từng người xem có thể bầu không.",
+      "frequency_rank": 8200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "electorate",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/iˈlek.tər.ət/",
+      "ipa_us": "/iˈlek.tɚ.ət/",
+      "meaning_vi": "toàn bộ cử tri",
+      "definition_en": "All the people in a country or area who are entitled to vote in an election.",
+      "example_en": "The electorate is increasingly polarized on issues of immigration and climate change.",
+      "example_vi": "Toàn bộ cử tri đang ngày càng phân cực về các vấn đề nhập cư và biến đổi khí hậu.",
+      "collocations_json": [
+        "the general electorate",
+        "inform the electorate"
+      ],
+      "synonyms_json": [
+        "voters",
+        "constituency"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Elect (bầu) + orate (gốc từ chỉ tập hợp người). Nhóm người đi bầu.",
+      "frequency_rank": 6100,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "demagoguery",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˌdem.əˈɡɒɡ.ər.i/",
+      "ipa_us": "/ˌdem.əˈɡɑː.ɡɚ.i/",
+      "meaning_vi": "thuật mị dân",
+      "definition_en": "Political activity or practices that seek support by appealing to the desires and prejudices of ordinary people rather than by using rational argument.",
+      "example_en": "The politician was accused of resorting to demagoguery to incite anger among the crowd.",
+      "example_vi": "Chính trị gia bị cáo buộc đã dùng đến thuật mị dân để kích động sự giận dữ trong đám đông.",
+      "collocations_json": [
+        "political demagoguery",
+        "pure demagoguery"
+      ],
+      "synonyms_json": [
+        "populism",
+        "rabble-rousing"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dema (dân) + Gogue (dẫn dắt). Dẫn dắt dân bằng những lời hứa lèo.",
+      "frequency_rank": 18000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "proportional representation",
+      "part_of_speech": "phrase",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/prəˌpɔː.ʃən.əl ˌrep.rɪ.zenˈteɪ.ʃən/",
+      "ipa_us": "/prəˌpɔːr.ʃən.əl ˌrep.rɪ.zenˈteɪ.ʃən/",
+      "meaning_vi": "đại diện tỷ lệ",
+      "definition_en": "An electoral system in which parties gain seats in proportion to the number of votes cast for them.",
+      "example_en": "Many European democracies use proportional representation to ensure smaller parties have a voice.",
+      "example_vi": "Nhiều nền dân chủ châu Âu sử dụng hệ thống đại diện tỷ lệ để đảm bảo các đảng nhỏ hơn có tiếng nói.",
+      "collocations_json": [
+        "system of proportional representation",
+        "advocate for proportional representation"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "first-past-the-post"
+      ],
+      "mnemonic": "Proportion (tỷ lệ). Phiếu bao nhiêu % thì ghế bấy nhiêu %.",
+      "frequency_rank": 12000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "swing state",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈswɪŋ steɪt/",
+      "ipa_us": "/ˈswɪŋ steɪt/",
+      "meaning_vi": "bang dao động",
+      "definition_en": "A US state where the two major political parties have similar levels of support among voters.",
+      "example_en": "Candidates focus most of their campaigning efforts on swing states that could go either way.",
+      "example_vi": "Các ứng cử viên tập trung phần lớn nỗ lực vận động của mình vào các bang dao động có thể nghiêng về bất kỳ bên nào.",
+      "collocations_json": [
+        "crucial swing state",
+        "battleground swing state"
+      ],
+      "synonyms_json": [
+        "battleground state",
+        "purple state"
+      ],
+      "antonyms_json": [
+        "safe state"
+      ],
+      "mnemonic": "Swing (đu đưa). Như cái xích đu, lúc nghiêng bên này lúc nghiêng bên kia.",
+      "frequency_rank": 9500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "abstention",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/əbˈsten.ʃən/",
+      "ipa_us": "/əbˈsten.ʃən/",
+      "meaning_vi": "sự bỏ phiếu trắng, sự không đi bỏ phiếu",
+      "definition_en": "An instance of declining to vote for or against a proposal or motion.",
+      "example_en": "High levels of abstention can undermine the perceived legitimacy of an election.",
+      "example_vi": "Tỷ lệ không đi bỏ phiếu cao có thể làm suy yếu tính chính danh của một cuộc bầu cử.",
+      "collocations_json": [
+        "record levels of abstention",
+        "voter abstention"
+      ],
+      "synonyms_json": [
+        "non-voting",
+        "refusal"
+      ],
+      "antonyms_json": [
+        "participation",
+        "voting"
+      ],
+      "mnemonic": "Abstain (kiêng/né). Né tránh việc cầm lá phiếu.",
+      "frequency_rank": 11000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "ballot rigging",
+      "part_of_speech": "phrase",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈbæl.ət ˈrɪɡ.ɪŋ/",
+      "ipa_us": "/ˈbæl.ət ˈrɪɡ.ɪŋ/",
+      "meaning_vi": "gian lận phiếu bầu",
+      "definition_en": "The illegal interference with the process of an election to favor a particular candidate.",
+      "example_en": "International observers reported widespread ballot rigging during the regional election.",
+      "example_vi": "Các quan sát viên quốc tế đã báo cáo về tình trạng gian lận phiếu bầu trên diện rộng trong cuộc bầu cử khu vực.",
+      "collocations_json": [
+        "accusations of ballot rigging",
+        "prevent ballot rigging"
+      ],
+      "synonyms_json": [
+        "electoral fraud",
+        "voter fraud"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ballot (lá phiếu) + Rigging (dàn xếp/lắp ráp giả). Sắp đặt lá phiếu giả.",
+      "frequency_rank": 14000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "constituency",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/kənˈstɪtʃ.u.ən.si/",
+      "ipa_us": "/kənˈstɪtʃ.u.ən.si/",
+      "meaning_vi": "khu vực bầu cử / nhóm cử tri",
+      "definition_en": "A body of voters in a specified area who elect a representative to a legislative body.",
+      "example_en": "The MP is very active in her constituency, attending local events every weekend.",
+      "example_vi": "Nghị sĩ rất tích cực trong khu vực bầu cử của mình, tham gia các sự kiện địa phương vào mỗi cuối tuần.",
+      "collocations_json": [
+        "marginal constituency",
+        "local constituency"
+      ],
+      "synonyms_json": [
+        "district",
+        "electorate",
+        "ward"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Con (cùng) + Stit (đứng). Những người cùng đứng trong một khu vực để chọn người đại diện.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "unseat",
+      "part_of_speech": "verb",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ʌnˈsiːt/",
+      "ipa_us": "/ʌnˈsiːt/",
+      "meaning_vi": "đánh bại, tước ghế (đang đương nhiệm)",
+      "definition_en": "To remove a person from a position of power or authority, especially after an election.",
+      "example_en": "The challenger managed to unseat the long-term incumbent in a surprise victory.",
+      "example_vi": "Người thách thức đã thành công trong việc đánh bại người đương nhiệm lâu năm trong một chiến thắng bất ngờ.",
+      "collocations_json": [
+        "unseat the incumbent",
+        "bid to unseat"
+      ],
+      "synonyms_json": [
+        "oust",
+        "dethrone",
+        "overthrow"
+      ],
+      "antonyms_json": [
+        "elect",
+        "install"
+      ],
+      "mnemonic": "Un (không) + Seat (ghế). Đuổi khỏi ghế.",
+      "frequency_rank": 13000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "populism",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈpɒp.jə.lɪ.zəm/",
+      "ipa_us": "/ˈpɑː.pjə.lɪ.zəm/",
+      "meaning_vi": "chủ nghĩa dân túy",
+      "definition_en": "A political approach that strives to appeal to ordinary people who feel that their concerns are disregarded by established elite groups.",
+      "example_en": "The rise of right-wing populism has reshaped the political landscape of the country.",
+      "example_vi": "Sự trỗi dậy của chủ nghĩa dân túy cánh hữu đã định hình lại bức tranh chính trị của đất nước.",
+      "collocations_json": [
+        "rise of populism",
+        "populism rhetoric"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "elitism"
+      ],
+      "mnemonic": "Popu (dân - popular). Cái gì cũng lôi dân ra để lấy lòng.",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "manifesto",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˌmæn.ɪˈfes.təʊ/",
+      "ipa_us": "/ˌmæn.əˈfes.toʊ/",
+      "meaning_vi": "bản tuyên ngôn/cương lĩnh tranh cử",
+      "definition_en": "A public declaration of policy and aims, especially one issued before an election by a political party.",
+      "example_en": "The party's election manifesto promises significant tax cuts for middle-income families.",
+      "example_vi": "Cương lĩnh tranh cử của đảng hứa hẹn cắt giảm thuế đáng kể cho các gia đình có thu nhập trung bình.",
+      "collocations_json": [
+        "election manifesto",
+        "publish a manifesto"
+      ],
+      "synonyms_json": [
+        "platform",
+        "proclamation"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Manifest (biểu hiện/rõ ràng). Viết ra cho rõ những gì mình sẽ làm.",
+      "frequency_rank": 7800,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "exit poll",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈek.sɪt pəʊl/",
+      "ipa_us": "/ˈek.sɪt poʊl/",
+      "meaning_vi": "thăm dò sau bỏ phiếu",
+      "definition_en": "A poll of people leaving a polling station, asking how they voted.",
+      "example_en": "According to the exit polls, the opposition is set for a landslide victory.",
+      "example_vi": "Theo các cuộc thăm dò sau bỏ phiếu, phe đối lập đang chuẩn bị cho một chiến thắng áp đảo.",
+      "collocations_json": [
+        "conduct an exit poll",
+        "reliable exit poll"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Exit (lối ra). Đợi ở lối ra của phòng bỏ phiếu để hỏi.",
+      "frequency_rank": 8900,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "landslide",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "/ˈlænd.slaɪd/",
+      "ipa_us": "/ˈlænd.slaɪd/",
+      "meaning_vi": "chiến thắng áp đảo",
+      "definition_en": "An overwhelming majority of votes for one party or candidate in an election.",
+      "example_en": "The Prime Minister won a landslide victory in the general election.",
+      "example_vi": "Thủ tướng đã giành được một chiến thắng áp đảo trong cuộc tổng tuyển cử.",
+      "collocations_json": [
+        "landslide victory",
+        "win by a landslide"
+      ],
+      "synonyms_json": [
+        "sweep",
+        "overwhelming win"
+      ],
+      "antonyms_json": [
+        "narrow defeat"
+      ],
+      "mnemonic": "Land (đất) + Slide (trượt). Thắng như đất lở, cuốn phăng đối thủ.",
+      "frequency_rank": 4300,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "voter turnout",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈvəʊ.tər ˈtɜːn.aʊt/",
+      "ipa_us": "/ˈvoʊ.t̬ɚ ˈtɝːn.aʊt/",
+      "meaning_vi": "tỷ lệ cử tri đi bầu",
+      "definition_en": "The percentage of eligible voters who cast a ballot in an election.",
+      "example_en": "Low voter turnout among young people is a major concern for the electoral commission.",
+      "example_vi": "Tỷ lệ cử tri trẻ đi bầu thấp là mối lo ngại lớn đối với ủy ban bầu cử.",
+      "collocations_json": [
+        "increase voter turnout",
+        "dismal voter turnout"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Turn out (xuất hiện). Số người thực sự xuất hiện để bầu.",
+      "frequency_rank": 5200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "mandate",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈmæn.deɪt/",
+      "ipa_us": "/ˈmæn.deɪt/",
+      "meaning_vi": "sự ủy nhiệm, quyền hạn (do cử tri giao)",
+      "definition_en": "The authority to carry out a policy or course of action, regarded as given by the electorate to a candidate or party that is victorious in an election.",
+      "example_en": "The government claims a clear mandate from the people to implement these reforms.",
+      "example_vi": "Chính phủ tuyên bố có sự ủy nhiệm rõ ràng từ nhân dân để thực hiện các cuộc cải cách này.",
+      "collocations_json": [
+        "popular mandate",
+        "renew a mandate"
+      ],
+      "synonyms_json": [
+        "authorization",
+        "sanction"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Man (người) + Date (ngày). Ngày mà mọi người giao quyền cho mình.",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "runoff",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈrʌn.ɒf/",
+      "ipa_us": "/ˈrʌn.ɑːf/",
+      "meaning_vi": "cuộc bỏ phiếu chung kết/hiệp phụ",
+      "definition_en": "A further competition, election, or race, after a tie or inconclusive result.",
+      "example_en": "Since no candidate received more than 50% of the vote, a runoff election will be held next month.",
+      "example_vi": "Vì không có ứng cử viên nào nhận được hơn 50% số phiếu bầu, một cuộc bầu cử chung kết sẽ được tổ chức vào tháng tới.",
+      "collocations_json": [
+        "runoff election",
+        "force a runoff"
+      ],
+      "synonyms_json": [
+        "second round",
+        "tie-breaker"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Run (chạy) + Off (hết). Chạy nốt vòng cuối để tìm người thắng.",
+      "frequency_rank": 9100,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "coalition",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˌkəʊ.əˈlɪʃ.ən/",
+      "ipa_us": "/ˌkoʊ.əˈlɪʃ.ən/",
+      "meaning_vi": "liên minh",
+      "definition_en": "An alliance for combined action, especially a temporary alliance of political parties forming a government.",
+      "example_en": "The two parties formed a coalition government after failing to win an outright majority.",
+      "example_vi": "Hai đảng đã thành lập một chính phủ liên minh sau khi không giành được đa số tuyệt đối.",
+      "collocations_json": [
+        "coalition government",
+        "broad coalition"
+      ],
+      "synonyms_json": [
+        "alliance",
+        "union",
+        "partnership"
+      ],
+      "antonyms_json": [
+        "opposition"
+      ],
+      "mnemonic": "Co (cùng) + Alition (giống alliance). Cùng liên kết lại.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "smear campaign",
+      "part_of_speech": "phrase",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "/smɪə kæmˈpeɪn/",
+      "ipa_us": "/smɪr kæmˈpeɪn/",
+      "meaning_vi": "chiến dịch bôi nhọ",
+      "definition_en": "A plan to discredit a public figure by making false or scandalous accusations.",
+      "example_en": "The candidate fell victim to a ruthless smear campaign orchestrated by his opponents.",
+      "example_vi": "Ứng cử viên đã trở thành nạn nhân của một chiến dịch bôi nhọ tàn nhẫn do các đối thủ dàn dựng.",
+      "collocations_json": [
+        "ruthless smear campaign",
+        "orchestrate a smear campaign"
+      ],
+      "synonyms_json": [
+        "character assassination",
+        "mudslinging"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Smear (vấy bẩn/bôi mỡ). Bôi bẩn tên tuổi đối thủ.",
+      "frequency_rank": 10500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "by-election",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈbaɪ.ɪˌlek.ʃən/",
+      "ipa_us": "/ˈbaɪ.ɪˌlek.ʃən/",
+      "meaning_vi": "cuộc bầu cử bổ sung",
+      "definition_en": "An election held in a single political constituency to fill a vacancy arising during a government's term of office.",
+      "example_en": "The death of the sitting MP triggered a by-election in the district.",
+      "example_vi": "Cái chết của nghị sĩ đương nhiệm đã dẫn đến một cuộc bầu cử bổ sung trong khu vực.",
+      "collocations_json": [
+        "trigger a by-election",
+        "parliamentary by-election"
+      ],
+      "synonyms_json": [
+        "special election"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "By (bên cạnh/phụ). Bầu cử phụ khi có ghế trống.",
+      "frequency_rank": 14000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "voter apathy",
+      "part_of_speech": "phrase",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈvəʊ.tər ˈæp.ə.θi/",
+      "ipa_us": "/ˈvoʊ.t̬ɚ ˈæp.ə.θi/",
+      "meaning_vi": "sự thờ ơ của cử tri",
+      "definition_en": "Lack of interest among citizens in participating in elections.",
+      "example_en": "Widespread voter apathy often leads to predictable results and stagnation in policy.",
+      "example_vi": "Sự thờ ơ rộng rãi của cử tri thường dẫn đến các kết quả có thể dự đoán được và sự trì trệ trong chính sách.",
+      "collocations_json": [
+        "combat voter apathy",
+        "widespread voter apathy"
+      ],
+      "synonyms_json": [
+        "voter indifference"
+      ],
+      "antonyms_json": [
+        "political engagement"
+      ],
+      "mnemonic": "Apathy (không cảm xúc - a: không, path: cảm xúc). Không còn cảm xúc gì với bầu cử.",
+      "frequency_rank": 16000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "ballot box",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "/ˈbæl.ət bɒks/",
+      "ipa_us": "/ˈbæl.ət bɑːks/",
+      "meaning_vi": "thùng phiếu",
+      "definition_en": "A sealed box into which voters put completed ballot papers.",
+      "example_en": "The final decision will be made at the ballot box this Tuesday.",
+      "example_vi": "Quyết định cuối cùng sẽ được đưa ra tại hòm phiếu vào thứ Ba này.",
+      "collocations_json": [
+        "stuff the ballot box",
+        "at the ballot box"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Box (hộp). Cái hộp đựng công lý (lá phiếu).",
+      "frequency_rank": 7000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "lobby",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "/ˈlɒb.i/",
+      "ipa_us": "/ˈlɑː.bi/",
+      "meaning_vi": "vận động hành lang",
+      "definition_en": "To seek to influence a politician or public official on a particular issue.",
+      "example_en": "Environmental groups are lobbying the government to pass stricter emissions laws.",
+      "example_vi": "Các nhóm môi trường đang vận động hành lang chính phủ để thông qua các luật phát thải nghiêm ngặt hơn.",
+      "collocations_json": [
+        "lobby for change",
+        "lobbying group"
+      ],
+      "synonyms_json": [
+        "influence",
+        "solicit",
+        "press"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Lobby (sảnh chờ). Đứng ở sảnh chờ để gặp quan chức 'nói nhỏ' tác động.",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "ratify",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈræt.ɪ.faɪ/",
+      "ipa_us": "/ˈræt̬.ə.faɪ/",
+      "meaning_vi": "phê chuẩn, thông qua",
+      "definition_en": "To sign or give formal consent to a treaty, contract, or agreement, making it officially valid.",
+      "example_en": "The parliament voted to ratify the new electoral law unanimously.",
+      "example_vi": "Nghị viện đã nhất trí bỏ phiếu phê chuẩn luật bầu cử mới.",
+      "collocations_json": [
+        "ratify a treaty",
+        "formally ratify"
+      ],
+      "synonyms_json": [
+        "approve",
+        "endorse",
+        "validate"
+      ],
+      "antonyms_json": [
+        "reject",
+        "veto"
+      ],
+      "mnemonic": "Rati (giống rate - đánh giá) + fy (làm cho). Đánh giá xong rồi cho thông qua.",
+      "frequency_rank": 6500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "referendum",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˌref.əˈren.dəm/",
+      "ipa_us": "/ˌref.əˈren.dəm/",
+      "meaning_vi": "trưng cầu dân ý",
+      "definition_en": "A general vote by the electorate on a single political question which has been referred to them for a direct decision.",
+      "example_en": "The nation will vote in a referendum to decide whether to stay in the union.",
+      "example_vi": "Cả nước sẽ bỏ phiếu trong một cuộc trưng cầu dân ý để quyết định xem có nên ở lại trong liên minh hay không.",
+      "collocations_json": [
+        "hold a referendum",
+        "binding referendum"
+      ],
+      "synonyms_json": [
+        "plebiscite",
+        "popular vote"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Refer (tham chiếu/hỏi ý kiến) + Dum. Hỏi ý kiến dân cho rõ.",
+      "frequency_rank": 2100,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "electoral college",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/iˈlek.tər.əl ˈkɒl.ɪdʒ/",
+      "ipa_us": "/iˈlek.tɚ.əl ˈkɑː.lɪdʒ/",
+      "meaning_vi": "đại cử tri đoàn",
+      "definition_en": "A body of people representing the states of the US, who formally cast votes for the election of the president and vice president.",
+      "example_en": "The candidate won the popular vote but lost the Electoral College.",
+      "example_vi": "Ứng cử viên đã thắng phiếu phổ thông nhưng lại thua ở Đại cử tri đoàn.",
+      "collocations_json": [
+        "abolish the electoral college",
+        "electoral college votes"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "College (trường/đoàn thể). Một nhóm 'đại diện' đặc biệt đi bầu thay cho dân.",
+      "frequency_rank": 13500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "partisan",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˌpɑː.tɪˈzæn/",
+      "ipa_us": "/ˈpɑːr.t̬ə.zən/",
+      "meaning_vi": "mang tính đảng phái",
+      "definition_en": "Prejudiced in favor of a particular cause; biased.",
+      "example_en": "The appointment of the judge was criticized as a purely partisan move.",
+      "example_vi": "Việc bổ nhiệm thẩm phán bị chỉ trích là một động thái mang thuần tính đảng phái.",
+      "collocations_json": [
+        "partisan politics",
+        "fiercely partisan"
+      ],
+      "synonyms_json": [
+        "biased",
+        "prejudiced",
+        "one-sided"
+      ],
+      "antonyms_json": [
+        "non-partisan",
+        "impartial"
+      ],
+      "mnemonic": "Party (đảng). Chỉ quan tâm đến lợi ích của đảng mình.",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "mudslinging",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "general",
+      "ipa_uk": "/ˈmʌdˌslɪŋ.ɪŋ/",
+      "ipa_us": "/ˈmʌdˌslɪŋ.ɪŋ/",
+      "meaning_vi": "sự nói xấu, công kích cá nhân",
+      "definition_en": "The use of insults and accusations, especially unjust ones, with the aim of damaging the reputation of an opponent.",
+      "example_en": "Voters are tired of the constant mudslinging between the two leading candidates.",
+      "example_vi": "Cử tri đã mệt mỏi với những màn nói xấu liên tục giữa hai ứng cử viên hàng đầu.",
+      "collocations_json": [
+        "political mudslinging",
+        "resort to mudslinging"
+      ],
+      "synonyms_json": [
+        "character assassination",
+        "vilification"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Mud (bùn) + Slinging (ném). Ném bùn vào mặt nhau.",
+      "frequency_rank": 17000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "franchise",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈfræn.tʃaɪz/",
+      "ipa_us": "/ˈfræn.tʃaɪz/",
+      "meaning_vi": "quyền bầu cử",
+      "definition_en": "The right to vote in public, political elections.",
+      "example_en": "The extension of the franchise to all adults was a major milestone in history.",
+      "example_vi": "Việc mở rộng quyền bầu cử cho tất cả người trưởng thành là một cột mốc quan trọng trong lịch sử.",
+      "collocations_json": [
+        "extend the franchise",
+        "universal franchise"
+      ],
+      "synonyms_json": [
+        "suffrage",
+        "voting rights"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "France (Pháp) - nơi có nhiều cuộc cách mạng đòi quyền lợi (franchise).",
+      "frequency_rank": 4100,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "stump speech",
+      "part_of_speech": "phrase",
+      "cefr_level": "C2",
+      "domain": "general",
+      "ipa_uk": "/stʌmp spiːtʃ/",
+      "ipa_us": "/stʌmp spiːtʃ/",
+      "meaning_vi": "bài diễn văn vận động tranh cử (lặp lại)",
+      "definition_en": "A standard speech used by a politician running for office during a campaign.",
+      "example_en": "He delivered his usual stump speech to a crowd of enthusiastic supporters.",
+      "example_vi": "Ông ấy đã trình bày bài diễn văn vận động tranh cử quen thuộc của mình trước đám đông người ủng hộ nhiệt tình.",
+      "collocations_json": [
+        "standard stump speech",
+        "on the stump"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Stump (gốc cây). Ngày xưa đứng lên gốc cây để nói cho cả làng nghe.",
+      "frequency_rank": 19000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "tally",
+      "part_of_speech": "noun/verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "/ˈtæl.i/",
+      "ipa_us": "/ˈtæl.i/",
+      "meaning_vi": "số điểm, sự kiểm phiếu",
+      "definition_en": "A current score or amount; the process of counting votes.",
+      "example_en": "The final vote tally showed a narrow margin of victory for the liberal party.",
+      "example_vi": "Kết quả kiểm phiếu cuối cùng cho thấy một cách biệt chiến thắng sít sao cho đảng tự do.",
+      "collocations_json": [
+        "final vote tally",
+        "tally the results"
+      ],
+      "synonyms_json": [
+        "count",
+        "score",
+        "total"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Nghe giống 'tất cả lý'. Kiểm lại tất cả các lý lẽ/lá phiếu.",
+      "frequency_rank": 5400,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "ballot paper",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "/ˈbæl.ət ˌpeɪ.pər/",
+      "ipa_us": "/ˈbæl.ət ˌpeɪ.pɚ/",
+      "meaning_vi": "lá phiếu (giấy)",
+      "definition_en": "A slip of paper used to register a vote.",
+      "example_en": "Voters are required to mark a cross next to their chosen candidate on the ballot paper.",
+      "example_vi": "Cử tri được yêu cầu đánh dấu chữ thập bên cạnh ứng cử viên họ chọn trên lá phiếu.",
+      "collocations_json": [
+        "spoil a ballot paper",
+        "cast a ballot paper"
+      ],
+      "synonyms_json": [
+        "voting slip"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ballot (lá phiếu) + Paper (giấy).",
+      "frequency_rank": 8000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "canvassing",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "/ˈkæn.və.sɪŋ/",
+      "ipa_us": "/ˈkæn.və.sɪŋ/",
+      "meaning_vi": "hoạt động vận động cử tri",
+      "definition_en": "The systematic initiation of direct contact with individuals, commonly used during political campaigns.",
+      "example_en": "Door-to-door canvassing remains one of the most effective ways to reach voters.",
+      "example_vi": "Vận động từng nhà vẫn là một trong những cách hiệu quả nhất để tiếp cận cử tri.",
+      "collocations_json": [
+        "door-to-door canvassing",
+        "political canvassing"
+      ],
+      "synonyms_json": [
+        "campaigning"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Danh từ của canvass. Việc đi hỏi ý kiến.",
+      "frequency_rank": 9200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "constituency",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/kənˈstɪtʃ.u.ən.si/",
+      "ipa_us": "/kənˈstɪtʃ.u.ən.si/",
+      "meaning_vi": "khu vực bầu cử",
+      "definition_en": "A body of voters in a specified area who elect a representative to a legislative body.",
+      "example_en": "She has served as the MP for this constituency for over a decade.",
+      "example_vi": "Bà đã giữ chức nghị sĩ cho khu vực bầu cử này trong hơn một thập kỷ.",
+      "collocations_json": [
+        "marginal constituency",
+        "home constituency"
+      ],
+      "synonyms_json": [
+        "electoral district"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Con (cùng) + Stit (đứng). Cùng đứng chung một khu vực bầu cử.",
+      "frequency_rank": 4200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "dissolve",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/dɪˈzɒlv/",
+      "ipa_us": "/dɪˈzɑːlv/",
+      "meaning_vi": "giải tán (quốc hội/nghị viện)",
+      "definition_en": "To officially end the life of a law-making body so that a new election can be held.",
+      "example_en": "The King decided to dissolve parliament following the resignation of the government.",
+      "example_vi": "Nhà vua quyết định giải tán quốc hội sau khi chính phủ từ chức.",
+      "collocations_json": [
+        "dissolve parliament",
+        "dissolve the assembly"
+      ],
+      "synonyms_json": [
+        "dismiss",
+        "disband"
+      ],
+      "antonyms_json": [
+        "convene",
+        "assemble"
+      ],
+      "mnemonic": "Hòa tan. Làm quốc hội 'tan biến' để bầu lại.",
+      "frequency_rank": 3100,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "electoral register",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/iˈlek.tər.əl ˈredʒ.ɪ.stər/",
+      "ipa_us": "/iˈlek.tɚ.əl ˈredʒ.ɪ.stɚ/",
+      "meaning_vi": "danh sách cử tri",
+      "definition_en": "The official list of the names of all the people in an area who have the right to vote in an election.",
+      "example_en": "You must be on the electoral register to be able to vote in the upcoming election.",
+      "example_vi": "Bạn phải có tên trong danh sách cử tri mới có thể bỏ phiếu trong cuộc bầu cử tới.",
+      "collocations_json": [
+        "on the electoral register",
+        "update the electoral register"
+      ],
+      "synonyms_json": [
+        "voter roll",
+        "electoral roll"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Electoral (bầu cử) + Register (đăng ký/danh sách).",
+      "frequency_rank": 15000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "first-past-the-post",
+      "part_of_speech": "adjective",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˌfɜːst.pɑːst.ðəˈpəʊst/",
+      "ipa_us": "/ˌfɝːst.pæst.ðəˈpoʊst/",
+      "meaning_vi": "hệ thống bầu cử người thắng cuộc (phiếu cao nhất là thắng)",
+      "definition_en": "An electoral system in which the candidate who receives the most votes wins, even if they do not have a majority.",
+      "example_en": "Critics argue that the first-past-the-post system results in many wasted votes.",
+      "example_vi": "Các nhà phê bình cho rằng hệ thống bầu cử người thắng cuộc dẫn đến nhiều lá phiếu bị lãng phí.",
+      "collocations_json": [
+        "first-past-the-post system",
+        "electoral model"
+      ],
+      "synonyms_json": [
+        "plurality system"
+      ],
+      "antonyms_json": [
+        "proportional representation"
+      ],
+      "mnemonic": "First (đầu tiên) + Past (qua) + Post (vạch đích). Ai chạm vạch đích trước là thắng luôn.",
+      "frequency_rank": 19500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "floating voter",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈfləʊ.tɪŋ ˈvəʊ.tər/",
+      "ipa_us": "/ˈfloʊ.t̬ɪŋ ˈvoʊ.t̬ɚ/",
+      "meaning_vi": "cử tri trung dung (chưa quyết định bầu cho ai)",
+      "definition_en": "A voter who does not have a fixed allegiance to a particular political party.",
+      "example_en": "The campaign is specifically targeting floating voters who are still undecided.",
+      "example_vi": "Chiến dịch đang nhắm mục tiêu cụ thể vào những cử tri trung dung vẫn chưa quyết định.",
+      "collocations_json": [
+        "target floating voters",
+        "persuade floating voters"
+      ],
+      "synonyms_json": [
+        "undecided voter",
+        "swing voter"
+      ],
+      "antonyms_json": [
+        "loyalist"
+      ],
+      "mnemonic": "Floating (trôi nổi). Lá phiếu cứ trôi lềnh bềnh chưa biết đậu vào đâu.",
+      "frequency_rank": 18000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "hustings",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈhʌs.tɪŋz/",
+      "ipa_us": "/ˈhʌs.tɪŋz/",
+      "meaning_vi": "diễn đàn vận động bầu cử",
+      "definition_en": "The political activities and speeches that happen before an election.",
+      "example_en": "The candidates will face questions from the public at tonight's hustings.",
+      "example_vi": "Các ứng cử viên sẽ đối mặt với các câu hỏi từ công chúng tại diễn đàn vận động bầu cử tối nay.",
+      "collocations_json": [
+        "election hustings",
+        "attend the hustings"
+      ],
+      "synonyms_json": [
+        "campaign trail",
+        "platform"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Nghe giống 'husting' (hối hả). Mọi người hối hả đi nghe tranh luận.",
+      "frequency_rank": 20000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "nomination",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˌnɒm.ɪˈneɪ.ʃən/",
+      "ipa_us": "/ˌnɑː.məˈneɪ.ʃən/",
+      "meaning_vi": "sự đề cử",
+      "definition_en": "The action of nominating or being nominated as a candidate for an election.",
+      "example_en": "She secured the party's nomination after a tough primary battle.",
+      "example_vi": "Bà đã giành được sự đề cử của đảng sau một cuộc chiến bầu cử sơ bộ gay gắt.",
+      "collocations_json": [
+        "presidential nomination",
+        "accept a nomination"
+      ],
+      "synonyms_json": [
+        "candidacy",
+        "selection"
+      ],
+      "antonyms_json": [
+        "rejection"
+      ],
+      "mnemonic": "Nom (tên). Viết tên ai đó vào danh sách ứng cử.",
+      "frequency_rank": 3900,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "opinion poll",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "/əˈpɪn.jən pəʊl/",
+      "ipa_us": "/əˈpɪn.jən poʊl/",
+      "meaning_vi": "cuộc thăm dò dư luận",
+      "definition_en": "An assessment of public opinion by questioning a representative sample.",
+      "example_en": "The latest opinion poll suggests that the government is losing support.",
+      "example_vi": "Cuộc thăm dò dư luận mới nhất cho thấy chính phủ đang mất đi sự ủng hộ.",
+      "collocations_json": [
+        "conduct an opinion poll",
+        "latest opinion poll"
+      ],
+      "synonyms_json": [
+        "survey"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Opinion (ý kiến) + Poll (thăm dò).",
+      "frequency_rank": 5900,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "outgoing",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˌaʊtˈɡəʊ.ɪŋ/",
+      "ipa_us": "/ˈaʊtˌɡoʊ.ɪŋ/",
+      "meaning_vi": "sắp mãn nhiệm",
+      "definition_en": "Leaving an office or position.",
+      "example_en": "The outgoing president gave a farewell speech to the nation.",
+      "example_vi": "Tổng thống sắp mãn nhiệm đã đọc bài diễn văn chia tay quốc gia.",
+      "collocations_json": [
+        "outgoing president",
+        "outgoing administration"
+      ],
+      "synonyms_json": [
+        "retiring",
+        "leaving"
+      ],
+      "antonyms_json": [
+        "incoming",
+        "incumbent"
+      ],
+      "mnemonic": "Out (ra) + Going (đang đi). Đang trên đường rời khỏi ghế.",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "polling station",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "/ˈpəʊ.lɪŋ ˌsteɪ.ʃən/",
+      "ipa_us": "/ˈpoʊ.lɪŋ ˌsteɪ.ʃən/",
+      "meaning_vi": "điểm bỏ phiếu",
+      "definition_en": "A building where people go to vote in an election.",
+      "example_en": "Long queues were seen outside every polling station in the city.",
+      "example_vi": "Những hàng dài người được nhìn thấy bên ngoài mọi điểm bỏ phiếu trong thành phố.",
+      "collocations_json": [
+        "local polling station",
+        "at the polling station"
+      ],
+      "synonyms_json": [
+        "polling place"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Polling (bầu cử) + Station (trạm/điểm).",
+      "frequency_rank": 6200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "primary",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈpraɪ.mə.ri/",
+      "ipa_us": "/ˈpraɪ.mer.i/",
+      "meaning_vi": "cuộc bầu cử sơ bộ",
+      "definition_en": "A preliminary election to appoint delegates or a party candidate.",
+      "example_en": "He dropped out of the race after a poor performance in the New Hampshire primary.",
+      "example_vi": "Anh ấy đã rút lui khỏi cuộc đua sau kết quả kém cỏi trong cuộc bầu cử sơ bộ ở New Hampshire.",
+      "collocations_json": [
+        "presidential primary",
+        "win a primary"
+      ],
+      "synonyms_json": [
+        "preliminary election"
+      ],
+      "antonyms_json": [
+        "general election"
+      ],
+      "mnemonic": "Primary (đầu tiên/sơ khởi). Bước đầu tiên để chọn ứng viên.",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "proxy vote",
+      "part_of_speech": "phrase",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈprɒk.si vəʊt/",
+      "ipa_us": "/ˈprɑːk.si voʊt/",
+      "meaning_vi": "bỏ phiếu ủy quyền",
+      "definition_en": "A vote cast by one person as a representative of another.",
+      "example_en": "If you cannot attend the meeting, you can cast a proxy vote.",
+      "example_vi": "Nếu bạn không thể tham dự cuộc họp, bạn có thể bỏ phiếu ủy quyền.",
+      "collocations_json": [
+        "cast a proxy vote",
+        "voting by proxy"
+      ],
+      "synonyms_json": [
+        "delegate vote"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Proxy (người đại diện). Nhờ người khác 'bấm nút' hộ.",
+      "frequency_rank": 14500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Law & Society - Elections & Voting Systems",
+      "word": "spoilt ballot",
+      "part_of_speech": "phrase",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/spɔɪlt ˈbæl.ət/",
+      "ipa_us": "/spɔɪlt ˈbæl.ət/",
+      "meaning_vi": "phiếu bầu không hợp lệ",
+      "definition_en": "A ballot paper that has been marked incorrectly and is therefore not counted.",
+      "example_en": "The high number of spoilt ballots suggested confusion over the new voting system.",
+      "example_vi": "Số lượng lớn phiếu bầu không hợp lệ cho thấy sự bối rối đối với hệ thống bỏ phiếu mới.",
+      "collocations_json": [
+        "record spoilt ballots",
+        "intentional spoilt ballot"
+      ],
+      "synonyms_json": [
+        "invalid vote"
+      ],
+      "antonyms_json": [
+        "valid vote"
+      ],
+      "mnemonic": "Spoilt (bị hỏng/làm hỏng). Lá phiếu bị hỏng thì không tính.",
+      "frequency_rank": 19000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  }
+]

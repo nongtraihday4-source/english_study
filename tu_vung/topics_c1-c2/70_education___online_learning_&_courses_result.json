@@ -1,0 +1,1515 @@
+[
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "asynchronous",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˌeɪˈsɪŋ.krə.nəs/",
+      "ipa_us": "/eɪˈsɪŋ.krə.nəs/",
+      "meaning_vi": "không đồng bộ, khác thời gian",
+      "definition_en": "Not happening or done at the same time or speed, often describing courses where students learn on their own schedule.",
+      "example_en": "The master's program offers asynchronous lectures, allowing working professionals to study whenever they want.",
+      "example_vi": "Chương trình thạc sĩ cung cấp các bài giảng không đồng bộ, cho phép những người đi làm học bất cứ khi nào họ muốn.",
+      "collocations_json": [
+        "asynchronous learning",
+        "asynchronous communication"
+      ],
+      "synonyms_json": [
+        "uncoordinated",
+        "self-paced"
+      ],
+      "antonyms_json": [
+        "synchronous",
+        "real-time"
+      ],
+      "mnemonic": "A (không) + synchronous (đồng bộ) -> Học không cần online cùng lúc với thầy.",
+      "frequency_rank": 15000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "synchronous",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈsɪŋ.krə.nəs/",
+      "ipa_us": "/ˈsɪŋ.krə.nəs/",
+      "meaning_vi": "đồng bộ, cùng lúc",
+      "definition_en": "Happening or existing at the same time, such as live online classes where everyone participates simultaneously.",
+      "example_en": "Synchronous learning requires all students to log in to the virtual classroom at exactly 9 AM.",
+      "example_vi": "Học tập đồng bộ yêu cầu tất cả học sinh đăng nhập vào lớp học ảo vào đúng 9 giờ sáng.",
+      "collocations_json": [
+        "synchronous learning",
+        "synchronous interaction"
+      ],
+      "synonyms_json": [
+        "simultaneous",
+        "concurrent"
+      ],
+      "antonyms_json": [
+        "asynchronous",
+        "delayed"
+      ],
+      "mnemonic": "Syn (cùng nhau) + chronos (thời gian) -> Cùng một thời gian.",
+      "frequency_rank": 14500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "pedagogy",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈped.ə.ɡɒdʒ.i/",
+      "ipa_us": "/ˈped.ə.ɡɑː.dʒi/",
+      "meaning_vi": "phương pháp giảng dạy (trẻ em/chung)",
+      "definition_en": "The method and practice of teaching, especially as an academic subject or theoretical concept.",
+      "example_en": "The transition to online education requires a complete rethinking of digital pedagogy.",
+      "example_vi": "Việc chuyển đổi sang giáo dục trực tuyến đòi hỏi phải tư duy lại toàn bộ về phương pháp giảng dạy kỹ thuật số.",
+      "collocations_json": [
+        "digital pedagogy",
+        "innovative pedagogy"
+      ],
+      "synonyms_json": [
+        "teaching methodology",
+        "instruction"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Peda (trẻ em) + gogy (dẫn dắt) -> Cách dạy học (dẫn dắt học sinh).",
+      "frequency_rank": 8200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "andragogy",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈæn.drə.ɡɒdʒ.i/",
+      "ipa_us": "/ˈæn.drə.ɡɑː.dʒi/",
+      "meaning_vi": "phương pháp giáo dục người lớn",
+      "definition_en": "The methods or techniques used to teach adults, focusing on self-direction and practical application.",
+      "example_en": "Corporate e-learning platforms are heavily based on the principles of andragogy.",
+      "example_vi": "Các nền tảng học tập trực tuyến của doanh nghiệp chủ yếu dựa trên các nguyên tắc giáo dục người lớn.",
+      "collocations_json": [
+        "principles of andragogy",
+        "andragogy approach"
+      ],
+      "synonyms_json": [
+        "adult education"
+      ],
+      "antonyms_json": [
+        "pedagogy"
+      ],
+      "mnemonic": "Andra (người lớn) + gogy (dẫn dắt) -> Phương pháp dạy người trưởng thành.",
+      "frequency_rank": 19500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "MOOC",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/muːk/",
+      "ipa_us": "/muːk/",
+      "meaning_vi": "khóa học trực tuyến mở đại trà",
+      "definition_en": "Massive Open Online Course: a course of study made available over the internet without charge to a very large number of people.",
+      "example_en": "She earned a certificate in data science by completing a MOOC offered by Stanford University.",
+      "example_vi": "Cô đã giành được chứng chỉ về khoa học dữ liệu bằng cách hoàn thành một khóa học trực tuyến mở đại trà do Đại học Stanford cung cấp.",
+      "collocations_json": [
+        "enroll in a MOOC",
+        "complete a MOOC"
+      ],
+      "synonyms_json": [
+        "online course"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "M (Massive - đại trà) O (Open - mở) O (Online) C (Course).",
+      "frequency_rank": 11000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "blended learning",
+      "part_of_speech": "phrase",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˌblen.dɪd ˈlɜː.nɪŋ/",
+      "ipa_us": "/ˌblen.dɪd ˈlɝː.nɪŋ/",
+      "meaning_vi": "phương pháp học tập kết hợp",
+      "definition_en": "An approach to education that combines online educational materials and opportunities for interaction online with traditional place-based classroom methods.",
+      "example_en": "Blended learning provides students with the flexibility of online modules alongside the guidance of face-to-face tutorials.",
+      "example_vi": "Học tập kết hợp cung cấp cho sinh viên sự linh hoạt của các học phần trực tuyến cùng với sự hướng dẫn của các buổi học trực tiếp.",
+      "collocations_json": [
+        "implement blended learning",
+        "blended learning approach"
+      ],
+      "synonyms_json": [
+        "hybrid learning",
+        "mixed learning"
+      ],
+      "antonyms_json": [
+        "traditional learning"
+      ],
+      "mnemonic": "Blend (trộn) + learning -> Trộn giữa học online và offline.",
+      "frequency_rank": 9500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "flipped classroom",
+      "part_of_speech": "phrase",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˌflɪpt ˈklɑːs.ruːm/",
+      "ipa_us": "/ˌflɪpt ˈklæs.ruːm/",
+      "meaning_vi": "mô hình lớp học đảo ngược",
+      "definition_en": "An instructional strategy where students watch lectures at home and engage in exercises, projects, or discussions in the classroom.",
+      "example_en": "The flipped classroom model allows teachers to spend more class time helping students solve complex problems.",
+      "example_vi": "Mô hình lớp học đảo ngược cho phép giáo viên dành nhiều thời gian trên lớp hơn để giúp học sinh giải quyết các vấn đề phức tạp.",
+      "collocations_json": [
+        "flipped classroom model",
+        "adopt a flipped classroom"
+      ],
+      "synonyms_json": [
+        "inverted classroom"
+      ],
+      "antonyms_json": [
+        "traditional classroom"
+      ],
+      "mnemonic": "Flip (đảo ngược) -> Học bài mới ở nhà, làm bài tập ở lớp (ngược với bình thường).",
+      "frequency_rank": 10500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "gamification",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "/ˌɡeɪ.mɪ.fɪˈkeɪ.ʃən/",
+      "ipa_us": "/ˌɡeɪ.mə.fəˈkeɪ.ʃən/",
+      "meaning_vi": "sự trò chơi hóa (trong giáo dục)",
+      "definition_en": "The application of game-design elements and game principles in non-game contexts to improve user engagement.",
+      "example_en": "Duolingo uses gamification by awarding points and badges to keep learners motivated.",
+      "example_vi": "Duolingo sử dụng sự trò chơi hóa bằng cách trao điểm và huy hiệu để giữ động lực cho người học.",
+      "collocations_json": [
+        "educational gamification",
+        "implement gamification"
+      ],
+      "synonyms_json": [
+        "game-based learning"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Game + fication (hóa) -> Biến việc học thành trò chơi để hấp dẫn hơn.",
+      "frequency_rank": 8800,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "microlearning",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈmaɪ.krəʊˌlɜː.nɪŋ/",
+      "ipa_us": "/ˈmaɪ.kroʊˌlɝː.nɪŋ/",
+      "meaning_vi": "học tập vi mô, học từng chút một",
+      "definition_en": "An educational approach that delivers content in small, highly focused bursts, typically lasting a few minutes.",
+      "example_en": "Microlearning is perfect for corporate training because employees can complete a lesson during a coffee break.",
+      "example_vi": "Học tập vi mô rất phù hợp cho đào tạo doanh nghiệp vì nhân viên có thể hoàn thành một bài học trong giờ nghỉ giải lao.",
+      "collocations_json": [
+        "microlearning modules",
+        "microlearning platform"
+      ],
+      "synonyms_json": [
+        "bite-sized learning"
+      ],
+      "antonyms_json": [
+        "macrolearning",
+        "extensive study"
+      ],
+      "mnemonic": "Micro (vi mô/rất nhỏ) + learning -> Học những mẩu kiến thức nhỏ lẻ, ngắn gọn.",
+      "frequency_rank": 16000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "autodidact",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "general",
+      "ipa_uk": "/ˌɔː.təʊˈdɪd.ækt/",
+      "ipa_us": "/ˌɑː.t̬oʊˈdaɪ.dækt/",
+      "meaning_vi": "người tự học",
+      "definition_en": "A person who has taught themselves something rather than having lessons.",
+      "example_en": "As an autodidact, he mastered three programming languages entirely through online tutorials and forums.",
+      "example_vi": "Là một người tự học, anh ấy đã thành thạo ba ngôn ngữ lập trình hoàn toàn thông qua các hướng dẫn và diễn đàn trực tuyến.",
+      "collocations_json": [
+        "brilliant autodidact",
+        "lifelong autodidact"
+      ],
+      "synonyms_json": [
+        "self-taught person",
+        "self-educator"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Auto (tự động/tự mình) + didact (dạy dỗ) -> Tự mình dạy mình.",
+      "frequency_rank": 18000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "self-paced",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˌselfˈpeɪst/",
+      "ipa_us": "/ˌselfˈpeɪst/",
+      "meaning_vi": "học theo nhịp độ cá nhân",
+      "definition_en": "Designed to allow learners to progress through the material at their own speed.",
+      "example_en": "The self-paced nature of the online certificate means you can finish it in three weeks or three months.",
+      "example_vi": "Bản chất học theo nhịp độ cá nhân của chứng chỉ trực tuyến có nghĩa là bạn có thể hoàn thành nó trong ba tuần hoặc ba tháng.",
+      "collocations_json": [
+        "self-paced course",
+        "self-paced learning"
+      ],
+      "synonyms_json": [
+        "individualized",
+        "asynchronous"
+      ],
+      "antonyms_json": [
+        "instructor-led"
+      ],
+      "mnemonic": "Self (bản thân) + pace (nhịp điệu) -> Học nhanh hay chậm tùy mình.",
+      "frequency_rank": 9000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "completion rate",
+      "part_of_speech": "phrase",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/kəmˈpliː.ʃən reɪt/",
+      "ipa_us": "/kəmˈpliː.ʃən reɪt/",
+      "meaning_vi": "tỷ lệ hoàn thành khóa học",
+      "definition_en": "The percentage of enrolled students who successfully finish a course.",
+      "example_en": "Massive open online courses often struggle with a notoriously low completion rate.",
+      "example_vi": "Các khóa học trực tuyến mở đại trà thường gặp khó khăn với tỷ lệ hoàn thành thấp khét tiếng.",
+      "collocations_json": [
+        "high completion rate",
+        "boost completion rates"
+      ],
+      "synonyms_json": [
+        "success rate",
+        "finish rate"
+      ],
+      "antonyms_json": [
+        "dropout rate",
+        "attrition rate"
+      ],
+      "mnemonic": "Completion (hoàn thành) + rate (tỷ lệ).",
+      "frequency_rank": 8500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "proctoring",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈprɒk.tər.ɪŋ/",
+      "ipa_us": "/ˈprɑːk.tɚ.ɪŋ/",
+      "meaning_vi": "sự giám thị (thi trực tuyến)",
+      "definition_en": "The act of overseeing or monitoring an exam to prevent cheating, especially using software for online exams.",
+      "example_en": "Many universities use automated proctoring software that tracks students' eye movements during online exams.",
+      "example_vi": "Nhiều trường đại học sử dụng phần mềm giám thị tự động theo dõi chuyển động mắt của sinh viên trong các bài thi trực tuyến.",
+      "collocations_json": [
+        "online proctoring",
+        "automated proctoring"
+      ],
+      "synonyms_json": [
+        "invigilation",
+        "monitoring"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Proctor (giám thị) -> Proctoring là hoạt động giám sát thi cử.",
+      "frequency_rank": 14000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "cohort-based",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈkəʊ.hɔːtˌbeɪst/",
+      "ipa_us": "/ˈkoʊ.hɔːrtˌbeɪst/",
+      "meaning_vi": "dựa trên nhóm học viên",
+      "definition_en": "Describing an educational program where a group of students progresses through the curriculum together at the same pace.",
+      "example_en": "Cohort-based courses foster a strong sense of community and peer support compared to self-paced alternatives.",
+      "example_vi": "Các khóa học dựa trên nhóm thúc đẩy ý thức cộng đồng và sự hỗ trợ từ bạn bè mạnh mẽ hơn so với các lựa chọn học theo nhịp độ cá nhân.",
+      "collocations_json": [
+        "cohort-based learning",
+        "cohort-based course"
+      ],
+      "synonyms_json": [
+        "group-based"
+      ],
+      "antonyms_json": [
+        "self-paced",
+        "individualized"
+      ],
+      "mnemonic": "Cohort (đội/nhóm) -> Học theo một đội ngũ có cùng thời điểm bắt đầu và kết thúc.",
+      "frequency_rank": 15500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "immersive",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "/ɪˈmɜː.sɪv/",
+      "ipa_us": "/ɪˈmɝː.sɪv/",
+      "meaning_vi": "có tính nhập vai, đắm chìm",
+      "definition_en": "Seeming to surround the audience, player, or learner so that they feel completely involved in something.",
+      "example_en": "Virtual reality creates an immersive learning environment that helps medical students practice surgeries safely.",
+      "example_vi": "Thực tế ảo tạo ra một môi trường học tập nhập vai giúp sinh viên y khoa thực hành phẫu thuật một cách an toàn.",
+      "collocations_json": [
+        "immersive learning",
+        "highly immersive"
+      ],
+      "synonyms_json": [
+        "engaging",
+        "captivating"
+      ],
+      "antonyms_json": [
+        "passive",
+        "unengaging"
+      ],
+      "mnemonic": "Immerse (nhúng/ngâm) -> Cảm giác bị ngâm mình hoàn toàn vào trong một thế giới ảo.",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "accreditation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/əˌkred.ɪˈteɪ.ʃən/",
+      "ipa_us": "/əˌkred.əˈteɪ.ʃən/",
+      "meaning_vi": "sự kiểm định, cấp chứng nhận",
+      "definition_en": "The fact of being officially recognized, accepted, or approved of, or the act of officially recognizing or approving something.",
+      "example_en": "Before enrolling in the online university, you must check its accreditation to ensure your degree will be recognized.",
+      "example_vi": "Trước khi ghi danh vào trường đại học trực tuyến, bạn phải kiểm tra sự kiểm định của nó để đảm bảo bằng cấp của bạn sẽ được công nhận.",
+      "collocations_json": [
+        "regional accreditation",
+        "lose accreditation"
+      ],
+      "synonyms_json": [
+        "certification",
+        "endorsement"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Credit (tín nhiệm) -> Accreditation là quá trình cấp sự tín nhiệm, chứng nhận chất lượng cho trường học.",
+      "frequency_rank": 7100,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "EdTech",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "/ˈed.tek/",
+      "ipa_us": "/ˈed.tek/",
+      "meaning_vi": "công nghệ giáo dục",
+      "definition_en": "Educational technology; the use of computer hardware, software, and educational theory and practice to facilitate learning.",
+      "example_en": "The EdTech startup secured funding to develop an AI-powered tutor for language learners.",
+      "example_vi": "Công ty khởi nghiệp công nghệ giáo dục đã huy động được vốn để phát triển một gia sư AI cho người học ngôn ngữ.",
+      "collocations_json": [
+        "EdTech industry",
+        "EdTech startup"
+      ],
+      "synonyms_json": [
+        "educational technology"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Education (giáo dục) + Technology (công nghệ).",
+      "frequency_rank": 12000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "Learning Management System",
+      "part_of_speech": "phrase",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "/ˈlɜː.nɪŋ ˈmæn.ɪdʒ.mənt ˌsɪs.təm/",
+      "ipa_us": "/ˈlɝː.nɪŋ ˈmæn.ədʒ.mənt ˌsɪs.təm/",
+      "meaning_vi": "hệ thống quản lý học tập (LMS)",
+      "definition_en": "A software application for the administration, documentation, tracking, reporting, and delivery of educational courses or training programs.",
+      "example_en": "The professor uploaded the syllabus and weekly assignments to the university's Learning Management System.",
+      "example_vi": "Giáo sư đã tải đề cương và bài tập hàng tuần lên Hệ thống Quản lý Học tập của trường đại học.",
+      "collocations_json": [
+        "navigate the Learning Management System",
+        "cloud-based Learning Management System"
+      ],
+      "synonyms_json": [
+        "LMS",
+        "course management system"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hệ thống (System) dùng để quản lý (Management) việc học tập (Learning). Viết tắt là LMS.",
+      "frequency_rank": 10200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "ubiquitous",
+      "part_of_speech": "adjective",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/juːˈbɪk.wɪ.təs/",
+      "ipa_us": "/juːˈbɪk.wə.t̬əs/",
+      "meaning_vi": "có mặt ở khắp nơi",
+      "definition_en": "Seeming to be everywhere; in education, describing learning that can happen anywhere and anytime via mobile devices.",
+      "example_en": "Smartphones have made ubiquitous learning a reality, allowing students to access materials on their daily commute.",
+      "example_vi": "Điện thoại thông minh đã biến việc học ở khắp mọi nơi thành hiện thực, cho phép sinh viên truy cập tài liệu trên đường đi lại hàng ngày.",
+      "collocations_json": [
+        "ubiquitous learning",
+        "ubiquitous technology"
+      ],
+      "synonyms_json": [
+        "omnipresent",
+        "pervasive"
+      ],
+      "antonyms_json": [
+        "scarce",
+        "rare"
+      ],
+      "mnemonic": "Ubiquitous đọc gần giống 'you-bi-cứ-tới' -> Bạn bị theo tới bất cứ đâu, vì nó có mặt ở khắp mọi nơi.",
+      "frequency_rank": 7000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "scaffolding",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈskæf.əl.dɪŋ/",
+      "ipa_us": "/ˈskæf.əl.dɪŋ/",
+      "meaning_vi": "sự trợ giáo, giàn giáo (giáo dục)",
+      "definition_en": "A teaching method that involves providing temporary support to students as they learn a new concept, which is gradually removed as they become independent.",
+      "example_en": "The online course uses instructional scaffolding, offering hints and step-by-step guides before testing the student's full knowledge.",
+      "example_vi": "Khóa học trực tuyến sử dụng phương pháp trợ giáo, cung cấp gợi ý và hướng dẫn từng bước trước khi kiểm tra toàn bộ kiến thức của học viên.",
+      "collocations_json": [
+        "instructional scaffolding",
+        "provide scaffolding"
+      ],
+      "synonyms_json": [
+        "guided support",
+        "assistance"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Scaffolding là giàn giáo dùng trong xây dựng. Trong giáo dục, đó là điểm tựa ban đầu để học sinh xây dựng kiến thức.",
+      "frequency_rank": 9500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "formative assessment",
+      "part_of_speech": "phrase",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈfɔː.mə.tɪv əˈses.mənt/",
+      "ipa_us": "/ˈfɔːr.mə.t̬ɪv əˈses.mənt/",
+      "meaning_vi": "đánh giá quá trình",
+      "definition_en": "A range of formal and informal assessment procedures conducted by teachers during the learning process to modify teaching and learning activities.",
+      "example_en": "Quizzes at the end of each video module serve as a formative assessment to check comprehension.",
+      "example_vi": "Các câu hỏi trắc nghiệm ở cuối mỗi bài học video đóng vai trò như một bài đánh giá quá trình để kiểm tra sự đọc hiểu.",
+      "collocations_json": [
+        "conduct a formative assessment",
+        "ongoing formative assessment"
+      ],
+      "synonyms_json": [
+        "diagnostic testing",
+        "continuous assessment"
+      ],
+      "antonyms_json": [
+        "summative assessment"
+      ],
+      "mnemonic": "Formative (hình thành) -> Đánh giá diễn ra TRONG QUÁ TRÌNH hình thành kiến thức.",
+      "frequency_rank": 14000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "summative assessment",
+      "part_of_speech": "phrase",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈsʌm.ə.tɪv əˈses.mənt/",
+      "ipa_us": "/ˈsʌm.ə.t̬ɪv əˈses.mənt/",
+      "meaning_vi": "đánh giá tổng kết",
+      "definition_en": "The assessment of participants where the focus is on the outcome of a program, often held at the end of a course to assign a grade.",
+      "example_en": "The final online exam acts as a summative assessment to determine whether the student earns the certificate.",
+      "example_vi": "Bài kiểm tra trực tuyến cuối cùng hoạt động như một đánh giá tổng kết để xác định xem học viên có giành được chứng chỉ hay không.",
+      "collocations_json": [
+        "final summative assessment",
+        "summative assessment tool"
+      ],
+      "synonyms_json": [
+        "final evaluation"
+      ],
+      "antonyms_json": [
+        "formative assessment"
+      ],
+      "mnemonic": "Summary/Summative (tổng kết) -> Đánh giá kết quả vào CUỐI KHÓA HỌC.",
+      "frequency_rank": 14200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "peer-to-peer",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˌpɪə.təˈpɪər/",
+      "ipa_us": "/ˌpɪr.t̬əˈpɪr/",
+      "meaning_vi": "ngang hàng, học cùng bạn",
+      "definition_en": "Denoting networks or learning models in which individuals interact directly with each other without a central authority or teacher intervening directly.",
+      "example_en": "The coding bootcamp relies heavily on peer-to-peer feedback to help students improve their algorithms.",
+      "example_vi": "Trại huấn luyện lập trình phụ thuộc rất nhiều vào phản hồi ngang hàng để giúp học viên cải thiện thuật toán của họ.",
+      "collocations_json": [
+        "peer-to-peer learning",
+        "peer-to-peer feedback"
+      ],
+      "synonyms_json": [
+        "collaborative",
+        "student-to-student"
+      ],
+      "antonyms_json": [
+        "instructor-led",
+        "top-down"
+      ],
+      "mnemonic": "Peer (bạn đồng trang lứa) -> Học hỏi lẫn nhau giữa những người bạn.",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "digital divide",
+      "part_of_speech": "phrase",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "/ˌdɪdʒ.ɪ.təl dɪˈvaɪd/",
+      "ipa_us": "/ˌdɪdʒ.ə.t̬əl dɪˈvaɪd/",
+      "meaning_vi": "khoảng cách kỹ thuật số",
+      "definition_en": "The gap between demographics and regions that have access to modern information and communications technology, and those that don't.",
+      "example_en": "During the pandemic, the transition to online learning highlighted the severe digital divide affecting rural students without reliable internet.",
+      "example_vi": "Trong đại dịch, việc chuyển đổi sang học trực tuyến đã làm nổi bật khoảng cách kỹ thuật số nghiêm trọng ảnh hưởng đến học sinh nông thôn không có internet ổn định.",
+      "collocations_json": [
+        "bridge the digital divide",
+        "widen the digital divide"
+      ],
+      "synonyms_json": [
+        "technology gap"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Digital (kỹ thuật số) + Divide (chia cắt) -> Ranh giới giàu nghèo về việc tiếp cận công nghệ.",
+      "frequency_rank": 10500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "retention rate",
+      "part_of_speech": "phrase",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/rɪˈten.ʃən reɪt/",
+      "ipa_us": "/rɪˈten.ʃən reɪt/",
+      "meaning_vi": "tỷ lệ giữ chân học viên",
+      "definition_en": "The percentage of students who continue to participate in a course or program until completion.",
+      "example_en": "Interactive elements and community forums drastically improve the retention rate in massive open online courses.",
+      "example_vi": "Các yếu tố tương tác và diễn đàn cộng đồng cải thiện đáng kể tỷ lệ giữ chân học viên trong các khóa học trực tuyến mở đại trà.",
+      "collocations_json": [
+        "student retention rate",
+        "improve the retention rate"
+      ],
+      "synonyms_json": [
+        "continuation rate"
+      ],
+      "antonyms_json": [
+        "dropout rate",
+        "attrition rate"
+      ],
+      "mnemonic": "Retention (sự duy trì/giữ lại) -> Tỷ lệ giữ chân học viên không để họ bỏ học giữa chừng.",
+      "frequency_rank": 7000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "knowledge gap",
+      "part_of_speech": "phrase",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈnɒl.ɪdʒ ˌɡæp/",
+      "ipa_us": "/ˈnɑː.lɪdʒ ˌɡæp/",
+      "meaning_vi": "khoảng trống kiến thức",
+      "definition_en": "The difference between what a learner currently knows and what they need to know to achieve a goal.",
+      "example_en": "The diagnostic quiz helps identify the knowledge gap so the system can recommend specific video lectures.",
+      "example_vi": "Bài kiểm tra chẩn đoán giúp xác định khoảng trống kiến thức để hệ thống có thể đề xuất các bài giảng video cụ thể.",
+      "collocations_json": [
+        "bridge the knowledge gap",
+        "identify a knowledge gap"
+      ],
+      "synonyms_json": [
+        "skill gap",
+        "learning deficit"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Knowledge (kiến thức) + gap (khoảng cách) -> Sự thiếu hụt kiến thức cần phải bù đắp.",
+      "frequency_rank": 8000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "interactivity",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "/ˌɪn.tə.rækˈtɪv.ə.ti/",
+      "ipa_us": "/ˌɪn.t̬ɚ.rækˈtɪv.ə.t̬i/",
+      "meaning_vi": "tính tương tác",
+      "definition_en": "The degree to which an e-learning platform allows a two-way flow of information between the computer and the user.",
+      "example_en": "The high level of interactivity in the VR simulation keeps students engaged for hours.",
+      "example_vi": "Mức độ tương tác cao trong mô phỏng VR giúp sinh viên tập trung trong nhiều giờ.",
+      "collocations_json": [
+        "level of interactivity",
+        "promote interactivity"
+      ],
+      "synonyms_json": [
+        "engagement",
+        "two-way communication"
+      ],
+      "antonyms_json": [
+        "passivity"
+      ],
+      "mnemonic": "Interact (tương tác) + ivity -> Tính chất tương tác qua lại.",
+      "frequency_rank": 9200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "facilitator",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/fəˈsɪl.ɪ.teɪ.tər/",
+      "ipa_us": "/fəˈsɪl.ə.teɪ.t̬ɚ/",
+      "meaning_vi": "người điều phối, hỗ trợ",
+      "definition_en": "Someone who helps a person or organization do something more easily or find the answer to a problem, rather than directly teaching them.",
+      "example_en": "In online workshops, the instructor acts more as a facilitator guiding discussion than a traditional lecturer.",
+      "example_vi": "Trong các hội thảo trực tuyến, người hướng dẫn đóng vai trò là một người điều phối hướng dẫn thảo luận nhiều hơn là một giảng viên truyền thống.",
+      "collocations_json": [
+        "online facilitator",
+        "act as a facilitator"
+      ],
+      "synonyms_json": [
+        "moderator",
+        "coordinator"
+      ],
+      "antonyms_json": [
+        "dictator"
+      ],
+      "mnemonic": "Facilitate (làm cho dễ dàng) -> Người hỗ trợ quá trình học dễ dàng hơn.",
+      "frequency_rank": 6800,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "credential",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/krɪˈden.ʃəl/",
+      "ipa_us": "/krɪˈden.ʃəl/",
+      "meaning_vi": "chứng chỉ, bằng cấp",
+      "definition_en": "A qualification, achievement, personal quality, or aspect of a person's background, typically used to indicate their suitability for something.",
+      "example_en": "Micro-credentials from platforms like Coursera are becoming increasingly valuable in the tech job market.",
+      "example_vi": "Các chứng chỉ vi mô từ các nền tảng như Coursera ngày càng trở nên có giá trị trên thị trường việc làm công nghệ.",
+      "collocations_json": [
+        "digital credential",
+        "academic credentials"
+      ],
+      "synonyms_json": [
+        "certificate",
+        "qualification",
+        "diploma"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Cred (tin tưởng) -> Bằng cấp chứng tỏ năng lực đáng tin cậy.",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "bite-sized",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "/ˈbaɪt.saɪzd/",
+      "ipa_us": "/ˈbaɪt.saɪzd/",
+      "meaning_vi": "nhỏ gọn, vừa vặn",
+      "definition_en": "(Of a piece of information) short and easy to read, understand, or learn.",
+      "example_en": "The course breaks complex data science concepts into bite-sized videos that are easy to digest.",
+      "example_vi": "Khóa học chia nhỏ các khái niệm khoa học dữ liệu phức tạp thành các video ngắn gọn, dễ tiếp thu.",
+      "collocations_json": [
+        "bite-sized learning",
+        "bite-sized lessons"
+      ],
+      "synonyms_json": [
+        "short",
+        "digestible",
+        "compact"
+      ],
+      "antonyms_json": [
+        "lengthy",
+        "extensive"
+      ],
+      "mnemonic": "Bite (cắn 1 miếng) -> Kích cỡ nhỏ vừa đủ một miếng cắn.",
+      "frequency_rank": 11500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "teleconference",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "/ˈtel.iˌkɒn.fər.əns/",
+      "ipa_us": "/ˈtel.əˌkɑːn.fɚ.əns/",
+      "meaning_vi": "hội nghị/lớp học từ xa",
+      "definition_en": "A meeting involving people who are in different places, communicating via video and audio over the internet.",
+      "example_en": "The professor held a weekly teleconference to answer questions from remote students.",
+      "example_vi": "Giáo sư đã tổ chức một cuộc hội thảo từ xa hàng tuần để giải đáp thắc mắc của các sinh viên học trực tuyến.",
+      "collocations_json": [
+        "hold a teleconference",
+        "join a teleconference"
+      ],
+      "synonyms_json": [
+        "video call",
+        "webcast"
+      ],
+      "antonyms_json": [
+        "in-person meeting"
+      ],
+      "mnemonic": "Tele (từ xa) + conference (hội nghị).",
+      "frequency_rank": 13000,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "pacing",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈpeɪ.sɪŋ/",
+      "ipa_us": "/ˈpeɪ.sɪŋ/",
+      "meaning_vi": "nhịp độ tiến triển",
+      "definition_en": "The speed at which someone or something moves or does something, particularly referring to how fast a course progresses.",
+      "example_en": "The pacing of this intensive coding bootcamp is incredibly fast, demanding daily commitment.",
+      "example_vi": "Nhịp độ tiến triển của trại huấn luyện lập trình chuyên sâu này cực kỳ nhanh, đòi hỏi sự cam kết hàng ngày.",
+      "collocations_json": [
+        "course pacing",
+        "adjust the pacing"
+      ],
+      "synonyms_json": [
+        "speed",
+        "rhythm",
+        "tempo"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Pace (tốc độ bước đi) -> Pacing là việc duy trì tốc độ giảng dạy/học tập.",
+      "frequency_rank": 10800,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "heuristic",
+      "part_of_speech": "adjective",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/hjʊəˈrɪs.tɪk/",
+      "ipa_us": "/hjʊˈrɪs.tɪk/",
+      "meaning_vi": "có tính phát hiện, tự khám phá",
+      "definition_en": "Allowing students to learn by discovering things themselves and learning from their own experiences rather than by telling them things.",
+      "example_en": "The e-learning simulation uses a heuristic approach, letting users learn through trial and error.",
+      "example_vi": "Mô phỏng học tập trực tuyến sử dụng phương pháp tự khám phá, cho phép người dùng học thông qua việc thử và sai.",
+      "collocations_json": [
+        "heuristic approach",
+        "heuristic method"
+      ],
+      "synonyms_json": [
+        "exploratory",
+        "inquisitive"
+      ],
+      "antonyms_json": [
+        "didactic",
+        "spoon-fed"
+      ],
+      "mnemonic": "Bắt nguồn từ tiếng Hy Lạp 'eureka' (tìm ra rồi) -> Tự mày mò và khám phá ra kiến thức.",
+      "frequency_rank": 17200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "accessibility",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "/əkˌses.əˈbɪl.ə.ti/",
+      "ipa_us": "/əkˌses.əˈbɪl.ə.t̬i/",
+      "meaning_vi": "tính tiếp cận dễ dàng",
+      "definition_en": "The quality of being able to be reached, entered, or used by people, especially those with disabilities; crucial in online course design.",
+      "example_en": "Providing closed captions on all lecture videos ensures accessibility for deaf and hard-of-hearing students.",
+      "example_vi": "Cung cấp phụ đề chi tiết trên tất cả các video bài giảng đảm bảo tính tiếp cận cho những sinh viên khiếm thính và lãng tai.",
+      "collocations_json": [
+        "digital accessibility",
+        "ensure accessibility"
+      ],
+      "synonyms_json": [
+        "approachability",
+        "availability"
+      ],
+      "antonyms_json": [
+        "inaccessibility",
+        "exclusivity"
+      ],
+      "mnemonic": "Access (truy cập) + ability (khả năng) -> Đảm bảo ai cũng dùng và học được.",
+      "frequency_rank": 5200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "differentiated instruction",
+      "part_of_speech": "phrase",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˌdɪf.əˈren.ʃi.eɪ.tɪd ɪnˈstrʌk.ʃən/",
+      "ipa_us": "/ˌdɪf.əˈren.ʃi.eɪ.t̬ɪd ɪnˈstrʌk.ʃən/",
+      "meaning_vi": "dạy học phân hóa",
+      "definition_en": "A framework or philosophy for effective teaching that involves providing different students with different avenues to learning based on their needs.",
+      "example_en": "Adaptive learning software enables highly effective differentiated instruction by personalizing the curriculum for each user.",
+      "example_vi": "Phần mềm học tập thích ứng cho phép dạy học phân hóa cực kỳ hiệu quả bằng cách cá nhân hóa chương trình giảng dạy cho từng người dùng.",
+      "collocations_json": [
+        "implement differentiated instruction",
+        "strategy of differentiated instruction"
+      ],
+      "synonyms_json": [
+        "personalized learning",
+        "tailored instruction"
+      ],
+      "antonyms_json": [
+        "one-size-fits-all instruction"
+      ],
+      "mnemonic": "Differentiate (làm cho khác biệt) -> Dạy cho mỗi học sinh theo cách khác nhau tùy vào khả năng.",
+      "frequency_rank": 18500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "extrinsic motivation",
+      "part_of_speech": "phrase",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ekˈstrɪn.zɪk ˌməʊ.tɪˈveɪ.ʃən/",
+      "ipa_us": "/ekˈstrɪn.zɪk ˌmoʊ.t̬əˈveɪ.ʃən/",
+      "meaning_vi": "động lực ngoại sinh",
+      "definition_en": "Motivation that is driven by external rewards such as grades, money, or praise.",
+      "example_en": "While digital badges provide extrinsic motivation, they may not foster a deep love for the subject.",
+      "example_vi": "Mặc dù huy hiệu kỹ thuật số cung cấp động lực ngoại sinh, chúng có thể không nuôi dưỡng tình yêu sâu sắc đối với môn học.",
+      "collocations_json": [
+        "rely on extrinsic motivation",
+        "source of extrinsic motivation"
+      ],
+      "synonyms_json": [
+        "external incentive"
+      ],
+      "antonyms_json": [
+        "intrinsic motivation"
+      ],
+      "mnemonic": "Ex (bên ngoài) -> Động lực từ phần thưởng, điểm số bên ngoài.",
+      "frequency_rank": 14200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "intrinsic motivation",
+      "part_of_speech": "phrase",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ɪnˈtrɪn.zɪk ˌməʊ.tɪˈveɪ.ʃən/",
+      "ipa_us": "/ɪnˈtrɪn.zɪk ˌmoʊ.t̬əˈveɪ.ʃən/",
+      "meaning_vi": "động lực nội sinh",
+      "definition_en": "The act of doing something without any obvious external rewards, driven by personal satisfaction or interest.",
+      "example_en": "Adults enrolling in MOOCs often display high intrinsic motivation, learning simply out of curiosity.",
+      "example_vi": "Người lớn ghi danh vào các khóa MOOC thường thể hiện động lực nội sinh cao, học đơn giản chỉ vì tò mò.",
+      "collocations_json": [
+        "foster intrinsic motivation",
+        "driven by intrinsic motivation"
+      ],
+      "synonyms_json": [
+        "inner drive",
+        "personal interest"
+      ],
+      "antonyms_json": [
+        "extrinsic motivation"
+      ],
+      "mnemonic": "In (bên trong) -> Động lực từ khao khát, đam mê từ bên trong.",
+      "frequency_rank": 13900,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "constructivism",
+      "part_of_speech": "noun",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/kənˈstrʌk.tɪ.vɪ.zəm/",
+      "ipa_us": "/kənˈstrʌk.tə.vɪ.zəm/",
+      "meaning_vi": "thuyết kiến tạo",
+      "definition_en": "A theory in education that recognizes the learners' understanding and knowledge based on their own experiences prior to entering school.",
+      "example_en": "Project-based online courses rely heavily on constructivism, encouraging students to build their own knowledge actively.",
+      "example_vi": "Các khóa học trực tuyến dựa trên dự án phụ thuộc nhiều vào thuyết kiến tạo, khuyến khích học viên chủ động xây dựng kiến thức của riêng mình.",
+      "collocations_json": [
+        "social constructivism",
+        "theory of constructivism"
+      ],
+      "synonyms_json": [
+        "active learning theory"
+      ],
+      "antonyms_json": [
+        "behaviorism"
+      ],
+      "mnemonic": "Construct (xây dựng) -> Học sinh tự mình xây dựng lên kiến thức thông qua trải nghiệm thực tế.",
+      "frequency_rank": 18200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "didactic",
+      "part_of_speech": "adjective",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/daɪˈdæk.tɪk/",
+      "ipa_us": "/daɪˈdæk.tɪk/",
+      "meaning_vi": "giáo khoa, truyền thụ một chiều",
+      "definition_en": "Intended to teach, particularly in having moral instruction as an ulterior motive; often used to describe one-way lecturing.",
+      "example_en": "The traditional, didactic video lectures were replaced with interactive quizzes and peer discussions.",
+      "example_vi": "Các video bài giảng giáo khoa truyền thống một chiều đã được thay thế bằng các câu hỏi trắc nghiệm tương tác và thảo luận nhóm.",
+      "collocations_json": [
+        "didactic approach",
+        "didactic teaching"
+      ],
+      "synonyms_json": [
+        "instructional",
+        "educational",
+        "pedantic"
+      ],
+      "antonyms_json": [
+        "interactive",
+        "heuristic"
+      ],
+      "mnemonic": "Từ này gốc Hy Lạp didaskein (dạy học). Chỉ kiểu dạy một người nói, nhiều người nghe thụ động.",
+      "frequency_rank": 14500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "prerequisite",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˌpriːˈrek.wɪ.zɪt/",
+      "ipa_us": "/ˌpriːˈrek.wə.zɪt/",
+      "meaning_vi": "môn học tiên quyết, điều kiện trước",
+      "definition_en": "Something that must exist or happen before something else can exist or happen, such as a required prior course.",
+      "example_en": "Passing Introduction to Python is a strict prerequisite for enrolling in the Advanced Machine Learning module.",
+      "example_vi": "Việc vượt qua môn Nhập môn Python là một môn học tiên quyết bắt buộc để đăng ký học phần Học máy nâng cao.",
+      "collocations_json": [
+        "strict prerequisite",
+        "fulfill the prerequisite",
+        "course prerequisite"
+      ],
+      "synonyms_json": [
+        "requirement",
+        "precondition"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Pre (trước) + requisite (yêu cầu) -> Yêu cầu phải có từ trước.",
+      "frequency_rank": 8400,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "syllabus",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈsɪl.ə.bəs/",
+      "ipa_us": "/ˈsɪl.ə.bəs/",
+      "meaning_vi": "đề cương khóa học",
+      "definition_en": "An outline or summary of the subjects to be covered in an education or training course.",
+      "example_en": "Make sure to download the syllabus from the course dashboard to track the weekly deadlines.",
+      "example_vi": "Hãy chắc chắn tải xuống đề cương khóa học từ bảng điều khiển khóa học để theo dõi các hạn chót hàng tuần.",
+      "collocations_json": [
+        "course syllabus",
+        "detailed syllabus",
+        "review the syllabus"
+      ],
+      "synonyms_json": [
+        "curriculum",
+        "course outline",
+        "schedule"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Syllabus chứa danh sách các bài (syllables) sẽ học.",
+      "frequency_rank": 7600,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "attrition rate",
+      "part_of_speech": "phrase",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/əˈtrɪʃ.ən reɪt/",
+      "ipa_us": "/əˈtrɪʃ.ən reɪt/",
+      "meaning_vi": "tỷ lệ bỏ học, rơi rụng",
+      "definition_en": "The rate at which students drop out of a course or educational program before completing it.",
+      "example_en": "Online universities are constantly developing new engagement strategies to combat their high attrition rates.",
+      "example_vi": "Các trường đại học trực tuyến đang liên tục phát triển các chiến lược gắn kết mới để chống lại tỷ lệ bỏ học cao của họ.",
+      "collocations_json": [
+        "high attrition rate",
+        "combat the attrition rate",
+        "reduce attrition"
+      ],
+      "synonyms_json": [
+        "dropout rate",
+        "churn rate"
+      ],
+      "antonyms_json": [
+        "retention rate",
+        "completion rate"
+      ],
+      "mnemonic": "Attrition (hao mòn/rơi rụng) -> Số lượng sinh viên rơi rụng dần sau mỗi buổi học.",
+      "frequency_rank": 13200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "upskill",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "/ʌpˈskɪl/",
+      "ipa_us": "/ʌpˈskɪl/",
+      "meaning_vi": "nâng cao kỹ năng",
+      "definition_en": "To learn new skills or to teach workers new skills, often to keep up with industry changes.",
+      "example_en": "Many professionals take online evening courses to upskill and remain competitive in the job market.",
+      "example_vi": "Nhiều chuyên gia tham gia các khóa học buổi tối trực tuyến để nâng cao kỹ năng và duy trì tính cạnh tranh trên thị trường việc làm.",
+      "collocations_json": [
+        "upskill the workforce",
+        "opportunity to upskill"
+      ],
+      "synonyms_json": [
+        "train",
+        "upgrade skills"
+      ],
+      "antonyms_json": [
+        "de-skill"
+      ],
+      "mnemonic": "Up (lên) + skill (kỹ năng) -> Đẩy kỹ năng lên một tầm cao mới.",
+      "frequency_rank": 9800,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "reskill",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "/ˌriːˈskɪl/",
+      "ipa_us": "/ˌriːˈskɪl/",
+      "meaning_vi": "học lại kỹ năng mới, chuyển nghề",
+      "definition_en": "To learn new skills so that you can do a different job, or to train someone to do a different job.",
+      "example_en": "As AI automates routine tasks, many workers will need to reskill for entirely new careers.",
+      "example_vi": "Khi AI tự động hóa các tác vụ lặp đi lặp lại, nhiều công nhân sẽ cần học lại kỹ năng mới cho những nghề nghiệp hoàn toàn mới.",
+      "collocations_json": [
+        "reskill employees",
+        "need to reskill"
+      ],
+      "synonyms_json": [
+        "retrain"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Re (lại) + skill (kỹ năng) -> Xóa kỹ năng cũ, học một hệ kỹ năng hoàn toàn mới để chuyển việc.",
+      "frequency_rank": 11500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "mastery-based",
+      "part_of_speech": "adjective",
+      "cefr_level": "C2",
+      "domain": "academic",
+      "ipa_uk": "/ˈmɑː.stər.iˌbeɪst/",
+      "ipa_us": "/ˈmæs.tɚ.iˌbeɪst/",
+      "meaning_vi": "dựa trên sự thành thạo",
+      "definition_en": "An instructional approach where students must demonstrate a deep understanding of a topic before moving on to the next one.",
+      "example_en": "The math platform is mastery-based, refusing to unlock the next level until you score 100% on the current test.",
+      "example_vi": "Nền tảng toán học này dựa trên sự thành thạo, từ chối mở khóa cấp độ tiếp theo cho đến khi bạn đạt 100% trong bài kiểm tra hiện tại.",
+      "collocations_json": [
+        "mastery-based learning",
+        "mastery-based progression"
+      ],
+      "synonyms_json": [
+        "competency-based",
+        "proficiency-based"
+      ],
+      "antonyms_json": [
+        "time-based learning"
+      ],
+      "mnemonic": "Mastery (sự thành thạo/chuyên gia) -> Phải học đến trình độ master một bài thì mới được học bài tiếp theo.",
+      "frequency_rank": 18900,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "module",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈmɒdʒ.uːl/",
+      "ipa_us": "/ˈmɑː.dʒuːl/",
+      "meaning_vi": "học phần, tín chỉ độc lập",
+      "definition_en": "One of a set of separate parts that, when combined, form a complete course of study.",
+      "example_en": "The online marketing course is divided into six weekly modules, each ending with a short quiz.",
+      "example_vi": "Khóa học tiếp thị trực tuyến được chia thành sáu học phần hàng tuần, mỗi học phần kết thúc bằng một bài kiểm tra ngắn.",
+      "collocations_json": [
+        "core module",
+        "online module",
+        "complete a module"
+      ],
+      "synonyms_json": [
+        "unit",
+        "section",
+        "segment"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Module giống như từng mảnh lego ráp lại thành một ngôi nhà (chương trình học).",
+      "frequency_rank": 4900,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "plagiarize",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈpleɪ.dʒər.aɪz/",
+      "ipa_us": "/ˈpleɪ.dʒə.raɪz/",
+      "meaning_vi": "đạo văn",
+      "definition_en": "To use another person's ideas or work and pretend that it is your own.",
+      "example_en": "The LMS automatically scans submitted essays to ensure students do not plagiarize content from the internet.",
+      "example_vi": "Hệ thống LMS tự động quét các bài luận được nộp để đảm bảo sinh viên không đạo văn nội dung từ internet.",
+      "collocations_json": [
+        "heavily plagiarize",
+        "accused of plagiarizing"
+      ],
+      "synonyms_json": [
+        "copy",
+        "steal",
+        "infringe"
+      ],
+      "antonyms_json": [
+        "originate",
+        "cite correctly"
+      ],
+      "mnemonic": "Plagiarize (đạo văn) -> Play (chơi) trò đạo nhái chữ nghĩa.",
+      "frequency_rank": 9800,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "webinar",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "/ˈweb.ɪ.nɑːr/",
+      "ipa_us": "/ˈweb.ə.nɑːr/",
+      "meaning_vi": "hội thảo trực tuyến",
+      "definition_en": "A seminar or other presentation that takes place on the internet, allowing participants in different locations to see and hear the presenter, ask questions, and sometimes answer polls.",
+      "example_en": "The university is hosting a free webinar on career development for its distance learning students.",
+      "example_vi": "Trường đại học đang tổ chức một hội thảo trực tuyến miễn phí về phát triển sự nghiệp cho các sinh viên học từ xa của mình.",
+      "collocations_json": [
+        "host a webinar",
+        "attend a webinar",
+        "live webinar"
+      ],
+      "synonyms_json": [
+        "online seminar",
+        "web conference"
+      ],
+      "antonyms_json": [
+        "in-person seminar"
+      ],
+      "mnemonic": "Web (mạng) + seminar (hội thảo) -> Hội thảo trên nền tảng mạng.",
+      "frequency_rank": 7200,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "multimedia",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "/ˌmʌl.tiˈmiː.di.ə/",
+      "ipa_us": "/ˌmʌl.tiˈmiː.di.ə/",
+      "meaning_vi": "đa phương tiện",
+      "definition_en": "The use of a combination of different content forms such as text, audio, images, animations, video and interactive content.",
+      "example_en": "The course is highly praised for its rich multimedia content, making complex theories easier to grasp.",
+      "example_vi": "Khóa học được đánh giá cao nhờ nội dung đa phương tiện phong phú, giúp các lý thuyết phức tạp trở nên dễ nắm bắt hơn.",
+      "collocations_json": [
+        "multimedia content",
+        "multimedia presentations",
+        "interactive multimedia"
+      ],
+      "synonyms_json": [
+        "audiovisual",
+        "mixed media"
+      ],
+      "antonyms_json": [
+        "text-only"
+      ],
+      "mnemonic": "Multi (nhiều) + media (phương tiện) -> Dùng chữ, ảnh, video, âm thanh cùng lúc.",
+      "frequency_rank": 6400,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "virtual reality",
+      "part_of_speech": "phrase",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "/ˌvɜː.tʃu.əl riˈæl.ə.ti/",
+      "ipa_us": "/ˌvɝː.tʃu.əl riˈæl.ə.t̬i/",
+      "meaning_vi": "thực tế ảo (VR)",
+      "definition_en": "A set of images and sounds, produced by a computer, that seem to represent a place or a situation that a person can experience or interact with.",
+      "example_en": "Virtual reality headsets are being integrated into online biology courses to allow students to dissect a virtual frog.",
+      "example_vi": "Kính thực tế ảo đang được tích hợp vào các khóa học sinh học trực tuyến để cho phép học sinh giải phẫu một con ếch ảo.",
+      "collocations_json": [
+        "virtual reality headsets",
+        "virtual reality simulation"
+      ],
+      "synonyms_json": [
+        "VR",
+        "simulated reality"
+      ],
+      "antonyms_json": [
+        "physical reality",
+        "real world"
+      ],
+      "mnemonic": "Virtual (ảo) + reality (thực tế) -> Thế giới ảo giống y như thật do máy tính tạo ra.",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Education - Online Learning & Courses",
+      "word": "e-portfolio",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "/ˈiː.pɔːtˌfəʊ.li.əʊ/",
+      "ipa_us": "/ˈiː.pɔːrtˌfoʊ.li.oʊ/",
+      "meaning_vi": "hồ sơ năng lực điện tử",
+      "definition_en": "A digitized collection of artifacts, including demonstrations, resources, and accomplishments that represent an individual, group, community, organization, or institution.",
+      "example_en": "Students in the graphic design course are required to submit an e-portfolio showcasing their best digital projects at the end of the semester.",
+      "example_vi": "Sinh viên trong khóa học thiết kế đồ họa được yêu cầu nộp một hồ sơ năng lực điện tử giới thiệu các dự án kỹ thuật số tốt nhất của họ vào cuối học kỳ.",
+      "collocations_json": [
+        "digital e-portfolio",
+        "submit an e-portfolio",
+        "maintain an e-portfolio"
+      ],
+      "synonyms_json": [
+        "digital portfolio",
+        "electronic portfolio"
+      ],
+      "antonyms_json": [
+        "hardcopy portfolio"
+      ],
+      "mnemonic": "E (điện tử/mạng) + portfolio (hồ sơ năng lực).",
+      "frequency_rank": 14600,
+      "created_at": "2026-03-27T00:00:00Z"
+    }
+  }
+]

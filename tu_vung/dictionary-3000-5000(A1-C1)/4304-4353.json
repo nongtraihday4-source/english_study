@@ -1,0 +1,1904 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 4304,
+    "fields": {
+      "word": "collaborate",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "kəˈlæbəˌreɪt",
+      "ipa_us": "kəˈlæbəˌreɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cộng tác, hợp tác",
+      "definition_en": "To work with someone else for a special purpose.",
+      "example_en": "The two companies agreed to collaborate on the new project.",
+      "example_vi": "Hai công ty đã đồng ý cộng tác trong dự án mới.",
+      "collocations_json": [
+        "collaborate on",
+        "collaborate with",
+        "closely collaborate"
+      ],
+      "synonyms_json": [
+        "cooperate",
+        "team up",
+        "work together"
+      ],
+      "antonyms_json": [
+        "compete",
+        "work independently"
+      ],
+      "mnemonic": "Co (together) + labor (work) + ate -> to work together.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4305,
+    "fields": {
+      "word": "collaboration",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "kəˌlæbəˈreɪʃən",
+      "ipa_us": "kəˌlæbəˈreɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự cộng tác",
+      "definition_en": "The situation of two or more people working together to create or achieve the same thing.",
+      "example_en": "The new software was the result of a successful collaboration.",
+      "example_vi": "Phần mềm mới là kết quả của một sự cộng tác thành công.",
+      "collocations_json": [
+        "in collaboration with",
+        "successful collaboration",
+        "international collaboration"
+      ],
+      "synonyms_json": [
+        "cooperation",
+        "partnership",
+        "teamwork"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of collaborate.",
+      "frequency_rank": 5400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4306,
+    "fields": {
+      "word": "collective",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "kəˈlɛktɪv",
+      "ipa_us": "kəˈlɛktɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tập thể, chung",
+      "definition_en": "Of or shared by every member of a group of people.",
+      "example_en": "It was a collective decision made by the whole team.",
+      "example_vi": "Đó là một quyết định tập thể được đưa ra bởi toàn bộ đội.",
+      "collocations_json": [
+        "collective responsibility",
+        "collective effort",
+        "collective memory"
+      ],
+      "synonyms_json": [
+        "shared",
+        "joint",
+        "common"
+      ],
+      "antonyms_json": [
+        "individual",
+        "personal"
+      ],
+      "mnemonic": "Like a COLLECTION of people acting as one.",
+      "frequency_rank": 5100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4307,
+    "fields": {
+      "word": "collision",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "kəˈlɪʒən",
+      "ipa_us": "kəˈlɪʒən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự va chạm, đụng độ",
+      "definition_en": "An accident that happens when two vehicles hit each other with force.",
+      "example_en": "There was a multiple-vehicle collision on the highway.",
+      "example_vi": "Đã có một vụ va chạm liên hoàn trên đường cao tốc.",
+      "collocations_json": [
+        "head-on collision",
+        "fatal collision",
+        "avoid a collision"
+      ],
+      "synonyms_json": [
+        "crash",
+        "impact",
+        "smash"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of collide.",
+      "frequency_rank": 6700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4308,
+    "fields": {
+      "word": "colonial",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "kəˈloʊniəl",
+      "ipa_us": "kəˈloʊniəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về thuộc địa",
+      "definition_en": "Relating to countries that are controlled by a more powerful country.",
+      "example_en": "Vietnam has a rich history from the French colonial period.",
+      "example_vi": "Việt Nam có một lịch sử phong phú từ thời kỳ thuộc địa của Pháp.",
+      "collocations_json": [
+        "colonial period",
+        "colonial power",
+        "colonial rule"
+      ],
+      "synonyms_json": [
+        "imperial"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adjective form of colony.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4309,
+    "fields": {
+      "word": "columnist",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈkɑləmnəst",
+      "ipa_us": "ˈkɑləmnɪst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người phụ trách chuyên mục",
+      "definition_en": "Someone who writes a regular article for a newspaper or magazine.",
+      "example_en": "She works as a political columnist for a national newspaper.",
+      "example_vi": "Cô làm người phụ trách chuyên mục chính trị cho một tờ báo quốc gia.",
+      "collocations_json": [
+        "newspaper columnist",
+        "gossip columnist",
+        "sports columnist"
+      ],
+      "synonyms_json": [
+        "journalist",
+        "writer",
+        "correspondent"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A person who writes a COLUMN.",
+      "frequency_rank": 7500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4310,
+    "fields": {
+      "word": "combat",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈkɑmbæt",
+      "ipa_us": "ˈkɑmbæt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cuộc chiến đấu, trận đấu",
+      "definition_en": "A fight, especially during a war.",
+      "example_en": "He was killed in combat.",
+      "example_vi": "Anh ta đã tử trận trong chiến đấu.",
+      "collocations_json": [
+        "in combat",
+        "armed combat",
+        "combat troops"
+      ],
+      "synonyms_json": [
+        "battle",
+        "fight",
+        "conflict"
+      ],
+      "antonyms_json": [
+        "peace",
+        "truce"
+      ],
+      "mnemonic": "Mortal Kombat is a famous fighting game.",
+      "frequency_rank": 5300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4311,
+    "fields": {
+      "word": "commence",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "kəˈmɛns",
+      "ipa_us": "kəˈmɛns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bắt đầu, khởi đầu",
+      "definition_en": "To begin something.",
+      "example_en": "The meeting is scheduled to commence at 10 a.m.",
+      "example_vi": "Cuộc họp được lên lịch bắt đầu vào lúc 10 giờ sáng.",
+      "collocations_json": [
+        "commence work",
+        "commence proceedings",
+        "officially commence"
+      ],
+      "synonyms_json": [
+        "begin",
+        "start",
+        "initiate"
+      ],
+      "antonyms_json": [
+        "finish",
+        "conclude",
+        "end"
+      ],
+      "mnemonic": "A formal word for start. Think of a 'commencement' ceremony at graduation (the start of a new phase).",
+      "frequency_rank": 6800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4312,
+    "fields": {
+      "word": "commentary",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈkɑmənˌtɛri",
+      "ipa_us": "ˈkɑmənˌtɛri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lời bình luận, bài bình luận",
+      "definition_en": "A spoken description of an event on the radio or television that is broadcast as the event happens.",
+      "example_en": "I enjoyed the sports commentary on the radio.",
+      "example_vi": "Tôi rất thích phần bình luận thể thao trên đài phát thanh.",
+      "collocations_json": [
+        "running commentary",
+        "sports commentary",
+        "social commentary"
+      ],
+      "synonyms_json": [
+        "description",
+        "analysis",
+        "review"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A series of comments.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4313,
+    "fields": {
+      "word": "commentator",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈkɑmənˌteɪtər",
+      "ipa_us": "ˈkɑmənˌteɪtər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bình luận viên",
+      "definition_en": "A reporter for radio or television who provides a spoken description of and remarks on an event, especially a sports competition, as it happens.",
+      "example_en": "He works as a football commentator.",
+      "example_vi": "Anh ấy làm bình luận viên bóng đá.",
+      "collocations_json": [
+        "sports commentator",
+        "political commentator",
+        "television commentator"
+      ],
+      "synonyms_json": [
+        "broadcaster",
+        "analyst"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A person who provides commentary.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4314,
+    "fields": {
+      "word": "commerce",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈkɑmərs",
+      "ipa_us": "ˈkɑmərs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thương mại, giao thương",
+      "definition_en": "The activities involved in buying and selling things.",
+      "example_en": "E-commerce is completely changing the way we shop.",
+      "example_vi": "Thương mại điện tử đang thay đổi hoàn toàn cách chúng ta mua sắm.",
+      "collocations_json": [
+        "chamber of commerce",
+        "international commerce",
+        "e-commerce"
+      ],
+      "synonyms_json": [
+        "trade",
+        "business",
+        "trading"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Commercials (ads) are part of commerce.",
+      "frequency_rank": 5600,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4315,
+    "fields": {
+      "word": "commissioner",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "kəˈmɪʃənər",
+      "ipa_us": "kəˈmɪʃənər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ủy viên, cảnh sát trưởng",
+      "definition_en": "An important official who has responsibility in a government department or another organization.",
+      "example_en": "The police commissioner gave a press conference.",
+      "example_vi": "Cảnh sát trưởng đã tổ chức một cuộc họp báo.",
+      "collocations_json": [
+        "police commissioner",
+        "high commissioner",
+        "deputy commissioner"
+      ],
+      "synonyms_json": [
+        "official",
+        "executive",
+        "director"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Someone given a commission (task) to oversee.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4316,
+    "fields": {
+      "word": "commodity",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "kəˈmɑdəti",
+      "ipa_us": "kəˈmɑdəti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hàng hóa",
+      "definition_en": "A substance or product that can be traded, bought, or sold.",
+      "example_en": "Oil is a very important commodity in the world market.",
+      "example_vi": "Dầu mỏ là một loại hàng hóa rất quan trọng trên thị trường thế giới.",
+      "collocations_json": [
+        "valuable commodity",
+        "basic commodity",
+        "commodity prices"
+      ],
+      "synonyms_json": [
+        "goods",
+        "product",
+        "item"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A common product you can buy.",
+      "frequency_rank": 5900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4317,
+    "fields": {
+      "word": "communist",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈkɑmjənəst",
+      "ipa_us": "ˈkɑmjənɪst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc cộng sản",
+      "definition_en": "Relating to communism (a political system).",
+      "example_en": "The country has a communist government.",
+      "example_vi": "Đất nước có một chính phủ cộng sản.",
+      "collocations_json": [
+        "communist party",
+        "communist regime",
+        "communist leader"
+      ],
+      "synonyms_json": [
+        "Marxist",
+        "socialist"
+      ],
+      "antonyms_json": [
+        "capitalist"
+      ],
+      "mnemonic": "Relating to a COMMUNE where everything is shared.",
+      "frequency_rank": 6000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4318,
+    "fields": {
+      "word": "companion",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "kəmˈpænjən",
+      "ipa_us": "kəmˈpænjən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bạn đồng hành",
+      "definition_en": "A person you spend a lot of time with often because you are friends or because you are traveling together.",
+      "example_en": "The dog has been a faithful companion to me for years.",
+      "example_vi": "Con chó đã là một người bạn đồng hành trung thành với tôi trong nhiều năm.",
+      "collocations_json": [
+        "traveling companion",
+        "faithful companion",
+        "constant companion"
+      ],
+      "synonyms_json": [
+        "friend",
+        "partner",
+        "mate"
+      ],
+      "antonyms_json": [
+        "stranger",
+        "enemy"
+      ],
+      "mnemonic": "Someone who accompanies you.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4319,
+    "fields": {
+      "word": "comparable",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈkɑmpərəbəl",
+      "ipa_us": "ˈkɑmpərəbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có thể so sánh được, tương đương",
+      "definition_en": "Similar in size, amount, or quality to something else.",
+      "example_en": "Our prices are comparable to those in other shops.",
+      "example_vi": "Giá của chúng tôi tương đương với giá ở các cửa hàng khác.",
+      "collocations_json": [
+        "comparable to",
+        "comparable with",
+        "broadly comparable"
+      ],
+      "synonyms_json": [
+        "similar",
+        "equivalent",
+        "proportionate"
+      ],
+      "antonyms_json": [
+        "incomparable",
+        "different",
+        "unlike"
+      ],
+      "mnemonic": "Able to be COMPARED.",
+      "frequency_rank": 6300,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4320,
+    "fields": {
+      "word": "compassion",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "kəmˈpæʃən",
+      "ipa_us": "kəmˈpæʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lòng trắc ẩn, lòng thương xót",
+      "definition_en": "A strong feeling of sympathy and sadness for the suffering or bad luck of others and a wish to help them.",
+      "example_en": "She showed great compassion for the victims of the disaster.",
+      "example_vi": "Cô ấy đã thể hiện lòng trắc ẩn sâu sắc đối với các nạn nhân của thảm họa.",
+      "collocations_json": [
+        "feel compassion",
+        "show compassion",
+        "out of compassion"
+      ],
+      "synonyms_json": [
+        "sympathy",
+        "pity",
+        "empathy"
+      ],
+      "antonyms_json": [
+        "indifference",
+        "cruelty",
+        "callousness"
+      ],
+      "mnemonic": "Com (together) + passion (feeling) -> feeling together with someone.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4321,
+    "fields": {
+      "word": "compel",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "kəmˈpɛl",
+      "ipa_us": "kəmˈpɛl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bắt buộc, ép buộc",
+      "definition_en": "To force someone to do something.",
+      "example_en": "The law will compel employers to provide health insurance.",
+      "example_vi": "Luật sẽ bắt buộc người sử dụng lao động cung cấp bảo hiểm y tế.",
+      "collocations_json": [
+        "feel compelled",
+        "compel someone to do"
+      ],
+      "synonyms_json": [
+        "force",
+        "oblige",
+        "coerce"
+      ],
+      "antonyms_json": [
+        "allow",
+        "permit"
+      ],
+      "mnemonic": "Com (together) + pel (drive/push). To push someone to do something.",
+      "frequency_rank": 6900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4322,
+    "fields": {
+      "word": "compelling",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "kəmˈpɛlɪŋ",
+      "ipa_us": "kəmˈpɛlɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuyết phục, hấp dẫn",
+      "definition_en": "If a reason, argument, etc. is compelling, it makes you believe it or accept it because it is so strong.",
+      "example_en": "He made a compelling argument for investing in renewable energy.",
+      "example_vi": "Anh ấy đã đưa ra một lập luận đầy thuyết phục cho việc đầu tư vào năng lượng tái tạo.",
+      "collocations_json": [
+        "compelling evidence",
+        "compelling argument",
+        "compelling reason"
+      ],
+      "synonyms_json": [
+        "convincing",
+        "persuasive",
+        "captivating"
+      ],
+      "antonyms_json": [
+        "unconvincing",
+        "weak",
+        "boring"
+      ],
+      "mnemonic": "An argument so strong it COMPELS you to agree.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4323,
+    "fields": {
+      "word": "compensate",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈkɑmpənˌseɪt",
+      "ipa_us": "ˈkɑmpənˌseɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đền bù, bồi thường",
+      "definition_en": "To pay someone money in exchange for something that has been lost or damaged or for some problem.",
+      "example_en": "The company promised to compensate workers for their injuries.",
+      "example_vi": "Công ty hứa sẽ bồi thường cho công nhân vì những thương tích của họ.",
+      "collocations_json": [
+        "compensate for",
+        "fully compensate",
+        "compensate workers"
+      ],
+      "synonyms_json": [
+        "recompense",
+        "reimburse",
+        "make up for"
+      ],
+      "antonyms_json": [
+        "deprive",
+        "fine"
+      ],
+      "mnemonic": "To give someone PENnies to make up for a COMpromise -> COM-PEN-SATE.",
+      "frequency_rank": 5500,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4324,
+    "fields": {
+      "word": "compensation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌkɑmpənˈseɪʃən",
+      "ipa_us": "ˌkɑmpənˈseɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự bồi thường, tiền bồi thường",
+      "definition_en": "Money that is paid to someone in exchange for something that has been lost or damaged.",
+      "example_en": "She received a large sum of money in compensation for the accident.",
+      "example_vi": "Cô ấy đã nhận được một khoản tiền lớn để bồi thường cho vụ tai nạn.",
+      "collocations_json": [
+        "claim compensation",
+        "receive compensation",
+        "financial compensation"
+      ],
+      "synonyms_json": [
+        "recompense",
+        "repayment",
+        "damages"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of compensate.",
+      "frequency_rank": 5200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4325,
+    "fields": {
+      "word": "competence",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈkɑmpətɪns",
+      "ipa_us": "ˈkɑmpətəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "năng lực, khả năng",
+      "definition_en": "The ability to do something well.",
+      "example_en": "Her competence as a manager was never in doubt.",
+      "example_vi": "Năng lực làm quản lý của cô ấy chưa bao giờ bị nghi ngờ.",
+      "collocations_json": [
+        "demonstrate competence",
+        "level of competence",
+        "core competence"
+      ],
+      "synonyms_json": [
+        "capability",
+        "proficiency",
+        "skill"
+      ],
+      "antonyms_json": [
+        "incompetence",
+        "inability"
+      ],
+      "mnemonic": "If you COMPETE well, you have COMPETENCE.",
+      "frequency_rank": 6400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4326,
+    "fields": {
+      "word": "competent",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈkɑmpətɪnt",
+      "ipa_us": "ˈkɑmpətənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có năng lực, thạo việc",
+      "definition_en": "Able to do something well.",
+      "example_en": "I wouldn't say he was brilliant but he is very competent at his job.",
+      "example_vi": "Tôi sẽ không nói anh ấy là người xuất chúng nhưng anh ấy rất có năng lực trong công việc của mình.",
+      "collocations_json": [
+        "highly competent",
+        "competent professional",
+        "technically competent"
+      ],
+      "synonyms_json": [
+        "capable",
+        "proficient",
+        "adept"
+      ],
+      "antonyms_json": [
+        "incompetent",
+        "inept"
+      ],
+      "mnemonic": "Adjective form of competence.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4327,
+    "fields": {
+      "word": "compile",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "kəmˈpaɪl",
+      "ipa_us": "kəmˈpaɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "biên soạn, tập hợp",
+      "definition_en": "To collect information from different places and arrange it in a book, report, or list.",
+      "example_en": "We are compiling a list of all the local businesses.",
+      "example_vi": "Chúng tôi đang biên soạn một danh sách tất cả các doanh nghiệp địa phương.",
+      "collocations_json": [
+        "compile a list",
+        "compile a report",
+        "compile data"
+      ],
+      "synonyms_json": [
+        "collect",
+        "gather",
+        "assemble"
+      ],
+      "antonyms_json": [
+        "disperse",
+        "scatter"
+      ],
+      "mnemonic": "To put a PILE of things together.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4328,
+    "fields": {
+      "word": "complement",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈkɑmpləmənt",
+      "ipa_us": "ˈkɑmpləmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bổ sung, làm hoàn thiện",
+      "definition_en": "To make something else seem better or more attractive when combining with it.",
+      "example_en": "The sweet sauce complements the spicy meat perfectly.",
+      "example_vi": "Nước sốt ngọt bổ sung cho phần thịt cay một cách hoàn hảo.",
+      "collocations_json": [
+        "complement each other",
+        "perfectly complement",
+        "complement nicely"
+      ],
+      "synonyms_json": [
+        "enhance",
+        "complete",
+        "balance"
+      ],
+      "antonyms_json": [
+        "clash",
+        "contrast"
+      ],
+      "mnemonic": "To COMplete something is to COMPLEment it.",
+      "frequency_rank": 7100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4329,
+    "fields": {
+      "word": "complexity",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "kəmˈplɛksəti",
+      "ipa_us": "kəmˈplɛksəti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự phức tạp",
+      "definition_en": "The state of having many parts and being difficult to understand or find an answer to.",
+      "example_en": "The complexity of the system makes it hard to manage.",
+      "example_vi": "Sự phức tạp của hệ thống làm cho nó khó quản lý.",
+      "collocations_json": [
+        "add complexity",
+        "reduce complexity",
+        "sheer complexity"
+      ],
+      "synonyms_json": [
+        "intricacy",
+        "complication"
+      ],
+      "antonyms_json": [
+        "simplicity",
+        "clarity"
+      ],
+      "mnemonic": "Noun form of complex.",
+      "frequency_rank": 5000,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4330,
+    "fields": {
+      "word": "compliance",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "kəmˈplaɪəns",
+      "ipa_us": "kəmˈplaɪəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự tuân thủ",
+      "definition_en": "The act of obeying an order, rule, or request.",
+      "example_en": "The company acts in compliance with environmental laws.",
+      "example_vi": "Công ty hoạt động tuân thủ theo luật môi trường.",
+      "collocations_json": [
+        "in compliance with",
+        "ensure compliance",
+        "strict compliance"
+      ],
+      "synonyms_json": [
+        "obedience",
+        "conformity",
+        "observance"
+      ],
+      "antonyms_json": [
+        "defiance",
+        "disobedience",
+        "violation"
+      ],
+      "mnemonic": "Noun form of comply.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4331,
+    "fields": {
+      "word": "complication",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "medical",
+      "ipa_uk": "ˌkɑmpləˈkeɪʃən",
+      "ipa_us": "ˌkɑmpləˈkeɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự phức tạp, biến chứng",
+      "definition_en": "Something that makes a situation more difficult, or a medical problem that happens as a result of another illness.",
+      "example_en": "If there are no complications, the patient will recover quickly.",
+      "example_vi": "Nếu không có biến chứng nào, bệnh nhân sẽ hồi phục nhanh chóng.",
+      "collocations_json": [
+        "further complication",
+        "medical complication",
+        "arise without complication"
+      ],
+      "synonyms_json": [
+        "difficulty",
+        "problem",
+        "obstacle"
+      ],
+      "antonyms_json": [
+        "solution",
+        "simplification"
+      ],
+      "mnemonic": "A thing that makes things COMPLICATED.",
+      "frequency_rank": 6700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4332,
+    "fields": {
+      "word": "comply",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "kəmˈplaɪ",
+      "ipa_us": "kəmˈplaɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tuân theo, chấp hành",
+      "definition_en": "To act according to an order, set of rules, or request.",
+      "example_en": "There are serious penalties for failure to comply with the regulations.",
+      "example_vi": "Có những hình phạt nghiêm trọng nếu không tuân thủ các quy định.",
+      "collocations_json": [
+        "comply with",
+        "fail to comply",
+        "refuse to comply"
+      ],
+      "synonyms_json": [
+        "obey",
+        "conform",
+        "submit"
+      ],
+      "antonyms_json": [
+        "disobey",
+        "defy",
+        "rebel"
+      ],
+      "mnemonic": "Com (with) + ply (fold) -> to fold with the rules, meaning to obey.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4333,
+    "fields": {
+      "word": "composition",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "art",
+      "ipa_uk": "ˌkɑmpəˈzɪʃən",
+      "ipa_us": "ˌkɑmpəˈzɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thành phần, sự sáng tác",
+      "definition_en": "The parts, substances, etc. that something is made of; or a piece of music, art, or poem.",
+      "example_en": "Scientists are studying the chemical composition of the soil.",
+      "example_vi": "Các nhà khoa học đang nghiên cứu thành phần hóa học của đất.",
+      "collocations_json": [
+        "chemical composition",
+        "musical composition",
+        "overall composition"
+      ],
+      "synonyms_json": [
+        "structure",
+        "makeup",
+        "creation"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "What something is COMPOSED of.",
+      "frequency_rank": 5100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4334,
+    "fields": {
+      "word": "compromise",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈkɑmprəˌmaɪz",
+      "ipa_us": "ˈkɑmprəˌmaɪz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự thỏa hiệp",
+      "definition_en": "An agreement in an argument in which the people involved reduce their demands or change their opinion in order to agree.",
+      "example_en": "It is hoped that a compromise will be reached in today's talks.",
+      "example_vi": "Hy vọng rằng một sự thỏa hiệp sẽ đạt được trong cuộc hội đàm hôm nay.",
+      "collocations_json": [
+        "reach a compromise",
+        "make a compromise",
+        "acceptable compromise"
+      ],
+      "synonyms_json": [
+        "agreement",
+        "settlement",
+        "understanding"
+      ],
+      "antonyms_json": [
+        "disagreement",
+        "intransigence"
+      ],
+      "mnemonic": "Co (together) + promise -> promising together to meet in the middle.",
+      "frequency_rank": 5400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4335,
+    "fields": {
+      "word": "compute",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "kəmˈpjut",
+      "ipa_us": "kəmˈpjut",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tính toán",
+      "definition_en": "To calculate an answer or amount by using a machine.",
+      "example_en": "We need to compute the total cost of the project.",
+      "example_vi": "Chúng ta cần tính toán tổng chi phí của dự án.",
+      "collocations_json": [
+        "compute data",
+        "compute the value",
+        "difficult to compute"
+      ],
+      "synonyms_json": [
+        "calculate",
+        "reckon",
+        "figure"
+      ],
+      "antonyms_json": [
+        "guess",
+        "estimate"
+      ],
+      "mnemonic": "What a COMPUTER does.",
+      "frequency_rank": 7800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4336,
+    "fields": {
+      "word": "conceal",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "kənˈsil",
+      "ipa_us": "kənˈsil",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "che giấu",
+      "definition_en": "To prevent something from being seen or known about.",
+      "example_en": "He tried to conceal his true feelings.",
+      "example_vi": "Anh ta cố gắng che giấu cảm xúc thật của mình.",
+      "collocations_json": [
+        "conceal the truth",
+        "conceal a weapon",
+        "attempt to conceal"
+      ],
+      "synonyms_json": [
+        "hide",
+        "cover",
+        "mask"
+      ],
+      "antonyms_json": [
+        "reveal",
+        "expose",
+        "show"
+      ],
+      "mnemonic": "Concealer is makeup used to conceal (hide) blemishes.",
+      "frequency_rank": 6300,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4337,
+    "fields": {
+      "word": "concede",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "kənˈsid",
+      "ipa_us": "kənˈsid",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thừa nhận, nhượng bộ",
+      "definition_en": "To admit, often unwillingly, that something is true.",
+      "example_en": "He was forced to concede that he had made a mistake.",
+      "example_vi": "Anh ta buộc phải thừa nhận rằng mình đã mắc sai lầm.",
+      "collocations_json": [
+        "concede defeat",
+        "concede a point",
+        "reluctantly concede"
+      ],
+      "synonyms_json": [
+        "admit",
+        "acknowledge",
+        "yield"
+      ],
+      "antonyms_json": [
+        "deny",
+        "refuse",
+        "contest"
+      ],
+      "mnemonic": "Con (with) + cede (go) -> To go along with someone's point (admit).",
+      "frequency_rank": 6800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4338,
+    "fields": {
+      "word": "conceive",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "kənˈsiv",
+      "ipa_us": "kənˈsiv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hình thành (ý tưởng), thụ thai",
+      "definition_en": "To imagine something; to become pregnant.",
+      "example_en": "It is difficult to conceive of a society without money.",
+      "example_vi": "Thật khó để tưởng tượng ra một xã hội không có tiền.",
+      "collocations_json": [
+        "conceive an idea",
+        "conceive a child",
+        "hard to conceive"
+      ],
+      "synonyms_json": [
+        "imagine",
+        "create",
+        "envision"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "To CONCEIVE an idea is to give birth to a CONCEPT.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4339,
+    "fields": {
+      "word": "conception",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "kənˈsɛpʃən",
+      "ipa_us": "kənˈsɛpʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khái niệm, sự thụ thai",
+      "definition_en": "An idea of what something or someone is like, or a basic understanding of a situation or a principle.",
+      "example_en": "People from different cultures have different conceptions of the world.",
+      "example_vi": "Những người từ các nền văn hóa khác nhau có những quan niệm khác nhau về thế giới.",
+      "collocations_json": [
+        "general conception",
+        "popular conception",
+        "at the time of conception"
+      ],
+      "synonyms_json": [
+        "idea",
+        "notion",
+        "understanding"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of conceive.",
+      "frequency_rank": 6700,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4340,
+    "fields": {
+      "word": "concession",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "kənˈsɛʃən",
+      "ipa_us": "kənˈsɛʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự nhượng bộ",
+      "definition_en": "Something that is allowed or given up, often in order to end a disagreement.",
+      "example_en": "Both sides had to make concessions to reach an agreement.",
+      "example_vi": "Cả hai bên đều phải đưa ra những nhượng bộ để đạt được thỏa thuận.",
+      "collocations_json": [
+        "make a concession",
+        "major concession",
+        "demand concessions"
+      ],
+      "synonyms_json": [
+        "compromise",
+        "allowance",
+        "yielding"
+      ],
+      "antonyms_json": [
+        "denial",
+        "refusal"
+      ],
+      "mnemonic": "Noun form of concede.",
+      "frequency_rank": 6900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4341,
+    "fields": {
+      "word": "condemn",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "kənˈdɛm",
+      "ipa_us": "kənˈdɛm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lên án, kết án",
+      "definition_en": "To criticize something or someone strongly, usually for moral reasons.",
+      "example_en": "The terrorist attack was widely condemned by world leaders.",
+      "example_vi": "Cuộc tấn công khủng bố đã bị các nhà lãnh đạo thế giới lên án rộng rãi.",
+      "collocations_json": [
+        "strongly condemn",
+        "widely condemn",
+        "condemn to death"
+      ],
+      "synonyms_json": [
+        "censure",
+        "denounce",
+        "criticize"
+      ],
+      "antonyms_json": [
+        "praise",
+        "approve",
+        "commend"
+      ],
+      "mnemonic": "Con (with) + demn (damn) -> to damn someone, to condemn them.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4342,
+    "fields": {
+      "word": "confer",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "kənˈfɜr",
+      "ipa_us": "kənˈfɜr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hội ý, trao tặng",
+      "definition_en": "To exchange ideas on a particular subject, often in order to reach a decision on what action to take.",
+      "example_en": "I need to confer with my lawyer before signing this document.",
+      "example_vi": "Tôi cần hội ý với luật sư của mình trước khi ký tài liệu này.",
+      "collocations_json": [
+        "confer with",
+        "confer a degree",
+        "confer an honor"
+      ],
+      "synonyms_json": [
+        "consult",
+        "discuss",
+        "bestow"
+      ],
+      "antonyms_json": [
+        "withhold",
+        "refuse"
+      ],
+      "mnemonic": "People at a CONFERence CONFER with each other.",
+      "frequency_rank": 7200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4343,
+    "fields": {
+      "word": "confession",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "kənˈfɛʃən",
+      "ipa_us": "kənˈfɛʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lời thú tội",
+      "definition_en": "The act of admitting that you have done something wrong or illegal.",
+      "example_en": "He made a full confession to the police.",
+      "example_vi": "Anh ta đã nhận tội hoàn toàn với cảnh sát.",
+      "collocations_json": [
+        "make a confession",
+        "extract a confession",
+        "signed confession"
+      ],
+      "synonyms_json": [
+        "admission",
+        "acknowledgment"
+      ],
+      "antonyms_json": [
+        "denial",
+        "concealment"
+      ],
+      "mnemonic": "Noun form of confess.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4344,
+    "fields": {
+      "word": "configuration",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "kənˌfɪɡjəˈreɪʃən",
+      "ipa_us": "kənˌfɪɡjəˈreɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cấu hình, hình thể",
+      "definition_en": "The particular arrangement or pattern of a group of related things.",
+      "example_en": "We tried the furniture in different configurations.",
+      "example_vi": "Chúng tôi đã thử sắp xếp đồ đạc theo các cấu hình khác nhau.",
+      "collocations_json": [
+        "system configuration",
+        "hardware configuration",
+        "change the configuration"
+      ],
+      "synonyms_json": [
+        "arrangement",
+        "setup",
+        "layout"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "How you FIGURE out the arrangement of something.",
+      "frequency_rank": 6100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4345,
+    "fields": {
+      "word": "confine",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "kənˈfaɪn",
+      "ipa_us": "kənˈfaɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giam giữ, hạn chế",
+      "definition_en": "To limit an activity, person, or problem in some way.",
+      "example_en": "Please confine your remarks to the topic under discussion.",
+      "example_vi": "Xin vui lòng giới hạn nhận xét của bạn trong chủ đề đang được thảo luận.",
+      "collocations_json": [
+        "confine to",
+        "confine to bed",
+        "confine yourself to"
+      ],
+      "synonyms_json": [
+        "restrict",
+        "limit",
+        "imprison"
+      ],
+      "antonyms_json": [
+        "release",
+        "free",
+        "expand"
+      ],
+      "mnemonic": "Con (with) + fine (end/limit) -> to put limits on someone.",
+      "frequency_rank": 5900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4346,
+    "fields": {
+      "word": "confirmation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌkɑnfərˈmeɪʃən",
+      "ipa_us": "ˌkɑnfərˈmeɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự xác nhận",
+      "definition_en": "A statement, often written, that an arrangement or meeting is certain.",
+      "example_en": "We are waiting for written confirmation of the booking.",
+      "example_vi": "Chúng tôi đang chờ xác nhận bằng văn bản về việc đặt phòng.",
+      "collocations_json": [
+        "written confirmation",
+        "await confirmation",
+        "receive confirmation"
+      ],
+      "synonyms_json": [
+        "verification",
+        "proof",
+        "validation"
+      ],
+      "antonyms_json": [
+        "denial",
+        "cancellation"
+      ],
+      "mnemonic": "Noun form of confirm.",
+      "frequency_rank": 5000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4347,
+    "fields": {
+      "word": "confront",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "kənˈfrʌnt",
+      "ipa_us": "kənˈfrʌnt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đối mặt, đương đầu",
+      "definition_en": "To face, meet, or deal with a difficult situation or person.",
+      "example_en": "It's an issue we'll have to confront at some point.",
+      "example_vi": "Đó là một vấn đề mà chúng ta sẽ phải đối mặt vào một thời điểm nào đó.",
+      "collocations_json": [
+        "confront a problem",
+        "confront reality",
+        "be confronted with"
+      ],
+      "synonyms_json": [
+        "face",
+        "tackle",
+        "challenge"
+      ],
+      "antonyms_json": [
+        "avoid",
+        "evade",
+        "flee"
+      ],
+      "mnemonic": "Con (with) + front -> to be face-to-face with someone or something.",
+      "frequency_rank": 5400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4348,
+    "fields": {
+      "word": "confrontation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌkɑnfrənˈteɪʃən",
+      "ipa_us": "ˌkɑnfrənˈteɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự đương đầu, cuộc đối đầu",
+      "definition_en": "A fight or argument.",
+      "example_en": "She wanted to avoid a confrontation with her boss.",
+      "example_vi": "Cô ấy muốn tránh một cuộc đối đầu với sếp của mình.",
+      "collocations_json": [
+        "violent confrontation",
+        "avoid confrontation",
+        "direct confrontation"
+      ],
+      "synonyms_json": [
+        "conflict",
+        "clash",
+        "encounter"
+      ],
+      "antonyms_json": [
+        "agreement",
+        "harmony",
+        "peace"
+      ],
+      "mnemonic": "Noun form of confront.",
+      "frequency_rank": 6700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4349,
+    "fields": {
+      "word": "congratulate",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "kənˈɡræʧəˌleɪt",
+      "ipa_us": "kənˈɡræʧəˌleɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chúc mừng",
+      "definition_en": "To praise someone and say that you approve of or are pleased about a special or unusual achievement.",
+      "example_en": "I'd like to congratulate you on your success.",
+      "example_vi": "Tôi muốn chúc mừng bạn về thành công của bạn.",
+      "collocations_json": [
+        "congratulate someone on",
+        "warmly congratulate"
+      ],
+      "synonyms_json": [
+        "praise",
+        "compliment",
+        "commend"
+      ],
+      "antonyms_json": [
+        "criticize",
+        "condemn"
+      ],
+      "mnemonic": "Con (with) + gratulate (grace/joy) -> to share joy with someone.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4350,
+    "fields": {
+      "word": "congregation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˌkɑŋɡrəˈɡeɪʃən",
+      "ipa_us": "ˌkɑŋɡrəˈɡeɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cộng đoàn, giáo đoàn",
+      "definition_en": "A group of people who have come together in a religious building for worship and prayer.",
+      "example_en": "The priest addressed the congregation.",
+      "example_vi": "Vị linh mục đã phát biểu trước giáo đoàn.",
+      "collocations_json": [
+        "large congregation",
+        "address the congregation",
+        "members of the congregation"
+      ],
+      "synonyms_json": [
+        "flock",
+        "assembly",
+        "gathering"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Con (together) + greg (flock) -> a flock of people gathered together.",
+      "frequency_rank": 7300,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4351,
+    "fields": {
+      "word": "congressional",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "kənˈɡrɛʃənəl",
+      "ipa_us": "kənˈɡrɛʃənəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về quốc hội",
+      "definition_en": "Relating to the US Congress.",
+      "example_en": "There will be a congressional hearing on the matter.",
+      "example_vi": "Sẽ có một phiên điều trần của quốc hội về vấn đề này.",
+      "collocations_json": [
+        "congressional hearing",
+        "congressional committee",
+        "congressional election"
+      ],
+      "synonyms_json": [
+        "legislative",
+        "parliamentary"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adjective form of Congress.",
+      "frequency_rank": 5500,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4352,
+    "fields": {
+      "word": "conquer",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈkɑŋkər",
+      "ipa_us": "ˈkɑŋkər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "xâm chiếm, chinh phục",
+      "definition_en": "To take control or possession of foreign land, or a group of people, by force.",
+      "example_en": "The Spanish conquered the New World in the 16th century.",
+      "example_vi": "Người Tây Ban Nha đã chinh phục Tân Thế giới vào thế kỷ 16.",
+      "collocations_json": [
+        "conquer fear",
+        "conquer a country",
+        "divide and conquer"
+      ],
+      "synonyms_json": [
+        "defeat",
+        "overcome",
+        "subdue"
+      ],
+      "antonyms_json": [
+        "surrender",
+        "yield",
+        "submit"
+      ],
+      "mnemonic": "Julius Caesar said: 'Veni, vidi, vici' (I came, I saw, I conquered).",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4353,
+    "fields": {
+      "word": "conscience",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈkɑnʃəns",
+      "ipa_us": "ˈkɑnʃəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lương tâm",
+      "definition_en": "The part of you that judges how moral your own actions are and makes you feel guilty about bad things that you have done.",
+      "example_en": "A guilty conscience needs no accuser.",
+      "example_vi": "Một lương tâm cắn rứt thì không cần ai buộc tội.",
+      "collocations_json": [
+        "clear conscience",
+        "guilty conscience",
+        "matter of conscience"
+      ],
+      "synonyms_json": [
+        "morals",
+        "principles",
+        "scruples"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Con (with) + science (knowledge) -> knowledge of right and wrong within yourself.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

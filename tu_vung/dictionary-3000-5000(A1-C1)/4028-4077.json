@@ -1,0 +1,1824 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 4028,
+    "fields": {
+      "word": "teens",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "tinz",
+      "ipa_us": "tinz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tuổi thanh thiếu niên",
+      "definition_en": "The years of a person's life between the ages of 13 and 19.",
+      "example_en": "She's in her late teens.",
+      "example_vi": "Cô ấy đang ở độ tuổi cuối thanh thiếu niên.",
+      "collocations_json": [
+        "in your teens",
+        "early teens",
+        "late teens"
+      ],
+      "synonyms_json": [
+        "adolescence"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Teenagers (từ 13 đến 19 có đuôi -teen) -> teens là lứa tuổi này.",
+      "frequency_rank": 4500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4029,
+    "fields": {
+      "word": "temple",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "travel",
+      "ipa_uk": "ˈtɛmpəl",
+      "ipa_us": "ˈtɛmpəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đền, điện, miếu",
+      "definition_en": "A building used for religious worship.",
+      "example_en": "We visited an ancient Buddhist temple.",
+      "example_vi": "Chúng tôi đã đến thăm một ngôi đền Phật giáo cổ đại.",
+      "collocations_json": [
+        "Buddhist temple",
+        "ancient temple",
+        "go to the temple"
+      ],
+      "synonyms_json": [
+        "shrine",
+        "sanctuary"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tem (tem) + ple (phố) -> Ngôi đền thiêng nằm trên phố bán tem.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4030,
+    "fields": {
+      "word": "temporarily",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˌtɛmpəˈrɛrəli",
+      "ipa_us": "ˌtɛmpəˈrɛrəli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một cách tạm thời",
+      "definition_en": "For a limited period of time; not permanently.",
+      "example_en": "The road is temporarily closed for repairs.",
+      "example_vi": "Con đường tạm thời bị đóng để sửa chữa.",
+      "collocations_json": [
+        "temporarily closed",
+        "temporarily suspended",
+        "temporarily unavailable"
+      ],
+      "synonyms_json": [
+        "briefly",
+        "momentarily"
+      ],
+      "antonyms_json": [
+        "permanently"
+      ],
+      "mnemonic": "Từ temporary (tạm thời) + ly -> trạng từ chỉ sự tạm thời.",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4031,
+    "fields": {
+      "word": "tendency",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtɛndənsi",
+      "ipa_us": "ˈtɛndənsi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "xu hướng, khuynh hướng",
+      "definition_en": "A likelihood to happen or to have a particular characteristic or effect.",
+      "example_en": "He has a tendency to forget things when he's stressed.",
+      "example_vi": "Anh ấy có xu hướng quên đồ khi bị căng thẳng.",
+      "collocations_json": [
+        "have a tendency to",
+        "growing tendency",
+        "natural tendency"
+      ],
+      "synonyms_json": [
+        "inclination",
+        "trend",
+        "propensity"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tend (có xu hướng) -> Tendency (khuynh hướng).",
+      "frequency_rank": 3200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4032,
+    "fields": {
+      "word": "tension",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtɛnʃən",
+      "ipa_us": "ˈtɛnʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự căng thẳng",
+      "definition_en": "A feeling of nervousness before an important or difficult event; a state of hostility between groups.",
+      "example_en": "You could feel the tension in the room.",
+      "example_vi": "Bạn có thể cảm nhận được sự căng thẳng trong phòng.",
+      "collocations_json": [
+        "ease the tension",
+        "build tension",
+        "political tension"
+      ],
+      "synonyms_json": [
+        "stress",
+        "strain",
+        "pressure"
+      ],
+      "antonyms_json": [
+        "relaxation",
+        "peace"
+      ],
+      "mnemonic": "Tense (căng thẳng) -> Tension là danh từ.",
+      "frequency_rank": 3000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4033,
+    "fields": {
+      "word": "terminal",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "travel",
+      "ipa_uk": "ˈtɜrmənəl",
+      "ipa_us": "ˈtɜrmənəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhà ga, giai đoạn cuối",
+      "definition_en": "A building where you can get onto an aircraft, bus, or ship; or an extreme/final stage (medical).",
+      "example_en": "Your flight departs from terminal 3.",
+      "example_vi": "Chuyến bay của bạn khởi hành từ nhà ga số 3.",
+      "collocations_json": [
+        "airport terminal",
+        "bus terminal",
+        "terminal cancer"
+      ],
+      "synonyms_json": [
+        "station",
+        "end"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Nơi kết thúc (terminate) một chặng đường để chuyển tiếp gọi là Terminal (nhà ga).",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4034,
+    "fields": {
+      "word": "terms",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "tɜrmz",
+      "ipa_us": "tɜrmz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "điều khoản, điều kiện",
+      "definition_en": "The conditions that are part of an agreement or arrangement.",
+      "example_en": "We must read the terms and conditions carefully.",
+      "example_vi": "Chúng ta phải đọc kỹ các điều khoản và điều kiện.",
+      "collocations_json": [
+        "terms and conditions",
+        "in terms of",
+        "on good terms"
+      ],
+      "synonyms_json": [
+        "conditions",
+        "provisions"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Term (kỳ hạn/thuật ngữ) số nhiều thường mang nghĩa các điều khoản trong hợp đồng.",
+      "frequency_rank": 2000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4035,
+    "fields": {
+      "word": "terribly",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtɛrəbli",
+      "ipa_us": "ˈtɛrəbli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "rất, tồi tệ",
+      "definition_en": "Very badly, or extremely.",
+      "example_en": "I'm terribly sorry for the delay.",
+      "example_vi": "Tôi vô cùng xin lỗi vì sự chậm trễ.",
+      "collocations_json": [
+        "terribly sorry",
+        "terribly wrong",
+        "terribly important"
+      ],
+      "synonyms_json": [
+        "awfully",
+        "extremely",
+        "badly"
+      ],
+      "antonyms_json": [
+        "wonderfully",
+        "well"
+      ],
+      "mnemonic": "Terrible (tồi tệ) thêm -ly. Khi dùng nhấn mạnh thì nó nghĩa là 'rất/cực kỳ' (như terribly sorry).",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4036,
+    "fields": {
+      "word": "terrify",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtɛrəˌfaɪ",
+      "ipa_us": "ˈtɛrəˌfaɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "làm khiếp sợ",
+      "definition_en": "To frighten someone very much.",
+      "example_en": "The idea of speaking in public terrifies her.",
+      "example_vi": "Ý nghĩ nói trước đám đông làm cô ấy khiếp sợ.",
+      "collocations_json": [
+        "terrify someone",
+        "absolutely terrify"
+      ],
+      "synonyms_json": [
+        "frighten",
+        "scare",
+        "horrify"
+      ],
+      "antonyms_json": [
+        "comfort",
+        "reassure"
+      ],
+      "mnemonic": "Terror (sự kinh hoàng) + ify -> Động từ mang nghĩa làm cho ai đó kinh hoàng.",
+      "frequency_rank": 4500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4037,
+    "fields": {
+      "word": "territory",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtɛrɪˌtɔri",
+      "ipa_us": "ˈtɛrəˌtɔri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lãnh thổ",
+      "definition_en": "Area of land controlled by a particular country or animal.",
+      "example_en": "The animals protect their territory fiercely.",
+      "example_vi": "Các loài động vật bảo vệ lãnh thổ của chúng một cách quyết liệt.",
+      "collocations_json": [
+        "enemy territory",
+        "occupy territory",
+        "defend territory"
+      ],
+      "synonyms_json": [
+        "region",
+        "domain",
+        "area"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Terra (tiếng Latinh là đất) -> Territory là vùng đất đai, lãnh thổ.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4038,
+    "fields": {
+      "word": "terror",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtɛrər",
+      "ipa_us": "ˈtɛrər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự kinh hoàng, nỗi khiếp sợ",
+      "definition_en": "Extreme fear, or violent action that causes extreme fear.",
+      "example_en": "People fled in terror as the fire spread.",
+      "example_vi": "Mọi người bỏ chạy trong sự kinh hoàng khi ngọn lửa lan rộng.",
+      "collocations_json": [
+        "sheer terror",
+        "flee in terror",
+        "strike terror"
+      ],
+      "synonyms_json": [
+        "fear",
+        "horror",
+        "panic"
+      ],
+      "antonyms_json": [
+        "calm",
+        "courage"
+      ],
+      "mnemonic": "Cảm giác khi xem một bộ phim kinh dị (horror), bạn sẽ bị bao trùm bởi terror.",
+      "frequency_rank": 3900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4039,
+    "fields": {
+      "word": "terrorism",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtɛrəˌrɪzəm",
+      "ipa_us": "ˈtɛrəˌrɪzəm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chủ nghĩa khủng bố",
+      "definition_en": "The use of violence and threats to intimidate or coerce, especially for political purposes.",
+      "example_en": "The government has sworn to fight global terrorism.",
+      "example_vi": "Chính phủ đã thề sẽ chống lại chủ nghĩa khủng bố toàn cầu.",
+      "collocations_json": [
+        "act of terrorism",
+        "global terrorism",
+        "fight terrorism"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Terror (kinh hoàng) + ism (chủ nghĩa) -> Chủ nghĩa gieo rắc sự sợ hãi (khủng bố).",
+      "frequency_rank": 3700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4040,
+    "fields": {
+      "word": "terrorist",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtɛrərɪst",
+      "ipa_us": "ˈtɛrərɪst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kẻ khủng bố",
+      "definition_en": "Someone who uses violent action, or threats of violent action, for political purposes.",
+      "example_en": "The terrorists demanded a ransom for the hostages.",
+      "example_vi": "Những kẻ khủng bố đòi tiền chuộc cho các con tin.",
+      "collocations_json": [
+        "terrorist attack",
+        "terrorist group",
+        "suspected terrorist"
+      ],
+      "synonyms_json": [
+        "extremist",
+        "bomber"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Terror (kinh hoàng) + ist (người) -> Người tiến hành khủng bố.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4041,
+    "fields": {
+      "word": "testing",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtɛstɪŋ",
+      "ipa_us": "ˈtɛstɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự thử nghiệm, kiểm tra",
+      "definition_en": "The activity of checking whether something is correct or working properly.",
+      "example_en": "The new software is currently undergoing testing.",
+      "example_vi": "Phần mềm mới hiện đang trải qua quá trình thử nghiệm.",
+      "collocations_json": [
+        "animal testing",
+        "drug testing",
+        "undergo testing"
+      ],
+      "synonyms_json": [
+        "examination",
+        "evaluation"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Test (kiểm tra) + ing -> Quá trình kiểm tra, thử nghiệm sản phẩm hoặc giả thuyết.",
+      "frequency_rank": 3200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4042,
+    "fields": {
+      "word": "textbook",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈtɛkstˌbʊk",
+      "ipa_us": "ˈtɛkstˌbʊk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sách giáo khoa",
+      "definition_en": "A book that contains detailed information about a subject for people who are studying that subject.",
+      "example_en": "We need to buy a new history textbook for this semester.",
+      "example_vi": "Chúng ta cần mua một cuốn sách giáo khoa lịch sử mới cho học kỳ này.",
+      "collocations_json": [
+        "history textbook",
+        "textbook example",
+        "read a textbook"
+      ],
+      "synonyms_json": [
+        "coursebook",
+        "manual"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Text (văn bản) + book (sách) -> Sách chuyên chứa các đoạn văn bản học thuật để học tập.",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4043,
+    "fields": {
+      "word": "theft",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "θɛft",
+      "ipa_us": "θɛft",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vụ trộm, tội ăn trộm",
+      "definition_en": "The act of dishonestly taking something that belongs to someone else.",
+      "example_en": "He was arrested for car theft.",
+      "example_vi": "Anh ta bị bắt vì tội trộm xe hơi.",
+      "collocations_json": [
+        "identity theft",
+        "car theft",
+        "commit a theft"
+      ],
+      "synonyms_json": [
+        "stealing",
+        "robbery",
+        "burglary"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Danh từ của động từ thieve (ăn trộm) hoặc liên quan đến thief (kẻ trộm).",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4044,
+    "fields": {
+      "word": "therapist",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "medical",
+      "ipa_uk": "ˈθɛrəpəst",
+      "ipa_us": "ˈθɛrəpɪst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhà trị liệu",
+      "definition_en": "Someone whose job is to treat a particular type of illness or problem, often using psychological methods.",
+      "example_en": "She is seeing a therapist to help with her anxiety.",
+      "example_vi": "Cô ấy đang gặp bác sĩ trị liệu để giúp giảm lo âu.",
+      "collocations_json": [
+        "see a therapist",
+        "physical therapist",
+        "speech therapist"
+      ],
+      "synonyms_json": [
+        "counselor",
+        "healer"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Therapy (trị liệu) + ist (người) -> Người thực hiện phương pháp trị liệu.",
+      "frequency_rank": 4200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4045,
+    "fields": {
+      "word": "thesis",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈθisəs",
+      "ipa_us": "ˈθisɪs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "luận văn, luận án",
+      "definition_en": "A long piece of writing on a particular subject, especially one that is done for a higher college or university degree.",
+      "example_en": "I am writing my master's thesis on climate change.",
+      "example_vi": "Tôi đang viết luận văn thạc sĩ về biến đổi khí hậu.",
+      "collocations_json": [
+        "master's thesis",
+        "write a thesis",
+        "thesis statement"
+      ],
+      "synonyms_json": [
+        "dissertation",
+        "paper"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Đọc là 'thi-sít' -> Thi xong sẽ phải ngồi gõ phím viết luận văn tốt nghiệp.",
+      "frequency_rank": 4500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4046,
+    "fields": {
+      "word": "thorough",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈθɜroʊ",
+      "ipa_us": "ˈθɜroʊ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kỹ lưỡng, thấu đáo",
+      "definition_en": "Detailed and careful.",
+      "example_en": "The police conducted a thorough investigation of the crime scene.",
+      "example_vi": "Cảnh sát đã tiến hành một cuộc điều tra kỹ lưỡng hiện trường vụ án.",
+      "collocations_json": [
+        "thorough investigation",
+        "thorough understanding",
+        "thorough search"
+      ],
+      "synonyms_json": [
+        "comprehensive",
+        "exhaustive",
+        "meticulous"
+      ],
+      "antonyms_json": [
+        "superficial",
+        "careless",
+        "incomplete"
+      ],
+      "mnemonic": "Nhìn giống chữ 'through' (xuyên suốt) có thêm chữ 'o' -> Xem xét xuyên suốt một cách cặn kẽ.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4047,
+    "fields": {
+      "word": "thoroughly",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈθɜroʊli",
+      "ipa_us": "ˈθɜroʊli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một cách kỹ lưỡng, hoàn toàn",
+      "definition_en": "Completely, very much.",
+      "example_en": "I thoroughly enjoyed the performance.",
+      "example_vi": "Tôi hoàn toàn thích buổi biểu diễn đó.",
+      "collocations_json": [
+        "thoroughly investigate",
+        "thoroughly enjoy",
+        "thoroughly confused"
+      ],
+      "synonyms_json": [
+        "completely",
+        "absolutely",
+        "fully"
+      ],
+      "antonyms_json": [
+        "partially",
+        "slightly"
+      ],
+      "mnemonic": "Trạng từ của thorough, dùng để nhấn mạnh mức độ làm việc gì đó một cách cặn kẽ.",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4048,
+    "fields": {
+      "word": "thumb",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "θʌm",
+      "ipa_us": "θʌm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ngón tay cái",
+      "definition_en": "The short, thick finger on the side of your hand.",
+      "example_en": "She accidentally hit her thumb with the hammer.",
+      "example_vi": "Cô ấy vô tình đập búa vào ngón tay cái của mình.",
+      "collocations_json": [
+        "thumbs up",
+        "thumbs down",
+        "rule of thumb"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Nút 'Like' trên Facebook là biểu tượng bàn tay có ngón tay cái (thumb) giơ lên.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4049,
+    "fields": {
+      "word": "timing",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtaɪmɪŋ",
+      "ipa_us": "ˈtaɪmɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự chọn đúng lúc",
+      "definition_en": "The time when something happens or is planned to happen.",
+      "example_en": "The timing of the announcement was perfect.",
+      "example_vi": "Thời điểm của thông báo đó là hoàn hảo.",
+      "collocations_json": [
+        "perfect timing",
+        "bad timing",
+        "good timing"
+      ],
+      "synonyms_json": [
+        "scheduling",
+        "pacing"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Time (thời gian) + ing -> Việc tính toán, chọn lựa thời điểm.",
+      "frequency_rank": 3700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4050,
+    "fields": {
+      "word": "tissue",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "medical",
+      "ipa_uk": "ˈtɪsˌju",
+      "ipa_us": "ˈtɪʃu",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "mô (cơ thể), khăn giấy",
+      "definition_en": "A group of connected cells in an animal or plant; or a soft piece of paper used for cleaning your nose.",
+      "example_en": "He handed me a tissue to wipe my tears.",
+      "example_vi": "Anh ấy đưa cho tôi một tờ khăn giấy để lau nước mắt.",
+      "collocations_json": [
+        "muscle tissue",
+        "facial tissue",
+        "box of tissues"
+      ],
+      "synonyms_json": [
+        "cell",
+        "handkerchief"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tissue có hai nghĩa hay gặp: tờ khăn giấy mềm, và mô liên kết trong cơ thể người.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4051,
+    "fields": {
+      "word": "ton",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "tʌn",
+      "ipa_us": "tʌn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tấn, rất nhiều",
+      "definition_en": "A unit of weight equal to 2,000 pounds (US) or 2,240 pounds (UK); or informally, a large amount.",
+      "example_en": "The truck can carry up to five tons of cargo.",
+      "example_vi": "Xe tải có thể chở tới năm tấn hàng hóa.",
+      "collocations_json": [
+        "a ton of",
+        "weighs a ton",
+        "metric ton"
+      ],
+      "synonyms_json": [
+        "load",
+        "lot"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ton đọc là /tʌn/ (tấn). Cụm 'a ton of' thường dùng để chỉ một số lượng khổng lồ.",
+      "frequency_rank": 3900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4052,
+    "fields": {
+      "word": "tonne",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "tʌn",
+      "ipa_us": "tʌn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tấn (hệ mét)",
+      "definition_en": "A unit of weight equal to 1,000 kilograms.",
+      "example_en": "The elephant weighs about a tonne.",
+      "example_vi": "Con voi nặng khoảng một tấn.",
+      "collocations_json": [
+        "metric tonne",
+        "per tonne"
+      ],
+      "synonyms_json": [
+        "metric ton"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Giống 'ton' nhưng là cách viết của Anh để chỉ tấn hệ mét (đúng 1000kg).",
+      "frequency_rank": 4800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4053,
+    "fields": {
+      "word": "tournament",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈtʊrnəmənt",
+      "ipa_us": "ˈtʊrnəmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giải đấu",
+      "definition_en": "A competition for teams or single players in which a series of games is played.",
+      "example_en": "He won the local chess tournament.",
+      "example_vi": "Anh ấy đã vô địch giải cờ vua địa phương.",
+      "collocations_json": [
+        "tennis tournament",
+        "golf tournament",
+        "win a tournament"
+      ],
+      "synonyms_json": [
+        "competition",
+        "championship",
+        "contest"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Thường nghe chữ 'tour đấu', tournament là một giải đấu vòng loại.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4054,
+    "fields": {
+      "word": "trace",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "treɪs",
+      "ipa_us": "treɪs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lần theo, dấu vết",
+      "definition_en": "To find someone or something that was lost; or a sign that something has happened or existed.",
+      "example_en": "The police are trying to trace his exact location.",
+      "example_vi": "Cảnh sát đang cố gắng lần theo vị trí chính xác của anh ta.",
+      "collocations_json": [
+        "trace back to",
+        "leave no trace",
+        "without a trace"
+      ],
+      "synonyms_json": [
+        "track",
+        "trail",
+        "mark"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Trace giống chữ 'tra' trong tiếng Việt -> Tra khảo để tìm ra dấu vết.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4055,
+    "fields": {
+      "word": "trading",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈtreɪdɪŋ",
+      "ipa_us": "ˈtreɪdɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự giao dịch, thương mại",
+      "definition_en": "The activity of buying and selling goods and services.",
+      "example_en": "Online trading has become very popular.",
+      "example_vi": "Giao dịch trực tuyến đã trở nên rất phổ biến.",
+      "collocations_json": [
+        "insider trading",
+        "trading partner",
+        "stock trading"
+      ],
+      "synonyms_json": [
+        "commerce",
+        "business",
+        "dealing"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Trade (thương mại) + ing -> Hành động mua bán, giao dịch liên tục.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4056,
+    "fields": {
+      "word": "tragedy",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtræʤədi",
+      "ipa_us": "ˈtræʤədi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bi kịch, thảm kịch",
+      "definition_en": "A very sad event or situation, especially one involving death or suffering.",
+      "example_en": "The earthquake was a terrible tragedy.",
+      "example_vi": "Trận động đất là một thảm kịch tồi tệ.",
+      "collocations_json": [
+        "terrible tragedy",
+        "human tragedy",
+        "end in tragedy"
+      ],
+      "synonyms_json": [
+        "disaster",
+        "catastrophe",
+        "calamity"
+      ],
+      "antonyms_json": [
+        "comedy",
+        "blessing"
+      ],
+      "mnemonic": "Tragedy âm giống 'tra tấn' -> Gợi lên sự việc rất bi thảm, như một bi kịch đau đớn.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4057,
+    "fields": {
+      "word": "tragic",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtræʤɪk",
+      "ipa_us": "ˈtræʤɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bi thảm",
+      "definition_en": "Very sad, often involving death and suffering.",
+      "example_en": "It is tragic that so many young people die in accidents.",
+      "example_vi": "Thật bi thảm khi có quá nhiều người trẻ chết trong các vụ tai nạn.",
+      "collocations_json": [
+        "tragic accident",
+        "tragic death",
+        "tragic loss"
+      ],
+      "synonyms_json": [
+        "heartbreaking",
+        "disastrous"
+      ],
+      "antonyms_json": [
+        "comic",
+        "happy",
+        "fortunate"
+      ],
+      "mnemonic": "Tính từ của tragedy (bi kịch).",
+      "frequency_rank": 3900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4058,
+    "fields": {
+      "word": "trait",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "treɪt",
+      "ipa_us": "treɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đặc điểm, nét (tính cách)",
+      "definition_en": "A particular characteristic that can produce a particular type of behaviour.",
+      "example_en": "Patience is a good trait for a teacher to have.",
+      "example_vi": "Kiên nhẫn là một đặc điểm tốt mà một giáo viên nên có.",
+      "collocations_json": [
+        "personality trait",
+        "character trait",
+        "genetic trait"
+      ],
+      "synonyms_json": [
+        "characteristic",
+        "feature",
+        "attribute"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Trait đọc giống 'trây' -> Cái 'nét' tính cách này cứ lỳ ra, rất đặc trưng.",
+      "frequency_rank": 4500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4059,
+    "fields": {
+      "word": "transmit",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "technology",
+      "ipa_uk": "trænzˈmɪt",
+      "ipa_us": "trænsˈmɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "truyền, phát (tín hiệu)",
+      "definition_en": "To broadcast something, or to send something from one person or place to another.",
+      "example_en": "The disease is transmitted by mosquitoes.",
+      "example_vi": "Căn bệnh này được truyền đi bởi muỗi.",
+      "collocations_json": [
+        "transmit a signal",
+        "transmit data",
+        "transmit the virus"
+      ],
+      "synonyms_json": [
+        "broadcast",
+        "transfer",
+        "convey"
+      ],
+      "antonyms_json": [
+        "receive"
+      ],
+      "mnemonic": "Trans (qua) + mit (gửi) -> Gửi tín hiệu từ nơi này qua nơi khác (phát sóng, lây bệnh).",
+      "frequency_rank": 4200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4060,
+    "fields": {
+      "word": "transportation",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "travel",
+      "ipa_uk": "ˌtrænspərˈteɪʃən",
+      "ipa_us": "ˌtrænspərˈteɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự giao thông, vận tải",
+      "definition_en": "The movement of people or goods from one place to another.",
+      "example_en": "Bicycles are a popular means of transportation.",
+      "example_vi": "Xe đạp là một phương tiện giao thông phổ biến.",
+      "collocations_json": [
+        "public transportation",
+        "means of transportation"
+      ],
+      "synonyms_json": [
+        "transport",
+        "transit"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Transport + ation -> Hệ thống vận tải, sự di chuyển qua lại.",
+      "frequency_rank": 3000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4061,
+    "fields": {
+      "word": "trap",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "træp",
+      "ipa_us": "træp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái bẫy, gài bẫy",
+      "definition_en": "A device or hole for catching animals; or a dangerous situation from which it is hard to escape.",
+      "example_en": "The bear was caught in a trap.",
+      "example_vi": "Con gấu đã bị bắt trong một cái bẫy.",
+      "collocations_json": [
+        "set a trap",
+        "fall into a trap",
+        "feel trapped"
+      ],
+      "synonyms_json": [
+        "snare",
+        "pitfall"
+      ],
+      "antonyms_json": [
+        "free",
+        "release"
+      ],
+      "mnemonic": "Thường nghe câu 'Mày dính trap rồi' tức là đã rơi vào cái bẫy tình cảm.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4062,
+    "fields": {
+      "word": "treasure",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtrɛʒər",
+      "ipa_us": "ˈtrɛʒər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kho báu, trân trọng",
+      "definition_en": "Very valuable things, usually in the form of a store of precious metals, precious stones, or money.",
+      "example_en": "The pirates buried their treasure on the island.",
+      "example_vi": "Những tên cướp biển đã chôn kho báu của chúng trên đảo.",
+      "collocations_json": [
+        "hidden treasure",
+        "buried treasure",
+        "national treasure"
+      ],
+      "synonyms_json": [
+        "wealth",
+        "riches",
+        "value"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Kho báu này quý giá nên tôi sẽ luôn treasure (trân trọng) nó.",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4063,
+    "fields": {
+      "word": "tribe",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "traɪb",
+      "ipa_us": "traɪb",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bộ lạc",
+      "definition_en": "A group of people, often of related families, who live together, sharing the same language, culture, and history.",
+      "example_en": "They spent time living with a native tribe in the Amazon.",
+      "example_vi": "Họ đã dành thời gian sống với một bộ lạc bản địa ở Amazon.",
+      "collocations_json": [
+        "indigenous tribe",
+        "native tribe",
+        "nomadic tribe"
+      ],
+      "synonyms_json": [
+        "clan",
+        "ethnic group"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tribe đọc giống 'trai' -> Một bộ lạc gồm rất nhiều con trai có chung nguồn gốc.",
+      "frequency_rank": 4100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4064,
+    "fields": {
+      "word": "trigger",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈtrɪɡər",
+      "ipa_us": "ˈtrɪɡər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cò súng, gây ra",
+      "definition_en": "To cause something to start; or the part of a gun that you pull to fire it.",
+      "example_en": "Certain foods can trigger my allergies.",
+      "example_vi": "Một số loại thức ăn có thể gây ra bệnh dị ứng của tôi.",
+      "collocations_json": [
+        "pull the trigger",
+        "trigger a response",
+        "trigger a reaction"
+      ],
+      "synonyms_json": [
+        "provoke",
+        "cause",
+        "prompt"
+      ],
+      "antonyms_json": [
+        "prevent",
+        "halt"
+      ],
+      "mnemonic": "Trigger (kích hoạt) -> Cò súng, khi kéo cò sẽ kích hoạt đạn bay ra.",
+      "frequency_rank": 3700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4065,
+    "fields": {
+      "word": "trillion",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈtrɪljən",
+      "ipa_us": "ˈtrɪljən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nghìn tỷ",
+      "definition_en": "The number 1,000,000,000,000.",
+      "example_en": "The country's national debt is over one trillion dollars.",
+      "example_vi": "Nợ quốc gia của nước này là hơn một nghìn tỷ đô la.",
+      "collocations_json": [
+        "trillion dollars",
+        "multi-trillion"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Million (triệu) -> Billion (tỷ) -> Trillion (nghìn tỷ). Tiền tố Tri- mang nghĩa là 3.",
+      "frequency_rank": 4300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4066,
+    "fields": {
+      "word": "troop",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "trup",
+      "ipa_us": "trup",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quân đội, đoàn quân",
+      "definition_en": "Soldiers on duty in a large group.",
+      "example_en": "The president decided to send more troops to the region.",
+      "example_vi": "Tổng thống đã quyết định gửi thêm quân đội đến khu vực này.",
+      "collocations_json": [
+        "send troops",
+        "withdraw troops",
+        "combat troops"
+      ],
+      "synonyms_json": [
+        "soldiers",
+        "armed forces"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Troop (quân đội) nghe như 'trúc' -> Đoàn quân đi thành hàng thẳng tắp như rừng trúc.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4067,
+    "fields": {
+      "word": "tsunami",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "nature",
+      "ipa_uk": "tsuˈnɑmi",
+      "ipa_us": "tsuˈnɑmi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sóng thần",
+      "definition_en": "An extremely large wave caused by a violent movement of the earth under the sea.",
+      "example_en": "The coastal city was completely destroyed by the tsunami.",
+      "example_vi": "Thành phố ven biển đã bị phá hủy hoàn toàn bởi sóng thần.",
+      "collocations_json": [
+        "devastating tsunami",
+        "tsunami warning",
+        "tsunami wave"
+      ],
+      "synonyms_json": [
+        "tidal wave"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Từ mượn tiếng Nhật, tsu (bến cảng) + nami (sóng) -> Sóng khổng lồ ập vào bến cảng.",
+      "frequency_rank": 4800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4068,
+    "fields": {
+      "word": "ultimate",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈʌltəmət",
+      "ipa_us": "ˈʌltəmət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cuối cùng, tối thượng",
+      "definition_en": "Most extreme or important because either the original or the final, or the best or worst of its kind.",
+      "example_en": "My ultimate goal is to become a successful writer.",
+      "example_vi": "Mục tiêu cuối cùng của tôi là trở thành một nhà văn thành công.",
+      "collocations_json": [
+        "ultimate goal",
+        "ultimate decision",
+        "ultimate responsibility"
+      ],
+      "synonyms_json": [
+        "final",
+        "supreme",
+        "extreme"
+      ],
+      "antonyms_json": [
+        "initial",
+        "minor"
+      ],
+      "mnemonic": "Từ 'ulti' (chiêu cuối trong game) là viết tắt của ultimate.",
+      "frequency_rank": 3000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4069,
+    "fields": {
+      "word": "unacceptable",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˌʌnækˈsɛptəbəl",
+      "ipa_us": "ˌʌnækˈsɛptəbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "không thể chấp nhận được",
+      "definition_en": "Too bad to be accepted, approved of, or allowed to continue.",
+      "example_en": "His behavior at the meeting was completely unacceptable.",
+      "example_vi": "Cách cư xử của anh ấy tại cuộc họp là hoàn toàn không thể chấp nhận được.",
+      "collocations_json": [
+        "completely unacceptable",
+        "totally unacceptable",
+        "socially unacceptable"
+      ],
+      "synonyms_json": [
+        "intolerable",
+        "inappropriate"
+      ],
+      "antonyms_json": [
+        "acceptable",
+        "satisfactory"
+      ],
+      "mnemonic": "Un (không) + accept (chấp nhận) + able (có thể) -> Quá tệ để chấp nhận.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4070,
+    "fields": {
+      "word": "uncertainty",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ənˈsɜrtənti",
+      "ipa_us": "ʌnˈsɜrtənti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự không chắc chắn",
+      "definition_en": "A situation in which something is not known, or the feeling of not being sure about what will happen.",
+      "example_en": "There is a lot of uncertainty about the future of the company.",
+      "example_vi": "Có rất nhiều sự không chắc chắn về tương lai của công ty.",
+      "collocations_json": [
+        "economic uncertainty",
+        "great uncertainty",
+        "degree of uncertainty"
+      ],
+      "synonyms_json": [
+        "doubt",
+        "unpredictability"
+      ],
+      "antonyms_json": [
+        "certainty",
+        "assurance"
+      ],
+      "mnemonic": "Un (không) + certain (chắc chắn) + ty (danh từ).",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4071,
+    "fields": {
+      "word": "undergo",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˌʌndərˈɡoʊ",
+      "ipa_us": "ˌʌndərˈɡoʊ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trải qua, chịu đựng",
+      "definition_en": "To experience something that is unpleasant or something that involves a change.",
+      "example_en": "The company is undergoing major changes.",
+      "example_vi": "Công ty đang trải qua những thay đổi lớn.",
+      "collocations_json": [
+        "undergo surgery",
+        "undergo a transformation",
+        "undergo testing"
+      ],
+      "synonyms_json": [
+        "experience",
+        "endure",
+        "go through"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Under (dưới) + go (đi) -> Đi luồn xuống dưới một quá trình khó khăn (trải qua/chịu đựng).",
+      "frequency_rank": 3200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4072,
+    "fields": {
+      "word": "undertake",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈʌndərˌteɪk",
+      "ipa_us": "ˈʌndərˌteɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đảm nhận, tiến hành",
+      "definition_en": "To do or begin to do something, especially something that will take a long time or be difficult.",
+      "example_en": "The researchers will undertake a detailed study of the area.",
+      "example_vi": "Các nhà nghiên cứu sẽ tiến hành một nghiên cứu chi tiết về khu vực này.",
+      "collocations_json": [
+        "undertake a task",
+        "undertake a project",
+        "undertake research"
+      ],
+      "synonyms_json": [
+        "take on",
+        "assume",
+        "begin"
+      ],
+      "antonyms_json": [
+        "abandon",
+        "avoid"
+      ],
+      "mnemonic": "Under (dưới) + take (nhận) -> Đứng dưới để nhận lấy trọng trách.",
+      "frequency_rank": 3700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4073,
+    "fields": {
+      "word": "unfold",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ənˈfoʊld",
+      "ipa_us": "ʌnˈfoʊld",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "mở ra, diễn tiến",
+      "definition_en": "To open or spread out something that has been folded; or (of a situation/story) to develop or become clear.",
+      "example_en": "We watched the dramatic events unfold on television.",
+      "example_vi": "Chúng tôi theo dõi các sự kiện đầy kịch tính diễn ra trên truyền hình.",
+      "collocations_json": [
+        "events unfold",
+        "story unfolds",
+        "unfold a map"
+      ],
+      "synonyms_json": [
+        "develop",
+        "reveal",
+        "open"
+      ],
+      "antonyms_json": [
+        "fold",
+        "hide"
+      ],
+      "mnemonic": "Fold là gập lại, un-fold là mở ra (mở nếp gấp, hoặc mở ra tình tiết câu chuyện).",
+      "frequency_rank": 4100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4074,
+    "fields": {
+      "word": "unfortunate",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ənˈfɔrʧənət",
+      "ipa_us": "ʌnˈfɔrʧənət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "không may, đáng tiếc",
+      "definition_en": "Unlucky or having bad effects.",
+      "example_en": "It was an unfortunate mistake that cost him his job.",
+      "example_vi": "Đó là một sai lầm đáng tiếc đã khiến anh ta mất việc.",
+      "collocations_json": [
+        "unfortunate situation",
+        "unfortunate mistake",
+        "highly unfortunate"
+      ],
+      "synonyms_json": [
+        "unlucky",
+        "regrettable"
+      ],
+      "antonyms_json": [
+        "fortunate",
+        "lucky"
+      ],
+      "mnemonic": "Un (không) + fortunate (may mắn) -> Xui xẻo, đáng tiếc.",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4075,
+    "fields": {
+      "word": "unite",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "juˈnaɪt",
+      "ipa_us": "juˈnaɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đoàn kết, hợp nhất",
+      "definition_en": "To join together as a group, or to make people join together as a group.",
+      "example_en": "We need to unite to fight against climate change.",
+      "example_vi": "Chúng ta cần đoàn kết lại để chiến đấu chống lại biến đổi khí hậu.",
+      "collocations_json": [
+        "unite against",
+        "unite behind",
+        "unite forces"
+      ],
+      "synonyms_json": [
+        "join",
+        "combine",
+        "merge"
+      ],
+      "antonyms_json": [
+        "divide",
+        "separate"
+      ],
+      "mnemonic": "United States là Hợp chủng quốc. Unite là động từ mang nghĩa đoàn kết lại.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4076,
+    "fields": {
+      "word": "unity",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈjunəti",
+      "ipa_us": "ˈjunəti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự đoàn kết, thống nhất",
+      "definition_en": "The state of being joined together or in agreement.",
+      "example_en": "The leader called for national unity in times of crisis.",
+      "example_vi": "Lãnh đạo đã kêu gọi sự đoàn kết quốc gia trong thời kỳ khủng hoảng.",
+      "collocations_json": [
+        "national unity",
+        "sense of unity",
+        "maintain unity"
+      ],
+      "synonyms_json": [
+        "solidarity",
+        "harmony",
+        "union"
+      ],
+      "antonyms_json": [
+        "division",
+        "discord"
+      ],
+      "mnemonic": "Danh từ của unite -> Tình trạng hợp nhất thành một (uni).",
+      "frequency_rank": 3900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4077,
+    "fields": {
+      "word": "universal",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˌjunəˈvɜrsəl",
+      "ipa_us": "ˌjunəˈvɜrsəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phổ biến, chung",
+      "definition_en": "Existing everywhere or involving everyone.",
+      "example_en": "Music is often called the universal language.",
+      "example_vi": "Âm nhạc thường được gọi là ngôn ngữ phổ quát (ngôn ngữ chung).",
+      "collocations_json": [
+        "universal appeal",
+        "universal truth",
+        "universal healthcare"
+      ],
+      "synonyms_json": [
+        "general",
+        "global",
+        "common"
+      ],
+      "antonyms_json": [
+        "local",
+        "specific",
+        "exclusive"
+      ],
+      "mnemonic": "Universe (vũ trụ/thế giới) -> Universal là thuộc về toàn thế giới, mang tính phổ quát chung.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

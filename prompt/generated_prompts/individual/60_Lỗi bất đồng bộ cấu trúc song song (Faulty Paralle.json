@@ -1,0 +1,572 @@
+[
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "I like swimming, to run, and bike.",
+    "output": "✅ **Corrected Sentence:** I like swimming, running, and biking. / I like to swim, to run, and to bike.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn lẫn danh động từ, động từ nguyên mẫu và danh từ)\n\n📖 **Vietnamese Explanation:** Khi liệt kê các hoạt động với 'and', các thành phần phải cùng một dạng ngữ pháp. Câu trên trộn 'swimming' (V-ing), 'to run' (to-infinitive), và 'bike' (danh từ) – gây rối. Hãy chọn một dạng: tất cả V-ing hoặc tất cả to-infinitive. Người Việt thường mắc lỗi này vì nghĩ 'thích bơi, chạy, đạp xe' là được. Hãy nhất quán nhé! 🏊‍♀️🏃‍♂️🚴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is kind, intelligent, and has a great sense of humor.",
+    "output": "✅ **Corrected Sentence:** She is kind, intelligent, and humorous. / She is kind, intelligent, and has a great sense of humor. (Không thể vì 'has' phá vỡ song song)\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn tính từ và cụm động từ)\n\n📖 **Vietnamese Explanation:** Sau 'is', bạn liệt kê các tính từ: 'kind', 'intelligent' – nhưng 'has a great sense of humor' là cụm động từ, không cùng loại. Hãy sửa thành 'humorous' (tính từ) hoặc chuyển cấu trúc: 'She has kindness, intelligence, and a great sense of humor.' 😊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He wants to learn English, find a job, and traveling abroad.",
+    "output": "✅ **Corrected Sentence:** He wants to learn English, find a job, and travel abroad.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'to learn', 'find' (bare infinitive sau want? thực tế 'to find' mới đúng) và 'traveling')\n\n📖 **Vietnamese Explanation:** Sau 'wants', các động từ liệt kê đều phải ở dạng 'to + V' (vì 'want' + to V). Câu gốc có 'to learn' (đúng), 'find' (thiếu 'to'), và 'traveling' (sai). Hãy sửa thành 'to learn, to find, and to travel' hoặc 'learn, find, travel' nếu dùng 'can' nhưng ở đây dùng 'wants'. ✈️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The movie was exciting, had great effects, and the acting was superb.",
+    "output": "✅ **Corrected Sentence:** The movie had exciting scenes, great effects, and superb acting. / The movie was exciting, had great effects, and featured superb acting.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn tính từ, cụm động từ, và mệnh đề)\n\n📖 **Vietnamese Explanation:** Liệt kê ba đặc điểm của phim nhưng dạng không đồng nhất: 'was exciting' (tính từ), 'had great effects' (động từ), 'the acting was superb' (cả mệnh đề). Hãy chọn một cấu trúc chung. 🎬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She can sing beautifully, dance graceful, and plays the piano well.",
+    "output": "✅ **Corrected Sentence:** She can sing beautifully, dance gracefully, and play the piano well.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'can', các động từ phải ở dạng nguyên mẫu không 'to', và trạng từ phải đồng nhất)\n\n📖 **Vietnamese Explanation:** 'Can' + V (nguyên mẫu). Câu gốc: 'sing' (đúng), 'dance' (đúng nhưng thiếu 'gracefully' thay vì 'graceful' – trạng từ), 'plays' (sai vì thêm 's'). Sửa thành 'play' và 'gracefully'. 🎤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is not only smart but also he is hardworking.",
+    "output": "✅ **Corrected Sentence:** He is not only smart but also hardworking.\n\n🔍 **Error Identification:** Faulty Parallelism với cặp 'not only... but also'\n\n📖 **Vietnamese Explanation:** Cấu trúc 'not only A but also B' yêu cầu A và B cùng loại. Ở đây A = 'smart' (tính từ), B = 'he is hardworking' (cả mệnh đề) – không cân bằng. Hãy bỏ 'he is' để B là 'hardworking' (tính từ). 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "I enjoy reading books, to listen to music, and play video games.",
+    "output": "✅ **Corrected Sentence:** I enjoy reading books, listening to music, and playing video games.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'enjoy' thường là V-ing, nhưng có 'to listen' và 'play')\n\n📖 **Vietnamese Explanation:** 'Enjoy' + V-ing. Câu gốc: 'reading' (đúng), 'to listen' (sai), 'play' (sai). Sửa tất cả thành V-ing. 🎮"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The teacher told us to study, do our homework, and that we should be on time.",
+    "output": "✅ **Corrected Sentence:** The teacher told us to study, to do our homework, and to be on time. / The teacher told us that we should study, do our homework, and be on time.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'to V' và mệnh đề 'that')\n\n📖 **Vietnamese Explanation:** 'Told us' có thể đi với 'to V' hoặc mệnh đề 'that'. Không trộn lẫn. Hãy chọn một cấu trúc duy nhất. 👩‍🏫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "My hobbies are swimming, to hike, and reading books.",
+    "output": "✅ **Corrected Sentence:** My hobbies are swimming, hiking, and reading books.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn V-ing và to-infinitive)\n\n📖 **Vietnamese Explanation:** Sau động từ 'are', danh động từ (V-ing) làm chủ ngữ bổ ngữ. 'To hike' là to-infinitive, không cùng dạng. Sửa thành 'hiking'. 🏊‍♂️🥾📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is good at math, physics, and solving problems.",
+    "output": "✅ **Corrected Sentence:** He is good at math, physics, and problem-solving. / He is good at solving math problems, physics problems, and other complex issues.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ môn học và cụm V-ing không đồng nhất)\n\n📖 **Vietnamese Explanation:** 'Math', 'physics' là danh từ, 'solving problems' là cụm danh động từ. Để song song, hãy đổi 'solving problems' thành 'problem-solving' (danh từ ghép) hoặc thay đổi cấu trúc. 🧮"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She expects to finish the report, will submit it, and then leave early.",
+    "output": "✅ **Corrected Sentence:** She expects to finish the report, to submit it, and to leave early. / She expects that she will finish the report, submit it, and leave early.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'to V', 'will V', và 'V')\n\n📖 **Vietnamese Explanation:** Sau 'expects', nếu dùng 'to V' thì cả ba phải là 'to V'. Nếu dùng mệnh đề 'that' thì cả ba động từ chia theo 'will' hoặc hiện tại. 🕒"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The candidate is friendly, hardworking, and he has experience.",
+    "output": "✅ **Corrected Sentence:** The candidate is friendly, hardworking, and experienced. / The candidate has friendliness, hard work, and experience.\n\n🔍 **Error Identification:** Faulty Parallelism (Tính từ + mệnh đề)\n\n📖 **Vietnamese Explanation:** 'Friendly', 'hardworking' là tính từ, 'he has experience' là mệnh đề. Hãy đổi 'has experience' thành 'experienced' (tính từ) hoặc thay đổi cấu trúc danh từ. 💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "I like to drink coffee in the morning, reading the newspaper, and relaxing.",
+    "output": "✅ **Corrected Sentence:** I like to drink coffee in the morning, to read the newspaper, and to relax. / I like drinking coffee in the morning, reading the newspaper, and relaxing.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn to-infinitive và V-ing)\n\n📖 **Vietnamese Explanation:** Chọn một dạng: hoặc tất cả 'to V' hoặc tất cả 'V-ing'. 📰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He decided to quit his job, moving to another city, and start a new business.",
+    "output": "✅ **Corrected Sentence:** He decided to quit his job, to move to another city, and to start a new business. / He decided on quitting his job, moving to another city, and starting a new business.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'decided' có 'to V' và 'V-ing')\n\n📖 **Vietnamese Explanation:** 'Decided' thường đi với 'to V'. 'Moving' không đúng. Sửa thành 'to move'. 🏙️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is responsible for answering emails, to schedule meetings, and managing the team.",
+    "output": "✅ **Corrected Sentence:** She is responsible for answering emails, scheduling meetings, and managing the team.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau giới từ 'for' phải là V-ing)\n\n📖 **Vietnamese Explanation:** 'For' + V-ing. 'To schedule' là to-infinitive, sai. Sửa thành 'scheduling'. 📧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The company needs someone who is reliable, works hard, and with creativity.",
+    "output": "✅ **Corrected Sentence:** The company needs someone who is reliable, hardworking, and creative. / The company needs someone with reliability, hard work, and creativity.\n\n🔍 **Error Identification:** Faulty Parallelism (Tính từ, động từ, cụm giới từ)\n\n📖 **Vietnamese Explanation:** Mệnh đề 'who is' + tính từ 'reliable', rồi 'works hard' (động từ), rồi 'with creativity' (cụm giới từ). Hãy đồng nhất dạng. 💡"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He runs quickly, jumps high, and is very strong.",
+    "output": "✅ **Corrected Sentence:** He runs quickly, jumps high, and is very strong. (Câu này thực ra đúng! Vì 'runs', 'jumps', 'is' đều là động từ chia ở hiện tại đơn)\n\n🔍 **Error Identification:** Không có lỗi – đây là cấu trúc song song đúng.\n\n📖 **Vietnamese Explanation:** Tuyệt vời! Ba động từ 'runs', 'jumps', 'is' đều ở cùng dạng (hiện tại đơn, ngôi thứ ba số ít). Bạn đã làm đúng. Hãy tiếp tục phát huy! 🏃‍♂️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She likes cooking, to bake, and also she enjoys gardening.",
+    "output": "✅ **Corrected Sentence:** She likes cooking, baking, and gardening. / She likes to cook, to bake, and to garden.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn V-ing, to-infinitive, và mệnh đề)\n\n📖 **Vietnamese Explanation:** 'Likes' có thể đi với V-ing hoặc to-infinitive, nhưng phải nhất quán. 'She enjoys gardening' là mệnh đề riêng – hãy gộp lại. 🌱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "Either you apologize or to leave the room.",
+    "output": "✅ **Corrected Sentence:** Either you apologize or you leave the room. / Either apologize or leave the room.\n\n🔍 **Error Identification:** Faulty Parallelism với 'either...or' (mệnh đề và cụm to-infinitive)\n\n📖 **Vietnamese Explanation:** 'Either' đi với mệnh đề 'you apologize', 'or' phải đi với mệnh đề tương tự 'you leave' hoặc dạng nguyên mẫu không chủ ngữ. 🚪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She advised me to study hard, get enough sleep, and that I should eat well.",
+    "output": "✅ **Corrected Sentence:** She advised me to study hard, to get enough sleep, and to eat well. / She advised that I study hard, get enough sleep, and eat well.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'to V' và mệnh đề 'that')\n\n📖 **Vietnamese Explanation:** 'Advised me' + to V hoặc 'advised that' + mệnh đề. Không trộn. 🛌"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The package includes a book, a pen, and there is a notebook.",
+    "output": "✅ **Corrected Sentence:** The package includes a book, a pen, and a notebook.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ và mệnh đề 'there is')\n\n📖 **Vietnamese Explanation:** 'Includes' cần các danh từ làm tân ngữ. 'There is a notebook' là mệnh đề – không song song. 📦"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is interested in learning languages, to travel, and meet new people.",
+    "output": "✅ **Corrected Sentence:** He is interested in learning languages, traveling, and meeting new people.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'in' phải là V-ing)\n\n📖 **Vietnamese Explanation:** 'Interested in' + V-ing. 'To travel' và 'meet' (thiếu 'meeting') sai. ✈️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "My job involves answering phones, to file documents, and I also manage schedules.",
+    "output": "✅ **Corrected Sentence:** My job involves answering phones, filing documents, and managing schedules.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn V-ing, to-infinitive, và mệnh đề)\n\n📖 **Vietnamese Explanation:** 'Involves' + V-ing. Sửa 'to file' thành 'filing', bỏ 'I also' và 'manage' thành 'managing'. 📋"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is smarter than me, faster, and has more experience.",
+    "output": "✅ **Corrected Sentence:** He is smarter, faster, and more experienced than me. / He has more intelligence, speed, and experience than me.\n\n🔍 **Error Identification:** Faulty Parallelism (So sánh trộn tính từ và động từ)\n\n📖 **Vietnamese Explanation:** 'Smarter', 'faster' là tính từ, 'has more experience' là động từ. Hãy đưa tất cả về tính từ hoặc danh từ. 🧠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "They want to save money, traveling less, and they hope to invest.",
+    "output": "✅ **Corrected Sentence:** They want to save money, to travel less, and to invest. / They want to save money, travel less, and invest.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'to V', V-ing, và mệnh đề)\n\n📖 **Vietnamese Explanation:** Sau 'want', nếu dùng 'to V' thì cả ba phải là 'to V'. 'Traveling' sai. Bỏ 'they hope' vì thừa. 💰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is both talented and she has a good heart.",
+    "output": "✅ **Corrected Sentence:** She is both talented and good-hearted. / She has both talent and a good heart.\n\n🔍 **Error Identification:** Faulty Parallelism với 'both...and'\n\n📖 **Vietnamese Explanation:** 'Both' đi với tính từ 'talented', 'and' phải đi với tính từ, không phải mệnh đề 'she has...'. 💖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He prefers eating dinner at home than to go to a restaurant.",
+    "output": "✅ **Corrected Sentence:** He prefers eating dinner at home to going to a restaurant. / He prefers to eat dinner at home rather than to go to a restaurant.\n\n🔍 **Error Identification:** Faulty Parallelism (So sánh 'prefer... than' sai cấu trúc, và trộn V-ing với to-infinitive)\n\n📖 **Vietnamese Explanation:** 'Prefer V-ing to V-ing' hoặc 'prefer to V rather than to V'. Không dùng 'than' trực tiếp. 🍽️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The conference was both informative and we enjoyed it.",
+    "output": "✅ **Corrected Sentence:** The conference was both informative and enjoyable. / We both found the conference informative and enjoyed it.\n\n🔍 **Error Identification:** Faulty Parallelism ('both' nối tính từ và mệnh đề)\n\n📖 **Vietnamese Explanation:** 'Both' yêu cầu hai thành phần cùng loại. 'Informative' (adj), 'we enjoyed it' (mệnh đề) – không cân bằng. 🎤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He spends his time watching TV, to play games, and hang out with friends.",
+    "output": "✅ **Corrected Sentence:** He spends his time watching TV, playing games, and hanging out with friends.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'spends time' + V-ing)\n\n📖 **Vietnamese Explanation:** 'Spends time' + V-ing. 'To play' và 'hang out' (thiếu -ing) sai. 🎮"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "I am looking for a job that pays well, with good benefits, and I can work from home.",
+    "output": "✅ **Corrected Sentence:** I am looking for a job that pays well, offers good benefits, and allows working from home. / I am looking for a job with good pay, good benefits, and work-from-home flexibility.\n\n🔍 **Error Identification:** Faulty Parallelism (Mệnh đề 'that pays', cụm 'with', và mệnh đề 'I can')\n\n📖 **Vietnamese Explanation:** Hãy chọn một cấu trúc: hoặc tất cả là mệnh đề quan hệ 'that + V', hoặc tất cả là cụm giới từ 'with'. 💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She not only sings beautifully but also she dances well.",
+    "output": "✅ **Corrected Sentence:** She not only sings beautifully but also dances well.\n\n🔍 **Error Identification:** Faulty Parallelism ('not only... but also' cần hai vế cùng dạng)\n\n📖 **Vietnamese Explanation:** Vế đầu 'sings beautifully', vế sau lẽ ra phải 'dances well' nhưng lại có 'she' thừa. Bỏ 'she'. 🎶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is a person who is honest, works hard, and reliable.",
+    "output": "✅ **Corrected Sentence:** He is a person who is honest, hardworking, and reliable. / He is a person who works hard, stays honest, and remains reliable.\n\n🔍 **Error Identification:** Faulty Parallelism (Trong mệnh đề 'who', 'is honest' (adj), 'works hard' (verb), 'reliable' (adj))\n\n📖 **Vietnamese Explanation:** Sau 'who', nếu dùng 'is' thì cả ba phải là tính từ. Nếu dùng động từ thì cả ba phải là động từ. 🧑"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He wants to be a doctor, a pilot, or studying law.",
+    "output": "✅ **Corrected Sentence:** He wants to be a doctor, a pilot, or a lawyer. / He wants to study medicine, aviation, or law.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ nghề nghiệp và cụm V-ing)\n\n📖 **Vietnamese Explanation:** 'A doctor', 'a pilot' là danh từ, 'studying law' là V-ing. Sửa thành 'a lawyer' hoặc chuyển tất cả sang V-ing. 👨‍⚕️✈️⚖️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The rules are simple: no smoking, don't run, and to keep quiet.",
+    "output": "✅ **Corrected Sentence:** The rules are simple: no smoking, no running, and no loud noise. / Don't smoke, don't run, and keep quiet.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'no + V-ing', 'don't + V', và 'to V')\n\n📖 **Vietnamese Explanation:** Chọn một dạng cho tất cả các nội quy. 🤫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The team needs someone who can lead, has vision, and with dedication.",
+    "output": "✅ **Corrected Sentence:** The team needs someone who can lead, has vision, and shows dedication. / The team needs someone with leadership, vision, and dedication.\n\n🔍 **Error Identification:** Faulty Parallelism ('can lead', 'has vision', 'with dedication')\n\n📖 **Vietnamese Explanation:** 'Can lead' (động từ khuyết thiếu), 'has vision' (động từ thường), 'with dedication' (cụm giới từ). Hãy đồng nhất. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He likes to read books, watching movies, and he enjoys listening to music.",
+    "output": "✅ **Corrected Sentence:** He likes reading books, watching movies, and listening to music. / He likes to read books, to watch movies, and to listen to music.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'to read', 'watching', và mệnh đề 'he enjoys')\n\n📖 **Vietnamese Explanation:** Gộp tất cả vào một cấu trúc thống nhất. 🎬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is famous for her singing, to dance, and acting.",
+    "output": "✅ **Corrected Sentence:** She is famous for her singing, dancing, and acting.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ 'her singing', to-infinitive 'to dance', danh động từ 'acting')\n\n📖 **Vietnamese Explanation:** Sau giới từ 'for', cần danh từ hoặc V-ing. 'To dance' sai. Sửa thành 'dancing' (danh động từ). 💃"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "I would rather stay home than to go out.",
+    "output": "✅ **Corrected Sentence:** I would rather stay home than go out.\n\n🔍 **Error Identification:** Faulty Parallelism (Cấu trúc 'would rather V than V')\n\n📖 **Vietnamese Explanation:** 'Would rather' + V (nguyên mẫu không to), sau 'than' cũng là V nguyên mẫu không 'to'. Bỏ 'to' ở 'to go'. 🏠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The course covers how to write a resume, interviewing skills, and networking.",
+    "output": "✅ **Corrected Sentence:** The course covers how to write a resume, how to interview, and how to network. / The course covers resume writing, interviewing skills, and networking techniques.\n\n🔍 **Error Identification:** Faulty Parallelism (Cụm 'how to', danh từ, và danh động từ)\n\n📖 **Vietnamese Explanation:** Đồng nhất dạng: hoặc tất cả là 'how to V', hoặc tất cả là danh từ. 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He told me to call him, send an email, and that I should visit him.",
+    "output": "✅ **Corrected Sentence:** He told me to call him, to send an email, and to visit him. / He told me that I should call him, send an email, and visit him.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'to V' và mệnh đề 'that')\n\n📖 **Vietnamese Explanation:** Chọn một cấu trúc. 📞✉️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The movie was not only boring but also a waste of time.",
+    "output": "✅ **Corrected Sentence:** The movie was not only boring but also a waste of time. (Câu này thực ra có thể chấp nhận vì 'boring' là adj, 'a waste of time' là noun phrase – nhưng không lý tưởng. Tốt nhất: 'not only boring but also time-wasting')\n\n🔍 **Error Identification:** Faulty Parallelism nhẹ (adj vs noun phrase)\n\n📖 **Vietnamese Explanation:** Để hoàn hảo, nên dùng hai tính từ: 'boring' và 'time-wasting' hoặc hai danh từ: 'boredom' và 'a waste of time'. Tuy nhiên, nhiều người bản xứ chấp nhận câu này. 🎬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is skilled at programming, debugging, and to write documentation.",
+    "output": "✅ **Corrected Sentence:** He is skilled at programming, debugging, and writing documentation.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'at' phải là V-ing)\n\n📖 **Vietnamese Explanation:** 'Skilled at' + V-ing. 'To write' sai. 💻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is allergic to cats, dogs, and eating peanuts.",
+    "output": "✅ **Corrected Sentence:** She is allergic to cats, dogs, and peanuts. / She is allergic to cat fur, dog dander, and peanuts.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ động vật và cụm V-ing)\n\n📖 **Vietnamese Explanation:** 'Cats, dogs' là danh từ, 'eating peanuts' là V-ing. Sửa thành 'peanuts' (danh từ). 🥜"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The job requires you to be punctual, work hard, and a team player.",
+    "output": "✅ **Corrected Sentence:** The job requires you to be punctual, to work hard, and to be a team player. / The job requires punctuality, hard work, and teamwork.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'requires you' có 'to be', 'work' (thiếu to), và danh từ)\n\n📖 **Vietnamese Explanation:** Đồng nhất dạng: hoặc 'to be', 'to work', 'to be' hoặc danh từ. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is someone who I can trust, rely on, and he always supports me.",
+    "output": "✅ **Corrected Sentence:** He is someone who I can trust, rely on, and count on for support. / He is someone who trusts me, relies on me, and supports me.\n\n🔍 **Error Identification:** Faulty Parallelism (Động từ sau 'can' và mệnh đề 'he always supports')\n\n📖 **Vietnamese Explanation:** 'Who I can trust, rely on' – hai động từ, sau đó 'he always supports' là mệnh đề mới. Hãy gộp lại. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is good at not only singing but also dancing.",
+    "output": "✅ **Corrected Sentence:** She is good at not only singing but also dancing. (Câu này ĐÚNG!)\n\n🔍 **Error Identification:** Không có lỗi. 'Not only... but also' nối hai danh động từ 'singing' và 'dancing' hoàn hảo.\n\n📖 **Vietnamese Explanation:** Tuyệt vời! Bạn đã dùng cấu trúc song song chính xác. Hãy tiếp tục phát huy. 🎤💃"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He wanted to know why she left, where she went, and what is she doing.",
+    "output": "✅ **Corrected Sentence:** He wanted to know why she left, where she went, and what she was doing.\n\n🔍 **Error Identification:** Faulty Parallelism trong câu hỏi gián tiếp (thì và cấu trúc không đồng nhất)\n\n📖 **Vietnamese Explanation:** Các mệnh đề 'why she left', 'where she went' (quá khứ đơn), nhưng 'what is she doing' lại là hiện tại tiếp diễn và đảo chủ ngữ. Sửa thành 'what she was doing'. 🔍"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The children were running, laughing, and to sing.",
+    "output": "✅ **Corrected Sentence:** The children were running, laughing, and singing.\n\n🔍 **Error Identification:** Faulty Parallelism (V-ing và to-infinitive)\n\n📖 **Vietnamese Explanation:** Sau 'were', cần V-ing để tạo thì quá khứ tiếp diễn. 'To sing' sai. 🎶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "I am responsible for washing dishes, cleaning the floor, and to take out the trash.",
+    "output": "✅ **Corrected Sentence:** I am responsible for washing dishes, cleaning the floor, and taking out the trash.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'for' phải là V-ing)\n\n📖 **Vietnamese Explanation:** 'To take out' là to-infinitive, sửa thành 'taking out'. 🗑️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He can speak English, French, and also he knows Spanish.",
+    "output": "✅ **Corrected Sentence:** He can speak English, French, and Spanish.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'can speak' là danh từ, nhưng thêm mệnh đề 'he knows')\n\n📖 **Vietnamese Explanation:** 'Can speak' + tân ngữ là các ngôn ngữ. 'He knows Spanish' phá vỡ cấu trúc. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The dress is cheap, beautiful, and it fits well.",
+    "output": "✅ **Corrected Sentence:** The dress is cheap, beautiful, and well-fitting. / The dress is cheap, beautiful, and fits well. (Nếu bỏ 'it' thì 'fits' vẫn khác dạng 'is')\n\n🔍 **Error Identification:** Faulty Parallelism (Tính từ và mệnh đề)\n\n📖 **Vietnamese Explanation:** 'Cheap, beautiful' là tính từ sau 'is', 'it fits well' là mệnh đề. Sửa thành 'well-fitting' (tính từ ghép). 👗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He tried to open the door, pushing it hard, and finally kicked it.",
+    "output": "✅ **Corrected Sentence:** He tried to open the door, pushed it hard, and finally kicked it.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'to open', 'pushing', 'kicked')\n\n📖 **Vietnamese Explanation:** Sau 'tried', có thể liệt kê các hành động ở dạng quá khứ đơn: 'pushed', 'kicked'. 'To open' là mục đích, không nằm trong chuỗi. Cấu trúc đúng: 'He tried to open the door. He pushed it hard and finally kicked it.' 🚪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is a doctor, a mother, and works as a teacher.",
+    "output": "✅ **Corrected Sentence:** She is a doctor, a mother, and a teacher. / She works as a doctor, a mother, and a teacher? (Không hợp lý). Thực tế: She is a doctor and a mother, and she also works as a teacher.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ và cụm động từ)\n\n📖 **Vietnamese Explanation:** 'A doctor, a mother' là danh từ, 'works as a teacher' là động từ. Tách thành hai vế. 👩‍⚕️👩‍👧👩‍🏫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "I prefer coffee to tea, but I also like drinking hot chocolate.",
+    "output": "✅ **Corrected Sentence:** I prefer coffee to tea, but I also like hot chocolate. / I prefer coffee to tea but also like hot chocolate.\n\n🔍 **Error Identification:** Không sai nghiêm trọng, nhưng 'like drinking hot chocolate' có thể rút gọn thành 'like hot chocolate' để song song với 'coffee, tea'.\n\n📖 **Vietnamese Explanation:** Câu này tạm chấp nhận, nhưng để hay hơn, hãy giữ dạng danh từ cho đồ uống. ☕🍵🍫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is a person of integrity, honesty, and she works hard.",
+    "output": "✅ **Corrected Sentence:** She is a person of integrity, honesty, and hard work. / She is a person who has integrity, honesty, and works hard.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ và mệnh đề)\n\n📖 **Vietnamese Explanation:** 'Integrity, honesty' là danh từ, 'she works hard' là mệnh đề. Chuyển 'works hard' thành danh từ 'hard work'. 💪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He advised me to stay calm, be patient, and that I should not give up.",
+    "output": "✅ **Corrected Sentence:** He advised me to stay calm, to be patient, and not to give up. / He advised that I stay calm, be patient, and not give up.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'to V' và mệnh đề 'that')\n\n📖 **Vietnamese Explanation:** Chọn một cấu trúc. 🧘"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The company offers competitive salary, a good benefits package, and you can work from home.",
+    "output": "✅ **Corrected Sentence:** The company offers a competitive salary, a good benefits package, and work-from-home options.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ và mệnh đề)\n\n📖 **Vietnamese Explanation:** 'Competitive salary', 'a good benefits package' là danh từ, 'you can work from home' là mệnh đề. Chuyển thành danh từ. 🏢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He likes playing football, to swim, and ride a bike.",
+    "output": "✅ **Corrected Sentence:** He likes playing football, swimming, and riding a bike.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn V-ing, to-infinitive, và nguyên mẫu không 'to')\n\n📖 **Vietnamese Explanation:** Tất cả phải là V-ing. ⚽🏊‍♂️🚴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is not only a talented singer but also she plays the guitar well.",
+    "output": "✅ **Corrected Sentence:** She is not only a talented singer but also a good guitar player. / She not only sings talentedly but also plays the guitar well.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ 'a talented singer' và mệnh đề 'she plays')\n\n📖 **Vietnamese Explanation:** Cấu trúc 'not only... but also' yêu cầu hai vế cùng loại. 🎸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The report needs to be concise, accurate, and on time.",
+    "output": "✅ **Corrected Sentence:** The report needs to be concise, accurate, and timely. / The report needs to be submitted concisely, accurately, and on time.\n\n🔍 **Error Identification:** Faulty Parallelism nhẹ (tính từ 'concise, accurate' và cụm giới từ 'on time')\n\n📖 **Vietnamese Explanation:** Để hoàn hảo, dùng 'timely' (tính từ) thay vì 'on time'. ⏰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He spent the weekend cleaning his room, to fix his bike, and watching movies.",
+    "output": "✅ **Corrected Sentence:** He spent the weekend cleaning his room, fixing his bike, and watching movies.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'spent' + V-ing)\n\n📖 **Vietnamese Explanation:** 'To fix' sai, sửa thành 'fixing'. 🚲"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The teacher asked us to read the chapter, answer the questions, and that we should submit our work.",
+    "output": "✅ **Corrected Sentence:** The teacher asked us to read the chapter, to answer the questions, and to submit our work. / The teacher asked that we read the chapter, answer the questions, and submit our work.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'to V' và mệnh đề 'that')\n\n📖 **Vietnamese Explanation:** Chọn một dạng. 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "I am looking for someone who is kind, reliable, and has a good sense of humor.",
+    "output": "✅ **Corrected Sentence:** I am looking for someone who is kind, reliable, and humorous. / I am looking for someone with kindness, reliability, and a good sense of humor.\n\n🔍 **Error Identification:** Faulty Parallelism (Tính từ 'kind, reliable' và cụm động từ 'has a good sense of humor')\n\n📖 **Vietnamese Explanation:** Sửa 'has a good sense of humor' thành tính từ 'humorous' hoặc chuyển sang danh từ. 😄"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The solution is simple, effective, and doesn't cost much.",
+    "output": "✅ **Corrected Sentence:** The solution is simple, effective, and inexpensive. / The solution is simple, effective, and doesn't cost much. (Tuy nhiên, vế cuối khác dạng)\n\n🔍 **Error Identification:** Faulty Parallelism (Tính từ 'simple, effective' và mệnh đề phủ định 'doesn't cost much')\n\n📖 **Vietnamese Explanation:** Thay 'doesn't cost much' bằng tính từ 'inexpensive' hoặc 'cheap'. 💰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He can cook, clean, and also he does the laundry.",
+    "output": "✅ **Corrected Sentence:** He can cook, clean, and do the laundry.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'can' là động từ nguyên mẫu, 'he does' thừa)\n\n📖 **Vietnamese Explanation:** 'Can' + V (cook, clean, do). Bỏ 'he also'. 🧺"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is both a great leader and she is very compassionate.",
+    "output": "✅ **Corrected Sentence:** She is both a great leader and very compassionate. / She is both a great leader and a compassionate person.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ và mệnh đề)\n\n📖 **Vietnamese Explanation:** 'Both... and' nối hai thành phần cùng loại. 👩‍💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He prefers walking to the store rather than drive.",
+    "output": "✅ **Corrected Sentence:** He prefers walking to the store rather than driving. / He prefers to walk to the store rather than drive.\n\n🔍 **Error Identification:** Faulty Parallelism (So sánh 'walking' và 'drive')\n\n📖 **Vietnamese Explanation:** 'Rather than' nối hai dạng giống nhau: V-ing hoặc nguyên mẫu không 'to'. 🚶‍♂️🚗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The class includes students from Vietnam, Thailand, and they come from Indonesia too.",
+    "output": "✅ **Corrected Sentence:** The class includes students from Vietnam, Thailand, and Indonesia.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ chỉ quốc gia và mệnh đề)\n\n📖 **Vietnamese Explanation:** Chỉ cần liệt kê tên nước. 🇻🇳🇹🇭🇮🇩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is responsible for managing the budget, to supervise staff, and training new hires.",
+    "output": "✅ **Corrected Sentence:** He is responsible for managing the budget, supervising staff, and training new hires.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'for' phải là V-ing)\n\n📖 **Vietnamese Explanation:** 'To supervise' sửa thành 'supervising'. 👨‍💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "I love the mountains, the ocean, and to hike in the forest.",
+    "output": "✅ **Corrected Sentence:** I love the mountains, the ocean, and the forest. / I love hiking in the mountains, swimming in the ocean, and walking in the forest.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ và cụm to-infinitive)\n\n📖 **Vietnamese Explanation:** 'The mountains, the ocean' là danh từ, 'to hike in the forest' không cùng dạng. 🏔️🌊🌲"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The criteria for admission are your grades, test scores, and how well you interview.",
+    "output": "✅ **Corrected Sentence:** The criteria for admission are your grades, test scores, and interview performance. / ...and how well you interview (không song song, nên đổi thành 'interview skills')\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ và mệnh đề 'how well you interview')\n\n📖 **Vietnamese Explanation:** Đồng nhất danh từ. 🎓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She advised that I take the course, to practice daily, and joining a study group.",
+    "output": "✅ **Corrected Sentence:** She advised that I take the course, practice daily, and join a study group. / She advised me to take the course, to practice daily, and to join a study group.\n\n🔍 **Error Identification:** Faulty Parallelism (Mệnh đề 'that I take', to-infinitive 'to practice', V-ing 'joining')\n\n📖 **Vietnamese Explanation:** Chọn một cấu trúc. 📖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The museum features paintings, sculptures, and there is also a photography exhibit.",
+    "output": "✅ **Corrected Sentence:** The museum features paintings, sculptures, and a photography exhibit.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ và mệnh đề 'there is')\n\n📖 **Vietnamese Explanation:** Bỏ 'there is also'. 🖼️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He wants to either study abroad or getting a job.",
+    "output": "✅ **Corrected Sentence:** He wants either to study abroad or to get a job. / He wants either studying abroad or getting a job.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'either' là 'to study', sau 'or' là 'getting')\n\n📖 **Vietnamese Explanation:** 'Either... or' nối hai cấu trúc giống hệt nhau. 🎓💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The software is easy to use, installs quickly, and it doesn't cost much.",
+    "output": "✅ **Corrected Sentence:** The software is easy to use, installs quickly, and is inexpensive. / The software is easy to use, quick to install, and inexpensive.\n\n🔍 **Error Identification:** Faulty Parallelism (Cụm tính từ, động từ, mệnh đề)\n\n📖 **Vietnamese Explanation:** Đồng nhất dạng. 💻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is someone who I admire, respect, and have learned a lot from.",
+    "output": "✅ **Corrected Sentence:** She is someone who I admire, respect, and have learned a lot from. (Câu này thực ra đúng! Vì 'admire', 'respect', 'have learned' đều là động từ ở dạng hiện tại/ quá khứ phân từ nhưng 'have learned' có trợ động từ 'have' – vẫn chấp nhận được)\n\n🔍 **Error Identification:** Có thể chấp nhận, nhưng lý tưởng hơn: 'She is someone I admire, respect, and from whom I have learned a lot.'\n\n📖 **Vietnamese Explanation:** Câu này hơi lủng củng nhưng không sai hoàn toàn. Để song song hoàn hảo, hãy viết lại. 🙌"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The course teaches you how to analyze data, creating reports, and present findings.",
+    "output": "✅ **Corrected Sentence:** The course teaches you how to analyze data, create reports, and present findings. / The course teaches you data analysis, report creation, and presentation of findings.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'how to' là 'analyze', nhưng 'creating' và 'present' không đồng nhất)\n\n📖 **Vietnamese Explanation:** Tất cả phải là động từ nguyên mẫu (không 'to' nếu có 'how to' chung) hoặc tất cả là danh từ. 📊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is interested in music, sports, and to learn coding.",
+    "output": "✅ **Corrected Sentence:** He is interested in music, sports, and coding. / He is interested in music, sports, and learning to code.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ 'music, sports' và to-infinitive 'to learn coding')\n\n📖 **Vietnamese Explanation:** Chuyển 'to learn coding' thành danh từ 'coding' hoặc 'learning to code'. 💻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is not only intelligent but also she works hard.",
+    "output": "✅ **Corrected Sentence:** She is not only intelligent but also hardworking. / She not only is intelligent but also works hard.\n\n🔍 **Error Identification:** Faulty Parallelism (Tính từ 'intelligent' và mệnh đề 'she works hard')\n\n📖 **Vietnamese Explanation:** Sửa 'she works hard' thành tính từ 'hardworking' hoặc chuyển 'is intelligent' thành 'is intelligent' + 'works hard' bằng cách đặt 'not only' sau 'she'. 👩‍🎓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The hotel offers free Wi-Fi, a swimming pool, and has a gym.",
+    "output": "✅ **Corrected Sentence:** The hotel offers free Wi-Fi, a swimming pool, and a gym. / The hotel has free Wi-Fi, a swimming pool, and a gym.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ 'Wi-Fi, pool' và động từ 'has a gym')\n\n📖 **Vietnamese Explanation:** 'Offers' + danh từ. 'Has a gym' phá vỡ cấu trúc. 🏨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He enjoys hiking, to fish, and camping.",
+    "output": "✅ **Corrected Sentence:** He enjoys hiking, fishing, and camping.\n\n🔍 **Error Identification:** Faulty Parallelism (V-ing 'hiking, camping' và to-infinitive 'to fish')\n\n📖 **Vietnamese Explanation:** Sửa 'to fish' thành 'fishing'. 🎣"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The report should be submitted by Friday, must be signed, and it needs to be in PDF format.",
+    "output": "✅ **Corrected Sentence:** The report should be submitted by Friday, signed, and in PDF format. / The report must be submitted by Friday, signed, and converted to PDF.\n\n🔍 **Error Identification:** Faulty Parallelism (Cụm động từ khuyết thiếu, động từ thường, mệnh đề)\n\n📖 **Vietnamese Explanation:** Đồng nhất dạng động từ hoặc tính từ. 📄"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is friendly, has a great smile, and always helpful.",
+    "output": "✅ **Corrected Sentence:** She is friendly, has a great smile, and is always helpful. / She is friendly, helpful, and has a great smile.\n\n🔍 **Error Identification:** Faulty Parallelism (Tính từ 'friendly', động từ 'has', tính từ 'helpful')\n\n📖 **Vietnamese Explanation:** Thêm 'is' trước 'always helpful' hoặc chuyển 'has a great smile' thành tính từ 'smiley'. 😊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The job involves traveling, to meet clients, and solving problems.",
+    "output": "✅ **Corrected Sentence:** The job involves traveling, meeting clients, and solving problems.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'involves' phải là V-ing)\n\n📖 **Vietnamese Explanation:** 'To meet' sửa thành 'meeting'. ✈️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is not only a great speaker but also writes well.",
+    "output": "✅ **Corrected Sentence:** He is not only a great speaker but also a good writer. / He not only speaks well but also writes well.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ 'a great speaker' và động từ 'writes')\n\n📖 **Vietnamese Explanation:** Chọn một dạng. ✍️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She can dance, to sing, and playing the piano.",
+    "output": "✅ **Corrected Sentence:** She can dance, sing, and play the piano.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'can' là nguyên mẫu không 'to')\n\n📖 **Vietnamese Explanation:** 'To sing' bỏ 'to', 'playing' sửa thành 'play'. 🎹"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "I need to finish this report, email my boss, and then I have to call the client.",
+    "output": "✅ **Corrected Sentence:** I need to finish this report, email my boss, and call the client. / I need to finish this report, to email my boss, and to call the client.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'need to' có 'finish', 'email', nhưng 'I have to' phá vỡ)\n\n📖 **Vietnamese Explanation:** Bỏ 'I have to' và giữ 'call'. 📧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She spends her free time reading novels, to draw, and practicing yoga.",
+    "output": "✅ **Corrected Sentence:** She spends her free time reading novels, drawing, and practicing yoga.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'spends time' + V-ing)\n\n📖 **Vietnamese Explanation:** 'To draw' sửa thành 'drawing'. 🧘‍♀️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is good at math, physics, and to solve equations.",
+    "output": "✅ **Corrected Sentence:** He is good at math, physics, and solving equations. / He is good at math, physics, and equation-solving.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ và to-infinitive)\n\n📖 **Vietnamese Explanation:** 'To solve equations' sửa thành 'solving equations'. 📐"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The company values honesty, creativity, and to work hard.",
+    "output": "✅ **Corrected Sentence:** The company values honesty, creativity, and hard work. / The company values being honest, creative, and hardworking.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ 'honesty, creativity' và to-infinitive 'to work hard')\n\n📖 **Vietnamese Explanation:** Thay 'to work hard' bằng danh từ 'hard work'. 💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He promised to call me, send a text, and that he would visit.",
+    "output": "✅ **Corrected Sentence:** He promised to call me, to send a text, and to visit. / He promised that he would call me, send a text, and visit.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'to V' và mệnh đề 'that')\n\n📖 **Vietnamese Explanation:** Chọn một cấu trúc. 📞"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The recipe calls for eggs, milk, and to add sugar.",
+    "output": "✅ **Corrected Sentence:** The recipe calls for eggs, milk, and sugar. / The recipe requires adding eggs, milk, and sugar.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ 'eggs, milk' và to-infinitive 'to add sugar')\n\n📖 **Vietnamese Explanation:** 'To add sugar' sửa thành 'sugar'. 🥚🥛🍬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "I want to learn how to cook, to bake, and sewing.",
+    "output": "✅ **Corrected Sentence:** I want to learn how to cook, to bake, and to sew. / I want to learn cooking, baking, and sewing.\n\n🔍 **Error Identification:** Faulty Parallelism ('to cook, to bake' và 'sewing')\n\n📖 **Vietnamese Explanation:** Sửa 'sewing' thành 'to sew' hoặc đổi tất cả sang V-ing. 👩‍🍳"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is a person who is smart, funny, and has a lot of friends.",
+    "output": "✅ **Corrected Sentence:** She is a person who is smart, funny, and popular. / She is a person who has intelligence, humor, and many friends.\n\n🔍 **Error Identification:** Faulty Parallelism (Tính từ 'smart, funny' và động từ 'has')\n\n📖 **Vietnamese Explanation:** Sửa 'has a lot of friends' thành tính từ 'friendly' hoặc 'popular'. 👯"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The seminar will cover topics such as time management, how to reduce stress, and building relationships.",
+    "output": "✅ **Corrected Sentence:** The seminar will cover topics such as time management, stress reduction, and relationship building. / ...such as managing time, reducing stress, and building relationships.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ 'time management', cụm 'how to reduce stress', V-ing 'building relationships')\n\n📖 **Vietnamese Explanation:** Đồng nhất dạng. 🗓️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is capable of solving complex problems, to lead a team, and managing projects.",
+    "output": "✅ **Corrected Sentence:** He is capable of solving complex problems, leading a team, and managing projects.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'of' phải là V-ing)\n\n📖 **Vietnamese Explanation:** 'To lead' sửa thành 'leading'. 🧑‍💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The phone is easy to use, has a long battery life, and it is affordable.",
+    "output": "✅ **Corrected Sentence:** The phone is easy to use, has a long battery life, and is affordable. / The phone is easy to use, long-lasting, and affordable.\n\n🔍 **Error Identification:** Faulty Parallelism (Cụm tính từ 'easy to use', động từ 'has', mệnh đề 'it is affordable')\n\n📖 **Vietnamese Explanation:** Sửa 'it is affordable' thành 'is affordable' và đồng nhất dạng với 'has'? Vẫn không đẹp. Tốt nhất dùng tính từ. 📱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She is dedicated to her work, her family, and to help others.",
+    "output": "✅ **Corrected Sentence:** She is dedicated to her work, her family, and helping others. / She is dedicated to her work, her family, and others in need.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ 'work, family' và to-infinitive 'to help others')\n\n📖 **Vietnamese Explanation:** 'To help others' sửa thành 'helping others' hoặc 'others'. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is known for his kindness, generosity, and being humble.",
+    "output": "✅ **Corrected Sentence:** He is known for his kindness, generosity, and humility. / He is known for being kind, generous, and humble.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ 'kindness, generosity' và V-ing 'being humble')\n\n📖 **Vietnamese Explanation:** Thay 'being humble' bằng danh từ 'humility' hoặc chuyển tất cả sang V-ing. 🙏"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "I like to swim, bike, and running.",
+    "output": "✅ **Corrected Sentence:** I like to swim, to bike, and to run. / I like swimming, biking, and running.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'to swim', 'bike' (thiếu to), và 'running')\n\n📖 **Vietnamese Explanation:** Chọn một dạng. 🏊‍♂️🚴‍♂️🏃‍♂️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The professor is strict, demands high standards, and never accepts late work.",
+    "output": "✅ **Corrected Sentence:** The professor is strict, demanding, and punctuality-focused. / The professor demands high standards, accepts no late work, and is strict.\n\n🔍 **Error Identification:** Faulty Parallelism (Tính từ 'strict', động từ 'demands', và động từ 'accepts' – thực ra 'demands' và 'accepts' cùng dạng, nhưng 'is strict' khác dạng. Nếu viết 'is strict, demands, and accepts' thì không song song vì 'is' + adj vs động từ thường)\n\n📖 **Vietnamese Explanation:** Để song song, nếu bắt đầu bằng 'is strict', các vế sau phải là tính từ hoặc cụm tính từ. Nếu muốn dùng động từ, bỏ 'is'. 👨‍🏫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The package includes a charger, a cable, and there is also a manual.",
+    "output": "✅ **Corrected Sentence:** The package includes a charger, a cable, and a manual.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ và mệnh đề 'there is')\n\n📖 **Vietnamese Explanation:** Bỏ 'there is also'. 📦"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He not only speaks French but also he can speak German.",
+    "output": "✅ **Corrected Sentence:** He not only speaks French but also speaks German. / He can speak not only French but also German.\n\n🔍 **Error Identification:** Faulty Parallelism ('not only speaks' và 'he can speak')\n\n📖 **Vietnamese Explanation:** Bỏ 'he can' và giữ 'speaks' hoặc chuyển cấu trúc. 🇫🇷🇩🇪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She avoids eating meat, dairy, and to consume sugar.",
+    "output": "✅ **Corrected Sentence:** She avoids eating meat, dairy, and sugar. / She avoids eating meat, consuming dairy, and eating sugar.\n\n🔍 **Error Identification:** Faulty Parallelism (V-ing 'eating', danh từ 'dairy', to-infinitive 'to consume')\n\n📖 **Vietnamese Explanation:** Sửa 'to consume sugar' thành 'sugar' (danh từ) hoặc 'consuming sugar'. 🥛"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The experience was exciting, challenging, and I learned a lot.",
+    "output": "✅ **Corrected Sentence:** The experience was exciting, challenging, and educational. / The experience excited me, challenged me, and taught me a lot.\n\n🔍 **Error Identification:** Faulty Parallelism (Tính từ và mệnh đề)\n\n📖 **Vietnamese Explanation:** Thay 'I learned a lot' bằng tính từ 'educational' hoặc chuyển sang động từ chủ động. 🎓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is either lying or to tell the truth?",
+    "output": "✅ **Corrected Sentence:** He is either lying or telling the truth. / He either lies or tells the truth.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'either' là 'lying', sau 'or' là 'to tell')\n\n📖 **Vietnamese Explanation:** Đồng nhất dạng V-ing hoặc hiện tại đơn. 🤥"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "I am considering to move, changing jobs, and study abroad.",
+    "output": "✅ **Corrected Sentence:** I am considering moving, changing jobs, and studying abroad.\n\n🔍 **Error Identification:** Faulty Parallelism (Sau 'considering' thường là V-ing; 'to move' sai, 'study' thiếu -ing)\n\n📖 **Vietnamese Explanation:** Sửa 'to move' thành 'moving', 'study' thành 'studying'. 🌏"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She wants a job that is well-paid, with flexible hours, and she can work remotely.",
+    "output": "✅ **Corrected Sentence:** She wants a job that is well-paid, has flexible hours, and allows remote work. / She wants a job with good pay, flexible hours, and remote work options.\n\n🔍 **Error Identification:** Faulty Parallelism (Tính từ 'well-paid', cụm giới từ 'with flexible hours', mệnh đề 'she can work')\n\n📖 **Vietnamese Explanation:** Đồng nhất dạng mệnh đề quan hệ 'that + V' hoặc cụm giới từ 'with'. 💻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is a writer, a poet, and also he paints.",
+    "output": "✅ **Corrected Sentence:** He is a writer, a poet, and a painter. / He writes, composes poetry, and paints.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ nghề nghiệp và mệnh đề 'he paints')\n\n📖 **Vietnamese Explanation:** Sửa 'he paints' thành 'a painter' hoặc chuyển tất cả sang động từ. 🎨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The training includes how to use the software, managing data, and report writing.",
+    "output": "✅ **Corrected Sentence:** The training includes how to use the software, how to manage data, and how to write reports. / The training includes software usage, data management, and report writing.\n\n🔍 **Error Identification:** Faulty Parallelism (Cụm 'how to use', V-ing 'managing', danh từ 'report writing')\n\n📖 **Vietnamese Explanation:** Chọn một dạng. 🖥️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He is responsible for the budget, hiring staff, and to oversee operations.",
+    "output": "✅ **Corrected Sentence:** He is responsible for the budget, for hiring staff, and for overseeing operations. / He is responsible for budget management, staff hiring, and operations oversight.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ 'the budget', V-ing 'hiring', to-infinitive 'to oversee')\n\n📖 **Vietnamese Explanation:** Đồng nhất dạng sau 'responsible for'. 📊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "She likes the beach, the mountains, and to walk in the forest.",
+    "output": "✅ **Corrected Sentence:** She likes the beach, the mountains, and the forest. / She likes walking on the beach, in the mountains, and in the forest.\n\n🔍 **Error Identification:** Faulty Parallelism (Danh từ và to-infinitive)\n\n📖 **Vietnamese Explanation:** Thay 'to walk in the forest' bằng 'the forest' hoặc chuyển tất cả sang V-ing. 🌲"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "He told us to be quiet, listen carefully, and that we should take notes.",
+    "output": "✅ **Corrected Sentence:** He told us to be quiet, to listen carefully, and to take notes. / He told us that we should be quiet, listen carefully, and take notes.\n\n🔍 **Error Identification:** Faulty Parallelism (Trộn 'to V' và mệnh đề 'that')\n\n📖 **Vietnamese Explanation:** Chọn một cấu trúc. 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (cấu trúc song song) trong câu sau của học viên.",
+    "input": "The hotel room was clean, comfortable, and it had a great view.",
+    "output": "✅ **Corrected Sentence:** The hotel room was clean, comfortable, and had a great view. (Vẫn chưa hoàn hảo vì 'was clean, comfortable' là adj, 'had' là verb). Tốt hơn: The hotel room was clean, comfortable, and scenic. / The hotel room had cleanliness, comfort, and a great view.\n\n🔍 **Error Identification:** Faulty Parallelism (Tính từ và mệnh đề 'it had')\n\n📖 **Vietnamese Explanation:** Để song song, dùng toàn tính từ hoặc toàn danh từ. 🏨"
+  }
+]

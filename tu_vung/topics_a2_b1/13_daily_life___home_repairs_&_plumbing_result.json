@@ -1,0 +1,2181 @@
+[
+
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "leak",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/liːk/",
+      "ipa_us": "/liːk/",
+      "meaning_vi": "chỗ rò rỉ, sự rò rỉ",
+      "definition_en": "A hole or crack through which liquid or gas may escape, or the act of escaping.",
+      "example_en": "There's a leak in the roof, so we need to put a bucket under it.",
+      "example_vi": "Có một chỗ rò rỉ trên mái nhà, nên chúng ta cần đặt một cái xô bên dưới.",
+      "collocations_json": [
+        "water leak",
+        "gas leak",
+        "roof leak",
+        "fix a leak"
+      ],
+      "synonyms_json": [
+        "drip",
+        "seep"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Leak (lík) giống 'lích nhích' nước chảy ra.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10825
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "faucet",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈfɔːsɪt/",
+      "ipa_us": "/ˈfɔːsɪt/",
+      "meaning_vi": "vòi nước (Mỹ)",
+      "definition_en": "A device, usually in a kitchen or bathroom, that controls the flow of water.",
+      "example_en": "The kitchen faucet is dripping, we should call a plumber.",
+      "example_vi": "Vòi nước nhà bếp bị nhỏ giọt, chúng ta nên gọi thợ sửa ống nước.",
+      "collocations_json": [
+        "kitchen faucet",
+        "bathroom faucet",
+        "turn on the faucet"
+      ],
+      "synonyms_json": [
+        "tap (UK)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Faucet (phó-sịt) nghe như 'phọt nước' từ vòi.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10826
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "sink",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/sɪŋk/",
+      "ipa_us": "/sɪŋk/",
+      "meaning_vi": "bồn rửa",
+      "definition_en": "A large fixed basin with a water supply and a drain, typically in a kitchen or bathroom.",
+      "example_en": "The sink in the bathroom is clogged, so the water isn't draining.",
+      "example_vi": "Bồn rửa trong phòng tắm bị tắc, nên nước không thoát được.",
+      "collocations_json": [
+        "kitchen sink",
+        "bathroom sink",
+        "wash the dishes in the sink"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Sink (xinhk) - bồn rửa phải luôn sạch sẽ, 'xinh' xắn.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10827
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "toilet",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈtɔɪlɪt/",
+      "ipa_us": "/ˈtɔɪlɪt/",
+      "meaning_vi": "bồn cầu, nhà vệ sinh",
+      "definition_en": "A ceramic bowl with a hinged seat and a flushing mechanism, used for defecation and urination.",
+      "example_en": "The toilet is overflowing, we need to turn off the water.",
+      "example_vi": "Bồn cầu đang bị tràn, chúng ta cần khóa nước lại.",
+      "collocations_json": [
+        "flush the toilet",
+        "clogged toilet",
+        "public toilet"
+      ],
+      "synonyms_json": [
+        "restroom",
+        "lavatory"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Toilet (toi-lịt) - 'toi' rồi, bồn cầu bị hỏng!",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10828
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "drain",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/dreɪn/",
+      "ipa_us": "/dreɪn/",
+      "meaning_vi": "cống, ống thoát nước",
+      "definition_en": "A channel or pipe carrying off surplus liquid, especially wastewater.",
+      "example_en": "The water won't go down because the drain is blocked.",
+      "example_vi": "Nước không thoát được vì cống bị tắc.",
+      "collocations_json": [
+        "clogged drain",
+        "kitchen drain",
+        "bathroom drain"
+      ],
+      "synonyms_json": [
+        "outlet",
+        "sewer"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Drain (đrên) - 'đổ rền' rền nước xuống cống.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10829
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "clogged",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/klɒɡd/",
+      "ipa_us": "/klɑːɡd/",
+      "meaning_vi": "bị tắc, bị nghẽn",
+      "definition_en": "Blocked with an accumulation of thick, wet matter.",
+      "example_en": "My shower drain is clogged with hair, and the water is backing up.",
+      "example_vi": "Cống thoát nước vòi hoa sen của tôi bị tắc tóc, và nước đang bị ứ lại.",
+      "collocations_json": [
+        "clogged drain",
+        "clogged toilet",
+        "clogged pipe"
+      ],
+      "synonyms_json": [
+        "blocked",
+        "obstructed"
+      ],
+      "antonyms_json": [
+        "unclogged",
+        "clear"
+      ],
+      "mnemonic": "Clogged (klogd) - 'khó lọt' vì bị tắc.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10830
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "pipe",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/paɪp/",
+      "ipa_us": "/paɪp/",
+      "meaning_vi": "ống (nước, ga)",
+      "definition_en": "A long tube through which water, gas, oil, or other liquids or gases are transmitted.",
+      "example_en": "The old water pipes in the house need to be replaced soon.",
+      "example_vi": "Các ống nước cũ trong nhà cần được thay thế sớm.",
+      "collocations_json": [
+        "water pipe",
+        "gas pipe",
+        "burst pipe"
+      ],
+      "synonyms_json": [
+        "tube",
+        "conduit"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Pipe (pai-p) - 'pai' nước chảy qua ống.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10831
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "plumber",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈplʌmə/",
+      "ipa_us": "/ˈplʌmər/",
+      "meaning_vi": "thợ sửa ống nước",
+      "definition_en": "A person who installs and repairs the pipes and fittings of water supply, sanitation, or heating systems.",
+      "example_en": "We called a plumber to fix the leaking faucet.",
+      "example_vi": "Chúng tôi đã gọi thợ sửa ống nước để sửa vòi nước bị rò rỉ.",
+      "collocations_json": [
+        "call a plumber",
+        "hire a plumber",
+        "emergency plumber"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Plumber (plăm-mờ) - 'plăm' cái ống nước lại.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10832
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "overflow",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌəʊvəˈfləʊ/",
+      "ipa_us": "/ˌoʊvərˈfloʊ/",
+      "meaning_vi": "tràn, chảy tràn",
+      "definition_en": "To flow over the brim of a container or other enclosure.",
+      "example_en": "The bathtub started to overflow because the drain was blocked.",
+      "example_vi": "Bồn tắm bắt đầu tràn vì cống bị tắc.",
+      "collocations_json": [
+        "bathtub overflow",
+        "sink overflow",
+        "toilet overflow"
+      ],
+      "synonyms_json": [
+        "spill over",
+        "run over"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Overflow (ô-vờ-flô) - 'ô vờ' khắp sàn vì nước 'flow' ra.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10833
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "drip",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/drɪp/",
+      "ipa_us": "/drɪp/",
+      "meaning_vi": "nhỏ giọt",
+      "definition_en": "To fall or let fall in small drops.",
+      "example_en": "The faucet has been dripping all night, it's so annoying.",
+      "example_vi": "Vòi nước đã nhỏ giọt suốt đêm, thật khó chịu.",
+      "collocations_json": [
+        "faucet dripping",
+        "water dripping",
+        "drip dry"
+      ],
+      "synonyms_json": [
+        "trickle",
+        "drop"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Drip (đríp) - 'đrip đrip' nước rơi tí tách.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10834
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "wrench",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rentʃ/",
+      "ipa_us": "/rentʃ/",
+      "meaning_vi": "cờ lê, mỏ lết",
+      "definition_en": "A tool used for gripping and turning nuts and bolts.",
+      "example_en": "He used a wrench to tighten the pipe connection.",
+      "example_vi": "Anh ấy đã dùng cờ lê để siết chặt mối nối ống nước.",
+      "collocations_json": [
+        "adjustable wrench",
+        "monkey wrench",
+        "pipe wrench"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Wrench (ren-ch) - 'rèn' cơ bắp khi dùng cờ lê.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10835
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "plunger",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈplʌndʒə/",
+      "ipa_us": "/ˈplʌndʒər/",
+      "meaning_vi": "cây thụt bồn cầu",
+      "definition_en": "A tool with a rubber suction cup on a stick, used for clearing blocked drains and toilets.",
+      "example_en": "I tried to clear the toilet with a plunger, but it's still blocked.",
+      "example_vi": "Tôi đã thử thông bồn cầu bằng cây thụt, nhưng nó vẫn bị tắc.",
+      "collocations_json": [
+        "toilet plunger",
+        "use a plunger"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Plunger (plăn-giờ) - 'plăn' (plan) thông bồn cầu với cây này.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10836
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "flush",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/flʌʃ/",
+      "ipa_us": "/flʌʃ/",
+      "meaning_vi": "xả nước (bồn cầu)",
+      "definition_en": "To clean (a toilet) by causing water to pour through it.",
+      "example_en": "Please remember to flush the toilet after you use it.",
+      "example_vi": "Xin hãy nhớ xả nước bồn cầu sau khi bạn sử dụng.",
+      "collocations_json": [
+        "flush the toilet",
+        "flush down"
+      ],
+      "synonyms_json": [
+        "rinse",
+        "wash away"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Flush (flăsh) - 'phát' ra tiếng nước xả.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10837
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "water heater",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈwɔːtə hiːtə/",
+      "ipa_us": "/ˈwɑːtər hiːtər/",
+      "meaning_vi": "bình nóng lạnh",
+      "definition_en": "An appliance that heats water and stores it for later use.",
+      "example_en": "Our water heater is old and needs to be replaced soon.",
+      "example_vi": "Bình nóng lạnh của chúng tôi đã cũ và cần được thay thế sớm.",
+      "collocations_json": [
+        "install a water heater",
+        "repair a water heater"
+      ],
+      "synonyms_json": [
+        "boiler"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Water heater - làm nước 'nóng hừng hực'.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10838
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "shower",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈʃaʊə/",
+      "ipa_us": "/ˈʃaʊər/",
+      "meaning_vi": "vòi hoa sen, phòng tắm vòi sen",
+      "definition_en": "An apparatus for spraying water on to the body, usually from above, or the act of washing oneself this way.",
+      "example_en": "The shower head is broken, so water sprays everywhere.",
+      "example_vi": "Vòi hoa sen bị hỏng, nên nước bắn tung tóe khắp nơi.",
+      "collocations_json": [
+        "take a shower",
+        "shower head",
+        "electric shower"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Shower (shao-ờ) - 'sao' không tắm bằng vòi hoa sen?",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10839
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "bathtub",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbɑːθtʌb/",
+      "ipa_us": "/ˈbæθtʌb/",
+      "meaning_vi": "bồn tắm",
+      "definition_en": "A large open container, typically made of porcelain or plastic, used for bathing.",
+      "example_en": "The children love playing with their toys in the bathtub.",
+      "example_vi": "Những đứa trẻ thích chơi đồ chơi trong bồn tắm.",
+      "collocations_json": [
+        "fill the bathtub",
+        "take a bath in the bathtub"
+      ],
+      "synonyms_json": [
+        "bath"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bathtub (báth-tăb) - 'bath' (tắm) trong cái 'tub' (thùng).",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10840
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "valve",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/vælv/",
+      "ipa_us": "/vælv/",
+      "meaning_vi": "van",
+      "definition_en": "A device for controlling the passage of fluid or gas through a pipe or duct by means of a movable part that opens or closes the passageway.",
+      "example_en": "You need to turn the main water valve off before you start any plumbing work.",
+      "example_vi": "Bạn cần khóa van nước chính trước khi bắt đầu bất kỳ công việc sửa ống nước nào.",
+      "collocations_json": [
+        "water valve",
+        "gas valve",
+        "shut-off valve"
+      ],
+      "synonyms_json": [
+        "tap",
+        "control"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Valve (valv) - 'van' là vật để đóng mở dòng chảy.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10841
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "turn off the water",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/tɜːn ɒf ðə ˈwɔːtə/",
+      "ipa_us": "/tɜːrn ɑːf ðə ˈwɑːtər/",
+      "meaning_vi": "khóa nước, ngắt nước",
+      "definition_en": "To stop the flow of water by closing a tap or valve.",
+      "example_en": "Remember to turn off the water if you're going away for a long time.",
+      "example_vi": "Hãy nhớ khóa nước nếu bạn đi vắng trong một thời gian dài.",
+      "collocations_json": [],
+      "synonyms_json": [
+        "shut off the water"
+      ],
+      "antonyms_json": [
+        "turn on the water"
+      ],
+      "mnemonic": "Turn off the water - 'tắt' vòi nước.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10842
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "sewage",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsjuːɪdʒ/",
+      "ipa_us": "/ˈsuːɪdʒ/",
+      "meaning_vi": "nước thải, nước cống",
+      "definition_en": "Waste matter carried away in sewers or drains.",
+      "example_en": "There was a strong smell of sewage coming from the basement.",
+      "example_vi": "Có một mùi nước thải nồng nặc bốc ra từ tầng hầm.",
+      "collocations_json": [
+        "sewage system",
+        "raw sewage",
+        "sewage treatment"
+      ],
+      "synonyms_json": [
+        "wastewater",
+        "effluent"
+      ],
+      "antonyms_json": [
+        "fresh water"
+      ],
+      "mnemonic": "Sewage (xu-ịt-j) - 'xú uế' vì là nước thải.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10843
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "unclog",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ʌnˈklɒɡ/",
+      "ipa_us": "/ʌnˈklɑːɡ/",
+      "meaning_vi": "thông tắc",
+      "definition_en": "To remove an obstruction from (a drain or pipe).",
+      "example_en": "I need to buy a chemical to unclog the kitchen sink.",
+      "example_vi": "Tôi cần mua một hóa chất để thông tắc bồn rửa chén.",
+      "collocations_json": [
+        "unclog a drain",
+        "unclog a toilet"
+      ],
+      "synonyms_json": [
+        "clear",
+        "unblock"
+      ],
+      "antonyms_json": [
+        "clog",
+        "block"
+      ],
+      "mnemonic": "Unclog (ăn-klog) - 'ăn' hết cái tắc nghẽn.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10844
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "repair",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈpeə/",
+      "ipa_us": "/rɪˈper/",
+      "meaning_vi": "sửa chữa",
+      "definition_en": "To restore (something damaged, faulty, or worn) to a good condition.",
+      "example_en": "Can you help me repair the broken chair?",
+      "example_vi": "Bạn có thể giúp tôi sửa chiếc ghế bị hỏng không?",
+      "collocations_json": [
+        "repair a car",
+        "repair a roof",
+        "major repairs"
+      ],
+      "synonyms_json": [
+        "fix",
+        "mend"
+      ],
+      "antonyms_json": [
+        "break",
+        "damage"
+      ],
+      "mnemonic": "Repair (ri-pe-ờ) - 'rì' (gì) cũng 'pe' (sửa) được.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10845
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "fix",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/fɪks/",
+      "ipa_us": "/fɪks/",
+      "meaning_vi": "sửa chữa, khắc phục",
+      "definition_en": "To mend or repair something.",
+      "example_en": "I need to fix the light bulb; it's not working.",
+      "example_vi": "Tôi cần sửa bóng đèn; nó không hoạt động.",
+      "collocations_json": [
+        "fix a problem",
+        "fix a car",
+        "fix dinner"
+      ],
+      "synonyms_json": [
+        "repair",
+        "mend"
+      ],
+      "antonyms_json": [
+        "break",
+        "damage"
+      ],
+      "mnemonic": "Fix (phích-s) - 'phải x' (phải sửa) ngay.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10846
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "broken",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbrəʊkən/",
+      "ipa_us": "/ˈbroʊkən/",
+      "meaning_vi": "bị hỏng, bị vỡ",
+      "definition_en": "Having been fractured or damaged and no longer in working order.",
+      "example_en": "My phone screen is broken, so I can't use it.",
+      "example_vi": "Màn hình điện thoại của tôi bị vỡ, nên tôi không thể sử dụng được.",
+      "collocations_json": [
+        "broken glass",
+        "broken leg",
+        "broken heart"
+      ],
+      "synonyms_json": [
+        "damaged",
+        "faulty"
+      ],
+      "antonyms_json": [
+        "fixed",
+        "working"
+      ],
+      "mnemonic": "Broken (brô-kần) - 'bị rụng' và 'không' còn nguyên vẹn.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10847
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "damaged",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdæmɪdʒd/",
+      "ipa_us": "/ˈdæmɪdʒd/",
+      "meaning_vi": "bị hư hại, bị tổn hại",
+      "definition_en": "Suffering from physical harm or injury.",
+      "example_en": "The car was badly damaged in the accident.",
+      "example_vi": "Chiếc xe bị hư hại nặng trong vụ tai nạn.",
+      "collocations_json": [
+        "severely damaged",
+        "water damaged",
+        "damaged goods"
+      ],
+      "synonyms_json": [
+        "broken",
+        "harmed"
+      ],
+      "antonyms_json": [
+        "undamaged",
+        "intact"
+      ],
+      "mnemonic": "Damaged (đam-mịt-j) - 'đam' (đâm) vào thì 'mịt' (hư) ngay.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10848
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "tool",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/tuːl/",
+      "ipa_us": "/tuːl/",
+      "meaning_vi": "dụng cụ, công cụ",
+      "definition_en": "A device or implement, especially one held in the hand, used to carry out a particular function.",
+      "example_en": "He keeps all his tools in a toolbox in the garage.",
+      "example_vi": "Anh ấy giữ tất cả dụng cụ của mình trong một hộp dụng cụ ở nhà để xe.",
+      "collocations_json": [
+        "power tool",
+        "hand tool",
+        "gardening tool"
+      ],
+      "synonyms_json": [
+        "implement",
+        "instrument"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tool (tu-l) - cần 'túi' đồ nghề để đựng 'tool'.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10849
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "hammer",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhæmə/",
+      "ipa_us": "/ˈhæmər/",
+      "meaning_vi": "búa",
+      "definition_en": "A tool with a heavy metal head mounted at right angles to a handle, used for driving nails or breaking things.",
+      "example_en": "I need a hammer to put this picture on the wall.",
+      "example_vi": "Tôi cần một cái búa để treo bức tranh này lên tường.",
+      "collocations_json": [
+        "claw hammer",
+        "sledgehammer",
+        "hammer a nail"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Hammer (ham-mờ) - 'ha' (hạ) búa 'mờ' (mạnh) xuống.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10850
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "screwdriver",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈskruːdraɪvə/",
+      "ipa_us": "/ˈskruːdraɪvər/",
+      "meaning_vi": "tua vít",
+      "definition_en": "A tool with a shaped tip, used for turning screws.",
+      "example_en": "You'll need a screwdriver to assemble this furniture.",
+      "example_vi": "Bạn sẽ cần một cái tua vít để lắp ráp món đồ nội thất này.",
+      "collocations_json": [
+        "Phillips screwdriver",
+        "flathead screwdriver",
+        "electric screwdriver"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Screwdriver (skru-đrai-vờ) - 'xoắn' vít bằng 'driver' này.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10851
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "nail",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/neɪl/",
+      "ipa_us": "/neɪl/",
+      "meaning_vi": "đinh",
+      "definition_en": "A small metal spike with a broadened flat head, driven into wood or other material as a fastener.",
+      "example_en": "Be careful, there's a loose nail sticking out of the floorboard.",
+      "example_vi": "Cẩn thận, có một cái đinh lỏng thò ra khỏi ván sàn.",
+      "collocations_json": [
+        "hammer a nail",
+        "rusty nail",
+        "finger nail"
+      ],
+      "synonyms_json": [
+        "spike",
+        "tack"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Nail (nêl) - đóng 'nền' nhà bằng đinh.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10852
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "screw",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/skruː/",
+      "ipa_us": "/skruː/",
+      "meaning_vi": "ốc vít",
+      "definition_en": "A short, slender, sharp-pointed metal pin with a raised helical thread running round it and a slotted head, used to join things together.",
+      "example_en": "This shelf is held by four screws; make sure they are tight.",
+      "example_vi": "Cái kệ này được giữ bằng bốn con ốc vít; hãy đảm bảo chúng được vặn chặt.",
+      "collocations_json": [
+        "tighten a screw",
+        "loose screw",
+        "turn a screw"
+      ],
+      "synonyms_json": [
+        "bolt",
+        "fastener"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Screw (skru) - 'sờ-cờ-ru' (sờ cái ốc) để vặn.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10853
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "light bulb",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlaɪt bʌlb/",
+      "ipa_us": "/ˈlaɪt bʌlb/",
+      "meaning_vi": "bóng đèn điện",
+      "definition_en": "A glass bulb containing a filament which is made incandescent by an electric current.",
+      "example_en": "The light bulb in the living room needs to be replaced.",
+      "example_vi": "Bóng đèn trong phòng khách cần được thay thế.",
+      "collocations_json": [
+        "change a light bulb",
+        "broken light bulb",
+        "LED light bulb"
+      ],
+      "synonyms_json": [
+        "bulb",
+        "lamp"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Light bulb - 'bật' đèn 'bừng' sáng.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10854
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "paint",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/peɪnt/",
+      "ipa_us": "/peɪnt/",
+      "meaning_vi": "sơn",
+      "definition_en": "To apply paint to (a surface).",
+      "example_en": "We decided to paint the living room a new color.",
+      "example_vi": "Chúng tôi quyết định sơn lại phòng khách một màu mới.",
+      "collocations_json": [
+        "paint a wall",
+        "paint a picture",
+        "house paint"
+      ],
+      "synonyms_json": [
+        "decorate",
+        "coat"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Paint (pênt) - 'phết' sơn lên tường.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10855
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "wall",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/wɔːl/",
+      "ipa_us": "/wɑːl/",
+      "meaning_vi": "tường",
+      "definition_en": "A continuous upright brick or stone structure that encloses or divides an area of land or a building.",
+      "example_en": "The wall needs a fresh coat of paint.",
+      "example_vi": "Bức tường cần một lớp sơn mới.",
+      "collocations_json": [
+        "brick wall",
+        "garden wall",
+        "climb a wall"
+      ],
+      "synonyms_json": [
+        "barrier",
+        "partition"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wall (wo-l) - 'vào' tường mà xem.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10856
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "roof",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ruːf/",
+      "ipa_us": "/ruːf/",
+      "meaning_vi": "mái nhà",
+      "definition_en": "The structure forming the upper covering of a building or vehicle.",
+      "example_en": "We need to check the roof for any damage after the storm.",
+      "example_vi": "Chúng ta cần kiểm tra mái nhà xem có hư hại gì không sau cơn bão.",
+      "collocations_json": [
+        "leaky roof",
+        "flat roof",
+        "roof tiles"
+      ],
+      "synonyms_json": [
+        "ceiling (interior)"
+      ],
+      "antonyms_json": [
+        "floor"
+      ],
+      "mnemonic": "Roof (ru-f) - 'rủ' nhau lên sửa mái nhà.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10857
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "ladder",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlædə/",
+      "ipa_us": "/ˈlædər/",
+      "meaning_vi": "thang",
+      "definition_en": "A device consisting of a series of bars or steps between two upright lengths of wood or metal, used for climbing up or down.",
+      "example_en": "Be careful when you climb up the ladder to clean the gutters.",
+      "example_vi": "Hãy cẩn thận khi bạn leo thang để dọn máng xối.",
+      "collocations_json": [
+        "climb a ladder",
+        "step ladder",
+        "extension ladder"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Ladder (la-đờ) - 'lên đó' bằng thang.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10858
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "drill",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/drɪl/",
+      "ipa_us": "/drɪl/",
+      "meaning_vi": "khoan",
+      "definition_en": "To make a hole in something with a drill.",
+      "example_en": "I need to drill a hole in the wall to hang the picture.",
+      "example_vi": "Tôi cần khoan một cái lỗ trên tường để treo bức tranh.",
+      "collocations_json": [
+        "drill a hole",
+        "electric drill",
+        "drill bit"
+      ],
+      "synonyms_json": [
+        "bore",
+        "pierce"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Drill (đril) - 'đril' (điều) khiển máy khoan.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10859
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "socket",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsɒkɪt/",
+      "ipa_us": "/ˈsɑːkɪt/",
+      "meaning_vi": "ổ cắm điện",
+      "definition_en": "An electrical receptacle into which a plug is inserted to make a connection.",
+      "example_en": "This wall socket is loose; it needs to be fixed.",
+      "example_vi": "Ổ cắm điện này bị lỏng; nó cần được sửa chữa.",
+      "collocations_json": [
+        "wall socket",
+        "power socket",
+        "electrical socket"
+      ],
+      "synonyms_json": [
+        "outlet (US)",
+        "receptacle"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Socket (so-kịt) - 'sóc' (sạc) điện vào 'kít' (kít-kít) ổ cắm.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10860
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "wire",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈwaɪə/",
+      "ipa_us": "/ˈwaɪər/",
+      "meaning_vi": "dây điện, dây kim loại",
+      "definition_en": "Metal drawn out into a thin flexible thread or rod.",
+      "example_en": "Be careful not to touch the exposed wires, it's dangerous.",
+      "example_vi": "Hãy cẩn thận đừng chạm vào dây điện bị hở, rất nguy hiểm.",
+      "collocations_json": [
+        "electrical wire",
+        "bare wire",
+        "cut the wire"
+      ],
+      "synonyms_json": [
+        "cable",
+        "cord"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wire (wai-ờ) - 'quai' (quấn) dây điện lại.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10861
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "electricity",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɪlɛkˈtrɪsɪti/",
+      "ipa_us": "/ɪlɛkˈtrɪsɪti/",
+      "meaning_vi": "điện",
+      "definition_en": "A form of energy resulting from the existence of charged particles, either statically as an accumulation of charge or dynamically as a current.",
+      "example_en": "The electricity went out during the storm.",
+      "example_vi": "Điện đã bị mất trong cơn bão.",
+      "collocations_json": [
+        "generate electricity",
+        "save electricity",
+        "electricity bill"
+      ],
+      "synonyms_json": [
+        "power",
+        "current"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Electricity (i-lec-trí-si-ti) - 'điện' 'lực' mạnh.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10862
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "power outage",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpaʊər ˈaʊtɪdʒ/",
+      "ipa_us": "/ˈpaʊər ˈaʊtɪdʒ/",
+      "meaning_vi": "mất điện",
+      "definition_en": "A period when the electrical power supply to an area or building is interrupted.",
+      "example_en": "We had a power outage for three hours last night.",
+      "example_vi": "Chúng tôi bị mất điện ba tiếng đồng hồ tối qua.",
+      "collocations_json": [
+        "widespread power outage",
+        "experience a power outage"
+      ],
+      "synonyms_json": [
+        "blackout",
+        "power cut (UK)"
+      ],
+      "antonyms_json": [
+        "power supply"
+      ],
+      "mnemonic": "Power outage - 'out' (hết) 'power' (điện).",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10863
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "fuse",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/fjuːz/",
+      "ipa_us": "/fjuːz/",
+      "meaning_vi": "cầu chì",
+      "definition_en": "A safety device consisting of a strip of wire that melts and breaks an electric circuit if the current exceeds a safe level.",
+      "example_en": "The lights went out because a fuse blew.",
+      "example_vi": "Đèn tắt vì cầu chì bị cháy.",
+      "collocations_json": [
+        "blow a fuse",
+        "change a fuse",
+        "fuse box"
+      ],
+      "synonyms_json": [
+        "circuit breaker"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Fuse (fiuz) - 'phù' một cái, cầu chì cháy.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10864
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "doorbell",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdɔːbɛl/",
+      "ipa_us": "/ˈdɔːrbɛl/",
+      "meaning_vi": "chuông cửa",
+      "definition_en": "A bell on an outside door that a visitor presses to alert the occupants.",
+      "example_en": "The doorbell isn't working; visitors have to knock.",
+      "example_vi": "Chuông cửa không hoạt động; khách phải gõ cửa.",
+      "collocations_json": [
+        "ring the doorbell",
+        "wireless doorbell"
+      ],
+      "synonyms_json": [
+        "chime"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Doorbell - 'đô' (đến) cửa 'bấm' chuông.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10865
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "hinge",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/hɪndʒ/",
+      "ipa_us": "/hɪndʒ/",
+      "meaning_vi": "bản lề",
+      "definition_en": "A movable joint or mechanism on which a door, gate, or lid swings open and shut.",
+      "example_en": "The door is squeaking because the hinges need oiling.",
+      "example_vi": "Cánh cửa kêu kẽo kẹt vì bản lề cần được tra dầu.",
+      "collocations_json": [
+        "door hinge",
+        "loose hinge",
+        "oil the hinges"
+      ],
+      "synonyms_json": [
+        "joint",
+        "pivot"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hinge (hin-j) - 'hin' (nhìn) vào bản lề để thấy nó 'j' (dịch) chuyển.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10866
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "lock",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/lɒk/",
+      "ipa_us": "/lɑːk/",
+      "meaning_vi": "khóa",
+      "definition_en": "A mechanism for keeping a door, lid, or container fastened, typically operated by a key.",
+      "example_en": "I can't open the door because the lock is broken.",
+      "example_vi": "Tôi không thể mở cửa vì khóa bị hỏng.",
+      "collocations_json": [
+        "door lock",
+        "padlock",
+        "security lock"
+      ],
+      "synonyms_json": [
+        "bolt",
+        "fastener"
+      ],
+      "antonyms_json": [
+        "key (as a device to open)"
+      ],
+      "mnemonic": "Lock (lok) - 'lóc cóc' mở khóa.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10867
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "key",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kiː/",
+      "ipa_us": "/kiː/",
+      "meaning_vi": "chìa khóa",
+      "definition_en": "A small piece of shaped metal with a serrated edge, for opening or closing a lock.",
+      "example_en": "I lost my house key, so I can't get in.",
+      "example_vi": "Tôi làm mất chìa khóa nhà, nên tôi không thể vào được.",
+      "collocations_json": [
+        "house key",
+        "car key",
+        "turn the key"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "lock"
+      ],
+      "mnemonic": "Key (ki) - 'kì' lạ sao không tìm thấy chìa khóa.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10868
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "shelf",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ʃɛlf/",
+      "ipa_us": "/ʃɛlf/",
+      "meaning_vi": "kệ, giá sách",
+      "definition_en": "A flat length of wood or other rigid material, attached to a wall or forming part of a unit, used for storing or displaying objects.",
+      "example_en": "Could you help me put these books on the top shelf?",
+      "example_vi": "Bạn có thể giúp tôi đặt những cuốn sách này lên kệ trên cùng không?",
+      "collocations_json": [
+        "bookshelf",
+        "wall shelf",
+        "put on a shelf"
+      ],
+      "synonyms_json": [
+        "rack",
+        "ledge"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Shelf (shelf) - 'sắp xếp' đồ lên kệ.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10869
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "install",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɪnˈstɔːl/",
+      "ipa_us": "/ɪnˈstɑːl/",
+      "meaning_vi": "lắp đặt",
+      "definition_en": "To place or fix (equipment or machinery) in position ready for use.",
+      "example_en": "We need to install a new air conditioner before summer.",
+      "example_vi": "Chúng tôi cần lắp đặt một máy điều hòa không khí mới trước mùa hè.",
+      "collocations_json": [
+        "install software",
+        "install a system",
+        "install new equipment"
+      ],
+      "synonyms_json": [
+        "set up",
+        "fit"
+      ],
+      "antonyms_json": [
+        "uninstall",
+        "remove"
+      ],
+      "mnemonic": "Install (in-stôl) - 'in' (vào) và 'store' (đặt) vào vị trí.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10870
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "maintain",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/meɪnˈteɪn/",
+      "ipa_us": "/meɪnˈteɪn/",
+      "meaning_vi": "bảo trì, duy trì",
+      "definition_en": "To keep (something) in good condition by checking or repairing it regularly.",
+      "example_en": "It's important to maintain your car regularly to prevent breakdowns.",
+      "example_vi": "Điều quan trọng là phải bảo trì xe của bạn thường xuyên để tránh hỏng hóc.",
+      "collocations_json": [
+        "maintain a car",
+        "maintain a building",
+        "maintain standards"
+      ],
+      "synonyms_json": [
+        "keep up",
+        "preserve"
+      ],
+      "antonyms_json": [
+        "neglect",
+        "damage"
+      ],
+      "mnemonic": "Maintain (mên-tên) - 'mên' (main) là chính, phải 'tên' (luôn) giữ gìn.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10871
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "DIY",
+      "part_of_speech": "acronym",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌdiː aɪ ˈwaɪ/",
+      "ipa_us": "/ˌdiː aɪ ˈwaɪ/",
+      "meaning_vi": "tự làm, tự sửa chữa",
+      "definition_en": "The activity of decorating or repairing your home, or making things for your home yourself, rather than paying someone else to do it.",
+      "example_en": "He loves doing DIY projects around the house on weekends.",
+      "example_vi": "Anh ấy thích làm các dự án tự sửa chữa quanh nhà vào cuối tuần.",
+      "collocations_json": [
+        "DIY project",
+        "DIY store",
+        "DIY enthusiast"
+      ],
+      "synonyms_json": [
+        "do it yourself"
+      ],
+      "antonyms_json": [
+        "professional service"
+      ],
+      "mnemonic": "DIY - 'đi ai' (do it yourself) mà làm.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10872
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "handy",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhændi/",
+      "ipa_us": "/ˈhændi/",
+      "meaning_vi": "khéo tay, tháo vát",
+      "definition_en": "Skilful with one's hands; practical.",
+      "example_en": "My dad is very handy around the house; he can fix almost anything.",
+      "example_vi": "Bố tôi rất khéo tay trong nhà; ông ấy có thể sửa gần như mọi thứ.",
+      "collocations_json": [
+        "handy with tools",
+        "handy person",
+        "come in handy"
+      ],
+      "synonyms_json": [
+        "skilled",
+        "dexterous"
+      ],
+      "antonyms_json": [
+        "clumsy",
+        "unskilled"
+      ],
+      "mnemonic": "Handy (han-đi) - 'tay' (hand) 'đi'êu luyện.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10873
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "patch",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/pætʃ/",
+      "ipa_us": "/pætʃ/",
+      "meaning_vi": "vá, sửa tạm",
+      "definition_en": "To mend or strengthen (fabric or an item of clothing) with a patch.",
+      "example_en": "We need to patch the hole in the wall before painting.",
+      "example_vi": "Chúng ta cần vá lỗ trên tường trước khi sơn.",
+      "collocations_json": [
+        "patch a hole",
+        "patch up",
+        "patch things up"
+      ],
+      "synonyms_json": [
+        "mend",
+        "repair"
+      ],
+      "antonyms_json": [
+        "break",
+        "tear"
+      ],
+      "mnemonic": "Patch (pát-ch) - 'vá' một cách 'tách' rời.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10874
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "caulk",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kɔːk/",
+      "ipa_us": "/kɑːk/",
+      "meaning_vi": "trét keo (chống thấm)",
+      "definition_en": "To seal (a gap or seam) with a waterproof filler material.",
+      "example_en": "You should caulk around the windows to prevent drafts.",
+      "example_vi": "Bạn nên trét keo xung quanh cửa sổ để ngăn gió lùa.",
+      "collocations_json": [
+        "caulk a window",
+        "caulk gun",
+        "silicone caulk"
+      ],
+      "synonyms_json": [
+        "seal",
+        "weatherstrip"
+      ],
+      "antonyms_json": [
+        "unseal"
+      ],
+      "mnemonic": "Caulk (kawk) - 'kéo' keo ra để 'cóc' (chống) thấm.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10875
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "insulation",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌɪnsjuˈleɪʃn/",
+      "ipa_us": "/ˌɪnsəˈleɪʃn/",
+      "meaning_vi": "vật liệu cách nhiệt/điện",
+      "definition_en": "Material used to insulate something, especially a building.",
+      "example_en": "Good insulation can help reduce your heating bills.",
+      "example_vi": "Vật liệu cách nhiệt tốt có thể giúp giảm hóa đơn sưởi ấm của bạn.",
+      "collocations_json": [
+        "wall insulation",
+        "loft insulation",
+        "electrical insulation"
+      ],
+      "synonyms_json": [
+        "padding",
+        "lagging"
+      ],
+      "antonyms_json": [
+        "conductor"
+      ],
+      "mnemonic": "Insulation (in-su-lây-shần) - 'in' (trong) nhà cần 'su' (giữ) ấm.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10876
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "grout",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɡraʊt/",
+      "ipa_us": "/ɡraʊt/",
+      "meaning_vi": "vữa chít mạch",
+      "definition_en": "A mortar or paste for filling crevices, especially between tiles.",
+      "example_en": "The grout between the bathroom tiles is starting to crack.",
+      "example_vi": "Vữa chít mạch giữa các viên gạch phòng tắm đang bắt đầu nứt.",
+      "collocations_json": [
+        "tile grout",
+        "regrout",
+        "grout cleaner"
+      ],
+      "synonyms_json": [
+        "mortar",
+        "filler"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Grout (grau-t) - 'grao' (rao) vữa chít mạch.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10877
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "sander",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsændə/",
+      "ipa_us": "/ˈsændər/",
+      "meaning_vi": "máy chà nhám",
+      "definition_en": "A power tool used for smoothing surfaces with sandpaper.",
+      "example_en": "You'll need a sander to prepare the wood for painting.",
+      "example_vi": "Bạn sẽ cần một máy chà nhám để chuẩn bị gỗ trước khi sơn.",
+      "collocations_json": [
+        "orbital sander",
+        "belt sander",
+        "electric sander"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Sander (xan-đờ) - 'xả' nhám bằng máy 'sand' (cát).",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10878
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "level",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlɛvl/",
+      "ipa_us": "/ˈlɛvl/",
+      "meaning_vi": "thước thủy",
+      "definition_en": "A device for establishing a horizontal line or plane by means of a liquid bubble.",
+      "example_en": "Use a spirit level to make sure the shelf is straight.",
+      "example_vi": "Sử dụng thước thủy để đảm bảo cái kệ thẳng hàng.",
+      "collocations_json": [
+        "spirit level",
+        "bubble level",
+        "laser level"
+      ],
+      "synonyms_json": [
+        "alignment tool"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Level (le-vơl) - 'lấy' cái thước để xem có 'vừa' không.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10879
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "tape measure",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈteɪp ˌmɛʒə/",
+      "ipa_us": "/ˈteɪp ˌmɛʒər/",
+      "meaning_vi": "thước dây",
+      "definition_en": "A length of tape or thin flexible metal marked with units for measuring.",
+      "example_en": "Can you hand me the tape measure so I can check the dimensions?",
+      "example_vi": "Bạn có thể đưa tôi thước dây để tôi kiểm tra kích thước không?",
+      "collocations_json": [
+        "retractable tape measure",
+        "steel tape measure"
+      ],
+      "synonyms_json": [
+        "measuring tape"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tape measure - 'tê' (kéo) thước 'mét' (đo) chiều dài.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10880
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "utility knife",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/juːˈtɪlɪti naɪf/",
+      "ipa_us": "/juːˈtɪləti naɪf/",
+      "meaning_vi": "dao rọc giấy, dao đa năng",
+      "definition_en": "A knife with a short, stiff blade, used for cutting various materials.",
+      "example_en": "He used a utility knife to open the cardboard box.",
+      "example_vi": "Anh ấy đã dùng dao rọc giấy để mở hộp carton.",
+      "collocations_json": [
+        "retractable utility knife",
+        "heavy-duty utility knife"
+      ],
+      "synonyms_json": [
+        "box cutter",
+        "craft knife"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Utility knife - 'u-ti-li' (út-tì-lợi) là dao 'đa năng'.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10881
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "putty",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpʌti/",
+      "ipa_us": "/ˈpʌti/",
+      "meaning_vi": "bột trét, matit",
+      "definition_en": "A soft, dough-like material used to fill holes or cracks.",
+      "example_en": "You can use wood putty to fill small holes in furniture.",
+      "example_vi": "Bạn có thể dùng bột trét gỗ để lấp các lỗ nhỏ trên đồ nội thất.",
+      "collocations_json": [
+        "wood putty",
+        "glazing putty",
+        "epoxy putty"
+      ],
+      "synonyms_json": [
+        "filler",
+        "paste"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Putty (pă-ti) - 'pát' (trét) bột 'ty' (tí) ti vào lỗ.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10882
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "sanding paper",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsændɪŋ ˌpeɪpə/",
+      "ipa_us": "/ˈsændɪŋ ˌpeɪpər/",
+      "meaning_vi": "giấy nhám",
+      "definition_en": "Stiff paper or cloth with abrasive material glued to one side, used for smoothing or polishing surfaces.",
+      "example_en": "I need some fine sanding paper to smooth out these edges.",
+      "example_vi": "Tôi cần một ít giấy nhám mịn để làm nhẵn các cạnh này.",
+      "collocations_json": [
+        "fine sanding paper",
+        "coarse sanding paper",
+        "wet sanding paper"
+      ],
+      "synonyms_json": [
+        "sandpaper",
+        "abrasive paper"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sanding paper - 'săn' (sần) bề mặt bằng 'giấy'.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10883
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "spackle",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈspækəl/",
+      "ipa_us": "/ˈspækəl/",
+      "meaning_vi": "bột trét tường",
+      "definition_en": "A plaster-like material used to fill holes and cracks in walls before painting.",
+      "example_en": "You need to apply spackle to the nail holes before you paint the wall.",
+      "example_vi": "Bạn cần trét bột trét tường vào các lỗ đinh trước khi sơn tường.",
+      "collocations_json": [
+        "apply spackle",
+        "drywall spackle",
+        "patch with spackle"
+      ],
+      "synonyms_json": [
+        "joint compound",
+        "wall filler"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Spackle (spắc-kơl) - 'sắp' (sửa) 'tắc' (trét) tường.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10884
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "wrench set",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rentʃ sɛt/",
+      "ipa_us": "/rentʃ sɛt/",
+      "meaning_vi": "bộ cờ lê",
+      "definition_en": "A collection of wrenches of various sizes or types.",
+      "example_en": "He bought a new wrench set to help with his car repairs.",
+      "example_vi": "Anh ấy đã mua một bộ cờ lê mới để giúp sửa xe của mình.",
+      "collocations_json": [
+        "metric wrench set",
+        "ratcheting wrench set"
+      ],
+      "synonyms_json": [
+        "spanner set (UK)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wrench set - 'rèn' cơ bắp với 'bộ' cờ lê.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10885
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "duct tape",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/dʌkt teɪp/",
+      "ipa_us": "/dʌkt teɪp/",
+      "meaning_vi": "băng keo bạc (để sửa chữa)",
+      "definition_en": "Strong, waterproof, adhesive tape, often silver-grey, used for temporary repairs.",
+      "example_en": "He used duct tape to temporarily fix the broken pipe.",
+      "example_vi": "Anh ấy đã dùng băng keo bạc để tạm thời sửa ống nước bị hỏng.",
+      "collocations_json": [
+        "apply duct tape",
+        "roll of duct tape"
+      ],
+      "synonyms_json": [
+        "gaffer tape"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Duct tape - 'đắp' băng keo 'tít' (chặt) vào.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10886
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "washer",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈwɒʃə/",
+      "ipa_us": "/ˈwɑːʃər/",
+      "meaning_vi": "vòng đệm (trong ống nước)",
+      "definition_en": "A flat ring of rubber or metal used to make a joint watertight or to reduce friction.",
+      "example_en": "The dripping faucet probably needs a new washer.",
+      "example_vi": "Vòi nước nhỏ giọt có lẽ cần một vòng đệm mới.",
+      "collocations_json": [
+        "rubber washer",
+        "faucet washer",
+        "replace a washer"
+      ],
+      "synonyms_json": [
+        "gasket",
+        "seal"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Washer (wo-shờ) - 'quá' (qua) 'sờ' (sửa) cái vòng đệm.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10887
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "sealant",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsiːlənt/",
+      "ipa_us": "/ˈsiːlənt/",
+      "meaning_vi": "chất trám, keo dán kín",
+      "definition_en": "A substance used to seal a surface or fill a crack.",
+      "example_en": "You need to apply a waterproof sealant around the bathtub.",
+      "example_vi": "Bạn cần thoa chất trám chống thấm xung quanh bồn tắm.",
+      "collocations_json": [
+        "silicone sealant",
+        "waterproof sealant",
+        "apply sealant"
+      ],
+      "synonyms_json": [
+        "caulk",
+        "filler"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sealant (xi-lân-t) - 'xi' (sịt) keo 'lại' để 'làm' kín.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10888
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "corroded",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kəˈrəʊdɪd/",
+      "ipa_us": "/kəˈroʊdɪd/",
+      "meaning_vi": "bị ăn mòn, gỉ sét",
+      "definition_en": "Damaged by a chemical reaction, typically rusting or erosion.",
+      "example_en": "The old pipes were badly corroded and needed replacing.",
+      "example_vi": "Các ống nước cũ bị ăn mòn nặng và cần phải thay thế.",
+      "collocations_json": [
+        "corroded pipes",
+        "corroded metal",
+        "severely corroded"
+      ],
+      "synonyms_json": [
+        "rusted",
+        "eroded"
+      ],
+      "antonyms_json": [
+        "pristine",
+        "undamaged"
+      ],
+      "mnemonic": "Corroded (kờ-rô-địt) - 'cô rô' (cũ rỉ) 'địt' (đã) hỏng.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10889
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "pressure",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈprɛʃə/",
+      "ipa_us": "/ˈprɛʃər/",
+      "meaning_vi": "áp lực, áp suất",
+      "definition_en": "The continuous physical force exerted on or against an object by something in contact with it.",
+      "example_en": "The water pressure in the shower is very low.",
+      "example_vi": "Áp lực nước trong vòi hoa sen rất yếu.",
+      "collocations_json": [
+        "water pressure",
+        "blood pressure",
+        "under pressure"
+      ],
+      "synonyms_json": [
+        "force",
+        "stress"
+      ],
+      "antonyms_json": [
+        "release"
+      ],
+      "mnemonic": "Pressure (pre-shờ) - 'ép' (press) 'chờ' (chịu) áp lực.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10890
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "fixture",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈfɪkstʃə/",
+      "ipa_us": "/ˈfɪkstʃər/",
+      "meaning_vi": "thiết bị cố định (trong nhà)",
+      "definition_en": "A piece of equipment or furniture which is fixed in position in a house or building.",
+      "example_en": "The bathroom fixtures include the sink, toilet, and shower.",
+      "example_vi": "Các thiết bị cố định trong phòng tắm bao gồm bồn rửa, bồn cầu và vòi hoa sen.",
+      "collocations_json": [
+        "light fixture",
+        "plumbing fixture",
+        "bathroom fixture"
+      ],
+      "synonyms_json": [
+        "fitting",
+        "attachment"
+      ],
+      "antonyms_json": [
+        "movable item"
+      ],
+      "mnemonic": "Fixture (phích-chờ) - 'phích' (cố định) 'chờ' (chắc) chắn.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10891
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "gasket",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɡæskɪt/",
+      "ipa_us": "/ˈɡæskɪt/",
+      "meaning_vi": "gioăng, đệm kín",
+      "definition_en": "A shaped piece of material used to seal the junction of two surfaces or components.",
+      "example_en": "The engine needs a new gasket to stop the oil leak.",
+      "example_vi": "Động cơ cần một gioăng mới để ngăn rò rỉ dầu.",
+      "collocations_json": [
+        "head gasket",
+        "rubber gasket",
+        "replace a gasket"
+      ],
+      "synonyms_json": [
+        "seal",
+        "washer"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Gasket (gát-kịt) - 'gát' (giữ) 'kín' (kịt) chỗ nối.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10892
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "drain cleaner",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/dreɪn ˈkliːnə/",
+      "ipa_us": "/dreɪn ˈkliːnər/",
+      "meaning_vi": "chất tẩy rửa cống",
+      "definition_en": "A chemical product used to clear blocked drains.",
+      "example_en": "I poured some drain cleaner down the sink, and it cleared the clog.",
+      "example_vi": "Tôi đã đổ một ít chất tẩy rửa cống xuống bồn rửa, và nó đã thông tắc.",
+      "collocations_json": [
+        "liquid drain cleaner",
+        "chemical drain cleaner"
+      ],
+      "synonyms_json": [
+        "pipe cleaner"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Drain cleaner - 'đrên' (cống) 'sạch' (cleaner).",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10893
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "stopcock",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈstɒpkɒk/",
+      "ipa_us": "/ˈstɑːpkɑːk/",
+      "meaning_vi": "van khóa nước chính",
+      "definition_en": "A tap or valve for regulating the flow of a liquid or gas through a pipe.",
+      "example_en": "Locate the main stopcock to turn off the water supply to the house.",
+      "example_vi": "Hãy tìm van khóa nước chính để ngắt nguồn cấp nước cho ngôi nhà.",
+      "collocations_json": [
+        "main stopcock",
+        "turn off the stopcock"
+      ],
+      "synonyms_json": [
+        "shut-off valve",
+        "main valve"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Stopcock (stóp-kók) - 'stop' (dừng) nước bằng 'kok' (khóa).",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10894
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "water meter",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈwɔːtə ˌmiːtə/",
+      "ipa_us": "/ˈwɑːtər ˌmiːtər/",
+      "meaning_vi": "đồng hồ nước",
+      "definition_en": "A device that measures the volume of water used by a property.",
+      "example_en": "The water meter is usually located outside the house.",
+      "example_vi": "Đồng hồ nước thường được đặt bên ngoài nhà.",
+      "collocations_json": [
+        "read the water meter",
+        "install a water meter"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Water meter - 'đo' (meter) lượng 'nước' (water).",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10895
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "tool belt",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈtuːl bɛlt/",
+      "ipa_us": "/ˈtuːl bɛlt/",
+      "meaning_vi": "dây lưng đựng dụng cụ",
+      "definition_en": "A belt with pockets for holding tools, worn by a craftsman.",
+      "example_en": "He always wears his tool belt when he's working on a project.",
+      "example_vi": "Anh ấy luôn đeo dây lưng đựng dụng cụ khi làm việc trong một dự án.",
+      "collocations_json": [
+        "leather tool belt",
+        "carpenter's tool belt"
+      ],
+      "synonyms_json": [
+        "tool pouch"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tool belt - 'đeo' (belt) 'đồ nghề' (tool).",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10896
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Home Repairs & Plumbing",
+      "word": "circuit breaker",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsɜːkɪt ˌbreɪkə/",
+      "ipa_us": "/ˈsɜːrkɪt ˌbreɪkər/",
+      "meaning_vi": "cầu dao tự động",
+      "definition_en": "An automatic switch that stops the flow of electric current in a circuit if there is a fault.",
+      "example_en": "The circuit breaker tripped, so we lost power to half the house.",
+      "example_vi": "Cầu dao tự động bị ngắt, nên chúng tôi mất điện ở một nửa ngôi nhà.",
+      "collocations_json": [
+        "trip a circuit breaker",
+        "reset a circuit breaker"
+      ],
+      "synonyms_json": [
+        "fuse box"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Circuit breaker - 'cắt' (break) 'mạch' (circuit) điện.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10897
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I am you, I would study harder.",
+    "output": "✅ **Corrected Sentence:** If I were you, I would study harder.\n🔍 **Error Identification:** Câu điều kiện loại 2 – dùng 'were' cho tất cả các ngôi (không dùng 'was' trong mệnh đề if).\n📘 **Vietnamese Explanation:** Người Việt dùng 'am' vì nghĩ 'nếu tôi là bạn'. Mẹo: Loại 2: If + S + were (cho mọi ngôi), S + would + V1.\n💡 **Ví dụ:** If she were rich, she would travel. / If they were here, they would help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had known, I would tell you.",
+    "output": "✅ **Corrected Sentence:** If I had known, I would have told you.\n🔍 **Error Identification:** Câu điều kiện loại 3 – mệnh đề chính cần 'would have + V3', không phải 'would + V1'.\n📘 **Vietnamese Explanation:** Người Việt nhầm giữa loại 2 và loại 3. Mẹo: Loại 3: If + had + V3, S + would have + V3.\n💡 **Ví dụ:** If she had studied, she would have passed. / If they had left earlier, they would have arrived on time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she would be here, she would help us.",
+    "output": "✅ **Corrected Sentence:** If she were here, she would help us.\n🔍 **Error Identification:** Trong mệnh đề if của loại 2, không dùng 'would', dùng quá khứ đơn (were).\n📘 **Vietnamese Explanation:** Người Việt dùng 'would be' trong mệnh đề if. Mẹo: If + quá khứ đơn, would + V1.\n💡 **Ví dụ:** If he were taller, he would play basketball. / If it were sunny, we would go out."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had saw the movie, I would have told you.",
+    "output": "✅ **Corrected Sentence:** If I had seen the movie, I would have told you.\n🔍 **Error Identification:** Sau 'had' cần V3 (seen), không dùng V2 (saw).\n📘 **Vietnamese Explanation:** Người Việt nhầm 'saw' và 'seen'. Mẹo: Had + V3 (past participle).\n💡 **Ví dụ:** If she had eaten, she wouldn't be hungry. / If they had gone, they would have seen it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I was you, I would apologize.",
+    "output": "✅ **Corrected Sentence:** If I were you, I would apologize.\n🔍 **Error Identification:** Với 'I' trong loại 2, dùng 'were', không dùng 'was'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'was' vì nghĩ 'I was'. Mẹo: Dùng 'were' cho mọi ngôi trong loại 2 (If I were, If he were).\n💡 **Ví dụ:** If I were rich, I would buy a car. / If he were smarter, he would understand."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If we had left earlier, we wouldn't be late now. (câu hỗn hợp đúng) - Học viên viết \'If we had left earlier, we wouldn't have been late now.\'",
+    "output": "✅ **Corrected Sentence:** If we had left earlier, we wouldn't be late now. (hỗn hợp 3-2)\n🔍 **Error Identification:** Hành động trong quá khứ (had left) ảnh hưởng đến hiện tại (wouldn't be late).\n📘 **Vietnamese Explanation:** Người Việt thường dùng loại 3 cho cả hai vế. Mẹo: Hỗn hợp: If + had + V3 (quá khứ), S + would + V1 (hiện tại).\n💡 **Ví dụ:** If I had studied medicine, I would be a doctor now. / If she had taken the job, she would live in London now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I knew the answer, I would have told you yesterday.",
+    "output": "✅ **Corrected Sentence:** If I had known the answer, I would have told you yesterday. (hoặc If I knew the answer, I would tell you now)\n🔍 **Error Identification:** Hành động trong quá khứ (told you yesterday) cần if ở loại 3 (had known).\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho mệnh đề if nhưng loại 3 cho mệnh đề chính. Mẹo: Hỗn hợp: If + quá khứ đơn (hiện tại), would have + V3 (quá khứ).\n💡 **Ví dụ:** If I were rich, I would have bought that house yesterday. / If she wasn't afraid, she would have gone skydiving."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she would have studied, she would have passed.",
+    "output": "✅ **Corrected Sentence:** If she had studied, she would have passed.\n🔍 **Error Identification:** Không dùng 'would have' trong mệnh đề if của loại 3 – dùng 'had + V3'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'would have' trong cả hai vế. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If they had invited us, we would have come. / If he had saved money, he would have bought a car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If he were here, he would have fixed the problem yesterday.",
+    "output": "✅ **Corrected Sentence:** If he had been here, he would have fixed the problem yesterday. (loại 3) / If he were here, he would fix it now (loại 2)\n🔍 **Error Identification:** 'Yesterday' là thời gian quá khứ, cần loại 3 (had been).\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Thời gian xác định trong quá khứ → loại 3.\n💡 **Ví dụ:** If I had known earlier, I would have called you. / If they had seen the sign, they wouldn't have crashed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I am a bird, I would fly.",
+    "output": "✅ **Corrected Sentence:** If I were a bird, I would fly.\n🔍 **Error Identification:** Loại 2 (không có thật ở hiện tại) dùng quá khứ đơn (were).\n📘 **Vietnamese Explanation:** Người Việt dùng hiện tại đơn cho điều không có thật. Mẹo: Loại 2: If + quá khứ đơn, would + V1.\n💡 **Ví dụ:** If she spoke English, she would get the job. / If they had money, they would travel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would have seen her, I would have told her.",
+    "output": "✅ **Corrected Sentence:** If I had seen her, I would have told her.\n🔍 **Error Identification:** Không dùng 'would have' trong mệnh đề if.\n📘 **Vietnamese Explanation:** Người Việt dùng 'would have' ở cả hai vế. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If we had arrived earlier, we would have met him. / If she had called, I would have answered."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she was taller, she could reach the shelf. (có thể chấp nhận trong văn nói, nhưng 'were' đúng hơn)",
+    "output": "✅ **Corrected Sentence:** If she were taller, she could reach the shelf.\n🔍 **Error Identification:** Trong văn viết trang trọng, dùng 'were' cho tất cả ngôi ở loại 2.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'was' cho 'she'. Mẹo: 'Were' là chuẩn trong loại 2.\n💡 **Ví dụ:** If he were stronger, he could lift it. / If it were cheaper, I would buy it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had known, I wouldn't have done that. (câu đúng loại 3) - Học viên viết \'If I would have known, I wouldn't have done that.\'",
+    "output": "✅ **Corrected Sentence:** If I had known, I wouldn't have done that.\n🔍 **Error Identification:** Mệnh đề if dùng 'had known', không dùng 'would have known'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If they had left earlier, they wouldn't have missed the flight. / If she had studied, she would have passed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I were you, I will talk to her.",
+    "output": "✅ **Corrected Sentence:** If I were you, I would talk to her.\n🔍 **Error Identification:** Mệnh đề chính của loại 2 dùng 'would', không dùng 'will'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'will' cho tương lai. Mẹo: Loại 2: If + quá khứ đơn, would + V1.\n💡 **Ví dụ:** If she were me, she would understand. / If they were here, they would help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If we had won the lottery, we would travel the world. (câu hỗn hợp 3-2) - Học viên viết \'If we won the lottery, we would have traveled the world.\'",
+    "output": "✅ **Corrected Sentence:** If we had won the lottery, we would travel the world. (thắng trong quá khứ → đi du lịch bây giờ)\n🔍 **Error Identification:** Hỗn hợp: hành động quá khứ ảnh hưởng đến hiện tại.\n📘 **Vietnamese Explanation:** Người Việt nhầm lẫn giữa hỗn hợp và loại 3. Mẹo: Had + V3 (quá khứ) + would + V1 (hiện tại).\n💡 **Ví dụ:** If I had studied medicine, I would be a doctor now. / If she had taken the job, she would live in New York."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I knew her number, I would have called her yesterday.",
+    "output": "✅ **Corrected Sentence:** If I had known her number, I would have called her yesterday. (loại 3) / If I knew her number, I would call her now.\n🔍 **Error Identification:** 'Yesterday' là quá khứ, cần loại 3.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Dấu hiệu thời gian quá khứ (yesterday, last week) → loại 3.\n💡 **Ví dụ:** If I had seen him yesterday, I would have told him. / If they had arrived last night, we would have met them."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she would be here, she could help us.",
+    "output": "✅ **Corrected Sentence:** If she were here, she could help us.\n🔍 **Error Identification:** Mệnh đề if không dùng 'would'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'would be' trong mệnh đề if. Mẹo: If + quá khứ đơn, would/could/might + V1.\n💡 **Ví dụ:** If he had more time, he could finish the project. / If they lived closer, they might visit more often."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had been there, I would have stopped him. (câu đúng loại 3) - Học viên viết \'If I was there, I would have stopped him.\'",
+    "output": "✅ **Corrected Sentence:** If I had been there, I would have stopped him.\n🔍 **Error Identification:** Loại 3 cần 'had been', không dùng 'was'.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho loại 3. Mẹo: Loại 3: If + had + V3, would have + V3.\n💡 **Ví dụ:** If she had been careful, she wouldn't have broken it. / If they had been on time, they wouldn't have missed the start."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I were rich, I would have bought that house last year.",
+    "output": "✅ **Corrected Sentence:** If I had been rich, I would have bought that house last year. (loại 3) / If I were rich, I would buy that house now.\n🔍 **Error Identification:** 'Last year' là quá khứ, cần loại 3.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Mốc thời gian quá khứ → loại 3.\n💡 **Ví dụ:** If she had known the truth, she would have acted differently. / If they had seen the warning, they wouldn't have gone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If he had taken the bus, he wouldn't be late now. (câu hỗn hợp đúng) - Học viên viết \'If he took the bus, he wouldn't be late now.\'",
+    "output": "✅ **Corrected Sentence:** If he had taken the bus, he wouldn't be late now.\n🔍 **Error Identification:** Hành động trong quá khứ (had taken) ảnh hưởng đến hiện tại (wouldn't be late).\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Hỗn hợp: If + had + V3 (quá khứ), S + would + V1 (hiện tại).\n💡 **Ví dụ:** If she had studied, she wouldn't be worried now. / If they had saved money, they wouldn't be broke now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would be you, I would say sorry.",
+    "output": "✅ **Corrected Sentence:** If I were you, I would say sorry.\n🔍 **Error Identification:** Không dùng 'would' trong mệnh đề if.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + quá khứ đơn, would + V1.\n💡 **Ví dụ:** If she were me, she would understand. / If they were us, they would do the same."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had knew the answer, I would have raised my hand.",
+    "output": "✅ **Corrected Sentence:** If I had known the answer, I would have raised my hand.\n🔍 **Error Identification:** Sau 'had' cần V3 'known', không dùng 'knew'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'knew' và 'known'. Mẹo: know – knew – known.\n💡 **Ví dụ:** If she had gone, she would have seen it. / If they had done it, they would have succeeded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If he would have tried harder, he would have succeeded.",
+    "output": "✅ **Corrected Sentence:** If he had tried harder, he would have succeeded.\n🔍 **Error Identification:** Mệnh đề if dùng 'had tried', không dùng 'would have tried'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'would have' ở cả hai vế. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If we had practiced more, we would have won. / If she had listened, she would have understood."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I was a millionaire, I would buy a yacht.",
+    "output": "✅ **Corrected Sentence:** If I were a millionaire, I would buy a yacht.\n🔍 **Error Identification:** Dùng 'were' cho 'I' trong loại 2.\n📘 **Vietnamese Explanation:** Người Việt dùng 'was' vì nghĩ 'I was'. Mẹo: 'Were' cho mọi ngôi trong loại 2.\n💡 **Ví dụ:** If it were summer, we would go swimming. / If they were here, they would celebrate."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she had woken up earlier, she wouldn't miss the bus now.",
+    "output": "✅ **Corrected Sentence:** If she had woken up earlier, she wouldn't be missing the bus now. (hoặc wouldn't have missed)\n🔍 **Error Identification:** Hỗn hợp: quá khứ (had woken) ảnh hưởng đến hiện tại (wouldn't be missing).\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ cho cả hai. Mẹo: Hỗn hợp: If + had + V3, S + would + be + V-ing (hiện tại).\n💡 **Ví dụ:** If I had exercised, I would be healthier now. / If they had studied, they would be in university now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would have seen the sign, I wouldn't have parked here.",
+    "output": "✅ **Corrected Sentence:** If I had seen the sign, I wouldn't have parked here.\n🔍 **Error Identification:** Mệnh đề if dùng 'had seen', không dùng 'would have seen'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If they had known, they wouldn't have come. / If she had asked, she would have received help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she were more patient, she would have waited for us.",
+    "output": "✅ **Corrected Sentence:** If she had been more patient, she would have waited for us. (loại 3) / If she were more patient, she would wait for us now.\n🔍 **Error Identification:** 'Waited' là quá khứ, cần loại 3.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Hành động trong quá khứ → loại 3.\n💡 **Ví dụ:** If I had been braver, I would have spoken up. / If they had been faster, they would have caught the train."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had known you were coming, I would prepare dinner.",
+    "output": "✅ **Corrected Sentence:** If I had known you were coming, I would have prepared dinner.\n🔍 **Error Identification:** Mệnh đề chính của loại 3 cần 'would have + V3'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'would prepare' (hiện tại) cho quá khứ. Mẹo: Loại 3: If + had + V3, would have + V3.\n💡 **Ví dụ:** If they had invited us, we would have gone. / If she had called, I would have answered."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If he didn't miss the train, he would be here now.",
+    "output": "✅ **Corrected Sentence:** If he hadn't missed the train, he would be here now.\n🔍 **Error Identification:** Hành động trong quá khứ (missed) cần 'hadn't missed'.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho mệnh đề if. Mẹo: Hỗn hợp: If + had + V3 (quá khứ), would + V1 (hiện tại).\n💡 **Ví dụ:** If I hadn't lost my keys, I wouldn't be locked out now. / If she hadn't quit her job, she would have a stable income now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would be a celebrity, I would be happy.",
+    "output": "✅ **Corrected Sentence:** If I were a celebrity, I would be happy.\n🔍 **Error Identification:** Mệnh đề if dùng 'were', không dùng 'would be'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + quá khứ đơn, would + V1.\n💡 **Ví dụ:** If she were famous, she would be recognized. / If they were rich, they would travel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had ate breakfast, I wouldn't be hungry now.",
+    "output": "✅ **Corrected Sentence:** If I had eaten breakfast, I wouldn't be hungry now.\n🔍 **Error Identification:** Sau 'had' cần V3 'eaten', không dùng 'ate'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'ate' và 'eaten'. Mẹo: eat – ate – eaten.\n💡 **Ví dụ:** If she had written the letter, she would have sent it. / If they had spoken to him, they would have known the truth."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she had listened to my advice, she wouldn't be in trouble now.",
+    "output": "✅ **Corrected Sentence:** If she had listened to my advice, she wouldn't be in trouble now. (câu hỗn hợp đúng)\n🔍 **Error Identification:** Quá khứ (had listened) ảnh hưởng đến hiện tại (wouldn't be).\n📘 **Vietnamese Explanation:** Người Việt có thể dùng loại 3 cho cả hai. Mẹo: Hỗn hợp: If + had + V3, S + would + V1 (hiện tại).\n💡 **Ví dụ:** If he had saved money, he wouldn't be poor now. / If they had studied, they wouldn't be failing now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would have more time, I would learn to play guitar.",
+    "output": "✅ **Corrected Sentence:** If I had more time, I would learn to play guitar.\n🔍 **Error Identification:** Mệnh đề if dùng quá khứ đơn 'had', không dùng 'would have'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + quá khứ đơn, would + V1.\n💡 **Ví dụ:** If she had more money, she would buy a car. / If they had a car, they would drive to work."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had known the answer, I would have told you. (câu đúng) - Học viên viết \'If I knew the answer, I would have told you.\'",
+    "output": "✅ **Corrected Sentence:** If I had known the answer, I would have told you.\n🔍 **Error Identification:** Loại 3: mệnh đề if dùng 'had known', không dùng 'knew'.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Hành động trong quá khứ không có thật → loại 3.\n💡 **Ví dụ:** If they had left earlier, they would have arrived on time. / If she had called, I would have answered."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If he were here, he would have helped us fix the car yesterday.",
+    "output": "✅ **Corrected Sentence:** If he had been here, he would have helped us fix the car yesterday.\n🔍 **Error Identification:** 'Yesterday' là quá khứ, cần loại 3 (had been).\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Thời gian xác định trong quá khứ → loại 3.\n💡 **Ví dụ:** If I had been at the party, I would have seen her. / If they had been at home, they would have answered the door."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would have known about the meeting, I would have attended.",
+    "output": "✅ **Corrected Sentence:** If I had known about the meeting, I would have attended.\n🔍 **Error Identification:** Mệnh đề if dùng 'had known', không dùng 'would have known'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'would have' ở cả hai vế. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If she had received the message, she would have replied. / If they had seen the news, they would have known."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I were the president, I would have changed the law last year.",
+    "output": "✅ **Corrected Sentence:** If I had been the president, I would have changed the law last year. (loại 3)\n🔍 **Error Identification:** 'Last year' là quá khứ, cần loại 3.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Dấu hiệu thời gian quá khứ → loại 3.\n💡 **Ví dụ:** If she had been the manager, she would have fired him. / If they had been in charge, they would have done better."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she had taken the train, she would have arrived by now. (câu hỗn hợp đúng) - Học viên viết \'If she took the train, she would have arrived by now.\'",
+    "output": "✅ **Corrected Sentence:** If she had taken the train, she would have arrived by now. (hoặc would be here now)\n🔍 **Error Identification:** Hành động quá khứ (had taken) ảnh hưởng đến kết quả hiện tại (would have arrived).\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Hỗn hợp: If + had + V3, S + would have + V3 (kết quả quá khứ) hoặc would + V1 (hiện tại).\n💡 **Ví dụ:** If I had studied, I would have passed the exam already. / If they had started earlier, they would be done by now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I was taller, I could reach the top shelf.",
+    "output": "✅ **Corrected Sentence:** If I were taller, I could reach the top shelf.\n🔍 **Error Identification:** Dùng 'were' cho 'I' trong loại 2.\n📘 **Vietnamese Explanation:** Người Việt dùng 'was' vì quen với 'I was'. Mẹo: 'Were' cho mọi ngôi trong loại 2.\n💡 **Ví dụ:** If it were warmer, we could swim. / If they were faster, they could win."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If he would have asked me, I would have helped him.",
+    "output": "✅ **Corrected Sentence:** If he had asked me, I would have helped him.\n🔍 **Error Identification:** Mệnh đề if dùng 'had asked', không dùng 'would have asked'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If we had seen the sign, we would have stopped. / If she had known, she would have come."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she were here, she would have answered the phone.",
+    "output": "✅ **Corrected Sentence:** If she had been here, she would have answered the phone. (loại 3) / If she were here, she would answer the phone now.\n🔍 **Error Identification:** 'Answered the phone' là hành động trong quá khứ, cần loại 3.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Xác định thời gian của hành động chính.\n💡 **Ví dụ:** If I had been at home, I would have taken the call. / If they had been awake, they would have heard the noise."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had taken that job, I would be living in Hanoi now.",
+    "output": "✅ **Corrected Sentence:** If I had taken that job, I would be living in Hanoi now. (câu hỗn hợp đúng)\n🔍 **Error Identification:** Quá khứ (had taken) ảnh hưởng đến hiện tại (would be living).\n📘 **Vietnamese Explanation:** Người Việt có thể dùng loại 3 cho cả hai. Mẹo: Hỗn hợp: If + had + V3, S + would + be + V-ing.\n💡 **Ví dụ:** If she had married him, she would be living in Paris now. / If they had invested wisely, they would be rich now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would be you, I wouldn't do that.",
+    "output": "✅ **Corrected Sentence:** If I were you, I wouldn't do that.\n🔍 **Error Identification:** Mệnh đề if dùng 'were', không dùng 'would be'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + quá khứ đơn, would + V1.\n💡 **Ví dụ:** If she were me, she would understand. / If they were us, they would be happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had knew her number, I would have called her.",
+    "output": "✅ **Corrected Sentence:** If I had known her number, I would have called her.\n🔍 **Error Identification:** Sau 'had' cần V3 'known', không dùng 'knew'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'knew' và 'known'. Mẹo: know – knew – known.\n💡 **Ví dụ:** If she had gone, she would have seen it. / If they had done it, they would have succeeded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she had more time, she would have finished the project.",
+    "output": "✅ **Corrected Sentence:** If she had had more time, she would have finished the project. (loại 3) / If she had more time, she would finish it now.\n🔍 **Error Identification:** 'Finished' là quá khứ, cần 'had had' (quá khứ hoàn thành).\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'had' cho loại 3. Mẹo: Loại 3: If + had + V3, would have + V3.\n💡 **Ví dụ:** If they had had enough money, they would have bought the house. / If I had had the chance, I would have traveled."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would have seen him, I would have said hello.",
+    "output": "✅ **Corrected Sentence:** If I had seen him, I would have said hello.\n🔍 **Error Identification:** Mệnh đề if dùng 'had seen', không dùng 'would have seen'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'would have' ở cả hai vế. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If we had known, we would have come earlier. / If she had asked, she would have received help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If he didn't forget his keys, he wouldn't be locked out now.",
+    "output": "✅ **Corrected Sentence:** If he hadn't forgotten his keys, he wouldn't be locked out now.\n🔍 **Error Identification:** Hành động quá khứ (forgot) cần 'hadn't forgotten'.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho mệnh đề if. Mẹo: Hỗn hợp: If + had + V3, S + would + V1.\n💡 **Ví dụ:** If I hadn't missed the bus, I wouldn't be late now. / If she hadn't quit, she would have a job now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I were rich, I would have bought that car yesterday.",
+    "output": "✅ **Corrected Sentence:** If I had been rich, I would have bought that car yesterday.\n🔍 **Error Identification:** 'Yesterday' là quá khứ, cần loại 3.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Thời gian xác định trong quá khứ → loại 3.\n💡 **Ví dụ:** If she had been lucky, she would have won the lottery. / If they had been ready, they would have left earlier."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had studied, I would be in university now.",
+    "output": "✅ **Corrected Sentence:** If I had studied, I would be in university now. (câu hỗn hợp đúng)\n🔍 **Error Identification:** Quá khứ (had studied) ảnh hưởng đến hiện tại (would be).\n📘 **Vietnamese Explanation:** Người Việt có thể dùng loại 3 cho cả hai. Mẹo: Hỗn hợp: If + had + V3, S + would + V1.\n💡 **Ví dụ:** If she had worked harder, she would have a promotion now. / If they had saved money, they would be traveling now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she would have been careful, she wouldn't have broken the vase.",
+    "output": "✅ **Corrected Sentence:** If she had been careful, she wouldn't have broken the vase.\n🔍 **Error Identification:** Mệnh đề if dùng 'had been', không dùng 'would have been'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If they had listened, they wouldn't have made mistakes. / If he had driven slowly, he wouldn't have crashed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I were you, I would have told the truth yesterday.",
+    "output": "✅ **Corrected Sentence:** If I had been you, I would have told the truth yesterday. (loại 3)\n🔍 **Error Identification:** 'Yesterday' là quá khứ, cần loại 3.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Mốc thời gian quá khứ → loại 3.\n💡 **Ví dụ:** If she had been me, she would have acted differently. / If they had been us, they would have stayed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had seen the movie, I would tell you about it now.",
+    "output": "✅ **Corrected Sentence:** If I had seen the movie, I would tell you about it now. (câu hỗn hợp đúng)\n🔍 **Error Identification:** Quá khứ (had seen) ảnh hưởng đến hiện tại (would tell).\n📘 **Vietnamese Explanation:** Người Việt có thể dùng loại 3 cho cả hai. Mẹo: Hỗn hợp: If + had + V3, S + would + V1.\n💡 **Ví dụ:** If she had read the book, she would know the answer now. / If they had visited Paris, they would love it now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would have had more time, I would have finished the project.",
+    "output": "✅ **Corrected Sentence:** If I had had more time, I would have finished the project.\n🔍 **Error Identification:** Mệnh đề if dùng 'had had', không dùng 'would have had'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If she had had the chance, she would have traveled. / If they had had the money, they would have bought it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she knew English, she would have gotten the job last year.",
+    "output": "✅ **Corrected Sentence:** If she had known English, she would have gotten the job last year. (loại 3)\n🔍 **Error Identification:** 'Last year' là quá khứ, cần loại 3.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Dấu hiệu thời gian quá khứ → loại 3.\n💡 **Ví dụ:** If I had spoken French, I would have gotten the position. / If they had understood the rules, they wouldn't have been disqualified."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I were you, I wouldn't have done that.",
+    "output": "✅ **Corrected Sentence:** If I were you, I wouldn't have done that. (câu hỗn hợp đúng – 'were' chỉ trạng thái hiện tại, 'wouldn't have done' chỉ hành động quá khứ)\n🔍 **Error Identification:** Câu này đúng! 'Were' là trạng thái hiện tại (nếu tôi là bạn), kết quả trong quá khứ (wouldn't have done).\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt: 'If I were you' (giả định hiện tại) + 'would have done' (kết quả quá khứ).\n💡 **Ví dụ:** If I were her, I would have accepted the offer. / If they were me, they would have left earlier."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If he had taken my advice, he wouldn't be in this mess now.",
+    "output": "✅ **Corrected Sentence:** If he had taken my advice, he wouldn't be in this mess now. (câu hỗn hợp đúng)\n🔍 **Error Identification:** Quá khứ (had taken) ảnh hưởng đến hiện tại (wouldn't be).\n📘 **Vietnamese Explanation:** Người Việt có thể dùng loại 3 cho cả hai. Mẹo: Hỗn hợp: If + had + V3, S + would + V1.\n💡 **Ví dụ:** If she had listened, she wouldn't be crying now. / If they had prepared, they wouldn't be stressed now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would have been there, I would have helped.",
+    "output": "✅ **Corrected Sentence:** If I had been there, I would have helped.\n🔍 **Error Identification:** Mệnh đề if dùng 'had been', không dùng 'would have been'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If we had known, we would have come. / If she had asked, she would have received."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she had more experience, she would have gotten the promotion.",
+    "output": "✅ **Corrected Sentence:** If she had had more experience, she would have gotten the promotion. (loại 3) / If she had more experience, she would get promoted now.\n🔍 **Error Identification:** 'Gotten the promotion' là quá khứ, cần 'had had'.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'had' cho loại 3. Mẹo: Loại 3: If + had + V3, would have + V3.\n💡 **Ví dụ:** If they had had better equipment, they would have finished faster. / If I had had more time, I would have done better."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I was you, I would accept the offer.",
+    "output": "✅ **Corrected Sentence:** If I were you, I would accept the offer.\n🔍 **Error Identification:** Dùng 'were' cho 'I' trong loại 2.\n📘 **Vietnamese Explanation:** Người Việt dùng 'was' vì quen thuộc. Mẹo: 'Were' cho mọi ngôi trong loại 2.\n💡 **Ví dụ:** If he were smarter, he would understand. / If it were cheaper, I would buy it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had known about the traffic, I would take a different route.",
+    "output": "✅ **Corrected Sentence:** If I had known about the traffic, I would have taken a different route. (loại 3) / If I knew about the traffic, I would take a different route now.\n🔍 **Error Identification:** 'Take a different route' là hành động trong quá khứ, cần 'would have taken'.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Hành động trong quá khứ → loại 3.\n💡 **Ví dụ:** If she had seen the warning, she wouldn't have gone that way. / If they had heard the news, they would have reacted differently."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If he were taller, he would have become a basketball player.",
+    "output": "✅ **Corrected Sentence:** If he had been taller, he would have become a basketball player. (loại 3) / If he were taller, he would become one now.\n🔍 **Error Identification:** 'Become a basketball player' là sự kiện trong quá khứ, cần loại 3.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Xác định thời gian của kết quả.\n💡 **Ví dụ:** If I had been stronger, I would have won the competition. / If they had been faster, they would have set a record."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would have known, I would have acted differently.",
+    "output": "✅ **Corrected Sentence:** If I had known, I would have acted differently.\n🔍 **Error Identification:** Mệnh đề if dùng 'had known', không dùng 'would have known'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If she had called, I would have answered. / If they had left earlier, they would have arrived on time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she had been invited, she would come to the party.",
+    "output": "✅ **Corrected Sentence:** If she had been invited, she would have come to the party. (loại 3) / If she were invited, she would come to the party now.\n🔍 **Error Identification:** 'Come to the party' là hành động trong quá khứ (bữa tiệc đã qua), cần 'would have come'.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Thời gian của bữa tiệc quyết định loại câu.\n💡 **Ví dụ:** If I had been told, I would have known. / If they had been warned, they wouldn't have gone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had a car, I would have driven you home yesterday.",
+    "output": "✅ **Corrected Sentence:** If I had had a car, I would have driven you home yesterday. (loại 3)\n🔍 **Error Identification:** 'Yesterday' là quá khứ, cần 'had had'.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'had' cho loại 3. Mẹo: Loại 3: If + had + V3, would have + V3.\n💡 **Ví dụ:** If she had had the keys, she would have opened the door. / If they had had the address, they would have found it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If he didn't oversleep, he wouldn't have missed the meeting.",
+    "output": "✅ **Corrected Sentence:** If he hadn't overslept, he wouldn't have missed the meeting.\n🔍 **Error Identification:** Hành động quá khứ (didn't oversleep) cần 'hadn't overslept'.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho mệnh đề if của loại 3. Mẹo: Loại 3: If + had + V3, would have + V3.\n💡 **Ví dụ:** If she hadn't been late, she wouldn't have missed the train. / If they hadn't lost the map, they wouldn't have gotten lost."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I were the president, I would have reduced taxes last year.",
+    "output": "✅ **Corrected Sentence:** If I had been the president, I would have reduced taxes last year.\n🔍 **Error Identification:** 'Last year' là quá khứ, cần loại 3.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Dấu hiệu thời gian quá khứ → loại 3.\n💡 **Ví dụ:** If she had been the manager, she would have fired him. / If they had been in charge, they would have made better decisions."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I had taken the earlier train, I wouldn't be late now.",
+    "output": "✅ **Corrected Sentence:** If I had taken the earlier train, I wouldn't be late now. (câu hỗn hợp đúng)\n🔍 **Error Identification:** Quá khứ (had taken) ảnh hưởng đến hiện tại (wouldn't be late).\n📘 **Vietnamese Explanation:** Người Việt có thể dùng loại 3 cho cả hai. Mẹo: Hỗn hợp: If + had + V3, S + would + V1.\n💡 **Ví dụ:** If she had studied, she wouldn't be worried now. / If they had prepared, they wouldn't be stressed now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would have known about the party, I would have come.",
+    "output": "✅ **Corrected Sentence:** If I had known about the party, I would have come.\n🔍 **Error Identification:** Mệnh đề if dùng 'had known', không dùng 'would have known'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If she had received the invitation, she would have attended. / If they had seen the notice, they would have known."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she had more patience, she would have waited for us.",
+    "output": "✅ **Corrected Sentence:** If she had had more patience, she would have waited for us. (loại 3)\n🔍 **Error Identification:** 'Waited for us' là quá khứ, cần 'had had'.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn 'had' cho loại 3. Mẹo: Loại 3: If + had + V3, would have + V3.\n💡 **Ví dụ:** If I had had the courage, I would have spoken up. / If they had had the strength, they would have continued."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I were you, I would have taken that job.",
+    "output": "✅ **Corrected Sentence:** If I were you, I would have taken that job. (câu hỗn hợp đúng – trạng thái hiện tại 'were' + hành động quá khứ 'would have taken')\n🔍 **Error Identification:** Câu này đúng! Giả định về bản thân ở hiện tại (If I were you) dẫn đến hành động khác trong quá khứ (would have taken).\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt: 'If I were you' (hiện tại) + 'would have done' (quá khứ).\n💡 **Ví dụ:** If I were her, I would have said yes. / If they were us, they would have stayed longer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If he had taken the bus, he would be here now.",
+    "output": "✅ **Corrected Sentence:** If he had taken the bus, he would be here now. (câu hỗn hợp đúng)\n🔍 **Error Identification:** Quá khứ (had taken) ảnh hưởng đến hiện tại (would be here).\n📘 **Vietnamese Explanation:** Người Việt có thể dùng loại 3 cho cả hai. Mẹo: Hỗn hợp: If + had + V3, S + would + V1.\n💡 **Ví dụ:** If she had left earlier, she wouldn't be stuck in traffic now. / If they had woken up on time, they wouldn't be rushing now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would have been you, I would have said no.",
+    "output": "✅ **Corrected Sentence:** If I had been you, I would have said no. (loại 3) / If I were you, I would say no now.\n🔍 **Error Identification:** Mệnh đề if dùng 'had been', không dùng 'would have been'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If she had been me, she would have understood. / If they had been us, they would have helped."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she had studied, she would be a doctor now.",
+    "output": "✅ **Corrected Sentence:** If she had studied, she would be a doctor now. (câu hỗn hợp đúng)\n🔍 **Error Identification:** Quá khứ (had studied) ảnh hưởng đến hiện tại (would be).\n📘 **Vietnamese Explanation:** Người Việt có thể dùng loại 3 cho cả hai. Mẹo: Hỗn hợp: If + had + V3, S + would + V1.\n💡 **Ví dụ:** If I had gone to medical school, I would be a surgeon now. / If they had invested, they would be wealthy now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would have seen her, I would have told her.",
+    "output": "✅ **Corrected Sentence:** If I had seen her, I would have told her.\n🔍 **Error Identification:** Mệnh đề if dùng 'had seen', không dùng 'would have seen'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If we had met, we would have talked. / If she had called, she would have reached me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If he didn't spend all his money, he wouldn't be broke now.",
+    "output": "✅ **Corrected Sentence:** If he hadn't spent all his money, he wouldn't be broke now.\n🔍 **Error Identification:** Hành động quá khứ (didn't spend) cần 'hadn't spent'.\n📘 **Vietnamese Explanation:** Người Việt dùng quá khứ đơn cho mệnh đề if của hỗn hợp. Mẹo: Hỗn hợp: If + had + V3, S + would + V1.\n💡 **Ví dụ:** If she hadn't quit her job, she wouldn't be unemployed now. / If they hadn't sold their house, they would be living there now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I were a bird, I would have flown to you yesterday.",
+    "output": "✅ **Corrected Sentence:** If I had been a bird, I would have flown to you yesterday. (loại 3)\n🔍 **Error Identification:** 'Yesterday' là quá khứ, cần loại 3.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Thời gian cụ thể trong quá khứ → loại 3.\n💡 **Ví dụ:** If she had been a doctor, she would have saved him. / If they had been firefighters, they would have put out the fire."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If she had had the chance, she would travel the world.",
+    "output": "✅ **Corrected Sentence:** If she had had the chance, she would have traveled the world. (loại 3) / If she had the chance, she would travel the world now.\n🔍 **Error Identification:** 'Travel the world' là hành động trong quá khứ (nếu cơ hội đã qua), cần 'would have traveled'.\n📘 **Vietnamese Explanation:** Người Việt dùng loại 2 cho quá khứ. Mẹo: Xác định thời gian của kết quả.\n💡 **Ví dụ:** If I had had the money, I would have bought the car. / If they had had the time, they would have visited us."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "If I would have been there, I would have seen it.",
+    "output": "✅ **Corrected Sentence:** If I had been there, I would have seen it.\n🔍 **Error Identification:** Mệnh đề if dùng 'had been', không dùng 'would have been'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'would' vào mệnh đề if. Mẹo: If + had + V3, would have + V3.\n💡 **Ví dụ:** If we had arrived earlier, we would have seen the show. / If she had looked, she would have seen the sign."
+  }
+]

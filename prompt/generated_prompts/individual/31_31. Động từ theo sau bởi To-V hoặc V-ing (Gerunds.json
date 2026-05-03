@@ -1,0 +1,482 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I enjoy to read books.",
+    "output": "✅ **Corrected Sentence:** I enjoy reading books.\n🔍 **Error Identification:** 'Enjoy' + V-ing, không dùng 'to V'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'thích đọc sách' thành 'enjoy to read'. Mẹo: Enjoy, avoid, finish, mind, practice + V-ing.\n💡 **Ví dụ:** She avoids eating meat. / He finished doing homework."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She wants going to the cinema.",
+    "output": "✅ **Corrected Sentence:** She wants to go to the cinema.\n🔍 **Error Identification:** 'Want' + to V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dịch 'muốn đi xem phim' thành 'wants going'. Mẹo: Want, need, would like, decide, hope, plan + to V.\n💡 **Ví dụ:** He wants to learn English. / They plan to travel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He suggested to go out for dinner.",
+    "output": "✅ **Corrected Sentence:** He suggested going out for dinner.\n🔍 **Error Identification:** 'Suggest' + V-ing, không dùng 'to V'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'đề nghị đi ăn tối' thành 'suggested to go'. Mẹo: Suggest, recommend, consider, imagine + V-ing.\n💡 **Ví dụ:** She suggested taking a break. / They considered moving to a new city."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I promise helping you.",
+    "output": "✅ **Corrected Sentence:** I promise to help you.\n🔍 **Error Identification:** 'Promise' + to V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dịch 'hứa giúp bạn' thành 'promise helping'. Mẹo: Promise, offer, agree, refuse, manage + to V.\n💡 **Ví dụ:** He agreed to come. / She refused to answer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I look forward to see you.",
+    "output": "✅ **Corrected Sentence:** I look forward to seeing you.\n🔍 **Error Identification:** 'Look forward to' + V-ing (to là giới từ).\n📘 **Vietnamese Explanation:** Người Việt thấy 'to' tưởng là 'to V'. Mẹo: look forward to, be used to, get used to, be accustomed to + V-ing.\n💡 **Ví dụ:** I am used to waking up early. / She is looking forward to meeting him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He stopped to smoke because it's bad for health. (nếu nghĩa là 'bỏ hút thuốc')",
+    "output": "✅ **Corrected Sentence:** He stopped smoking because it's bad for health.\n🔍 **Error Identification:** 'Stop + V-ing' = dừng hẳn hành động; 'stop + to V' = dừng việc khác để làm việc gì.\n📘 **Vietnamese Explanation:** Người Việt dùng 'stop to smoke' muốn nói 'bỏ hút thuốc' – sai. Mẹo: Stop V-ing = ngừng hẳn; stop to V = dừng lại để làm.\n💡 **Ví dụ:** She stopped eating junk food. / He stopped to tie his shoes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I remember to lock the door. (nếu nghĩa là 'tôi nhớ là đã khóa cửa')",
+    "output": "✅ **Corrected Sentence:** I remember locking the door.\n🔍 **Error Identification:** 'Remember + V-ing' = nhớ đã làm gì (trong quá khứ); 'remember + to V' = nhớ phải làm gì (tương lai).\n📘 **Vietnamese Explanation:** Người Việt dùng 'remember to lock' khi muốn nói 'nhớ đã khóa'. Mẹo: Remember V-ing = ký ức; remember to V = nhiệm vụ.\n💡 **Ví dụ:** I remember meeting her before. / Please remember to call me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I forgot to bring my keys. (câu đúng) - Học viên viết \'I forgot bringing my keys.\'",
+    "output": "✅ **Corrected Sentence:** I forgot to bring my keys. (quên làm gì) / I forgot bringing my keys (quên là đã mang – hiếm)\n🔍 **Error Identification:** 'Forget + to V' = quên phải làm; 'forget + V-ing' = quên đã làm (ít dùng).\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'forget V-ing' cho mọi nghĩa. Mẹo: Forget to V = nhiệm vụ chưa làm.\n💡 **Ví dụ:** He forgot to buy milk. / Don't forget to lock the door."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't help to laugh when I see him.",
+    "output": "✅ **Corrected Sentence:** I can't help laughing when I see him.\n🔍 **Error Identification:** 'Can't help' + V-ing (không thể không làm gì).\n📘 **Vietnamese Explanation:** Người Việt dùng 'can't help to laugh' vì nghĩ 'không thể giúp để cười'. Mẹo: can't help + V-ing = không thể không.\n💡 **Ví dụ:** I can't help worrying about you. / She can't help crying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is good at to play chess.",
+    "output": "✅ **Corrected Sentence:** He is good at playing chess.\n🔍 **Error Identification:** Sau giới từ 'at' dùng V-ing, không dùng 'to V'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'to play' sau giới từ. Mẹo: Giới từ (at, in, of, for, about) + V-ing.\n💡 **Ví dụ:** She is interested in learning French. / He is tired of waiting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's no use to argue with him.",
+    "output": "✅ **Corrected Sentence:** It's no use arguing with him.\n🔍 **Error Identification:** 'It's no use' + V-ing, không dùng 'to V'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'vô ích để tranh luận' thành 'no use to argue'. Mẹo: It's no use / It's no good + V-ing.\n💡 **Ví dụ:** It's no use crying over spilt milk. / It's no good complaining."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm looking forward to hear from you.",
+    "output": "✅ **Corrected Sentence:** I'm looking forward to hearing from you.\n🔍 **Error Identification:** 'Look forward to' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt thấy 'to' tưởng là động từ chỉ mục đích. Mẹo: to ở đây là giới từ → + V-ing.\n💡 **Ví dụ:** She is looking forward to meeting you. / We look forward to seeing you again."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He denied to steal the money.",
+    "output": "✅ **Corrected Sentence:** He denied stealing the money.\n🔍 **Error Identification:** 'Deny' + V-ing, không dùng 'to V'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'phủ nhận lấy trộm tiền' thành 'denied to steal'. Mẹo: Deny, admit, mention, risk, consider + V-ing.\n💡 **Ví dụ:** She admitted making a mistake. / He risked losing everything."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to go to the store. (câu đúng) - Học viên viết \'I need going to the store.\'",
+    "output": "✅ **Corrected Sentence:** I need to go to the store.\n🔍 **Error Identification:** 'Need' + to V (khi chủ ngữ là người), 'need + V-ing' (khi chủ ngữ là vật, nghĩa bị động).\n📘 **Vietnamese Explanation:** Người Việt dùng 'need going' cho mọi trường hợp. Mẹo: need to do (chủ động), need doing (bị động, vật).\n💡 **Ví dụ:** I need to clean the car. / The car needs cleaning."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She started to cry when she heard the news. (câu đúng - cả to V và V-ing đều được)",
+    "output": "✅ **Corrected Sentence:** She started to cry when she heard the news. (hoặc started crying)\n🔍 **Error Identification:** 'Start, begin, continue' có thể dùng cả to V và V-ing, ít khác biệt.\n📘 **Vietnamese Explanation:** Người Việt cần nhớ: start/begin thường dùng V-ing cho hành động dài, to V cho hành động ngắn.\n💡 **Ví dụ:** It started raining. / She began to speak."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He tried to open the window, but it was stuck. (câu đúng - cố gắng) - Học viên viết \'He tried opening the window.\' (thử nghiệm)",
+    "output": "✅ **Corrected Sentence:** He tried to open the window (cố gắng) / He tried opening the window (thử nghiệm)\n🔍 **Error Identification:** 'Try + to V' = cố gắng làm; 'try + V-ing' = thử làm (xem kết quả thế nào).\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'try to V' cho mọi nghĩa. Mẹo: Try to = nỗ lực; try V-ing = thử nghiệm.\n💡 **Ví dụ:** I tried to lift the box. / I tried taking aspirin for my headache."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I regret to inform you that you failed. (câu đúng - lấy làm tiếc) - Học viên viết \'I regret informing you.\' (hối hận vì đã làm)",
+    "output": "✅ **Corrected Sentence:** I regret to inform you that you failed. (tiếc phải làm) / I regret informing you (hối hận đã làm)\n🔍 **Error Identification:** 'Regret + to V' = lấy làm tiếc phải làm (thường dùng với say, tell, inform); 'regret + V-ing' = hối hận về việc đã làm.\n📘 **Vietnamese Explanation:** Người Việt nhầm lẫn giữa hai cấu trúc. Mẹo: Regret to V = tin xấu; regret V-ing = hối hận.\n💡 **Ví dụ:** I regret to say that you're wrong. / I regret buying this car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am used to get up early.",
+    "output": "✅ **Corrected Sentence:** I am used to getting up early.\n🔍 **Error Identification:** 'Be used to' + V-ing (quen với).\n📘 **Vietnamese Explanation:** Người Việt nhầm 'used to' (đã từng) và 'be used to' (quen với). Mẹo: Be used to + V-ing, used to + V.\n💡 **Ví dụ:** I am used to living alone. / He used to smoke."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She avoids to eat junk food.",
+    "output": "✅ **Corrected Sentence:** She avoids eating junk food.\n🔍 **Error Identification:** 'Avoid' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tránh ăn đồ ăn vặt' thành 'avoids to eat'. Mẹo: Avoid, miss, postpone, delay, consider + V-ing.\n💡 **Ví dụ:** He missed catching the bus. / She postponed making a decision."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He finished to read the book.",
+    "output": "✅ **Corrected Sentence:** He finished reading the book.\n🔍 **Error Identification:** 'Finish' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dịch 'hoàn thành đọc sách' thành 'finished to read'. Mẹo: Finish, enjoy, mind, practice, quit + V-ing.\n💡 **Ví dụ:** I finished doing my homework. / She quit smoking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They decided to leave early. (câu đúng) - Học viên viết \'They decided leaving early.\'",
+    "output": "✅ **Corrected Sentence:** They decided to leave early.\n🔍 **Error Identification:** 'Decide' + to V.\n📘 **Vietnamese Explanation:** Người Việt dùng 'decide V-ing'. Mẹo: Decide, hope, expect, plan, want, need, would like + to V.\n💡 **Ví dụ:** She hopes to see you soon. / They plan to travel abroad."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I mind to wait for a long time.",
+    "output": "✅ **Corrected Sentence:** I mind waiting for a long time.\n🔍 **Error Identification:** 'Mind' + V-ing (phiền / ngại làm gì).\n📘 **Vietnamese Explanation:** Người Việt dùng 'mind to wait'. Mẹo: Mind, avoid, enjoy, finish, practice + V-ing.\n💡 **Ví dụ:** Do you mind opening the window? / She doesn't mind helping."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He offered to help me. (câu đúng) - Học viên viết \'He offered helping me.\'",
+    "output": "✅ **Corrected Sentence:** He offered to help me.\n🔍 **Error Identification:** 'Offer' + to V.\n📘 **Vietnamese Explanation:** Người Việt dùng 'offered helping'. Mẹo: Offer, promise, agree, refuse, manage, fail + to V.\n💡 **Ví dụ:** She refused to answer. / He managed to escape."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't imagine to live in a big city.",
+    "output": "✅ **Corrected Sentence:** I can't imagine living in a big city.\n🔍 **Error Identification:** 'Imagine' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'imagine to live'. Mẹo: Imagine, consider, suggest, recommend, admit + V-ing.\n💡 **Ví dụ:** Can you imagine being famous? / She suggested going to the beach."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He doesn't mind to work overtime.",
+    "output": "✅ **Corrected Sentence:** He doesn't mind working overtime.\n🔍 **Error Identification:** 'Mind' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mind to work'. Mẹo: Mind + V-ing (phiền lòng).\n💡 **Ví dụ:** Do you mind waiting? / She doesn't mind helping us."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I want to learn to play the guitar. (câu đúng) - Học viên viết \'I want learning to play the guitar.\'",
+    "output": "✅ **Corrected Sentence:** I want to learn to play the guitar.\n🔍 **Error Identification:** 'Want' + to V.\n📘 **Vietnamese Explanation:** Người Việt dùng 'want learning'. Mẹo: Want, need, would like, hope, expect + to V.\n💡 **Ví dụ:** She wants to be a doctor. / They hope to win the game."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She practices to speak English every day.",
+    "output": "✅ **Corrected Sentence:** She practices speaking English every day.\n🔍 **Error Identification:** 'Practice' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dịch 'luyện tập nói tiếng Anh' thành 'practices to speak'. Mẹo: Practice, avoid, enjoy, finish, mind + V-ing.\n💡 **Ví dụ:** He practices playing the piano. / She enjoys reading books."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I expect to pass the exam. (câu đúng) - Học viên viết \'I expect passing the exam.\'",
+    "output": "✅ **Corrected Sentence:** I expect to pass the exam.\n🔍 **Error Identification:** 'Expect' + to V.\n📘 **Vietnamese Explanation:** Người Việt dùng 'expect passing'. Mẹo: Expect, hope, plan, decide, promise + to V.\n💡 **Ví dụ:** She expects to arrive early. / They plan to get married."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He admitted to steal the car.",
+    "output": "✅ **Corrected Sentence:** He admitted stealing the car.\n🔍 **Error Identification:** 'Admit' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dịch 'thừa nhận lấy trộm xe' thành 'admitted to steal'. Mẹo: Admit, deny, mention, suggest, consider + V-ing.\n💡 **Ví dụ:** She denied breaking the vase. / He mentioned seeing you there."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I considered to move to another city.",
+    "output": "✅ **Corrected Sentence:** I considered moving to another city.\n🔍 **Error Identification:** 'Consider' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'considered to move'. Mẹo: Consider, imagine, suggest, recommend + V-ing.\n💡 **Ví dụ:** She considered changing her job. / They recommended waiting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She refused to help me. (câu đúng) - Học viên viết \'She refused helping me.\'",
+    "output": "✅ **Corrected Sentence:** She refused to help me.\n🔍 **Error Identification:** 'Refuse' + to V.\n📘 **Vietnamese Explanation:** Người Việt dùng 'refused helping'. Mẹo: Refuse, offer, promise, agree, manage + to V.\n💡 **Ví dụ:** He refused to answer. / She agreed to come."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't feel like to go out tonight.",
+    "output": "✅ **Corrected Sentence:** I don't feel like going out tonight.\n🔍 **Error Identification:** 'Feel like' + V-ing (cảm thấy muốn).\n📘 **Vietnamese Explanation:** Người Việt dùng 'feel like to go'. Mẹo: Feel like + V-ing.\n💡 **Ví dụ:** I feel like having a coffee. / She feels like sleeping."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He spends a lot of time to play video games.",
+    "output": "✅ **Corrected Sentence:** He spends a lot of time playing video games.\n🔍 **Error Identification:** 'Spend time + V-ing'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'dành thời gian chơi game' thành 'spends time to play'. Mẹo: spend time/money + V-ing.\n💡 **Ví dụ:** I spend two hours reading every day. / She spends money buying clothes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's important to be on time. (câu đúng) - Học viên viết \'It's important being on time.\'",
+    "output": "✅ **Corrected Sentence:** It's important to be on time.\n🔍 **Error Identification:** Cấu trúc 'It + be + adjective + to V'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'being on time'. Mẹo: It's + adj + to V.\n💡 **Ví dụ:** It's easy to learn English. / It's difficult to solve this problem."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He apologized for to be late.",
+    "output": "✅ **Corrected Sentence:** He apologized for being late.\n🔍 **Error Identification:** Sau giới từ 'for' dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'for to be late'. Mẹo: Giới từ + V-ing.\n💡 **Ví dụ:** Thank you for helping me. / He is good at cooking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm thinking of to buy a new car.",
+    "output": "✅ **Corrected Sentence:** I'm thinking of buying a new car.\n🔍 **Error Identification:** Sau giới từ 'of' dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'of to buy'. Mẹo: think of + V-ing.\n💡 **Ví dụ:** She dreamed of becoming a singer. / He is tired of waiting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is afraid of to speak in public.",
+    "output": "✅ **Corrected Sentence:** He is afraid of speaking in public.\n🔍 **Error Identification:** Sau giới từ 'of' dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'of to speak'. Mẹo: afraid of + V-ing.\n💡 **Ví dụ:** She is scared of flying. / He is tired of working."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm looking forward to see you again.",
+    "output": "✅ **Corrected Sentence:** I'm looking forward to seeing you again.\n🔍 **Error Identification:** 'Look forward to' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt thấy 'to' tưởng là to V. Mẹo: to là giới từ → + V-ing.\n💡 **Ví dụ:** We are looking forward to hearing from you. / She is looking forward to traveling."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is used to work late.",
+    "output": "✅ **Corrected Sentence:** She is used to working late.\n🔍 **Error Identification:** 'Be used to' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'used to' (đã từng) và 'be used to' (quen). Mẹo: be used to + V-ing.\n💡 **Ví dụ:** I am used to waking up early. / He is used to living alone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't stand to listen to his complaints.",
+    "output": "✅ **Corrected Sentence:** I can't stand listening to his complaints.\n🔍 **Error Identification:** 'Can't stand' + V-ing (không thể chịu được).\n📘 **Vietnamese Explanation:** Người Việt dùng 'can't stand to listen'. Mẹo: can't stand, can't bear, can't help + V-ing.\n💡 **Ví dụ:** I can't stand waiting in line. / She can't bear seeing him cry."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's worth to visit that museum.",
+    "output": "✅ **Corrected Sentence:** It's worth visiting that museum.\n🔍 **Error Identification:** 'It's worth' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'worth to visit'. Mẹo: worth + V-ing.\n💡 **Ví dụ:** The movie is worth watching. / It's worth trying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He has trouble to remember names.",
+    "output": "✅ **Corrected Sentence:** He has trouble remembering names.\n🔍 **Error Identification:** 'Have trouble/difficulty' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'have trouble to remember'. Mẹo: have trouble + V-ing.\n💡 **Ví dụ:** I have difficulty understanding him. / She has trouble sleeping."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There's no point to argue with him.",
+    "output": "✅ **Corrected Sentence:** There's no point arguing with him.\n🔍 **Error Identification:** 'There's no point' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'no point to argue'. Mẹo: There's no point + V-ing.\n💡 **Ví dụ:** There's no point crying. / There's no point waiting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have decided to quit smoking. (câu đúng) - Học viên viết \'I have decided quitting smoking.\'",
+    "output": "✅ **Corrected Sentence:** I have decided to quit smoking.\n🔍 **Error Identification:** 'Decide' + to V.\n📘 **Vietnamese Explanation:** Người Việt dùng 'decided quitting'. Mẹo: Decide, hope, expect, plan, want + to V.\n💡 **Ví dụ:** She decided to move abroad. / He hopes to find a job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She avoided to talk about the problem.",
+    "output": "✅ **Corrected Sentence:** She avoided talking about the problem.\n🔍 **Error Identification:** 'Avoid' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'avoided to talk'. Mẹo: Avoid, miss, postpone, delay + V-ing.\n💡 **Ví dụ:** He avoided answering the question. / She missed seeing the movie."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I recommend to take a break.",
+    "output": "✅ **Corrected Sentence:** I recommend taking a break.\n🔍 **Error Identification:** 'Recommend' + V-ing (hoặc recommend that someone do something).\n📘 **Vietnamese Explanation:** Người Việt dùng 'recommend to take'. Mẹo: Recommend, suggest, consider + V-ing.\n💡 **Ví dụ:** She recommended reading this book. / He suggested waiting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He managed to escape from the fire. (câu đúng) - Học viên viết \'He managed escaping from the fire.\'",
+    "output": "✅ **Corrected Sentence:** He managed to escape from the fire.\n🔍 **Error Identification:** 'Manage' + to V.\n📘 **Vietnamese Explanation:** Người Việt dùng 'managed escaping'. Mẹo: Manage, afford, fail, offer, promise + to V.\n💡 **Ví dụ:** She managed to finish on time. / He failed to pass the exam."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I appreciate to have your help.",
+    "output": "✅ **Corrected Sentence:** I appreciate having your help.\n🔍 **Error Identification:** 'Appreciate' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'appreciate to have'. Mẹo: Appreciate, enjoy, avoid, mind + V-ing.\n💡 **Ví dụ:** I appreciate your being here. / She enjoys dancing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She confessed to steal the money.",
+    "output": "✅ **Corrected Sentence:** She confessed to stealing the money.\n🔍 **Error Identification:** 'Confess to' + V-ing (to là giới từ).\n📘 **Vietnamese Explanation:** Người Việt dùng 'confess to steal'. Mẹo: confess to + V-ing.\n💡 **Ví dụ:** He confessed to breaking the window. / She admitted to lying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm thinking about to change my job.",
+    "output": "✅ **Corrected Sentence:** I'm thinking about changing my job.\n🔍 **Error Identification:** Sau giới từ 'about' dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'about to change'. Mẹo: think about + V-ing.\n💡 **Ví dụ:** I'm thinking about moving. / She talked about quitting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He insisted on to pay the bill.",
+    "output": "✅ **Corrected Sentence:** He insisted on paying the bill.\n🔍 **Error Identification:** 'Insist on' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'insist on to pay'. Mẹo: insist on + V-ing.\n💡 **Ví dụ:** She insisted on coming with me. / He insisted on paying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm not accustomed to work at night.",
+    "output": "✅ **Corrected Sentence:** I'm not accustomed to working at night.\n🔍 **Error Identification:** 'Be accustomed to' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'to work'. Mẹo: accustomed to + V-ing (giới từ).\n💡 **Ví dụ:** She is accustomed to living alone. / He is not accustomed to eating spicy food."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is committed to help the poor.",
+    "output": "✅ **Corrected Sentence:** He is committed to helping the poor.\n🔍 **Error Identification:** 'Be committed to' + V-ing (to là giới từ).\n📘 **Vietnamese Explanation:** Người Việt dùng 'to help'. Mẹo: committed to + V-ing.\n💡 **Ví dụ:** She is dedicated to teaching. / He is committed to finishing the project."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't help to worry about you.",
+    "output": "✅ **Corrected Sentence:** I can't help worrying about you.\n🔍 **Error Identification:** 'Can't help' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'can't help to worry'. Mẹo: can't help + V-ing.\n💡 **Ví dụ:** I can't help laughing. / She can't help crying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is keen on to learn French.",
+    "output": "✅ **Corrected Sentence:** She is keen on learning French.\n🔍 **Error Identification:** 'Keen on' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'keen on to learn'. Mẹo: keen on + V-ing.\n💡 **Ví dụ:** He is keen on playing football. / She is keen on reading."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm sorry for to be late.",
+    "output": "✅ **Corrected Sentence:** I'm sorry for being late.\n🔍 **Error Identification:** Sau giới từ 'for' dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'for to be late'. Mẹo: sorry for + V-ing.\n💡 **Ví dụ:** I'm sorry for hurting you. / He apologized for being rude."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He prevented me from to go there.",
+    "output": "✅ **Corrected Sentence:** He prevented me from going there.\n🔍 **Error Identification:** 'Prevent someone from' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'from to go'. Mẹo: prevent from + V-ing.\n💡 **Ví dụ:** The rain prevented us from leaving. / She stopped him from talking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm considering to study abroad.",
+    "output": "✅ **Corrected Sentence:** I'm considering studying abroad.\n🔍 **Error Identification:** 'Consider' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'considering to study'. Mẹo: consider + V-ing.\n💡 **Ví dụ:** She considered moving to a new city. / He is considering changing his job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She delayed to make a decision.",
+    "output": "✅ **Corrected Sentence:** She delayed making a decision.\n🔍 **Error Identification:** 'Delay' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'delayed to make'. Mẹo: delay, postpone, put off + V-ing.\n💡 **Ví dụ:** He delayed answering the letter. / She postponed leaving."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He denied to have done it.",
+    "output": "✅ **Corrected Sentence:** He denied having done it.\n🔍 **Error Identification:** 'Deny' + V-ing (có thể dùng perfect gerund).\n📘 **Vietnamese Explanation:** Người Việt dùng 'denied to have'. Mẹo: deny + V-ing.\n💡 **Ví dụ:** She denied stealing the money. / He denied being there."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't afford to buy a new car. (câu đúng) - Học viên viết \'I can't afford buying a new car.\'",
+    "output": "✅ **Corrected Sentence:** I can't afford to buy a new car.\n🔍 **Error Identification:** 'Afford' + to V.\n📘 **Vietnamese Explanation:** Người Việt dùng 'afford buying'. Mẹo: afford, manage, fail, offer + to V.\n💡 **Ví dụ:** She can't afford to travel. / He failed to show up."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He tends to exaggerate. (câu đúng) - Học viên viết \'He tends exaggerating.\'",
+    "output": "✅ **Corrected Sentence:** He tends to exaggerate.\n🔍 **Error Identification:** 'Tend' + to V.\n📘 **Vietnamese Explanation:** Người Việt dùng 'tends exaggerating'. Mẹo: tend, seem, appear + to V.\n💡 **Ví dụ:** She seems to be tired. / He appears to know the answer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I miss to live in the countryside.",
+    "output": "✅ **Corrected Sentence:** I miss living in the countryside.\n🔍 **Error Identification:** 'Miss' + V-ing (nhớ đã từng làm).\n📘 **Vietnamese Explanation:** Người Việt dùng 'miss to live'. Mẹo: miss + V-ing.\n💡 **Ví dụ:** I miss seeing my old friends. / She misses living near the beach."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She practiced to play the piano every day.",
+    "output": "✅ **Corrected Sentence:** She practiced playing the piano every day.\n🔍 **Error Identification:** 'Practice' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'practiced to play'. Mẹo: practice + V-ing.\n💡 **Ví dụ:** He practices speaking English. / She practices yoga."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't resist to eat chocolate.",
+    "output": "✅ **Corrected Sentence:** I can't resist eating chocolate.\n🔍 **Error Identification:** 'Can't resist' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'resist to eat'. Mẹo: can't resist + V-ing.\n💡 **Ví dụ:** I can't resist buying new shoes. / She can't resist laughing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is busy to prepare for the exam.",
+    "output": "✅ **Corrected Sentence:** He is busy preparing for the exam.\n🔍 **Error Identification:** 'Busy' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'busy to prepare'. Mẹo: busy + V-ing.\n💡 **Ví dụ:** She is busy cooking dinner. / He is busy working."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I regret to say that you are wrong. (câu đúng) - Học viên viết \'I regret saying that you are wrong.\' (khác nghĩa)",
+    "output": "✅ **Corrected Sentence:** I regret to say that you are wrong. (tiếc phải nói) / I regret saying that you are wrong (hối hận vì đã nói)\n🔍 **Error Identification:** 'Regret to V' = lấy làm tiếc phải làm; 'regret V-ing' = hối hận việc đã làm.\n📘 **Vietnamese Explanation:** Người Việt nhầm lẫn hai cấu trúc. Mẹo: Regret to V = tin xấu; regret V-ing = hối hận.\n💡 **Ví dụ:** I regret to inform you that... / I regret telling him the secret."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He threatened to call the police. (câu đúng) - Học viên viết \'He threatened calling the police.\'",
+    "output": "✅ **Corrected Sentence:** He threatened to call the police.\n🔍 **Error Identification:** 'Threaten' + to V.\n📘 **Vietnamese Explanation:** Người Việt dùng 'threatened calling'. Mẹo: threaten, offer, promise, refuse + to V.\n💡 **Ví dụ:** She threatened to quit. / He offered to help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm not used to get up so early.",
+    "output": "✅ **Corrected Sentence:** I'm not used to getting up so early.\n🔍 **Error Identification:** 'Be used to' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'used to' (đã từng) và 'be used to' (quen). Mẹo: be used to + V-ing.\n💡 **Ví dụ:** She is used to working night shifts. / He is used to living alone."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is fond of to read novels.",
+    "output": "✅ **Corrected Sentence:** She is fond of reading novels.\n🔍 **Error Identification:** 'Fond of' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'fond of to read'. Mẹo: fond of + V-ing.\n💡 **Ví dụ:** He is fond of playing chess. / She is fond of singing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm tired of to wait.",
+    "output": "✅ **Corrected Sentence:** I'm tired of waiting.\n🔍 **Error Identification:** 'Tired of' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'tired of to wait'. Mẹo: tired of + V-ing.\n💡 **Ví dụ:** I'm tired of working. / She is tired of studying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He succeeded in to pass the exam.",
+    "output": "✅ **Corrected Sentence:** He succeeded in passing the exam.\n🔍 **Error Identification:** 'Succeed in' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'succeeded in to pass'. Mẹo: succeed in + V-ing.\n💡 **Ví dụ:** She succeeded in winning the race. / He succeeded in finding a job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm interested in to learn English.",
+    "output": "✅ **Corrected Sentence:** I'm interested in learning English.\n🔍 **Error Identification:** 'Interested in' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'interested in to learn'. Mẹo: interested in + V-ing.\n💡 **Ví dụ:** She is interested in reading. / He is interested in playing sports."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He insisted on to come with us.",
+    "output": "✅ **Corrected Sentence:** He insisted on coming with us.\n🔍 **Error Identification:** 'Insist on' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'insisted on to come'. Mẹo: insist on + V-ing.\n💡 **Ví dụ:** She insisted on paying. / He insisted on driving."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm looking forward to hear from you.",
+    "output": "✅ **Corrected Sentence:** I'm looking forward to hearing from you.\n🔍 **Error Identification:** 'Look forward to' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt thấy 'to' tưởng là to V. Mẹo: look forward to + V-ing.\n💡 **Ví dụ:** We look forward to meeting you. / She looks forward to traveling."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is capable of to do the job.",
+    "output": "✅ **Corrected Sentence:** She is capable of doing the job.\n🔍 **Error Identification:** 'Capable of' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'capable of to do'. Mẹo: capable of + V-ing.\n💡 **Ví dụ:** He is capable of solving problems. / She is capable of handling stress."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is responsible for to manage the team.",
+    "output": "✅ **Corrected Sentence:** He is responsible for managing the team.\n🔍 **Error Identification:** 'Responsible for' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'responsible for to manage'. Mẹo: responsible for + V-ing.\n💡 **Ví dụ:** She is responsible for organizing the event. / He is responsible for leading the group."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm not good at to tell jokes.",
+    "output": "✅ **Corrected Sentence:** I'm not good at telling jokes.\n🔍 **Error Identification:** 'Good at' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'good at to tell'. Mẹo: good at + V-ing.\n💡 **Ví dụ:** She is good at dancing. / He is good at drawing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is afraid of to speak in public.",
+    "output": "✅ **Corrected Sentence:** He is afraid of speaking in public.\n🔍 **Error Identification:** 'Afraid of' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'afraid of to speak'. Mẹo: afraid of + V-ing.\n💡 **Ví dụ:** She is afraid of flying. / He is afraid of losing his job."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm sorry for to have kept you waiting.",
+    "output": "✅ **Corrected Sentence:** I'm sorry for having kept you waiting.\n🔍 **Error Identification:** 'Sorry for' + V-ing (perfect gerund).\n📘 **Vietnamese Explanation:** Người Việt dùng 'sorry for to have'. Mẹo: sorry for + V-ing.\n💡 **Ví dụ:** I'm sorry for being late. / He apologized for having caused trouble."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He confessed to have lied.",
+    "output": "✅ **Corrected Sentence:** He confessed to having lied. (hoặc confessed to lying)\n🔍 **Error Identification:** 'Confess to' + V-ing / perfect gerund.\n📘 **Vietnamese Explanation:** Người Việt dùng 'confessed to have lied'. Mẹo: confess to + V-ing.\n💡 **Ví dụ:** She confessed to stealing. / He admitted to having cheated."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I'm considering to apply for that job.",
+    "output": "✅ **Corrected Sentence:** I'm considering applying for that job.\n🔍 **Error Identification:** 'Consider' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'considering to apply'. Mẹo: consider + V-ing.\n💡 **Ví dụ:** She considered moving abroad. / He is considering changing his career."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She avoided to make eye contact.",
+    "output": "✅ **Corrected Sentence:** She avoided making eye contact.\n🔍 **Error Identification:** 'Avoid' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'avoided to make'. Mẹo: avoid + V-ing.\n💡 **Ví dụ:** He avoided answering the question. / She avoids eating meat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He pretended to be sick. (câu đúng) - Học viên viết \'He pretended being sick.\'",
+    "output": "✅ **Corrected Sentence:** He pretended to be sick.\n🔍 **Error Identification:** 'Pretend' + to V.\n📘 **Vietnamese Explanation:** Người Việt dùng 'pretended being'. Mẹo: pretend, tend, seem, appear + to V.\n💡 **Ví dụ:** She pretended to sleep. / He pretended not to hear."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't bear to see him cry. (câu đúng) - Học viên viết \'I can't bear seeing him cry.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** I can't bear to see him cry. / I can't bear seeing him cry.\n🔍 **Error Identification:** 'Can't bear' có thể dùng cả to V và V-ing, ít khác biệt.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng cả hai. Mẹo: can't bear to V / V-ing.\n💡 **Ví dụ:** I can't stand to wait / waiting. / I can't bear to lose / losing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He intends to resign. (câu đúng) - Học viên viết \'He intends resigning.\'",
+    "output": "✅ **Corrected Sentence:** He intends to resign.\n🔍 **Error Identification:** 'Intend' + to V.\n📘 **Vietnamese Explanation:** Người Việt dùng 'intends resigning'. Mẹo: intend, plan, hope, expect + to V.\n💡 **Ví dụ:** She intends to study abroad. / They plan to get married."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I recall to see him somewhere before.",
+    "output": "✅ **Corrected Sentence:** I recall seeing him somewhere before.\n🔍 **Error Identification:** 'Recall' + V-ing (nhớ đã làm).\n📘 **Vietnamese Explanation:** Người Việt dùng 'recall to see'. Mẹo: recall, remember, forget + V-ing (ký ức).\n💡 **Ví dụ:** I remember meeting her. / She recalls visiting that place."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is always willing to help. (câu đúng) - Học viên viết \'He is always willing helping.\'",
+    "output": "✅ **Corrected Sentence:** He is always willing to help.\n🔍 **Error Identification:** 'Willing' + to V.\n📘 **Vietnamese Explanation:** Người Việt dùng 'willing helping'. Mẹo: willing, ready, eager, likely + to V.\n💡 **Ví dụ:** She is ready to go. / He is eager to learn."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It's no use to cry over spilt milk.",
+    "output": "✅ **Corrected Sentence:** It's no use crying over spilt milk.\n🔍 **Error Identification:** 'It's no use' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'no use to cry'. Mẹo: it's no use + V-ing.\n💡 **Ví dụ:** It's no use arguing. / It's no use complaining."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is bound to succeed. (câu đúng) - Học viên viết \'He is bound succeeding.\'",
+    "output": "✅ **Corrected Sentence:** He is bound to succeed.\n🔍 **Error Identification:** 'Bound' + to V (chắc chắn).\n📘 **Vietnamese Explanation:** Người Việt dùng 'bound succeeding'. Mẹo: bound, likely, sure, certain + to V.\n💡 **Ví dụ:** She is sure to win. / They are certain to come."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I don't mind to help you.",
+    "output": "✅ **Corrected Sentence:** I don't mind helping you.\n🔍 **Error Identification:** 'Mind' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'mind to help'. Mẹo: mind + V-ing.\n💡 **Ví dụ:** Do you mind opening the door? / She doesn't mind waiting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is considering to quit his job.",
+    "output": "✅ **Corrected Sentence:** He is considering quitting his job.\n🔍 **Error Identification:** 'Consider' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'considering to quit'. Mẹo: consider + V-ing.\n💡 **Ví dụ:** She considered moving. / He is considering changing jobs."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I can't imagine to live without you.",
+    "output": "✅ **Corrected Sentence:** I can't imagine living without you.\n🔍 **Error Identification:** 'Imagine' + V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'imagine to live'. Mẹo: imagine + V-ing.\n💡 **Ví dụ:** Can you imagine being famous? / She imagines traveling the world."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is always forgetting to lock the door. (câu đúng - thói quen xấu) - Học viên viết \'He is always forgetting locking the door.\'",
+    "output": "✅ **Corrected Sentence:** He is always forgetting to lock the door. (quên phải khóa) / forgetting locking (không dùng)\n🔍 **Error Identification:** 'Forget' + to V (quên phải làm).\n📘 **Vietnamese Explanation:** Người Việt dùng 'forget V-ing' cho mọi nghĩa. Mẹo: forget to V = nhiệm vụ.\n💡 **Ví dụ:** Don't forget to call me. / I forgot to buy milk."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She tried to lift the box, but it was too heavy. (câu đúng - cố gắng) - Học viên viết \'She tried lifting the box.\' (thử nghiệm)",
+    "output": "✅ **Corrected Sentence:** She tried to lift the box. (cố gắng) / She tried lifting the box (thử nghiệm)\n🔍 **Error Identification:** 'Try to V' = nỗ lực; 'try V-ing' = thử nghiệm.\n📘 **Vietnamese Explanation:** Người Việt dùng 'try to V' cho mọi nghĩa. Mẹo: Try to = attempt; try V-ing = experiment.\n💡 **Ví dụ:** I tried to open the jar. / I tried taking aspirin."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to have my car repaired. (câu đúng) - Học viên viết \'I need to have my car repair.\'",
+    "output": "✅ **Corrected Sentence:** I need to have my car repaired.\n🔍 **Error Identification:** 'Have something done' + V3.\n📘 **Vietnamese Explanation:** Người Việt dùng 'have something repair'. Mẹo: have + object + V3.\n💡 **Ví dụ:** I had my hair cut. / She had her house painted."
+  }
+]

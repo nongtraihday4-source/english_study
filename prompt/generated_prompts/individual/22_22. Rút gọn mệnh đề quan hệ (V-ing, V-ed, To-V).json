@@ -1,0 +1,407 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man is standing there is my brother.",
+    "output": "✅ **Corrected Sentence:** The man standing there is my brother. (hoặc The man who is standing there is my brother)\n🔍 **Error Identification:** Không được dùng 'is' hai lần trong câu khi rút gọn – bỏ 'who is' và dùng 'standing'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên động từ 'is' của mệnh đề quan hệ. Mẹo: Rút gọn mệnh đề chủ động: bỏ who/which/that + động từ chia → V-ing.\n💡 **Ví dụ:** The girl singing now is my sister. / The car parked outside is mine."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book written by Tolkien is very popular. (câu đúng) - Học viên viết \'The book writing by Tolkien is very popular.\'",
+    "output": "✅ **Corrected Sentence:** The book written by Tolkien is very popular.\n🔍 **Error Identification:** Dùng 'writing' (chủ động) thay vì 'written' (bị động) – sách được viết, không phải tự viết.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing cho mọi trường hợp rút gọn. Mẹo: Nếu chủ ngữ chịu tác động → dùng V-ed/PP (bị động).\n💡 **Ví dụ:** The cake made by my mom is delicious. / The house built in 1990 is old."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The first person to arrive will get a prize. (câu đúng) - Học viên viết \'The first person arriving will get a prize.\' (cũng đúng nhưng khác nghĩa)",
+    "output": "✅ **Corrected Sentence:** The first person to arrive will get a prize.\n🔍 **Error Identification:** Sau thứ tự (first, second, last, only) dùng to-V để rút gọn, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing cho mọi rút gọn. Mẹo: The first/last/only + to-V.\n💡 **Ví dụ:** The last person to leave should turn off the lights. / The only student to pass the exam was John."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The boy who punished by the teacher is my friend.",
+    "output": "✅ **Corrected Sentence:** The boy punished by the teacher is my friend. (bỏ 'who' và dùng 'punished')\n🔍 **Error Identification:** Mệnh đề bị động rút gọn bằng V-ed/PP, nhưng câu gốc thiếu 'was' (who was punished).\n📘 **Vietnamese Explanation:** Người Việt giữ 'who' và quên rút gọn. Mẹo: Mệnh đề bị động rút gọn: bỏ who/which/that + be → V-ed/PP.\n💡 **Ví dụ:** The car damaged in the accident was towed. / The letter sent yesterday arrived today."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The woman who is wearing a red dress is my aunt.",
+    "output": "✅ **Corrected Sentence:** The woman wearing a red dress is my aunt. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn mệnh đề chủ động: bỏ who/which/that + động từ to be → V-ing.\n📘 **Vietnamese Explanation:** Người Việt thường viết dài dòng, chưa quen rút gọn. Mẹo: Nếu động từ chính là 'is/am/are/was/were', bỏ đại từ và to be, giữ V-ing.\n💡 **Ví dụ:** The man talking on the phone is my boss. / The birds flying in the sky are beautiful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The students who are punished by the teacher are crying.",
+    "output": "✅ **Corrected Sentence:** The students punished by the teacher are crying. (bỏ 'who are')\n🔍 **Error Identification:** Rút gọn mệnh đề bị động: bỏ who/which/that + are → V-ed/PP.\n📘 **Vietnamese Explanation:** Người Việt quên rút gọn. Mẹo: Bỏ đại từ và động từ to be, giữ V-ed/PP.\n💡 **Ví dụ:** The cakes made by my mom are delicious. / The windows broken by the ball need repair."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who is smoking is my uncle.",
+    "output": "✅ **Corrected Sentence:** The man smoking is my uncle. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn mệnh đề chủ động – bỏ 'who is', dùng 'smoking'.\n📘 **Vietnamese Explanation:** Người Việt viết đầy đủ nhưng chưa biết rút gọn. Mẹo: 'Who is smoking' → 'smoking'.\n💡 **Ví dụ:** The woman driving the car is my sister. / The boy crying is tired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house which built in 1990 is very old.",
+    "output": "✅ **Corrected Sentence:** The house built in 1990 is very old. (hoặc which was built)\n🔍 **Error Identification:** Thiếu 'was' trong mệnh đề bị động – 'which built' là sai, phải là 'which was built' → rút gọn 'built'.\n📘 **Vietnamese Explanation:** Người Việt quên 'was' trong câu bị động. Mẹo: 'Which was built' → 'built'.\n💡 **Ví dụ:** The letter sent yesterday arrived. / The car repaired last week broke down again."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The next train to arrive is from Hanoi. (câu đúng) - Học viên viết \'The next train arriving is from Hanoi.\'",
+    "output": "✅ **Corrected Sentence:** The next train to arrive is from Hanoi.\n🔍 **Error Identification:** Sau 'next/last/only' dùng to-V để rút gọn, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing cho mọi rút gọn. Mẹo: The next/last/only + to-V.\n💡 **Ví dụ:** The next person to speak is John. / The only thing to do is wait."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who standing there is my father.",
+    "output": "✅ **Corrected Sentence:** The man standing there is my father. (bỏ 'who', bỏ 'is' và thay bằng V-ing? Cần sửa lại cấu trúc)\n🔍 **Error Identification:** 'Who standing' là sai – phải là 'who is standing' → rút gọn 'standing'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'is' nhưng giữ 'who'. Mẹo: Bỏ cả 'who' và 'is', giữ V-ing.\n💡 **Ví dụ:** The lady talking to my mom is our neighbor. / The dog running in the park is mine."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The books which are on the table are mine.",
+    "output": "✅ **Corrected Sentence:** The books on the table are mine. (bỏ 'which are')\n🔍 **Error Identification:** Mệnh đề quan hệ với 'be + giới từ' có thể rút gọn bằng cách bỏ 'which are'.\n📘 **Vietnamese Explanation:** Người Việt giữ nguyên 'which are'. Mẹo: 'Which are on the table' → 'on the table'.\n💡 **Ví dụ:** The man in the blue shirt is my brother. / The house next to the church is old."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The girl who is singing now is my cousin.",
+    "output": "✅ **Corrected Sentence:** The girl singing now is my cousin. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn mệnh đề chủ động.\n📘 **Vietnamese Explanation:** Người Việt chưa quen rút gọn. Mẹo: Bỏ đại từ và to be, giữ V-ing.\n💡 **Ví dụ:** The baby sleeping in the crib is peaceful. / The students talking loudly are disruptive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter which was sent yesterday has arrived.",
+    "output": "✅ **Corrected Sentence:** The letter sent yesterday has arrived. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn mệnh đề bị động.\n📘 **Vietnamese Explanation:** Người Việt viết dài dòng. Mẹo: Bỏ 'which was', dùng V-ed/PP.\n💡 **Ví dụ:** The package delivered this morning is for you. / The car washed yesterday looks clean."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who is talking to my mom is my teacher.",
+    "output": "✅ **Corrected Sentence:** The man talking to my mom is my teacher. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'who is talking' thay vì 'talking'. Mẹo: 'Who is talking' → 'talking'.\n💡 **Ví dụ:** The woman helping the old lady is a nurse. / The boy wearing a red cap is my son."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake which was made by my mother is delicious.",
+    "output": "✅ **Corrected Sentence:** The cake made by my mother is delicious. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt quên rút gọn. Mẹo: 'Which was made' → 'made'.\n💡 **Ví dụ:** The painting created by Picasso is famous. / The song written by John Lennon is beautiful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The last student to leave should lock the door. (câu đúng) - Học viên viết \'The last student leaving should lock the door.\'",
+    "output": "✅ **Corrected Sentence:** The last student to leave should lock the door.\n🔍 **Error Identification:** 'The last' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing cho mọi rút gọn. Mẹo: 'The last/only/first' + to-V.\n💡 **Ví dụ:** The first person to arrive gets a prize. / The only one to know the secret is me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who is waiting for the bus is my neighbor.",
+    "output": "✅ **Corrected Sentence:** The man waiting for the bus is my neighbor. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt viết đầy đủ. Mẹo: 'Who is waiting' → 'waiting'.\n💡 **Ví dụ:** The woman reading a book is a teacher. / The dog barking loudly is aggressive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house which is located on the hill is very expensive.",
+    "output": "✅ **Corrected Sentence:** The house located on the hill is very expensive. (bỏ 'which is')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which is'. Mẹo: 'Which is located' → 'located'.\n💡 **Ví dụ:** The shop situated near the station is open late. / The restaurant located downtown is popular."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The children who are playing in the yard are my students.",
+    "output": "✅ **Corrected Sentence:** The children playing in the yard are my students. (bỏ 'who are')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt chưa quen rút gọn. Mẹo: 'Who are playing' → 'playing'.\n💡 **Ví dụ:** The birds singing in the tree are lovely. / The kids laughing are having fun."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car which was damaged in the accident was towed.",
+    "output": "✅ **Corrected Sentence:** The car damaged in the accident was towed. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt viết dài. Mẹo: 'Which was damaged' → 'damaged'.\n💡 **Ví dụ:** The window broken by the ball needs repair. / The phone stolen last week was found."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The first man to land on the moon was Neil Armstrong. (câu đúng) - Học viên viết \'The first man landing on the moon was Neil Armstrong.\'",
+    "output": "✅ **Corrected Sentence:** The first man to land on the moon was Neil Armstrong.\n🔍 **Error Identification:** 'The first' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: The first/second/last + to-V.\n💡 **Ví dụ:** The first woman to climb Everest was Junko Tabei. / The last person to see him alive was his wife."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The people who live next door are very friendly.",
+    "output": "✅ **Corrected Sentence:** The people living next door are very friendly. (bỏ 'who' và dùng 'living')\n🔍 **Error Identification:** Rút gọn chủ động: bỏ who, động từ chia → V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who live' thay vì 'living'. Mẹo: 'Who live' → 'living'.\n💡 **Ví dụ:** The students who study hard will succeed → The students studying hard will succeed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book which was written by Hemingway is a classic.",
+    "output": "✅ **Corrected Sentence:** The book written by Hemingway is a classic. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt viết đầy đủ. Mẹo: 'Which was written' → 'written'.\n💡 **Ví dụ:** The painting done by Van Gogh is priceless. / The song performed by the band was amazing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The woman who is sitting next to me is a doctor.",
+    "output": "✅ **Corrected Sentence:** The woman sitting next to me is a doctor. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who is sitting'. Mẹo: 'Who is sitting' → 'sitting'.\n💡 **Ví dụ:** The man waiting at the door is my driver. / The cat sleeping on the sofa is lazy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cakes which were baked by my grandmother are delicious.",
+    "output": "✅ **Corrected Sentence:** The cakes baked by my grandmother are delicious. (bỏ 'which were')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which were'. Mẹo: 'Which were baked' → 'baked'.\n💡 **Ví dụ:** The cookies made by my mom are sweet. / The bread bought from the bakery is fresh."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The only thing that I want is peace. (có thể rút gọn)",
+    "output": "✅ **Corrected Sentence:** The only thing to want is peace. (hoặc The only thing I want is peace)\n🔍 **Error Identification:** 'The only thing' + to-V để rút gọn (ít dùng) – thường lược bỏ đại từ quan hệ.\n📘 **Vietnamese Explanation:** Người Việt thường giữ nguyên. Mẹo: Có thể lược bỏ 'that' khi làm tân ngữ.\n💡 **Ví dụ:** The only thing I need is love. / The only thing to do is call."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who is wearing a blue shirt is my brother.",
+    "output": "✅ **Corrected Sentence:** The man wearing a blue shirt is my brother. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who is wearing'. Mẹo: 'Who is wearing' → 'wearing'.\n💡 **Ví dụ:** The lady carrying a red bag is my aunt. / The boy holding a balloon is my son."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house which was destroyed by the fire was rebuilt.",
+    "output": "✅ **Corrected Sentence:** The house destroyed by the fire was rebuilt. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was destroyed' → 'destroyed'.\n💡 **Ví dụ:** The tree knocked down by the storm was huge. / The bridge damaged by the flood is under repair."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The second player to score a goal was Ronaldo. (câu đúng) - Học viên viết \'The second player scoring a goal was Ronaldo.\'",
+    "output": "✅ **Corrected Sentence:** The second player to score a goal was Ronaldo.\n🔍 **Error Identification:** 'The second' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: Số thứ tự (first, second, last) + to-V.\n💡 **Ví dụ:** The third person to arrive was late. / The next candidate to interview is John."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The students who are taught by Mr. Smith are lucky.",
+    "output": "✅ **Corrected Sentence:** The students taught by Mr. Smith are lucky. (bỏ 'who are')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who are taught'. Mẹo: 'Who are taught' → 'taught'.\n💡 **Ví dụ:** The children raised by single parents are resilient. / The employees trained by the expert are skilled."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The dog which is running after the cat is mine.",
+    "output": "✅ **Corrected Sentence:** The dog running after the cat is mine. (bỏ 'which is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'which is running'. Mẹo: 'Which is running' → 'running'.\n💡 **Ví dụ:** The horse jumping over the fence is beautiful. / The bird flying in the sky is free."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letters which were sent last week have arrived.",
+    "output": "✅ **Corrected Sentence:** The letters sent last week have arrived. (bỏ 'which were')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which were'. Mẹo: 'Which were sent' → 'sent'.\n💡 **Ví dụ:** The packages delivered yesterday are on the table. / The emails received this morning are urgent."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The last guest to arrive was late. (câu đúng) - Học viên viết \'The last guest arriving was late.\'",
+    "output": "✅ **Corrected Sentence:** The last guest to arrive was late.\n🔍 **Error Identification:** 'The last' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: 'The last/only/first' + to-V.\n💡 **Ví dụ:** The only student to answer correctly got a prize. / The first car to cross the finish line won."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The woman who is talking on the phone is my boss.",
+    "output": "✅ **Corrected Sentence:** The woman talking on the phone is my boss. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who is talking'. Mẹo: 'Who is talking' → 'talking'.\n💡 **Ví dụ:** The man explaining the lesson is a professor. / The girl singing on stage is my daughter."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car which was parked illegally was towed.",
+    "output": "✅ **Corrected Sentence:** The car parked illegally was towed. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was parked' → 'parked'.\n💡 **Ví dụ:** The bike left outside was stolen. / The boat anchored near the shore is safe."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The first step to take is to call the police. (câu đúng) - Học viên viết \'The first step taking is to call the police.\'",
+    "output": "✅ **Corrected Sentence:** The first step to take is to call the police.\n🔍 **Error Identification:** 'The first' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: Số thứ tự + to-V.\n💡 **Ví dụ:** The second option to consider is cheaper. / The last thing to do is give up."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The people who are waiting for the doctor are patients.",
+    "output": "✅ **Corrected Sentence:** The people waiting for the doctor are patients. (bỏ 'who are')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who are waiting'. Mẹo: 'Who are waiting' → 'waiting'.\n💡 **Ví dụ:** The passengers waiting for the train are impatient. / The fans waiting for the star are excited."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake which was made by my sister is very good.",
+    "output": "✅ **Corrected Sentence:** The cake made by my sister is very good. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was made' → 'made'.\n💡 **Ví dụ:** The dress designed by her is beautiful. / The meal cooked by my mom is delicious."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The only person to understand me is my mother. (câu đúng) - Học viên viết \'The only person understanding me is my mother.\'",
+    "output": "✅ **Corrected Sentence:** The only person to understand me is my mother.\n🔍 **Error Identification:** 'The only' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: 'The only' + to-V.\n💡 **Ví dụ:** The only way to solve the problem is teamwork. / The only thing to do is wait."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who is standing at the door is my uncle.",
+    "output": "✅ **Corrected Sentence:** The man standing at the door is my uncle. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who is standing'. Mẹo: 'Who is standing' → 'standing'.\n💡 **Ví dụ:** The woman looking out the window is my neighbor. / The boy sitting on the bench is my friend."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letters which were written in pencil are hard to read.",
+    "output": "✅ **Corrected Sentence:** The letters written in pencil are hard to read. (bỏ 'which were')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which were'. Mẹo: 'Which were written' → 'written'.\n💡 **Ví dụ:** The notes taken in class are helpful. / The documents signed yesterday are legal."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The next person to speak is Mary. (câu đúng) - Học viên viết \'The next person speaking is Mary.\'",
+    "output": "✅ **Corrected Sentence:** The next person to speak is Mary.\n🔍 **Error Identification:** 'The next' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: 'The next/last/first' + to-V.\n💡 **Ví dụ:** The next candidate to interview is Tom. / The first runner to finish wins."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The building which was constructed in 2000 is very modern.",
+    "output": "✅ **Corrected Sentence:** The building constructed in 2000 is very modern. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was constructed' → 'constructed'.\n💡 **Ví dụ:** The bridge built in 1950 is still strong. / The school founded in 1990 is prestigious."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The students who are sitting in the front row are paying attention.",
+    "output": "✅ **Corrected Sentence:** The students sitting in the front row are paying attention. (bỏ 'who are')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who are sitting'. Mẹo: 'Who are sitting' → 'sitting'.\n💡 **Ví dụ:** The audience listening to the speech is quiet. / The workers building the road are tired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The song which was sung by the choir was beautiful.",
+    "output": "✅ **Corrected Sentence:** The song sung by the choir was beautiful. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was sung' → 'sung'.\n💡 **Ví dụ:** The anthem played at the ceremony was moving. / The piece performed by the orchestra was complex."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The first student to finish the test got an A. (câu đúng) - Học viên viết \'The first student finishing the test got an A.\'",
+    "output": "✅ **Corrected Sentence:** The first student to finish the test got an A.\n🔍 **Error Identification:** 'The first' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: 'The first/second/last' + to-V.\n💡 **Ví dụ:** The last person to leave locked the door. / The second runner to finish got a medal."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The woman who is cooking in the kitchen is my mother.",
+    "output": "✅ **Corrected Sentence:** The woman cooking in the kitchen is my mother. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who is cooking'. Mẹo: 'Who is cooking' → 'cooking'.\n💡 **Ví dụ:** The chef preparing the meal is famous. / The baker making the bread is skilled."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car which was repaired yesterday is running well.",
+    "output": "✅ **Corrected Sentence:** The car repaired yesterday is running well. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was repaired' → 'repaired'.\n💡 **Ví dụ:** The computer fixed last week is working. / The watch mended by the jeweler is accurate."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The only candidate to be interviewed is John. (câu đúng) - Học viên viết \'The only candidate being interviewed is John.\'",
+    "output": "✅ **Corrected Sentence:** The only candidate to be interviewed is John. (hoặc to interview)\n🔍 **Error Identification:** 'The only' + to-V, không dùng 'being interviewed' trong trường hợp này.\n📘 **Vietnamese Explanation:** Người Việt dùng 'being interviewed'. Mẹo: 'The only' + to-V (chủ động hoặc bị động tùy nghĩa).\n💡 **Ví dụ:** The only person to be invited is her. / The only thing to be done is wait."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The children who are playing in the park are happy.",
+    "output": "✅ **Corrected Sentence:** The children playing in the park are happy. (bỏ 'who are')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who are playing'. Mẹo: 'Who are playing' → 'playing'.\n💡 **Ví dụ:** The kids laughing loudly are having fun. / The teens chatting near the cafe are students."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house which is surrounded by trees is very peaceful.",
+    "output": "✅ **Corrected Sentence:** The house surrounded by trees is very peaceful. (bỏ 'which is')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which is'. Mẹo: 'Which is surrounded' → 'surrounded'.\n💡 **Ví dụ:** The garden filled with flowers is beautiful. / The field covered with snow is white."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The next train to arrive is at platform 2. (câu đúng) - Học viên viết \'The next train arriving is at platform 2.\'",
+    "output": "✅ **Corrected Sentence:** The next train to arrive is at platform 2.\n🔍 **Error Identification:** 'The next' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: 'The next/last/first' + to-V.\n💡 **Ví dụ:** The first bus to come is number 7. / The last flight to depart is at midnight."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who is driving the car is my father.",
+    "output": "✅ **Corrected Sentence:** The man driving the car is my father. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who is driving'. Mẹo: 'Who is driving' → 'driving'.\n💡 **Ví dụ:** The woman leading the team is experienced. / The pilot flying the plane is skilled."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter which was posted yesterday hasn't arrived yet.",
+    "output": "✅ **Corrected Sentence:** The letter posted yesterday hasn't arrived yet. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was posted' → 'posted'.\n💡 **Ví dụ:** The package sent last week is lost. / The email received this morning is important."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The first person to reach the summit was Hillary. (câu đúng) - Học viên viết \'The first person reaching the summit was Hillary.\'",
+    "output": "✅ **Corrected Sentence:** The first person to reach the summit was Hillary.\n🔍 **Error Identification:** 'The first' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: Số thứ tự + to-V.\n💡 **Ví dụ:** The second person to climb the mountain was Tenzing. / The last person to finish was me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The students who are studying in the library are quiet.",
+    "output": "✅ **Corrected Sentence:** The students studying in the library are quiet. (bỏ 'who are')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who are studying'. Mẹo: 'Who are studying' → 'studying'.\n💡 **Ví dụ:** The researchers working in the lab are dedicated. / The artists painting in the studio are creative."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car which was damaged in the crash was repaired.",
+    "output": "✅ **Corrected Sentence:** The car damaged in the crash was repaired. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was damaged' → 'damaged'.\n💡 **Ví dụ:** The bike stolen last night was found. / The phone dropped on the floor is broken."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The only way to succeed is to work hard. (câu đúng) - Học viên viết \'The only way succeeding is to work hard.\'",
+    "output": "✅ **Corrected Sentence:** The only way to succeed is to work hard.\n🔍 **Error Identification:** 'The only' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: 'The only way' + to-V.\n💡 **Ví dụ:** The only method to solve this is to ask for help. / The only solution to the problem is to compromise."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The woman who is wearing a hat is my aunt.",
+    "output": "✅ **Corrected Sentence:** The woman wearing a hat is my aunt. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who is wearing'. Mẹo: 'Who is wearing' → 'wearing'.\n💡 **Ví dụ:** The man holding a briefcase is a lawyer. / The girl carrying an umbrella is my sister."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house which was built by my grandfather is still standing.",
+    "output": "✅ **Corrected Sentence:** The house built by my grandfather is still standing. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was built' → 'built'.\n💡 **Ví dụ:** The bridge designed by a famous engineer is safe. / The statue carved by the artist is beautiful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The next song to be played is my favorite. (câu đúng) - Học viên viết \'The next song being played is my favorite.\'",
+    "output": "✅ **Corrected Sentence:** The next song to be played is my favorite.\n🔍 **Error Identification:** 'The next' + to-V, không dùng 'being played'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'being played'. Mẹo: 'The next/last/first' + to be + V3.\n💡 **Ví dụ:** The first question to be answered is easy. / The last item to be discussed is budget."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The people who are waiting outside are cold.",
+    "output": "✅ **Corrected Sentence:** The people waiting outside are cold. (bỏ 'who are')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who are waiting'. Mẹo: 'Who are waiting' → 'waiting'.\n💡 **Ví dụ:** The fans waiting in line are excited. / The customers waiting for service are impatient."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake which was baked this morning smells good.",
+    "output": "✅ **Corrected Sentence:** The cake baked this morning smells good. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was baked' → 'baked'.\n💡 **Ví dụ:** The bread made from whole wheat is healthy. / The pie prepared by my mom is delicious."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The last person to know the truth was me. (câu đúng) - Học viên viết \'The last person knowing the truth was me.\'",
+    "output": "✅ **Corrected Sentence:** The last person to know the truth was me.\n🔍 **Error Identification:** 'The last' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: 'The last' + to-V.\n💡 **Ví dụ:** The first person to arrive was John. / The only person to witness the accident was my neighbor."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The boy who is crying is my son.",
+    "output": "✅ **Corrected Sentence:** The boy crying is my son. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who is crying'. Mẹo: 'Who is crying' → 'crying'.\n💡 **Ví dụ:** The baby sleeping is peaceful. / The child laughing is happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letters which were written in ink are easy to read.",
+    "output": "✅ **Corrected Sentence:** The letters written in ink are easy to read. (bỏ 'which were')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which were'. Mẹo: 'Which were written' → 'written'.\n💡 **Ví dụ:** The notes typed on the computer are clear. / The messages sent via email are instant."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The first car to cross the line won the race. (câu đúng) - Học viên viết \'The first car crossing the line won the race.\'",
+    "output": "✅ **Corrected Sentence:** The first car to cross the line won the race.\n🔍 **Error Identification:** 'The first' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: 'The first' + to-V.\n💡 **Ví dụ:** The second runner to finish got a medal. / The last horse to reach the finish lost."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who is speaking on the phone is my boss.",
+    "output": "✅ **Corrected Sentence:** The man speaking on the phone is my boss. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who is speaking'. Mẹo: 'Who is speaking' → 'speaking'.\n💡 **Ví dụ:** The woman talking to the president is a diplomat. / The boy arguing with his friend is upset."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The house which was painted blue is mine.",
+    "output": "✅ **Corrected Sentence:** The house painted blue is mine. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was painted' → 'painted'.\n💡 **Ví dụ:** The fence painted white is new. / The wall decorated with posters is in my room."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The only thing that matters is your happiness. (có thể rút gọn)",
+    "output": "✅ **Corrected Sentence:** The only thing to matter is your happiness. (ít dùng) / The only thing that matters... (giữ nguyên)\n🔍 **Error Identification:** 'The only thing' + to-V không phổ biến với 'matter' – thường giữ nguyên.\n📘 **Vietnamese Explanation:** Người Việt nên biết khi nào nên rút gọn. Mẹo: Không phải lúc nào cũng rút gọn được.\n💡 **Ví dụ:** The only thing I want is peace. (lược bỏ 'that')"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The students who are taught by Mr. Lee are lucky.",
+    "output": "✅ **Corrected Sentence:** The students taught by Mr. Lee are lucky. (bỏ 'who are')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who are taught'. Mẹo: 'Who are taught' → 'taught'.\n💡 **Ví dụ:** The employees trained by the expert are skilled. / The children raised by their grandparents are loved."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The next person to be interviewed is waiting outside. (câu đúng) - Học viên viết \'The next person being interviewed is waiting outside.\'",
+    "output": "✅ **Corrected Sentence:** The next person to be interviewed is waiting outside.\n🔍 **Error Identification:** 'The next' + to-V, không dùng 'being interviewed'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'being interviewed'. Mẹo: 'The next/last/first' + to be + V3.\n💡 **Ví dụ:** The first candidate to be hired was Mary. / The last patient to be examined is Tom."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The woman who is sitting in the corner is a famous actress.",
+    "output": "✅ **Corrected Sentence:** The woman sitting in the corner is a famous actress. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who is sitting'. Mẹo: 'Who is sitting' → 'sitting'.\n💡 **Ví dụ:** The man reading the newspaper is my grandfather. / The girl drawing a picture is an artist."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car which was washed yesterday looks clean.",
+    "output": "✅ **Corrected Sentence:** The car washed yesterday looks clean. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was washed' → 'washed'.\n💡 **Ví dụ:** The floor mopped this morning is shiny. / The window cleaned by the worker is clear."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The last train to depart is at 11 PM. (câu đúng) - Học viên viết \'The last train departing is at 11 PM.\'",
+    "output": "✅ **Corrected Sentence:** The last train to depart is at 11 PM.\n🔍 **Error Identification:** 'The last' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: 'The last/first/next' + to-V.\n💡 **Ví dụ:** The first bus to arrive is number 5. / The next flight to leave is at 6 AM."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The people who are living in that house are very friendly.",
+    "output": "✅ **Corrected Sentence:** The people living in that house are very friendly. (bỏ 'who are')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who are living'. Mẹo: 'Who are living' → 'living'.\n💡 **Ví dụ:** The families residing in this neighborhood are kind. / The tenants renting the apartment are students."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cake which was made by my sister is delicious.",
+    "output": "✅ **Corrected Sentence:** The cake made by my sister is delicious. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was made' → 'made'.\n💡 **Ví dụ:** The cookies baked by my mom are sweet. / The bread prepared by the baker is fresh."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The only student to pass the exam was John. (câu đúng) - Học viên viết \'The only student passing the exam was John.\'",
+    "output": "✅ **Corrected Sentence:** The only student to pass the exam was John.\n🔍 **Error Identification:** 'The only' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: 'The only' + to-V.\n💡 **Ví dụ:** The only person to know the secret is me. / The only way to solve this is to ask for help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The man who is repairing the roof is my father.",
+    "output": "✅ **Corrected Sentence:** The man repairing the roof is my father. (bỏ 'who is')\n🔍 **Error Identification:** Rút gọn chủ động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'who is repairing'. Mẹo: 'Who is repairing' → 'repairing'.\n💡 **Ví dụ:** The worker fixing the road is tired. / The mechanic repairing my car is skilled."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The letter which was sent by express mail arrived quickly.",
+    "output": "✅ **Corrected Sentence:** The letter sent by express mail arrived quickly. (bỏ 'which was')\n🔍 **Error Identification:** Rút gọn bị động.\n📘 **Vietnamese Explanation:** Người Việt giữ 'which was'. Mẹo: 'Which was sent' → 'sent'.\n💡 **Ví dụ:** The package delivered by courier is here. / The message sent via text is received."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The first person to arrive was late. (câu đúng) - Học viên viết \'The first person arriving was late.\'",
+    "output": "✅ **Corrected Sentence:** The first person to arrive was late.\n🔍 **Error Identification:** 'The first' + to-V, không dùng V-ing.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing. Mẹo: 'The first/second/last' + to-V.\n💡 **Ví dụ:** The second person to finish got a prize. / The last guest to leave was my uncle."
+  }
+]

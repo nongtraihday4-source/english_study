@@ -1,0 +1,963 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 4078,
+    "fields": {
+      "word": "urgent",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈɜrʤənt",
+      "ipa_us": "ˈɜrʤənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khẩn cấp, cấp bách",
+      "definition_en": "Very important and needing to be dealt with immediately.",
+      "example_en": "I need to speak to him. It's urgent.",
+      "example_vi": "Tôi cần nói chuyện với anh ấy. Việc này rất khẩn cấp.",
+      "collocations_json": [
+        "urgent message",
+        "urgent need",
+        "urgent attention"
+      ],
+      "synonyms_json": [
+        "pressing",
+        "crucial",
+        "immediate"
+      ],
+      "antonyms_json": [
+        "unimportant",
+        "trivial"
+      ],
+      "mnemonic": "Từ 'urgent' nghe giống 'ơ dờn' -> đang yên đang lành tự nhiên thấy rợn (dờn) người vì có việc khẩn cấp.",
+      "frequency_rank": 2800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4079,
+    "fields": {
+      "word": "usage",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈjusəʤ",
+      "ipa_us": "ˈjusɪʤ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cách sử dụng, lượng dùng",
+      "definition_en": "The way a particular word in a language, or a language in general, is used; or the amount of something that is used.",
+      "example_en": "Water usage is increasing in the city.",
+      "example_vi": "Lượng nước sử dụng đang tăng lên trong thành phố.",
+      "collocations_json": [
+        "water usage",
+        "energy usage",
+        "common usage"
+      ],
+      "synonyms_json": [
+        "use",
+        "consumption"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Use (sử dụng) + age -> Usage là cách sử dụng hoặc lượng được sử dụng.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4080,
+    "fields": {
+      "word": "useless",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈjusləs",
+      "ipa_us": "ˈjusləs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vô dụng",
+      "definition_en": "Of no use; not working or not achieving what is needed.",
+      "example_en": "This umbrella is completely useless in the wind.",
+      "example_vi": "Chiếc ô này hoàn toàn vô dụng trong gió.",
+      "collocations_json": [
+        "completely useless",
+        "virtually useless",
+        "render something useless"
+      ],
+      "synonyms_json": [
+        "worthless",
+        "ineffective",
+        "futile"
+      ],
+      "antonyms_json": [
+        "useful",
+        "effective"
+      ],
+      "mnemonic": "Use (sử dụng) + less (không có) -> Không thể sử dụng được, vô dụng.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4081,
+    "fields": {
+      "word": "valid",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈvæləd",
+      "ipa_us": "ˈvæləd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có hiệu lực, hợp lý",
+      "definition_en": "Based on truth or reason; able to be accepted; having legal force.",
+      "example_en": "My passport is valid for another two years.",
+      "example_vi": "Hộ chiếu của tôi còn giá trị trong hai năm nữa.",
+      "collocations_json": [
+        "valid point",
+        "valid reason",
+        "valid passport"
+      ],
+      "synonyms_json": [
+        "legitimate",
+        "sound",
+        "authentic"
+      ],
+      "antonyms_json": [
+        "invalid",
+        "void"
+      ],
+      "mnemonic": "Từ này được dùng rất nhiều trong công nghệ thông tin (validate) nghĩa là kiểm tra tính hợp lệ.",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4082,
+    "fields": {
+      "word": "variation",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˌvɛriˈeɪʃən",
+      "ipa_us": "ˌvɛriˈeɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự biến đổi, biến thể",
+      "definition_en": "A change in amount or level, or a thing that is slightly different from another thing of the same type.",
+      "example_en": "There is a wide variation in prices.",
+      "example_vi": "Có một sự biến động lớn về giá cả.",
+      "collocations_json": [
+        "wide variation",
+        "slight variation",
+        "regional variation"
+      ],
+      "synonyms_json": [
+        "difference",
+        "alteration",
+        "modification"
+      ],
+      "antonyms_json": [
+        "uniformity",
+        "similarity"
+      ],
+      "mnemonic": "Vary (thay đổi) -> Variation là danh từ của nó, mang nghĩa là sự đa dạng, sự thay đổi.",
+      "frequency_rank": 3200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4083,
+    "fields": {
+      "word": "vertical",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈvɜrtɪkəl",
+      "ipa_us": "ˈvɜrtɪkəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thẳng đứng",
+      "definition_en": "Standing or pointing straight up or at an angle of 90 degrees to a horizontal surface or line.",
+      "example_en": "The cliff is almost vertical.",
+      "example_vi": "Vách đá gần như thẳng đứng.",
+      "collocations_json": [
+        "vertical line",
+        "vertical axis",
+        "vertical drop"
+      ],
+      "synonyms_json": [
+        "upright",
+        "perpendicular"
+      ],
+      "antonyms_json": [
+        "horizontal",
+        "flat"
+      ],
+      "mnemonic": "Trái nghĩa với Horizontal (chiều ngang). Trong toán học có trục Ox (horizontal) và trục Oy (vertical).",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4084,
+    "fields": {
+      "word": "viewpoint",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈvjuˌpɔɪnt",
+      "ipa_us": "ˈvjuˌpɔɪnt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quan điểm",
+      "definition_en": "A way of considering something; an opinion.",
+      "example_en": "From a practical viewpoint, the plan is deeply flawed.",
+      "example_vi": "Từ một quan điểm thực tế, kế hoạch này có những sai sót sâu sắc.",
+      "collocations_json": [
+        "different viewpoint",
+        "personal viewpoint",
+        "from a viewpoint"
+      ],
+      "synonyms_json": [
+        "perspective",
+        "point of view",
+        "opinion"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "View (nhìn) + point (điểm) -> Điểm nhìn, tức là quan điểm của một người.",
+      "frequency_rank": 4100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4085,
+    "fields": {
+      "word": "visa",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "travel",
+      "ipa_uk": "ˈvizə",
+      "ipa_us": "ˈvizə",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thị thực, visa",
+      "definition_en": "An official mark, usually made in a passport, that allows you to enter or leave a particular country.",
+      "example_en": "You will need a visa to enter the country.",
+      "example_vi": "Bạn sẽ cần thị thực để nhập cảnh vào quốc gia này.",
+      "collocations_json": [
+        "apply for a visa",
+        "tourist visa",
+        "work visa"
+      ],
+      "synonyms_json": [
+        "permit",
+        "authorization"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Visa là từ vay mượn tiếng nước ngoài, sử dụng phổ biến trong tiếng Việt (xin visa đi nước ngoài).",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4086,
+    "fields": {
+      "word": "visible",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈvɪzəbəl",
+      "ipa_us": "ˈvɪzəbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có thể nhìn thấy",
+      "definition_en": "Able to be seen.",
+      "example_en": "The moon was clearly visible in the night sky.",
+      "example_vi": "Mặt trăng có thể nhìn thấy rõ ràng trên bầu trời đêm.",
+      "collocations_json": [
+        "clearly visible",
+        "barely visible",
+        "highly visible"
+      ],
+      "synonyms_json": [
+        "observable",
+        "noticeable",
+        "apparent"
+      ],
+      "antonyms_json": [
+        "invisible",
+        "hidden"
+      ],
+      "mnemonic": "Vision (tầm nhìn) -> Visible (có thể nằm trong tầm nhìn, có thể thấy được).",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4087,
+    "fields": {
+      "word": "voluntary",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈvɑləntɛri",
+      "ipa_us": "ˈvɑlənˌtɛri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tự nguyện",
+      "definition_en": "Done, made, or given willingly, without being forced or paid to do it.",
+      "example_en": "She does voluntary work for a local charity.",
+      "example_vi": "Cô ấy làm công việc tự nguyện cho một tổ chức từ thiện địa phương.",
+      "collocations_json": [
+        "voluntary work",
+        "voluntary organization",
+        "purely voluntary"
+      ],
+      "synonyms_json": [
+        "optional",
+        "willing",
+        "unpaid"
+      ],
+      "antonyms_json": [
+        "compulsory",
+        "mandatory",
+        "forced"
+      ],
+      "mnemonic": "Volunteer (tình nguyện viên) -> Voluntary là tính từ: mang tính chất tự nguyện.",
+      "frequency_rank": 3700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4088,
+    "fields": {
+      "word": "voting",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈvoʊtɪŋ",
+      "ipa_us": "ˈvoʊtɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự bỏ phiếu, việc bầu cử",
+      "definition_en": "The activity of choosing someone or something in an election.",
+      "example_en": "Voting is a fundamental right in a democracy.",
+      "example_vi": "Bầu cử là một quyền cơ bản trong nền dân chủ.",
+      "collocations_json": [
+        "voting rights",
+        "voting system",
+        "voting age"
+      ],
+      "synonyms_json": [
+        "polling",
+        "electing"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Vote (bầu cử) + ing -> Danh động từ chỉ hành động bỏ phiếu.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4089,
+    "fields": {
+      "word": "wander",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈwɑndər",
+      "ipa_us": "ˈwɑndər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đi lang thang",
+      "definition_en": "To walk around slowly in a relaxed way or without any clear purpose or direction.",
+      "example_en": "We spent the afternoon wandering around the old city.",
+      "example_vi": "Chúng tôi đã dành cả buổi chiều đi lang thang quanh khu phố cổ.",
+      "collocations_json": [
+        "wander around",
+        "wander off",
+        "mind wanders"
+      ],
+      "synonyms_json": [
+        "roam",
+        "stroll",
+        "drift"
+      ],
+      "antonyms_json": [
+        "rush",
+        "hurry"
+      ],
+      "mnemonic": "Wander đọc giống 'quăng đơ' -> Đi lang thang như một người ngẩn ngơ, thẩn thờ (đơ).",
+      "frequency_rank": 3900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4090,
+    "fields": {
+      "word": "warming",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "nature",
+      "ipa_uk": "ˈwɔrmɪŋ",
+      "ipa_us": "ˈwɔrmɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự ấm lên",
+      "definition_en": "The process of becoming warmer.",
+      "example_en": "Global warming is a serious threat to the planet.",
+      "example_vi": "Sự nóng lên toàn cầu là một mối đe dọa nghiêm trọng đối với hành tinh.",
+      "collocations_json": [
+        "global warming",
+        "house warming"
+      ],
+      "synonyms_json": [
+        "heating"
+      ],
+      "antonyms_json": [
+        "cooling"
+      ],
+      "mnemonic": "Warm (ấm) + ing -> Sự làm ấm lên (thường gặp trong cụm Global Warming).",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4091,
+    "fields": {
+      "word": "weekly",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈwikli",
+      "ipa_us": "ˈwikli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hàng tuần",
+      "definition_en": "Happening once a week or every week.",
+      "example_en": "We have a weekly meeting on Monday mornings.",
+      "example_vi": "Chúng tôi có một cuộc họp hàng tuần vào các buổi sáng thứ Hai.",
+      "collocations_json": [
+        "weekly meeting",
+        "weekly magazine",
+        "twice weekly"
+      ],
+      "synonyms_json": [
+        "every week"
+      ],
+      "antonyms_json": [
+        "daily",
+        "monthly"
+      ],
+      "mnemonic": "Week (tuần) + ly -> Xảy ra hàng tuần.",
+      "frequency_rank": 3000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4092,
+    "fields": {
+      "word": "weird",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "wɪrd",
+      "ipa_us": "wɪrd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kỳ lạ, kỳ cục",
+      "definition_en": "Very strange and unusual, unexpected, or not natural.",
+      "example_en": "That's a very weird story.",
+      "example_vi": "Đó là một câu chuyện rất kỳ lạ.",
+      "collocations_json": [
+        "weird dream",
+        "weird feeling",
+        "look weird"
+      ],
+      "synonyms_json": [
+        "strange",
+        "odd",
+        "bizarre"
+      ],
+      "antonyms_json": [
+        "normal",
+        "ordinary"
+      ],
+      "mnemonic": "Đọc là 'wia-đ' -> Nghe rất là wea-rd (kỳ lạ).",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4093,
+    "fields": {
+      "word": "welfare",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈwɛlˌfɛr",
+      "ipa_us": "ˈwɛlˌfɛr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phúc lợi",
+      "definition_en": "Physical and mental health and happiness, especially of a person; or help given by the state to people who need it.",
+      "example_en": "The government provides welfare programs for poor families.",
+      "example_vi": "Chính phủ cung cấp các chương trình phúc lợi cho các gia đình nghèo.",
+      "collocations_json": [
+        "social welfare",
+        "animal welfare",
+        "child welfare"
+      ],
+      "synonyms_json": [
+        "well-being",
+        "benefit"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Well (tốt) + fare (đi đường) -> Mong muốn ai đó đi đường tốt đẹp, có cuộc sống ấm no, phúc lợi tốt.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4094,
+    "fields": {
+      "word": "wheat",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "food",
+      "ipa_uk": "wit",
+      "ipa_us": "hwit",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lúa mì",
+      "definition_en": "A plant whose yellowish-brown grain is used for making flour.",
+      "example_en": "This bread is made from whole wheat.",
+      "example_vi": "Loại bánh mì này được làm từ lúa mì nguyên cám.",
+      "collocations_json": [
+        "whole wheat",
+        "wheat flour",
+        "field of wheat"
+      ],
+      "synonyms_json": [
+        "grain",
+        "cereal"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Phát âm giống 'huýt' sáo -> Huýt sáo trên cánh đồng lúa mì vàng rực.",
+      "frequency_rank": 4200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4095,
+    "fields": {
+      "word": "whoever",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "huˈɛvər",
+      "ipa_us": "huˈɛvər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bất cứ ai",
+      "definition_en": "The person who; any person who.",
+      "example_en": "Whoever wants to come is welcome.",
+      "example_vi": "Bất cứ ai muốn đến đều được chào đón.",
+      "collocations_json": [
+        "whoever it is",
+        "whoever is responsible"
+      ],
+      "synonyms_json": [
+        "anyone who",
+        "anybody who"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Who (ai) + ever (bất cứ) -> Bất cứ ai.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4096,
+    "fields": {
+      "word": "widespread",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈwaɪdˈsprɛd",
+      "ipa_us": "ˈwaɪdˈsprɛd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lan rộng, phổ biến",
+      "definition_en": "Existing or happening in many places and/or among many people.",
+      "example_en": "There was widespread support for the new policy.",
+      "example_vi": "Đã có sự ủng hộ rộng rãi đối với chính sách mới.",
+      "collocations_json": [
+        "widespread support",
+        "widespread belief",
+        "widespread damage"
+      ],
+      "synonyms_json": [
+        "extensive",
+        "common",
+        "prevalent"
+      ],
+      "antonyms_json": [
+        "limited",
+        "rare",
+        "localized"
+      ],
+      "mnemonic": "Wide (rộng) + spread (lan ra) -> Lan truyền một cách rộng rãi.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4097,
+    "fields": {
+      "word": "wisdom",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈwɪzdəm",
+      "ipa_us": "ˈwɪzdəm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự khôn ngoan, trí tuệ",
+      "definition_en": "The ability to use your knowledge and experience to make good decisions and judgments.",
+      "example_en": "He shared his wisdom with the younger generation.",
+      "example_vi": "Ông ấy đã chia sẻ sự khôn ngoan của mình với thế hệ trẻ.",
+      "collocations_json": [
+        "words of wisdom",
+        "conventional wisdom",
+        "gain wisdom"
+      ],
+      "synonyms_json": [
+        "sagacity",
+        "intelligence",
+        "insight"
+      ],
+      "antonyms_json": [
+        "stupidity",
+        "foolishness"
+      ],
+      "mnemonic": "Tính từ Wise (khôn ngoan) -> Danh từ Wisdom.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4098,
+    "fields": {
+      "word": "withdraw",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "wɪðˈdrɔ",
+      "ipa_us": "wɪðˈdrɔ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "rút tiền, rút lui",
+      "definition_en": "To take or move out or back, or to remove.",
+      "example_en": "I need to withdraw some money from the ATM.",
+      "example_vi": "Tôi cần rút một ít tiền từ máy ATM.",
+      "collocations_json": [
+        "withdraw money",
+        "withdraw from a competition",
+        "withdraw a statement"
+      ],
+      "synonyms_json": [
+        "remove",
+        "extract",
+        "retreat"
+      ],
+      "antonyms_json": [
+        "deposit",
+        "insert",
+        "advance"
+      ],
+      "mnemonic": "With (với) + draw (kéo) -> Kéo tiền từ ngân hàng về với mình (rút tiền).",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4099,
+    "fields": {
+      "word": "workforce",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈwɜrkˌfɔrs",
+      "ipa_us": "ˈwɜrkˌfɔrs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lực lượng lao động",
+      "definition_en": "The group of people who work in a company, industry, country, etc.",
+      "example_en": "The company has a very diverse workforce.",
+      "example_vi": "Công ty có một lực lượng lao động rất đa dạng.",
+      "collocations_json": [
+        "skilled workforce",
+        "enter the workforce",
+        "global workforce"
+      ],
+      "synonyms_json": [
+        "employees",
+        "staff",
+        "personnel"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Work (làm việc) + force (lực lượng) -> Lực lượng lao động.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4100,
+    "fields": {
+      "word": "workplace",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈwɜrkˌpleɪs",
+      "ipa_us": "ˈwɜrkˌpleɪs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nơi làm việc",
+      "definition_en": "A building or room where people perform their jobs.",
+      "example_en": "Safety in the workplace is very important.",
+      "example_vi": "Sự an toàn tại nơi làm việc là rất quan trọng.",
+      "collocations_json": [
+        "workplace safety",
+        "in the workplace",
+        "workplace environment"
+      ],
+      "synonyms_json": [
+        "office",
+        "factory",
+        "establishment"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Work (làm việc) + place (nơi) -> Nơi làm việc.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4101,
+    "fields": {
+      "word": "workshop",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈwɜrkˌʃɑp",
+      "ipa_us": "ˈwɜrkˌʃɑp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hội thảo, xưởng",
+      "definition_en": "A room or building where things are made or repaired using machines and/or tools; or a meeting of people to discuss and/or perform practical work in a subject.",
+      "example_en": "I attended a photography workshop last weekend.",
+      "example_vi": "Tôi đã tham dự một hội thảo nhiếp ảnh vào cuối tuần trước.",
+      "collocations_json": [
+        "attend a workshop",
+        "run a workshop",
+        "training workshop"
+      ],
+      "synonyms_json": [
+        "seminar",
+        "studio"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Một là xưởng làm việc (như gara ô tô), hai là buổi học có thực hành (workshop).",
+      "frequency_rank": 3700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4102,
+    "fields": {
+      "word": "worm",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "animals",
+      "ipa_uk": "wɜrm",
+      "ipa_us": "wɜrm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "con giun, sâu bọ",
+      "definition_en": "A small animal with a long, narrow, soft body without arms, legs, or bones.",
+      "example_en": "The early bird catches the worm.",
+      "example_vi": "Con chim dậy sớm thì bắt được sâu.",
+      "collocations_json": [
+        "earth worm",
+        "silkworm",
+        "book worm"
+      ],
+      "synonyms_json": [
+        "caterpillar",
+        "maggot"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bookworm là từ lóng chỉ người mọt sách.",
+      "frequency_rank": 4600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4103,
+    "fields": {
+      "word": "wrist",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "rɪst",
+      "ipa_us": "rɪst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cổ tay",
+      "definition_en": "The part of the body between the hand and the arm.",
+      "example_en": "He wears a watch on his left wrist.",
+      "example_vi": "Anh ấy đeo đồng hồ trên cổ tay trái.",
+      "collocations_json": [
+        "break a wrist",
+        "slap on the wrist",
+        "wrist watch"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Âm /w/ bị câm, đọc là 'rist' giống 'rít' -> Rít điếu thuốc xong mỏi cổ tay.",
+      "frequency_rank": 4300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can you open the light?",
+    "output": "✅ **Corrected Sentence:** Can you turn on the light?\n🔍 **Error Identification:** Dùng sai động từ 'open' (mở) cho bóng đèn. Trong tiếng Anh, 'open' chỉ dùng cho cửa, sách, hộp…; với thiết bị điện, dùng 'turn on'.\n📘 **Vietnamese Explanation:** Người Việt dịch word‑by‑word 'mở đèn' thành 'open the light'. Mẹo: Mở cửa → open; bật thiết bị → turn on; tắt → turn off.\n💡 **Ví dụ:** Turn on the TV. / Turn off the fan."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to close the TV.",
+    "output": "✅ **Corrected Sentence:** I need to turn off the TV.\n🔍 **Error Identification:** Dùng 'close' (đóng) thay vì 'turn off' (tắt) cho thiết bị điện.\n📘 **Vietnamese Explanation:** 'Close' dùng cho đóng cửa, nắp hộp. Mẹo: Tắt thiết bị = turn off; đóng cửa = close.\n💡 **Ví dụ:** Turn off the computer. / Close the window."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I drink medicine every morning.",
+    "output": "✅ **Corrected Sentence:** I take medicine every morning.\n🔍 **Error Identification:** Dùng 'drink' (uống) thay vì 'take' (uống thuốc – cụm từ cố định).\n📘 **Vietnamese Explanation:** Người Việt dịch 'uống thuốc' thành 'drink medicine'. Mẹo: 'Take medicine' là cách nói chuẩn, không dùng 'drink' hay 'eat'.\n💡 **Ví dụ:** Take a pill. / Take cough syrup."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I forgot to wear hat.",
+    "output": "✅ **Corrected Sentence:** I forgot to put on my hat. (hoặc wear my hat)\n🔍 **Error Identification:** Dùng 'wear' (mang/đội) cho hành động 'đội nón' – 'wear' được nhưng thiếu tính thời điểm; 'put on' nhấn mạnh hành động đội lên.\n📘 **Vietnamese Explanation:** 'Wear' chỉ trạng thái đang đội; 'put on' chỉ hành động đội. Người Việt thường dùng 'wear' cho cả hai. Mẹo: Put on = đội vào; wear = đang đội.\n💡 **Ví dụ:** Put on your helmet. / She is wearing a red hat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can you hear the phone? It's ringing.",
+    "output": "✅ **Corrected Sentence:** Can you answer the phone? It's ringing.\n🔍 **Error Identification:** 'Hear the phone' là nghe thấy tiếng chuông; 'answer the phone' là nghe máy – học viên dùng sai.\n📘 **Vietnamese Explanation:** Người Việt dịch 'nghe điện thoại' thành 'hear the phone'. Mẹo: Nghe máy = answer the phone; nghe thấy chuông = hear the phone.\n💡 **Ví dụ:** Please answer the call. / I heard the phone ringing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to open the water.",
+    "output": "✅ **Corrected Sentence:** I need to turn on the water. (hoặc open the tap)\n🔍 **Error Identification:** 'Open the water' là sai; đúng là 'turn on the water' (mở vòi nước).\n📘 **Vietnamese Explanation:** 'Mở nước' dịch word‑by‑word thành 'open water'. Mẹo: 'Turn on' cho vòi, đèn, TV. 'Open' cho cửa, chai nước.\n💡 **Ví dụ:** Turn on the faucet. / Open a bottle of water."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She closed the computer.",
+    "output": "✅ **Corrected Sentence:** She shut down the computer. (hoặc turned off the computer)\n🔍 **Error Identification:** 'Close the computer' là đóng máy (màn hình laptop), nhưng tắt nguồn mới là 'shut down'.\n📘 **Vietnamese Explanation:** 'Close' chỉ đóng nắp; 'tắt máy' là 'turn off' hoặc 'shut down'. Mẹo: Tắt thiết bị điện tử dùng 'turn off'.\n💡 **Ví dụ:** Shut down the laptop. / Turn off the tablet."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I want to play the guitar.",
+    "output": "✅ **Corrected Sentence:** I want to play the guitar. (câu đúng)\n🔍 **Error Identification:** Không có lỗi. Nhưng nếu học viên viết 'I want to play guitar' thì đúng, 'the' có thể bỏ.\n📘 **Vietnamese Explanation:** Người Việt thường dịch 'chơi đàn' thành 'play the guitar' – đúng. Mẹo: 'Play + musical instrument' thường có 'the' (play the piano, play the guitar).\n💡 **Ví dụ:** She plays the violin. / He plays drums."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I ate breakfast very fast.",
+    "output": "✅ **Corrected Sentence:** I ate breakfast very quickly. (hoặc fast – cả hai đều được)\n🔍 **Error Identification:** 'Fast' có thể dùng làm trạng từ, nhưng 'quickly' tự nhiên hơn khi nói về hành động ăn.\n📘 **Vietnamese Explanation:** Người Việt hay dùng 'fast' cho mọi nghĩa 'nhanh'. Mẹo: 'Fast' cho tốc độ di chuyển, 'quickly' cho hành động.\n💡 **Ví dụ:** He runs fast. / She quickly finished her meal."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to buy some foods.",
+    "output": "✅ **Corrected Sentence:** I need to buy some food.\n🔍 **Error Identification:** 'Foods' là dạng số nhiều nhưng không phổ biến; 'food' thường dùng như không đếm được.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'food' vì nghĩ 'nhiều thức ăn'. Mẹo: 'Food' không đếm được (trừ khi chỉ các loại thực phẩm khác nhau).\n💡 **Ví dụ:** I need some food. / The foods of Vietnam are diverse."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She listens to music now.",
+    "output": "✅ **Corrected Sentence:** She is listening to music now.\n🔍 **Error Identification:** Dùng thì hiện tại đơn 'listens' thay vì hiện tại tiếp diễn 'is listening' cho hành động đang xảy ra.\n📘 **Vietnamese Explanation:** Người Việt dịch 'bây giờ cô ấy nghe nhạc' nhưng quên lùi thì. Mẹo: 'Now' thường đi với hiện tại tiếp diễn.\n💡 **Ví dụ:** I am watching TV now. / They are playing soccer now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I forgot to take my medicine.",
+    "output": "✅ **Corrected Sentence:** I forgot to take my medicine. (câu đúng)\n🔍 **Error Identification:** Đúng. Nếu học viên viết 'drink medicine' thì sai.\n📘 **Vietnamese Explanation:** 'Take medicine' là đúng, nhắc lại để ghi nhớ. Mẹo: 'Take' dùng cho thuốc, vitamin, viên uống.\n💡 **Ví dụ:** Take two pills a day. / Take this syrup after meals."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can you open the computer?",
+    "output": "✅ **Corrected Sentence:** Can you turn on the computer?\n🔍 **Error Identification:** 'Open the computer' là mở nắp laptop; 'turn on' là bật nguồn.\n📘 **Vietnamese Explanation:** 'Mở máy tính' dịch word‑by‑word thành 'open computer'. Mẹo: Bật máy = turn on; mở nắp = open.\n💡 **Ví dụ:** Turn on the laptop. / Open the lid."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She closed the water.",
+    "output": "✅ **Corrected Sentence:** She turned off the water.\n🔍 **Error Identification:** 'Closed the water' là sai; 'turn off the water' là tắt vòi.\n📘 **Vietnamese Explanation:** 'Tắt nước' dịch thành 'close water'. Mẹo: Tắt (thiết bị/vòi) = turn off; đóng (cửa) = close.\n💡 **Ví dụ:** Turn off the tap. / Close the door."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to wear my helmet.",
+    "output": "✅ **Corrected Sentence:** I need to put on my helmet.\n🔍 **Error Identification:** 'Wear' chỉ trạng thái đang đội, 'put on' chỉ hành động đội. Ngữ cảnh 'need to' thường muốn nói hành động.\n📘 **Vietnamese Explanation:** Người Việt dùng 'wear' cho cả hai. Mẹo: Put on = đội vào; wear = đang đội.\n💡 **Ví dụ:** Put on your shoes. / She is wearing a dress."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I heard the phone but I didn't answer.",
+    "output": "✅ **Corrected Sentence:** I heard the phone but I didn't answer. (câu đúng)\n🔍 **Error Identification:** Đúng. Nếu học viên viết 'I heard the phone but I didn't hear' thì sai.\n📘 **Vietnamese Explanation:** 'Hear' là nghe thấy, 'answer' là nghe máy. Mẹo: Phân biệt rõ.\n💡 **Ví dụ:** I hear the alarm. / Please answer the door."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Can you close the light?",
+    "output": "✅ **Corrected Sentence:** Can you turn off the light?\n🔍 **Error Identification:** 'Close the light' là tắt đèn theo nghĩa đóng – sai; 'turn off' mới đúng.\n📘 **Vietnamese Explanation:** 'Tắt đèn' dịch thành 'close light'. Mẹo: Tắt = turn off; đóng = close.\n💡 **Ví dụ:** Turn off the lamp. / Close the window."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I drink a pill every day.",
+    "output": "✅ **Corrected Sentence:** I take a pill every day.\n🔍 **Error Identification:** 'Drink a pill' là uống viên thuốc – sai; 'take a pill' mới đúng.\n📘 **Vietnamese Explanation:** 'Uống thuốc' không dùng 'drink'. Mẹo: 'Take' + thuốc.\n💡 **Ví dụ:** Take an aspirin. / Take your vitamins."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I want to play the soccer.",
+    "output": "✅ **Corrected Sentence:** I want to play soccer.\n🔍 **Error Identification:** Thừa mạo từ 'the' trước 'soccer' (môn thể thao không dùng 'the').\n📘 **Vietnamese Explanation:** Người Việt thêm 'the' vì nghĩ 'chơi bóng đá' cần mạo từ. Mẹo: Play + môn thể thao (không 'the').\n💡 **Ví dụ:** Play tennis. / Play basketball. / Play the piano (nhạc cụ có 'the')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is playing the piano.",
+    "output": "✅ **Corrected Sentence:** She is playing the piano. (câu đúng)\n🔍 **Error Identification:** Đúng. Nhạc cụ có 'the'.\n📘 **Vietnamese Explanation:** Nhắc lại quy tắc: play + the + nhạc cụ.\n💡 **Ví dụ:** Play the guitar. / Play the violin."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to open the air conditioner.",
+    "output": "✅ **Corrected Sentence:** I need to turn on the air conditioner.\n🔍 **Error Identification:** 'Open the air conditioner' – sai; 'turn on' mới đúng.\n📘 **Vietnamese Explanation:** 'Mở máy lạnh' dịch word‑by‑word. Mẹo: Bật/tắt thiết bị điện = turn on/off.\n💡 **Ví dụ:** Turn on the heater. / Turn off the fan."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She wears her shoes quickly.",
+    "output": "✅ **Corrected Sentence:** She puts on her shoes quickly.\n🔍 **Error Identification:** 'Wears' chỉ trạng thái, 'puts on' chỉ hành động xỏ giày.\n📘 **Vietnamese Explanation:** Người Việt dùng 'wear' cho cả hai. Mẹo: Put on = mang vào (hành động); wear = đang mang.\n💡 **Ví dụ:** Put on your coat. / He is wearing a blue shirt."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I forgot to close the tap.",
+    "output": "✅ **Corrected Sentence:** I forgot to turn off the tap.\n🔍 **Error Identification:** 'Close the tap' – sai; 'turn off the tap' mới đúng.\n📘 **Vietnamese Explanation:** 'Tắt vòi nước' không dùng 'close'. Mẹo: Turn off cho vòi, đèn, máy.\n💡 **Ví dụ:** Turn off the faucet. / Turn off the gas."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to drink water.",
+    "output": "✅ **Corrected Sentence:** I need to drink water. (câu đúng)\n🔍 **Error Identification:** Đúng. 'Drink water' là uống nước.\n📘 **Vietnamese Explanation:** Phân biệt: drink water (nước uống), take medicine (thuốc).\n💡 **Ví dụ:** Drink juice. / Drink milk."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is hearing the radio.",
+    "output": "✅ **Corrected Sentence:** She is listening to the radio.\n🔍 **Error Identification:** 'Hear the radio' là nghe thấy tiếng, nhưng 'listen to the radio' là chủ động nghe.\n📘 **Vietnamese Explanation:** Người Việt dùng 'hear' cho mọi 'nghe'. Mẹo: Listen to = cố ý nghe; hear = tình cờ nghe thấy.\n💡 **Ví dụ:** I listen to music. / I heard a noise."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to open the door.",
+    "output": "✅ **Corrected Sentence:** I need to open the door. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** 'Open' dùng cho cửa, sách, cửa sổ. Mẹo: Open = mở (vật lý).\n💡 **Ví dụ:** Open the window. / Open the book."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He closed the book.",
+    "output": "✅ **Corrected Sentence:** He closed the book. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** 'Close' dùng cho sách, cửa, nắp.\n💡 **Ví dụ:** Close the lid. / Close the door."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I want to play football.",
+    "output": "✅ **Corrected Sentence:** I want to play football. (câu đúng)\n🔍 **Error Identification:** Đúng. 'Play football' không có 'the'.\n📘 **Vietnamese Explanation:** Nhắc lại: môn thể thao không 'the'.\n💡 **Ví dụ:** Play volleyball. / Play badminton."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is playing the guitar.",
+    "output": "✅ **Corrected Sentence:** She is playing the guitar. (câu đúng)\n🔍 **Error Identification:** Đúng.\n💡 **Ví dụ:** Play the drums. / Play the flute."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to wear a helmet.",
+    "output": "✅ **Corrected Sentence:** I need to put on a helmet.\n🔍 **Error Identification:** 'Wear' không sai, nhưng 'put on' nhấn mạnh hành động đội.\n📘 **Vietnamese Explanation:** 'Đội mũ bảo hiểm' có thể dùng 'wear' hoặc 'put on'. 'Put on' tự nhiên hơn khi nói về hành động.\n💡 **Ví dụ:** Put on your seatbelt. / Wear a seatbelt (trạng thái)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I heard the doorbell.",
+    "output": "✅ **Corrected Sentence:** I heard the doorbell. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** 'Hear' = nghe thấy.\n💡 **Ví dụ:** I heard a strange sound."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to close the window.",
+    "output": "✅ **Corrected Sentence:** I need to close the window. (câu đúng)\n🔍 **Error Identification:** Đúng.\n💡 **Ví dụ:** Close the door. / Close the gate."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She opened the window.",
+    "output": "✅ **Corrected Sentence:** She opened the window. (câu đúng)\n💡 **Ví dụ:** Open the door. / Open the drawer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to turn off the light.",
+    "output": "✅ **Corrected Sentence:** I need to turn off the light. (câu đúng)\n🔍 **Error Identification:** Đúng.\n💡 **Ví dụ:** Turn off the TV. / Turn off the fan."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I want to play the game.",
+    "output": "✅ **Corrected Sentence:** I want to play the game. (câu đúng)\n🔍 **Error Identification:** Đúng. 'Play the game' có 'the' nếu game cụ thể.\n💡 **Ví dụ:** Play a game. / Play video games."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I drink coffee every morning.",
+    "output": "✅ **Corrected Sentence:** I drink coffee every morning. (câu đúng)\n💡 **Ví dụ:** Drink tea. / Drink milk."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to take a shower.",
+    "output": "✅ **Corrected Sentence:** I need to take a shower. (câu đúng)\n🔍 **Error Identification:** Đúng. 'Take a shower' = tắm vòi sen.\n💡 **Ví dụ:** Take a bath. / Take a rest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to wash my face.",
+    "output": "✅ **Corrected Sentence:** I need to wash my face. (câu đúng)\n💡 **Ví dụ:** Wash your hands. / Wash the dishes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to brush my teeth.",
+    "output": "✅ **Corrected Sentence:** I need to brush my teeth. (câu đúng)\n💡 **Ví dụ:** Brush your hair. / Brush your coat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to comb my hair.",
+    "output": "✅ **Corrected Sentence:** I need to comb my hair. (câu đúng)\n💡 **Ví dụ:** Comb your hair. / Comb your beard."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to get dressed.",
+    "output": "✅ **Corrected Sentence:** I need to get dressed. (câu đúng)\n💡 **Ví dụ:** Get undressed. / Get ready."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to put on my clothes.",
+    "output": "✅ **Corrected Sentence:** I need to put on my clothes. (câu đúng)\n💡 **Ví dụ:** Put on your shirt. / Put on your socks."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to take off my shoes.",
+    "output": "✅ **Corrected Sentence:** I need to take off my shoes. (câu đúng)\n💡 **Ví dụ:** Take off your hat. / Take off your jacket."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to do the laundry.",
+    "output": "✅ **Corrected Sentence:** I need to do the laundry. (câu đúng)\n💡 **Ví dụ:** Do the dishes. / Do the housework."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to make the bed.",
+    "output": "✅ **Corrected Sentence:** I need to make the bed. (câu đúng)\n💡 **Ví dụ:** Make breakfast. / Make a decision."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to set the table.",
+    "output": "✅ **Corrected Sentence:** I need to set the table. (câu đúng)\n💡 **Ví dụ:** Set the alarm. / Set a goal."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to clear the table.",
+    "output": "✅ **Corrected Sentence:** I need to clear the table. (câu đúng)\n💡 **Ví dụ:** Clear your desk. / Clear the room."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to sweep the floor.",
+    "output": "✅ **Corrected Sentence:** I need to sweep the floor. (câu đúng)\n💡 **Ví dụ:** Sweep the yard. / Sweep the steps."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to mop the floor.",
+    "output": "✅ **Corrected Sentence:** I need to mop the floor. (câu đúng)\n💡 **Ví dụ:** Mop the kitchen. / Mop the bathroom."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to vacuum the carpet.",
+    "output": "✅ **Corrected Sentence:** I need to vacuum the carpet. (câu đúng)\n💡 **Ví dụ:** Vacuum the room. / Vacuum the sofa."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to dust the furniture.",
+    "output": "✅ **Corrected Sentence:** I need to dust the furniture. (câu đúng)\n💡 **Ví dụ:** Dust the shelves. / Dust the table."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to iron my clothes.",
+    "output": "✅ **Corrected Sentence:** I need to iron my clothes. (câu đúng)\n💡 **Ví dụ:** Iron the shirt. / Iron the pants."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to fold the laundry.",
+    "output": "✅ **Corrected Sentence:** I need to fold the laundry. (câu đúng)\n💡 **Ví dụ:** Fold the towels. / Fold the paper."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to hang the clothes.",
+    "output": "✅ **Corrected Sentence:** I need to hang the clothes. (câu đúng)\n💡 **Ví dụ:** Hang the picture. / Hang the coat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to water the plants.",
+    "output": "✅ **Corrected Sentence:** I need to water the plants. (câu đúng)\n💡 **Ví dụ:** Water the flowers. / Water the garden."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to feed the dog.",
+    "output": "✅ **Corrected Sentence:** I need to feed the dog. (câu đúng)\n💡 **Ví dụ:** Feed the cat. / Feed the fish."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to walk the dog.",
+    "output": "✅ **Corrected Sentence:** I need to walk the dog. (câu đúng)\n💡 **Ví dụ:** Walk the pet. / Walk the horse."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to lock the door.",
+    "output": "✅ **Corrected Sentence:** I need to lock the door. (câu đúng)\n💡 **Ví dụ:** Lock the window. / Lock the car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to unlock the door.",
+    "output": "✅ **Corrected Sentence:** I need to unlock the door. (câu đúng)\n💡 **Ví dụ:** Unlock the car. / Unlock the drawer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to plug in the charger.",
+    "output": "✅ **Corrected Sentence:** I need to plug in the charger. (câu đúng)\n💡 **Ví dụ:** Plug in the phone. / Plug in the laptop."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to unplug the charger.",
+    "output": "✅ **Corrected Sentence:** I need to unplug the charger. (câu đúng)\n💡 **Ví dụ:** Unplug the TV. / Unplug the lamp."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to charge my phone.",
+    "output": "✅ **Corrected Sentence:** I need to charge my phone. (câu đúng)\n💡 **Ví dụ:** Charge the battery. / Charge the laptop."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to pay the bill.",
+    "output": "✅ **Corrected Sentence:** I need to pay the bill. (câu đúng)\n💡 **Ví dụ:** Pay the rent. / Pay the fee."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to sign the document.",
+    "output": "✅ **Corrected Sentence:** I need to sign the document. (câu đúng)\n💡 **Ví dụ:** Sign the contract. / Sign the check."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to fill out the form.",
+    "output": "✅ **Corrected Sentence:** I need to fill out the form. (câu đúng)\n💡 **Ví dụ:** Fill out the application. / Fill out the questionnaire."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to check the email.",
+    "output": "✅ **Corrected Sentence:** I need to check the email. (câu đúng)\n💡 **Ví dụ:** Check the message. / Check the spelling."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to send an email.",
+    "output": "✅ **Corrected Sentence:** I need to send an email. (câu đúng)\n💡 **Ví dụ:** Send a message. / Send a package."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to reply to the email.",
+    "output": "✅ **Corrected Sentence:** I need to reply to the email. (câu đúng)\n💡 **Ví dụ:** Reply to the message. / Reply to the question."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to forward the email.",
+    "output": "✅ **Corrected Sentence:** I need to forward the email. (câu đúng)\n💡 **Ví dụ:** Forward the message. / Forward the call."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to delete the file.",
+    "output": "✅ **Corrected Sentence:** I need to delete the file. (câu đúng)\n💡 **Ví dụ:** Delete the photo. / Delete the message."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to save the document.",
+    "output": "✅ **Corrected Sentence:** I need to save the document. (câu đúng)\n💡 **Ví dụ:** Save the file. / Save the changes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to print the document.",
+    "output": "✅ **Corrected Sentence:** I need to print the document. (câu đúng)\n💡 **Ví dụ:** Print the photo. / Print the receipt."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to scan the document.",
+    "output": "✅ **Corrected Sentence:** I need to scan the document. (câu đúng)\n💡 **Ví dụ:** Scan the QR code. / Scan the barcode."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to copy the file.",
+    "output": "✅ **Corrected Sentence:** I need to copy the file. (câu đúng)\n💡 **Ví dụ:** Copy the text. / Copy the link."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to paste the text.",
+    "output": "✅ **Corrected Sentence:** I need to paste the text. (câu đúng)\n💡 **Ví dụ:** Paste the link. / Paste the image."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to cut the paper.",
+    "output": "✅ **Corrected Sentence:** I need to cut the paper. (câu đúng)\n💡 **Ví dụ:** Cut the fabric. / Cut the hair."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to glue the pieces.",
+    "output": "✅ **Corrected Sentence:** I need to glue the pieces. (câu đúng)\n💡 **Ví dụ:** Glue the paper. / Glue the parts."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to wrap the gift.",
+    "output": "✅ **Corrected Sentence:** I need to wrap the gift. (câu đúng)\n💡 **Ví dụ:** Wrap the present. / Wrap the sandwich."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to pack my suitcase.",
+    "output": "✅ **Corrected Sentence:** I need to pack my suitcase. (câu đúng)\n💡 **Ví dụ:** Pack the bag. / Pack the boxes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to unpack my suitcase.",
+    "output": "✅ **Corrected Sentence:** I need to unpack my suitcase. (câu đúng)\n💡 **Ví dụ:** Unpack the bags. / Unpack the boxes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to book a ticket.",
+    "output": "✅ **Corrected Sentence:** I need to book a ticket. (câu đúng)\n💡 **Ví dụ:** Book a flight. / Book a hotel."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to cancel the reservation.",
+    "output": "✅ **Corrected Sentence:** I need to cancel the reservation. (câu đúng)\n💡 **Ví dụ:** Cancel the order. / Cancel the meeting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to confirm the appointment.",
+    "output": "✅ **Corrected Sentence:** I need to confirm the appointment. (câu đúng)\n💡 **Ví dụ:** Confirm the booking. / Confirm the time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to remind him.",
+    "output": "✅ **Corrected Sentence:** I need to remind him. (câu đúng)\n💡 **Ví dụ:** Remind me. / Remind her about the meeting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to warn him.",
+    "output": "✅ **Corrected Sentence:** I need to warn him. (câu đúng)\n💡 **Ví dụ:** Warn the children. / Warn about the danger."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to invite him.",
+    "output": "✅ **Corrected Sentence:** I need to invite him. (câu đúng)\n💡 **Ví dụ:** Invite friends. / Invite to the party."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to thank him.",
+    "output": "✅ **Corrected Sentence:** I need to thank him. (câu đúng)\n💡 **Ví dụ:** Thank you. / Thank her for the gift."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to congratulate him.",
+    "output": "✅ **Corrected Sentence:** I need to congratulate him. (câu đúng)\n💡 **Ví dụ:** Congratulate her. / Congratulate on the success."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to encourage him.",
+    "output": "✅ **Corrected Sentence:** I need to encourage him. (câu đúng)\n💡 **Ví dụ:** Encourage the team. / Encourage her to try."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to comfort her.",
+    "output": "✅ **Corrected Sentence:** I need to comfort her. (câu đúng)\n💡 **Ví dụ:** Comfort the child. / Comfort a friend."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to hug her.",
+    "output": "✅ **Corrected Sentence:** I need to hug her. (câu đúng)\n💡 **Ví dụ:** Hug your mom. / Hug a friend."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to kiss her.",
+    "output": "✅ **Corrected Sentence:** I need to kiss her. (câu đúng)\n💡 **Ví dụ:** Kiss your baby. / Kiss goodbye."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to shake hands.",
+    "output": "✅ **Corrected Sentence:** I need to shake hands. (câu đúng)\n💡 **Ví dụ:** Shake his hand. / Shake hands with him."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to bow.",
+    "output": "✅ **Corrected Sentence:** I need to bow. (câu đúng)\n💡 **Ví dụ:** Bow to the teacher. / Bow respectfully."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to wave.",
+    "output": "✅ **Corrected Sentence:** I need to wave. (câu đúng)\n💡 **Ví dụ:** Wave hello. / Wave goodbye."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to point.",
+    "output": "✅ **Corrected Sentence:** I need to point. (câu đúng)\n💡 **Ví dụ:** Point at the board. / Point to the map."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to nod.",
+    "output": "✅ **Corrected Sentence:** I need to nod. (câu đúng)\n💡 **Ví dụ:** Nod your head. / Nod in agreement."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to shrug.",
+    "output": "✅ **Corrected Sentence:** I need to shrug. (câu đúng)\n💡 **Ví dụ:** Shrug your shoulders. / Shrug in response."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to whistle.",
+    "output": "✅ **Corrected Sentence:** I need to whistle. (câu đúng)\n💡 **Ví dụ:** Whistle a tune. / Whistle for a taxi."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to yawn.",
+    "output": "✅ **Corrected Sentence:** I need to yawn. (câu đúng)\n💡 **Ví dụ:** Yawn loudly. / Yawn in boredom."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to sneeze.",
+    "output": "✅ **Corrected Sentence:** I need to sneeze. (câu đúng)\n💡 **Ví dụ:** Sneeze into your elbow. / Sneeze loudly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt viết một câu tiếng Anh bị sai từ vựng do dịch word-by-word. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to cough.",
+    "output": "✅ **Corrected Sentence:** I need to cough. (câu đúng)\n💡 **Ví dụ:** Cough loudly. / Cough to clear your throat."
+  }
+]

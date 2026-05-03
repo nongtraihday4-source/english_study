@@ -1,0 +1,507 @@
+[
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is rich, however he is not happy.",
+    "output": "✅ **Corrected Sentence:** He is rich; however, he is not happy.\n\n🔍 **Error Identification:** Punctuation with 'however' (sai dấu câu)\n\n📖 **Vietnamese Explanation:** 'However' là trạng từ nối (conjunctive adverb) – không phải liên từ như 'but'. Trong tiếng Anh, khi dùng 'however' để nối hai mệnh đề độc lập, cần có dấu chấm phẩy (;) trước và dấu phẩy (,) sau. Người Việt thường dùng dấu phẩy trước 'however' như 'but' – đây là lỗi phổ biến. Hãy nhớ: **sentence1 ; however, sentence2**. 🛑"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although he studied hard, but he failed the exam.",
+    "output": "✅ **Corrected Sentence:** Although he studied hard, he failed the exam. / He studied hard, but he failed the exam.\n\n🔍 **Error Identification:** Redundant conjunction (dùng 'although' và 'but' cùng nhau)\n\n📖 **Vietnamese Explanation:** Trong tiếng Anh, 'although' (mặc dù) và 'but' (nhưng) không đi cùng nhau. Người Việt hay dịch 'mặc dù... nhưng' thành 'although... but' vì tiếng Việt dùng cả cặp. Hãy nhớ: chỉ chọn MỘT trong hai. 'Although' đứng đầu câu chỉ sự nhượng bộ, không cần 'but' ở mệnh đề chính. 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She was tired therefore she went to bed early.",
+    "output": "✅ **Corrected Sentence:** She was tired; therefore, she went to bed early.\n\n🔍 **Error Identification:** Punctuation with 'therefore' (thiếu dấu chấm phẩy và phẩy)\n\n📖 **Vietnamese Explanation:** 'Therefore' là trạng từ nối chỉ kết quả. Giống 'however', nó cần dấu chấm phẩy trước và dấu phẩy sau khi nối hai mệnh đề độc lập. Người Việt thường viết 'tired therefore she' (dùng dấu phẩy hoặc không dấu). Hãy nhớ cấu trúc: **S V ; therefore, S V**. 🧠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He doesn't speak English. However he can communicate well.",
+    "output": "✅ **Corrected Sentence:** He doesn't speak English. However, he can communicate well.\n\n🔍 **Error Identification:** Missing comma after 'however' (thiếu dấu phẩy)\n\n📖 **Vietnamese Explanation:** Khi 'however' đứng đầu câu thứ hai (sau dấu chấm), nó cần dấu phẩy ngay sau. Người Việt thường bỏ quên dấu phẩy này. Hãy nhớ: **However,** (có phẩy) + mệnh đề. Dấu phẩy tạo khoảng dừng nhẹ, giúp câu văn mượt mà hơn. ✍️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because it was raining, so we stayed home.",
+    "output": "✅ **Corrected Sentence:** Because it was raining, we stayed home. / It was raining, so we stayed home.\n\n🔍 **Error Identification:** Redundant conjunction ('because' và 'so' cùng nhau)\n\n📖 **Vietnamese Explanation:** 'Because' chỉ nguyên nhân, 'so' chỉ kết quả – không dùng cặp đôi. Tiếng Việt nói 'bởi vì... nên...' nhưng tiếng Anh chỉ cần một từ. Hãy chọn: dùng 'because' cho câu phức, hoặc dùng 'so' cho câu ghép. 🚫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is very smart, however he doesn't study.",
+    "output": "✅ **Corrected Sentence:** He is very smart; however, he doesn't study.\n\n🔍 **Error Identification:** Comma splice with 'however' (dùng dấu phẩy sai)\n\n📖 **Vietnamese Explanation:** Dùng dấu phẩy trước 'however' để nối hai câu độc lập là lỗi 'comma splice' (nối bằng phẩy không đúng). Tiếng Anh yêu cầu dấu chấm phẩy hoặc dấu chấm. Người Việt thường dùng phẩy vì nghĩ 'however' như 'but'. Hãy sửa thành ' ; however, ' nhé! 🔧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although it was cold, but she didn't wear a jacket.",
+    "output": "✅ **Corrected Sentence:** Although it was cold, she didn't wear a jacket. / It was cold, but she didn't wear a jacket.\n\n🔍 **Error Identification:** Double conjunction ('although' + 'but')\n\n📖 **Vietnamese Explanation:** Lại một lỗi kinh điển 'mặc dù... nhưng'. Hãy nhớ: 'although' đã bao hàm ý 'mặc dù', không cần 'but' ở vế sau. Cách sửa: bỏ 'but' hoặc bỏ 'although' và giữ 'but'. ❄️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She didn't study; therefore she failed the test.",
+    "output": "✅ **Corrected Sentence:** She didn't study; therefore, she failed the test.\n\n🔍 **Error Identification:** Missing comma after 'therefore' (thiếu dấu phẩy)\n\n📖 **Vietnamese Explanation:** Bạn đã dùng dấu chấm phẩy đúng trước 'therefore', nhưng quên dấu phẩy sau 'therefore'. Hầu hết các trạng từ nối (however, therefore, moreover, consequently) đều cần dấu phẩy ngay sau. Hãy thêm phẩy để câu hoàn chỉnh. 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He wanted to buy a car, however he didn't have enough money.",
+    "output": "✅ **Corrected Sentence:** He wanted to buy a car; however, he didn't have enough money.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Lỗi rất phổ biến. Dấu phẩy không đủ mạnh để nối hai câu độc lập khi dùng 'however'. Cần dấu chấm phẩy. Mẹo: nếu bạn có thể thay 'however' bằng 'but' mà câu vẫn đúng thì phải dùng dấu chấm phẩy hoặc tách thành hai câu. 🚘"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "I love coffee, although I don't drink it at night.",
+    "output": "✅ **Corrected Sentence:** I love coffee, although I don't drink it at night. (Câu này ĐÚNG về dấu câu!)\n\n🔍 **Error Identification:** Không có lỗi – 'although' là liên từ phụ thuộc, dấu phẩy trước nó là tùy chọn khi mệnh đề phụ đứng sau.\n\n📖 **Vietnamese Explanation:** Tuyệt vời! Bạn đã dùng đúng. 'Although' là liên từ phụ thuộc (subordinating conjunction), không cần dấu chấm phẩy. Dấu phẩy trước 'although' có thể có hoặc không, đều chấp nhận được. Bạn nắm rõ rồi! ☕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Therefore he decided to quit his job he was unhappy.",
+    "output": "✅ **Corrected Sentence:** Therefore, he decided to quit his job because he was unhappy. (Thiếu dấu phẩy và cấu trúc lủng củng)\n\n🔍 **Error Identification:** Missing comma after 'therefore' + logic không rõ\n\n📖 **Vietnamese Explanation:** Khi 'therefore' đứng đầu câu, phải có dấu phẩy. Ngoài ra, câu gốc thiếu từ nối giữa 'quit his job' và 'he was unhappy'. Cần thêm 'because' hoặc tách thành hai câu. Hãy nhớ: **Therefore,** + mệnh đề hoàn chỉnh. 🧩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is good at math, however his English is poor.",
+    "output": "✅ **Corrected Sentence:** He is good at math; however, his English is poor.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Lỗi phổ biến số 1 với 'however'. Hãy tập thói quen: trước 'however' (khi nối hai câu độc lập) luôn là dấu chấm phẩy hoặc dấu chấm. Dấu phẩy là sai. 🔠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because of the rain, so the match was cancelled.",
+    "output": "✅ **Corrected Sentence:** Because of the rain, the match was cancelled. / The rain caused the match to be cancelled.\n\n🔍 **Error Identification:** Redundant 'so' after 'because of'\n\n📖 **Vietnamese Explanation:** 'Because of' + cụm danh từ đã chỉ nguyên nhân, không cần 'so' ở vế kết quả. Người Việt thêm 'so' vì quen 'bởi vì... nên'. Hãy nhớ: chỉ dùng 'so' khi không có 'because'. 🌧️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He studied hard; however he didn't pass.",
+    "output": "✅ **Corrected Sentence:** He studied hard; however, he didn't pass.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Bạn đã dùng dấu chấm phẩy đúng! Chỉ thiếu dấu phẩy sau 'however'. Hãy thêm vào để hoàn chỉnh: **; however,**. Gần đúng rồi, cố lên! 🎯"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although he is rich, but he is not happy.",
+    "output": "✅ **Corrected Sentence:** Although he is rich, he is not happy. / He is rich, but he is not happy.\n\n🔍 **Error Identification:** 'Although' + 'but' together\n\n📖 **Vietnamese Explanation:** Một lần nữa, không dùng cặp 'although... but'. Hãy chọn một trong hai. Cách dễ nhớ: 'although' = 'mặc dù', không cần 'nhưng' đi kèm. 💰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She is very kind, therefore everyone loves her.",
+    "output": "✅ **Corrected Sentence:** She is very kind; therefore, everyone loves her.\n\n🔍 **Error Identification:** Comma splice with 'therefore'\n\n📖 **Vietnamese Explanation:** Giống 'however', 'therefore' không thể nối hai câu độc lập bằng dấu phẩy. Cần dấu chấm phẩy trước và dấu phẩy sau. Sửa lỗi này để viết văn học thuật chuẩn xác. ❤️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "I wanted to go to the party, but however I was too tired.",
+    "output": "✅ **Corrected Sentence:** I wanted to go to the party, but I was too tired. / I wanted to go to the party; however, I was too tired.\n\n🔍 **Error Identification:** Redundant 'but however'\n\n📖 **Vietnamese Explanation:** 'But' và 'however' có cùng chức năng đối lập. Không bao giờ dùng cả hai cùng nhau. Hãy chọn một: 'but' cho câu ghép thông thường, 'however' cho văn phong trang trọng hơn. 🎉"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He didn't have a ticket, therefore he couldn't enter.",
+    "output": "✅ **Corrected Sentence:** He didn't have a ticket; therefore, he couldn't enter.\n\n🔍 **Error Identification:** Comma splice with 'therefore'\n\n📖 **Vietnamese Explanation:** Dấu phẩy không đủ mạnh. 'Therefore' cần ';' trước và ',' sau. Đây là lỗi điển hình của người Việt khi viết luận. Hãy sửa ngay hôm nay! 🎟️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although the car is old, but it runs well.",
+    "output": "✅ **Corrected Sentence:** Although the car is old, it runs well. / The car is old, but it runs well.\n\n🔍 **Error Identification:** Double conjunction 'although... but'\n\n📖 **Vietnamese Explanation:** 'Although' đã thể hiện sự tương phản, không cần 'but'. Người Việt cần luyện tập bỏ thói quen dịch 'mặc dù... nhưng' sang tiếng Anh. 🚗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She was late; however she brought donuts.",
+    "output": "✅ **Corrected Sentence:** She was late; however, she brought donuts.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Dấu chấm phẩy đúng, nhưng thiếu dấu phẩy sau 'however'. Thêm phẩy ngay sau từ nối. Hãy nhớ: **; however,** là công thức chuẩn. 🍩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is intelligent. Therefore he gets good grades.",
+    "output": "✅ **Corrected Sentence:** He is intelligent. Therefore, he gets good grades.\n\n🔍 **Error Identification:** Missing comma after 'therefore' ở đầu câu\n\n📖 **Vietnamese Explanation:** Khi 'therefore' đứng đầu câu (sau dấu chấm), vẫn cần dấu phẩy. Nhiều người Việt quên dấu phẩy này. Hãy tập thói quen: **Therefore,** + mệnh đề. 🧠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because she was ill, so she didn't go to work.",
+    "output": "✅ **Corrected Sentence:** Because she was ill, she didn't go to work. / She was ill, so she didn't go to work.\n\n🔍 **Error Identification:** 'Because' + 'so' together\n\n📖 **Vietnamese Explanation:** Lỗi 'bởi vì... nên'. Hãy nhớ: 'because' chỉ nguyên nhân, 'so' chỉ kết quả. Dùng 'because' cho mệnh đề phụ đứng trước, không cần 'so' ở mệnh đề chính. 🤒"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He didn't prepare at all; however he passed the exam.",
+    "output": "✅ **Corrected Sentence:** He didn't prepare at all; however, he passed the exam.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Dấu chấm phẩy đã đúng, chỉ thiếu dấu phẩy. Đây là lỗi nhỏ nhưng thường xuyên. Hãy kiểm tra lại bài viết của bạn – có thể bạn cũng mắc lỗi này! 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She loves music, but however she can't play any instrument.",
+    "output": "✅ **Corrected Sentence:** She loves music, but she can't play any instrument. / She loves music; however, she can't play any instrument.\n\n🔍 **Error Identification:** 'but' + 'however' redundant\n\n📖 **Vietnamese Explanation:** 'But however' là thừa. Hãy chọn một. 'But' dùng trong văn nói hàng ngày, 'however' trang trọng hơn. Đừng trộn lẫn. 🎵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although it was expensive, but I bought it.",
+    "output": "✅ **Corrected Sentence:** Although it was expensive, I bought it. / It was expensive, but I bought it.\n\n🔍 **Error Identification:** 'Although' + 'but'\n\n📖 **Vietnamese Explanation:** Lỗi kinh điển khác. Hãy tự nhắc: 'although' = mặc dù, không thêm 'nhưng'. Luyện viết 10 câu với 'although' không 'but' mỗi ngày. 💸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The weather was bad; however we went hiking anyway.",
+    "output": "✅ **Corrected Sentence:** The weather was bad; however, we went hiking anyway.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Dấu chấm phẩy trước, dấu phẩy sau – không thể thiếu một trong hai. Hãy nhớ cặp đôi **; however,** như hình với bóng. ⛰️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is very talented, however he is lazy.",
+    "output": "✅ **Corrected Sentence:** He is very talented; however, he is lazy.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Thay dấu phẩy bằng dấu chấm phẩy. Đây là lỗi phổ biến nhất trong bài thi IELTS Writing của người Việt. Hãy ghi nhớ ngay hôm nay! 🎨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because he was tired, he couldn't concentrate, so he made mistakes.",
+    "output": "✅ **Corrected Sentence:** Because he was tired, he couldn't concentrate, so he made mistakes. (Câu này ĐÚNG! 'Because' và 'so' ở đây không thừa vì có hai mệnh đề kết quả lồng nhau)\n\n🔍 **Error Identification:** Không có lỗi – cấu trúc phức tạp nhưng chấp nhận được.\n\n📖 **Vietnamese Explanation:** Bạn dùng 'because' cho nguyên nhân đầu, và 'so' cho kết quả cuối – điều này được phép vì có ba mệnh đề. Tuy nhiên, nếu viết 'Because... so...' trực tiếp mới sai. Bạn làm tốt! 😴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She is beautiful, however she is not kind.",
+    "output": "✅ **Corrected Sentence:** She is beautiful; however, she is not kind.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Một lỗi cần sửa ngay. Hãy thay dấu phẩy bằng dấu chấm phẩy. Viết đúng: 'She is beautiful; however, she is not kind.' 👸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He didn't study therefore he failed.",
+    "output": "✅ **Corrected Sentence:** He didn't study; therefore, he failed.\n\n🔍 **Error Identification:** Missing semicolon and comma (thiếu cả dấu chấm phẩy và phẩy)\n\n📖 **Vietnamese Explanation:** Câu này không có dấu câu nào trước 'therefore'. Cần dấu chấm phẩy để tách hai mệnh đề độc lập, và dấu phẩy sau 'therefore'. Hãy sửa lại. ❌"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although the restaurant is expensive, but the food is delicious.",
+    "output": "✅ **Corrected Sentence:** Although the restaurant is expensive, the food is delicious. / The restaurant is expensive, but the food is delicious.\n\n🔍 **Error Identification:** 'Although' + 'but'\n\n📖 **Vietnamese Explanation:** Lại một cặp 'mặc dù... nhưng'. Hãy bỏ 'but' khi đã có 'although'. Nhà hàng đắt nhưng ngon – chỉ cần một từ nối. 🍽️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "I was tired; however I finished my work.",
+    "output": "✅ **Corrected Sentence:** I was tired; however, I finished my work.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Dấu chấm phẩy đã có, chỉ thiếu dấu phẩy. Thêm vào là câu hoàn hảo. Bạn đang tiến bộ rõ rệt! 💪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She wanted to learn English, therefore she moved to the US.",
+    "output": "✅ **Corrected Sentence:** She wanted to learn English; therefore, she moved to the US.\n\n🔍 **Error Identification:** Comma splice with 'therefore'\n\n📖 **Vietnamese Explanation:** Dấu phẩy không đủ. Hãy thay bằng dấu chấm phẩy. Học tiếng Anh chăm chỉ thì nhớ quy tắc này nhé! 🇺🇸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because it was raining, so we took an umbrella.",
+    "output": "✅ **Corrected Sentence:** Because it was raining, we took an umbrella. / It was raining, so we took an umbrella.\n\n🔍 **Error Identification:** 'Because' + 'so'\n\n📖 **Vietnamese Explanation:** 'Bởi vì... nên' – hãy bỏ 'so' khi dùng 'because'. Hoặc bỏ 'because' giữ 'so'. Ô che mưa chỉ cần một từ nối. ☔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is friendly however he can be shy sometimes.",
+    "output": "✅ **Corrected Sentence:** He is friendly; however, he can be shy sometimes.\n\n🔍 **Error Identification:** Missing punctuation entirely (không có dấu câu nào trước 'however')\n\n📖 **Vietnamese Explanation:** Bạn quên mất dấu câu! Giữa 'friendly' và 'however' cần dấu chấm phẩy. Sau 'however' cần dấu phẩy. Đừng bỏ qua bước này. 🫣"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although she was tired, she continued working.",
+    "output": "✅ **Corrected Sentence:** Although she was tired, she continued working. (Câu ĐÚNG!)\n\n🔍 **Error Identification:** Không có lỗi. Dùng 'although' đúng cấu trúc.\n\n📖 **Vietnamese Explanation:** Tuyệt vời! Bạn đã dùng 'although' mà không có 'but', dấu phẩy sau mệnh đề phụ đứng đầu rất chuẩn. Hãy tiếp tục phát huy. 👏"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He didn't have money; therefore he couldn't buy the ticket.",
+    "output": "✅ **Corrected Sentence:** He didn't have money; therefore, he couldn't buy the ticket.\n\n🔍 **Error Identification:** Missing comma after 'therefore'\n\n📖 **Vietnamese Explanation:** Dấu chấm phẩy đúng, nhưng thiếu dấu phẩy. Hãy thêm ngay sau 'therefore'. Rất dễ sửa! 🎫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "I love cats, however I am allergic to them.",
+    "output": "✅ **Corrected Sentence:** I love cats; however, I am allergic to them.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Thay dấu phẩy bằng dấu chấm phẩy. Yêu mèo nhưng dị ứng – hãy viết đúng dấu câu. 🐱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because he overslept, so he missed the bus.",
+    "output": "✅ **Corrected Sentence:** Because he overslept, he missed the bus. / He overslept, so he missed the bus.\n\n🔍 **Error Identification:** 'Because' + 'so'\n\n📖 **Vietnamese Explanation:** Lỗi 'bởi vậy... nên'. Hãy bỏ 'so' hoặc bỏ 'because'. Ngủ quên – lỡ xe buýt – chỉ một từ nối thôi. 🚌"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is very strong; however he is gentle.",
+    "output": "✅ **Corrected Sentence:** He is very strong; however, he is gentle.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Dấu chấm phẩy đúng, thêm dấu phẩy sau 'however'. Mạnh mẽ nhưng nhẹ nhàng – câu văn sẽ đẹp hơn với đúng dấu câu. 🦁"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The movie was boring however it was very popular.",
+    "output": "✅ **Corrected Sentence:** The movie was boring; however, it was very popular.\n\n🔍 **Error Identification:** Missing punctuation (không dấu trước 'however')\n\n📖 **Vietnamese Explanation:** Bạn viết liền 'boring however' – cần dấu chấm phẩy trước 'however' và dấu phẩy sau. Hãy tách biệt các ý. 🎬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although she is young, but she is very wise.",
+    "output": "✅ **Corrected Sentence:** Although she is young, she is very wise. / She is young, but she is very wise.\n\n🔍 **Error Identification:** 'Although' + 'but'\n\n📖 **Vietnamese Explanation:** 'Mặc dù trẻ nhưng khôn ngoan' – chỉ cần 'although' hoặc 'but', không cần cả hai. Hãy chọn một. 👵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He ran fast; therefore he won the race.",
+    "output": "✅ **Corrected Sentence:** He ran fast; therefore, he won the race.\n\n🔍 **Error Identification:** Missing comma after 'therefore'\n\n📖 **Vietnamese Explanation:** Dấu chấm phẩy trước 'therefore' đúng, thiếu dấu phẩy sau. Thêm vào là hoàn chỉnh. Chạy nhanh – thắng cuộc đua. 🏃"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The product is cheap, however it is not durable.",
+    "output": "✅ **Corrected Sentence:** The product is cheap; however, it is not durable.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Dấu phẩy sai. Hãy thay bằng dấu chấm phẩy. Rẻ nhưng không bền – viết đúng để người đọc không hiểu lầm. 🛒"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because he practiced a lot, so he became a great musician.",
+    "output": "✅ **Corrected Sentence:** Because he practiced a lot, he became a great musician. / He practiced a lot, so he became a great musician.\n\n🔍 **Error Identification:** 'Because' + 'so'\n\n📖 **Vietnamese Explanation:** Luyện tập nhiều – thành nhạc sĩ vĩ đại. Chỉ cần một từ nối, đừng dùng cả 'because' và 'so'. 🎵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The car is old; however it is reliable.",
+    "output": "✅ **Corrected Sentence:** The car is old; however, it is reliable.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Dấu chấm phẩy đã tốt, thêm dấu phẩy. Xe cũ nhưng đáng tin cậy – câu văn cũng cần đáng tin cậy về ngữ pháp. 🚙"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He didn't eat breakfast therefore he was hungry.",
+    "output": "✅ **Corrected Sentence:** He didn't eat breakfast; therefore, he was hungry.\n\n🔍 **Error Identification:** Missing semicolon and comma\n\n📖 **Vietnamese Explanation:** Không có dấu câu nào giữa 'breakfast' và 'therefore'. Cần dấu chấm phẩy trước và dấu phẩy sau 'therefore'. Đói bụng vì không ăn sáng – hãy sửa ngay. 🍳"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although the test was difficult, but he passed.",
+    "output": "✅ **Corrected Sentence:** Although the test was difficult, he passed. / The test was difficult, but he passed.\n\n🔍 **Error Identification:** 'Although' + 'but'\n\n📖 **Vietnamese Explanation:** Bài kiểm tra khó nhưng đậu – chỉ dùng một từ nối. Bỏ 'but' khi có 'although'. 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "I like coffee; however I don't drink it at night.",
+    "output": "✅ **Corrected Sentence:** I like coffee; however, I don't drink it at night.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Dấu chấm phẩy đúng, thiếu dấu phẩy. Thêm vào là hoàn hảo. Cà phê ngon nhưng không uống tối – câu văn chuẩn chỉnh. ☕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She is rich however she is not happy.",
+    "output": "✅ **Corrected Sentence:** She is rich; however, she is not happy.\n\n🔍 **Error Identification:** Missing punctuation before 'however'\n\n📖 **Vietnamese Explanation:** Giữa 'rich' và 'however' cần dấu chấm phẩy. Sau 'however' cần dấu phẩy. Giàu nhưng không vui – hãy ngắt câu đúng. 💎"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because the store was closed, so we went home.",
+    "output": "✅ **Corrected Sentence:** Because the store was closed, we went home. / The store was closed, so we went home.\n\n🔍 **Error Identification:** 'Because' + 'so'\n\n📖 **Vietnamese Explanation:** Cửa hàng đóng cửa – về nhà. Chỉ cần 'because' hoặc 'so'. Đừng dùng cả hai. 🏪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He speaks three languages; however he doesn't speak Chinese.",
+    "output": "✅ **Corrected Sentence:** He speaks three languages; however, he doesn't speak Chinese.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Dấu chấm phẩy đúng, thiếu dấu phẩy. Nói ba thứ tiếng nhưng không nói tiếng Trung – câu văn cần chuẩn chỉnh. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The room was dark, however I could see a shadow.",
+    "output": "✅ **Corrected Sentence:** The room was dark; however, I could see a shadow.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Thay dấu phẩy bằng dấu chấm phẩy. Phòng tối nhưng vẫn thấy bóng – viết đúng để rõ nghĩa. 🌑"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He didn't apologize, therefore she left.",
+    "output": "✅ **Corrected Sentence:** He didn't apologize; therefore, she left.\n\n🔍 **Error Identification:** Comma splice with 'therefore'\n\n📖 **Vietnamese Explanation:** Dấu phẩy không đủ. Cần dấu chấm phẩy. Anh không xin lỗi – cô ấy bỏ đi. Hãy sửa lỗi này. 😢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although it was raining, but we went out.",
+    "output": "✅ **Corrected Sentence:** Although it was raining, we went out. / It was raining, but we went out.\n\n🔍 **Error Identification:** 'Although' + 'but'\n\n📖 **Vietnamese Explanation:** Trời mưa nhưng vẫn ra ngoài – bỏ 'but' khi có 'although'. Lỗi này rất phổ biến, hãy tập trung sửa. 🌧️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She studied hard; therefore she got an A.",
+    "output": "✅ **Corrected Sentence:** She studied hard; therefore, she got an A.\n\n🔍 **Error Identification:** Missing comma after 'therefore'\n\n📖 **Vietnamese Explanation:** Dấu chấm phẩy đúng, thiếu dấu phẩy. Học chăm chỉ – được điểm A. Thêm phẩy để hoàn chỉnh. 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is a good doctor, however he is very busy.",
+    "output": "✅ **Corrected Sentence:** He is a good doctor; however, he is very busy.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Dấu phẩy sai. Hãy thay bằng dấu chấm phẩy. Bác sĩ giỏi nhưng bận rộn – viết đúng ngữ pháp nhé. 👨‍⚕️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because the traffic was bad, so he was late.",
+    "output": "✅ **Corrected Sentence:** Because the traffic was bad, he was late. / The traffic was bad, so he was late.\n\n🔍 **Error Identification:** 'Because' + 'so'\n\n📖 **Vietnamese Explanation:** Kẹt xe – đến muộn. Chỉ dùng một từ nối. Đây là lỗi điển hình của người Việt. 🚦"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The food was delicious; however the service was slow.",
+    "output": "✅ **Corrected Sentence:** The food was delicious; however, the service was slow.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Đồ ăn ngon, phục vụ chậm. Dấu chấm phẩy đúng, thêm dấu phẩy. Gần hoàn hảo rồi! 🍜"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is wealthy however he lives simply.",
+    "output": "✅ **Corrected Sentence:** He is wealthy; however, he lives simply.\n\n🔍 **Error Identification:** Missing punctuation before 'however'\n\n📖 **Vietnamese Explanation:** Giàu có nhưng sống giản dị. Cần dấu chấm phẩy trước 'however' và dấu phẩy sau. Đừng viết liền. 🏠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although she was angry, but she didn't shout.",
+    "output": "✅ **Corrected Sentence:** Although she was angry, she didn't shout. / She was angry, but she didn't shout.\n\n🔍 **Error Identification:** 'Although' + 'but'\n\n📖 **Vietnamese Explanation:** Tức giận nhưng không la hét – bỏ 'but'. Tập viết lại câu này 5 lần để nhớ. 😤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "I wanted to stay, however I had to leave.",
+    "output": "✅ **Corrected Sentence:** I wanted to stay; however, I had to leave.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Muốn ở lại nhưng phải rời đi. Thay dấu phẩy bằng dấu chấm phẩy. Hãy nhớ quy tắc này. 🚪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He didn't study therefore he failed the exam.",
+    "output": "✅ **Corrected Sentence:** He didn't study; therefore, he failed the exam.\n\n🔍 **Error Identification:** Missing semicolon and comma\n\n📖 **Vietnamese Explanation:** Không học – trượt thi. Cần dấu chấm phẩy trước 'therefore' và dấu phẩy sau. Sửa ngay kẻo mất điểm. ❌"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The hotel was expensive, however it was worth it.",
+    "output": "✅ **Corrected Sentence:** The hotel was expensive; however, it was worth it.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Khách sạn đắt nhưng đáng giá. Dấu phẩy sai, thay bằng dấu chấm phẩy. Bạn sẽ ghi nhớ sau bài tập này. 🏨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because he was kind, so everyone liked him.",
+    "output": "✅ **Corrected Sentence:** Because he was kind, everyone liked him. / He was kind, so everyone liked him.\n\n🔍 **Error Identification:** 'Because' + 'so'\n\n📖 **Vietnamese Explanation:** Tốt bụng – mọi người quý. Bỏ 'so' hoặc bỏ 'because'. Đừng dùng cặp đôi này. 💖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She is talented; however she lacks confidence.",
+    "output": "✅ **Corrected Sentence:** She is talented; however, she lacks confidence.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Dấu chấm phẩy đúng, thiếu dấu phẩy. Tài năng nhưng thiếu tự tin – thêm phẩy để câu trôi chảy. 🎭"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is rich however he is not generous.",
+    "output": "✅ **Corrected Sentence:** He is rich; however, he is not generous.\n\n🔍 **Error Identification:** Missing punctuation before 'however'\n\n📖 **Vietnamese Explanation:** Giàu nhưng không hào phóng. Cần dấu chấm phẩy trước 'however'. Đừng bỏ qua dấu câu nhé. 💰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although the phone is expensive, but it has good features.",
+    "output": "✅ **Corrected Sentence:** Although the phone is expensive, it has good features. / The phone is expensive, but it has good features.\n\n🔍 **Error Identification:** 'Although' + 'but'\n\n📖 **Vietnamese Explanation:** Đắt nhưng nhiều tính năng – chỉ dùng một từ nối. Lỗi này xuất hiện nhiều trong bài viết của học viên Việt. 📱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "I was late; therefore I missed the meeting.",
+    "output": "✅ **Corrected Sentence:** I was late; therefore, I missed the meeting.\n\n🔍 **Error Identification:** Missing comma after 'therefore'\n\n📖 **Vietnamese Explanation:** Đến muộn – lỡ cuộc họp. Dấu chấm phẩy đúng, thiếu dấu phẩy. Thêm vào nhé. ⏰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She is very intelligent, however she is lazy.",
+    "output": "✅ **Corrected Sentence:** She is very intelligent; however, she is lazy.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Thông minh nhưng lười. Dấu phẩy sai, thay bằng dấu chấm phẩy. Hãy sửa lỗi này để viết văn hay hơn. 🧠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because it was cold, so he wore a jacket.",
+    "output": "✅ **Corrected Sentence:** Because it was cold, he wore a jacket. / It was cold, so he wore a jacket.\n\n🔍 **Error Identification:** 'Because' + 'so'\n\n📖 **Vietnamese Explanation:** Trời lạnh – mặc áo khoác. Chỉ cần một từ nối. Bỏ 'so' khi dùng 'because'. 🧥"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The book is long; however it is interesting.",
+    "output": "✅ **Corrected Sentence:** The book is long; however, it is interesting.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Sách dài nhưng hay. Dấu chấm phẩy đúng, thiếu dấu phẩy. Thêm phẩy là hoàn chỉnh. 📖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is very strong however he is gentle.",
+    "output": "✅ **Corrected Sentence:** He is very strong; however, he is gentle.\n\n🔍 **Error Identification:** Missing punctuation before 'however'\n\n📖 **Vietnamese Explanation:** Mạnh mẽ nhưng nhẹ nhàng. Cần dấu chấm phẩy trước 'however'. Đừng viết liền như vậy. 🦸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although he worked hard, but he didn't succeed.",
+    "output": "✅ **Corrected Sentence:** Although he worked hard, he didn't succeed. / He worked hard, but he didn't succeed.\n\n🔍 **Error Identification:** 'Although' + 'but'\n\n📖 **Vietnamese Explanation:** Làm việc chăm chỉ nhưng không thành công. Bỏ 'but' khi có 'although'. Đây là lỗi cần khắc phục ngay. 💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She didn't sleep well, therefore she was tired.",
+    "output": "✅ **Corrected Sentence:** She didn't sleep well; therefore, she was tired.\n\n🔍 **Error Identification:** Comma splice with 'therefore'\n\n📖 **Vietnamese Explanation:** Ngủ không ngon – mệt mỏi. Dấu phẩy sai, cần dấu chấm phẩy. Hãy sửa lại. 😴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The movie was long; however it was boring.",
+    "output": "✅ **Corrected Sentence:** The movie was long; however, it was boring.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Phim dài và nhàm chán. Dấu chấm phẩy đúng, thiếu dấu phẩy. Thêm vào để chuẩn. 🎥"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because he was sick, so he stayed home.",
+    "output": "✅ **Corrected Sentence:** Because he was sick, he stayed home. / He was sick, so he stayed home.\n\n🔍 **Error Identification:** 'Because' + 'so'\n\n📖 **Vietnamese Explanation:** Ốm – ở nhà. Chỉ dùng 'because' hoặc 'so'. Đừng dùng cả hai. 🤒"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is a good speaker, however he gets nervous.",
+    "output": "✅ **Corrected Sentence:** He is a good speaker; however, he gets nervous.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Nói hay nhưng lo lắng. Thay dấu phẩy bằng dấu chấm phẩy. Sửa lỗi này để tự tin hơn khi viết. 🎤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She studied hard; therefore she passed.",
+    "output": "✅ **Corrected Sentence:** She studied hard; therefore, she passed.\n\n🔍 **Error Identification:** Missing comma after 'therefore'\n\n📖 **Vietnamese Explanation:** Học chăm – đỗ. Dấu chấm phẩy đúng, thiếu dấu phẩy. Thêm phẩy để hoàn chỉnh. 🎓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The restaurant is cheap however the food is bad.",
+    "output": "✅ **Corrected Sentence:** The restaurant is cheap; however, the food is bad.\n\n🔍 **Error Identification:** Missing punctuation before 'however'\n\n📖 **Vietnamese Explanation:** Rẻ nhưng đồ ăn tệ. Cần dấu chấm phẩy trước 'however'. Hãy thêm vào. 🍽️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although he is busy, but he helps us.",
+    "output": "✅ **Corrected Sentence:** Although he is busy, he helps us. / He is busy, but he helps us.\n\n🔍 **Error Identification:** 'Although' + 'but'\n\n📖 **Vietnamese Explanation:** Bận nhưng vẫn giúp. Bỏ 'but' khi có 'although'. Luyện tập thêm nhé. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "I love traveling, however I don't have much time.",
+    "output": "✅ **Corrected Sentence:** I love traveling; however, I don't have much time.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Thích du lịch nhưng không có thời gian. Thay dấu phẩy bằng dấu chấm phẩy. ✈️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because she was late, so she missed the bus.",
+    "output": "✅ **Corrected Sentence:** Because she was late, she missed the bus. / She was late, so she missed the bus.\n\n🔍 **Error Identification:** 'Because' + 'so'\n\n📖 **Vietnamese Explanation:** Đến muộn – lỡ xe. Chỉ dùng một từ nối. Hãy nhớ quy tắc này. 🚍"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is very smart; however he is lazy.",
+    "output": "✅ **Corrected Sentence:** He is very smart; however, he is lazy.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Thông minh nhưng lười. Dấu chấm phẩy đúng, thiếu dấu phẩy. Thêm vào là chuẩn. 🧠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She wanted to buy the dress however it was too expensive.",
+    "output": "✅ **Corrected Sentence:** She wanted to buy the dress; however, it was too expensive.\n\n🔍 **Error Identification:** Missing punctuation before 'however'\n\n📖 **Vietnamese Explanation:** Muốn mua váy nhưng quá đắt. Cần dấu chấm phẩy trước 'however'. Sửa ngay. 👗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although it was sunny, but it was cold.",
+    "output": "✅ **Corrected Sentence:** Although it was sunny, it was cold. / It was sunny, but it was cold.\n\n🔍 **Error Identification:** 'Although' + 'but'\n\n📖 **Vietnamese Explanation:** Nắng nhưng lạnh. Bỏ 'but' khi có 'although'. Đây là lỗi rất dễ mắc. ☀️❄️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He didn't have a car; therefore he walked.",
+    "output": "✅ **Corrected Sentence:** He didn't have a car; therefore, he walked.\n\n🔍 **Error Identification:** Missing comma after 'therefore'\n\n📖 **Vietnamese Explanation:** Không có xe – đi bộ. Dấu chấm phẩy đúng, thiếu dấu phẩy. Thêm vào. 🚶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The test was easy, however I made a mistake.",
+    "output": "✅ **Corrected Sentence:** The test was easy; however, I made a mistake.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Đề dễ nhưng vẫn sai. Thay dấu phẩy bằng dấu chấm phẩy. Hãy cẩn thận với lỗi này. 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because he was honest, so people trusted him.",
+    "output": "✅ **Corrected Sentence:** Because he was honest, people trusted him. / He was honest, so people trusted him.\n\n🔍 **Error Identification:** 'Because' + 'so'\n\n📖 **Vietnamese Explanation:** Trung thực – được tin tưởng. Chỉ dùng một từ nối. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The weather was bad; however we went out.",
+    "output": "✅ **Corrected Sentence:** The weather was bad; however, we went out.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Thời tiết xấu nhưng vẫn ra ngoài. Dấu chấm phẩy đúng, thiếu dấu phẩy. Thêm vào. 🌧️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is funny however he is not popular.",
+    "output": "✅ **Corrected Sentence:** He is funny; however, he is not popular.\n\n🔍 **Error Identification:** Missing punctuation before 'however'\n\n📖 **Vietnamese Explanation:** Hài hước nhưng không nổi tiếng. Cần dấu chấm phẩy trước 'however'. Đừng quên. 😂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although she was tired, but she finished the race.",
+    "output": "✅ **Corrected Sentence:** Although she was tired, she finished the race. / She was tired, but she finished the race.\n\n🔍 **Error Identification:** 'Although' + 'but'\n\n📖 **Vietnamese Explanation:** Mệt nhưng vẫn hoàn thành cuộc đua. Bỏ 'but' khi có 'although'. 🏅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "I was hungry, therefore I ate a sandwich.",
+    "output": "✅ **Corrected Sentence:** I was hungry; therefore, I ate a sandwich.\n\n🔍 **Error Identification:** Comma splice with 'therefore'\n\n📖 **Vietnamese Explanation:** Đói – ăn bánh mì. Dấu phẩy sai, cần dấu chấm phẩy. Hãy sửa. 🥪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He is a great athlete; however he is humble.",
+    "output": "✅ **Corrected Sentence:** He is a great athlete; however, he is humble.\n\n🔍 **Error Identification:** Missing comma after 'however'\n\n📖 **Vietnamese Explanation:** Vận động viên giỏi nhưng khiêm tốn. Dấu chấm phẩy đúng, thiếu dấu phẩy. Thêm vào. 🏅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because it was late, so we went home.",
+    "output": "✅ **Corrected Sentence:** Because it was late, we went home. / It was late, so we went home.\n\n🔍 **Error Identification:** 'Because' + 'so'\n\n📖 **Vietnamese Explanation:** Khuya rồi – về nhà. Chỉ dùng một từ nối. 🌙"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The coffee is hot, however I can drink it.",
+    "output": "✅ **Corrected Sentence:** The coffee is hot; however, I can drink it.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Cà phê nóng nhưng uống được. Thay dấu phẩy bằng dấu chấm phẩy. ☕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "She is kind however she can be strict.",
+    "output": "✅ **Corrected Sentence:** She is kind; however, she can be strict.\n\n🔍 **Error Identification:** Missing punctuation before 'however'\n\n📖 **Vietnamese Explanation:** Tốt bụng nhưng có thể nghiêm khắc. Cần dấu chấm phẩy trước 'however'. 👩‍🏫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Although he is young, but he is very responsible.",
+    "output": "✅ **Corrected Sentence:** Although he is young, he is very responsible. / He is young, but he is very responsible.\n\n🔍 **Error Identification:** 'Although' + 'but'\n\n📖 **Vietnamese Explanation:** Trẻ nhưng có trách nhiệm. Bỏ 'but' khi có 'although'. 👨‍💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "He forgot his keys; therefore he couldn't enter.",
+    "output": "✅ **Corrected Sentence:** He forgot his keys; therefore, he couldn't enter.\n\n🔍 **Error Identification:** Missing comma after 'therefore'\n\n📖 **Vietnamese Explanation:** Quên chìa khóa – không vào được. Dấu chấm phẩy đúng, thiếu dấu phẩy. 🔑"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "The movie was boring, however it had good acting.",
+    "output": "✅ **Corrected Sentence:** The movie was boring; however, it had good acting.\n\n🔍 **Error Identification:** Comma splice with 'however'\n\n📖 **Vietnamese Explanation:** Phim chán nhưng diễn xuất tốt. Thay dấu phẩy bằng dấu chấm phẩy. 🎭"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi từ nối trong câu sau của học viên.",
+    "input": "Because she was happy, so she smiled.",
+    "output": "✅ **Corrected Sentence:** Because she was happy, she smiled. / She was happy, so she smiled.\n\n🔍 **Error Identification:** 'Because' + 'so'\n\n📖 **Vietnamese Explanation:** Vui – cười. Chỉ một từ nối thôi. 😊"
+  }
+]

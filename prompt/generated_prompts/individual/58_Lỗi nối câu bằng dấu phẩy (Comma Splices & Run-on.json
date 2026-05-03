@@ -1,0 +1,562 @@
+[
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I love learning English, I practice every day.",
+    "output": "✅ **Corrected Sentence:** I love learning English, so I practice every day. / I love learning English; I practice every day. / I love learning English. I practice every day.\n\n🔍 **Error Identification:** Comma Splice (Ghép hai mệnh đề độc lập chỉ bằng dấu phẩy)\n\n📖 **Vietnamese Explanation:** Trong tiếng Việt, chúng ta có thể viết 'Tôi thích học tiếng Anh, tôi luyện tập mỗi ngày' mà không sai. Nhưng trong tiếng Anh, dấu phẩy không đủ mạnh để nối hai câu hoàn chỉnh (independent clauses). Bạn cần thêm liên từ (and, but, so) hoặc dùng dấu chấm phẩy (;), hoặc tách thành hai câu riêng. Hãy nhớ: **comma splice** là lỗi phổ biến nhất của người Việt khi viết luận. 🚫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She woke up late, she missed the bus.",
+    "output": "✅ **Corrected Sentence:** She woke up late, so she missed the bus. / She woke up late; therefore, she missed the bus. / She woke up late. She missed the bus.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hai mệnh đề độc lập chỉ được nối bằng dấu phẩy là sai. Tiếng Anh yêu cầu liên từ (so, and, but) hoặc dấu chấm phẩy. Người Việt thường viết 'Cô ấy dậy muộn, cô ấy lỡ xe' – cách này không đúng trong tiếng Anh. Hãy thêm 'so' để thể hiện quan hệ nguyên nhân - kết quả. 🚌"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is very smart, he doesn't study much.",
+    "output": "✅ **Corrected Sentence:** He is very smart, but he doesn't study much. / He is very smart; however, he doesn't study much.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Dấu phẩy không thể thay thế cho 'but'. Trong tiếng Việt, 'Anh ấy rất thông minh, anh ấy không học nhiều' có thể hiểu được, nhưng tiếng Anh cần từ nối chỉ sự đối lập. Hãy dùng 'but' hoặc 'however' kèm dấu chấm phẩy. 🧠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I like coffee, she prefers tea.",
+    "output": "✅ **Corrected Sentence:** I like coffee, but she prefers tea. / I like coffee; she prefers tea. / I like coffee. She prefers tea.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hai câu riêng biệt về sở thích không thể nối bằng dấu phẩy. Hãy thêm 'but' để thể hiện sự tương phản, hoặc dùng dấu chấm phẩy nếu ý gần nhau. Người Việt hay viết 'Tôi thích cà phê, cô ấy thích trà' – hãy nhớ thêm liên từ. ☕🍵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She ran fast, she won the race.",
+    "output": "✅ **Corrected Sentence:** She ran fast, so she won the race. / She ran fast; therefore, she won the race.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Quan hệ nguyên nhân - kết quả cần 'so' hoặc 'therefore'. Dấu phẩy đơn thuần không diễn tả được logic này. Sửa lỗi này để bài viết của bạn chuyên nghiệp hơn. 🏃‍♀️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The room was dark, I couldn't see anything.",
+    "output": "✅ **Corrected Sentence:** The room was dark, so I couldn't see anything. / The room was dark; consequently, I couldn't see anything.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Mệnh đề đầu là nguyên nhân, mệnh đề sau là kết quả – cần 'so'. Đừng chỉ dùng dấu phẩy như trong tiếng Việt ('Phòng tối, tôi không thấy gì'). Hãy thêm liên từ. 🌑"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He wanted to travel to Japan, he didn't have enough money.",
+    "output": "✅ **Corrected Sentence:** He wanted to travel to Japan, but he didn't have enough money. / He wanted to travel to Japan; however, he didn't have enough money.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hai ý tương phản cần 'but' hoặc 'however'. Dấu phẩy không thể hiện được sự đối lập. Người Việt thường viết 'Anh ấy muốn đi Nhật, anh ấy không đủ tiền' – hãy thêm 'nhưng' trong tiếng Anh là 'but'. 🇯🇵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I finished my homework, I watched TV.",
+    "output": "✅ **Corrected Sentence:** I finished my homework, and then I watched TV. / I finished my homework; then I watched TV. / I finished my homework. I watched TV.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hai hành động nối tiếp nhau cần 'and' hoặc dấu chấm phẩy. Không thể dùng phẩy trần. Hãy nhớ: trong tiếng Anh, dấu phẩy chỉ dùng khi có liên từ đi kèm (FANBOYS: for, and, nor, but, or, yet, so). 📺"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is beautiful, she is intelligent.",
+    "output": "✅ **Corrected Sentence:** She is beautiful and intelligent. / She is beautiful; she is also intelligent. / She is beautiful. She is intelligent.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Khi hai tính từ cùng miêu tả một chủ ngữ, có thể gộp lại bằng 'and' mà không cần lặp chủ ngữ. Cách viết 'She is beautiful, she is intelligent' là comma splice. Hãy sửa thành 'She is beautiful and intelligent' hoặc tách câu. 👸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The phone rang, I answered it.",
+    "output": "✅ **Corrected Sentence:** The phone rang, so I answered it. / The phone rang; I answered it. / When the phone rang, I answered it.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Dấu phẩy không đủ. Thêm 'so' để chỉ kết quả, hoặc chuyển thành câu phức với 'when'. Người Việt hay mắc lỗi này vì nghĩ dấu phẩy là đủ. 📞"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He doesn't like spicy food, he never eats curry.",
+    "output": "✅ **Corrected Sentence:** He doesn't like spicy food, so he never eats curry. / He doesn't like spicy food; therefore, he never eats curry.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Quan hệ nguyên nhân - kết quả rõ ràng. Hãy thêm 'so' hoặc 'therefore'. Đừng để dấu phẩy làm việc một mình. 🍛"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I tried to call her, she didn't answer.",
+    "output": "✅ **Corrected Sentence:** I tried to call her, but she didn't answer. / I tried to call her; however, she didn't answer.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Sự tương phản giữa cố gắng gọi và không bắt máy cần 'but'. Hãy nhớ: dấu phẩy trong tiếng Anh không mang nghĩa 'nhưng'. 📱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The sun set, the temperature dropped.",
+    "output": "✅ **Corrected Sentence:** The sun set, and the temperature dropped. / The sun set; then the temperature dropped. / As the sun set, the temperature dropped.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hai hiện tượng nối tiếp nhau. Có thể dùng 'and', dấu chấm phẩy, hoặc chuyển thành câu phức với 'as'. Không dùng phẩy trần. 🌅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She loves dogs, she has three pets.",
+    "output": "✅ **Corrected Sentence:** She loves dogs, and she has three pets. / She loves dogs; she has three pets. / She loves dogs. She has three pets.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hai câu liên quan nhưng không có quan hệ nhân quả hay tương phản rõ ràng, có thể nối bằng 'and' hoặc dấu chấm phẩy. Đừng chỉ dùng phẩy. 🐶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He studied all night, he was tired in the morning.",
+    "output": "✅ **Corrected Sentence:** He studied all night, so he was tired in the morning. / He studied all night; consequently, he was tired in the morning.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Học cả đêm dẫn đến mệt mỏi – cần 'so'. Người Việt viết 'Anh ấy học cả đêm, anh ấy mệt vào sáng hôm sau' là sai cấu trúc. 😴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The restaurant is expensive, the food is delicious.",
+    "output": "✅ **Corrected Sentence:** The restaurant is expensive, but the food is delicious. / The restaurant is expensive; however, the food is delicious.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Đắt nhưng ngon – tương phản. Cần 'but' hoặc 'however'. Đừng viết 'Nhà hàng đắt, đồ ăn ngon' bằng dấu phẩy. 🍽️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I forgot my umbrella, I got wet.",
+    "output": "✅ **Corrected Sentence:** I forgot my umbrella, so I got wet. / I forgot my umbrella; therefore, I got wet.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Quên ô → ướt. Quan hệ nhân quả cần 'so'. Sửa lỗi này để viết tiếng Anh tự nhiên hơn. ☔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He speaks three languages, he is a translator.",
+    "output": "✅ **Corrected Sentence:** He speaks three languages, and he is a translator. / He speaks three languages; he is a translator. / He speaks three languages, so he works as a translator.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Có thể nối bằng 'and' hoặc dấu chấm phẩy. Nếu ý là nhờ biết ba thứ tiếng nên làm phiên dịch, hãy dùng 'so'. Hãy chọn liên từ phù hợp với logic. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The traffic was terrible, we arrived late.",
+    "output": "✅ **Corrected Sentence:** The traffic was terrible, so we arrived late. / Because the traffic was terrible, we arrived late.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Nguyên nhân (traffic) – kết quả (late). Cần 'so' hoặc chuyển thành câu phức với 'because'. Dấu phẩy không làm được điều này. 🚦"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She sings beautifully, she plays the piano well.",
+    "output": "✅ **Corrected Sentence:** She sings beautifully and plays the piano well. / She sings beautifully; she also plays the piano well.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Có thể gộp chung bằng 'and' mà không lặp chủ ngữ. Đây là cách hay hơn là dùng dấu phẩy. Hãy luyện tập viết câu ngắn gọn. 🎤🎹"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I want to lose weight, I eat salad every day.",
+    "output": "✅ **Corrected Sentence:** I want to lose weight, so I eat salad every day. / I want to lose weight; therefore, I eat salad every day.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Mục đích - hành động. Thêm 'so' để thể hiện logic. Đừng viết 'Tôi muốn giảm cân, tôi ăn salad mỗi ngày' mà không có từ nối. 🥗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The movie was long, it was boring.",
+    "output": "✅ **Corrected Sentence:** The movie was long and boring. / The movie was long; it was also boring. / The movie was long, and it was boring.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hai tính từ cùng miêu tả phim có thể gộp bằng 'and'. Cách viết 'The movie was long, it was boring' là comma splice. Hãy sửa. 🎬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He didn't study, he failed the exam.",
+    "output": "✅ **Corrected Sentence:** He didn't study, so he failed the exam. / He didn't study; therefore, he failed the exam.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Lỗi rất phổ biến. Hãy nhớ: không học → trượt, cần 'so' hoặc 'therefore'. Đừng chỉ dùng phẩy. 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is a doctor, her husband is a lawyer.",
+    "output": "✅ **Corrected Sentence:** She is a doctor, and her husband is a lawyer. / She is a doctor; her husband is a lawyer. / She is a doctor. Her husband is a lawyer.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hai câu đơn giản liệt kê thông tin. Cần 'and' hoặc dấu chấm phẩy. Dấu phẩy không đủ. 👩‍⚕️👨‍⚖️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The water was cold, we decided not to swim.",
+    "output": "✅ **Corrected Sentence:** The water was cold, so we decided not to swim. / Because the water was cold, we decided not to swim.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Lý do - quyết định. Cần 'so' hoặc chuyển thành câu phức. Hãy sửa lỗi này. 🏊‍♀️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I love you, you love me.",
+    "output": "✅ **Corrected Sentence:** I love you, and you love me. / I love you; you love me. / We love each other.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Câu hát nổi tiếng 'I love you, you love me' thực ra là comma splice. Để đúng ngữ pháp, cần 'and' hoặc dấu chấm phẩy. Hãy nhớ điều này khi viết. ❤️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He woke up late, he rushed to work.",
+    "output": "✅ **Corrected Sentence:** He woke up late, so he rushed to work. / He woke up late; therefore, he rushed to work.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Dậy muộn → vội vàng. Thêm 'so'. Người Việt thường quên từ nối này. ⏰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The book is interesting, I read it twice.",
+    "output": "✅ **Corrected Sentence:** The book is interesting, so I read it twice. / The book is interesting; therefore, I read it twice.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Sách hay → đọc hai lần. Quan hệ nhân quả cần 'so'. Sửa ngay. 📖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is very kind, she always helps the poor.",
+    "output": "✅ **Corrected Sentence:** She is very kind, and she always helps the poor. / She is very kind; she always helps the poor.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hai câu bổ nghĩa cho nhau, có thể dùng 'and' hoặc dấu chấm phẩy. Đừng chỉ dùng phẩy. 💖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The train was late, we missed the meeting.",
+    "output": "✅ **Corrected Sentence:** The train was late, so we missed the meeting. / Because the train was late, we missed the meeting.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Tàu muộn → lỡ họp. Cần 'so'. Hãy sửa lỗi này để viết chuyên nghiệp hơn. 🚂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is rich, he is generous.",
+    "output": "✅ **Corrected Sentence:** He is rich and generous. / He is rich; he is also generous. / He is rich, and he is generous.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Có thể gộp tính từ bằng 'and'. Hoặc dùng dấu chấm phẩy. Không dùng phẩy trần. 💰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I was sick, I stayed in bed.",
+    "output": "✅ **Corrected Sentence:** I was sick, so I stayed in bed. / I was sick; therefore, I stayed in bed.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Ốm → nằm trên giường. Quan hệ nhân quả. Thêm 'so'. 🤒"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He drives fast, he is a good driver.",
+    "output": "✅ **Corrected Sentence:** He drives fast, but he is a good driver. / He drives fast; however, he is a good driver. / Although he drives fast, he is a good driver.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Lái nhanh nhưng vẫn giỏi – cần 'but' hoặc 'however'. Đừng viết 'Anh ấy lái nhanh, anh ấy là tài xế giỏi' bằng phẩy. 🚗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She closed the window, the room got warmer.",
+    "output": "✅ **Corrected Sentence:** She closed the window, so the room got warmer. / She closed the window; consequently, the room got warmer.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Đóng cửa sổ → phòng ấm hơn. Thêm 'so'. Hãy nhớ quy tắc này. 🪟"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The music was loud, I couldn't sleep.",
+    "output": "✅ **Corrected Sentence:** The music was loud, so I couldn't sleep. / Because the music was loud, I couldn't sleep.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Nhạc to → không ngủ được. Cần 'so' hoặc 'because'. Đừng dùng phẩy. 🎵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is very tall, he plays basketball.",
+    "output": "✅ **Corrected Sentence:** He is very tall, and he plays basketball. / He is very tall; he plays basketball. / He is very tall, so he plays basketball.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Có thể dùng 'and' hoặc 'so' (nếu ý là nhờ cao nên chơi bóng rổ). Hãy chọn liên từ phù hợp. 🏀"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The phone battery died, I couldn't call you.",
+    "output": "✅ **Corrected Sentence:** The phone battery died, so I couldn't call you. / Because the phone battery died, I couldn't call you.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hết pin → không gọi được. Thêm 'so'. Đây là lỗi thường gặp trong email. 📱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I love reading books, my sister loves watching movies.",
+    "output": "✅ **Corrected Sentence:** I love reading books, but my sister loves watching movies. / I love reading books; my sister, on the other hand, loves watching movies.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Tương phản giữa hai sở thích cần 'but'. Dấu phẩy không thể hiện được điều đó. 📚🎬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The coffee was too hot, I burned my tongue.",
+    "output": "✅ **Corrected Sentence:** The coffee was too hot, so I burned my tongue. / The coffee was too hot; therefore, I burned my tongue.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Cà phê nóng quá → bỏng lưỡi. Thêm 'so'. Hãy sửa lỗi này. ☕🔥"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She worked hard, she got promoted.",
+    "output": "✅ **Corrected Sentence:** She worked hard, so she got promoted. / She worked hard; therefore, she got promoted.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Làm việc chăm chỉ → được thăng chức. Cần 'so'. Hãy nhớ: dấu phẩy không thể thay thế 'so'. 📈"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The lesson was difficult, I didn't understand it.",
+    "output": "✅ **Corrected Sentence:** The lesson was difficult, so I didn't understand it. / Because the lesson was difficult, I didn't understand it.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Bài khó → không hiểu. Thêm 'so'. Người Việt hay mắc lỗi này trong bài tập. 📖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is very strong, he can lift heavy weights.",
+    "output": "✅ **Corrected Sentence:** He is very strong, so he can lift heavy weights. / He is very strong; therefore, he can lift heavy weights.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Mạnh → nâng tạ nặng. Quan hệ nhân quả. Thêm 'so'. 💪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The store was closed, we went home.",
+    "output": "✅ **Corrected Sentence:** The store was closed, so we went home. / Because the store was closed, we went home.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Cửa hàng đóng → về nhà. Thêm 'so'. Đây là lỗi cơ bản cần sửa. 🏪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is funny, everyone likes her.",
+    "output": "✅ **Corrected Sentence:** She is funny, so everyone likes her. / She is funny; therefore, everyone likes her.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hài hước → được yêu mến. Thêm 'so'. Hãy nhớ quy tắc này. 😂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I ran out of money, I couldn't buy the ticket.",
+    "output": "✅ **Corrected Sentence:** I ran out of money, so I couldn't buy the ticket. / I ran out of money; therefore, I couldn't buy the ticket.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hết tiền → không mua vé. Thêm 'so'. Sửa lỗi này ngay. 💸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is lazy, he never finishes his work.",
+    "output": "✅ **Corrected Sentence:** He is lazy, so he never finishes his work. / He is lazy; therefore, he never finishes his work.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Lười → không bao giờ hoàn thành việc. Thêm 'so'. 😴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The soup was salty, I didn't eat it.",
+    "output": "✅ **Corrected Sentence:** The soup was salty, so I didn't eat it. / Because the soup was salty, I didn't eat it.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Canh mặn → không ăn. Thêm 'so'. Hãy sửa. 🥣"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He speaks very softly, I can barely hear him.",
+    "output": "✅ **Corrected Sentence:** He speaks very softly, so I can barely hear him. / He speaks very softly; therefore, I can barely hear him.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Nói nhỏ → hầu như không nghe thấy. Thêm 'so'. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She practices piano every day, she is getting better.",
+    "output": "✅ **Corrected Sentence:** She practices piano every day, so she is getting better. / She practices piano every day; consequently, she is getting better.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Luyện tập hàng ngày → tiến bộ. Thêm 'so'. 🎹"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The room was messy, I cleaned it.",
+    "output": "✅ **Corrected Sentence:** The room was messy, so I cleaned it. / The room was messy; therefore, I cleaned it. / Because the room was messy, I cleaned it.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Bừa bộn → dọn dẹp. Thêm 'so'. 🧹"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He ate too much, he felt sick.",
+    "output": "✅ **Corrected Sentence:** He ate too much, so he felt sick. / He ate too much; therefore, he felt sick.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Ăn quá nhiều → cảm thấy ốm. Thêm 'so'. 🤢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The movie was scary, I closed my eyes.",
+    "output": "✅ **Corrected Sentence:** The movie was scary, so I closed my eyes. / The movie was scary; therefore, I closed my eyes.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Phim đáng sợ → nhắm mắt. Thêm 'so'. 👻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is allergic to peanuts, she never eats them.",
+    "output": "✅ **Corrected Sentence:** She is allergic to peanuts, so she never eats them. / Because she is allergic to peanuts, she never eats them.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Dị ứng đậu phộng → không bao giờ ăn. Thêm 'so'. 🥜"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He forgot his password, he couldn't log in.",
+    "output": "✅ **Corrected Sentence:** He forgot his password, so he couldn't log in. / He forgot his password; therefore, he couldn't log in.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Quên mật khẩu → không đăng nhập được. Thêm 'so'. 🔑"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The baby cried, the mother picked her up.",
+    "output": "✅ **Corrected Sentence:** The baby cried, so the mother picked her up. / When the baby cried, the mother picked her up.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Em bé khóc → mẹ bế lên. Thêm 'so' hoặc chuyển thành câu phức với 'when'. 👶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I have a test tomorrow, I need to study tonight.",
+    "output": "✅ **Corrected Sentence:** I have a test tomorrow, so I need to study tonight. / I have a test tomorrow; therefore, I need to study tonight.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Có bài kiểm tra → cần học. Thêm 'so'. 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The sun was shining, we went to the beach.",
+    "output": "✅ **Corrected Sentence:** The sun was shining, so we went to the beach. / Because the sun was shining, we went to the beach.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Nắng → đi biển. Thêm 'so'. ☀️🏖️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is very busy, he still helps me.",
+    "output": "✅ **Corrected Sentence:** He is very busy, but he still helps me. / He is very busy; however, he still helps me.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Bận rộn nhưng vẫn giúp – cần 'but'. Hãy sửa. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The dress was beautiful, I bought it.",
+    "output": "✅ **Corrected Sentence:** The dress was beautiful, so I bought it. / The dress was beautiful; therefore, I bought it.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Váy đẹp → mua. Thêm 'so'. 👗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She didn't study for the test, she got a low score.",
+    "output": "✅ **Corrected Sentence:** She didn't study for the test, so she got a low score. / She didn't study for the test; therefore, she got a low score.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Không học → điểm thấp. Thêm 'so'. 📉"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I love pizza, it's my favorite food.",
+    "output": "✅ **Corrected Sentence:** I love pizza; it's my favorite food. / I love pizza. It's my favorite food. / I love pizza because it's my favorite food.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Có thể dùng dấu chấm phẩy hoặc tách câu. Dấu phẩy không đủ. 🍕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is a talented musician, he plays guitar very well.",
+    "output": "✅ **Corrected Sentence:** He is a talented musician, and he plays guitar very well. / He is a talented musician; he plays guitar very well.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Dùng 'and' hoặc dấu chấm phẩy. Không dùng phẩy. 🎸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The weather forecast said rain, I brought an umbrella.",
+    "output": "✅ **Corrected Sentence:** The weather forecast said rain, so I brought an umbrella. / Because the weather forecast said rain, I brought an umbrella.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Dự báo mưa → mang ô. Thêm 'so'. ☔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is very patient, she never gets angry.",
+    "output": "✅ **Corrected Sentence:** She is very patient, so she never gets angry. / She is very patient; therefore, she never gets angry.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Kiên nhẫn → không nổi giận. Thêm 'so'. 😌"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He didn't wear a coat, he was cold.",
+    "output": "✅ **Corrected Sentence:** He didn't wear a coat, so he was cold. / He didn't wear a coat; therefore, he was cold.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Không mặc áo → lạnh. Thêm 'so'. ❄️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The car broke down, we called a mechanic.",
+    "output": "✅ **Corrected Sentence:** The car broke down, so we called a mechanic. / The car broke down; therefore, we called a mechanic.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Xe hỏng → gọi thợ. Thêm 'so'. 🔧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is a vegetarian, she doesn't eat meat.",
+    "output": "✅ **Corrected Sentence:** She is a vegetarian, so she doesn't eat meat. / She is a vegetarian; therefore, she doesn't eat meat.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Ăn chay → không ăn thịt. Thêm 'so'. 🥬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I'm tired, I want to sleep.",
+    "output": "✅ **Corrected Sentence:** I'm tired, so I want to sleep. / I'm tired; therefore, I want to sleep.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Mệt → muốn ngủ. Thêm 'so'. 😴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is an excellent cook, he prepares dinner every night.",
+    "output": "✅ **Corrected Sentence:** He is an excellent cook, and he prepares dinner every night. / He is an excellent cook; he prepares dinner every night.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Dùng 'and' hoặc dấu chấm phẩy. Hãy sửa. 🍳"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The laptop is expensive, it has many features.",
+    "output": "✅ **Corrected Sentence:** The laptop is expensive, but it has many features. / The laptop is expensive; however, it has many features.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Đắt nhưng nhiều tính năng – cần 'but'. 💻"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She didn't hear the alarm, she overslept.",
+    "output": "✅ **Corrected Sentence:** She didn't hear the alarm, so she overslept. / She didn't hear the alarm; therefore, she overslept.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Không nghe thấy báo thức → ngủ quên. Thêm 'so'. ⏰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is very polite, everyone respects him.",
+    "output": "✅ **Corrected Sentence:** He is very polite, so everyone respects him. / He is very polite; therefore, everyone respects him.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Lịch sự → được tôn trọng. Thêm 'so'. 🙇"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The garden is beautiful, I take photos every day.",
+    "output": "✅ **Corrected Sentence:** The garden is beautiful, so I take photos every day. / The garden is beautiful; therefore, I take photos every day.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Vườn đẹp → chụp ảnh mỗi ngày. Thêm 'so'. 📸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I forgot to set the alarm, I woke up late.",
+    "output": "✅ **Corrected Sentence:** I forgot to set the alarm, so I woke up late. / I forgot to set the alarm; therefore, I woke up late.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Quên đặt báo thức → dậy muộn. Thêm 'so'. ⏰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is very organized, her desk is always tidy.",
+    "output": "✅ **Corrected Sentence:** She is very organized, so her desk is always tidy. / She is very organized; therefore, her desk is always tidy.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Ngăn nắp → bàn luôn gọn gàng. Thêm 'so'. 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is afraid of heights, he never climbs ladders.",
+    "output": "✅ **Corrected Sentence:** He is afraid of heights, so he never climbs ladders. / He is afraid of heights; therefore, he never climbs ladders.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Sợ độ cao → không leo thang. Thêm 'so'. 🪜"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The tea was bitter, I added sugar.",
+    "output": "✅ **Corrected Sentence:** The tea was bitter, so I added sugar. / The tea was bitter; therefore, I added sugar.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Trà đắng → thêm đường. Thêm 'so'. 🍵"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is a good listener, people trust him.",
+    "output": "✅ **Corrected Sentence:** He is a good listener, so people trust him. / He is a good listener; therefore, people trust him.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Lắng nghe tốt → được tin tưởng. Thêm 'so'. 👂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The river is deep, you shouldn't swim here.",
+    "output": "✅ **Corrected Sentence:** The river is deep, so you shouldn't swim here. / The river is deep; therefore, you shouldn't swim here.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Sông sâu → không nên bơi. Thêm 'so'. 🌊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She runs every morning, she is very fit.",
+    "output": "✅ **Corrected Sentence:** She runs every morning, so she is very fit. / She runs every morning; therefore, she is very fit.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Chạy mỗi sáng → rất khỏe. Thêm 'so'. 🏃‍♀️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is a great leader, everyone follows him.",
+    "output": "✅ **Corrected Sentence:** He is a great leader, so everyone follows him. / He is a great leader; therefore, everyone follows him.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Lãnh đạo giỏi → được đi theo. Thêm 'so'. 👨‍💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The cake was delicious, I ate two slices.",
+    "output": "✅ **Corrected Sentence:** The cake was delicious, so I ate two slices. / The cake was delicious; therefore, I ate two slices.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Bánh ngon → ăn hai miếng. Thêm 'so'. 🍰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is very funny, he makes everyone laugh.",
+    "output": "✅ **Corrected Sentence:** He is very funny, so he makes everyone laugh. / He is very funny; therefore, he makes everyone laugh.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hài hước → làm mọi người cười. Thêm 'so'. 😂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The room was too small, we couldn't fit everyone.",
+    "output": "✅ **Corrected Sentence:** The room was too small, so we couldn't fit everyone. / The room was too small; therefore, we couldn't fit everyone.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Phòng quá nhỏ → không đủ chỗ. Thêm 'so'. 🚪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is very creative, she always comes up with new ideas.",
+    "output": "✅ **Corrected Sentence:** She is very creative, so she always comes up with new ideas. / She is very creative; therefore, she always comes up with new ideas.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Sáng tạo → luôn có ý tưởng mới. Thêm 'so'. 💡"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He didn't check the oil, his engine broke down.",
+    "output": "✅ **Corrected Sentence:** He didn't check the oil, so his engine broke down. / He didn't check the oil; therefore, his engine broke down.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Không kiểm tra dầu → động cơ hỏng. Thêm 'so'. 🛢️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is very generous, she donates to charity every month.",
+    "output": "✅ **Corrected Sentence:** She is very generous, so she donates to charity every month. / She is very generous; therefore, she donates to charity every month.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hào phóng → quyên góp hàng tháng. Thêm 'so'. 🎁"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The bridge was narrow, we had to cross one by one.",
+    "output": "✅ **Corrected Sentence:** The bridge was narrow, so we had to cross one by one. / The bridge was narrow; therefore, we had to cross one by one.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Cầu hẹp → phải qua lần lượt. Thêm 'so'. 🌉"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is a hard worker, he deserves a promotion.",
+    "output": "✅ **Corrected Sentence:** He is a hard worker, so he deserves a promotion. / He is a hard worker; therefore, he deserves a promotion.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Làm việc chăm chỉ → xứng đáng thăng chức. Thêm 'so'. 📈"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I missed the train, I had to wait an hour.",
+    "output": "✅ **Corrected Sentence:** I missed the train, so I had to wait an hour. / I missed the train; therefore, I had to wait an hour.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Lỡ tàu → phải đợi một tiếng. Thêm 'so'. 🚆"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is very ambitious, she wants to be CEO.",
+    "output": "✅ **Corrected Sentence:** She is very ambitious, so she wants to be CEO. / She is very ambitious; therefore, she wants to be CEO.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Tham vọng → muốn làm CEO. Thêm 'so'. 👩‍💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He ate too quickly, he got a stomachache.",
+    "output": "✅ **Corrected Sentence:** He ate too quickly, so he got a stomachache. / He ate too quickly; therefore, he got a stomachache.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Ăn quá nhanh → đau bụng. Thêm 'so'. 🍽️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The internet connection was slow, I couldn't watch the video.",
+    "output": "✅ **Corrected Sentence:** The internet connection was slow, so I couldn't watch the video. / The internet connection was slow; therefore, I couldn't watch the video.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Mạng chậm → không xem video được. Thêm 'so'. 🌐"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is very shy, she doesn't speak in public.",
+    "output": "✅ **Corrected Sentence:** She is very shy, so she doesn't speak in public. / She is very shy; therefore, she doesn't speak in public.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Nhút nhát → không nói trước công chúng. Thêm 'so'. 🎤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He lost his wallet, he couldn't pay for the meal.",
+    "output": "✅ **Corrected Sentence:** He lost his wallet, so he couldn't pay for the meal. / He lost his wallet; therefore, he couldn't pay for the meal.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Mất ví → không trả tiền ăn. Thêm 'so'. 👛"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The museum was closed, we decided to go to the park.",
+    "output": "✅ **Corrected Sentence:** The museum was closed, so we decided to go to the park. / The museum was closed; therefore, we decided to go to the park.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Bảo tàng đóng cửa → quyết định đi công viên. Thêm 'so'. 🏛️🌳"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I have a headache, I need to rest.",
+    "output": "✅ **Corrected Sentence:** I have a headache, so I need to rest. / I have a headache; therefore, I need to rest.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Đau đầu → cần nghỉ ngơi. Thêm 'so'. 🤕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is very honest, he never tells lies.",
+    "output": "✅ **Corrected Sentence:** He is very honest, so he never tells lies. / He is very honest; therefore, he never tells lies.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Thật thà → không bao giờ nói dối. Thêm 'so'. 🤥"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The shoes were uncomfortable, I returned them.",
+    "output": "✅ **Corrected Sentence:** The shoes were uncomfortable, so I returned them. / The shoes were uncomfortable; therefore, I returned them.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Giày không thoải mái → trả lại. Thêm 'so'. 👟"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is a fast learner, she picked up Spanish quickly.",
+    "output": "✅ **Corrected Sentence:** She is a fast learner, so she picked up Spanish quickly. / She is a fast learner; therefore, she picked up Spanish quickly.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Học nhanh → tiếp thu tiếng Tây Ban Nha nhanh. Thêm 'so'. 🇪🇸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He didn't warm up before exercising, he injured his muscle.",
+    "output": "✅ **Corrected Sentence:** He didn't warm up before exercising, so he injured his muscle. / He didn't warm up before exercising; therefore, he injured his muscle.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Không khởi động → chấn thương cơ. Thêm 'so'. 🏋️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The phone screen cracked, I need to get it repaired.",
+    "output": "✅ **Corrected Sentence:** The phone screen cracked, so I need to get it repaired. / The phone screen cracked; therefore, I need to get it repaired.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Màn hình điện thoại nứt → cần sửa. Thêm 'so'. 📱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is very disciplined, she wakes up at 5 AM every day.",
+    "output": "✅ **Corrected Sentence:** She is very disciplined, so she wakes up at 5 AM every day. / She is very disciplined; therefore, she wakes up at 5 AM every day.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Kỷ luật → dậy lúc 5h sáng. Thêm 'so'. 🌅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is very optimistic, he always sees the bright side.",
+    "output": "✅ **Corrected Sentence:** He is very optimistic, so he always sees the bright side. / He is very optimistic; therefore, he always sees the bright side.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Lạc quan → luôn nhìn mặt tích cực. Thêm 'so'. ☀️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The restaurant was crowded, we had to wait for a table.",
+    "output": "✅ **Corrected Sentence:** The restaurant was crowded, so we had to wait for a table. / The restaurant was crowded; therefore, we had to wait for a table.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Nhà hàng đông → phải chờ bàn. Thêm 'so'. 🍽️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "I'm allergic to cats, I can't visit your house.",
+    "output": "✅ **Corrected Sentence:** I'm allergic to cats, so I can't visit your house. / I'm allergic to cats; therefore, I can't visit your house.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Dị ứng mèo → không thể đến nhà bạn. Thêm 'so'. 🐱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He forgot his umbrella, he got wet in the rain.",
+    "output": "✅ **Corrected Sentence:** He forgot his umbrella, so he got wet in the rain. / He forgot his umbrella; therefore, he got wet in the rain.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Quên ô → ướt mưa. Thêm 'so'. 🌧️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is very efficient, she completes tasks quickly.",
+    "output": "✅ **Corrected Sentence:** She is very efficient, so she completes tasks quickly. / She is very efficient; therefore, she completes tasks quickly.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hiệu quả → hoàn thành nhanh. Thêm 'so'. ⚡"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The movie was too long, I felt bored.",
+    "output": "✅ **Corrected Sentence:** The movie was too long, so I felt bored. / The movie was too long; therefore, I felt bored.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Phim quá dài → cảm thấy chán. Thêm 'so'. 🎥"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "He is very curious, he asks many questions.",
+    "output": "✅ **Corrected Sentence:** He is very curious, so he asks many questions. / He is very curious; therefore, he asks many questions.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Tò mò → hỏi nhiều. Thêm 'so'. ❓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "The printer ran out of ink, I couldn't print my report.",
+    "output": "✅ **Corrected Sentence:** The printer ran out of ink, so I couldn't print my report. / The printer ran out of ink; therefore, I couldn't print my report.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Hết mực in → không in được báo cáo. Thêm 'so'. 🖨️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu ghép sai) trong câu sau của học viên.",
+    "input": "She is very passionate, she works tirelessly.",
+    "output": "✅ **Corrected Sentence:** She is very passionate, so she works tirelessly. / She is very passionate; therefore, she works tirelessly.\n\n🔍 **Error Identification:** Comma Splice\n\n📖 **Vietnamese Explanation:** Đam mê → làm việc không mệt mỏi. Thêm 'so'. 🔥"
+  }
+]

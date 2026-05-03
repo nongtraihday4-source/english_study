@@ -1,0 +1,1996 @@
+[
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "wake up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/weɪk ʌp/",
+      "ipa_us": "/weɪk ʌp/",
+      "meaning_vi": "tỉnh dậy sau giấc ngủ",
+      "definition_en": "To stop sleeping and become conscious.",
+      "example_en": "I usually wake up at 7 o'clock every morning.",
+      "example_vi": "Tôi thường tỉnh dậy lúc 7 giờ mỗi sáng.",
+      "collocations_json": [
+        "wake up early",
+        "wake up late",
+        "wake up naturally"
+      ],
+      "synonyms_json": [
+        "awaken",
+        "stir"
+      ],
+      "antonyms_json": [
+        "fall asleep",
+        "go to sleep"
+      ],
+      "mnemonic": "Wake là tỉnh giấc, up là dậy, wake up là thức dậy.",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10000
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "get up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡet ʌp/",
+      "ipa_us": "/ɡet ʌp/",
+      "meaning_vi": "rời khỏi giường, đứng dậy",
+      "definition_en": "To rise from bed after sleeping.",
+      "example_en": "After I wake up, I get up and make coffee.",
+      "example_vi": "Sau khi thức dậy, tôi rời giường và pha cà phê.",
+      "collocations_json": [
+        "get up early",
+        "get up late",
+        "get up quickly"
+      ],
+      "synonyms_json": [
+        "rise",
+        "stand up"
+      ],
+      "antonyms_json": [
+        "lie down",
+        "go to bed"
+      ],
+      "mnemonic": "Get up nghĩa là đứng dậy, lên khỏi giường.",
+      "frequency_rank": 950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10001
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "brush teeth",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/brʌʃ tiːθ/",
+      "ipa_us": "/brʌʃ tiːθ/",
+      "meaning_vi": "đánh răng",
+      "definition_en": "To clean your teeth with a toothbrush and toothpaste.",
+      "example_en": "It's important to brush your teeth twice a day.",
+      "example_vi": "Điều quan trọng là đánh răng hai lần một ngày.",
+      "collocations_json": [
+        "brush your teeth thoroughly",
+        "brush your teeth before bed"
+      ],
+      "synonyms_json": [
+        "clean teeth"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Brush là chải, teeth là răng, brush teeth là đánh răng.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10002
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "take a shower",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/teɪk ə ˈʃaʊər/",
+      "ipa_us": "/teɪk ə ˈʃaʊər/",
+      "meaning_vi": "tắm vòi sen",
+      "definition_en": "To wash your body by standing under a flow of water.",
+      "example_en": "I always take a shower in the morning to feel fresh.",
+      "example_vi": "Tôi luôn tắm vòi sen vào buổi sáng để cảm thấy sảng khoái.",
+      "collocations_json": [
+        "take a quick shower",
+        "take a hot shower"
+      ],
+      "synonyms_json": [
+        "have a shower",
+        "bathe"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Take a shower là tắm vòi sen, take a bath là tắm bồn.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10003
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "get dressed",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡet drest/",
+      "ipa_us": "/ɡet drest/",
+      "meaning_vi": "mặc quần áo",
+      "definition_en": "To put on your clothes.",
+      "example_en": "After breakfast, I get dressed for work.",
+      "example_vi": "Sau bữa sáng, tôi mặc quần áo đi làm.",
+      "collocations_json": [
+        "get dressed quickly",
+        "get dressed for school"
+      ],
+      "synonyms_json": [
+        "put on clothes",
+        "dress up"
+      ],
+      "antonyms_json": [
+        "undress",
+        "get undressed"
+      ],
+      "mnemonic": "Get dressed là mặc quần áo vào người.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10004
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "have breakfast",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/hæv ˈbrekfəst/",
+      "ipa_us": "/hæv ˈbrekfəst/",
+      "meaning_vi": "ăn sáng",
+      "definition_en": "To eat the first meal of the day.",
+      "example_en": "My family always have breakfast together.",
+      "example_vi": "Gia đình tôi luôn ăn sáng cùng nhau.",
+      "collocations_json": [
+        "have a light breakfast",
+        "have breakfast out"
+      ],
+      "synonyms_json": [
+        "eat breakfast"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Have breakfast là ăn sáng, have lunch là ăn trưa, have dinner là ăn tối.",
+      "frequency_rank": 1100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10005
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "go to work/school",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡəʊ tə wɜːk/ /skuːl/",
+      "ipa_us": "/ɡoʊ tə wɜːrk/ /skuːl/",
+      "meaning_vi": "đi làm/đi học",
+      "definition_en": "To travel to your place of employment or education.",
+      "example_en": "I go to work by bus every weekday.",
+      "example_vi": "Tôi đi làm bằng xe buýt vào các ngày trong tuần.",
+      "collocations_json": [
+        "go to work early",
+        "go to school by bike"
+      ],
+      "synonyms_json": [
+        "commute",
+        "attend work/school"
+      ],
+      "antonyms_json": [
+        "go home",
+        "leave work/school"
+      ],
+      "mnemonic": "Go to work là đi làm, go to school là đi học.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10006
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "start work/school",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/stɑːt wɜːk/ /skuːl/",
+      "ipa_us": "/stɑːrt wɜːrk/ /skuːl/",
+      "meaning_vi": "bắt đầu làm việc/học",
+      "definition_en": "To begin your job or classes for the day.",
+      "example_en": "My classes start at 9 AM, so I need to be on time.",
+      "example_vi": "Các lớp học của tôi bắt đầu lúc 9 giờ sáng, vì vậy tôi cần đúng giờ.",
+      "collocations_json": [
+        "start work early",
+        "start school year"
+      ],
+      "synonyms_json": [
+        "begin work/school"
+      ],
+      "antonyms_json": [
+        "finish work/school",
+        "end work/school"
+      ],
+      "mnemonic": "Start là bắt đầu, work là làm việc, school là trường học.",
+      "frequency_rank": 1300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10007
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "have lunch",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/hæv lʌntʃ/",
+      "ipa_us": "/hæv lʌntʃ/",
+      "meaning_vi": "ăn trưa",
+      "definition_en": "To eat the midday meal.",
+      "example_en": "I usually have lunch with my colleagues at the office.",
+      "example_vi": "Tôi thường ăn trưa với đồng nghiệp ở văn phòng.",
+      "collocations_json": [
+        "have a quick lunch",
+        "have lunch break"
+      ],
+      "synonyms_json": [
+        "eat lunch"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Have lunch là ăn trưa, bữa ăn giữa ngày.",
+      "frequency_rank": 1150,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10008
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "finish work/school",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈfɪnɪʃ wɜːk/ /skuːl/",
+      "ipa_us": "/ˈfɪnɪʃ wɜːrk/ /skuːl/",
+      "meaning_vi": "kết thúc công việc/học",
+      "definition_en": "To complete your job or classes for the day.",
+      "example_en": "I finish work at 5 PM and then head home.",
+      "example_vi": "Tôi kết thúc công việc lúc 5 giờ chiều và sau đó về nhà.",
+      "collocations_json": [
+        "finish work late",
+        "finish school early"
+      ],
+      "synonyms_json": [
+        "end work/school",
+        "complete work/school"
+      ],
+      "antonyms_json": [
+        "start work/school",
+        "begin work/school"
+      ],
+      "mnemonic": "Finish là hoàn thành, kết thúc công việc hoặc học.",
+      "frequency_rank": 1400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10009
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "go home",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡəʊ həʊm/",
+      "ipa_us": "/ɡoʊ hoʊm/",
+      "meaning_vi": "về nhà",
+      "definition_en": "To return to your house or place of residence.",
+      "example_en": "After a long day, I just want to go home and relax.",
+      "example_vi": "Sau một ngày dài, tôi chỉ muốn về nhà và thư giãn.",
+      "collocations_json": [
+        "go home early",
+        "go straight home"
+      ],
+      "synonyms_json": [
+        "return home",
+        "head home"
+      ],
+      "antonyms_json": [
+        "leave home"
+      ],
+      "mnemonic": "Go home là về nhà, nơi quen thuộc của mình.",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10010
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "make dinner",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/meɪk ˈdɪnər/",
+      "ipa_us": "/meɪk ˈdɪnər/",
+      "meaning_vi": "nấu bữa tối",
+      "definition_en": "To prepare the evening meal.",
+      "example_en": "My mom usually makes dinner for the whole family.",
+      "example_vi": "Mẹ tôi thường nấu bữa tối cho cả gia đình.",
+      "collocations_json": [
+        "make a quick dinner",
+        "make dinner together"
+      ],
+      "synonyms_json": [
+        "cook dinner",
+        "prepare dinner"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Make dinner là nấu bữa tối, make breakfast là nấu bữa sáng.",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10011
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "eat dinner",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/iːt ˈdɪnər/",
+      "ipa_us": "/iːt ˈdɪnər/",
+      "meaning_vi": "ăn tối",
+      "definition_en": "To consume the evening meal.",
+      "example_en": "We eat dinner together as a family every night.",
+      "example_vi": "Chúng tôi ăn tối cùng nhau như một gia đình mỗi tối.",
+      "collocations_json": [
+        "eat dinner early",
+        "eat dinner out"
+      ],
+      "synonyms_json": [
+        "have dinner"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Eat dinner là ăn tối, bữa ăn cuối cùng trong ngày.",
+      "frequency_rank": 1050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10012
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "do homework",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/duː ˈhəʊmwɜːk/",
+      "ipa_us": "/duː ˈhoʊmwɜːrk/",
+      "meaning_vi": "làm bài tập về nhà",
+      "definition_en": "To complete school assignments given to be done at home.",
+      "example_en": "My kids always do their homework right after school.",
+      "example_vi": "Các con tôi luôn làm bài tập về nhà ngay sau khi tan học.",
+      "collocations_json": [
+        "do homework diligently",
+        "do homework online"
+      ],
+      "synonyms_json": [
+        "complete assignments"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Do homework là làm bài tập về nhà.",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10013
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "watch TV",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/wɒtʃ tiːˈviː/",
+      "ipa_us": "/wɑːtʃ tiːˈviː/",
+      "meaning_vi": "xem TV",
+      "definition_en": "To view television programs.",
+      "example_en": "In the evening, I like to relax and watch TV.",
+      "example_vi": "Vào buổi tối, tôi thích thư giãn và xem TV.",
+      "collocations_json": [
+        "watch TV shows",
+        "watch TV news"
+      ],
+      "synonyms_json": [
+        "view television"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Watch là xem, TV là ti vi, watch TV là xem ti vi.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10014
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "read a book",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/riːd ə bʊk/",
+      "ipa_us": "/riːd ə bʊk/",
+      "meaning_vi": "đọc sách",
+      "definition_en": "To look at and comprehend the words in a book.",
+      "example_en": "Before bed, I always read a book for about 30 minutes.",
+      "example_vi": "Trước khi đi ngủ, tôi luôn đọc sách khoảng 30 phút.",
+      "collocations_json": [
+        "read a good book",
+        "read an interesting book"
+      ],
+      "synonyms_json": [
+        "peruse a book"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Read là đọc, book là sách, read a book là đọc sách.",
+      "frequency_rank": 1350,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10015
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "go to bed",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡəʊ tə bed/",
+      "ipa_us": "/ɡoʊ tə bed/",
+      "meaning_vi": "đi ngủ",
+      "definition_en": "To lie down in bed to sleep.",
+      "example_en": "I usually go to bed around 10 PM on weekdays.",
+      "example_vi": "Tôi thường đi ngủ khoảng 10 giờ tối vào các ngày trong tuần.",
+      "collocations_json": [
+        "go to bed early",
+        "go to bed late"
+      ],
+      "synonyms_json": [
+        "retire to bed",
+        "turn in"
+      ],
+      "antonyms_json": [
+        "get up",
+        "wake up"
+      ],
+      "mnemonic": "Go to bed là đi ngủ, lên giường ngủ.",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10016
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "fall asleep",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/fɔːl əˈsliːp/",
+      "ipa_us": "/fɑːl əˈsliːp/",
+      "meaning_vi": "chìm vào giấc ngủ",
+      "definition_en": "To begin to sleep.",
+      "example_en": "Sometimes it takes me a while to fall asleep.",
+      "example_vi": "Đôi khi tôi mất một lúc mới chìm vào giấc ngủ.",
+      "collocations_json": [
+        "fall asleep quickly",
+        "fall asleep easily"
+      ],
+      "synonyms_json": [
+        "doze off",
+        "drop off"
+      ],
+      "antonyms_json": [
+        "wake up",
+        "stay awake"
+      ],
+      "mnemonic": "Fall asleep là rơi vào giấc ngủ, chìm vào giấc ngủ.",
+      "frequency_rank": 1900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10017
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "set an alarm",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/set ən əˈlɑːm/",
+      "ipa_us": "/set ən əˈlɑːrm/",
+      "meaning_vi": "đặt báo thức",
+      "definition_en": "To program a device to make a sound at a specific time.",
+      "example_en": "I always set an alarm to make sure I wake up on time.",
+      "example_vi": "Tôi luôn đặt báo thức để đảm bảo mình thức dậy đúng giờ.",
+      "collocations_json": [
+        "set an alarm clock",
+        "set a morning alarm"
+      ],
+      "synonyms_json": [
+        "program an alarm"
+      ],
+      "antonyms_json": [
+        "turn off an alarm"
+      ],
+      "mnemonic": "Set an alarm là đặt chuông báo thức.",
+      "frequency_rank": 2100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10018
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "do chores",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/duː tʃɔːrz/",
+      "ipa_us": "/duː tʃɔːrz/",
+      "meaning_vi": "làm việc nhà, làm việc vặt",
+      "definition_en": "To perform routine tasks around the house.",
+      "example_en": "My children help me do chores every Saturday morning.",
+      "example_vi": "Các con tôi giúp tôi làm việc nhà mỗi sáng thứ Bảy.",
+      "collocations_json": [
+        "do household chores",
+        "do daily chores"
+      ],
+      "synonyms_json": [
+        "do housework",
+        "run errands"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Chores là việc nhà, do chores là làm việc nhà.",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10019
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "clean the house",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kliːn ðə haʊs/",
+      "ipa_us": "/kliːn ðə haʊs/",
+      "meaning_vi": "dọn dẹp nhà cửa",
+      "definition_en": "To make a house or room tidy and free of dirt.",
+      "example_en": "We spend Sunday mornings cleaning the house.",
+      "example_vi": "Chúng tôi dành các buổi sáng Chủ Nhật để dọn dẹp nhà cửa.",
+      "collocations_json": [
+        "deep clean the house",
+        "clean the entire house"
+      ],
+      "synonyms_json": [
+        "tidy the house",
+        "do housework"
+      ],
+      "antonyms_json": [
+        "mess up the house"
+      ],
+      "mnemonic": "Clean là sạch, house là nhà, clean the house là dọn nhà.",
+      "frequency_rank": 1750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10020
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "wash dishes",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/wɒʃ ˈdɪʃɪz/",
+      "ipa_us": "/wɑːʃ ˈdɪʃɪz/",
+      "meaning_vi": "rửa bát đĩa",
+      "definition_en": "To clean plates, cups, and cutlery after a meal.",
+      "example_en": "It's my turn to wash dishes tonight.",
+      "example_vi": "Tối nay đến lượt tôi rửa bát đĩa.",
+      "collocations_json": [
+        "wash dishes by hand",
+        "wash the dirty dishes"
+      ],
+      "synonyms_json": [
+        "do the dishes"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Wash là rửa, dishes là bát đĩa, wash dishes là rửa bát đĩa.",
+      "frequency_rank": 1950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10021
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "do laundry",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/duː ˈlɔːndri/",
+      "ipa_us": "/duː ˈlɑːndri/",
+      "meaning_vi": "giặt giũ quần áo",
+      "definition_en": "To wash clothes and other fabrics.",
+      "example_en": "I usually do laundry once a week on the weekend.",
+      "example_vi": "Tôi thường giặt giũ quần áo một lần một tuần vào cuối tuần.",
+      "collocations_json": [
+        "do the laundry",
+        "do a load of laundry"
+      ],
+      "synonyms_json": [
+        "wash clothes"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Laundry là quần áo bẩn cần giặt, do laundry là giặt quần áo.",
+      "frequency_rank": 2300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10022
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "tidy up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈtaɪdi ʌp/",
+      "ipa_us": "/ˈtaɪdi ʌp/",
+      "meaning_vi": "dọn dẹp gọn gàng",
+      "definition_en": "To make a place neat and orderly.",
+      "example_en": "Please tidy up your room before your friends come over.",
+      "example_vi": "Làm ơn dọn dẹp phòng của con gọn gàng trước khi bạn con đến chơi.",
+      "collocations_json": [
+        "tidy up the mess",
+        "tidy up quickly"
+      ],
+      "synonyms_json": [
+        "clean up",
+        "straighten up"
+      ],
+      "antonyms_json": [
+        "mess up"
+      ],
+      "mnemonic": "Tidy up là làm cho mọi thứ ngăn nắp, gọn gàng.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10023
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "make the bed",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/meɪk ðə bed/",
+      "ipa_us": "/meɪk ðə bed/",
+      "meaning_vi": "dọn giường, gấp chăn màn",
+      "definition_en": "To arrange the sheets, blankets, and pillows neatly on a bed.",
+      "example_en": "My mother taught me to make the bed every morning.",
+      "example_vi": "Mẹ tôi dạy tôi dọn giường mỗi sáng.",
+      "collocations_json": [
+        "make the bed neatly",
+        "make your bed daily"
+      ],
+      "synonyms_json": [
+        "tidy the bed"
+      ],
+      "antonyms_json": [
+        "mess up the bed"
+      ],
+      "mnemonic": "Make the bed là sắp xếp lại giường ngủ gọn gàng.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10024
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "take out the trash",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/teɪk aʊt ðə træʃ/",
+      "ipa_us": "/teɪk aʊt ðə træʃ/",
+      "meaning_vi": "đổ rác",
+      "definition_en": "To remove garbage from the house and put it outside for collection.",
+      "example_en": "It's your turn to take out the trash tonight.",
+      "example_vi": "Tối nay đến lượt bạn đổ rác.",
+      "collocations_json": [
+        "take out the garbage",
+        "take out the recycling"
+      ],
+      "synonyms_json": [
+        "empty the bin"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Trash là rác, take out the trash là mang rác ra ngoài.",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10025
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "walk the dog",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/wɔːk ðə dɒɡ/",
+      "ipa_us": "/wɑːk ðə dɔːɡ/",
+      "meaning_vi": "dắt chó đi dạo",
+      "definition_en": "To take a dog out for a walk.",
+      "example_en": "I walk the dog twice a day, in the morning and evening.",
+      "example_vi": "Tôi dắt chó đi dạo hai lần một ngày, vào buổi sáng và buổi tối.",
+      "collocations_json": [
+        "walk the dog in the park",
+        "walk the dog daily"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Walk là đi bộ, dog là chó, walk the dog là dắt chó đi dạo.",
+      "frequency_rank": 2200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10026
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "feed the cat",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/fiːd ðə kæt/",
+      "ipa_us": "/fiːd ðə kæt/",
+      "meaning_vi": "cho mèo ăn",
+      "definition_en": "To provide food for a cat.",
+      "example_en": "Don't forget to feed the cat before you leave.",
+      "example_vi": "Đừng quên cho mèo ăn trước khi bạn đi.",
+      "collocations_json": [
+        "feed the cat dry food",
+        "feed the cat twice a day"
+      ],
+      "synonyms_json": [
+        "give food to the cat"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Feed là cho ăn, cat là mèo, feed the cat là cho mèo ăn.",
+      "frequency_rank": 2400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10027
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "exercise",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "health",
+      "ipa_uk": "/ˈeksəsaɪz/",
+      "ipa_us": "/ˈeksərsaɪz/",
+      "meaning_vi": "tập thể dục",
+      "definition_en": "To perform physical activity to improve health and fitness.",
+      "example_en": "I try to exercise for at least 30 minutes every day.",
+      "example_vi": "Tôi cố gắng tập thể dục ít nhất 30 phút mỗi ngày.",
+      "collocations_json": [
+        "do exercise",
+        "get exercise",
+        "regular exercise"
+      ],
+      "synonyms_json": [
+        "work out",
+        "train"
+      ],
+      "antonyms_json": [
+        "rest",
+        "be sedentary"
+      ],
+      "mnemonic": "Exercise là tập thể dục, để có sức khỏe tốt.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10028
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "go for a walk",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡəʊ fər ə wɔːk/",
+      "ipa_us": "/ɡoʊ fər ə wɔːk/",
+      "meaning_vi": "đi dạo",
+      "definition_en": "To take a leisurely stroll, typically outdoors.",
+      "example_en": "After dinner, we often go for a walk in the park.",
+      "example_vi": "Sau bữa tối, chúng tôi thường đi dạo trong công viên.",
+      "collocations_json": [
+        "go for a brisk walk",
+        "go for a long walk"
+      ],
+      "synonyms_json": [
+        "take a stroll",
+        "ramble"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Go for a walk là đi bộ thư giãn, đi dạo.",
+      "frequency_rank": 1850,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10029
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "relax",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "/rɪˈlæks/",
+      "ipa_us": "/rɪˈlæks/",
+      "meaning_vi": "thư giãn, nghỉ ngơi",
+      "definition_en": "To rest and enjoy yourself, free from stress or anxiety.",
+      "example_en": "I like to relax by listening to music after work.",
+      "example_vi": "Tôi thích thư giãn bằng cách nghe nhạc sau giờ làm việc.",
+      "collocations_json": [
+        "relax deeply",
+        "relax completely",
+        "relax your mind"
+      ],
+      "synonyms_json": [
+        "unwind",
+        "chill out"
+      ],
+      "antonyms_json": [
+        "stress",
+        "work hard"
+      ],
+      "mnemonic": "Relax là thư giãn, thả lỏng cơ thể và tâm trí.",
+      "frequency_rank": 1250,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10030
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "spend time with family",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/spend taɪm wɪð ˈfæməli/",
+      "ipa_us": "/spend taɪm wɪð ˈfæməli/",
+      "meaning_vi": "dành thời gian cho gia đình",
+      "definition_en": "To devote time to be with your relatives.",
+      "example_en": "On weekends, I love to spend time with family and friends.",
+      "example_vi": "Vào cuối tuần, tôi thích dành thời gian cho gia đình và bạn bè.",
+      "collocations_json": [
+        "spend quality time",
+        "spend time together"
+      ],
+      "synonyms_json": [
+        "bond with family"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Spend time là dành thời gian, family là gia đình.",
+      "frequency_rank": 2700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10031
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "run errands",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rʌn ˈɛrəndz/",
+      "ipa_us": "/rʌn ˈɛrəndz/",
+      "meaning_vi": "làm việc vặt, đi mua sắm",
+      "definition_en": "To go out and do several small tasks, especially for someone else.",
+      "example_en": "On Saturdays, I often run errands like grocery shopping and picking up dry cleaning.",
+      "example_vi": "Vào các ngày thứ Bảy, tôi thường làm việc vặt như đi chợ và lấy đồ giặt ủi.",
+      "collocations_json": [
+        "run daily errands",
+        "run errands for someone"
+      ],
+      "synonyms_json": [
+        "do chores",
+        "do tasks"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Run errands là chạy đi làm các công việc lặt vặt.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10032
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "go shopping",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡəʊ ˈʃɒpɪŋ/",
+      "ipa_us": "/ɡoʊ ˈʃɑːpɪŋ/",
+      "meaning_vi": "đi mua sắm",
+      "definition_en": "To visit shops and buy things.",
+      "example_en": "I need to go shopping for groceries later today.",
+      "example_vi": "Tôi cần đi mua sắm thực phẩm tạp hóa vào cuối ngày hôm nay.",
+      "collocations_json": [
+        "go grocery shopping",
+        "go window shopping"
+      ],
+      "synonyms_json": [
+        "shop"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Go shopping là đi mua sắm, thường là quần áo, đồ dùng.",
+      "frequency_rank": 1650,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10033
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "prepare meals",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/prɪˈpeər miːlz/",
+      "ipa_us": "/prɪˈper miːlz/",
+      "meaning_vi": "chuẩn bị bữa ăn",
+      "definition_en": "To make food ready to be eaten.",
+      "example_en": "I like to prepare my meals for the week on Sunday evenings.",
+      "example_vi": "Tôi thích chuẩn bị các bữa ăn trong tuần vào tối Chủ Nhật.",
+      "collocations_json": [
+        "prepare healthy meals",
+        "prepare quick meals"
+      ],
+      "synonyms_json": [
+        "cook meals",
+        "make food"
+      ],
+      "antonyms_json": [
+        "eat out"
+      ],
+      "mnemonic": "Prepare là chuẩn bị, meals là bữa ăn, prepare meals là chuẩn bị bữa ăn.",
+      "frequency_rank": 3100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10034
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "commute",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kəˈmjuːt/",
+      "ipa_us": "/kəˈmjuːt/",
+      "meaning_vi": "đi lại giữa nhà và nơi làm việc/học",
+      "definition_en": "To travel some distance regularly between one's home and one's place of work or study.",
+      "example_en": "Many people commute long distances to work every day.",
+      "example_vi": "Nhiều người đi lại quãng đường dài để đi làm mỗi ngày.",
+      "collocations_json": [
+        "daily commute",
+        "long commute",
+        "short commute"
+      ],
+      "synonyms_json": [
+        "travel to work",
+        "travel to school"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Commute là đi lại, di chuyển hàng ngày.",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10035
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "check emails",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/tʃek ˈiːmeɪlz/",
+      "ipa_us": "/tʃek ˈiːmeɪlz/",
+      "meaning_vi": "kiểm tra email",
+      "definition_en": "To look at messages sent or received electronically.",
+      "example_en": "The first thing I do at work is check emails.",
+      "example_vi": "Điều đầu tiên tôi làm ở nơi làm việc là kiểm tra email.",
+      "collocations_json": [
+        "check personal emails",
+        "check work emails"
+      ],
+      "synonyms_json": [
+        "read emails",
+        "monitor inbox"
+      ],
+      "antonyms_json": [
+        "send emails"
+      ],
+      "mnemonic": "Check emails là kiểm tra hộp thư điện tử.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10036
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "reply to messages",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈplaɪ tə ˈmesɪdʒɪz/",
+      "ipa_us": "/rɪˈplaɪ tə ˈmesɪdʒɪz/",
+      "meaning_vi": "trả lời tin nhắn",
+      "definition_en": "To send a response to communications received.",
+      "example_en": "I try to reply to messages as soon as I can.",
+      "example_vi": "Tôi cố gắng trả lời tin nhắn ngay khi có thể.",
+      "collocations_json": [
+        "reply to emails",
+        "reply to texts"
+      ],
+      "synonyms_json": [
+        "respond to messages"
+      ],
+      "antonyms_json": [
+        "send messages"
+      ],
+      "mnemonic": "Reply là trả lời, messages là tin nhắn, reply to messages là trả lời tin nhắn.",
+      "frequency_rank": 3700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10037
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "take a break",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/teɪk ə breɪk/",
+      "ipa_us": "/teɪk ə breɪk/",
+      "meaning_vi": "nghỉ giải lao",
+      "definition_en": "To stop working or doing an activity for a short period to rest.",
+      "example_en": "Let's take a break and grab some coffee.",
+      "example_vi": "Hãy nghỉ giải lao và đi uống cà phê.",
+      "collocations_json": [
+        "take a short break",
+        "take a coffee break"
+      ],
+      "synonyms_json": [
+        "have a break",
+        "rest"
+      ],
+      "antonyms_json": [
+        "continue working"
+      ],
+      "mnemonic": "Take a break là nghỉ ngơi, tạm dừng công việc.",
+      "frequency_rank": 2050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10038
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "make a list",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/meɪk ə lɪst/",
+      "ipa_us": "/meɪk ə lɪst/",
+      "meaning_vi": "lập danh sách",
+      "definition_en": "To write down a series of items, names, or tasks.",
+      "example_en": "I always make a list before I go grocery shopping.",
+      "example_vi": "Tôi luôn lập danh sách trước khi đi mua sắm tạp hóa.",
+      "collocations_json": [
+        "make a to-do list",
+        "make a shopping list"
+      ],
+      "synonyms_json": [
+        "create a list",
+        "write a list"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Make a list là tạo một danh sách để không quên việc.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10039
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "plan the day",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/plæn ðə deɪ/",
+      "ipa_us": "/plæn ðə deɪ/",
+      "meaning_vi": "lên kế hoạch trong ngày",
+      "definition_en": "To organize and decide on activities for the day.",
+      "example_en": "It's good to plan the day in advance to be more productive.",
+      "example_vi": "Thật tốt khi lên kế hoạch trong ngày trước để làm việc hiệu quả hơn.",
+      "collocations_json": [
+        "plan your day ahead",
+        "plan the day's activities"
+      ],
+      "synonyms_json": [
+        "organize the day",
+        "schedule the day"
+      ],
+      "antonyms_json": [
+        "improvise the day"
+      ],
+      "mnemonic": "Plan the day là lên kế hoạch cho ngày, biết trước mình sẽ làm gì.",
+      "frequency_rank": 3300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10040
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "sleep in",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/sliːp ɪn/",
+      "ipa_us": "/sliːp ɪn/",
+      "meaning_vi": "ngủ nướng, ngủ dậy muộn",
+      "definition_en": "To sleep longer than usual, especially in the morning.",
+      "example_en": "On weekends, I love to sleep in until 9 AM.",
+      "example_vi": "Vào cuối tuần, tôi thích ngủ nướng đến 9 giờ sáng.",
+      "collocations_json": [
+        "sleep in late",
+        "sleep in on Sunday"
+      ],
+      "synonyms_json": [
+        "oversleep",
+        "lie in"
+      ],
+      "antonyms_json": [
+        "wake up early",
+        "get up early"
+      ],
+      "mnemonic": "Sleep in là ngủ thêm giờ, ngủ nướng.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10041
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "stay up late",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/steɪ ʌp leɪt/",
+      "ipa_us": "/steɪ ʌp leɪt/",
+      "meaning_vi": "thức khuya",
+      "definition_en": "To remain awake until a late hour.",
+      "example_en": "I often stay up late watching movies on Friday nights.",
+      "example_vi": "Tôi thường thức khuya xem phim vào tối thứ Sáu.",
+      "collocations_json": [
+        "stay up all night",
+        "stay up too late"
+      ],
+      "synonyms_json": [
+        "burn the midnight oil"
+      ],
+      "antonyms_json": [
+        "go to bed early"
+      ],
+      "mnemonic": "Stay up late là thức đến khuya, không đi ngủ sớm.",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10042
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "have a routine",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/hæv ə ruːˈtiːn/",
+      "ipa_us": "/hæv ə ruːˈtiːn/",
+      "meaning_vi": "có một thói quen",
+      "definition_en": "To follow a regular course of procedure or sequence of actions.",
+      "example_en": "It's good to have a routine for a healthy lifestyle.",
+      "example_vi": "Thật tốt khi có một thói quen để có lối sống lành mạnh.",
+      "collocations_json": [
+        "establish a routine",
+        "stick to a routine"
+      ],
+      "synonyms_json": [
+        "follow a schedule"
+      ],
+      "antonyms_json": [
+        "be spontaneous"
+      ],
+      "mnemonic": "Routine là thói quen, have a routine là có thói quen cố định.",
+      "frequency_rank": 3400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10043
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "stick to a schedule",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/stɪk tə ə ˈʃedjuːl/",
+      "ipa_us": "/stɪk tə ə ˈskedʒuːl/",
+      "meaning_vi": "tuân thủ lịch trình",
+      "definition_en": "To adhere strictly to a planned timetable of events or tasks.",
+      "example_en": "To be productive, you need to stick to a schedule.",
+      "example_vi": "Để làm việc hiệu quả, bạn cần tuân thủ lịch trình.",
+      "collocations_json": [
+        "stick to a strict schedule",
+        "stick to the daily schedule"
+      ],
+      "synonyms_json": [
+        "follow a timetable",
+        "keep to a plan"
+      ],
+      "antonyms_json": [
+        "deviate from a schedule"
+      ],
+      "mnemonic": "Stick to là bám sát, schedule là lịch trình, stick to a schedule là tuân thủ lịch trình.",
+      "frequency_rank": 4200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10044
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "personal hygiene",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈpɜːsənl ˈhaɪdʒiːn/",
+      "ipa_us": "/ˈpɜːrsənl ˈhaɪdʒiːn/",
+      "meaning_vi": "vệ sinh cá nhân",
+      "definition_en": "Practices to maintain health, such as bathing, washing hands, and brushing teeth.",
+      "example_en": "Good personal hygiene is essential for preventing illness.",
+      "example_vi": "Vệ sinh cá nhân tốt là điều cần thiết để phòng ngừa bệnh tật.",
+      "collocations_json": [
+        "maintain personal hygiene",
+        "basic personal hygiene"
+      ],
+      "synonyms_json": [
+        "self-care",
+        "grooming"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Personal là cá nhân, hygiene là vệ sinh, personal hygiene là vệ sinh cá nhân.",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10045
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "daily tasks",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdeɪli tɑːsks/",
+      "ipa_us": "/ˈdeɪli tæsks/",
+      "meaning_vi": "các công việc hàng ngày",
+      "definition_en": "Routine duties or jobs that must be done every day.",
+      "example_en": "I write down all my daily tasks in a planner.",
+      "example_vi": "Tôi ghi lại tất cả các công việc hàng ngày của mình vào một cuốn sổ kế hoạch.",
+      "collocations_json": [
+        "manage daily tasks",
+        "complete daily tasks"
+      ],
+      "synonyms_json": [
+        "daily duties",
+        "daily chores"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Daily là hàng ngày, tasks là nhiệm vụ, daily tasks là các nhiệm vụ hàng ngày.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10046
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "morning routine",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈmɔːnɪŋ ruːˈtiːn/",
+      "ipa_us": "/ˈmɔːrnɪŋ ruːˈtiːn/",
+      "meaning_vi": "thói quen buổi sáng",
+      "definition_en": "A set sequence of actions that one regularly follows each morning.",
+      "example_en": "My morning routine includes meditation and a cup of tea.",
+      "example_vi": "Thói quen buổi sáng của tôi bao gồm thiền và một tách trà.",
+      "collocations_json": [
+        "establish a morning routine",
+        "healthy morning routine"
+      ],
+      "synonyms_json": [
+        "morning ritual"
+      ],
+      "antonyms_json": [
+        "evening routine"
+      ],
+      "mnemonic": "Morning routine là các hoạt động lặp lại vào buổi sáng.",
+      "frequency_rank": 4600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10047
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "evening routine",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈiːvnɪŋ ruːˈtiːn/",
+      "ipa_us": "/ˈiːvnɪŋ ruːˈtiːn/",
+      "meaning_vi": "thói quen buổi tối",
+      "definition_en": "A set sequence of actions that one regularly follows each evening.",
+      "example_en": "A good evening routine helps me relax before bed.",
+      "example_vi": "Một thói quen buổi tối tốt giúp tôi thư giãn trước khi đi ngủ.",
+      "collocations_json": [
+        "relaxing evening routine",
+        "bedtime routine"
+      ],
+      "synonyms_json": [
+        "evening ritual"
+      ],
+      "antonyms_json": [
+        "morning routine"
+      ],
+      "mnemonic": "Evening routine là các hoạt động lặp lại vào buổi tối.",
+      "frequency_rank": 4700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10048
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "productive day",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "general",
+      "ipa_uk": "/prəˈdʌktɪv deɪ/",
+      "ipa_us": "/prəˈdʌktɪv deɪ/",
+      "meaning_vi": "một ngày hiệu quả",
+      "definition_en": "A day during which a lot of useful or valuable work is achieved.",
+      "example_en": "I always feel good after a productive day at work.",
+      "example_vi": "Tôi luôn cảm thấy tốt sau một ngày làm việc hiệu quả.",
+      "collocations_json": [
+        "have a productive day",
+        "start a productive day"
+      ],
+      "synonyms_json": [
+        "successful day",
+        "fruitful day"
+      ],
+      "antonyms_json": [
+        "unproductive day"
+      ],
+      "mnemonic": "Productive là hiệu quả, day là ngày, productive day là ngày làm việc hiệu quả.",
+      "frequency_rank": 4900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10049
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "get ready",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡet ˈredi/",
+      "ipa_us": "/ɡet ˈredi/",
+      "meaning_vi": "chuẩn bị sẵn sàng",
+      "definition_en": "To prepare yourself for an activity or event.",
+      "example_en": "I need about 30 minutes to get ready in the morning.",
+      "example_vi": "Tôi cần khoảng 30 phút để chuẩn bị sẵn sàng vào buổi sáng.",
+      "collocations_json": [
+        "get ready for work",
+        "get ready for school",
+        "get ready to go out"
+      ],
+      "synonyms_json": [
+        "prepare",
+        "make ready"
+      ],
+      "antonyms_json": [
+        "be unprepared"
+      ],
+      "mnemonic": "Get ready là chuẩn bị, sẵn sàng cho việc gì đó.",
+      "frequency_rank": 1450,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10050
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "have a snack",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/hæv ə snæk/",
+      "ipa_us": "/hæv ə snæk/",
+      "meaning_vi": "ăn bữa nhẹ",
+      "definition_en": "To eat a small amount of food between main meals.",
+      "example_en": "I often have a snack in the afternoon to boost my energy.",
+      "example_vi": "Tôi thường ăn bữa nhẹ vào buổi chiều để tăng cường năng lượng.",
+      "collocations_json": [
+        "have a healthy snack",
+        "have a quick snack"
+      ],
+      "synonyms_json": [
+        "eat a snack"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Snack là đồ ăn nhẹ, have a snack là ăn nhẹ.",
+      "frequency_rank": 2150,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10051
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "take a nap",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/teɪk ə næp/",
+      "ipa_us": "/teɪk ə næp/",
+      "meaning_vi": "ngủ trưa, chợp mắt",
+      "definition_en": "To have a short sleep, especially during the day.",
+      "example_en": "Sometimes I take a nap after lunch to feel refreshed.",
+      "example_vi": "Đôi khi tôi ngủ trưa sau bữa ăn để cảm thấy sảng khoái.",
+      "collocations_json": [
+        "take a power nap",
+        "take a short nap"
+      ],
+      "synonyms_json": [
+        "doze",
+        "rest"
+      ],
+      "antonyms_json": [
+        "stay awake"
+      ],
+      "mnemonic": "Nap là giấc ngủ ngắn, take a nap là ngủ một giấc ngắn.",
+      "frequency_rank": 3600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10052
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "drink coffee/tea",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/drɪŋk ˈkɒfi/ /tiː/",
+      "ipa_us": "/drɪŋk ˈkɔːfi/ /tiː/",
+      "meaning_vi": "uống cà phê/trà",
+      "definition_en": "To consume the beverages coffee or tea.",
+      "example_en": "I always drink coffee in the morning to help me wake up.",
+      "example_vi": "Tôi luôn uống cà phê vào buổi sáng để giúp tôi tỉnh táo.",
+      "collocations_json": [
+        "drink black coffee",
+        "drink green tea"
+      ],
+      "synonyms_json": [
+        "have coffee/tea"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Drink là uống, coffee là cà phê, tea là trà.",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10053
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "listen to music",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "/ˈlɪsn tə ˈmjuːzɪk/",
+      "ipa_us": "/ˈlɪsn tə ˈmjuːzɪk/",
+      "meaning_vi": "nghe nhạc",
+      "definition_en": "To pay attention to sounds produced by instruments or voices.",
+      "example_en": "I like to listen to music while I'm cleaning the house.",
+      "example_vi": "Tôi thích nghe nhạc trong khi dọn dẹp nhà cửa.",
+      "collocations_json": [
+        "listen to classical music",
+        "listen to pop music"
+      ],
+      "synonyms_json": [
+        "hear music"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Listen là nghe, music là nhạc, listen to music là nghe nhạc.",
+      "frequency_rank": 1100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10054
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "cook dinner",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/kʊk ˈdɪnər/",
+      "ipa_us": "/kʊk ˈdɪnər/",
+      "meaning_vi": "nấu bữa tối",
+      "definition_en": "To prepare the evening meal by heating or combining ingredients.",
+      "example_en": "Who's going to cook dinner tonight?",
+      "example_vi": "Ai sẽ nấu bữa tối tối nay?",
+      "collocations_json": [
+        "cook a healthy dinner",
+        "cook dinner for guests"
+      ],
+      "synonyms_json": [
+        "make dinner",
+        "prepare dinner"
+      ],
+      "antonyms_json": [
+        "order takeout"
+      ],
+      "mnemonic": "Cook là nấu, dinner là bữa tối, cook dinner là nấu bữa tối.",
+      "frequency_rank": 1550,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10055
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "take a bath",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/teɪk ə bɑːθ/",
+      "ipa_us": "/teɪk ə bæθ/",
+      "meaning_vi": "tắm bồn",
+      "definition_en": "To wash oneself while sitting in a tub of water.",
+      "example_en": "After a long day, I love to take a hot bath.",
+      "example_vi": "Sau một ngày dài, tôi thích tắm bồn nước nóng.",
+      "collocations_json": [
+        "take a relaxing bath",
+        "take a bubble bath"
+      ],
+      "synonyms_json": [
+        "have a bath"
+      ],
+      "antonyms_json": [
+        "take a shower"
+      ],
+      "mnemonic": "Take a bath là tắm bồn, take a shower là tắm vòi sen.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10056
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "do yoga",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/duː ˈjəʊɡə/",
+      "ipa_us": "/duː ˈjoʊɡə/",
+      "meaning_vi": "tập yoga",
+      "definition_en": "To practice a system of physical postures, breathing techniques, and meditation.",
+      "example_en": "I do yoga for an hour every morning to improve flexibility.",
+      "example_vi": "Tôi tập yoga một giờ mỗi sáng để cải thiện sự dẻo dai.",
+      "collocations_json": [
+        "do yoga poses",
+        "do hot yoga"
+      ],
+      "synonyms_json": [
+        "practice yoga"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Do yoga là tập yoga, vừa thể chất vừa tinh thần.",
+      "frequency_rank": 4100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10057
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "meditate",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "/ˈmedɪteɪt/",
+      "ipa_us": "/ˈmedɪteɪt/",
+      "meaning_vi": "thiền định",
+      "definition_en": "To focus one's mind for a period of time, for religious or spiritual purposes or as a method of relaxation.",
+      "example_en": "I meditate for 10 minutes every day to clear my mind.",
+      "example_vi": "Tôi thiền 10 phút mỗi ngày để làm đầu óc minh mẫn.",
+      "collocations_json": [
+        "meditate daily",
+        "meditate quietly"
+      ],
+      "synonyms_json": [
+        "contemplate",
+        "reflect"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Meditate là thiền, giúp tâm trí bình an.",
+      "frequency_rank": 4300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10058
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "get ready for bed",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡet ˈredi fə bed/",
+      "ipa_us": "/ɡet ˈredi fər bed/",
+      "meaning_vi": "chuẩn bị đi ngủ",
+      "definition_en": "To prepare oneself for sleeping, often involving personal hygiene and changing clothes.",
+      "example_en": "My kids get ready for bed around 8 PM.",
+      "example_vi": "Các con tôi chuẩn bị đi ngủ khoảng 8 giờ tối.",
+      "collocations_json": [
+        "get ready for bed early",
+        "help someone get ready for bed"
+      ],
+      "synonyms_json": [
+        "prepare for sleep",
+        "wind down"
+      ],
+      "antonyms_json": [
+        "wake up"
+      ],
+      "mnemonic": "Get ready for bed là chuẩn bị mọi thứ để lên giường ngủ.",
+      "frequency_rank": 2250,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10059
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "read the news",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "general",
+      "ipa_uk": "/riːd ðə njuːz/",
+      "ipa_us": "/riːd ðə nuːz/",
+      "meaning_vi": "đọc tin tức",
+      "definition_en": "To consume current events information from newspapers, websites, or other sources.",
+      "example_en": "I always read the news on my phone in the morning.",
+      "example_vi": "Tôi luôn đọc tin tức trên điện thoại vào buổi sáng.",
+      "collocations_json": [
+        "read the morning news",
+        "read the local news"
+      ],
+      "synonyms_json": [
+        "check the news",
+        "follow the news"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Read the news là đọc báo, cập nhật tin tức.",
+      "frequency_rank": 2550,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10060
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "water the plants",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈwɔːtər ðə plɑːnts/",
+      "ipa_us": "/ˈwɑːtər ðə plænts/",
+      "meaning_vi": "tưới cây",
+      "definition_en": "To give water to plants.",
+      "example_en": "My daily chore is to water the plants in the garden.",
+      "example_vi": "Việc nhà hàng ngày của tôi là tưới cây trong vườn.",
+      "collocations_json": [
+        "water the houseplants",
+        "water the garden plants"
+      ],
+      "synonyms_json": [
+        "irrigate plants"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Water là nước, cũng là tưới nước, plants là cây, water the plants là tưới cây.",
+      "frequency_rank": 3900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10061
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "pack a lunch",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/pæk ə lʌntʃ/",
+      "ipa_us": "/pæk ə lʌntʃ/",
+      "meaning_vi": "chuẩn bị bữa trưa mang đi",
+      "definition_en": "To prepare food to take with you to eat for lunch.",
+      "example_en": "I usually pack a lunch for work to save money.",
+      "example_vi": "Tôi thường chuẩn bị bữa trưa mang đi làm để tiết kiệm tiền.",
+      "collocations_json": [
+        "pack a healthy lunch",
+        "pack a school lunch"
+      ],
+      "synonyms_json": [
+        "make a packed lunch"
+      ],
+      "antonyms_json": [
+        "buy lunch"
+      ],
+      "mnemonic": "Pack là đóng gói, lunch là bữa trưa, pack a lunch là chuẩn bị bữa trưa mang theo.",
+      "frequency_rank": 4400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10062
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "check social media",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "technology",
+      "ipa_uk": "/tʃek ˈsəʊʃl ˈmiːdiə/",
+      "ipa_us": "/tʃek ˈsoʊʃl ˈmiːdiə/",
+      "meaning_vi": "kiểm tra mạng xã hội",
+      "definition_en": "To look at updates and posts on social networking sites.",
+      "example_en": "Many people check social media first thing in the morning.",
+      "example_vi": "Nhiều người kiểm tra mạng xã hội ngay vào buổi sáng.",
+      "collocations_json": [
+        "check social media accounts",
+        "check social media feeds"
+      ],
+      "synonyms_json": [
+        "browse social media"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Social media là mạng xã hội, check social media là kiểm tra mạng xã hội.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10063
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "get groceries",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/ɡet ˈɡrəʊsəriz/",
+      "ipa_us": "/ɡet ˈɡroʊsəriz/",
+      "meaning_vi": "mua thực phẩm, đồ tạp hóa",
+      "definition_en": "To buy food and other household supplies from a store.",
+      "example_en": "I need to get groceries for the week this afternoon.",
+      "example_vi": "Tôi cần mua thực phẩm cho tuần này vào chiều nay.",
+      "collocations_json": [
+        "get fresh groceries",
+        "get groceries online"
+      ],
+      "synonyms_json": [
+        "buy groceries",
+        "do grocery shopping"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Groceries là đồ tạp hóa, get groceries là đi mua đồ tạp hóa.",
+      "frequency_rank": 2750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10064
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "pay bills",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "general",
+      "ipa_uk": "/peɪ bɪlz/",
+      "ipa_us": "/peɪ bɪlz/",
+      "meaning_vi": "thanh toán hóa đơn",
+      "definition_en": "To settle accounts for services or goods received.",
+      "example_en": "I pay bills online once a month.",
+      "example_vi": "Tôi thanh toán hóa đơn trực tuyến mỗi tháng một lần.",
+      "collocations_json": [
+        "pay utility bills",
+        "pay overdue bills"
+      ],
+      "synonyms_json": [
+        "settle bills"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bills là hóa đơn, pay bills là thanh toán hóa đơn.",
+      "frequency_rank": 3450,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10065
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Daily Routines & Habits",
+      "word": "walk to school/work",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/wɔːk tə skuːl/ /wɜːk/",
+      "ipa_us": "/wɑːk tə skuːl/ /wɜːrk/",
+      "meaning_vi": "đi bộ đến trường/nơi làm",
+      "definition_en": "To travel to school or work on foot.",
+      "example_en": "My office is close, so I often walk to work.",
+      "example_vi": "Văn phòng của tôi gần, vì vậy tôi thường đi bộ đến nơi làm việc.",
+      "collocations_json": [
+        "walk to school every day",
+        "walk to work in the morning"
+      ],
+      "synonyms_json": [
+        "go on foot"
+      ],
+      "antonyms_json": [
+        "drive to school/work"
+      ],
+      "mnemonic": "Walk là đi bộ, to school/work là đến trường/nơi làm việc.",
+      "frequency_rank": 1900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10066
+  }
+]

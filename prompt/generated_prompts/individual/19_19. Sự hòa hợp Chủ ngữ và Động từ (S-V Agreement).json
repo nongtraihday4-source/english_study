@@ -1,0 +1,272 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The list of items are on the table.",
+    "output": "✅ **Corrected Sentence:** The list of items is on the table.\n🔍 **Error Identification:** Chủ ngữ chính là 'the list' (số ít), không phải 'items' (số nhiều) → động từ phải là 'is'.\n📘 **Vietnamese Explanation:** Người Việt thường nhìn vào danh từ gần nhất ('items') để chia động từ. Mẹo: Bỏ qua cụm 'of...', tìm chủ ngữ chính.\n💡 **Ví dụ:** The bowl of apples is full. / A box of chocolates was given."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Everyone have finished their homework.",
+    "output": "✅ **Corrected Sentence:** Everyone has finished their homework.\n🔍 **Error Identification:** 'Everyone' là đại từ bất định số ít → động từ 'has' (không phải 'have').\n📘 **Vietnamese Explanation:** Người Việt thấy 'everyone' chỉ nhiều người nên dùng 'have'. Mẹo: 'Everyone, somebody, nobody, anybody' + động từ số ít.\n💡 **Ví dụ:** Nobody knows the answer. / Someone is at the door."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Neither of the students are late.",
+    "output": "✅ **Corrected Sentence:** Neither of the students is late. (hoặc 'are' – nhưng 'is' trang trọng hơn)\n🔍 **Error Identification:** 'Neither of + danh từ số nhiều' thường dùng động từ số ít trong văn viết trang trọng.\n📘 **Vietnamese Explanation:** Người Việt thấy 'students' số nhiều nên dùng 'are'. Mẹo: 'Neither/either of + plural noun' + động từ số ít (trang trọng).\n💡 **Ví dụ:** Neither of the answers is correct. / Either of the options works."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The team are playing well today. (Anh-Anh có thể chấp nhận) - Học viên viết \'The team is playing well today.\' (Anh-Mỹ)",
+    "output": "✅ **Corrected Sentence (Anh-Mỹ):** The team is playing well today.\n🔍 **Error Identification:** Trong Anh-Mỹ, danh từ tập thể (team, family, committee) dùng động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'team' gồm nhiều người nên dùng số nhiều. Mẹo: Anh-Mỹ: team/family/group + động từ số ít.\n💡 **Ví dụ:** The family is having dinner. / The committee has decided."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is many people in the park.",
+    "output": "✅ **Corrected Sentence:** There are many people in the park.\n🔍 **Error Identification:** 'People' là danh từ số nhiều → dùng 'there are', không dùng 'there is'.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'there is' cho mọi trường hợp. Mẹo: 'There is' + số ít, 'There are' + số nhiều.\n💡 **Ví dụ:** There is a cat. / There are many cats."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Mathematics are my favorite subject.",
+    "output": "✅ **Corrected Sentence:** Mathematics is my favorite subject.\n🔍 **Error Identification:** Tên môn học kết thúc bằng 'ics' (mathematics, physics) dùng động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'mathematics' có 's' tưởng số nhiều. Mẹo: Physics, economics, linguistics + động từ số ít.\n💡 **Ví dụ:** Physics is difficult. / Economics is interesting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The news are very good today.",
+    "output": "✅ **Corrected Sentence:** The news is very good today.\n🔍 **Error Identification:** 'News' là danh từ không đếm được, luôn dùng động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'news' có 's' tưởng số nhiều. Mẹo: 'News' luôn số ít (dù có 's').\n💡 **Ví dụ:** No news is good news. / The news is shocking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The police is investigating the case.",
+    "output": "✅ **Corrected Sentence:** The police are investigating the case.\n🔍 **Error Identification:** 'Police' là danh từ tập thể, luôn dùng động từ số nhiều.\n📘 **Vietnamese Explanation:** Người Việt thấy 'police' không có 's' tưởng số ít. Mẹo: 'Police, people, cattle' + động từ số nhiều.\n💡 **Ví dụ:** The police have arrived. / People are happy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Either my brother or my sister are coming.",
+    "output": "✅ **Corrected Sentence:** Either my brother or my sister is coming.\n🔍 **Error Identification:** Quy tắc 'either...or' – động từ chia theo chủ ngữ gần nhất (my sister – số ít).\n📘 **Vietnamese Explanation:** Người Việt thấy hai chủ ngữ nên dùng số nhiều. Mẹo: Với 'or/nor', động từ theo chủ ngữ gần nhất.\n💡 **Ví dụ:** Either you or he is wrong. / Neither she nor they are ready."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Each of the students have a book.",
+    "output": "✅ **Corrected Sentence:** Each of the students has a book.\n🔍 **Error Identification:** 'Each of + danh từ số nhiều' + động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'students' số nhiều nên dùng 'have'. Mẹo: 'Each, every, either, neither' + động từ số ít.\n💡 **Ví dụ:** Each of the cars is new. / Every one of us has a dream."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The number of unemployed people are rising.",
+    "output": "✅ **Corrected Sentence:** The number of unemployed people is rising.\n🔍 **Error Identification:** 'The number of' (số lượng) + động từ số ít; 'A number of' (nhiều) + động từ số nhiều.\n📘 **Vietnamese Explanation:** Người Việt thấy 'people' số nhiều nên dùng 'are'. Mẹo: 'The number' = số ít, 'A number' = số nhiều.\n💡 **Ví dụ:** The number of cars is increasing. / A number of cars are parked."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Ten miles are a long distance.",
+    "output": "✅ **Corrected Sentence:** Ten miles is a long distance.\n🔍 **Error Identification:** Khoảng cách, thời gian, số tiền được coi là một đơn vị → động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'miles' số nhiều nên dùng 'are'. Mẹo: 10 miles / 100 dollars / 5 years → động từ số ít.\n💡 **Ví dụ:** Five years is a long time. / Twenty dollars is too much."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The scissors is on the table.",
+    "output": "✅ **Corrected Sentence:** The scissors are on the table.\n🔍 **Error Identification:** 'Scissors, glasses, trousers, jeans' luôn ở dạng số nhiều.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cái kéo' số ít nên dùng 'is'. Mẹo: Các vật có hai mảnh + động từ số nhiều.\n💡 **Ví dụ:** The glasses are broken. / My jeans are new."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Bread and butter are my favorite breakfast.",
+    "output": "✅ **Corrected Sentence:** Bread and butter is my favorite breakfast.\n🔍 **Error Identification:** Khi hai danh từ tạo thành một món ăn/một khái niệm thống nhất → động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy hai chủ ngữ nên dùng 'are'. Mẹo: 'Bread and butter' (bánh mì bơ) là một món.\n💡 **Ví dụ:** Fish and chips is popular. / Peanut butter and jelly is my favorite."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The committee have submitted their report. (Anh-Anh) - Học viên viết \'The committee has submitted its report.\' (Anh-Mỹ)",
+    "output": "✅ **Corrected Sentence (Anh-Mỹ):** The committee has submitted its report.\n🔍 **Error Identification:** Trong Anh-Mỹ, danh từ tập thể dùng động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt có thể chọn số ít hoặc số nhiều tùy ngữ cảnh. Mẹo: Anh-Mỹ: số ít; Anh-Anh: số nhiều (khi nói về các thành viên).\n💡 **Ví dụ:** The team is playing (Anh-Mỹ). / The team are arguing (Anh-Anh)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "One of my friends are a doctor.",
+    "output": "✅ **Corrected Sentence:** One of my friends is a doctor.\n🔍 **Error Identification:** 'One of + danh từ số nhiều' + động từ số ít (chủ ngữ là 'one').\n📘 **Vietnamese Explanation:** Người Việt thấy 'friends' số nhiều nên dùng 'are'. Mẹo: 'One of' = một trong số → số ít.\n💡 **Ví dụ:** One of the students is late. / One of the cars is red."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The staff at this company is very friendly. (có thể đúng nếu coi là một tập thể)",
+    "output": "✅ **Corrected Sentence:** The staff at this company are very friendly. (khi nói về các thành viên)\n🔍 **Error Identification:** 'Staff' có thể dùng số ít hoặc số nhiều, nhưng khi nói về từng người thì dùng số nhiều.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'staff' như số ít. Mẹo: 'Staff' = tập thể → số ít; 'Staff' = các thành viên → số nhiều.\n💡 **Ví dụ:** The staff is meeting (cả tập thể). / The staff are working hard (từng người)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is some apples on the table.",
+    "output": "✅ **Corrected Sentence:** There are some apples on the table.\n🔍 **Error Identification:** 'Apples' là danh từ số nhiều → dùng 'there are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'there is' cho mọi danh từ. Mẹo: Nhìn vào danh từ sau 'there' để chia.\n💡 **Ví dụ:** There is an apple. / There are some apples."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The United States are a big country.",
+    "output": "✅ **Corrected Sentence:** The United States is a big country.\n🔍 **Error Identification:** Tên quốc gia, tổ chức (United States, United Nations) dùng động từ số ít dù có 's'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'States' có 's' tưởng số nhiều. Mẹo: Tên quốc gia số ít.\n💡 **Ví dụ:** The United Nations was founded in 1945. / The Philippines is an archipelago."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Neither the teacher nor the students is in the room.",
+    "output": "✅ **Corrected Sentence:** Neither the teacher nor the students are in the room.\n🔍 **Error Identification:** Quy tắc 'neither...nor' – động từ theo chủ ngữ gần nhất (students – số nhiều).\n📘 **Vietnamese Explanation:** Người Việt chia theo chủ ngữ đầu tiên (teacher). Mẹo: Nhìn chủ ngữ ngay sau 'nor'.\n💡 **Ví dụ:** Neither the students nor the teacher is here. / Neither he nor they are ready."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The jury have reached a verdict. (Anh-Anh) - Học viên viết \'The jury has reached a verdict.\' (Anh-Mỹ)",
+    "output": "✅ **Corrected Sentence (Anh-Mỹ):** The jury has reached a verdict.\n🔍 **Error Identification:** Trong Anh-Mỹ, 'jury' (ban giám khảo) dùng động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thường dùng số ít cho danh từ tập thể. Mẹo: Anh-Mỹ: jury/team/family + động từ số ít.\n💡 **Ví dụ:** The jury is deliberating. / The family is on vacation."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "A lot of money are spent on defense.",
+    "output": "✅ **Corrected Sentence:** A lot of money is spent on defense.\n🔍 **Error Identification:** 'Money' là danh từ không đếm được → động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'a lot of' và nghĩ số nhiều. Mẹo: A lot of + không đếm được + động từ số ít.\n💡 **Ví dụ:** A lot of water is wasted. / A lot of time is needed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The singer and songwriter are coming to town.",
+    "output": "✅ **Corrected Sentence:** The singer and songwriter is coming to town. (nếu là một người làm cả hai) / The singer and the songwriter are coming (nếu là hai người khác nhau)\n🔍 **Error Identification:** Nếu hai danh từ chỉ cùng một người, dùng động từ số ít; nếu khác người, dùng số nhiều.\n📘 **Vietnamese Explanation:** Người Việt thấy hai danh từ nên dùng số nhiều. Mẹo: Có 'the' lặp lại → hai người; không lặp → một người.\n💡 **Ví dụ:** The director and producer is here (một người). / The director and the producer are here (hai người)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "More than one student have failed the test.",
+    "output": "✅ **Corrected Sentence:** More than one student has failed the test.\n🔍 **Error Identification:** 'More than one + danh từ số ít' + động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'more than one' nghĩa là nhiều nên dùng 'have'. Mẹo: 'More than one' + động từ số ít.\n💡 **Ví dụ:** More than one person was injured. / More than one car was damaged."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The crowd are cheering loudly. (Anh-Anh) - Học viên viết \'The crowd is cheering loudly.\' (Anh-Mỹ)",
+    "output": "✅ **Corrected Sentence (Anh-Mỹ):** The crowd is cheering loudly.\n🔍 **Error Identification:** 'Crowd' là danh từ tập thể, trong Anh-Mỹ dùng động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng cả hai tùy ngữ cảnh. Mẹo: Nếu đám đông hành động đồng nhất → số ít.\n💡 **Ví dụ:** The crowd is excited. / The audience is clapping."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Each boy and each girl have a ticket.",
+    "output": "✅ **Corrected Sentence:** Each boy and each girl has a ticket.\n🔍 **Error Identification:** 'Each + and + each' + động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy hai chủ ngữ nên dùng 'have'. Mẹo: Có 'each/every' thì động từ số ít.\n💡 **Ví dụ:** Every man and woman was invited. / Each student and teacher has a role."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The pants is too long for me.",
+    "output": "✅ **Corrected Sentence:** The pants are too long for me.\n🔍 **Error Identification:** 'Pants, trousers, shorts, jeans' luôn dùng động từ số nhiều.\n📘 **Vietnamese Explanation:** Người Việt dịch 'cái quần' số ít. Mẹo: 'A pair of pants' + động từ số ít.\n💡 **Ví dụ:** These pants are expensive. / A pair of pants is on the bed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The study of languages are fascinating.",
+    "output": "✅ **Corrected Sentence:** The study of languages is fascinating.\n🔍 **Error Identification:** Chủ ngữ chính là 'the study' (số ít), không phải 'languages'.\n📘 **Vietnamese Explanation:** Người Việt nhìn vào 'languages' để chia. Mẹo: Bỏ cụm 'of languages' để tìm chủ ngữ chính.\n💡 **Ví dụ:** The art of painting is beautiful. / The science of physics is complex."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There are a lot of traffic on the road.",
+    "output": "✅ **Corrected Sentence:** There is a lot of traffic on the road.\n🔍 **Error Identification:** 'Traffic' là danh từ không đếm được → dùng 'there is'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'a lot of' và nghĩ số nhiều. Mẹo: Traffic, information, advice, luggage + động từ số ít.\n💡 **Ví dụ:** There is a lot of noise. / There is much work to do."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The majority of the students is in favor.",
+    "output": "✅ **Corrected Sentence:** The majority of the students are in favor.\n🔍 **Error Identification:** 'Majority of + danh từ số nhiều' thường dùng động từ số nhiều.\n📘 **Vietnamese Explanation:** Người Việt thấy 'the majority' số ít nên dùng 'is'. Mẹo: 'Majority of + plural noun' + động từ số nhiều.\n💡 **Ví dụ:** The majority of voters are unhappy. / A majority of people agree."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Every one of the books have been read.",
+    "output": "✅ **Corrected Sentence:** Every one of the books has been read.\n🔍 **Error Identification:** 'Every one of + plural noun' + động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'books' số nhiều nên dùng 'have'. Mẹo: 'Every one' = mỗi một → số ít.\n💡 **Ví dụ:** Every one of the students has a laptop. / Every one of the cars is new."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The data is clear. (câu đúng trong tiếng Anh hiện đại) - Học viên viết \'The data are clear.\' (cũng đúng trong kỹ thuật)",
+    "output": "✅ **Corrected Sentence:** The data is clear. (hoặc The data are clear – tùy ngữ cảnh)\n🔍 **Error Identification:** 'Data' là số nhiều của 'datum', nhưng trong tiếng Anh hiện đại thường dùng như số ít.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'data' như số ít. Mẹo: 'Data' có thể dùng số ít (thông thường) hoặc số nhiều (kỹ thuật).\n💡 **Ví dụ:** The data is accurate. / These data are collected."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The couple is getting married next month. (câu đúng - một cặp)",
+    "output": "✅ **Corrected Sentence:** The couple is getting married next month. (có thể dùng số ít hoặc số nhiều)\n🔍 **Error Identification:** 'Couple' có thể dùng số ít (một đơn vị) hoặc số nhiều (hai người riêng lẻ).\n📘 **Vietnamese Explanation:** Người Việt thường dùng số ít cho 'couple'. Mẹo: Nếu nhấn mạnh sự thống nhất → số ít; nếu nhấn mạnh từng người → số nhiều.\n💡 **Ví dụ:** The couple is happy (một đôi). / The couple are arguing (hai người)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The audience were clapping enthusiastically. (Anh-Anh) - Học viên viết \'The audience was clapping.\' (Anh-Mỹ)",
+    "output": "✅ **Corrected Sentence (Anh-Mỹ):** The audience was clapping enthusiastically.\n🔍 **Error Identification:** Trong Anh-Mỹ, 'audience' dùng động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng cả hai. Mẹo: Anh-Mỹ: audience/team/family + động từ số ít.\n💡 **Ví dụ:** The audience is listening. / The audience was large."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The politics of the situation are complicated.",
+    "output": "✅ **Corrected Sentence:** The politics of the situation is complicated. (hoặc are complicated tùy nghĩa)\n🔍 **Error Identification:** 'Politics' có thể dùng số ít (môn khoa học chính trị) hoặc số nhiều (chiến thuật chính trị).\n📘 **Vietnamese Explanation:** Người Việt thấy 'politics' có 's' tưởng số nhiều. Mẹo: 'Politics is' (môn học), 'The politics are' (các chiến thuật).\n💡 **Ví dụ:** Politics is interesting. / The politics of the company are messy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Three hours are too long to wait.",
+    "output": "✅ **Corrected Sentence:** Three hours is too long to wait.\n🔍 **Error Identification:** Khoảng thời gian được coi là một đơn vị → động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'hours' số nhiều nên dùng 'are'. Mẹo: Thời gian, khoảng cách, số tiền + động từ số ít.\n💡 **Ví dụ:** Two weeks is a long vacation. / One hundred dollars is a lot."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The pair of shoes are on the floor.",
+    "output": "✅ **Corrected Sentence:** The pair of shoes is on the floor.\n🔍 **Error Identification:** 'Pair of' + danh từ số nhiều + động từ số ít (chủ ngữ là 'pair').\n📘 **Vietnamese Explanation:** Người Việt thấy 'shoes' số nhiều nên dùng 'are'. Mẹo: 'A pair of' + động từ số ít.\n💡 **Ví dụ:** A pair of gloves is on the table. / This pair of jeans is expensive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The English is difficult to learn.",
+    "output": "✅ **Corrected Sentence:** English is difficult to learn. (không có 'The')\n🔍 **Error Identification:** Tên ngôn ngữ không dùng mạo từ 'the'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'the' trước tên ngôn ngữ. Mẹo: English, French, Chinese + không 'the'.\n💡 **Ví dụ:** Spanish is easy. / Japanese is interesting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The poor is helped by the government.",
+    "output": "✅ **Corrected Sentence:** The poor are helped by the government.\n🔍 **Error Identification:** 'The + tính từ' chỉ nhóm người (the poor, the rich) → động từ số nhiều.\n📘 **Vietnamese Explanation:** Người Việt thấy 'the poor' số ít. Mẹo: The poor = người nghèo (số nhiều) → động từ số nhiều.\n💡 **Ví dụ:** The rich are getting richer. / The young are full of energy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The students in the class is studying hard.",
+    "output": "✅ **Corrected Sentence:** The students in the class are studying hard.\n🔍 **Error Identification:** Chủ ngữ 'the students' số nhiều → động từ 'are'.\n📘 **Vietnamese Explanation:** Người Việt nhìn vào 'class' (số ít) để chia. Mẹo: Bỏ qua cụm 'in the class', tìm chủ ngữ chính.\n💡 **Ví dụ:** The books on the shelf are new. / The cars in the garage are expensive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Neither the manager nor the employees is happy.",
+    "output": "✅ **Corrected Sentence:** Neither the manager nor the employees are happy.\n🔍 **Error Identification:** Động từ theo chủ ngữ gần nhất (employees – số nhiều).\n📘 **Vietnamese Explanation:** Người Việt chia theo 'manager' (số ít). Mẹo: Nhìn vào danh từ ngay sau 'nor'.\n💡 **Ví dụ:** Neither the employees nor the manager is happy. / Neither he nor they are ready."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is many reasons to be optimistic.",
+    "output": "✅ **Corrected Sentence:** There are many reasons to be optimistic.\n🔍 **Error Identification:** 'Reasons' là danh từ số nhiều → 'there are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'there is' cho mọi trường hợp. Mẹo: 'There are' + danh từ số nhiều.\n💡 **Ví dụ:** There are many problems. / There is a problem."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The quality of the products are excellent.",
+    "output": "✅ **Corrected Sentence:** The quality of the products is excellent.\n🔍 **Error Identification:** Chủ ngữ chính là 'the quality' (số ít) → động từ 'is'.\n📘 **Vietnamese Explanation:** Người Việt nhìn vào 'products' (số nhiều) để chia. Mẹo: Bỏ 'of the products' – 'the quality is'.\n💡 **Ví dụ:** The taste of the apples is sweet. / The price of the shoes is high."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Each student and teacher have a badge.",
+    "output": "✅ **Corrected Sentence:** Each student and teacher has a badge.\n🔍 **Error Identification:** 'Each' + and + 'each' (ngầm hiểu) + động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy hai chủ ngữ nên dùng 'have'. Mẹo: Có 'each/every' → động từ số ít.\n💡 **Ví dụ:** Every boy and girl is invited. / Each book and pen is on the desk."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "A number of solutions has been proposed.",
+    "output": "✅ **Corrected Sentence:** A number of solutions have been proposed.\n🔍 **Error Identification:** 'A number of' (nhiều) + danh từ số nhiều + động từ số nhiều.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'a number of' với 'the number of'. Mẹo: 'A number' = số nhiều, 'The number' = số ít.\n💡 **Ví dụ:** A number of issues have arisen. / The number of issues is small."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The criteria for selection is strict.",
+    "output": "✅ **Corrected Sentence:** The criteria for selection are strict.\n🔍 **Error Identification:** 'Criteria' là số nhiều của 'criterion' → động từ số nhiều.\n📘 **Vietnamese Explanation:** Người Việt thấy 'criteria' có 'a' tưởng số ít. Mẹo: 'Criterion' (số ít) – 'criteria' (số nhiều).\n💡 **Ví dụ:** The criteria are listed. / This criterion is important."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The phenomenon are difficult to explain.",
+    "output": "✅ **Corrected Sentence:** The phenomenon is difficult to explain.\n🔍 **Error Identification:** 'Phenomenon' là số ít, số nhiều là 'phenomena'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'phenomena' như số ít. Mẹo: 'Phenomenon' (số ít) – 'phenomena' (số nhiều).\n💡 **Ví dụ:** This phenomenon is rare. / These phenomena are common."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The fish in the aquarium is very colorful.",
+    "output": "✅ **Corrected Sentence:** The fish in the aquarium is very colorful. (nếu một con) / The fish are very colorful (nếu nhiều con)\n🔍 **Error Identification:** 'Fish' có thể số ít hoặc số nhiều tùy ngữ cảnh.\n📘 **Vietnamese Explanation:** Người Việt cần xác định 'fish' là số ít hay số nhiều. Mẹo: 'Fish' (số ít) – 'fish' (số nhiều, cũng có thể dùng 'fishes' cho nhiều loài).\n💡 **Ví dụ:** The fish is swimming (một con). / The fish are swimming (nhiều con)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The United Nations are an international organization.",
+    "output": "✅ **Corrected Sentence:** The United Nations is an international organization.\n🔍 **Error Identification:** Tên tổ chức (United Nations) dùng động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'Nations' có 's' tưởng số nhiều. Mẹo: Tên tổ chức, quốc gia + động từ số ít.\n💡 **Ví dụ:** UNESCO is a UN agency. / The World Health Organization is based in Geneva."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Every one of the employees have a company card.",
+    "output": "✅ **Corrected Sentence:** Every one of the employees has a company card.\n🔍 **Error Identification:** 'Every one' + động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'employees' số nhiều nên dùng 'have'. Mẹo: 'Every one' = mỗi một người → số ít.\n💡 **Ví dụ:** Every one of the students has a book. / Every one of us is responsible."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The news are on at 7 PM.",
+    "output": "✅ **Corrected Sentence:** The news is on at 7 PM.\n🔍 **Error Identification:** 'News' luôn số ít.\n📘 **Vietnamese Explanation:** Người Việt thấy 'news' có 's' tưởng số nhiều. Mẹo: 'News' không đếm được, luôn số ít.\n💡 **Ví dụ:** The news is interesting. / No news is good news."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "There is two options for us.",
+    "output": "✅ **Corrected Sentence:** There are two options for us.\n🔍 **Error Identification:** 'Two options' số nhiều → 'there are'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'there is' cho mọi trường hợp. Mẹo: Nhìn vào danh từ sau 'there'.\n💡 **Ví dụ:** There is one option. / There are many options."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The team of scientists are working on the project.",
+    "output": "✅ **Corrected Sentence:** The team of scientists is working on the project. (Anh-Mỹ)\n🔍 **Error Identification:** 'The team' là chủ ngữ chính (số ít) → động từ số ít.\n📘 **Vietnamese Explanation:** Người Việt nhìn vào 'scientists' (số nhiều) để chia. Mẹo: Bỏ 'of scientists' – 'the team is'.\n💡 **Ví dụ:** The group of students is here. / The band of musicians is playing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "Everything are ready for the party.",
+    "output": "✅ **Corrected Sentence:** Everything is ready for the party.\n🔍 **Error Identification:** 'Everything' là đại từ bất định số ít → động từ 'is'.\n📘 **Vietnamese Explanation:** Người Việt thấy 'everything' chỉ nhiều thứ nên dùng 'are'. Mẹo: 'Everything, something, anything, nothing' + động từ số ít.\n💡 **Ví dụ:** Something is wrong. / Nothing matters."
+  }
+]

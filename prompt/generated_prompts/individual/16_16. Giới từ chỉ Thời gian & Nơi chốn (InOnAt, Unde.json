@@ -1,0 +1,427 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will meet you in Monday.",
+    "output": "✅ **Corrected Sentence:** I will meet you on Monday.\n🔍 **Error Identification:** Dùng 'in' thay vì 'on' cho các ngày trong tuần.\n📘 **Vietnamese Explanation:** Người Việt dịch 'vào thứ Hai' dùng 'in' vì 'vào'. Mẹo: 'On' + ngày trong tuần / ngày cụ thể (on Monday, on May 5th).\n💡 **Ví dụ:** On Tuesday, on January 10th, on my birthday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She was born in 1995 at Hanoi.",
+    "output": "✅ **Corrected Sentence:** She was born in 1995 in Hanoi.\n🔍 **Error Identification:** Dùng 'at' cho thành phố – 'at' dùng cho địa điểm cụ thể, 'in' cho thành phố/quốc gia.\n📘 **Vietnamese Explanation:** Người Việt dùng 'at' cho mọi nơi vì nghĩ 'ở tại'. Mẹo: 'In' + thành phố / quốc gia / vùng rộng; 'At' + địa chỉ cụ thể.\n💡 **Ví dụ:** In Hanoi, in Vietnam, at 123 Main Street."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I wake up at 6 o'clock on the morning.",
+    "output": "✅ **Corrected Sentence:** I wake up at 6 o'clock in the morning.\n🔍 **Error Identification:** Dùng 'on the morning' – đúng phải là 'in the morning'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'on' cho buổi sáng vì 'vào buổi sáng'. Mẹo: 'In' + morning/afternoon/evening; 'On' + buổi trong ngày có tính từ (on Monday morning).\n💡 **Ví dụ:** In the afternoon, on Friday evening."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book is in the table.",
+    "output": "✅ **Corrected Sentence:** The book is on the table.\n🔍 **Error Identification:** Dùng 'in' thay vì 'on' cho bề mặt – sách ở trên mặt bàn, không phải bên trong.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho mọi vị trí vì 'trên' và 'trong' đều là 'ở'. Mẹo: 'On' + bề mặt (table, floor, wall).\n💡 **Ví dụ:** On the floor, on the wall, on the ceiling."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He lives on 123 Nguyen Hue Street.",
+    "output": "✅ **Corrected Sentence:** He lives at 123 Nguyen Hue Street.\n🔍 **Error Identification:** Dùng 'on' cho địa chỉ – địa chỉ cụ thể dùng 'at', 'on' dùng cho tên đường không có số nhà.\n📘 **Vietnamese Explanation:** Người Việt dùng 'on' cho địa chỉ vì 'trên đường'. Mẹo: 'At' + số nhà + tên đường; 'On' + tên đường (không số nhà).\n💡 **Ví dụ:** At 10 Downing Street. / On Nguyen Hue Street."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cat is on the bed. (câu đúng) - Học viên viết \'The cat is in the bed.\'",
+    "output": "✅ **Corrected Sentence:** The cat is on the bed. (trên mặt giường) / The cat is in the bed. (dưới chăn)\n🔍 **Error Identification:** 'On the bed' = trên mặt giường; 'In the bed' = trong chăn. Tùy nghĩa.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'in' cho giường. Mẹo: 'In' = bên trong (chăn, phòng), 'on' = trên bề mặt.\n💡 **Ví dụ:** In bed (đang nằm ngủ). / On the bed (ngồi trên giường)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We will go to the beach on summer.",
+    "output": "✅ **Corrected Sentence:** We will go to the beach in summer.\n🔍 **Error Identification:** Dùng 'on' cho mùa – mùa dùng 'in' (in summer, in winter).\n📘 **Vietnamese Explanation:** Người Việt dịch 'vào mùa hè' dùng 'on'. Mẹo: 'In' + tháng, năm, mùa, thế kỷ.\n💡 **Ví dụ:** In July, in 2024, in spring, in the 20th century."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The picture is at the wall.",
+    "output": "✅ **Corrected Sentence:** The picture is on the wall.\n🔍 **Error Identification:** Dùng 'at' thay vì 'on' cho tường – tranh treo trên bề mặt tường.\n📘 **Vietnamese Explanation:** Người Việt dùng 'at' cho mọi nơi. Mẹo: 'On' + bề mặt thẳng đứng (wall, door).\n💡 **Ví dụ:** On the wall, on the door, on the window."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will see you in Christmas.",
+    "output": "✅ **Corrected Sentence:** I will see you at Christmas.\n🔍 **Error Identification:** Dùng 'in' cho ngày lễ – lễ hội, kỳ nghỉ dùng 'at' (at Christmas, at Easter).\n📘 **Vietnamese Explanation:** Người Việt dịch 'vào Giáng sinh' dùng 'in'. Mẹo: 'At' + dịp lễ / cuối tuần (at weekend).\n💡 **Ví dụ:** At Easter, at New Year, at the weekend."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The keys are under the table. (câu đúng) - Học viên viết \'The keys are under of the table.\'",
+    "output": "✅ **Corrected Sentence:** The keys are under the table.\n🔍 **Error Identification:** 'Under' không đi với 'of' – thừa 'of'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' sau 'under' vì nghĩ 'bên dưới của'. Mẹo: Under, below, above, behind không cần 'of'.\n💡 **Ví dụ:** Behind the door, above the shelf, below zero."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I am sitting between John and Mary. (câu đúng) - Học viên viết \'I am sitting between John with Mary.\'",
+    "output": "✅ **Corrected Sentence:** I am sitting between John and Mary.\n🔍 **Error Identification:** 'Between' đi với 'and', không đi với 'with'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'between...with' vì nghĩ 'giữa...với'. Mẹo: 'Between A and B' (không phải with).\n💡 **Ví dụ:** Between you and me. / Between the two buildings."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We live in the second floor.",
+    "output": "✅ **Corrected Sentence:** We live on the second floor.\n🔍 **Error Identification:** Dùng 'in' cho tầng lầu – tầng dùng 'on' (on the first floor, on the second floor).\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' vì 'ở trong tòa nhà'. Mẹo: 'On' + tầng / bề mặt.\n💡 **Ví dụ:** On the ground floor, on the top floor."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The meeting is at 3 PM in Monday.",
+    "output": "✅ **Corrected Sentence:** The meeting is at 3 PM on Monday.\n🔍 **Error Identification:** Dùng 'in' cho thứ – thứ dùng 'on'.\n📘 **Vietnamese Explanation:** Người Việt lẫn lộn 'in' và 'on' cho thời gian. Mẹo: 'On' + thứ, ngày; 'At' + giờ.\n💡 **Ví dụ:** At 8 AM on Tuesday. / At noon on Friday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is good in math.",
+    "output": "✅ **Corrected Sentence:** She is good at math.\n🔍 **Error Identification:** Dùng 'in' thay vì 'at' cho tính từ chỉ khả năng 'good at'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'giỏi trong môn toán' thành 'good in'. Mẹo: 'Good at + môn học / kỹ năng'.\n💡 **Ví dụ:** He is good at English. / She is good at swimming."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will call you on 8 PM.",
+    "output": "✅ **Corrected Sentence:** I will call you at 8 PM.\n🔍 **Error Identification:** Dùng 'on' cho giờ – giờ dùng 'at'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'on' cho giờ vì 'vào lúc'. Mẹo: 'At' + giờ cụ thể.\n💡 **Ví dụ:** At 7 AM, at noon, at midnight."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The restaurant is at the corner of the street. (câu đúng) - Học viên viết \'The restaurant is in the corner of the street.\'",
+    "output": "✅ **Corrected Sentence:** The restaurant is at the corner of the street.\n🔍 **Error Identification:** Dùng 'in' thay vì 'at' cho góc phố – 'at the corner' là đúng.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho góc. Mẹo: 'At' + góc / giao lộ; 'In' + bên trong góc.\n💡 **Ví dụ:** At the corner, at the intersection, in the corner of the room."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will finish the project in two weeks. (câu đúng) - Học viên viết \'I will finish the project after two weeks.\'",
+    "output": "✅ **Corrected Sentence:** I will finish the project in two weeks. (trong vòng 2 tuần) / after two weeks (sau 2 tuần)\n🔍 **Error Identification:** 'In two weeks' = trong vòng 2 tuần tới; 'After two weeks' = sau khi 2 tuần trôi qua.\n📘 **Vietnamese Explanation:** Người Việt dùng 'after' cho mọi trường hợp. Mẹo: 'In' + khoảng thời gian trong tương lai (tính từ bây giờ).\n💡 **Ví dụ:** In 3 days, in a week, in an hour."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is interested on learning English.",
+    "output": "✅ **Corrected Sentence:** He is interested in learning English.\n🔍 **Error Identification:** Dùng 'on' thay vì 'in' sau 'interested'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'quan tâm về' thành 'interested on'. Mẹo: 'Interested in + something'.\n💡 **Ví dụ:** She is interested in art. / They are interested in music."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cat is hiding under the bed. (câu đúng) - Học viên viết \'The cat is hiding under of the bed.\'",
+    "output": "✅ **Corrected Sentence:** The cat is hiding under the bed.\n🔍 **Error Identification:** Thừa 'of' sau 'under'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' sau giới từ chỉ vị trí. Mẹo: Under, over, behind, in front of (không 'of' với under).\n💡 **Ví dụ:** Behind the house, above the clouds, below the surface."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will meet you at the weekend. (câu đúng Anh-Anh) - Học viên viết \'I will meet you in the weekend.\'",
+    "output": "✅ **Corrected Sentence:** I will meet you at the weekend. (Anh-Anh) / on the weekend (Anh-Mỹ)\n🔍 **Error Identification:** Dùng 'in' cho cuối tuần – cuối tuần dùng 'at' hoặc 'on'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho mọi khoảng thời gian. Mẹo: 'At the weekend' (Anh), 'on the weekend' (Mỹ).\n💡 **Ví dụ:** At Christmas, on the weekend."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She arrived in the station at 8 AM.",
+    "output": "✅ **Corrected Sentence:** She arrived at the station at 8 AM.\n🔍 **Error Identification:** Dùng 'in' cho nhà ga – địa điểm cụ thể dùng 'at'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho tòa nhà. Mẹo: 'At' + ga / sân bay / bến xe (điểm đến).\n💡 **Ví dụ:** At the airport, at the bus stop, at the cinema."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The pen is on the desk. (câu đúng) - Học viên viết \'The pen is at the desk.\'",
+    "output": "✅ **Corrected Sentence:** The pen is on the desk.\n🔍 **Error Identification:** Dùng 'at' thay vì 'on' cho bàn – trên bề mặt dùng 'on'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'at' cho mọi nơi. Mẹo: 'On' + bề mặt; 'At' + địa điểm cụ thể (at the desk = ở cạnh bàn).\n💡 **Ví dụ:** At the desk (ngồi ở bàn), on the desk (trên mặt bàn)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was born in August 5th.",
+    "output": "✅ **Corrected Sentence:** I was born on August 5th. (hoặc on the 5th of August)\n🔍 **Error Identification:** Dùng 'in' cho ngày cụ thể – ngày dùng 'on'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho tháng, nhưng ngày cụ thể cần 'on'. Mẹo: 'On' + ngày (on May 5th); 'In' + tháng (in May).\n💡 **Ví dụ:** On January 1st, on my birthday, on that day."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The school is between the bank and the post office. (câu đúng) - Học viên viết \'The school is between the bank with the post office.\'",
+    "output": "✅ **Corrected Sentence:** The school is between the bank and the post office.\n🔍 **Error Identification:** 'Between' + A and B, không phải 'with'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'between...with'. Mẹo: 'Between' luôn đi với 'and'.\n💡 **Ví dụ:** Between you and me. / Between the two chairs."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will go to the market in the morning. (câu đúng) - Học viên viết \'I will go to the market on the morning.\'",
+    "output": "✅ **Corrected Sentence:** I will go to the market in the morning.\n🔍 **Error Identification:** Dùng 'on' cho buổi sáng – buổi sáng nói chung dùng 'in'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'on' cho buổi sáng vì 'vào buổi sáng'. Mẹo: 'In' + morning/afternoon/evening (trừ khi có tính từ: on a cold morning).\n💡 **Ví dụ:** In the morning, in the evening, on Sunday morning."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The temperature is under zero.",
+    "output": "✅ **Corrected Sentence:** The temperature is below zero.\n🔍 **Error Identification:** Dùng 'under' cho nhiệt độ – 'below zero' là đúng, 'under' ít dùng.\n📘 **Vietnamese Explanation:** Người Việt dùng 'under' cho mọi 'dưới'. Mẹo: 'Below' cho nhiệt độ, mực nước; 'Under' cho vị trí vật lý.\n💡 **Ví dụ:** Below freezing, below sea level, under the table."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He lives in 45 Nguyen Trai Street.",
+    "output": "✅ **Corrected Sentence:** He lives at 45 Nguyen Trai Street.\n🔍 **Error Identification:** Dùng 'in' cho địa chỉ có số nhà – địa chỉ cụ thể dùng 'at'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho địa chỉ. Mẹo: 'At' + số nhà + tên đường; 'On' + tên đường (không số).\n💡 **Ví dụ:** At 12 Oxford Street, on Oxford Street."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will meet you in the bus stop.",
+    "output": "✅ **Corrected Sentence:** I will meet you at the bus stop.\n🔍 **Error Identification:** Dùng 'in' cho trạm xe buýt – địa điểm cụ thể dùng 'at'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho điểm dừng. Mẹo: 'At' + trạm / điểm dừng / địa danh cụ thể.\n💡 **Ví dụ:** At the bus stop, at the train station, at the airport."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is sitting in the front of the car.",
+    "output": "✅ **Corrected Sentence:** She is sitting in the front of the car. (bên trong ghế trước) / in front of the car (phía trước xe)\n🔍 **Error Identification:** 'In front of' = ở phía trước (bên ngoài); 'In the front of' = ở phần phía trước (bên trong).\n📘 **Vietnamese Explanation:** Người Việt nhầm lẫn 'in front of' và 'in the front of'. Mẹo: 'In front of' = bên ngoài, phía trước; 'In the front of' = bên trong, phần đầu.\n💡 **Ví dụ:** In front of the house (ngoài sân). / In the front of the bus (trong xe)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We will travel in Friday morning.",
+    "output": "✅ **Corrected Sentence:** We will travel on Friday morning.\n🔍 **Error Identification:** Dùng 'in' cho thứ + buổi – dùng 'on'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho buổi sáng, quên mất thứ. Mẹo: 'On' + thứ + buổi (on Monday morning).\n💡 **Ví dụ:** On Sunday afternoon, on Tuesday evening."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The ball is under the table. (câu đúng) - Học viên viết \'The ball is under of the table.\'",
+    "output": "✅ **Corrected Sentence:** The ball is under the table.\n🔍 **Error Identification:** Thừa 'of'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' sau giới từ chỉ vị trí. Mẹo: Under, over, behind, in, on, at không cần 'of'.\n💡 **Ví dụ:** Behind the door, above the shelf, inside the box."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He will return in an hour. (câu đúng) - Học viên viết \'He will return after an hour.\'",
+    "output": "✅ **Corrected Sentence:** He will return in an hour. (trong vòng 1 giờ nữa) / after an hour (sau 1 giờ)\n🔍 **Error Identification:** 'In an hour' = sau 1 giờ tính từ bây giờ (thường dùng). 'After an hour' = sau khi 1 giờ trôi qua.\n📘 **Vietnamese Explanation:** Người Việt dùng 'after' cho mọi trường hợp. Mẹo: 'In' + khoảng thời gian để nói về tương lai gần.\n💡 **Ví dụ:** I'll call you in 10 minutes. / She'll arrive in a few days."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is afraid from dogs.",
+    "output": "✅ **Corrected Sentence:** She is afraid of dogs.\n🔍 **Error Identification:** Dùng 'from' thay vì 'of' sau 'afraid'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'sợ từ con chó' thành 'afraid from'. Mẹo: 'Afraid of + something'.\n💡 **Ví dụ:** He is afraid of heights. / I am afraid of spiders."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will be there in the evening. (câu đúng) - Học viên viết \'I will be there on the evening.\'",
+    "output": "✅ **Corrected Sentence:** I will be there in the evening.\n🔍 **Error Identification:** Dùng 'on' cho buổi tối – buổi tối dùng 'in'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'on' cho buổi tối. Mẹo: 'In the morning/afternoon/evening' (trừ khi có tính từ: on a cold evening).\n💡 **Ví dụ:** In the evening, on a summer evening."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The hotel is at the beach. (câu đúng) - Học viên viết \'The hotel is in the beach.\'",
+    "output": "✅ **Corrected Sentence:** The hotel is at the beach. (ở khu vực bãi biển) / on the beach (trên cát)\n🔍 **Error Identification:** 'In the beach' là sai – dùng 'at the beach' hoặc 'on the beach'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho bãi biển. Mẹo: 'On the beach' (trên cát), 'at the beach' (ở khu vực biển).\n💡 **Ví dụ:** Let's meet at the beach. / The children are playing on the beach."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He was born in 1990 at Hanoi.",
+    "output": "✅ **Corrected Sentence:** He was born in 1990 in Hanoi.\n🔍 **Error Identification:** Dùng 'at' cho thành phố – thành phố dùng 'in'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'at' cho địa danh lớn. Mẹo: 'In' + thành phố / quốc gia; 'At' + điểm cụ thể.\n💡 **Ví dụ:** In Ho Chi Minh City, in Vietnam, at the airport."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The picture is in the wall.",
+    "output": "✅ **Corrected Sentence:** The picture is on the wall.\n🔍 **Error Identification:** Dùng 'in' cho tường – tranh treo 'on the wall'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho mọi vị trí. Mẹo: 'On' + bề mặt tường, 'in' + bên trong tường (lỗ hổng).\n💡 **Ví dụ:** A nail in the wall (đóng đinh vào tường). / A painting on the wall."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will go to work at the morning.",
+    "output": "✅ **Corrected Sentence:** I will go to work in the morning.\n🔍 **Error Identification:** Dùng 'at' cho buổi sáng – 'in the morning' mới đúng.\n📘 **Vietnamese Explanation:** Người Việt dùng 'at' cho thời gian, quên mất 'in' cho buổi. Mẹo: 'In the morning/afternoon/evening', 'at night'.\n💡 **Ví dụ:** In the morning, at night, in the afternoon."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The store is between the bank and the library. (câu đúng) - Học viên viết \'The store is between the bank to the library.\'",
+    "output": "✅ **Corrected Sentence:** The store is between the bank and the library.\n🔍 **Error Identification:** Dùng 'to' thay vì 'and' – 'between' đi với 'and'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'between...to' vì nghĩ 'giữa...với'. Mẹo: 'Between A and B' (không phải to).\n💡 **Ví dụ:** Between the two buildings and the park."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I have an appointment in 3 PM.",
+    "output": "✅ **Corrected Sentence:** I have an appointment at 3 PM.\n🔍 **Error Identification:** Dùng 'in' cho giờ – giờ dùng 'at'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho giờ. Mẹo: 'At' + giờ, 'in' + tháng/năm.\n💡 **Ví dụ:** At 5 o'clock, at 9 AM, at midnight."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is sitting in the corner of the room. (câu đúng) - Học viên viết \'He is sitting at the corner of the room.\'",
+    "output": "✅ **Corrected Sentence:** He is sitting in the corner of the room.\n🔍 **Error Identification:** Dùng 'at' cho góc trong phòng – góc bên trong dùng 'in'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'at' cho mọi góc. Mẹo: 'In the corner' = bên trong góc; 'At the corner' = ở góc phố (ngoài trời).\n💡 **Ví dụ:** In the corner of the room, at the corner of the street."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We will meet on Christmas Day. (câu đúng) - Học viên viết \'We will meet in Christmas Day.\'",
+    "output": "✅ **Corrected Sentence:** We will meet on Christmas Day.\n🔍 **Error Identification:** Dùng 'in' cho ngày lễ cụ thể – ngày dùng 'on'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho dịp lễ. Mẹo: 'On' + ngày lễ cụ thể (on Christmas Day, on New Year's Day).\n💡 **Ví dụ:** On Christmas Day, on my birthday, on that day."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cat is hiding under of the sofa.",
+    "output": "✅ **Corrected Sentence:** The cat is hiding under the sofa.\n🔍 **Error Identification:** Thừa 'of'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' sau 'under'. Mẹo: Under, below, above, behind, in front of – nhớ 'in front of' có 'of', còn lại không.\n💡 **Ví dụ:** Behind the tree, under the bed, in front of the house."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will see you in the weekend.",
+    "output": "✅ **Corrected Sentence:** I will see you at the weekend. (Anh-Anh) / on the weekend (Anh-Mỹ)\n🔍 **Error Identification:** Dùng 'in' cho cuối tuần.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho mọi khoảng thời gian. Mẹo: 'At the weekend' (Anh), 'on the weekend' (Mỹ).\n💡 **Ví dụ:** What do you do at the weekend? / On the weekend, I relax."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is good in playing piano.",
+    "output": "✅ **Corrected Sentence:** She is good at playing piano.\n🔍 **Error Identification:** Dùng 'in' sau 'good' – đúng là 'good at'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'giỏi trong việc chơi piano' thành 'good in'. Mẹo: 'Good at + V-ing / noun'.\n💡 **Ví dụ:** He is good at cooking. / She is good at math."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book is at the shelf.",
+    "output": "✅ **Corrected Sentence:** The book is on the shelf.\n🔍 **Error Identification:** Dùng 'at' cho kệ – sách ở trên kệ, dùng 'on'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'at' cho mọi nơi. Mẹo: 'On' + bề mặt (shelf, table, floor).\n💡 **Ví dụ:** On the shelf, on the desk, on the floor."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I was born on 1995.",
+    "output": "✅ **Corrected Sentence:** I was born in 1995.\n🔍 **Error Identification:** Dùng 'on' cho năm – năm dùng 'in'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'on' cho năm vì 'vào năm'. Mẹo: 'In' + năm (in 1995).\n💡 **Ví dụ:** In 2020, in 2001, in 1999."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is afraid of the dark. (câu đúng) - Học viên viết \'He is afraid from the dark.\'",
+    "output": "✅ **Corrected Sentence:** He is afraid of the dark.\n🔍 **Error Identification:** Dùng 'from' thay vì 'of'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'afraid from'. Mẹo: 'Afraid of' (sợ điều gì).\n💡 **Ví dụ:** I am afraid of spiders. / She is afraid of heights."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The children are playing in the garden. (câu đúng) - Học viên viết \'The children are playing on the garden.\'",
+    "output": "✅ **Corrected Sentence:** The children are playing in the garden.\n🔍 **Error Identification:** Dùng 'on' cho vườn – vườn có ranh giới, dùng 'in'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'on' cho không gian ngoài trời. Mẹo: 'In' + không gian có ranh giới (garden, park, yard).\n💡 **Ví dụ:** In the yard, in the park, in the garden."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will call you in 5 minutes. (câu đúng) - Học viên viết \'I will call you after 5 minutes.\'",
+    "output": "✅ **Corrected Sentence:** I will call you in 5 minutes.\n🔍 **Error Identification:** 'In 5 minutes' = 5 phút nữa (từ bây giờ). 'After 5 minutes' = sau 5 phút (thường dùng cho quá khứ).\n📘 **Vietnamese Explanation:** Người Việt dùng 'after' cho tương lai. Mẹo: Tương lai gần + 'in' + khoảng thời gian.\n💡 **Ví dụ:** The train leaves in 10 minutes. / She will arrive in an hour."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The plane flies above the clouds. (câu đúng) - Học viên viết \'The plane flies over the clouds.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** The plane flies above the clouds. (hoặc over)\n🔍 **Error Identification:** 'Above' và 'over' đều có nghĩa 'trên', nhưng 'above' thường chỉ vị trí cao hơn, 'over' có thể chỉ di chuyển qua.\n📘 **Vietnamese Explanation:** Người Việt dùng 'on' cho mọi 'trên'. Mẹo: 'Above' = ở trên (không chạm), 'over' = ở trên có thể che phủ.\n💡 **Ví dụ:** The sun is above the horizon. / The bridge goes over the river."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is interested on art.",
+    "output": "✅ **Corrected Sentence:** She is interested in art.\n🔍 **Error Identification:** Dùng 'on' thay vì 'in'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'interested on'. Mẹo: 'Interested in + something'.\n💡 **Ví dụ:** He is interested in music. / They are interested in history."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I live at Hanoi.",
+    "output": "✅ **Corrected Sentence:** I live in Hanoi.\n🔍 **Error Identification:** Dùng 'at' cho thành phố.\n📘 **Vietnamese Explanation:** Người Việt dùng 'at' cho mọi nơi. Mẹo: 'In' + thành phố / quốc gia.\n💡 **Ví dụ:** In Tokyo, in France, in New York."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We will go on holiday on summer.",
+    "output": "✅ **Corrected Sentence:** We will go on holiday in summer.\n🔍 **Error Identification:** Dùng 'on' cho mùa.\n📘 **Vietnamese Explanation:** Người Việt dùng 'on' cho mùa hè. Mẹo: 'In' + mùa (in spring, in summer).\n💡 **Ví dụ:** In winter, in autumn, in spring."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The keys are under of the mat.",
+    "output": "✅ **Corrected Sentence:** The keys are under the mat.\n🔍 **Error Identification:** Thừa 'of'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of' sau 'under'. Mẹo: Under, behind, above không cần 'of'.\n💡 **Ví dụ:** Under the rug, behind the curtain, above the door."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will meet you in the bus stop.",
+    "output": "✅ **Corrected Sentence:** I will meet you at the bus stop.\n🔍 **Error Identification:** Dùng 'in' cho trạm xe buýt.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho điểm dừng. Mẹo: 'At' + trạm / điểm dừng.\n💡 **Ví dụ:** At the bus stop, at the taxi stand."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The school is at 15 Le Loi Street. (câu đúng) - Học viên viết \'The school is in 15 Le Loi Street.\'",
+    "output": "✅ **Corrected Sentence:** The school is at 15 Le Loi Street.\n🔍 **Error Identification:** Dùng 'in' cho địa chỉ có số nhà.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho địa chỉ. Mẹo: 'At' + số nhà, 'on' + tên đường (không số).\n💡 **Ví dụ:** At 20 Main Street, on Main Street."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will see you on Friday evening. (câu đúng) - Học viên viết \'I will see you in Friday evening.\'",
+    "output": "✅ **Corrected Sentence:** I will see you on Friday evening.\n🔍 **Error Identification:** Dùng 'in' cho thứ + buổi.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho buổi tối, quên thứ. Mẹo: 'On' + thứ + buổi.\n💡 **Ví dụ:** On Monday morning, on Sunday night."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The temperature is under 20 degrees.",
+    "output": "✅ **Corrected Sentence:** The temperature is below 20 degrees.\n🔍 **Error Identification:** Dùng 'under' cho nhiệt độ – 'below' phổ biến hơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'under' cho nhiệt độ. Mẹo: 'Below' cho nhiệt độ, mực nước, mức độ.\n💡 **Ví dụ:** Below freezing, below average, below zero."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is sitting on the sofa. (câu đúng) - Học viên viết \'She is sitting in the sofa.\'",
+    "output": "✅ **Corrected Sentence:** She is sitting on the sofa.\n🔍 **Error Identification:** Dùng 'in' cho ghế sofa – ngồi 'on' bề mặt ghế.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho ghế bành. Mẹo: 'On' + ghế có mặt phẳng (sofa, chair, bench).\n💡 **Ví dụ:** On the chair, on the bench, on the couch."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will go to the bank in the way home.",
+    "output": "✅ **Corrected Sentence:** I will go to the bank on the way home.\n🔍 **Error Identification:** Dùng 'in' cho đường đi – 'on the way' là đúng.\n📘 **Vietnamese Explanation:** Người Việt dịch 'trên đường' thành 'in the way'. Mẹo: 'On the way' (trên đường đi), 'in the way' (cản đường).\n💡 **Ví dụ:** On the way to school, in my way (cản trở)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is sitting in the front row. (câu đúng) - Học viên viết \'He is sitting on the front row.\'",
+    "output": "✅ **Corrected Sentence:** He is sitting in the front row.\n🔍 **Error Identification:** Dùng 'on' cho hàng ghế – hàng ghế dùng 'in'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'on' cho hàng ghế. Mẹo: 'In' + hàng (row), 'on' + bề mặt.\n💡 **Ví dụ:** In the first row, in the back row, on the seat."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We will meet at the entrance. (câu đúng) - Học viên viết \'We will meet in the entrance.\'",
+    "output": "✅ **Corrected Sentence:** We will meet at the entrance.\n🔍 **Error Identification:** Dùng 'in' cho lối vào – 'at the entrance' là đúng.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho cửa vào. Mẹo: 'At' + điểm cụ thể (entrance, exit, corner).\n💡 **Ví dụ:** At the door, at the gate, at the exit."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will finish the report in the end of the day.",
+    "output": "✅ **Corrected Sentence:** I will finish the report at the end of the day.\n🔍 **Error Identification:** Dùng 'in' cho 'the end' – 'at the end' là đúng.\n📘 **Vietnamese Explanation:** Người Việt dịch 'vào cuối ngày' thành 'in the end'. Mẹo: 'At the end' (thời điểm kết thúc), 'in the end' (cuối cùng, sau cùng).\n💡 **Ví dụ:** At the end of the movie, in the end (finally)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is afraid from snakes.",
+    "output": "✅ **Corrected Sentence:** She is afraid of snakes.\n🔍 **Error Identification:** Dùng 'from' thay vì 'of'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'afraid from'. Mẹo: 'Afraid of' (sợ).\n💡 **Ví dụ:** He is afraid of heights. / I am afraid of the dark."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The book is in the top shelf.",
+    "output": "✅ **Corrected Sentence:** The book is on the top shelf.\n🔍 **Error Identification:** Dùng 'in' cho kệ – trên kệ dùng 'on'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho kệ sách. Mẹo: 'On' + bề mặt (shelf, table).\n💡 **Ví dụ:** On the top shelf, on the bottom shelf."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will arrive on 8 AM.",
+    "output": "✅ **Corrected Sentence:** I will arrive at 8 AM.\n🔍 **Error Identification:** Dùng 'on' cho giờ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'on' cho giờ. Mẹo: 'At' + giờ.\n💡 **Ví dụ:** At 7 PM, at 6:30, at noon."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The cat is under of the chair.",
+    "output": "✅ **Corrected Sentence:** The cat is under the chair.\n🔍 **Error Identification:** Thừa 'of'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'of'. Mẹo: Under, below, behind, above không 'of'.\n💡 **Ví dụ:** Under the table, behind the door."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will see you in next week.",
+    "output": "✅ **Corrected Sentence:** I will see you next week. (không dùng giới từ)\n🔍 **Error Identification:** Dùng 'in' trước 'next week' – không cần giới từ.\n📘 **Vietnamese Explanation:** Người Việt thêm 'in' cho 'next week'. Mẹo: 'Next/last/this/every' + thời gian không dùng giới từ.\n💡 **Ví dụ:** See you next Monday. / I did it last year."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is good in singing.",
+    "output": "✅ **Corrected Sentence:** She is good at singing.\n🔍 **Error Identification:** Dùng 'in' sau 'good'.\n📘 **Vietnamese Explanation:** Người Việt dịch 'giỏi trong việc hát'. Mẹo: 'Good at + V-ing/noun'.\n💡 **Ví dụ:** He is good at dancing. / She is good at math."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will meet you at the corner of the street. (câu đúng) - Học viên viết \'I will meet you in the corner of the street.\'",
+    "output": "✅ **Corrected Sentence:** I will meet you at the corner of the street.\n🔍 **Error Identification:** Dùng 'in' cho góc phố.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho góc. Mẹo: 'At the corner' (góc phố ngoài trời).\n💡 **Ví dụ:** At the corner, at the intersection."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He was born in April 15th.",
+    "output": "✅ **Corrected Sentence:** He was born on April 15th.\n🔍 **Error Identification:** Dùng 'in' cho ngày tháng cụ thể.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho tháng, quên ngày. Mẹo: 'On' + ngày (on April 15th).\n💡 **Ví dụ:** On May 1st, on June 10th."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The restaurant is in 45 Le Thanh Ton Street.",
+    "output": "✅ **Corrected Sentence:** The restaurant is at 45 Le Thanh Ton Street.\n🔍 **Error Identification:** Dùng 'in' cho địa chỉ có số nhà.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho địa chỉ. Mẹo: 'At' + số nhà.\n💡 **Ví dụ:** At 10 Main Street, at 22 Nguyen Hue."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will call you at the evening.",
+    "output": "✅ **Corrected Sentence:** I will call you in the evening.\n🔍 **Error Identification:** Dùng 'at' cho buổi tối.\n📘 **Vietnamese Explanation:** Người Việt dùng 'at' cho buổi tối. Mẹo: 'In the evening', 'at night'.\n💡 **Ví dụ:** In the morning, in the afternoon, at night."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The car is in front of the house. (câu đúng) - Học viên viết \'The car is in front the house.\'",
+    "output": "✅ **Corrected Sentence:** The car is in front of the house.\n🔍 **Error Identification:** Thiếu 'of' – 'in front of' là cụm cố định.\n📘 **Vietnamese Explanation:** Người Việt quên 'of' trong 'in front of'. Mẹo: 'In front of' luôn có 'of'.\n💡 **Ví dụ:** In front of the building, in front of me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is interested in learning French. (câu đúng) - Học viên viết \'She is interested on learning French.\'",
+    "output": "✅ **Corrected Sentence:** She is interested in learning French.\n🔍 **Error Identification:** Dùng 'on' thay vì 'in'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'interested on'. Mẹo: 'Interested in + V-ing/noun'.\n💡 **Ví dụ:** He is interested in playing soccer. / She is interested in art."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will go to the park in Sunday.",
+    "output": "✅ **Corrected Sentence:** I will go to the park on Sunday.\n🔍 **Error Identification:** Dùng 'in' cho thứ.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho thứ. Mẹo: 'On' + thứ trong tuần.\n💡 **Ví dụ:** On Monday, on Tuesday, on Wednesday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The pen is in the floor.",
+    "output": "✅ **Corrected Sentence:** The pen is on the floor.\n🔍 **Error Identification:** Dùng 'in' cho sàn nhà – bề mặt dùng 'on'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'in' cho sàn. Mẹo: 'On the floor, on the ground'.\n💡 **Ví dụ:** On the floor, on the carpet, on the ground."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will see you in the next week.",
+    "output": "✅ **Corrected Sentence:** I will see you next week.\n🔍 **Error Identification:** Thừa 'in'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'in' trước 'next'. Mẹo: 'Next, last, this, every' + thời gian không dùng giới từ.\n💡 **Ví dụ:** See you next Friday. / I did it last month."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is afraid of the dark. (câu đúng) - Học viên viết \'He is afraid from the dark.\'",
+    "output": "✅ **Corrected Sentence:** He is afraid of the dark.\n🔍 **Error Identification:** Dùng 'from' thay vì 'of'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'afraid from'. Mẹo: 'Afraid of' (sợ).\n💡 **Ví dụ:** She is afraid of spiders. / I am afraid of heights."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The school is between the park to the library.",
+    "output": "✅ **Corrected Sentence:** The school is between the park and the library.\n🔍 **Error Identification:** Dùng 'to' thay vì 'and'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'between...to'. Mẹo: 'Between A and B'.\n💡 **Ví dụ:** Between the two buildings and the river."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will meet you at 8 AM in the morning. (câu đúng) - Học viên viết \'I will meet you at 8 AM on the morning.\'",
+    "output": "✅ **Corrected Sentence:** I will meet you at 8 AM in the morning.\n🔍 **Error Identification:** Dùng 'on' cho buổi sáng.\n📘 **Vietnamese Explanation:** Người Việt dùng 'on' cho buổi sáng. Mẹo: 'In the morning', 'at 8 AM'.\n💡 **Ví dụ:** At 7 PM in the evening."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The picture is at the wall.",
+    "output": "✅ **Corrected Sentence:** The picture is on the wall.\n🔍 **Error Identification:** Dùng 'at' cho tường.\n📘 **Vietnamese Explanation:** Người Việt dùng 'at' cho tường. Mẹo: 'On the wall' (treo trên tường).\n💡 **Ví dụ:** On the wall, on the ceiling, on the door."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will be there in a few minutes. (câu đúng) - Học viên viết \'I will be there after a few minutes.\'",
+    "output": "✅ **Corrected Sentence:** I will be there in a few minutes.\n🔍 **Error Identification:** Dùng 'after' thay vì 'in' cho tương lai gần.\n📘 **Vietnamese Explanation:** Người Việt dùng 'after' cho tương lai. Mẹo: 'In + khoảng thời gian' cho tương lai.\n💡 **Ví dụ:** I'll call you in 5 minutes. / She'll arrive in an hour."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The store is at 123 Main Street. (câu đúng) - Học viên viết \'The store is on 123 Main Street.\'",
+    "output": "✅ **Corrected Sentence:** The store is at 123 Main Street.\n🔍 **Error Identification:** Dùng 'on' cho địa chỉ có số nhà.\n📘 **Vietnamese Explanation:** Người Việt dùng 'on' cho địa chỉ. Mẹo: 'At' + số nhà.\n💡 **Ví dụ:** At 10 Downing Street, at 15 Le Loi."
+  }
+]

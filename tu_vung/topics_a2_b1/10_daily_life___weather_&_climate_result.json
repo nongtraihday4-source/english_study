@@ -1,0 +1,2047 @@
+[
+
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "sunny",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈsʌni",
+      "ipa_us": "ˈsʌni",
+      "meaning_vi": "có nắng, trời nắng",
+      "definition_en": "Bright with light from the sun.",
+      "example_en": "It's a beautiful sunny day, perfect for a picnic.",
+      "example_vi": "Hôm nay là một ngày nắng đẹp, lý tưởng cho một buổi dã ngoại.",
+      "collocations_json": [
+        "sunny weather",
+        "sunny morning",
+        "sunny spell"
+      ],
+      "synonyms_json": [
+        "bright",
+        "clear"
+      ],
+      "antonyms_json": [
+        "cloudy",
+        "overcast"
+      ],
+      "mnemonic": "Sunny nghe như 'săn ni', săn tìm nắng ấm.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10616
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "rainy",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈreɪni",
+      "ipa_us": "ˈreɪni",
+      "meaning_vi": "có mưa, trời mưa",
+      "definition_en": "Having a lot of rain.",
+      "example_en": "Don't forget your umbrella on a rainy day.",
+      "example_vi": "Đừng quên ô của bạn vào một ngày mưa.",
+      "collocations_json": [
+        "rainy season",
+        "rainy weather",
+        "rainy afternoon"
+      ],
+      "synonyms_json": [
+        "wet"
+      ],
+      "antonyms_json": [
+        "dry",
+        "sunny"
+      ],
+      "mnemonic": "Rainy giống 'rơi ni', mưa cứ rơi.",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10617
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "cloudy",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈklaʊdi",
+      "ipa_us": "ˈklaʊdi",
+      "meaning_vi": "có mây, nhiều mây",
+      "definition_en": "Covered with clouds.",
+      "example_en": "The sky is cloudy, so it might rain later.",
+      "example_vi": "Trời nhiều mây, vì vậy lát nữa có thể mưa.",
+      "collocations_json": [
+        "cloudy sky",
+        "cloudy weather",
+        "cloudy day"
+      ],
+      "synonyms_json": [
+        "overcast",
+        "grey"
+      ],
+      "antonyms_json": [
+        "clear",
+        "sunny"
+      ],
+      "mnemonic": "Cloudy là 'khao đi', trời nhiều mây rồi.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10618
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "windy",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈwɪndi",
+      "ipa_us": "ˈwɪndi",
+      "meaning_vi": "có gió, nhiều gió",
+      "definition_en": "With a lot of wind.",
+      "example_en": "It's too windy to go sailing today.",
+      "example_vi": "Hôm nay trời quá nhiều gió để đi thuyền buồm.",
+      "collocations_json": [
+        "windy day",
+        "windy weather",
+        "windy conditions"
+      ],
+      "synonyms_json": [
+        "breezy"
+      ],
+      "antonyms_json": [
+        "calm",
+        "still"
+      ],
+      "mnemonic": "Windy là 'win đi', gió thổi mạnh quá.",
+      "frequency_rank": 1900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10619
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "cold",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "kəʊld",
+      "ipa_us": "koʊld",
+      "meaning_vi": "lạnh, giá lạnh",
+      "definition_en": "Having a low temperature.",
+      "example_en": "I feel cold, so I'll put on a sweater.",
+      "example_vi": "Tôi cảm thấy lạnh, nên tôi sẽ mặc áo len.",
+      "collocations_json": [
+        "cold weather",
+        "cold wind",
+        "cold drink"
+      ],
+      "synonyms_json": [
+        "chilly",
+        "freezing"
+      ],
+      "antonyms_json": [
+        "hot",
+        "warm"
+      ],
+      "mnemonic": "Cold là 'cô đơn', lạnh lẽo một mình.",
+      "frequency_rank": 500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10620
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "hot",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "hɒt",
+      "ipa_us": "hɑːt",
+      "meaning_vi": "nóng, nhiệt độ cao",
+      "definition_en": "Having a high temperature.",
+      "example_en": "It's too hot to work outside today.",
+      "example_vi": "Hôm nay trời quá nóng để làm việc ngoài trời.",
+      "collocations_json": [
+        "hot weather",
+        "hot day",
+        "hot drink"
+      ],
+      "synonyms_json": [
+        "warm",
+        "scorching"
+      ],
+      "antonyms_json": [
+        "cold",
+        "cool"
+      ],
+      "mnemonic": "Hot là 'hót', nóng hổi.",
+      "frequency_rank": 600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10621
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "warm",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "wɔːm",
+      "ipa_us": "wɔːrm",
+      "meaning_vi": "ấm áp, hơi nóng",
+      "definition_en": "Having a pleasant or comfortable temperature, not cold.",
+      "example_en": "I love warm summer evenings.",
+      "example_vi": "Tôi yêu những buổi tối mùa hè ấm áp.",
+      "collocations_json": [
+        "warm weather",
+        "warm clothes",
+        "warm welcome"
+      ],
+      "synonyms_json": [
+        "mild",
+        "balmy"
+      ],
+      "antonyms_json": [
+        "cold",
+        "cool"
+      ],
+      "mnemonic": "Warm là 'oam', ấm cúng.",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10622
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "cool",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "kuːl",
+      "ipa_us": "kuːl",
+      "meaning_vi": "mát mẻ, hơi lạnh",
+      "definition_en": "Slightly cold in a pleasant way.",
+      "example_en": "The evenings are starting to get cool.",
+      "example_vi": "Buổi tối bắt đầu trở nên mát mẻ.",
+      "collocations_json": [
+        "cool weather",
+        "cool breeze",
+        "cool drink"
+      ],
+      "synonyms_json": [
+        "chilly",
+        "refreshing"
+      ],
+      "antonyms_json": [
+        "warm",
+        "hot"
+      ],
+      "mnemonic": "Cool là 'cuộn', gió mát cuộn qua.",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10623
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "snowy",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈsnəʊi",
+      "ipa_us": "ˈsnoʊi",
+      "meaning_vi": "có tuyết, tuyết rơi",
+      "definition_en": "Covered with snow or having a lot of snow.",
+      "example_en": "We hope for a snowy Christmas this year.",
+      "example_vi": "Chúng tôi hy vọng có một Giáng sinh tuyết rơi năm nay.",
+      "collocations_json": [
+        "snowy day",
+        "snowy weather",
+        "snowy mountains"
+      ],
+      "synonyms_json": [
+        "wintry"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Snowy như 'nô ni', tuyết phủ trắng xóa.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10624
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "foggy",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈfɒɡi",
+      "ipa_us": "ˈfɑːɡi",
+      "meaning_vi": "có sương mù, mờ sương",
+      "definition_en": "Full of fog; misty.",
+      "example_en": "Driving in foggy conditions can be dangerous.",
+      "example_vi": "Lái xe trong điều kiện sương mù có thể nguy hiểm.",
+      "collocations_json": [
+        "foggy morning",
+        "foggy weather",
+        "foggy conditions"
+      ],
+      "synonyms_json": [
+        "misty",
+        "hazy"
+      ],
+      "antonyms_json": [
+        "clear"
+      ],
+      "mnemonic": "Foggy là 'phòng ghi', sương mù che kín.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10625
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "stormy",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈstɔːmi",
+      "ipa_us": "ˈstɔːrmi",
+      "meaning_vi": "có bão, giông bão",
+      "definition_en": "Affected by bad weather with strong winds and rain or snow.",
+      "example_en": "The sea was very stormy, so we stayed indoors.",
+      "example_vi": "Biển rất động, nên chúng tôi ở trong nhà.",
+      "collocations_json": [
+        "stormy weather",
+        "stormy sea",
+        "stormy night"
+      ],
+      "synonyms_json": [
+        "tempestuous",
+        "rough"
+      ],
+      "antonyms_json": [
+        "calm",
+        "mild"
+      ],
+      "mnemonic": "Stormy là 'tôm mì', bão đến ăn mì thôi.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10626
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "drizzle",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈdrɪzl",
+      "ipa_us": "ˈdrɪzl",
+      "meaning_vi": "mưa phùn, mưa lất phất",
+      "definition_en": "Light rain falling in very fine drops.",
+      "example_en": "It was only a light drizzle, so we didn't need umbrellas.",
+      "example_vi": "Chỉ là mưa phùn nhẹ, nên chúng tôi không cần ô.",
+      "collocations_json": [
+        "light drizzle",
+        "fine drizzle"
+      ],
+      "synonyms_json": [
+        "mist"
+      ],
+      "antonyms_json": [
+        "downpour",
+        "torrential rain"
+      ],
+      "mnemonic": "Drizzle giống 'drizz liền', mưa phùn rơi liên tục.",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10627
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "shower",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈʃaʊə",
+      "ipa_us": "ˈʃaʊər",
+      "meaning_vi": "cơn mưa rào",
+      "definition_en": "A short period of rain or snow.",
+      "example_en": "We had a heavy shower this morning.",
+      "example_vi": "Sáng nay chúng tôi có một trận mưa rào lớn.",
+      "collocations_json": [
+        "heavy shower",
+        "light shower",
+        "rain shower"
+      ],
+      "synonyms_json": [
+        "rainstorm (stronger)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Shower như 'sao à', mưa rào đến bất ngờ.",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10628
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "thunder",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈθʌndə",
+      "ipa_us": "ˈθʌndər",
+      "meaning_vi": "sấm, tiếng sấm",
+      "definition_en": "The loud noise that you hear in the sky during a storm.",
+      "example_en": "The thunder was so loud it made the windows shake.",
+      "example_vi": "Tiếng sấm quá lớn khiến cửa sổ rung chuyển.",
+      "collocations_json": [
+        "loud thunder",
+        "distant thunder",
+        "thunder and lightning"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Thunder là 'thân đờ', tiếng sấm làm người đờ đẫn.",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10629
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "lightning",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈlaɪtnɪŋ",
+      "ipa_us": "ˈlaɪtnɪŋ",
+      "meaning_vi": "chớp, tia chớp",
+      "definition_en": "A flash of bright light in the sky caused by electricity.",
+      "example_en": "We saw several flashes of lightning during the storm.",
+      "example_vi": "Chúng tôi đã nhìn thấy nhiều tia chớp trong cơn bão.",
+      "collocations_json": [
+        "flash of lightning",
+        "lightning strike"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Lightning là 'lai tinh', tia sáng lóe lên tinh mắt.",
+      "frequency_rank": 3900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10630
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "temperature",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈtemprətʃə",
+      "ipa_us": "ˈtemprətʃər",
+      "meaning_vi": "nhiệt độ",
+      "definition_en": "The measurement of how hot or cold a place or thing is.",
+      "example_en": "The temperature dropped sharply last night.",
+      "example_vi": "Nhiệt độ giảm mạnh đêm qua.",
+      "collocations_json": [
+        "high temperature",
+        "low temperature",
+        "average temperature"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Temperature là 'tem bờ rách', nhiệt độ làm tem rách.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10631
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "weather forecast",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈweðə ˈfɔːkɑːst",
+      "ipa_us": "ˈweðər ˈfɔːrkæst",
+      "meaning_vi": "dự báo thời tiết",
+      "definition_en": "A description of what the weather will be like in the near future.",
+      "example_en": "I always check the weather forecast before planning a trip.",
+      "example_vi": "Tôi luôn kiểm tra dự báo thời tiết trước khi lên kế hoạch cho chuyến đi.",
+      "collocations_json": [
+        "check the weather forecast",
+        "daily weather forecast"
+      ],
+      "synonyms_json": [
+        "weather report"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Forecast là 'for cast', dự đoán thời tiết sắp tới.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10632
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "climate",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈklaɪmət",
+      "ipa_us": "ˈklaɪmət",
+      "meaning_vi": "khí hậu",
+      "definition_en": "The general weather conditions that are typical of a place.",
+      "example_en": "The climate in this region is very mild.",
+      "example_vi": "Khí hậu ở vùng này rất ôn hòa.",
+      "collocations_json": [
+        "tropical climate",
+        "mild climate",
+        "changing climate"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Climate là 'cờ lai mệt', khí hậu thay đổi làm mệt mỏi.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10633
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "season",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈsiːzn",
+      "ipa_us": "ˈsiːzn",
+      "meaning_vi": "mùa (trong năm)",
+      "definition_en": "One of the four periods of the year: spring, summer, autumn, or winter.",
+      "example_en": "My favorite season is autumn because of the colorful leaves.",
+      "example_vi": "Mùa yêu thích của tôi là mùa thu vì những chiếc lá đầy màu sắc.",
+      "collocations_json": [
+        "four seasons",
+        "dry season",
+        "wet season"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Season là 'si zần', mùa màng dần trôi.",
+      "frequency_rank": 700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10634
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "spring",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "sprɪŋ",
+      "ipa_us": "sprɪŋ",
+      "meaning_vi": "mùa xuân",
+      "definition_en": "The season between winter and summer when plants begin to grow.",
+      "example_en": "Flowers bloom beautifully in spring.",
+      "example_vi": "Hoa nở rực rỡ vào mùa xuân.",
+      "collocations_json": [
+        "early spring",
+        "late spring",
+        "spring flowers"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "autumn",
+        "winter"
+      ],
+      "mnemonic": "Spring là 'sờ pring', mùa xuân tươi mới.",
+      "frequency_rank": 1100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10635
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "summer",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈsʌmə",
+      "ipa_us": "ˈsʌmər",
+      "meaning_vi": "mùa hè",
+      "definition_en": "The warmest season of the year, between spring and autumn.",
+      "example_en": "Many people go on holiday during the summer.",
+      "example_vi": "Nhiều người đi nghỉ mát vào mùa hè.",
+      "collocations_json": [
+        "hot summer",
+        "summer vacation",
+        "summer clothes"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "winter"
+      ],
+      "mnemonic": "Summer là 'săm mờ', mùa hè nắng làm mờ mắt.",
+      "frequency_rank": 850,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10636
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "autumn",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈɔːtəm",
+      "ipa_us": "ˈɔːtəm",
+      "meaning_vi": "mùa thu",
+      "definition_en": "The season between summer and winter when leaves fall from trees.",
+      "example_en": "In autumn, the leaves turn beautiful shades of red and gold.",
+      "example_vi": "Vào mùa thu, lá cây chuyển sang các sắc thái đỏ và vàng tuyệt đẹp.",
+      "collocations_json": [
+        "late autumn",
+        "autumn leaves",
+        "autumn colors"
+      ],
+      "synonyms_json": [
+        "fall (US)"
+      ],
+      "antonyms_json": [
+        "spring",
+        "summer"
+      ],
+      "mnemonic": "Autumn là 'o tôm', mùa thu tôm cá đầy thuyền.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10637
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "winter",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈwɪntə",
+      "ipa_us": "ˈwɪntər",
+      "meaning_vi": "mùa đông",
+      "definition_en": "The coldest season of the year, between autumn and spring.",
+      "example_en": "I prefer warm weather to cold winter days.",
+      "example_vi": "Tôi thích thời tiết ấm áp hơn những ngày đông lạnh giá.",
+      "collocations_json": [
+        "cold winter",
+        "winter coat",
+        "winter wonderland"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "summer"
+      ],
+      "mnemonic": "Winter là 'win tơ', mùa đông chiến thắng cái lạnh.",
+      "frequency_rank": 950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10638
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "breeze",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "briːz",
+      "ipa_us": "briːz",
+      "meaning_vi": "gió nhẹ, làn gió",
+      "definition_en": "A gentle wind.",
+      "example_en": "A cool breeze was blowing from the sea.",
+      "example_vi": "Một làn gió mát đang thổi từ biển.",
+      "collocations_json": [
+        "gentle breeze",
+        "cool breeze",
+        "sea breeze"
+      ],
+      "synonyms_json": [
+        "gust (stronger)"
+      ],
+      "antonyms_json": [
+        "gale",
+        "storm"
+      ],
+      "mnemonic": "Breeze là 'bờ ri zì', gió nhẹ thổi rì rào bờ biển.",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10639
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "sunshine",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈsʌnʃaɪn",
+      "ipa_us": "ˈsʌnʃaɪn",
+      "meaning_vi": "ánh nắng mặt trời",
+      "definition_en": "The light and heat from the sun.",
+      "example_en": "We enjoyed the warm sunshine on the beach.",
+      "example_vi": "Chúng tôi tận hưởng ánh nắng ấm áp trên bãi biển.",
+      "collocations_json": [
+        "bright sunshine",
+        "warm sunshine",
+        "golden sunshine"
+      ],
+      "synonyms_json": [
+        "sunlight"
+      ],
+      "antonyms_json": [
+        "darkness"
+      ],
+      "mnemonic": "Sunshine là 'săn sai', ánh nắng làm mọi thứ sáng bừng.",
+      "frequency_rank": 1400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10640
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "umbrella",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ʌmˈbrelə",
+      "ipa_us": "ʌmˈbrelə",
+      "meaning_vi": "ô, dù che mưa",
+      "definition_en": "A device used for protection from rain or sun.",
+      "example_en": "Don't forget your umbrella, it looks like rain.",
+      "example_vi": "Đừng quên ô của bạn, trời có vẻ sắp mưa.",
+      "collocations_json": [
+        "open an umbrella",
+        "close an umbrella",
+        "rain umbrella"
+      ],
+      "synonyms_json": [
+        "parasol"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Umbrella là 'ăm bơ rel la', ô che mưa che nắng.",
+      "frequency_rank": 2100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10641
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "raincoat",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈreɪnkəʊt",
+      "ipa_us": "ˈreɪnkoʊt",
+      "meaning_vi": "áo mưa",
+      "definition_en": "A waterproof coat worn to protect against rain.",
+      "example_en": "I always wear my raincoat when I go out in heavy rain.",
+      "example_vi": "Tôi luôn mặc áo mưa khi ra ngoài trời mưa lớn.",
+      "collocations_json": [
+        "waterproof raincoat",
+        "put on a raincoat"
+      ],
+      "synonyms_json": [
+        "mac (UK)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Raincoat là 'rên cốt', áo mưa giúp tránh cốt lạnh.",
+      "frequency_rank": 4200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10642
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "to rain",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "reɪn",
+      "ipa_us": "reɪn",
+      "meaning_vi": "mưa, trời mưa",
+      "definition_en": "To fall as rain.",
+      "example_en": "It started to rain just as we left the house.",
+      "example_vi": "Trời bắt đầu mưa ngay khi chúng tôi rời khỏi nhà.",
+      "collocations_json": [
+        "it rains",
+        "to rain heavily",
+        "to rain lightly"
+      ],
+      "synonyms_json": [
+        "to pour",
+        "to drizzle"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Rain là 'rên', trời mưa rên rỉ.",
+      "frequency_rank": 750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10643
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "to snow",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "snəʊ",
+      "ipa_us": "snoʊ",
+      "meaning_vi": "tuyết rơi",
+      "definition_en": "To fall as snow.",
+      "example_en": "It's starting to snow, so it will be a white Christmas.",
+      "example_vi": "Trời bắt đầu tuyết rơi, vì vậy sẽ có một Giáng sinh trắng.",
+      "collocations_json": [
+        "it snows",
+        "to snow heavily",
+        "to snow lightly"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Snow là 'sờ nâu', tuyết trắng xóa.",
+      "frequency_rank": 3600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10644
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "to shine",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ʃaɪn",
+      "ipa_us": "ʃaɪn",
+      "meaning_vi": "chiếu sáng, tỏa sáng",
+      "definition_en": "To give out or reflect light.",
+      "example_en": "The sun shines brightly after the rain.",
+      "example_vi": "Mặt trời chiếu sáng rực rỡ sau cơn mưa.",
+      "collocations_json": [
+        "sun shines",
+        "moon shines",
+        "stars shine"
+      ],
+      "synonyms_json": [
+        "to beam",
+        "to glow"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Shine là 'sai', ánh sáng chói chang.",
+      "frequency_rank": 1300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10645
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "to blow",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "bləʊ",
+      "ipa_us": "bloʊ",
+      "meaning_vi": "thổi (gió)",
+      "definition_en": "To move air or be moved by air.",
+      "example_en": "The wind was blowing strongly all night.",
+      "example_vi": "Gió thổi mạnh suốt đêm.",
+      "collocations_json": [
+        "wind blows",
+        "to blow hard",
+        "to blow gently"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Blow là 'bờ lâu', gió thổi lâu thật.",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10646
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "to freeze",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "friːz",
+      "ipa_us": "friːz",
+      "meaning_vi": "đóng băng, đông lạnh",
+      "definition_en": "To turn into ice or a solid state due to extreme cold.",
+      "example_en": "The water in the pipes might freeze if it gets too cold.",
+      "example_vi": "Nước trong đường ống có thể đóng băng nếu trời quá lạnh.",
+      "collocations_json": [
+        "to freeze solid",
+        "to freeze to death"
+      ],
+      "synonyms_json": [
+        "to solidify"
+      ],
+      "antonyms_json": [
+        "to melt"
+      ],
+      "mnemonic": "Freeze là 'phờ ri zì', lạnh quá đông cứng lại.",
+      "frequency_rank": 3700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10647
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "to melt",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "melt",
+      "ipa_us": "melt",
+      "meaning_vi": "tan chảy, làm tan chảy",
+      "definition_en": "To turn from a solid into a liquid by heating.",
+      "example_en": "The snow will melt quickly when the sun comes out.",
+      "example_vi": "Tuyết sẽ tan chảy nhanh chóng khi mặt trời xuất hiện.",
+      "collocations_json": [
+        "snow melts",
+        "ice melts",
+        "to melt away"
+      ],
+      "synonyms_json": [
+        "to thaw",
+        "to liquefy"
+      ],
+      "antonyms_json": [
+        "to freeze"
+      ],
+      "mnemonic": "Melt là 'meo', tuyết tan chảy như meo meo.",
+      "frequency_rank": 4100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10648
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "clear sky",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "klɪə skaɪ",
+      "ipa_us": "klɪr skaɪ",
+      "meaning_vi": "bầu trời trong xanh",
+      "definition_en": "A sky without clouds.",
+      "example_en": "We had a clear sky all day, perfect for stargazing.",
+      "example_vi": "Chúng tôi có bầu trời trong xanh suốt cả ngày, hoàn hảo để ngắm sao.",
+      "collocations_json": [
+        "perfectly clear sky",
+        "under a clear sky"
+      ],
+      "synonyms_json": [
+        "blue sky"
+      ],
+      "antonyms_json": [
+        "cloudy sky",
+        "overcast sky"
+      ],
+      "mnemonic": "Clear sky là 'kìa sai', bầu trời trong xanh thật tuyệt.",
+      "frequency_rank": 2300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10649
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "heavy rain",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˌhevi ˈreɪn",
+      "ipa_us": "ˌhevi ˈreɪn",
+      "meaning_vi": "mưa lớn, mưa to",
+      "definition_en": "A large amount of rain falling quickly.",
+      "example_en": "The heavy rain caused flooding in the streets.",
+      "example_vi": "Cơn mưa lớn đã gây ngập lụt trên đường phố.",
+      "collocations_json": [
+        "torrential rain",
+        "sudden heavy rain"
+      ],
+      "synonyms_json": [
+        "downpour",
+        "cloudburst"
+      ],
+      "antonyms_json": [
+        "light rain",
+        "drizzle"
+      ],
+      "mnemonic": "Heavy rain là 'hết vì rên', mưa lớn làm mọi người rên rỉ.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10650
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "light rain",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˌlaɪt ˈreɪn",
+      "ipa_us": "ˌlaɪt ˈreɪn",
+      "meaning_vi": "mưa nhẹ",
+      "definition_en": "A small amount of rain.",
+      "example_en": "We can still go for a walk in light rain.",
+      "example_vi": "Chúng ta vẫn có thể đi dạo dưới trời mưa nhẹ.",
+      "collocations_json": [
+        "slight rain",
+        "intermittent light rain"
+      ],
+      "synonyms_json": [
+        "drizzle"
+      ],
+      "antonyms_json": [
+        "heavy rain",
+        "downpour"
+      ],
+      "mnemonic": "Light rain là 'lai rên', mưa nhẹ nhàng.",
+      "frequency_rank": 2700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10651
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "strong wind",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˌstrɒŋ ˈwɪnd",
+      "ipa_us": "ˌstrɔːŋ ˈwɪnd",
+      "meaning_vi": "gió mạnh",
+      "definition_en": "Wind that is blowing with great force.",
+      "example_en": "The strong wind made it difficult to walk outside.",
+      "example_vi": "Gió mạnh khiến việc đi bộ bên ngoài trở nên khó khăn.",
+      "collocations_json": [
+        "high wind",
+        "gale-force wind"
+      ],
+      "synonyms_json": [
+        "gale"
+      ],
+      "antonyms_json": [
+        "gentle breeze",
+        "light wind"
+      ],
+      "mnemonic": "Strong wind là 'trong win', gió mạnh làm cây bật gốc.",
+      "frequency_rank": 3100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10652
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "gentle breeze",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˌdʒentl ˈbriːz",
+      "ipa_us": "ˌdʒentl ˈbriːz",
+      "meaning_vi": "làn gió nhẹ nhàng",
+      "definition_en": "A soft and pleasant wind.",
+      "example_en": "A gentle breeze made the afternoon enjoyable.",
+      "example_vi": "Một làn gió nhẹ nhàng làm buổi chiều trở nên dễ chịu.",
+      "collocations_json": [
+        "light breeze",
+        "soft breeze"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "strong wind",
+        "gale"
+      ],
+      "mnemonic": "Gentle breeze là 'gen tồ', gió nhẹ nhàng vuốt ve.",
+      "frequency_rank": 3400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10653
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "overcast",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈəʊvəkɑːst",
+      "ipa_us": "ˈoʊvərkæst",
+      "meaning_vi": "trời u ám, mây mù",
+      "definition_en": "Covered with clouds; dull and grey.",
+      "example_en": "The sky was overcast all day, so we didn't see the sun.",
+      "example_vi": "Trời u ám suốt cả ngày, nên chúng tôi không thấy mặt trời.",
+      "collocations_json": [
+        "overcast sky",
+        "overcast weather"
+      ],
+      "synonyms_json": [
+        "cloudy",
+        "gloomy"
+      ],
+      "antonyms_json": [
+        "clear",
+        "sunny"
+      ],
+      "mnemonic": "Overcast là 'ô vờ két', mây che kín như két sắt.",
+      "frequency_rank": 4300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10654
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "humid",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈhjuːmɪd",
+      "ipa_us": "ˈhjuːmɪd",
+      "meaning_vi": "ẩm ướt, ẩm thấp",
+      "definition_en": "Having a high amount of water vapor in the air.",
+      "example_en": "It's very humid in the summer, making it feel hotter.",
+      "example_vi": "Trời rất ẩm ướt vào mùa hè, khiến cảm giác nóng hơn.",
+      "collocations_json": [
+        "humid weather",
+        "humid air",
+        "humid climate"
+      ],
+      "synonyms_json": [
+        "damp",
+        "muggy"
+      ],
+      "antonyms_json": [
+        "dry"
+      ],
+      "mnemonic": "Humid là 'hú mít', ẩm ướt làm mít nhanh hỏng.",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10655
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "degree Celsius",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "dɪˈɡriː ˈselsiəs",
+      "ipa_us": "dɪˈɡriː ˈselsiəs",
+      "meaning_vi": "độ C",
+      "definition_en": "A unit of temperature measurement, used in most countries.",
+      "example_en": "The temperature today is 25 degrees Celsius.",
+      "example_vi": "Nhiệt độ hôm nay là 25 độ C.",
+      "collocations_json": [
+        "30 degrees Celsius",
+        "minus degrees Celsius"
+      ],
+      "synonyms_json": [
+        "degrees C"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Celsius là 'xen xi ớt', nhiệt độ như ớt cay.",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10656
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "degree Fahrenheit",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "dɪˈɡriː ˈfærənhaɪt",
+      "ipa_us": "dɪˈɡriː ˈfærənhaɪt",
+      "meaning_vi": "độ F",
+      "definition_en": "A unit of temperature measurement, used mainly in the US.",
+      "example_en": "Water freezes at 32 degrees Fahrenheit.",
+      "example_vi": "Nước đóng băng ở 32 độ F.",
+      "collocations_json": [
+        "70 degrees Fahrenheit",
+        "above freezing Fahrenheit"
+      ],
+      "synonyms_json": [
+        "degrees F"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Fahrenheit là 'phe ren hai', nhiệt độ cao hai phe.",
+      "frequency_rank": 4700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10657
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "rainbow",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈreɪnbəʊ",
+      "ipa_us": "ˈreɪnboʊ",
+      "meaning_vi": "cầu vồng",
+      "definition_en": "An arch of colors seen in the sky after rain.",
+      "example_en": "Look! There's a beautiful rainbow after the rain.",
+      "example_vi": "Nhìn kìa! Có một cầu vồng tuyệt đẹp sau cơn mưa.",
+      "collocations_json": [
+        "double rainbow",
+        "full rainbow"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Rainbow là 'rên bâu', cầu vồng xuất hiện sau mưa.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10658
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "frost",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "frɒst",
+      "ipa_us": "frɔːst",
+      "meaning_vi": "sương giá, băng giá",
+      "definition_en": "A thin layer of ice that forms on cold surfaces.",
+      "example_en": "There was a thick layer of frost on the car windows this morning.",
+      "example_vi": "Sáng nay có một lớp sương giá dày trên cửa sổ ô tô.",
+      "collocations_json": [
+        "hard frost",
+        "ground frost",
+        "black frost"
+      ],
+      "synonyms_json": [
+        "ice"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Frost là 'phờ rốt', sương giá đóng rốt ráo.",
+      "frequency_rank": 4900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10659
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "hail",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "heɪl",
+      "ipa_us": "heɪl",
+      "meaning_vi": "mưa đá",
+      "definition_en": "Small balls of ice that fall like rain.",
+      "example_en": "We had a sudden storm with heavy hail.",
+      "example_vi": "Chúng tôi có một cơn bão bất chợt với mưa đá lớn.",
+      "collocations_json": [
+        "heavy hail",
+        "hail storm"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Hail là 'hêu', mưa đá rơi kêu leng keng.",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10660
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "sleet",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "sliːt",
+      "ipa_us": "sliːt",
+      "meaning_vi": "mưa tuyết",
+      "definition_en": "A mixture of rain and snow or ice pellets.",
+      "example_en": "The weather forecast predicted sleet for tonight.",
+      "example_vi": "Dự báo thời tiết dự đoán mưa tuyết vào tối nay.",
+      "collocations_json": [
+        "heavy sleet",
+        "light sleet"
+      ],
+      "synonyms_json": [
+        "ice pellets"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sleet là 'sờ lít', mưa tuyết rơi lất phất.",
+      "frequency_rank": 6500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10661
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "blizzard",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈblɪzəd",
+      "ipa_us": "ˈblɪzərd",
+      "meaning_vi": "bão tuyết",
+      "definition_en": "A severe snowstorm with high winds and low visibility.",
+      "example_en": "The airport was closed due to a terrible blizzard.",
+      "example_vi": "Sân bay bị đóng cửa do một trận bão tuyết khủng khiếp.",
+      "collocations_json": [
+        "heavy blizzard",
+        "severe blizzard"
+      ],
+      "synonyms_json": [
+        "snowstorm"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Blizzard là 'bờ li zợt', bão tuyết làm mọi thứ mờ mịt.",
+      "frequency_rank": 7000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10662
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "heatwave",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈhiːtweɪv",
+      "ipa_us": "ˈhiːtweɪv",
+      "meaning_vi": "đợt nắng nóng",
+      "definition_en": "A period of unusually hot weather.",
+      "example_en": "The country is experiencing a heatwave this week.",
+      "example_vi": "Đất nước đang trải qua một đợt nắng nóng trong tuần này.",
+      "collocations_json": [
+        "severe heatwave",
+        "summer heatwave"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "cold snap"
+      ],
+      "mnemonic": "Heatwave là 'hít quây', nắng nóng quây kín.",
+      "frequency_rank": 5200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10663
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "cold snap",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˌkəʊld ˈsnæp",
+      "ipa_us": "ˌkoʊld ˈsnæp",
+      "meaning_vi": "đợt rét đột ngột",
+      "definition_en": "A sudden short period of very cold weather.",
+      "example_en": "We had a cold snap last month with temperatures below zero.",
+      "example_vi": "Tháng trước chúng tôi có một đợt rét đột ngột với nhiệt độ dưới 0.",
+      "collocations_json": [
+        "sudden cold snap",
+        "winter cold snap"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "heatwave"
+      ],
+      "mnemonic": "Cold snap là 'côn sờ náp', lạnh đến bất ngờ.",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10664
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "global warming",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˌɡləʊbl ˈwɔːmɪŋ",
+      "ipa_us": "ˌɡloʊbl ˈwɔːrmɪŋ",
+      "meaning_vi": "sự nóng lên toàn cầu",
+      "definition_en": "The gradual increase in the Earth's average temperature.",
+      "example_en": "Global warming is a serious environmental issue.",
+      "example_vi": "Sự nóng lên toàn cầu là một vấn đề môi trường nghiêm trọng.",
+      "collocations_json": [
+        "impact of global warming",
+        "fight global warming"
+      ],
+      "synonyms_json": [
+        "climate change"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Global warming là 'gờ lô bồ', toàn cầu đang ấm lên.",
+      "frequency_rank": 3300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10665
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "climate change",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈklaɪmət tʃeɪndʒ",
+      "ipa_us": "ˈklaɪmət tʃeɪndʒ",
+      "meaning_vi": "biến đổi khí hậu",
+      "definition_en": "A significant and lasting change in the Earth's climate.",
+      "example_en": "Climate change is affecting weather patterns worldwide.",
+      "example_vi": "Biến đổi khí hậu đang ảnh hưởng đến các kiểu thời tiết trên toàn thế giới.",
+      "collocations_json": [
+        "address climate change",
+        "effects of climate change"
+      ],
+      "synonyms_json": [
+        "global warming"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Climate change là 'cờ lai mệt', khí hậu thay đổi làm mệt mỏi.",
+      "frequency_rank": 2950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10666
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "weather conditions",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈweðə kənˈdɪʃənz",
+      "ipa_us": "ˈweðər kənˈdɪʃənz",
+      "meaning_vi": "điều kiện thời tiết",
+      "definition_en": "The state of the atmosphere at a particular place and time.",
+      "example_en": "Driving was difficult due to severe weather conditions.",
+      "example_vi": "Việc lái xe rất khó khăn do điều kiện thời tiết khắc nghiệt.",
+      "collocations_json": [
+        "adverse weather conditions",
+        "good weather conditions"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Conditions là 'con đi sần', điều kiện thời tiết khiến người mệt mỏi.",
+      "frequency_rank": 3050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10667
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "mild",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "maɪld",
+      "ipa_us": "maɪld",
+      "meaning_vi": "ôn hòa, dịu nhẹ",
+      "definition_en": "Not severe, harsh, or extreme in temperature.",
+      "example_en": "We're having a very mild winter this year.",
+      "example_vi": "Năm nay chúng tôi có một mùa đông rất ôn hòa.",
+      "collocations_json": [
+        "mild weather",
+        "mild climate",
+        "mild winter"
+      ],
+      "synonyms_json": [
+        "temperate",
+        "gentle"
+      ],
+      "antonyms_json": [
+        "harsh",
+        "severe"
+      ],
+      "mnemonic": "Mild là 'mai đồ', thời tiết dịu nhẹ mặc đồ mỏng.",
+      "frequency_rank": 4600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10668
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "extreme weather",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ɪkˌstriːm ˈweðə",
+      "ipa_us": "ɪkˌstriːm ˈweðər",
+      "meaning_vi": "thời tiết khắc nghiệt",
+      "definition_en": "Weather that is much more severe or unusual than normal.",
+      "example_en": "The region is experiencing more extreme weather events.",
+      "example_vi": "Khu vực này đang trải qua nhiều hiện tượng thời tiết khắc nghiệt hơn.",
+      "collocations_json": [
+        "extreme weather events",
+        "cope with extreme weather"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "mild weather"
+      ],
+      "mnemonic": "Extreme weather là 'ích trím', thời tiết khắc nghiệt.",
+      "frequency_rank": 5100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10669
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "to get wet",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "tuː ɡet wet",
+      "ipa_us": "tuː ɡet wet",
+      "meaning_vi": "bị ướt, dính nước",
+      "definition_en": "To become covered or saturated with water or another liquid.",
+      "example_en": "Don't go out without an umbrella, you'll get wet.",
+      "example_vi": "Đừng ra ngoài mà không có ô, bạn sẽ bị ướt đấy.",
+      "collocations_json": [
+        "to get soaking wet",
+        "to get your hair wet"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "to stay dry"
+      ],
+      "mnemonic": "Get wet là 'ghét quét', ghét bị ướt.",
+      "frequency_rank": 2400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10670
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "to stay dry",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "tuː steɪ draɪ",
+      "ipa_us": "tuː steɪ draɪ",
+      "meaning_vi": "giữ khô ráo",
+      "definition_en": "To remain not wet.",
+      "example_en": "Wear a raincoat to stay dry in the rain.",
+      "example_vi": "Mặc áo mưa để giữ khô ráo dưới trời mưa.",
+      "collocations_json": [
+        "to keep dry",
+        "staying dry"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "to get wet"
+      ],
+      "mnemonic": "Stay dry là 'sờ tây rai', giữ khô ráo cho tay.",
+      "frequency_rank": 2550,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10671
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "to put on",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "tuː pʊt ɒn",
+      "ipa_us": "tuː pʊt ɑːn",
+      "meaning_vi": "mặc vào, đội vào",
+      "definition_en": "To dress oneself in an item of clothing or footwear.",
+      "example_en": "It's cold, so put on a warm coat.",
+      "example_vi": "Trời lạnh rồi, hãy mặc một chiếc áo khoác ấm vào.",
+      "collocations_json": [
+        "put on clothes",
+        "put on shoes",
+        "put on makeup"
+      ],
+      "synonyms_json": [
+        "to wear"
+      ],
+      "antonyms_json": [
+        "to take off"
+      ],
+      "mnemonic": "Put on là 'pút on', đặt lên người để mặc.",
+      "frequency_rank": 650,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10672
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "to take off",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "tuː teɪk ɒf",
+      "ipa_us": "tuː teɪk ɔːf",
+      "meaning_vi": "cởi ra, bỏ ra",
+      "definition_en": "To remove an item of clothing or accessory.",
+      "example_en": "It's warm inside, so you can take off your jacket.",
+      "example_vi": "Trong nhà ấm rồi, bạn có thể cởi áo khoác ra.",
+      "collocations_json": [
+        "take off clothes",
+        "take off shoes",
+        "take off hat"
+      ],
+      "synonyms_json": [
+        "to remove"
+      ],
+      "antonyms_json": [
+        "to put on"
+      ],
+      "mnemonic": "Take off là 'tếch óp', cởi ra cho thoáng.",
+      "frequency_rank": 700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10673
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "to warm up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "tuː wɔːm ʌp",
+      "ipa_us": "tuː wɔːrm ʌp",
+      "meaning_vi": "làm ấm lên, sưởi ấm",
+      "definition_en": "To become warm or warmer.",
+      "example_en": "Let's go inside to warm up by the fire.",
+      "example_vi": "Chúng ta hãy vào trong sưởi ấm bên lửa.",
+      "collocations_json": [
+        "to warm up quickly",
+        "warm up food"
+      ],
+      "synonyms_json": [
+        "to heat up"
+      ],
+      "antonyms_json": [
+        "to cool down"
+      ],
+      "mnemonic": "Warm up là 'oam ấp', sưởi ấm cho cơ thể.",
+      "frequency_rank": 3350,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10674
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "to cool down",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "tuː kuːl daʊn",
+      "ipa_us": "tuː kuːl daʊn",
+      "meaning_vi": "làm mát, nguội đi",
+      "definition_en": "To become cool or cooler.",
+      "example_en": "After exercising, I need some time to cool down.",
+      "example_vi": "Sau khi tập thể dục, tôi cần một chút thời gian để làm mát.",
+      "collocations_json": [
+        "to cool down quickly",
+        "cool down drinks"
+      ],
+      "synonyms_json": [
+        "to chill"
+      ],
+      "antonyms_json": [
+        "to warm up"
+      ],
+      "mnemonic": "Cool down là 'cu đao', làm mát cơ thể.",
+      "frequency_rank": 3450,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10675
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "What's the weather like?",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "wɒts ðə ˈweðə laɪk",
+      "ipa_us": "wɑːts ðə ˈweðər laɪk",
+      "meaning_vi": "Thời tiết thế nào?",
+      "definition_en": "A common question used to ask about the current weather conditions.",
+      "example_en": "Before we go out, tell me, what's the weather like?",
+      "example_vi": "Trước khi chúng ta ra ngoài, hãy nói cho tôi biết, thời tiết thế nào?",
+      "collocations_json": [],
+      "synonyms_json": [
+        "How's the weather?"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "What's the weather like là 'quát dơ', hỏi thời tiết.",
+      "frequency_rank": 1050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10676
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "It's pouring down",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ɪts ˈpɔːrɪŋ daʊn",
+      "ipa_us": "ɪts ˈpɔːrɪŋ daʊn",
+      "meaning_vi": "Trời đang mưa xối xả",
+      "definition_en": "Used to describe very heavy rain.",
+      "example_en": "I can't go out now, it's pouring down!",
+      "example_vi": "Tôi không thể ra ngoài bây giờ, trời đang mưa xối xả!",
+      "collocations_json": [
+        "it's raining heavily"
+      ],
+      "synonyms_json": [
+        "It's raining cats and dogs"
+      ],
+      "antonyms_json": [
+        "It's drizzling"
+      ],
+      "mnemonic": "Pouring down là 'po ri đao', mưa như trút nước.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10677
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "sunburn",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈsʌnbɜːn",
+      "ipa_us": "ˈsʌnbɜːrn",
+      "meaning_vi": "cháy nắng",
+      "definition_en": "Damage to the skin caused by too much exposure to the sun.",
+      "example_en": "Don't forget to wear sunscreen to avoid sunburn.",
+      "example_vi": "Đừng quên thoa kem chống nắng để tránh bị cháy nắng.",
+      "collocations_json": [
+        "severe sunburn",
+        "get a sunburn"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Sunburn là 'săn bơn', nắng làm da bị bỏng.",
+      "frequency_rank": 4400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10678
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "drought",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "draʊt",
+      "ipa_us": "draʊt",
+      "meaning_vi": "hạn hán",
+      "definition_en": "A long period when there is little or no rain.",
+      "example_en": "The drought caused severe water shortages in the region.",
+      "example_vi": "Hạn hán gây ra tình trạng thiếu nước nghiêm trọng trong khu vực.",
+      "collocations_json": [
+        "severe drought",
+        "long drought"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "flood"
+      ],
+      "mnemonic": "Drought là 'đờ rào', hạn hán làm rào khô cằn.",
+      "frequency_rank": 5300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10679
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "flood",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "flʌd",
+      "ipa_us": "flʌd",
+      "meaning_vi": "lũ lụt",
+      "definition_en": "An overflow of a large amount of water beyond its normal limits, especially over what is normally dry land.",
+      "example_en": "The heavy rain led to a severe flood in the town.",
+      "example_vi": "Mưa lớn đã dẫn đến một trận lũ lụt nghiêm trọng trong thị trấn.",
+      "collocations_json": [
+        "flash flood",
+        "major flood",
+        "river flood"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "drought"
+      ],
+      "mnemonic": "Flood là 'phờ lút', nước lụt tràn ngập.",
+      "frequency_rank": 5400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10680
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "misty",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈmɪsti",
+      "ipa_us": "ˈmɪsti",
+      "meaning_vi": "có sương mù nhẹ",
+      "definition_en": "With a fine spray of liquid in the air, making it difficult to see clearly.",
+      "example_en": "The morning was misty, but it cleared up by midday.",
+      "example_vi": "Buổi sáng trời có sương mù nhẹ, nhưng đến trưa thì quang đãng.",
+      "collocations_json": [
+        "misty morning",
+        "misty weather"
+      ],
+      "synonyms_json": [
+        "foggy",
+        "hazy"
+      ],
+      "antonyms_json": [
+        "clear"
+      ],
+      "mnemonic": "Misty là 'mít ti', sương mù nhẹ nhàng.",
+      "frequency_rank": 5600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10681
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "chilly",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈtʃɪli",
+      "ipa_us": "ˈtʃɪli",
+      "meaning_vi": "lạnh lẽo, se lạnh",
+      "definition_en": "Unpleasantly cold.",
+      "example_en": "It's a bit chilly tonight, so bring a jacket.",
+      "example_vi": "Tối nay hơi se lạnh, nên hãy mang theo áo khoác.",
+      "collocations_json": [
+        "chilly weather",
+        "chilly wind",
+        "chilly evening"
+      ],
+      "synonyms_json": [
+        "cold",
+        "nippy"
+      ],
+      "antonyms_json": [
+        "warm",
+        "hot"
+      ],
+      "mnemonic": "Chilly là 'chi lì', lạnh lẽo làm người lì đi.",
+      "frequency_rank": 4050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10682
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "downpour",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈdaʊnpɔː",
+      "ipa_us": "ˈdaʊnpɔːr",
+      "meaning_vi": "mưa như trút nước",
+      "definition_en": "A very heavy fall of rain.",
+      "example_en": "We got caught in a sudden downpour and were soaked.",
+      "example_vi": "Chúng tôi bị mắc kẹt trong một trận mưa như trút nước và bị ướt sũng.",
+      "collocations_json": [
+        "heavy downpour",
+        "sudden downpour"
+      ],
+      "synonyms_json": [
+        "cloudburst",
+        "torrential rain"
+      ],
+      "antonyms_json": [
+        "drizzle",
+        "light rain"
+      ],
+      "mnemonic": "Downpour là 'đao po', mưa đổ xuống như trút.",
+      "frequency_rank": 5700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10683
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Weather & Climate",
+      "word": "forecast (verb)",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈfɔːkɑːst",
+      "ipa_us": "ˈfɔːrkæst",
+      "meaning_vi": "dự báo, dự đoán",
+      "definition_en": "To predict or estimate a future event or trend.",
+      "example_en": "The meteorologist forecasted heavy rain for tomorrow.",
+      "example_vi": "Nhà khí tượng học đã dự báo mưa lớn vào ngày mai.",
+      "collocations_json": [
+        "to forecast weather",
+        "to forecast sales"
+      ],
+      "synonyms_json": [
+        "to predict",
+        "to anticipate"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Forecast là 'pho cát', dự báo trước tương lai.",
+      "frequency_rank": 3150,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10684
+  }
+]

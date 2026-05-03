@@ -1,0 +1,2279 @@
+[
+
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "toddler",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈtɒdlə(r)",
+      "ipa_us": "ˈtɑːdlər",
+      "meaning_vi": "trẻ mới biết đi, chập chững",
+      "definition_en": "A young child who is just beginning to walk.",
+      "example_en": "My toddler loves to explore everything in the house.",
+      "example_vi": "Con tôi mới biết đi thích khám phá mọi thứ trong nhà.",
+      "collocations_json": [
+        "active toddler",
+        "happy toddler"
+      ],
+      "synonyms_json": [
+        "young child"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Nhớ \"toddle\" là đi chập chững, \"toddler\" là đứa trẻ chập chững.",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10965
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "diaper",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈdaɪpə(r)",
+      "ipa_us": "ˈdaɪpər",
+      "meaning_vi": "tã lót trẻ em",
+      "definition_en": "A piece of absorbent material wrapped around a baby's bottom to absorb urine and feces.",
+      "example_en": "It's time to change the baby's diaper.",
+      "example_vi": "Đến giờ thay tã cho bé rồi.",
+      "collocations_json": [
+        "dirty diaper",
+        "fresh diaper"
+      ],
+      "synonyms_json": [
+        "nappy"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Nhớ \"diaper\" là tã, dùng cho bé sơ sinh.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10966
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "pacifier",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈpæsɪfaɪə(r)",
+      "ipa_us": "ˈpæsɪfaɪər",
+      "meaning_vi": "núm vú giả",
+      "definition_en": "A rubber or plastic nipple for a baby to suck on.",
+      "example_en": "The baby stopped crying after I gave her the pacifier.",
+      "example_vi": "Em bé ngừng khóc sau khi tôi cho bé núm vú giả.",
+      "collocations_json": [
+        "baby's pacifier",
+        "lose a pacifier"
+      ],
+      "synonyms_json": [
+        "dummy"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Nhớ \"pacify\" là làm dịu, \"pacifier\" là vật làm dịu bé.",
+      "frequency_rank": 8000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10967
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "stroller",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈstrəʊlə(r)",
+      "ipa_us": "ˈstroʊlər",
+      "meaning_vi": "xe đẩy trẻ em",
+      "definition_en": "A folding chair on wheels in which a baby or young child can be pushed along.",
+      "example_en": "We put the baby in the stroller for a walk in the park.",
+      "example_vi": "Chúng tôi đặt em bé vào xe đẩy để đi dạo trong công viên.",
+      "collocations_json": [
+        "foldable stroller",
+        "lightweight stroller"
+      ],
+      "synonyms_json": [
+        "pushchair"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Nhớ \"stroll\" là đi dạo, \"stroller\" là xe đẩy để đi dạo.",
+      "frequency_rank": 7000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10968
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "crib",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "krɪb",
+      "ipa_us": "krɪb",
+      "meaning_vi": "cũi trẻ em",
+      "definition_en": "A small bed with high barred sides for a baby or young child.",
+      "example_en": "The baby is sleeping soundly in her crib.",
+      "example_vi": "Em bé đang ngủ say trong cũi của mình.",
+      "collocations_json": [
+        "baby crib",
+        "sleep in a crib"
+      ],
+      "synonyms_json": [
+        "cot"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Crib\" nghe giống \"cream\" (kem), tưởng tượng cũi mềm mại như kem.",
+      "frequency_rank": 9000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10969
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "nap",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "næp",
+      "ipa_us": "næp",
+      "meaning_vi": "giấc ngủ ngắn, chợp mắt",
+      "definition_en": "A short sleep, especially during the day.",
+      "example_en": "My toddler usually takes a nap after lunch.",
+      "example_vi": "Con tôi thường ngủ trưa sau bữa ăn.",
+      "collocations_json": [
+        "take a nap",
+        "afternoon nap"
+      ],
+      "synonyms_json": [
+        "siesta"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Nap\" là \"ngủ\", nhớ đơn giản.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10970
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "bedtime",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈbedtaɪm",
+      "ipa_us": "ˈbedtaɪm",
+      "meaning_vi": "giờ đi ngủ",
+      "definition_en": "The usual time when someone goes to bed.",
+      "example_en": "It's almost bedtime, so let's read a story.",
+      "example_vi": "Gần đến giờ đi ngủ rồi, chúng ta hãy đọc một câu chuyện nhé.",
+      "collocations_json": [
+        "bedtime story",
+        "bedtime routine"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Bed\" (giường) + \"time\" (thời gian) = thời gian lên giường.",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10971
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "playdate",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈpleɪdeɪt",
+      "ipa_us": "ˈpleɪdeɪt",
+      "meaning_vi": "buổi hẹn chơi (của trẻ em)",
+      "definition_en": "A time when children meet to play together, arranged by their parents.",
+      "example_en": "My daughter is excited for her playdate with her friend tomorrow.",
+      "example_vi": "Con gái tôi rất hào hứng với buổi hẹn chơi với bạn vào ngày mai.",
+      "collocations_json": [
+        "arrange a playdate",
+        "have a playdate"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Play\" (chơi) + \"date\" (hẹn hò) = hẹn hò để chơi.",
+      "frequency_rank": 10000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10972
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "tantrum",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈtæntrəm",
+      "ipa_us": "ˈtæntrəm",
+      "meaning_vi": "cơn giận dỗi, ăn vạ",
+      "definition_en": "An uncontrolled outburst of anger and frustration, especially in a young child.",
+      "example_en": "The toddler threw a tantrum because he didn't get the toy.",
+      "example_vi": "Đứa trẻ mới biết đi đã ăn vạ vì không được món đồ chơi đó.",
+      "collocations_json": [
+        "throw a tantrum",
+        "temper tantrum"
+      ],
+      "synonyms_json": [
+        "fit of rage"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Tantrum\" nghe như \"ăn trưa\", đứa trẻ đói bụng nên ăn vạ.",
+      "frequency_rank": 7500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10973
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "milestone",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈmaɪlstəʊn",
+      "ipa_us": "ˈmaɪlstoʊn",
+      "meaning_vi": "cột mốc quan trọng",
+      "definition_en": "A significant stage or event in the development of a child.",
+      "example_en": "Learning to walk is a big developmental milestone for a baby.",
+      "example_vi": "Học đi là một cột mốc phát triển lớn đối với em bé.",
+      "collocations_json": [
+        "developmental milestone",
+        "reach a milestone"
+      ],
+      "synonyms_json": [
+        "landmark"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Mile\" (dặm) + \"stone\" (đá) = hòn đá đánh dấu dặm đường, ý chỉ cột mốc.",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10974
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "toy",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "tɔɪ",
+      "ipa_us": "tɔɪ",
+      "meaning_vi": "đồ chơi",
+      "definition_en": "An object for a child to play with.",
+      "example_en": "My son loves playing with his new toy car.",
+      "example_vi": "Con trai tôi thích chơi với chiếc ô tô đồ chơi mới của nó.",
+      "collocations_json": [
+        "play with toys",
+        "building toys"
+      ],
+      "synonyms_json": [
+        "plaything"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Toy\" giống \"toi\" (tôi), đồ chơi của tôi.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10975
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "snack",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "snæk",
+      "ipa_us": "snæk",
+      "meaning_vi": "bữa ăn nhẹ, đồ ăn vặt",
+      "definition_en": "A small amount of food eaten between meals.",
+      "example_en": "It's important to give healthy snacks to toddlers.",
+      "example_vi": "Điều quan trọng là cho trẻ mới biết đi ăn những bữa ăn nhẹ lành mạnh.",
+      "collocations_json": [
+        "healthy snack",
+        "mid-morning snack"
+      ],
+      "synonyms_json": [
+        "light meal"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Snack\" nghe như \"nhanh\", bữa ăn nhanh.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10976
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "high chair",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈhaɪ tʃeə(r)",
+      "ipa_us": "ˈhaɪ tʃer",
+      "meaning_vi": "ghế ăn dặm",
+      "definition_en": "A tall chair for a baby or young child to sit in for meals.",
+      "example_en": "We need to clean the high chair after dinner.",
+      "example_vi": "Chúng ta cần lau ghế ăn dặm sau bữa tối.",
+      "collocations_json": [
+        "baby high chair",
+        "strapped into a high chair"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"High\" (cao) + \"chair\" (ghế) = ghế cao.",
+      "frequency_rank": 12000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10977
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "car seat",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈkɑː siːt",
+      "ipa_us": "ˈkɑːr siːt",
+      "meaning_vi": "ghế ô tô trẻ em",
+      "definition_en": "A safety seat for a baby or young child in a car.",
+      "example_en": "Always make sure your child is properly buckled into their car seat.",
+      "example_vi": "Luôn đảm bảo con bạn được thắt dây an toàn đúng cách vào ghế ô tô.",
+      "collocations_json": [
+        "install a car seat",
+        "booster car seat"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Car\" (ô tô) + \"seat\" (ghế) = ghế trên ô tô.",
+      "frequency_rank": 9500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10978
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "playground",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈpleɪɡraʊnd",
+      "ipa_us": "ˈpleɪɡraʊnd",
+      "meaning_vi": "sân chơi trẻ em",
+      "definition_en": "An outdoor area provided for children to play on, especially with swings and slides.",
+      "example_en": "Let's go to the playground after school.",
+      "example_vi": "Chúng ta hãy đến sân chơi sau giờ học.",
+      "collocations_json": [
+        "children's playground",
+        "local playground"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Play\" (chơi) + \"ground\" (mặt đất) = mặt đất để chơi.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10979
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "story time",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈstɔːri taɪm",
+      "ipa_us": "ˈstɔːri taɪm",
+      "meaning_vi": "giờ kể chuyện",
+      "definition_en": "A period of time set aside for reading stories to children.",
+      "example_en": "We have story time every night before bed.",
+      "example_vi": "Chúng tôi có giờ kể chuyện mỗi tối trước khi đi ngủ.",
+      "collocations_json": [
+        "bedtime story time",
+        "library story time"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Story\" (chuyện) + \"time\" (thời gian) = thời gian kể chuyện.",
+      "frequency_rank": 11000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10980
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "picky eater",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈpɪki ˈiːtə(r)",
+      "ipa_us": "ˈpɪki ˈiːtər",
+      "meaning_vi": "người kén ăn",
+      "definition_en": "A person, especially a child, who dislikes many foods and is difficult to please at mealtimes.",
+      "example_en": "My son is a picky eater, he only likes pasta and chicken.",
+      "example_vi": "Con trai tôi là một đứa kén ăn, nó chỉ thích mì ống và gà.",
+      "collocations_json": [
+        "become a picky eater",
+        "deal with a picky eater"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Picky\" (kén chọn) + \"eater\" (người ăn) = người ăn kén chọn.",
+      "frequency_rank": 13000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10981
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "potty training",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈpɒti ˈtreɪnɪŋ",
+      "ipa_us": "ˈpɑːti ˈtreɪnɪŋ",
+      "meaning_vi": "tập đi vệ sinh bô",
+      "definition_en": "The process of teaching a young child to use a toilet or a potty.",
+      "example_en": "We are starting potty training with our daughter next month.",
+      "example_vi": "Chúng tôi sẽ bắt đầu tập đi vệ sinh bô cho con gái vào tháng tới.",
+      "collocations_json": [
+        "start potty training",
+        "potty training tips"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Potty\" (bô) + \"training\" (huấn luyện) = huấn luyện dùng bô.",
+      "frequency_rank": 14000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10982
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "lullaby",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈlʌləbaɪ",
+      "ipa_us": "ˈlʌləbaɪ",
+      "meaning_vi": "bài hát ru",
+      "definition_en": "A quiet, gentle song sung to send a child to sleep.",
+      "example_en": "My mom used to sing me a lullaby every night.",
+      "example_vi": "Mẹ tôi từng hát ru tôi mỗi tối.",
+      "collocations_json": [
+        "sing a lullaby",
+        "gentle lullaby"
+      ],
+      "synonyms_json": [
+        "cradle song"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Lulla\" nghe như \"ru la\", là ru ngủ.",
+      "frequency_rank": 15000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10983
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "daycare",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈdeɪkeə(r)",
+      "ipa_us": "ˈdeɪker",
+      "meaning_vi": "nhà trẻ, trung tâm giữ trẻ",
+      "definition_en": "Care for children during the day while their parents are at work.",
+      "example_en": "We enrolled our son in a new daycare center.",
+      "example_vi": "Chúng tôi đã đăng ký cho con trai vào một trung tâm giữ trẻ mới.",
+      "collocations_json": [
+        "daycare center",
+        "affordable daycare"
+      ],
+      "synonyms_json": [
+        "nursery school"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Day\" (ban ngày) + \"care\" (chăm sóc) = chăm sóc ban ngày.",
+      "frequency_rank": 6500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10984
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to feed",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "fiːd",
+      "ipa_us": "fiːd",
+      "meaning_vi": "cho ăn, nuôi dưỡng",
+      "definition_en": "To give food to a person or animal.",
+      "example_en": "It's time to feed the baby his porridge.",
+      "example_vi": "Đến giờ cho bé ăn cháo rồi.",
+      "collocations_json": [
+        "feed a baby",
+        "feed a pet"
+      ],
+      "synonyms_json": [
+        "nourish"
+      ],
+      "antonyms_json": [
+        "starve"
+      ],
+      "mnemonic": "\"Feed\" giống \"food\", cho ăn thức ăn.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10985
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to change a diaper",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "tʃeɪndʒ ə ˈdaɪpə(r)",
+      "ipa_us": "tʃeɪndʒ ə ˈdaɪpər",
+      "meaning_vi": "thay tã",
+      "definition_en": "To replace a dirty diaper with a clean one.",
+      "example_en": "My husband is learning how to change a diaper.",
+      "example_vi": "Chồng tôi đang học cách thay tã.",
+      "collocations_json": [
+        "change a baby's diaper",
+        "quick change"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Change\" (thay đổi) + \"diaper\" (tã) = thay tã.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10986
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to put to bed",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "pʊt tə bed",
+      "ipa_us": "pʊt tə bed",
+      "meaning_vi": "đưa đi ngủ",
+      "definition_en": "To help a child get ready for sleep and settle them in their bed.",
+      "example_en": "I usually put my children to bed around 8 PM.",
+      "example_vi": "Tôi thường đưa các con đi ngủ vào khoảng 8 giờ tối.",
+      "collocations_json": [
+        "put a child to bed",
+        "put the baby to bed"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Put\" (đặt) + \"to bed\" (lên giường) = đặt lên giường để ngủ.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10987
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to pick up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "pɪk ʌp",
+      "ipa_us": "pɪk ʌp",
+      "meaning_vi": "đón (từ trường/nhà trẻ)",
+      "definition_en": "To collect someone from a place.",
+      "example_en": "I need to pick up my daughter from daycare at 5 o'clock.",
+      "example_vi": "Tôi cần đón con gái từ nhà trẻ lúc 5 giờ.",
+      "collocations_json": [
+        "pick up kids",
+        "pick up from school"
+      ],
+      "synonyms_json": [
+        "collect"
+      ],
+      "antonyms_json": [
+        "drop off"
+      ],
+      "mnemonic": "\"Pick\" (nhặt) + \"up\" (lên) = nhặt lên, đón.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10988
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to drop off",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "drɒp ɒf",
+      "ipa_us": "drɑːp ɔːf",
+      "meaning_vi": "đưa đến, thả xuống (ở trường/nhà trẻ)",
+      "definition_en": "To take someone to a place and leave them there.",
+      "example_en": "My husband drops off our son at school every morning.",
+      "example_vi": "Chồng tôi đưa con trai đến trường mỗi sáng.",
+      "collocations_json": [
+        "drop off children",
+        "drop off at daycare"
+      ],
+      "synonyms_json": [
+        "take to"
+      ],
+      "antonyms_json": [
+        "pick up"
+      ],
+      "mnemonic": "\"Drop\" (thả) + \"off\" (ra) = thả xuống, đưa đến.",
+      "frequency_rank": 2200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10989
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to read a story",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "riːd ə ˈstɔːri",
+      "ipa_us": "riːd ə ˈstɔːri",
+      "meaning_vi": "đọc một câu chuyện",
+      "definition_en": "To look at and comprehend the meaning of written or printed words in a narrative.",
+      "example_en": "I love to read a story to my children before they sleep.",
+      "example_vi": "Tôi thích đọc truyện cho các con nghe trước khi chúng ngủ.",
+      "collocations_json": [
+        "read aloud",
+        "read a book"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Read\" (đọc) + \"story\" (chuyện) = đọc chuyện.",
+      "frequency_rank": 500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10990
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to play with",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "pleɪ wɪð",
+      "ipa_us": "pleɪ wɪð",
+      "meaning_vi": "chơi với",
+      "definition_en": "To engage in an activity for enjoyment and recreation with someone.",
+      "example_en": "Parents should spend time to play with their children every day.",
+      "example_vi": "Cha mẹ nên dành thời gian chơi với con cái mỗi ngày.",
+      "collocations_json": [
+        "play with toys",
+        "play with friends"
+      ],
+      "synonyms_json": [
+        "interact with"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Play\" (chơi) + \"with\" (với) = chơi cùng ai đó.",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10991
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to cuddle",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈkʌdl",
+      "ipa_us": "ˈkʌdl",
+      "meaning_vi": "ôm ấp, âu yếm",
+      "definition_en": "To hold someone or something close in one's arms as a way of showing love or affection.",
+      "example_en": "My toddler loves to cuddle with me on the sofa.",
+      "example_vi": "Con tôi mới biết đi thích ôm ấp tôi trên ghế sofa.",
+      "collocations_json": [
+        "cuddle up",
+        "give a cuddle"
+      ],
+      "synonyms_json": [
+        "hug",
+        "snuggle"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Cuddle\" nghe như \"cút đi\", nhưng thực ra là ôm ấp, ngược lại với cút đi.",
+      "frequency_rank": 9000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10992
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to soothe",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "suːð",
+      "ipa_us": "suːð",
+      "meaning_vi": "xoa dịu, an ủi",
+      "definition_en": "To gently calm a person or their feelings.",
+      "example_en": "I tried to soothe the crying baby by singing a lullaby.",
+      "example_vi": "Tôi cố gắng xoa dịu em bé đang khóc bằng cách hát ru.",
+      "collocations_json": [
+        "soothe a baby",
+        "soothe nerves"
+      ],
+      "synonyms_json": [
+        "calm",
+        "comfort"
+      ],
+      "antonyms_json": [
+        "agitate"
+      ],
+      "mnemonic": "\"Soothe\" nghe như \"suýt\", suýt thì khóc nhưng được xoa dịu.",
+      "frequency_rank": 11000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10993
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to teach",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "tiːtʃ",
+      "ipa_us": "tiːtʃ",
+      "meaning_vi": "dạy, hướng dẫn",
+      "definition_en": "To impart knowledge to or instruct someone as to how to do something.",
+      "example_en": "We are trying to teach our son to share his toys.",
+      "example_vi": "Chúng tôi đang cố gắng dạy con trai mình chia sẻ đồ chơi.",
+      "collocations_json": [
+        "teach a lesson",
+        "teach skills"
+      ],
+      "synonyms_json": [
+        "instruct",
+        "educate"
+      ],
+      "antonyms_json": [
+        "learn"
+      ],
+      "mnemonic": "\"Teach\" giống \"teacher\" (giáo viên), giáo viên thì dạy.",
+      "frequency_rank": 700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10994
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to discipline",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈdɪsəplɪn",
+      "ipa_us": "ˈdɪsəplɪn",
+      "meaning_vi": "rèn luyện, kỷ luật",
+      "definition_en": "To train someone to obey rules or a code of behavior, using punishment to correct disobedience.",
+      "example_en": "It's important to discipline children consistently and fairly.",
+      "example_vi": "Điều quan trọng là kỷ luật trẻ em một cách nhất quán và công bằng.",
+      "collocations_json": [
+        "discipline a child",
+        "effective discipline"
+      ],
+      "synonyms_json": [
+        "train",
+        "correct"
+      ],
+      "antonyms_json": [
+        "spoil"
+      ],
+      "mnemonic": "\"Discipline\" nghe như \"đi xe pin\", phải kỷ luật mới được đi xe pin.",
+      "frequency_rank": 8500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10995
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to nap",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "næp",
+      "ipa_us": "næp",
+      "meaning_vi": "ngủ trưa, chợp mắt",
+      "definition_en": "To sleep lightly or briefly, especially during the day.",
+      "example_en": "The baby needs to nap for a couple of hours.",
+      "example_vi": "Em bé cần ngủ trưa vài giờ.",
+      "collocations_json": [
+        "nap during the day",
+        "nap time"
+      ],
+      "synonyms_json": [
+        "doze"
+      ],
+      "antonyms_json": [
+        "wake up"
+      ],
+      "mnemonic": "\"Nap\" là \"ngủ\", nhớ đơn giản.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10996
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to wake up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "weɪk ʌp",
+      "ipa_us": "weɪk ʌp",
+      "meaning_vi": "thức dậy",
+      "definition_en": "To stop sleeping.",
+      "example_en": "My son usually wakes up early in the morning.",
+      "example_vi": "Con trai tôi thường thức dậy sớm vào buổi sáng.",
+      "collocations_json": [
+        "wake up early",
+        "wake up crying"
+      ],
+      "synonyms_json": [
+        "arise"
+      ],
+      "antonyms_json": [
+        "go to sleep"
+      ],
+      "mnemonic": "\"Wake\" (tỉnh) + \"up\" (lên) = tỉnh dậy.",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10997
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to calm down",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "kɑːm daʊn",
+      "ipa_us": "kɑːm daʊn",
+      "meaning_vi": "bình tĩnh lại, trấn an",
+      "definition_en": "To become or make someone become less angry, excited, or upset.",
+      "example_en": "It took a while to calm down the crying child after his fall.",
+      "example_vi": "Mất một lúc để trấn an đứa trẻ đang khóc sau khi nó bị ngã.",
+      "collocations_json": [
+        "calm down a child",
+        "calm yourself down"
+      ],
+      "synonyms_json": [
+        "settle down",
+        "relax"
+      ],
+      "antonyms_json": [
+        "agitate"
+      ],
+      "mnemonic": "\"Calm\" (yên tĩnh) + \"down\" (xuống) = yên tĩnh xuống.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10998
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to throw a tantrum",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "θrəʊ ə ˈtæntrəm",
+      "ipa_us": "θroʊ ə ˈtæntrəm",
+      "meaning_vi": "ăn vạ, lên cơn giận",
+      "definition_en": "To express anger or frustration in a very noisy and uncontrolled way.",
+      "example_en": "My daughter tends to throw tantrums when she's tired.",
+      "example_vi": "Con gái tôi có xu hướng ăn vạ khi nó mệt.",
+      "collocations_json": [
+        "throw a temper tantrum",
+        "throw a fit"
+      ],
+      "synonyms_json": [
+        "have a meltdown"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Throw\" (ném) + \"tantrum\" (cơn giận) = ném cơn giận ra ngoài.",
+      "frequency_rank": 7500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10999
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to share",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ʃeə(r)",
+      "ipa_us": "ʃer",
+      "meaning_vi": "chia sẻ",
+      "definition_en": "To have, use, or experience something with others.",
+      "example_en": "We teach our children to share their toys with friends.",
+      "example_vi": "Chúng tôi dạy các con chia sẻ đồ chơi với bạn bè.",
+      "collocations_json": [
+        "share toys",
+        "share food"
+      ],
+      "synonyms_json": [
+        "distribute"
+      ],
+      "antonyms_json": [
+        "hoard"
+      ],
+      "mnemonic": "\"Share\" giống \"chè\", chia sẻ chè cho mọi người.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11000
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to buckle up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈbʌkl ʌp",
+      "ipa_us": "ˈbʌkl ʌp",
+      "meaning_vi": "thắt dây an toàn",
+      "definition_en": "To fasten the seatbelt in a car or aircraft.",
+      "example_en": "Make sure everyone buckles up before we start driving.",
+      "example_vi": "Đảm bảo mọi người thắt dây an toàn trước khi chúng ta bắt đầu lái xe.",
+      "collocations_json": [
+        "buckle up seatbelt",
+        "always buckle up"
+      ],
+      "synonyms_json": [
+        "fasten seatbelt"
+      ],
+      "antonyms_json": [
+        "unbuckle"
+      ],
+      "mnemonic": "\"Buckle\" (khóa) + \"up\" (lên) = khóa lên.",
+      "frequency_rank": 10500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11001
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to wipe",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "waɪp",
+      "ipa_us": "waɪp",
+      "meaning_vi": "lau, chùi",
+      "definition_en": "To clean or dry something by rubbing its surface with a cloth or one's hand.",
+      "example_en": "Please wipe your mouth after eating.",
+      "example_vi": "Con hãy lau miệng sau khi ăn nhé.",
+      "collocations_json": [
+        "wipe a table",
+        "wipe tears"
+      ],
+      "synonyms_json": [
+        "cleanse"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Wipe\" nghe như \"quýt\", lau tay sau khi ăn quýt.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11002
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to dress a child",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "dres ə tʃaɪld",
+      "ipa_us": "dres ə tʃaɪld",
+      "meaning_vi": "mặc quần áo cho (trẻ)",
+      "definition_en": "To put clothes on someone, especially a child.",
+      "example_en": "It takes a long time to dress a toddler in the morning.",
+      "example_vi": "Mất rất nhiều thời gian để mặc quần áo cho một đứa trẻ mới biết đi vào buổi sáng.",
+      "collocations_json": [
+        "dress warmly",
+        "dress up"
+      ],
+      "synonyms_json": [
+        "clothe"
+      ],
+      "antonyms_json": [
+        "undress"
+      ],
+      "mnemonic": "\"Dress\" là \"váy\", nhớ mặc váy cho bé.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11003
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to hold hands",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "həʊld hændz",
+      "ipa_us": "hoʊld hændz",
+      "meaning_vi": "nắm tay",
+      "definition_en": "To grasp another person's hand, especially as a sign of affection or to guide.",
+      "example_en": "We always hold hands when we cross the street.",
+      "example_vi": "Chúng tôi luôn nắm tay khi băng qua đường.",
+      "collocations_json": [
+        "hold hands with",
+        "walk holding hands"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Hold\" (giữ) + \"hands\" (tay) = giữ tay nhau.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11004
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "sleepy",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈsliːpi",
+      "ipa_us": "ˈsliːpi",
+      "meaning_vi": "buồn ngủ",
+      "definition_en": "Needing or ready for sleep.",
+      "example_en": "The baby is getting sleepy, it's time for his nap.",
+      "example_vi": "Em bé đang buồn ngủ, đã đến giờ ngủ trưa của bé.",
+      "collocations_json": [
+        "feel sleepy",
+        "sleepy eyes"
+      ],
+      "synonyms_json": [
+        "drowsy",
+        "tired"
+      ],
+      "antonyms_json": [
+        "awake",
+        "alert"
+      ],
+      "mnemonic": "\"Sleep\" (ngủ) + \"y\" = trạng thái muốn ngủ.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11005
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "hungry",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈhʌŋɡri",
+      "ipa_us": "ˈhʌŋɡri",
+      "meaning_vi": "đói bụng",
+      "definition_en": "Feeling or showing a need for food.",
+      "example_en": "My toddler gets grumpy when he's hungry.",
+      "example_vi": "Con tôi mới biết đi trở nên cáu kỉnh khi đói bụng.",
+      "collocations_json": [
+        "feel hungry",
+        "hungry baby"
+      ],
+      "synonyms_json": [
+        "famished"
+      ],
+      "antonyms_json": [
+        "full"
+      ],
+      "mnemonic": "\"Hungry\" nghe như \"hăng\", hăng hái ăn vì đói.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11006
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "tired",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈtaɪəd",
+      "ipa_us": "ˈtaɪərd",
+      "meaning_vi": "mệt mỏi",
+      "definition_en": "Needing rest or sleep.",
+      "example_en": "After a long day, I'm very tired.",
+      "example_vi": "Sau một ngày dài, tôi rất mệt mỏi.",
+      "collocations_json": [
+        "feel tired",
+        "get tired"
+      ],
+      "synonyms_json": [
+        "exhausted"
+      ],
+      "antonyms_json": [
+        "energetic",
+        "rested"
+      ],
+      "mnemonic": "\"Tired\" giống \"thai\", mệt mỏi như mang thai.",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11007
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "messy",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈmesi",
+      "ipa_us": "ˈmesi",
+      "meaning_vi": "bừa bộn, lộn xộn",
+      "definition_en": "Untidy or dirty.",
+      "example_en": "Toddlers can be very messy eaters.",
+      "example_vi": "Trẻ mới biết đi có thể ăn rất bừa bộn.",
+      "collocations_json": [
+        "messy room",
+        "messy hair"
+      ],
+      "synonyms_json": [
+        "untidy",
+        "disorderly"
+      ],
+      "antonyms_json": [
+        "tidy",
+        "neat"
+      ],
+      "mnemonic": "\"Messy\" giống \"mệt\", nhìn bừa bộn là thấy mệt.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11008
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "gentle",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈdʒentl",
+      "ipa_us": "ˈdʒentl",
+      "meaning_vi": "nhẹ nhàng, dịu dàng",
+      "definition_en": "Having or showing a mild, kind, or tender temperament or character.",
+      "example_en": "Please be gentle with the baby.",
+      "example_vi": "Xin hãy nhẹ nhàng với em bé.",
+      "collocations_json": [
+        "gentle touch",
+        "gentle voice"
+      ],
+      "synonyms_json": [
+        "tender",
+        "mild"
+      ],
+      "antonyms_json": [
+        "rough",
+        "harsh"
+      ],
+      "mnemonic": "\"Gentle\" nghe như \"gen\", gen tốt thì dịu dàng.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11009
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "patient",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈpeɪʃnt",
+      "ipa_us": "ˈpeɪʃnt",
+      "meaning_vi": "kiên nhẫn",
+      "definition_en": "Able to accept or tolerate delays, problems, or suffering without becoming annoyed or anxious.",
+      "example_en": "Parents need to be very patient when raising young children.",
+      "example_vi": "Cha mẹ cần rất kiên nhẫn khi nuôi dạy con nhỏ.",
+      "collocations_json": [
+        "be patient",
+        "patient person"
+      ],
+      "synonyms_json": [
+        "forbearing"
+      ],
+      "antonyms_json": [
+        "impatient"
+      ],
+      "mnemonic": "\"Patient\" giống \"bệnh nhân\", bệnh nhân thì phải kiên nhẫn đợi.",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11010
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "time out",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈtaɪm aʊt",
+      "ipa_us": "ˈtaɪm aʊt",
+      "meaning_vi": "phạt đứng yên (hình thức kỷ luật)",
+      "definition_en": "A period of temporary isolation or withdrawal from an activity, typically used as a disciplinary measure for children.",
+      "example_en": "My son had to go to time out after hitting his sister.",
+      "example_vi": "Con trai tôi phải bị phạt đứng yên sau khi đánh em gái.",
+      "collocations_json": [
+        "give a time out",
+        "take a time out"
+      ],
+      "synonyms_json": [
+        "cool-down period"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Time\" (thời gian) + \"out\" (ngoài) = thời gian đứng ra ngoài.",
+      "frequency_rank": 16000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11011
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "good job",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˌɡʊd ˈdʒɒb",
+      "ipa_us": "ˌɡʊd ˈdʒɑːb",
+      "meaning_vi": "làm tốt lắm, giỏi lắm",
+      "definition_en": "An expression of praise or encouragement for an accomplishment.",
+      "example_en": "\"Good job, honey!\" I said when he finished his drawing.",
+      "example_vi": "\"Giỏi lắm con yêu!\" tôi nói khi con bé hoàn thành bức vẽ.",
+      "collocations_json": [
+        "say good job",
+        "do a good job"
+      ],
+      "synonyms_json": [
+        "well done",
+        "great work"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Good\" (tốt) + \"job\" (việc) = việc tốt, làm tốt.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11012
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "share your toys",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ʃeə jɔː tɔɪz",
+      "ipa_us": "ʃer jʊər tɔɪz",
+      "meaning_vi": "chia sẻ đồ chơi của con",
+      "definition_en": "An instruction to a child to allow others to play with their toys.",
+      "example_en": "\"Remember to share your toys with your friends,\" the mother reminded.",
+      "example_vi": "\"Con nhớ chia sẻ đồ chơi với bạn bè nhé,\" người mẹ nhắc nhở.",
+      "collocations_json": [],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Share\" (chia sẻ) + \"your\" (của con) + \"toys\" (đồ chơi).",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11013
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "wash your hands",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "wɒʃ jɔː hændz",
+      "ipa_us": "wɑːʃ jʊər hændz",
+      "meaning_vi": "rửa tay",
+      "definition_en": "An instruction to clean one's hands with soap and water.",
+      "example_en": "\"Go wash your hands before dinner,\" Mom told the kids.",
+      "example_vi": "\"Đi rửa tay trước bữa tối đi các con,\" Mẹ nói với bọn trẻ.",
+      "collocations_json": [],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Wash\" (rửa) + \"your\" (của con) + \"hands\" (tay).",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11014
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "bedtime story",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈbedtaɪm ˈstɔːri",
+      "ipa_us": "ˈbedtaɪm ˈstɔːri",
+      "meaning_vi": "truyện kể trước khi ngủ",
+      "definition_en": "A story read to children before they go to sleep.",
+      "example_en": "My kids always ask for a bedtime story.",
+      "example_vi": "Các con tôi luôn đòi kể truyện trước khi ngủ.",
+      "collocations_json": [
+        "read a bedtime story",
+        "favorite bedtime story"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"bedtime\" (giờ ngủ) và \"story\" (câu chuyện).",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11015
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "nursery rhyme",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈnɜːsəri raɪm",
+      "ipa_us": "ˈnɜːrsəri raɪm",
+      "meaning_vi": "bài đồng dao, vè trẻ em",
+      "definition_en": "A simple poem or song for young children.",
+      "example_en": "We sang a nursery rhyme together.",
+      "example_vi": "Chúng tôi đã hát một bài đồng dao cùng nhau.",
+      "collocations_json": [
+        "sing a nursery rhyme",
+        "classic nursery rhyme"
+      ],
+      "synonyms_json": [
+        "children's song"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Nursery\" (nhà trẻ) + \"rhyme\" (vần điệu) = vần điệu ở nhà trẻ.",
+      "frequency_rank": 12500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11016
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "potty",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈpɒti",
+      "ipa_us": "ˈpɑːti",
+      "meaning_vi": "bô (cho trẻ em)",
+      "definition_en": "A bowl-shaped container used by young children as a toilet.",
+      "example_en": "My daughter is learning to use the potty.",
+      "example_vi": "Con gái tôi đang học cách dùng bô.",
+      "collocations_json": [
+        "use the potty",
+        "potty seat"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Potty\" nghe như \"pó tay\", pó tay vì bé chưa biết dùng bô.",
+      "frequency_rank": 8800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11017
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "teething",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈtiːðɪŋ",
+      "ipa_us": "ˈtiːðɪŋ",
+      "meaning_vi": "mọc răng (ở trẻ em)",
+      "definition_en": "The process of a baby's first teeth growing through the gums.",
+      "example_en": "The baby is cranky because of teething.",
+      "example_vi": "Em bé cáu kỉnh vì đang mọc răng.",
+      "collocations_json": [
+        "teething pain",
+        "teething ring"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "\"Teeth\" (răng) + \"ing\" = quá trình mọc răng.",
+      "frequency_rank": 13500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11018
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "temper tantrum",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈtempə ˈtæntrəm",
+      "ipa_us": "ˈtempər ˈtæntrəm",
+      "meaning_vi": "cơn giận dữ, ăn vạ",
+      "definition_en": "An uncontrolled outburst of anger and frustration by a young child.",
+      "example_en": "He had a full-blown temper tantrum in the supermarket.",
+      "example_vi": "Cậu bé đã có một cơn giận dữ tột độ trong siêu thị.",
+      "collocations_json": [
+        "have a temper tantrum",
+        "avoid temper tantrums"
+      ],
+      "synonyms_json": [
+        "meltdown"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"temper\" (tính khí) và \"tantrum\" (cơn giận).",
+      "frequency_rank": 8000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11019
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "high-energy",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˌhaɪ ˈenədʒi",
+      "ipa_us": "ˌhaɪ ˈenərdʒi",
+      "meaning_vi": "năng động, nhiều năng lượng",
+      "definition_en": "Having or requiring a lot of energy.",
+      "example_en": "My son is a high-energy child, always running around.",
+      "example_vi": "Con trai tôi là một đứa trẻ năng động, luôn chạy nhảy khắp nơi.",
+      "collocations_json": [
+        "high-energy kids",
+        "high-energy activities"
+      ],
+      "synonyms_json": [
+        "active",
+        "lively"
+      ],
+      "antonyms_json": [
+        "low-energy"
+      ],
+      "mnemonic": "\"High\" (cao) + \"energy\" (năng lượng) = nhiều năng lượng.",
+      "frequency_rank": 11500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11020
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "sibling",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈsɪblɪŋ",
+      "ipa_us": "ˈsɪblɪŋ",
+      "meaning_vi": "anh chị em ruột",
+      "definition_en": "Each of two or more children having one or both parents in common; a brother or sister.",
+      "example_en": "It's common for siblings to argue sometimes.",
+      "example_vi": "Anh chị em ruột đôi khi cãi nhau là chuyện bình thường.",
+      "collocations_json": [
+        "older sibling",
+        "younger sibling"
+      ],
+      "synonyms_json": [
+        "brother",
+        "sister"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Sibling\" nghe như \"síp linh\", liên quan đến gia đình.",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11021
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "chores",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "tʃɔːz",
+      "ipa_us": "tʃɔːrz",
+      "meaning_vi": "việc nhà",
+      "definition_en": "A routine task, especially a household one.",
+      "example_en": "Even young children can help with simple chores.",
+      "example_vi": "Ngay cả trẻ nhỏ cũng có thể giúp làm những công việc nhà đơn giản.",
+      "collocations_json": [
+        "household chores",
+        "daily chores"
+      ],
+      "synonyms_json": [
+        "tasks",
+        "duties"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Chores\" nghe như \"chờ\", chờ làm việc nhà.",
+      "frequency_rank": 7800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11022
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "timeout chair",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈtaɪm aʊt tʃeə(r)",
+      "ipa_us": "ˈtaɪm aʊt tʃer",
+      "meaning_vi": "ghế phạt (time out)",
+      "definition_en": "A specific chair where a child sits for a period of time as a form of punishment.",
+      "example_en": "He had to sit in the timeout chair for five minutes.",
+      "example_vi": "Cậu bé phải ngồi ghế phạt năm phút.",
+      "collocations_json": [
+        "go to the timeout chair",
+        "timeout spot"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"time out\" (phạt) và \"chair\" (ghế).",
+      "frequency_rank": 17000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11023
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to praise",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "preɪz",
+      "ipa_us": "preɪz",
+      "meaning_vi": "khen ngợi",
+      "definition_en": "To express warm approval or admiration of.",
+      "example_en": "It's important to praise children for their efforts.",
+      "example_vi": "Điều quan trọng là khen ngợi trẻ em vì những nỗ lực của chúng.",
+      "collocations_json": [
+        "praise a child",
+        "receive praise"
+      ],
+      "synonyms_json": [
+        "commend",
+        "applaud"
+      ],
+      "antonyms_json": [
+        "criticize"
+      ],
+      "mnemonic": "\"Praise\" nghe như \"price\" (giá), khen ngợi có giá trị.",
+      "frequency_rank": 6200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11024
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to encourage",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ɪnˈkʌrɪdʒ",
+      "ipa_us": "ɪnˈkɜːrɪdʒ",
+      "meaning_vi": "khuyến khích, động viên",
+      "definition_en": "To give support, confidence, or hope to (someone).",
+      "example_en": "We always encourage our kids to try new things.",
+      "example_vi": "Chúng tôi luôn khuyến khích các con thử những điều mới.",
+      "collocations_json": [
+        "encourage creativity",
+        "encourage learning"
+      ],
+      "synonyms_json": [
+        "motivate",
+        "inspire"
+      ],
+      "antonyms_json": [
+        "discourage"
+      ],
+      "mnemonic": "\"Encourage\" nghe như \"in-courage\" (trong lòng dũng cảm), tiếp thêm dũng khí.",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11025
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to comfort",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈkʌmfət",
+      "ipa_us": "ˈkʌmfərt",
+      "meaning_vi": "an ủi, dỗ dành",
+      "definition_en": "To ease the grief or distress of; console.",
+      "example_en": "I tried to comfort my daughter after she fell and scraped her knee.",
+      "example_vi": "Tôi cố gắng an ủi con gái sau khi bé bị ngã và trầy đầu gối.",
+      "collocations_json": [
+        "comfort a crying child",
+        "find comfort"
+      ],
+      "synonyms_json": [
+        "console",
+        "soothe"
+      ],
+      "antonyms_json": [
+        "distress"
+      ],
+      "mnemonic": "\"Comfort\" giống \"comfy\" (thoải mái), an ủi để cảm thấy thoải mái.",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11026
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to supervise",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈsuːpəvaɪz",
+      "ipa_us": "ˈsuːpərvaɪz",
+      "meaning_vi": "giám sát, trông nom",
+      "definition_en": "To observe and direct the execution of a task or activity.",
+      "example_en": "Parents should always supervise young children near water.",
+      "example_vi": "Cha mẹ nên luôn giám sát trẻ nhỏ gần nước.",
+      "collocations_json": [
+        "supervise children",
+        "closely supervise"
+      ],
+      "synonyms_json": [
+        "oversee",
+        "monitor"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Super\" (siêu) + \"vise\" (nhìn) = nhìn siêu kỹ, giám sát.",
+      "frequency_rank": 9800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11027
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "potty break",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈpɒti breɪk",
+      "ipa_us": "ˈpɑːti breɪk",
+      "meaning_vi": "giờ đi bô/vệ sinh",
+      "definition_en": "A short period of time when a child uses the potty or toilet.",
+      "example_en": "We need to take a potty break before we leave.",
+      "example_vi": "Chúng ta cần đi bô trước khi rời đi.",
+      "collocations_json": [
+        "take a potty break",
+        "regular potty breaks"
+      ],
+      "synonyms_json": [
+        "bathroom break"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"potty\" (bô) và \"break\" (nghỉ giải lao).",
+      "frequency_rank": 14500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11028
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to naptime",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈnæptaɪm",
+      "ipa_us": "ˈnæptaɪm",
+      "meaning_vi": "giờ ngủ trưa",
+      "definition_en": "The time of day when a child usually takes a nap.",
+      "example_en": "It's almost naptime, so let's get ready for bed.",
+      "example_vi": "Gần đến giờ ngủ trưa rồi, chúng ta hãy chuẩn bị đi ngủ.",
+      "collocations_json": [
+        "afternoon naptime",
+        "scheduled naptime"
+      ],
+      "synonyms_json": [
+        "rest time"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"nap\" (ngủ ngắn) và \"time\" (thời gian).",
+      "frequency_rank": 3300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11029
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to burp (a baby)",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "bɜːp",
+      "ipa_us": "bɜːrp",
+      "meaning_vi": "vỗ ợ hơi (cho em bé)",
+      "definition_en": "To help a baby bring up air from its stomach.",
+      "example_en": "Remember to burp the baby after feeding.",
+      "example_vi": "Hãy nhớ vỗ ợ hơi cho bé sau khi bú.",
+      "collocations_json": [
+        "burp cloth",
+        "burp position"
+      ],
+      "synonyms_json": [
+        "belch"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Burp\" giống \"bụp\", tiếng vỗ nhẹ vào lưng bé.",
+      "frequency_rank": 16500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11030
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "baby food",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈbeɪbi fuːd",
+      "ipa_us": "ˈbeɪbi fuːd",
+      "meaning_vi": "thức ăn trẻ em",
+      "definition_en": "Soft, easily digestible food prepared for babies.",
+      "example_en": "We bought some organic baby food for the little one.",
+      "example_vi": "Chúng tôi đã mua một ít thức ăn hữu cơ cho bé.",
+      "collocations_json": [
+        "jarred baby food",
+        "homemade baby food"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"baby\" (em bé) và \"food\" (thức ăn).",
+      "frequency_rank": 6800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11031
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "nappy rash",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "ˈnæpi ræʃ",
+      "ipa_us": "ˈnæpi ræʃ",
+      "meaning_vi": "hăm tã",
+      "definition_en": "An irritation of a baby's skin in the area covered by a diaper.",
+      "example_en": "We need to put cream on the baby's nappy rash.",
+      "example_vi": "Chúng tôi cần bôi kem trị hăm tã cho bé.",
+      "collocations_json": [
+        "prevent nappy rash",
+        "nappy rash cream"
+      ],
+      "synonyms_json": [
+        "diaper rash"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Nappy\" (tã) + \"rash\" (phát ban) = phát ban do tã.",
+      "frequency_rank": 15500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11032
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to sing a lullaby",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "sɪŋ ə ˈlʌləbaɪ",
+      "ipa_us": "sɪŋ ə ˈlʌləbaɪ",
+      "meaning_vi": "hát ru",
+      "definition_en": "To sing a quiet, gentle song to a child to help them sleep.",
+      "example_en": "She always sings a lullaby to her baby at night.",
+      "example_vi": "Cô ấy luôn hát ru cho con vào buổi tối.",
+      "collocations_json": [],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"sing\" (hát) và \"lullaby\" (bài hát ru).",
+      "frequency_rank": 15000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11033
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to cuddle up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈkʌdl ʌp",
+      "ipa_us": "ˈkʌdl ʌp",
+      "meaning_vi": "cuộn tròn ôm ấp",
+      "definition_en": "To sit or lie very close to someone in a way that shows love.",
+      "example_en": "The children love to cuddle up with a book on the sofa.",
+      "example_vi": "Các con thích cuộn tròn ôm ấp đọc sách trên ghế sofa.",
+      "collocations_json": [
+        "cuddle up on the sofa",
+        "cuddle up to"
+      ],
+      "synonyms_json": [
+        "snuggle up"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "\"Cuddle\" (ôm ấp) + \"up\" (lên) = ôm ấp sát vào.",
+      "frequency_rank": 9000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11034
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "baby monitor",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈbeɪbi ˈmɒnɪtə(r)",
+      "ipa_us": "ˈbeɪbi ˈmɑːnɪtər",
+      "meaning_vi": "máy báo khóc trẻ em",
+      "definition_en": "An electronic device that allows parents to hear or see their baby from another room.",
+      "example_en": "We use a baby monitor to hear our son when he wakes up.",
+      "example_vi": "Chúng tôi dùng máy báo khóc để nghe con trai khi bé thức dậy.",
+      "collocations_json": [
+        "video baby monitor",
+        "digital baby monitor"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"baby\" (em bé) và \"monitor\" (thiết bị giám sát).",
+      "frequency_rank": 10800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11035
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "playpen",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈpleɪpen",
+      "ipa_us": "ˈpleɪpen",
+      "meaning_vi": "cũi chơi, rào chắn chơi",
+      "definition_en": "A small enclosure in which a baby or young child can play safely.",
+      "example_en": "The baby plays safely in her playpen while I cook.",
+      "example_vi": "Em bé chơi an toàn trong cũi chơi khi tôi nấu ăn.",
+      "collocations_json": [
+        "baby playpen",
+        "travel playpen"
+      ],
+      "synonyms_json": [
+        "playard"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"play\" (chơi) và \"pen\" (chuồng).",
+      "frequency_rank": 13800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11036
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to breastfeed",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "health",
+      "ipa_uk": "ˈbrestfiːd",
+      "ipa_us": "ˈbrestfiːd",
+      "meaning_vi": "cho con bú (sữa mẹ)",
+      "definition_en": "To feed a baby with milk from the breast.",
+      "example_en": "Many mothers choose to breastfeed their babies.",
+      "example_vi": "Nhiều bà mẹ chọn cho con bú sữa mẹ.",
+      "collocations_json": [
+        "breastfeed a baby",
+        "breastfeeding mother"
+      ],
+      "synonyms_json": [
+        "nurse"
+      ],
+      "antonyms_json": [
+        "bottle-feed"
+      ],
+      "mnemonic": "Ghép \"breast\" (ngực) và \"feed\" (cho ăn).",
+      "frequency_rank": 11200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11037
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "bottle-feed",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈbɒtl fiːd",
+      "ipa_us": "ˈbɑːtl fiːd",
+      "meaning_vi": "cho con bú bình",
+      "definition_en": "To feed a baby with milk from a bottle.",
+      "example_en": "Sometimes we bottle-feed the baby at night.",
+      "example_vi": "Đôi khi chúng tôi cho bé bú bình vào ban đêm.",
+      "collocations_json": [
+        "bottle-feed a newborn",
+        "formula bottle-feed"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "breastfeed"
+      ],
+      "mnemonic": "Ghép \"bottle\" (bình) và \"feed\" (cho ăn).",
+      "frequency_rank": 12800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11038
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "stroller ride",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈstrəʊlə raɪd",
+      "ipa_us": "ˈstroʊlər raɪd",
+      "meaning_vi": "chuyến đi xe đẩy",
+      "definition_en": "A journey taken in a stroller.",
+      "example_en": "The baby enjoys a daily stroller ride in the park.",
+      "example_vi": "Em bé thích chuyến đi xe đẩy hàng ngày trong công viên.",
+      "collocations_json": [
+        "long stroller ride",
+        "morning stroller ride"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"stroller\" (xe đẩy) và \"ride\" (chuyến đi).",
+      "frequency_rank": 7200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11039
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "toddler group",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "ˈtɒdlə ɡruːp",
+      "ipa_us": "ˈtɑːdlər ɡruːp",
+      "meaning_vi": "nhóm trẻ mới biết đi",
+      "definition_en": "A gathering where toddlers and their parents or caregivers meet to play and socialize.",
+      "example_en": "We take our son to a toddler group every Tuesday.",
+      "example_vi": "Chúng tôi đưa con trai đến một nhóm trẻ mới biết đi vào mỗi thứ Ba.",
+      "collocations_json": [
+        "local toddler group",
+        "join a toddler group"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"toddler\" (trẻ mới biết đi) và \"group\" (nhóm).",
+      "frequency_rank": 10200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11040
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to read aloud",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "riːd əˈlaʊd",
+      "ipa_us": "riːd əˈlaʊd",
+      "meaning_vi": "đọc to",
+      "definition_en": "To read text so that other people can hear it.",
+      "example_en": "I love to read aloud to my kids before bed.",
+      "example_vi": "Tôi thích đọc to cho các con nghe trước khi ngủ.",
+      "collocations_json": [
+        "read books aloud",
+        "practice reading aloud"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "read silently"
+      ],
+      "mnemonic": "Ghép \"read\" (đọc) và \"aloud\" (to tiếng).",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11041
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to give a hug",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ɡɪv ə hʌɡ",
+      "ipa_us": "ɡɪv ə hʌɡ",
+      "meaning_vi": "ôm một cái",
+      "definition_en": "To embrace someone as a sign of affection.",
+      "example_en": "My daughter always gives me a big hug when I come home.",
+      "example_vi": "Con gái tôi luôn ôm tôi thật chặt khi tôi về nhà.",
+      "collocations_json": [
+        "give a warm hug",
+        "give a tight hug"
+      ],
+      "synonyms_json": [
+        "embrace"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"give\" (cho) và \"hug\" (cái ôm).",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11042
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to have patience",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "hæv ˈpeɪʃns",
+      "ipa_us": "hæv ˈpeɪʃns",
+      "meaning_vi": "có sự kiên nhẫn",
+      "definition_en": "To be able to wait calmly for a long time or to deal with difficulties without becoming annoyed.",
+      "example_en": "You need to have patience when teaching a toddler.",
+      "example_vi": "Bạn cần phải có sự kiên nhẫn khi dạy một đứa trẻ mới biết đi.",
+      "collocations_json": [
+        "lose patience",
+        "test one's patience"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"have\" (có) và \"patience\" (kiên nhẫn).",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11043
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "to be gentle",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "biː ˈdʒentl",
+      "ipa_us": "biː ˈdʒentl",
+      "meaning_vi": "nhẹ nhàng, dịu dàng",
+      "definition_en": "To act in a mild, kind, or tender manner.",
+      "example_en": "Please be gentle with the cat, kids.",
+      "example_vi": "Các con hãy nhẹ nhàng với con mèo nhé.",
+      "collocations_json": [],
+      "synonyms_json": [
+        "be soft"
+      ],
+      "antonyms_json": [
+        "be rough"
+      ],
+      "mnemonic": "Ghép \"be\" (là) và \"gentle\" (nhẹ nhàng).",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11044
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Parenting Toddlers & Young Children",
+      "word": "baby wipes",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "ˈbeɪbi waɪps",
+      "ipa_us": "ˈbeɪbi waɪps",
+      "meaning_vi": "khăn ướt em bé",
+      "definition_en": "Moist towelettes used for cleaning a baby's bottom during diaper changes.",
+      "example_en": "Don't forget to pack the baby wipes for our trip.",
+      "example_vi": "Đừng quên mang theo khăn ướt em bé cho chuyến đi của chúng ta.",
+      "collocations_json": [
+        "fragrance-free baby wipes",
+        "sensitive baby wipes"
+      ],
+      "synonyms_json": [
+        "wet wipes"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ghép \"baby\" (em bé) và \"wipes\" (khăn lau).",
+      "frequency_rank": 5200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 11045
+  }
+]

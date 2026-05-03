@@ -1,0 +1,1933 @@
+[
+
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "parents",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpeər.ənts/",
+      "ipa_us": "/ˈper.ənts/",
+      "meaning_vi": "cha mẹ, phụ huynh",
+      "definition_en": "Your mother and father.",
+      "example_en": "My parents always encourage me to follow my dreams.",
+      "example_vi": "Cha mẹ tôi luôn khuyến khích tôi theo đuổi ước mơ của mình.",
+      "collocations_json": [
+        "expectant parents",
+        "become parents"
+      ],
+      "synonyms_json": [
+        "folks (informal)"
+      ],
+      "antonyms_json": [
+        "children"
+      ],
+      "mnemonic": "Parents là cha mẹ, người sinh ra ta.",
+      "frequency_rank": 500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10270
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "children",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈtʃɪl.drən/",
+      "ipa_us": "/ˈtʃɪl.drən/",
+      "meaning_vi": "con cái, trẻ em",
+      "definition_en": "Young human beings, especially those not yet adults.",
+      "example_en": "They have three children, two boys and a girl.",
+      "example_vi": "Họ có ba người con, hai trai và một gái.",
+      "collocations_json": [
+        "raise children",
+        "school children"
+      ],
+      "synonyms_json": [
+        "kids (informal)"
+      ],
+      "antonyms_json": [
+        "adults",
+        "parents"
+      ],
+      "mnemonic": "Children là con cái, lũ trẻ con.",
+      "frequency_rank": 600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10271
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "siblings",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsɪb.lɪŋz/",
+      "ipa_us": "/ˈsɪb.lɪŋz/",
+      "meaning_vi": "anh chị em ruột",
+      "definition_en": "A brother or sister.",
+      "example_en": "I have two siblings, an older sister and a younger brother.",
+      "example_vi": "Tôi có hai anh chị em ruột, một chị gái và một em trai.",
+      "collocations_json": [
+        "older siblings",
+        "younger siblings"
+      ],
+      "synonyms_json": [
+        "brothers and sisters"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Siblings là anh chị em, sờ sờ bên mình.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10272
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "grandparents",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɡræn.peər.ənts/",
+      "ipa_us": "/ˈɡrænd.per.ənts/",
+      "meaning_vi": "ông bà",
+      "definition_en": "The parents of your mother or father.",
+      "example_en": "My grandparents live in the countryside and I visit them often.",
+      "example_vi": "Ông bà tôi sống ở nông thôn và tôi thường xuyên đến thăm họ.",
+      "collocations_json": [
+        "maternal grandparents",
+        "paternal grandparents"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "grandchildren"
+      ],
+      "mnemonic": "Grandparents là ông bà, lớn hơn parents.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10273
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "relatives",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈrel.ə.tɪvz/",
+      "ipa_us": "/ˈrel.ə.tɪvz/",
+      "meaning_vi": "họ hàng, người thân",
+      "definition_en": "Members of your family.",
+      "example_en": "We usually visit our relatives during the holidays.",
+      "example_vi": "Chúng tôi thường thăm họ hàng vào các dịp lễ.",
+      "collocations_json": [
+        "close relatives",
+        "distant relatives"
+      ],
+      "synonyms_json": [
+        "family members"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Relatives là người thân, có quan hệ (relation).",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10274
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "extended family",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɪkˌsten.dɪd ˈfæm.əl.i/",
+      "ipa_us": "/ɪkˌsten.dɪd ˈfæm.əl.i/",
+      "meaning_vi": "gia đình đa thế hệ, đại gia đình",
+      "definition_en": "A family unit that includes grandparents, aunts, uncles, and cousins in addition to parents and children.",
+      "example_en": "In some cultures, it's common for the extended family to live together.",
+      "example_vi": "Ở một số nền văn hóa, việc đại gia đình sống chung là phổ biến.",
+      "collocations_json": [
+        "live with extended family",
+        "large extended family"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "nuclear family"
+      ],
+      "mnemonic": "Extended family là gia đình mở rộng, nhiều người hơn.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10275
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "nuclear family",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌnjuː.klɪər ˈfæm.əl.i/",
+      "ipa_us": "/ˌnuː.kli.ɚ ˈfæm.əl.i/",
+      "meaning_vi": "gia đình hạt nhân (cha mẹ và con)",
+      "definition_en": "A family group consisting of a mother, father, and their children.",
+      "example_en": "The nuclear family is the most common family structure in many Western countries.",
+      "example_vi": "Gia đình hạt nhân là cấu trúc gia đình phổ biến nhất ở nhiều nước phương Tây.",
+      "collocations_json": [
+        "traditional nuclear family",
+        "small nuclear family"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "extended family"
+      ],
+      "mnemonic": "Nuclear family là gia đình hạt nhân, chỉ có bố mẹ và con.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10276
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "get married",
+      "part_of_speech": "verb phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡet ˈmær.id/",
+      "ipa_us": "/ɡet ˈmer.id/",
+      "meaning_vi": "kết hôn, cưới",
+      "definition_en": "To become husband and wife.",
+      "example_en": "They decided to get married after dating for five years.",
+      "example_vi": "Họ quyết định kết hôn sau 5 năm hẹn hò.",
+      "collocations_json": [
+        "get married to",
+        "get married young"
+      ],
+      "synonyms_json": [
+        "tie the knot (informal)"
+      ],
+      "antonyms_json": [
+        "get divorced",
+        "break up"
+      ],
+      "mnemonic": "Get married là cưới, 'get' được 'married'.",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10277
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "husband",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhʌz.bənd/",
+      "ipa_us": "/ˈhʌz.bənd/",
+      "meaning_vi": "chồng",
+      "definition_en": "The man that a woman is married to.",
+      "example_en": "Her husband is a very kind and supportive person.",
+      "example_vi": "Chồng cô ấy là một người rất tốt bụng và ủng hộ.",
+      "collocations_json": [
+        "loving husband",
+        "devoted husband"
+      ],
+      "synonyms_json": [
+        "spouse (formal)",
+        "partner"
+      ],
+      "antonyms_json": [
+        "wife"
+      ],
+      "mnemonic": "Husband là chồng, có 'band' để đeo nhẫn.",
+      "frequency_rank": 800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10278
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "wife",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/waɪf/",
+      "ipa_us": "/waɪf/",
+      "meaning_vi": "vợ",
+      "definition_en": "The woman that a man is married to.",
+      "example_en": "My wife and I enjoy spending weekends together.",
+      "example_vi": "Vợ tôi và tôi thích dành những ngày cuối tuần bên nhau.",
+      "collocations_json": [
+        "devoted wife",
+        "happy wife"
+      ],
+      "synonyms_json": [
+        "spouse (formal)",
+        "partner"
+      ],
+      "antonyms_json": [
+        "husband"
+      ],
+      "mnemonic": "Wife là vợ, người phụ nữ của đời bạn.",
+      "frequency_rank": 750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10279
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "partner",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpɑːt.nər/",
+      "ipa_us": "/ˈpɑːrt.nər/",
+      "meaning_vi": "bạn đời, đối tác",
+      "definition_en": "A person's husband, wife, or someone they live with as if married.",
+      "example_en": "She introduced her partner to her family.",
+      "example_vi": "Cô ấy giới thiệu bạn đời của mình với gia đình.",
+      "collocations_json": [
+        "life partner",
+        "business partner"
+      ],
+      "synonyms_json": [
+        "spouse",
+        "companion"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Partner là bạn đời, cùng chia sẻ cuộc sống.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10280
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "single",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsɪŋ.ɡəl/",
+      "ipa_us": "/ˈsɪŋ.ɡəl/",
+      "meaning_vi": "độc thân, chưa kết hôn",
+      "definition_en": "Not married or in a long-term relationship.",
+      "example_en": "He's still single and looking for a girlfriend.",
+      "example_vi": "Anh ấy vẫn độc thân và đang tìm bạn gái.",
+      "collocations_json": [
+        "single parent",
+        "single life"
+      ],
+      "synonyms_json": [
+        "unmarried"
+      ],
+      "antonyms_json": [
+        "married",
+        "taken"
+      ],
+      "mnemonic": "Single là độc thân, chỉ có một mình.",
+      "frequency_rank": 1100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10281
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "divorced",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/dɪˈvɔːst/",
+      "ipa_us": "/dɪˈvɔːrst/",
+      "meaning_vi": "đã ly hôn",
+      "definition_en": "No longer married to your husband or wife.",
+      "example_en": "My aunt got divorced last year, but she's doing well now.",
+      "example_vi": "Dì tôi đã ly hôn năm ngoái, nhưng giờ bà ấy ổn rồi.",
+      "collocations_json": [
+        "get divorced",
+        "divorced couple"
+      ],
+      "synonyms_json": [
+        "separated"
+      ],
+      "antonyms_json": [
+        "married"
+      ],
+      "mnemonic": "Divorced là ly hôn, không còn vợ chồng.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10282
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "engaged",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ɪnˈɡeɪdʒd/",
+      "ipa_us": "/ɪnˈɡeɪdʒd/",
+      "meaning_vi": "đã đính hôn",
+      "definition_en": "Having formally agreed to marry someone.",
+      "example_en": "My sister just got engaged to her long-term boyfriend.",
+      "example_vi": "Chị tôi vừa đính hôn với bạn trai lâu năm của mình.",
+      "collocations_json": [
+        "get engaged",
+        "engaged couple"
+      ],
+      "synonyms_json": [
+        "betrothed (old-fashioned)"
+      ],
+      "antonyms_json": [
+        "single"
+      ],
+      "mnemonic": "Engaged là đính hôn, đã 'giao ước' cưới.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10283
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "boyfriend",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈbɔɪ.frend/",
+      "ipa_us": "/ˈbɔɪ.frend/",
+      "meaning_vi": "bạn trai",
+      "definition_en": "A man or boy with whom someone is having a romantic relationship.",
+      "example_en": "She went to the concert with her boyfriend.",
+      "example_vi": "Cô ấy đi xem hòa nhạc với bạn trai của mình.",
+      "collocations_json": [
+        "new boyfriend",
+        "ex-boyfriend"
+      ],
+      "synonyms_json": [
+        "partner",
+        "lover"
+      ],
+      "antonyms_json": [
+        "girlfriend"
+      ],
+      "mnemonic": "Boyfriend là bạn trai, friend là bạn, boy là trai.",
+      "frequency_rank": 1300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10284
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "girlfriend",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɡɜːl.frend/",
+      "ipa_us": "/ˈɡɝːl.frend/",
+      "meaning_vi": "bạn gái",
+      "definition_en": "A woman or girl with whom someone is having a romantic relationship.",
+      "example_en": "He introduced his girlfriend to his parents last week.",
+      "example_vi": "Anh ấy đã giới thiệu bạn gái với bố mẹ tuần trước.",
+      "collocations_json": [
+        "new girlfriend",
+        "ex-girlfriend"
+      ],
+      "synonyms_json": [
+        "partner",
+        "lover"
+      ],
+      "antonyms_json": [
+        "boyfriend"
+      ],
+      "mnemonic": "Girlfriend là bạn gái, friend là bạn, girl là gái.",
+      "frequency_rank": 1350,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10285
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "friendship",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈfrend.ʃɪp/",
+      "ipa_us": "/ˈfrend.ʃɪp/",
+      "meaning_vi": "tình bạn",
+      "definition_en": "A relationship between friends.",
+      "example_en": "Their friendship has lasted for over twenty years.",
+      "example_vi": "Tình bạn của họ đã kéo dài hơn hai mươi năm.",
+      "collocations_json": [
+        "strong friendship",
+        "build a friendship"
+      ],
+      "synonyms_json": [
+        "companionship"
+      ],
+      "antonyms_json": [
+        "enmity",
+        "hostility"
+      ],
+      "mnemonic": "Friendship là tình bạn, mối quan hệ bạn bè.",
+      "frequency_rank": 1400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10286
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "close friend",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kləʊs frend/",
+      "ipa_us": "/kloʊs frend/",
+      "meaning_vi": "bạn thân",
+      "definition_en": "A friend who you know very well and like a lot.",
+      "example_en": "She shared her secret only with her closest friend.",
+      "example_vi": "Cô ấy chỉ chia sẻ bí mật của mình với người bạn thân nhất.",
+      "collocations_json": [
+        "trusted close friend",
+        "become close friends"
+      ],
+      "synonyms_json": [
+        "best friend",
+        "intimate friend"
+      ],
+      "antonyms_json": [
+        "acquaintance"
+      ],
+      "mnemonic": "Close friend là bạn thân, rất gần gũi.",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10287
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "best friend",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/best frend/",
+      "ipa_us": "/best frend/",
+      "meaning_vi": "bạn thân nhất",
+      "definition_en": "The friend you like more than any other friend.",
+      "example_en": "My best friend and I have known each other since childhood.",
+      "example_vi": "Bạn thân nhất của tôi và tôi biết nhau từ thời thơ ấu.",
+      "collocations_json": [
+        "childhood best friend",
+        "my best friend forever"
+      ],
+      "synonyms_json": [
+        "closest friend",
+        "pal (informal)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Best friend là bạn thân nhất, số 1 luôn.",
+      "frequency_rank": 1550,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10288
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "acquaintance",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/əˈkweɪn.təns/",
+      "ipa_us": "/əˈkweɪn.təns/",
+      "meaning_vi": "người quen",
+      "definition_en": "Someone you know a little, but not a close friend.",
+      "example_en": "He's just an acquaintance, not a close friend.",
+      "example_vi": "Anh ấy chỉ là một người quen, không phải bạn thân.",
+      "collocations_json": [
+        "casual acquaintance",
+        "old acquaintance"
+      ],
+      "synonyms_json": [
+        "contact"
+      ],
+      "antonyms_json": [
+        "close friend"
+      ],
+      "mnemonic": "Acquaintance là người quen, quen biết (acquainted).",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10289
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "colleague",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkɒl.iːɡ/",
+      "ipa_us": "/ˈkɑː.liːɡ/",
+      "meaning_vi": "đồng nghiệp",
+      "definition_en": "A person that you work with.",
+      "example_en": "My colleagues and I often have lunch together.",
+      "example_vi": "Các đồng nghiệp của tôi và tôi thường ăn trưa cùng nhau.",
+      "collocations_json": [
+        "work colleague",
+        "former colleague"
+      ],
+      "synonyms_json": [
+        "co-worker"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Colleague là đồng nghiệp, cùng 'làm việc' (col-league).",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10290
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "neighbour",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈneɪ.bər/",
+      "ipa_us": "/ˈneɪ.bər/",
+      "meaning_vi": "hàng xóm",
+      "definition_en": "Someone who lives next to you or near you.",
+      "example_en": "Our neighbours are very friendly and always help us.",
+      "example_vi": "Hàng xóm của chúng tôi rất thân thiện và luôn giúp đỡ chúng tôi.",
+      "collocations_json": [
+        "good neighbour",
+        "next-door neighbour"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Neighbour là hàng xóm, người ở gần nhà (near).",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10291
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "get along with",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡet əˈlɒŋ wɪð/",
+      "ipa_us": "/ɡet əˈlɔːŋ wɪð/",
+      "meaning_vi": "hòa thuận với, có quan hệ tốt",
+      "definition_en": "To have a good relationship with someone.",
+      "example_en": "I get along well with all my family members.",
+      "example_vi": "Tôi hòa thuận với tất cả các thành viên trong gia đình mình.",
+      "collocations_json": [
+        "get along well",
+        "get along famously"
+      ],
+      "synonyms_json": [
+        "be friendly with",
+        "harmonize with"
+      ],
+      "antonyms_json": [
+        "fall out with",
+        "disagree with"
+      ],
+      "mnemonic": "Get along là hòa thuận, cùng 'đi' (along) được.",
+      "frequency_rank": 1900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10292
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "fall in love",
+      "part_of_speech": "verb phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/fɔːl ɪn lʌv/",
+      "ipa_us": "/fɑːl ɪn lʌv/",
+      "meaning_vi": "phải lòng, yêu ai đó",
+      "definition_en": "To start to feel romantic love for someone.",
+      "example_en": "They fell in love at first sight.",
+      "example_vi": "Họ yêu nhau từ cái nhìn đầu tiên.",
+      "collocations_json": [
+        "fall deeply in love",
+        "fall in love with"
+      ],
+      "synonyms_json": [
+        "develop feelings for"
+      ],
+      "antonyms_json": [
+        "fall out of love"
+      ],
+      "mnemonic": "Fall in love là phải lòng, rơi vào tình yêu.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10293
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "break up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/breɪk ʌp/",
+      "ipa_us": "/breɪk ʌp/",
+      "meaning_vi": "chia tay, chấm dứt mối quan hệ",
+      "definition_en": "To end a romantic relationship.",
+      "example_en": "They decided to break up after a lot of arguments.",
+      "example_vi": "Họ quyết định chia tay sau nhiều cuộc cãi vã.",
+      "collocations_json": [
+        "break up with",
+        "break up badly"
+      ],
+      "synonyms_json": [
+        "split up",
+        "separate"
+      ],
+      "antonyms_json": [
+        "get together",
+        "make up"
+      ],
+      "mnemonic": "Break up là chia tay, mối quan hệ bị 'vỡ' (break).",
+      "frequency_rank": 1850,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10294
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "make up (with)",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/meɪk ʌp wɪð/",
+      "ipa_us": "/meɪk ʌp wɪð/",
+      "meaning_vi": "làm lành, hòa giải",
+      "definition_en": "To become friends again after an argument.",
+      "example_en": "They had a big fight, but they made up the next day.",
+      "example_vi": "Họ đã cãi nhau to, nhưng đã làm lành vào ngày hôm sau.",
+      "collocations_json": [
+        "make up after a fight",
+        "kiss and make up"
+      ],
+      "synonyms_json": [
+        "reconcile"
+      ],
+      "antonyms_json": [
+        "fall out",
+        "argue"
+      ],
+      "mnemonic": "Make up là làm lành, 'làm' cho mối quan hệ 'lên' lại.",
+      "frequency_rank": 2200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10295
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "argue",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɑːɡ.juː/",
+      "ipa_us": "/ˈɑːrɡ.juː/",
+      "meaning_vi": "tranh cãi, cãi nhau",
+      "definition_en": "To disagree angrily with someone.",
+      "example_en": "My siblings and I sometimes argue over small things.",
+      "example_vi": "Anh chị em tôi đôi khi cãi nhau vì những chuyện nhỏ nhặt.",
+      "collocations_json": [
+        "argue with",
+        "argue about"
+      ],
+      "synonyms_json": [
+        "quarrel",
+        "disagree"
+      ],
+      "antonyms_json": [
+        "agree",
+        "make up"
+      ],
+      "mnemonic": "Argue là cãi nhau, 'a' rủ 'g' 'iu' (u) mà không được.",
+      "frequency_rank": 1650,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10296
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "forgive",
+      "part_of_speech": "verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/fəˈɡɪv/",
+      "ipa_us": "/fərˈɡɪv/",
+      "meaning_vi": "tha thứ",
+      "definition_en": "To stop being angry with someone who has done something wrong.",
+      "example_en": "It's important to learn to forgive others for their mistakes.",
+      "example_vi": "Điều quan trọng là học cách tha thứ cho lỗi lầm của người khác.",
+      "collocations_json": [
+        "forgive and forget",
+        "forgive someone for"
+      ],
+      "synonyms_json": [
+        "pardon",
+        "excuse"
+      ],
+      "antonyms_json": [
+        "blame",
+        "resent"
+      ],
+      "mnemonic": "Forgive là tha thứ, 'cho' (give) 'đi' (for) lỗi lầm.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10297
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "trust",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/trʌst/",
+      "ipa_us": "/trʌst/",
+      "meaning_vi": "tin tưởng",
+      "definition_en": "To believe that someone is honest and will not harm you.",
+      "example_en": "It takes time to build trust in a relationship.",
+      "example_vi": "Phải mất thời gian để xây dựng lòng tin trong một mối quan hệ.",
+      "collocations_json": [
+        "build trust",
+        "earn trust"
+      ],
+      "synonyms_json": [
+        "believe",
+        "rely on"
+      ],
+      "antonyms_json": [
+        "distrust",
+        "doubt"
+      ],
+      "mnemonic": "Trust là tin tưởng, 'trót' 'tin' người khác.",
+      "frequency_rank": 1150,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10298
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "respect",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈspekt/",
+      "ipa_us": "/rɪˈspekt/",
+      "meaning_vi": "tôn trọng",
+      "definition_en": "To admire someone deeply because of their abilities or qualities.",
+      "example_en": "Children should respect their elders.",
+      "example_vi": "Trẻ em nên tôn trọng người lớn tuổi.",
+      "collocations_json": [
+        "mutual respect",
+        "show respect"
+      ],
+      "synonyms_json": [
+        "admire",
+        "honor"
+      ],
+      "antonyms_json": [
+        "disrespect",
+        "scorn"
+      ],
+      "mnemonic": "Respect là tôn trọng, nhìn lại (re-spect) người khác.",
+      "frequency_rank": 1250,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10299
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "support",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/səˈpɔːt/",
+      "ipa_us": "/səˈpɔːrt/",
+      "meaning_vi": "ủng hộ, hỗ trợ",
+      "definition_en": "To give help or encouragement to someone.",
+      "example_en": "My family always supports me in everything I do.",
+      "example_vi": "Gia đình tôi luôn ủng hộ tôi trong mọi việc tôi làm.",
+      "collocations_json": [
+        "emotional support",
+        "financial support"
+      ],
+      "synonyms_json": [
+        "help",
+        "assist",
+        "encourage"
+      ],
+      "antonyms_json": [
+        "oppose",
+        "hinder"
+      ],
+      "mnemonic": "Support là ủng hộ, 'sup' (súp) 'port' (cảng) giúp đỡ.",
+      "frequency_rank": 950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10300
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "care for",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/keər fɔːr/",
+      "ipa_us": "/ker fɔːr/",
+      "meaning_vi": "chăm sóc, quan tâm đến",
+      "definition_en": "To look after someone or something.",
+      "example_en": "She cares for her elderly parents.",
+      "example_vi": "Cô ấy chăm sóc cha mẹ già của mình.",
+      "collocations_json": [
+        "care for children",
+        "care for the sick"
+      ],
+      "synonyms_json": [
+        "look after",
+        "take care of"
+      ],
+      "antonyms_json": [
+        "neglect"
+      ],
+      "mnemonic": "Care for là chăm sóc, quan tâm cho (for) ai đó.",
+      "frequency_rank": 1450,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10301
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "look after",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/lʊk ˈɑːf.tər/",
+      "ipa_us": "/lʊk ˈæf.tər/",
+      "meaning_vi": "chăm sóc, trông nom",
+      "definition_en": "To take care of someone or something by keeping them safe and healthy.",
+      "example_en": "Can you look after my cat while I'm on holiday?",
+      "example_vi": "Bạn có thể trông nom mèo của tôi khi tôi đi nghỉ không?",
+      "collocations_json": [
+        "look after children",
+        "look after yourself"
+      ],
+      "synonyms_json": [
+        "care for",
+        "mind"
+      ],
+      "antonyms_json": [
+        "neglect"
+      ],
+      "mnemonic": "Look after là chăm sóc, 'nhìn' (look) 'sau' (after) để bảo vệ.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10302
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "raise children",
+      "part_of_speech": "verb phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/reɪz ˈtʃɪl.drən/",
+      "ipa_us": "/reɪz ˈtʃɪl.drən/",
+      "meaning_vi": "nuôi dạy con cái",
+      "definition_en": "To bring up children and care for them until they are adults.",
+      "example_en": "It takes a lot of effort to raise children well.",
+      "example_vi": "Cần rất nhiều nỗ lực để nuôi dạy con cái tốt.",
+      "collocations_json": [
+        "raise a family",
+        "raise children responsibly"
+      ],
+      "synonyms_json": [
+        "bring up children"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Raise children là nuôi dạy con, 'nâng' (raise) con lớn lên.",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10303
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "spend time with",
+      "part_of_speech": "verb phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/spend taɪm wɪð/",
+      "ipa_us": "/spend taɪm wɪð/",
+      "meaning_vi": "dành thời gian với",
+      "definition_en": "To pass time together with someone.",
+      "example_en": "I love to spend time with my family on weekends.",
+      "example_vi": "Tôi thích dành thời gian cho gia đình vào cuối tuần.",
+      "collocations_json": [
+        "spend quality time",
+        "spend time together"
+      ],
+      "synonyms_json": [
+        "hang out with (informal)",
+        "socialize with"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Spend time with là dành thời gian, 'tiêu' (spend) thời gian cùng.",
+      "frequency_rank": 850,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10304
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "loving",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlʌv.ɪŋ/",
+      "ipa_us": "/ˈlʌv.ɪŋ/",
+      "meaning_vi": "yêu thương, trìu mến",
+      "definition_en": "Showing a lot of love towards someone.",
+      "example_en": "She grew up in a very loving family.",
+      "example_vi": "Cô ấy lớn lên trong một gia đình rất yêu thương.",
+      "collocations_json": [
+        "loving family",
+        "loving relationship"
+      ],
+      "synonyms_json": [
+        "affectionate",
+        "caring"
+      ],
+      "antonyms_json": [
+        "unloving",
+        "cold"
+      ],
+      "mnemonic": "Loving là yêu thương, đầy tình yêu (love).",
+      "frequency_rank": 1750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10305
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "caring",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkeə.rɪŋ/",
+      "ipa_us": "/ˈker.ɪŋ/",
+      "meaning_vi": "chu đáo, quan tâm",
+      "definition_en": "Displaying kindness and concern for others.",
+      "example_en": "My mother is a very caring person.",
+      "example_vi": "Mẹ tôi là một người rất chu đáo.",
+      "collocations_json": [
+        "caring attitude",
+        "caring nature"
+      ],
+      "synonyms_json": [
+        "compassionate",
+        "thoughtful"
+      ],
+      "antonyms_json": [
+        "uncaring",
+        "indifferent"
+      ],
+      "mnemonic": "Caring là chu đáo, luôn quan tâm (care).",
+      "frequency_rank": 1950,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10306
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "supportive",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/səˈpɔː.tɪv/",
+      "ipa_us": "/səˈpɔːr.t̬ɪv/",
+      "meaning_vi": "ủng hộ, hỗ trợ",
+      "definition_en": "Giving help and encouragement to someone.",
+      "example_en": "It's great to have supportive friends who believe in you.",
+      "example_vi": "Thật tuyệt vời khi có những người bạn ủng hộ và tin tưởng bạn.",
+      "collocations_json": [
+        "supportive family",
+        "supportive role"
+      ],
+      "synonyms_json": [
+        "encouraging",
+        "helpful"
+      ],
+      "antonyms_json": [
+        "unsupportive",
+        "critical"
+      ],
+      "mnemonic": "Supportive là ủng hộ, luôn 'support' (hỗ trợ).",
+      "frequency_rank": 2700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10307
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "close (relationship)",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kləʊs/",
+      "ipa_us": "/kloʊs/",
+      "meaning_vi": "thân thiết, gần gũi",
+      "definition_en": "Having a strong, friendly relationship with someone.",
+      "example_en": "I have a very close relationship with my sister.",
+      "example_vi": "Tôi có một mối quan hệ rất thân thiết với chị gái mình.",
+      "collocations_json": [
+        "close bond",
+        "close ties"
+      ],
+      "synonyms_json": [
+        "intimate",
+        "tight-knit"
+      ],
+      "antonyms_json": [
+        "distant",
+        "formal"
+      ],
+      "mnemonic": "Close là thân thiết, rất 'gần' (close).",
+      "frequency_rank": 1400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10308
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "distant (relationship)",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdɪs.tənt/",
+      "ipa_us": "/ˈdɪs.tənt/",
+      "meaning_vi": "xa cách, lạnh nhạt",
+      "definition_en": "Not closely related or connected; not friendly.",
+      "example_en": "They have a distant relationship with their father.",
+      "example_vi": "Họ có một mối quan hệ xa cách với cha mình.",
+      "collocations_json": [
+        "distant relative",
+        "emotionally distant"
+      ],
+      "synonyms_json": [
+        "remote",
+        "aloof"
+      ],
+      "antonyms_json": [
+        "close",
+        "intimate"
+      ],
+      "mnemonic": "Distant là xa cách, có khoảng cách (distance).",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10309
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "honest",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɒn.ɪst/",
+      "ipa_us": "/ˈɑː.nɪst/",
+      "meaning_vi": "trung thực, thật thà",
+      "definition_en": "Telling the truth or able to be trusted.",
+      "example_en": "It's important to be honest with your friends.",
+      "example_vi": "Điều quan trọng là phải trung thực với bạn bè của bạn.",
+      "collocations_json": [
+        "be honest",
+        "honest opinion"
+      ],
+      "synonyms_json": [
+        "truthful",
+        "sincere"
+      ],
+      "antonyms_json": [
+        "dishonest",
+        "deceitful"
+      ],
+      "mnemonic": "Honest là trung thực, h-o-n-e-s-t.",
+      "frequency_rank": 1050,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10310
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "loyal",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈlɔɪ.əl/",
+      "ipa_us": "/ˈlɔɪ.əl/",
+      "meaning_vi": "trung thành, trung thủy",
+      "definition_en": "Always supporting your friends, family, or country.",
+      "example_en": "A loyal friend will always stand by you.",
+      "example_vi": "Một người bạn trung thành sẽ luôn ở bên bạn.",
+      "collocations_json": [
+        "loyal friend",
+        "loyal customer"
+      ],
+      "synonyms_json": [
+        "faithful",
+        "devoted"
+      ],
+      "antonyms_json": [
+        "disloyal",
+        "treacherous"
+      ],
+      "mnemonic": "Loyal là trung thành, luôn 'lâu dài' (loyal).",
+      "frequency_rank": 2300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10311
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "understanding",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌʌn.dəˈstæn.dɪŋ/",
+      "ipa_us": "/ˌʌn.dɚˈstæn.dɪŋ/",
+      "meaning_vi": "thấu hiểu, thông cảm",
+      "definition_en": "Showing sympathy for other people's problems and feelings.",
+      "example_en": "My parents are very understanding when I make mistakes.",
+      "example_vi": "Bố mẹ tôi rất thấu hiểu khi tôi mắc lỗi.",
+      "collocations_json": [
+        "understanding person",
+        "mutual understanding"
+      ],
+      "synonyms_json": [
+        "sympathetic",
+        "empathetic"
+      ],
+      "antonyms_json": [
+        "unresponsive",
+        "unsympathetic"
+      ],
+      "mnemonic": "Understanding là thấu hiểu, 'hiểu' (understand) được người khác.",
+      "frequency_rank": 2100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10312
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "patient",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpeɪ.ʃənt/",
+      "ipa_us": "/ˈpeɪ.ʃənt/",
+      "meaning_vi": "kiên nhẫn",
+      "definition_en": "Able to wait calmly for a long time or to deal with difficulties without becoming annoyed.",
+      "example_en": "You need to be patient when dealing with young children.",
+      "example_vi": "Bạn cần phải kiên nhẫn khi đối phó với trẻ nhỏ.",
+      "collocations_json": [
+        "be patient with",
+        "patient approach"
+      ],
+      "synonyms_json": [
+        "tolerant",
+        "forbearing"
+      ],
+      "antonyms_json": [
+        "impatient"
+      ],
+      "mnemonic": "Patient là kiên nhẫn, 'chờ' (wait) đợi.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10313
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "kind",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kaɪnd/",
+      "ipa_us": "/kaɪnd/",
+      "meaning_vi": "tốt bụng, tử tế",
+      "definition_en": "Friendly, generous, and considerate.",
+      "example_en": "It was very kind of you to help me with my homework.",
+      "example_vi": "Bạn thật tốt bụng khi giúp tôi làm bài tập về nhà.",
+      "collocations_json": [
+        "kind heart",
+        "kind gesture"
+      ],
+      "synonyms_json": [
+        "nice",
+        "generous",
+        "friendly"
+      ],
+      "antonyms_json": [
+        "unkind",
+        "cruel"
+      ],
+      "mnemonic": "Kind là tốt bụng, 'kiên' (kiên) 'nhẫn' (nhẫn) và tốt.",
+      "frequency_rank": 700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10314
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "grow up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡrəʊ ʌp/",
+      "ipa_us": "/ɡroʊ ʌp/",
+      "meaning_vi": "lớn lên, trưởng thành",
+      "definition_en": "To develop from a child into an adult.",
+      "example_en": "I grew up in a small town.",
+      "example_vi": "Tôi lớn lên ở một thị trấn nhỏ.",
+      "collocations_json": [
+        "grow up fast",
+        "where did you grow up"
+      ],
+      "synonyms_json": [
+        "mature",
+        "develop"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Grow up là lớn lên, 'mọc' (grow) 'lên' (up).",
+      "frequency_rank": 900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10315
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "bring up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/brɪŋ ʌp/",
+      "ipa_us": "/brɪŋ ʌp/",
+      "meaning_vi": "nuôi nấng, dạy dỗ",
+      "definition_en": "To care for a child until it is an adult, teaching them how to behave.",
+      "example_en": "My grandparents brought me up after my parents moved abroad.",
+      "example_vi": "Ông bà đã nuôi tôi khôn lớn sau khi bố mẹ tôi chuyển ra nước ngoài.",
+      "collocations_json": [
+        "bring up children",
+        "well brought up"
+      ],
+      "synonyms_json": [
+        "raise",
+        "rear"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bring up là nuôi nấng, 'mang' (bring) con 'lên' (up) trưởng thành.",
+      "frequency_rank": 2400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10316
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "settle down",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈset.əl daʊn/",
+      "ipa_us": "/ˈset̬.əl daʊn/",
+      "meaning_vi": "ổn định cuộc sống, lập gia đình",
+      "definition_en": "To start to live a quiet and steady life in one place, especially by getting married or buying a house.",
+      "example_en": "After years of traveling, he decided to settle down and start a family.",
+      "example_vi": "Sau nhiều năm du lịch, anh ấy quyết định ổn định cuộc sống và lập gia đình.",
+      "collocations_json": [
+        "settle down with someone",
+        "settle down and start a family"
+      ],
+      "synonyms_json": [
+        "establish oneself",
+        "marry"
+      ],
+      "antonyms_json": [
+        "wander",
+        "travel"
+      ],
+      "mnemonic": "Settle down là ổn định, 'an cư' (settle) 'lạc nghiệp' (down).",
+      "frequency_rank": 3100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10317
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "have a lot in common",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/hæv ə lɒt ɪn ˈkɒm.ən/",
+      "ipa_us": "/hæv ə lɑːt ɪn ˈkɑː.mən/",
+      "meaning_vi": "có nhiều điểm chung",
+      "definition_en": "To share many interests, characteristics, or beliefs with someone.",
+      "example_en": "My best friend and I have a lot in common, which is why we get along so well.",
+      "example_vi": "Bạn thân của tôi và tôi có rất nhiều điểm chung, đó là lý do tại sao chúng tôi rất hòa hợp.",
+      "collocations_json": [
+        "have nothing in common",
+        "have little in common"
+      ],
+      "synonyms_json": [
+        "be similar",
+        "share interests"
+      ],
+      "antonyms_json": [
+        "be very different"
+      ],
+      "mnemonic": "Have a lot in common là có nhiều điểm chung, có nhiều thứ 'chung' (common).",
+      "frequency_rank": 2750,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10318
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "quality time",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkwɒl.ə.ti taɪm/",
+      "ipa_us": "/ˈkwɑː.lə.t̬i taɪm/",
+      "meaning_vi": "thời gian chất lượng (dành trọn vẹn)",
+      "definition_en": "Time spent with someone, giving them your full attention because you value the relationship.",
+      "example_en": "Parents should spend quality time with their children every day.",
+      "example_vi": "Cha mẹ nên dành thời gian chất lượng cho con cái mỗi ngày.",
+      "collocations_json": [
+        "spend quality time",
+        "family quality time"
+      ],
+      "synonyms_json": [
+        "meaningful time"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Quality time là thời gian chất lượng, dành trọn vẹn cho nhau.",
+      "frequency_rank": 3300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10319
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "aunt",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɑːnt/",
+      "ipa_us": "/ænt/",
+      "meaning_vi": "cô, dì, bác gái",
+      "definition_en": "The sister of your father or mother, or the wife of your uncle.",
+      "example_en": "My aunt always bakes delicious cakes for our family gatherings.",
+      "example_vi": "Dì tôi luôn nướng những chiếc bánh ngon cho các buổi họp mặt gia đình.",
+      "collocations_json": [
+        "great aunt",
+        "aunt and uncle"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "uncle"
+      ],
+      "mnemonic": "Aunt là cô dì, nhớ chữ 'ant' (con kiến) nhỏ bé.",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10320
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "uncle",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈʌŋ.kl̩/",
+      "ipa_us": "/ˈʌŋ.kl̩/",
+      "meaning_vi": "chú, bác, cậu",
+      "definition_en": "The brother of your mother or father, or the husband of your aunt.",
+      "example_en": "My uncle taught me how to ride a bike.",
+      "example_vi": "Chú tôi đã dạy tôi cách đi xe đạp.",
+      "collocations_json": [
+        "great uncle",
+        "aunt and uncle"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "aunt"
+      ],
+      "mnemonic": "Uncle là chú bác, người đàn ông của gia đình.",
+      "frequency_rank": 1650,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10321
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "cousin",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkʌz.ən/",
+      "ipa_us": "/ˈkʌz.ən/",
+      "meaning_vi": "anh chị em họ",
+      "definition_en": "A child of your aunt or uncle.",
+      "example_en": "I spent my summer holidays playing with my cousins.",
+      "example_vi": "Tôi đã dành kỳ nghỉ hè để chơi với các anh chị em họ của mình.",
+      "collocations_json": [
+        "first cousin",
+        "distant cousin"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Cousin là anh chị em họ, có 'cuz' nghe giống 'cous'.",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10322
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "nephew",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈnef.juː/",
+      "ipa_us": "/ˈnef.juː/",
+      "meaning_vi": "cháu trai",
+      "definition_en": "The son of your brother or sister, or the son of your husband's or wife's brother or sister.",
+      "example_en": "My nephew just turned five years old.",
+      "example_vi": "Cháu trai của tôi vừa tròn năm tuổi.",
+      "collocations_json": [
+        "grandnephew",
+        "niece and nephew"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "niece"
+      ],
+      "mnemonic": "Nephew là cháu trai, 'nếp' (nếp) nhà có cháu trai.",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10323
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "niece",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/niːs/",
+      "ipa_us": "/niːs/",
+      "meaning_vi": "cháu gái",
+      "definition_en": "The daughter of your brother or sister, or the daughter of your husband's or wife's brother or sister.",
+      "example_en": "My niece loves playing with dolls.",
+      "example_vi": "Cháu gái của tôi thích chơi búp bê.",
+      "collocations_json": [
+        "grandniece",
+        "niece and nephew"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "nephew"
+      ],
+      "mnemonic": "Niece là cháu gái, 'ni' (ni)ệu nhi.",
+      "frequency_rank": 3900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10324
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "family tree",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈfæm.əl.i triː/",
+      "ipa_us": "/ˈfæm.əl.i triː/",
+      "meaning_vi": "cây gia phả",
+      "definition_en": "A diagram showing the relationship between all the members of a family for many generations.",
+      "example_en": "We traced our family tree back to the 18th century.",
+      "example_vi": "Chúng tôi đã truy tìm cây gia phả của mình về thế kỷ 18.",
+      "collocations_json": [
+        "draw a family tree",
+        "research family tree"
+      ],
+      "synonyms_json": [
+        "genealogy"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Family tree là cây gia phả, như một cái cây (tree) có nhiều nhánh (thế hệ).",
+      "frequency_rank": 4200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10325
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "household chores",
+      "part_of_speech": "noun phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhaʊs.həʊld tʃɔːz/",
+      "ipa_us": "/ˈhaʊs.hoʊld tʃɔːrz/",
+      "meaning_vi": "việc nhà",
+      "definition_en": "Routine tasks that need to be done to keep a home clean and tidy.",
+      "example_en": "Everyone in the family shares the household chores.",
+      "example_vi": "Mọi người trong gia đình đều chia sẻ việc nhà.",
+      "collocations_json": [
+        "do household chores",
+        "share household chores"
+      ],
+      "synonyms_json": [
+        "housework",
+        "domestic duties"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Household chores là việc nhà, 'chăm' (chores) lo gia đình (household).",
+      "frequency_rank": 3400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10326
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "get together",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɡet təˈɡeð.ər/",
+      "ipa_us": "/ɡet təˈɡeð.ɚ/",
+      "meaning_vi": "tụ tập, gặp gỡ",
+      "definition_en": "To meet in order to do something or spend time together.",
+      "example_en": "We should get together for dinner sometime soon.",
+      "example_vi": "Chúng ta nên tụ tập ăn tối cùng nhau sớm thôi.",
+      "collocations_json": [
+        "family get-together",
+        "get together with friends"
+      ],
+      "synonyms_json": [
+        "meet up",
+        "assemble"
+      ],
+      "antonyms_json": [
+        "disperse",
+        "separate"
+      ],
+      "mnemonic": "Get together là tụ tập, 'có được' (get) 'cùng nhau' (together).",
+      "frequency_rank": 1100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10327
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "have an argument",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/hæv ən ˈɑːɡ.juː.mənt/",
+      "ipa_us": "/hæv ən ˈɑːrɡ.juː.mənt/",
+      "meaning_vi": "có một cuộc cãi vã",
+      "definition_en": "To have an angry disagreement with someone.",
+      "example_en": "I had an argument with my brother last night.",
+      "example_vi": "Tôi đã cãi nhau với anh trai tối qua.",
+      "collocations_json": [
+        "have a heated argument",
+        "win an argument"
+      ],
+      "synonyms_json": [
+        "have a quarrel",
+        "have a dispute"
+      ],
+      "antonyms_json": [
+        "agree"
+      ],
+      "mnemonic": "Have an argument là cãi nhau, có một cuộc 'argument'.",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10328
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "take care of",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/teɪk keər ɒv/",
+      "ipa_us": "/teɪk ker ɑːv/",
+      "meaning_vi": "chăm sóc, lo liệu",
+      "definition_en": "To be responsible for someone or something.",
+      "example_en": "My sister takes care of our elderly grandmother.",
+      "example_vi": "Chị tôi chăm sóc bà nội lớn tuổi của chúng tôi.",
+      "collocations_json": [
+        "take good care of",
+        "take care of yourself"
+      ],
+      "synonyms_json": [
+        "look after",
+        "care for"
+      ],
+      "antonyms_json": [
+        "neglect"
+      ],
+      "mnemonic": "Take care of là chăm sóc, 'mang' (take) sự 'quan tâm' (care) đến.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10329
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "hang out",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/hæŋ aʊt/",
+      "ipa_us": "/hæŋ aʊt/",
+      "meaning_vi": "đi chơi, dành thời gian",
+      "definition_en": "To spend time relaxing or socializing informally.",
+      "example_en": "I often hang out with my friends at the park.",
+      "example_vi": "Tôi thường đi chơi với bạn bè ở công viên.",
+      "collocations_json": [
+        "hang out with friends",
+        "hang out at home"
+      ],
+      "synonyms_json": [
+        "socialize",
+        "chill out (informal)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Hang out là đi chơi, 'treo' (hang) mình 'ra ngoài' (out).",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10330
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "bond",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/bɒnd/",
+      "ipa_us": "/bɑːnd/",
+      "meaning_vi": "mối liên kết, gắn bó",
+      "definition_en": "A close connection joining two or more people.",
+      "example_en": "There's a strong bond between a mother and her child.",
+      "example_vi": "Có một mối liên kết mạnh mẽ giữa mẹ và con.",
+      "collocations_json": [
+        "form a bond",
+        "strong bond"
+      ],
+      "synonyms_json": [
+        "connection",
+        "tie",
+        "link"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bond là gắn bó, như một sợi dây (bond) nối kết.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10331
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "generation",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˌdʒen.əˈreɪ.ʃən/",
+      "ipa_us": "/ˌdʒen.əˈreɪ.ʃən/",
+      "meaning_vi": "thế hệ",
+      "definition_en": "All of the people born and living at about the same time.",
+      "example_en": "The younger generation often has different views from their parents.",
+      "example_vi": "Thế hệ trẻ thường có quan điểm khác với cha mẹ họ.",
+      "collocations_json": [
+        "younger generation",
+        "older generation"
+      ],
+      "synonyms_json": [
+        "age group"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Generation là thế hệ, 'gen' (gen) di truyền qua các thế hệ.",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10332
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Family & Relationships",
+      "word": "household",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhaʊs.həʊld/",
+      "ipa_us": "/ˈhaʊs.hoʊld/",
+      "meaning_vi": "hộ gia đình",
+      "definition_en": "A group of people, often a family, who live together in one house.",
+      "example_en": "The average household in this area has four members.",
+      "example_vi": "Hộ gia đình trung bình ở khu vực này có bốn thành viên.",
+      "collocations_json": [
+        "single-parent household",
+        "income household"
+      ],
+      "synonyms_json": [
+        "family unit",
+        "residence"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Household là hộ gia đình, 'nhà' (house) 'cầm' (hold) giữ các thành viên.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10333
+  }
+]

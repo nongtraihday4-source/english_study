@@ -1,0 +1,367 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is said that he is rich.",
+    "output": "✅ **Corrected Sentence:** It is said that he is rich. (câu đúng)\n🔍 **Error Identification:** 'It is said that' là cấu trúc bị động khách quan (impersonal passive) – đúng.\n📘 **Vietnamese Explanation:** Người Việt hay dịch 'người ta nói rằng' thành 'people say that'. Mẹo: 'It is said that' = người ta nói rằng.\n💡 **Ví dụ:** It is believed that he is honest. / It is reported that the meeting was cancelled."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "People say that he is rich. (câu đúng) - Học viên viết \'It said that he is rich.\' (thiếu is)",
+    "output": "✅ **Corrected Sentence:** It is said that he is rich. (hoặc People say that he is rich.)\n🔍 **Error Identification:** Thiếu 'is' – 'It said' là sai, phải là 'It is said'.\n📘 **Vietnamese Explanation:** Người Việt quên 'is' trong cấu trúc 'it is said'. Mẹo: It + is + past participle (said, believed, reported).\n💡 **Ví dụ:** It is believed that she will come. / It is reported that the train is late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my car repair yesterday.",
+    "output": "✅ **Corrected Sentence:** I had my car repaired yesterday.\n🔍 **Error Identification:** Cấu trúc 'have something done' – sau 'car' cần V3/ed (repaired), không dùng V1.\n📘 **Vietnamese Explanation:** Người Việt dịch 'tôi đã sửa xe' (thuê người sửa) thành 'had my car repair'. Mẹo: Have + object + V3/ed (bị động).\n💡 **Ví dụ:** I had my hair cut. / She had her house painted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is said to be a genius. (câu đúng - rút gọn của It is said that he is a genius)",
+    "output": "✅ **Corrected Sentence:** He is said to be a genius. (câu đúng)\n🔍 **Error Identification:** Cấu trúc rút gọn của 'It is said that he is a genius' – đúng.\n📘 **Vietnamese Explanation:** Người Việt thường dùng dạng đầy đủ. Mẹo: S + is/are said + to V (chuyển từ 'that' clause).\n💡 **Ví dụ:** She is believed to be honest. / They are reported to have arrived."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will have my hair cutting tomorrow.",
+    "output": "✅ **Corrected Sentence:** I will have my hair cut tomorrow.\n🔍 **Error Identification:** 'Have something done' – dùng V3 'cut', không dùng V-ing 'cutting'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'cutting' vì nghĩ 'đang cắt'. Mẹo: Have + object + V3 (không chia thì).\n💡 **Ví dụ:** She will have her nails done. / He had his suit cleaned."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is believed that she is honest. (câu đúng) - Học viên viết \'It believed that she is honest.\'",
+    "output": "✅ **Corrected Sentence:** It is believed that she is honest.\n🔍 **Error Identification:** Thiếu 'is' – 'It believed' là sai.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'to be'. Mẹo: It + is/was + V3 + that.\n💡 **Ví dụ:** It is thought that he will win. / It was reported that the accident happened."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to have my computer fix.",
+    "output": "✅ **Corrected Sentence:** I need to have my computer fixed.\n🔍 **Error Identification:** 'Fix' phải là 'fixed' (V3).\n📘 **Vietnamese Explanation:** Người Việt dùng 'fix' (V1) thay vì 'fixed'. Mẹo: Have + object + V3/ed.\n💡 **Ví dụ:** I had my phone repaired. / She needs to have her dress altered."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is said to have been a doctor. (câu đúng - quá khứ)",
+    "output": "✅ **Corrected Sentence:** He is said to have been a doctor.\n🔍 **Error Identification:** Cấu trúc 'S + is said + to have V3' cho hành động trong quá khứ – đúng.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'he is said to be' cho mọi thì. Mẹo: To have been + V3/V3ed cho quá khứ.\n💡 **Ví dụ:** She is believed to have left. / They are said to have won the prize."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my car washed yesterday. (câu đúng) - Học viên viết \'I had my car wash yesterday.\'",
+    "output": "✅ **Corrected Sentence:** I had my car washed yesterday.\n🔍 **Error Identification:** 'Wash' phải là 'washed'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'wash' (V1) thay vì 'washed'. Mẹo: Have something done = thuê người làm.\n💡 **Ví dụ:** She had her nails painted. / He had his shoes shined."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is reported that the president will resign.",
+    "output": "✅ **Corrected Sentence:** It is reported that the president will resign. (câu đúng)\n🔍 **Error Identification:** Cấu trúc 'it is reported that' + mệnh đề – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'people report that' thay thế. Mẹo: It is reported that = người ta báo cáo rằng.\n💡 **Ví dụ:** It is announced that the school will close. / It is expected that prices will rise."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "We had our house paint last month.",
+    "output": "✅ **Corrected Sentence:** We had our house painted last month.\n🔍 **Error Identification:** 'Paint' phải là 'painted'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'paint' (V1). Mẹo: Have + house + painted (sơn nhà).\n💡 **Ví dụ:** They had their roof repaired. / I had my kitchen remodeled."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is said to be fluent in English. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** She is said to be fluent in English. (câu đúng)\n🔍 **Error Identification:** Cấu trúc rút gọn – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that she is fluent'. Mẹo: S + is said + to V.\n💡 **Ví dụ:** He is thought to be the best candidate. / They are considered to be experts."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was thought that he would come. (câu đúng) - Học viên viết \'It thought that he would come.\'",
+    "output": "✅ **Corrected Sentence:** It was thought that he would come.\n🔍 **Error Identification:** Thiếu 'was' – 'It thought' là sai.\n📘 **Vietnamese Explanation:** Người Việt quên 'was' trong câu bị động quá khứ. Mẹo: It + was + V3 + that.\n💡 **Ví dụ:** It was believed that the earth was flat. / It was reported that the fire was under control."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my watch repair at the store.",
+    "output": "✅ **Corrected Sentence:** I had my watch repaired at the store.\n🔍 **Error Identification:** 'Repair' phải là 'repaired'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'repair' (V1). Mẹo: Have + watch + repaired.\n💡 **Ví dụ:** She had her ring resized. / He had his glasses adjusted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are said to be building a new school. (câu đúng - tiếp diễn)",
+    "output": "✅ **Corrected Sentence:** They are said to be building a new school.\n🔍 **Error Identification:** Cấu trúc 'to be building' cho hành động đang diễn ra – đúng.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'to build'. Mẹo: To be + V-ing cho hành động đang xảy ra.\n💡 **Ví dụ:** He is believed to be working on a new project. / They are reported to be negotiating."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will have my teeth check tomorrow.",
+    "output": "✅ **Corrected Sentence:** I will have my teeth checked tomorrow.\n🔍 **Error Identification:** 'Check' phải là 'checked'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'check' (V1). Mẹo: Have + teeth + checked (khám răng).\n💡 **Ví dụ:** She had her eyes tested. / He had his blood pressure measured."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is said that he speaks three languages.",
+    "output": "✅ **Corrected Sentence:** It is said that he speaks three languages. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể chuyển thành 'He is said to speak three languages'.\n💡 **Ví dụ:** It is believed that she knows the secret. / It is thought that they have left."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to have my car fixing.",
+    "output": "✅ **Corrected Sentence:** I need to have my car fixed.\n🔍 **Error Identification:** 'Fixing' phải là 'fixed'.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing thay vì V3. Mẹo: Have + object + V3 (bị động).\n💡 **Ví dụ:** She had her dress making → She had her dress made. / He had his hair cutting → cut."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is said to have stolen the money. (câu đúng - hoàn thành)",
+    "output": "✅ **Corrected Sentence:** He is said to have stolen the money.\n🔍 **Error Identification:** Cấu trúc 'to have + V3' cho hành động trong quá khứ – đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that he stole the money'.\n💡 **Ví dụ:** She is believed to have left early. / They are reported to have arrived safely."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my room paint blue.",
+    "output": "✅ **Corrected Sentence:** I had my room painted blue.\n🔍 **Error Identification:** 'Paint' phải là 'painted'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'paint' (V1). Mẹo: Have + room + painted + màu.\n💡 **Ví dụ:** She had her nails painted red. / He had his car painted black."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was reported that the flight had been delayed. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** It was reported that the flight had been delayed. (câu đúng)\n🔍 **Error Identification:** Đúng – quá khứ hoàn thành trong mệnh đề 'that'.\n📘 **Vietnamese Explanation:** Người Việt cần chú ý thì của động từ trong mệnh đề 'that'.\n💡 **Ví dụ:** It was announced that the winner had been chosen. / It was believed that the disease had been cured."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will have my house clean before Tet.",
+    "output": "✅ **Corrected Sentence:** I will have my house cleaned before Tet.\n🔍 **Error Identification:** 'Clean' phải là 'cleaned'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'clean' (V1). Mẹo: Have + house + cleaned.\n💡 **Ví dụ:** She will have her dress cleaned. / He will have his suit pressed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are said to be married. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** They are said to be married. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that they are married'.\n💡 **Ví dụ:** He is thought to be wealthy. / She is believed to be talented."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my laptop repair by a technician.",
+    "output": "✅ **Corrected Sentence:** I had my laptop repaired by a technician.\n🔍 **Error Identification:** 'Repair' phải là 'repaired'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'repair' (V1). Mẹo: Have + laptop + repaired.\n💡 **Ví dụ:** She had her phone repaired. / He had his bike repaired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is expected that the weather will improve.",
+    "output": "✅ **Corrected Sentence:** It is expected that the weather will improve. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'people expect that' thay thế.\n💡 **Ví dụ:** It is predicted that the economy will grow. / It is hoped that peace will return."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my grass cut by the gardener. (câu đúng) - Học viên viết \'I had my grass cutted by the gardener.\'",
+    "output": "✅ **Corrected Sentence:** I had my grass cut by the gardener.\n🔍 **Error Identification:** 'Cutted' không tồn tại – 'cut' là V3 của 'cut'.\n📘 **Vietnamese Explanation:** Người Việt thêm -ed vào động từ bất quy tắc. Mẹo: cut – cut – cut.\n💡 **Ví dụ:** She had her hair cut. / He had his trees cut down."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is said to be working on a new project. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** He is said to be working on a new project. (câu đúng)\n🔍 **Error Identification:** Đúng – 'to be working' là tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that he is working'.\n💡 **Ví dụ:** She is believed to be studying abroad. / They are reported to be negotiating."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will have my teeth check by the dentist.",
+    "output": "✅ **Corrected Sentence:** I will have my teeth checked by the dentist.\n🔍 **Error Identification:** 'Check' phải là 'checked'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'check' (V1). Mẹo: Have + teeth + checked.\n💡 **Ví dụ:** She had her eyes tested. / He had his blood pressure taken."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is thought that she will win the competition. (câu đúng) - Học viên viết \'It thought that she will win the competition.\'",
+    "output": "✅ **Corrected Sentence:** It is thought that she will win the competition.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên 'is' trong cấu trúc impersonal passive. Mẹo: It + is/was + V3.\n💡 **Ví dụ:** It is believed that he is innocent. / It was reported that the fire was started intentionally."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my dress alter for the wedding.",
+    "output": "✅ **Corrected Sentence:** I had my dress altered for the wedding.\n🔍 **Error Identification:** 'Alter' phải là 'altered'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'alter' (V1). Mẹo: Have + dress + altered.\n💡 **Ví dụ:** She had her skirt shortened. / He had his pants hemmed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are said to have finished the project. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** They are said to have finished the project. (câu đúng)\n🔍 **Error Identification:** Đúng – 'to have finished' cho hành động hoàn thành trong quá khứ.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that they finished'.\n💡 **Ví dụ:** He is believed to have left the country. / She is reported to have resigned."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will have my car wash tomorrow.",
+    "output": "✅ **Corrected Sentence:** I will have my car washed tomorrow.\n🔍 **Error Identification:** 'Wash' phải là 'washed'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'wash' (V1). Mẹo: Have + car + washed.\n💡 **Ví dụ:** She will have her hair done. / He will have his suit cleaned."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is said that he is very talented.",
+    "output": "✅ **Corrected Sentence:** It is said that he is very talented. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể chuyển thành 'He is said to be very talented'.\n💡 **Ví dụ:** It is believed that she is the best. / It is thought that they are lying."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my house cleaning yesterday.",
+    "output": "✅ **Corrected Sentence:** I had my house cleaned yesterday.\n🔍 **Error Identification:** 'Cleaning' phải là 'cleaned'.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing thay vì V3. Mẹo: Have + house + cleaned.\n💡 **Ví dụ:** She had her room cleaned. / He had his office cleaned."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is said to be the richest man in the world. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** He is said to be the richest man in the world. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that he is the richest man'.\n💡 **Ví dụ:** She is thought to be the most intelligent student. / They are considered to be the best team."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to have my laptop fix.",
+    "output": "✅ **Corrected Sentence:** I need to have my laptop fixed.\n🔍 **Error Identification:** 'Fix' phải là 'fixed'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'fix' (V1). Mẹo: Have + laptop + fixed.\n💡 **Ví dụ:** She needs to have her phone repaired. / He needs to have his bike fixed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is expected that the price will increase. (câu đúng) - Học viên viết \'It expected that the price will increase.\'",
+    "output": "✅ **Corrected Sentence:** It is expected that the price will increase.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên 'is'. Mẹo: It + is + expected + that.\n💡 **Ví dụ:** It is predicted that it will rain. / It is hoped that they will succeed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my windows replace last week.",
+    "output": "✅ **Corrected Sentence:** I had my windows replaced last week.\n🔍 **Error Identification:** 'Replace' phải là 'replaced'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'replace' (V1). Mẹo: Have + windows + replaced.\n💡 **Ví dụ:** She had her door repaired. / He had his roof replaced."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are said to be living in London. (câu đúng - tiếp diễn)",
+    "output": "✅ **Corrected Sentence:** They are said to be living in London. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that they are living in London'.\n💡 **Ví dụ:** He is believed to be working from home. / She is reported to be studying at Harvard."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will have my hair cutting tomorrow.",
+    "output": "✅ **Corrected Sentence:** I will have my hair cut tomorrow.\n🔍 **Error Identification:** 'Cutting' phải là 'cut'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'cutting' thay vì 'cut'. Mẹo: Have + hair + cut.\n💡 **Ví dụ:** She will have her nails done. / He will have his beard trimmed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is believed that he is innocent. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** It is believed that he is innocent. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể chuyển thành 'He is believed to be innocent'.\n💡 **Ví dụ:** It is thought that she is lying. / It is reported that the accident was serious."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my car repair by a mechanic.",
+    "output": "✅ **Corrected Sentence:** I had my car repaired by a mechanic.\n🔍 **Error Identification:** 'Repair' phải là 'repaired'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'repair' (V1). Mẹo: Have + car + repaired.\n💡 **Ví dụ:** She had her bike repaired. / He had his phone repaired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is said to have been working here for 10 years. (câu đúng - hoàn thành tiếp diễn)",
+    "output": "✅ **Corrected Sentence:** He is said to have been working here for 10 years. (câu đúng)\n🔍 **Error Identification:** Đúng – 'to have been working' là hoàn thành tiếp diễn.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that he has been working'.\n💡 **Ví dụ:** She is believed to have been waiting for hours. / They are reported to have been living here since 2010."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will have my house paint by a professional.",
+    "output": "✅ **Corrected Sentence:** I will have my house painted by a professional.\n🔍 **Error Identification:** 'Paint' phải là 'painted'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'paint' (V1). Mẹo: Have + house + painted.\n💡 **Ví dụ:** She will have her portrait painted. / He will have his fence painted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is announced that the winner will be chosen soon.",
+    "output": "✅ **Corrected Sentence:** It is announced that the winner will be chosen soon. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'they announce that' thay thế.\n💡 **Ví dụ:** It is declared that the war is over. / It is confirmed that the meeting will take place."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my clothes wash by the laundry service.",
+    "output": "✅ **Corrected Sentence:** I had my clothes washed by the laundry service.\n🔍 **Error Identification:** 'Wash' phải là 'washed'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'wash' (V1). Mẹo: Have + clothes + washed.\n💡 **Ví dụ:** She had her curtains cleaned. / He had his suits pressed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are said to have been married for 20 years. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** They are said to have been married for 20 years. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that they have been married'.\n💡 **Ví dụ:** He is believed to have been a teacher for a decade. / She is reported to have been ill for a week."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to have my glasses fix.",
+    "output": "✅ **Corrected Sentence:** I need to have my glasses fixed.\n🔍 **Error Identification:** 'Fix' phải là 'fixed'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'fix' (V1). Mẹo: Have + glasses + fixed.\n💡 **Ví dụ:** She needs to have her watch repaired. / He needs to have his shoes resoled."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is said that the company is going bankrupt.",
+    "output": "✅ **Corrected Sentence:** It is said that the company is going bankrupt. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể chuyển thành 'The company is said to be going bankrupt'.\n💡 **Ví dụ:** It is believed that the economy is recovering. / It is thought that the situation is improving."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my carpet clean by a professional.",
+    "output": "✅ **Corrected Sentence:** I had my carpet cleaned by a professional.\n🔍 **Error Identification:** 'Clean' phải là 'cleaned'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'clean' (V1). Mẹo: Have + carpet + cleaned.\n💡 **Ví dụ:** She had her rug cleaned. / He had his upholstery cleaned."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is said to have been a doctor. (câu đúng - quá khứ)",
+    "output": "✅ **Corrected Sentence:** He is said to have been a doctor. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that he was a doctor'.\n💡 **Ví dụ:** She is believed to have been a famous singer. / They are reported to have been in the army."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will have my teeth check by the dentist.",
+    "output": "✅ **Corrected Sentence:** I will have my teeth checked by the dentist.\n🔍 **Error Identification:** 'Check' phải là 'checked'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'check' (V1). Mẹo: Have + teeth + checked.\n💡 **Ví dụ:** She will have her eyes tested. / He will have his hearing checked."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was thought that she was lying. (câu đúng) - Học viên viết \'It thought that she was lying.\'",
+    "output": "✅ **Corrected Sentence:** It was thought that she was lying.\n🔍 **Error Identification:** Thiếu 'was'.\n📘 **Vietnamese Explanation:** Người Việt quên 'was' trong câu bị động quá khứ. Mẹo: It + was + thought + that.\n💡 **Ví dụ:** It was believed that he was innocent. / It was reported that the fire was accidental."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my car fixing yesterday.",
+    "output": "✅ **Corrected Sentence:** I had my car fixed yesterday.\n🔍 **Error Identification:** 'Fixing' phải là 'fixed'.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing thay vì V3. Mẹo: Have + car + fixed.\n💡 **Ví dụ:** She had her dress made. / He had his suit tailored."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are said to be moving to a new house. (câu đúng - tiếp diễn)",
+    "output": "✅ **Corrected Sentence:** They are said to be moving to a new house. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that they are moving'.\n💡 **Ví dụ:** He is believed to be looking for a job. / She is reported to be writing a book."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to have my computer repair.",
+    "output": "✅ **Corrected Sentence:** I need to have my computer repaired.\n🔍 **Error Identification:** 'Repair' phải là 'repaired'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'repair' (V1). Mẹo: Have + computer + repaired.\n💡 **Ví dụ:** She needs to have her laptop fixed. / He needs to have his tablet repaired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is said that the president will visit our country.",
+    "output": "✅ **Corrected Sentence:** It is said that the president will visit our country. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể chuyển thành 'The president is said to visit our country'.\n💡 **Ví dụ:** It is believed that the team will win. / It is reported that the meeting will be postponed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my house paint by a painter.",
+    "output": "✅ **Corrected Sentence:** I had my house painted by a painter.\n🔍 **Error Identification:** 'Paint' phải là 'painted'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'paint' (V1). Mẹo: Have + house + painted.\n💡 **Ví dụ:** She had her portrait painted. / He had his car painted."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is said to be a great leader. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** He is said to be a great leader. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that he is a great leader'.\n💡 **Ví dụ:** She is thought to be a kind person. / They are considered to be experts."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will have my dress make by a tailor.",
+    "output": "✅ **Corrected Sentence:** I will have my dress made by a tailor.\n🔍 **Error Identification:** 'Make' phải là 'made'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'make' (V1). Mẹo: Have + dress + made.\n💡 **Ví dụ:** She will have her wedding dress made. / He will have his suit made."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is expected that the economy will grow. (câu đúng) - Học viên viết \'It expected that the economy will grow.\'",
+    "output": "✅ **Corrected Sentence:** It is expected that the economy will grow.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên 'is'. Mẹo: It + is + expected + that.\n💡 **Ví dụ:** It is predicted that it will snow. / It is hoped that they will recover."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my window break by the storm.",
+    "output": "✅ **Corrected Sentence:** I had my window broken by the storm.\n🔍 **Error Identification:** 'Break' phải là 'broken'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'break' (V1). Mẹo: Have + window + broken.\n💡 **Ví dụ:** She had her vase broken. / He had his phone broken."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are said to have left the country. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** They are said to have left the country. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that they left'.\n💡 **Ví dụ:** He is believed to have escaped. / She is reported to have resigned."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will have my carpet clean before Tet.",
+    "output": "✅ **Corrected Sentence:** I will have my carpet cleaned before Tet.\n🔍 **Error Identification:** 'Clean' phải là 'cleaned'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'clean' (V1). Mẹo: Have + carpet + cleaned.\n💡 **Ví dụ:** She will have her curtains cleaned. / He will have his rug cleaned."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is said that she is a talented artist.",
+    "output": "✅ **Corrected Sentence:** It is said that she is a talented artist. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể chuyển thành 'She is said to be a talented artist'.\n💡 **Ví dụ:** It is believed that he is a genius. / It is thought that they are honest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my watch fix at the store.",
+    "output": "✅ **Corrected Sentence:** I had my watch fixed at the store.\n🔍 **Error Identification:** 'Fix' phải là 'fixed'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'fix' (V1). Mẹo: Have + watch + fixed.\n💡 **Ví dụ:** She had her clock repaired. / He had his watch band replaced."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is said to be working on a cure. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** He is said to be working on a cure. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that he is working on a cure'.\n💡 **Ví dụ:** She is believed to be developing a new drug. / They are reported to be testing a vaccine."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I need to have my hair cut. (câu đúng) - Học viên viết \'I need to have my hair cutted.\'",
+    "output": "✅ **Corrected Sentence:** I need to have my hair cut.\n🔍 **Error Identification:** 'Cutted' không tồn tại – 'cut' là V3 của 'cut'.\n📘 **Vietnamese Explanation:** Người Việt thêm -ed vào động từ bất quy tắc. Mẹo: cut – cut – cut.\n💡 **Ví dụ:** She had her hair cut. / He had his hair cut short."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is reported that the storm has caused damage. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** It is reported that the storm has caused damage. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'the storm is reported to have caused damage'.\n💡 **Ví dụ:** It is announced that the winner has been chosen. / It is confirmed that the deal has been signed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I had my house cleaning by a cleaner.",
+    "output": "✅ **Corrected Sentence:** I had my house cleaned by a cleaner.\n🔍 **Error Identification:** 'Cleaning' phải là 'cleaned'.\n📘 **Vietnamese Explanation:** Người Việt dùng V-ing thay vì V3. Mẹo: Have + house + cleaned.\n💡 **Ví dụ:** She had her room cleaned. / He had his office cleaned."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "They are said to have been waiting for hours. (câu đúng - hoàn thành tiếp diễn)",
+    "output": "✅ **Corrected Sentence:** They are said to have been waiting for hours. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'it is said that they have been waiting'.\n💡 **Ví dụ:** He is believed to have been studying all night. / She is reported to have been working hard."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "I will have my laptop fix by a technician.",
+    "output": "✅ **Corrected Sentence:** I will have my laptop fixed by a technician.\n🔍 **Error Identification:** 'Fix' phải là 'fixed'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'fix' (V1). Mẹo: Have + laptop + fixed.\n💡 **Ví dụ:** She will have her computer repaired. / He will have his tablet fixed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is said that the bridge was built in 1990. (câu đúng)",
+    "output": "✅ **Corrected Sentence:** It is said that the bridge was built in 1990. (câu đúng)\n🔍 **Error Identification:** Đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể chuyển thành 'The bridge is said to have been built in 1990'.\n💡 **Ví dụ:** It is believed that the treasure was hidden here. / It is thought that the letter was written by him."
+  }
+]

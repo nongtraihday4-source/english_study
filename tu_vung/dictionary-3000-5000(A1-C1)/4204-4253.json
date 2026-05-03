@@ -1,0 +1,1868 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 4204,
+    "fields": {
+      "word": "authentic",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈθɛntɪk",
+      "ipa_us": "ɔˈθɛntɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đích thực, chính cống",
+      "definition_en": "If something is authentic, it is real, true, or what people say it is.",
+      "example_en": "The restaurant serves authentic Italian food.",
+      "example_vi": "Nhà hàng phục vụ món ăn Ý đích thực.",
+      "collocations_json": [
+        "authentic experience",
+        "authentic reproduction",
+        "completely authentic"
+      ],
+      "synonyms_json": [
+        "genuine",
+        "original",
+        "real"
+      ],
+      "antonyms_json": [
+        "fake",
+        "counterfeit",
+        "artificial"
+      ],
+      "mnemonic": "Authentic authors write real stories.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4205,
+    "fields": {
+      "word": "authorize",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈɔθəˌraɪz",
+      "ipa_us": "ˈɔθəˌraɪz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ủy quyền, cho phép",
+      "definition_en": "To give official permission for something to happen, or to give someone official power to do something.",
+      "example_en": "Only the manager is authorized to sign these documents.",
+      "example_vi": "Chỉ có người quản lý mới được ủy quyền ký các tài liệu này.",
+      "collocations_json": [
+        "authorize a payment",
+        "officially authorize",
+        "legally authorize"
+      ],
+      "synonyms_json": [
+        "permit",
+        "allow",
+        "empower"
+      ],
+      "antonyms_json": [
+        "forbid",
+        "prohibit"
+      ],
+      "mnemonic": "To give someone AUTHORITY is to authorize them.",
+      "frequency_rank": 6100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4206,
+    "fields": {
+      "word": "auto",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈɔtoʊ",
+      "ipa_us": "ˈɔtoʊ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ô tô, xe hơi",
+      "definition_en": "A car (short for automobile).",
+      "example_en": "He works in the auto industry.",
+      "example_vi": "Anh ấy làm việc trong ngành công nghiệp ô tô.",
+      "collocations_json": [
+        "auto industry",
+        "auto maker",
+        "auto parts"
+      ],
+      "synonyms_json": [
+        "car",
+        "automobile",
+        "vehicle"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Short for automobile.",
+      "frequency_rank": 7300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4207,
+    "fields": {
+      "word": "autonomy",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɔˈtɑnəmi",
+      "ipa_us": "ɔˈtɑnəmi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự tự trị, quyền tự trị",
+      "definition_en": "The right of an organization, country, or region to be independent and govern itself.",
+      "example_en": "The region has demanded greater autonomy from the central government.",
+      "example_vi": "Khu vực này đã yêu cầu quyền tự trị lớn hơn từ chính quyền trung ương.",
+      "collocations_json": [
+        "demand autonomy",
+        "grant autonomy",
+        "regional autonomy"
+      ],
+      "synonyms_json": [
+        "independence",
+        "self-government",
+        "freedom"
+      ],
+      "antonyms_json": [
+        "dependence",
+        "subordination"
+      ],
+      "mnemonic": "Auto (self) + nomy (law) -> making one's own laws.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4208,
+    "fields": {
+      "word": "availability",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "əˌveɪləˈbɪləti",
+      "ipa_us": "əˌveɪləˈbɪlɪti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự có sẵn, tính khả dụng",
+      "definition_en": "The fact that something can be bought, used, or reached, or how much it can be.",
+      "example_en": "We will let you know about the availability of the tickets.",
+      "example_vi": "Chúng tôi sẽ cho bạn biết về sự có sẵn của vé.",
+      "collocations_json": [
+        "check availability",
+        "subject to availability",
+        "wide availability"
+      ],
+      "synonyms_json": [
+        "accessibility",
+        "readiness"
+      ],
+      "antonyms_json": [
+        "unavailability",
+        "scarcity"
+      ],
+      "mnemonic": "Noun form of available.",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4209,
+    "fields": {
+      "word": "await",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "əˈweɪt",
+      "ipa_us": "əˈweɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chờ đợi",
+      "definition_en": "To wait for or be waiting for something.",
+      "example_en": "We are currently awaiting the results of the tests.",
+      "example_vi": "Chúng tôi hiện đang chờ kết quả xét nghiệm.",
+      "collocations_json": [
+        "await a decision",
+        "eagerly await",
+        "await a response"
+      ],
+      "synonyms_json": [
+        "wait for",
+        "expect",
+        "anticipate"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A formal way to say 'wait'.",
+      "frequency_rank": 6200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4210,
+    "fields": {
+      "word": "backdrop",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈbækˌdrɑp",
+      "ipa_us": "ˈbækˌdrɑp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bối cảnh, phông nền",
+      "definition_en": "The general situation in which particular events happen.",
+      "example_en": "Their love story unfolded against a backdrop of war.",
+      "example_vi": "Câu chuyện tình yêu của họ diễn ra trong bối cảnh chiến tranh.",
+      "collocations_json": [
+        "against a backdrop of",
+        "provide a backdrop",
+        "scenic backdrop"
+      ],
+      "synonyms_json": [
+        "background",
+        "setting",
+        "context"
+      ],
+      "antonyms_json": [
+        "foreground"
+      ],
+      "mnemonic": "The 'drop' at the 'back' of a stage sets the scene.",
+      "frequency_rank": 7800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4211,
+    "fields": {
+      "word": "backing",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈbækɪŋ",
+      "ipa_us": "ˈbækɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự ủng hộ, sự hỗ trợ",
+      "definition_en": "Support, especially money, that someone gives to a person or plan.",
+      "example_en": "The project has the full backing of the government.",
+      "example_vi": "Dự án nhận được sự ủng hộ hoàn toàn của chính phủ.",
+      "collocations_json": [
+        "financial backing",
+        "strong backing",
+        "with the backing of"
+      ],
+      "synonyms_json": [
+        "support",
+        "funding",
+        "sponsorship"
+      ],
+      "antonyms_json": [
+        "opposition"
+      ],
+      "mnemonic": "When someone has your back, they provide backing.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4212,
+    "fields": {
+      "word": "backup",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "ˈbæˌkʌp",
+      "ipa_us": "ˈbækˌʌp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự dự phòng, bản sao lưu",
+      "definition_en": "(Someone or something that provides) support or help, or something that you have arranged in case your main plans, equipment, etc. go wrong.",
+      "example_en": "Always make a backup of your important files.",
+      "example_vi": "Luôn tạo bản sao lưu cho các tệp quan trọng của bạn.",
+      "collocations_json": [
+        "backup plan",
+        "make a backup",
+        "need backup"
+      ],
+      "synonyms_json": [
+        "reserve",
+        "alternative",
+        "copy"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "To back up (verb) your data creates a backup (noun).",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4213,
+    "fields": {
+      "word": "bail",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "beɪl",
+      "ipa_us": "beɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tiền bảo lãnh",
+      "definition_en": "An amount of money that a person who has been accused of a crime pays to a law court so that they can be released until their trial.",
+      "example_en": "He was released on bail pending his trial.",
+      "example_vi": "Anh ta đã được tại ngoại hầu tra sau khi đóng tiền bảo lãnh.",
+      "collocations_json": [
+        "release on bail",
+        "post bail",
+        "deny bail"
+      ],
+      "synonyms_json": [
+        "surety",
+        "security"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "You pay BAIL to get OUT of JAIL.",
+      "frequency_rank": 7100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4214,
+    "fields": {
+      "word": "ballot",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈbælət",
+      "ipa_us": "ˈbælət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lá phiếu, sự bỏ phiếu kín",
+      "definition_en": "A system or occasion of secret voting.",
+      "example_en": "The union held a secret ballot to decide whether to strike.",
+      "example_vi": "Công đoàn đã tổ chức bỏ phiếu kín để quyết định có đình công hay không.",
+      "collocations_json": [
+        "secret ballot",
+        "cast a ballot",
+        "ballot box"
+      ],
+      "synonyms_json": [
+        "vote",
+        "poll",
+        "election"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A small BALL was historically used to vOte -> BALLOT.",
+      "frequency_rank": 6600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4215,
+    "fields": {
+      "word": "banner",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈbænər",
+      "ipa_us": "ˈbænər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "băng rôn, biểu ngữ",
+      "definition_en": "A long piece of cloth with words written on it, sometimes stretched between two poles and carried by people taking part in a march.",
+      "example_en": "The protesters carried a large banner demanding peace.",
+      "example_vi": "Những người biểu tình mang theo một băng rôn lớn đòi hòa bình.",
+      "collocations_json": [
+        "carry a banner",
+        "unfurl a banner",
+        "banner headline"
+      ],
+      "synonyms_json": [
+        "placard",
+        "sign",
+        "flag"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A BANNER is used to banish silence and proclaim a message.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4216,
+    "fields": {
+      "word": "bare",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "bɛr",
+      "ipa_us": "bɛr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trần truồng, trơ trọi, cơ bản",
+      "definition_en": "Without any clothes or not covered by anything; or only the most basic or important.",
+      "example_en": "Don't walk on the broken glass with bare feet.",
+      "example_vi": "Đừng đi chân trần trên mảnh kính vỡ.",
+      "collocations_json": [
+        "bare hands",
+        "bare feet",
+        "bare minimum"
+      ],
+      "synonyms_json": [
+        "naked",
+        "uncovered",
+        "empty"
+      ],
+      "antonyms_json": [
+        "clothed",
+        "covered",
+        "decorated"
+      ],
+      "mnemonic": "A bear without fur is bare.",
+      "frequency_rank": 5300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4217,
+    "fields": {
+      "word": "barrel",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈbærəl",
+      "ipa_us": "ˈbærəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thùng hình trụ, nòng súng",
+      "definition_en": "A large container, made of wood, metal, or plastic, with a flat top and bottom and curved sides that make it fatter in the middle.",
+      "example_en": "They drank a whole barrel of beer.",
+      "example_vi": "Họ đã uống hết một thùng bia.",
+      "collocations_json": [
+        "oil barrel",
+        "barrel of beer",
+        "gun barrel"
+      ],
+      "synonyms_json": [
+        "cask",
+        "keg",
+        "drum"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Think of a wooden BARREL full of wine.",
+      "frequency_rank": 6500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4218,
+    "fields": {
+      "word": "bass1",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "art",
+      "ipa_uk": "beɪs1",
+      "ipa_us": "beɪs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "âm trầm, giọng nam trầm",
+      "definition_en": "The lowest range of musical notes, or a singer or instrument producing such notes.",
+      "example_en": "He sings bass in the choir.",
+      "example_vi": "Anh ấy hát giọng nam trầm trong dàn hợp xướng.",
+      "collocations_json": [
+        "bass guitar",
+        "play the bass",
+        "heavy bass"
+      ],
+      "synonyms_json": [
+        "low frequency"
+      ],
+      "antonyms_json": [
+        "treble",
+        "soprano"
+      ],
+      "mnemonic": "Bass (music) is the BASE (bottom/low) sound.",
+      "frequency_rank": 8100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4219,
+    "fields": {
+      "word": "bat",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "bæt",
+      "ipa_us": "bæt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đánh bóng, nháy (mắt)",
+      "definition_en": "To hit a ball with a bat; or to open and close your eyes quickly.",
+      "example_en": "He batted the ball out of the park.",
+      "example_vi": "Anh ấy đánh quả bóng bay ra khỏi công viên.",
+      "collocations_json": [
+        "bat an eye",
+        "go to bat for",
+        "bat a ball"
+      ],
+      "synonyms_json": [
+        "hit",
+        "strike",
+        "blink"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "To use a BAT (noun) is to bat (verb).",
+      "frequency_rank": 7000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4220,
+    "fields": {
+      "word": "battlefield",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈbætəlˌfild",
+      "ipa_us": "ˈbætəlˌfild",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chiến trường",
+      "definition_en": "A place where a battle is being fought or has been fought.",
+      "example_en": "Many soldiers lost their lives on the battlefield.",
+      "example_vi": "Nhiều binh sĩ đã mất mạng trên chiến trường.",
+      "collocations_json": [
+        "on the battlefield",
+        "bloody battlefield",
+        "die on the battlefield"
+      ],
+      "synonyms_json": [
+        "battleground",
+        "front line",
+        "combat zone"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A FIELD where a BATTLE happens.",
+      "frequency_rank": 7400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4221,
+    "fields": {
+      "word": "bay",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "nature",
+      "ipa_uk": "beɪ",
+      "ipa_us": "beɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vịnh, khoảng lùi (đỗ xe/tải hàng)",
+      "definition_en": "A part of the coast where the land curves in so that the sea is surrounded by land on three sides.",
+      "example_en": "The boat was anchored in the bay.",
+      "example_vi": "Con thuyền đang neo đậu trong vịnh.",
+      "collocations_json": [
+        "keep at bay",
+        "loading bay",
+        "parking bay"
+      ],
+      "synonyms_json": [
+        "cove",
+        "gulf",
+        "inlet"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A bay is a curved body of water.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4222,
+    "fields": {
+      "word": "beam",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "bim",
+      "ipa_us": "bim",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tia sáng, nụ cười rạng rỡ, thanh xà",
+      "definition_en": "A line of light; a wide, happy smile; a long, thick piece of wood, metal, or concrete used to support a roof.",
+      "example_en": "A laser beam was pointed at the stage.",
+      "example_vi": "Một tia laser được chiếu vào sân khấu.",
+      "collocations_json": [
+        "laser beam",
+        "wooden beam",
+        "sun beam"
+      ],
+      "synonyms_json": [
+        "ray",
+        "shaft",
+        "timber"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "SunBEAMs stream down.",
+      "frequency_rank": 6900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4223,
+    "fields": {
+      "word": "beast",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "animals",
+      "ipa_uk": "bist",
+      "ipa_us": "bist",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quái thú, thú vật",
+      "definition_en": "An animal, especially a large or wild one.",
+      "example_en": "The lion is a magnificent beast.",
+      "example_vi": "Sư tử là một con thú tuyệt đẹp.",
+      "collocations_json": [
+        "wild beast",
+        "mythical beast",
+        "savage beast"
+      ],
+      "synonyms_json": [
+        "creature",
+        "monster",
+        "animal"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Beauty and the Beast.",
+      "frequency_rank": 5700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4224,
+    "fields": {
+      "word": "behalf",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "bɪˈhæf",
+      "ipa_us": "bɪˈhæf",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thay mặt, nhân danh",
+      "definition_en": "Representing; in the place of.",
+      "example_en": "I am writing on behalf of my client.",
+      "example_vi": "Tôi đang viết thư thay mặt cho khách hàng của mình.",
+      "collocations_json": [
+        "on behalf of",
+        "in behalf of"
+      ],
+      "synonyms_json": [
+        "representation",
+        "interest",
+        "benefit"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "On beHALF of someone (representing the other half).",
+      "frequency_rank": 5000,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4225,
+    "fields": {
+      "word": "beloved",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "bɪˈlʌvd",
+      "ipa_us": "bɪˈlʌvəd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "được yêu thương, người yêu",
+      "definition_en": "Loved very much.",
+      "example_en": "He lost his beloved wife last year.",
+      "example_vi": "Anh ấy đã mất người vợ yêu quý của mình vào năm ngoái.",
+      "collocations_json": [
+        "dearly beloved",
+        "beloved pet",
+        "beloved country"
+      ],
+      "synonyms_json": [
+        "cherished",
+        "precious",
+        "adored"
+      ],
+      "antonyms_json": [
+        "hated",
+        "despised"
+      ],
+      "mnemonic": "Someone who is BE LOVED is beloved.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4226,
+    "fields": {
+      "word": "bench",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "bɛnʧ",
+      "ipa_us": "bɛnʧ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "băng ghế, ghế dự bị",
+      "definition_en": "A long, usually hard seat for two or more people, often found in public places.",
+      "example_en": "We sat on a park bench and ate our sandwiches.",
+      "example_vi": "Chúng tôi ngồi trên một băng ghế công viên và ăn bánh mì kẹp.",
+      "collocations_json": [
+        "park bench",
+        "sit on the bench",
+        "wooden bench"
+      ],
+      "synonyms_json": [
+        "seat",
+        "pew"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A bench is a long seat.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4227,
+    "fields": {
+      "word": "benchmark",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈbɛnʧˌmɑrk",
+      "ipa_us": "ˈbɛnʧˌmɑrk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chuẩn mực, tiêu chuẩn",
+      "definition_en": "A level of quality that can be used as a standard when comparing other things.",
+      "example_en": "Her performance set a new benchmark for the team.",
+      "example_vi": "Màn trình diễn của cô ấy đã thiết lập một tiêu chuẩn mới cho đội.",
+      "collocations_json": [
+        "set a benchmark",
+        "benchmark test",
+        "serve as a benchmark"
+      ],
+      "synonyms_json": [
+        "standard",
+        "criterion",
+        "yardstick"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A mark on a bench used as a standard for measuring.",
+      "frequency_rank": 7500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4228,
+    "fields": {
+      "word": "beneath",
+      "part_of_speech": "other",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "bɪˈniθ",
+      "ipa_us": "bɪˈniθ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bên dưới, ở dưới",
+      "definition_en": "In or to a lower position than someone or something, under someone or something.",
+      "example_en": "Jaime hid the letter beneath a pile of papers.",
+      "example_vi": "Jaime giấu bức thư dưới một đống giấy tờ.",
+      "collocations_json": [
+        "beneath the surface",
+        "beneath your dignity",
+        "hidden beneath"
+      ],
+      "synonyms_json": [
+        "under",
+        "below",
+        "underneath"
+      ],
+      "antonyms_json": [
+        "above",
+        "over"
+      ],
+      "mnemonic": "Beneath sounds a bit like 'be nether' (nether means lower).",
+      "frequency_rank": 5100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4229,
+    "fields": {
+      "word": "beneficiary",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌbɛnəˈfɪʃiˌɛri",
+      "ipa_us": "ˌbɛnəˈfɪʃiˌɛri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người thụ hưởng",
+      "definition_en": "A person or group who receives money, advantages, etc., as a result of something else.",
+      "example_en": "She was the main beneficiary of his will.",
+      "example_vi": "Cô là người thụ hưởng chính trong di chúc của ông.",
+      "collocations_json": [
+        "sole beneficiary",
+        "primary beneficiary",
+        "name a beneficiary"
+      ],
+      "synonyms_json": [
+        "heir",
+        "recipient",
+        "inheritor"
+      ],
+      "antonyms_json": [
+        "benefactor",
+        "giver"
+      ],
+      "mnemonic": "Someone who receives a BENEFIT.",
+      "frequency_rank": 6900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4230,
+    "fields": {
+      "word": "betray",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "bɪˈtreɪ",
+      "ipa_us": "bɪˈtreɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phản bội, tiết lộ",
+      "definition_en": "To not be loyal to your country or a person, often by doing something harmful such as helping their enemies.",
+      "example_en": "He promised never to betray her trust.",
+      "example_vi": "Anh hứa sẽ không bao giờ phản bội lòng tin của cô.",
+      "collocations_json": [
+        "betray a secret",
+        "betray trust",
+        "feel betrayed"
+      ],
+      "synonyms_json": [
+        "deceive",
+        "double-cross",
+        "reveal"
+      ],
+      "antonyms_json": [
+        "protect",
+        "defend",
+        "stay loyal"
+      ],
+      "mnemonic": "If you be a tray (tray=trash), you betray someone's trust.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4231,
+    "fields": {
+      "word": "bind",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "baɪnd",
+      "ipa_us": "baɪnd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "buộc, trói, gắn kết",
+      "definition_en": "To tie something or someone tightly, or to unite people.",
+      "example_en": "They bound his hands together with a rope.",
+      "example_vi": "Họ trói hai tay anh ta lại bằng một sợi dây.",
+      "collocations_json": [
+        "bind together",
+        "legally binding",
+        "bind a wound"
+      ],
+      "synonyms_json": [
+        "tie",
+        "fasten",
+        "unite"
+      ],
+      "antonyms_json": [
+        "untie",
+        "loosen",
+        "free"
+      ],
+      "mnemonic": "To put in a binder is to BIND pages together.",
+      "frequency_rank": 6300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4232,
+    "fields": {
+      "word": "biography",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "art",
+      "ipa_uk": "baɪˈɑɡrəfi",
+      "ipa_us": "baɪˈɑɡrəfi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tiểu sử",
+      "definition_en": "The life story of a person written by someone else.",
+      "example_en": "He wrote a fascinating biography of Winston Churchill.",
+      "example_vi": "Ông ấy đã viết một cuốn tiểu sử hấp dẫn về Winston Churchill.",
+      "collocations_json": [
+        "write a biography",
+        "publish a biography",
+        "unauthorized biography"
+      ],
+      "synonyms_json": [
+        "life story",
+        "memoir"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bio (life) + graphy (writing) = writing about a life.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4233,
+    "fields": {
+      "word": "bishop",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈbɪʃəp",
+      "ipa_us": "ˈbɪʃəp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giám mục, quân tượng (cờ vua)",
+      "definition_en": "A priest of high rank who is in charge of the priests of lower rank in a particular area; or a piece in the game of chess.",
+      "example_en": "The bishop gave a sermon at the cathedral.",
+      "example_vi": "Giám mục đã thuyết pháp tại nhà thờ.",
+      "collocations_json": [
+        "Catholic bishop",
+        "ordain a bishop"
+      ],
+      "synonyms_json": [
+        "clergyman",
+        "prelate"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A chess piece that moves diagonally.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4234,
+    "fields": {
+      "word": "bizarre",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "bəˈzɑr",
+      "ipa_us": "bəˈzɑr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kỳ quái, kỳ lạ",
+      "definition_en": "Very strange and unusual.",
+      "example_en": "She wore a bizarre outfit to the party.",
+      "example_vi": "Cô ấy mặc một bộ trang phục kỳ quái đến bữa tiệc.",
+      "collocations_json": [
+        "bizarre situation",
+        "bizarre twist",
+        "truly bizarre"
+      ],
+      "synonyms_json": [
+        "weird",
+        "peculiar",
+        "strange",
+        "outlandish"
+      ],
+      "antonyms_json": [
+        "normal",
+        "ordinary",
+        "conventional"
+      ],
+      "mnemonic": "A BIZARRE BAZAAR sells strange things.",
+      "frequency_rank": 6600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4235,
+    "fields": {
+      "word": "blade",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "bleɪd",
+      "ipa_us": "bleɪd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lưỡi (dao, kiếm), phiến lá",
+      "definition_en": "The flat part on a knife or similar tool or weapon, with a very thin edge used for cutting.",
+      "example_en": "Be careful, the knife blade is very sharp.",
+      "example_vi": "Hãy cẩn thận, lưỡi dao rất sắc.",
+      "collocations_json": [
+        "sharp blade",
+        "razor blade",
+        "blade of grass"
+      ],
+      "synonyms_json": [
+        "edge",
+        "sword"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A razor BLADE.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4236,
+    "fields": {
+      "word": "blast",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "blæst",
+      "ipa_us": "blæst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vụ nổ, luồng gió mạnh",
+      "definition_en": "An explosion, or a sudden strong blow of air.",
+      "example_en": "The bomb blast destroyed several buildings.",
+      "example_vi": "Vụ nổ bom đã phá hủy một số tòa nhà.",
+      "collocations_json": [
+        "bomb blast",
+        "blast of air",
+        "have a blast"
+      ],
+      "synonyms_json": [
+        "explosion",
+        "burst",
+        "gust"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A BLAST of wind or an explosion.",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4237,
+    "fields": {
+      "word": "bleed",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "medical",
+      "ipa_uk": "blid",
+      "ipa_us": "blid",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chảy máu",
+      "definition_en": "To lose blood.",
+      "example_en": "Your nose is bleeding.",
+      "example_vi": "Mũi của bạn đang chảy máu.",
+      "collocations_json": [
+        "bleed heavily",
+        "bleed to death",
+        "start to bleed"
+      ],
+      "synonyms_json": [
+        "hemorrhage",
+        "ooze"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "When you get cut, you bleed blood.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4238,
+    "fields": {
+      "word": "blend",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "food",
+      "ipa_uk": "blɛnd",
+      "ipa_us": "blɛnd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trộn lẫn, pha trộn",
+      "definition_en": "To mix or combine things together, or to mix so that they become one substance.",
+      "example_en": "Blend the ingredients until smooth.",
+      "example_vi": "Trộn đều các thành phần cho đến khi mịn.",
+      "collocations_json": [
+        "blend in",
+        "blend together",
+        "perfect blend"
+      ],
+      "synonyms_json": [
+        "mix",
+        "combine",
+        "mingle"
+      ],
+      "antonyms_json": [
+        "separate",
+        "divide"
+      ],
+      "mnemonic": "A BLENDer BLENDs things.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4239,
+    "fields": {
+      "word": "bless",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "blɛs",
+      "ipa_us": "blɛs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ban phước, ban phước lành",
+      "definition_en": "To ask for God's help and protection for someone or something, or to call or make someone or something holy.",
+      "example_en": "May God bless you and your family.",
+      "example_vi": "Cầu Chúa ban phước cho bạn và gia đình bạn.",
+      "collocations_json": [
+        "God bless",
+        "bless you"
+      ],
+      "synonyms_json": [
+        "consecrate",
+        "sanctify",
+        "favor"
+      ],
+      "antonyms_json": [
+        "curse",
+        "condemn"
+      ],
+      "mnemonic": "When someone sneezes, you say 'Bless you'.",
+      "frequency_rank": 6000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4240,
+    "fields": {
+      "word": "blessing",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈblɛsɪŋ",
+      "ipa_us": "ˈblɛsɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lời cầu chúc, phước lành",
+      "definition_en": "A request by a priest for God to take care of a particular person or a group of people, or to make something holy; something that is extremely lucky or makes you happy.",
+      "example_en": "It was a blessing in disguise.",
+      "example_vi": "Đó là một phước lành ngụy trang (trong cái rủi có cái may).",
+      "collocations_json": [
+        "give a blessing",
+        "mixed blessing",
+        "blessing in disguise"
+      ],
+      "synonyms_json": [
+        "benediction",
+        "godsend",
+        "benefit"
+      ],
+      "antonyms_json": [
+        "curse",
+        "misfortune"
+      ],
+      "mnemonic": "Noun form of bless.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4241,
+    "fields": {
+      "word": "boast",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "boʊst",
+      "ipa_us": "boʊst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khoe khoang, khoác lác",
+      "definition_en": "To speak too proudly or happily about what you have done or what you own.",
+      "example_en": "He didn't talk about his exam results in case people thought he was boasting.",
+      "example_vi": "Anh ấy không nói về kết quả kỳ thi của mình phòng khi mọi người nghĩ anh ấy đang khoe khoang.",
+      "collocations_json": [
+        "boast about",
+        "boast of",
+        "proudly boast"
+      ],
+      "synonyms_json": [
+        "brag",
+        "crow",
+        "swagger"
+      ],
+      "antonyms_json": [
+        "deprecate",
+        "be modest"
+      ],
+      "mnemonic": "To BOAST is to show off.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4242,
+    "fields": {
+      "word": "bonus",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈboʊnəs",
+      "ipa_us": "ˈboʊnəs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tiền thưởng, phần thưởng thêm",
+      "definition_en": "An extra amount of money that is given to you as a present or reward for good work as well as the money you were expecting.",
+      "example_en": "All employees received a Christmas bonus.",
+      "example_vi": "Tất cả nhân viên đều nhận được tiền thưởng Giáng sinh.",
+      "collocations_json": [
+        "annual bonus",
+        "Christmas bonus",
+        "added bonus"
+      ],
+      "synonyms_json": [
+        "reward",
+        "premium",
+        "extra"
+      ],
+      "antonyms_json": [
+        "penalty",
+        "fine"
+      ],
+      "mnemonic": "An added bonus at work is extra money.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4243,
+    "fields": {
+      "word": "boom",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "bum",
+      "ipa_us": "bum",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự bùng nổ, tiếng nổ",
+      "definition_en": "A period of sudden economic growth, especially one that results in a lot of money being made; or a deep, loud sound.",
+      "example_en": "The 1990s saw an economic boom.",
+      "example_vi": "Những năm 1990 chứng kiến một sự bùng nổ kinh tế.",
+      "collocations_json": [
+        "economic boom",
+        "baby boom",
+        "loud boom"
+      ],
+      "synonyms_json": [
+        "expansion",
+        "surge",
+        "bang",
+        "roar"
+      ],
+      "antonyms_json": [
+        "slump",
+        "recession",
+        "bust"
+      ],
+      "mnemonic": "BOOM goes the economy! (Or the dynamite).",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4244,
+    "fields": {
+      "word": "bounce",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "baʊns",
+      "ipa_us": "baʊns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nảy lên, tâng (bóng)",
+      "definition_en": "To (cause to) move up or away after hitting a surface.",
+      "example_en": "The children love to bounce on the bed.",
+      "example_vi": "Bọn trẻ thích nhảy tâng tâng trên giường.",
+      "collocations_json": [
+        "bounce back",
+        "bounce a ball",
+        "check bounced"
+      ],
+      "synonyms_json": [
+        "rebound",
+        "spring",
+        "jump"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A bouncy ball bounces.",
+      "frequency_rank": 6300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4245,
+    "fields": {
+      "word": "boundary",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈbaʊndəri",
+      "ipa_us": "ˈbaʊndəri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "biên giới, ranh giới",
+      "definition_en": "A real or imagined line that marks the edge or limit of something.",
+      "example_en": "The Ural mountains mark the boundary between Europe and Asia.",
+      "example_vi": "Dãy núi Ural đánh dấu ranh giới giữa Châu Âu và Châu Á.",
+      "collocations_json": [
+        "cross the boundary",
+        "push the boundaries",
+        "set boundaries"
+      ],
+      "synonyms_json": [
+        "border",
+        "limit",
+        "frontier"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "The bounds of an area form its boundary.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4246,
+    "fields": {
+      "word": "bow1",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "baʊ1",
+      "ipa_us": "baʊ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cúi chào",
+      "definition_en": "To bend your head or body forward, especially as a way of showing someone respect or expressing thanks to people who have watched you perform.",
+      "example_en": "They bowed to the Queen.",
+      "example_vi": "Họ cúi chào Nữ hoàng.",
+      "collocations_json": [
+        "bow down",
+        "take a bow",
+        "bow respectfully"
+      ],
+      "synonyms_json": [
+        "bend",
+        "curtsey",
+        "nod"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Actors take a bow after a performance.",
+      "frequency_rank": 6600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4247,
+    "fields": {
+      "word": "breach",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "briʧ",
+      "ipa_us": "briʧ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự vi phạm, sự phá vỡ",
+      "definition_en": "An act of breaking a law, promise, agreement, or relationship.",
+      "example_en": "They sued the company for breach of contract.",
+      "example_vi": "Họ kiện công ty vì vi phạm hợp đồng.",
+      "collocations_json": [
+        "breach of contract",
+        "security breach",
+        "data breach"
+      ],
+      "synonyms_json": [
+        "violation",
+        "infringement",
+        "break"
+      ],
+      "antonyms_json": [
+        "compliance",
+        "observance"
+      ],
+      "mnemonic": "To breach is to BREAK a rule or a wall.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4248,
+    "fields": {
+      "word": "breakdown",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈbreɪkˌdaʊn",
+      "ipa_us": "ˈbreɪkˌdaʊn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự hỏng hóc, suy sụp",
+      "definition_en": "A failure to work or be successful.",
+      "example_en": "I had a breakdown on the motorway.",
+      "example_vi": "Xe tôi bị hỏng trên đường cao tốc.",
+      "collocations_json": [
+        "nervous breakdown",
+        "communication breakdown",
+        "suffer a breakdown"
+      ],
+      "synonyms_json": [
+        "failure",
+        "collapse",
+        "malfunction"
+      ],
+      "antonyms_json": [
+        "success",
+        "repair"
+      ],
+      "mnemonic": "When a machine breaks down, you have a breakdown.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4249,
+    "fields": {
+      "word": "breakthrough",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈbreɪkˌθru",
+      "ipa_us": "ˈbreɪkˌθru",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bước đột phá",
+      "definition_en": "An important discovery or event that helps to improve a situation or provide an answer to a problem.",
+      "example_en": "Scientists have made a major breakthrough in the treatment of cancer.",
+      "example_vi": "Các nhà khoa học đã tạo ra một bước đột phá lớn trong việc điều trị bệnh ung thư.",
+      "collocations_json": [
+        "major breakthrough",
+        "significant breakthrough",
+        "medical breakthrough"
+      ],
+      "synonyms_json": [
+        "advance",
+        "discovery",
+        "innovation"
+      ],
+      "antonyms_json": [
+        "setback",
+        "step back"
+      ],
+      "mnemonic": "To BREAK THROUGH a barrier to make a discovery.",
+      "frequency_rank": 6500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4250,
+    "fields": {
+      "word": "breed",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "animals",
+      "ipa_uk": "brid",
+      "ipa_us": "brid",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhân giống, sinh sản",
+      "definition_en": "To keep animals for the purpose of producing young animals in a controlled way.",
+      "example_en": "His main income comes from breeding cattle.",
+      "example_vi": "Thu nhập chính của anh ấy đến từ việc nhân giống gia súc.",
+      "collocations_json": [
+        "breed dogs",
+        "born and bred",
+        "breed resentment"
+      ],
+      "synonyms_json": [
+        "reproduce",
+        "raise",
+        "rear"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Breeders breed animals.",
+      "frequency_rank": 6000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4251,
+    "fields": {
+      "word": "broadband",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "ˈbrɔdˌbænd",
+      "ipa_us": "ˈbrɔdˌbænd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "băng thông rộng",
+      "definition_en": "A telecommunications system that allows information to be sent quickly between computers and other electronic equipment.",
+      "example_en": "Internet connection via broadband offers many advantages.",
+      "example_vi": "Kết nối Internet qua băng thông rộng mang lại nhiều lợi thế.",
+      "collocations_json": [
+        "broadband connection",
+        "broadband access",
+        "high-speed broadband"
+      ],
+      "synonyms_json": [
+        "high-speed internet"
+      ],
+      "antonyms_json": [
+        "dial-up"
+      ],
+      "mnemonic": "A BROAD BAND of frequencies allows fast internet.",
+      "frequency_rank": 7200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4252,
+    "fields": {
+      "word": "browser",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "ˈbraʊzər",
+      "ipa_us": "ˈbraʊzər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trình duyệt web",
+      "definition_en": "A computer program that makes it possible for you to read information on the internet.",
+      "example_en": "You need the latest version of the browser to view this site.",
+      "example_vi": "Bạn cần phiên bản mới nhất của trình duyệt để xem trang web này.",
+      "collocations_json": [
+        "web browser",
+        "open a browser",
+        "default browser"
+      ],
+      "synonyms_json": [
+        "search engine"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "You use it to BROWSE the internet.",
+      "frequency_rank": 7500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4253,
+    "fields": {
+      "word": "brutal",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈbrutəl",
+      "ipa_us": "ˈbrutəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tàn bạo, hung ác",
+      "definition_en": "Cruel, violent, and completely without feelings.",
+      "example_en": "He was the victim of a brutal attack.",
+      "example_vi": "Anh ta là nạn nhân của một cuộc tấn công tàn bạo.",
+      "collocations_json": [
+        "brutal murder",
+        "brutal truth",
+        "brutal attack"
+      ],
+      "synonyms_json": [
+        "cruel",
+        "savage",
+        "vicious",
+        "harsh"
+      ],
+      "antonyms_json": [
+        "gentle",
+        "kind",
+        "mild"
+      ],
+      "mnemonic": "Brutus was brutal.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

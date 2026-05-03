@@ -1,0 +1,1877 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 4754,
+    "fields": {
+      "word": "intent",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈtɛnt",
+      "ipa_us": "ɪnˈtɛnt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ý định, mục đích",
+      "definition_en": "The fact that you want and plan to do something.",
+      "example_en": "It was not my intent to cause any offense.",
+      "example_vi": "Tôi không có ý định gây ra bất kỳ sự xúc phạm nào.",
+      "collocations_json": [
+        "with intent to",
+        "malicious intent",
+        "state your intent"
+      ],
+      "synonyms_json": [
+        "intention",
+        "purpose",
+        "aim"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "An intention you keep in a tent.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4755,
+    "fields": {
+      "word": "interactive",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "ˌɪntəˈræktɪv",
+      "ipa_us": "ˌɪntərˈæktɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "có tính tương tác",
+      "definition_en": "Involving communication between people or between a computer and a user.",
+      "example_en": "The museum has many interactive exhibits for children.",
+      "example_vi": "Bảo tàng có nhiều hiện vật trưng bày mang tính tương tác dành cho trẻ em.",
+      "collocations_json": [
+        "interactive whiteboards",
+        "interactive website",
+        "highly interactive"
+      ],
+      "synonyms_json": [
+        "collaborative",
+        "two-way"
+      ],
+      "antonyms_json": [
+        "passive"
+      ],
+      "mnemonic": "Inter (between) + active -> Active between two parties.",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4756,
+    "fields": {
+      "word": "interface",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "ˈɪntərˌfeɪs",
+      "ipa_us": "ˈɪntərˌfeɪs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giao diện",
+      "definition_en": "A connection between two pieces of electronic equipment, or between a person and a computer.",
+      "example_en": "The new software has a very user-friendly interface.",
+      "example_vi": "Phần mềm mới có một giao diện rất thân thiện với người dùng.",
+      "collocations_json": [
+        "user interface",
+        "graphical interface",
+        "interface design"
+      ],
+      "synonyms_json": [
+        "connection",
+        "boundary",
+        "front end"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "The face where two things interact.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4757,
+    "fields": {
+      "word": "interfere",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌɪntərˈfɪr",
+      "ipa_us": "ˌɪntərˈfɪr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "can thiệp, gây trở ngại",
+      "definition_en": "To involve yourself in a situation when your involvement is not wanted or is not helpful.",
+      "example_en": "Please don't interfere in my personal life.",
+      "example_vi": "Xin đừng can thiệp vào cuộc sống cá nhân của tôi.",
+      "collocations_json": [
+        "interfere with",
+        "interfere in",
+        "not interfere"
+      ],
+      "synonyms_json": [
+        "meddle",
+        "intrude",
+        "intervene"
+      ],
+      "antonyms_json": [
+        "assist",
+        "help"
+      ],
+      "mnemonic": "Inter (between) + fere (strike) -> striking in between people's business.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4758,
+    "fields": {
+      "word": "interference",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌɪntərˈfɪrəns",
+      "ipa_us": "ˌɪntərˈfɪrəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự can thiệp, sự nhiễu",
+      "definition_en": "An occasion when someone tries to interfere in a situation; or noise or other electronic signals that stop you from getting good pictures or sound on a television or radio.",
+      "example_en": "The government warned against foreign interference in the election.",
+      "example_vi": "Chính phủ đã cảnh báo về sự can thiệp của nước ngoài vào cuộc bầu cử.",
+      "collocations_json": [
+        "foreign interference",
+        "political interference",
+        "run interference"
+      ],
+      "synonyms_json": [
+        "meddling",
+        "intrusion",
+        "disruption"
+      ],
+      "antonyms_json": [
+        "assistance"
+      ],
+      "mnemonic": "Noun form of interfere.",
+      "frequency_rank": 6700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4759,
+    "fields": {
+      "word": "interim",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈɪntərəm",
+      "ipa_us": "ˈɪntərəm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tạm thời, lâm thời",
+      "definition_en": "Temporary and intended to be used or accepted until something permanent exists.",
+      "example_en": "An interim government was set up after the revolution.",
+      "example_vi": "Một chính phủ lâm thời đã được thành lập sau cuộc cách mạng.",
+      "collocations_json": [
+        "interim report",
+        "interim government",
+        "in the interim"
+      ],
+      "synonyms_json": [
+        "temporary",
+        "provisional",
+        "transitional"
+      ],
+      "antonyms_json": [
+        "permanent",
+        "final"
+      ],
+      "mnemonic": "In the interim means in the meantime.",
+      "frequency_rank": 7200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4760,
+    "fields": {
+      "word": "interior",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈtɪriər",
+      "ipa_us": "ɪnˈtɪriər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bên trong, nội thất",
+      "definition_en": "The inside part of something.",
+      "example_en": "The interior of the church was beautifully decorated.",
+      "example_vi": "Nội thất của nhà thờ được trang trí rất đẹp.",
+      "collocations_json": [
+        "interior design",
+        "interior ministry",
+        "car interior"
+      ],
+      "synonyms_json": [
+        "inside",
+        "internal",
+        "inner"
+      ],
+      "antonyms_json": [
+        "exterior",
+        "outside"
+      ],
+      "mnemonic": "In-terior is in the inside.",
+      "frequency_rank": 5100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4761,
+    "fields": {
+      "word": "intermediate",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌɪntərˈmidiɪt",
+      "ipa_us": "ˌɪntərˈmidiɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trung cấp, ở giữa",
+      "definition_en": "Being between two other related things, levels, or points.",
+      "example_en": "This English course is for intermediate students.",
+      "example_vi": "Khóa học tiếng Anh này dành cho học viên trình độ trung cấp.",
+      "collocations_json": [
+        "intermediate level",
+        "intermediate stage",
+        "intermediate step"
+      ],
+      "synonyms_json": [
+        "middle",
+        "midway",
+        "transitional"
+      ],
+      "antonyms_json": [
+        "beginner",
+        "advanced",
+        "extreme"
+      ],
+      "mnemonic": "Inter (between) + mediate (middle).",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4762,
+    "fields": {
+      "word": "intervene",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌɪntərˈvin",
+      "ipa_us": "ˌɪntərˈvin",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "can thiệp, xen vào",
+      "definition_en": "To intentionally become involved in a difficult situation in order to improve it or prevent it from getting worse.",
+      "example_en": "The police had to intervene to stop the fight.",
+      "example_vi": "Cảnh sát đã phải can thiệp để ngăn chặn cuộc ẩu đả.",
+      "collocations_json": [
+        "intervene in",
+        "decide to intervene",
+        "forced to intervene"
+      ],
+      "synonyms_json": [
+        "step in",
+        "interfere",
+        "mediate"
+      ],
+      "antonyms_json": [
+        "ignore",
+        "leave alone"
+      ],
+      "mnemonic": "Inter (between) + vene (come). To come between two fighting parties.",
+      "frequency_rank": 6100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4763,
+    "fields": {
+      "word": "intervention",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌɪntərˈvɛnʧən",
+      "ipa_us": "ˌɪntərˈvɛnʧən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự can thiệp",
+      "definition_en": "The action of becoming intentionally involved in a difficult situation, in order to improve it or prevent it from getting worse.",
+      "example_en": "Military intervention was necessary to restore peace.",
+      "example_vi": "Sự can thiệp quân sự là cần thiết để lập lại hòa bình.",
+      "collocations_json": [
+        "military intervention",
+        "early intervention",
+        "medical intervention"
+      ],
+      "synonyms_json": [
+        "involvement",
+        "interference",
+        "mediation"
+      ],
+      "antonyms_json": [
+        "non-intervention"
+      ],
+      "mnemonic": "Noun form of intervene.",
+      "frequency_rank": 5400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4764,
+    "fields": {
+      "word": "intimate",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈɪntəmət",
+      "ipa_us": "ˈɪntəmət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thân mật, thân thiết",
+      "definition_en": "Having, or being likely to cause, a very close friendship or personal or sexual relationship.",
+      "example_en": "The restaurant has a very intimate atmosphere.",
+      "example_vi": "Nhà hàng có một bầu không khí rất thân mật.",
+      "collocations_json": [
+        "intimate friend",
+        "intimate relationship",
+        "intimate detail"
+      ],
+      "synonyms_json": [
+        "close",
+        "personal",
+        "private"
+      ],
+      "antonyms_json": [
+        "distant",
+        "formal",
+        "public"
+      ],
+      "mnemonic": "Into-mate -> you are very close (into) your mate.",
+      "frequency_rank": 6500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4765,
+    "fields": {
+      "word": "intriguing",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɪnˈtriɡɪŋ",
+      "ipa_us": "ɪnˈtriɡɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hấp dẫn, gợi sự tò mò",
+      "definition_en": "Very interesting because of being unusual or mysterious.",
+      "example_en": "She has a really intriguing personality.",
+      "example_vi": "Cô ấy có một tính cách thực sự hấp dẫn.",
+      "collocations_json": [
+        "intriguing possibility",
+        "intriguing question",
+        "find something intriguing"
+      ],
+      "synonyms_json": [
+        "fascinating",
+        "interesting",
+        "captivating"
+      ],
+      "antonyms_json": [
+        "boring",
+        "uninteresting",
+        "dull"
+      ],
+      "mnemonic": "It creates intrigue (interest/curiosity).",
+      "frequency_rank": 7300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4766,
+    "fields": {
+      "word": "investigator",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈvɛstəˌɡeɪtər",
+      "ipa_us": "ɪnˈvɛstəˌɡeɪtər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "điều tra viên",
+      "definition_en": "A person whose job is to examine a crime, problem, statement, etc. in order to discover the truth.",
+      "example_en": "The lead investigator on the case gave a press conference.",
+      "example_vi": "Điều tra viên chính của vụ án đã tổ chức một cuộc họp báo.",
+      "collocations_json": [
+        "private investigator",
+        "lead investigator",
+        "police investigator"
+      ],
+      "synonyms_json": [
+        "detective",
+        "researcher",
+        "examiner"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A person who investigates.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4767,
+    "fields": {
+      "word": "invisible",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪnˈvɪzəbəl",
+      "ipa_us": "ɪnˈvɪzəbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vô hình, không thể nhìn thấy",
+      "definition_en": "Impossible to see.",
+      "example_en": "The aircraft is designed to be invisible to radar.",
+      "example_vi": "Máy bay được thiết kế để tàng hình trước radar.",
+      "collocations_json": [
+        "almost invisible",
+        "invisible to the naked eye",
+        "invisible barrier"
+      ],
+      "synonyms_json": [
+        "unseen",
+        "hidden",
+        "imperceptible"
+      ],
+      "antonyms_json": [
+        "visible",
+        "apparent",
+        "noticeable"
+      ],
+      "mnemonic": "In- (not) + visible (able to be seen).",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4768,
+    "fields": {
+      "word": "invoke",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɪnˈvoʊk",
+      "ipa_us": "ɪnˈvoʊk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "viện dẫn, cầu khẩn",
+      "definition_en": "To use a law in order to achieve something, or to mention something in order to explain something or to support your opinion or action.",
+      "example_en": "Police can invoke the law to regulate access to these places.",
+      "example_vi": "Cảnh sát có thể viện dẫn luật để điều chỉnh việc ra vào những nơi này.",
+      "collocations_json": [
+        "invoke a rule",
+        "invoke the law",
+        "invoke memories"
+      ],
+      "synonyms_json": [
+        "call upon",
+        "cite",
+        "appeal to"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "In- (in) + voke (voice). To call upon a higher power or rule.",
+      "frequency_rank": 7700,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4769,
+    "fields": {
+      "word": "involvement",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ɪnˈvɑlvmənt",
+      "ipa_us": "ɪnˈvɑlvmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự tham gia, sự liên quan",
+      "definition_en": "The act or process of taking part in something.",
+      "example_en": "He denied any involvement in the robbery.",
+      "example_vi": "Anh ta phủ nhận bất kỳ sự liên quan nào đến vụ cướp.",
+      "collocations_json": [
+        "direct involvement",
+        "personal involvement",
+        "deny involvement"
+      ],
+      "synonyms_json": [
+        "participation",
+        "connection",
+        "engagement"
+      ],
+      "antonyms_json": [
+        "detachment"
+      ],
+      "mnemonic": "Noun form of involve.",
+      "frequency_rank": 5000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4770,
+    "fields": {
+      "word": "ironic",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "aɪˈrɑnɪk",
+      "ipa_us": "aɪˈrɑnɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "mỉa mai, trớ trêu",
+      "definition_en": "Showing that you really mean the opposite of what you are saying; or (of a situation) unusual or amusing because something strange happens, or the opposite of what is expected happens.",
+      "example_en": "It is ironic that the author of such a happy book had such a sad life.",
+      "example_vi": "Thật trớ trêu khi tác giả của một cuốn sách hạnh phúc như vậy lại có một cuộc đời buồn bã.",
+      "collocations_json": [
+        "ironic twist",
+        "ironic comment",
+        "seem ironic"
+      ],
+      "synonyms_json": [
+        "sarcastic",
+        "satirical",
+        "paradoxical"
+      ],
+      "antonyms_json": [
+        "sincere",
+        "straightforward"
+      ],
+      "mnemonic": "Adjective form of irony.",
+      "frequency_rank": 7200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4771,
+    "fields": {
+      "word": "ironically",
+      "part_of_speech": "adverb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "aɪˈrɑnɪkli",
+      "ipa_us": "aɪˈrɑnɪkli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trớ trêu thay",
+      "definition_en": "In a way that is interesting, strange, or funny because of being very different from what you would expect.",
+      "example_en": "Ironically, these technological tools that were supposed to liberate us have left us working longer hours.",
+      "example_vi": "Trớ trêu thay, những công cụ công nghệ được cho là sẽ giải phóng chúng ta lại khiến chúng ta làm việc nhiều giờ hơn.",
+      "collocations_json": [
+        "ironically enough"
+      ],
+      "synonyms_json": [
+        "paradoxically",
+        "sarcastically"
+      ],
+      "antonyms_json": [
+        "sincerely"
+      ],
+      "mnemonic": "Adverb form of ironic.",
+      "frequency_rank": 7500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4772,
+    "fields": {
+      "word": "irony",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "art",
+      "ipa_uk": "ˈaɪrəni",
+      "ipa_us": "ˈaɪrəni",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự mỉa mai, sự trớ trêu",
+      "definition_en": "A situation in which something which was intended to have a particular result has the opposite or a very different result.",
+      "example_en": "The tragedy of the situation was full of bitter irony.",
+      "example_vi": "Bi kịch của tình huống này đầy rẫy sự trớ trêu cay đắng.",
+      "collocations_json": [
+        "bitter irony",
+        "cruel irony",
+        "sense of irony"
+      ],
+      "synonyms_json": [
+        "sarcasm",
+        "paradox",
+        "mockery"
+      ],
+      "antonyms_json": [
+        "sincerity"
+      ],
+      "mnemonic": "Like a fire station burning down.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4773,
+    "fields": {
+      "word": "irrelevant",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ɪˈrɛləvənt",
+      "ipa_us": "ɪˈrɛləvənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "không liên quan, không thích hợp",
+      "definition_en": "Not related to what is being discussed or considered and therefore not important.",
+      "example_en": "These documents are largely irrelevant to the present investigation.",
+      "example_vi": "Những tài liệu này phần lớn không liên quan đến cuộc điều tra hiện tại.",
+      "collocations_json": [
+        "completely irrelevant",
+        "largely irrelevant",
+        "become irrelevant"
+      ],
+      "synonyms_json": [
+        "unrelated",
+        "immaterial",
+        "inappropriate"
+      ],
+      "antonyms_json": [
+        "relevant",
+        "pertinent",
+        "applicable"
+      ],
+      "mnemonic": "Ir- (not) + relevant. Not relevant.",
+      "frequency_rank": 5400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4774,
+    "fields": {
+      "word": "isolation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "medical",
+      "ipa_uk": "ˌaɪsəˈleɪʃən",
+      "ipa_us": "ˌaɪsəˈleɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự cách ly, sự cô lập",
+      "definition_en": "The condition of being alone, especially when this makes you feel unhappy; or the fact that something is separate and not connected to other things.",
+      "example_en": "The prisoner was kept in solitary isolation.",
+      "example_vi": "Người tù bị giữ trong tình trạng biệt giam (cô lập một mình).",
+      "collocations_json": [
+        "splendid isolation",
+        "in isolation",
+        "social isolation"
+      ],
+      "synonyms_json": [
+        "separation",
+        "solitude",
+        "seclusion"
+      ],
+      "antonyms_json": [
+        "integration",
+        "connection"
+      ],
+      "mnemonic": "An island (isle) is isolated.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4775,
+    "fields": {
+      "word": "judicial",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ʤuˈdɪʃəl",
+      "ipa_us": "ʤuˈdɪʃəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về tư pháp, tòa án",
+      "definition_en": "Involving a law court.",
+      "example_en": "The judicial system must be fair and impartial.",
+      "example_vi": "Hệ thống tư pháp phải công bằng và vô tư.",
+      "collocations_json": [
+        "judicial review",
+        "judicial system",
+        "judicial process"
+      ],
+      "synonyms_json": [
+        "legal",
+        "juridical",
+        "court"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Relating to a judge or the justice system.",
+      "frequency_rank": 7000,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4776,
+    "fields": {
+      "word": "junction",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "travel",
+      "ipa_uk": "ˈʤʌŋkʃən",
+      "ipa_us": "ˈʤʌŋkʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giao lộ, ngã ba/tư",
+      "definition_en": "A place where things, especially roads or railways, come together.",
+      "example_en": "You should slow down as you approach the junction.",
+      "example_vi": "Bạn nên đi chậm lại khi đến gần giao lộ.",
+      "collocations_json": [
+        "major junction",
+        "railway junction",
+        "approach a junction"
+      ],
+      "synonyms_json": [
+        "intersection",
+        "crossroads",
+        "connection"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A junction is where paths join.",
+      "frequency_rank": 7800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4777,
+    "fields": {
+      "word": "jurisdiction",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌʤʊrəsˈdɪkʃən",
+      "ipa_us": "ˌdʒʊrɪsˈdɪkʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thẩm quyền, quyền tài phán",
+      "definition_en": "The authority of a court or official organization to make decisions and judgments.",
+      "example_en": "The matter falls outside the jurisdiction of this court.",
+      "example_vi": "Vấn đề này nằm ngoài thẩm quyền của tòa án này.",
+      "collocations_json": [
+        "within the jurisdiction",
+        "outside the jurisdiction",
+        "have jurisdiction over"
+      ],
+      "synonyms_json": [
+        "authority",
+        "power",
+        "control"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Jury (luật) + diction (lời nói) -> Quyền được lên tiếng phán xét (thẩm quyền).",
+      "frequency_rank": 6600,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4778,
+    "fields": {
+      "word": "just",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ʤʌst",
+      "ipa_us": "dʒʌst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "công bằng, đích đáng",
+      "definition_en": "Fair; morally correct.",
+      "example_en": "They believe that theirs is a just cause.",
+      "example_vi": "Họ tin rằng sự nghiệp của họ là một sự nghiệp chính nghĩa.",
+      "collocations_json": [
+        "just cause",
+        "just society",
+        "just reward"
+      ],
+      "synonyms_json": [
+        "fair",
+        "equitable",
+        "right"
+      ],
+      "antonyms_json": [
+        "unjust",
+        "unfair"
+      ],
+      "mnemonic": "Justice is about being just (fair).",
+      "frequency_rank": 5000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4779,
+    "fields": {
+      "word": "justification",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌʤʌstəfəˈkeɪʃən",
+      "ipa_us": "ˌdʒʌstɪfɪˈkeɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự bào chữa, lý do chính đáng",
+      "definition_en": "A good reason or explanation for something.",
+      "example_en": "There is no justification for treating people so badly.",
+      "example_vi": "Không có lý do chính đáng nào để đối xử với mọi người tồi tệ như vậy.",
+      "collocations_json": [
+        "no justification for",
+        "provide justification",
+        "moral justification"
+      ],
+      "synonyms_json": [
+        "reason",
+        "excuse",
+        "explanation"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of justify.",
+      "frequency_rank": 6100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4780,
+    "fields": {
+      "word": "kidnap",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈkɪdˌnæp",
+      "ipa_us": "ˈkɪdˌnæp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bắt cóc",
+      "definition_en": "To take a person away illegally by force, usually in order to demand money in exchange for releasing them.",
+      "example_en": "The millionaire's son was kidnapped and held for ransom.",
+      "example_vi": "Con trai của triệu phú đã bị bắt cóc và giữ lại để đòi tiền chuộc.",
+      "collocations_json": [
+        "kidnap a child",
+        "attempt to kidnap"
+      ],
+      "synonyms_json": [
+        "abduct",
+        "capture",
+        "seize"
+      ],
+      "antonyms_json": [
+        "release",
+        "liberate"
+      ],
+      "mnemonic": "Kid (đứa trẻ) + nap (nắm lấy) -> Bắt cóc.",
+      "frequency_rank": 6500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4781,
+    "fields": {
+      "word": "kidney",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "medical",
+      "ipa_uk": "ˈkɪdni",
+      "ipa_us": "ˈkɪdni",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quả thận",
+      "definition_en": "Either of a pair of small organs in the body that take away waste matter from the blood to produce urine.",
+      "example_en": "He had to undergo a kidney transplant.",
+      "example_vi": "Anh ấy đã phải trải qua một ca cấy ghép thận.",
+      "collocations_json": [
+        "kidney failure",
+        "kidney transplant",
+        "kidney bean"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Bán 1 quả thận (kidney) để mua iPhone.",
+      "frequency_rank": 6300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4782,
+    "fields": {
+      "word": "kingdom",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈkɪŋdəm",
+      "ipa_us": "ˈkɪŋdəm",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vương quốc",
+      "definition_en": "A country ruled by a king or queen.",
+      "example_en": "The United Kingdom consists of four countries.",
+      "example_vi": "Vương quốc Anh bao gồm bốn quốc gia.",
+      "collocations_json": [
+        "United Kingdom",
+        "animal kingdom",
+        "magic kingdom"
+      ],
+      "synonyms_json": [
+        "realm",
+        "empire",
+        "domain"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "King (vua) + dom (lãnh thổ) -> Vương quốc.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4783,
+    "fields": {
+      "word": "lad",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "læd",
+      "ipa_us": "læd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chàng trai, thanh niên",
+      "definition_en": "A boy or young man.",
+      "example_en": "A group of young lads were playing football in the street.",
+      "example_vi": "Một nhóm thanh niên trẻ đang chơi bóng đá trên phố.",
+      "collocations_json": [
+        "young lad",
+        "local lad",
+        "bit of a lad"
+      ],
+      "synonyms_json": [
+        "boy",
+        "youth",
+        "guy"
+      ],
+      "antonyms_json": [
+        "lass",
+        "girl"
+      ],
+      "mnemonic": "Lads and lasses (boys and girls).",
+      "frequency_rank": 7000,
+      "register": "informal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4784,
+    "fields": {
+      "word": "landlord",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈlænˌdlɔrd",
+      "ipa_us": "ˈlændˌlɔrd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chủ nhà (cho thuê)",
+      "definition_en": "A person or organization that owns a building or an area of land and is paid by other people for the use of it.",
+      "example_en": "The landlord refused to return our deposit.",
+      "example_vi": "Chủ nhà từ chối trả lại tiền đặt cọc của chúng tôi.",
+      "collocations_json": [
+        "private landlord",
+        "absentee landlord",
+        "contact the landlord"
+      ],
+      "synonyms_json": [
+        "owner",
+        "proprietor",
+        "host"
+      ],
+      "antonyms_json": [
+        "tenant",
+        "renter"
+      ],
+      "mnemonic": "Land (đất) + lord (chúa tể) -> Người chủ đất, chủ nhà.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4785,
+    "fields": {
+      "word": "landmark",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "travel",
+      "ipa_uk": "ˈlændˌmɑrk",
+      "ipa_us": "ˈlændˌmɑrk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cột mốc, bước ngoặt",
+      "definition_en": "A building or place that is easily recognized, especially one that you can use to judge where you are; or an important stage in something's development.",
+      "example_en": "The invention of the silicon chip was a landmark in the history of the computer.",
+      "example_vi": "Sự phát minh ra chip silicon là một bước ngoặt trong lịch sử máy tính.",
+      "collocations_json": [
+        "famous landmark",
+        "historic landmark",
+        "landmark decision"
+      ],
+      "synonyms_json": [
+        "milestone",
+        "turning point",
+        "monument"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Land + mark -> A mark on the land that everyone recognizes.",
+      "frequency_rank": 6800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4786,
+    "fields": {
+      "word": "lap",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "læp",
+      "ipa_us": "læp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đùi, vòng (đua)",
+      "definition_en": "The top surface of the upper part of the legs of a person who is sitting down; or one trip around a track in a race.",
+      "example_en": "Come and sit on my lap.",
+      "example_vi": "Đến đây và ngồi vào lòng tôi.",
+      "collocations_json": [
+        "sit on someone's lap",
+        "final lap",
+        "victory lap"
+      ],
+      "synonyms_json": [
+        "circuit",
+        "tour"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A LAPtop sits on your LAP.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4787,
+    "fields": {
+      "word": "large-scale",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "lɑrʤ-skeɪl",
+      "ipa_us": "ˈlɑrdʒˌskeɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quy mô lớn",
+      "definition_en": "Involving many people or things, or happening over a large area.",
+      "example_en": "The police launched a large-scale investigation.",
+      "example_vi": "Cảnh sát đã mở một cuộc điều tra quy mô lớn.",
+      "collocations_json": [
+        "large-scale production",
+        "large-scale operation",
+        "on a large scale"
+      ],
+      "synonyms_json": [
+        "extensive",
+        "massive",
+        "widespread"
+      ],
+      "antonyms_json": [
+        "small-scale",
+        "minor"
+      ],
+      "mnemonic": "Large (lớn) + scale (quy mô).",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4788,
+    "fields": {
+      "word": "laser",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "ˈleɪzər",
+      "ipa_us": "ˈleɪzər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tia laser",
+      "definition_en": "A device that produces a powerful, narrow beam of light that can be used for cutting hard substances, for surgery, etc.",
+      "example_en": "The doctor used a laser to perform the eye surgery.",
+      "example_vi": "Bác sĩ đã sử dụng tia laser để thực hiện ca phẫu thuật mắt.",
+      "collocations_json": [
+        "laser beam",
+        "laser printer",
+        "laser surgery"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Light Amplification by Stimulated Emission of Radiation (LASER).",
+      "frequency_rank": 6900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4789,
+    "fields": {
+      "word": "latter",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˈlætər",
+      "ipa_us": "ˈlætər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cái/người sau (trong 2 thứ), phần sau",
+      "definition_en": "Near or towards the end of something; or the second of two people, things, or groups previously mentioned.",
+      "example_en": "Building of the new library should begin in the latter part of next year.",
+      "example_vi": "Việc xây dựng thư viện mới sẽ bắt đầu vào phần cuối của năm tới.",
+      "collocations_json": [
+        "the latter half",
+        "in the latter case",
+        "the former and the latter"
+      ],
+      "synonyms_json": [
+        "second",
+        "last",
+        "later"
+      ],
+      "antonyms_json": [
+        "former",
+        "earlier"
+      ],
+      "mnemonic": "Latter is LATER in a sequence of two.",
+      "frequency_rank": 5200,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4790,
+    "fields": {
+      "word": "lawn",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "lɔn",
+      "ipa_us": "lɔn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bãi cỏ",
+      "definition_en": "An area of grass, especially near to a house or in a park, that is cut regularly to keep it short.",
+      "example_en": "He spends his weekends mowing the lawn.",
+      "example_vi": "Anh ấy dành những ngày cuối tuần để cắt cỏ.",
+      "collocations_json": [
+        "mow the lawn",
+        "front lawn",
+        "manicured lawn"
+      ],
+      "synonyms_json": [
+        "grass",
+        "yard",
+        "green"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A lawnmower mows the lawn.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4791,
+    "fields": {
+      "word": "lawsuit",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈlɔˌsut",
+      "ipa_us": "ˈlɔˌsut",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vụ kiện",
+      "definition_en": "A problem taken to a law court by an ordinary person or an organization rather than the police in order to obtain a legal decision.",
+      "example_en": "The company is facing a multi-million dollar lawsuit.",
+      "example_vi": "Công ty đang phải đối mặt với một vụ kiện trị giá hàng triệu đô la.",
+      "collocations_json": [
+        "file a lawsuit",
+        "face a lawsuit",
+        "class-action lawsuit"
+      ],
+      "synonyms_json": [
+        "case",
+        "suit",
+        "action"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Law + suit (a legal case).",
+      "frequency_rank": 6100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4792,
+    "fields": {
+      "word": "layout",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "ˈleɪˌaʊt",
+      "ipa_us": "ˈleɪˌaʊt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bố cục, cách bố trí",
+      "definition_en": "The way that something is arranged.",
+      "example_en": "I like the layout of this magazine.",
+      "example_vi": "Tôi thích bố cục của tạp chí này.",
+      "collocations_json": [
+        "page layout",
+        "keyboard layout",
+        "general layout"
+      ],
+      "synonyms_json": [
+        "arrangement",
+        "design",
+        "format"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "How things are LAID OUT.",
+      "frequency_rank": 6300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4793,
+    "fields": {
+      "word": "leak",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "lik",
+      "ipa_us": "lik",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "rò rỉ",
+      "definition_en": "(Of a liquid or gas) to escape from a hole or crack in a pipe or container; or (of secret information) to become known to the public.",
+      "example_en": "Water was leaking from the pipe.",
+      "example_vi": "Nước đang rò rỉ từ đường ống.",
+      "collocations_json": [
+        "leak information",
+        "gas leak",
+        "spring a leak"
+      ],
+      "synonyms_json": [
+        "drip",
+        "seep",
+        "reveal"
+      ],
+      "antonyms_json": [
+        "seal",
+        "conceal"
+      ],
+      "mnemonic": "A boat with a leak will sink.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4794,
+    "fields": {
+      "word": "leap",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "lip",
+      "ipa_us": "lip",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhảy vọt, bước nhảy",
+      "definition_en": "To make a large jump or sudden movement, usually from one place to another.",
+      "example_en": "The dog leaped over the fence.",
+      "example_vi": "Con chó đã nhảy vọt qua hàng rào.",
+      "collocations_json": [
+        "leap of faith",
+        "leap forward",
+        "leap into"
+      ],
+      "synonyms_json": [
+        "jump",
+        "bound",
+        "spring"
+      ],
+      "antonyms_json": [
+        "drop",
+        "plummet"
+      ],
+      "mnemonic": "A LEAP year has an extra day.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4795,
+    "fields": {
+      "word": "legacy",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈlɛɡəsi",
+      "ipa_us": "ˈlɛɡəsi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "di sản, tài sản kế thừa",
+      "definition_en": "Money or property that you receive from someone after they die; or something that is a part of your history or that remains from an earlier time.",
+      "example_en": "The Greeks have a rich cultural legacy.",
+      "example_vi": "Người Hy Lạp có một di sản văn hóa phong phú.",
+      "collocations_json": [
+        "leave a legacy",
+        "lasting legacy",
+        "cultural legacy"
+      ],
+      "synonyms_json": [
+        "inheritance",
+        "heritage",
+        "bequest"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "What you LEAVE for others is your LEGACY.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4796,
+    "fields": {
+      "word": "legendary",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈlɛʤənˌdɛri",
+      "ipa_us": "ˈlɛdʒənˌdɛri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "huyền thoại",
+      "definition_en": "Very famous and admired or spoken about.",
+      "example_en": "He is a legendary figure in the music industry.",
+      "example_vi": "Ông ấy là một nhân vật huyền thoại trong ngành công nghiệp âm nhạc.",
+      "collocations_json": [
+        "legendary status",
+        "legendary figure",
+        "truly legendary"
+      ],
+      "synonyms_json": [
+        "famous",
+        "mythical",
+        "fabled"
+      ],
+      "antonyms_json": [
+        "unknown",
+        "obscure"
+      ],
+      "mnemonic": "Adjective form of legend.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4797,
+    "fields": {
+      "word": "legislation",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˌlɛʤəˈsleɪʃən",
+      "ipa_us": "ˌlɛdʒɪˈsleɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "pháp luật, sự ban hành luật",
+      "definition_en": "A law or set of laws suggested by a government and made official by a parliament.",
+      "example_en": "The new legislation is aimed at protecting children.",
+      "example_vi": "Luật mới nhằm bảo vệ trẻ em.",
+      "collocations_json": [
+        "pass legislation",
+        "introduce legislation",
+        "environmental legislation"
+      ],
+      "synonyms_json": [
+        "law",
+        "statute",
+        "regulations"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of legislate (to make laws).",
+      "frequency_rank": 5100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4798,
+    "fields": {
+      "word": "legislative",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈlɛʤəˌsleɪtɪv",
+      "ipa_us": "ˈlɛdʒɪˌsleɪtɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc lập pháp",
+      "definition_en": "Relating to laws or the making of laws.",
+      "example_en": "The legislative branch of government makes the laws.",
+      "example_vi": "Nhánh lập pháp của chính phủ tạo ra luật pháp.",
+      "collocations_json": [
+        "legislative power",
+        "legislative assembly",
+        "legislative process"
+      ],
+      "synonyms_json": [
+        "lawmaking",
+        "parliamentary"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adjective form of legislation.",
+      "frequency_rank": 6100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4799,
+    "fields": {
+      "word": "legislature",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈlɛʤəˌsleɪʧər",
+      "ipa_us": "ˈlɛdʒɪˌsleɪtʃər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cơ quan lập pháp",
+      "definition_en": "The group of people in a country or part of a country who have the power to make and change laws.",
+      "example_en": "The proposal will be debated in the state legislature.",
+      "example_vi": "Đề xuất này sẽ được tranh luận tại cơ quan lập pháp tiểu bang.",
+      "collocations_json": [
+        "state legislature",
+        "national legislature",
+        "elected legislature"
+      ],
+      "synonyms_json": [
+        "parliament",
+        "congress",
+        "assembly"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "The body that creates legislation.",
+      "frequency_rank": 6800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4800,
+    "fields": {
+      "word": "legitimate",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ləˈʤɪtəmət",
+      "ipa_us": "lɪˈdʒɪtəmət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hợp pháp, chính đáng",
+      "definition_en": "Allowed by law, or reasonable and acceptable.",
+      "example_en": "He had a legitimate reason for being late.",
+      "example_vi": "Anh ấy có một lý do chính đáng cho việc đến muộn.",
+      "collocations_json": [
+        "legitimate concern",
+        "legitimate reason",
+        "perfectly legitimate"
+      ],
+      "synonyms_json": [
+        "legal",
+        "valid",
+        "lawful",
+        "justified"
+      ],
+      "antonyms_json": [
+        "illegitimate",
+        "illegal",
+        "invalid"
+      ],
+      "mnemonic": "Legit (ngắn gọn của legitimate) -> 'Hàng legit' là hàng thật, chính hãng.",
+      "frequency_rank": 5400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4801,
+    "fields": {
+      "word": "lengthy",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈlɛŋθi",
+      "ipa_us": "ˈlɛŋkθi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "dài dòng, dài lê thê",
+      "definition_en": "Continuing for a long time.",
+      "example_en": "We had a lengthy discussion about the problem.",
+      "example_vi": "Chúng tôi đã có một cuộc thảo luận dài dòng về vấn đề này.",
+      "collocations_json": [
+        "lengthy process",
+        "lengthy discussion",
+        "lengthy delay"
+      ],
+      "synonyms_json": [
+        "long",
+        "prolonged",
+        "extended"
+      ],
+      "antonyms_json": [
+        "brief",
+        "short",
+        "concise"
+      ],
+      "mnemonic": "Length + y -> Having a lot of length (time or space).",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4802,
+    "fields": {
+      "word": "lesbian",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈlɛzbiən",
+      "ipa_us": "ˈlɛzbiən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đồng tính nữ",
+      "definition_en": "Of or relating to gay women.",
+      "example_en": "She is in a long-term lesbian relationship.",
+      "example_vi": "Cô ấy đang ở trong một mối quan hệ đồng tính nữ lâu dài.",
+      "collocations_json": [
+        "lesbian couple",
+        "gay and lesbian"
+      ],
+      "synonyms_json": [
+        "gay"
+      ],
+      "antonyms_json": [
+        "heterosexual",
+        "straight"
+      ],
+      "mnemonic": "L in LGBTQ+.",
+      "frequency_rank": 7000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4803,
+    "fields": {
+      "word": "lesser",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈlɛsər",
+      "ipa_us": "ˈlɛsər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhỏ hơn, ít quan trọng hơn",
+      "definition_en": "Used to describe something that is not as great in size, amount, or importance as something else.",
+      "example_en": "Choose the lesser of two evils.",
+      "example_vi": "Hãy chọn cái ít tồi tệ hơn trong hai điều tồi tệ.",
+      "collocations_json": [
+        "lesser extent",
+        "to a lesser degree",
+        "lesser of two evils"
+      ],
+      "synonyms_json": [
+        "minor",
+        "inferior",
+        "slighter"
+      ],
+      "antonyms_json": [
+        "greater",
+        "major",
+        "superior"
+      ],
+      "mnemonic": "Less + er -> even less.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

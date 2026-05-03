@@ -1,0 +1,1866 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 3478,
+    "fields": {
+      "word": "broadly",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈbrɔdli",
+      "ipa_us": "ˈbrɔːdli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhìn chung, rộng rãi",
+      "definition_en": "In a general way, without considering specific examples or all the details.",
+      "example_en": "Broadly speaking, I agree with your assessment.",
+      "example_vi": "Nhìn chung, tôi đồng ý với đánh giá của bạn.",
+      "collocations_json": [
+        "broadly speaking",
+        "broadly similar",
+        "broadly defined"
+      ],
+      "synonyms_json": [
+        "generally",
+        "mainly",
+        "widely"
+      ],
+      "antonyms_json": [
+        "specifically",
+        "narrowly"
+      ],
+      "mnemonic": "Trạng từ của broad (rộng lớn).",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3479,
+    "fields": {
+      "word": "bug",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "technology",
+      "ipa_uk": "bʌɡ",
+      "ipa_us": "bʌɡ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bọ, lỗi (phần mềm)",
+      "definition_en": "A very small insect; a mistake or problem in a computer program.",
+      "example_en": "There's a bug in the software that needs fixing.",
+      "example_vi": "Có một lỗi trong phần mềm cần được sửa.",
+      "collocations_json": [
+        "computer bug",
+        "fix a bug",
+        "stomach bug"
+      ],
+      "synonyms_json": [
+        "error",
+        "glitch",
+        "insect"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Từ lóng chỉ lỗi phần mềm (bug) bắt nguồn từ việc một con bọ thật mắc kẹt trong máy tính thời xưa.",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3480,
+    "fields": {
+      "word": "cabin",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "travel",
+      "ipa_uk": "ˈkæbən",
+      "ipa_us": "ˈkæbɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "buồng (tàu, máy bay), nhà gỗ",
+      "definition_en": "A small room where you sleep in a ship; the area where passengers sit in an aircraft; a small wooden house.",
+      "example_en": "The cabin crew will serve drinks shortly.",
+      "example_vi": "Đội ngũ tiếp viên hàng không sẽ phục vụ đồ uống ngay sau đây.",
+      "collocations_json": [
+        "cabin crew",
+        "log cabin",
+        "first-class cabin"
+      ],
+      "synonyms_json": [
+        "hut",
+        "compartment",
+        "room"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Cái (ca) bình (bin) đặt trong một ngôi nhà gỗ nhỏ.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3481,
+    "fields": {
+      "word": "canal",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "nature",
+      "ipa_uk": "kəˈnæl",
+      "ipa_us": "kəˈnæl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kênh đào",
+      "definition_en": "A long, thin stretch of water that is artificially made either for boats to travel along or for taking water from one area to another.",
+      "example_en": "The Panama Canal connects the Atlantic and Pacific oceans.",
+      "example_vi": "Kênh đào Panama kết nối hai đại dương là Đại Tây Dương và Thái Bình Dương.",
+      "collocations_json": [
+        "Panama Canal",
+        "Suez Canal",
+        "build a canal"
+      ],
+      "synonyms_json": [
+        "channel",
+        "waterway"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Cá (ca) neo (nal) đậu lại ở bờ kênh.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3482,
+    "fields": {
+      "word": "candle",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈkændəl",
+      "ipa_us": "ˈkændl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cây nến",
+      "definition_en": "A stick-shaped piece of wax with a wick (piece of string) in the middle of it that produces light as it burns.",
+      "example_en": "She blew out the candles on her birthday cake.",
+      "example_vi": "Cô ấy đã thổi tắt những ngọn nến trên chiếc bánh sinh nhật của mình.",
+      "collocations_json": [
+        "blow out a candle",
+        "light a candle",
+        "candlelight"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Kem (can) đổ (dle) lên người khi đang cầm nến.",
+      "frequency_rank": 4200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3483,
+    "fields": {
+      "word": "carbon",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "science",
+      "ipa_uk": "ˈkɑrbən",
+      "ipa_us": "ˈkɑːrbən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "các-bon",
+      "definition_en": "A chemical element that exists in its pure form as diamond or graphite, and is an important part of other substances such as coal and oil.",
+      "example_en": "Trees absorb carbon dioxide and release oxygen.",
+      "example_vi": "Cây cối hấp thụ khí cacbonic và nhả ra khí oxy.",
+      "collocations_json": [
+        "carbon footprint",
+        "carbon dioxide",
+        "carbon emissions"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Nguyên tố hóa học Carbon.",
+      "frequency_rank": 2100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3484,
+    "fields": {
+      "word": "casual",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈkæʒəwəl",
+      "ipa_us": "ˈkæʒuəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bình thường, không trang trọng",
+      "definition_en": "Not formal; relaxed and not worried.",
+      "example_en": "You can wear casual clothes to the party.",
+      "example_vi": "Bạn có thể mặc quần áo bình thường (không trang trọng) đến bữa tiệc.",
+      "collocations_json": [
+        "casual clothes",
+        "casual relationship",
+        "casual remark"
+      ],
+      "synonyms_json": [
+        "informal",
+        "relaxed",
+        "relaxed"
+      ],
+      "antonyms_json": [
+        "formal",
+        "serious"
+      ],
+      "mnemonic": "Giày casual là giày đi chơi, thoải mái, không trang trọng.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3485,
+    "fields": {
+      "word": "cave",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "nature",
+      "ipa_uk": "keɪv",
+      "ipa_us": "keɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hang động",
+      "definition_en": "A large hole in the side of a hill, cliff, or mountain, or one that is underground.",
+      "example_en": "They explored a dark cave in the mountains.",
+      "example_vi": "Họ đã khám phá một hang động tối tăm trên núi.",
+      "collocations_json": [
+        "dark cave",
+        "limestone cave",
+        "cave painting"
+      ],
+      "synonyms_json": [
+        "cavern",
+        "grotto"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Trò chơi Caveman (Người tiền sử sống trong hang động).",
+      "frequency_rank": 4200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3486,
+    "fields": {
+      "word": "certainty",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈsɜrtənti",
+      "ipa_us": "ˈsɜːrtnti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự chắc chắn",
+      "definition_en": "The state of being completely confident or having no doubt about something.",
+      "example_en": "I can't say with absolute certainty that she will come.",
+      "example_vi": "Tôi không thể nói với sự chắc chắn tuyệt đối rằng cô ấy sẽ đến.",
+      "collocations_json": [
+        "absolute certainty",
+        "with certainty",
+        "degree of certainty"
+      ],
+      "synonyms_json": [
+        "assurance",
+        "confidence",
+        "sureness"
+      ],
+      "antonyms_json": [
+        "uncertainty",
+        "doubt"
+      ],
+      "mnemonic": "Danh từ của certain (chắc chắn).",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3487,
+    "fields": {
+      "word": "certificate",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "sərˈtɪfɪkət",
+      "ipa_us": "sərˈtɪfɪkət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giấy chứng nhận, chứng chỉ",
+      "definition_en": "An official document that states that the information on it is true.",
+      "example_en": "She has a certificate in advanced English.",
+      "example_vi": "Cô ấy có một chứng chỉ tiếng Anh cao cấp.",
+      "collocations_json": [
+        "birth certificate",
+        "medical certificate",
+        "degree certificate"
+      ],
+      "synonyms_json": [
+        "document",
+        "diploma",
+        "credential"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sợ (cer) ti (ti) phỉ (fi) kết (cate) -> Sợ bị phỉ báng nên phải thi lấy chứng chỉ.",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3488,
+    "fields": {
+      "word": "challenging",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈʧælənʤɪŋ",
+      "ipa_us": "ˈtʃælɪndʒɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đầy thử thách, khó khăn",
+      "definition_en": "Difficult, in a way that tests your ability or determination.",
+      "example_en": "This has been a very challenging year for the company.",
+      "example_vi": "Đây là một năm đầy thử thách đối với công ty.",
+      "collocations_json": [
+        "challenging task",
+        "challenging environment",
+        "intellectually challenging"
+      ],
+      "synonyms_json": [
+        "difficult",
+        "demanding",
+        "tough"
+      ],
+      "antonyms_json": [
+        "easy",
+        "simple"
+      ],
+      "mnemonic": "Tính từ của challenge (thử thách).",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3489,
+    "fields": {
+      "word": "championship",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈʧæmpiənˌʃɪp",
+      "ipa_us": "ˈtʃæmpiənʃɪp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chức vô địch, giải vô địch",
+      "definition_en": "A high-level competition to decide who is the best, especially in a sport.",
+      "example_en": "He won the world chess championship.",
+      "example_vi": "Anh ấy đã giành chức vô địch cờ vua thế giới.",
+      "collocations_json": [
+        "world championship",
+        "win a championship",
+        "championship match"
+      ],
+      "synonyms_json": [
+        "tournament",
+        "contest",
+        "title"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Champion (nhà vô địch) -> Championship (chức vô địch/giải vô địch).",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3490,
+    "fields": {
+      "word": "charming",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ˈʧɑrmɪŋ",
+      "ipa_us": "ˈtʃɑːrmɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quyến rũ, duyên dáng",
+      "definition_en": "Pleasant and attractive.",
+      "example_en": "She is a very charming and intelligent woman.",
+      "example_vi": "Cô ấy là một người phụ nữ rất duyên dáng và thông minh.",
+      "collocations_json": [
+        "charming smile",
+        "charming old house",
+        "find someone charming"
+      ],
+      "synonyms_json": [
+        "attractive",
+        "delightful",
+        "appealing"
+      ],
+      "antonyms_json": [
+        "repulsive",
+        "unpleasant"
+      ],
+      "mnemonic": "Prince Charming (Hoàng tử quyến rũ) trong các câu chuyện cổ tích.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3491,
+    "fields": {
+      "word": "chase",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ʧeɪs",
+      "ipa_us": "tʃeɪs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "săn đuổi, rượt đuổi",
+      "definition_en": "To hurry after someone or something in order to catch him, her, or it.",
+      "example_en": "The police car was chasing the suspect.",
+      "example_vi": "Xe cảnh sát đang rượt đuổi nghi phạm.",
+      "collocations_json": [
+        "chase after",
+        "car chase",
+        "give chase"
+      ],
+      "synonyms_json": [
+        "pursue",
+        "follow",
+        "hunt"
+      ],
+      "antonyms_json": [
+        "flee",
+        "run away"
+      ],
+      "mnemonic": "Chạy (cha) sút (se) cả giày để rượt theo tên trộm.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3492,
+    "fields": {
+      "word": "cheek",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "health",
+      "ipa_uk": "ʧik",
+      "ipa_us": "tʃiːk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "má",
+      "definition_en": "The soft part of your face that is below your eye and between your mouth and ear.",
+      "example_en": "She kissed him gently on the cheek.",
+      "example_vi": "Cô ấy hôn nhẹ lên má anh ấy.",
+      "collocations_json": [
+        "kiss on the cheek",
+        "rosy cheeks",
+        "turn the other cheek"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Chim chích (cheek) mổ vào má tớ.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3493,
+    "fields": {
+      "word": "cheer",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "ʧɪr",
+      "ipa_us": "tʃɪr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự hò reo, cổ vũ",
+      "definition_en": "To give a loud shout of approval or encouragement.",
+      "example_en": "The crowd cheered when the band came on stage.",
+      "example_vi": "Đám đông đã hò reo khi ban nhạc bước lên sân khấu.",
+      "collocations_json": [
+        "cheer up",
+        "loud cheer",
+        "cheer for"
+      ],
+      "synonyms_json": [
+        "applaud",
+        "shout",
+        "encourage"
+      ],
+      "antonyms_json": [
+        "boo",
+        "jeer"
+      ],
+      "mnemonic": "Cheers! (Cạn ly! / Cổ vũ).",
+      "frequency_rank": 3900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3494,
+    "fields": {
+      "word": "choir",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "art",
+      "ipa_uk": "ˈkwaɪər",
+      "ipa_us": "ˈkwaɪər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "dàn đồng ca",
+      "definition_en": "A group of people who sing together.",
+      "example_en": "He sings in the church choir.",
+      "example_vi": "Anh ấy hát trong dàn đồng ca của nhà thờ.",
+      "collocations_json": [
+        "church choir",
+        "school choir",
+        "sing in a choir"
+      ],
+      "synonyms_json": [
+        "chorus",
+        "singers"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Khoai (choi) ờ (r) -> Hát đồng ca thì phải ăn khoai cho trơn giọng.",
+      "frequency_rank": 4100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3495,
+    "fields": {
+      "word": "chop",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "food",
+      "ipa_uk": "ʧɑp",
+      "ipa_us": "tʃɑːp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chặt, thái nhỏ",
+      "definition_en": "To cut something into pieces with an axe, knife, or other sharp instrument.",
+      "example_en": "Chop the onions finely.",
+      "example_vi": "Thái nhỏ hành tây ra.",
+      "collocations_json": [
+        "chop down",
+        "chop up",
+        "finely chopped"
+      ],
+      "synonyms_json": [
+        "cut",
+        "slice",
+        "dice"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Tiếng chặt thịt trên thớt kêu chóp (chop) chóp.",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3496,
+    "fields": {
+      "word": "circuit",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "technology",
+      "ipa_uk": "ˈsɜrkət",
+      "ipa_us": "ˈsɜːrkɪt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "mạch điện, vòng đua",
+      "definition_en": "A closed system of wires or pipes through which electricity or liquid can flow; a track for racing.",
+      "example_en": "A short circuit caused the fire.",
+      "example_vi": "Một sự đoản mạch đã gây ra vụ hỏa hoạn.",
+      "collocations_json": [
+        "short circuit",
+        "electrical circuit",
+        "circuit board"
+      ],
+      "synonyms_json": [
+        "loop",
+        "track",
+        "route"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sơ (cir) cút (cuit) -> Sơ ý làm đứt dây mạch điện.",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3497,
+    "fields": {
+      "word": "civilization",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˌsɪvəlɪˈzeɪʃən",
+      "ipa_us": "ˌsɪvələˈzeɪʃn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nền văn minh",
+      "definition_en": "Human society with its well developed social organizations, or the culture and way of life of a society or country at a particular period in time.",
+      "example_en": "Ancient Egyptian civilization is fascinating.",
+      "example_vi": "Nền văn minh Ai Cập cổ đại rất thú vị.",
+      "collocations_json": [
+        "ancient civilization",
+        "modern civilization",
+        "Western civilization"
+      ],
+      "synonyms_json": [
+        "society",
+        "culture",
+        "advancement"
+      ],
+      "antonyms_json": [
+        "barbarism",
+        "savagery"
+      ],
+      "mnemonic": "Game đế chế Civilization (Xây dựng nền văn minh).",
+      "frequency_rank": 3500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3498,
+    "fields": {
+      "word": "clarify",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈklɛrəˌfaɪ",
+      "ipa_us": "ˈklærəfaɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "làm rõ, làm sáng tỏ",
+      "definition_en": "To make something clear or easier to understand by giving more details or a simpler explanation.",
+      "example_en": "Could you clarify the first point you made?",
+      "example_vi": "Bạn có thể làm rõ điểm đầu tiên mà bạn đã đưa ra không?",
+      "collocations_json": [
+        "clarify a point",
+        "clarify the situation",
+        "seek to clarify"
+      ],
+      "synonyms_json": [
+        "explain",
+        "clear up",
+        "elucidate"
+      ],
+      "antonyms_json": [
+        "confuse",
+        "obscure",
+        "complicate"
+      ],
+      "mnemonic": "Clear (rõ ràng) -> Clarify (làm cho rõ ràng).",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3499,
+    "fields": {
+      "word": "classify",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈklæsəˌfaɪ",
+      "ipa_us": "ˈklæsɪfaɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phân loại",
+      "definition_en": "To divide things into groups according to their type.",
+      "example_en": "Biologists classify animals and plants into different groups.",
+      "example_vi": "Các nhà sinh vật học phân loại động vật và thực vật thành các nhóm khác nhau.",
+      "collocations_json": [
+        "classify into",
+        "classify as",
+        "broadly classify"
+      ],
+      "synonyms_json": [
+        "categorize",
+        "group",
+        "sort"
+      ],
+      "antonyms_json": [
+        "mix up"
+      ],
+      "mnemonic": "Class (lớp học/hạng) -> Classify (chia vào các lớp/phân loại).",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3500,
+    "fields": {
+      "word": "clerk",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "klɜrk",
+      "ipa_us": "klɜːrk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhân viên bán hàng, thư ký",
+      "definition_en": "A person who works in an office, dealing with records or performing general office duties; a person who works in a shop.",
+      "example_en": "Ask the clerk at the front desk for your room key.",
+      "example_vi": "Hãy hỏi nhân viên ở quầy lễ tân để lấy chìa khóa phòng của bạn.",
+      "collocations_json": [
+        "desk clerk",
+        "bank clerk",
+        "sales clerk"
+      ],
+      "synonyms_json": [
+        "assistant",
+        "worker",
+        "receptionist"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Cờ (c) lợt (lerk) -> Nhân viên bị sếp làm cho lợt nhạt.",
+      "frequency_rank": 3700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3501,
+    "fields": {
+      "word": "cliff",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "nature",
+      "ipa_uk": "klɪf",
+      "ipa_us": "klɪf",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vách đá",
+      "definition_en": "A high area of rock with a very steep side, often on a coast.",
+      "example_en": "Keep away from the edge of the cliff.",
+      "example_vi": "Hãy tránh xa mép vách đá.",
+      "collocations_json": [
+        "steep cliff",
+        "edge of the cliff",
+        "cliff face"
+      ],
+      "synonyms_json": [
+        "precipice",
+        "crag",
+        "bluff"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Cờ (c) líp (liff) -> Đứng trên vách đá quay một cái cờ-líp.",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3502,
+    "fields": {
+      "word": "clinic",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "medical",
+      "ipa_uk": "ˈklɪnɪk",
+      "ipa_us": "ˈklɪnɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phòng khám",
+      "definition_en": "A building, often part of a hospital, to which people can go for medical care or advice relating to a particular condition.",
+      "example_en": "Bring your baby to the clinic for her vaccinations.",
+      "example_vi": "Hãy mang em bé của bạn đến phòng khám để tiêm chủng.",
+      "collocations_json": [
+        "dental clinic",
+        "health clinic",
+        "attend a clinic"
+      ],
+      "synonyms_json": [
+        "health center",
+        "dispensary",
+        "infirmary"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Cờ (c) lí (li) nịch (nic) -> Đến phòng khám vì bị đau nách.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3503,
+    "fields": {
+      "word": "clip",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "klɪp",
+      "ipa_us": "klɪp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đoạn phim ngắn, cái kẹp",
+      "definition_en": "A short part of a film or television programme; a small object usually made of metal or plastic, used for fastening things together or holding them in position.",
+      "example_en": "I've seen a clip from the movie.",
+      "example_vi": "Tôi đã xem một đoạn ngắn từ bộ phim.",
+      "collocations_json": [
+        "video clip",
+        "paper clip",
+        "hair clip"
+      ],
+      "synonyms_json": [
+        "excerpt",
+        "fastener",
+        "pin"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Paper clip là cái kẹp giấy, video clip là một đoạn phim/nhạc ngắn.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3504,
+    "fields": {
+      "word": "coincidence",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "koʊˈɪnsɪdəns",
+      "ipa_us": "koʊˈɪnsɪdəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự trùng hợp",
+      "definition_en": "An occasion when two or more similar things happen at the same time, especially in a way that is unlikely and surprising.",
+      "example_en": "What a coincidence! I wasn't expecting to see you here.",
+      "example_vi": "Thật là một sự trùng hợp! Tôi không ngờ lại gặp bạn ở đây.",
+      "collocations_json": [
+        "pure coincidence",
+        "happy coincidence",
+        "by coincidence"
+      ],
+      "synonyms_json": [
+        "accident",
+        "chance",
+        "fluke"
+      ],
+      "antonyms_json": [
+        "design",
+        "plan"
+      ],
+      "mnemonic": "Cô (co) in (in) si (ci) đần (dence) -> Cô ấy in ấn sai một cách trùng hợp.",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3505,
+    "fields": {
+      "word": "collector",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "everyday",
+      "ipa_uk": "kəˈlɛktər",
+      "ipa_us": "kəˈlektər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người sưu tầm",
+      "definition_en": "Someone who collects objects because they are beautiful, valuable, or interesting.",
+      "example_en": "He is a keen stamp collector.",
+      "example_vi": "Anh ấy là một người say mê sưu tập tem.",
+      "collocations_json": [
+        "stamp collector",
+        "art collector",
+        "ticket collector"
+      ],
+      "synonyms_json": [
+        "gatherer",
+        "hoarder"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Collect (thu thập) + or (người) -> người sưu tầm.",
+      "frequency_rank": 3900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3506,
+    "fields": {
+      "word": "colony",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "ˈkɑləni",
+      "ipa_us": "ˈkɑːləni",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc địa, bầy đàn",
+      "definition_en": "A country or area controlled politically by a more powerful country; a group of animals, insects, or plants of the same type that live together.",
+      "example_en": "Vietnam was once a French colony.",
+      "example_vi": "Việt Nam đã từng là một thuộc địa của Pháp.",
+      "collocations_json": [
+        "former colony",
+        "ant colony",
+        "penal colony"
+      ],
+      "synonyms_json": [
+        "settlement",
+        "territory",
+        "community"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Có (co) lo (lo) ni (ny) -> Có lo nghĩ nhiều cũng phải sống kiếp thuộc địa.",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3507,
+    "fields": {
+      "word": "colourful",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "art",
+      "ipa_uk": "colourful",
+      "ipa_us": "ˈkʌlərfəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhiều màu sắc, rực rỡ",
+      "definition_en": "Having bright colours or a lot of different colours; interesting and exciting.",
+      "example_en": "She was wearing a very colourful dress.",
+      "example_vi": "Cô ấy đang mặc một chiếc váy rất rực rỡ nhiều màu sắc.",
+      "collocations_json": [
+        "brightly colourful",
+        "colourful character",
+        "colourful history"
+      ],
+      "synonyms_json": [
+        "bright",
+        "vivid",
+        "vibrant"
+      ],
+      "antonyms_json": [
+        "dull",
+        "colourless",
+        "drab"
+      ],
+      "mnemonic": "Colour (màu sắc) + ful (nhiều/đầy). (Anh-Mỹ viết là colorful).",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3508,
+    "fields": {
+      "word": "comic",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "art",
+      "ipa_uk": "ˈkɑmɪk",
+      "ipa_us": "ˈkɑːmɪk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hài hước, truyện tranh",
+      "definition_en": "Funny and making you want to laugh; a magazine or book that contains a set of stories told in pictures.",
+      "example_en": "He is a famous comic actor.",
+      "example_vi": "Anh ấy là một diễn viên hài nổi tiếng.",
+      "collocations_json": [
+        "comic book",
+        "comic relief",
+        "stand-up comic"
+      ],
+      "synonyms_json": [
+        "funny",
+        "amusing",
+        "comedian"
+      ],
+      "antonyms_json": [
+        "serious",
+        "tragic"
+      ],
+      "mnemonic": "Truyện tranh Marvel hay DC đều là Comic books.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3509,
+    "fields": {
+      "word": "commander",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "kəˈmændər",
+      "ipa_us": "kəˈmændər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "người chỉ huy",
+      "definition_en": "An officer who is in charge of a military operation, or an officer of a particular rank in many countries' naval forces.",
+      "example_en": "The commander ordered his troops to attack.",
+      "example_vi": "Người chỉ huy ra lệnh cho đội quân của mình tấn công.",
+      "collocations_json": [
+        "military commander",
+        "base commander",
+        "commander in chief"
+      ],
+      "synonyms_json": [
+        "leader",
+        "officer",
+        "captain"
+      ],
+      "antonyms_json": [
+        "subordinate",
+        "follower"
+      ],
+      "mnemonic": "Command (ra lệnh) + er (người) -> Người ra lệnh (chỉ huy).",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3510,
+    "fields": {
+      "word": "comparative",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "kəmˈpɛrətɪv",
+      "ipa_us": "kəmˈpærətɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tương đối, so sánh",
+      "definition_en": "Measured or judged by estimating the similarity or dissimilarity between one thing and another; relative.",
+      "example_en": "He enjoyed a life of comparative comfort.",
+      "example_vi": "Anh ấy đã tận hưởng một cuộc sống tương đối thoải mái.",
+      "collocations_json": [
+        "comparative advantage",
+        "comparative study",
+        "in comparative safety"
+      ],
+      "synonyms_json": [
+        "relative",
+        "proportional",
+        "comparing"
+      ],
+      "antonyms_json": [
+        "absolute"
+      ],
+      "mnemonic": "Compare (so sánh) -> Comparative (liên quan đến so sánh).",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3511,
+    "fields": {
+      "word": "completion",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "kəmˈpliʃən",
+      "ipa_us": "kəmˈpliːʃn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự hoàn thành",
+      "definition_en": "The act of finishing something that you are doing or making.",
+      "example_en": "The project is nearing completion.",
+      "example_vi": "Dự án đang gần hoàn thành.",
+      "collocations_json": [
+        "near completion",
+        "successful completion",
+        "on completion of"
+      ],
+      "synonyms_json": [
+        "conclusion",
+        "finish",
+        "end"
+      ],
+      "antonyms_json": [
+        "beginning",
+        "start"
+      ],
+      "mnemonic": "Danh từ của complete (hoàn thành).",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3512,
+    "fields": {
+      "word": "compose",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "art",
+      "ipa_uk": "kəmˈpoʊz",
+      "ipa_us": "kəmˈpoʊz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sáng tác, bao gồm",
+      "definition_en": "To produce music, poetry, or formal writing; to be the parts that something is made of.",
+      "example_en": "Water is composed of hydrogen and oxygen.",
+      "example_vi": "Nước được cấu tạo (bao gồm) bởi hydro và oxy.",
+      "collocations_json": [
+        "compose music",
+        "be composed of",
+        "compose yourself"
+      ],
+      "synonyms_json": [
+        "make up",
+        "constitute",
+        "write"
+      ],
+      "antonyms_json": [
+        "destroy",
+        "ruin"
+      ],
+      "mnemonic": "Cơm (com) pâu (pose) -> Cơm phải bón bằng pâu mới sáng tác nhạc được.",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3513,
+    "fields": {
+      "word": "composer",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "art",
+      "ipa_uk": "kəmˈpoʊzər",
+      "ipa_us": "kəmˈpoʊzər",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhà soạn nhạc",
+      "definition_en": "A person who writes music.",
+      "example_en": "Beethoven is a famous classical composer.",
+      "example_vi": "Beethoven là một nhà soạn nhạc cổ điển nổi tiếng.",
+      "collocations_json": [
+        "famous composer",
+        "classical composer",
+        "music composer"
+      ],
+      "synonyms_json": [
+        "songwriter",
+        "musician"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Compose (sáng tác) + er -> Người sáng tác nhạc.",
+      "frequency_rank": 4000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3514,
+    "fields": {
+      "word": "compound",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈkɑmpaʊnd",
+      "ipa_us": "ˈkɑːmpaʊnd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hợp chất, khu phức hợp",
+      "definition_en": "A chemical that combines two or more elements; an area surrounded by fences or walls that contains a group of buildings.",
+      "example_en": "Salt is a compound of sodium and chlorine.",
+      "example_vi": "Muối là một hợp chất của natri và clo.",
+      "collocations_json": [
+        "chemical compound",
+        "prison compound",
+        "military compound"
+      ],
+      "synonyms_json": [
+        "mixture",
+        "blend",
+        "complex"
+      ],
+      "antonyms_json": [
+        "element"
+      ],
+      "mnemonic": "Cơm (com) pao (pound) -> Trộn cơm với pao để tạo thành một hợp chất mới.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3515,
+    "fields": {
+      "word": "comprehensive",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˌkɑmpriˈhɛnsɪv",
+      "ipa_us": "ˌkɑːmprɪˈhensɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "toàn diện, bao quát",
+      "definition_en": "Complete and including everything that is necessary.",
+      "example_en": "We offer a comprehensive training program for new staff.",
+      "example_vi": "Chúng tôi cung cấp một chương trình đào tạo toàn diện cho nhân viên mới.",
+      "collocations_json": [
+        "comprehensive review",
+        "comprehensive study",
+        "comprehensive guide"
+      ],
+      "synonyms_json": [
+        "thorough",
+        "complete",
+        "inclusive"
+      ],
+      "antonyms_json": [
+        "limited",
+        "partial",
+        "incomplete"
+      ],
+      "mnemonic": "Comprehend (hiểu) -> Comprehensive (bao quát hết mọi thứ để hiểu).",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3516,
+    "fields": {
+      "word": "comprise",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "kəmˈpraɪz",
+      "ipa_us": "kəmˈpraɪz",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bao gồm, gồm có",
+      "definition_en": "To have things or people as parts or members; to consist of.",
+      "example_en": "The course comprises a class book, a practice book, and a CD.",
+      "example_vi": "Khóa học bao gồm một sách giáo khoa, một sách bài tập và một đĩa CD.",
+      "collocations_json": [
+        "be comprised of",
+        "mainly comprise"
+      ],
+      "synonyms_json": [
+        "consist of",
+        "make up",
+        "contain"
+      ],
+      "antonyms_json": [
+        "exclude"
+      ],
+      "mnemonic": "Cơm (com) pờ rai (prise) -> Cơm rang thì bao gồm cơm và nhiều thứ khác.",
+      "frequency_rank": 3300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3517,
+    "fields": {
+      "word": "compulsory",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "kəmˈpʌlsəri",
+      "ipa_us": "kəmˈpʌlsəri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bắt buộc",
+      "definition_en": "If something is compulsory, you must do it because of a rule or law.",
+      "example_en": "Maths and English are compulsory subjects at this school.",
+      "example_vi": "Toán và tiếng Anh là những môn học bắt buộc tại trường này.",
+      "collocations_json": [
+        "compulsory education",
+        "compulsory subject",
+        "make it compulsory"
+      ],
+      "synonyms_json": [
+        "mandatory",
+        "obligatory",
+        "required"
+      ],
+      "antonyms_json": [
+        "optional",
+        "voluntary"
+      ],
+      "mnemonic": "Cầm (com) pân (pul) sờ (so) ri (ry) -> Bị bắt buộc cầm quả táo sần sùi.",
+      "frequency_rank": 4100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3518,
+    "fields": {
+      "word": "concrete",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "ˈkɑnkrit",
+      "ipa_us": "ˈkɑːnkriːt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "bê tông, cụ thể",
+      "definition_en": "A very hard building material made by mixing together cement, sand, small stones, and water; clear and certain, or real and existing in a form that can be seen or felt.",
+      "example_en": "They need some concrete evidence before they can arrest him.",
+      "example_vi": "Họ cần một số bằng chứng cụ thể trước khi có thể bắt giữ anh ta.",
+      "collocations_json": [
+        "concrete evidence",
+        "concrete block",
+        "pour concrete"
+      ],
+      "synonyms_json": [
+        "solid",
+        "real",
+        "tangible"
+      ],
+      "antonyms_json": [
+        "abstract",
+        "vague"
+      ],
+      "mnemonic": "Con (con) cờ rít (crete) rít trên đường bê tông.",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3519,
+    "fields": {
+      "word": "confess",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "kənˈfɛs",
+      "ipa_us": "kənˈfes",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thú nhận, xưng tội",
+      "definition_en": "To admit that you have done something wrong or something that you feel guilty or bad about.",
+      "example_en": "He finally confessed to the crime.",
+      "example_vi": "Cuối cùng anh ta cũng thú nhận tội ác.",
+      "collocations_json": [
+        "confess to a crime",
+        "openly confess",
+        "confess that"
+      ],
+      "synonyms_json": [
+        "admit",
+        "acknowledge",
+        "own up"
+      ],
+      "antonyms_json": [
+        "deny",
+        "conceal"
+      ],
+      "mnemonic": "Còn (con) phét (fess) lác gì nữa, thú tội đi.",
+      "frequency_rank": 3600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3520,
+    "fields": {
+      "word": "confusion",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "kənˈfjuʒən",
+      "ipa_us": "kənˈfjuːʒn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự nhầm lẫn, sự bối rối",
+      "definition_en": "A situation in which people do not understand what is happening, what they should do or who someone or something is.",
+      "example_en": "There seems to be some confusion over who is actually in charge.",
+      "example_vi": "Dường như có sự nhầm lẫn về việc ai thực sự là người phụ trách.",
+      "collocations_json": [
+        "state of confusion",
+        "cause confusion",
+        "avoid confusion"
+      ],
+      "synonyms_json": [
+        "disorder",
+        "chaos",
+        "bewilderment"
+      ],
+      "antonyms_json": [
+        "clarity",
+        "certainty"
+      ],
+      "mnemonic": "Danh từ của confuse (làm bối rối).",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3521,
+    "fields": {
+      "word": "consequently",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "ˈkɑnsəkwəntli",
+      "ipa_us": "ˈkɑːnsɪkwentli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "do đó, hậu quả là",
+      "definition_en": "As a result.",
+      "example_en": "I spent most of my money in the first week and consequently had very little to eat by the end of the holiday.",
+      "example_vi": "Tôi đã tiêu hầu hết số tiền của mình trong tuần đầu tiên và hậu quả là có rất ít đồ ăn vào cuối kỳ nghỉ.",
+      "collocations_json": [
+        "and consequently"
+      ],
+      "synonyms_json": [
+        "therefore",
+        "as a result",
+        "thus"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Trạng từ của consequence (hậu quả).",
+      "frequency_rank": 3100,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3522,
+    "fields": {
+      "word": "conservation",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "nature",
+      "ipa_uk": "ˌkɑnsərˈveɪʃən",
+      "ipa_us": "ˌkɑːnsərˈveɪʃn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự bảo tồn",
+      "definition_en": "The protection of plants and animals, natural areas, and interesting and important structures and buildings, especially from the damaging effects of human activity.",
+      "example_en": "Wildlife conservation is essential to maintain ecological balance.",
+      "example_vi": "Bảo tồn động vật hoang dã là điều cần thiết để duy trì sự cân bằng sinh thái.",
+      "collocations_json": [
+        "wildlife conservation",
+        "energy conservation",
+        "conservation area"
+      ],
+      "synonyms_json": [
+        "preservation",
+        "protection",
+        "saving"
+      ],
+      "antonyms_json": [
+        "destruction",
+        "waste"
+      ],
+      "mnemonic": "Danh từ của conserve (bảo tồn).",
+      "frequency_rank": 3400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3523,
+    "fields": {
+      "word": "considerable",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "kənˈsɪdərəbəl",
+      "ipa_us": "kənˈsɪdərəbl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đáng kể, to lớn",
+      "definition_en": "Large or of noticeable importance.",
+      "example_en": "The fire caused considerable damage to the building.",
+      "example_vi": "Vụ hỏa hoạn đã gây ra thiệt hại đáng kể cho tòa nhà.",
+      "collocations_json": [
+        "considerable amount",
+        "considerable influence",
+        "considerable effort"
+      ],
+      "synonyms_json": [
+        "significant",
+        "substantial",
+        "sizable"
+      ],
+      "antonyms_json": [
+        "insignificant",
+        "minor",
+        "small"
+      ],
+      "mnemonic": "Consider (cân nhắc) + able -> Đáng để cân nhắc (đáng kể).",
+      "frequency_rank": 2600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3524,
+    "fields": {
+      "word": "considerably",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "kənˈsɪdərəbli",
+      "ipa_us": "kənˈsɪdərəbli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một cách đáng kể",
+      "definition_en": "To a large, noticeable, or important degree.",
+      "example_en": "The situation has improved considerably.",
+      "example_vi": "Tình hình đã được cải thiện một cách đáng kể.",
+      "collocations_json": [
+        "increase considerably",
+        "differ considerably",
+        "reduce considerably"
+      ],
+      "synonyms_json": [
+        "significantly",
+        "substantially",
+        "greatly"
+      ],
+      "antonyms_json": [
+        "slightly",
+        "marginally"
+      ],
+      "mnemonic": "Trạng từ của considerable (đáng kể).",
+      "frequency_rank": 3100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3525,
+    "fields": {
+      "word": "consistently",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "academic",
+      "ipa_uk": "kənˈsɪstəntli",
+      "ipa_us": "kənˈsɪstəntli",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một cách nhất quán, liên tục",
+      "definition_en": "In a way that does not change.",
+      "example_en": "He has consistently denied the allegations.",
+      "example_vi": "Anh ta đã liên tục phủ nhận các cáo buộc.",
+      "collocations_json": [
+        "consistently high",
+        "consistently good",
+        "perform consistently"
+      ],
+      "synonyms_json": [
+        "regularly",
+        "constantly",
+        "always"
+      ],
+      "antonyms_json": [
+        "inconsistently",
+        "erratically"
+      ],
+      "mnemonic": "Trạng từ của consistent (nhất quán).",
+      "frequency_rank": 2900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3526,
+    "fields": {
+      "word": "conspiracy",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "general",
+      "ipa_uk": "kənˈspɪrəsi",
+      "ipa_us": "kənˈspɪrəsi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "âm mưu",
+      "definition_en": "The activity of secretly planning with other people to do something bad or illegal.",
+      "example_en": "He was charged with conspiracy to commit murder.",
+      "example_vi": "Anh ta bị buộc tội âm mưu giết người.",
+      "collocations_json": [
+        "conspiracy theory",
+        "criminal conspiracy",
+        "uncover a conspiracy"
+      ],
+      "synonyms_json": [
+        "plot",
+        "scheme",
+        "intrigue"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Còn (con) sờ (s) pi (pi) ra (ra) xì (cy) -> Còn sờ mấy tờ giấy mật để tạo ra âm mưu.",
+      "frequency_rank": 3800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 3527,
+    "fields": {
+      "word": "consult",
+      "part_of_speech": "other",
+      "cefr_level": "B2",
+      "domain": "business",
+      "ipa_uk": "kənˈsʌlt",
+      "ipa_us": "kənˈsʌlt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hỏi ý kiến, tham khảo",
+      "definition_en": "To get information or advice from a person, book, etc. with special knowledge on a particular subject.",
+      "example_en": "If the symptoms get worse, consult your doctor.",
+      "example_vi": "Nếu các triệu chứng trở nên tồi tệ hơn, hãy hỏi ý kiến bác sĩ của bạn.",
+      "collocations_json": [
+        "consult a doctor",
+        "consult a lawyer",
+        "consult with"
+      ],
+      "synonyms_json": [
+        "ask",
+        "seek advice",
+        "refer to"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Consultant là chuyên gia tư vấn -> consult là tham khảo ý kiến.",
+      "frequency_rank": 2800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": true,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

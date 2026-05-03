@@ -1,0 +1,1884 @@
+[
+  {
+    "model": "vocabulary.word",
+    "pk": 4654,
+    "fields": {
+      "word": "grave",
+      "part_of_speech": "other",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɡreɪv",
+      "ipa_us": "ɡreɪv",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ngôi mộ, nghiêm trọng",
+      "definition_en": "A place in the ground where a dead body is buried; or (of situations, feelings, or people) seriously bad or important.",
+      "example_en": "The situation is a matter of grave concern.",
+      "example_vi": "Tình hình là một vấn đề đáng lo ngại nghiêm trọng.",
+      "collocations_json": [
+        "grave concern",
+        "visit a grave",
+        "grave consequences"
+      ],
+      "synonyms_json": [
+        "tomb",
+        "serious",
+        "severe"
+      ],
+      "antonyms_json": [
+        "trivial",
+        "minor"
+      ],
+      "mnemonic": "A situation so bad it could put you in a grave.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4655,
+    "fields": {
+      "word": "gravity",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "science",
+      "ipa_uk": "ˈɡrævəti",
+      "ipa_us": "ˈɡrævəti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "trọng lực, sự nghiêm trọng",
+      "definition_en": "The force that attracts objects towards one another, especially the force that makes things fall to the ground; or the seriousness of a situation.",
+      "example_en": "I don't think you understand the gravity of the situation.",
+      "example_vi": "Tôi không nghĩ bạn hiểu được mức độ nghiêm trọng của tình hình.",
+      "collocations_json": [
+        "force of gravity",
+        "gravity of the situation",
+        "defy gravity"
+      ],
+      "synonyms_json": [
+        "seriousness",
+        "importance",
+        "weight"
+      ],
+      "antonyms_json": [
+        "lightness",
+        "triviality"
+      ],
+      "mnemonic": "Gravity pulls things down; a grave situation weighs you down.",
+      "frequency_rank": 5600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4656,
+    "fields": {
+      "word": "grid",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "ɡrɪd",
+      "ipa_us": "ɡrɪd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hệ thống lưới, mạng lưới (điện)",
+      "definition_en": "A pattern or structure made from horizontal and vertical lines crossing each other to form squares; or a system of wires through which electricity is connected to different power stations.",
+      "example_en": "The city's power grid was damaged in the storm.",
+      "example_vi": "Mạng lưới điện của thành phố đã bị hư hại trong cơn bão.",
+      "collocations_json": [
+        "power grid",
+        "national grid",
+        "street grid"
+      ],
+      "synonyms_json": [
+        "network",
+        "matrix",
+        "framework"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A grid is like a net of straight lines.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4657,
+    "fields": {
+      "word": "grief",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɡrif",
+      "ipa_us": "ɡrif",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nỗi đau buồn (thường do mất mát)",
+      "definition_en": "Very great sadness, especially at the death of someone.",
+      "example_en": "She was overcome with grief when her husband died.",
+      "example_vi": "Cô ấy chìm ngập trong nỗi đau buồn khi chồng qua đời.",
+      "collocations_json": [
+        "overcome with grief",
+        "process of grief",
+        "cause grief"
+      ],
+      "synonyms_json": [
+        "sorrow",
+        "sadness",
+        "heartache"
+      ],
+      "antonyms_json": [
+        "joy",
+        "happiness"
+      ],
+      "mnemonic": "Grief makes you weep.",
+      "frequency_rank": 5100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4658,
+    "fields": {
+      "word": "grin",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ɡrɪn",
+      "ipa_us": "ɡrɪn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cười nhăn răng",
+      "definition_en": "To smile a wide smile.",
+      "example_en": "He grinned widely when he saw the presents.",
+      "example_vi": "Anh ấy cười toe toét khi nhìn thấy những món quà.",
+      "collocations_json": [
+        "grin widely",
+        "broad grin",
+        "cheeky grin"
+      ],
+      "synonyms_json": [
+        "smile",
+        "beam",
+        "smirk"
+      ],
+      "antonyms_json": [
+        "frown",
+        "scowl"
+      ],
+      "mnemonic": "A big smile that shows your teeth.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4659,
+    "fields": {
+      "word": "grind",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ɡraɪnd",
+      "ipa_us": "ɡraɪnd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nghiền, xay",
+      "definition_en": "To make something into small pieces or a powder by pressing between hard surfaces.",
+      "example_en": "Shall I grind a little black pepper over your salad?",
+      "example_vi": "Tôi xay một chút hạt tiêu đen lên món salad của bạn nhé?",
+      "collocations_json": [
+        "grind coffee",
+        "grind to a halt",
+        "grind your teeth"
+      ],
+      "synonyms_json": [
+        "crush",
+        "pound",
+        "pulverize"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "You grind coffee beans to make coffee.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4660,
+    "fields": {
+      "word": "grip",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɡrɪp",
+      "ipa_us": "ɡrɪp",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự nắm chặt, sự hiểu biết",
+      "definition_en": "Control over something or someone; or a tight hold on something.",
+      "example_en": "He has a good grip on the subject.",
+      "example_vi": "Anh ấy có sự hiểu biết tốt về chủ đề này.",
+      "collocations_json": [
+        "lose your grip",
+        "tight grip",
+        "get a grip"
+      ],
+      "synonyms_json": [
+        "hold",
+        "grasp",
+        "control"
+      ],
+      "antonyms_json": [
+        "release"
+      ],
+      "mnemonic": "To grip something is to hold it tightly.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4661,
+    "fields": {
+      "word": "gross",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ɡroʊs",
+      "ipa_us": "ɡroʊs",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tổng cộng, gớm ghiếc",
+      "definition_en": "(in) total; or extremely unpleasant.",
+      "example_en": "Gross domestic product (GDP) is a measure of economic activity.",
+      "example_vi": "Tổng sản phẩm quốc nội (GDP) là một thước đo hoạt động kinh tế.",
+      "collocations_json": [
+        "gross income",
+        "gross margin",
+        "gross violation"
+      ],
+      "synonyms_json": [
+        "total",
+        "whole",
+        "disgusting"
+      ],
+      "antonyms_json": [
+        "net",
+        "attractive"
+      ],
+      "mnemonic": "Gross income is your total income before taxes. Also means yuck!",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4662,
+    "fields": {
+      "word": "guerrilla",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɡəˈrɪlə",
+      "ipa_us": "ɡəˈrɪlə",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "du kích",
+      "definition_en": "A member of an unofficial military group that is trying to change the government by making sudden, unexpected attacks on the official army forces.",
+      "example_en": "Guerrilla fighters attacked the military convoy.",
+      "example_vi": "Lực lượng du kích đã tấn công đoàn xe quân sự.",
+      "collocations_json": [
+        "guerrilla warfare",
+        "guerrilla tactics",
+        "guerrilla group"
+      ],
+      "synonyms_json": [
+        "rebel",
+        "insurgent",
+        "freedom fighter"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sounds like 'gorilla', who fights hiding in the jungle.",
+      "frequency_rank": 7800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4663,
+    "fields": {
+      "word": "guidance",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈɡaɪdəns",
+      "ipa_us": "ˈɡaɪdəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự hướng dẫn",
+      "definition_en": "Help and advice about how to do something or about how to deal with problems connected with your work, education, or personal relationships.",
+      "example_en": "I'm looking forward to working under your expert guidance.",
+      "example_vi": "Tôi mong được làm việc dưới sự hướng dẫn chuyên môn của bạn.",
+      "collocations_json": [
+        "provide guidance",
+        "seek guidance",
+        "parental guidance"
+      ],
+      "synonyms_json": [
+        "advice",
+        "direction",
+        "counsel"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of guide.",
+      "frequency_rank": 5300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4664,
+    "fields": {
+      "word": "guilt",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ɡɪlt",
+      "ipa_us": "ɡɪlt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "cảm giác tội lỗi, tội lỗi",
+      "definition_en": "A feeling of worry or unhappiness that you have because you have done something wrong, such as causing harm to another person.",
+      "example_en": "He suffered from feelings of guilt.",
+      "example_vi": "Anh ta đau khổ vì cảm giác tội lỗi.",
+      "collocations_json": [
+        "feelings of guilt",
+        "admit guilt",
+        "guilt trip"
+      ],
+      "synonyms_json": [
+        "remorse",
+        "regret",
+        "blame"
+      ],
+      "antonyms_json": [
+        "innocence",
+        "pride"
+      ],
+      "mnemonic": "Noun form of guilty.",
+      "frequency_rank": 5600,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4665,
+    "fields": {
+      "word": "gut",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "medical",
+      "ipa_uk": "ɡʌt",
+      "ipa_us": "ɡʌt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ruột, linh cảm",
+      "definition_en": "The long tube in the body of a person or animal, through which food moves during the process of digesting food; or a strong belief about someone or something that cannot completely be explained.",
+      "example_en": "I have a gut feeling that something is wrong.",
+      "example_vi": "Tôi có linh cảm rằng có điều gì đó không ổn.",
+      "collocations_json": [
+        "gut feeling",
+        "gut instinct",
+        "trust your gut"
+      ],
+      "synonyms_json": [
+        "intestine",
+        "instinct",
+        "intuition"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Your gut is your stomach/intestines. A 'gut feeling' comes from inside you.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4666,
+    "fields": {
+      "word": "hail",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "heɪl",
+      "ipa_us": "heɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ca ngợi, vẫy (taxi), mưa đá",
+      "definition_en": "To call someone in order to attract their attention; or to publicly praise or show approval for a person or an achievement.",
+      "example_en": "The new treatment has been hailed as a miracle.",
+      "example_vi": "Phương pháp điều trị mới đã được ca ngợi như một phép màu.",
+      "collocations_json": [
+        "hail a cab",
+        "hail as a success",
+        "hail from"
+      ],
+      "synonyms_json": [
+        "praise",
+        "acclaim",
+        "call"
+      ],
+      "antonyms_json": [
+        "condemn",
+        "criticize"
+      ],
+      "mnemonic": "You hail a taxi by waving your arm.",
+      "frequency_rank": 6900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4667,
+    "fields": {
+      "word": "halfway",
+      "part_of_speech": "adverb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈhæˈfweɪ",
+      "ipa_us": "ˈhæˈfweɪ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nửa chừng",
+      "definition_en": "In the middle of something, or at a place that is equally far from two other places.",
+      "example_en": "New York is halfway between Boston and Washington.",
+      "example_vi": "New York nằm ở nửa đường giữa Boston và Washington.",
+      "collocations_json": [
+        "halfway through",
+        "halfway point",
+        "meet halfway"
+      ],
+      "synonyms_json": [
+        "midway",
+        "partway"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Half of the way.",
+      "frequency_rank": 6500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4668,
+    "fields": {
+      "word": "halt",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "hɔlt",
+      "ipa_us": "hɔlt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "dừng lại, tạm dừng",
+      "definition_en": "To (cause to) stop moving or doing something or happening.",
+      "example_en": "Production has halted at all of the company's factories.",
+      "example_vi": "Hoạt động sản xuất đã tạm dừng tại tất cả các nhà máy của công ty.",
+      "collocations_json": [
+        "call a halt",
+        "grind to a halt",
+        "come to a halt"
+      ],
+      "synonyms_json": [
+        "stop",
+        "pause",
+        "cease"
+      ],
+      "antonyms_json": [
+        "start",
+        "continue",
+        "proceed"
+      ],
+      "mnemonic": "HALT! (Stop!)",
+      "frequency_rank": 5900,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4669,
+    "fields": {
+      "word": "handful",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈhændˌfʊl",
+      "ipa_us": "ˈhændˌfʊl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "một nhúm, một số ít",
+      "definition_en": "An amount of something that can be held in one hand; or a small number of people or things.",
+      "example_en": "Only a handful of people came to the meeting.",
+      "example_vi": "Chỉ có một số ít người đến dự cuộc họp.",
+      "collocations_json": [
+        "a handful of",
+        "small handful"
+      ],
+      "synonyms_json": [
+        "few",
+        "smattering",
+        "sprinkling"
+      ],
+      "antonyms_json": [
+        "lot",
+        "abundance"
+      ],
+      "mnemonic": "What fits in a FULL HAND.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4670,
+    "fields": {
+      "word": "handling",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈhændlɪŋ",
+      "ipa_us": "ˈhændlɪŋ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự xử lý, cách giải quyết",
+      "definition_en": "The way that someone deals with a situation or person.",
+      "example_en": "His handling of the crisis was widely criticized.",
+      "example_vi": "Cách giải quyết khủng hoảng của ông ấy đã bị chỉ trích rộng rãi.",
+      "collocations_json": [
+        "data handling",
+        "handling of a situation",
+        "baggage handling"
+      ],
+      "synonyms_json": [
+        "management",
+        "treatment",
+        "dealing"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of handle.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4671,
+    "fields": {
+      "word": "handy",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈhændi",
+      "ipa_us": "ˈhændi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tiện dụng, khéo tay",
+      "definition_en": "Useful or convenient; or near and easy to reach.",
+      "example_en": "This little tool is very handy for fixing bikes.",
+      "example_vi": "Dụng cụ nhỏ này rất tiện dụng để sửa xe đạp.",
+      "collocations_json": [
+        "come in handy",
+        "keep handy",
+        "handy tool"
+      ],
+      "synonyms_json": [
+        "useful",
+        "convenient",
+        "accessible"
+      ],
+      "antonyms_json": [
+        "useless",
+        "inconvenient"
+      ],
+      "mnemonic": "Something handy is good to have in your HAND.",
+      "frequency_rank": 6700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4672,
+    "fields": {
+      "word": "harassment",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "həˈræsmənt",
+      "ipa_us": "həˈræsmənt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự quấy rối",
+      "definition_en": "Behaviour that annoys or upsets someone.",
+      "example_en": "She claimed she suffered sexual harassment at work.",
+      "example_vi": "Cô ấy cho rằng mình đã bị quấy rối tình dục tại nơi làm việc.",
+      "collocations_json": [
+        "sexual harassment",
+        "workplace harassment",
+        "face harassment"
+      ],
+      "synonyms_json": [
+        "intimidation",
+        "persecution",
+        "bother"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of harass.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4673,
+    "fields": {
+      "word": "hardware",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "technology",
+      "ipa_uk": "ˈhɑrˌdwɛr",
+      "ipa_us": "ˈhɑrˌdwɛr",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "phần cứng",
+      "definition_en": "The physical and electronic parts of a computer, rather than the instructions it follows.",
+      "example_en": "You need to upgrade your computer's hardware to play this game.",
+      "example_vi": "Bạn cần nâng cấp phần cứng máy tính của mình để chơi trò chơi này.",
+      "collocations_json": [
+        "computer hardware",
+        "military hardware",
+        "hardware store"
+      ],
+      "synonyms_json": [
+        "equipment",
+        "components",
+        "machinery"
+      ],
+      "antonyms_json": [
+        "software"
+      ],
+      "mnemonic": "The HARD parts of a computer (screen, keyboard) as opposed to the soft parts (programs).",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4674,
+    "fields": {
+      "word": "harmony",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈhɑrməni",
+      "ipa_us": "ˈhɑrməni",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự hài hòa, hòa thuận",
+      "definition_en": "A situation in which people are peaceful and agree with each other, or when things seem right or suitable together.",
+      "example_en": "We must learn to live in harmony with nature.",
+      "example_vi": "Chúng ta phải học cách sống hài hòa với thiên nhiên.",
+      "collocations_json": [
+        "live in harmony",
+        "perfect harmony",
+        "racial harmony"
+      ],
+      "synonyms_json": [
+        "peace",
+        "agreement",
+        "balance"
+      ],
+      "antonyms_json": [
+        "conflict",
+        "discord",
+        "clash"
+      ],
+      "mnemonic": "Singing in harmony means the voices blend well.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4675,
+    "fields": {
+      "word": "harsh",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "hɑrʃ",
+      "ipa_us": "hɑrʃ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khắc nghiệt, thô ráp",
+      "definition_en": "Unpleasant, unkind, cruel, or more severe than is necessary.",
+      "example_en": "The punishment was too harsh for the crime.",
+      "example_vi": "Hình phạt quá khắc nghiệt đối với tội danh.",
+      "collocations_json": [
+        "harsh reality",
+        "harsh conditions",
+        "harsh winter"
+      ],
+      "synonyms_json": [
+        "severe",
+        "strict",
+        "cruel"
+      ],
+      "antonyms_json": [
+        "mild",
+        "gentle",
+        "soft"
+      ],
+      "mnemonic": "A harsh sound hurts your ears.",
+      "frequency_rank": 5300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4676,
+    "fields": {
+      "word": "harvest",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "nature",
+      "ipa_uk": "ˈhɑrvəst",
+      "ipa_us": "ˈhɑrvəst",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "vụ thu hoạch",
+      "definition_en": "The time of year when crops are cut and collected from the fields, or the activity of cutting and collecting them, or the crops that are cut and collected.",
+      "example_en": "We had a good wheat harvest this year.",
+      "example_vi": "Năm nay chúng tôi có một vụ thu hoạch lúa mì tốt.",
+      "collocations_json": [
+        "good harvest",
+        "harvest time",
+        "harvest festival"
+      ],
+      "synonyms_json": [
+        "crop",
+        "yield",
+        "gathering"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Harvest Moon.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4677,
+    "fields": {
+      "word": "hatred",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈheɪtrəd",
+      "ipa_us": "ˈheɪtrəd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lòng căm thù",
+      "definition_en": "An extremely strong feeling of dislike.",
+      "example_en": "He looked at me with pure hatred.",
+      "example_vi": "Anh ta nhìn tôi với lòng căm thù thuần túy.",
+      "collocations_json": [
+        "pure hatred",
+        "intense hatred",
+        "stir up hatred"
+      ],
+      "synonyms_json": [
+        "loathing",
+        "animosity",
+        "enmity"
+      ],
+      "antonyms_json": [
+        "love",
+        "affection"
+      ],
+      "mnemonic": "Noun form of hate.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4678,
+    "fields": {
+      "word": "haunt",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "hɔnt",
+      "ipa_us": "hɔnt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "ám ảnh",
+      "definition_en": "To cause repeated suffering or anxiety.",
+      "example_en": "The memory of that day still haunts me.",
+      "example_vi": "Ký ức về ngày hôm đó vẫn còn ám ảnh tôi.",
+      "collocations_json": [
+        "come back to haunt",
+        "haunt someone's memory"
+      ],
+      "synonyms_json": [
+        "torment",
+        "plague",
+        "obsess"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Ghosts haunt haunted houses.",
+      "frequency_rank": 6100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4679,
+    "fields": {
+      "word": "hazard",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈhæzərd",
+      "ipa_us": "ˈhæzərd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "mối nguy hiểm",
+      "definition_en": "Something that is dangerous and likely to cause damage.",
+      "example_en": "Smoking is a serious health hazard.",
+      "example_vi": "Hút thuốc là một mối nguy hiểm sức khỏe nghiêm trọng.",
+      "collocations_json": [
+        "health hazard",
+        "fire hazard",
+        "occupational hazard"
+      ],
+      "synonyms_json": [
+        "danger",
+        "risk",
+        "threat"
+      ],
+      "antonyms_json": [
+        "safety",
+        "protection"
+      ],
+      "mnemonic": "Biohazard symbol warns of biological hazards.",
+      "frequency_rank": 5700,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4680,
+    "fields": {
+      "word": "heighten",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈhaɪtən",
+      "ipa_us": "ˈhaɪtən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "tăng cường, nâng cao",
+      "definition_en": "To increase or make something increase, especially an emotion or effect.",
+      "example_en": "The tense music heightened the feeling of suspense.",
+      "example_vi": "Âm nhạc căng thẳng đã làm tăng thêm cảm giác hồi hộp.",
+      "collocations_json": [
+        "heighten awareness",
+        "heighten tensions",
+        "heightened risk"
+      ],
+      "synonyms_json": [
+        "increase",
+        "intensify",
+        "elevate"
+      ],
+      "antonyms_json": [
+        "lower",
+        "decrease",
+        "diminish"
+      ],
+      "mnemonic": "Height + en -> to make higher.",
+      "frequency_rank": 6900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4681,
+    "fields": {
+      "word": "heritage",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈhɛrətəʤ",
+      "ipa_us": "ˈhɛrətɪdʒ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "di sản",
+      "definition_en": "Features belonging to the culture of a particular society, such as traditions, languages, or buildings, that were created in the past and still have historical importance.",
+      "example_en": "We must preserve our national heritage.",
+      "example_vi": "Chúng ta phải bảo tồn di sản quốc gia của mình.",
+      "collocations_json": [
+        "cultural heritage",
+        "national heritage",
+        "world heritage site"
+      ],
+      "synonyms_json": [
+        "legacy",
+        "tradition",
+        "inheritance"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "What you inherit from the past is your heritage.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4682,
+    "fields": {
+      "word": "hierarchy",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "business",
+      "ipa_uk": "ˈhaɪəˌrɑrki",
+      "ipa_us": "ˈhaɪərˌɑrki",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hệ thống cấp bậc",
+      "definition_en": "A system in which people or things are arranged according to their importance.",
+      "example_en": "The military has a rigid hierarchy.",
+      "example_vi": "Quân đội có một hệ thống cấp bậc cứng nhắc.",
+      "collocations_json": [
+        "social hierarchy",
+        "strict hierarchy",
+        "corporate hierarchy"
+      ],
+      "synonyms_json": [
+        "pecking order",
+        "ranking",
+        "chain of command"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Higher-archy. A system showing who is higher than who.",
+      "frequency_rank": 6400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4683,
+    "fields": {
+      "word": "high-profile",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌhaɪˈproʊfaɪl",
+      "ipa_us": "ˌhaɪˈproʊfaɪl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nổi tiếng, thu hút nhiều sự chú ý",
+      "definition_en": "Attracting a lot of attention and interest from the public and newspapers, television, etc.",
+      "example_en": "He resigned after a high-profile scandal.",
+      "example_vi": "Ông ấy đã từ chức sau một vụ bê bối thu hút nhiều sự chú ý.",
+      "collocations_json": [
+        "high-profile case",
+        "high-profile campaign",
+        "high-profile politician"
+      ],
+      "synonyms_json": [
+        "prominent",
+        "well-known",
+        "visible"
+      ],
+      "antonyms_json": [
+        "low-profile",
+        "obscure"
+      ],
+      "mnemonic": "A profile that is held high for everyone to see.",
+      "frequency_rank": 7100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4684,
+    "fields": {
+      "word": "hint",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "hɪnt",
+      "ipa_us": "hɪnt",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "lời gợi ý, dấu hiệu",
+      "definition_en": "Something that you say or do that shows what you think or want, usually in a way that is not direct.",
+      "example_en": "He dropped a few hints about his upcoming resignation.",
+      "example_vi": "Ông ấy đã đưa ra một vài gợi ý về việc từ chức sắp tới của mình.",
+      "collocations_json": [
+        "drop a hint",
+        "take a hint",
+        "give a hint"
+      ],
+      "synonyms_json": [
+        "clue",
+        "suggestion",
+        "indication"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A small clue.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4685,
+    "fields": {
+      "word": "homeland",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈhoʊmˌlænd",
+      "ipa_us": "ˈhoʊmˌlænd",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "quê hương, tổ quốc",
+      "definition_en": "The country you were born in.",
+      "example_en": "Many refugees dream of returning to their homeland.",
+      "example_vi": "Nhiều người tị nạn mơ ước được trở về quê hương của họ.",
+      "collocations_json": [
+        "return to their homeland",
+        "homeland security"
+      ],
+      "synonyms_json": [
+        "motherland",
+        "fatherland",
+        "native land"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "The land that is your home.",
+      "frequency_rank": 6900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4686,
+    "fields": {
+      "word": "hook",
+      "part_of_speech": "verb",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "hʊk",
+      "ipa_us": "hʊk",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "mắc vào, móc vào, thu hút",
+      "definition_en": "To fasten something with a hook, hang something on a hook, or catch something with a hook; or to attract someone's attention.",
+      "example_en": "The show hooked me from the very first episode.",
+      "example_vi": "Chương trình đã thu hút tôi ngay từ tập đầu tiên.",
+      "collocations_json": [
+        "hooked on",
+        "off the hook",
+        "by hook or by crook"
+      ],
+      "synonyms_json": [
+        "catch",
+        "fasten",
+        "captivate"
+      ],
+      "antonyms_json": [
+        "unhook",
+        "release",
+        "bore"
+      ],
+      "mnemonic": "A fish gets caught on a hook.",
+      "frequency_rank": 5200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4687,
+    "fields": {
+      "word": "hopeful",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈhoʊpfəl",
+      "ipa_us": "ˈhoʊpfəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "đầy hy vọng",
+      "definition_en": "Having hope.",
+      "example_en": "She is hopeful that she will get the job.",
+      "example_vi": "Cô ấy đầy hy vọng rằng mình sẽ nhận được công việc.",
+      "collocations_json": [
+        "hopeful sign",
+        "remain hopeful",
+        "feel hopeful"
+      ],
+      "synonyms_json": [
+        "optimistic",
+        "confident",
+        "positive"
+      ],
+      "antonyms_json": [
+        "hopeless",
+        "pessimistic",
+        "despairing"
+      ],
+      "mnemonic": "Full of hope.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4688,
+    "fields": {
+      "word": "horizon",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "nature",
+      "ipa_uk": "həˈraɪzən",
+      "ipa_us": "həˈraɪzən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "chân trời, tầm nhìn",
+      "definition_en": "The line at the farthest place that you can see, where the sky seems to touch the land or sea.",
+      "example_en": "The sun sank below the horizon.",
+      "example_vi": "Mặt trời lặn xuống dưới đường chân trời.",
+      "collocations_json": [
+        "on the horizon",
+        "broaden your horizons",
+        "beyond the horizon"
+      ],
+      "synonyms_json": [
+        "skyline",
+        "perspective",
+        "scope"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A horizontal line in the distance.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4689,
+    "fields": {
+      "word": "horn",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "animals",
+      "ipa_uk": "hɔrn",
+      "ipa_us": "hɔrn",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sừng, còi (xe)",
+      "definition_en": "A hard, pointed, often curved part that grows from the top of the head of some animals; or a device on a vehicle that is used to make a loud noise.",
+      "example_en": "The driver honked his horn at the pedestrian.",
+      "example_vi": "Người lái xe bóp còi với người đi bộ.",
+      "collocations_json": [
+        "honk a horn",
+        "blow a horn",
+        "car horn"
+      ],
+      "synonyms_json": [
+        "siren",
+        "antler"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Rhinos have horns.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4690,
+    "fields": {
+      "word": "hostage",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈhɑstɪʤ",
+      "ipa_us": "ˈhɑstɪdʒ",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "con tin",
+      "definition_en": "Someone who is taken as a prisoner by an enemy in order to force the other people involved to do what the enemy wants.",
+      "example_en": "The terrorists took several hostages.",
+      "example_vi": "Bọn khủng bố đã bắt một vài con tin.",
+      "collocations_json": [
+        "take someone hostage",
+        "hold hostage",
+        "release a hostage"
+      ],
+      "synonyms_json": [
+        "captive",
+        "prisoner"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "A person held HOSTILEly is a HOSTAGE.",
+      "frequency_rank": 7300,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4691,
+    "fields": {
+      "word": "hostile",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈhɑstəl",
+      "ipa_us": "ˈhɑstəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thù địch, không thân thiện",
+      "definition_en": "Unfriendly and not liking something.",
+      "example_en": "The president faced a hostile crowd.",
+      "example_vi": "Tổng thống phải đối mặt với một đám đông thù địch.",
+      "collocations_json": [
+        "hostile environment",
+        "hostile takeover",
+        "openly hostile"
+      ],
+      "synonyms_json": [
+        "unfriendly",
+        "antagonistic",
+        "aggressive"
+      ],
+      "antonyms_json": [
+        "friendly",
+        "welcoming",
+        "hospitable"
+      ],
+      "mnemonic": "Someone acting like a host's enemy is hostile.",
+      "frequency_rank": 5800,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4692,
+    "fields": {
+      "word": "hostility",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "hɑˈstɪləti",
+      "ipa_us": "hɑˈstɪləti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự thù địch",
+      "definition_en": "An occasion when someone is unfriendly or shows that they do not like something.",
+      "example_en": "There is a lot of hostility between the two rival groups.",
+      "example_vi": "Có rất nhiều sự thù địch giữa hai nhóm đối thủ.",
+      "collocations_json": [
+        "open hostility",
+        "outbreak of hostilities",
+        "cease hostilities"
+      ],
+      "synonyms_json": [
+        "antagonism",
+        "unfriendliness",
+        "resentment"
+      ],
+      "antonyms_json": [
+        "friendship",
+        "goodwill"
+      ],
+      "mnemonic": "Noun form of hostile.",
+      "frequency_rank": 6400,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4693,
+    "fields": {
+      "word": "humanitarian",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˌhjuˌmænəˈtɛriən",
+      "ipa_us": "hjuˌmænɪˈtɛriən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhân đạo",
+      "definition_en": "Involved in or connected with improving people's lives and reducing suffering.",
+      "example_en": "The UN is providing humanitarian aid to the war zone.",
+      "example_vi": "Liên Hợp Quốc đang cung cấp viện trợ nhân đạo cho vùng chiến sự.",
+      "collocations_json": [
+        "humanitarian aid",
+        "humanitarian crisis",
+        "humanitarian relief"
+      ],
+      "synonyms_json": [
+        "compassionate",
+        "philanthropic",
+        "charitable"
+      ],
+      "antonyms_json": [
+        "cruel",
+        "inhumane"
+      ],
+      "mnemonic": "Caring for humans.",
+      "frequency_rank": 5900,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4694,
+    "fields": {
+      "word": "humanity",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "hjuˈmænɪti",
+      "ipa_us": "hjuˈmænəti",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "nhân loại, lòng nhân đạo",
+      "definition_en": "People in general; or understanding and kindness towards other people.",
+      "example_en": "The crime was a crime against humanity.",
+      "example_vi": "Tội ác đó là một tội ác chống lại nhân loại.",
+      "collocations_json": [
+        "crimes against humanity",
+        "for the benefit of humanity",
+        "sense of humanity"
+      ],
+      "synonyms_json": [
+        "mankind",
+        "humankind",
+        "compassion"
+      ],
+      "antonyms_json": [
+        "cruelty",
+        "inhumanity"
+      ],
+      "mnemonic": "All human beings collectively.",
+      "frequency_rank": 5100,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4695,
+    "fields": {
+      "word": "humble",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈhʌmbəl",
+      "ipa_us": "ˈhʌmbəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khiêm tốn",
+      "definition_en": "Not proud or not believing that you are important.",
+      "example_en": "Despite his success, he remains a very humble man.",
+      "example_vi": "Mặc dù thành công, ông ấy vẫn là một người rất khiêm tốn.",
+      "collocations_json": [
+        "in my humble opinion",
+        "humble beginnings",
+        "humble apology"
+      ],
+      "synonyms_json": [
+        "modest",
+        "unassuming",
+        "meek"
+      ],
+      "antonyms_json": [
+        "proud",
+        "arrogant",
+        "boastful"
+      ],
+      "mnemonic": "Be humble, sit down.",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4696,
+    "fields": {
+      "word": "hydrogen",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "science",
+      "ipa_uk": "ˈhaɪdrəʤən",
+      "ipa_us": "ˈhaɪdrədʒən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "khí hi-đrô",
+      "definition_en": "A chemical element that is the lightest gas, has no colour, taste, or smell, and combines with oxygen to form water.",
+      "example_en": "Hydrogen is a potential source of clean energy.",
+      "example_vi": "Hydro là một nguồn năng lượng sạch tiềm năng.",
+      "collocations_json": [
+        "hydrogen bomb",
+        "hydrogen peroxide",
+        "liquid hydrogen"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "H2O is two parts Hydrogen, one part Oxygen.",
+      "frequency_rank": 7200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4697,
+    "fields": {
+      "word": "identification",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "aɪˌdɛntəfəˈkeɪʃən",
+      "ipa_us": "aɪˌdɛntəfɪˈkeɪʃən",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "giấy tờ tùy thân, sự nhận dạng",
+      "definition_en": "An official document that shows or proves who you are; or the act of recognizing and naming someone or something.",
+      "example_en": "Please show some form of identification.",
+      "example_vi": "Vui lòng xuất trình một số loại giấy tờ tùy thân.",
+      "collocations_json": [
+        "form of identification",
+        "photographic identification",
+        "positive identification"
+      ],
+      "synonyms_json": [
+        "ID",
+        "recognition",
+        "credentials"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Noun form of identify. ID stands for identification.",
+      "frequency_rank": 5000,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4698,
+    "fields": {
+      "word": "ideological",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌaɪdiəˈlɑʤɪkəl",
+      "ipa_us": "ˌaɪdiəˈlɑdʒɪkəl",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "thuộc về hệ tư tưởng",
+      "definition_en": "Based on or relating to a particular set of ideas or beliefs.",
+      "example_en": "There are deep ideological differences between the two parties.",
+      "example_vi": "Có những khác biệt sâu sắc về hệ tư tưởng giữa hai đảng.",
+      "collocations_json": [
+        "ideological differences",
+        "ideological divide",
+        "ideological stance"
+      ],
+      "synonyms_json": [
+        "doctrinal",
+        "philosophical",
+        "political"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Adjective form of ideology.",
+      "frequency_rank": 6400,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4699,
+    "fields": {
+      "word": "ideology",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "academic",
+      "ipa_uk": "ˌaɪdiˈɑləʤi",
+      "ipa_us": "ˌaɪdiˈɑlədʒi",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hệ tư tưởng",
+      "definition_en": "A set of beliefs or principles, especially one on which a political system, party, or organization is based.",
+      "example_en": "The party is united by a common ideology.",
+      "example_vi": "Đảng được đoàn kết bởi một hệ tư tưởng chung.",
+      "collocations_json": [
+        "political ideology",
+        "capitalist ideology",
+        "embrace an ideology"
+      ],
+      "synonyms_json": [
+        "belief system",
+        "doctrine",
+        "philosophy"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Idea + ology (study of) -> The study/system of ideas.",
+      "frequency_rank": 5800,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4700,
+    "fields": {
+      "word": "idiot",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "everyday",
+      "ipa_uk": "ˈɪdiət",
+      "ipa_us": "ˈɪdiət",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "kẻ ngốc",
+      "definition_en": "A stupid person or someone who is behaving in a stupid way.",
+      "example_en": "Don't be such an idiot!",
+      "example_vi": "Đừng ngốc như vậy!",
+      "collocations_json": [
+        "complete idiot",
+        "blithering idiot",
+        "like an idiot"
+      ],
+      "synonyms_json": [
+        "fool",
+        "moron",
+        "halfwit"
+      ],
+      "antonyms_json": [
+        "genius",
+        "intellectual"
+      ],
+      "mnemonic": "If you act like an IDIOT, you do stupid things.",
+      "frequency_rank": 5300,
+      "register": "informal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4701,
+    "fields": {
+      "word": "ignorance",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ˈɪɡnərəns",
+      "ipa_us": "ˈɪɡnərəns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "sự thiếu hiểu biết, sự ngu dốt",
+      "definition_en": "Lack of knowledge, understanding, or information about something.",
+      "example_en": "Public ignorance about the disease is still a cause for concern.",
+      "example_vi": "Sự thiếu hiểu biết của công chúng về căn bệnh này vẫn là một nguyên nhân gây lo ngại.",
+      "collocations_json": [
+        "out of ignorance",
+        "plead ignorance",
+        "widespread ignorance"
+      ],
+      "synonyms_json": [
+        "unawareness",
+        "inexperience",
+        "stupidity"
+      ],
+      "antonyms_json": [
+        "knowledge",
+        "wisdom",
+        "understanding"
+      ],
+      "mnemonic": "Noun form of ignore. If you ignore facts, you have ignorance.",
+      "frequency_rank": 6200,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4702,
+    "fields": {
+      "word": "imagery",
+      "part_of_speech": "noun",
+      "cefr_level": "C1",
+      "domain": "art",
+      "ipa_uk": "ˈɪməʤri",
+      "ipa_us": "ˈɪmɪdʒri",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "hình ảnh, hình tượng",
+      "definition_en": "The use of words or pictures in books, films, paintings, etc. to describe ideas or situations.",
+      "example_en": "The poem is full of beautiful nature imagery.",
+      "example_vi": "Bài thơ tràn đầy những hình ảnh thiên nhiên tuyệt đẹp.",
+      "collocations_json": [
+        "vivid imagery",
+        "powerful imagery",
+        "poetic imagery"
+      ],
+      "synonyms_json": [
+        "images",
+        "representations",
+        "symbolism"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Collections of IMAGEs.",
+      "frequency_rank": 6600,
+      "register": "formal",
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  },
+  {
+    "model": "vocabulary.word",
+    "pk": 4703,
+    "fields": {
+      "word": "immense",
+      "part_of_speech": "adjective",
+      "cefr_level": "C1",
+      "domain": "general",
+      "ipa_uk": "ɪˈmɛns",
+      "ipa_us": "ɪˈmɛns",
+      "audio_uk_s3_key": null,
+      "audio_us_s3_key": null,
+      "meaning_vi": "mênh mông, to lớn",
+      "definition_en": "Extremely large in size or degree.",
+      "example_en": "They spent an immense amount of time and money on the project.",
+      "example_vi": "Họ đã dành một lượng thời gian và tiền bạc to lớn cho dự án.",
+      "collocations_json": [
+        "immense pressure",
+        "immense wealth",
+        "immense value"
+      ],
+      "synonyms_json": [
+        "huge",
+        "massive",
+        "enormous"
+      ],
+      "antonyms_json": [
+        "tiny",
+        "small",
+        "minute"
+      ],
+      "mnemonic": "Im (not) + mense (measurable). Too big to be measured.",
+      "frequency_rank": 5500,
+      "register": null,
+      "image_key": null,
+      "is_oxford_3000": false,
+      "is_oxford_5000": false,
+      "created_at": "2026-03-25T00:00:00Z"
+    }
+  }
+]

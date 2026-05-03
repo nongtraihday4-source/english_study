@@ -1,0 +1,507 @@
+[
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are wrong about this.",
+    "output": "✅ **Corrected Sentence:** I'm afraid I see it differently. / I respectfully disagree with you on this point.\n\n🔍 **Error Identification:** Impolite Tone - Direct Disagreement\n\n📖 **Vietnamese Explanation:** Nói thẳng 'You are wrong' trong tiếng Anh rất dễ gây tổn thương và được coi là thô lỗ. Người bản xứ thường làm mềm câu bằng cách bày tỏ quan điểm của mình thay vì tấn công người khác. Hãy dùng 'I'm afraid...' (tôi e rằng), 'I see it differently' (tôi thấy khác), hoặc 'I respectfully disagree' (tôi kính trọng không đồng tình). Người Việt hay nói thẳng 'bạn sai rồi' – cần tập thói quen nói nhẹ nhàng hơn. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must study harder.",
+    "output": "✅ **Corrected Sentence:** Have you considered studying a bit harder? / It might be beneficial to study more.\n\n🔍 **Error Identification:** Impolite Tone - Forceful Advice (You must)\n\n📖 **Vietnamese Explanation:** 'You must' mang tính ép buộc, ra lệnh, rất dễ gây phản cảm khi đưa lời khuyên. Thay vào đó, hãy dùng cấu trúc mềm mại như 'Have you considered...?' (bạn đã cân nhắc chưa?), 'It might be better if...' (có lẽ tốt hơn nếu...), hoặc 'Perhaps you could...' (có lẽ bạn có thể...). Người Việt thường nói 'bạn phải học chăm hơn' – hãy chuyển thành gợi ý nhẹ nhàng. 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "That's not a good idea.",
+    "output": "✅ **Corrected Sentence:** I'm not sure that's the best idea. / Have you thought about the possible drawbacks?\n\n🔍 **Error Identification:** Impolite Tone - Direct Negative Judgment\n\n📖 **Vietnamese Explanation:** 'That's not a good idea' phủ định trực tiếp ý tưởng của người khác, có thể khiến họ mất mặt. Cách lịch sự là bày tỏ sự không chắc chắn hoặc đặt câu hỏi gợi mở. Dùng 'I'm not sure...' (tôi không chắc), 'Have you considered...?' (bạn đã cân nhắc...?), hoặc 'What about...?' Người Việt nên tránh nói 'ý tưởng đó không hay' một cách trực diện. 💡"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You need to lose weight.",
+    "output": "✅ **Corrected Sentence:** Have you thought about adopting a healthier lifestyle? / Maybe we could start exercising together.\n\n🔍 **Error Identification:** Impolite Tone - Direct Advice on Sensitive Topic\n\n📖 **Vietnamese Explanation:** Lời khuyên về ngoại hình hoặc sức khỏe cần cực kỳ tế nhị. 'You need to lose weight' nghe như chỉ trích. Hãy đưa ra gợi ý chung chung hoặc đề xuất hoạt động cùng nhau. Dùng 'Have you thought about...?' hoặc 'I've found that... works for me.' Người Việt có thể nói thẳng 'bạn cần giảm cân' – hãy tập nói khéo léo hơn. 🏃"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I don't agree with you.",
+    "output": "✅ **Corrected Sentence:** I see your point, but I have a slightly different perspective. / That's interesting, however I tend to think that...\n\n🔍 **Error Identification:** Impolite Tone - Blunt Disagreement\n\n📖 **Vietnamese Explanation:** 'I don't agree with you' tuy lịch sự hơn 'you're wrong' nhưng vẫn khá trực diện. Để nhẹ nhàng hơn, hãy công nhận ý kiến của đối phương trước (I see your point), sau đó đưa ra quan điểm khác. Thêm 'slightly', 'a little', 'perhaps' để làm mềm. Người Việt thường nói 'tôi không đồng ý' – hãy thêm phần khẳng định trước khi phản đối. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should quit your job.",
+    "output": "✅ **Corrected Sentence:** Have you considered looking for other opportunities? / Maybe it's time to think about a career change.\n\n🔍 **Error Identification:** Impolite Tone - Direct Advice on Major Life Decision\n\n📖 **Vietnamese Explanation:** Lời khuyên quyết định lớn như nghỉ việc không nên đưa ra dưới dạng mệnh lệnh 'you should'. Hãy dùng câu hỏi gợi ý hoặc chia sẻ quan điểm cá nhân. 'Have you considered...?' (bạn đã cân nhắc chưa?) là cách an toàn. Người Việt hay nói 'bạn nên nghỉ việc' – hãy chuyển thành 'bạn có nghĩ đến chuyện tìm việc khác không?' 💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You're making a mistake.",
+    "output": "✅ **Corrected Sentence:** I'm concerned that this might lead to an unexpected outcome. / Have you double-checked all the details?\n\n🔍 **Error Identification:** Impolite Tone - Direct Accusation\n\n📖 **Vietnamese Explanation:** Nói ai đó đang phạm sai lầm là rất nặng lời. Thay vào đó, hãy bày tỏ sự lo lắng hoặc đặt câu hỏi để họ tự nhận ra. Dùng 'I'm concerned that...' (tôi lo rằng), 'Are you sure about...?', 'What if...?' Người Việt nói 'bạn đang sai' – hãy tập nói 'bạn có chắc chắn về điều đó không?' một cách nhẹ nhàng. ⚠️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You have to listen to me.",
+    "output": "✅ **Corrected Sentence:** I would really appreciate it if you could hear me out. / Could I share my perspective with you?\n\n🔍 **Error Identification:** Impolite Tone - Forceful Demand\n\n📖 **Vietnamese Explanation:** 'You have to listen' mang tính áp đặt, ra lệnh. Để yêu cầu ai đó lắng nghe, hãy dùng câu hỏi hoặc bày tỏ mong muốn cá nhân. 'Would you mind listening for a moment?' hoặc 'I'd appreciate your thoughts on this.' Người Việt nói 'bạn phải nghe tôi' – hãy chuyển thành 'bạn có thể lắng nghe tôi một chút được không?' 👂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "That's stupid.",
+    "output": "✅ **Corrected Sentence:** I see where you're coming from, but I have a different take on it. / That's an interesting perspective, though I'm not sure I agree.\n\n🔍 **Error Identification:** Highly Impolite - Insulting Language\n\n📖 **Vietnamese Explanation:** 'That's stupid' là xúc phạm trực tiếp, không bao giờ được dùng trong giao tiếp lịch sự. Thay vào đó, hãy thể hiện sự không đồng tình một cách tôn trọng, thừa nhận rằng mỗi người có quan điểm riêng. Người Việt tuyệt đối tránh dịch 'ngu ngốc' sang tiếng Anh trong tranh luận. Hãy nói 'I see it differently' hoặc 'That's one way to look at it, but...' 🤐"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must apologize to her.",
+    "output": "✅ **Corrected Sentence:** I think it would be a good idea to apologize to her. / Have you considered saying sorry?\n\n🔍 **Error Identification:** Impolite Tone - Forceful Advice (You must)\n\n📖 **Vietnamese Explanation:** 'You must apologize' là mệnh lệnh, không tôn trọng quyền tự quyết của người khác. Hãy đưa ra lời khuyên dưới dạng gợi ý hoặc câu hỏi. 'I think it would be good to...', 'Perhaps you could...', 'Have you considered...?' Người Việt nói 'bạn phải xin lỗi' – hãy nói 'có lẽ bạn nên xin lỗi thì tốt hơn?' 😔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are too young to understand.",
+    "output": "✅ **Corrected Sentence:** I see your enthusiasm, but this might be something that comes with more experience. / Perhaps when you're older, you'll see it differently.\n\n🔍 **Error Identification:** Impolite Tone - Dismissive and Condescending\n\n📖 **Vietnamese Explanation:** Phủ định ai đó dựa trên tuổi tác hoặc kinh nghiệm là thiếu tôn trọng. Thay vào đó, hãy thừa nhận quan điểm của họ và đưa ra lý do một cách nhẹ nhàng. Dùng 'I see your point, however...' hoặc 'That's an interesting way to look at it.' Người Việt nên tránh nói 'bạn còn trẻ quá không hiểu đâu'. 👶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You don't know what you're talking about.",
+    "output": "✅ **Corrected Sentence:** I think there might be some misunderstanding. / Could you clarify what you mean by that?\n\n🔍 **Error Identification:** Highly Impolite - Direct Attack on Competence\n\n📖 **Vietnamese Explanation:** Câu này công kích trực tiếp năng lực của người khác, cực kỳ thô lỗ. Thay vào đó, hãy yêu cầu làm rõ hoặc bày tỏ sự không chắc chắn. 'I'm not sure I follow' (tôi không chắc tôi hiểu), 'Could you explain more?' (bạn có thể giải thích thêm không?). Người Việt tuyệt đối tránh dịch 'bạn không biết gì cả'. 🙉"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should stop smoking.",
+    "output": "✅ **Corrected Sentence:** Have you thought about cutting down on smoking for your health? / I'm concerned about your health, perhaps you could consider quitting.\n\n🔍 **Error Identification:** Impolite Tone - Direct Advice on Health\n\n📖 **Vietnamese Explanation:** Lời khuyên về sức khỏe nhạy cảm, nên được đưa ra với sự quan tâm thay vì ra lệnh. Dùng 'Have you considered...?' hoặc 'I'm concerned that...' (tôi lo rằng). Tránh 'you should' vì nghe như đang phán xét. Người Việt nói 'bạn nên bỏ thuốc lá' – hãy nói 'tôi lo cho sức khỏe của bạn, bạn có nghĩ đến việc bỏ thuốc không?' 🚭"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I totally disagree with your opinion.",
+    "output": "✅ **Corrected Sentence:** I see things a bit differently. / I respect your opinion, but I have another perspective.\n\n🔍 **Error Identification:** Impolite Tone - Overly Strong Disagreement\n\n📖 **Vietnamese Explanation:** 'Totally disagree' quá mạnh, có thể gây xung đột. Hãy làm mềm bằng cách nói 'I see things differently' (tôi thấy vấn đề khác) hoặc 'I respectfully disagree' (tôi kính trọng không đồng tình). Thêm 'a bit', 'slightly', 'perhaps' để giảm căng thẳng. Người Việt nói 'tôi hoàn toàn không đồng ý' – hãy bớt 'hoàn toàn' và thêm 'tôi tôn trọng ý kiến của bạn nhưng...' 🤔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must do what I say.",
+    "output": "✅ **Corrected Sentence:** I would really appreciate it if you could follow my instructions. / Could we work together on this?\n\n🔍 **Error Identification:** Highly Impolite - Authoritarian Command\n\n📖 **Vietnamese Explanation:** 'You must do what I say' là cách nói độc đoán, không phù hợp trong môi trường tôn trọng lẫn nhau. Hãy dùng 'I would appreciate it if...' hoặc biến thành câu hỏi. Ngay cả cấp trên cũng nên nói 'I'd like you to...' thay vì 'you must'. Người Việt cần tránh nói 'bạn phải làm theo lời tôi' trong giao tiếp công sở. 👑"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are being ridiculous.",
+    "output": "✅ **Corrected Sentence:** I'm having a hard time understanding your point. / Could we look at this from another angle?\n\n🔍 **Error Identification:** Impolite Tone - Insulting Label\n\n📖 **Vietnamese Explanation:** Gọi ai đó 'ridiculous' là xúc phạm. Thay vào đó, hãy bày tỏ khó khăn trong việc hiểu hoặc đề xuất xem xét từ góc độ khác. 'I'm having a hard time following' (tôi đang khó hiểu), 'Maybe there's another way to look at this.' Người Việt tránh nói 'bạn thật lố bịch'. 😅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You need to change your attitude.",
+    "output": "✅ **Corrected Sentence:** I think a different approach might help in this situation. / Perhaps we could both try to be more understanding.\n\n🔍 **Error Identification:** Impolite Tone - Direct Personality Criticism\n\n📖 **Vietnamese Explanation:** Chỉ trích thái độ của ai đó là rất nhạy cảm. Thay vì nói 'you need to change', hãy đề cập đến hành vi cụ thể hoặc đưa ra giải pháp chung. 'I think we might get along better if...' hoặc 'Perhaps we could try...' Người Việt nói 'bạn cần thay đổi thái độ' – hãy nói 'có lẽ cách tiếp cận khác sẽ tốt hơn'. 😌"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should be more careful.",
+    "output": "✅ **Corrected Sentence:** It might be a good idea to be more careful next time. / Perhaps double-checking could prevent errors.\n\n🔍 **Error Identification:** Impolite Tone - Condescending Advice\n\n📖 **Vietnamese Explanation:** 'You should be more careful' nghe như đang mắng mỏ. Hãy đưa ra lời khuyên một cách khách quan, tránh chỉ trích trực tiếp. Dùng 'It might be a good idea to...' (có lẽ nên...), 'Maybe we could...' Người Việt nói 'bạn nên cẩn thận hơn' – hãy chuyển thành 'lần sau cẩn thận hơn một chút thì tốt nhỉ?' 🧐"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "That's not true.",
+    "output": "✅ **Corrected Sentence:** I'm not sure that's accurate. / Actually, I've heard something different.\n\n🔍 **Error Identification:** Impolite Tone - Direct Contradiction\n\n📖 **Vietnamese Explanation:** Phủ định trực tiếp 'that's not true' có thể gây tranh cãi. Hãy làm mềm bằng cách bày tỏ sự không chắc chắn hoặc đưa ra thông tin thay thế. 'I'm not sure that's accurate' (tôi không chắc điều đó chính xác), 'I think there might be a misunderstanding.' Người Việt nói 'không đúng' – hãy nói 'tôi không chắc lắm về điều đó'. ❌"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must save more money.",
+    "output": "✅ **Corrected Sentence:** Have you considered setting aside some savings each month? / It might be wise to put some money aside.\n\n🔍 **Error Identification:** Impolite Tone - Forceful Financial Advice\n\n📖 **Vietnamese Explanation:** 'You must save more' nghe như ra lệnh về tài chính cá nhân. Hãy dùng gợi ý hoặc câu hỏi. 'Have you considered...?' hoặc 'It might be helpful to...' Người Việt nói 'bạn phải tiết kiệm hơn' – hãy nói 'bạn có nghĩ đến việc để dành một khoản mỗi tháng không?' 💰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I think you're wrong.",
+    "output": "✅ **Corrected Sentence:** I see it differently, but I appreciate your perspective. / That's interesting, however I've come to a different conclusion.\n\n🔍 **Error Identification:** Impolite Tone - Still Direct Despite 'I think'\n\n📖 **Vietnamese Explanation:** Thêm 'I think' vẫn chưa đủ để làm mềm câu phản đối. Hãy thừa nhận giá trị ý kiến của đối phương trước khi đưa ra quan điểm riêng. 'I see your point, but...' (tôi hiểu ý bạn, nhưng...), 'That's a valid point, however...' Người Việt nói 'tôi nghĩ bạn sai' – hãy nói 'tôi thấy vấn đề hơi khác một chút'. 🤷"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You don't have enough experience for this job.",
+    "output": "✅ **Corrected Sentence:** This role typically requires more experience, but let's see if your other skills make up for it. / Have you considered applying for an entry-level position first?\n\n🔍 **Error Identification:** Impolite Tone - Direct Negative Assessment\n\n📖 **Vietnamese Explanation:** Phủ định năng lực của ai đó một cách trực tiếp gây mất lòng. Hãy nói về yêu cầu công việc thay vì chỉ trích cá nhân. 'This position usually requires...' (vị trí này thường yêu cầu...), 'Perhaps you could gain more experience in...' Người Việt tránh nói 'bạn không đủ kinh nghiệm'. 💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should break up with him.",
+    "output": "✅ **Corrected Sentence:** I'm concerned about your relationship. Have you thought about whether this is healthy for you?\n\n🔍 **Error Identification:** Impolite Tone - Direct Advice on Personal Relationships\n\n📖 **Vietnamese Explanation:** Lời khuyên về chuyện tình cảm cần cực kỳ tế nhị. 'You should break up' là áp đặt. Hãy bày tỏ sự quan tâm và đặt câu hỏi để họ tự quyết định. 'I'm concerned...', 'How do you feel about...?' Người Việt nên nói 'tôi lo cho bạn, bạn có nghĩ rằng mối quan hệ này ổn không?' 💔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "That's a terrible idea.",
+    "output": "✅ **Corrected Sentence:** I'm not sure that idea would work in practice. / Have you considered some potential challenges?\n\n🔍 **Error Identification:** Impolite Tone - Harsh Negative Evaluation\n\n📖 **Vietnamese Explanation:** 'Terrible idea' là phán xét nặng lời. Thay vào đó, hãy đưa ra phản hồi xây dựng: nêu lý do tại sao nó có thể không hiệu quả hoặc đặt câu hỏi về những thách thức. 'I'm concerned that...', 'What about...?' Người Việt nói 'ý tưởng tồi' – hãy nói 'tôi không chắc ý tưởng đó khả thi'. 💡"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must arrive on time.",
+    "output": "✅ **Corrected Sentence:** It would be great if you could arrive on time. / Punctuality is really important for this meeting.\n\n🔍 **Error Identification:** Impolite Tone - Forceful Reminder\n\n📖 **Vietnamese Explanation:** 'You must arrive on time' nghe như quát nạt. Hãy nêu tầm quan trọng của việc đúng giờ thay vì ra lệnh. 'It would be great if...', 'I'd appreciate it if you could...' Người Việt nói 'bạn phải đến đúng giờ' – hãy nói 'việc đúng giờ rất quan trọng nhé'. ⏰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are lying.",
+    "output": "✅ **Corrected Sentence:** I'm having trouble believing that. / That doesn't match what I heard.\n\n🔍 **Error Identification:** Highly Impolite - Direct Accusation of Lying\n\n📖 **Vietnamese Explanation:** Buộc tội ai đó nói dối là cực kỳ nặng nề. Thay vào đó, hãy bày tỏ sự khó tin hoặc đưa ra thông tin mâu thuẫn. 'I find that hard to believe' (tôi thấy khó tin), 'Are you sure about that?' (bạn có chắc không?). Người Việt tuyệt đối tránh nói 'bạn đang nói dối' trong tranh luận lịch sự. 🚫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should try to be happier.",
+    "output": "✅ **Corrected Sentence:** I've noticed you seem down lately. Is there anything I can do to help? / Perhaps talking to someone might help.\n\n🔍 **Error Identification:** Impolite Tone - Insensitive Advice on Emotions\n\n📖 **Vietnamese Explanation:** Bảo ai đó 'nên vui hơn' là thiếu tinh tế, phủ nhận cảm xúc của họ. Thay vào đó, hãy bày tỏ sự quan tâm và đề nghị giúp đỡ. 'I've noticed you seem sad, do you want to talk?' Người Việt nói 'bạn nên vui lên' – hãy nói 'tôi thấy bạn có vẻ buồn, có chuyện gì không?' 😔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I don't like your suggestion.",
+    "output": "✅ **Corrected Sentence:** I appreciate the suggestion, but I'm leaning towards a different approach. / That's one option, but let's explore others.\n\n🔍 **Error Identification:** Impolite Tone - Direct Rejection\n\n📖 **Vietnamese Explanation:** 'I don't like your suggestion' từ chối thẳng thừng, có thể gây mất lòng. Hãy cảm ơn trước, sau đó đưa ra lý do hoặc đề xuất phương án khác. 'I appreciate your input, however...' (tôi đánh giá cao ý kiến của bạn, tuy nhiên...). Người Việt nói 'tôi không thích đề xuất của bạn' – hãy nói 'cảm ơn bạn, nhưng tôi đang nghĩ đến hướng khác'. 👍"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must understand me.",
+    "output": "✅ **Corrected Sentence:** I hope you can see where I'm coming from. / I'd really like you to understand my point of view.\n\n🔍 **Error Identification:** Impolite Tone - Demanding Understanding\n\n📖 **Vietnamese Explanation:** 'You must understand' là yêu cầu, không phải là cầu xin sự thông cảm. Hãy bày tỏ hy vọng hoặc mong muốn một cách nhẹ nhàng. 'I hope you can understand...' (tôi hy vọng bạn có thể hiểu), 'I'd really appreciate your understanding.' Người Việt nói 'bạn phải hiểu tôi' – hãy nói 'mong bạn có thể hiểu cho tôi'. 💙"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "Your work is not good enough.",
+    "output": "✅ **Corrected Sentence:** I think there's room for improvement in this area. / Could you revise this part to make it stronger?\n\n🔍 **Error Identification:** Impolite Tone - Blunt Criticism\n\n📖 **Vietnamese Explanation:** Phê bình trực tiếp 'not good enough' có thể gây nản lòng. Hãy đưa ra phản hồi xây dựng, chỉ ra cụ thể cần cải thiện điều gì. 'There's room for improvement' (có thể cải thiện thêm), 'I suggest focusing on...' Người Việt nói 'bài của bạn chưa đủ tốt' – hãy nói 'bài có thể tốt hơn nếu bạn sửa phần này'. 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are completely wrong.",
+    "output": "✅ **Corrected Sentence:** I'm afraid I have to disagree with you on that point. / Let's agree to disagree on this one.\n\n🔍 **Error Identification:** Highly Impolite - Absolute Disagreement\n\n📖 **Vietnamese Explanation:** 'Completely wrong' càng làm câu nói trở nên thô lỗ hơn. Hãy dùng 'I'm afraid I disagree' (tôi e rằng tôi không đồng ý) hoặc đề nghị tôn trọng sự khác biệt: 'Let's agree to disagree' (hãy tôn trọng ý kiến khác nhau). Người Việt tránh nói 'bạn sai hoàn toàn'. 🕊️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should take a break.",
+    "output": "✅ **Corrected Sentence:** It might be a good idea to take a break. / How about taking a short rest?\n\n🔍 **Error Identification:** Impolite Tone - Can be fine but soften for sensitivity\n\n📖 **Vietnamese Explanation:** 'You should take a break' có thể chấp nhận trong nhiều ngữ cảnh, nhưng để lịch sự hơn, hãy dùng 'It might be good to...' hoặc 'How about...?' Đặc biệt với cấp trên hoặc người lớn tuổi, tránh 'you should'. Người Việt nói 'bạn nên nghỉ ngơi' – thêm 'có lẽ' sẽ nhẹ nhàng hơn. 😴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "That doesn't make any sense.",
+    "output": "✅ **Corrected Sentence:** I'm having trouble following your logic. / Could you walk me through that again?\n\n🔍 **Error Identification:** Impolite Tone - Dismissive\n\n📖 **Vietnamese Explanation:** 'That doesn't make any sense' phủ định toàn bộ lập luận của người khác, có thể gây xúc phạm. Hãy đổ lỗi cho bản thân mình ('I'm having trouble following') hoặc yêu cầu giải thích lại. Người Việt nói 'điều đó chẳng có nghĩa lý gì' – hãy nói 'tôi chưa hiểu rõ lắm, bạn có thể giải thích lại không?' 🤨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must work on your pronunciation.",
+    "output": "✅ **Corrected Sentence:** Perhaps focusing on pronunciation could be helpful. / Have you tried practicing with some listening exercises?\n\n🔍 **Error Identification:** Impolite Tone - Forceful Advice on Weakness\n\n📖 **Vietnamese Explanation:** Chỉ ra điểm yếu của ai đó với 'you must' rất dễ gây tự ái. Hãy đưa ra gợi ý nhẹ nhàng hoặc hỏi về phương pháp họ đang dùng. 'Perhaps you could...', 'You might want to...' Người Việt nói 'bạn phải luyện phát âm' – hãy nói 'bạn có thể thử luyện phát âm thêm nhé?' 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I don't care about your opinion.",
+    "output": "✅ **Corrected Sentence:** I appreciate your input, but I've made up my mind on this. / I hear you, but I see it differently.\n\n🔍 **Error Identification:** Highly Impolite - Dismissive and Rude\n\n📖 **Vietnamese Explanation:** 'I don't care about your opinion' là cắt đứt giao tiếp, cực kỳ thô lỗ. Ngay cả khi không đồng ý, hãy thể hiện sự tôn trọng. 'I appreciate your perspective, however...' (tôi đánh giá cao quan điểm của bạn, tuy nhiên...). Người Việt tuyệt đối tránh nói 'tôi không quan tâm ý kiến của bạn'. 🙅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You need to stop being so lazy.",
+    "output": "✅ **Corrected Sentence:** I've noticed you've been less active lately. Is everything okay? / Perhaps we could find ways to be more productive.\n\n🔍 **Error Identification:** Highly Impolite - Name-calling and Accusation\n\n📖 **Vietnamese Explanation:** Gọi ai đó 'lazy' là xúc phạm. Thay vào đó, hãy mô tả hành vi quan sát được và bày tỏ sự quan tâm. 'I've noticed you haven't been as productive' (tôi để ý thấy bạn ít làm việc hơn), tránh gán nhãn tiêu cực. Người Việt không nên nói 'bạn cần ngừng lười biếng'. 🦥"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should listen to me because I know better.",
+    "output": "✅ **Corrected Sentence:** I have some experience in this area, so I hope you'll consider my advice. / Based on what I've learned, here's what I think.\n\n🔍 **Error Identification:** Impolite Tone - Arrogant\n\n📖 **Vietnamese Explanation:** Khẳng định mình biết nhiều hơn và yêu cầu người khác nghe theo là kiêu ngạo. Hãy khiêm tốn đưa ra lý do tại sao bạn đưa ra lời khuyên. 'Based on my experience...' (dựa trên kinh nghiệm của tôi...), 'I've found that...' (tôi nhận thấy rằng...). Người Việt nên tránh nói 'bạn nên nghe tôi vì tôi biết rõ hơn'. 🧠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "Your idea is impractical.",
+    "output": "✅ **Corrected Sentence:** I see some potential challenges with that idea. / Have you thought about the practical aspects?\n\n🔍 **Error Identification:** Impolite Tone - Direct Negative Label\n\n📖 **Vietnamese Explanation:** Gọi ý tưởng là 'impractical' nghe như phán xét. Hãy nêu ra những khó khăn cụ thể hoặc đặt câu hỏi. 'I'm concerned about the feasibility' (tôi lo về tính khả thi), 'What about the budget/time?' Người Việt nói 'ý tưởng của bạn không thực tế' – hãy nói 'có một số thách thức với ý tưởng này'. 🛠️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must respect your elders.",
+    "output": "✅ **Corrected Sentence:** It's important to show respect to our elders. / I believe respecting elders is a valuable value.\n\n🔍 **Error Identification:** Impolite Tone - Moralizing Command\n\n📖 **Vietnamese Explanation:** 'You must respect' nghe như đang giảng đạo và ra lệnh. Hãy nêu giá trị chung thay vì áp đặt lên cá nhân. 'It's important to...' (điều quan trọng là...), 'Many cultures value respecting elders.' Người Việt nên nói 'việc tôn trọng người lớn tuổi là quan trọng' thay vì 'bạn phải tôn trọng'. 👴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I hate to say this, but you are wrong.",
+    "output": "✅ **Corrected Sentence:** I'm sorry, but I see it differently. / I don't mean to offend, but I have another perspective.\n\n🔍 **Error Identification:** Impolite Tone - Still ends with 'you are wrong'\n\n📖 **Vietnamese Explanation:** Dù có mở đầu 'I hate to say this' (tôi ghét phải nói điều này), câu kết vẫn là 'you are wrong' – quá trực diện. Hãy thay hoàn toàn bằng 'I see it differently' hoặc 'I'm afraid I disagree'. Người Việt học cách mềm hóa cả câu, không chỉ phần mở đầu. 🤐"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should exercise more.",
+    "output": "✅ **Corrected Sentence:** Have you thought about incorporating more physical activity into your routine? / I've found that exercising regularly makes me feel great.\n\n🔍 **Error Identification:** Impolite Tone - Direct Health Advice\n\n📖 **Vietnamese Explanation:** Lời khuyên tập thể dục có thể được đón nhận tốt hơn nếu đưa ra dưới dạng gợi ý hoặc chia sẻ trải nghiệm cá nhân. 'Have you considered...?' hoặc 'What works for me is...' Người Việt nói 'bạn nên tập thể dục nhiều hơn' – hãy nói 'bạn có nghĩ đến việc tập thể dục thêm không?' 🏋️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You don't know what you're doing.",
+    "output": "✅ **Corrected Sentence:** Are you sure about this approach? / Let's double-check the steps together.\n\n🔍 **Error Identification:** Highly Impolite - Questioning Competence\n\n📖 **Vietnamese Explanation:** Nghi ngờ năng lực của ai đó một cách trực tiếp gây mất lòng tin. Thay vào đó, hãy đặt câu hỏi kiểm tra hoặc đề nghị làm việc cùng. 'Could we review this together?' (chúng ta cùng xem lại nhé?), 'I want to make sure we're on the right track.' 🧐"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must be more organized.",
+    "output": "✅ **Corrected Sentence:** Perhaps being more organized could help with efficiency. / Have you tried using a planner or to-do list?\n\n🔍 **Error Identification:** Impolite Tone - Forceful Personality Advice\n\n📖 **Vietnamese Explanation:** 'You must be more organized' áp đặt một đặc điểm tính cách. Hãy đưa ra gợi ý cụ thể về công cụ hoặc phương pháp. 'Maybe using a calendar would help' (có thể dùng lịch sẽ hữu ích). Người Việt nói 'bạn phải ngăn nắp hơn' – hãy nói 'bạn có thể thử dùng sổ kế hoạch nhé?' 📅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I think you are mistaken.",
+    "output": "✅ **Corrected Sentence:** I might be wrong, but I see it differently. / Could it be that we have different information?\n\n🔍 **Error Identification:** Impolite Tone - Still Directly Says 'You are mistaken'\n\n📖 **Vietnamese Explanation:** 'You are mistaken' vẫn là chỉ trích trực tiếp. Hãy nghi ngờ chính mình thay vì chỉ ra lỗi của người khác. 'I might be wrong, but...' (tôi có thể sai, nhưng...), 'Perhaps I misunderstood.' Người Việt nên nói 'có thể tôi hiểu nhầm' thay vì 'bạn nhầm rồi'. 🤔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should stop complaining.",
+    "output": "✅ **Corrected Sentence:** I hear that you're frustrated. How can we work together to improve the situation?\n\n🔍 **Error Identification:** Impolite Tone - Dismissive of Feelings\n\n📖 **Vietnamese Explanation:** Bảo ai đó 'stop complaining' phủ nhận cảm xúc của họ. Hãy thừa nhận sự khó chịu và chuyển hướng sang giải pháp. 'I understand you're upset, let's find a solution.' Người Việt nói 'bạn nên ngừng phàn nàn' – hãy nói 'tôi hiểu bạn không hài lòng, chúng ta cùng tìm cách giải quyết nhé?' 😤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are not qualified to give advice.",
+    "output": "✅ **Corrected Sentence:** I appreciate your input, but I'd like to hear from someone with more experience in this field.\n\n🔍 **Error Identification:** Highly Impolite - Direct Attack on Credibility\n\n📖 **Vietnamese Explanation:** Phủ nhận tư cách của ai đó là rất nặng lời. Thay vào đó, hãy nói về nhu cầu của bạn mà không hạ thấp họ. 'I'd prefer advice from an expert' (tôi muốn lời khuyên từ chuyên gia). Người Việt tránh nói 'bạn không đủ tư cách'. 🎓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must tell the truth.",
+    "output": "✅ **Corrected Sentence:** Honesty is really important in this situation. / I hope you can be truthful with me.\n\n🔍 **Error Identification:** Impolite Tone - Moral Command\n\n📖 **Vietnamese Explanation:** 'You must tell the truth' như đang buộc tội ai đó nói dối. Hãy nêu tầm quan trọng của sự thật hoặc bày tỏ hy vọng. 'I value honesty' (tôi coi trọng sự thật), 'It would mean a lot if you were honest.' Người Việt nói 'bạn phải nói thật' – hãy nói 'sự thật rất quan trọng ở đây'. 💯"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "Your logic is flawed.",
+    "output": "✅ **Corrected Sentence:** I see a gap in that reasoning. / Could you explain how you got from A to B?\n\n🔍 **Error Identification:** Impolite Tone - Direct Critique of Thinking\n\n📖 **Vietnamese Explanation:** 'Flawed' là phán xét nặng nề. Hãy chỉ ra lỗ hổng một cách khách quan hoặc yêu cầu giải thích. 'I'm not sure I follow the logic' (tôi không chắc tôi hiểu logic), 'Help me understand this part.' Người Việt nói 'logic của bạn sai' – hãy nói 'tôi chưa thấy sự liên kết ở đây'. 🔗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should spend less time on social media.",
+    "output": "✅ **Corrected Sentence:** Have you noticed how much time social media takes? / Maybe reducing screen time could help you focus better.\n\n🔍 **Error Identification:** Impolite Tone - Judgment of Habits\n\n📖 **Vietnamese Explanation:** Lời khuyên về thói quen cá nhân dễ bị coi là xoi mói. Hãy đưa ra câu hỏi gợi mở hoặc nêu lợi ích của việc thay đổi. 'Have you considered tracking your screen time?' Người Việt nói 'bạn nên bớt dùng mạng xã hội' – hãy nói 'bạn có thấy mình dùng mạng xã hội nhiều không?' 📱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I completely disagree.",
+    "output": "✅ **Corrected Sentence:** I see your point, but I have a different perspective. / That's interesting, however I'm leaning the other way.\n\n🔍 **Error Identification:** Impolite Tone - Too Strong Disagreement\n\n📖 **Vietnamese Explanation:** 'Completely disagree' vẫn khá mạnh. Thêm 'I see your point' hoặc 'I respect your view' trước khi bày tỏ sự không đồng tình sẽ dễ chịu hơn. Người Việt nói 'tôi hoàn toàn không đồng ý' – hãy nói 'tôi hiểu ý bạn, nhưng tôi thấy khác'. 🕊️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are overreacting.",
+    "output": "✅ **Corrected Sentence:** I can see this is really affecting you. / Let's take a step back and look at the situation calmly.\n\n🔍 **Error Identification:** Impolite Tone - Invalidating Feelings\n\n📖 **Vietnamese Explanation:** Bảo ai đó 'overreacting' phủ nhận cảm xúc của họ. Thay vào đó, hãy thừa nhận cảm xúc và đề xuất cách nhìn nhận khác. 'I see you're upset' (tôi thấy bạn đang buồn), 'Let's calm down and talk.' Người Việt tránh nói 'bạn đang phản ứng thái quá'. 😢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must learn to say sorry.",
+    "output": "✅ **Corrected Sentence:** Apologizing can help heal relationships. / Have you considered saying sorry to resolve this?\n\n🔍 **Error Identification:** Impolite Tone - Forceful Moral Lesson\n\n📖 **Vietnamese Explanation:** 'You must learn' nghe như đang dạy đời. Hãy nêu lợi ích của việc xin lỗi hoặc đặt câu hỏi. 'Saying sorry might make things better.' Người Việt nói 'bạn phải học cách xin lỗi' – hãy nói 'xin lỗi có thể giúp hàn gắn mối quan hệ đấy'. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "That's the stupidest thing I've ever heard.",
+    "output": "✅ **Corrected Sentence:** I've never thought of it that way, but I have some concerns. / That's a very unconventional idea.\n\n🔍 **Error Identification:** Highly Impolite - Insulting Superlative\n\n📖 **Vietnamese Explanation:** Đây là câu cực kỳ xúc phạm, không bao giờ dùng trong giao tiếp lịch sự. Thay vào đó, hãy bày tỏ sự ngạc nhiên hoặc không đồng tình một cách tôn trọng. 'That's an interesting perspective, but I'm not sure I agree.' Người Việt tuyệt đối tránh dịch 'ngu ngốc nhất'. 🤯"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should apologize to me.",
+    "output": "✅ **Corrected Sentence:** I feel hurt by what happened, and an apology would mean a lot to me. / Could we talk about what happened so we can move forward?\n\n🔍 **Error Identification:** Impolite Tone - Demanding Apology\n\n📖 **Vietnamese Explanation:** Yêu cầu ai đó xin lỗi một cách trực tiếp thường phản tác dụng. Hãy bày tỏ cảm xúc của bạn và để họ tự quyết định. 'I would appreciate an apology' (tôi sẽ rất cảm kích nếu bạn xin lỗi). Người Việt nói 'bạn nên xin lỗi tôi' – hãy nói 'tôi cảm thấy bị tổn thương, lời xin lỗi sẽ giúp tôi cảm thấy tốt hơn'. 💔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are being unreasonable.",
+    "output": "✅ **Corrected Sentence:** I'm having trouble seeing your logic. / Could you help me understand why you feel that way?\n\n🔍 **Error Identification:** Impolite Tone - Labeling\n\n📖 **Vietnamese Explanation:** Gán nhãn 'unreasonable' (vô lý) cho ai đó là xúc phạm. Hãy yêu cầu giải thích hoặc bày tỏ khó khăn trong việc hiểu. 'I'm not following your reasoning' (tôi không theo kịp lập luận của bạn). Người Việt nói 'bạn thật vô lý' – hãy nói 'bạn có thể giải thích lý do tại sao bạn nghĩ vậy được không?' 🧩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must not be lazy.",
+    "output": "✅ **Corrected Sentence:** Staying active and productive is important. / Let's find ways to stay motivated.\n\n🔍 **Error Identification:** Impolite Tone - Negative Command\n\n📖 **Vietnamese Explanation:** 'You must not be lazy' vừa ra lệnh vừa sỉ nhục. Hãy diễn đạt tích cực, khuyến khích thay vì cấm đoán. 'It's good to stay productive' (thật tốt khi duy trì năng suất). Người Việt tránh nói 'bạn không được lười biếng'. 🌟"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I don't agree with you at all.",
+    "output": "✅ **Corrected Sentence:** I see where you're coming from, but I have a different take. / That's one way to look at it, though I see it differently.\n\n🔍 **Error Identification:** Impolite Tone - 'At all' makes it stronger\n\n📖 **Vietnamese Explanation:** 'At all' nhấn mạnh sự không đồng tình tuyệt đối, gây căng thẳng. Hãy bỏ 'at all' và thêm phần thừa nhận quan điểm đối phương. Người Việt nói 'tôi không đồng ý với bạn chút nào' – hãy nói 'tôi hiểu ý bạn, nhưng tôi thấy khác'. 🎯"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should change your major.",
+    "output": "✅ **Corrected Sentence:** Have you considered whether this major aligns with your career goals? / Perhaps exploring other fields might be beneficial.\n\n🔍 **Error Identification:** Impolite Tone - Major Life Decision Advice\n\n📖 **Vietnamese Explanation:** Lời khuyên đổi ngành học là rất nhạy cảm. Hãy đặt câu hỏi về sự phù hợp thay vì trực tiếp bảo họ đổi. 'How do you feel about your current major?' Người Việt nói 'bạn nên đổi ngành' – hãy nói 'bạn có nghĩ ngành này phù hợp với mục tiêu của bạn không?' 🎓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "That's wrong.",
+    "output": "✅ **Corrected Sentence:** I'm not sure that's correct. / I've heard something different.\n\n🔍 **Error Identification:** Impolite Tone - Short and Blunt\n\n📖 **Vietnamese Explanation:** 'That's wrong' quá ngắn gọn và trực diện. Hãy thêm 'I'm not sure' hoặc 'I think' để làm mềm. 'That might not be accurate' (điều đó có thể không chính xác). Người Việt nói 'sai rồi' – hãy nói 'tôi không chắc điều đó đúng lắm'. ❓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must always be on time.",
+    "output": "✅ **Corrected Sentence:** Being on time is very important here. / I'd really appreciate it if you could arrive on time.\n\n🔍 **Error Identification:** Impolite Tone - 'Must always' is absolute\n\n📖 **Vietnamese Explanation:** 'Must always' là mệnh lệnh tuyệt đối, gây áp lực. Hãy nêu tầm quan trọng hoặc bày tỏ mong muốn. 'It's expected to be on time' (việc đúng giờ được mong đợi). Người Việt nói 'bạn phải luôn luôn đúng giờ' – hãy nói 'đúng giờ rất quan trọng ở đây'. ⏲️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are not making any sense.",
+    "output": "✅ **Corrected Sentence:** I'm struggling to follow your point. / Could you rephrase that for me?\n\n🔍 **Error Identification:** Impolite Tone - Blunt Assessment\n\n📖 **Vietnamese Explanation:** 'Not making any sense' phủ định toàn bộ khả năng diễn đạt. Hãy đổ lỗi cho bản thân hoặc yêu cầu làm rõ. 'I'm not following' (tôi không theo kịp), 'Can you explain differently?' Người Việt nói 'bạn chẳng có ý nghĩa gì cả' – hãy nói 'tôi chưa hiểu lắm, bạn có thể nói lại không?' 🌀"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should be grateful.",
+    "output": "✅ **Corrected Sentence:** I hope you can see how fortunate this situation is. / Perhaps focusing on the positive aspects might help.\n\n🔍 **Error Identification:** Impolite Tone - Telling someone how to feel\n\n📖 **Vietnamese Explanation:** Bảo ai đó 'nên biết ơn' là chỉ đạo cảm xúc, rất khó chịu. Hãy bày tỏ hy vọng hoặc đưa ra gợi ý về cách nhìn nhận. 'I think there's a lot to appreciate here' (tôi nghĩ có nhiều điều đáng trân trọng ở đây). Người Việt nói 'bạn nên biết ơn' – hãy nói 'có lẽ bạn có thể nhìn vào những điều tích cực'. 🙏"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I'm right, you're wrong.",
+    "output": "✅ **Corrected Sentence:** Let's agree to disagree. / We seem to have different perspectives on this.\n\n🔍 **Error Identification:** Highly Impolite - Competitive and Confrontational\n\n📖 **Vietnamese Explanation:** Câu này tạo ra thế đối đầu 'tôi đúng, bạn sai', không có chỗ cho đối thoại. Hãy chấp nhận sự khác biệt một cách hòa bình. 'We see things differently' (chúng ta thấy vấn đề khác nhau). Người Việt tránh nói 'tôi đúng, bạn sai' trong tranh luận. ⚔️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You need to grow up.",
+    "output": "✅ **Corrected Sentence:** I think you're capable of handling this more maturely. / Perhaps it's time to take a more responsible approach.\n\n🔍 **Error Identification:** Highly Impolite - Condescending\n\n📖 **Vietnamese Explanation:** 'Grow up' là lời nói hạ thấp, gây tổn thương. Hãy diễn đạt sự kỳ vọng về sự trưởng thành một cách tích cực. 'I believe you can handle this better' (tôi tin bạn có thể xử lý việc này tốt hơn). Người Việt tránh nói 'bạn cần trưởng thành hơn'. 🌱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must stop wasting time.",
+    "output": "✅ **Corrected Sentence:** I've noticed that time management could be improved. / Let's find ways to use our time more efficiently.\n\n🔍 **Error Identification:** Impolite Tone - Accusatory Command\n\n📖 **Vietnamese Explanation:** 'Stop wasting time' là buộc tội. Hãy đề cập đến việc quản lý thời gian một cách khách quan. 'We could be more productive if we focus' (chúng ta có thể năng suất hơn nếu tập trung). Người Việt nói 'bạn phải ngừng lãng phí thời gian' – hãy nói 'tôi thấy chúng ta có thể dùng thời gian hiệu quả hơn'. ⏳"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "Your idea doesn't work.",
+    "output": "✅ **Corrected Sentence:** I see some potential issues with this idea. / Let's test this idea with a small example.\n\n🔍 **Error Identification:** Impolite Tone - Direct Rejection\n\n📖 **Vietnamese Explanation:** Phủ định ý tưởng một cách tuyệt đối không khuyến khích sáng tạo. Hãy chỉ ra vấn đề cụ thể hoặc đề xuất thử nghiệm. 'I'm concerned about the feasibility' (tôi lo về tính khả thi). Người Việt nói 'ý tưởng của bạn không hiệu quả' – hãy nói 'có một số vấn đề với ý tưởng này'. 🧪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should forget about him.",
+    "output": "✅ **Corrected Sentence:** It might be healthier to focus on yourself right now. / Have you thought about moving on and looking forward?\n\n🔍 **Error Identification:** Impolite Tone - Dismissive of Emotions\n\n📖 **Vietnamese Explanation:** Bảo ai đó quên đi người yêu cũ là phủ nhận cảm xúc của họ. Hãy khuyến khích tập trung vào bản thân hoặc tương lai. 'It's important to take care of yourself' (quan trọng là chăm sóc bản thân). Người Việt nói 'bạn nên quên anh ấy đi' – hãy nói 'có lẽ bạn nên tập trung vào bản thân lúc này'. 💔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are so stubborn.",
+    "output": "✅ **Corrected Sentence:** I can see you're very committed to your viewpoint. / Let's try to find some common ground.\n\n🔍 **Error Identification:** Impolite Tone - Negative Label\n\n📖 **Vietnamese Explanation:** Gọi ai đó 'stubborn' là xúc phạm. Hãy diễn đạt tích cực: 'committed to your viewpoint' (cam kết với quan điểm của bạn) hoặc đề nghị tìm điểm chung. Người Việt nói 'bạn thật bướng bỉnh' – hãy nói 'tôi thấy bạn rất kiên định với quan điểm của mình'. 🐂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must apologize right now.",
+    "output": "✅ **Corrected Sentence:** An apology would really help in this situation. / I hope you can see the importance of apologizing.\n\n🔍 **Error Identification:** Impolite Tone - Demanding Immediate Action\n\n📖 **Vietnamese Explanation:** 'Right now' càng làm câu trở nên thô lỗ. Hãy bày tỏ mong muốn thay vì ra lệnh. 'I would really appreciate an apology' (tôi sẽ rất cảm kích nếu bạn xin lỗi). Người Việt nói 'bạn phải xin lỗi ngay' – hãy nói 'lời xin lỗi sẽ rất có ích lúc này'. 🕊️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I think you are lying.",
+    "output": "✅ **Corrected Sentence:** That doesn't match what I heard. / Are you sure about that information?\n\n🔍 **Error Identification:** Highly Impolite - Accusation of Lying\n\n📖 **Vietnamese Explanation:** 'You are lying' trực tiếp buộc tội. Hãy nêu sự mâu thuẫn hoặc đặt câu hỏi kiểm tra. 'I have a different understanding' (tôi có hiểu biết khác). Người Việt nên nói 'thông tin đó có vẻ mâu thuẫn với những gì tôi biết'. 🕵️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should eat less junk food.",
+    "output": "✅ **Corrected Sentence:** Have you thought about incorporating more healthy meals into your diet? / I've noticed that eating well gives me more energy.\n\n🔍 **Error Identification:** Impolite Tone - Unsolicited Dietary Advice\n\n📖 **Vietnamese Explanation:** Lời khuyên về chế độ ăn dễ bị coi là xoi mói. Hãy đề cập đến lợi ích của việc ăn lành mạnh thay vì chỉ trích. 'I've found that healthy eating helps me feel better' (tôi thấy ăn uống lành mạnh giúp tôi cảm thấy tốt hơn). 🥗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are absolutely incorrect.",
+    "output": "✅ **Corrected Sentence:** I believe there might be a misunderstanding. / Let's check the facts together.\n\n🔍 **Error Identification:** Impolite Tone - 'Absolutely' makes it worse\n\n📖 **Vietnamese Explanation:** 'Absolutely incorrect' là phủ định tuyệt đối, không chừa đường lui. Hãy đề nghị kiểm tra sự thật cùng nhau. 'Let's verify the information' (hãy cùng kiểm tra thông tin). Người Việt nói 'bạn sai hoàn toàn' – hãy nói 'có thể có sự hiểu nhầm ở đây'. 🔍"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must be more confident.",
+    "output": "✅ **Corrected Sentence:** I think you have many strengths; owning them might boost your confidence. / Have you tried practicing self-affirmation?\n\n🔍 **Error Identification:** Impolite Tone - Overly Simple Advice\n\n📖 **Vietnamese Explanation:** 'You must be more confident' nghe như việc thiếu tự tin là lỗi của họ. Hãy khích lệ bằng cách nhắc đến điểm mạnh và đưa ra gợi ý cụ thể. 'You have great skills, and believing in yourself can make a difference.' 💪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "Your opinion doesn't matter.",
+    "output": "✅ **Corrected Sentence:** I respect your opinion, but I need to make the final decision. / Let's focus on the facts rather than opinions.\n\n🔍 **Error Identification:** Highly Impolite - Invalidating\n\n📖 **Vietnamese Explanation:** Nói ý kiến của ai đó không quan trọng là phủ nhận giá trị của họ. Không bao giờ được nói câu này trong giao tiếp lịch sự. Hãy nói 'I appreciate your input, but we have to consider other factors' (tôi đánh giá cao ý kiến của bạn, nhưng chúng ta cần xem xét các yếu tố khác). 🚫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should try to be nicer.",
+    "output": "✅ **Corrected Sentence:** I think kindness can go a long way. / Perhaps a gentler approach would work better.\n\n🔍 **Error Identification:** Impolite Tone - Judgmental\n\n📖 **Vietnamese Explanation:** 'Try to be nicer' ngụ ý rằng hiện tại họ không tử tế. Hãy nói về giá trị của sự tử tế nói chung. 'Being kind helps build good relationships' (sự tử tế giúp xây dựng mối quan hệ tốt). Người Việt nói 'bạn nên tử tế hơn' – hãy nói 'sự tử tế luôn được đánh giá cao'. 🌸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are wasting my time.",
+    "output": "✅ **Corrected Sentence:** I'm concerned that we might be off track. / Let's try to focus on the main point.\n\n🔍 **Error Identification:** Impolite Tone - Accusatory\n\n📖 **Vietnamese Explanation:** Đổ lỗi cho ai đó làm lãng phí thời gian của bạn là rất nặng lời. Hãy nói về sự cần thiết phải tập trung mà không chỉ trích cá nhân. 'I think we need to stay on topic to make progress' (tôi nghĩ chúng ta cần tập trung vào chủ đề để tiến triển). ⏱️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must control your temper.",
+    "output": "✅ **Corrected Sentence:** I've noticed that things get heated sometimes. Let's find ways to communicate calmly.\n\n🔍 **Error Identification:** Impolite Tone - Condescending\n\n📖 **Vietnamese Explanation:** 'Control your temper' nghe như mắng mỏ. Hãy đề xuất giải pháp chung thay vì chỉ ra khuyết điểm. 'We could both benefit from staying calm' (cả hai chúng ta đều có lợi khi giữ bình tĩnh). Người Việt nói 'bạn phải kiềm chế cơn nóng giận' – hãy nói 'hãy cùng nhau nói chuyện bình tĩnh nhé'. 😤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "That's a dumb question.",
+    "output": "✅ **Corrected Sentence:** That's an interesting question, let me think. / I see where you're coming from, but here's another way to look at it.\n\n🔍 **Error Identification:** Highly Impolite - Insulting\n\n📖 **Vietnamese Explanation:** Gọi câu hỏi là 'dumb' là sỉ nhục người hỏi. Không bao giờ nói như vậy. Thay vào đó, hãy trả lời một cách tôn trọng hoặc nói 'That's a good question, and here's what I think.' Người Việt tránh nói 'câu hỏi ngu ngốc'. 🤦"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should be more like your brother.",
+    "output": "✅ **Corrected Sentence:** Everyone has their own strengths. I admire your unique qualities.\n\n🔍 **Error Identification:** Highly Impolite - Comparing Unfavorably\n\n📖 **Vietnamese Explanation:** So sánh ai đó với người khác một cách tiêu cực là rất tổn thương. Hãy tập trung vào điểm mạnh của chính họ. 'You have your own talents and I appreciate them' (bạn có tài năng riêng và tôi trân trọng điều đó). Người Việt tránh nói 'bạn nên giống anh bạn của bạn'. 👥"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I don't want to hear your excuses.",
+    "output": "✅ **Corrected Sentence:** I'd like to focus on finding a solution. / Let's move past the reasons and talk about what we can do now.\n\n🔍 **Error Identification:** Impolite Tone - Dismissive\n\n📖 **Vietnamese Explanation:** 'Don't want to hear excuses' cắt đứt giao tiếp. Hãy chuyển hướng sang giải pháp thay vì phủ định lời giải thích. 'Let's focus on the next steps' (hãy tập trung vào các bước tiếp theo). 🚧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must keep your promise.",
+    "output": "✅ **Corrected Sentence:** Keeping promises is really important for trust. / I hope you can stick to what you said.\n\n🔍 **Error Identification:** Impolite Tone - Moral Command\n\n📖 **Vietnamese Explanation:** 'You must keep your promise' như đang nghi ngờ họ sẽ không giữ lời. Hãy nêu tầm quan trọng của việc giữ lời hứa. 'I rely on your word' (tôi tin vào lời hứa của bạn). Người Việt nói 'bạn phải giữ lời hứa' – hãy nói 'giữ lời hứa rất quan trọng để xây dựng niềm tin'. 🤝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are not listening to me.",
+    "output": "✅ **Corrected Sentence:** I feel like I'm not being heard. / Could we pause and make sure we're on the same page?\n\n🔍 **Error Identification:** Impolite Tone - Accusatory\n\n📖 **Vietnamese Explanation:** Cáo buộc ai đó không lắng nghe dễ gây phòng thủ. Hãy bày tỏ cảm xúc của bạn hoặc đề nghị kiểm tra lại. 'I'm not sure if I'm getting my point across' (tôi không chắc tôi đã truyền đạt được ý của mình chưa). 👂"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should stop being so sensitive.",
+    "output": "✅ **Corrected Sentence:** I can see that you're affected by this. / Let's find a way to communicate that works for both of us.\n\n🔍 **Error Identification:** Highly Impolite - Invalidating Feelings\n\n📖 **Vietnamese Explanation:** Bảo ai đó 'đừng nhạy cảm' là phủ nhận cảm xúc chính đáng của họ. Hãy thừa nhận cảm xúc và đề xuất giải pháp. 'I see this bothers you, let's talk about it' (tôi thấy điều này làm bạn khó chịu, hãy nói về nó). Người Việt tránh nói 'bạn đừng nhạy cảm quá'. 😢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must finish what you start.",
+    "output": "✅ **Corrected Sentence:** Completing tasks is a valuable habit. / I believe you have the ability to see this through.\n\n🔍 **Error Identification:** Impolite Tone - Preachy\n\n📖 **Vietnamese Explanation:** 'You must finish' nghe như dạy đời. Hãy nói về giá trị của việc hoàn thành công việc một cách chung chung. 'Following through on commitments is important' (theo đuổi đến cùng những cam kết là quan trọng). 🏁"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are making a big deal out of nothing.",
+    "output": "✅ **Corrected Sentence:** I see this is really bothering you. Let's figure out what's at the core.\n\n🔍 **Error Identification:** Impolite Tone - Dismissive\n\n📖 **Vietnamese Explanation:** Phủ định vấn đề của người khác là thiếu tôn trọng. Hãy thừa nhận cảm xúc của họ và đề nghị tìm ra nguyên nhân. 'It seems this is important to you; let's talk about it' (có vẻ điều này quan trọng với bạn; hãy nói về nó). 🎯"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should learn to take criticism.",
+    "output": "✅ **Corrected Sentence:** Feedback can be hard to hear, but it often helps us grow. / How do you usually handle constructive criticism?\n\n🔍 **Error Identification:** Impolite Tone - Condescending\n\n📖 **Vietnamese Explanation:** 'Learn to take criticism' ngụ ý rằng hiện tại họ không chấp nhận góp ý. Hãy nói về lợi ích của phản hồi một cách chung chung. 'I find that feedback helps me improve' (tôi thấy phản hồi giúp tôi tiến bộ). 🎤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I don't care what you think.",
+    "output": "✅ **Corrected Sentence:** I appreciate your input, but I've made up my mind. / Let's agree to disagree on this.\n\n🔍 **Error Identification:** Highly Impolite - Dismissive\n\n📖 **Vietnamese Explanation:** 'I don't care what you think' là cắt đứt tôn trọng. Ngay cả khi không đồng ý, hãy thể hiện sự coi trọng ý kiến của họ. 'I hear you, but I have a different perspective' (tôi nghe bạn, nhưng tôi có góc nhìn khác). 🙉"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must be more patient.",
+    "output": "✅ **Corrected Sentence:** Patience can really help in situations like this. / I know waiting is hard, but it might be worth it.\n\n🔍 **Error Identification:** Impolite Tone - Commanding a Virtue\n\n📖 **Vietnamese Explanation:** 'You must be more patient' nghe như bạn đang thiếu kiên nhẫn là lỗi. Hãy nêu lợi ích của sự kiên nhẫn. 'Sometimes being patient leads to better outcomes' (đôi khi kiên nhẫn dẫn đến kết quả tốt hơn). 🐢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are wrong, and I can prove it.",
+    "output": "✅ **Corrected Sentence:** I see it differently. Let me share some information that might change your perspective.\n\n🔍 **Error Identification:** Impolite Tone - Confrontational\n\n📖 **Vietnamese Explanation:** 'You are wrong, and I can prove it' tạo ra thế đối đầu thắng-thua. Hãy mời họ cùng xem xét thông tin. 'I have some information that might be helpful to consider' (tôi có một số thông tin có thể hữu ích để cân nhắc). 📊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should stop being so negative.",
+    "output": "✅ **Corrected Sentence:** I've noticed a lot of challenges lately. Would you like to talk about some possible solutions?\n\n🔍 **Error Identification:** Impolite Tone - Labeling\n\n📖 **Vietnamese Explanation:** Gán nhãn 'negative' cho ai đó là xúc phạm. Hãy thừa nhận khó khăn và đề xuất tìm giải pháp. 'It seems like you're facing many obstacles; let's brainstorm together' (có vẻ bạn đang gặp nhiều trở ngại; hãy cùng động não). 🌈"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must tell me everything.",
+    "output": "✅ **Corrected Sentence:** I would really like to understand the full picture. / Could you share more details with me?\n\n🔍 **Error Identification:** Impolite Tone - Demanding\n\n📖 **Vietnamese Explanation:** 'You must tell me everything' là yêu cầu xâm phạm quyền riêng tư. Hãy bày tỏ mong muốn được biết và hỏi một cách lịch sự. 'I'd appreciate it if you could be open with me' (tôi sẽ đánh giá cao nếu bạn cởi mở với tôi). 🤐"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "That's not how it works.",
+    "output": "✅ **Corrected Sentence:** Actually, the process is usually different. / Let me explain how it typically works.\n\n🔍 **Error Identification:** Impolite Tone - Blunt Correction\n\n📖 **Vietnamese Explanation:** 'That's not how it works' nghe như phủ định trải nghiệm của người khác. Hãy đưa ra giải thích mang tính thông tin. 'In my experience, it works like this...' (theo kinh nghiệm của tôi, nó hoạt động như thế này...). 🛠️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should think before you speak.",
+    "output": "✅ **Corrected Sentence:** I think it's helpful to take a moment before responding. / Perhaps we could both benefit from pausing to reflect.\n\n🔍 **Error Identification:** Impolite Tone - Condescending\n\n📖 **Vietnamese Explanation:** 'Think before you speak' là lời mắng mỏ phổ biến nhưng gây khó chịu. Hãy đề xuất việc dừng lại để suy nghĩ như một chiến lược chung. 'Taking a moment to think can lead to better communication' (dành một chút thời gian suy nghĩ có thể dẫn đến giao tiếp tốt hơn). 💭"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are impossible to talk to.",
+    "output": "✅ **Corrected Sentence:** I'm finding this conversation challenging. / Let's take a break and try again later.\n\n🔍 **Error Identification:** Highly Impolite - Labeling\n\n📖 **Vietnamese Explanation:** Nói ai đó 'impossible to talk to' là buộc tội họ không thể giao tiếp. Hãy bày tỏ khó khăn của chính bạn hoặc đề nghị tạm dừng. 'I'm struggling to communicate effectively right now' (lúc này tôi đang gặp khó khăn trong giao tiếp). 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must not interrupt me.",
+    "output": "✅ **Corrected Sentence:** I'd appreciate it if you could let me finish speaking. / Could you please hold your thoughts until I'm done?\n\n🔍 **Error Identification:** Impolite Tone - Negative Command\n\n📖 **Vietnamese Explanation:** 'You must not interrupt' là mệnh lệnh phủ định. Hãy đưa ra yêu cầu tích cực và lịch sự. 'Please let me finish' (làm ơn để tôi nói hết). Người Việt nói 'bạn không được ngắt lời tôi' – hãy nói 'bạn vui lòng để tôi nói hết đã nhé'. 🤐"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "Your argument is weak.",
+    "output": "✅ **Corrected Sentence:** I see some gaps in that argument. / Could you provide more evidence to support your point?\n\n🔍 **Error Identification:** Impolite Tone - Judgmental\n\n📖 **Vietnamese Explanation:** 'Weak argument' là phán xét trực tiếp, có thể gây mất mặt. Hãy yêu cầu thêm bằng chứng hoặc chỉ ra lỗ hổng một cách khách quan. 'I'm not fully convinced; can you elaborate?' (tôi chưa hoàn toàn tin; bạn có thể giải thích thêm không?). 🧩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You should admit you're wrong.",
+    "output": "✅ **Corrected Sentence:** Let's look at the facts together. / I'm open to being corrected if I'm wrong.\n\n🔍 **Error Identification:** Impolite Tone - Forceful Confession\n\n📖 **Vietnamese Explanation:** Yêu cầu ai đó nhận sai là áp đặt. Hãy tập trung vào sự thật và thể hiện sự khiêm tốn của bản thân. 'I could be mistaken, but here's what I think' (tôi có thể sai, nhưng đây là những gì tôi nghĩ). 🧾"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You need to lower your voice.",
+    "output": "✅ **Corrected Sentence:** Could you please speak a little more softly? / I'm having a hard time with the volume.\n\n🔍 **Error Identification:** Impolite Tone - Direct Command\n\n📖 **Vietnamese Explanation:** 'You need to lower your voice' nghe như ra lệnh. Hãy dùng câu hỏi lịch sự hoặc bày tỏ sự khó chịu của bản thân. 'Would you mind speaking more quietly?' (bạn có phiền nói nhỏ hơn không?). 🔇"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You are not being fair.",
+    "output": "✅ **Corrected Sentence:** I feel that this decision might not be fair. / Can we look at this from both sides?\n\n🔍 **Error Identification:** Impolite Tone - Accusatory\n\n📖 **Vietnamese Explanation:** 'You are not being fair' buộc tội trực tiếp. Hãy bày tỏ cảm nhận của bạn hoặc đề nghị xem xét công bằng. 'I'm concerned about fairness here' (tôi lo lắng về tính công bằng ở đây). ⚖️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "You must think about the consequences.",
+    "output": "✅ **Corrected Sentence:** It's important to consider the consequences before deciding. / Have you thought about what might happen next?\n\n🔍 **Error Identification:** Impolite Tone - Preachy\n\n📖 **Vietnamese Explanation:** 'You must think' như đang dạy đời. Hãy đặt câu hỏi hoặc nêu tầm quan trọng một cách chung chung. 'What are the potential outcomes?' (những kết quả tiềm năng là gì?). 🔮"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ dụng (cách phản đối/khuyên nhủ) trong câu sau của học viên.",
+    "input": "I totally disagree with your lifestyle choices.",
+    "output": "✅ **Corrected Sentence:** We have different lifestyles, and that's okay. / I respect your choices even if they're not for me.\n\n🔍 **Error Identification:** Highly Impolite - Judgmental on Personal Life\n\n📖 **Vietnamese Explanation:** Phán xét lối sống của ai đó là cực kỳ nhạy cảm. Tốt nhất là không nên đưa ra ý kiến trừ khi được hỏi. Hãy tôn trọng sự khác biệt. 'Everyone has their own way of living' (mỗi người có cách sống riêng). 🏳️"
+  }
+]

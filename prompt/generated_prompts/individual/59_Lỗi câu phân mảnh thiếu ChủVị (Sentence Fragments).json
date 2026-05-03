@@ -1,0 +1,562 @@
+[
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Because she was tired.",
+    "output": "✅ **Corrected Sentence:** She stayed home because she was tired. / Because she was tired, she went to bed early.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề phụ đứng một mình)\n\n📖 **Vietnamese Explanation:** 'Because she was tired' là mệnh đề phụ (subordinate clause) – nó có chủ ngữ 'she' và động từ 'was' nhưng không thể đứng một mình. Trong tiếng Anh, mệnh đề phụ phải đi kèm với mệnh đề chính. Người Việt hay viết 'Bởi vì cô ấy mệt.' như một câu riêng – điều này không được phép trong tiếng Anh. Hãy thêm mệnh đề chính để tạo câu hoàn chỉnh. 🧩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Going to the store.",
+    "output": "✅ **Corrected Sentence:** I am going to the store. / She is going to the store.\n\n🔍 **Error Identification:** Sentence Fragment (Thiếu chủ ngữ)\n\n📖 **Vietnamese Explanation:** 'Going to the store' là cụm V-ing, không có chủ ngữ. Trong tiếng Anh, mọi câu đều cần chủ ngữ và động từ. Người Việt thường viết 'Đi đến cửa hàng.' như một câu hoàn chỉnh – điều này sai. Hãy thêm chủ ngữ (I, she, he, we) và chia động từ phù hợp. 🛒"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A beautiful day.",
+    "output": "✅ **Corrected Sentence:** It is a beautiful day. / What a beautiful day!\n\n🔍 **Error Identification:** Sentence Fragment (Thiếu động từ)\n\n📖 **Vietnamese Explanation:** 'A beautiful day' là một cụm danh từ, không có động từ. Tiếng Việt có thể nói 'Một ngày đẹp trời.' như một câu cảm thán, nhưng tiếng Anh cần động từ 'is' hoặc chuyển thành câu cảm thán với 'What a...!' Hãy nhớ: câu tiếng Anh luôn cần S + V (trừ mệnh lệnh). ☀️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "When I was young.",
+    "output": "✅ **Corrected Sentence:** When I was young, I loved to play outside. / I often visited my grandmother when I was young.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề phụ đứng một mình)\n\n📖 **Vietnamese Explanation:** 'When I was young' là mệnh đề phụ chỉ thời gian, không thể là câu độc lập. Người Việt hay viết 'Khi tôi còn trẻ.' như một câu riêng – không đúng. Hãy thêm mệnh đề chính để hoàn chỉnh ý. 👶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "To improve my English.",
+    "output": "✅ **Corrected Sentence:** I study every day to improve my English. / To improve my English, I watch movies without subtitles.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm động từ nguyên mẫu đứng một mình)\n\n📖 **Vietnamese Explanation:** 'To improve my English' là cụm động từ chỉ mục đích (infinitive phrase), không có chủ ngữ và động từ chính. Trong tiếng Anh, không thể dùng nó như một câu độc lập. Hãy thêm mệnh đề chính. 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "No way to know.",
+    "output": "✅ **Corrected Sentence:** There is no way to know. / We have no way to know.\n\n🔍 **Error Identification:** Sentence Fragment (Thiếu chủ ngữ và động từ chính)\n\n📖 **Vietnamese Explanation:** 'No way to know' là cụm danh từ, thiếu động từ. Tiếng Việt có thể nói 'Không có cách nào biết được.' nhưng tiếng Anh cần có chủ ngữ giả 'There is' hoặc chủ ngữ cụ thể. Hãy thêm 'There is' hoặc 'We have'. ❓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Running late for work.",
+    "output": "✅ **Corrected Sentence:** I am running late for work. / He was running late for work.\n\n🔍 **Error Identification:** Sentence Fragment (Thiếu chủ ngữ)\n\n📖 **Vietnamese Explanation:** 'Running late for work' là cụm hiện tại phân từ, không có chủ ngữ. Người Việt thường nói 'Đang đi làm muộn.' như một câu – sai trong tiếng Anh. Hãy thêm chủ ngữ và động từ 'to be'. 🏃"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "After the party ended.",
+    "output": "✅ **Corrected Sentence:** After the party ended, we went home. / Everyone left after the party ended.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề phụ chỉ thời gian)\n\n📖 **Vietnamese Explanation:** 'After the party ended' là mệnh đề phụ, không thể đứng một mình. Tiếng Việt có thể nói 'Sau khi bữa tiệc kết thúc.' nhưng tiếng Anh cần mệnh đề chính. Hãy thêm kết quả hoặc hành động tiếp theo. 🎉"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A very interesting book.",
+    "output": "✅ **Corrected Sentence:** This is a very interesting book. / I read a very interesting book.\n\n🔍 **Error Identification:** Sentence Fragment (Thiếu động từ)\n\n📖 **Vietnamese Explanation:** 'A very interesting book' là cụm danh từ, không có động từ. Tiếng Việt nói 'Một cuốn sách rất thú vị.' có thể là câu tồn tại, nhưng tiếng Anh bắt buộc có động từ 'is' hoặc 'was'. Hãy thêm. 📖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Although he tried his best.",
+    "output": "✅ **Corrected Sentence:** Although he tried his best, he didn't succeed. / He failed although he tried his best.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề phụ nhượng bộ)\n\n📖 **Vietnamese Explanation:** 'Although he tried his best' là mệnh đề phụ, không thể đứng một mình. Người Việt hay viết 'Mặc dù anh ấy đã cố gắng hết sức.' như một câu – không đúng. Hãy thêm kết quả trái ngược. 💪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Walking in the park.",
+    "output": "✅ **Corrected Sentence:** I enjoy walking in the park. / She was walking in the park.\n\n🔍 **Error Identification:** Sentence Fragment (Thiếu chủ ngữ và động từ chính)\n\n📖 **Vietnamese Explanation:** 'Walking in the park' là cụm V-ing, có thể là danh động từ nhưng không thể là câu. Hãy thêm chủ ngữ và động từ chính (I enjoy / She was). 🚶‍♀️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "That he was lying.",
+    "output": "✅ **Corrected Sentence:** I realized that he was lying. / That he was lying was obvious.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề danh từ đứng một mình)\n\n📖 **Vietnamese Explanation:** 'That he was lying' là mệnh đề danh từ (noun clause), thường làm tân ngữ hoặc chủ ngữ, nhưng không thể là câu độc lập. Người Việt hay viết 'Rằng anh ấy đang nói dối.' – sai. Hãy thêm mệnh đề chính. 🕵️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "For example, my brother.",
+    "output": "✅ **Corrected Sentence:** For example, my brother loves to play soccer. / For example, my brother is very kind.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ sau 'for example')\n\n📖 **Vietnamese Explanation:** 'For example, my brother' chỉ là một cụm danh từ, không phải câu hoàn chỉnh. Sau 'for example' cần một câu hoặc mệnh đề đầy đủ. Hãy thêm động từ và bổ ngữ. 👨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "In the morning.",
+    "output": "✅ **Corrected Sentence:** I exercise in the morning. / In the morning, I drink coffee.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ đứng một mình)\n\n📖 **Vietnamese Explanation:** 'In the morning' là cụm giới từ chỉ thời gian, không thể làm câu. Tiếng Việt có thể nói 'Vào buổi sáng.' nhưng tiếng Anh cần chủ ngữ và động từ. Hãy thêm mệnh đề chính. 🌅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "While watching TV.",
+    "output": "✅ **Corrected Sentence:** While watching TV, I fell asleep. / He called me while watching TV.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm phân từ đứng một mình)\n\n📖 **Vietnamese Explanation:** 'While watching TV' là cụm rút gọn của 'while I was watching TV', không thể đứng độc lập. Hãy thêm mệnh đề chính để tạo câu hoàn chỉnh. 📺"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "The reason why I left.",
+    "output": "✅ **Corrected Sentence:** The reason why I left is that I was tired. / That is the reason why I left.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ thiếu động từ)\n\n📖 **Vietnamese Explanation:** 'The reason why I left' là cụm danh từ, cần một động từ để thành câu (ví dụ: 'is...'). Người Việt thường viết 'Lý do tại sao tôi rời đi.' như một câu – không đúng. Hãy thêm 'is that...' hoặc biến thành câu khác. 🚪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Not knowing what to say.",
+    "output": "✅ **Corrected Sentence:** I stood there, not knowing what to say. / Not knowing what to say, she remained silent.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm phân từ phủ định)\n\n📖 **Vietnamese Explanation:** 'Not knowing what to say' là cụm phân từ, không thể đứng một mình. Hãy gắn nó với mệnh đề chính để tạo câu phức. 😶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Such as honesty and kindness.",
+    "output": "✅ **Corrected Sentence:** He has many good qualities, such as honesty and kindness. / Such as honesty and kindness are important values.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ 'such as' đứng một mình)\n\n📖 **Vietnamese Explanation:** 'Such as honesty and kindness' cần một câu đầy đủ để dẫn dắt. Không thể dùng nó như một câu riêng. Hãy thêm chủ ngữ và động từ. 💝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "If it rains tomorrow.",
+    "output": "✅ **Corrected Sentence:** If it rains tomorrow, we will cancel the picnic. / I will stay home if it rains tomorrow.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề điều kiện đứng một mình)\n\n📖 **Vietnamese Explanation:** 'If it rains tomorrow' là mệnh đề điều kiện, không thể là câu độc lập. Tiếng Việt có thể nói 'Nếu ngày mai trời mưa.' nhưng tiếng Anh cần mệnh đề chính (kết quả). ☔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A very expensive car.",
+    "output": "✅ **Corrected Sentence:** He drives a very expensive car. / That is a very expensive car.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'A very expensive car' là cụm danh từ, thiếu động từ. Trong tiếng Anh, mọi câu đều cần động từ (trừ mệnh lệnh). Hãy thêm 'is' hoặc 'drives'. 🚗"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Before leaving the house.",
+    "output": "✅ **Corrected Sentence:** Before leaving the house, I checked my phone. / He always locks the door before leaving the house.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ/phân từ chỉ thời gian)\n\n📖 **Vietnamese Explanation:** 'Before leaving the house' là cụm chỉ thời gian, không thể đứng một mình. Hãy thêm mệnh đề chính. 🏠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "To be honest.",
+    "output": "✅ **Corrected Sentence:** To be honest, I don't like this movie. / To be honest is important in a relationship.\n\n🔍 **Error Identification:** Sentence Fragment – nhưng 'to be honest' có thể là cụm mở đầu, không phải câu.\n\n📖 **Vietnamese Explanation:** 'To be honest' thường dùng như một cụm trạng ngữ mở đầu câu (disjunct), không thể đứng một mình. Hãy thêm mệnh đề chính sau dấu phẩy. Nếu muốn nói 'Thành thật là quan trọng', hãy dùng 'Being honest is important.' 🎤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Especially my younger sister.",
+    "output": "✅ **Corrected Sentence:** Everyone helped, especially my younger sister. / I miss my family, especially my younger sister.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ sau 'especially')\n\n📖 **Vietnamese Explanation:** 'Especially my younger sister' không thể là câu độc lập. Hãy gắn nó vào câu chính phía trước. 👧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Wondering where he went.",
+    "output": "✅ **Corrected Sentence:** I was wondering where he went. / Wondering where he went, she called his phone.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm phân từ)\n\n📖 **Vietnamese Explanation:** 'Wondering where he went' là cụm hiện tại phân từ, cần được gắn với chủ ngữ và động từ chính. 🤔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "No one in the room.",
+    "output": "✅ **Corrected Sentence:** There is no one in the room. / No one in the room heard the noise.\n\n🔍 **Error Identification:** Sentence Fragment (Thiếu động từ)\n\n📖 **Vietnamese Explanation:** 'No one in the room' có chủ ngữ 'no one' nhưng thiếu động từ. Hãy thêm 'is' hoặc một động từ khác. 🚪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Because of the bad weather.",
+    "output": "✅ **Corrected Sentence:** Because of the bad weather, the flight was cancelled. / We stayed home because of the bad weather.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ 'because of')\n\n📖 **Vietnamese Explanation:** 'Because of the bad weather' là cụm giới từ, không thể là câu. Cần thêm mệnh đề chính để chỉ kết quả. ⛈️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "The boy with the red hat.",
+    "output": "✅ **Corrected Sentence:** The boy with the red hat is my brother. / I saw the boy with the red hat.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'The boy with the red hat' là cụm danh từ, cần động từ để thành câu. Hãy thêm 'is', 'was', 'walks', v.v. 👒"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "When I finish work.",
+    "output": "✅ **Corrected Sentence:** When I finish work, I will call you. / I usually relax when I finish work.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề phụ chỉ thời gian)\n\n📖 **Vietnamese Explanation:** 'When I finish work' là mệnh đề phụ, không thể đứng một mình. Hãy thêm mệnh đề chính. 💼"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A waste of time.",
+    "output": "✅ **Corrected Sentence:** This is a waste of time. / Watching TV all day is a waste of time.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'A waste of time' là cụm danh từ, cần động từ 'is' hoặc 'was'. Hãy thêm chủ ngữ. ⏳"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Unless you study harder.",
+    "output": "✅ **Corrected Sentence:** Unless you study harder, you will fail. / You won't pass unless you study harder.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề phụ chỉ điều kiện)\n\n📖 **Vietnamese Explanation:** 'Unless you study harder' là mệnh đề phụ, không thể là câu. Hãy thêm mệnh đề chính. 📚"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Very tired after the long journey.",
+    "output": "✅ **Corrected Sentence:** I was very tired after the long journey. / Being very tired after the long journey, she went straight to bed.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm tính từ)\n\n📖 **Vietnamese Explanation:** 'Very tired after the long journey' là cụm tính từ, không có chủ ngữ và động từ. Hãy thêm 'I was' hoặc chuyển thành mệnh đề. 😴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A friend of mine.",
+    "output": "✅ **Corrected Sentence:** A friend of mine told me the news. / That is a friend of mine.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'A friend of mine' là cụm danh từ, cần động từ. Hãy thêm 'is', 'called', 'arrived', v.v. 👫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "In conclusion.",
+    "output": "✅ **Corrected Sentence:** In conclusion, I believe we should accept the offer. / In conclusion is not a complete sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm trạng ngữ)\n\n📖 **Vietnamese Explanation:** 'In conclusion' là cụm chuyển tiếp, không thể là câu. Hãy dùng nó để mở đầu một câu hoàn chỉnh. 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Whether he will come.",
+    "output": "✅ **Corrected Sentence:** Whether he will come is uncertain. / I don't know whether he will come.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề danh từ)\n\n📖 **Vietnamese Explanation:** 'Whether he will come' là mệnh đề danh từ, thường làm tân ngữ hoặc chủ ngữ, nhưng không thể là câu độc lập. Hãy thêm mệnh đề chính. 🤔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Having finished my homework.",
+    "output": "✅ **Corrected Sentence:** Having finished my homework, I went out to play. / I felt relieved having finished my homework.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm phân từ hoàn thành)\n\n📖 **Vietnamese Explanation:** 'Having finished my homework' là cụm phân từ hoàn thành, cần được gắn với mệnh đề chính. 📝"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "So beautiful.",
+    "output": "✅ **Corrected Sentence:** It is so beautiful. / The sunset is so beautiful.\n\n🔍 **Error Identification:** Sentence Fragment (Thiếu chủ ngữ và động từ)\n\n📖 **Vietnamese Explanation:** 'So beautiful' là cụm tính từ, không thể là câu. Hãy thêm 'It is' hoặc chủ ngữ cụ thể. 🌸"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "As a result.",
+    "output": "✅ **Corrected Sentence:** As a result, the company lost money. / As a result is not a sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm trạng ngữ)\n\n📖 **Vietnamese Explanation:** 'As a result' là cụm chuyển tiếp, không thể là câu. Hãy dùng nó để bắt đầu một câu có đầy đủ S+V. 📉"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Every day.",
+    "output": "✅ **Corrected Sentence:** I exercise every day. / Every day is a new opportunity.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm trạng từ)\n\n📖 **Vietnamese Explanation:** 'Every day' là cụm trạng từ chỉ tần suất, không thể là câu. Hãy thêm chủ ngữ và động từ. 📅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Not only in Vietnam.",
+    "output": "✅ **Corrected Sentence:** This problem exists not only in Vietnam but also in other countries. / Not only in Vietnam do people face this issue.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ với 'not only')\n\n📖 **Vietnamese Explanation:** 'Not only in Vietnam' không hoàn chỉnh. Cần có mệnh đề chính và thường đi với 'but also'. 🌏"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "The man standing there.",
+    "output": "✅ **Corrected Sentence:** The man standing there is my uncle. / I know the man standing there.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ + phân từ)\n\n📖 **Vietnamese Explanation:** 'The man standing there' là cụm danh từ với phân từ bổ nghĩa, cần động từ chính. Hãy thêm 'is', 'was', 'called', v.v. 👨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "For instance, my hometown.",
+    "output": "✅ **Corrected Sentence:** For instance, my hometown is famous for its beaches. / I love many places, for instance, my hometown.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ sau 'for instance')\n\n📖 **Vietnamese Explanation:** 'For instance, my hometown' cần một câu đầy đủ để minh họa. Hãy thêm động từ. 🏘️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Surprised by the news.",
+    "output": "✅ **Corrected Sentence:** I was surprised by the news. / Surprised by the news, she couldn't speak.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm quá khứ phân từ)\n\n📖 **Vietnamese Explanation:** 'Surprised by the news' là cụm phân từ, cần chủ ngữ và động từ 'to be' hoặc gắn với mệnh đề chính. 😲"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A wonderful experience.",
+    "output": "✅ **Corrected Sentence:** That was a wonderful experience. / Traveling abroad is a wonderful experience.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'A wonderful experience' là cụm danh từ, cần động từ 'was' hoặc 'is'. Hãy thêm chủ ngữ. ✨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Without saying a word.",
+    "output": "✅ **Corrected Sentence:** He left without saying a word. / Without saying a word, she walked away.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ)\n\n📖 **Vietnamese Explanation:** 'Without saying a word' là cụm giới từ, không thể là câu. Hãy gắn nó với mệnh đề chính. 🤐"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Wherever you go.",
+    "output": "✅ **Corrected Sentence:** Wherever you go, I will follow you. / You will find friends wherever you go.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề phụ chỉ nơi chốn)\n\n📖 **Vietnamese Explanation:** 'Wherever you go' là mệnh đề phụ, cần mệnh đề chính. 🗺️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "An interesting question.",
+    "output": "✅ **Corrected Sentence:** That is an interesting question. / He asked an interesting question.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'An interesting question' cần động từ 'is' hoặc 'was'. Hãy thêm. ❓"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "As soon as possible.",
+    "output": "✅ **Corrected Sentence:** Please reply as soon as possible. / As soon as possible is an adverb phrase.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm trạng từ)\n\n📖 **Vietnamese Explanation:** 'As soon as possible' là cụm trạng từ, không thể là câu. Hãy dùng nó trong câu hoàn chỉnh. ⏱️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "The girl who won the competition.",
+    "output": "✅ **Corrected Sentence:** The girl who won the competition is my classmate. / I saw the girl who won the competition.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ + mệnh đề quan hệ)\n\n📖 **Vietnamese Explanation:** 'The girl who won the competition' là cụm danh từ, cần động từ chính. Hãy thêm 'is', 'was', 'arrived', v.v. 🏆"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "From dawn to dusk.",
+    "output": "✅ **Corrected Sentence:** He works from dawn to dusk. / From dawn to dusk is a long time.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ)\n\n📖 **Vietnamese Explanation:** 'From dawn to dusk' là cụm giới từ, cần động từ. Hãy thêm chủ ngữ và động từ. 🌞🌜"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "What she said.",
+    "output": "✅ **Corrected Sentence:** What she said was true. / I believe what she said.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề danh từ)\n\n📖 **Vietnamese Explanation:** 'What she said' là mệnh đề danh từ, có thể làm chủ ngữ hoặc tân ngữ nhưng không thể đứng một mình. Hãy thêm động từ chính. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "According to the report.",
+    "output": "✅ **Corrected Sentence:** According to the report, sales increased. / According to the report is not a sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ)\n\n📖 **Vietnamese Explanation:** 'According to the report' là cụm giới từ, cần một mệnh đề chính theo sau. 📊"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Too much sugar.",
+    "output": "✅ **Corrected Sentence:** Too much sugar is bad for your health. / I ate too much sugar.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'Too much sugar' là cụm danh từ, cần động từ 'is' hoặc 'was'. 🍬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "In order to succeed.",
+    "output": "✅ **Corrected Sentence:** In order to succeed, you must work hard. / He studies every day in order to succeed.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm chỉ mục đích)\n\n📖 **Vietnamese Explanation:** 'In order to succeed' là cụm chỉ mục đích, không thể là câu. Hãy thêm mệnh đề chính. 🎯"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "My favorite hobby.",
+    "output": "✅ **Corrected Sentence:** My favorite hobby is reading. / I have a favorite hobby.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'My favorite hobby' là cụm danh từ, cần động từ 'is' hoặc 'was'. 🎨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Once upon a time.",
+    "output": "✅ **Corrected Sentence:** Once upon a time, there was a beautiful princess. / Once upon a time is a fairy tale opening.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm trạng ngữ)\n\n📖 **Vietnamese Explanation:** 'Once upon a time' là cụm mở đầu truyện cổ tích, không thể là câu độc lập. Hãy thêm mệnh đề chính. 📖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Worried about the future.",
+    "output": "✅ **Corrected Sentence:** I am worried about the future. / Worried about the future, she couldn't sleep.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm tính từ/quá khứ phân từ)\n\n📖 **Vietnamese Explanation:** 'Worried about the future' là cụm tính từ, cần 'I am' hoặc gắn với mệnh đề chính. 😟"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Instead of studying.",
+    "output": "✅ **Corrected Sentence:** Instead of studying, he played video games. / I went out instead of studying.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ)\n\n📖 **Vietnamese Explanation:** 'Instead of studying' là cụm giới từ, cần mệnh đề chính. 🎮"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A long time ago.",
+    "output": "✅ **Corrected Sentence:** A long time ago, dinosaurs roamed the earth. / That happened a long time ago.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm trạng từ)\n\n📖 **Vietnamese Explanation:** 'A long time ago' là cụm trạng từ chỉ thời gian, không thể là câu. 🦖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Because of his laziness.",
+    "output": "✅ **Corrected Sentence:** Because of his laziness, he failed the course. / He was fired because of his laziness.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ)\n\n📖 **Vietnamese Explanation:** 'Because of his laziness' là cụm giới từ, cần mệnh đề chính. 😴"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "The best day of my life.",
+    "output": "✅ **Corrected Sentence:** That was the best day of my life. / The best day of my life is today.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'The best day of my life' cần động từ 'was' hoặc 'is'. 🎉"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "How to solve this problem.",
+    "output": "✅ **Corrected Sentence:** I don't know how to solve this problem. / How to solve this problem is the question.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm 'how to')\n\n📖 **Vietnamese Explanation:** 'How to solve this problem' là cụm danh từ, cần động từ chính hoặc được dùng như tân ngữ. 🔧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "As far as I know.",
+    "output": "✅ **Corrected Sentence:** As far as I know, he is honest. / That's all, as far as I know.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề phụ chỉ nhận thức)\n\n📖 **Vietnamese Explanation:** 'As far as I know' là mệnh đề phụ, cần mệnh đề chính. 🧠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "No problem.",
+    "output": "✅ **Corrected Sentence:** It is no problem. / No problem! (có thể chấp nhận trong khẩu ngữ nhưng không phải câu hoàn chỉnh)\n\n🔍 **Error Identification:** Sentence Fragment (Thiếu động từ, nhưng được dùng như câu đáp)\n\n📖 **Vietnamese Explanation:** Trong giao tiếp thân mật, 'No problem' được chấp nhận như một câu đáp ngắn, nhưng trong văn viết trang trọng, hãy viết 'It is no problem.' 👍"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "The end.",
+    "output": "✅ **Corrected Sentence:** This is the end. / The end is near.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'The end' thường xuất hiện trong phim, nhưng trong văn viết, cần động từ 'is'. 🎬"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "So many people.",
+    "output": "✅ **Corrected Sentence:** There are so many people. / I saw so many people.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'So many people' cần 'there are' hoặc động từ khác. 👥"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Right now.",
+    "output": "✅ **Corrected Sentence:** I am busy right now. / Right now is not a good time.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm trạng từ)\n\n📖 **Vietnamese Explanation:** 'Right now' chỉ thời gian, không thể là câu. 🕰️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A chance to win.",
+    "output": "✅ **Corrected Sentence:** This is a chance to win. / You have a chance to win.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'A chance to win' cần động từ 'is' hoặc 'have'. 🏅"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Not sure.",
+    "output": "✅ **Corrected Sentence:** I am not sure. / Not sure is not a complete sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Thiếu chủ ngữ)\n\n📖 **Vietnamese Explanation:** 'Not sure' thiếu 'I am'. Trong văn nói có thể rút gọn, nhưng viết thì cần đầy đủ. 🤷"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "In the end.",
+    "output": "✅ **Corrected Sentence:** In the end, everything worked out. / In the end is not a sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ)\n\n📖 **Vietnamese Explanation:** 'In the end' là cụm trạng ngữ, cần mệnh đề chính. 🏁"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A huge mistake.",
+    "output": "✅ **Corrected Sentence:** That was a huge mistake. / Making a huge mistake is part of learning.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'A huge mistake' cần động từ 'was' hoặc 'is'. ❌"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Even though it was raining.",
+    "output": "✅ **Corrected Sentence:** Even though it was raining, we went out. / We enjoyed the trip even though it was raining.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề phụ nhượng bộ)\n\n📖 **Vietnamese Explanation:** 'Even though it was raining' là mệnh đề phụ, cần mệnh đề chính. 🌧️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "No idea.",
+    "output": "✅ **Corrected Sentence:** I have no idea. / No idea is not a sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Thiếu chủ ngữ và động từ)\n\n📖 **Vietnamese Explanation:** 'No idea' thiếu 'I have'. Hãy viết đầy đủ. 🤔"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Later.",
+    "output": "✅ **Corrected Sentence:** I will call you later. / Later is not a sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Một từ trạng từ)\n\n📖 **Vietnamese Explanation:** 'Later' không thể là câu. Hãy thêm chủ ngữ và động từ. ⏰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Like I said.",
+    "output": "✅ **Corrected Sentence:** Like I said, he is not coming. / That's what happened, like I said.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề phụ so sánh)\n\n📖 **Vietnamese Explanation:** 'Like I said' là mệnh đề phụ, cần mệnh đề chính. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "My whole life.",
+    "output": "✅ **Corrected Sentence:** My whole life has been a journey. / I have waited my whole life.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'My whole life' cần động từ. 🌟"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Under the table.",
+    "output": "✅ **Corrected Sentence:** The cat is under the table. / Under the table is where I hide.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ)\n\n📖 **Vietnamese Explanation:** 'Under the table' là cụm giới từ, cần động từ 'is' hoặc chủ ngữ. 🐱"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A dream come true.",
+    "output": "✅ **Corrected Sentence:** This is a dream come true. / A dream come true is what I need.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'A dream come true' cần động từ 'is'. ✨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Most of the time.",
+    "output": "✅ **Corrected Sentence:** Most of the time, I am happy. / Most of the time is spent working.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ/trạng từ)\n\n📖 **Vietnamese Explanation:** 'Most of the time' cần mệnh đề chính. ⏲️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "By the way.",
+    "output": "✅ **Corrected Sentence:** By the way, have you seen John? / By the way is an introductory phrase.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm chuyển tiếp)\n\n📖 **Vietnamese Explanation:** 'By the way' là cụm mở đầu, không thể là câu. 🙋"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "The book on the shelf.",
+    "output": "✅ **Corrected Sentence:** The book on the shelf is mine. / I want the book on the shelf.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'The book on the shelf' cần động từ 'is' hoặc 'was'. 📕"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "As a child.",
+    "output": "✅ **Corrected Sentence:** As a child, I loved to swim. / As a child is not a sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ)\n\n📖 **Vietnamese Explanation:** 'As a child' là cụm chỉ thời gian, cần mệnh đề chính. 👶"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "No way.",
+    "output": "✅ **Corrected Sentence:** There is no way. / No way! (cảm thán trong khẩu ngữ)\n\n🔍 **Error Identification:** Sentence Fragment – thường dùng như câu cảm thán nhưng không chuẩn\n\n📖 **Vietnamese Explanation:** 'No way' là câu cảm thán không chính thức, trong văn viết nên dùng 'There is no way.' 🚫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Finally.",
+    "output": "✅ **Corrected Sentence:** Finally, we arrived. / Finally is not a sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Trạng từ đơn)\n\n📖 **Vietnamese Explanation:** 'Finally' không thể là câu. Hãy dùng nó để bắt đầu câu. 🏁"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A few minutes later.",
+    "output": "✅ **Corrected Sentence:** A few minutes later, the phone rang. / He arrived a few minutes later.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm trạng từ)\n\n📖 **Vietnamese Explanation:** 'A few minutes later' cần mệnh đề chính. ⏱️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "The purpose of this letter.",
+    "output": "✅ **Corrected Sentence:** The purpose of this letter is to inform you. / I will explain the purpose of this letter.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'The purpose of this letter' cần động từ 'is'. 📨"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Worn out after the trip.",
+    "output": "✅ **Corrected Sentence:** I was worn out after the trip. / Worn out after the trip, she fell asleep immediately.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm quá khứ phân từ)\n\n📖 **Vietnamese Explanation:** 'Worn out after the trip' cần 'I was' hoặc gắn với mệnh đề chính. 😩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Without any warning.",
+    "output": "✅ **Corrected Sentence:** Without any warning, the storm hit. / He left without any warning.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ)\n\n📖 **Vietnamese Explanation:** 'Without any warning' cần mệnh đề chính. ⚠️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A great opportunity for you.",
+    "output": "✅ **Corrected Sentence:** This is a great opportunity for you. / A great opportunity for you has arrived.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'A great opportunity for you' cần động từ 'is' hoặc 'has'. 🎯"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "At the same time.",
+    "output": "✅ **Corrected Sentence:** At the same time, we must consider the risks. / Two things happened at the same time.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ)\n\n📖 **Vietnamese Explanation:** 'At the same time' là cụm trạng ngữ, cần mệnh đề chính. 🕰️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "The truth is.",
+    "output": "✅ **Corrected Sentence:** The truth is that I don't know. / The truth is out there.\n\n🔍 **Error Identification:** 'The truth is' có thể là mệnh đề chính nếu có bổ ngữ. Nhưng nếu đứng một mình thì là fragment.\n\n📖 **Vietnamese Explanation:** 'The truth is' cần một mệnh đề hoặc cụm từ bổ nghĩa phía sau. Đừng dùng nó như câu kết thúc. 💯"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Not a single person.",
+    "output": "✅ **Corrected Sentence:** Not a single person came. / There was not a single person.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ phủ định)\n\n📖 **Vietnamese Explanation:** 'Not a single person' cần động từ phía sau. 👤"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Like never before.",
+    "output": "✅ **Corrected Sentence:** I love you like never before. / Things have changed like never before.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm so sánh)\n\n📖 **Vietnamese Explanation:** 'Like never before' cần mệnh đề chính. ❤️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "One of my friends.",
+    "output": "✅ **Corrected Sentence:** One of my friends is a doctor. / I met one of my friends.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'One of my friends' cần động từ 'is' hoặc 'was'. 👫"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "After all.",
+    "output": "✅ **Corrected Sentence:** After all, we are family. / After all is not a sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm chuyển tiếp)\n\n📖 **Vietnamese Explanation:** 'After all' là cụm trạng ngữ, cần mệnh đề chính. 👨‍👩‍👧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Completely different.",
+    "output": "✅ **Corrected Sentence:** It is completely different. / The two products are completely different.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm tính từ)\n\n📖 **Vietnamese Explanation:** 'Completely different' cần 'it is' hoặc chủ ngữ khác. 🔄"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "In other words.",
+    "output": "✅ **Corrected Sentence:** In other words, you need to study harder. / In other words is an introductory phrase.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm chuyển tiếp)\n\n📖 **Vietnamese Explanation:** 'In other words' cần mệnh đề chính phía sau. 📖"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A sense of belonging.",
+    "output": "✅ **Corrected Sentence:** A sense of belonging is important for happiness. / I found a sense of belonging.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'A sense of belonging' cần động từ 'is' hoặc 'gives'. 🏠"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Despite the challenges.",
+    "output": "✅ **Corrected Sentence:** Despite the challenges, we succeeded. / He remained optimistic despite the challenges.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ 'despite')\n\n📖 **Vietnamese Explanation:** 'Despite the challenges' cần mệnh đề chính. 💪"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "The moment I saw her.",
+    "output": "✅ **Corrected Sentence:** The moment I saw her, I fell in love. / I knew the moment I saw her.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề phụ chỉ thời gian)\n\n📖 **Vietnamese Explanation:** 'The moment I saw her' là mệnh đề phụ, cần mệnh đề chính. ❤️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "No matter what.",
+    "output": "✅ **Corrected Sentence:** No matter what, I will always love you. / No matter what happens, stay strong.\n\n🔍 **Error Identification:** Sentence Fragment (Mệnh đề phụ nhượng bộ)\n\n📖 **Vietnamese Explanation:** 'No matter what' cần mệnh đề chính. 🌈"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "In front of the building.",
+    "output": "✅ **Corrected Sentence:** A car is parked in front of the building. / In front of the building, there is a garden.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ)\n\n📖 **Vietnamese Explanation:** 'In front of the building' cần mệnh đề chính. 🏢"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "The thing is.",
+    "output": "✅ **Corrected Sentence:** The thing is, I don't have enough time. / The thing is complicated.\n\n🔍 **Error Identification:** 'The thing is' thường được dùng như mở đầu, nhưng nếu đứng một mình thì không hoàn chỉnh.\n\n📖 **Vietnamese Explanation:** 'The thing is' cần một bổ ngữ hoặc mệnh đề phía sau. 🗣️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A way to solve it.",
+    "output": "✅ **Corrected Sentence:** There is a way to solve it. / I found a way to solve it.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'A way to solve it' cần 'there is' hoặc 'I found'. 🔧"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "On the other hand.",
+    "output": "✅ **Corrected Sentence:** On the other hand, this option is cheaper. / On the other hand is not a sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm chuyển tiếp)\n\n📖 **Vietnamese Explanation:** 'On the other hand' cần mệnh đề chính. ⚖️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "With all my heart.",
+    "output": "✅ **Corrected Sentence:** I love you with all my heart. / With all my heart, I thank you.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ)\n\n📖 **Vietnamese Explanation:** 'With all my heart' cần mệnh đề chính. ❤️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Maybe next time.",
+    "output": "✅ **Corrected Sentence:** Maybe next time we will meet again. / Maybe next time is not a sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Trạng từ + cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'Maybe next time' cần động từ và bổ ngữ. ⏩"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "The key to success.",
+    "output": "✅ **Corrected Sentence:** The key to success is hard work. / I found the key to success.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'The key to success' cần động từ 'is' hoặc 'lies in'. 🔑"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "Worth a try.",
+    "output": "✅ **Corrected Sentence:** It is worth a try. / This method is worth a try.\n\n🔍 **Error Identification:** Sentence Fragment (Thiếu chủ ngữ và động từ 'to be')\n\n📖 **Vietnamese Explanation:** 'Worth a try' cần 'it is' hoặc chủ ngữ cụ thể. 💡"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "On time.",
+    "output": "✅ **Corrected Sentence:** Please arrive on time. / He is always on time.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm giới từ)\n\n📖 **Vietnamese Explanation:** 'On time' không thể là câu. Hãy thêm chủ ngữ và động từ. ⏰"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "So far.",
+    "output": "✅ **Corrected Sentence:** So far, everything is going well. / So far is not a sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Trạng từ)\n\n📖 **Vietnamese Explanation:** 'So far' cần mệnh đề chính. 🛤️"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "A little bit of patience.",
+    "output": "✅ **Corrected Sentence:** A little bit of patience is all you need. / Have a little bit of patience.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm danh từ)\n\n📖 **Vietnamese Explanation:** 'A little bit of patience' cần động từ 'is' hoặc 'have'. 🧘"
+  },
+  {
+    "instruction": "Hãy kiểm tra lỗi ngữ pháp (câu phân mảnh) trong câu sau của học viên.",
+    "input": "For example.",
+    "output": "✅ **Corrected Sentence:** For example, I love reading books. / For example is not a sentence.\n\n🔍 **Error Identification:** Sentence Fragment (Cụm chuyển tiếp)\n\n📖 **Vietnamese Explanation:** 'For example' cần câu hoàn chỉnh phía sau. 📚"
+  }
+]

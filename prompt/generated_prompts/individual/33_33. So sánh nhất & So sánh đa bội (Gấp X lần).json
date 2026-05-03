@@ -1,0 +1,412 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is tallest girl in the class.",
+    "output": "✅ **Corrected Sentence:** She is the tallest girl in the class.\n🔍 **Error Identification:** Thiếu mạo từ 'the' trước so sánh nhất.\n📘 **Vietnamese Explanation:** Người Việt quên 'the' vì tiếng Việt không có mạo từ. Mẹo: So sánh nhất luôn có 'the' trước tính từ.\n💡 **Ví dụ:** He is the best student. / This is the most expensive car."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the most unique painting. (tranh cãi vì unique đã là tuyệt đối)",
+    "output": "✅ **Corrected Sentence:** This is a unique painting. (hoặc This is the most unique – dù không chuẩn nhưng được dùng)\n🔍 **Error Identification:** 'Unique' là tính từ tuyệt đối (không có bậc so sánh).\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'most unique' nhưng nên tránh. Mẹo: Unique, perfect, absolute, complete không nên so sánh.\n💡 **Ví dụ:** absolutely perfect (not 'more perfect'), completely unique."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the most fast runner.",
+    "output": "✅ **Corrected Sentence:** He is the fastest runner.\n🔍 **Error Identification:** 'Fast' là tính từ ngắn → 'fastest', không dùng 'most fast'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most' cho mọi tính từ. Mẹo: Tính từ ngắn → the + adj-est; dài → the most + adj.\n💡 **Ví dụ:** the tallest, the biggest; the most beautiful, the most expensive."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the most happy day of my life.",
+    "output": "✅ **Corrected Sentence:** This is the happiest day of my life.\n🔍 **Error Identification:** 'Happy' → 'happiest' (bỏ y thêm iest).\n📘 **Vietnamese Explanation:** Người Việt dùng 'most happy'. Mẹo: happy → happier → happiest.\n💡 **Ví dụ:** busy → busiest, easy → easiest, lucky → luckiest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the more beautiful girl in the class.",
+    "output": "✅ **Corrected Sentence:** She is the most beautiful girl in the class.\n🔍 **Error Identification:** So sánh nhất dùng 'the most', không dùng 'the more'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'more' (so sánh hơn) và 'most' (so sánh nhất). Mẹo: more = hơn, most = nhất.\n💡 **Ví dụ:** the most interesting, the most difficult, the most important."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My house is three times bigger than yours. (câu đúng) - Học viên viết \'My house is three times more bigger than yours.\'",
+    "output": "✅ **Corrected Sentence:** My house is three times bigger than yours.\n🔍 **Error Identification:** 'Three times more bigger' là lỗi kép – chỉ dùng 'three times bigger'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'more' vào so sánh đa bội. Mẹo: three times + adj-er (không more).\n💡 **Ví dụ:** twice as big as, three times faster, ten times longer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This car is twice as expensive as that one. (câu đúng) - Học viên viết \'This car is twice more expensive than that one.\'",
+    "output": "✅ **Corrected Sentence:** This car is twice as expensive as that one.\n🔍 **Error Identification:** Cấu trúc đúng: twice as + adj + as, không dùng 'more...than' với twice.\n📘 **Vietnamese Explanation:** Người Việt dùng 'twice more than' (sai). Mẹo: twice/three times + as + adj + as.\n💡 **Ví dụ:** three times as tall as, five times as fast as, ten times as heavy as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the best movie I have ever seen. (câu đúng) - Học viên viết \'This is the best movie I never saw.\'",
+    "output": "✅ **Corrected Sentence:** This is the best movie I have ever seen.\n🔍 **Error Identification:** Cấu trúc so sánh nhất + ever + V3 (không dùng 'never').\n📘 **Vietnamese Explanation:** Người Việt dùng 'never' thay vì 'ever'. Mẹo: the best + S + have ever + V3.\n💡 **Ví dụ:** the most beautiful place I have ever visited. / the worst mistake I have ever made."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the more taller of the two brothers.",
+    "output": "✅ **Corrected Sentence:** He is the taller of the two brothers.\n🔍 **Error Identification:** So sánh giữa hai: dùng 'the taller' (không 'more taller').\n📘 **Vietnamese Explanation:** Người Việt dùng 'more taller' (lỗi kép). Mẹo: the + adj-er + of the two.\n💡 **Ví dụ:** the shorter of the two, the longer of the two, the stronger of the two."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the bestest cake I've ever eaten.",
+    "output": "✅ **Corrected Sentence:** This is the best cake I've ever eaten.\n🔍 **Error Identification:** 'Bestest' không tồn tại – 'best' đã là so sánh nhất của 'good'.\n📘 **Vietnamese Explanation:** Người Việt thêm 'est' vào 'best'. Mẹo: good → better → best (không 'bestest').\n💡 **Ví dụ:** worst (not 'worstest'), farthest (not 'farthestest')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My salary is twice as much as his. (câu đúng) - Học viên viết \'My salary is twice as many as his.\'",
+    "output": "✅ **Corrected Sentence:** My salary is twice as much as his.\n🔍 **Error Identification:** 'Salary' là không đếm được → dùng 'much', không dùng 'many'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'many' cho danh từ không đếm được. Mẹo: much + không đếm được, many + đếm được.\n💡 **Ví dụ:** twice as much money, three times as much time, half as much water."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the most prettiest girl I know.",
+    "output": "✅ **Corrected Sentence:** She is the prettiest girl I know.\n🔍 **Error Identification:** 'Most prettiest' là lỗi kép.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'most' và '-est'. Mẹo: prettiest (không 'most prettiest').\n💡 **Ví dụ:** the happiest (not 'most happiest'), the easiest (not 'most easiest')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the best player in the team. (câu đúng) - Học viên viết \'He is the best player of the team.\'",
+    "output": "✅ **Corrected Sentence:** He is the best player in the team. (hoặc of the team)\n🔍 **Error Identification:** 'In the team' phổ biến hơn, 'of the team' cũng được.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'of' cho nhóm. Mẹo: in + group/class, of + all/people.\n💡 **Ví dụ:** the tallest in the class / the tallest of all students."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This building is three times higher than that one. (câu đúng) - Học viên viết \'This building is three times more higher than that one.\'",
+    "output": "✅ **Corrected Sentence:** This building is three times higher than that one.\n🔍 **Error Identification:** 'Three times more higher' là lỗi kép.\n📘 **Vietnamese Explanation:** Người Việt thêm 'more' vào so sánh đa bội. Mẹo: three times + adj-er.\n💡 **Ví dụ:** twice as long, four times as wide, five times as deep."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the most intelligent student in the class. (câu đúng) - Học viên viết \'She is the intelligentest student in the class.\'",
+    "output": "✅ **Corrected Sentence:** She is the most intelligent student in the class.\n🔍 **Error Identification:** 'Intelligent' là tính từ dài → 'the most intelligent'.\n📘 **Vietnamese Explanation:** Người Việt thêm -est vào tính từ dài. Mẹo: most + adj (dài).\n💡 **Ví dụ:** the most beautiful, the most expensive, the most interesting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My car is twice as big as yours. (câu đúng) - Học viên viết \'My car is twice bigger than yours.\'",
+    "output": "✅ **Corrected Sentence:** My car is twice as big as yours.\n🔍 **Error Identification:** 'Twice bigger than' là sai – dùng 'twice as big as'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'twice bigger than' (ảnh hưởng từ so sánh hơn). Mẹo: twice/three times + as + adj + as.\n💡 **Ví dụ:** half as long as, three times as fast as, ten times as heavy as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the worse movie I have ever seen.",
+    "output": "✅ **Corrected Sentence:** This is the worst movie I have ever seen.\n🔍 **Error Identification:** 'Bad' → 'worst' (so sánh nhất), 'worse' là so sánh hơn.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'worse' và 'worst'. Mẹo: bad → worse (hơn) → worst (nhất).\n💡 **Ví dụ:** good → better → best, far → farther → farthest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the most tall person I know.",
+    "output": "✅ **Corrected Sentence:** He is the tallest person I know.\n🔍 **Error Identification:** 'Tall' là tính từ ngắn → 'tallest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most tall'. Mẹo: tall → taller → tallest.\n💡 **Ví dụ:** short → shortest, long → longest, high → highest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She earns three times as much as me. (câu đúng) - Học viên viết \'She earns three times more than me.\'",
+    "output": "✅ **Corrected Sentence:** She earns three times as much as me. (hoặc three times more than)\n🔍 **Error Identification:** Cả hai đều đúng, nhưng 'three times as much as' là chuẩn nhất.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'three times more than'. Mẹo: times as + much/many + as.\n💡 **Ví dụ:** four times as many as, half as much as, twice as many as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the most fastest car in the race.",
+    "output": "✅ **Corrected Sentence:** This is the fastest car in the race.\n🔍 **Error Identification:** 'Most fastest' là lỗi kép.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'most' và '-est'. Mẹo: fastest (không 'most fastest').\n💡 **Ví dụ:** the biggest (not 'most biggest'), the smallest (not 'most smallest')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the most clever student in the class. (có thể dùng 'cleverest')",
+    "output": "✅ **Corrected Sentence:** He is the cleverest student in the class. (hoặc the most clever)\n🔍 **Error Identification:** 'Clever' có thể dùng cả hai dạng.\n📘 **Vietnamese Explanation:** Người Việt nên biết một số tính từ có hai cách.\n💡 **Ví dụ:** the gentlest / the most gentle, the friendliest / the most friendly."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the less expensive option of the two.",
+    "output": "✅ **Corrected Sentence:** This is the less expensive option of the two. (đúng khi so sánh hai)\n🔍 **Error Identification:** 'The less' dùng cho so sánh giữa hai.\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt: less (hai), least (ba trở lên).\n💡 **Ví dụ:** the less difficult of the two tasks. / the least difficult of all tasks."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the most young in the family.",
+    "output": "✅ **Corrected Sentence:** She is the youngest in the family.\n🔍 **Error Identification:** 'Young' → 'youngest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most young'. Mẹo: young → younger → youngest.\n💡 **Vídeg:** old → oldest, new → newest, cheap → cheapest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My bag is twice as heavy as yours. (câu đúng) - Học viên viết \'My bag is twice as heavier as yours.\'",
+    "output": "✅ **Corrected Sentence:** My bag is twice as heavy as yours.\n🔍 **Error Identification:** 'As heavier as' là sai – dùng 'as heavy as' (nguyên thể).\n📘 **Vietnamese Explanation:** Người Việt dùng so sánh hơn trong cấu trúc 'as...as'. Mẹo: as + adj (nguyên thể) + as.\n💡 **Ví dụ:** as tall as, as fast as, as good as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the best student of all. (câu đúng) - Học viên viết \'He is the best student of all times.\'",
+    "output": "✅ **Corrected Sentence:** He is the best student of all time. (không có 's' ở 'time')\n🔍 **Error Identification:** 'Of all time' (mọi thời đại), không phải 'of all times'.\n📘 **Vietnamese Explanation:** Người Việt thêm 's' vào 'time'. Mẹo: of all time (không s), of all times (sai).\n💡 **Ví dụ:** the greatest of all time (GOAT), the best of all time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the worse day of my life.",
+    "output": "✅ **Corrected Sentence:** This is the worst day of my life.\n🔍 **Error Identification:** 'Worse' là so sánh hơn, 'worst' là so sánh nhất.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'worse' và 'worst'. Mẹo: bad → worse (hơn) → worst (nhất).\n💡 **Ví dụ:** good → better → best, far → farther → farthest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the most lazy student in the class.",
+    "output": "✅ **Corrected Sentence:** She is the laziest student in the class.\n🔍 **Error Identification:** 'Lazy' → 'laziest' (bỏ y thêm iest).\n📘 **Vietnamese Explanation:** Người Việt dùng 'most lazy'. Mẹo: lazy → lazier → laziest.\n💡 **Ví dụ:** happy → happiest, busy → busiest, easy → easiest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the more interesting book I've ever read.",
+    "output": "✅ **Corrected Sentence:** This is the most interesting book I've ever read.\n🔍 **Error Identification:** So sánh nhất dùng 'the most', không dùng 'the more'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'more' và 'most'. Mẹo: the most + adj (dài).\n💡 **Ví dụ:** the most exciting, the most boring, the most challenging."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He runs three times as fast as me. (câu đúng) - Học viên viết \'He runs three times as faster as me.\'",
+    "output": "✅ **Corrected Sentence:** He runs three times as fast as me.\n🔍 **Error Identification:** 'As faster as' là sai – dùng 'as fast as'.\n📘 **Vietnamese Explanation:** Người Việt dùng so sánh hơn trong 'as...as'. Mẹo: as + adj (nguyên thể) + as.\n💡 **Ví dụ:** as quickly as, as slowly as, as carefully as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the most beautiful of all the girls. (câu đúng) - Học viên viết \'She is the most beautiful among all the girls.\'",
+    "output": "✅ **Corrected Sentence:** She is the most beautiful of all the girls. (hoặc among all the girls)\n🔍 **Error Identification:** Cả 'of' và 'among' đều được.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'among'. Mẹo: of all + N (số nhiều), among + N.\n💡 **Ví dụ:** the tallest of the students / the tallest among the students."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the goodest restaurant in town.",
+    "output": "✅ **Corrected Sentence:** This is the best restaurant in town.\n🔍 **Error Identification:** 'Goodest' không tồn tại – 'good' → 'best'.\n📘 **Vietnamese Explanation:** Người Việt thêm -est vào 'good'. Mẹo: good → better → best.\n💡 **Ví dụ:** bad → worst, far → farthest, little → least."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "His house is twice as large as mine. (câu đúng) - Học viên viết \'His house is twice larger than mine.\'",
+    "output": "✅ **Corrected Sentence:** His house is twice as large as mine.\n🔍 **Error Identification:** 'Twice larger than' là sai – dùng 'twice as large as'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'twice larger than'. Mẹo: twice/three times + as + adj + as.\n💡 **Ví dụ:** half as wide as, three times as long as, four times as deep as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the most cheap car in the market.",
+    "output": "✅ **Corrected Sentence:** This is the cheapest car in the market.\n🔍 **Error Identification:** 'Cheap' → 'cheapest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most cheap'. Mẹo: cheap → cheaper → cheapest.\n💡 **Ví dụ:** large → largest, wide → widest, nice → nicest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the more intelligent of the two sisters.",
+    "output": "✅ **Corrected Sentence:** She is the more intelligent of the two sisters. (đúng – so sánh hai)\n🔍 **Error Identification:** 'The more' dùng cho so sánh giữa hai.\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt: the more (hai), the most (ba trở lên).\n💡 **Ví dụ:** the taller of the two, the more beautiful of the two."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the faster runner in the team.",
+    "output": "✅ **Corrected Sentence:** He is the fastest runner in the team.\n🔍 **Error Identification:** 'Faster' là so sánh hơn, cần 'fastest' cho so sánh nhất.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'faster' và 'fastest'. Mẹo: faster (hơn), fastest (nhất).\n💡 **Ví dụ:** taller → tallest, shorter → shortest, longer → longest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the most biggest house on the street.",
+    "output": "✅ **Corrected Sentence:** This is the biggest house on the street.\n🔍 **Error Identification:** 'Most biggest' là lỗi kép.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'most' và '-est'. Mẹo: biggest (không 'most biggest').\n💡 **Ví dụ:** the smallest (not 'most smallest'), the highest (not 'most highest')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She earns half as much as her husband. (câu đúng) - Học viên viết \'She earns half less than her husband.\'",
+    "output": "✅ **Corrected Sentence:** She earns half as much as her husband.\n🔍 **Error Identification:** 'Half less than' là sai – dùng 'half as much as'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'half less than' (ảnh hưởng từ so sánh hơn). Mẹo: half as + adj + as.\n💡 **Ví dụ:** half as long as, half as fast as, half as expensive as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the best singer in the world. (câu đúng) - Học viên viết \'He is the best singer of the world.\'",
+    "output": "✅ **Corrected Sentence:** He is the best singer in the world.\n🔍 **Error Identification:** 'In the world' là cách nói phổ biến, 'of the world' ít dùng.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'of the world'. Mẹo: in the world (chuẩn).\n💡 **Ví dụ:** the tallest in the world, the most famous in the world."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the most easy exercise.",
+    "output": "✅ **Corrected Sentence:** This is the easiest exercise.\n🔍 **Error Identification:** 'Easy' → 'easiest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most easy'. Mẹo: easy → easier → easiest.\n💡 **Ví dụ:** happy → happiest, busy → busiest, lucky → luckiest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the more strong of the two.",
+    "output": "✅ **Corrected Sentence:** He is the stronger of the two.\n🔍 **Error Identification:** 'More strong' là sai – 'stronger'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'more strong'. Mẹo: strong → stronger → strongest.\n💡 **Ví dụ:** weak → weaker, tall → taller, short → shorter."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the least interesting book I've ever read. (câu đúng) - Học viên viết \'This is the less interesting book I've ever read.\'",
+    "output": "✅ **Corrected Sentence:** This is the least interesting book I've ever read.\n🔍 **Error Identification:** So sánh nhất kém dùng 'the least', không dùng 'the less'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'less' và 'least'. Mẹo: less (hơn kém), least (nhất kém).\n💡 **Ví dụ:** the least expensive, the least difficult, the least important."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She runs three times as faster as her brother.",
+    "output": "✅ **Corrected Sentence:** She runs three times as fast as her brother.\n🔍 **Error Identification:** 'As faster as' là sai – 'as fast as'.\n📘 **Vietnamese Explanation:** Người Việt dùng so sánh hơn trong 'as...as'. Mẹo: as + adj (nguyên thể) + as.\n💡 **Ví dụ:** as quickly as, as slowly as, as well as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the most tall in the basketball team.",
+    "output": "✅ **Corrected Sentence:** He is the tallest in the basketball team.\n🔍 **Error Identification:** 'Most tall' → 'tallest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most tall'. Mẹo: tall → taller → tallest.\n💡 **Ví dụ:** short → shortest, long → longest, high → highest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the worse decision you could make.",
+    "output": "✅ **Corrected Sentence:** This is the worst decision you could make.\n🔍 **Error Identification:** 'Worse' → 'worst'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'worse' và 'worst'. Mẹo: bad → worse → worst.\n💡 **Ví dụ:** good → better → best, far → farther → farthest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "My phone is twice as expensive as yours. (câu đúng) - Học viên viết \'My phone is two times more expensive than yours.\'",
+    "output": "✅ **Corrected Sentence:** My phone is twice as expensive as yours. (hoặc two times as expensive as)\n🔍 **Error Identification:** 'Two times more expensive than' cũng được chấp nhận, nhưng 'twice as expensive as' phổ biến hơn.\n📘 **Vietnamese Explanation:** Người Việt dùng 'two times more than'. Mẹo: twice as...as hoặc two times as...as.\n💡 **Ví dụ:** three times as long as, four times as wide as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the most happy person I know.",
+    "output": "✅ **Corrected Sentence:** She is the happiest person I know.\n🔍 **Error Identification:** 'Happy' → 'happiest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most happy'. Mẹo: happy → happier → happiest.\n💡 **Ví dụ:** pretty → prettiest, funny → funniest, early → earliest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the more famous singer of the two.",
+    "output": "✅ **Corrected Sentence:** He is the more famous singer of the two. (đúng – so sánh hai)\n🔍 **Error Identification:** 'The more' dùng cho so sánh giữa hai.\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt: the more (hai), the most (ba trở lên).\n💡 **Ví dụ:** the more talented of the two, the more experienced of the two."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the bestest idea ever.",
+    "output": "✅ **Corrected Sentence:** This is the best idea ever.\n🔍 **Error Identification:** 'Bestest' không tồn tại.\n📘 **Vietnamese Explanation:** Người Việt thêm 'est' vào 'best'. Mẹo: good → better → best.\n💡 **Ví dụ:** worst (not 'worstest'), farthest (not 'farthestest')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He drives three times as careful as his brother.",
+    "output": "✅ **Corrected Sentence:** He drives three times as carefully as his brother.\n🔍 **Error Identification:** So sánh hành động dùng trạng từ 'carefully', không dùng tính từ 'careful'.\n📘 **Vietnamese Explanation:** Người Việt dùng tính từ thay trạng từ. Mẹo: as + adv + as cho động từ.\n💡 **Ví dụ:** as quickly as, as slowly as, as loudly as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the most cheapest option.",
+    "output": "✅ **Corrected Sentence:** This is the cheapest option.\n🔍 **Error Identification:** 'Most cheapest' là lỗi kép.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'most' và '-est'. Mẹo: cheapest (không 'most cheapest').\n💡 **Ví dụ:** the largest (not 'most largest'), the smallest (not 'most smallest')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the most intelligent of the two.",
+    "output": "✅ **Corrected Sentence:** She is the more intelligent of the two.\n🔍 **Error Identification:** So sánh giữa hai dùng 'the more', không dùng 'the most'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'the most' cho hai đối tượng. Mẹo: the more (hai), the most (≥3).\n💡 **Ví dụ:** the taller of the two (not 'the tallest of the two')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This building is three times as high as that one. (câu đúng) - Học viên viết \'This building is three times higher than that one.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** This building is three times as high as that one. (hoặc three times higher than)\n🔍 **Error Identification:** Cả hai cấu trúc đều đúng.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng cả 'three times as high as' và 'three times higher than'.\n💡 **Ví dụ:** twice as long as / twice longer than, four times as wide as / four times wider than."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the more faster runner on the team.",
+    "output": "✅ **Corrected Sentence:** He is the fastest runner on the team.\n🔍 **Error Identification:** 'More faster' là lỗi kép.\n📘 **Vietnamese Explanation:** Người Việt dùng cả 'more' và '-er'. Mẹo: fastest (không 'more faster').\n💡 **Ví dụ:** quicker (not 'more quicker'), slower (not 'more slower')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the less expensive option of the three.",
+    "output": "✅ **Corrected Sentence:** This is the least expensive option of the three.\n🔍 **Error Identification:** Với ba trở lên, dùng 'the least', không dùng 'the less'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'less' cho số nhiều. Mẹo: less (hai), least (≥3).\n💡 **Ví dụ:** the least difficult of the three, the least interesting of all."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the most young member of the team.",
+    "output": "✅ **Corrected Sentence:** She is the youngest member of the team.\n🔍 **Error Identification:** 'Most young' → 'youngest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most young'. Mẹo: young → younger → youngest.\n💡 **Ví dụ:** old → oldest, new → newest, cheap → cheapest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the more good player in the team.",
+    "output": "✅ **Corrected Sentence:** He is the best player in the team.\n🔍 **Error Identification:** 'Good' → 'best' (bất quy tắc).\n📘 **Vietnamese Explanation:** Người Việt dùng 'more good'. Mẹo: good → better → best.\n💡 **Ví dụ:** bad → worst, far → farthest, little → least."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the most high mountain in the range.",
+    "output": "✅ **Corrected Sentence:** This is the highest mountain in the range.\n🔍 **Error Identification:** 'High' → 'highest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most high'. Mẹo: high → higher → highest.\n💡 **Ví dụ:** low → lowest, deep → deepest, wide → widest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She sings three times as beautiful as her sister.",
+    "output": "✅ **Corrected Sentence:** She sings three times as beautifully as her sister.\n🔍 **Error Identification:** So sánh hành động dùng trạng từ 'beautifully'.\n📘 **Vietnamese Explanation:** Người Việt dùng tính từ 'beautiful'. Mẹo: as + adv + as.\n💡 **Ví dụ:** as gracefully as, as loudly as, as softly as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the most fast swimmer in the pool.",
+    "output": "✅ **Corrected Sentence:** He is the fastest swimmer in the pool.\n🔍 **Error Identification:** 'Most fast' → 'fastest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most fast'. Mẹo: fast → faster → fastest.\n💡 **Ví dụ:** quick → quickest, slow → slowest, hard → hardest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the worse book I have ever read.",
+    "output": "✅ **Corrected Sentence:** This is the worst book I have ever read.\n🔍 **Error Identification:** 'Worse' → 'worst'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'worse' và 'worst'. Mẹo: bad → worse (hơn) → worst (nhất).\n💡 **Ví dụ:** good → better → best, far → farther → farthest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the most friendly person I know. (có thể dùng 'friendliest')",
+    "output": "✅ **Corrected Sentence:** She is the friendliest person I know. (hoặc the most friendly)\n🔍 **Error Identification:** 'Friendly' có thể dùng cả hai dạng.\n📘 **Vietnamese Explanation:** Người Việt nên biết tính từ kết thúc bằng 'ly' thường dùng 'most'.\n💡 **Ví dụ:** the most likely, the most costly, the most lively."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the most easy way to do it.",
+    "output": "✅ **Corrected Sentence:** This is the easiest way to do it.\n🔍 **Error Identification:** 'Easy' → 'easiest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most easy'. Mẹo: easy → easier → easiest.\n💡 **Ví dụ:** happy → happiest, busy → busiest, lucky → luckiest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He runs twice as faster as me.",
+    "output": "✅ **Corrected Sentence:** He runs twice as fast as me.\n🔍 **Error Identification:** 'As faster as' là sai – 'as fast as'.\n📘 **Vietnamese Explanation:** Người Việt dùng so sánh hơn trong 'as...as'. Mẹo: as + adj (nguyên thể) + as.\n💡 **Ví dụ:** as tall as, as strong as, as smart as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the more beautiful of the three.",
+    "output": "✅ **Corrected Sentence:** This is the most beautiful of the three.\n🔍 **Error Identification:** Với ba trở lên, dùng 'the most', không dùng 'the more'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'the more' cho số nhiều. Mẹo: the more (hai), the most (≥3).\n💡 **Ví dụ:** the most interesting of all, the most difficult of the three."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the most pretty girl in the class.",
+    "output": "✅ **Corrected Sentence:** She is the prettiest girl in the class.\n🔍 **Error Identification:** 'Pretty' → 'prettiest' (bỏ y thêm iest).\n📘 **Vietnamese Explanation:** Người Việt dùng 'most pretty'. Mẹo: pretty → prettier → prettiest.\n💡 **Ví dụ:** ugly → ugliest, dirty → dirtiest, thirsty → thirstiest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the best day of my life. (câu đúng) - Học viên viết \'This is the best day in my life.\'",
+    "output": "✅ **Corrected Sentence:** This is the best day of my life. (hoặc in my life)\n🔍 **Error Identification:** Cả 'of' và 'in' đều được.\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'in my life'. Mẹo: of my life (phổ biến hơn).\n💡 **Ví dụ:** the happiest day of my life, the worst mistake of my life."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the most old in the family.",
+    "output": "✅ **Corrected Sentence:** He is the oldest in the family.\n🔍 **Error Identification:** 'Most old' → 'oldest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most old'. Mẹo: old → older → oldest.\n💡 **Ví dụ:** young → youngest, new → newest, cheap → cheapest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She speaks three times as fluent as her sister.",
+    "output": "✅ **Corrected Sentence:** She speaks three times as fluently as her sister.\n🔍 **Error Identification:** So sánh hành động dùng trạng từ 'fluently'.\n📘 **Vietnamese Explanation:** Người Việt dùng tính từ 'fluent'. Mẹo: as + adv + as.\n💡 **Ví dụ:** as efficiently as, as effectively as, as confidently as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the most hard exam I've ever taken.",
+    "output": "✅ **Corrected Sentence:** This is the hardest exam I've ever taken.\n🔍 **Error Identification:** 'Most hard' → 'hardest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most hard'. Mẹo: hard → harder → hardest.\n💡 **Ví dụ:** easy → easiest, soft → softest, loud → loudest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the more better player on the team.",
+    "output": "✅ **Corrected Sentence:** He is the best player on the team.\n🔍 **Error Identification:** 'More better' là lỗi kép – 'better' đã là so sánh hơn.\n📘 **Vietnamese Explanation:** Người Việt thêm 'more' vào 'better'. Mẹo: good → better (không 'more better') → best.\n💡 **Ví dụ:** worse (not 'more worse'), farther (not 'more farther')."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the less interesting of the two books.",
+    "output": "✅ **Corrected Sentence:** This is the less interesting of the two books. (đúng – so sánh hai)\n🔍 **Error Identification:** 'The less' dùng cho so sánh giữa hai.\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt: less (hai), least (ba trở lên).\n💡 **Ví dụ:** the less expensive of the two, the less difficult of the two."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the most quiet student in the class. (có thể dùng 'quietest')",
+    "output": "✅ **Corrected Sentence:** She is the quietest student in the class. (hoặc the most quiet)\n🔍 **Error Identification:** 'Quiet' có thể dùng cả hai dạng.\n📘 **Vietnamese Explanation:** Người Việt nên biết một số tính từ có hai cách.\n💡 **Ví dụ:** the cleverest / the most clever, the gentlest / the most gentle."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the most bad movie ever.",
+    "output": "✅ **Corrected Sentence:** This is the worst movie ever.\n🔍 **Error Identification:** 'Bad' → 'worst' (bất quy tắc).\n📘 **Vietnamese Explanation:** Người Việt dùng 'most bad'. Mẹo: bad → worse → worst.\n💡 **Ví dụ:** good → best, far → farthest, little → least."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He runs three times as fast than me.",
+    "output": "✅ **Corrected Sentence:** He runs three times as fast as me.\n🔍 **Error Identification:** 'As fast than' là sai – dùng 'as fast as'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'than' trong cấu trúc 'as...as'. Mẹo: as + adj + as.\n💡 **Ví dụ:** as tall as, as strong as, as smart as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the more kind person I know.",
+    "output": "✅ **Corrected Sentence:** She is the kindest person I know.\n🔍 **Error Identification:** 'More kind' → 'kindest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'more kind'. Mẹo: kind → kinder → kindest.\n💡 **Ví dụ:** nice → nicest, brave → bravest, cute → cutest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the less expensive of all options.",
+    "output": "✅ **Corrected Sentence:** This is the least expensive of all options.\n🔍 **Error Identification:** Với 'all' (≥3), dùng 'the least', không dùng 'the less'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'less' cho 'all'. Mẹo: less (hai), least (≥3).\n💡 **Ví dụ:** the least difficult of all, the least interesting of all."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the most tall student in the class.",
+    "output": "✅ **Corrected Sentence:** He is the tallest student in the class.\n🔍 **Error Identification:** 'Most tall' → 'tallest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most tall'. Mẹo: tall → taller → tallest.\n💡 **Ví dụ:** short → shortest, long → longest, high → highest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She dances twice as graceful as her friend.",
+    "output": "✅ **Corrected Sentence:** She dances twice as gracefully as her friend.\n🔍 **Error Identification:** So sánh hành động dùng trạng từ 'gracefully'.\n📘 **Vietnamese Explanation:** Người Việt dùng tính từ 'graceful'. Mẹo: as + adv + as.\n💡 **Ví dụ:** as gracefully as, as beautifully as, as elegantly as."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the most near station.",
+    "output": "✅ **Corrected Sentence:** This is the nearest station.\n🔍 **Error Identification:** 'Near' → 'nearest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most near'. Mẹo: near → nearer → nearest.\n💡 **Ví dụ:** far → farther → farthest, close → closer → closest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "He is the most good-looking guy I know.",
+    "output": "✅ **Corrected Sentence:** He is the best-looking guy I know.\n🔍 **Error Identification:** 'Good-looking' → 'best-looking' (bất quy tắc).\n📘 **Vietnamese Explanation:** Người Việt dùng 'most good-looking'. Mẹo: good → better → best (áp dụng cho tính từ ghép).\n💡 **Ví dụ:** best-dressed, best-known, best-selling."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "This is the worse mistake I've ever made.",
+    "output": "✅ **Corrected Sentence:** This is the worst mistake I've ever made.\n🔍 **Error Identification:** 'Worse' → 'worst'.\n📘 **Vietnamese Explanation:** Người Việt nhầm 'worse' và 'worst'. Mẹo: bad → worse (hơn) → worst (nhất).\n💡 **Ví dụ:** good → better → best, far → farther → farthest."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "She is the most short in the family.",
+    "output": "✅ **Corrected Sentence:** She is the shortest in the family.\n🔍 **Error Identification:** 'Most short' → 'shortest'.\n📘 **Vietnamese Explanation:** Người Việt dùng 'most short'. Mẹo: short → shorter → shortest.\n💡 **Ví dụ:** tall → tallest, long → longest, high → highest."
+  }
+]

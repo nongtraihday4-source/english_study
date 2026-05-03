@@ -1,0 +1,442 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She likes to read books every day.\' Văn bản Whisper nhận được: \'She like to read book every day.\'",
+    "output": "✅ **Corrected Sentence:** She likes to read books every day.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 's' – 'like' thiếu 's' (động từ chia ngôi thứ 3 số ít) và 'book' thiếu 's' (danh từ số nhiều).\n📘 **Vietnamese Explanation:** Người Việt thường bỏ âm cuối vì tiếng Việt không có phụ âm cuối /s/. Mẹo: Đuôi 's' sau âm vô thanh (p, t, k, f, θ) phát âm là /s/. 'Likes' kết thúc bằng /k/ (vô thanh) → /s/. 'Books' kết thúc bằng /k/ → /s/. Hãy kéo dài âm /s/ nhẹ.\n💡 **Luyện tập:** Lặp lại: likes (laɪks) – sờ nhẹ. books (bʊks) – khép miệng, bật hơi nhẹ."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He plays soccer on Sundays.\' Văn bản Whisper nhận được: \'He play soccer on Sunday.\'",
+    "output": "✅ **Corrected Sentence:** He plays soccer on Sundays.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 's' – 'play' thiếu 's' (động từ ngôi 3 số ít), 'Sundays' thiếu 's' (số nhiều).\n📘 **Vietnamese Explanation:** 'Plays' kết thúc bằng âm /eɪ/ (nguyên âm) → đuôi 's' phát âm là /z/. 'Sundays' kết thúc bằng /eɪ/ → /z/. Mẹo: Sau nguyên âm và phụ âm hữu thanh (b, d, g, v, ð, m, n, ŋ, l, r), đuôi 's' đọc là /z/. Rung dây thanh quản.\n💡 **Luyện tập:** plays (pleɪz) – kéo dài âm zzz. Sundays (ˈsʌndeɪz) – âm zzz nhẹ."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She watches TV every evening.\' Văn bản Whisper nhận được: \'She watch TV every evening.\'",
+    "output": "✅ **Corrected Sentence:** She watches TV every evening.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'watch' thiếu 'es' (động từ kết thúc bằng 'ch' → thêm 'es').\n📘 **Vietnamese Explanation:** Động từ kết thúc bằng /tʃ/, /ʃ/, /s/, /z/, /dʒ/, /ks/ (ch, sh, s, z, ge, x) thêm 'es' và đọc là /ɪz/. 'Watches' = /ˈwɒtʃɪz/ – thêm một âm tiết /ɪz/. Mẹo: Cảm nhận thêm một âm tiết nhẹ.\n💡 **Luyện tập:** watches (ˈwɒtʃɪz) – chia làm 2 âm tiết: watch-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The dogs are running in the parks.\' Văn bản Whisper nhận được: \'The dog are running in the park.\'",
+    "output": "✅ **Corrected Sentence:** The dogs are running in the parks.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 's' – 'dogs' (số nhiều) và 'parks' (số nhiều) đều thiếu 's'.\n📘 **Vietnamese Explanation:** 'Dogs' kết thúc bằng /g/ (hữu thanh) → đọc /z/. 'Parks' kết thúc bằng /k/ (vô thanh) → đọc /s/. Mẹo: Luyện phân biệt /z/ (rung cổ họng) và /s/ (không rung).\n💡 **Luyện tập:** dogs (dɒɡz) – kéo dài z. parks (pɑːks) – bật hơi nhẹ s."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She misses her friends very much.\' Văn bản Whisper nhận được: \'She miss her friend very much.\'",
+    "output": "✅ **Corrected Sentence:** She misses her friends very much.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'misses' (động từ kết thúc bằng 'ss' → 'es') và 'friends' (số nhiều).\n📘 **Vietnamese Explanation:** 'Misses' kết thúc bằng /s/ → thêm 'es' đọc /ɪz/ (thêm âm tiết). 'Friends' kết thúc bằng /d/ (hữu thanh) → đọc /z/. Mẹo: Chú ý 'misses' có 2 âm tiết.\n💡 **Luyện tập:** misses (ˈmɪsɪz) – miss-iz. friends (frendz) – kéo dài z."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He washes his hands before meals.\' Văn bản Whisper nhận được: \'He wash his hand before meal.\'",
+    "output": "✅ **Corrected Sentence:** He washes his hands before meals.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'washes' (kết thúc 'sh' → 'es'), 'hands', 'meals' đều thiếu 's'.\n📘 **Vietnamese Explanation:** 'Washes' kết thúc bằng /ʃ/ → /ɪz/. 'Hands' kết thúc bằng /d/ → /z/. 'Meals' kết thúc bằng /l/ → /z/. Mẹo: Nhóm âm /ʃ, tʃ, s, z, dʒ/ + 'es' → /ɪz/.\n💡 **Luyện tập:** washes (ˈwɒʃɪz) – wash-iz. hands (hændz). meals (miːlz)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The cats catch mice at night.\' Văn bản Whisper nhận được: \'The cat catch mouse at night.\'",
+    "output": "✅ **Corrected Sentence:** The cats catch mice at night.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 's' – 'cats' (số nhiều) thiếu 's'.\n📘 **Vietnamese Explanation:** 'Cats' kết thúc bằng /t/ (vô thanh) → đọc /s/. Mẹo: Đặt tay lên cổ họng – nếu không rung, đó là /s/.\n💡 **Luyện tập:** cats (kæts) – âm s nhẹ ở cuối."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She goes to school by bus.\' Văn bản Whisper nhận được: \'She go to school by bu.\'",
+    "output": "✅ **Corrected Sentence:** She goes to school by bus.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'goes' (động từ kết thúc 'o' → 'es') và 'bus' (số ít nhưng cần giữ 's' cuối).\n📘 **Vietnamese Explanation:** 'Goes' kết thúc bằng /əʊ/ (nguyên âm) → thêm 'es' nhưng vẫn đọc /z/ vì nguyên âm. 'Bus' kết thúc bằng /s/ → nhưng đây là từ gốc, không phải đuôi.\n💡 **Luyện tập:** goes (ɡəʊz) – âm z kéo dài. bus (bʌs) – giữ âm s cuối."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The boxes are on the shelves.\' Văn bản Whisper nhận được: \'The box are on the shelf.\'",
+    "output": "✅ **Corrected Sentence:** The boxes are on the shelves.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'boxes' (kết thúc 'x' → 'es') và 'shelves' (số nhiều).\n📘 **Vietnamese Explanation:** 'Boxes' kết thúc bằng /ks/ → thêm 'es' đọc /ɪz/ (2 âm tiết). 'Shelves' kết thúc bằng /v/ (hữu thanh) → đọc /z/.\n💡 **Luyện tập:** boxes (ˈbɒksɪz) – box-iz. shelves (ʃelvz) – âm z."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He always arrives late for classes.\' Văn bản Whisper nhận được: \'He always arrive late for class.\'",
+    "output": "✅ **Corrected Sentence:** He always arrives late for classes.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 's' – 'arrives' (động từ ngôi 3 số ít) và 'classes' (số nhiều).\n📘 **Vietnamese Explanation:** 'Arrives' kết thúc bằng /v/ (hữu thanh) → đọc /z/. 'Classes' kết thúc bằng /s/ → thêm 'es' đọc /ɪz/.\n💡 **Luyện tập:** arrives (əˈraɪvz). classes (ˈklɑːsɪz) – 2 âm tiết."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The birds sing beautiful songs.\' Văn bản Whisper nhận được: \'The bird sing beautiful song.\'",
+    "output": "✅ **Corrected Sentence:** The birds sing beautiful songs.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 's' – 'birds' và 'songs' đều thiếu 's' số nhiều.\n📘 **Vietnamese Explanation:** 'Birds' kết thúc bằng /d/ (hữu thanh) → /z/. 'Songs' kết thúc bằng /ŋ/ (hữu thanh) → /z/. Mẹo: Các âm mũi (m, n, ŋ) + 's' đọc /z/.\n💡 **Luyện tập:** birds (bɜːdz). songs (sɒŋz)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She finishes work at 5 PM.\' Văn bản Whisper nhận được: \'She finish work at 5 PM.\'",
+    "output": "✅ **Corrected Sentence:** She finishes work at 5 PM.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'finishes' (kết thúc 'sh' → 'es').\n📘 **Vietnamese Explanation:** 'Finishes' kết thúc bằng /ʃ/ → /ɪz/ (thêm âm tiết). Mẹo: 'Sh, ch, s, z, ge, ce' + 'es' = /ɪz/.\n💡 **Luyện tập:** finishes (ˈfɪnɪʃɪz) – finish-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The students need to study hard.\' Văn bản Whisper nhận được: \'The student need to study hard.\'",
+    "output": "✅ **Corrected Sentence:** The students need to study hard.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 's' – 'students' thiếu 's' số nhiều.\n📘 **Vietnamese Explanation:** 'Students' kết thúc bằng /t/ (vô thanh) → /s/. Mẹo: Các âm vô thanh (p, t, k, f, θ) + 's' = /s/.\n💡 **Luyện tập:** students (ˈstjuːdnts) – âm s nhẹ sau t."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He loves his parents.\' Văn bản Whisper nhận được: \'He love his parent.\'",
+    "output": "✅ **Corrected Sentence:** He loves his parents.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 's' – 'loves' (động từ ngôi 3 số ít) và 'parents' (số nhiều).\n📘 **Vietnamese Explanation:** 'Loves' kết thúc bằng /v/ (hữu thanh) → /z/. 'Parents' kết thúc bằng /t/ → /s/.\n💡 **Luyện tập:** loves (lʌvz). parents (ˈpeərənts)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The houses have big windows.\' Văn bản Whisper nhận được: \'The house have big window.\'",
+    "output": "✅ **Corrected Sentence:** The houses have big windows.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'houses' (kết thúc 'se' → 'es') và 'windows' (số nhiều).\n📘 **Vietnamese Explanation:** 'Houses' kết thúc bằng /s/ → /ɪz/ (thêm âm tiết). 'Windows' kết thúc bằng /z/ (hữu thanh) → /z/.\n💡 **Luyện tập:** houses (ˈhaʊzɪz) – 2 âm tiết. windows (ˈwɪndəʊz)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She wishes for happiness.\' Văn bản Whisper nhận được: \'She wish for happyness.\'",
+    "output": "✅ **Corrected Sentence:** She wishes for happiness.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'wishes' (kết thúc 'sh' → 'es') và 'happiness' (chính tả).\n📘 **Vietnamese Explanation:** 'Wishes' = /ˈwɪʃɪz/ – thêm âm tiết /ɪz/. Mẹo: Động từ kết thúc bằng 'sh, ch, s, x, z, ge' → thêm 'es' và đọc /ɪz/.\n💡 **Luyện tập:** wishes (ˈwɪʃɪz) – wish-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The buses are late today.\' Văn bản Whisper nhận được: \'The bus are late today.\'",
+    "output": "✅ **Corrected Sentence:** The buses are late today.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'buses' (số nhiều của 'bus' kết thúc 's' → 'es').\n📘 **Vietnamese Explanation:** 'Buses' = /ˈbʌsɪz/ – thêm âm tiết /ɪz/. Mẹo: Danh từ kết thúc bằng 's, ss, sh, ch, x, z, o' thêm 'es'.\n💡 **Luyện tập:** buses (ˈbʌsɪz) – bus-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He works at a hospital.\' Văn bản Whisper nhận được: \'He work at a hospital.\'",
+    "output": "✅ **Corrected Sentence:** He works at a hospital.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 's' – 'works' (động từ ngôi 3 số ít).\n📘 **Vietnamese Explanation:** 'Works' kết thúc bằng /k/ (vô thanh) → /s/. Mẹo: Âm cuối /p, t, k, f, θ/ → /s/.\n💡 **Luyện tập:** works (wɜːks) – âm s nhẹ."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The roses smell wonderful.\' Văn bản Whisper nhận được: \'The rose smell wonderful.\'",
+    "output": "✅ **Corrected Sentence:** The roses smell wonderful.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'roses' (số nhiều của 'rose' kết thúc 'se' → 'es').\n📘 **Vietnamese Explanation:** 'Roses' kết thúc bằng /z/ → thêm 'es' đọc /ɪz/ (thêm âm tiết). Mẹo: 'Rose' có âm /z/ cuối, thêm 'es' thành /ˈrəʊzɪz/.\n💡 **Luyện tập:** roses (ˈrəʊzɪz) – 2 âm tiết."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She always eats breakfast at 7 AM.\' Văn bản Whisper nhận được: \'She always eat breakfast at 7 AM.\'",
+    "output": "✅ **Corrected Sentence:** She always eats breakfast at 7 AM.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 's' – 'eats' (động từ ngôi 3 số ít).\n📘 **Vietnamese Explanation:** 'Eats' kết thúc bằng /t/ (vô thanh) → /s/. Mẹo: 'Eat' + 's' = /iːts/ – giữ âm s nhẹ.\n💡 **Luyện tập:** eats (iːts) – âm s sau t."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The girls play tennis every weekend.\' Văn bản Whisper nhận được: \'The girl play tennis every weekend.\'",
+    "output": "✅ **Corrected Sentence:** The girls play tennis every weekend.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 's' – 'girls' (số nhiều).\n📘 **Vietnamese Explanation:** 'Girls' kết thúc bằng /l/ (hữu thanh) → /z/. Mẹo: Âm /l, r, m, n, ŋ, b, d, g, v, ð, dʒ/ + 's' = /z/.\n💡 **Luyện tập:** girls (ɡɜːlz) – kéo dài âm z."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He fixes his car every month.\' Văn bản Whisper nhận được: \'He fix his car every month.\'",
+    "output": "✅ **Corrected Sentence:** He fixes his car every month.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'fixes' (kết thúc 'x' → 'es').\n📘 **Vietnamese Explanation:** 'Fixes' kết thúc bằng /ks/ → /ɪz/ (thêm âm tiết). Mẹo: 'X' phát âm là /ks/, cũng thuộc nhóm thêm 'es'.\n💡 **Luyện tập:** fixes (ˈfɪksɪz) – fix-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The watches are expensive.\' Văn bản Whisper nhận được: \'The watch are expensive.\'",
+    "output": "✅ **Corrected Sentence:** The watches are expensive.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'watches' (số nhiều của 'watch' kết thúc 'ch' → 'es').\n📘 **Vietnamese Explanation:** 'Watches' = /ˈwɒtʃɪz/ – thêm âm tiết /ɪz/. Mẹo: Nhóm 'ch, sh, s, x, z, ge, ce' + 'es' = /ɪz/.\n💡 **Luyện tập:** watches (ˈwɒtʃɪz) – watch-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She dances beautifully.\' Văn bản Whisper nhận được: \'She dance beautifully.\'",
+    "output": "✅ **Corrected Sentence:** She dances beautifully.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'dances' (kết thúc 'ce' → 'es').\n📘 **Vietnamese Explanation:** 'Dances' kết thúc bằng /s/ → /ɪz/ (thêm âm tiết). Mẹo: 'Ce' phát âm là /s/, thuộc nhóm thêm 'es'.\n💡 **Luyện tập:** dances (ˈdɑːnsɪz) – danc-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The beaches are crowded in summer.\' Văn bản Whisper nhận được: \'The beach are crowded in summer.\'",
+    "output": "✅ **Corrected Sentence:** The beaches are crowded in summer.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'beaches' (số nhiều của 'beach' kết thúc 'ch' → 'es').\n📘 **Vietnamese Explanation:** 'Beaches' = /ˈbiːtʃɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** beaches (ˈbiːtʃɪz) – beach-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He teaches English at a school.\' Văn bản Whisper nhận được: \'He teach English at a school.\'",
+    "output": "✅ **Corrected Sentence:** He teaches English at a school.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'teaches' (kết thúc 'ch' → 'es').\n📘 **Vietnamese Explanation:** 'Teaches' = /ˈtiːtʃɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** teaches (ˈtiːtʃɪz) – teach-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The foxes run fast.\' Văn bản Whisper nhận được: \'The fox run fast.\'",
+    "output": "✅ **Corrected Sentence:** The foxes run fast.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'foxes' (số nhiều của 'fox' kết thúc 'x' → 'es').\n📘 **Vietnamese Explanation:** 'Foxes' = /ˈfɒksɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** foxes (ˈfɒksɪz) – fox-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She crosses the street carefully.\' Văn bản Whisper nhận được: \'She cross the street carefully.\'",
+    "output": "✅ **Corrected Sentence:** She crosses the street carefully.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'crosses' (kết thúc 'ss' → 'es').\n📘 **Vietnamese Explanation:** 'Crosses' = /ˈkrɒsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** crosses (ˈkrɒsɪz) – cross-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The quizzes are difficult.\' Văn bản Whisper nhận được: \'The quiz are difficult.\'",
+    "output": "✅ **Corrected Sentence:** The quizzes are difficult.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'quizzes' (số nhiều của 'quiz' kết thúc 'z' → 'zes').\n📘 **Vietnamese Explanation:** 'Quizzes' = /ˈkwɪzɪz/ – thêm âm tiết /ɪz/. Mẹo: Từ kết thúc bằng 'z' gấp đôi 'z' rồi thêm 'es'.\n💡 **Luyện tập:** quizzes (ˈkwɪzɪz) – 2 âm tiết."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He does his homework every day.\' Văn bản Whisper nhận được: \'He do his homework every day.\'",
+    "output": "✅ **Corrected Sentence:** He does his homework every day.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'does' (động từ bất quy tắc).\n📘 **Vietnamese Explanation:** 'Does' = /dʌz/ – âm /z/ cuối. Mẹo: 'Do' chuyển thành 'does' cho ngôi 3 số ít, phát âm /dʌz/.\n💡 **Luyện tập:** does (dʌz) – kéo dài âm z."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The dishes are in the sink.\' Văn bản Whisper nhận được: \'The dish are in the sink.\'",
+    "output": "✅ **Corrected Sentence:** The dishes are in the sink.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'dishes' (số nhiều của 'dish' kết thúc 'sh' → 'es').\n📘 **Vietnamese Explanation:** 'Dishes' = /ˈdɪʃɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** dishes (ˈdɪʃɪz) – dish-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She brushes her teeth twice a day.\' Văn bản Whisper nhận được: \'She brush her tooth twice a day.\'",
+    "output": "✅ **Corrected Sentence:** She brushes her teeth twice a day.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'brushes' (kết thúc 'sh' → 'es') và 'teeth' (số nhiều bất quy tắc).\n📘 **Vietnamese Explanation:** 'Brushes' = /ˈbrʌʃɪz/ – thêm âm tiết /ɪz/. 'Teeth' là số nhiều của 'tooth'.\n💡 **Luyện tập:** brushes (ˈbrʌʃɪz) – brush-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The matches are on the table.\' Văn bản Whisper nhận được: \'The match are on the table.\'",
+    "output": "✅ **Corrected Sentence:** The matches are on the table.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'matches' (số nhiều của 'match' kết thúc 'ch' → 'es').\n📘 **Vietnamese Explanation:** 'Matches' = /ˈmætʃɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** matches (ˈmætʃɪz) – match-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He catches the ball.\' Văn bản Whisper nhận được: \'He catch the ball.\'",
+    "output": "✅ **Corrected Sentence:** He catches the ball.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'catches' (kết thúc 'ch' → 'es').\n📘 **Vietnamese Explanation:** 'Catches' = /ˈkætʃɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** catches (ˈkætʃɪz) – catch-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The glasses are broken.\' Văn bản Whisper nhận được: \'The glass are broken.\'",
+    "output": "✅ **Corrected Sentence:** The glasses are broken.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'glasses' (số nhiều của 'glass' kết thúc 'ss' → 'es').\n📘 **Vietnamese Explanation:** 'Glasses' = /ˈɡlɑːsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** glasses (ˈɡlɑːsɪz) – glass-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She goes to the gym on Mondays.\' Văn bản Whisper nhận được: \'She go to the gym on Monday.\'",
+    "output": "✅ **Corrected Sentence:** She goes to the gym on Mondays.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'goes' và 'Mondays'.\n📘 **Vietnamese Explanation:** 'Goes' = /ɡəʊz/ – âm /z/. 'Mondays' kết thúc bằng /eɪ/ → /z/.\n💡 **Luyện tập:** goes (ɡəʊz). Mondays (ˈmʌndeɪz)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The churches are old.\' Văn bản Whisper nhận được: \'The church are old.\'",
+    "output": "✅ **Corrected Sentence:** The churches are old.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'churches' (số nhiều của 'church' kết thúc 'ch' → 'es').\n📘 **Vietnamese Explanation:** 'Churches' = /ˈtʃɜːtʃɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** churches (ˈtʃɜːtʃɪz) – church-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He relaxes on weekends.\' Văn bản Whisper nhận được: \'He relax on weekend.\'",
+    "output": "✅ **Corrected Sentence:** He relaxes on weekends.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'relaxes' (kết thúc 'x' → 'es') và 'weekends'.\n📘 **Vietnamese Explanation:** 'Relaxes' = /rɪˈlæksɪz/ – thêm âm tiết /ɪz/. 'Weekends' kết thúc bằng /d/ → /z/.\n💡 **Luyện tập:** relaxes (rɪˈlæksɪz). weekends (wiːkˈendz)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The oranges are juicy.\' Văn bản Whisper nhận được: \'The orange are juicy.\'",
+    "output": "✅ **Corrected Sentence:** The oranges are juicy.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'oranges' (số nhiều của 'orange' kết thúc 'ge' → 'es').\n📘 **Vietnamese Explanation:** 'Oranges' = /ˈɒrɪndʒɪz/ – thêm âm tiết /ɪz/. Mẹo: 'Ge' phát âm /dʒ/, thuộc nhóm thêm 'es'.\n💡 **Luyện tập:** oranges (ˈɒrɪndʒɪz) – orang-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She uses a computer.\' Văn bản Whisper nhận được: \'She use a computer.\'",
+    "output": "✅ **Corrected Sentence:** She uses a computer.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'uses' (kết thúc 'se' → 'es').\n📘 **Vietnamese Explanation:** 'Uses' = /ˈjuːzɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** uses (ˈjuːzɪz) – use-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The boxes are heavy.\' Văn bản Whisper nhận được: \'The box are heavy.\'",
+    "output": "✅ **Corrected Sentence:** The boxes are heavy.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'boxes' (số nhiều của 'box' kết thúc 'x' → 'es').\n📘 **Vietnamese Explanation:** 'Boxes' = /ˈbɒksɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** boxes (ˈbɒksɪz) – box-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He pushes the door.\' Văn bản Whisper nhận được: \'He push the door.\'",
+    "output": "✅ **Corrected Sentence:** He pushes the door.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'pushes' (kết thúc 'sh' → 'es').\n📘 **Vietnamese Explanation:** 'Pushes' = /ˈpʊʃɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** pushes (ˈpʊʃɪz) – push-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The bridges are long.\' Văn bản Whisper nhận được: \'The bridge are long.\'",
+    "output": "✅ **Corrected Sentence:** The bridges are long.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'bridges' (số nhiều của 'bridge' kết thúc 'ge' → 'es').\n📘 **Vietnamese Explanation:** 'Bridges' = /ˈbrɪdʒɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** bridges (ˈbrɪdʒɪz) – bridg-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She finishes work early.\' Văn bản Whisper nhận được: \'She finish work early.\'",
+    "output": "✅ **Corrected Sentence:** She finishes work early.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'finishes' (kết thúc 'sh' → 'es').\n📘 **Vietnamese Explanation:** 'Finishes' = /ˈfɪnɪʃɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** finishes (ˈfɪnɪʃɪz) – finish-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The benches are in the park.\' Văn bản Whisper nhận được: \'The bench are in the park.\'",
+    "output": "✅ **Corrected Sentence:** The benches are in the park.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'benches' (số nhiều của 'bench' kết thúc 'ch' → 'es').\n📘 **Vietnamese Explanation:** 'Benches' = /ˈbentʃɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** benches (ˈbentʃɪz) – bench-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He wishes for a new bike.\' Văn bản Whisper nhận được: \'He wish for a new bike.\'",
+    "output": "✅ **Corrected Sentence:** He wishes for a new bike.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'wishes' (kết thúc 'sh' → 'es').\n📘 **Vietnamese Explanation:** 'Wishes' = /ˈwɪʃɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** wishes (ˈwɪʃɪz) – wish-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The classes start at 8 AM.\' Văn bản Whisper nhận được: \'The class start at 8 AM.\'",
+    "output": "✅ **Corrected Sentence:** The classes start at 8 AM.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'classes' (số nhiều của 'class' kết thúc 'ss' → 'es').\n📘 **Vietnamese Explanation:** 'Classes' = /ˈklɑːsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** classes (ˈklɑːsɪz) – class-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She kisses her baby.\' Văn bản Whisper nhận được: \'She kiss her baby.\'",
+    "output": "✅ **Corrected Sentence:** She kisses her baby.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'kisses' (kết thúc 'ss' → 'es').\n📘 **Vietnamese Explanation:** 'Kisses' = /ˈkɪsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** kisses (ˈkɪsɪz) – kiss-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The gases are harmful.\' Văn bản Whisper nhận được: \'The gas are harmful.\'",
+    "output": "✅ **Corrected Sentence:** The gases are harmful.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'gases' (số nhiều của 'gas' kết thúc 's' → 'es').\n📘 **Vietnamese Explanation:** 'Gases' = /ˈɡæsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** gases (ˈɡæsɪz) – gas-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He fixes the sink.\' Văn bản Whisper nhận được: \'He fix the sink.\'",
+    "output": "✅ **Corrected Sentence:** He fixes the sink.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'fixes' (kết thúc 'x' → 'es').\n📘 **Vietnamese Explanation:** 'Fixes' = /ˈfɪksɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** fixes (ˈfɪksɪz) – fix-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The dresses are beautiful.\' Văn bản Whisper nhận được: \'The dress are beautiful.\'",
+    "output": "✅ **Corrected Sentence:** The dresses are beautiful.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'dresses' (số nhiều của 'dress' kết thúc 'ss' → 'es').\n📘 **Vietnamese Explanation:** 'Dresses' = /ˈdresɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** dresses (ˈdresɪz) – dress-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She watches horror movies.\' Văn bản Whisper nhận được: \'She watch horror movie.\'",
+    "output": "✅ **Corrected Sentence:** She watches horror movies.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'watches' (kết thúc 'ch' → 'es') và 'movies'.\n📘 **Vietnamese Explanation:** 'Watches' = /ˈwɒtʃɪz/ – thêm âm tiết /ɪz/. 'Movies' = /ˈmuːviz/ – âm /z/.\n💡 **Luyện tập:** watches (ˈwɒtʃɪz). movies (ˈmuːviz)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The bushes are green.\' Văn bản Whisper nhận được: \'The bush are green.\'",
+    "output": "✅ **Corrected Sentence:** The bushes are green.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'bushes' (số nhiều của 'bush' kết thúc 'sh' → 'es').\n📘 **Vietnamese Explanation:** 'Bushes' = /ˈbʊʃɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** bushes (ˈbʊʃɪz) – bush-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He misses his family.\' Văn bản Whisper nhận được: \'He miss his family.\'",
+    "output": "✅ **Corrected Sentence:** He misses his family.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'misses' (kết thúc 'ss' → 'es').\n📘 **Vietnamese Explanation:** 'Misses' = /ˈmɪsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** misses (ˈmɪsɪz) – miss-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The prizes are valuable.\' Văn bản Whisper nhận được: \'The prize are valuable.\'",
+    "output": "✅ **Corrected Sentence:** The prizes are valuable.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'prizes' (số nhiều của 'prize' kết thúc 'ze' → 'es').\n📘 **Vietnamese Explanation:** 'Prizes' = /ˈpraɪzɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** prizes (ˈpraɪzɪz) – prize-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She buzzes the doorbell.\' Văn bản Whisper nhận được: \'She buzz the doorbell.\'",
+    "output": "✅ **Corrected Sentence:** She buzzes the doorbell.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'buzzes' (kết thúc 'zz' → 'es').\n📘 **Vietnamese Explanation:** 'Buzzes' = /ˈbʌzɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** buzzes (ˈbʌzɪz) – buzz-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The quizzes are fun.\' Văn bản Whisper nhận được: \'The quiz are fun.\'",
+    "output": "✅ **Corrected Sentence:** The quizzes are fun.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'quizzes' (số nhiều của 'quiz' kết thúc 'z' → 'zes').\n📘 **Vietnamese Explanation:** 'Quizzes' = /ˈkwɪzɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** quizzes (ˈkwɪzɪz) – 2 âm tiết."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He rushes to work.\' Văn bản Whisper nhận được: \'He rush to work.\'",
+    "output": "✅ **Corrected Sentence:** He rushes to work.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'rushes' (kết thúc 'sh' → 'es').\n📘 **Vietnamese Explanation:** 'Rushes' = /ˈrʌʃɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** rushes (ˈrʌʃɪz) – rush-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The boxes are stacked.\' Văn bản Whisper nhận được: \'The box are stacked.\'",
+    "output": "✅ **Corrected Sentence:** The boxes are stacked.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'boxes' (số nhiều của 'box' kết thúc 'x' → 'es').\n📘 **Vietnamese Explanation:** 'Boxes' = /ˈbɒksɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** boxes (ˈbɒksɪz) – box-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She matches her shoes with her bag.\' Văn bản Whisper nhận được: \'She match her shoe with her bag.\'",
+    "output": "✅ **Corrected Sentence:** She matches her shoes with her bag.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'matches' (kết thúc 'ch' → 'es') và 'shoes' (số nhiều).\n📘 **Vietnamese Explanation:** 'Matches' = /ˈmætʃɪz/ – thêm âm tiết /ɪz/. 'Shoes' = /ʃuːz/ – âm /z/.\n💡 **Luyện tập:** matches (ˈmætʃɪz). shoes (ʃuːz)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The crashes were loud.\' Văn bản Whisper nhận được: \'The crash were loud.\'",
+    "output": "✅ **Corrected Sentence:** The crashes were loud.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'crashes' (số nhiều của 'crash' kết thúc 'sh' → 'es').\n📘 **Vietnamese Explanation:** 'Crashes' = /ˈkræʃɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** crashes (ˈkræʃɪz) – crash-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He practices the piano daily.\' Văn bản Whisper nhận được: \'He practice the piano daily.\'",
+    "output": "✅ **Corrected Sentence:** He practices the piano daily.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'practices' (kết thúc 'ce' → 'es').\n📘 **Vietnamese Explanation:** 'Practices' = /ˈpræktɪsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** practices (ˈpræktɪsɪz) – practic-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The oranges are sweet.\' Văn bản Whisper nhận được: \'The orange are sweet.\'",
+    "output": "✅ **Corrected Sentence:** The oranges are sweet.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'oranges' (số nhiều của 'orange' kết thúc 'ge' → 'es').\n📘 **Vietnamese Explanation:** 'Oranges' = /ˈɒrɪndʒɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** oranges (ˈɒrɪndʒɪz) – orang-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She changes her clothes often.\' Văn bản Whisper nhận được: \'She change her clothes often.\'",
+    "output": "✅ **Corrected Sentence:** She changes her clothes often.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'changes' (kết thúc 'ge' → 'es').\n📘 **Vietnamese Explanation:** 'Changes' = /ˈtʃeɪndʒɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** changes (ˈtʃeɪndʒɪz) – chang-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The ages are different.\' Văn bản Whisper nhận được: \'The age are different.\'",
+    "output": "✅ **Corrected Sentence:** The ages are different.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'ages' (số nhiều của 'age' kết thúc 'ge' → 'es').\n📘 **Vietnamese Explanation:** 'Ages' = /ˈeɪdʒɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** ages (ˈeɪdʒɪz) – age-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He encourages his students.\' Văn bản Whisper nhận được: \'He encourage his student.\'",
+    "output": "✅ **Corrected Sentence:** He encourages his students.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'encourages' (kết thúc 'ge' → 'es') và 'students'.\n📘 **Vietnamese Explanation:** 'Encourages' = /ɪnˈkʌrɪdʒɪz/ – thêm âm tiết /ɪz/. 'Students' = /ˈstjuːdnts/ – /s/.\n💡 **Luyện tập:** encourages (ɪnˈkʌrɪdʒɪz). students (ˈstjuːdnts)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The packages arrived.\' Văn bản Whisper nhận được: \'The package arrived.\'",
+    "output": "✅ **Corrected Sentence:** The packages arrived.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'packages' (số nhiều của 'package' kết thúc 'ge' → 'es').\n📘 **Vietnamese Explanation:** 'Packages' = /ˈpækɪdʒɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** packages (ˈpækɪdʒɪz) – packag-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She manages the team well.\' Văn bản Whisper nhận được: \'She manage the team well.\'",
+    "output": "✅ **Corrected Sentence:** She manages the team well.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'manages' (kết thúc 'ge' → 'es').\n📘 **Vietnamese Explanation:** 'Manages' = /ˈmænɪdʒɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** manages (ˈmænɪdʒɪz) – manag-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The judges are fair.\' Văn bản Whisper nhận được: \'The judge are fair.\'",
+    "output": "✅ **Corrected Sentence:** The judges are fair.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'judges' (số nhiều của 'judge' kết thúc 'ge' → 'es').\n📘 **Vietnamese Explanation:** 'Judges' = /ˈdʒʌdʒɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** judges (ˈdʒʌdʒɪz) – judg-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He notices the changes.\' Văn bản Whisper nhận được: \'He notice the change.\'",
+    "output": "✅ **Corrected Sentence:** He notices the changes.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'notices' (kết thúc 'ce' → 'es') và 'changes'.\n📘 **Vietnamese Explanation:** 'Notices' = /ˈnəʊtɪsɪz/ – thêm âm tiết /ɪz/. 'Changes' = /ˈtʃeɪndʒɪz/.\n💡 **Luyện tập:** notices (ˈnəʊtɪsɪz). changes (ˈtʃeɪndʒɪz)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The offices are closed.\' Văn bản Whisper nhận được: \'The office are closed.\'",
+    "output": "✅ **Corrected Sentence:** The offices are closed.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'offices' (số nhiều của 'office' kết thúc 'ce' → 'es').\n📘 **Vietnamese Explanation:** 'Offices' = /ˈɒfɪsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** offices (ˈɒfɪsɪz) – offic-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She practices yoga every morning.\' Văn bản Whisper nhận được: \'She practice yoga every morning.\'",
+    "output": "✅ **Corrected Sentence:** She practices yoga every morning.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'practices' (kết thúc 'ce' → 'es').\n📘 **Vietnamese Explanation:** 'Practices' = /ˈpræktɪsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** practices (ˈpræktɪsɪz) – practic-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The prices are high.\' Văn bản Whisper nhận được: \'The price are high.\'",
+    "output": "✅ **Corrected Sentence:** The prices are high.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'prices' (số nhiều của 'price' kết thúc 'ce' → 'es').\n📘 **Vietnamese Explanation:** 'Prices' = /ˈpraɪsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** prices (ˈpraɪsɪz) – price-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He produces good results.\' Văn bản Whisper nhận được: \'He produce good result.\'",
+    "output": "✅ **Corrected Sentence:** He produces good results.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'produces' (kết thúc 'ce' → 'es') và 'results'.\n📘 **Vietnamese Explanation:** 'Produces' = /prəˈdjuːsɪz/ – thêm âm tiết /ɪz/. 'Results' = /rɪˈzʌlts/ – /s/.\n💡 **Luyện tập:** produces (prəˈdjuːsɪz). results (rɪˈzʌlts)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The faces were familiar.\' Văn bản Whisper nhận được: \'The face were familiar.\'",
+    "output": "✅ **Corrected Sentence:** The faces were familiar.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'faces' (số nhiều của 'face' kết thúc 'ce' → 'es').\n📘 **Vietnamese Explanation:** 'Faces' = /ˈfeɪsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** faces (ˈfeɪsɪz) – face-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She places the books on the shelf.\' Văn bản Whisper nhận được: \'She place the book on the shelf.\'",
+    "output": "✅ **Corrected Sentence:** She places the books on the shelf.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'places' (kết thúc 'ce' → 'es') và 'books'.\n📘 **Vietnamese Explanation:** 'Places' = /ˈpleɪsɪz/ – thêm âm tiết /ɪz/. 'Books' = /bʊks/ – /s/.\n💡 **Luyện tập:** places (ˈpleɪsɪz). books (bʊks)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The races are exciting.\' Văn bản Whisper nhận được: \'The race are exciting.\'",
+    "output": "✅ **Corrected Sentence:** The races are exciting.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'races' (số nhiều của 'race' kết thúc 'ce' → 'es').\n📘 **Vietnamese Explanation:** 'Races' = /ˈreɪsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** races (ˈreɪsɪz) – race-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He reduces the amount.\' Văn bản Whisper nhận được: \'He reduce the amount.\'",
+    "output": "✅ **Corrected Sentence:** He reduces the amount.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'reduces' (kết thúc 'ce' → 'es').\n📘 **Vietnamese Explanation:** 'Reduces' = /rɪˈdjuːsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** reduces (rɪˈdjuːsɪz) – reduc-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The voices were loud.\' Văn bản Whisper nhận được: \'The voice were loud.\'",
+    "output": "✅ **Corrected Sentence:** The voices were loud.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'voices' (số nhiều của 'voice' kết thúc 'ce' → 'es').\n📘 **Vietnamese Explanation:** 'Voices' = /ˈvɔɪsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** voices (ˈvɔɪsɪz) – voice-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She chooses her words carefully.\' Văn bản Whisper nhận được: \'She choose her word carefully.\'",
+    "output": "✅ **Corrected Sentence:** She chooses her words carefully.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'chooses' (kết thúc 'se' → 'es') và 'words'.\n📘 **Vietnamese Explanation:** 'Chooses' = /ˈtʃuːzɪz/ – thêm âm tiết /ɪz/. 'Words' = /wɜːdz/ – /z/.\n💡 **Luyện tập:** chooses (ˈtʃuːzɪz). words (wɜːdz)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The promises were kept.\' Văn bản Whisper nhận được: \'The promise were kept.\'",
+    "output": "✅ **Corrected Sentence:** The promises were kept.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'promises' (số nhiều của 'promise' kết thúc 'se' → 'es').\n📘 **Vietnamese Explanation:** 'Promises' = /ˈprɒmɪsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** promises (ˈprɒmɪsɪz) – promis-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He releases the document.\' Văn bản Whisper nhận được: \'He release the document.\'",
+    "output": "✅ **Corrected Sentence:** He releases the document.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'releases' (kết thúc 'se' → 'es').\n📘 **Vietnamese Explanation:** 'Releases' = /rɪˈliːsɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** releases (rɪˈliːsɪz) – releas-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The roses are red.\' Văn bản Whisper nhận được: \'The rose are red.\'",
+    "output": "✅ **Corrected Sentence:** The roses are red.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'roses' (số nhiều của 'rose' kết thúc 'se' → 'es').\n📘 **Vietnamese Explanation:** 'Roses' = /ˈrəʊzɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** roses (ˈrəʊzɪz) – rose-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She raises her hand.\' Văn bản Whisper nhận được: \'She raise her hand.\'",
+    "output": "✅ **Corrected Sentence:** She raises her hand.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'raises' (kết thúc 'se' → 'es').\n📘 **Vietnamese Explanation:** 'Raises' = /ˈreɪzɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** raises (ˈreɪzɪz) – raise-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The pauses were awkward.\' Văn bản Whisper nhận được: \'The pause were awkward.\'",
+    "output": "✅ **Corrected Sentence:** The pauses were awkward.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'pauses' (số nhiều của 'pause' kết thúc 'se' → 'es').\n📘 **Vietnamese Explanation:** 'Pauses' = /ˈpɔːzɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** pauses (ˈpɔːzɪz) – pause-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He closes the window.\' Văn bản Whisper nhận được: \'He close the window.\'",
+    "output": "✅ **Corrected Sentence:** He closes the window.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'closes' (kết thúc 'se' → 'es').\n📘 **Vietnamese Explanation:** 'Closes' = /ˈkləʊzɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** closes (ˈkləʊzɪz) – close-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The houses are big.\' Văn bản Whisper nhận được: \'The house are big.\'",
+    "output": "✅ **Corrected Sentence:** The houses are big.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'houses' (số nhiều của 'house' kết thúc 'se' → 'es').\n📘 **Vietnamese Explanation:** 'Houses' = /ˈhaʊzɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** houses (ˈhaʊzɪz) – house-iz."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm âm đuôi 's/es' và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She uses her phone.\' Văn bản Whisper nhận được: \'She use her phone.\'",
+    "output": "✅ **Corrected Sentence:** She uses her phone.\n🔍 **Error Identification:** Lỗi nuốt âm đuôi 'es' – 'uses' (kết thúc 'se' → 'es').\n📘 **Vietnamese Explanation:** 'Uses' = /ˈjuːzɪz/ – thêm âm tiết /ɪz/.\n💡 **Luyện tập:** uses (ˈjuːzɪz) – use-iz."
+  }
+]

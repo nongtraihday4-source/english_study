@@ -1,0 +1,472 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn (reduced sounds) và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I wanna go home.\' Văn bản Whisper nhận được: \'I want to go home.\' (đọc đầy đủ, không rút gọn)",
+    "output": "✅ **Corrected Pronunciation:** I wanna go home. (ˈaɪ ˈwɑː.nə ɡəʊ hoʊm)\n🔍 **Error Identification:** Không sử dụng dạng rút gọn 'wanna' thay vì 'want to' trong văn nói tự nhiên.\n📘 **Vietnamese Explanation:** Người Việt thường phát âm từng từ riêng lẻ 'want to' vì học theo sách giáo khoa. Trong tiếng Anh giao tiếp hàng ngày, 'want to' được nói nhanh thành 'wanna'. Mẹo: Luyện nói 'wanna' như một từ, bỏ âm 't' và nối 'wan' với 'na'.\n💡 **Luyện tập:** I wanna eat. / Do you wanna come?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm gonna be late.\' Văn bản Whisper nhận được: \'I am going to be late.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I'm gonna be late. (aɪm ˈɡʌnə bi leɪt)\n🔍 **Error Identification:** Không dùng 'gonna' thay cho 'going to'.\n📘 **Vietnamese Explanation:** 'Going to' chỉ dự định tương lai thường được rút gọn thành 'gonna' trong văn nói. Mẹo: 'gonna' đọc nhanh, âm 'to' biến mất, 'going' thành 'gon' + 'na'.\n💡 **Luyện tập:** It's gonna rain. / We're gonna win."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Lemme see.\' Văn bản Whisper nhận được: \'Let me see.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Lemme see. (ˈlɛmi siː)\n🔍 **Error Identification:** Không dùng 'lemme' thay cho 'let me'.\n📘 **Vietnamese Explanation:** 'Let me' thường được nói lướt thành 'lemme' (bỏ âm 't', nối 'le' với 'me'). Mẹo: Nói nhanh 'let me' -> 'le-me'.\n💡 **Luyện tập:** Lemme think. / Lemme help you."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \''Cuz I'm busy.\' Văn bản Whisper nhận được: \'Because I am busy.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** 'Cuz I'm busy. (kəz aɪm ˈbɪzi)\n🔍 **Error Identification:** Không dùng ''cuz' thay cho 'because'.\n📘 **Vietnamese Explanation:** 'Because' thường được rút gọn thành ''cuz' (bỏ âm 'be', đọc nhanh 'cuz'). Mẹo: 'cuz' ngắn gọn, âm /kəz/.\n💡 **Luyện tập:** 'Cuz it's fun. / I did it 'cuz I had to."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I gotta go.\' Văn bản Whisper nhận được: \'I have got to go.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I gotta go. (aɪ ˈɡɑːtə ɡəʊ)\n🔍 **Error Identification:** Không dùng 'gotta' thay cho 'have got to' hoặc 'got to'.\n📘 **Vietnamese Explanation:** 'Got to' chỉ sự bắt buộc được rút gọn thành 'gotta' (bỏ âm 'to' thành 'ta'). Mẹo: 'gotta' = 'got' + 'a' (âm /ə/).\n💡 **Luyện tập:** You gotta try this. / She's gotta leave now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I kinda like it.\' Văn bản Whisper nhận được: \'I kind of like it.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I kinda like it. (aɪ ˈkaɪndə laɪk ɪt)\n🔍 **Error Identification:** Không dùng 'kinda' thay cho 'kind of'.\n📘 **Vietnamese Explanation:** 'Kind of' được rút gọn thành 'kinda' (bỏ âm 'of', nối 'kind' với 'a'). Mẹo: 'kinda' đọc như 'kai-n-də'.\n💡 **Luyện tập:** It's kinda weird. / I'm kinda tired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm sorta busy.\' Văn bản Whisper nhận được: \'I am sort of busy.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I'm sorta busy. (aɪm ˈsɔːrtə ˈbɪzi)\n🔍 **Error Identification:** Không dùng 'sorta' thay cho 'sort of'.\n📘 **Vietnamese Explanation:** 'Sort of' rút gọn thành 'sorta' (tương tự 'kinda'). Mẹo: 'sorta' = 'sort' + 'ə'.\n💡 **Luyện tập:** It's sorta complicated. / He's sorta strange."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Get outta here.\' Văn bản Whisper nhận được: \'Get out of here.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Get outta here. (ɡet ˈaʊtə hɪr)\n🔍 **Error Identification:** Không dùng 'outta' thay cho 'out of'.\n📘 **Vietnamese Explanation:** 'Out of' rút gọn thành 'outta' (bỏ âm 'f', nối 'out' với 'a'). Mẹo: 'outta' = 'out' + 'a' (/ə/).\n💡 **Luyện tập:** I'm outta time. / He ran outta money."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I hafta go.\' Văn bản Whisper nhận được: \'I have to go.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I hafta go. (aɪ ˈhæftə ɡəʊ)\n🔍 **Error Identification:** Không dùng 'hafta' thay cho 'have to'.\n📘 **Vietnamese Explanation:** 'Have to' rút gọn thành 'hafta' (âm 'v' chuyển thành 'f', 'to' thành 'ta'). Mẹo: 'hafta' = 'haf' + 'ta'.\n💡 **Luyện tập:** You hafta see this. / She hafta work late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He hasta go.\' Văn bản Whisper nhận được: \'He has to go.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** He hasta go. (hi ˈhæstə ɡəʊ)\n🔍 **Error Identification:** Không dùng 'hasta' thay cho 'has to'.\n📘 **Vietnamese Explanation:** 'Has to' rút gọn thành 'hasta' (âm 'z' chuyển thành 's', 'to' thành 'ta'). Mẹo: 'hasta' = 'has' + 'ta'.\n💡 **Luyện tập:** She hasta leave now. / It hasta be done."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Wanna grab a coffee?\' Văn bản Whisper nhận được: \'Do you want to grab a coffee?\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Wanna grab a coffee? (ˈwɑːnə ɡræb ə ˈkɒfi)\n🔍 **Error Identification:** Không dùng 'wanna' trong câu hỏi và bỏ 'do you'.\n📘 **Vietnamese Explanation:** Câu hỏi 'Do you want to...' thường được rút gọn thành 'Wanna...' trong văn nói. Mẹo: 'Wanna' đã bao gồm 'want to', không cần 'do you'.\n💡 **Luyện tập:** Wanna dance? / Wanna come with me?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Gonna be okay.\' Văn bản Whisper nhận được: \'It is going to be okay.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Gonna be okay. (ˈɡʌnə bi əʊˈkeɪ)\n🔍 **Error Identification:** Không dùng 'gonna' và bỏ 'it is'.\n📘 **Vietnamese Explanation:** Trong văn nói, người bản xứ thường lược bỏ chủ ngữ 'it is' khi dùng 'gonna'. Mẹo: 'Gonna be' = 'It is going to be'.\n💡 **Luyện tập:** Gonna rain soon. / Gonna be fun."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Lemme tell you something.\' Văn bản Whisper nhận được: \'Let me tell you something.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Lemme tell you something. (ˈlɛmi tɛl ju ˈsʌmθɪŋ)\n🔍 **Error Identification:** Không dùng 'lemme'.\n📘 **Vietnamese Explanation:** 'Lemme' là dạng rút gọn phổ biến của 'let me'. Mẹo: Thực hành nói 'lemme' thay vì 'let me'.\n💡 **Luyện tập:** Lemme check. / Lemme guess."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \''Cuz I said so.\' Văn bản Whisper nhận được: \'Because I said so.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** 'Cuz I said so. (kəz aɪ sed soʊ)\n🔍 **Error Identification:** Không dùng ''cuz'.\n📘 **Vietnamese Explanation:** ''Cuz' rất phổ biến trong văn nói hàng ngày. Mẹo: Bỏ 'be' ở đầu, chỉ giữ 'cuz'.\n💡 **Luyện tập:** 'Cuz it's true. / I'm happy 'cuz you're here."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I gotta get up early.\' Văn bản Whisper nhận được: \'I have got to get up early.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I gotta get up early. (aɪ ˈɡɑːtə ɡet ʌp ˈɜːrli)\n🔍 **Error Identification:** Không dùng 'gotta'.\n📘 **Vietnamese Explanation:** 'Gotta' thay cho 'have got to' hoặc 'got to'. Mẹo: 'gotta' = 'got' + 'a'.\n💡 **Luyện tập:** We gotta study. / They gotta leave."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It's kinda cool.\' Văn bản Whisper nhận được: \'It is kind of cool.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** It's kinda cool. (ɪts ˈkaɪndə kuːl)\n🔍 **Error Identification:** Không dùng 'kinda'.\n📘 **Vietnamese Explanation:** 'Kinda' thay cho 'kind of'. Mẹo: 'kinda' = 'kind' + 'a' (/ə/).\n💡 **Luyện tập:** He's kinda shy. / That's kinda weird."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm sorta happy.\' Văn bản Whisper nhận được: \'I am sort of happy.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I'm sorta happy. (aɪm ˈsɔːrtə ˈhæpi)\n🔍 **Error Identification:** Không dùng 'sorta'.\n📘 **Vietnamese Explanation:** 'Sorta' = 'sort of'.\n💡 **Luyện tập:** It's sorta late. / She's sorta tired."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Get outta my face.\' Văn bản Whisper nhận được: \'Get out of my face.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Get outta my face. (ɡet ˈaʊtə maɪ feɪs)\n🔍 **Error Identification:** Không dùng 'outta'.\n📘 **Vietnamese Explanation:** 'Outta' = 'out of'.\n💡 **Luyện tập:** I'm outta here. / He fell outta the tree."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I hafta tell you.\' Văn bản Whisper nhận được: \'I have to tell you.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I hafta tell you. (aɪ ˈhæftə tɛl ju)\n🔍 **Error Identification:** Không dùng 'hafta'.\n📘 **Vietnamese Explanation:** 'Hafta' = 'have to'.\n💡 **Luyện tập:** You hafta see this. / We hafta go now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He hasta work late.\' Văn bản Whisper nhận được: \'He has to work late.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** He hasta work late. (hi ˈhæstə wɜːrk leɪt)\n🔍 **Error Identification:** Không dùng 'hasta'.\n📘 **Vietnamese Explanation:** 'Hasta' = 'has to'.\n💡 **Luyện tập:** She hasta finish it. / It hasta be done."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Wanna grab lunch?\' Văn bản Whisper nhận được: \'Do you want to grab lunch?\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Wanna grab lunch? (ˈwɑːnə ɡræb lʌntʃ)\n🔍 **Error Identification:** Không dùng 'wanna' và không lược bỏ 'do you'.\n📘 **Vietnamese Explanation:** Câu hỏi rút gọn 'Wanna' rất tự nhiên.\n💡 **Luyện tập:** Wanna play? / Wanna go out?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Gonna rain today.\' Văn bản Whisper nhận được: \'It is going to rain today.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Gonna rain today. (ˈɡʌnə reɪn təˈdeɪ)\n🔍 **Error Identification:** Không dùng 'gonna' và không lược bỏ 'it is'.\n📘 **Vietnamese Explanation:** 'Gonna' đứng đầu câu đã hiểu ngầm chủ ngữ 'it'.\n💡 **Luyện tập:** Gonna snow tonight. / Gonna be hot."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Lemme help.\' Văn bản Whisper nhận được: \'Let me help.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Lemme help. (ˈlɛmi hɛlp)\n🔍 **Error Identification:** Không dùng 'lemme'.\n📘 **Vietnamese Explanation:** 'Lemme' ngắn gọn và tự nhiên hơn 'let me'.\n💡 **Luyện tập:** Lemme know. / Lemme try."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \''Cuz it's easy.\' Văn bản Whisper nhận được: \'Because it is easy.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** 'Cuz it's easy. (kəz ɪts ˈiːzi)\n🔍 **Error Identification:** Không dùng ''cuz'.\n📘 **Vietnamese Explanation:** ''Cuz' thay cho 'because'.\n💡 **Luyện tập:** 'Cuz I like it. / 'Cuz it's fun."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I gotta new phone.\' Văn bản Whisper nhận được: \'I have got a new phone.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I gotta new phone. (aɪ ˈɡɑːtə nuː foʊn)\n🔍 **Error Identification:** Không dùng 'gotta' thay cho 'have got a'.\n📘 **Vietnamese Explanation:** 'Gotta' có thể thay cho 'have got a' trong văn nói.\n💡 **Luyện tập:** She gotta new car. / They gotta big house."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I kinda like it.\' Văn bản Whisper nhận được: \'I kind of like it.\' (đọc đầy đủ, nhưng đã có ở trên). Thay bằng: \'That's kinda weird.\'",
+    "output": "✅ **Corrected Pronunciation:** That's kinda weird. (ðæts ˈkaɪndə wɪrd)\n🔍 **Error Identification:** Không dùng 'kinda'.\n💡 **Luyện tập:** This is kinda hard. / He's kinda nice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm sorta lost.\' Văn bản Whisper nhận được: \'I am sort of lost.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I'm sorta lost. (aɪm ˈsɔːrtə lɔːst)\n🔍 **Error Identification:** Không dùng 'sorta'.\n💡 **Luyện tập:** It's sorta complicated. / She's sorta shy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Get outta my way.\' Văn bản Whisper nhận được: \'Get out of my way.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Get outta my way. (ɡet ˈaʊtə maɪ weɪ)\n🔍 **Error Identification:** Không dùng 'outta'.\n💡 **Luyện tập:** He's outta control. / I'm outta breath."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I hafta admit.\' Văn bản Whisper nhận được: \'I have to admit.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I hafta admit. (aɪ ˈhæftə ædˈmɪt)\n🔍 **Error Identification:** Không dùng 'hafta'.\n💡 **Luyện tập:** You hafta believe me. / We hafta hurry."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She hasta be there.\' Văn bản Whisper nhận được: \'She has to be there.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** She hasta be there. (ʃi ˈhæstə bi ðer)\n🔍 **Error Identification:** Không dùng 'hasta'.\n💡 **Luyện tập:** He hasta come. / It hasta stop."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Wanna watch a movie?\' Văn bản Whisper nhận được: \'Do you want to watch a movie?\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Wanna watch a movie? (ˈwɑːnə wɒtʃ ə ˈmuːvi)\n🔍 **Error Identification:** Không dùng 'wanna'.\n💡 **Luyện tập:** Wanna eat? / Wanna play?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Gonna call you later.\' Văn bản Whisper nhận được: \'I am going to call you later.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Gonna call you later. (ˈɡʌnə kɔːl ju ˈleɪtər)\n🔍 **Error Identification:** Không dùng 'gonna' và lược bỏ 'I am'.\n💡 **Luyện tập:** Gonna text you. / Gonna be home soon."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Lemme think about it.\' Văn bản Whisper nhận được: \'Let me think about it.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Lemme think about it. (ˈlɛmi θɪŋk əˈbaʊt ɪt)\n🔍 **Error Identification:** Không dùng 'lemme'.\n💡 **Luyện tập:** Lemme see. / Lemme try."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \''Cuz I'm happy.\' Văn bản Whisper nhận được: \'Because I am happy.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** 'Cuz I'm happy. (kəz aɪm ˈhæpi)\n🔍 **Error Identification:** Không dùng ''cuz'.\n💡 **Luyện tập:** 'Cuz it's raining. / 'Cuz I said so."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I gotta feeling.\' Văn bản Whisper nhận được: \'I have got a feeling.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I gotta feeling. (aɪ ˈɡɑːtə ˈfiːlɪŋ)\n🔍 **Error Identification:** Không dùng 'gotta'.\n💡 **Luyện tập:** You gotta chance. / We gotta problem."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It's kinda strange.\' Văn bản Whisper nhận được: \'It is kind of strange.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** It's kinda strange. (ɪts ˈkaɪndə streɪndʒ)\n🔍 **Error Identification:** Không dùng 'kinda'.\n💡 **Luyện tập:** That's kinda cool. / He's kinda funny."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm sorta interested.\' Văn bản Whisper nhận được: \'I am sort of interested.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I'm sorta interested. (aɪm ˈsɔːrtə ˈɪntrəstɪd)\n🔍 **Error Identification:** Không dùng 'sorta'.\n💡 **Luyện tập:** She's sorta nice. / It's sorta difficult."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He's outta his mind.\' Văn bản Whisper nhận được: \'He is out of his mind.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** He's outta his mind. (hiːz ˈaʊtə hɪz maɪnd)\n🔍 **Error Identification:** Không dùng 'outta'.\n💡 **Luyện tập:** I'm outta money. / She's outta control."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I hafta say something.\' Văn bản Whisper nhận được: \'I have to say something.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I hafta say something. (aɪ ˈhæftə seɪ ˈsʌmθɪŋ)\n🔍 **Error Identification:** Không dùng 'hafta'.\n💡 **Luyện tập:** You hafta listen. / We hafta decide."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She hasta apologize.\' Văn bản Whisper nhận được: \'She has to apologize.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** She hasta apologize. (ʃi ˈhæstə əˈpɑːlədʒaɪz)\n🔍 **Error Identification:** Không dùng 'hasta'.\n💡 **Luyện tập:** He hasta explain. / It hasta change."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Wanna get some coffee?\' Văn bản Whisper nhận được: \'Do you want to get some coffee?\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Wanna get some coffee? (ˈwɑːnə ɡet sʌm ˈkɒfi)\n🔍 **Error Identification:** Không dùng 'wanna'.\n💡 **Luyện tập:** Wanna grab a bite? / Wanna take a walk?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Gonna be late.\' Văn bản Whisper nhận được: \'I am going to be late.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Gonna be late. (ˈɡʌnə bi leɪt)\n🔍 **Error Identification:** Không dùng 'gonna' và lược bỏ 'I am'.\n💡 **Luyện tập:** Gonna be there. / Gonna be fun."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Lemme explain.\' Văn bản Whisper nhận được: \'Let me explain.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Lemme explain. (ˈlɛmi ɪkˈspleɪn)\n🔍 **Error Identification:** Không dùng 'lemme'.\n💡 **Luyện tập:** Lemme show you. / Lemme ask."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \''Cuz I'm tired.\' Văn bản Whisper nhận được: \'Because I am tired.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** 'Cuz I'm tired. (kəz aɪm ˈtaɪərd)\n🔍 **Error Identification:** Không dùng ''cuz'.\n💡 **Luyện tập:** 'Cuz it's late. / 'Cuz she's busy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I gotta run.\' Văn bản Whisper nhận được: \'I have got to run.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I gotta run. (aɪ ˈɡɑːtə rʌn)\n🔍 **Error Identification:** Không dùng 'gotta'.\n💡 **Luyện tập:** We gotta go. / They gotta study."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It's kinda expensive.\' Văn bản Whisper nhận được: \'It is kind of expensive.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** It's kinda expensive. (ɪts ˈkaɪndə ɪkˈspensɪv)\n🔍 **Error Identification:** Không dùng 'kinda'.\n💡 **Luyện tập:** That's kinda boring. / He's kinda rude."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm sorta busy right now.\' Văn bản Whisper nhận được: \'I am sort of busy right now.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I'm sorta busy right now. (aɪm ˈsɔːrtə ˈbɪzi raɪt naʊ)\n🔍 **Error Identification:** Không dùng 'sorta'.\n💡 **Luyện tập:** She's sorta upset. / It's sorta urgent."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Get outta here!\' Văn bản Whisper nhận được: \'Get out of here!\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Get outta here! (ɡet ˈaʊtə hɪr)\n🔍 **Error Identification:** Không dùng 'outta'.\n💡 **Luyện tập:** I'm outta here. / He's outta luck."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I hafta go now.\' Văn bản Whisper nhận được: \'I have to go now.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I hafta go now. (aɪ ˈhæftə ɡəʊ naʊ)\n🔍 **Error Identification:** Không dùng 'hafta'.\n💡 **Luyện tập:** You hafta see this. / We hafta talk."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He hasta finish.\' Văn bản Whisper nhận được: \'He has to finish.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** He hasta finish. (hi ˈhæstə ˈfɪnɪʃ)\n🔍 **Error Identification:** Không dùng 'hasta'.\n💡 **Luyện tập:** She hasta leave. / It hasta end."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Wanna dance?\' Văn bản Whisper nhận được: \'Do you want to dance?\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Wanna dance? (ˈwɑːnə dæns)\n🔍 **Error Identification:** Không dùng 'wanna'.\n💡 **Luyện tập:** Wanna sing? / Wanna join?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Gonna be okay.\' Văn bản Whisper nhận được: \'Everything is going to be okay.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Gonna be okay. (ˈɡʌnə bi əʊˈkeɪ)\n🔍 **Error Identification:** Không dùng 'gonna' và lược bỏ 'everything is'.\n💡 **Luyện tập:** Gonna be fine. / Gonna be great."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Lemme pay.\' Văn bản Whisper nhận được: \'Let me pay.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Lemme pay. (ˈlɛmi peɪ)\n🔍 **Error Identification:** Không dùng 'lemme'.\n💡 **Luyện tập:** Lemme drive. / Lemme cook."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \''Cuz I love you.\' Văn bản Whisper nhận được: \'Because I love you.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** 'Cuz I love you. (kəz aɪ lʌv ju)\n🔍 **Error Identification:** Không dùng ''cuz'.\n💡 **Luyện tập:** 'Cuz you're amazing. / 'Cuz we care."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I gotta feeling that you're right.\' Văn bản Whisper nhận được: \'I have got a feeling that you are right.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I gotta feeling that you're right. (aɪ ˈɡɑːtə ˈfiːlɪŋ ðæt jʊr raɪt)\n🔍 **Error Identification:** Không dùng 'gotta' và 'you're'.\n💡 **Luyện tập:** We gotta chance. / They gotta point."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It's kinda like that.\' Văn bản Whisper nhận được: \'It is kind of like that.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** It's kinda like that. (ɪts ˈkaɪndə laɪk ðæt)\n🔍 **Error Identification:** Không dùng 'kinda'.\n💡 **Luyện tập:** That's kinda what I meant. / He's kinda my friend."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm sorta kidding.\' Văn bản Whisper nhận được: \'I am sort of kidding.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I'm sorta kidding. (aɪm ˈsɔːrtə ˈkɪdɪŋ)\n🔍 **Error Identification:** Không dùng 'sorta'.\n💡 **Luyện tập:** She's sorta joking. / He's sorta serious."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He ran outta gas.\' Văn bản Whisper nhận được: \'He ran out of gas.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** He ran outta gas. (hi ræn ˈaʊtə ɡæs)\n🔍 **Error Identification:** Không dùng 'outta'.\n💡 **Luyện tập:** We're outta time. / I'm outta energy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I hafta admit I was wrong.\' Văn bản Whisper nhận được: \'I have to admit I was wrong.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I hafta admit I was wrong. (aɪ ˈhæftə ædˈmɪt aɪ wʌz rɔːŋ)\n🔍 **Error Identification:** Không dùng 'hafta'.\n💡 **Luyện tập:** You hafta promise. / We hafta agree."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She hasta be joking.\' Văn bản Whisper nhận được: \'She has to be joking.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** She hasta be joking. (ʃi ˈhæstə bi ˈdʒoʊkɪŋ)\n🔍 **Error Identification:** Không dùng 'hasta'.\n💡 **Luyện tập:** He hasta be kidding. / It hasta be true."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Wanna grab a bite?\' Văn bản Whisper nhận được: \'Do you want to grab a bite?\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Wanna grab a bite? (ˈwɑːnə ɡræb ə baɪt)\n🔍 **Error Identification:** Không dùng 'wanna'.\n💡 **Luyện tập:** Wanna hang out? / Wanna chill?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Gonna call you.\' Văn bản Whisper nhận được: \'I am going to call you.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Gonna call you. (ˈɡʌnə kɔːl ju)\n🔍 **Error Identification:** Không dùng 'gonna' và lược bỏ 'I am'.\n💡 **Luyện tập:** Gonna text you. / Gonna email you."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Lemme get that.\' Văn bản Whisper nhận được: \'Let me get that.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Lemme get that. (ˈlɛmi ɡet ðæt)\n🔍 **Error Identification:** Không dùng 'lemme'.\n💡 **Luyện tập:** Lemme hold it. / Lemme take it."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \''Cuz it's important.\' Văn bản Whisper nhận được: \'Because it is important.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** 'Cuz it's important. (kəz ɪts ɪmˈpɔːrtənt)\n🔍 **Error Identification:** Không dùng ''cuz'.\n💡 **Luyện tập:** 'Cuz it's necessary. / 'Cuz it's urgent."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I gotta new job.\' Văn bản Whisper nhận được: \'I have got a new job.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I gotta new job. (aɪ ˈɡɑːtə nuː dʒɑːb)\n🔍 **Error Identification:** Không dùng 'gotta'.\n💡 **Luyện tập:** She gotta new dress. / They gotta new house."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It's kinda cold outside.\' Văn bản Whisper nhận được: \'It is kind of cold outside.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** It's kinda cold outside. (ɪts ˈkaɪndə koʊld ˌaʊtˈsaɪd)\n🔍 **Error Identification:** Không dùng 'kinda'.\n💡 **Luyện tập:** It's kinda dark. / It's kinda noisy."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm sorta tired.\' Văn bản Whisper nhận được: \'I am sort of tired.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I'm sorta tired. (aɪm ˈsɔːrtə ˈtaɪərd)\n🔍 **Error Identification:** Không dùng 'sorta'.\n💡 **Luyện tập:** He's sorta lazy. / She's sorta sad."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Get outta my room.\' Văn bản Whisper nhận được: \'Get out of my room.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Get outta my room. (ɡet ˈaʊtə maɪ ruːm)\n🔍 **Error Identification:** Không dùng 'outta'.\n💡 **Luyện tập:** I'm outta ideas. / He's outta shape."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I hafta work late.\' Văn bản Whisper nhận được: \'I have to work late.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I hafta work late. (aɪ ˈhæftə wɜːrk leɪt)\n🔍 **Error Identification:** Không dùng 'hafta'.\n💡 **Luyện tập:** You hafta study. / We hafta practice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'He hasta leave early.\' Văn bản Whisper nhận được: \'He has to leave early.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** He hasta leave early. (hi ˈhæstə liːv ˈɜːrli)\n🔍 **Error Identification:** Không dùng 'hasta'.\n💡 **Luyện tập:** She hasta arrive on time. / It hasta start now."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Wanna come with me?\' Văn bản Whisper nhận được: \'Do you want to come with me?\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Wanna come with me? (ˈwɑːnə kʌm wɪð miː)\n🔍 **Error Identification:** Không dùng 'wanna'.\n💡 **Luyện tập:** Wanna join us? / Wanna sit here?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Gonna be fun.\' Văn bản Whisper nhận được: \'It is going to be fun.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Gonna be fun. (ˈɡʌnə bi fʌn)\n🔍 **Error Identification:** Không dùng 'gonna'.\n💡 **Luyện tập:** Gonna be great. / Gonna be awesome."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Lemme finish.\' Văn bản Whisper nhận được: \'Let me finish.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Lemme finish. (ˈlɛmi ˈfɪnɪʃ)\n🔍 **Error Identification:** Không dùng 'lemme'.\n💡 **Luyện tập:** Lemme start. / Lemme continue."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \''Cuz I'm here.\' Văn bản Whisper nhận được: \'Because I am here.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** 'Cuz I'm here. (kəz aɪm hɪr)\n🔍 **Error Identification:** Không dùng ''cuz'.\n💡 **Luyện tập:** 'Cuz you're there. / 'Cuz we're together."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I gotta go shopping.\' Văn bản Whisper nhận được: \'I have got to go shopping.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I gotta go shopping. (aɪ ˈɡɑːtə ɡəʊ ˈʃɑːpɪŋ)\n🔍 **Error Identification:** Không dùng 'gotta'.\n💡 **Luyện tập:** We gotta eat. / They gotta sleep."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It's kinda hot today.\' Văn bản Whisper nhận được: \'It is kind of hot today.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** It's kinda hot today. (ɪts ˈkaɪndə hɑːt təˈdeɪ)\n🔍 **Error Identification:** Không dùng 'kinda'.\n💡 **Luyện tập:** It's kinda windy. / It's kinda humid."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm sorta hungry.\' Văn bản Whisper nhận được: \'I am sort of hungry.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I'm sorta hungry. (aɪm ˈsɔːrtə ˈhʌŋɡri)\n🔍 **Error Identification:** Không dùng 'sorta'.\n💡 **Luyện tập:** He's sorta thirsty. / She's sorta bored."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Get outta my sight.\' Văn bản Whisper nhận được: \'Get out of my sight.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Get outta my sight. (ɡet ˈaʊtə maɪ saɪt)\n🔍 **Error Identification:** Không dùng 'outta'.\n💡 **Luyện tập:** I'm outta luck. / He's outta danger."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I hafta tell the truth.\' Văn bản Whisper nhận được: \'I have to tell the truth.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I hafta tell the truth. (aɪ ˈhæftə tɛl ðə truːθ)\n🔍 **Error Identification:** Không dùng 'hafta'.\n💡 **Luyện tập:** You hafta be honest. / We hafta be careful."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She hasta make a decision.\' Văn bản Whisper nhận được: \'She has to make a decision.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** She hasta make a decision. (ʃi ˈhæstə meɪk ə dɪˈsɪʒən)\n🔍 **Error Identification:** Không dùng 'hasta'.\n💡 **Luyện tập:** He hasta choose. / It hasta happen."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Wanna take a break?\' Văn bản Whisper nhận được: \'Do you want to take a break?\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Wanna take a break? (ˈwɑːnə teɪk ə breɪk)\n🔍 **Error Identification:** Không dùng 'wanna'.\n💡 **Luyện tập:** Wanna rest? / Wanna relax?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Gonna be there.\' Văn bản Whisper nhận được: \'I am going to be there.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Gonna be there. (ˈɡʌnə bi ðer)\n🔍 **Error Identification:** Không dùng 'gonna'.\n💡 **Luyện tập:** Gonna be home. / Gonna be ready."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Lemme drive.\' Văn bản Whisper nhận được: \'Let me drive.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Lemme drive. (ˈlɛmi draɪv)\n🔍 **Error Identification:** Không dùng 'lemme'.\n💡 **Luyện tập:** Lemme park. / Lemme steer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \''Cuz it's my turn.\' Văn bản Whisper nhận được: \'Because it is my turn.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** 'Cuz it's my turn. (kəz ɪts maɪ tɜːrn)\n🔍 **Error Identification:** Không dùng ''cuz'.\n💡 **Luyện tập:** 'Cuz it's your choice. / 'Cuz it's our time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I gotta get ready.\' Văn bản Whisper nhận được: \'I have got to get ready.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I gotta get ready. (aɪ ˈɡɑːtə ɡet ˈrɛdi)\n🔍 **Error Identification:** Không dùng 'gotta'.\n💡 **Luyện tập:** We gotta prepare. / They gotta pack."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'It's kinda far.\' Văn bản Whisper nhận được: \'It is kind of far.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** It's kinda far. (ɪts ˈkaɪndə fɑːr)\n🔍 **Error Identification:** Không dùng 'kinda'.\n💡 **Luyện tập:** It's kinda close. / It's kinda near."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I'm sorta confused.\' Văn bản Whisper nhận được: \'I am sort of confused.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I'm sorta confused. (aɪm ˈsɔːrtə kənˈfjuːzd)\n🔍 **Error Identification:** Không dùng 'sorta'.\n💡 **Luyện tập:** He's sorta lost. / She's sorta mixed up."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Get outta my head.\' Văn bản Whisper nhận được: \'Get out of my head.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Get outta my head. (ɡet ˈaʊtə maɪ hɛd)\n🔍 **Error Identification:** Không dùng 'outta'.\n💡 **Luyện tập:** I'm outta words. / He's outta ideas."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I hafta catch the bus.\' Văn bản Whisper nhận được: \'I have to catch the bus.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** I hafta catch the bus. (aɪ ˈhæftə kætʃ ðə bʌs)\n🔍 **Error Identification:** Không dùng 'hafta'.\n💡 **Luyện tập:** You hafta hurry. / We hafta run."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She hasta be careful.\' Văn bản Whisper nhận được: \'She has to be careful.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** She hasta be careful. (ʃi ˈhæstə bi ˈkerfəl)\n🔍 **Error Identification:** Không dùng 'hasta'.\n💡 **Luyện tập:** He hasta be patient. / It hasta be done."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Wanna play soccer?\' Văn bản Whisper nhận được: \'Do you want to play soccer?\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Wanna play soccer? (ˈwɑːnə pleɪ ˈsɑːkər)\n🔍 **Error Identification:** Không dùng 'wanna'.\n💡 **Luyện tập:** Wanna play basketball? / Wanna play tennis?"
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Gonna rain.\' Văn bản Whisper nhận được: \'It is going to rain.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Gonna rain. (ˈɡʌnə reɪn)\n🔍 **Error Identification:** Không dùng 'gonna'.\n💡 **Luyện tập:** Gonna snow. / Gonna storm."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'Lemme answer.\' Văn bản Whisper nhận được: \'Let me answer.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** Lemme answer. (ˈlɛmi ˈænsər)\n🔍 **Error Identification:** Không dùng 'lemme'.\n💡 **Luyện tập:** Lemme respond. / Lemme reply."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi không sử dụng dạng rút gọn và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \''Cuz it's true.\' Văn bản Whisper nhận được: \'Because it is true.\' (đọc đầy đủ)",
+    "output": "✅ **Corrected Pronunciation:** 'Cuz it's true. (kəz ɪts truː)\n🔍 **Error Identification:** Không dùng ''cuz'.\n💡 **Luyện tập:** 'Cuz it's real. / 'Cuz it's fact."
+  }
+]

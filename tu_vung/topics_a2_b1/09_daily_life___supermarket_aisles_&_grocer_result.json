@@ -1,0 +1,2048 @@
+[
+
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "supermarket",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈsuːpəmɑːkɪt/",
+      "ipa_us": "/ˈsuːpərmɑːrkɪt/",
+      "meaning_vi": "siêu thị, cửa hàng tạp hóa lớn",
+      "definition_en": "A large self-service shop selling food and household goods.",
+      "example_en": "I need to go to the supermarket to buy some milk and bread.",
+      "example_vi": "Tôi cần đi siêu thị để mua sữa và bánh mì.",
+      "collocations_json": [
+        "local supermarket",
+        "big supermarket",
+        "go to the supermarket"
+      ],
+      "synonyms_json": [
+        "grocery store",
+        "hypermarket"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Siêu thị là nơi 'super' tiện lợi để 'market' hàng hóa.",
+      "frequency_rank": 1500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10547
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "grocery store",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈɡrəʊsəri stɔː/",
+      "ipa_us": "/ˈɡroʊsəri stɔːr/",
+      "meaning_vi": "cửa hàng tạp hóa, siêu thị nhỏ",
+      "definition_en": "A store that sells food and household supplies.",
+      "example_en": "We usually get our fresh vegetables from the local grocery store.",
+      "example_vi": "Chúng tôi thường mua rau tươi từ cửa hàng tạp hóa địa phương.",
+      "collocations_json": [
+        "local grocery store",
+        "small grocery store"
+      ],
+      "synonyms_json": [
+        "supermarket",
+        "food shop"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Grocery: 'gro' giống 'grow' (trồng trọt), 'cery' như 'sản phẩm' - cửa hàng bán sản phẩm trồng trọt.",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10548
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "shopping cart",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈʃɒpɪŋ kɑːt/",
+      "ipa_us": "/ˈʃɑːpɪŋ kɑːrt/",
+      "meaning_vi": "xe đẩy hàng",
+      "definition_en": "A large metal basket on wheels used for carrying groceries in a supermarket.",
+      "example_en": "Please get a shopping cart; we have a lot to buy.",
+      "example_vi": "Làm ơn lấy một chiếc xe đẩy hàng; chúng ta có rất nhiều thứ để mua.",
+      "collocations_json": [
+        "push a shopping cart",
+        "empty shopping cart"
+      ],
+      "synonyms_json": [
+        "trolley (UK)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Cart: giống như 'xe' nhỏ để 'shopping' tiện lợi.",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10549
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "shopping basket",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈʃɒpɪŋ bɑːskɪt/",
+      "ipa_us": "/ˈʃɑːpɪŋ bæskɪt/",
+      "meaning_vi": "giỏ mua hàng",
+      "definition_en": "A basket used for carrying a small amount of groceries.",
+      "example_en": "I only need a few items, so I'll just use a shopping basket.",
+      "example_vi": "Tôi chỉ cần vài món đồ, nên tôi sẽ dùng giỏ mua hàng thôi.",
+      "collocations_json": [
+        "carry a shopping basket",
+        "plastic shopping basket"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Basket: giống 'bánh kẹo' đựng trong 'giỏ' khi 'shopping'.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10550
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "aisle",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/aɪl/",
+      "ipa_us": "/aɪl/",
+      "meaning_vi": "lối đi giữa các kệ hàng",
+      "definition_en": "A passage between rows of shelves in a supermarket.",
+      "example_en": "You can find the cereal in aisle 5.",
+      "example_vi": "Bạn có thể tìm thấy ngũ cốc ở lối đi số 5.",
+      "collocations_json": [
+        "dairy aisle",
+        "frozen food aisle",
+        "next aisle"
+      ],
+      "synonyms_json": [
+        "passage",
+        "pathway"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Aisle: đọc giống 'ai' - 'ai' cũng đi qua 'lối đi' này.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10551
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "checkout",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈtʃekaʊt/",
+      "ipa_us": "/ˈtʃekaʊt/",
+      "meaning_vi": "quầy thanh toán",
+      "definition_en": "The place in a store where you pay for your purchases.",
+      "example_en": "There's a long queue at the checkout.",
+      "example_vi": "Có một hàng dài ở quầy thanh toán.",
+      "collocations_json": [
+        "go to the checkout",
+        "express checkout",
+        "self-checkout"
+      ],
+      "synonyms_json": [
+        "cash register",
+        "till (UK)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Check out: 'kiểm tra' hàng và 'ra' về sau khi trả tiền.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10552
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "cashier",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/kæˈʃɪə/",
+      "ipa_us": "/kæˈʃɪər/",
+      "meaning_vi": "nhân viên thu ngân",
+      "definition_en": "A person whose job is to receive and pay out money in a shop.",
+      "example_en": "The cashier scanned all my items quickly.",
+      "example_vi": "Nhân viên thu ngân đã quét tất cả các món đồ của tôi rất nhanh.",
+      "collocations_json": [
+        "friendly cashier",
+        "speak to the cashier"
+      ],
+      "synonyms_json": [
+        "teller"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Cashier: người xử lý 'cash' (tiền mặt).",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10553
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "receipt",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/rɪˈsiːt/",
+      "ipa_us": "/rɪˈsiːt/",
+      "meaning_vi": "hóa đơn, biên lai",
+      "definition_en": "A piece of paper that shows that you have paid for something.",
+      "example_en": "Don't forget to ask for the receipt in case you need to return it.",
+      "example_vi": "Đừng quên yêu cầu hóa đơn phòng khi bạn cần trả lại hàng.",
+      "collocations_json": [
+        "keep the receipt",
+        "digital receipt",
+        "lost receipt"
+      ],
+      "synonyms_json": [
+        "bill",
+        "proof of purchase"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Receipt: 're' (lại) 'ceipt' (nhận) - nhận lại giấy chứng nhận đã trả tiền.",
+      "frequency_rank": 2200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10554
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "coupon",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkuːpɒn/",
+      "ipa_us": "/ˈkuːpɑːn/",
+      "meaning_vi": "phiếu giảm giá",
+      "definition_en": "A small piece of paper that gives you a discount on a product.",
+      "example_en": "I used a coupon to save money on my groceries.",
+      "example_vi": "Tôi đã dùng phiếu giảm giá để tiết kiệm tiền mua hàng tạp hóa.",
+      "collocations_json": [
+        "cut a coupon",
+        "discount coupon",
+        "online coupon"
+      ],
+      "synonyms_json": [
+        "voucher",
+        "discount code"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Coupon: 'cúp' một phần giá tiền, 'on' (trên) hóa đơn.",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10555
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "discount",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdɪskaʊnt/",
+      "ipa_us": "/ˈdɪskaʊnt/",
+      "meaning_vi": "giảm giá, chiết khấu",
+      "definition_en": "A reduction in the usual price of something.",
+      "example_en": "They are offering a 20% discount on all fresh vegetables today.",
+      "example_vi": "Hôm nay họ đang giảm giá 20% cho tất cả các loại rau tươi.",
+      "collocations_json": [
+        "big discount",
+        "student discount",
+        "offer a discount"
+      ],
+      "synonyms_json": [
+        "reduction",
+        "sale"
+      ],
+      "antonyms_json": [
+        "surcharge"
+      ],
+      "mnemonic": "Discount: 'dis' (không) 'count' (tính đủ) - không tính đủ tiền, tức là giảm giá.",
+      "frequency_rank": 1700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10556
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "sale",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/seɪl/",
+      "ipa_us": "/seɪl/",
+      "meaning_vi": "đợt giảm giá, bán hàng",
+      "definition_en": "A period when a shop sells goods at lower prices than usual.",
+      "example_en": "I bought these shoes on sale last week.",
+      "example_vi": "Tôi đã mua đôi giày này trong đợt giảm giá tuần trước.",
+      "collocations_json": [
+        "on sale",
+        "clearance sale",
+        "seasonal sale"
+      ],
+      "synonyms_json": [
+        "discount",
+        "promotion"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Sale: 'sale' (bán) với giá tốt.",
+      "frequency_rank": 1000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10557
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "organic",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/ɔːˈɡænɪk/",
+      "ipa_us": "/ɔːrˈɡænɪk/",
+      "meaning_vi": "hữu cơ, không hóa chất",
+      "definition_en": "Produced or grown without artificial chemicals.",
+      "example_en": "She prefers to buy organic vegetables for her family.",
+      "example_vi": "Cô ấy thích mua rau hữu cơ cho gia đình mình.",
+      "collocations_json": [
+        "organic food",
+        "organic farming",
+        "organic produce"
+      ],
+      "synonyms_json": [
+        "natural",
+        "chemical-free"
+      ],
+      "antonyms_json": [
+        "conventional",
+        "processed"
+      ],
+      "mnemonic": "Organic: 'orga' giống 'origin' (nguồn gốc) - từ nguồn gốc tự nhiên, không hóa chất.",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10558
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "fresh produce",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/frɛʃ ˈprɒdjuːs/",
+      "ipa_us": "/frɛʃ ˈproʊduːs/",
+      "meaning_vi": "nông sản tươi sống",
+      "definition_en": "Fruits and vegetables that are newly picked or prepared.",
+      "example_en": "The fresh produce section is usually near the entrance of the supermarket.",
+      "example_vi": "Khu vực nông sản tươi sống thường ở gần lối vào siêu thị.",
+      "collocations_json": [
+        "local fresh produce",
+        "seasonal fresh produce"
+      ],
+      "synonyms_json": [
+        "fresh fruit and vegetables"
+      ],
+      "antonyms_json": [
+        "canned produce",
+        "frozen produce"
+      ],
+      "mnemonic": "Produce: 'pro' (trước) 'duce' (sản xuất) - những thứ được sản xuất/thu hoạch tươi mới.",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10559
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "dairy section",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/ˈdɛəri ˈsɛkʃən/",
+      "ipa_us": "/ˈdɛri ˈsɛkʃən/",
+      "meaning_vi": "khu vực sản phẩm từ sữa",
+      "definition_en": "The part of a supermarket where milk, cheese, and other dairy products are sold.",
+      "example_en": "I need to go to the dairy section to get some yogurt.",
+      "example_vi": "Tôi cần đến khu vực sản phẩm từ sữa để mua sữa chua.",
+      "collocations_json": [
+        "cold dairy section",
+        "large dairy section"
+      ],
+      "synonyms_json": [
+        "dairy aisle"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dairy: 'daily' (hàng ngày) - những sản phẩm sữa dùng hàng ngày.",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10560
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "meat counter",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/miːt ˈkaʊntə/",
+      "ipa_us": "/miːt ˈkaʊntər/",
+      "meaning_vi": "quầy thịt",
+      "definition_en": "A counter in a supermarket where fresh meat is sold and often prepared.",
+      "example_en": "Can you ask at the meat counter if they have any fresh chicken?",
+      "example_vi": "Bạn có thể hỏi ở quầy thịt xem họ có gà tươi không?",
+      "collocations_json": [
+        "butcher's meat counter",
+        "fresh meat counter"
+      ],
+      "synonyms_json": [
+        "butcher shop"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Meat: 'meat' (thịt) + 'counter' (quầy) = quầy thịt.",
+      "frequency_rank": 4200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10561
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "bakery",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/ˈbeɪkəri/",
+      "ipa_us": "/ˈbeɪkəri/",
+      "meaning_vi": "tiệm bánh, quầy bánh",
+      "definition_en": "A place where bread, cakes, and pastries are baked or sold.",
+      "example_en": "The smell from the bakery is always so inviting.",
+      "example_vi": "Mùi thơm từ tiệm bánh luôn rất mời gọi.",
+      "collocations_json": [
+        "local bakery",
+        "fresh bakery",
+        "in-store bakery"
+      ],
+      "synonyms_json": [
+        "patisserie",
+        "bake shop"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bakery: nơi 'bake' (nướng) bánh.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10562
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "frozen foods",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/ˈfrəʊzn fuːdz/",
+      "ipa_us": "/ˈfroʊzn fuːdz/",
+      "meaning_vi": "thực phẩm đông lạnh",
+      "definition_en": "Food that has been preserved by freezing.",
+      "example_en": "You can find pizzas and ice cream in the frozen foods section.",
+      "example_vi": "Bạn có thể tìm thấy pizza và kem ở khu vực thực phẩm đông lạnh.",
+      "collocations_json": [
+        "frozen foods section",
+        "buy frozen foods"
+      ],
+      "synonyms_json": [
+        "freezer items"
+      ],
+      "antonyms_json": [
+        "fresh foods"
+      ],
+      "mnemonic": "Frozen: 'freeze' (đông lạnh) + 'foods' (thực phẩm).",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10563
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "canned goods",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/kænd ɡʊdz/",
+      "ipa_us": "/kænd ɡʊdz/",
+      "meaning_vi": "đồ hộp, thực phẩm đóng hộp",
+      "definition_en": "Food items that are preserved and sold in metal cans.",
+      "example_en": "We always keep some canned goods in the pantry for emergencies.",
+      "example_vi": "Chúng tôi luôn giữ một ít đồ hộp trong tủ đựng thức ăn dự trữ cho trường hợp khẩn cấp.",
+      "collocations_json": [
+        "shelf-stable canned goods",
+        "variety of canned goods"
+      ],
+      "synonyms_json": [
+        "tinned food (UK)"
+      ],
+      "antonyms_json": [
+        "fresh produce"
+      ],
+      "mnemonic": "Canned: 'can' (lon) + 'goods' (hàng hóa) = hàng hóa đóng lon.",
+      "frequency_rank": 4100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10564
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "dry goods",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/draɪ ɡʊdz/",
+      "ipa_us": "/draɪ ɡʊdz/",
+      "meaning_vi": "hàng khô, thực phẩm khô",
+      "definition_en": "Non-perishable food items like pasta, rice, and flour.",
+      "example_en": "The dry goods aisle has pasta, rice, and cereals.",
+      "example_vi": "Lối đi hàng khô có mì ống, gạo và ngũ cốc.",
+      "collocations_json": [
+        "bulk dry goods",
+        "store dry goods"
+      ],
+      "synonyms_json": [
+        "staples",
+        "non-perishables"
+      ],
+      "antonyms_json": [
+        "fresh produce"
+      ],
+      "mnemonic": "Dry: 'khô' + 'goods' (hàng hóa) = hàng hóa khô.",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10565
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "beverages",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/ˈbɛvərɪdʒɪz/",
+      "ipa_us": "/ˈbɛvərɪdʒɪz/",
+      "meaning_vi": "đồ uống, thức uống",
+      "definition_en": "Drinks of any type.",
+      "example_en": "We need to stock up on various beverages for the party.",
+      "example_vi": "Chúng ta cần tích trữ nhiều loại đồ uống cho bữa tiệc.",
+      "collocations_json": [
+        "cold beverages",
+        "alcoholic beverages",
+        "non-alcoholic beverages"
+      ],
+      "synonyms_json": [
+        "drinks"
+      ],
+      "antonyms_json": [
+        "food"
+      ],
+      "mnemonic": "Beverages: 'beverage' (uống) - 'be' (là) 'ver' (rất) 'age' (tuổi) - thức uống cho mọi lứa tuổi.",
+      "frequency_rank": 3300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10566
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "snacks",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/snæks/",
+      "ipa_us": "/snæks/",
+      "meaning_vi": "đồ ăn vặt, bữa ăn nhẹ",
+      "definition_en": "Small amounts of food eaten between meals.",
+      "example_en": "My kids always ask for snacks when we go to the supermarket.",
+      "example_vi": "Con tôi luôn đòi đồ ăn vặt khi chúng tôi đi siêu thị.",
+      "collocations_json": [
+        "healthy snacks",
+        "sweet snacks",
+        "salty snacks"
+      ],
+      "synonyms_json": [
+        "treats",
+        "nibbles"
+      ],
+      "antonyms_json": [
+        "meals"
+      ],
+      "mnemonic": "Snacks: 'nhanh' ăn vặt.",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10567
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "household items",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈhaʊshəʊld ˈaɪtəmz/",
+      "ipa_us": "/ˈhaʊshoʊld ˈaɪtəmz/",
+      "meaning_vi": "đồ dùng gia đình",
+      "definition_en": "Products used for cleaning, cooking, or general maintenance in a home.",
+      "example_en": "Don't forget to buy some cleaning supplies from the household items aisle.",
+      "example_vi": "Đừng quên mua một số đồ dùng vệ sinh từ lối đi đồ dùng gia đình.",
+      "collocations_json": [
+        "essential household items",
+        "basic household items"
+      ],
+      "synonyms_json": [
+        "home goods",
+        "domestic products"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Household: 'house' (nhà) + 'hold' (giữ) - những thứ giữ cho nhà cửa hoạt động.",
+      "frequency_rank": 3700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10568
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "personal care products",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpɜːsənl kɛə ˈprɒdʌkts/",
+      "ipa_us": "/ˈpɜːrsənl kɛr ˈprɑːdʌkts/",
+      "meaning_vi": "sản phẩm chăm sóc cá nhân",
+      "definition_en": "Products used for personal hygiene and grooming, such as soap or shampoo.",
+      "example_en": "The personal care products section is next to the cosmetics.",
+      "example_vi": "Khu vực sản phẩm chăm sóc cá nhân nằm cạnh khu mỹ phẩm.",
+      "collocations_json": [
+        "daily personal care products",
+        "organic personal care products"
+      ],
+      "synonyms_json": [
+        "toiletries",
+        "beauty products"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Personal: 'cá nhân' + 'care' (chăm sóc) + 'products' (sản phẩm).",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10569
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "to do the shopping",
+      "part_of_speech": "verb phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/tuː duː ðə ˈʃɒpɪŋ/",
+      "ipa_us": "/tuː duː ðə ˈʃɑːpɪŋ/",
+      "meaning_vi": "đi mua sắm (hàng hóa)",
+      "definition_en": "To buy groceries and other necessary household items.",
+      "example_en": "I usually do the shopping on Saturday mornings.",
+      "example_vi": "Tôi thường đi mua sắm vào các sáng thứ Bảy.",
+      "collocations_json": [
+        "do the weekly shopping",
+        "do the grocery shopping"
+      ],
+      "synonyms_json": [
+        "go shopping",
+        "go grocery shopping"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Do the shopping: 'làm' việc 'mua sắm'.",
+      "frequency_rank": 1200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10570
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "to buy",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/baɪ/",
+      "ipa_us": "/baɪ/",
+      "meaning_vi": "mua, sắm",
+      "definition_en": "To obtain something by paying money for it.",
+      "example_en": "What do you need to buy from the store?",
+      "example_vi": "Bạn cần mua gì từ cửa hàng?",
+      "collocations_json": [
+        "buy groceries",
+        "buy clothes",
+        "buy online"
+      ],
+      "synonyms_json": [
+        "purchase",
+        "acquire"
+      ],
+      "antonyms_json": [
+        "sell"
+      ],
+      "mnemonic": "Buy: 'bai' (tạm biệt) tiền để 'mua' đồ.",
+      "frequency_rank": 500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10571
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "to pay",
+      "part_of_speech": "verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/peɪ/",
+      "ipa_us": "/peɪ/",
+      "meaning_vi": "thanh toán, trả tiền",
+      "definition_en": "To give money for goods or services.",
+      "example_en": "I need to pay for these items at the checkout.",
+      "example_vi": "Tôi cần thanh toán cho những món đồ này ở quầy thu ngân.",
+      "collocations_json": [
+        "pay by card",
+        "pay cash",
+        "pay the bill"
+      ],
+      "synonyms_json": [
+        "settle",
+        "remit"
+      ],
+      "antonyms_json": [
+        "receive"
+      ],
+      "mnemonic": "Pay: 'pay' (trả) tiền.",
+      "frequency_rank": 700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10572
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "to pick up",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/tuː pɪk ʌp/",
+      "ipa_us": "/tuː pɪk ʌp/",
+      "meaning_vi": "lấy, mua (nhanh)",
+      "definition_en": "To collect or buy something, often quickly or casually.",
+      "example_en": "Can you pick up some milk on your way home?",
+      "example_vi": "Bạn có thể mua ít sữa trên đường về nhà không?",
+      "collocations_json": [
+        "pick up groceries",
+        "pick up a friend",
+        "pick up a skill"
+      ],
+      "synonyms_json": [
+        "get",
+        "collect"
+      ],
+      "antonyms_json": [
+        "drop off"
+      ],
+      "mnemonic": "Pick up: 'nhặt' lên, 'lấy' về.",
+      "frequency_rank": 1800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10573
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "to compare prices",
+      "part_of_speech": "verb phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/tuː kəmˈpɛə ˈpraɪsɪz/",
+      "ipa_us": "/tuː kəmˈpɛr ˈpraɪsɪz/",
+      "meaning_vi": "so sánh giá cả",
+      "definition_en": "To look at the prices of similar items in different places to find the best deal.",
+      "example_en": "It's smart to compare prices before buying expensive electronics.",
+      "example_vi": "Thật thông minh khi so sánh giá cả trước khi mua đồ điện tử đắt tiền.",
+      "collocations_json": [
+        "compare prices online",
+        "compare prices between stores"
+      ],
+      "synonyms_json": [
+        "shop around",
+        "check prices"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Compare: 'so sánh' + 'prices' (giá cả).",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10574
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "shopping list",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈʃɒpɪŋ lɪst/",
+      "ipa_us": "/ˈʃɑːpɪŋ lɪst/",
+      "meaning_vi": "danh sách mua sắm",
+      "definition_en": "A list of things that you need to buy, especially groceries.",
+      "example_en": "I always make a shopping list before I go to the supermarket.",
+      "example_vi": "Tôi luôn lập danh sách mua sắm trước khi đi siêu thị.",
+      "collocations_json": [
+        "make a shopping list",
+        "stick to the shopping list",
+        "grocery shopping list"
+      ],
+      "synonyms_json": [
+        "grocery list"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Shopping list: 'danh sách' các thứ cần 'mua sắm'.",
+      "frequency_rank": 2100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10575
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "special offer",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈspɛʃl ˈɒfə/",
+      "ipa_us": "/ˈspɛʃl ˈɔːfər/",
+      "meaning_vi": "chương trình khuyến mãi đặc biệt",
+      "definition_en": "A product or service that is offered at a reduced price or with extra benefits for a limited time.",
+      "example_en": "Look! They have a special offer on coffee this week.",
+      "example_vi": "Nhìn kìa! Tuần này họ có chương trình khuyến mãi đặc biệt cho cà phê.",
+      "collocations_json": [
+        "limited special offer",
+        "weekly special offer"
+      ],
+      "synonyms_json": [
+        "promotion",
+        "deal"
+      ],
+      "antonyms_json": [
+        "regular price"
+      ],
+      "mnemonic": "Special: 'đặc biệt' + 'offer' (ưu đãi).",
+      "frequency_rank": 2700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10576
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "brand",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/brænd/",
+      "ipa_us": "/brænd/",
+      "meaning_vi": "thương hiệu, nhãn hiệu",
+      "definition_en": "A type of product manufactured by a particular company under a particular name.",
+      "example_en": "I always buy milk from my favorite brand.",
+      "example_vi": "Tôi luôn mua sữa từ thương hiệu yêu thích của mình.",
+      "collocations_json": [
+        "popular brand",
+        "well-known brand",
+        "luxury brand"
+      ],
+      "synonyms_json": [
+        "make",
+        "label"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Brand: 'bran' (cám) - thương hiệu như 'dấu ấn' riêng.",
+      "frequency_rank": 1600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10577
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "store brand",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/stɔː brænd/",
+      "ipa_us": "/stɔːr brænd/",
+      "meaning_vi": "thương hiệu riêng của siêu thị",
+      "definition_en": "Products sold under the name of the store that sells them, rather than a manufacturer's brand.",
+      "example_en": "The store brand cereals are usually cheaper than national brands.",
+      "example_vi": "Ngũ cốc thương hiệu riêng của siêu thị thường rẻ hơn các thương hiệu quốc gia.",
+      "collocations_json": [
+        "good store brand",
+        "affordable store brand"
+      ],
+      "synonyms_json": [
+        "own brand",
+        "private label"
+      ],
+      "antonyms_json": [
+        "national brand"
+      ],
+      "mnemonic": "Store: 'cửa hàng' + 'brand' (thương hiệu) - thương hiệu của cửa hàng.",
+      "frequency_rank": 5200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10578
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "expiry date",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/ɪkˈspaɪəri deɪt/",
+      "ipa_us": "/ɪkˈspaɪri deɪt/",
+      "meaning_vi": "ngày hết hạn sử dụng",
+      "definition_en": "The date after which a food or other product should not be used.",
+      "example_en": "Always check the expiry date on dairy products.",
+      "example_vi": "Luôn kiểm tra ngày hết hạn trên các sản phẩm sữa.",
+      "collocations_json": [
+        "check the expiry date",
+        "past the expiry date"
+      ],
+      "synonyms_json": [
+        "use-by date"
+      ],
+      "antonyms_json": [
+        "manufacture date"
+      ],
+      "mnemonic": "Expiry: 'hết hạn' + 'date' (ngày).",
+      "frequency_rank": 4800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10579
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "best before date",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/bɛst bɪˈfɔː deɪt/",
+      "ipa_us": "/bɛst bɪˈfɔːr deɪt/",
+      "meaning_vi": "ngày nên dùng trước",
+      "definition_en": "A date indicating when a food product is at its best quality, not necessarily unsafe after.",
+      "example_en": "This yogurt has a best before date of next week.",
+      "example_vi": "Sữa chua này có ngày nên dùng trước là tuần tới.",
+      "collocations_json": [
+        "check best before date",
+        "ignore best before date"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Best before: 'tốt nhất trước' ngày này.",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10580
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "bulk section",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/bʌlk ˈsɛkʃən/",
+      "ipa_us": "/bʌlk ˈsɛkʃən/",
+      "meaning_vi": "khu vực hàng bán rời, hàng số lượng lớn",
+      "definition_en": "The part of a store where customers can buy items like grains, nuts, or coffee beans in large quantities.",
+      "example_en": "I always buy my oats from the bulk section to save money.",
+      "example_vi": "Tôi luôn mua yến mạch từ khu vực hàng bán rời để tiết kiệm tiền.",
+      "collocations_json": [
+        "bulk food section",
+        "organic bulk section"
+      ],
+      "synonyms_json": [
+        "bulk bins"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bulk: 'bụi' (to lớn) - mua hàng số lượng lớn.",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10581
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "plastic bag",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈplæstɪk bæɡ/",
+      "ipa_us": "/ˈplæstɪk bæɡ/",
+      "meaning_vi": "túi ni lông",
+      "definition_en": "A bag made of plastic, used for carrying purchases.",
+      "example_en": "Do you need a plastic bag for your groceries?",
+      "example_vi": "Bạn có cần túi ni lông cho hàng tạp hóa không?",
+      "collocations_json": [
+        "single-use plastic bag",
+        "recycled plastic bag"
+      ],
+      "synonyms_json": [
+        "carrier bag (UK)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Plastic: 'nhựa' + 'bag' (túi).",
+      "frequency_rank": 2400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10582
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "reusable bag",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˌriːˈjuːzəbl bæɡ/",
+      "ipa_us": "/ˌriːˈjuːzəbl bæɡ/",
+      "meaning_vi": "túi tái sử dụng",
+      "definition_en": "A bag that can be used many times, often made of cloth, for carrying shopping.",
+      "example_en": "Don't forget to bring your reusable bags to the supermarket.",
+      "example_vi": "Đừng quên mang túi tái sử dụng của bạn đến siêu thị.",
+      "collocations_json": [
+        "canvas reusable bag",
+        "foldable reusable bag"
+      ],
+      "synonyms_json": [
+        "eco-bag"
+      ],
+      "antonyms_json": [
+        "single-use plastic bag"
+      ],
+      "mnemonic": "Reusable: 're' (lại) + 'use' (sử dụng) + 'able' (có thể) - túi có thể dùng lại.",
+      "frequency_rank": 3600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10583
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "to pack groceries",
+      "part_of_speech": "verb phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/tuː pæk ˈɡrəʊsəriz/",
+      "ipa_us": "/tuː pæk ˈɡroʊsəriz/",
+      "meaning_vi": "đóng gói hàng tạp hóa",
+      "definition_en": "To put purchased food and household items into bags.",
+      "example_en": "The cashier offered to help me pack groceries.",
+      "example_vi": "Nhân viên thu ngân đề nghị giúp tôi đóng gói hàng tạp hóa.",
+      "collocations_json": [
+        "pack groceries carefully",
+        "pack your own groceries"
+      ],
+      "synonyms_json": [
+        "bag groceries"
+      ],
+      "antonyms_json": [
+        "unpack groceries"
+      ],
+      "mnemonic": "Pack: 'đóng gói' + 'groceries' (hàng tạp hóa).",
+      "frequency_rank": 4300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10584
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "to unpack groceries",
+      "part_of_speech": "verb phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/tuː ʌnˈpæk ˈɡrəʊsəriz/",
+      "ipa_us": "/tuː ʌnˈpæk ˈɡroʊsəriz/",
+      "meaning_vi": "dỡ hàng tạp hóa",
+      "definition_en": "To remove purchased food and household items from bags after shopping.",
+      "example_en": "After getting home, I usually unpack groceries immediately.",
+      "example_vi": "Sau khi về nhà, tôi thường dỡ hàng tạp hóa ngay lập tức.",
+      "collocations_json": [
+        "unpack groceries from the car",
+        "help to unpack groceries"
+      ],
+      "synonyms_json": [
+        "put away groceries"
+      ],
+      "antonyms_json": [
+        "pack groceries"
+      ],
+      "mnemonic": "Unpack: 'un' (mở ra) + 'pack' (đóng gói) - mở gói hàng.",
+      "frequency_rank": 4600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10585
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "carton",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/ˈkɑːtən/",
+      "ipa_us": "/ˈkɑːrtən/",
+      "meaning_vi": "hộp giấy, hộp các tông",
+      "definition_en": "A light box or container made of cardboard or plastic, especially for liquid food.",
+      "example_en": "Please buy a carton of milk and a carton of juice.",
+      "example_vi": "Làm ơn mua một hộp sữa và một hộp nước trái cây.",
+      "collocations_json": [
+        "milk carton",
+        "egg carton",
+        "juice carton"
+      ],
+      "synonyms_json": [
+        "box",
+        "container"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Carton: 'car' (xe) 'ton' (tấn) - hộp lớn như xe tải.",
+      "frequency_rank": 3900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10586
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "jar",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/dʒɑː/",
+      "ipa_us": "/dʒɑːr/",
+      "meaning_vi": "lọ, hũ, bình",
+      "definition_en": "A cylindrical glass or earthenware container, typically with a lid.",
+      "example_en": "I need a jar of strawberry jam.",
+      "example_vi": "Tôi cần một lọ mứt dâu tây.",
+      "collocations_json": [
+        "glass jar",
+        "jam jar",
+        "empty jar"
+      ],
+      "synonyms_json": [
+        "pot",
+        "container"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Jar: giống 'cho' vào 'lọ'.",
+      "frequency_rank": 3100,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10587
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "can",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/kæn/",
+      "ipa_us": "/kæn/",
+      "meaning_vi": "lon, hộp thiếc",
+      "definition_en": "A cylindrical metal container, typically used for food or drink.",
+      "example_en": "Could you grab a can of tomatoes from the cupboard?",
+      "example_vi": "Bạn có thể lấy một lon cà chua từ tủ không?",
+      "collocations_json": [
+        "soda can",
+        "canned beans",
+        "can opener"
+      ],
+      "synonyms_json": [
+        "tin (UK)"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Can: 'có thể' chứa đồ trong 'lon'.",
+      "frequency_rank": 2300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10588
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "bottle",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/ˈbɒtl/",
+      "ipa_us": "/ˈbɑːtl/",
+      "meaning_vi": "chai, lọ",
+      "definition_en": "A container, typically made of glass or plastic and with a narrow neck, used for holding liquids.",
+      "example_en": "I bought a large bottle of water for the trip.",
+      "example_vi": "Tôi đã mua một chai nước lớn cho chuyến đi.",
+      "collocations_json": [
+        "plastic bottle",
+        "glass bottle",
+        "water bottle"
+      ],
+      "synonyms_json": [
+        "flask",
+        "container"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Bottle: 'bò' vào 'chai' nước.",
+      "frequency_rank": 1900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10589
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "loaf",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/ləʊf/",
+      "ipa_us": "/loʊf/",
+      "meaning_vi": "ổ (bánh mì)",
+      "definition_en": "A quantity of bread baked in one piece.",
+      "example_en": "Could you pick up a loaf of fresh bread from the bakery?",
+      "example_vi": "Bạn có thể mua một ổ bánh mì tươi từ tiệm bánh không?",
+      "collocations_json": [
+        "loaf of bread",
+        "whole loaf",
+        "sliced loaf"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Loaf: 'lốp' xe tròn như 'ổ bánh mì'.",
+      "frequency_rank": 4700,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10590
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "dozen",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈdʌzn/",
+      "ipa_us": "/ˈdʌzn/",
+      "meaning_vi": "tá (12 cái)",
+      "definition_en": "A group or set of twelve.",
+      "example_en": "I need a dozen eggs for the cake recipe.",
+      "example_vi": "Tôi cần một tá trứng cho công thức làm bánh.",
+      "collocations_json": [
+        "a dozen eggs",
+        "half a dozen",
+        "baker's dozen"
+      ],
+      "synonyms_json": [
+        "twelve"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Dozen: 'đỡ dần' 12 cái trứng.",
+      "frequency_rank": 3400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10591
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "kilo",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkiːləʊ/",
+      "ipa_us": "/ˈkiːloʊ/",
+      "meaning_vi": "kilogam, ký",
+      "definition_en": "A unit of weight equal to one thousand grams.",
+      "example_en": "Please give me one kilo of apples.",
+      "example_vi": "Làm ơn cho tôi một ký táo.",
+      "collocations_json": [
+        "a kilo of sugar",
+        "two kilos of meat"
+      ],
+      "synonyms_json": [
+        "kilogram"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Kilo: 'ký' giống như cách gọi tiếng Việt.",
+      "frequency_rank": 2900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10592
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "pound",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/paʊnd/",
+      "ipa_us": "/paʊnd/",
+      "meaning_vi": "paun (đơn vị khối lượng)",
+      "definition_en": "A unit of weight equal to 16 ounces or approximately 454 grams.",
+      "example_en": "I need a pound of ground beef for the recipe.",
+      "example_vi": "Tôi cần một paun thịt bò xay cho công thức.",
+      "collocations_json": [
+        "a pound of butter",
+        "half a pound"
+      ],
+      "synonyms_json": [
+        "lb"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Pound: 'pao' (bao) nặng 1 'pound'.",
+      "frequency_rank": 2500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10593
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "customer service",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkʌstəmə ˈsɜːvɪs/",
+      "ipa_us": "/ˈkʌstəmər ˈsɜːrvɪs/",
+      "meaning_vi": "dịch vụ khách hàng",
+      "definition_en": "The assistance and advice provided by a company to those who buy or use its products or services.",
+      "example_en": "If you have a problem, please go to the customer service desk.",
+      "example_vi": "Nếu bạn có vấn đề, làm ơn đến quầy dịch vụ khách hàng.",
+      "collocations_json": [
+        "excellent customer service",
+        "customer service representative"
+      ],
+      "synonyms_json": [
+        "client support"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Customer: 'khách hàng' + 'service' (dịch vụ).",
+      "frequency_rank": 2000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10594
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "self-checkout",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/sɛlf ˈtʃekaʊt/",
+      "ipa_us": "/sɛlf ˈtʃekaʊt/",
+      "meaning_vi": "quầy tự thanh toán",
+      "definition_en": "A system in a store where customers scan and pay for their items themselves.",
+      "example_en": "I prefer using the self-checkout when I only have a few items.",
+      "example_vi": "Tôi thích sử dụng quầy tự thanh toán khi tôi chỉ có ít món đồ.",
+      "collocations_json": [
+        "use self-checkout",
+        "fast self-checkout"
+      ],
+      "synonyms_json": [
+        "automated checkout"
+      ],
+      "antonyms_json": [
+        "cashier checkout"
+      ],
+      "mnemonic": "Self: 'tự mình' + 'checkout' (thanh toán).",
+      "frequency_rank": 5000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10595
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "to be out of stock",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/tuː bi aʊt əv stɒk/",
+      "ipa_us": "/tuː bi aʊt əv stɑːk/",
+      "meaning_vi": "hết hàng, không còn hàng",
+      "definition_en": "To not have a particular item available for sale because it has all been sold.",
+      "example_en": "I wanted to buy that cereal, but it was out of stock.",
+      "example_vi": "Tôi muốn mua loại ngũ cốc đó, nhưng nó đã hết hàng.",
+      "collocations_json": [
+        "temporarily out of stock",
+        "permanently out of stock"
+      ],
+      "synonyms_json": [
+        "unavailable",
+        "sold out"
+      ],
+      "antonyms_json": [
+        "in stock",
+        "available"
+      ],
+      "mnemonic": "Out of stock: 'hết' (out) 'kho' (stock).",
+      "frequency_rank": 4000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10596
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "produce section",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/ˈprɒdjuːs ˈsɛkʃən/",
+      "ipa_us": "/ˈproʊduːs ˈsɛkʃən/",
+      "meaning_vi": "khu vực rau củ quả",
+      "definition_en": "The part of a supermarket where fresh fruits and vegetables are displayed.",
+      "example_en": "I always head straight to the produce section for fresh ingredients.",
+      "example_vi": "Tôi luôn đi thẳng đến khu vực rau củ quả để tìm nguyên liệu tươi sống.",
+      "collocations_json": [
+        "fresh produce section",
+        "organic produce section"
+      ],
+      "synonyms_json": [
+        "fruit and vegetable section"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Produce: 'nông sản' + 'section' (khu vực).",
+      "frequency_rank": 3500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10597
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "deli counter",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/ˈdɛli ˈkaʊntə/",
+      "ipa_us": "/ˈdɛli ˈkaʊntər/",
+      "meaning_vi": "quầy thực phẩm chế biến sẵn",
+      "definition_en": "A counter in a supermarket selling sliced meats, cheeses, and prepared salads.",
+      "example_en": "I bought some fresh ham from the deli counter.",
+      "example_vi": "Tôi đã mua một ít giăm bông tươi từ quầy thực phẩm chế biến sẵn.",
+      "collocations_json": [
+        "fresh deli counter",
+        "gourmet deli counter"
+      ],
+      "synonyms_json": [
+        "delicatessen"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Deli: viết tắt của 'delicatessen' - quầy đồ ăn ngon.",
+      "frequency_rank": 6500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10598
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "unit price",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈjuːnɪt praɪs/",
+      "ipa_us": "/ˈjuːnɪt praɪs/",
+      "meaning_vi": "giá đơn vị",
+      "definition_en": "The cost of a product per unit of weight, volume, or count.",
+      "example_en": "Always check the unit price to see which size is the best value.",
+      "example_vi": "Luôn kiểm tra giá đơn vị để xem kích thước nào có giá trị tốt nhất.",
+      "collocations_json": [
+        "calculate unit price",
+        "compare unit prices"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [],
+      "mnemonic": "Unit: 'đơn vị' + 'price' (giá).",
+      "frequency_rank": 5300,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10599
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "gluten-free",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/ˈɡluːtən friː/",
+      "ipa_us": "/ˈɡluːtən friː/",
+      "meaning_vi": "không chứa gluten",
+      "definition_en": "Not containing gluten, a protein found in wheat and other grains.",
+      "example_en": "Many supermarkets now have a special section for gluten-free products.",
+      "example_vi": "Nhiều siêu thị hiện có một khu vực đặc biệt dành cho các sản phẩm không chứa gluten.",
+      "collocations_json": [
+        "gluten-free bread",
+        "gluten-free diet"
+      ],
+      "synonyms_json": [],
+      "antonyms_json": [
+        "gluten-containing"
+      ],
+      "mnemonic": "Gluten-free: 'không có' (free) 'gluten'.",
+      "frequency_rank": 6000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10600
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "vegetarian",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/ˌvɛdʒɪˈtɛəriən/",
+      "ipa_us": "/ˌvɛdʒəˈtɛriən/",
+      "meaning_vi": "ăn chay, người ăn chay",
+      "definition_en": "A person who does not eat meat or fish.",
+      "example_en": "There are many vegetarian options in the frozen food aisle.",
+      "example_vi": "Có nhiều lựa chọn ăn chay trong lối đi thực phẩm đông lạnh.",
+      "collocations_json": [
+        "vegetarian meal",
+        "vegetarian diet",
+        "become vegetarian"
+      ],
+      "synonyms_json": [
+        "plant-based"
+      ],
+      "antonyms_json": [
+        "carnivore",
+        "meat-eater"
+      ],
+      "mnemonic": "Vegetarian: 'vegetable' (rau củ) - người chỉ ăn rau củ.",
+      "frequency_rank": 3800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10601
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "vegan",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/ˈviːɡən/",
+      "ipa_us": "/ˈviːɡən/",
+      "meaning_vi": "thuần chay, người thuần chay",
+      "definition_en": "A person who does not eat or use any animal products.",
+      "example_en": "She follows a strict vegan diet for ethical reasons.",
+      "example_vi": "Cô ấy tuân thủ chế độ ăn thuần chay nghiêm ngặt vì lý do đạo đức.",
+      "collocations_json": [
+        "vegan food",
+        "vegan lifestyle",
+        "vegan cheese"
+      ],
+      "synonyms_json": [
+        "plant-based"
+      ],
+      "antonyms_json": [
+        "omnivore"
+      ],
+      "mnemonic": "Vegan: 'veg' (rau) - nghiêm ngặt hơn vegetarian.",
+      "frequency_rank": 5500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10602
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "dairy-free",
+      "part_of_speech": "adjective",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/ˈdɛəri friː/",
+      "ipa_us": "/ˈdɛri friː/",
+      "meaning_vi": "không chứa sữa",
+      "definition_en": "Not containing milk or other dairy products.",
+      "example_en": "My son is allergic to milk, so we only buy dairy-free products.",
+      "example_vi": "Con trai tôi bị dị ứng sữa, nên chúng tôi chỉ mua sản phẩm không chứa sữa.",
+      "collocations_json": [
+        "dairy-free milk",
+        "dairy-free yogurt"
+      ],
+      "synonyms_json": [
+        "lactose-free"
+      ],
+      "antonyms_json": [
+        "dairy products"
+      ],
+      "mnemonic": "Dairy-free: 'không có' (free) 'sữa' (dairy).",
+      "frequency_rank": 6200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10603
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "local products",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "food",
+      "ipa_uk": "/ˈləʊkl ˈprɒdʌkts/",
+      "ipa_us": "/ˈloʊkl ˈprɑːdʌkts/",
+      "meaning_vi": "sản phẩm địa phương",
+      "definition_en": "Goods that are made or grown in the local area.",
+      "example_en": "I prefer to buy local products to support the community.",
+      "example_vi": "Tôi thích mua sản phẩm địa phương để ủng hộ cộng đồng.",
+      "collocations_json": [
+        "support local products",
+        "fresh local products"
+      ],
+      "synonyms_json": [
+        "regional produce"
+      ],
+      "antonyms_json": [
+        "imported products"
+      ],
+      "mnemonic": "Local: 'địa phương' + 'products' (sản phẩm).",
+      "frequency_rank": 4900,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10604
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "freshly baked",
+      "part_of_speech": "adjective",
+      "cefr_level": "A2",
+      "domain": "food",
+      "ipa_uk": "/ˈfrɛʃli beɪkt/",
+      "ipa_us": "/ˈfrɛʃli beɪkt/",
+      "meaning_vi": "mới nướng, mới ra lò",
+      "definition_en": "Referring to food, especially bread or cakes, that has just been baked.",
+      "example_en": "The supermarket bakery always has freshly baked bread in the morning.",
+      "example_vi": "Tiệm bánh siêu thị luôn có bánh mì mới nướng vào buổi sáng.",
+      "collocations_json": [
+        "freshly baked bread",
+        "freshly baked cookies"
+      ],
+      "synonyms_json": [
+        "just baked"
+      ],
+      "antonyms_json": [
+        "stale"
+      ],
+      "mnemonic": "Freshly: 'mới' + 'baked' (nướng).",
+      "frequency_rank": 4400,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10605
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "on offer",
+      "part_of_speech": "phrase",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ɒn ˈɒfə/",
+      "ipa_us": "/ɑːn ˈɔːfər/",
+      "meaning_vi": "đang khuyến mãi, giảm giá",
+      "definition_en": "Available at a reduced price or with a special deal.",
+      "example_en": "These delicious cookies are on offer this week, buy one get one free!",
+      "example_vi": "Những chiếc bánh quy ngon này đang được khuyến mãi tuần này, mua một tặng một!",
+      "collocations_json": [
+        "special offer",
+        "on sale"
+      ],
+      "synonyms_json": [
+        "on sale",
+        "discounted"
+      ],
+      "antonyms_json": [
+        "full price"
+      ],
+      "mnemonic": "On offer: 'đang có' (on) 'ưu đãi' (offer).",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10606
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "shopping bag",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈʃɒpɪŋ bæɡ/",
+      "ipa_us": "/ˈʃɑːpɪŋ bæɡ/",
+      "meaning_vi": "túi mua sắm",
+      "definition_en": "A bag used for carrying purchases from a shop.",
+      "example_en": "I always keep a reusable shopping bag in my car.",
+      "example_vi": "Tôi luôn giữ một túi mua sắm tái sử dụng trong xe hơi.",
+      "collocations_json": [
+        "reusable shopping bag",
+        "paper shopping bag"
+      ],
+      "synonyms_json": [
+        "carrier bag",
+        "grocery bag"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Shopping: 'mua sắm' + 'bag' (túi).",
+      "frequency_rank": 2600,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10607
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "convenience store",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/kənˈviːniəns stɔː/",
+      "ipa_us": "/kənˈviːniəns stɔːr/",
+      "meaning_vi": "cửa hàng tiện lợi",
+      "definition_en": "A small shop that sells food, newspapers, etc., and is open for long hours.",
+      "example_en": "I just need a quick snack, so I'll go to the convenience store.",
+      "example_vi": "Tôi chỉ cần một bữa ăn nhẹ nhanh, nên tôi sẽ đi đến cửa hàng tiện lợi.",
+      "collocations_json": [
+        "local convenience store",
+        "24-hour convenience store"
+      ],
+      "synonyms_json": [
+        "mini-mart"
+      ],
+      "antonyms_json": [
+        "supermarket"
+      ],
+      "mnemonic": "Convenience: 'tiện lợi' + 'store' (cửa hàng).",
+      "frequency_rank": 4500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10608
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "packaging",
+      "part_of_speech": "noun",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpækɪdʒɪŋ/",
+      "ipa_us": "/ˈpækɪdʒɪŋ/",
+      "meaning_vi": "bao bì, đóng gói",
+      "definition_en": "Materials used to wrap or protect goods.",
+      "example_en": "Some products have too much plastic packaging.",
+      "example_vi": "Một số sản phẩm có quá nhiều bao bì nhựa.",
+      "collocations_json": [
+        "eco-friendly packaging",
+        "attractive packaging",
+        "reduce packaging"
+      ],
+      "synonyms_json": [
+        "wrapping",
+        "container"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Packaging: 'pack' (đóng gói) + 'aging' (làm cũ) - bao bì bảo vệ sản phẩm không bị cũ.",
+      "frequency_rank": 3200,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10609
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "value pack",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈvæljuː pæk/",
+      "ipa_us": "/ˈvæljuː pæk/",
+      "meaning_vi": "gói tiết kiệm, gói giá trị",
+      "definition_en": "A larger quantity of a product sold at a lower price per unit.",
+      "example_en": "Buying the value pack of toilet paper saves money in the long run.",
+      "example_vi": "Mua gói giấy vệ sinh tiết kiệm sẽ giúp tiết kiệm tiền về lâu dài.",
+      "collocations_json": [
+        "bulk value pack",
+        "family value pack"
+      ],
+      "synonyms_json": [
+        "economy pack",
+        "multipack"
+      ],
+      "antonyms_json": [
+        "single pack"
+      ],
+      "mnemonic": "Value: 'giá trị' + 'pack' (gói) - gói hàng có giá trị tốt.",
+      "frequency_rank": 6800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10610
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "clearance sale",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈklɪərərns seɪl/",
+      "ipa_us": "/ˈklɪrəns seɪl/",
+      "meaning_vi": "đợt xả hàng, giảm giá thanh lý",
+      "definition_en": "A sale of goods at reduced prices to get rid of old stock.",
+      "example_en": "We found some great deals at the clearance sale last weekend.",
+      "example_vi": "Chúng tôi đã tìm thấy một số ưu đãi tuyệt vời trong đợt giảm giá thanh lý cuối tuần trước.",
+      "collocations_json": [
+        "annual clearance sale",
+        "seasonal clearance sale"
+      ],
+      "synonyms_json": [
+        "liquidation sale"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Clearance: 'dọn dẹp' + 'sale' (bán) - bán để dọn kho.",
+      "frequency_rank": 7000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10611
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "price tag",
+      "part_of_speech": "noun",
+      "cefr_level": "A2",
+      "domain": "everyday",
+      "ipa_uk": "/ˈpraɪs tæɡ/",
+      "ipa_us": "/ˈpraɪs tæɡ/",
+      "meaning_vi": "nhãn giá, thẻ giá",
+      "definition_en": "A label showing the price of an item.",
+      "example_en": "The price tag on this shirt says $25.",
+      "example_vi": "Thẻ giá trên chiếc áo này ghi 25 đô la.",
+      "collocations_json": [
+        "missing price tag",
+        "read the price tag"
+      ],
+      "synonyms_json": [
+        "label"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Price: 'giá' + 'tag' (thẻ).",
+      "frequency_rank": 3000,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10612
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "customer loyalty program",
+      "part_of_speech": "phrase",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/ˈkʌstəmə ˈlɔɪəlti ˈprəʊɡræm/",
+      "ipa_us": "/ˈkʌstəmər ˈlɔɪəlti ˈproʊɡræm/",
+      "meaning_vi": "chương trình khách hàng thân thiết",
+      "definition_en": "A program offered by a store to reward regular customers with discounts or special benefits.",
+      "example_en": "I save money with my supermarket's customer loyalty program.",
+      "example_vi": "Tôi tiết kiệm tiền với chương trình khách hàng thân thiết của siêu thị tôi.",
+      "collocations_json": [
+        "join a loyalty program",
+        "earn points loyalty program"
+      ],
+      "synonyms_json": [
+        "rewards program"
+      ],
+      "antonyms_json": [],
+      "mnemonic": "Loyalty: 'trung thành' - chương trình dành cho khách hàng trung thành.",
+      "frequency_rank": 7500,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10613
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "to run out of",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/tuː rʌn aʊt əv/",
+      "ipa_us": "/tuː rʌn aʊt əv/",
+      "meaning_vi": "hết, cạn kiệt",
+      "definition_en": "To use up all of something so that there is none left.",
+      "example_en": "We're about to run out of coffee, I need to buy more.",
+      "example_vi": "Chúng ta sắp hết cà phê rồi, tôi cần mua thêm.",
+      "collocations_json": [
+        "run out of milk",
+        "run out of time",
+        "run out of money"
+      ],
+      "synonyms_json": [
+        "deplete",
+        "exhaust"
+      ],
+      "antonyms_json": [
+        "stock up",
+        "replenish"
+      ],
+      "mnemonic": "Run out: 'chạy ra ngoài' - hết sạch, cạn kiệt.",
+      "frequency_rank": 2800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10614
+  },
+  {
+    "model": "vocabulary.word",
+    "fields": {
+      "topic": "Daily Life - Supermarket Aisles & Groceries",
+      "word": "to stock up on",
+      "part_of_speech": "phrasal verb",
+      "cefr_level": "B1",
+      "domain": "everyday",
+      "ipa_uk": "/tuː stɒk ʌp ɒn/",
+      "ipa_us": "/tuː stɑːk ʌp ɑːn/",
+      "meaning_vi": "tích trữ, mua dự trữ",
+      "definition_en": "To buy a large quantity of something because you want to have a lot available.",
+      "example_en": "We should stock up on canned goods before the storm.",
+      "example_vi": "Chúng ta nên tích trữ đồ hộp trước cơn bão.",
+      "collocations_json": [
+        "stock up on essentials",
+        "stock up on food"
+      ],
+      "synonyms_json": [
+        "hoard",
+        "store up"
+      ],
+      "antonyms_json": [
+        "run out of"
+      ],
+      "mnemonic": "Stock up: 'tích trữ' (stock) 'lên' (up).",
+      "frequency_rank": 5800,
+      "created_at": "2026-03-25T00:00:00Z"
+    },
+    "pk": 10615
+  }
+]

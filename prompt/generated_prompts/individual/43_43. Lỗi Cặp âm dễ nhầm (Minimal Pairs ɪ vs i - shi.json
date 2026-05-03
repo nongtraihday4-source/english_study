@@ -1,0 +1,608 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I saw a ship on the sea.\' Văn bản Whisper nhận được: \'I saw a sheep on the sea.\'",
+    "output": "✅ **Corrected Sentence:** I saw a ship on the sea.\n🔍 **Error Identification:** Phát âm nhầm 'ship' (/ʃɪp/) thành 'sheep' (/ʃiːp/) – lỗi âm /ɪ/ ngắn thành /iː/ dài.\n📘 **Vietnamese Explanation:** Tiếng Việt không phân biệt nguyên âm dài/ngắn, nên người Việt thường kéo dài âm /ɪ/ thành /iː/. Mẹo: /ɪ/ (ngắn, lưỡi thấp hơn, miệng hơi mở) – phát nhanh; /iː/ (dài, lưỡi nâng cao, miệng cười rộng).\n💡 **Luyện tập:** ship (ʃɪp) – ngắn gọn. sheep (ʃiːp) – kéo dài. Phân biệt: 'bit' vs 'beat', 'live' vs 'leave'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'She sells seashells by the seashore.\' Văn bản Whisper nhận được: \'See sells seashells by the seashore.\'",
+    "output": "✅ **Corrected Sentence:** She sells seashells by the seashore.\n🔍 **Error Identification:** Phát âm 'She' (/ʃiː/) thành 'See' (/siː/) – nhầm /ʃ/ (sh) thành /s/.\n📘 **Vietnamese Explanation:** Tiếng Việt không có âm /ʃ/ (sh), người Việt thường thay bằng /s/. Mẹo: /ʃ/ – môi chu ra, lưỡi cong lên, đẩy hơi; /s/ – lưỡi chạm nướu dưới, hơi thẳng.\n💡 **Luyện tập:** she (ʃiː) – môi chu. see (siː) – môi dẹt. Lặp lại: 'shy' vs 'sigh', 'ship' vs 'sip'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /dʒ/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'The chair is comfortable.\' Văn bản Whisper nhận được: \'The share is comfortable.\'",
+    "output": "✅ **Corrected Sentence:** The chair is comfortable.\n🔍 **Error Identification:** Phát âm 'chair' (/tʃeər/) thành 'share' (/ʃeər/) – nhầm /tʃ/ (ch) thành /ʃ/ (sh).\n📘 **Vietnamese Explanation:** Âm /tʃ/ (ch) trong tiếng Việt có nhưng không bật hơi mạnh bằng tiếng Anh, dễ nhầm với /ʃ/. Mẹo: /tʃ/ – bắt đầu bằng âm /t/ rồi chuyển thành /ʃ/, bật hơi; /ʃ/ – chỉ có hơi, không có âm /t/ đằng trước.\n💡 **Luyện tập:** chair (tʃeər) – bật hơi ch. share (ʃeər) – nhẹ hơn. So sánh: 'cheap' vs 'sheep', 'chose' vs 'shows'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /z/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'They are my parents.\' Văn bản Whisper nhận được: \'Zey are my parents.\'",
+    "output": "✅ **Corrected Sentence:** They are my parents.\n🔍 **Error Identification:** Phát âm 'They' (/ðeɪ/) thành 'Zey' (/zeɪ/) – nhầm /ð/ (th) thành /z/.\n📘 **Vietnamese Explanation:** Tiếng Việt không có âm /ð/ (th như trong 'this'), người Việt thường thay bằng /z/ hoặc /d/. Mẹo: /ð/ – đưa lưỡi ra giữa hai hàm răng, rung thanh quản, đẩy hơi.\n💡 **Luyện tập:** they (ðeɪ) – lưỡi chạm răng. zee (ziː) – lưỡi chạm nướu. Luyện: 'then' vs 'zen', 'though' vs 'zone'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /s/ và hướng dẫn cách sửa.",
+    "input": "Câu yêu cầu đọc: \'I think three is a number.\' Văn bản Whisper nhận được: \'I sink three is a number.\'",
+    "output": "✅ **Corrected Sentence:** I think three is a number.\n🔍 **Error Identification:** Phát âm 'think' (/θɪŋk/) thành 'sink' (/sɪŋk/) – nhầm /θ/ (th vô thanh) thành /s/.\n📘 **Vietnamese Explanation:** Âm /θ/ (th như trong 'think') không có trong tiếng Việt, thường bị thay bằng /s/ hoặc /t/. Mẹo: /θ/ – đưa lưỡi ra giữa răng, đẩy hơi nhẹ (không rung thanh quản).\n💡 **Luyện tập:** think (θɪŋk) – lưỡi giữa răng. sink (sɪŋk) – lưỡi chạm nướu. Phân biệt: 'thin' vs 'sin', 'thank' vs 'sank'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He lives in a big city.\' Văn bản Whisper nhận được: \'He leaves in a big city.\'",
+    "output": "✅ **Corrected Sentence:** He lives in a big city.\n🔍 **Error Identification:** Phát âm 'lives' (/lɪvz/) thành 'leaves' (/liːvz/) – nhầm /ɪ/ thành /iː/.\n📘 **Vietnamese Explanation:** Người Việt thường kéo dài âm /ɪ/ khi phát âm từ 'live' thành 'leave'. Mẹo: 'live' (ngắn, sống) – phát nhanh; 'leave' (dài, rời đi) – kéo dài.\n💡 **Luyện tập:** live (lɪv) – ngắn. leave (liːv) – dài. Cặp: 'sit' vs 'seat', 'hit' vs 'heat'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She should wash the dishes.\' Văn bản Whisper nhận được: \'See should wash the dishes.\'",
+    "output": "✅ **Corrected Sentence:** She should wash the dishes.\n🔍 **Error Identification:** 'She' (/ʃiː/) thành 'See' (/siː/), 'wash' (/wɒʃ/) thành 'wass'? Ở đây lỗi chính là 'she'.\n📘 **Vietnamese Explanation:** Tương tự mẫu 2. Luyện /ʃ/ bằng cách môi chu ra, phát âm 'sh' như tiếng Việt 's' nhưng tròn môi hơn.\n💡 **Luyện tập:** she (ʃiː), see (siː). Lặp: 'shoe' vs 'sue', 'shock' vs 'sock'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /dʒ/.",
+    "input": "Câu yêu cầu đọc: \'He chose the wrong choice.\' Văn bản Whisper nhận được: \'He shows the wrong choice.\'",
+    "output": "✅ **Corrected Sentence:** He chose the wrong choice.\n🔍 **Error Identification:** 'chose' (/tʃəʊz/) thành 'shows' (/ʃəʊz/) – nhầm /tʃ/ thành /ʃ/.\n📘 **Vietnamese Explanation:** Âm 'ch' trong tiếng Việt nhẹ hơn /tʃ/ trong tiếng Anh. Mẹo: Thêm âm /t/ đằng trước /ʃ/.\n💡 **Luyện tập:** chose (tʃəʊz) – bật hơi mạnh. shows (ʃəʊz) – nhẹ."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /d/.",
+    "input": "Câu yêu cầu đọc: \'The weather is good today.\' Văn bản Whisper nhận được: \'De weather is good today.\'",
+    "output": "✅ **Corrected Sentence:** The weather is good today.\n🔍 **Error Identification:** 'The' (/ðə/) thành 'De' (/də/) – nhầm /ð/ thành /d/.\n📘 **Vietnamese Explanation:** Âm /ð/ không có trong tiếng Việt, thường bị thay bằng /d/ hoặc /z/. Mẹo: Đặt lưỡi giữa răng, rung thanh quản.\n💡 **Luyện tập:** the (ðə) – lưỡi chạm răng. de (də) – lưỡi chạm nướu."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /t/.",
+    "input": "Câu yêu cầu đọc: \'Thank you for the gift.\' Văn bản Whisper nhận được: \'Tank you for the gift.\'",
+    "output": "✅ **Corrected Sentence:** Thank you for the gift.\n🔍 **Error Identification:** 'Thank' (/θæŋk/) thành 'Tank' (/tæŋk/) – nhầm /θ/ thành /t/.\n📘 **Vietnamese Explanation:** Âm /θ/ khó, người Việt thay bằng /t/ (cứng hơn). Mẹo: /θ/ – lưỡi giữa răng, đẩy hơi nhẹ; /t/ – lưỡi chạm nướu, bật hơi mạnh.\n💡 **Luyện tập:** thank (θæŋk). tank (tæŋk). Phân biệt: 'thin' vs 'tin', 'thick' vs 'tick'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'Please sit on this seat.\' Văn bản Whisper nhận được: \'Please seat on this seat.\'",
+    "output": "✅ **Corrected Sentence:** Please sit on this seat.\n🔍 **Error Identification:** 'sit' (/sɪt/) thành 'seat' (/siːt/) – kéo dài âm i.\n📘 **Vietnamese Explanation:** Người Việt thường phát âm 'sit' giống 'seat'. Mẹo: 'sit' – âm ngắn, miệng hơi mở; 'seat' – âm dài, miệng cười.\n💡 **Luyện tập:** sit (sɪt) – nhanh. seat (siːt) – chậm."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'The ship is sinking.\' Văn bản Whisper nhận được: \'The sip is sinking.\'",
+    "output": "✅ **Corrected Sentence:** The ship is sinking.\n🔍 **Error Identification:** 'ship' (/ʃɪp/) thành 'sip' (/sɪp/) – nhầm /ʃ/ thành /s/.\n📘 **Vietnamese Explanation:** 'sh' khó, người Việt đọc thành 's'. Mẹo: Tròn môi khi đọc 'sh'.\n💡 **Luyện tập:** ship (ʃɪp). sip (sɪp)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /ʃ/.",
+    "input": "Câu yêu cầu đọc: \'Which chair did you choose?\' Văn bản Whisper nhận được: \'Which share did you choose?\'",
+    "output": "✅ **Corrected Sentence:** Which chair did you choose?\n🔍 **Error Identification:** 'chair' (/tʃeər/) thành 'share' (/ʃeər/).\n📘 **Vietnamese Explanation:** Nhầm 'ch' và 'sh'. Mẹo: 'ch' bật hơi mạnh hơn.\n💡 **Luyện tập:** chair (tʃeər). share (ʃeər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /z/.",
+    "input": "Câu yêu cầu đọc: \'Those are my brothers.\' Văn bản Whisper nhận được: \'Zose are my brothers.\'",
+    "output": "✅ **Corrected Sentence:** Those are my brothers.\n🔍 **Error Identification:** 'Those' (/ðəʊz/) thành 'Zose' (/zəʊz/).\n📘 **Vietnamese Explanation:** /ð/ thành /z/. Mẹo: Lưỡi giữa răng.\n💡 **Luyện tập:** those (ðəʊz). zose (không có từ). Luyện 'then' vs 'zen'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'I thought it was a bath.\' Văn bản Whisper nhận được: \'I sought it was a bath.\'",
+    "output": "✅ **Corrected Sentence:** I thought it was a bath.\n🔍 **Error Identification:** 'thought' (/θɔːt/) thành 'sought' (/sɔːt/) – nhầm /θ/ thành /s/.\n📘 **Vietnamese Explanation:** /θ/ thành /s/.\n💡 **Luyện tập:** thought (θɔːt). sought (sɔːt)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'She feels ill.\' Văn bản Whisper nhận được: \'She feels eel.\'",
+    "output": "✅ **Corrected Sentence:** She feels ill.\n🔍 **Error Identification:** 'ill' (/ɪl/) thành 'eel' (/iːl/).\n📘 **Vietnamese Explanation:** Kéo dài âm /ɪ/.\n💡 **Luyện tập:** ill (ɪl) – ngắn. eel (iːl) – dài."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'We need to wash the car.\' Văn bản Whisper nhận được: \'We need to was the car.\'",
+    "output": "✅ **Corrected Sentence:** We need to wash the car.\n🔍 **Error Identification:** 'wash' (/wɒʃ/) thành 'was' (/wɒz/ hoặc /wəz/) – nhầm /ʃ/ thành /z/ hoặc nuốt.\n📘 **Vietnamese Explanation:** Thiếu âm /ʃ/ cuối.\n💡 **Luyện tập:** wash (wɒʃ) – kết thúc bằng 'sh'."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /dʒ/.",
+    "input": "Câu yêu cầu đọc: \'He is a rich man.\' Văn bản Whisper nhận được: \'He is a ridge man.\'",
+    "output": "✅ **Corrected Sentence:** He is a rich man.\n🔍 **Error Identification:** 'rich' (/rɪtʃ/) thành 'ridge' (/rɪdʒ/) – nhầm /tʃ/ vô thanh thành /dʒ/ hữu thanh.\n📘 **Vietnamese Explanation:** Phân biệt vô thanh (ch) và hữu thanh (j). Mẹo: /tʃ/ – không rung thanh quản; /dʒ/ – rung.\n💡 **Luyện tập:** rich (rɪtʃ). ridge (rɪdʒ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /d/.",
+    "input": "Câu yêu cầu đọc: \'This is my father.\' Văn bản Whisper nhận được: \'Dis is my father.\'",
+    "output": "✅ **Corrected Sentence:** This is my father.\n🔍 **Error Identification:** 'This' (/ðɪs/) thành 'Dis' (/dɪs/).\n📘 **Vietnamese Explanation:** /ð/ thành /d/.\n💡 **Luyện tập:** this (ðɪs). dis (dɪs)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /t/.",
+    "input": "Câu yêu cầu đọc: \'Both of them are thin.\' Văn bản Whisper nhận được: \'Bot of them are tin.\'",
+    "output": "✅ **Corrected Sentence:** Both of them are thin.\n🔍 **Error Identification:** 'Both' (/bəʊθ/) thành 'Bot' (/bɒt/), 'thin' (/θɪn/) thành 'tin' (/tɪn/).\n📘 **Vietnamese Explanation:** /θ/ thành /t/.\n💡 **Luyện tập:** both (bəʊθ). thin (θɪn)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He will fill the bottle.\' Văn bản Whisper nhận được: \'He will feel the bottle.\'",
+    "output": "✅ **Corrected Sentence:** He will fill the bottle.\n🔍 **Error Identification:** 'fill' (/fɪl/) thành 'feel' (/fiːl/).\n📘 **Vietnamese Explanation:** Kéo dài âm.\n💡 **Luyện tập:** fill (fɪl). feel (fiːl)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She is so shy.\' Văn bản Whisper nhận được: \'See is so shy.\'",
+    "output": "✅ **Corrected Sentence:** She is so shy.\n🔍 **Error Identification:** 'She' thành 'See'.\n📘 **Vietnamese Explanation:** Nhầm 'sh' và 's'.\n💡 **Luyện tập:** she (ʃiː), see (siː)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /ʃ/.",
+    "input": "Câu yêu cầu đọc: \'I will catch the bus.\' Văn bản Whisper nhận được: \'I will cash the bus.\'",
+    "output": "✅ **Corrected Sentence:** I will catch the bus.\n🔍 **Error Identification:** 'catch' (/kætʃ/) thành 'cash' (/kæʃ/).\n📘 **Vietnamese Explanation:** Mất âm /t/ trong /tʃ/.\n💡 **Luyện tập:** catch (kætʃ). cash (kæʃ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /z/.",
+    "input": "Câu yêu cầu đọc: \'They gathered together.\' Văn bản Whisper nhận được: \'Zey gathered togezer.\'",
+    "output": "✅ **Corrected Sentence:** They gathered together.\n🔍 **Error Identification:** 'They' (/ðeɪ/) thành 'Zey', 'together' (/təˈɡeðər/) thành 'togezer' (/təˈɡezər/).\n📘 **Vietnamese Explanation:** /ð/ thành /z/.\n💡 **Luyện tập:** they (ðeɪ). together (təˈɡeðər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'The thing is nothing.\' Văn bản Whisper nhận được: \'The sing is nosink.\'",
+    "output": "✅ **Corrected Sentence:** The thing is nothing.\n🔍 **Error Identification:** 'thing' (/θɪŋ/) thành 'sing' (/sɪŋ/), 'nothing' (/ˈnʌθɪŋ/) thành 'nosink' (sai).\n📘 **Vietnamese Explanation:** /θ/ thành /s/.\n💡 **Luyện tập:** thing (θɪŋ). nothing (ˈnʌθɪŋ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'This is a bit too much.\' Văn bản Whisper nhận được: \'This is a beat too much.\'",
+    "output": "✅ **Corrected Sentence:** This is a bit too much.\n🔍 **Error Identification:** 'bit' (/bɪt/) thành 'beat' (/biːt/).\n📘 **Vietnamese Explanation:** Kéo dài âm.\n💡 **Luyện tập:** bit (bɪt). beat (biːt)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'Sheep should sleep.\' Văn bản Whisper nhận được: \'Seep should sleep.\'",
+    "output": "✅ **Corrected Sentence:** Sheep should sleep.\n🔍 **Error Identification:** 'Sheep' (/ʃiːp/) thành 'Seep' (/siːp/).\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** sheep (ʃiːp). seep (siːp)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /dʒ/.",
+    "input": "Câu yêu cầu đọc: \'He is a judge.\' Văn bản Whisper nhận được: \'He is a chudge.\'",
+    "output": "✅ **Corrected Sentence:** He is a judge.\n🔍 **Error Identification:** 'judge' (/dʒʌdʒ/) thành 'chudge' (/tʃʌdʒ/) – nhầm /dʒ/ thành /tʃ/.\n📘 **Vietnamese Explanation:** Hữu thanh thành vô thanh.\n💡 **Luyện tập:** judge (dʒʌdʒ). chudge (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /d/.",
+    "input": "Câu yêu cầu đọc: \'These are my shoes.\' Văn bản Whisper nhận được: \'Dese are my shoes.\'",
+    "output": "✅ **Corrected Sentence:** These are my shoes.\n🔍 **Error Identification:** 'These' (/ðiːz/) thành 'Dese' (/diːz/).\n📘 **Vietnamese Explanation:** /ð/ thành /d/.\n💡 **Luyện tập:** these (ðiːz). dese (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /t/.",
+    "input": "Câu yêu cầu đọc: \'I need a bath mat.\' Văn bản Whisper nhận được: \'I need a bat mat.\'",
+    "output": "✅ **Corrected Sentence:** I need a bath mat.\n🔍 **Error Identification:** 'bath' (/bɑːθ/) thành 'bat' (/bæt/).\n📘 **Vietnamese Explanation:** /θ/ thành /t/.\n💡 **Luyện tập:** bath (bɑːθ). bat (bæt)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He is still ill.\' Văn bản Whisper nhận được: \'He is steel eel.\'",
+    "output": "✅ **Corrected Sentence:** He is still ill.\n🔍 **Error Identification:** 'still' (/stɪl/) thành 'steel' (/stiːl/), 'ill' thành 'eel'.\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** still (stɪl). steel (stiːl)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She sells sea shells.\' Văn bản Whisper nhận được: \'See sells sea shells.\'",
+    "output": "✅ **Corrected Sentence:** She sells sea shells.\n🔍 **Error Identification:** 'She' thành 'See'.\n📘 **Vietnamese Explanation:** Như trên.\n💡 **Luyện tập:** she (ʃiː). see (siː)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /ʃ/.",
+    "input": "Câu yêu cầu đọc: \'I will check the list.\' Văn bản Whisper nhận được: \'I will sheck the list.\'",
+    "output": "✅ **Corrected Sentence:** I will check the list.\n🔍 **Error Identification:** 'check' (/tʃek/) thành 'sheck' (/ʃek/).\n📘 **Vietnamese Explanation:** Mất âm /t/.\n💡 **Luyện tập:** check (tʃek). sheck (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /z/.",
+    "input": "Câu yêu cầu đọc: \'Mother and father.\' Văn bản Whisper nhận được: \'Mozer and fazer.\'",
+    "output": "✅ **Corrected Sentence:** Mother and father.\n🔍 **Error Identification:** 'mother' (/ˈmʌðər/) thành 'mozer', 'father' (/ˈfɑːðər/) thành 'fazer'.\n📘 **Vietnamese Explanation:** /ð/ thành /z/.\n💡 **Luyện tập:** mother (ˈmʌðər). father (ˈfɑːðər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'Math is my favorite subject.\' Văn bản Whisper nhận được: \'Mass is my favorite subject.\'",
+    "output": "✅ **Corrected Sentence:** Math is my favorite subject.\n🔍 **Error Identification:** 'Math' (/mæθ/) thành 'Mass' (/mæs/).\n📘 **Vietnamese Explanation:** /θ/ thành /s/.\n💡 **Luyện tập:** math (mæθ). mass (mæs)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He hid the money.\' Văn bản Whisper nhận được: \'He heed the money.\'",
+    "output": "✅ **Corrected Sentence:** He hid the money.\n🔍 **Error Identification:** 'hid' (/hɪd/) thành 'heed' (/hiːd/).\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** hid (hɪd). heed (hiːd)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'The shark is scary.\' Văn bản Whisper nhận được: \'The sock is scary.\'",
+    "output": "✅ **Corrected Sentence:** The shark is scary.\n🔍 **Error Identification:** 'shark' (/ʃɑːk/) thành 'sock' (/sɒk/).\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** shark (ʃɑːk). sock (sɒk)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /dʒ/.",
+    "input": "Câu yêu cầu đọc: \'He changed the job.\' Văn bản Whisper nhận được: \'He changed the chob.\'",
+    "output": "✅ **Corrected Sentence:** He changed the job.\n🔍 **Error Identification:** 'job' (/dʒɒb/) thành 'chob' (/tʃɒb/).\n📘 **Vietnamese Explanation:** Hữu thanh thành vô thanh.\n💡 **Luyện tập:** job (dʒɒb). chob (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /d/.",
+    "input": "Câu yêu cầu đọc: \'The weather was great.\' Văn bản Whisper nhận được: \'De weader was great.\'",
+    "output": "✅ **Corrected Sentence:** The weather was great.\n🔍 **Error Identification:** 'The' thành 'De', 'weather' (/ˈweðər/) thành 'weader' (/ˈwedər/).\n📘 **Vietnamese Explanation:** /ð/ thành /d/.\n💡 **Luyện tập:** weather (ˈweðər). weader (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /t/.",
+    "input": "Câu yêu cầu đọc: \'He threw the ball.\' Văn bản Whisper nhận được: \'He true the ball.\'",
+    "output": "✅ **Corrected Sentence:** He threw the ball.\n🔍 **Error Identification:** 'threw' (/θruː/) thành 'true' (/truː/).\n📘 **Vietnamese Explanation:** /θ/ thành /t/.\n💡 **Luyện tập:** threw (θruː). true (truː)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'She is my sister.\' Văn bản Whisper nhận được: \'She is my seester.\'",
+    "output": "✅ **Corrected Sentence:** She is my sister.\n🔍 **Error Identification:** 'sister' (/ˈsɪstər/) thành 'seester' (/ˈsiːstər/).\n📘 **Vietnamese Explanation:** Kéo dài âm i.\n💡 **Luyện tập:** sister (ˈsɪstər). seester (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She likes to shop.\' Văn bản Whisper nhận được: \'See likes to shop.\'",
+    "output": "✅ **Corrected Sentence:** She likes to shop.\n🔍 **Error Identification:** 'She' thành 'See'.\n📘 **Vietnamese Explanation:** Như trên.\n💡 **Luyện tập:** she (ʃiː). see (siː)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /ʃ/.",
+    "input": "Câu yêu cầu đọc: \'Which one is cheaper?\' Văn bản Whisper nhận được: \'Which one is sheaper?\'",
+    "output": "✅ **Corrected Sentence:** Which one is cheaper?\n🔍 **Error Identification:** 'cheaper' (/tʃiːpər/) thành 'sheaper' (/ʃiːpər/).\n📘 **Vietnamese Explanation:** Mất âm /t/.\n💡 **Luyện tập:** cheaper (tʃiːpər). sheaper (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /z/.",
+    "input": "Câu yêu cầu đọc: \'That's the truth.\' Văn bản Whisper nhận được: \'Zat's the truth.\'",
+    "output": "✅ **Corrected Sentence:** That's the truth.\n🔍 **Error Identification:** 'That' (/ðæt/) thành 'Zat' (/zæt/).\n📘 **Vietnamese Explanation:** /ð/ thành /z/.\n💡 **Luyện tập:** that (ðæt). zat (zæt)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'He is a thief.\' Văn bản Whisper nhận được: \'He is a seef.\'",
+    "output": "✅ **Corrected Sentence:** He is a thief.\n🔍 **Error Identification:** 'thief' (/θiːf/) thành 'seef' (/siːf/).\n📘 **Vietnamese Explanation:** /θ/ thành /s/.\n💡 **Luyện tập:** thief (θiːf). seef (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He will win the prize.\' Văn bản Whisper nhận được: \'He will ween the prize.\'",
+    "output": "✅ **Corrected Sentence:** He will win the prize.\n🔍 **Error Identification:** 'win' (/wɪn/) thành 'ween' (/wiːn/).\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** win (wɪn). ween (wiːn)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'The shop is closed.\' Văn bản Whisper nhận được: \'The sop is closed.\'",
+    "output": "✅ **Corrected Sentence:** The shop is closed.\n🔍 **Error Identification:** 'shop' (/ʃɒp/) thành 'sop' (/sɒp/).\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** shop (ʃɒp). sop (sɒp)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /dʒ/.",
+    "input": "Câu yêu cầu đọc: \'He is a teacher.\' Văn bản Whisper nhận được: \'He is a teachej?\' Không rõ, nhưng có thể 'teacher' thành 'teacjer'? Tôi chọn lỗi 'teacher' thành 'teacger' (nhầm /tʃ/ thành /dʒ/). Thực tế ít gặp. Thay bằng: \'He will join the team.\'",
+    "output": "✅ **Corrected Sentence:** He will join the team.\n🔍 **Error Identification:** 'join' (/dʒɔɪn/) thành 'choin' (/tʃɔɪn/) – nhầm /dʒ/ thành /tʃ/.\n📘 **Vietnamese Explanation:** Hữu thanh thành vô thanh.\n💡 **Luyện tập:** join (dʒɔɪn). choin (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /d/.",
+    "input": "Câu yêu cầu đọc: \'They are my brothers.\' Văn bản Whisper nhận được: \'Dey are my brothers.\'",
+    "output": "✅ **Corrected Sentence:** They are my brothers.\n🔍 **Error Identification:** 'They' thành 'Dey'.\n📘 **Vietnamese Explanation:** /ð/ thành /d/.\n💡 **Luyện tập:** they (ðeɪ). dey (deɪ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /t/.",
+    "input": "Câu yêu cầu đọc: \'He is a thief.\' Văn bản Whisper nhận được: \'He is a teef.\'",
+    "output": "✅ **Corrected Sentence:** He is a thief.\n🔍 **Error Identification:** 'thief' (/θiːf/) thành 'teef' (/tiːf/).\n📘 **Vietnamese Explanation:** /θ/ thành /t/.\n💡 **Luyện tập:** thief (θiːf). teef (tiːf)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'I can't believe this.\' Văn bản Whisper nhận được: \'I can't believe thees.\'",
+    "output": "✅ **Corrected Sentence:** I can't believe this.\n🔍 **Error Identification:** 'this' (/ðɪs/) thành 'thees' (/ðiːs/) – nhầm /ɪ/ thành /iː/.\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** this (ðɪs). thees (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She is a shy girl.\' Văn bản Whisper nhận được: \'See is a sigh girl.\'",
+    "output": "✅ **Corrected Sentence:** She is a shy girl.\n🔍 **Error Identification:** 'She' thành 'See', 'shy' (/ʃaɪ/) thành 'sigh' (/saɪ/).\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** shy (ʃaɪ). sigh (saɪ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /ʃ/.",
+    "input": "Câu yêu cầu đọc: \'I need to charge my phone.\' Văn bản Whisper nhận được: \'I need to sharje my phone.\'",
+    "output": "✅ **Corrected Sentence:** I need to charge my phone.\n🔍 **Error Identification:** 'charge' (/tʃɑːdʒ/) thành 'sharje' (/ʃɑːdʒ/) – mất /t/ và sai /dʒ/.\n📘 **Vietnamese Explanation:** Nhầm 'ch' với 'sh'.\n💡 **Luyện tập:** charge (tʃɑːdʒ). sharje (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /z/.",
+    "input": "Câu yêu cầu đọc: \'Those are my friends.\' Văn bản Whisper nhận được: \'Zose are my friends.\'",
+    "output": "✅ **Corrected Sentence:** Those are my friends.\n🔍 **Error Identification:** 'Those' thành 'Zose'.\n📘 **Vietnamese Explanation:** /ð/ thành /z/.\n💡 **Luyện tập:** those (ðəʊz). zose (zəʊz)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'I need some toothpaste.\' Văn bản Whisper nhận được: \'I need some toopaste.\'",
+    "output": "✅ **Corrected Sentence:** I need some toothpaste.\n🔍 **Error Identification:** 'toothpaste' (/ˈtuːθpeɪst/) thành 'toopaste' (/ˈtuːpeɪst/) – mất /θ/.\n📘 **Vietnamese Explanation:** /θ/ thành /t/ hoặc bỏ.\n💡 **Luyện tập:** toothpaste (ˈtuːθpeɪst)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He is fit.\' Văn bản Whisper nhận được: \'He is feet.\'",
+    "output": "✅ **Corrected Sentence:** He is fit.\n🔍 **Error Identification:** 'fit' (/fɪt/) thành 'feet' (/fiːt/).\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** fit (fɪt). feet (fiːt)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'The shore is beautiful.\' Văn bản Whisper nhận được: \'The sore is beautiful.\'",
+    "output": "✅ **Corrected Sentence:** The shore is beautiful.\n🔍 **Error Identification:** 'shore' (/ʃɔːr/) thành 'sore' (/sɔːr/).\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** shore (ʃɔːr). sore (sɔːr)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /dʒ/.",
+    "input": "Câu yêu cầu đọc: \'He is a manager.\' Văn bản Whisper nhận được: \'He is a manacher.\'",
+    "output": "✅ **Corrected Sentence:** He is a manager.\n🔍 **Error Identification:** 'manager' (/ˈmænɪdʒər/) thành 'manacher' (/ˈmænətʃər/) – nhầm /dʒ/ thành /tʃ/.\n📘 **Vietnamese Explanation:** Hữu thanh thành vô thanh.\n💡 **Luyện tập:** manager (ˈmænɪdʒər). manacher (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /d/.",
+    "input": "Câu yêu cầu đọc: \'The clothes are clean.\' Văn bản Whisper nhận được: \'De clothes are clean.\'",
+    "output": "✅ **Corrected Sentence:** The clothes are clean.\n🔍 **Error Identification:** 'The' thành 'De'.\n📘 **Vietnamese Explanation:** /ð/ thành /d/.\n💡 **Luyện tập:** the (ðə). de (də)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /t/.",
+    "input": "Câu yêu cầu đọc: \'He thinks too much.\' Văn bản Whisper nhận được: \'He tinks too much.\'",
+    "output": "✅ **Corrected Sentence:** He thinks too much.\n🔍 **Error Identification:** 'thinks' (/θɪŋks/) thành 'tinks' (/tɪŋks/).\n📘 **Vietnamese Explanation:** /θ/ thành /t/.\n💡 **Luyện tập:** thinks (θɪŋks). tinks (tɪŋks)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He is a rich man.\' Văn bản Whisper nhận được: \'He is a reach man.\'",
+    "output": "✅ **Corrected Sentence:** He is a rich man.\n🔍 **Error Identification:** 'rich' (/rɪtʃ/) thành 'reach' (/riːtʃ/).\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** rich (rɪtʃ). reach (riːtʃ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She works in a shop.\' Văn bản Whisper nhận được: \'See works in a sop.\'",
+    "output": "✅ **Corrected Sentence:** She works in a shop.\n🔍 **Error Identification:** 'She' thành 'See', 'shop' thành 'sop'.\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** shop (ʃɒp). sop (sɒp)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /ʃ/.",
+    "input": "Câu yêu cầu đọc: \'Please change the channel.\' Văn bản Whisper nhận được: \'Please shange the channel.\'",
+    "output": "✅ **Corrected Sentence:** Please change the channel.\n🔍 **Error Identification:** 'change' (/tʃeɪndʒ/) thành 'shange' (/ʃeɪndʒ/).\n📘 **Vietnamese Explanation:** Mất /t/.\n💡 **Luyện tập:** change (tʃeɪndʒ). shange (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /z/.",
+    "input": "Câu yêu cầu đọc: \'They live together.\' Văn bản Whisper nhận được: \'Zey live togezer.\'",
+    "output": "✅ **Corrected Sentence:** They live together.\n🔍 **Error Identification:** 'They' thành 'Zey', 'together' thành 'togezer'.\n📘 **Vietnamese Explanation:** /ð/ thành /z/.\n💡 **Luyện tập:** together (təˈɡeðər). togezer (təˈɡezər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'I have a math test.\' Văn bản Whisper nhận được: \'I have a mass test.\'",
+    "output": "✅ **Corrected Sentence:** I have a math test.\n🔍 **Error Identification:** 'math' (/mæθ/) thành 'mass' (/mæs/).\n📘 **Vietnamese Explanation:** /θ/ thành /s/.\n💡 **Luyện tập:** math (mæθ). mass (mæs)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He will ship the goods.\' Văn bản Whisper nhận được: \'He will sheep the goods.\'",
+    "output": "✅ **Corrected Sentence:** He will ship the goods.\n🔍 **Error Identification:** 'ship' (/ʃɪp/) thành 'sheep' (/ʃiːp/).\n📘 **Vietnamese Explanation:** Kéo dài và nhầm 'sh'? Ở đây đúng là nhầm /ɪ/ thành /iː/.\n💡 **Luyện tập:** ship (ʃɪp). sheep (ʃiːp)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She washed her shoes.\' Văn bản Whisper nhận được: \'See washed her shoes.\'",
+    "output": "✅ **Corrected Sentence:** She washed her shoes.\n🔍 **Error Identification:** 'She' thành 'See'.\n📘 **Vietnamese Explanation:** Như trên.\n💡 **Luyện tập:** she (ʃiː). see (siː)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /dʒ/.",
+    "input": "Câu yêu cầu đọc: \'He is a large man.\' Văn bản Whisper nhận được: \'He is a larch man.\'",
+    "output": "✅ **Corrected Sentence:** He is a large man.\n🔍 **Error Identification:** 'large' (/lɑːdʒ/) thành 'larch' (/lɑːtʃ/).\n📘 **Vietnamese Explanation:** /dʒ/ thành /tʃ/.\n💡 **Luyện tập:** large (lɑːdʒ). larch (lɑːtʃ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /d/.",
+    "input": "Câu yêu cầu đọc: \'This is my brother.\' Văn bản Whisper nhận được: \'Dis is my broder.\'",
+    "output": "✅ **Corrected Sentence:** This is my brother.\n🔍 **Error Identification:** 'This' thành 'Dis', 'brother' (/ˈbrʌðər/) thành 'broder' (/ˈbrʌdər/).\n📘 **Vietnamese Explanation:** /ð/ thành /d/.\n💡 **Luyện tập:** brother (ˈbrʌðər). broder (ˈbrʌdər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /t/.",
+    "input": "Câu yêu cầu đọc: \'He is thirty.\' Văn bản Whisper nhận được: \'He is thirty (thành 'tirty').\'",
+    "output": "✅ **Corrected Sentence:** He is thirty.\n🔍 **Error Identification:** 'thirty' (/ˈθɜːti/) thành 'tirty' (/ˈtɜːti/).\n📘 **Vietnamese Explanation:** /θ/ thành /t/.\n💡 **Luyện tập:** thirty (ˈθɜːti). tirty (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He lives in a big city.\' Văn bản Whisper nhận được: \'He leaves in a big city.\'",
+    "output": "✅ **Corrected Sentence:** He lives in a big city.\n🔍 **Error Identification:** 'lives' thành 'leaves'.\n📘 **Vietnamese Explanation:** Như mẫu 6.\n💡 **Luyện tập:** lives (lɪvz). leaves (liːvz)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She sells sea shells.\' Văn bản Whisper nhận được: \'See sells sea shells.\'",
+    "output": "✅ **Corrected Sentence:** She sells sea shells.\n🔍 **Error Identification:** 'She' thành 'See'.\n📘 **Vietnamese Explanation:** Như mẫu 2.\n💡 **Luyện tập:** she (ʃiː). see (siː)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /ʃ/.",
+    "input": "Câu yêu cầu đọc: \'I will teach you.\' Văn bản Whisper nhận được: \'I will teash you.\'",
+    "output": "✅ **Corrected Sentence:** I will teach you.\n🔍 **Error Identification:** 'teach' (/tiːtʃ/) thành 'teash' (/tiːʃ/).\n📘 **Vietnamese Explanation:** Mất /t/.\n💡 **Luyện tập:** teach (tiːtʃ). teash (tiːʃ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /z/.",
+    "input": "Câu yêu cầu đọc: \'Neither of them is here.\' Văn bản Whisper nhận được: \'Neizer of them is here.\'",
+    "output": "✅ **Corrected Sentence:** Neither of them is here.\n🔍 **Error Identification:** 'Neither' (/ˈnaɪðər/) thành 'Neizer' (/ˈnaɪzər/).\n📘 **Vietnamese Explanation:** /ð/ thành /z/.\n💡 **Luyện tập:** neither (ˈnaɪðər). neizer (ˈnaɪzər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'He is a faithful friend.\' Văn bản Whisper nhận được: \'He is a saithful friend.\'",
+    "output": "✅ **Corrected Sentence:** He is a faithful friend.\n🔍 **Error Identification:** 'faithful' (/ˈfeɪθfəl/) thành 'saithful' (/ˈseɪθfəl/) – nhầm /f/ và /s/? Thực tế 'faithful' có /θ/ chứ không phải /f/ đầu. Lỗi đúng là 'faithful' thành 'faithful'? Tôi chỉnh lại: 'faithful' không có /s/. Chọn câu khác: \'I think so.\' -> \'I sink so.\' Đã có. Thêm: \'He is nothing.\' -> \'He is nosing.\'",
+    "output_alt": "Câu yêu cầu đọc: \'He is nothing.\' Văn bản Whisper: \'He is nosing.\' – 'nothing' (/ˈnʌθɪŋ/) thành 'nosing' (/ˈnəʊzɪŋ/)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'He is nothing.\' Văn bản Whisper nhận được: \'He is nosing.\'",
+    "output": "✅ **Corrected Sentence:** He is nothing.\n🔍 **Error Identification:** 'nothing' (/ˈnʌθɪŋ/) thành 'nosing' (/ˈnəʊzɪŋ/) – nhầm /θ/ thành /s/ và thêm /z/.\n📘 **Vietnamese Explanation:** /θ/ thành /s/.\n💡 **Luyện tập:** nothing (ˈnʌθɪŋ). nosing (ˈnəʊzɪŋ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'The ship is sinking.\' Văn bản Whisper nhận được: \'The sheep is sinking.\'",
+    "output": "✅ **Corrected Sentence:** The ship is sinking.\n🔍 **Error Identification:** 'ship' thành 'sheep'.\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** ship (ʃɪp). sheep (ʃiːp)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She is a cashier.\' Văn bản Whisper nhận được: \'See is a cashier.\'",
+    "output": "✅ **Corrected Sentence:** She is a cashier.\n🔍 **Error Identification:** 'She' thành 'See'.\n📘 **Vietnamese Explanation:** Như trên.\n💡 **Luyện tập:** she (ʃiː). see (siː)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /dʒ/.",
+    "input": "Câu yêu cầu đọc: \'He is a judge.\' Văn bản Whisper nhận được: \'He is a chudge.\'",
+    "output": "✅ **Corrected Sentence:** He is a judge.\n🔍 **Error Identification:** 'judge' (/dʒʌdʒ/) thành 'chudge' (/tʃʌdʒ/).\n📘 **Vietnamese Explanation:** /dʒ/ thành /tʃ/.\n💡 **Luyện tập:** judge (dʒʌdʒ). chudge (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /d/.",
+    "input": "Câu yêu cầu đọc: \'The weather is nice.\' Văn bản Whisper nhận được: \'De wedder is nice.\'",
+    "output": "✅ **Corrected Sentence:** The weather is nice.\n🔍 **Error Identification:** 'The' thành 'De', 'weather' thành 'wedder'.\n📘 **Vietnamese Explanation:** /ð/ thành /d/.\n💡 **Luyện tập:** weather (ˈweðər). wedder (ˈwedər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /t/.",
+    "input": "Câu yêu cầu đọc: \'He is a thief.\' Văn bản Whisper nhận được: \'He is a teef.\'",
+    "output": "✅ **Corrected Sentence:** He is a thief.\n🔍 **Error Identification:** 'thief' (/θiːf/) thành 'teef' (/tiːf/).\n📘 **Vietnamese Explanation:** /θ/ thành /t/.\n💡 **Luyện tập:** thief (θiːf). teef (tiːf)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'She is my sister.\' Văn bản Whisper nhận được: \'She is my seester.\'",
+    "output": "✅ **Corrected Sentence:** She is my sister.\n🔍 **Error Identification:** 'sister' thành 'seester'.\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** sister (ˈsɪstər). seester (ˈsiːstər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She should shine.\' Văn bản Whisper nhận được: \'See should sine.\'",
+    "output": "✅ **Corrected Sentence:** She should shine.\n🔍 **Error Identification:** 'She' thành 'See', 'shine' (/ʃaɪn/) thành 'sine' (/saɪn/).\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** shine (ʃaɪn). sine (saɪn)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /ʃ/.",
+    "input": "Câu yêu cầu đọc: \'He is a chief.\' Văn bản Whisper nhận được: \'He is a sheaf.\'",
+    "output": "✅ **Corrected Sentence:** He is a chief.\n🔍 **Error Identification:** 'chief' (/tʃiːf/) thành 'sheaf' (/ʃiːf/).\n📘 **Vietnamese Explanation:** Mất /t/.\n💡 **Luyện tập:** chief (tʃiːf). sheaf (ʃiːf)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /z/.",
+    "input": "Câu yêu cầu đọc: \'They are there.\' Văn bản Whisper nhận được: \'Zey are zere.\'",
+    "output": "✅ **Corrected Sentence:** They are there.\n🔍 **Error Identification:** 'They' thành 'Zey', 'there' (/ðeər/) thành 'zere' (/zeər/).\n📘 **Vietnamese Explanation:** /ð/ thành /z/.\n💡 **Luyện tập:** there (ðeər). zere (zeər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'I thought of you.\' Văn bản Whisper nhận được: \'I sought of you.\'",
+    "output": "✅ **Corrected Sentence:** I thought of you.\n🔍 **Error Identification:** 'thought' (/θɔːt/) thành 'sought' (/sɔːt/).\n📘 **Vietnamese Explanation:** /θ/ thành /s/.\n💡 **Luyện tập:** thought (θɔːt). sought (sɔːt)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He will win.\' Văn bản Whisper nhận được: \'He will ween.\'",
+    "output": "✅ **Corrected Sentence:** He will win.\n🔍 **Error Identification:** 'win' (/wɪn/) thành 'ween' (/wiːn/).\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** win (wɪn). ween (wiːn)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She is a shark.\' Văn bản Whisper nhận được: \'See is a sock.\'",
+    "output": "✅ **Corrected Sentence:** She is a shark.\n🔍 **Error Identification:** 'She' thành 'See', 'shark' thành 'sock'.\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** shark (ʃɑːk). sock (sɒk)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /dʒ/.",
+    "input": "Câu yêu cầu đọc: \'He is a major.\' Văn bản Whisper nhận được: \'He is a mator.\'",
+    "output": "✅ **Corrected Sentence:** He is a major.\n🔍 **Error Identification:** 'major' (/ˈmeɪdʒər/) thành 'mator' (/ˈmeɪtər/) – nhầm /dʒ/ thành /t/.\n📘 **Vietnamese Explanation:** Hữu thanh thành vô thanh.\n💡 **Luyện tập:** major (ˈmeɪdʒər). mator (không có)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /d/.",
+    "input": "Câu yêu cầu đọc: \'The other one.\' Văn bản Whisper nhận được: \'De oder one.\'",
+    "output": "✅ **Corrected Sentence:** The other one.\n🔍 **Error Identification:** 'The' thành 'De', 'other' (/ˈʌðər/) thành 'oder' (/ˈʌdər/).\n📘 **Vietnamese Explanation:** /ð/ thành /d/.\n💡 **Luyện tập:** other (ˈʌðər). oder (ˈʌdər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /t/.",
+    "input": "Câu yêu cầu đọc: \'He is a thing.\' Văn bản Whisper nhận được: \'He is a ting.\'",
+    "output": "✅ **Corrected Sentence:** He is a thing.\n🔍 **Error Identification:** 'thing' (/θɪŋ/) thành 'ting' (/tɪŋ/).\n📘 **Vietnamese Explanation:** /θ/ thành /t/.\n💡 **Luyện tập:** thing (θɪŋ). ting (tɪŋ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He is sick.\' Văn bản Whisper nhận được: \'He is seek.\'",
+    "output": "✅ **Corrected Sentence:** He is sick.\n🔍 **Error Identification:** 'sick' (/sɪk/) thành 'seek' (/siːk/).\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** sick (sɪk). seek (siːk)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She will show you.\' Văn bản Whisper nhận được: \'See will sow you.\'",
+    "output": "✅ **Corrected Sentence:** She will show you.\n🔍 **Error Identification:** 'She' thành 'See', 'show' (/ʃəʊ/) thành 'sow' (/səʊ/).\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** show (ʃəʊ). sow (səʊ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /ʃ/.",
+    "input": "Câu yêu cầu đọc: \'He is a teacher.\' Văn bản Whisper nhận được: \'He is a teasher.\'",
+    "output": "✅ **Corrected Sentence:** He is a teacher.\n🔍 **Error Identification:** 'teacher' (/ˈtiːtʃər/) thành 'teasher' (/ˈtiːʃər/).\n📘 **Vietnamese Explanation:** Mất /t/.\n💡 **Luyện tập:** teacher (ˈtiːtʃər). teasher (ˈtiːʃər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /z/.",
+    "input": "Câu yêu cầu đọc: \'The mother loves her child.\' Văn bản Whisper nhận được: \'Ze mozer loves her child.\'",
+    "output": "✅ **Corrected Sentence:** The mother loves her child.\n🔍 **Error Identification:** 'The' thành 'Ze', 'mother' thành 'mozer'.\n📘 **Vietnamese Explanation:** /ð/ thành /z/.\n💡 **Luyện tập:** mother (ˈmʌðər). mozer (ˈmʌzər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'He is a bath.\' Văn bản Whisper nhận được: \'He is a bas.\'",
+    "output": "✅ **Corrected Sentence:** He is a bath.\n🔍 **Error Identification:** 'bath' (/bɑːθ/) thành 'bas' (/bɑːs/).\n📘 **Vietnamese Explanation:** /θ/ thành /s/.\n💡 **Luyện tập:** bath (bɑːθ). bas (bɑːs)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He is a hit.\' Văn bản Whisper nhận được: \'He is a heat.\'",
+    "output": "✅ **Corrected Sentence:** He is a hit.\n🔍 **Error Identification:** 'hit' (/hɪt/) thành 'heat' (/hiːt/).\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** hit (hɪt). heat (hiːt)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She is a sheep.\' Văn bản Whisper nhận được: \'See is a seep.\'",
+    "output": "✅ **Corrected Sentence:** She is a sheep.\n🔍 **Error Identification:** 'She' thành 'See', 'sheep' thành 'seep'.\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** sheep (ʃiːp). seep (siːp)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /dʒ/.",
+    "input": "Câu yêu cầu đọc: \'He is a bridge.\' Văn bản Whisper nhận được: \'He is a britch.\'",
+    "output": "✅ **Corrected Sentence:** He is a bridge.\n🔍 **Error Identification:** 'bridge' (/brɪdʒ/) thành 'britch' (/brɪtʃ/).\n📘 **Vietnamese Explanation:** /dʒ/ thành /tʃ/.\n💡 **Luyện tập:** bridge (brɪdʒ). britch (brɪtʃ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /d/.",
+    "input": "Câu yêu cầu đọc: \'They are together.\' Văn bản Whisper nhận được: \'Dey are togeder.\'",
+    "output": "✅ **Corrected Sentence:** They are together.\n🔍 **Error Identification:** 'They' thành 'Dey', 'together' thành 'togeder'.\n📘 **Vietnamese Explanation:** /ð/ thành /d/.\n💡 **Luyện tập:** together (təˈɡeðər). togeder (təˈɡedər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /t/.",
+    "input": "Câu yêu cầu đọc: \'He is a thin man.\' Văn bản Whisper nhận được: \'He is a tin man.\'",
+    "output": "✅ **Corrected Sentence:** He is a thin man.\n🔍 **Error Identification:** 'thin' (/θɪn/) thành 'tin' (/tɪn/).\n📘 **Vietnamese Explanation:** /θ/ thành /t/.\n💡 **Luyện tập:** thin (θɪn). tin (tɪn)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'She is a bit tired.\' Văn bản Whisper nhận được: \'She is a beat tired.\'",
+    "output": "✅ **Corrected Sentence:** She is a bit tired.\n🔍 **Error Identification:** 'bit' thành 'beat'.\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** bit (bɪt). beat (biːt)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She is a fish.\' Văn bản Whisper nhận được: \'See is a fis.\'",
+    "output": "✅ **Corrected Sentence:** She is a fish.\n🔍 **Error Identification:** 'She' thành 'See', 'fish' (/fɪʃ/) thành 'fis' (/fɪs/).\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** fish (fɪʃ). fis (fɪs)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /ʃ/.",
+    "input": "Câu yêu cầu đọc: \'He is a watch.\' Văn bản Whisper nhận được: \'He is a wash.\'",
+    "output": "✅ **Corrected Sentence:** He is a watch.\n🔍 **Error Identification:** 'watch' (/wɒtʃ/) thành 'wash' (/wɒʃ/).\n📘 **Vietnamese Explanation:** Mất /t/.\n💡 **Luyện tập:** watch (wɒtʃ). wash (wɒʃ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /z/.",
+    "input": "Câu yêu cầu đọc: \'The leather is soft.\' Văn bản Whisper nhận được: \'Ze leazer is soft.\'",
+    "output": "✅ **Corrected Sentence:** The leather is soft.\n🔍 **Error Identification:** 'The' thành 'Ze', 'leather' (/ˈleðər/) thành 'leazer' (/ˈlezər/).\n📘 **Vietnamese Explanation:** /ð/ thành /z/.\n💡 **Luyện tập:** leather (ˈleðər). leazer (ˈlezər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'He is a myth.\' Văn bản Whisper nhận được: \'He is a miss.\'",
+    "output": "✅ **Corrected Sentence:** He is a myth.\n🔍 **Error Identification:** 'myth' (/mɪθ/) thành 'miss' (/mɪs/).\n📘 **Vietnamese Explanation:** /θ/ thành /s/.\n💡 **Luyện tập:** myth (mɪθ). miss (mɪs)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He is a pin.\' Văn bản Whisper nhận được: \'He is a peen.\'",
+    "output": "✅ **Corrected Sentence:** He is a pin.\n🔍 **Error Identification:** 'pin' (/pɪn/) thành 'peen' (/piːn/).\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** pin (pɪn). peen (piːn)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She is a cash.\' Văn bản Whisper nhận được: \'See is a cass.\'",
+    "output": "✅ **Corrected Sentence:** She is a cash.\n🔍 **Error Identification:** 'She' thành 'See', 'cash' (/kæʃ/) thành 'cass' (/kæs/).\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** cash (kæʃ). cass (kæs)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /dʒ/.",
+    "input": "Câu yêu cầu đọc: \'He is a page.\' Văn bản Whisper nhận được: \'He is a pache.\'",
+    "output": "✅ **Corrected Sentence:** He is a page.\n🔍 **Error Identification:** 'page' (/peɪdʒ/) thành 'pache' (/peɪtʃ/).\n📘 **Vietnamese Explanation:** /dʒ/ thành /tʃ/.\n💡 **Luyện tập:** page (peɪdʒ). pache (peɪtʃ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /d/.",
+    "input": "Câu yêu cầu đọc: \'The feather is light.\' Văn bản Whisper nhận được: \'De fedder is light.\'",
+    "output": "✅ **Corrected Sentence:** The feather is light.\n🔍 **Error Identification:** 'The' thành 'De', 'feather' (/ˈfeðər/) thành 'fedder' (/ˈfedər/).\n📘 **Vietnamese Explanation:** /ð/ thành /d/.\n💡 **Luyện tập:** feather (ˈfeðər). fedder (ˈfedər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /t/.",
+    "input": "Câu yêu cầu đọc: \'He is a truth.\' Văn bản Whisper nhận được: \'He is a truce.\'",
+    "output": "✅ **Corrected Sentence:** He is a truth.\n🔍 **Error Identification:** 'truth' (/truːθ/) thành 'truce' (/truːs/) – nhầm /θ/ thành /s/ chứ không phải /t/.\n📘 **Vietnamese Explanation:** /θ/ thành /s/.\n💡 **Luyện tập:** truth (truːθ). truce (truːs)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He is a lid.\' Văn bản Whisper nhận được: \'He is a lead.\'",
+    "output": "✅ **Corrected Sentence:** He is a lid.\n🔍 **Error Identification:** 'lid' (/lɪd/) thành 'lead' (/liːd/).\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** lid (lɪd). lead (liːd)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She is a shell.\' Văn bản Whisper nhận được: \'See is a sell.\'",
+    "output": "✅ **Corrected Sentence:** She is a shell.\n🔍 **Error Identification:** 'She' thành 'See', 'shell' (/ʃel/) thành 'sell' (/sel/).\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** shell (ʃel). sell (sel)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /ʃ/.",
+    "input": "Câu yêu cầu đọc: \'He is a church.\' Văn bản Whisper nhận được: \'He is a shurch.\'",
+    "output": "✅ **Corrected Sentence:** He is a church.\n🔍 **Error Identification:** 'church' (/tʃɜːtʃ/) thành 'shurch' (/ʃɜːtʃ/).\n📘 **Vietnamese Explanation:** Mất /t/ đầu.\n💡 **Luyện tập:** church (tʃɜːtʃ). shurch (ʃɜːtʃ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /z/.",
+    "input": "Câu yêu cầu đọc: \'The weather is fair.\' Văn bản Whisper nhận được: \'Ze weazer is fair.\'",
+    "output": "✅ **Corrected Sentence:** The weather is fair.\n🔍 **Error Identification:** 'The' thành 'Ze', 'weather' thành 'weazer'.\n📘 **Vietnamese Explanation:** /ð/ thành /z/.\n💡 **Luyện tập:** weather (ˈweðər). weazer (ˈwezər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'He is a mouth.\' Văn bản Whisper nhận được: \'He is a mouse.\'",
+    "output": "✅ **Corrected Sentence:** He is a mouth.\n🔍 **Error Identification:** 'mouth' (/maʊθ/) thành 'mouse' (/maʊs/).\n📘 **Vietnamese Explanation:** /θ/ thành /s/.\n💡 **Luyện tập:** mouth (maʊθ). mouse (maʊs)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ɪ/ và /iː/.",
+    "input": "Câu yêu cầu đọc: \'He is a mill.\' Văn bản Whisper nhận được: \'He is a meal.\'",
+    "output": "✅ **Corrected Sentence:** He is a mill.\n🔍 **Error Identification:** 'mill' (/mɪl/) thành 'meal' (/miːl/).\n📘 **Vietnamese Explanation:** Kéo dài.\n💡 **Luyện tập:** mill (mɪl). meal (miːl)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ʃ/ và /s/.",
+    "input": "Câu yêu cầu đọc: \'She is a shirt.\' Văn bản Whisper nhận được: \'See is a sort.\'",
+    "output": "✅ **Corrected Sentence:** She is a shirt.\n🔍 **Error Identification:** 'She' thành 'See', 'shirt' (/ʃɜːt/) thành 'sort' (/sɔːt/).\n📘 **Vietnamese Explanation:** Nhầm 'sh'.\n💡 **Luyện tập:** shirt (ʃɜːt). sort (sɔːt)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /tʃ/ và /dʒ/.",
+    "input": "Câu yêu cầu đọc: \'He is a badge.\' Văn bản Whisper nhận được: \'He is a batch.\'",
+    "output": "✅ **Corrected Sentence:** He is a badge.\n🔍 **Error Identification:** 'badge' (/bædʒ/) thành 'batch' (/bætʃ/).\n📘 **Vietnamese Explanation:** /dʒ/ thành /tʃ/.\n💡 **Luyện tập:** badge (bædʒ). batch (bætʃ)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /ð/ và /d/.",
+    "input": "Câu yêu cầu đọc: \'The leather bag.\' Văn bản Whisper nhận được: \'De ledder bag.\'",
+    "output": "✅ **Corrected Sentence:** The leather bag.\n🔍 **Error Identification:** 'The' thành 'De', 'leather' thành 'ledder'.\n📘 **Vietnamese Explanation:** /ð/ thành /d/.\n💡 **Luyện tập:** leather (ˈleðər). ledder (ˈledər)."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt đọc một câu tiếng Anh. Hãy phân tích lỗi phát âm cặp âm /θ/ và /t/.",
+    "input": "Câu yêu cầu đọc: \'He is a tooth.\' Văn bản Whisper nhận được: \'He is a toot.\'",
+    "output": "✅ **Corrected Sentence:** He is a tooth.\n🔍 **Error Identification:** 'tooth' (/tuːθ/) thành 'toot' (/tuːt/).\n📘 **Vietnamese Explanation:** /θ/ thành /t/.\n💡 **Luyện tập:** tooth (tuːθ). toot (tuːt)."
+  }
+]

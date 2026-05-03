@@ -1,0 +1,247 @@
+[
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was yesterday that I met her. (câu đúng) - Học viên viết \'It was yesterday I met her.\'",
+    "output": "✅ **Corrected Sentence:** It was yesterday that I met her.\n🔍 **Error Identification:** Thiếu 'that' trong câu chẻ nhấn mạnh thời gian.\n📘 **Vietnamese Explanation:** Người Việt thường bỏ 'that' vì tiếng Việt không cần từ nối. Mẹo: It + be + thành phần được nhấn mạnh + that + S + V.\n💡 **Ví dụ:** It was John that broke the vase. / It is here that we first met."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is Tom who helped me. (câu đúng) - Học viên viết \'It is Tom helped me.\'",
+    "output": "✅ **Corrected Sentence:** It is Tom who helped me.\n🔍 **Error Identification:** Thiếu đại từ quan hệ 'who' cho người.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'who' vì dịch 'chính Tom đã giúp tôi'. Mẹo: It + be + người + who + V.\n💡 **Ví dụ:** It was Mary who called. / It is my father who works here."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was the red car that I bought. (câu đúng) - Học viên viết \'It was the red car I bought.\'",
+    "output": "✅ **Corrected Sentence:** It was the red car that I bought.\n🔍 **Error Identification:** Thiếu 'that' cho vật.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' vì nghĩ không cần. Mẹo: It + be + vật + that + S + V.\n💡 **Ví dụ:** It is the book that I want. / It was the house that we visited."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What I need is a new car. (câu đúng) - Học viên viết \'What I need a new car.\'",
+    "output": "✅ **Corrected Sentence:** What I need is a new car.\n🔍 **Error Identification:** Thiếu động từ 'is' trong cấu trúc 'What...is'.\n📘 **Vietnamese Explanation:** Người Việt quên 'is' vì dịch 'điều tôi cần một chiếc xe mới'. Mẹo: What + S + V + is/are + N.\n💡 **Ví dụ:** What she wants is a vacation. / What they need are more workers."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was in the park that we first kissed. (câu đúng) - Học viên viết \'It was in the park we first kissed.\'",
+    "output": "✅ **Corrected Sentence:** It was in the park that we first kissed.\n🔍 **Error Identification:** Thiếu 'that' sau cụm giới từ.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' vì nghĩ không cần thiết. Mẹo: It + be + cụm giới từ + that + S + V.\n💡 **Ví dụ:** It was at this school that I studied. / It is in this room that we will meet."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What he did was surprising. (câu đúng) - Học viên viết \'What he did surprising.\'",
+    "output": "✅ **Corrected Sentence:** What he did was surprising.\n🔍 **Error Identification:** Thiếu 'was' – cấu trúc 'What...be' cần động từ to be.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'was'. Mẹo: What + S + V + be + adj/N.\n💡 **Ví dụ:** What she said was true. / What they built is amazing."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was because of the rain that we stayed home. (câu đúng) - Học viên viết \'It was because of the rain we stayed home.\'",
+    "output": "✅ **Corrected Sentence:** It was because of the rain that we stayed home.\n🔍 **Error Identification:** Thiếu 'that' sau cụm 'because of'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' trong câu chẻ chỉ lý do. Mẹo: It + be + lý do + that + S + V.\n💡 **Ví dụ:** It was because of her that we succeeded. / It was due to the storm that the flight was cancelled."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All I need is your love. (câu đúng - biến thể của 'What I need')",
+    "output": "✅ **Corrected Sentence:** All I need is your love.\n🔍 **Error Identification:** Câu đúng – 'All I need' = 'The only thing I need'.\n📘 **Vietnamese Explanation:** Người Việt có thể dùng 'All' thay 'What' để nhấn mạnh.\n💡 **Ví dụ:** All she wants is a chance. / All they have is each other."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is English that I find most difficult. (câu đúng) - Học viên viết \'It is English I find most difficult.\'",
+    "output": "✅ **Corrected Sentence:** It is English that I find most difficult.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' trong câu chẻ. Mẹo: Luôn có 'that/who' trừ khi nhấn mạnh tân ngữ có thể bỏ trong văn nói nhưng nên giữ.\n💡 **Ví dụ:** It is math that I hate. / It is coffee that she drinks every morning."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What I want is to travel around the world. (câu đúng) - Học viên viết \'What I want to travel around the world.\'",
+    "output": "✅ **Corrected Sentence:** What I want is to travel around the world.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is' trong cấu trúc 'What...is'. Mẹo: What + S + V + is + to V.\n💡 **Ví dụ:** What she hopes is to become a doctor. / What they plan is to move abroad."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was not until I met you that I understood love. (câu đúng) - Học viên viết \'It was not until I met you I understood love.\'",
+    "output": "✅ **Corrected Sentence:** It was not until I met you that I understood love.\n🔍 **Error Identification:** Thiếu 'that' trong cấu trúc 'It was not until...that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' sau 'not until'. Mẹo: It was not until + S + V + that + S + V.\n💡 **Ví dụ:** It was not until she called that I remembered. / It was not until the end that he apologized."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The reason why I'm late is that I missed the bus. (câu đúng) - Học viên viết \'The reason I'm late is I missed the bus.\'",
+    "output": "✅ **Corrected Sentence:** The reason why I'm late is that I missed the bus. (hoặc The reason I'm late is I missed the bus – cũng chấp nhận)\n🔍 **Error Identification:** Có thể bỏ 'why' và 'that' trong văn nói, nhưng nên giữ trong văn viết.\n📘 **Vietnamese Explanation:** Người Việt thường bỏ cả 'why' và 'that'. Mẹo: The reason why...is that...\n💡 **Ví dụ:** The reason why she left is that she was unhappy. / The reason why we won is that we practiced hard."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was my brother who broke the window. (câu đúng) - Học viên viết \'It was my brother broke the window.\'",
+    "output": "✅ **Corrected Sentence:** It was my brother who broke the window.\n🔍 **Error Identification:** Thiếu 'who' cho chủ ngữ là người.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'who' vì dịch 'chính anh tôi đã làm vỡ cửa sổ'. Mẹo: It + be + người + who + V.\n💡 **Ví dụ:** It was the manager who made the decision. / It is she who is responsible."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What I like most is reading books. (câu đúng) - Học viên viết \'What I like most reading books.\'",
+    "output": "✅ **Corrected Sentence:** What I like most is reading books.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is' trong cấu trúc nhấn mạnh. Mẹo: What + S + V + is + V-ing/N.\n💡 **Ví dụ:** What she enjoys most is singing. / What they hate most is waiting."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was in 1990 that I was born. (câu đúng) - Học viên viết \'It was in 1990 I was born.\'",
+    "output": "✅ **Corrected Sentence:** It was in 1990 that I was born.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' trong câu chẻ chỉ thời gian. Mẹo: It + be + thời gian + that + S + V.\n💡 **Ví dụ:** It was on Monday that we met. / It is at 5 PM that the store closes."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is the blue one that I want. (câu đúng) - Học viên viết \'It is the blue one I want.\'",
+    "output": "✅ **Corrected Sentence:** It is the blue one that I want.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' trong câu chẻ nhấn mạnh tân ngữ. Mẹo: It + be + tân ngữ + that + S + V.\n💡 **Ví dụ:** It is this book that I borrowed. / It was her that I saw yesterday."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All that matters is your happiness. (câu đúng) - Học viên viết \'All that matters your happiness.\'",
+    "output": "✅ **Corrected Sentence:** All that matters is your happiness.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is'. Mẹo: All that + V + is + N.\n💡 **Ví dụ:** All that glitters is not gold. / All that she said is true."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was with great joy that we received the news. (câu đúng) - Học viên viết \'It was with great joy we received the news.\'",
+    "output": "✅ **Corrected Sentence:** It was with great joy that we received the news.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' sau cụm trạng từ. Mẹo: It + be + cụm trạng từ + that + S + V.\n💡 **Ví dụ:** It was with sadness that he said goodbye. / It is with pleasure that I accept."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What happened was unexpected. (câu đúng) - Học viên viết \'What happened unexpected.\'",
+    "output": "✅ **Corrected Sentence:** What happened was unexpected.\n🔍 **Error Identification:** Thiếu 'was'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'was'. Mẹo: What + S + V + be + adj.\n💡 **Ví dụ:** What she said was rude. / What they saw was shocking."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is the teacher who I respect the most. (câu đúng) - Học viên viết \'It is the teacher I respect the most.\'",
+    "output": "✅ **Corrected Sentence:** It is the teacher whom I respect the most. (hoặc who)\n🔍 **Error Identification:** Có thể dùng 'whom' cho tân ngữ, nhưng 'who' cũng chấp nhận. Thiếu đại từ quan hệ.\n📘 **Vietnamese Explanation:** Người Việt bỏ đại từ quan hệ khi làm tân ngữ. Mẹo: Nên giữ 'who/whom' trong câu chẻ.\n💡 **Ví dụ:** It is him that I saw. / It is her whom I love."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What I need are more friends. (câu đúng - 'are' vì 'friends' số nhiều) - Học viên viết \'What I need is more friends.\' (cũng đúng)",
+    "output": "✅ **Corrected Sentence:** What I need are more friends. (hoặc is more friends – tùy cách nhìn)\n🔍 **Error Identification:** Động từ 'to be' có thể chia theo danh từ sau (are friends) hoặc theo 'what' (is).\n📘 **Vietnamese Explanation:** Người Việt thường dùng 'is' cho mọi trường hợp. Mẹo: Cả hai đều được chấp nhận.\n💡 **Ví dụ:** What we need is/are more workers. / What I want is/are answers."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was her that I saw at the party. (câu đúng) - Học viên viết \'It was her I saw at the party.\'",
+    "output": "✅ **Corrected Sentence:** It was her that I saw at the party.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' trong câu chẻ nhấn mạnh tân ngữ. Mẹo: It + be + tân ngữ + that + S + V.\n💡 **Ví dụ:** It was me that he called. / It is them that we should thank."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "The thing that I hate most is injustice. (câu đúng) - Học viên viết \'The thing I hate most is injustice.\'",
+    "output": "✅ **Corrected Sentence:** The thing that I hate most is injustice. (hoặc bỏ 'that' – cũng đúng)\n🔍 **Error Identification:** Có thể bỏ 'that' khi làm tân ngữ.\n📘 **Vietnamese Explanation:** Người Việt thường bỏ 'that' trong văn nói. Mẹo: Trong câu chẻ, nên giữ 'that' để rõ nghĩa.\n💡 **Ví dụ:** The book that I read was good. / The person that I met was kind."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was because she was ill that she didn't come. (câu đúng) - Học viên viết \'It was because she was ill she didn't come.\'",
+    "output": "✅ **Corrected Sentence:** It was because she was ill that she didn't come.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' trong câu chẻ chỉ nguyên nhân. Mẹo: It + be + because S + V + that + S + V.\n💡 **Ví dụ:** It was because he was tired that he fell asleep. / It is because you asked that I will tell you."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What I need is a break. (câu đúng) - Học viên viết \'What I need a break.\'",
+    "output": "✅ **Corrected Sentence:** What I need is a break.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is'. Mẹo: What + S + V + is + N.\n💡 **Ví dụ:** What she wants is a new phone. / What they need is more time."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was at this moment that I realized my mistake. (câu đúng) - Học viên viết \'It was at this moment I realized my mistake.\'",
+    "output": "✅ **Corrected Sentence:** It was at this moment that I realized my mistake.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that'. Mẹo: It + be + cụm thời gian + that + S + V.\n💡 **Ví dụ:** It was at that moment that he understood. / It is now that we must act."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What he said made me angry. (câu đúng) - Học viên viết \'What he said made me angry.\' (câu đúng, không cần sửa)",
+    "output": "✅ **Corrected Sentence:** What he said made me angry.\n🔍 **Error Identification:** Câu đúng – 'What he said' làm chủ ngữ, 'made' là động từ chính.\n📘 **Vietnamese Explanation:** Người Việt cần phân biệt: 'What he said is...' (điều anh ấy nói là) và 'What he said made me angry' (điều đó khiến tôi tức).\n💡 **Ví dụ:** What she did surprised everyone. / What they saw shocked them."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It is English that is spoken here. (câu đúng) - Học viên viết \'It is English is spoken here.\'",
+    "output": "✅ **Corrected Sentence:** It is English that is spoken here.\n🔍 **Error Identification:** 'It is English is spoken' có hai 'is' – cần 'that' để nối.\n📘 **Vietnamese Explanation:** Người Việt dùng hai động từ 'is' trong một câu. Mẹo: It + be + N + that + S + V.\n💡 **Ví dụ:** It is coffee that I drink every morning. / It was she who called."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What I'm looking for is a job. (câu đúng) - Học viên viết \'What I'm looking for a job.\'",
+    "output": "✅ **Corrected Sentence:** What I'm looking for is a job.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is'. Mẹo: What + S + V + is + N.\n💡 **Ví dụ:** What she's thinking about is her future. / What they're discussing is the budget."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was in Paris that they first met. (câu đúng) - Học viên viết \'It was in Paris they first met.\'",
+    "output": "✅ **Corrected Sentence:** It was in Paris that they first met.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' trong câu chẻ chỉ địa điểm. Mẹo: It + be + địa điểm + that + S + V.\n💡 **Ví dụ:** It was in London that she studied. / It is at this cafe that we usually meet."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All I want is a cup of coffee. (câu đúng) - Học viên viết \'All I want a cup of coffee.\'",
+    "output": "✅ **Corrected Sentence:** All I want is a cup of coffee.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is'. Mẹo: All + (that) + S + V + is + N.\n💡 **Ví dụ:** All she does is sleep. / All they need is love."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was the noise that woke me up. (câu đúng) - Học viên viết \'It was the noise woke me up.\'",
+    "output": "✅ **Corrected Sentence:** It was the noise that woke me up.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' khi chủ ngữ của mệnh đề sau là động từ. Mẹo: It + be + N + that + V.\n💡 **Ví dụ:** It was the dog that barked. / It was the wind that blew the door open."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What I really need is your support. (câu đúng) - Học viên viết \'What I really need your support.\'",
+    "output": "✅ **Corrected Sentence:** What I really need is your support.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is'. Mẹo: What + S + adv + V + is + N.\n💡 **Ví dụ:** What she truly wants is peace. / What they desperately need is help."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was because of his laziness that he failed. (câu đúng) - Học viên viết \'It was because of his laziness he failed.\'",
+    "output": "✅ **Corrected Sentence:** It was because of his laziness that he failed.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' trong câu chẻ chỉ nguyên nhân. Mẹo: It + be + because of + N + that + S + V.\n💡 **Ví dụ:** It was because of the storm that we stayed home. / It was due to her help that I succeeded."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What she does is none of my business. (câu đúng) - Học viên viết \'What she does none of my business.\'",
+    "output": "✅ **Corrected Sentence:** What she does is none of my business.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is'. Mẹo: What + S + V + is + N.\n💡 **Ví dụ:** What he thinks is not important. / What they say is irrelevant."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was on the phone that I told him. (câu đúng) - Học viên viết \'It was on the phone I told him.\'",
+    "output": "✅ **Corrected Sentence:** It was on the phone that I told him.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' trong câu chẻ. Mẹo: It + be + cụm giới từ + that + S + V.\n💡 **Ví dụ:** It was by email that she sent the file. / It is through hard work that you succeed."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What I hate is being lied to. (câu đúng) - Học viên viết \'What I hate being lied to.\'",
+    "output": "✅ **Corrected Sentence:** What I hate is being lied to.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is'. Mẹo: What + S + V + is + V-ing.\n💡 **Ví dụ:** What she enjoys is cooking. / What they fear is being forgotten."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was with a heavy heart that he said goodbye. (câu đúng) - Học viên viết \'It was with a heavy heart he said goodbye.\'",
+    "output": "✅ **Corrected Sentence:** It was with a heavy heart that he said goodbye.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' sau cụm trạng từ. Mẹo: It + be + cụm trạng từ + that + S + V.\n💡 **Ví dụ:** It was with great effort that he finished. / It is with pleasure that I announce the winner."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What I remember most is his smile. (câu đúng) - Học viên viết \'What I remember most his smile.\'",
+    "output": "✅ **Corrected Sentence:** What I remember most is his smile.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is'. Mẹo: What + S + V + adv + is + N.\n💡 **Ví dụ:** What she loves most is her family. / What they hate most is injustice."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was the red one that I chose. (câu đúng) - Học viên viết \'It was the red one I chose.\'",
+    "output": "✅ **Corrected Sentence:** It was the red one that I chose.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' trong câu chẻ nhấn mạnh tân ngữ. Mẹo: It + be + N + that + S + V.\n💡 **Ví dụ:** It was this car that he bought. / It is that dress that she wants."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What I'm trying to say is that I'm sorry. (câu đúng) - Học viên viết \'What I'm trying to say that I'm sorry.\'",
+    "output": "✅ **Corrected Sentence:** What I'm trying to say is that I'm sorry.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is' trước 'that'. Mẹo: What + S + V + is + that + S + V.\n💡 **Ví dụ:** What she means is that she needs help. / What they want is that we understand."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was at the age of 20 that he started his career. (câu đúng) - Học viên viết \'It was at the age of 20 he started his career.\'",
+    "output": "✅ **Corrected Sentence:** It was at the age of 20 that he started his career.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' trong câu chẻ chỉ thời gian. Mẹo: It + be + cụm thời gian + that + S + V.\n💡 **Ví dụ:** It was at the age of 18 that she left home. / It is at this moment that we decide."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What I need most right now is a cup of tea. (câu đúng) - Học viên viết \'What I need most right now a cup of tea.\'",
+    "output": "✅ **Corrected Sentence:** What I need most right now is a cup of tea.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is'. Mẹo: What + S + V + is + N.\n💡 **Ví dụ:** What she wants right now is peace. / What they need at this moment is support."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was because he was honest that I trusted him. (câu đúng) - Học viên viết \'It was because he was honest I trusted him.\'",
+    "output": "✅ **Corrected Sentence:** It was because he was honest that I trusted him.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' trong câu chẻ chỉ lý do. Mẹo: It + be + because S + V + that + S + V.\n💡 **Ví dụ:** It was because she was kind that everyone loved her. / It is because you asked that I will answer."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "All I know is that he lied. (câu đúng) - Học viên viết \'All I know that he lied.\'",
+    "output": "✅ **Corrected Sentence:** All I know is that he lied.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is'. Mẹo: All + (that) + S + V + is + that + S + V.\n💡 **Ví dụ:** All she said is that she's tired. / All they heard was that the train was late."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was his attitude that annoyed me. (câu đúng) - Học viên viết \'It was his attitude annoyed me.\'",
+    "output": "✅ **Corrected Sentence:** It was his attitude that annoyed me.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' khi chủ ngữ mệnh đề sau là danh từ. Mẹo: It + be + N + that + V + O.\n💡 **Ví dụ:** It was her voice that startled me. / It was his kindness that touched me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What I want to do is travel. (câu đúng) - Học viên viết \'What I want to do travel.\'",
+    "output": "✅ **Corrected Sentence:** What I want to do is travel.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is'. Mẹo: What + S + want to do + is + V (nguyên thể).\n💡 **Ví dụ:** What she wants to be is a doctor. / What they plan to do is move abroad."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "It was not the car but the driver that caused the accident. (câu đúng) - Học viên viết \'It was not the car but the driver caused the accident.\'",
+    "output": "✅ **Corrected Sentence:** It was not the car but the driver that caused the accident.\n🔍 **Error Identification:** Thiếu 'that'.\n📘 **Vietnamese Explanation:** Người Việt bỏ 'that' trong câu chẻ với 'not...but'. Mẹo: It was not A but B that + V.\n💡 **Ví dụ:** It was not the money but the principle that mattered. / It was not her words but her actions that hurt me."
+  },
+  {
+    "instruction": "Bạn là giáo viên tiếng Anh. Học viên người Việt gửi một câu tiếng Anh bị sai ngữ pháp. Hãy sửa lỗi, giải thích nguyên nhân và mẹo ghi nhớ bằng tiếng Việt.",
+    "input": "What I remember is how kind she was. (câu đúng) - Học viên viết \'What I remember how kind she was.\'",
+    "output": "✅ **Corrected Sentence:** What I remember is how kind she was.\n🔍 **Error Identification:** Thiếu 'is'.\n📘 **Vietnamese Explanation:** Người Việt quên động từ 'is'. Mẹo: What + S + V + is + how/what/why + S + V.\n💡 **Ví dụ:** What I wonder is why he left. / What she explained is how it works."
+  }
+]
