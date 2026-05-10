@@ -1,92 +1,28 @@
-# ----------------------
-# PYTHON & DJANGO
-# ----------------------
-# Môi trường ảo (Virtual Environments)
-.venv/
-venv/
-env/
-ENV/
-
-# Byte-compiled / Optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Dataset, documents, databases
-dataset/
-db/
-deepseek_chunks/
-# Exclude .txt files but keep requirements.txt
-topics*.txt
-tu_vung/**/*.txt
-prompt/generated_prompts/**/*.txt
-old_system/
-docs/source/EDIT/
-
-# Django local settings & configurations
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-.env
-.env.local
-.env.*.local
-
-# Django Media (File do người dùng upload - không nên push code)
-media/
-staticfiles/
-
-# Các thư mục testing/coverage
-.coverage
-htmlcov/
-.pytest_cache/
-
-# ----------------------
-# VUE.JS & NODE
-# ----------------------
-# Thư viện Node modules
+```gitignore
+# Dependencies
 node_modules/
 
-# Thư mục build (sản phẩm đầu ra của Vue)
+# Build outputs
 dist/
 build/
+*.min.js
+*.min.css
+*.bundle.js
 
-# Logs của npm/yarn
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Logs and temp files
+*.log
+*.tmp
 
-# Editor directories and files
-.idea/
-.vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# ----------------------
-# HỆ ĐIỀU HÀNH (OS)
-# ----------------------
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# ----------------------
-# BẢO MẬT & MÔI TRƯỜNG
-# ----------------------
-# Các file biến môi trường (chứa API KEY, SECRET KEY)
+# Environment
 .env
 .env.local
-.env.*.local
-! .env.example
-# ----------------------
-# PYCACHE & COMPILED (already covered but ensure nested)
-# ----------------------
-**/__pycache__/
-**/*.pyc
-backend/logs/
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
