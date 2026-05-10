@@ -502,145 +502,77 @@
       </div><!-- /lesson-tab -->
 
       <!-- ── PRACTICE TAB ───────────────────────────────────────────────────── -->
-      <div v-show="activeTab === 'practice'" class="animate-in fade-in duration-300">
+         <div v-show="activeTab === 'practice'" class="animate-in fade-in duration-300">
         <div v-if="fetchingQuiz" class="py-12 text-center text-[var(--color-text-muted)]">
-           <div class="inline-block w-6 h-6 border-2 border-[var(--color-primary-500)] border-t-transparent rounded-full animate-spin mb-3"></div>
-           <p class="text-sm">Đang tải bài tập...</p>
+          <div class="inline-block w-6 h-6 border-2 border-[var(--color-primary-500)] border-t-transparent rounded-full animate-spin mb-3"></div>
+          <p class="text-sm">Đang tải bài tập...</p>
         </div>
-        <div v-else-if="!quizQuestions.length" class="py-12 text-center text-[var(--color-text-muted)] border border-dashed border-[var(--color-surface-04)] rounded-2xl">
-           <p class="text-3xl mb-2">🍃</p>
-           <p class="text-sm">Chưa có bài tập cho chủ điểm này.</p>
+        <div v-else-if="!currentQuestion && quizQuestions.length === 0" class="py-12 text-center text-[var(--color-text-muted)] border border-dashed border-[var(--color-surface-04)] rounded-2xl">
+          <p class="text-3xl mb-2">🍃</p>
+          <p class="text-sm">Chưa có bài tập cho chủ điểm này.</p>
         </div>
         <div v-else>
-<!-- ╔══════════════════════════════════════════════════════════════════╗ -->
-      <!-- ║  SECTION 3: PRACTICE — Quiz (3 types)                         ║ -->
-      <!-- ╚══════════════════════════════════════════════════════════════════╝ -->
-      <section v-if="quizQuestions.length" class="mb-6">
-        <h2 class="font-bold text-lg mb-4 flex items-center gap-2" style="color: var(--color-text-base)">
-          🧩 Thực hành
-          <span class="text-xs font-normal px-2 py-0.5 rounded-full"
-                style="background: var(--color-surface-04); color: var(--color-text-muted)">
-            {{ quizQuestions.length }} câu
-          </span>
-        </h2>
-
-        <div class="space-y-4">
-          <div v-for="(q, qi) in quizQuestions" :key="qi"
-               class="rounded-2xl p-5"
-               style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)">
-
-            <!-- Question type badge -->
-            <div class="flex items-center gap-2 mb-3">
-              <span class="text-xs px-2 py-0.5 rounded-full font-medium"
-                    :style="quizTypeBadge(q.type)">
-                {{ quizTypeLabel(q.type) }}
-              </span>
-              <span class="text-xs" style="color: var(--color-text-muted)">
-                Câu {{ qi + 1 }} / {{ quizQuestions.length }}
-              </span>
-            </div>
-
-            <!-- Gap-fill question -->
-            <template v-if="q.type === 'gap-fill'">
-              <p class="text-sm font-medium mb-4" style="color: var(--color-text-base)"
-                 v-html="q.prompt"></p>
-              <div class="space-y-2">
-                <button v-for="(opt, oi) in q.options" :key="oi"
-                        @click="selectAnswer(qi, oi)"
-                        :disabled="q.selected !== null"
-                        class="w-full text-left px-4 py-3 rounded-xl text-sm transition"
-                        :class="optionClass(q, oi)">
-                  <span class="font-medium mr-2">{{ 'ABCD'[oi] }}.</span>{{ opt }}
-                </button>
+          <div v-if="hasActiveRemedial" class="mb-5 p-4 rounded-xl border" style="background:rgba(239,68,68,0.08); border-color:rgba(239,68,68,0.25)">
+            <div class="flex items-start gap-3">
+              <span class="text-lg flex-shrink-0">🚧</span>
+              <div class="flex-1">
+                <p class="text-sm font-bold mb-1" style="color:#f87171">Phát hiện lỗi lặp lại</p>
+                <p class="text-xs mb-3" style="color:var(--color-text-muted)">Bạn đang mắc lỗi <strong style="color:var(--color-text-base)">{{ Object.values(remedialRules).find(r => r.locked)?.error_type || 'ngữ pháp' }}</strong> quá 3 lần. Hãy ôn lại lý thuyết.</p>
+                <div class="flex gap-2">
+                  <button @click="activeTab = 'lesson'" class="px-3 py-1.5 rounded-lg text-xs font-medium transition hover:opacity-80" style="background:#6366f1; color:white">📖 Xem lại bài học</button>
+                  <button @click="resetQuiz" class="px-3 py-1.5 rounded-lg text-xs font-medium transition hover:opacity-80" style="background:var(--color-surface-04); color:var(--color-text-base)">🔄 Làm bài gỡ lỗi</button>
+                </div>
               </div>
-            </template>
-
-            <!-- Multiple choice question -->
-            <template v-else-if="q.type === 'mc'">
-              <p class="text-sm font-medium mb-4" style="color: var(--color-text-base)">
-                {{ q.prompt }}
-              </p>
-              <div class="space-y-2">
-                <button v-for="(opt, oi) in q.options" :key="oi"
-                        @click="selectAnswer(qi, oi)"
-                        :disabled="q.selected !== null"
-                        class="w-full text-left px-4 py-3 rounded-xl text-sm transition"
-                        :class="optionClass(q, oi)">
-                  <span class="font-medium mr-2">{{ 'ABCD'[oi] }}.</span>{{ opt }}
-                </button>
-              </div>
-            </template>
-
-            <!-- Error correction question -->
-            <template v-else-if="q.type === 'error'">
-              <p class="text-sm font-medium mb-2" style="color: var(--color-text-base)">
-                Tìm lỗi sai trong câu:
-              </p>
-              <p class="text-base font-medium mb-4 px-4 py-3 rounded-xl"
-                 style="background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.2); color: var(--color-text-base)">
-                "{{ q.errorSentence }}"
-              </p>
-              <div class="space-y-2">
-                <button v-for="(opt, oi) in q.options" :key="oi"
-                        @click="selectAnswer(qi, oi)"
-                        :disabled="q.selected !== null"
-                        class="w-full text-left px-4 py-3 rounded-xl text-sm transition"
-                        :class="optionClass(q, oi)">
-                  <span class="font-medium mr-2">{{ 'ABCD'[oi] }}.</span>{{ opt }}
-                </button>
-              </div>
-            </template>
-
-            <!-- Feedback -->
-            <Transition name="fade">
-              <div v-if="q.selected !== null" class="mt-3 px-4 py-2 rounded-xl text-xs"
-                   :style="q.selected === q.correct
-                     ? 'background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.3);color:#86efac'
-                     : 'background:rgba(239,68,68,0.12);border:1px solid rgba(239,68,68,0.3);color:#fca5a5'">
-                <span v-if="q.selected === q.correct">✓ Chính xác!</span>
-                <span v-else>✗ Chưa đúng. Đáp án: <strong>{{ 'ABCD'[q.correct] }}</strong></span>
-                <span v-if="q.explanation"> — {{ q.explanation }}</span>
-              </div>
-            </Transition>
-          </div>
-        </div>
-
-        <!-- Quiz score summary -->
-        <Transition name="fade">
-          <div v-if="quizDone" class="mt-5 rounded-2xl p-6 text-center"
-               style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)">
-            <p class="text-4xl mb-2">
-              {{ quizScore === quizQuestions.length ? '🎉' : quizScore >= quizQuestions.length / 2 ? '👍' : '💪' }}
-            </p>
-            <p class="font-bold text-xl mb-1" style="color: var(--color-text-base)">
-              {{ quizScore }} / {{ quizQuestions.length }} câu đúng
-            </p>
-            <p class="text-sm mb-4" style="color: var(--color-text-muted)">
-              {{ quizPercent }}% — {{ quizPercent >= 80 ? 'Tuyệt vời!' : quizPercent >= 50 ? 'Khá tốt, cần ôn thêm.' : 'Cần ôn lại lý thuyết.' }}
-            </p>
-
-            <!-- Save indicator -->
-            <p v-if="quizSaved" class="text-xs mb-3" style="color: #34d399">✓ Đã lưu kết quả</p>
-            <p v-else-if="quizSaving" class="text-xs mb-3" style="color: var(--color-text-muted)">Đang lưu...</p>
-
-            <div class="flex items-center justify-center gap-3">
-              <button @click="resetQuiz"
-                      class="px-5 py-2 rounded-xl text-sm font-medium transition hover:opacity-80"
-                      style="background:linear-gradient(135deg,#4f46e5,#7c3aed); color:white">
-                Làm lại
-              </button>
-              <RouterLink v-if="topic.next_topic"
-                          :to="{ name: 'grammar-detail', params: { slug: topic.next_topic.slug } }"
-                          class="px-5 py-2 rounded-xl text-sm font-medium transition hover:opacity-80"
-                          style="background-color: var(--color-surface-04); color: var(--color-text-base); text-decoration: none">
-                Bài tiếp →
-              </RouterLink>
             </div>
           </div>
-        </Transition>
-      </section>
+
+          <section class="mb-6">
+            <h2 class="font-bold text-lg mb-4 flex items-center gap-2" style="color: var(--color-text-base)">🧩 Thực hành Adaptive <span class="text-xs font-normal px-2 py-0.5 rounded-full" style="background: var(--color-surface-04); color: var(--color-text-muted)">{{ quizQuestions.length }} câu đã làm</span></h2>
+            <div class="flex items-center justify-between mb-4 p-3 rounded-xl" style="background: var(--color-surface-02); border: 1px solid var(--color-surface-04)">
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold px-2 py-0.5 rounded" :style="currentDifficulty === 1 ? 'background:#d1fae5;color:#065f46' : currentDifficulty === 2 ? 'background:#dbeafe;color:#1e40af' : 'background:#fee2e2;color:#991b1b'">{{ currentDifficulty === 1 ? '🟢 Dễ' : currentDifficulty === 2 ? '🔵 Trung bình' : '🔴 Khó' }}</span>
+                <span class="text-xs" style="color: var(--color-text-muted)">Streak: {{ streak > 0 ? `+${streak}` : streak }}</span>
+              </div>
+              <span class="text-xs" style="color: var(--color-text-muted)">{{ currentQuestion ? 'Đang điều chỉnh độ khó...' : 'Hoàn thành' }}</span>
+            </div>
+
+            <div v-if="currentQuestion" class="rounded-2xl p-5" style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="text-xs px-2 py-0.5 rounded-full font-medium" :style="quizTypeBadge(currentQuestion.type)">{{ quizTypeLabel(currentQuestion.type) }}</span>
+                <span class="text-xs" style="color: var(--color-text-muted)">Câu {{ quizQuestions.length + 1 }}</span>
+              </div>
+              <p v-if="currentQuestion.type === 'gap-fill'" class="text-sm font-medium mb-4" style="color: var(--color-text-base)" v-html="currentQuestion.prompt"></p>
+              <p v-else class="text-sm font-medium mb-4" style="color: var(--color-text-base)">{{ currentQuestion.prompt }}</p>
+              <div class="space-y-2">
+                <button v-for="(opt, oi) in currentQuestion.options" :key="oi" @click="selectAnswer(oi)" :disabled="currentQuestion.selected !== null" class="w-full text-left px-4 py-3 rounded-xl text-sm transition" :class="optionClass(currentQuestion, oi)">
+                  <span class="font-medium mr-2">{{ 'ABCD'[oi] }}.</span>{{ opt }}
+                </button>
+              </div>
+              <Transition name="fade">
+                <div v-if="currentQuestion.selected !== null" class="mt-3 px-4 py-2 rounded-xl text-xs" :style="currentQuestion.selected === currentQuestion.correct_index ? 'background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.3);color:#86efac' : 'background:rgba(239,68,68,0.12);border:1px solid rgba(239,68,68,0.3);color:#fca5a5'">
+                  <span v-if="currentQuestion.selected === currentQuestion.correct_index">✓ Chính xác!</span>
+                  <span v-else>✗ Chưa đúng. Đáp án: <strong>{{ 'ABCD'[currentQuestion.correct_index] }}</strong></span>
+                  <span v-if="currentQuestion.explanation"> — {{ currentQuestion.explanation }}</span>
+                </div>
+              </Transition>
+            </div>
+          </section>
+
+          <Transition name="fade">
+            <div v-if="quizDone" class="mt-5 rounded-2xl p-6 text-center" style="background-color: var(--color-surface-02); border: 1px solid var(--color-surface-04)">
+              <p class="text-4xl mb-2">{{ quizResult ? (quizResult.score >= 80 ? '🎉' : quizResult.score >= 50 ? '👍' : '💪') : '⏳' }}</p>
+              <p class="font-bold text-xl mb-1" style="color: var(--color-text-base)">{{ quizSaved && quizResult ? quizResult.current_score + '%' : quizPercentDisplay + '%' }}</p>
+              <p class="text-sm mb-4" style="color: var(--color-text-muted)">{{ quizSaved && quizResult ? `Kết quả chính thức: ${quizResult.correct_answers}/${quizResult.total_questions} câu đúng` : `Tạm tính: ${quizScoreDisplay}/${quizQuestions.length} câu` }}</p>
+              <p v-if="quizSaved" class="text-xs mb-3" style="color: #34d399">✓ Đã lưu kết quả vào hệ thống</p>
+              <p v-else-if="quizSaving" class="text-xs mb-3" style="color: var(--color-text-muted)">Đang đồng bộ kết quả...</p>
+              <div class="flex items-center justify-center gap-3">
+                <button @click="resetQuiz" class="px-5 py-2 rounded-xl text-sm font-medium transition hover:opacity-80" style="background:linear-gradient(135deg,#4f46e5,#7c3aed); color:white">Làm lại</button>
+                <RouterLink v-if="topic.next_topic" :to="{ name: 'grammar-detail', params: { slug: topic.next_topic.slug } }" class="px-5 py-2 rounded-xl text-sm font-medium transition hover:opacity-80" style="background-color: var(--color-surface-04); color: var(--color-text-base); text-decoration: none">Bài tiếp →</RouterLink>
+              </div>
+            </div>
+          </Transition>
         </div>
-      </div><!-- /practice-tab -->
+      </div>
 
 <!-- ── Bottom navigation ──────────────────────────────────────── -->
       <div class="flex items-center justify-between pt-4 border-t" style="border-color: var(--color-surface-04)">
@@ -682,6 +614,8 @@ const activeTab = ref('lesson')
 const topic = ref(null)
 const readingProgress = ref(0)
 const fetchingQuiz = ref(false)
+const loading = ref(false)
+const error = ref('')
 
 const timelineType = computed(() => {
   if (!topic.value?.title) return null
@@ -693,7 +627,6 @@ const timelineType = computed(() => {
   return null
 })
 
-// Update reading progress on scroll
 onMounted(() => {
   window.addEventListener('scroll', () => {
     if (activeTab.value !== 'lesson') return
@@ -703,10 +636,6 @@ onMounted(() => {
   })
 })
 
-const loading = ref(false)
-const error = ref('')
-
-// ── Sidebar navigator ──────────────────────────────────────────────────────
 const sidebarOpen = ref(false)
 const sidebarTopics = ref([])
 const sidebarLoading = ref(false)
@@ -717,381 +646,161 @@ const sidebarChapters = computed(() => {
   for (const t of sidebarTopics.value) {
     const key = t.chapter?.id ?? '__no_chapter__'
     if (!map.has(key)) {
-      map.set(key, {
-        id: t.chapter?.id ?? null,
-        name: t.chapter?.name || 'Chưa phân chương',
-        icon: t.chapter?.icon || '📚',
-        order: t.chapter?.order ?? 999,
-        topics: [],
-      })
+      map.set(key, { id: t.chapter?.id ?? null, name: t.chapter?.name || 'Chưa phân chương', icon: t.chapter?.icon || '📚', order: t.chapter?.order ?? 999, topics: [] })
     }
     map.get(key).topics.push(t)
   }
   return [...map.values()].sort((a, b) => a.order - b.order)
 })
 
-function isChapterExpanded(chapterId) {
-  return expandedChapterIds.value.has(chapterId ?? '__no_chapter__')
-}
-
+function isChapterExpanded(chapterId) { return expandedChapterIds.value.has(chapterId ?? '__no_chapter__') }
 function toggleChapter(chapterId) {
   const key = chapterId ?? '__no_chapter__'
-  if (expandedChapterIds.value.has(key)) {
-    expandedChapterIds.value.delete(key)
-  } else {
-    expandedChapterIds.value.add(key)
-  }
+  expandedChapterIds.value.has(key) ? expandedChapterIds.value.delete(key) : expandedChapterIds.value.add(key)
 }
-
 async function fetchSidebarTopics(level) {
   sidebarLoading.value = true
-  try {
-    const { data } = await grammarApi.listTopics({ level, page_size: 200 })
-    sidebarTopics.value = data.results ?? data
-  } catch { /* ignore */ } finally {
-    sidebarLoading.value = false
-  }
+  try { const { data } = await grammarApi.listTopics({ level, page_size: 200 }); sidebarTopics.value = data.results ?? data } catch {} finally { sidebarLoading.value = false }
 }
 
-// ── Audio player ─────────────────────────────────────────────────────────────
 let _audioEl = null
 function playAudio(url) {
   if (!url) return
   if (_audioEl) { _audioEl.pause(); _audioEl = null }
-  _audioEl = new Audio(url)
-  _audioEl.play().catch(() => {})
+  _audioEl = new Audio(url); _audioEl.play().catch(() => {})
 }
 
-// ── Mini quiz state ──────────────────────────────────────────────────────────
+// ── Adaptive Quiz State ──────────────────────────────────────────────────────
+const quizPool = ref({ 1: [], 2: [], 3: [] })
+const currentDifficulty = ref(2)
+const streak = ref(0)
+const adaptiveHistory = ref([])
+const currentQuestion = ref(null)
 const quizQuestions = ref([])
 const quizSaving = ref(false)
 const quizSaved = ref(false)
+const quizResult = ref(null)
+const remedialRules = ref({})
 
-const quizDone = computed(() =>
-  quizQuestions.value.length > 0 &&
-  quizQuestions.value.every(q => q.selected !== null)
-)
-const quizScore = computed(() =>
-  quizQuestions.value.filter(q => q.selected === q.correct).length
-)
-const quizPercent = computed(() =>
-  quizQuestions.value.length
-    ? Math.round((quizScore.value / quizQuestions.value.length) * 100)
-    : 0
-)
+const quizDone = computed(() => quizQuestions.value.length >= 8 || !currentQuestion.value)
+const quizScoreDisplay = computed(() => quizQuestions.value.filter(q => q.is_correct).length)
+const quizPercentDisplay = computed(() => quizQuestions.value.length ? Math.round((quizScoreDisplay.value / quizQuestions.value.length) * 100) : 0)
+const hasActiveRemedial = computed(() => Object.values(remedialRules.value).some(r => r.locked))
 
-// Auto-save when quiz is done
-watch(quizDone, async (done) => {
-  if (!done || !isLoggedIn.value || !topic.value) return
-  quizSaving.value = true
-  try {
-    await grammarApi.submitQuiz(route.params.slug, {
-      score: quizPercent.value,
-      total_questions: quizQuestions.value.length,
-      correct_answers: quizScore.value,
-    })
-    quizSaved.value = true
-  } catch {
-    // silently fail — quiz still shows results
-  } finally {
-    quizSaving.value = false
+function pickNextQuestion() {
+  let pool = quizPool.value[currentDifficulty.value]
+  if (!pool || pool.length === 0) {
+    const fallback = currentDifficulty.value === 1 ? 2 : currentDifficulty.value - 1
+    pool = quizPool.value[fallback] || []
   }
-})
+  const available = pool.filter(q => !adaptiveHistory.value.includes(q.source_id))
+  return available.length ? available[Math.floor(Math.random() * available.length)] : null
+}
 
-function selectAnswer(qi, oi) {
-  if (quizQuestions.value[qi].selected !== null) return
-  quizQuestions.value[qi].selected = oi
+function adjustDifficulty(isCorrect) {
+  streak.value = isCorrect ? streak.value + 1 : streak.value - 1
+  if (streak.value >= 3) { currentDifficulty.value = Math.min(3, currentDifficulty.value + 1); streak.value = 0 }
+  else if (streak.value <= -2) { currentDifficulty.value = Math.max(1, currentDifficulty.value - 1); streak.value = 0 }
+}
+
+function selectAnswer(oi) {
+  if (!currentQuestion.value || currentQuestion.value.selected !== null) return
+  const q = currentQuestion.value
+  q.selected = oi; q.is_correct = (oi === q.correct_index)
+  adjustDifficulty(q.is_correct)
+  adaptiveHistory.value.push(q.source_id)
+  quizQuestions.value.push(q)
+  setTimeout(() => { currentQuestion.value = pickNextQuestion() }, 800)
 }
 
 function optionClass(q, oi) {
   if (q.selected === null) return 'hover:bg-white/5 border border-transparent'
-  if (oi === q.correct) return 'correct-opt'
+  if (oi === q.correct_index) return 'correct-opt'
   if (oi === q.selected) return 'wrong-opt'
   return 'opacity-50'
 }
 
 function resetQuiz() {
-  quizQuestions.value.forEach(q => { q.selected = null })
-  quizSaved.value = false
+  quizPool.value = { 1: [], 2: [], 3: [] }; currentDifficulty.value = 2; streak.value = 0
+  adaptiveHistory.value = []; quizQuestions.value = []; currentQuestion.value = null
+  quizSaved.value = false; quizResult.value = null; remedialRules.value = {}
+  fetchQuiz(topic.value?.slug)
 }
 
-// ── Quiz type helpers ────────────────────────────────────────────────────────
-function quizTypeLabel(type) {
-  return { 'gap-fill': 'Điền khuyết', 'mc': 'Trắc nghiệm', 'error': 'Tìm lỗi sai' }[type] || type
-}
-function quizTypeBadge(type) {
-  return {
-    'gap-fill': 'background:rgba(99,102,241,0.15);color:#818cf8',
-    'mc': 'background:rgba(34,197,94,0.15);color:#86efac',
-    'error': 'background:rgba(239,68,68,0.15);color:#fca5a5',
-  }[type] || 'background:var(--color-surface-04);color:var(--color-text-muted)'
-}
-
-// ── Build quiz (3 types) ─────────────────────────────────────────────────────
-function buildQuiz(rules) {
-  const questions = []
-  const allExamples = []
-
-  for (const rule of rules) {
-    if (!rule.examples) continue
-    for (const ex of rule.examples) {
-      if (ex.sentence && ex.highlight) {
-        allExamples.push({ ...ex, ruleTitle: rule.title, formula: rule.formula })
-      }
-    }
-  }
-
-  // Type 1: Gap-fill — replace highlight with ___
-  for (const ex of allExamples) {
-    if (questions.length >= 5) break
-    const blank = ex.sentence.replace(
-      new RegExp(ex.highlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i'),
-      '<strong style="color:#818cf8">______</strong>'
-    )
-    if (blank === ex.sentence) continue // highlight not found
-
-    // Generate wrong options from other examples' highlights
-    const wrongs = allExamples
-      .filter(e => e.highlight !== ex.highlight)
-      .map(e => e.highlight)
-      .filter((v, i, a) => a.indexOf(v) === i)
-      .slice(0, 3)
-
-    if (wrongs.length < 2) continue
-
-    const options = shuffle([ex.highlight, ...wrongs.slice(0, 3)])
-    questions.push(reactive({
-      type: 'gap-fill',
-      prompt: blank,
-      options,
-      correct: options.indexOf(ex.highlight),
-      explanation: ex.translation || '',
-      selected: null,
-    }))
-  }
-
-  // Type 2: MC — choose correct sentence for a rule
-  for (const rule of rules) {
-    if (questions.length >= 7) break
-    if (!rule.examples || rule.examples.length < 2) continue
-
-    const correct = rule.examples[0]
-    // Find examples from OTHER rules as wrong answers
-    const wrongExamples = rules
-      .filter(r => r.id !== rule.id)
-      .flatMap(r => (r.examples || []))
-      .filter(e => e.sentence)
-      .slice(0, 3)
-
-    if (wrongExamples.length < 2) continue
-
-    const options = shuffle([
-      correct.sentence,
-      ...wrongExamples.slice(0, 3).map(e => e.sentence),
-    ])
-    questions.push(reactive({
-      type: 'mc',
-      prompt: `Câu nào đúng theo quy tắc "${rule.title}"?`,
-      options,
-      correct: options.indexOf(correct.sentence),
-      explanation: correct.translation || '',
-      selected: null,
-    }))
-  }
-
-  // Type 3: Error correction — swap a word to create an error
-  for (const ex of allExamples) {
-    if (questions.length >= 8) break
-    if (!ex.highlight || ex.highlight.split(/\s+/).length < 1) continue
-
-    // Create a wrong version by modifying the highlighted part
-    const errorVersion = createErrorSentence(ex.sentence, ex.highlight)
-    if (!errorVersion) continue
-
-    const options = shuffle([
-      `Lỗi ở "${ex.highlight}" — đúng phải là: "${ex.highlight}"`,
-      `Câu này đúng, không có lỗi`,
-      `Lỗi ở cấu trúc câu chung`,
-      `Lỗi ở dấu câu`,
-    ])
-    // The correct answer is always the first one (before shuffle)
-    const correctAnswer = `Lỗi ở "${ex.highlight}" — đúng phải là: "${ex.highlight}"`
-    questions.push(reactive({
-      type: 'error',
-      prompt: 'Tìm lỗi sai trong câu sau:',
-      errorSentence: errorVersion,
-      options,
-      correct: options.indexOf(correctAnswer),
-      explanation: `Câu đúng: "${ex.sentence}"`,
-      selected: null,
-    }))
-  }
-
-  return questions.slice(0, 8) // max 8 questions
-}
-
-function createErrorSentence(sentence, highlight) {
-  if (!highlight) return null
-  // Simple error: change verb form
-  const errorMap = {
-    'is': 'are', 'are': 'is', 'was': 'were', 'were': 'was',
-    'has': 'have', 'have': 'has', 'do': 'does', 'does': 'do',
-    'goes': 'go', 'go': 'goes', 'plays': 'play', 'play': 'plays',
-  }
-  const words = highlight.split(/\s+/)
-  for (let i = 0; i < words.length; i++) {
-    const lower = words[i].toLowerCase()
-    if (errorMap[lower]) {
-      const errorWords = [...words]
-      errorWords[i] = errorMap[lower]
-      return sentence.replace(highlight, errorWords.join(' '))
-    }
-  }
-  return null
-}
-
-function shuffle(arr) {
-  const a = [...arr]
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[a[i], a[j]] = [a[j], a[i]]
-  }
-  return a
-}
-
-// ── Usage-cards parser ───────────────────────────────────────────────────────
-const USAGE_PALETTES = [
-  { bg: 'rgba(239,68,68,0.1)',   border: 'rgba(239,68,68,0.3)',   label: '#f87171' },
-  { bg: 'rgba(249,115,22,0.1)', border: 'rgba(249,115,22,0.3)', label: '#fb923c' },
-  { bg: 'rgba(234,179,8,0.1)',  border: 'rgba(234,179,8,0.3)',  label: '#facc15' },
-  { bg: 'rgba(34,197,94,0.1)',  border: 'rgba(34,197,94,0.3)',  label: '#4ade80' },
-  { bg: 'rgba(6,182,212,0.1)',  border: 'rgba(6,182,212,0.3)',  label: '#22d3ee' },
-  { bg: 'rgba(99,102,241,0.1)', border: 'rgba(99,102,241,0.3)', label: '#818cf8' },
-  { bg: 'rgba(168,85,247,0.1)', border: 'rgba(168,85,247,0.3)', label: '#c084fc' },
-  { bg: 'rgba(236,72,153,0.1)', border: 'rgba(236,72,153,0.3)', label: '#f472b6' },
-]
-
-function parseUsageItems(text) {
-  if (!text) return null
-  const normalized = text.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim()
-  const re = /([A-Z][a-zA-Z ,]{1,40}):\s*/g
-  const matches = []
-  let m
-  while ((m = re.exec(normalized)) !== null) {
-    matches.push({ label: m[1].trim(), start: m.index, end: m.index + m[0].length })
-  }
-  if (matches.length < 4) return null
-  const sections = matches.map((match, i) => {
-    const contentEnd = i + 1 < matches.length ? matches[i + 1].start : normalized.length
-    const content = normalized.slice(match.end, contentEnd).trimEnd()
-    const sentences = content.split(/(?<=[.!?])\s+/).map(s => s.trim()).filter(Boolean)
-    return { label: match.label, content, sentences }
-  })
-  let intro = ''
-  let items = sections
-  if (sections[0] && sections[0].content.length <= 3) {
-    intro = sections[0].label
-    items = sections.slice(1)
-  }
-  items = items.filter(s => s.content.length > 3)
-  if (items.length < 3) return null
-  return { intro, items }
-}
-
-const descriptionParsed = computed(() => {
-  if (!topic.value?.description) return null
-  if (topic.value.rules?.length) return null
-  return parseUsageItems(topic.value.description)
-})
-
-// ── Utilities ────────────────────────────────────────────────────────────────
-function highlightSentence(sentence, highlight) {
-  if (!highlight || !sentence) return sentence || ''
-  const escaped = highlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  return sentence.replace(
-    new RegExp(`(${escaped})`, 'gi'),
-    '<mark style="background:rgba(99,102,241,0.25);border-radius:3px;padding:0 2px">$1</mark>'
-  )
-}
-
-function levelColor(level) {
-  const map = {
-    A1: 'background:#d1fae5; color:#065f46',
-    A2: 'background:#dbeafe; color:#1e40af',
-    B1: 'background:#ede9fe; color:#4c1d95',
-    B2: 'background:#fef3c7; color:#92400e',
-    C1: 'background:#fee2e2; color:#991b1b',
-    C2: 'background:#fce7f3; color:#831843',
-  }
-  return map[level] || 'background:var(--color-surface-04); color:var(--color-text-muted)'
-}
-
-function truncate(str, len) {
-  if (!str) return ''
-  return str.length > len ? str.slice(0, len) + '…' : str
-}
-
-// ── Notes / Tips helpers ──────────────────────────────────────────────────────
-function noteStyle(type) {
-  const map = {
-    tip:     'background:rgba(6,182,212,0.1); border:1px solid rgba(6,182,212,0.25)',
-    warning: 'background:rgba(251,191,36,0.1); border:1px solid rgba(251,191,36,0.25)',
-    info:    'background:rgba(99,102,241,0.1); border:1px solid rgba(99,102,241,0.25)',
-  }
-  return map[type] || map.info
-}
-function noteIcon(type) {
-  return { tip: '💡', warning: '⚠️', info: 'ℹ️' }[type] || 'ℹ️'
-}
-
-
-// ── API ──────────────────────────────────────────────────────────────────────
 async function fetchQuiz(slug) {
   fetchingQuiz.value = true
   try {
-    const res = await grammarApi.getTopicExercises(slug)
-    quizQuestions.value = res.data?.results || res.data || []
-  } catch (e) {
-    // Fallback to auto-generated quiz if API fails or doesn't exist yet
-    quizQuestions.value = buildQuiz(topic.value?.rules || [])
-  } finally {
-    fetchingQuiz.value = false
-  }
+    const res = await grammarApi.getQuizQuestions(slug)
+    const data = res.data?.data ?? res.data ?? []
+    quizPool.value = { 1: [], 2: [], 3: [] }
+    data.forEach(q => {
+      const diff = q.difficulty || 2
+      quizPool.value[diff].push(reactive({ ...q, selected: null, is_correct: null }))
+    })
+    currentQuestion.value = pickNextQuestion()
+  } catch (e) { console.error('Failed to fetch quiz:', e); currentQuestion.value = null } finally { fetchingQuiz.value = false }
 }
 
+async function submitQuizToBackend() {
+  quizSaving.value = true
+  try {
+    const answers = quizQuestions.value.map(q => ({ question_source_id: q.source_id, selected_option: q.options[q.selected] }))
+    const res = await grammarApi.submitQuiz(topic.value.slug, { idempotency_key: `quiz-${topic.value.slug}-${Date.now()}`, answers })
+    const data = res.data?.data ?? res.data
+    quizResult.value = data; quizSaved.value = true; remedialRules.value = data.remedial_rules || {}
+  } catch (e) { console.error('Submit failed:', e) } finally { quizSaving.value = false }
+}
+
+watch(quizDone, async (done) => { if (done && isLoggedIn.value && topic.value && !quizSaved.value) await submitQuizToBackend() })
+
+function quizTypeLabel(type) { return { 'gap-fill': 'Điền khuyết', 'mc': 'Trắc nghiệm', 'error': 'Tìm lỗi sai' }[type] || type }
+function quizTypeBadge(type) { return { 'gap-fill': 'background:rgba(99,102,241,0.15);color:#818cf8', 'mc': 'background:rgba(34,197,94,0.15);color:#86efac', 'error': 'background:rgba(239,68,68,0.15);color:#fca5a5' }[type] || 'background:var(--color-surface-04);color:var(--color-text-muted)' }
+
+const USAGE_PALETTES = [
+  { bg: 'rgba(239,68,68,0.1)', border: 'rgba(239,68,68,0.3)', label: '#f87171' },
+  { bg: 'rgba(249,115,22,0.1)', border: 'rgba(249,115,22,0.3)', label: '#fb923c' },
+  { bg: 'rgba(234,179,8,0.1)', border: 'rgba(234,179,8,0.3)', label: '#facc15' },
+  { bg: 'rgba(34,197,94,0.1)', border: 'rgba(34,197,94,0.3)', label: '#4ade80' },
+  { bg: 'rgba(6,182,212,0.1)', border: 'rgba(6,182,212,0.3)', label: '#22d3ee' },
+  { bg: 'rgba(99,102,241,0.1)', border: 'rgba(99,102,241,0.3)', label: '#818cf8' },
+]
+function parseUsageItems(text) {
+  if (!text) return null
+  const normalized = text.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim()
+  const re = /([A-Z][a-zA-Z ,]{1,40}):\s*/g; const matches = []; let m
+  while ((m = re.exec(normalized)) !== null) matches.push({ label: m[1].trim(), start: m.index, end: m.index + m[0].length })
+  if (matches.length < 4) return null
+  const sections = matches.map((match, i) => {
+    const end = i + 1 < matches.length ? matches[i + 1].start : normalized.length
+    const content = normalized.slice(match.end, end).trimEnd()
+    return { label: match.label, content, sentences: content.split(/(?<=[.!?])\s+/).map(s => s.trim()).filter(Boolean) }
+  })
+  let intro = ''; let items = sections
+  if (sections[0] && sections[0].content.length <= 3) { intro = sections[0].label; items = sections.slice(1) }
+  items = items.filter(s => s.content.length > 3)
+  return items.length >= 3 ? { intro, items } : null
+}
+const descriptionParsed = computed(() => !topic.value?.description || topic.value.rules?.length ? null : parseUsageItems(topic.value.description))
+function highlightSentence(s, h) { return !h || !s ? s || '' : s.replace(new RegExp(`(${h.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'), '<mark style="background:rgba(99,102,241,0.25);border-radius:3px;padding:0 2px">$1</mark>') }
+function levelColor(l) { return { A1:'background:#d1fae5;color:#065f46', A2:'background:#dbeafe;color:#1e40af', B1:'background:#ede9fe;color:#4c1d95', B2:'background:#fef3c7;color:#92400e', C1:'background:#fee2e2;color:#991b1b', C2:'background:#fce7f3;color:#831843' }[l] || 'background:var(--color-surface-04);color:var(--color-text-muted)' }
+function truncate(s, l) { return !s ? '' : s.length > l ? s.slice(0, l) + '…' : s }
+function noteStyle(t) { return { tip:'background:rgba(6,182,212,0.1);border:1px solid rgba(6,182,212,0.25)', warning:'background:rgba(251,191,36,0.1);border:1px solid rgba(251,191,36,0.25)', info:'background:rgba(99,102,241,0.1);border:1px solid rgba(99,102,241,0.25)' }[t] || '' }
+function noteIcon(t) { return { tip:'💡', warning:'⚠️', info:'ℹ️' }[t] || 'ℹ️' }
+
 async function fetchTopic() {
-  loading.value = true
-  error.value = ''
-  quizSaved.value = false
+  loading.value = true; error.value = ''; quizSaved.value = false; quizResult.value = null
   try {
     const res = await grammarApi.getTopic(route.params.slug)
     const d = res.data?.data ?? res.data
-    if (d?.rules) {
-      d.rules = d.rules.map(r => reactive({ ...r }))
-    }
+    if (d?.rules) d.rules = d.rules.map(r => reactive({ ...r }))
     topic.value = d
-    // Expand the chapter that contains the current topic in the sidebar
     expandedChapterIds.value = new Set([d?.chapter?.id ?? '__no_chapter__'])
-    // Load sidebar topics when the level changes (or on first load)
     const lvl = d?.level
-    if (lvl && (!sidebarTopics.value.length || sidebarTopics.value[0]?.level !== lvl)) {
-      fetchSidebarTopics(lvl)
-    }
-    
+    if (lvl && (!sidebarTopics.value.length || sidebarTopics.value[0]?.level !== lvl)) fetchSidebarTopics(lvl)
     fetchQuiz(d.slug)
-
-  } catch (e) {
-    error.value = e?.response?.data?.detail || 'Không thể tải chủ điểm này.'
-  } finally {
-    loading.value = false
-  }
+  } catch (e) { error.value = e?.response?.data?.detail || 'Không thể tải chủ điểm.' } finally { loading.value = false }
 }
-
-// Re-fetch when route params change (prev/next navigation)
-watch(() => route.params.slug, (newSlug) => {
-  if (newSlug) fetchTopic()
-})
-
+watch(() => route.params.slug, (s) => { if (s) fetchTopic() })
 onMounted(fetchTopic)
 </script>
 

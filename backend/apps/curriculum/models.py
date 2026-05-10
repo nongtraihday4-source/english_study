@@ -123,6 +123,10 @@ class LessonContent(models.Model):
         default=list, blank=True,
         help_text='[{"question":"…","options":["a","b","c","d"],"correct":0,"explanation":"…"}]',
     )
+    learning_objectives = models.JSONField(
+        default=list, blank=True,
+        help_text='["Understand present simple", "Learn 10 vocab words"]',
+    )
 
     # ── Vocabulary items ─────────────────────────────────────────────────
     vocab_items = models.JSONField(

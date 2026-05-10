@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "apps.admin_portal",
     "apps.support",
     "apps.skill_practice",
+    "apps.ai",
 ]
 
 # ─── Middleware ───────────────────────────────────────────────────────────────
@@ -252,6 +253,9 @@ OPENAI_API_KEY = config("OPENAI_API_KEY", default="")
 OPENAI_WHISPER_MODEL = "whisper-1"
 OPENAI_GRADING_MODEL = "gpt-4o"
 AI_GRADING_TIMEOUT = 90
+
+AI_BASE_URL = config("AI_BASE_URL", default="http://localhost:11434/v1")
+AI_MODEL = config("AI_MODEL", default="qwen3.5-9b")
 
 # ─── Logging ──────────────────────────────────────────────────────────────────
 LOGGING = {

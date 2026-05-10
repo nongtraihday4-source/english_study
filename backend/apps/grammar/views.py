@@ -8,15 +8,21 @@ from rest_framework.generics import ListAPIView, RetrieveAPIView
 from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
 from rest_framework.response import Response
 from rest_framework.views import APIView
-
+from django.core.cache import cache
 from utils.pagination import StandardPagination
 from .models import GrammarChapter, GrammarQuizResult, GrammarTopic
+from .services import pregenerate_quiz,submit_quiz_attempt
+from datetime import timedelta
+from .models import GrammarReviewSchedule
+from django.utils import timezone
 from .serializers import (
     GrammarChapterSerializer,
     GrammarQuizResultSerializer,
     GrammarQuizSubmitSerializer,
     GrammarTopicDetailSerializer,
     GrammarTopicListSerializer,
+    GrammarQuizQuestionSerializer,
+    GrammarQuizSubmitInputSerializer
 )
 
 logger = logging.getLogger("es.curriculum")
@@ -97,32 +103,36 @@ class GrammarTopicDetailView(RetrieveAPIView):
 class GrammarQuizSubmitView(APIView):
     """
     POST /api/v1/grammar/<slug>/quiz/
-    Body: { score, total_questions, correct_answers }
-
-    Upserts quiz result for the authenticated user.
+    Payload: { answers: [{question_source_id, selected_option}], idempotency_key? }
+    Server-side validation & scoring. Idempotent.
     """
     permission_classes = [IsAuthenticated]
 
     def post(self, request, slug):
-        topic = GrammarTopic.objects.filter(slug=slug, is_published=True).first()
-        if not topic:
-            return Response({"detail": "Không tìm thấy chủ điểm."}, status=status.HTTP_404_NOT_FOUND)
-
-        serializer = GrammarQuizSubmitSerializer(data=request.data)
+        serializer = GrammarQuizSubmitInputSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
-        d = serializer.validated_data
+        
+        # Idempotency check (tránh duplicate submit khi network lag)
+        idem_key = serializer.validated_data.get("idempotency_key")
+        if idem_key:
+            cache_key = f"quiz_submit_idem:{request.user.id}:{slug}:{idem_key}"
+            cached_result = cache.get(cache_key)
+            if cached_result:
+                return Response(cached_result, status=status.HTTP_200_OK)
 
-        result, _ = GrammarQuizResult.objects.update_or_create(
-            user=request.user,
-            topic=topic,
-            defaults={
-                "score": d["score"],
-                "total_questions": d["total_questions"],
-                "correct_answers": d["correct_answers"],
-            },
-        )
-        return Response(GrammarQuizResultSerializer(result).data, status=status.HTTP_200_OK)
+        try:
+            result_data = submit_quiz_attempt(
+                user=request.user,
+                topic_slug=slug,
+                answers_payload=serializer.validated_data["answers"]
+            )
+        except ValueError as e:
+            return Response({"detail": str(e)}, status=status.HTTP_400_BAD_REQUEST)
 
+        # Cache idempotency result 5 phút
+        if idem_key:
+            cache.set(cache_key, result_data, 300)
+        return Response(result_data, status=status.HTTP_200_OK)
 
 class GrammarProgressView(APIView):
     """
@@ -145,3 +155,42 @@ class GrammarProgressView(APIView):
             for r in results
         }
         return Response(data)
+
+class GrammarQuizRetrieveView(APIView):
+    """
+    GET /api/v1/grammar/<slug>/quiz/questions/
+    Returns pre-generated & cached quiz questions.
+    """
+    permission_classes = [IsAuthenticatedOrReadOnly]
+
+    def get(self, request, slug):
+        questions = pregenerate_quiz(slug)
+        if not questions:
+            return Response(
+                {"detail": "Chưa có bài tập cho chủ điểm này."},
+                status=status.HTTP_404_NOT_FOUND
+            )
+        serializer = GrammarQuizQuestionSerializer(questions, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+    
+class GrammarReviewTodayView(APIView):
+    """GET /api/v1/grammar/reviews/today/"""
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        today = timezone.now().date()
+        schedules = GrammarReviewSchedule.objects.filter(
+            user=request.user, next_review__lte=today
+        ).select_related("rule__topic").order_by("next_review")[:5]
+
+        data = [
+            {
+                "rule_id": s.rule.id,
+                "rule_title": s.rule.title,
+                "topic_slug": s.rule.topic.slug,
+                "topic_title": s.rule.topic.title,
+                "interval_days": s.interval_days,
+            }
+            for s in schedules
+        ]
+        return Response({"reviews": data, "count": len(data)})

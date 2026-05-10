@@ -22,6 +22,7 @@ from utils.permissions import IsTeacher
 from apps.progress.models import SpeakingSubmission, WritingSubmission, UserEnrollment
 from apps.curriculum.models import Course
 
+from .services import TeacherService
 from .serializers import (
     SpeakingSubmissionTeacherSerializer,
     WritingSubmissionTeacherSerializer,
@@ -283,6 +284,51 @@ class TeacherExportClassView(APIView):
         response = HttpResponse(output.getvalue(), content_type="text/csv; charset=utf-8-sig")
         response["Content-Disposition"] = f'attachment; filename="class_{pk}_students.csv"'
         return response
+
+
+class TeacherOverrideProgressView(APIView):
+    permission_classes = [IsTeacher]
+
+    def post(self, request):
+        student_id = request.data.get("student_id")
+        lesson_id = request.data.get("lesson_id")
+        new_status = request.data.get("status")
+        new_score = request.data.get("score")
+        note = request.data.get("note", "")
+
+        if not all([student_id, lesson_id, new_status]):
+            return Response({"detail": "Missing required fields"}, status=400)
+
+        lp = TeacherService.override_lesson_progress(
+            teacher=request.user,
+            student_id=student_id,
+            lesson_id=lesson_id,
+            status=new_status,
+            score=new_score,
+            note=note,
+        )
+        return Response({
+            "status": "success",
+            "lesson_progress": {
+                "id": lp.id,
+                "status": lp.status,
+                "best_score": lp.best_score,
+            },
+        })
+
+
+class StuckPointsAnalyticsView(APIView):
+    permission_classes = [IsTeacher]
+
+    def get(self, request):
+        course_id = request.query_params.get("course_id")
+        threshold = int(request.query_params.get("threshold", 60))
+
+        if not course_id:
+            return Response({"detail": "course_id is required"}, status=400)
+
+        data = TeacherService.get_stuck_points(course_id, threshold)
+        return Response(list(data))
 
 
 # ─── Assignment views ──────────────────────────────────────────────────────

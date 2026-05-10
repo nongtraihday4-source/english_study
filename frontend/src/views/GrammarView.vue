@@ -2,7 +2,7 @@
   <div class="p-6 max-w-4xl mx-auto">
     <h1 class="text-2xl font-bold mb-1" style="color: var(--color-text-base)">Ngữ pháp</h1>
     <p class="text-sm mb-5" style="color: var(--color-text-muted)">Lộ trình ngữ pháp theo từng cấp độ CEFR</p>
-
+    
     <!-- Level tabs -->
     <div class="flex flex-wrap gap-2 mb-6">
       <button
@@ -17,13 +17,30 @@
 
     <!-- Enrollment notice -->
     <div v-if="isLoggedIn && unlockedLevels.size === 0 && !loading"
-         class="flex items-start gap-3 rounded-xl px-4 py-3 mb-5 text-sm"
-         style="background:rgba(99,102,241,0.1); border:1px solid rgba(99,102,241,0.25); color:#a5b4fc">
+        class="flex items-start gap-3 rounded-xl px-4 py-3 mb-5 text-sm"
+        style="background:rgba(99,102,241,0.1); border:1px solid rgba(99,102,241,0.25); color:#a5b4fc">
       <span class="flex-shrink-0 text-base">ℹ️</span>
       <span>
         Đăng ký khoá học để mở khoá các chủ điểm ngữ pháp.
         <RouterLink to="/courses" class="font-semibold underline ml-1" style="color:#818cf8">Xem khoá học →</RouterLink>
       </span>
+    </div>
+
+    <!-- 📅 SRS Widget (Đã đặt đúng vị trí global, ngoài vòng lặp) -->
+    <div v-if="reviews.length" class="mb-6 p-4 rounded-xl" style="background:rgba(99,102,241,0.08); border:1px solid rgba(99,102,241,0.2)">
+      <h3 class="text-sm font-bold mb-2" style="color:var(--color-text-base)">📅 Ôn tập hôm nay ({{ reviews.length }})</h3>
+      <ul class="space-y-1">
+        <li v-for="r in reviews" :key="r.rule_id" class="flex items-center justify-between text-xs">
+          <span style="color:var(--color-text-muted)">
+            <strong style="color:var(--color-text-base)">{{ r.rule_title }}</strong> ({{ r.topic_title }})
+          </span>
+          <RouterLink :to="{ name: 'grammar-detail', params: { slug: r.topic_slug }, hash: '#practice' }"
+                      class="px-2 py-1 rounded text-[10px] font-medium transition hover:opacity-80"
+                      style="background:#6366f1; color:white; text-decoration:none">
+            Ôn ngay →
+          </RouterLink>
+        </li>
+      </ul>
     </div>
 
     <!-- Loading skeleton -->
@@ -32,7 +49,7 @@
         <div class="h-8 w-48 rounded-lg animate-pulse" style="background-color: var(--color-surface-02)"></div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           <div v-for="j in 3" :key="j" class="h-28 rounded-xl animate-pulse"
-               style="background-color: var(--color-surface-02)"></div>
+              style="background-color: var(--color-surface-02)"></div>
         </div>
       </div>
     </div>
@@ -40,7 +57,6 @@
     <!-- Content: chapter-grouped learning path -->
     <div v-else-if="chapters.length">
       <template v-for="(section, si) in displaySections" :key="section.level">
-
         <!-- Level header (only in "All" mode) -->
         <div v-if="selectedLevel === 'All'" class="flex items-center gap-3 mt-8 mb-4 first:mt-0">
           <span class="text-sm font-bold px-2.5 py-1 rounded-lg"
@@ -66,7 +82,6 @@
                   style="background: var(--color-surface-04); color: var(--color-text-muted)">
               {{ chapter.topics.length }} chủ điểm
             </span>
-            <!-- Chapter progress -->
             <span v-if="chapter.completedCount > 0" class="ml-auto text-xs font-medium" style="color: #34d399">
               {{ chapter.completedCount }}/{{ chapter.topics.length }} ✓
             </span>
@@ -140,10 +155,10 @@
 
               <!-- Progress bar at bottom -->
               <div v-if="getQuizScore(topic.slug) !== null"
-                   class="mt-2 h-1 rounded-full overflow-hidden"
-                   style="background: var(--color-surface-04)">
+                class="mt-2 h-1 rounded-full overflow-hidden"
+                style="background: var(--color-surface-04)">
                 <div class="h-full rounded-full transition-all duration-500"
-                     :style="`width:${getQuizScore(topic.slug)}%; background:${getQuizScore(topic.slug) >= 80 ? '#34d399' : '#fbbf24'}`"></div>
+                  :style="`width:${getQuizScore(topic.slug)}%; background:${getQuizScore(topic.slug) >= 80 ? '#34d399' : '#fbbf24'}`"></div>
               </div>
             </component>
           </div>
@@ -330,10 +345,20 @@ function setLevel(lv) {
   fetchTopics()
 }
 
+const reviews = ref([])
+  async function fetchReviews() {
+    if (!isLoggedIn.value) return
+    try {
+      const res = await grammarApi.getTodayReviews()
+      reviews.value = res.data?.reviews ?? []
+    } catch { reviews.value = [] }
+  }
+
 onMounted(async () => {
   await dashboard.fetch()
   fetchTopics()
   fetchProgress()
+  fetchReviews()
 })
 </script>
 

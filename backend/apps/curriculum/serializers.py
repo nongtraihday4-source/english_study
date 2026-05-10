@@ -3,8 +3,9 @@ apps/curriculum/serializers.py
 """
 from rest_framework import serializers
 
-from utils.formatters import fmt_vn
+from utils.formatters import fmt_vn, fmt_vn_datetime
 from .models import CEFRLevel, Course, Chapter, Lesson, LessonContent, LessonExercise, UnlockRule
+from .schemas import LessonContentSchema
 
 
 class CEFRLevelSerializer(serializers.ModelSerializer):
@@ -46,39 +47,11 @@ class LessonSerializer(serializers.ModelSerializer):
         le = obj.exercises.first()
         return le.exercise_id if le else None
 
-    def get_progress_status(self, obj):
-        request = self.context.get("request")
-        if not request or not request.user.is_authenticated:
-            return "locked"
-        from apps.progress.models import LessonProgress
-        lp = LessonProgress.objects.filter(user=request.user, lesson=obj).first()
-        return lp.status if lp else "locked"
-
     def get_is_unlocked(self, obj):
-        request = self.context.get("request")
-        if not request or not request.user.is_authenticated:
-            return False
-        from apps.progress.models import LessonProgress
-        from django.db.models import Q
-        rules = list(obj.unlock_rules.values("required_lesson_id", "min_score"))
-        if not rules:
-            return True
-        # Build a single query checking all required lessons in one shot
-        passed_ids = set(
-            LessonProgress.objects.filter(
-                user=request.user,
-                lesson_id__in=[r["required_lesson_id"] for r in rules],
-            ).values_list("lesson_id", "best_score")
-        )
-        for rule in rules:
-            req_id = rule["required_lesson_id"]
-            min_sc = rule["min_score"]
-            if not any(
-                lid == req_id and (sc if sc is not None else 0) >= min_sc
-                for lid, sc in passed_ids
-            ):
-                return False
-        return True
+        return self.context.get("unlock_map", {}).get(obj.id, False)
+
+    def get_progress_status(self, obj):
+        return self.context.get("progress_map", {}).get(obj.id, "locked")
 
 
 class ChapterSerializer(serializers.ModelSerializer):
@@ -181,12 +154,15 @@ class LessonContentSerializer(serializers.ModelSerializer):
     estimated_minutes = serializers.IntegerField(source="lesson.estimated_minutes", read_only=True)
     chapter_title = serializers.CharField(source="lesson.chapter.title", read_only=True)
     progress_status = serializers.SerializerMethodField()
+    created_at_vn = serializers.SerializerMethodField()
+    updated_at_vn = serializers.SerializerMethodField()
 
     class Meta:
         model = LessonContent
         fields = [
             "id", "lesson_id", "lesson_title", "lesson_type", "estimated_minutes",
             "chapter_title", "progress_status",
+            "learning_objectives",
             "reading_passage", "reading_image_url", "reading_questions",
             "vocab_items", "vocab_word_ids",
             # New structured fields (preferred by frontend)
@@ -197,6 +173,7 @@ class LessonContentSerializer(serializers.ModelSerializer):
             "grammar_topic_id", "grammar_title", "grammar_note", "grammar_examples",
             "exercises",
             "srs_review_count", "completion_xp", "bonus_xp",
+            "created_at_vn", "updated_at_vn",
         ]
 
     def get_progress_status(self, obj):
@@ -206,3 +183,20 @@ class LessonContentSerializer(serializers.ModelSerializer):
         from apps.progress.models import LessonProgress
         lp = LessonProgress.objects.filter(user=request.user, lesson=obj.lesson).first()
         return lp.status if lp else "locked"
+
+    def get_created_at_vn(self, obj):
+        return fmt_vn_datetime(obj.created_at)
+
+    def get_updated_at_vn(self, obj):
+        return fmt_vn_datetime(obj.updated_at)
+
+    def validate(self, attrs):
+        allowed_fields = set(self.fields.keys())
+        extra_fields = set(self.initial_data.keys()) - allowed_fields
+        if extra_fields:
+            raise serializers.ValidationError({"json_schema": f"Extra fields forbidden: {extra_fields}"})
+        try:
+            LessonContentSchema.model_validate(attrs)
+        except Exception as e:
+            raise serializers.ValidationError({"json_schema": str(e)})
+        return attrs

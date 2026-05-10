@@ -12,6 +12,8 @@ from .views import (
     TeacherAssignmentListView,
     TeacherAssignmentDetailView,
     TeacherAssignmentSubmissionsView,
+    TeacherOverrideProgressView,
+    StuckPointsAnalyticsView,
 )
 
 urlpatterns = [
@@ -25,4 +27,6 @@ urlpatterns = [
     path("assignments/",                        TeacherAssignmentListView.as_view(),         name="teacher-assignment-list"),
     path("assignments/<int:pk>/",               TeacherAssignmentDetailView.as_view(),       name="teacher-assignment-detail"),
     path("assignments/<int:pk>/submissions/",   TeacherAssignmentSubmissionsView.as_view(),  name="teacher-assignment-submissions"),
+    path("override-progress/",                    TeacherOverrideProgressView.as_view(), name="teacher-override"),
+    path("analytics/stuck-points/",               StuckPointsAnalyticsView.as_view(), name="teacher-stuck-points"),
 ]

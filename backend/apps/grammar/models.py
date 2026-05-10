@@ -255,7 +255,11 @@ class GrammarExample(models.Model):
         default=True,
         help_text="True = câu đúng (✓), False = câu sai (✗) dùng để minh họa lỗi.",
     )
-
+    DIFFICULTY_CHOICES = [(1, "Easy"), (2, "Medium"), (3, "Hard")]
+    difficulty = models.PositiveIntegerField(
+        default=2, choices=DIFFICULTY_CHOICES, db_index=True,
+        help_text="Độ khó câu ví dụ (1=Dễ, 2=Trung bình, 3=Khó). Auto-generate heuristic, admin override được."
+    )
     class Meta:
         db_table = "grammar_example"
         verbose_name = "Ví dụ Ngữ pháp"
@@ -289,3 +293,109 @@ class GrammarQuizResult(models.Model):
 
     def __str__(self):
         return f"{self.user} — {self.topic.title}: {self.score}%"
+
+# ──────────────────────────────────────────────────────────────────────────────
+# PHASE 1.1: Granular Quiz Tracking, SRS & Error Patterns
+# ──────────────────────────────────────────────────────────────────────────────
+
+class GrammarQuizAttempt(models.Model):
+    """Mỗi lần làm quiz tạo 1 attempt. Không ghi đè lịch sử cũ."""
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="grammar_quiz_attempts")
+    topic = models.ForeignKey(GrammarTopic, on_delete=models.CASCADE, related_name="quiz_attempts")
+    started_at = models.DateTimeField(auto_now_add=True)
+    completed_at = models.DateTimeField(null=True, blank=True)
+    score = models.FloatField(default=0, help_text="Điểm % (0-100)")
+
+    class Meta:
+        db_table = "grammar_quiz_attempt"
+        indexes = [models.Index(fields=["user", "topic", "-started_at"])]
+        verbose_name = "Lần làm Quiz Ngữ pháp"
+
+    def __str__(self):
+        return f"{self.user} | {self.topic.slug} | {self.score}% | {self.started_at:%Y-%m-%d %H:%M}"
+
+
+class GrammarQuizAnswer(models.Model):
+    """Lưu đáp án từng câu, gắn với Rule để SRS & Error Tracking chính xác."""
+    attempt = models.ForeignKey(GrammarQuizAttempt, on_delete=models.CASCADE, related_name="answers")
+    rule = models.ForeignKey(GrammarRule, on_delete=models.CASCADE, null=True, blank=True, related_name="quiz_answers")
+    question_source_id = models.PositiveIntegerField(help_text="ID của GrammarExample hoặc Question")
+    selected_option = models.CharField(max_length=255)
+    is_correct = models.BooleanField()
+
+    class Meta:
+        db_table = "grammar_quiz_answer"
+        indexes = [models.Index(fields=["attempt", "rule", "is_correct"])]
+        verbose_name = "Đáp án Quiz Ngữ pháp"
+
+    def __str__(self):
+        return f"Q{self.question_source_id} | {'✓' if self.is_correct else '✗'}"
+
+
+class GrammarReviewSchedule(models.Model):
+    """SRS theo cấp độ Rule (không phải Topic). Áp dụng SM-2 biến thể."""
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="grammar_reviews")
+    rule = models.ForeignKey(GrammarRule, on_delete=models.CASCADE, related_name="review_schedules")
+    next_review = models.DateField(db_index=True, help_text="Ngày cần ôn tiếp theo")
+    interval_days = models.PositiveIntegerField(default=1)
+    ease_factor = models.FloatField(default=2.5, help_text="Hệ số dễ (SM-2)")
+
+    class Meta:
+        db_table = "grammar_review_schedule"
+        unique_together = ("user", "rule")
+        verbose_name = "Lịch ôn Ngữ pháp (SRS)"
+
+    def __str__(self):
+        return f"{self.user} | {self.rule.title} | Next: {self.next_review}"
+
+
+class ErrorPattern(models.Model):
+    """Track lỗi sai lặp lại theo Rule để trigger Remedial Path."""
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="grammar_errors")
+    rule = models.ForeignKey(GrammarRule, on_delete=models.CASCADE, related_name="error_patterns")
+    error_type = models.CharField(max_length=50, default="general", help_text="VD: chia_động_từ, sai_giới_từ, nhầm_thì")
+    count = models.PositiveIntegerField(default=1)
+    last_seen = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = "grammar_error_pattern"
+        unique_together = ("user", "rule", "error_type")
+        verbose_name = "Mẫu lỗi Ngữ pháp"
+
+    def __str__(self):
+        return f"{self.user} | {self.rule.title} | {self.error_type} (x{self.count})"
+
+class GrammarQuizQuestion(models.Model):
+    """Lưu câu hỏi quiz để admin duyệt/chỉnh sửa. Ưu tiên is_verified=True."""
+    topic = models.ForeignKey(GrammarTopic, on_delete=models.CASCADE, related_name="quiz_questions")
+    rule = models.ForeignKey(GrammarRule, on_delete=models.SET_NULL, null=True, blank=True)
+    source_example = models.ForeignKey(GrammarExample, on_delete=models.SET_NULL, null=True, blank=True)
+    
+    type = models.CharField(max_length=20, choices=[("gap-fill", "Gap Fill"), ("mc", "Multiple Choice"), ("error", "Error Correction")])
+    prompt = models.TextField()
+    options = models.JSONField(help_text="Danh sách đáp án (list of strings)")
+    correct_index = models.PositiveIntegerField()
+    explanation = models.TextField(blank=True)
+    
+    is_auto_generated = models.BooleanField(default=True)
+    is_verified = models.BooleanField(default=False, db_index=True, help_text="Đã được admin kiểm định chất lượng")
+    needs_review = models.BooleanField(default=True, db_index=True, help_text="Cần admin duyệt lại (nhiễu vô nghĩa, sai ngữ cảnh)")
+    
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    DIFFICULTY_CHOICES = [(1, "Easy"), (2, "Medium"), (3, "Hard")]
+    difficulty = models.PositiveIntegerField(
+        default=2, choices=DIFFICULTY_CHOICES, db_index=True,
+        help_text="Độ khó câu hỏi. Kế thừa từ source_example hoặc admin chỉnh."
+    )
+    class Meta:
+        db_table = "grammar_quiz_question"
+        unique_together = ("topic", "source_example", "type")
+        indexes = [
+            models.Index(fields=["topic", "is_verified", "needs_review"]),
+        ]
+        verbose_name = "Câu hỏi Quiz Ngữ pháp"
+        verbose_name_plural = "Quản lý Câu hỏi Quiz"
+
+    def __str__(self):
+        return f"[{self.type}] {self.prompt[:50]}... ({'✓' if self.is_verified else '⏳'})"

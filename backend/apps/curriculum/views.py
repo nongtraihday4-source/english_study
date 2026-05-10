@@ -2,6 +2,10 @@
 apps/curriculum/views.py
 Course & Lesson Management APIs (admin CRUD + student read-only).
 """
+
+from .services.unlock_service import UnlockService
+from .services.progress_service import ProgressService
+
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import filters, generics, permissions, viewsets
 
@@ -68,9 +72,17 @@ class LessonListView(generics.ListCreateAPIView):
             is_active=True,
         ).prefetch_related("unlock_rules").order_by("order")
 
-    def perform_create(self, serializer):
-        serializer.save(chapter_id=self.kwargs["chapter_pk"])
-
+    def get_serializer_context(self):
+        context = super().get_serializer_context()
+        # Đánh giá queryset một lần để truyền vào service
+        queryset = list(self.get_queryset())
+        user = self.request.user
+        
+        # Batch resolve một lần duy nhất
+        context["unlock_map"] = UnlockService.batch_check_unlocked(user, queryset)
+        context["progress_map"] = ProgressService.batch_get_status(user, queryset)
+        return context
+    
 
 class LessonDetailView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = LessonSerializer

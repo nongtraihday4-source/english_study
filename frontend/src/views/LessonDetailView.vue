@@ -38,6 +38,16 @@
           </span>
         </div>
         <h1 class="text-lg font-bold" style="color:var(--color-text-base)">{{ lesson.title }}</h1>
+
+        <!-- 🎯 Learning Objectives -->
+        <div v-if="content?.learning_objectives?.length" class="mt-3 mb-1 px-3 py-2 rounded-xl"
+             style="background:rgba(99,102,241,0.08);border:1px solid rgba(99,102,241,0.2)">
+          <p class="text-xs font-semibold mb-1.5" style="color:#818cf8">🎯 Mục tiêu bài học</p>
+          <ul class="list-disc list-inside space-y-0.5 text-xs" style="color:var(--color-text-base)">
+            <li v-for="(obj, i) in content.learning_objectives" :key="i">{{ obj }}</li>
+          </ul>
+        </div>
+
         <p v-if="content?.chapter_title || lesson.chapter_title" class="text-xs mt-1" style="color:var(--color-text-muted)">
           📂 {{ content?.chapter_title || lesson.chapter_title }}
         </p>
@@ -326,6 +336,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { curriculumApi } from '@/api/curriculum.js'
 import { progressApi } from '@/api/progress.js'
 import { writeCourseRefreshMarker } from '@/utils/courseProgressRefresh.js'
+import { useLessonStore } from '@/stores/lesson.js'
 import ReadingSection from '@/components/lesson/ReadingSection.vue'
 import GrammarSection from '@/components/lesson/GrammarSection.vue'
 import ListeningSection from '@/components/lesson/ListeningSection.vue'
@@ -334,6 +345,7 @@ import WritingSection from '@/components/lesson/WritingSection.vue'
 
 const route = useRoute()
 const router = useRouter()
+const lessonStore = useLessonStore()
 
 // ── State ─────────────────────────────────────────────────────────────────────
 const lesson         = ref(null)
@@ -478,17 +490,14 @@ onMounted(async () => {
 async function complete() {
   completing.value = true
   try {
-    const payload = {
-      time_spent_seconds: 120,
-      score: totalExercises.value > 0 ? autoScore.value : undefined,
-    }
+    const payload = lessonStore.getPayload()
     const res = await progressApi.markLessonComplete(route.params.id, payload)
     const data = res.data?.data ?? res.data
     progress.status = 'completed'
     if (data?.best_score !== undefined && data?.best_score !== null) progress.best_score = data.best_score
     progress.attempts_count = data?.attempts_count ?? progress.attempts_count
-    completionMeta.attempt_score = data?.attempt_score ?? payload.score ?? null
-    completionMeta.score         = data?.score ?? data?.attempt_score ?? payload.score ?? null
+    completionMeta.attempt_score = data?.attempt_score ?? null
+    completionMeta.score         = data?.score ?? data?.attempt_score ?? null
     completionMeta.xp_gained     = data?.xp_gained ?? 0
     completionMeta.next_lesson_id    = data?.next_lesson_id ?? null
     completionMeta.next_lesson_title = data?.next_lesson_title ?? ''
@@ -504,7 +513,7 @@ async function complete() {
       chapter_title:    data?.chapter_title,
       chapter_avg_score: data?.chapter_avg_score,
     })
-    if ((data?.attempt_score ?? payload.score ?? 0) >= 100 && totalExercises.value > 0)
+    if ((data?.attempt_score ?? 0) >= 100 && totalExercises.value > 0)
       showPerfectToast(data?.xp_gained ?? completionXp.value)
     if (data?.chapter_completed && !data?.course_completed)
       showChapterToast(data?.chapter_title, data?.chapter_avg_score)
@@ -514,6 +523,7 @@ async function complete() {
   } finally {
     completing.value = false
     autoCompleting.value = false
+    lessonStore.reset()
   }
 }
 

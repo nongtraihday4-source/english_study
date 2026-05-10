@@ -63,6 +63,12 @@ export const grammarApi = {
   getProgress: () =>
     api.get('/grammar/progress/'),
 
+  getTodayReviews: () => 
+    api.get('/grammar/reviews/today/'),
+
+  getQuizQuestions: (slug) =>
+    api.get(`/grammar/${slug}/quiz/questions/`), 
+  
   submitQuiz: (slug, data) =>
     api.post(`/grammar/${slug}/quiz/`, data),
 

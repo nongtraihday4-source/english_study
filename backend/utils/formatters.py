@@ -1,7 +1,25 @@
 """
-VN Number Formatting Utilities
+VN Number & DateTime Formatting Utilities
 Định dạng số kiểu Việt Nam: 1.234.567 (dấu chấm ngàn, dấu phẩy thập phân)
+Định dạng datetime: dd/MM/yyyy HH:mm (Asia/Ho_Chi_Minh)
 """
+from django.utils import timezone as dj_timezone
+import pytz
+
+ICT = pytz.timezone("Asia/Ho_Chi_Minh")
+
+
+def fmt_vn_datetime(dt) -> str:
+    """
+    Format datetime to vi-VN standard: dd/MM/yyyy HH:mm (Asia/Ho_Chi_Minh).
+    Safe for API responses. Handles naive, aware, None.
+    """
+    if not dt:
+        return ""
+    if dj_timezone.is_naive(dt):
+        dt = dj_timezone.make_aware(dt, dj_timezone.get_current_timezone())
+    ict_dt = dt.astimezone(ICT)
+    return ict_dt.strftime("%d/%m/%Y %H:%M")
 
 
 def fmt_vn(number) -> str:

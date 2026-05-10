@@ -100,3 +100,23 @@ class GrammarQuizSubmitSerializer(serializers.Serializer):
     score = serializers.FloatField(min_value=0, max_value=100)
     total_questions = serializers.IntegerField(min_value=1)
     correct_answers = serializers.IntegerField(min_value=0)
+
+class GrammarQuizQuestionSerializer(serializers.Serializer):
+    """Read-only serializer for pre-generated quiz questions."""
+    type = serializers.CharField()
+    source_id = serializers.IntegerField()
+    rule_id = serializers.IntegerField(allow_null=True)
+    prompt = serializers.CharField()
+    options = serializers.ListField(child=serializers.CharField())
+    correct_index = serializers.IntegerField()
+    explanation = serializers.CharField(allow_blank=True)
+
+class GrammarQuizAnswerInputSerializer(serializers.Serializer):
+    """Payload cho từng câu trả lời user gửi lên."""
+    question_source_id = serializers.IntegerField()
+    selected_option = serializers.CharField(max_length=255)
+
+class GrammarQuizSubmitInputSerializer(serializers.Serializer):
+    """Payload tổng cho POST /quiz/submit/"""
+    answers = GrammarQuizAnswerInputSerializer(many=True)
+    idempotency_key = serializers.CharField(required=False, allow_blank=True)
