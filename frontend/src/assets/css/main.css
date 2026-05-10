@@ -2,71 +2,201 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ── Light theme (default — landing page + user preference) ─── */
+/* ═══════════════════════════════════════════════════════════════
+   LIGHT THEME (Default) — Modern, Harmonious & Accessible
+   Color Theory: Complementary (Orange + Navy Blue)
+   Brand Identity: Energetic Orange (#F47C26)
+   ═══════════════════════════════════════════════════════════════ */
 :root,
 [data-theme="light"] {
-  --color-primary-50:  #fff7ed;
-  --color-primary-100: #ffedd5;
-  --color-primary-200: #fed7aa;
-  --color-primary-300: #fdba74;
-  --color-primary-400: #fb923c;
-  --color-primary-500: #F47C26;   /* Cam Bí Ngô — brand primary */
-  --color-primary-600: #D35400;   /* Cam đậm hover */
-  --color-primary-700: #b34500;
-  --color-primary-800: #92400e;
-  --color-primary-900: #7c2d12;
+  /* ── PRIMARY: Brand Orange (Energetic Pumpkin) ─────────────── */
+  --color-primary-50:  #FFF7ED;      /* Ultra light orange for backgrounds */
+  --color-primary-100: #FFEDD5;      /* Light accent backgrounds */
+  --color-primary-200: #FED7AA;      /* Subtle highlights */
+  --color-primary-300: #FDBA74;      /* Soft interactive states */
+  --color-primary-400: #FB923C;      /* Hover states */
+  --color-primary-500: #F47C26;      /* Brand primary — Pumpkin Orange */
+  --color-primary-600: #D35400;      /* Active/Darker hover */
+  --color-primary-700: #B34500;      /* Deep accent */
+  --color-primary-800: #92400E;      /* Rich depth */
+  --color-primary-900: #7C2D12;      /* Darkest orange for contrast */
 
-  --color-secondary:   #183B56;   /* Xanh Than Đại Dương */
-  --color-accent-400:  #fb923c;
-  --color-accent-500:  #F47C26;
+  /* ── SECONDARY: Navy Blue (Ocean Depth) ────────────────────── */
+  /* Complementary to orange — creates visual harmony */
+  --color-secondary-50:  #F0F4F8;    /* Light blue-gray background */
+  --color-secondary-100: #D9E2EC;    /* Subtle borders */
+  --color-secondary-200: #BCCCDC;    /* Muted elements */
+  --color-secondary-300: #9FB3C8;    /* Secondary text */
+  --color-secondary-400: #829AB1;    /* Icons */
+  --color-secondary-500: #627D98;    /* Medium emphasis */
+  --color-secondary-600: #486581;    /* Strong emphasis */
+  --color-secondary-700: #334E68;    /* Headings */
+  --color-secondary-800: #243B53;    /* Near-black alternative */
+  --color-secondary-900: #183B56;    /* Brand secondary — Deep Ocean */
 
-  --color-surface:     #F9FAFC;   /* Trắng Ánh Xanh — page bg */
-  --color-surface-02:  #FFFFFF;   /* Cards / modals */
-  --color-surface-03:  #F0F2F5;   /* Input backgrounds */
-  --color-surface-04:  #E0E6ED;   /* Borders */
+  /* ── NEUTRAL SURFACES: Clean & Modern ──────────────────────── */
+  --color-surface:      #FFFFFF;     /* Main page background — Pure White */
+  --color-surface-02:   #F8FAFC;     /* Cards, elevated surfaces */
+  --color-surface-03:   #F1F5F9;     /* Input fields, secondary areas */
+  --color-surface-04:   #E2E8F0;     /* Borders, dividers */
+  --color-surface-hover:#EDF2F7;     /* Hover states on surfaces */
 
-  --color-text-base:   #2C3E50;   /* Xám Than Chì */
-  --color-text-muted:  #57606F;   /* Xám Trung Tính */
-  --color-text-soft:   #8896A6;
+  /* ── TEXT COLORS: Optimized for Readability (WCAG AAA) ─────── */
+  --color-text-base:    #1E293B;     /* Primary text — Slate 800 */
+  --color-text-muted:   #475569;     /* Secondary text — Slate 600 */
+  --color-text-soft:    #94A3B8;     /* Tertiary text — Slate 400 */
+  --color-text-inverse: #FFFFFF;     /* Text on dark backgrounds */
 
-  --color-success:     #2ECC71;
-  --color-error:       #E74C3C;
+  /* ── LEGACY ALIASES (for backward compatibility) ───────────── */
+  --color-bg:           var(--color-surface);
+  --color-border:       var(--color-surface-04);
+  --color-text-primary: var(--color-text-base);
+  --color-text-secondary: var(--color-text-muted);
 
-  --font-heading: 'Montserrat', sans-serif;
+  /* ── ACCENT COLORS: Functional & Semantic ──────────────────── */
+  --color-accent-400:  #FB923C;      /* Light orange accent */
+  --color-accent-500:  #F47C26;      /* Primary accent */
+
+  --color-success-light: #D1FAE5;    /* Success background */
+  --color-success:       #10B981;    /* Success foreground */
+  --color-success-dark:  #059669;    /* Success hover */
+
+  --color-warning-light: #FEF3C7;    /* Warning background */
+  --color-warning:       #F59E0B;    /* Warning foreground */
+  --color-warning-dark:  #D97706;    /* Warning hover */
+
+  --color-error-light:   #FEE2E2;    /* Error background */
+  --color-error:         #EF4444;    /* Error foreground */
+  --color-error-dark:    #DC2626;    /* Error hover */
+
+  --color-info-light:    #DBEAFE;    /* Info background */
+  --color-info:          #3B82F6;    /* Info foreground */
+  --color-info-dark:     #2563EB;    /* Info hover */
+
+  /* ── SHADOWS: Consistent Elevation System ──────────────────── */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 12px 24px rgba(0, 0, 0, 0.12);
+  --shadow-brand: 0 8px 24px rgba(244, 124, 38, 0.25);
+  --shadow-brand-hover: 0 12px 32px rgba(244, 124, 38, 0.35);
+
+  /* ── FONTS: Typography Hierarchy ───────────────────────────── */
+  --font-heading: 'Montserrat', 'Inter', sans-serif;
   --font-body:    'Open Sans', 'Inter', 'Be Vietnam Pro', sans-serif;
+
+  /* ── BORDERS: Consistent Radius & Widths ───────────────────── */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  --border-width: 1px;
+  --border-color: var(--color-surface-04);
+
+  /* ── TRANSITIONS: Smooth & Delightful ──────────────────────── */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ── Dark theme ─────────────────────────────────────────────── */
+/* ═══════════════════════════════════════════════════════════════
+   DARK THEME — Refined, Soothing & High Contrast
+   Mirrors the light theme structure with inverted values
+   ═══════════════════════════════════════════════════════════════ */
 [data-theme="dark"] {
-  --color-primary-50:  #eef2ff;
-  --color-primary-100: #e0e7ff;
-  --color-primary-200: #c7d2fe;
-  --color-primary-300: #a5b4fc;
-  --color-primary-400: #818cf8;
-  --color-primary-500: #6366f1;
-  --color-primary-600: #4f46e5;
-  --color-primary-700: #4338ca;
-  --color-primary-800: #3730a3;
-  --color-primary-900: #312e81;
+  /* ── PRIMARY: Purple/Blue (Modern Tech Feel) ───────────────── */
+  --color-primary-50:  #EEF2FF;
+  --color-primary-100: #E0E7FF;
+  --color-primary-200: #C7D2FE;
+  --color-primary-300: #A5B4FC;
+  --color-primary-400: #818CF8;
+  --color-primary-500: #6366F1;    /* Indigo brand for dark mode */
+  --color-primary-600: #4F46E5;
+  --color-primary-700: #4338CA;
+  --color-primary-800: #3730A3;
+  --color-primary-900: #312E81;
 
-  --color-secondary:   #6366f1;
-  --color-accent-400:  #fb923c;
-  --color-accent-500:  #f97316;
+  /* ── SECONDARY: Cyan/Teal Accent ───────────────────────────── */
+  --color-secondary-50:  #ECFEFF;
+  --color-secondary-100: #CFFAFE;
+  --color-secondary-200: #A5F3FC;
+  --color-secondary-300: #67E8F9;
+  --color-secondary-400: #22D3EE;
+  --color-secondary-500: #14B8A6;
+  --color-secondary-600: #0D9488;
+  --color-secondary-700: #0F766E;
+  --color-secondary-800: #115E59;
+  --color-secondary-900: #134E4A;
 
-  --color-surface:     #0f0f1a;
-  --color-surface-02:  #16162a;
-  --color-surface-03:  #1e1e35;
-  --color-surface-04:  #252540;
+  /* ── NEUTRAL SURFACES: Deep & Layered ──────────────────────── */
+  --color-surface:      #0F0F1A;    /* Deep navy-black base */
+  --color-surface-02:   #16162A;    /* Elevated cards */
+  --color-surface-03:   #1E1E35;    /* Inputs, secondary areas */
+  --color-surface-04:   #252540;    /* Borders, dividers */
+  --color-surface-hover:#2A2A4A;    /* Hover states */
 
-  --color-text-base:   #e2e8f0;
-  --color-text-muted:  #94a3b8;
-  --color-text-soft:   #64748b;
+  /* ── TEXT COLORS: High Contrast for Dark BG ────────────────── */
+  --color-text-base:    #E2E8F0;    /* Primary text — Light gray */
+  --color-text-muted:   #94A3B8;    /* Secondary text */
+  --color-text-soft:    #64748B;    /* Tertiary text */
+  --color-text-inverse: #0F172A;    /* Text on light backgrounds */
 
-  --color-success:     #2ECC71;
-  --color-error:       #E74C3C;
+  /* ── LEGACY ALIASES ────────────────────────────────────────── */
+  --color-bg:           var(--color-surface);
+  --color-border:       var(--color-surface-04);
+  --color-text-primary: var(--color-text-base);
+  --color-text-secondary: var(--color-text-muted);
 
-  --font-heading: 'Montserrat', sans-serif;
+  /* ── ACCENT COLORS ─────────────────────────────────────────── */
+  --color-accent-400:  #FB923C;
+  --color-accent-500:  #F97316;
+
+  --color-success-light: #064E3B;
+  --color-success:       #10B981;
+  --color-success-dark:  #34D399;
+
+  --color-warning-light: #451A03;
+  --color-warning:       #F59E0B;
+  --color-warning-dark:  #FBBF24;
+
+  --color-error-light:   #450A0A;
+  --color-error:         #EF4444;
+  --color-error-dark:    #F87171;
+
+  --color-info-light:    #1E3A5F;
+  --color-info:          #3B82F6;
+  --color-info-dark:     #60A5FA;
+
+  /* ── SHADOWS: Subtle Glow Effect ───────────────────────────── */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.6);
+  --shadow-xl: 0 12px 24px rgba(0, 0, 0, 0.7);
+  --shadow-brand: 0 8px 24px rgba(99, 102, 241, 0.3);
+  --shadow-brand-hover: 0 12px 32px rgba(99, 102, 241, 0.4);
+
+  /* ── FONTS ─────────────────────────────────────────────────── */
+  --font-heading: 'Montserrat', 'Inter', sans-serif;
   --font-body:    'Inter', 'Be Vietnam Pro', sans-serif;
+
+  /* ── BORDERS ───────────────────────────────────────────────── */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  --border-width: 1px;
+  --border-color: var(--color-surface-04);
+
+  /* ── TRANSITIONS ───────────────────────────────────────────── */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -80,21 +210,32 @@ body {
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: var(--color-surface-02); }
 ::-webkit-scrollbar-thumb { background: var(--color-surface-04); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: var(--color-primary-700); }
+::-webkit-scrollbar-thumb:hover { background: var(--color-primary-500); }
 
 /* Smooth transitions */
 * { transition-property: color, background-color, border-color, box-shadow;
     transition-duration: 150ms; }
 
-/* ── Shared utility components ───────────────────────────── */
+/* ═══════════════════════════════════════════════════════════════
+   SHARED UTILITY COMPONENTS
+   ═══════════════════════════════════════════════════════════════ */
 @layer components {
   .btn-primary {
     @apply font-medium rounded-lg transition-opacity;
     background-color: var(--color-primary-500);
     color: #fff;
+    box-shadow: var(--shadow-sm);
   }
-  .btn-primary:hover { opacity: 0.88; }
-  .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+  .btn-primary:hover {
+    opacity: 0.9;
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+  }
+  .btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
 
   .input-base {
     @apply rounded-lg px-3 py-2 text-sm outline-none focus:ring-2;
@@ -103,11 +244,50 @@ body {
     border: 1px solid var(--color-surface-04);
     ring-color: var(--color-primary-500);
   }
+  
+  .input-base:focus {
+    border-color: var(--color-primary-500);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+  }
 
   .input-sm {
     @apply rounded-lg px-3 py-2 text-sm outline-none;
     background-color: var(--color-surface-03);
     color: var(--color-text-base);
     border: 1px solid var(--color-surface-04);
+  }
+
+  /* Card component */
+  .card {
+    @apply rounded-xl p-6;
+    background-color: var(--color-surface-02);
+    border: 1px solid var(--color-surface-04);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-base);
+  }
+  .card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-primary-300);
+  }
+
+  /* Badge component */
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  .badge-primary {
+    background-color: var(--color-primary-100);
+    color: var(--color-primary-800);
+  }
+  .badge-success {
+    background-color: var(--color-success-light);
+    color: var(--color-success);
+  }
+  .badge-warning {
+    background-color: var(--color-warning-light);
+    color: var(--color-warning);
+  }
+  .badge-error {
+    background-color: var(--color-error-light);
+    color: var(--color-error);
   }
 }
